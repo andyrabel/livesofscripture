@@ -99,6 +99,17 @@ header.site-header h1 a {
   text-decoration: none;
 }
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-mark {
+  display: block;
+  flex-shrink: 0;
+}
+
 header.site-header nav a {
   margin-left: 1rem;
   text-decoration: none;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 96" role="img" aria-label="Lives of Scripture">
+  <g transform="translate(8,14)" stroke="#d8b978">
+    <path d="M32 16 C 27 12, 15 11, 9 14 L 9 47 C 15 44, 27 45, 32 49 C 37 45, 49 44, 55 47 L 55 14 C 49 11, 37 12, 32 16 Z"
+          fill="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M32 16 L 32 49" fill="none" stroke-width="3" stroke-linecap="round"/>
+    <path d="M14 21 L 26 21 M14 27 L 26 27 M14 33 L 23 33 M14 39 L 21 39"
+          fill="none" stroke-width="2" stroke-linecap="round"/>
+    <path d="M38 21 L 50 21 M38 27 L 50 27 M41 33 L 50 33 M43 39 L 50 39"
+          fill="none" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="92" y="60" font-family="Georgia, 'Iowan Old Style', 'Palatino Linotype', serif"
+        font-size="40" fill="#ede6d8">Lives of Scripture</text>
+</svg>
