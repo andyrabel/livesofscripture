@@ -2,20 +2,40 @@
   "person_id": "boaz",
   "name": "Boaz",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": ["Bethlehem"],
   "references": [
     "Ruth 2-4",
     "Matthew 1:5"
   ],
+  "topics": ["kinsman-redeemer", "generosity", "inclusion of outsiders"],
+  "interpretive_dispute": true,
+  "interpretive_note": "Matthew 1:5 names Boaz's mother as Rahab, traditionally identified with Rahab of Jericho (Joshua 2; Joshua 6:22-25). Some scholars find the implied chronology tight, given the centuries the book of Judges otherwise describes between the conquest and the events of Ruth, and read Matthew's genealogy as compressed or selective — common practice in ancient genealogies — rather than a strict unbroken father-to-son chain. Scripture does not clarify the gap, and this site notes rather than resolves the tension.",
+  "source_summary": "A wealthy and godly landowner in Bethlehem, relative of Naomi's late husband, who showed exceptional kindness to the Moabite widow Ruth gleaning in his fields and formally redeemed her as kinsman, marrying her and becoming great-grandfather to King David.",
+  "family_friendly_summary": "Boaz was kind and generous to Ruth, and God used his kindness to bless her whole family.",
+  "adult_story": "Boaz first appears in the text greeting his own harvesters with 'The LORD be with you' — his character established before anything else is said of him (Ruth 2:4). Noticing Ruth gleaning among the sheaves, he learns she is the Moabite widow who returned with Naomi, and responds with a generosity that goes well beyond what the gleaning laws of Leviticus 19:9-10 and Deuteronomy 24:19 required: he tells his workers to let extra grain fall deliberately for her, invites her to eat with his harvesters, and instructs the men not to touch or humiliate her (Ruth 2:8-16). When Naomi later sends Ruth to the threshing floor at night to lie at his feet and ask him, in the coded language of the custom, to 'spread your covering over your maidservant, for you are a close relative,' Boaz responds with restraint rather than taking advantage of the situation — he blesses her for not pursuing a younger man, but discloses that a nearer kinsman has the first legal right of redemption, and resolves to settle the matter properly in daylight rather than act on impulse in the dark (Ruth 3:6-13). At the city gate, Boaz assembles ten elders as legal witnesses and formally offers the unnamed nearer relative the right to redeem Elimelech's land — and, with it, the obligation to marry Ruth and preserve her dead husband's name. The kinsman declines rather than risk his own estate, and confirms the transfer by removing his sandal, the customary legal sign of the transaction (Ruth 4:1-8). Boaz then redeems the land and takes Ruth as his wife before all the witnesses, and the community blesses the marriage by invoking Rachel, Leah, Tamar, and Perez — Israel's own founding-mother stories, placing a Moabite widow's marriage inside that same lineage of God's providence working through unlikely women (Ruth 4:9-12). Their son Obed becomes grandfather to Jesse and great-grandfather to David, and Matthew's genealogy of Jesus names Boaz explicitly in Christ's ancestral line (Ruth 4:13-22; Matthew 1:5).",
+  "family_story": "Matthew's genealogy identifies Boaz's mother as Rahab (Matthew 1:5), traditionally understood as the Canaanite woman of Jericho who hid Israel's spies and was spared when the city fell (Joshua 2; Joshua 6:22-25) — meaning Boaz himself, by this reading, was the son of a former Canaanite outsider before he ever became the one who welcomed Ruth the Moabite into Israel. He married Ruth and fathered Obed, becoming, through Obed and Jesse, a direct ancestor of David and of Jesus — a lineage in which his own mother and his own wife are both named as women who entered Israel's covenant community from outside it (Matthew 1:5).",
+  "image": {
+    "file": "boaz.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding out a sandal — evoking Ruth 4:7-8, the customary sign of the redemption transaction at the city gate.",
+    "prompt_image_source": null,
+    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [
-      "ruth"
-    ],
-    "children": [
-      "obed"
-    ]
+    "spouses": ["ruth"],
+    "children": ["obed"]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

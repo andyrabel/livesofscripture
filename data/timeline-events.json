@@ -1,0 +1,110 @@
+{
+  "_note": "A small curated set of well-documented, independently-dated historical events for context on the timeline page — not an exhaustive historical record, and deliberately not including events (like the Exodus itself) whose date is a live scholarly dispute. Years use astronomical-style signed integers (negative = BC).",
+  "events": [
+    {
+      "year": -1792,
+      "date": "c. 1792 BC",
+      "label": "Hammurabi becomes king of Babylon",
+      "description": "The Babylonian king best known for his law code takes the throne — one of the best-documented rulers of the Mesopotamian world Abraham's family came from.",
+      "category": "political"
+    },
+    {
+      "year": -1550,
+      "date": "c. 1550 BC",
+      "label": "Egypt's New Kingdom begins",
+      "description": "The Eighteenth Dynasty opens Egypt's most powerful era, the backdrop against which the Exodus narrative is set regardless of which proposed date for it is used.",
+      "category": "political"
+    },
+    {
+      "year": -1200,
+      "date": "c. 1200 BC",
+      "label": "Late Bronze Age collapse",
+      "description": "Widespread upheaval across the Eastern Mediterranean and Near East, including the 'Sea Peoples' invasions, reshapes Canaan's political landscape around the time of the judges.",
+      "category": "conquest"
+    },
+    {
+      "year": -1000,
+      "date": "c. 1000 BC",
+      "label": "Phoenician alphabet spreads across the Mediterranean",
+      "description": "The consonantal script that Hebrew itself derives from spreads widely via Phoenician trade networks.",
+      "category": "cultural"
+    },
+    {
+      "year": -853,
+      "date": "853 BC",
+      "label": "Battle of Qarqar",
+      "description": "An Assyrian inscription (the Kurkh Monolith) records a coalition that included 'Ahab the Israelite' opposing Shalmaneser III — one of the earliest non-biblical mentions of an Israelite king.",
+      "category": "political"
+    },
+    {
+      "year": -722,
+      "date": "722 BC",
+      "label": "Fall of Samaria",
+      "description": "The northern kingdom of Israel falls to Assyria under Shalmaneser V and Sargon II, and much of its population is deported.",
+      "category": "conquest"
+    },
+    {
+      "year": -612,
+      "date": "612 BC",
+      "label": "Fall of Nineveh",
+      "description": "The Assyrian capital falls to a Babylonian-Median coalition, ending Assyrian dominance of the region.",
+      "category": "conquest"
+    },
+    {
+      "year": -586,
+      "date": "586 BC",
+      "label": "Fall of Jerusalem",
+      "description": "Babylon under Nebuchadnezzar II destroys Solomon's Temple and deports much of Judah's population, beginning the exile.",
+      "category": "conquest"
+    },
+    {
+      "year": -539,
+      "date": "539 BC",
+      "label": "Cyrus the Great conquers Babylon",
+      "description": "The Persian conquest ends the Babylonian empire and opens the way for exiles to return to Judah.",
+      "category": "political"
+    },
+    {
+      "year": -332,
+      "date": "332 BC",
+      "label": "Alexander the Great takes the Levant",
+      "description": "Alexander's conquest brings Greek language and culture into the eastern Mediterranean, shaping the world the New Testament was later written into.",
+      "category": "conquest"
+    },
+    {
+      "year": -164,
+      "date": "164 BC",
+      "label": "Rededication of the Jerusalem Temple",
+      "description": "After the Maccabean Revolt against Seleucid rule, the Temple is purified and rededicated — the origin of Hanukkah.",
+      "category": "religious"
+    },
+    {
+      "year": -63,
+      "date": "63 BC",
+      "label": "Pompey captures Jerusalem",
+      "description": "Rome absorbs Judea into its sphere as a client territory, beginning the Roman presence that frames the entire New Testament.",
+      "category": "conquest"
+    },
+    {
+      "year": -27,
+      "date": "27 BC",
+      "label": "Augustus becomes Rome's first emperor",
+      "description": "The end of the Roman Republic and start of the Pax Romana — the political backdrop for Jesus' birth and the apostles' travels.",
+      "category": "political"
+    },
+    {
+      "year": 70,
+      "date": "AD 70",
+      "label": "Destruction of the Second Temple",
+      "description": "Roman legions under Titus destroy Jerusalem's Temple after a Jewish revolt — an event the Gospels record Jesus as having foretold.",
+      "category": "conquest"
+    },
+    {
+      "year": 79,
+      "date": "AD 79",
+      "label": "Eruption of Mount Vesuvius",
+      "description": "The eruption that buried Pompeii — a precisely-dated fixed point in the same Roman world the apostles wrote to.",
+      "category": "cultural"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timeline — Lives of Scripture</title>
+<meta name="description" content="A year-by-year timeline of people named in Scripture, showing whose lives overlapped and how they intersect major historical events.">
+<link rel="canonical" href="https://livesofscripture.org/timeline.html">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="Timeline — Lives of Scripture">
+<meta property="og:description" content="A year-by-year timeline of people named in Scripture, showing whose lives overlapped and how they intersect major historical events.">
+<meta property="og:url" content="https://livesofscripture.org/timeline.html">
+<meta property="og:image" content="https://livesofscripture.org/images/social/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Timeline — Lives of Scripture">
+<meta name="twitter:description" content="A year-by-year timeline of people named in Scripture, showing whose lives overlapped.">
+<meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1><a href="index.html" class="brand">
+      <img src="favicon.svg" class="brand-mark" alt="" width="28" height="28">
+      Lives of Scripture
+    </a></h1>
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="people.html">People</a>
+      <a href="timeline.html" aria-current="page">Timeline</a>
+      <a href="connections.html">Connections</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="about.html">About</a>
+    </nav>
+    <details class="header-notice">
+      <summary>Usage &amp; licensing</summary>
+      <p>No Bible verse text is quoted or stored on this site, in any translation —
+      references are chapter:verse only. Genealogy data is seeded from
+      <a href="https://github.com/bradystephenson/bible-data">BibleData</a> by Brady
+      Stephenson (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+      Portrait illustrations are AI-generated or hand-authored line art — no claim of
+      historical likeness. See <a href="about.html">About</a> for full sourcing.</p>
+    </details>
+  </div>
+</header>
+
+<main>
+  <p><a href="people.html" class="back-link">&#8592; Back to all people</a></p>
+
+  <h2>Timeline</h2>
+  <p class="page-intro">Full entries plotted by year, so you can see who lived alongside
+  whom. Solid bars mark a reasonably firm estimated date; hatched, dashed bars mark a
+  figure placed only by their broad era, because that period's chronology is genuinely
+  disputed among evangelical scholars — see the note below.</p>
+
+  <div class="timeline-toolbar">
+    <p id="timeline-results-count" class="timeline-toolbar__count" role="status" aria-live="polite"></p>
+    <label class="timeline-toolbar__field">
+      <input type="checkbox" id="timeline-events-toggle" checked>
+      Show historical events
+    </label>
+    <label class="timeline-toolbar__field">
+      Jump to era
+      <select id="timeline-jump-era"></select>
+    </label>
+  </div>
+
+  <div id="timeline-legend" class="timeline-legend"></div>
+
+  <div id="timeline-state" class="timeline-state"></div>
+  <div id="timeline-canvas-wrapper" class="timeline-canvas-wrapper">
+    <div id="timeline-canvas" class="timeline-canvas"></div>
+  </div>
+
+  <div id="timeline-tooltip" class="timeline-tooltip" role="tooltip" hidden></div>
+
+  <div class="timeline-note">
+    <p><strong>Why do some bars look different?</strong> Most Old Testament dates —
+    especially before the monarchy — are genuinely disputed among evangelical scholars
+    themselves, not just uncertain the way an obscure detail might be. Competing
+    chronological frameworks (for example, an early-date c. 1446 BC vs. a late-date
+    c. 1250 BC Exodus) can shift a figure's placement by centuries. Rather than silently
+    pick one framework and plot a precise year as if it were settled fact, figures from
+    those disputed periods are shown as a hatched bar spanning their whole era instead —
+    an estimate, not a date. Figures with firmer grounding (David's reign, dated from
+    1 Kings 6:1; New Testament figures, cross-referenced against Roman-era history) get a
+    solid bar with a specific estimated year — each still marked "c." for circa, and each
+    tooltip explains exactly what the date rests on.</p>
+    <p>The historical events shown for context are a small curated set of well-documented,
+    independently-dated anchor points — not an exhaustive historical record.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>See <a href="about.html">About</a> for sources and how eras and dates are defined.</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script>renderTimelinePage(); initNavToggle();</script>
+</body>
+</html>

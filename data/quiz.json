@@ -1,0 +1,425 @@
+{
+  "_note": "Quiz questions for full-tier entries. difficulty: 1=Easy, 2=Medium, 3=Hard. Answers are drawn directly from the referenced verses — no extra-biblical content. topic_id links back to the person's page for 'learn more' links and sheet dedup; subtopic_id is an optional secondary link for a sub-entity with its own detail page (not used yet on this site).",
+  "questions": [
+    {
+      "question": "God told Abraham to count the stars as a picture of what?",
+      "answer": "How many descendants he would have.",
+      "topic_id": "abraham",
+      "difficulty": 1,
+      "reference": "Genesis 15:5"
+    },
+    {
+      "question": "What did God rename Abram to, as a sign of His covenant promise?",
+      "answer": "Abraham.",
+      "topic_id": "abraham",
+      "difficulty": 2,
+      "reference": "Genesis 17:5"
+    },
+    {
+      "question": "To protect himself in Egypt, what did Abraham tell Pharaoh that Sarah was?",
+      "answer": "His sister (a half-truth — she was also his wife).",
+      "topic_id": "abraham",
+      "difficulty": 3,
+      "reference": "Genesis 12:11-13"
+    },
+    {
+      "question": "What weapon did young David use to defeat Goliath?",
+      "answer": "A sling and a stone.",
+      "topic_id": "david",
+      "difficulty": 1,
+      "reference": "1 Samuel 17:49-50"
+    },
+    {
+      "question": "What instrument was David skilled at playing?",
+      "answer": "The harp (lyre).",
+      "topic_id": "david",
+      "difficulty": 2,
+      "reference": "1 Samuel 16:23"
+    },
+    {
+      "question": "1 Chronicles 21:1 names who as inciting David to take a census of Israel?",
+      "answer": "Satan.",
+      "topic_id": "david",
+      "difficulty": 3,
+      "reference": "1 Chronicles 21:1"
+    },
+    {
+      "question": "Whose mother-in-law was Naomi?",
+      "answer": "Ruth's.",
+      "topic_id": "ruth",
+      "difficulty": 1,
+      "reference": "Ruth 1:4, 16"
+    },
+    {
+      "question": "Whose field was Ruth gleaning in when Boaz first noticed her?",
+      "answer": "Boaz's own field, near Bethlehem.",
+      "topic_id": "ruth",
+      "difficulty": 2,
+      "reference": "Ruth 2:3"
+    },
+    {
+      "question": "What did Ruth do at the threshing floor at Naomi's instruction?",
+      "answer": "She lay down at Boaz's feet and asked him to spread his covering over her, invoking his role as a kinsman-redeemer.",
+      "topic_id": "ruth",
+      "difficulty": 3,
+      "reference": "Ruth 3:7-9"
+    },
+    {
+      "question": "What was Peter's occupation before he followed Jesus?",
+      "answer": "A fisherman.",
+      "topic_id": "peter",
+      "difficulty": 1,
+      "reference": "Matthew 4:18"
+    },
+    {
+      "question": "What was Peter's name before Jesus renamed him?",
+      "answer": "Simon.",
+      "topic_id": "peter",
+      "difficulty": 2,
+      "reference": "John 1:42"
+    },
+    {
+      "question": "What did Paul publicly oppose Peter for doing in Antioch?",
+      "answer": "Withdrawing from eating with Gentile believers under pressure from certain men from James.",
+      "topic_id": "peter",
+      "difficulty": 3,
+      "reference": "Galatians 2:11-14"
+    },
+    {
+      "question": "On the road to which city did Paul encounter the risen Christ?",
+      "answer": "Damascus.",
+      "topic_id": "paul",
+      "difficulty": 1,
+      "reference": "Acts 9:3-6"
+    },
+    {
+      "question": "What was Paul called before his encounter with Christ on the road to Damascus?",
+      "answer": "Saul (of Tarsus).",
+      "topic_id": "paul",
+      "difficulty": 2,
+      "reference": "Acts 13:9"
+    },
+    {
+      "question": "What physical affliction did Paul call his 'thorn in the flesh'?",
+      "answer": "Scripture doesn't say — Paul never identifies what it was, only that it kept him dependent on God's grace.",
+      "topic_id": "paul",
+      "difficulty": 3,
+      "reference": "2 Corinthians 12:7-9"
+    },
+    {
+      "question": "What did God use to get Moses' attention in the wilderness of Midian?",
+      "answer": "A bush that burned but was not consumed.",
+      "topic_id": "moses",
+      "difficulty": 1,
+      "reference": "Exodus 3:2-4"
+    },
+    {
+      "question": "What ordinary object did God turn into a snake as a sign for Moses to show Pharaoh?",
+      "answer": "His staff.",
+      "topic_id": "moses",
+      "difficulty": 2,
+      "reference": "Exodus 4:2-4"
+    },
+    {
+      "question": "What did Moses do at Meribah that kept him from entering the promised land?",
+      "answer": "In anger, he struck the rock instead of speaking to it as God commanded, and took credit alongside God for producing the water.",
+      "topic_id": "moses",
+      "difficulty": 3,
+      "reference": "Numbers 20:1-13"
+    },
+    {
+      "question": "What role did God give Aaron because Moses said he was slow of speech?",
+      "answer": "Aaron became Moses' spokesman before Pharaoh and Israel.",
+      "topic_id": "aaron",
+      "difficulty": 1,
+      "reference": "Exodus 4:14-16"
+    },
+    {
+      "question": "What did Aaron make for the people while Moses was on Mount Sinai?",
+      "answer": "A golden calf, cast from the people's gold earrings.",
+      "topic_id": "aaron",
+      "difficulty": 2,
+      "reference": "Exodus 32:1-6"
+    },
+    {
+      "question": "How did God settle the dispute over Aaron's right to the priesthood in Numbers 16-17?",
+      "answer": "Aaron's staff, alone among twelve gathered from each tribe, sprouted, budded, blossomed, and bore almonds overnight.",
+      "topic_id": "aaron",
+      "difficulty": 3,
+      "reference": "Numbers 17:1-8"
+    },
+    {
+      "question": "How old was Sarah when she laughed at God's promise that she would have a son?",
+      "answer": "Ninety years old.",
+      "topic_id": "sarah",
+      "difficulty": 1,
+      "reference": "Genesis 17:17; Genesis 18:12"
+    },
+    {
+      "question": "What relation was Sarah to Abraham besides being his wife?",
+      "answer": "His half-sister — they shared the same father, Terah, but different mothers.",
+      "topic_id": "sarah",
+      "difficulty": 2,
+      "reference": "Genesis 20:12"
+    },
+    {
+      "question": "What New Testament letter holds Sarah up as a model of a wife's hope set on God?",
+      "answer": "1 Peter (1 Peter 3:5-6).",
+      "topic_id": "sarah",
+      "difficulty": 3,
+      "reference": "1 Peter 3:5-6"
+    },
+    {
+      "question": "What did Isaac carry up the mountain for his own sacrifice?",
+      "answer": "The wood for the burnt offering.",
+      "topic_id": "isaac",
+      "difficulty": 1,
+      "reference": "Genesis 22:6"
+    },
+    {
+      "question": "How was Isaac's wife Rebekah found?",
+      "answer": "Abraham sent his servant back to his own kindred in Mesopotamia, and the servant's prayer for a sign was answered by Rebekah at a well.",
+      "topic_id": "isaac",
+      "difficulty": 2,
+      "reference": "Genesis 24"
+    },
+    {
+      "question": "What sin did Isaac repeat from his father Abraham's life?",
+      "answer": "He told a foreign king (Abimelech) that his wife was his sister, out of fear for his own life.",
+      "topic_id": "isaac",
+      "difficulty": 3,
+      "reference": "Genesis 26:6-11"
+    },
+    {
+      "question": "What name did Hagar give to God after He met her in the wilderness?",
+      "answer": "El Roi, 'the God who sees me.'",
+      "topic_id": "hagar",
+      "difficulty": 1,
+      "reference": "Genesis 16:13"
+    },
+    {
+      "question": "Who was Hagar before she became Abraham's wife?",
+      "answer": "Sarah's Egyptian servant.",
+      "topic_id": "hagar",
+      "difficulty": 2,
+      "reference": "Genesis 16:1"
+    },
+    {
+      "question": "What did God open Hagar's eyes to see when Ishmael was about to die of thirst?",
+      "answer": "A well of water.",
+      "topic_id": "hagar",
+      "difficulty": 3,
+      "reference": "Genesis 21:19"
+    },
+    {
+      "question": "What skill did Ishmael grow up practicing in the wilderness of Paran?",
+      "answer": "He became an archer.",
+      "topic_id": "ishmael",
+      "difficulty": 1,
+      "reference": "Genesis 21:20"
+    },
+    {
+      "question": "Even though Ishmael wasn't the covenant son, what did God still promise about his future?",
+      "answer": "That he would father twelve princes and become a great nation.",
+      "topic_id": "ishmael",
+      "difficulty": 2,
+      "reference": "Genesis 17:20"
+    },
+    {
+      "question": "What did Ishmael and Isaac do together at the end of Genesis 25?",
+      "answer": "They buried their father Abraham at the cave of Machpelah.",
+      "topic_id": "ishmael",
+      "difficulty": 3,
+      "reference": "Genesis 25:9"
+    },
+    {
+      "question": "What did Jochebed make to protect baby Moses?",
+      "answer": "A papyrus basket coated with tar and pitch.",
+      "topic_id": "jochebed",
+      "difficulty": 1,
+      "reference": "Exodus 2:3"
+    },
+    {
+      "question": "Who did Pharaoh's daughter unknowingly hire to nurse the baby she found in the basket?",
+      "answer": "Jochebed — the baby's own mother.",
+      "topic_id": "jochebed",
+      "difficulty": 2,
+      "reference": "Exodus 2:7-9"
+    },
+    {
+      "question": "What does Hebrews 11 commend about Moses' parents' decision to hide him?",
+      "answer": "That they were not afraid of the king's edict — an act of faith.",
+      "topic_id": "jochebed",
+      "difficulty": 3,
+      "reference": "Hebrews 11:23"
+    },
+    {
+      "question": "Where was Zipporah from?",
+      "answer": "Midian — she was the daughter of Jethro, a Midianite priest.",
+      "topic_id": "zipporah",
+      "difficulty": 1,
+      "reference": "Exodus 2:15-21"
+    },
+    {
+      "question": "What did Zipporah do to save Moses' life on the road back to Egypt?",
+      "answer": "She circumcised their son and touched Moses with the foreskin, declaring him 'a bridegroom of blood.'",
+      "topic_id": "zipporah",
+      "difficulty": 2,
+      "reference": "Exodus 4:24-26"
+    },
+    {
+      "question": "Who brought Zipporah and her sons to Moses after the Exodus?",
+      "answer": "Her father, Jethro.",
+      "topic_id": "zipporah",
+      "difficulty": 3,
+      "reference": "Exodus 18:1-6"
+    },
+    {
+      "question": "What did Naomi ask people to call her instead of her own name when she returned to Bethlehem?",
+      "answer": "Mara, meaning 'bitter.'",
+      "topic_id": "naomi",
+      "difficulty": 1,
+      "reference": "Ruth 1:20"
+    },
+    {
+      "question": "Why did Naomi and her family first go to Moab?",
+      "answer": "A famine in Bethlehem.",
+      "topic_id": "naomi",
+      "difficulty": 2,
+      "reference": "Ruth 1:1"
+    },
+    {
+      "question": "What plan did Naomi devise to secure Ruth's future?",
+      "answer": "She sent Ruth to the threshing floor to ask Boaz, as a kinsman-redeemer, to spread his covering over her.",
+      "topic_id": "naomi",
+      "difficulty": 3,
+      "reference": "Ruth 3"
+    },
+    {
+      "question": "What did Boaz tell his workers to do for Ruth while she gleaned?",
+      "answer": "Let extra grain fall on purpose for her to gather.",
+      "topic_id": "boaz",
+      "difficulty": 1,
+      "reference": "Ruth 2:16"
+    },
+    {
+      "question": "What did the nearer kinsman do at the city gate when Boaz offered him the right to redeem Elimelech's land?",
+      "answer": "He declined, removing his sandal to confirm the transfer to Boaz.",
+      "topic_id": "boaz",
+      "difficulty": 2,
+      "reference": "Ruth 4:6-8"
+    },
+    {
+      "question": "Who does Matthew's genealogy name as Boaz's mother?",
+      "answer": "Rahab.",
+      "topic_id": "boaz",
+      "difficulty": 3,
+      "reference": "Matthew 1:5"
+    },
+    {
+      "question": "What did God call the young boy Samuel to do in the night at Shiloh?",
+      "answer": "Listen for God's voice and answer, 'Speak, LORD, for Your servant is listening.'",
+      "topic_id": "samuel",
+      "difficulty": 1,
+      "reference": "1 Samuel 3:9-10"
+    },
+    {
+      "question": "What did Samuel tell Saul was 'better than sacrifice'?",
+      "answer": "To obey.",
+      "topic_id": "samuel",
+      "difficulty": 2,
+      "reference": "1 Samuel 15:22"
+    },
+    {
+      "question": "Why did Samuel almost anoint Jesse's eldest son Eliab as king instead of David?",
+      "answer": "He judged by Eliab's outward appearance, until God told him He looks at the heart instead.",
+      "topic_id": "samuel",
+      "difficulty": 3,
+      "reference": "1 Samuel 16:6-7"
+    },
+    {
+      "question": "What did Jonathan give David as a sign of their covenant friendship?",
+      "answer": "His own robe, armor, sword, bow, and belt.",
+      "topic_id": "jonathan",
+      "difficulty": 1,
+      "reference": "1 Samuel 18:4"
+    },
+    {
+      "question": "How did Jonathan warn David that Saul meant to kill him?",
+      "answer": "With a prearranged signal using arrows.",
+      "topic_id": "jonathan",
+      "difficulty": 2,
+      "reference": "1 Samuel 20"
+    },
+    {
+      "question": "Who did David show kindness to for Jonathan's sake after Jonathan's death?",
+      "answer": "Jonathan's crippled son, Mephibosheth.",
+      "topic_id": "jonathan",
+      "difficulty": 3,
+      "reference": "2 Samuel 9"
+    },
+    {
+      "question": "What did David do while Bathsheba's husband Uriah was away at war?",
+      "answer": "He saw her bathing, sent for her, and she conceived a child.",
+      "topic_id": "bathsheba",
+      "difficulty": 1,
+      "reference": "2 Samuel 11:2-5"
+    },
+    {
+      "question": "What name did the prophet Nathan give to Bathsheba's second son with David?",
+      "answer": "Jedidiah, meaning 'beloved of the LORD' (the boy is known to history as Solomon).",
+      "topic_id": "bathsheba",
+      "difficulty": 2,
+      "reference": "2 Samuel 12:24-25"
+    },
+    {
+      "question": "How does Matthew's genealogy of Jesus refer to Bathsheba?",
+      "answer": "Not by her own name, but as 'the wife of Uriah.'",
+      "topic_id": "bathsheba",
+      "difficulty": 3,
+      "reference": "Matthew 1:6"
+    },
+    {
+      "question": "What did Solomon ask God for at Gibeon, instead of riches or long life?",
+      "answer": "An understanding heart to discern between good and evil.",
+      "topic_id": "solomon",
+      "difficulty": 1,
+      "reference": "1 Kings 3:9"
+    },
+    {
+      "question": "What foreign ruler visited Solomon to test him with hard questions?",
+      "answer": "The Queen of Sheba.",
+      "topic_id": "solomon",
+      "difficulty": 2,
+      "reference": "1 Kings 10:1-13"
+    },
+    {
+      "question": "What turned Solomon's heart to foreign gods in his old age?",
+      "answer": "His seven hundred wives and three hundred concubines, many of them foreign women the Law had warned against marrying.",
+      "topic_id": "solomon",
+      "difficulty": 3,
+      "reference": "1 Kings 11:1-8"
+    },
+    {
+      "question": "Whose son was Jesse, and whose father?",
+      "answer": "The grandson of Boaz and Ruth, and the father of David.",
+      "topic_id": "jesse",
+      "difficulty": 1,
+      "reference": "Ruth 4:17-22"
+    },
+    {
+      "question": "Which of Jesse's sons did Samuel not initially even call in from the fields?",
+      "answer": "David, the youngest.",
+      "topic_id": "jesse",
+      "difficulty": 2,
+      "reference": "1 Samuel 16:11"
+    },
+    {
+      "question": "What does Isaiah 11:1 call the coming Messiah in relation to Jesse?",
+      "answer": "'A shoot... from the stem of Jesse' (the root of Jesse).",
+      "topic_id": "jesse",
+      "difficulty": 3,
+      "reference": "Isaiah 11:1, 10"
+    }
+  ]
+}

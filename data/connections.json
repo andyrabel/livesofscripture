@@ -1,40 +1,104 @@
-{
-  "_note": "Genealogy edges (parent/child, spouse) live on each person's own record under `genealogy` and are not duplicated here. This file holds narrative relationship edges — types documented in CLAUDE.md: mentorship, collaboration, rivalry, conversion — added only where the story text of a full-tier entry documents them.",
-  "edges": [
-    {
-      "from": "samuel",
-      "to": "david",
-      "type": "mentorship",
-      "note": "Samuel anointed David as Saul's successor while David was still a shepherd boy, at God's direction.",
-      "references": ["1 Samuel 16:1-13"]
-    },
-    {
-      "from": "aaron",
-      "to": "moses",
-      "type": "collaboration",
-      "note": "Aaron served as Moses' spokesman before Pharaoh and co-led Israel through the Exodus, though he also built the golden calf in Moses' absence.",
-      "references": ["Exodus 4:14-16", "Exodus 7:1-2", "Exodus 32"]
-    },
-    {
-      "from": "jonathan",
-      "to": "david",
-      "type": "collaboration",
-      "note": "Jonathan and David formed a covenant friendship; Jonathan repeatedly protected David from Saul at his own risk and forfeited his claim to the throne.",
-      "references": ["1 Samuel 18:1-4", "1 Samuel 20"]
-    },
-    {
-      "from": "paul",
-      "to": "peter",
-      "type": "rivalry",
-      "note": "Paul publicly opposed Peter at Antioch, calling him a hypocrite for withdrawing from table fellowship with Gentile believers under pressure from certain Jewish Christians.",
-      "references": ["Galatians 2:11-14"]
-    },
-    {
-      "from": "paul",
-      "to": "peter",
-      "type": "collaboration",
-      "note": "Paul and Peter stood together at the Jerusalem Council affirming that Gentiles are saved by grace apart from the law.",
-      "references": ["Acts 15:6-11", "Galatians 2:9"]
-    }
-  ]
-}
+[
+  { "from": "terah", "to": "abraham", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "terah", "to": "sarah", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "abraham", "to": "isaac", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "abraham", "to": "ishmael", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "sarah", "to": "isaac", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "hagar", "to": "ishmael", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "amram", "to": "aaron", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "amram", "to": "moses", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "jochebed", "to": "aaron", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "jochebed", "to": "moses", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "moses", "to": "gershom", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "zipporah", "to": "gershom", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "elimelech", "to": "mahlon", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "naomi", "to": "mahlon", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "boaz", "to": "obed", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "ruth", "to": "obed", "label": "bore", "type": "parent-child", "mutual": false },
+  { "from": "obed", "to": "jesse", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "jesse", "to": "david", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "david", "to": "solomon", "label": "begot", "type": "parent-child", "mutual": false },
+  { "from": "bathsheba", "to": "solomon", "label": "bore", "type": "parent-child", "mutual": false },
+
+  { "from": "abraham", "to": "sarah", "label": "married", "type": "married", "mutual": true },
+  { "from": "abraham", "to": "hagar", "label": "married", "type": "married", "mutual": true },
+  { "from": "amram", "to": "jochebed", "label": "married", "type": "married", "mutual": true },
+  { "from": "moses", "to": "zipporah", "label": "married", "type": "married", "mutual": true },
+  { "from": "elimelech", "to": "naomi", "label": "married", "type": "married", "mutual": true },
+  { "from": "mahlon", "to": "ruth", "label": "married", "type": "married", "mutual": true },
+  { "from": "boaz", "to": "ruth", "label": "married", "type": "married", "mutual": true },
+  { "from": "david", "to": "bathsheba", "label": "married", "type": "married", "mutual": true },
+
+  {
+    "from": "samuel",
+    "to": "david",
+    "label": "mentored",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Samuel anointed David as Saul's successor while David was still a shepherd boy, at God's direction.",
+    "references": ["1 Samuel 16:1-13"]
+  },
+  {
+    "from": "aaron",
+    "to": "moses",
+    "label": "collaborated with",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Aaron served as Moses' spokesman before Pharaoh and co-led Israel through the Exodus, though he also built the golden calf in Moses' absence.",
+    "references": ["Exodus 4:14-16", "Exodus 7:1-2", "Exodus 32"]
+  },
+  {
+    "from": "jonathan",
+    "to": "david",
+    "label": "collaborated with",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Jonathan and David formed a covenant friendship; Jonathan repeatedly protected David from Saul at his own risk and forfeited his claim to the throne.",
+    "references": ["1 Samuel 18:1-4", "1 Samuel 20"]
+  },
+  {
+    "from": "paul",
+    "to": "peter",
+    "label": "clashed with",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Paul publicly opposed Peter at Antioch, calling him a hypocrite for withdrawing from table fellowship with Gentile believers under pressure from certain Jewish Christians.",
+    "references": ["Galatians 2:11-14"]
+  },
+  {
+    "from": "paul",
+    "to": "peter",
+    "label": "collaborated with",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Paul and Peter stood together at the Jerusalem Council affirming that Gentiles are saved by grace apart from the law.",
+    "references": ["Acts 15:6-11", "Galatians 2:9"]
+  },
+  {
+    "from": "sarah",
+    "to": "hagar",
+    "label": "clashed with",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Hagar showed contempt for Sarah once pregnant with Abraham's child, and Sarah in turn dealt harshly with Hagar, then later insisted Abraham cast out both Hagar and Ishmael.",
+    "references": ["Genesis 16:4-6", "Genesis 21:8-14"]
+  },
+  {
+    "from": "naomi",
+    "to": "ruth",
+    "label": "guided",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Naomi guided Ruth into Boaz's field and devised the plan that led to Ruth's marriage to him; Ruth in turn bound herself permanently to Naomi and to Naomi's God rather than return to Moab.",
+    "references": ["Ruth 1:16-17", "Ruth 3:1-4"]
+  },
+  {
+    "from": "bathsheba",
+    "to": "solomon",
+    "label": "secured the throne for",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "When David was old and Adonijah moved to seize the throne, Bathsheba went to David at Nathan's urging and secured his public confirmation that Solomon would reign.",
+    "references": ["1 Kings 1:11-31"]
+  }
+]

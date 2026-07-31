@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <circle cx="100" cy="62" r="18"/>
+    <!-- robe, kneeling posture -->
+    <path d="M80 84 C80 79 120 79 120 84 L134 175 Q100 186 66 175 Z"/>
+    <path d="M100 84 L100 172"/>
+    <!-- arms reaching down toward the basket -->
+    <path d="M84 92 L66 130"/>
+    <path d="M116 92 L134 130"/>
+    <!-- basket among reeds -->
+    <path d="M60 158 C60 148 100 148 100 158 L96 172 L64 172 Z"/>
+    <path d="M64 158 L100 158"/>
+    <path d="M50 150 L50 178 M112 150 L112 178 M124 152 L124 176"/>
+  </g>
+</svg>

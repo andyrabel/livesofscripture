@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lives of Scripture — Every Person Named in the Bible</title>
 <meta name="description" content="A reference for every person named in Scripture — who they were, how they connect, and what their story reveals about God's redemptive plan.">
+<link rel="canonical" href="https://livesofscripture.org/">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="favicon.ico">
@@ -24,6 +25,26 @@
 <meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
 
 <link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Lives of Scripture",
+  "url": "https://livesofscripture.org/",
+  "description": "A reference for every person named in Scripture — who they were, how they connect, and what their story reveals about God's redemptive plan.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lives of Scripture",
+    "url": "https://livesofscripture.org/",
+    "logo": "https://livesofscripture.org/images/social/og-image.png"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://livesofscripture.org/people.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -32,34 +53,78 @@
       <img src="favicon.svg" class="brand-mark" alt="" width="28" height="28">
       Lives of Scripture
     </a></h1>
-    <nav>
-      <a href="index.html">Browse</a>
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav id="site-nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="people.html">People</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="connections.html">Connections</a>
+      <a href="quiz.html">Quiz</a>
       <a href="about.html">About</a>
     </nav>
+    <details class="header-notice">
+      <summary>Usage &amp; licensing</summary>
+      <p>No Bible verse text is quoted or stored on this site, in any translation —
+      references are chapter:verse only. Genealogy data is seeded from
+      <a href="https://github.com/bradystephenson/bible-data">BibleData</a> by Brady
+      Stephenson (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+      Portrait illustrations are AI-generated or hand-authored line art — no claim of
+      historical likeness. See <a href="about.html">About</a> for full sourcing.</p>
+    </details>
   </div>
 </header>
 
-<main>
-  <div class="controls">
-    <input type="search" id="search-input" placeholder="Search by name…">
-    <select id="filter-testament">
-      <option value="">All testaments</option>
-      <option value="OT">Old Testament</option>
-      <option value="NT">New Testament</option>
-    </select>
-    <select id="filter-tier">
-      <option value="">All entries</option>
-      <option value="full">Full stories</option>
-      <option value="stub">Names only</option>
-    </select>
-    <select id="filter-era">
-      <option value="">All eras</option>
-    </select>
+<main class="home-layout">
+  <div class="home-main">
+
+    <section id="home-hero" class="home-hero" aria-live="polite"></section>
+
+    <section id="home-topic" class="home-topic-box"></section>
+
+    <section id="home-quiz" class="home-quiz-box">
+      <h2>Quiz Question of the Day</h2>
+      <div id="quiz-body"></div>
+      <p class="home-quiz-box__cta"><a href="quiz.html" id="quiz-take-link">Take the quiz →</a></p>
+    </section>
+
+    <section id="home-spotlight" class="home-spotlight"></section>
+
+    <section id="home-explore-row" class="home-explore-row">
+      <h2>Explore More Lives</h2>
+      <div id="explore-row-track" class="explore-row-track"></div>
+      <a href="people.html" id="explore-row-viewall" class="explore-row-viewall"></a>
+    </section>
+
   </div>
 
-  <div id="result-count"></div>
-  <div id="person-grid" class="person-grid"></div>
-  <div id="empty-state" class="empty-state" style="display:none;">No one matches those filters.</div>
+  <aside class="home-sidebar">
+    <section class="sidebar-panel">
+      <h2>Explore</h2>
+      <div class="explore-panel__grid">
+        <a href="timeline.html" class="explore-feature-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"/><circle cx="7" cy="12" r="2"/><circle cx="14" cy="12" r="2"/><circle cx="20" cy="12" r="1.2"/></svg>
+          <span class="explore-feature-card__label">Timeline</span>
+          <span class="explore-feature-card__sub">See full entries grouped by biblical era.</span>
+        </a>
+        <a href="connections.html" class="explore-feature-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="19" cy="18" r="2.2"/><line x1="12" y1="7.2" x2="6.3" y2="16"/><line x1="12" y1="7.2" x2="17.7" y2="16"/></svg>
+          <span class="explore-feature-card__label">Connections</span>
+          <span class="explore-feature-card__sub">Trace genealogy and relationships.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="sidebar-panel whats-new" id="whats-new">
+      <h2 class="whats-new__title">What's New</h2>
+    </section>
+
+    <p id="collection-summary" class="collection-summary"></p>
+  </aside>
 </main>
 
 <footer class="site-footer">
@@ -67,6 +132,6 @@
 </footer>
 
 <script src="js/app.js"></script>
-<script>renderIndexPage();</script>
+<script>renderHomePage(); renderWhatsNew(); initNavToggle();</script>
 </body>
 </html>

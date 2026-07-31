@@ -2,17 +2,43 @@
   "person_id": "ishmael",
   "name": "Ishmael",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": ["Canaan", "Wilderness of Paran"],
   "references": [
     "Genesis 16",
+    "Genesis 17:18-27",
     "Genesis 21:8-21",
+    "Genesis 25:9",
     "Genesis 25:12-18"
   ],
+  "topics": ["birthright", "providence", "outsider blessing"],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Abraham's firstborn son by Hagar, circumcised with Abraham at God's command though excluded from the covenant line carried through Isaac; sent away with his mother but blessed by God with numerous descendants, and reunited with Isaac only to bury their father.",
+  "family_friendly_summary": "Ishmael was Abraham's first son, and even though he wasn't the promised child, God still blessed him and watched over him.",
+  "adult_story": "Ishmael was born to Abraham and Hagar when Abraham was eighty-six, the result of Sarai's plan to obtain an heir through her servant while the promise of a son through Sarah herself still seemed impossible (Genesis 16:15-16). When God renewed His covenant with Abraham and instituted circumcision as its sign, Ishmael was circumcised alongside his father at thirteen years old — even though God had just told Abraham, in the same conversation, that the covenant itself would continue through a son not yet born to Sarah, not through Ishmael (Genesis 17:18-27). Abraham's own plea in that scene, 'Oh that Ishmael might live before You!', shows genuine paternal love for his firstborn even as God redirected the covenant line elsewhere, and God answered that prayer in His own way: Ishmael would be blessed, made fruitful, and multiplied exceedingly, fathering twelve princes and a great nation — just not the nation of promise (Genesis 17:20). After Isaac's birth, Sarah demanded Ishmael and his mother be cast out, and though Abraham was distressed, God again reassured him by promising to make a nation of Ishmael too, since he was Abraham's own offspring (Genesis 21:8-13). Sent into the wilderness of Beersheba, Ishmael nearly died of thirst before God heard his voice and provided a well for his mother to find; Scripture says plainly 'God was with the lad,' and he grew up in the wilderness of Paran, became an archer, and was given an Egyptian wife by his mother (Genesis 21:17-21). Genesis 25:12-18 records his genealogy in a structure deliberately parallel to Jacob's: twelve sons who became twelve tribal princes, settled from the wilderness eastward, living, in various translations, either 'to the east of' or 'in hostility toward' all his relatives. Ishmael died at 137 (Genesis 25:17), but before that he reappears once more at a moment of quiet reconciliation: he and Isaac together buried their father Abraham at the cave of Machpelah, two half-brothers whose lines had been separated by the covenant but who stood together at their father's grave (Genesis 25:9).",
+  "family_story": "Ishmael was the son of Abraham and Hagar, half-brother to Isaac, sent away from the household as a child but never abandoned by God, who blessed him with descendants forming twelve tribal princes just as Jacob's twelve sons would later form the tribes of Israel (Genesis 25:12-16). A generation after his own death, one of his daughters, Mahalath (also called Basemath), married Esau, Isaac's son — quietly reuniting the two half-brothers' family lines through their grandchildren (Genesis 28:9; Genesis 36:3).",
+  "image": {
+    "file": "ishmael.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a bow — evoking Genesis 21:20, 'he grew and became an archer.'",
+    "prompt_image_source": null,
+    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
+  },
   "genealogy": {
     "father": "abraham",
     "mother": "hagar",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

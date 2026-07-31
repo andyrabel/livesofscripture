@@ -2,21 +2,41 @@
   "person_id": "zipporah",
   "name": "Zipporah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "midian",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": ["Midian", "Egypt", "Sinai wilderness"],
   "references": [
-    "Exodus 2:21-22",
+    "Exodus 2:15-22",
     "Exodus 4:24-26",
-    "Exodus 18:2-4"
+    "Exodus 18:1-6"
   ],
+  "topics": ["marriage across boundaries", "circumcision", "providence"],
+  "interpretive_dispute": true,
+  "interpretive_note": "Exodus 4:24-26 — Zipporah circumcising her son and touching Moses (or the son) with the foreskin, declaring him 'a bridegroom of blood' — is among the most difficult and disputed passages in the Pentateuch. Interpreters differ over whom the LORD sought to kill (Moses or the son), why circumcision had apparently been neglected, and what exactly the phrase 'bridegroom of blood' means. This site presents the episode without resolving the dispute, consistent with its practice of flagging rather than silently choosing among contested readings.",
+  "source_summary": "A Midianite priest's daughter who married Moses during his years of exile, mother of his sons, and the one who circumcised their son in a tense and much-debated episode that saved Moses' life on the road back to Egypt.",
+  "family_friendly_summary": "Zipporah was Moses' wife from Midian, and she bravely acted to protect her family on their journey to Egypt.",
+  "adult_story": "Zipporah was one of seven daughters of Jethro (also called Reuel), a priest of Midian, whom Moses met and defended at a well after fleeing Egypt as a fugitive; when the sisters' flocks were driven off by rival shepherds, Moses stood up for them and watered their flock himself, and Jethro, grateful, invited the stranger to stay and gave Moses Zipporah in marriage (Exodus 2:15-21). She bore a son, Gershom, whose name Moses gave in memory of his own displacement — 'a sojourner in a foreign land' — and later a second son, Eliezer, named for God's help, though his birth is not separately narrated (Exodus 2:22; Exodus 18:3-4). The most dramatic and least-explained scene involving Zipporah comes on the road back to Egypt with Moses and their son: at a lodging place, the LORD sought to kill Moses (the text's own ambiguous phrasing leaves open whether the threat was against Moses or the child), and Zipporah acted immediately and decisively, circumcising their son with a flint knife and touching the foreskin to Moses, declaring him 'a bridegroom of blood' — after which the threat passed (Exodus 4:24-26). Scripture offers no explanation of what had been neglected or why, only that Zipporah's swift action is what saved her family. After the Exodus, her father Jethro brought Zipporah and her two sons to Moses at the mountain of God, apparently having kept them with him for some period the text does not narrate; their reunion there is recorded warmly, and Jethro went on to give Moses wise counsel about delegating judicial authority rather than carrying the whole burden of Israel's disputes alone (Exodus 18:1-6, 13-27). A later, separate difficulty concerns Numbers 12:1, where Miriam and Aaron 'spoke against Moses because of the Cushite woman he had married' — some interpreters identify this woman with Zipporah herself (Midian bordering regions sometimes associated with Cush), while others suppose an otherwise-unmentioned second wife; Scripture does not settle the question.",
+  "family_story": "Zipporah was the daughter of Jethro, priest of Midian, and the wife of Moses, mother of his sons Gershom and Eliezer. Her circumcision of their son at a roadside lodging is one of only a few scenes in which she appears directly, and in each of them she acts rather than merely being acted upon — defended by Moses at the well, but herself the one who saves him on the road to Egypt. Her relationship with Moses' siblings Miriam and Aaron was evidently strained at least once, in the disputed episode of Numbers 12:1, though the text's ambiguity about the 'Cushite woman' leaves the details unresolved.",
+  "image": {
+    "file": "zipporah.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a small flint blade — evoking Exodus 4:25.",
+    "prompt_image_source": null,
+    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [
-      "moses"
-    ],
-    "children": [
-      "gershom"
-    ]
+    "spouses": ["moses"],
+    "children": ["gershom"]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

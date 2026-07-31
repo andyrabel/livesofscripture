@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ornate crown -->
+    <path d="M80 34 L80 22 L88 30 L96 18 L104 30 L112 18 L120 30 L120 22 L120 34 Z"/>
+    <path d="M80 34 L120 34"/>
+    <!-- head -->
+    <circle cx="100" cy="58" r="18"/>
+    <!-- robe -->
+    <path d="M78 79 C78 74 122 74 122 79 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 79 L100 182"/>
+    <path d="M80 122 L120 122"/>
+    <!-- arm holding a small temple structure -->
+    <path d="M122 90 L138 106"/>
+    <path d="M128 118 L148 118 L148 108 L138 100 L128 108 Z"/>
+    <path d="M132 118 L132 108 M144 118 L144 108"/>
+    <!-- other arm resting -->
+    <path d="M78 90 L64 112"/>
+  </g>
+</svg>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connections — Lives of Scripture</title>
+<meta name="description" content="Explore the family and narrative connections between people named in Scripture — genealogy plus documented relationships like mentorship, conversion, rivalry, and collaboration.">
+<link rel="canonical" href="https://livesofscripture.org/connections.html">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="Connections — Lives of Scripture">
+<meta property="og:description" content="Explore the family and narrative connections between people named in Scripture.">
+<meta property="og:url" content="https://livesofscripture.org/connections.html">
+<meta property="og:image" content="https://livesofscripture.org/images/social/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Connections — Lives of Scripture">
+<meta name="twitter:description" content="Explore the family and narrative connections between people named in Scripture.">
+<meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1><a href="index.html" class="brand">
+      <img src="favicon.svg" class="brand-mark" alt="" width="28" height="28">
+      Lives of Scripture
+    </a></h1>
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="people.html">People</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="connections.html" aria-current="page">Connections</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="about.html">About</a>
+    </nav>
+    <details class="header-notice">
+      <summary>Usage &amp; licensing</summary>
+      <p>No Bible verse text is quoted or stored on this site, in any translation —
+      references are chapter:verse only. Genealogy data is seeded from
+      <a href="https://github.com/bradystephenson/bible-data">BibleData</a> by Brady
+      Stephenson (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+      Portrait illustrations are AI-generated or hand-authored line art — no claim of
+      historical likeness. See <a href="about.html">About</a> for full sourcing.</p>
+    </details>
+  </div>
+</header>
+
+<main>
+  <p><a href="people.html" class="back-link">&#8592; Back to all people</a></p>
+
+  <h2>Connections</h2>
+  <p class="page-intro">Choose a person to see their family relationships and any documented
+  narrative connections — mentorship, conversion, rivalry, collaboration — drawn from their
+  entry. Click any node in the graph to re-center it on that person.</p>
+
+  <div class="connections-toolbar">
+    <div class="connections-picker" id="connections-picker">
+      <label for="conn-person-input" class="sr-only">Center on</label>
+      <input
+        type="text"
+        id="conn-person-input"
+        role="combobox"
+        aria-expanded="false"
+        aria-controls="conn-person-listbox"
+        aria-autocomplete="list"
+        placeholder="Type a name…"
+        autocomplete="off"
+        data-committed="false"
+      >
+      <ul id="conn-person-listbox" class="connections-picker__list" role="listbox" hidden></ul>
+    </div>
+
+    <label class="connections-depth">
+      <span>Depth</span>
+      <select id="conn-depth-select">
+        <option value="1">1 — direct connections only</option>
+        <option value="2">2 — connections of connections</option>
+        <option value="3">3 — extended network</option>
+        <option value="4" selected>4 — wide network</option>
+        <option value="5">5 — widest web</option>
+      </select>
+    </label>
+
+    <button type="button" id="conn-random-btn" class="conn-random-btn">🎲 Surprise me</button>
+  </div>
+
+  <p id="conn-person-status" class="connections-status" aria-live="polite"></p>
+
+  <div class="connections-layout">
+    <div id="connections-graph-frame" class="connections-graph-frame">
+      <div class="connections-graph-subtoolbar">
+        <div class="conn-zoom-controls" role="group" aria-label="Zoom">
+          <button type="button" id="conn-zoom-out" aria-label="Zoom out">−</button>
+          <button type="button" id="conn-zoom-reset" aria-label="Reset zoom">100%</button>
+          <button type="button" id="conn-zoom-in" aria-label="Zoom in">+</button>
+        </div>
+
+        <div id="connections-legend" class="connections-legend"></div>
+
+        <button type="button" id="conn-labels-toggle" class="conn-icon-btn" aria-pressed="true" title="Toggle relationship labels">
+          🏷️ Labels
+        </button>
+        <button type="button" id="conn-fullpage-toggle" class="conn-icon-btn" aria-pressed="false" title="Full-page view">
+          ⤢ Full page
+        </button>
+      </div>
+
+      <div id="connections-canvas" class="connections-canvas">
+        <p>Loading…</p>
+      </div>
+    </div>
+
+    <aside id="connections-sidebar" class="connections-sidebar"></aside>
+  </div>
+
+  <div id="connections-tooltip" class="connections-tooltip" hidden></div>
+</main>
+
+<footer class="site-footer">
+  <p>This is a hand-curated set of documented relationships — genealogy edges plus the
+  smaller set of narrative relationships (mentorship, conversion, rivalry, collaboration)
+  that a full entry's story explicitly records. It is not an exhaustive genealogy or
+  web of influence, only what Scripture itself states. See <a href="about.html">About</a>
+  for sources.</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script>renderConnectionsPage(); initNavToggle();</script>
+</body>
+</html>

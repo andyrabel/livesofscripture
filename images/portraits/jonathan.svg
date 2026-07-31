@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <circle cx="100" cy="66" r="18"/>
+    <!-- robe -->
+    <path d="M78 87 C78 82 122 82 122 87 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 87 L100 182"/>
+    <path d="M80 128 L120 128"/>
+    <!-- arm raised holding a sword -->
+    <path d="M122 94 L134 78"/>
+    <path d="M134 78 L142 44"/>
+    <path d="M136 50 L148 54 M133 58 L145 62"/>
+    <!-- other arm resting -->
+    <path d="M78 94 L64 116"/>
+  </g>
+</svg>

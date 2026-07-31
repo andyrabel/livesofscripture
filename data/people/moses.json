@@ -5,6 +5,10 @@
   "tier": "full",
   "testament": "OT",
   "era": "Exodus/Wilderness",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era"
+  },
   "geographic_setting": ["Egypt", "Midian", "Sinai Peninsula", "Plains of Moab"],
   "references": ["Exodus 2-40", "Numbers", "Deuteronomy 34"],
   "topics": ["deliverance", "law", "mediation", "leadership"],

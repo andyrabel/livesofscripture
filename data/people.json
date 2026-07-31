@@ -3,8 +3,15 @@
     "person_id": "aaron",
     "name": "Aaron",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "priesthood",
+      "mediation",
+      "idolatry",
+      "atonement"
+    ]
   },
   {
     "person_id": "abraham",
@@ -35,15 +42,27 @@
     "alt_names": [
       "Bathshua"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "consequence and grace",
+      "advocacy",
+      "restoration"
+    ]
   },
   {
     "person_id": "boaz",
     "name": "Boaz",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Judges",
+    "topics": [
+      "kinsman-redeemer",
+      "generosity",
+      "inclusion of outsiders"
+    ]
   },
   {
     "person_id": "david",
@@ -77,43 +96,81 @@
     "person_id": "hagar",
     "name": "Hagar",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Patriarchal",
+    "topics": [
+      "affliction",
+      "God who sees",
+      "providence",
+      "outsider"
+    ]
   },
   {
     "person_id": "isaac",
     "name": "Isaac",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Patriarchal",
+    "topics": [
+      "sacrifice",
+      "promise",
+      "blessing",
+      "covenant continuity"
+    ]
   },
   {
     "person_id": "ishmael",
     "name": "Ishmael",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Patriarchal",
+    "topics": [
+      "birthright",
+      "providence",
+      "outsider blessing"
+    ]
   },
   {
     "person_id": "jesse",
     "name": "Jesse",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "ordinary faithfulness",
+      "God's choice",
+      "messianic lineage"
+    ]
   },
   {
     "person_id": "jochebed",
     "name": "Jochebed",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "faith under persecution",
+      "motherhood",
+      "providence"
+    ]
   },
   {
     "person_id": "jonathan",
     "name": "Jonathan",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "covenant friendship",
+      "courage",
+      "selflessness"
+    ]
   },
   {
     "person_id": "mahlon",
@@ -142,8 +199,14 @@
     "alt_names": [
       "Mara"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Judges",
+    "topics": [
+      "bitterness and restoration",
+      "providence",
+      "loyalty (hesed)"
+    ]
   },
   {
     "person_id": "obed",
@@ -204,8 +267,15 @@
     "person_id": "samuel",
     "name": "Samuel",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Judges",
+    "topics": [
+      "prayer",
+      "obedience over sacrifice",
+      "prophetic authority",
+      "transition to kingship"
+    ]
   },
   {
     "person_id": "sarah",
@@ -213,8 +283,15 @@
     "alt_names": [
       "Sarai"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Patriarchal",
+    "topics": [
+      "faith",
+      "promise",
+      "barrenness",
+      "laughter"
+    ]
   },
   {
     "person_id": "solomon",
@@ -222,8 +299,15 @@
     "alt_names": [
       "Jedidiah"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "wisdom",
+      "wealth",
+      "idolatry",
+      "temple"
+    ]
   },
   {
     "person_id": "terah",
@@ -236,7 +320,13 @@
     "person_id": "zipporah",
     "name": "Zipporah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "marriage across boundaries",
+      "circumcision",
+      "providence"
+    ]
   }
 ]

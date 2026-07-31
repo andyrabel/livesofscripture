@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <circle cx="100" cy="66" r="18"/>
+    <!-- robe -->
+    <path d="M78 87 C78 82 122 82 122 87 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 87 L100 182"/>
+    <path d="M80 128 L120 128"/>
+    <!-- waterskin strap across body -->
+    <path d="M84 88 L128 150"/>
+    <!-- waterskin -->
+    <path d="M120 142 C 112 142 108 150 112 158 C116 166 128 166 132 158 C136 150 128 142 120 142 Z"/>
+    <!-- arm holding the strap -->
+    <path d="M80 94 L94 112"/>
+    <!-- other arm resting -->
+    <path d="M120 94 L134 116"/>
+  </g>
+</svg>

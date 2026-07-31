@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="page-title">Lives of Scripture</title>
+<title>Lives of Scripture</title>
 <meta name="description" content="Person profile — Lives of Scripture.">
+<meta name="robots" content="noindex, follow">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="favicon.ico">
@@ -12,39 +13,23 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<meta property="og:type" content="profile">
-<meta property="og:site_name" content="Lives of Scripture">
-<meta property="og:title" content="Lives of Scripture">
-<meta property="og:description" content="A reference for every person named in Scripture — who they were, how they connect, and what their story reveals about God's redemptive plan.">
-<meta property="og:image" content="https://livesofscripture.org/images/social/og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
-
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <h1><a href="index.html" class="brand">
-      <img src="favicon.svg" class="brand-mark" alt="" width="28" height="28">
-      Lives of Scripture
-    </a></h1>
-    <nav>
-      <a href="index.html">Browse</a>
-      <a href="about.html">About</a>
-    </nav>
-  </div>
-</header>
-
-<main id="person-main">
-  <p>Loading…</p>
+<main>
+  <p>Redirecting to this person's page… If you're not redirected, <a id="fallback-link" href="people.html">browse all people</a>.</p>
 </main>
 
-<footer class="site-footer">
-  <p>Lives of Scripture — a reference for every person named in the Bible. See <a href="about.html">About</a> for sources and translation handling.</p>
-</footer>
-
-<script src="js/app.js"></script>
-<script>renderPersonPage();</script>
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get("id");
+    if (id) {
+      var target = "people/" + encodeURIComponent(id) + ".html";
+      document.getElementById("fallback-link").href = target;
+      window.location.replace(target);
+    }
+  })();
+</script>
 </body>
 </html>

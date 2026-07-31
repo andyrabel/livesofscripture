@@ -393,6 +393,48 @@ would run 14–16MB even with light stub entries. Instead:
 not sharded batches. Simpler cache/invalidation behavior and smaller diffs
 per content update outweigh the extra file count at this scale.)
 
+### Static pre-rendering for SEO / LLM-search crawlability (decided 2026-07-31)
+
+Person content (`adult_story`, `family_story`, genealogy, etc.) was originally
+rendered entirely client-side by `js/app.js` fetching `data/people/[id].json`
+into `person.html?id=[id]`. Googlebot executes JavaScript so this worked for
+Google, but most LLM-search crawlers (GPTBot, ClaudeBot, PerplexityBot,
+CCBot, and similar) fetch raw HTML and do not run JavaScript — they would
+see an empty "Loading…" page for every person entry, i.e. the site's core
+content would be invisible to them.
+
+Fixed by pre-rendering: `_build/generate_static_site.py` (stdlib-only
+Python, no dependencies) reads `data/people.json` + `data/people/*.json` +
+`data/connections.json` and generates one fully-baked static HTML file per
+person at `people/[person_id].html` — real story text, per-person
+`<title>`/meta description/OG/Twitter tags, a canonical URL, and a
+schema.org `Person` JSON-LD block (including `parent`/`children`/`spouse`
+links resolved to sibling person pages, since genealogy is the site's core
+differentiator). It also regenerates `sitemap.xml` and the static fallback
+`<a class="person-card">` grid embedded in `people.html` between
+`STATIC_PERSON_GRID_START`/`_END` markers, so the browse/list page is
+crawlable without JS too — `renderIndexPage()` still re-renders that grid
+client-side on load for interactive filtering, with no visible difference
+for JS-enabled visitors.
+
+Consequences for the file layout above:
+- Canonical person URL is now `people/[person_id].html`, not
+  `person.html?id=[person_id]`. `person.html` is now a thin JS + meta-refresh
+  redirect shim (`noindex, follow`) kept only so old `?id=` links still land
+  somewhere; **do not** treat it as the template to extend for new person-page
+  features — extend `_build/generate_static_site.py`'s render functions
+  instead, mirroring whatever markup/CSS classes are used.
+- `.github/workflows/build.yml` runs the generator on every push to `main`
+  and commits the regenerated `people/`, `sitemap.xml`, and `people.html`
+  output back to the branch GitHub Pages serves — this keeps deployment as
+  plain branch-served Pages (no switch to Actions-artifact deployment).
+- `robots.txt` explicitly allows `*` plus a belt-and-suspenders explicit
+  `Allow: /` for named AI/LLM crawlers, and points to `sitemap.xml`.
+- Whenever `data/people.json`, `data/people/*.json`, or `data/connections.json`
+  changes, re-run `python3 _build/generate_static_site.py` before committing
+  (or just push — CI does it) so the static output doesn't drift from the
+  source JSON.
+
 ---
 
 ## Human Review System

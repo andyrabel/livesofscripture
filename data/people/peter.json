@@ -5,6 +5,13 @@
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": 1,
+    "died": 68,
+    "note": "Birth year is estimated from his adult activity during Jesus' ministry (c. AD 27-30). The death date rests on early church tradition (Eusebius, Origen) placing his martyrdom in Rome under Nero, not on Scripture itself."
+  },
   "geographic_setting": ["Galilee", "Capernaum", "Jerusalem", "Antioch"],
   "references": ["Matthew 4:18-20", "Matthew 16:13-23", "Matthew 26:69-75", "John 21:15-19", "Acts 2", "Acts 10", "Galatians 2:11-14"],
   "topics": ["discipleship", "failure and restoration", "apostolic leadership"],

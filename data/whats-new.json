@@ -1,0 +1,35 @@
+{
+  "_note": "Short, factual feed of site features (not routine content additions). Most recent 4 shown on the home page. ISO dates, short title, target page, one-sentence lowercase description.",
+  "entries": [
+    {
+      "date": "2026-07-31",
+      "title": "Quiz builder",
+      "page": "quiz.html",
+      "description": "build and print a 10-question quiz with an answer key at the difficulty you choose, or just answer the question of the day on the home page."
+    },
+    {
+      "date": "2026-07-31",
+      "title": "New homepage",
+      "page": "index.html",
+      "description": "a daily-rotating featured life, theme, and quiz question now greet visitors first — browse and search moved to the People page."
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Places map",
+      "page": "map.html",
+      "description": "browse archaeological, traditional, and museum sites tied to the biblical narrative, with confirmed identifications marked apart from traditional ones."
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Timeline",
+      "page": "timeline.html",
+      "description": "see full entries grouped by biblical era, since most Old Testament dates are genuinely disputed among scholars."
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Connections graph",
+      "page": "connections.html",
+      "description": "explore family relationships and documented narrative connections between people named in Scripture."
+    }
+  ]
+}

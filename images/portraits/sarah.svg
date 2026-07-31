@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- veil -->
+    <path d="M76 58 C76 40 124 40 124 58 L130 100 L70 100 Z"/>
+    <!-- head -->
+    <circle cx="100" cy="64" r="18"/>
+    <!-- robe -->
+    <path d="M78 92 C78 87 122 87 122 92 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 92 L100 182"/>
+    <path d="M78 132 L122 132"/>
+    <!-- arm raised, hand near mouth in laughter -->
+    <path d="M118 100 C 126 96, 118 82, 108 78"/>
+    <!-- other arm resting -->
+    <path d="M82 100 L70 122"/>
+  </g>
+</svg>

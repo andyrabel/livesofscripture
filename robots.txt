@@ -1,0 +1,46 @@
+# Lives of Scripture — everything on this site is public reference content.
+# All crawlers, including AI/LLM crawlers, are welcome.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome known AI/LLM crawlers (belt-and-suspenders — the
+# wildcard rule above already allows them, but some crawler operators
+# document checking for their own named entry).
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://livesofscripture.org/sitemap.xml

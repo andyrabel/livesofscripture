@@ -5,6 +5,13 @@
   "tier": "full",
   "testament": "OT",
   "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": -1040,
+    "died": -970,
+    "note": "Dates follow a widely-used regnal chronology anchored to 1 Kings 6:1 and the 40-year reigns credited to David and Solomon. Other evangelical chronological frameworks shift these dates by a decade or more."
+  },
   "geographic_setting": ["Bethlehem", "Hebron", "Jerusalem", "Kingdom of Israel"],
   "references": ["1 Samuel 16-31", "2 Samuel", "1 Kings 1-2", "1 Chronicles 21"],
   "topics": ["kingship", "repentance", "covenant", "messianic line"],

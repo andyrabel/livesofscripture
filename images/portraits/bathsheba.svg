@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- veil -->
+    <path d="M78 56 C78 40 122 40 122 56 L128 96 L72 96 Z"/>
+    <!-- circlet as queen mother -->
+    <path d="M84 52 L116 52"/>
+    <circle cx="100" cy="50" r="3" fill="#6b4a1f" stroke="none"/>
+    <!-- head, bowed forward slightly -->
+    <circle cx="98" cy="64" r="17"/>
+    <!-- robe, bowing posture -->
+    <path d="M76 90 C76 85 120 85 120 90 L136 183 Q98 197 60 183 Z"/>
+    <path d="M98 90 L98 180"/>
+    <!-- arm extended in a gesture of petition -->
+    <path d="M118 98 L136 112"/>
+    <!-- other arm folded across -->
+    <path d="M80 98 L100 110"/>
+  </g>
+</svg>

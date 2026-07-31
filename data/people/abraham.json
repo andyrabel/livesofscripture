@@ -5,6 +5,10 @@
   "tier": "full",
   "testament": "OT",
   "era": "Patriarchal",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
   "geographic_setting": ["Ur of the Chaldeans", "Haran", "Canaan", "Egypt"],
   "references": ["Genesis 11:26-25:11", "Romans 4", "Hebrews 11:8-19"],
   "topics": ["faith", "covenant", "promise", "sonship"],

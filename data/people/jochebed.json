@@ -2,20 +2,42 @@
   "person_id": "jochebed",
   "name": "Jochebed",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "egypt",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": ["Egypt"],
   "references": [
     "Exodus 2:1-10",
-    "Exodus 6:20"
+    "Exodus 6:20",
+    "Numbers 26:59",
+    "Hebrews 11:23"
   ],
+  "topics": ["faith under persecution", "motherhood", "providence"],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite woman who hid her infant son Moses for three months in defiance of Pharaoh's decree to kill Hebrew baby boys, then set him adrift in a basket on the Nile, where Pharaoh's own daughter found him and unknowingly hired Jochebed herself to nurse him.",
+  "family_friendly_summary": "Jochebed bravely hid baby Moses to save his life, trusting God even when it was scary.",
+  "adult_story": "Jochebed gave birth to Moses under Pharaoh's standing order that every Hebrew baby boy be thrown into the Nile, and 'seeing that he was a fine child,' she hid him for three months — an act of faith the New Testament credits jointly to Moses' parents, who 'were not afraid of the king's edict' (Exodus 1:22-2:2; Hebrews 11:23). When she could no longer keep him hidden, she did not simply give him up: she wove a basket of papyrus, coated it with tar and pitch to make it watertight, and placed it among the reeds at the river's edge, essentially aiming his exposure toward the very place Pharaoh's household drew its water — a desperate plan that used the river Pharaoh had weaponized against Hebrew sons as the means of saving one instead (Exodus 2:3). She sent her daughter Miriam to watch from a distance. When Pharaoh's daughter came to bathe and found the basket, she recognized the child as a Hebrew baby and had compassion on him despite her father's decree; Miriam, watching, offered to find a Hebrew woman to nurse him and fetched her own mother (Exodus 2:4-8). In one of Scripture's sharper ironies, Pharaoh's daughter then paid Jochebed wages to nurse her own son, and Jochebed raised Moses in his earliest years under the unwitting protection and sponsorship of the very household that had ordered his death, until he was old enough to be brought to Pharaoh's daughter to become, legally, her son (Exodus 2:9-10). Exodus 6:20 and Numbers 26:59 supply her name and identify her as Amram's father's sister as well as his wife — an aunt-nephew marriage ordinary in the patriarchal period though later prohibited under the very Law that would be given through her own son at Sinai (Leviticus 18:12), a detail Scripture records without comment either way.",
+  "family_story": "Jochebed was the wife of Amram and mother of Miriam, Aaron, and Moses (Numbers 26:59) — the only mother in Scripture recorded raising a prophetess, Israel's first high priest, and its deliverer and lawgiver, all from the same womb. Her quick thinking and courage in the first chapters of Exodus, entrusting her infant son to a basket on the Nile rather than despairing under Pharaoh's decree, set in motion the entire deliverance story that follows.",
+  "image": {
+    "file": "jochebed.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, kneeling beside a woven basket set among reeds — evoking Exodus 2:3.",
+    "prompt_image_source": null,
+    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [
-      "amram"
-    ],
-    "children": [
-      "moses"
-    ]
+    "spouses": ["amram"],
+    "children": ["aaron", "moses"]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

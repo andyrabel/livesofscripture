@@ -5,6 +5,13 @@
   "tier": "full",
   "testament": "NT",
   "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "date",
+    "born": 5,
+    "died": 65,
+    "note": "Birth year is estimated from his description as a 'young man' at Stephen's stoning (c. AD 34) and as 'the aged' in Philemon (c. AD 60). The death date rests on early church tradition placing his execution in Rome under Nero, not on Scripture itself."
+  },
   "geographic_setting": ["Tarsus", "Jerusalem", "Damascus", "Asia Minor", "Greece", "Rome"],
   "references": ["Acts 9", "Acts 13-28", "Galatians 1-2", "1 Corinthians 15:9-10", "2 Corinthians 11:23-28"],
   "topics": ["justification by faith", "grace", "Gentile mission", "apostolic suffering"],
