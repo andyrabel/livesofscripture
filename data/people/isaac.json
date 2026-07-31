@@ -1,0 +1,16 @@
+{
+  "person_id": "isaac",
+  "name": "Isaac",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 21-35"
+  ],
+  "genealogy": {
+    "father": "abraham",
+    "mother": "sarah",
+    "spouses": [],
+    "children": []
+  }
+}

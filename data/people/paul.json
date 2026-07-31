@@ -1,0 +1,33 @@
+{
+  "person_id": "paul",
+  "name": "Paul",
+  "alt_names": ["Saul", "Saul of Tarsus"],
+  "tier": "full",
+  "testament": "NT",
+  "era": "Apostolic",
+  "geographic_setting": ["Tarsus", "Jerusalem", "Damascus", "Asia Minor", "Greece", "Rome"],
+  "references": ["Acts 9", "Acts 13-28", "Galatians 1-2", "1 Corinthians 15:9-10", "2 Corinthians 11:23-28"],
+  "topics": ["justification by faith", "grace", "Gentile mission", "apostolic suffering"],
+  "interpretive_dispute": true,
+  "interpretive_note": "Paul's marital status is not stated outright. 1 Corinthians 7:7-8 has been read by some as implying he was never married, though others note that membership in the Sanhedrin (if Paul held such standing) would ordinarily have required marriage, suggesting he may have been a widower. Scripture does not settle the question.",
+  "source_summary": "A Pharisee and violent persecutor of the church before encountering the risen Christ on the road to Damascus; became the central figure of the Gentile mission and author of a large portion of the New Testament, working out the doctrine of justification by faith apart from works of the law.",
+  "adult_story": "Saul of Tarsus was a Pharisee, trained under the respected rabbi Gamaliel, and by his own repeated admission a violent persecutor of the early church before his conversion — he approved of the stoning of Stephen, ravaged the church by dragging believers, men and women, out of their houses to prison, and was on his way to Damascus with letters authorizing further arrests when he encountered the risen Christ in a blinding light (Acts 7:58-8:3; Acts 9:1-9; Galatians 1:13-14; 1 Timothy 1:13-15). Scripture does not minimize this history to make Paul more sympathetic; Paul himself calls it out repeatedly, describing himself as formerly a blasphemer and persecutor, and later as the least of the apostles, unworthy to be called one, because he had persecuted the church of God (1 Corinthians 15:9). His conversion was not gradual persuasion but a direct confrontation with the risen Christ, followed by three days of blindness, healing and baptism through a reluctant disciple named Ananias, and an unspecified period in Arabia before he began preaching that Jesus is the Son of God in the very synagogues where he had once hunted Christians (Acts 9:10-22; Galatians 1:15-17). Paul became the central figure of the Gentile mission, undertaking multiple missionary journeys across Asia Minor and Greece, planting churches, and writing letters — a large portion of the New Testament — that work out in detail what it means that a person is justified by faith in Christ apart from works of the law, extending to Gentiles the same promise God had made to Abraham (Romans 3-4; Galatians 3). He also had real conflict within the church: he and Barnabas had a sharp disagreement over John Mark severe enough that they split into separate missionary teams (Acts 15:36-41), and he confronted Peter publicly at Antioch over what Paul considered inconsistency in gospel practice (Galatians 2:11-14). Paul was repeatedly beaten, imprisoned, shipwrecked, and stoned for his preaching, a catalog of suffering he lists himself as evidence of his apostolic authority rather than something to hide (2 Corinthians 11:23-28). He was eventually imprisoned in Rome; the New Testament narrative ends with him still under house arrest, and church tradition — not Scripture — holds that he was later executed under Nero, worth noting as tradition rather than as biblical record.",
+  "family_story": "Paul states plainly that he was unmarried at the time of writing 1 Corinthians and commends the single state, while also defending the right of an apostle to travel with a believing wife as Peter and others did (1 Corinthians 7:7-8; 1 Corinthians 9:5). He identifies himself as a Hebrew of Hebrews, of the tribe of Benjamin, circumcised the eighth day, a Roman citizen by birth, and mentions a sister and nephew living in Jerusalem whose warning of an assassination plot against Paul allowed him to escape it, one of the only glimpses Scripture gives of Paul's immediate family (Philippians 3:5; Acts 22:27-28; Acts 23:16-22).",
+  "image": {
+    "file": "paul.jpg",
+    "prompt_used": "Simple outline/line-art illustration, first-century Roman-Jewish traveling apostle figure, minimal detail, flat limited color palette, low file size, no attempt at facial-likeness accuracy since no historical portrait record exists.",
+    "prompt_image_source": null,
+    "caption": "AI-generated image — no copyright claimed"
+  },
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}

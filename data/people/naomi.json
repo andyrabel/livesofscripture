@@ -1,0 +1,14 @@
+{
+  "person_id": "naomi",
+  "name": "Naomi",
+  "alt_names": ["Mara"],
+  "tier": "stub",
+  "testament": "OT",
+  "references": ["Ruth 1", "Ruth 4:14-17"],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": ["elimelech"],
+    "children": ["mahlon"]
+  }
+}

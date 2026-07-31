@@ -1,0 +1,18 @@
+{
+  "person_id": "ishmael",
+  "name": "Ishmael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 16",
+    "Genesis 21:8-21",
+    "Genesis 25:12-18"
+  ],
+  "genealogy": {
+    "father": "abraham",
+    "mother": "hagar",
+    "spouses": [],
+    "children": []
+  }
+}

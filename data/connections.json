@@ -1,0 +1,40 @@
+{
+  "_note": "Genealogy edges (parent/child, spouse) live on each person's own record under `genealogy` and are not duplicated here. This file holds narrative relationship edges — types documented in CLAUDE.md: mentorship, collaboration, rivalry, conversion — added only where the story text of a full-tier entry documents them.",
+  "edges": [
+    {
+      "from": "samuel",
+      "to": "david",
+      "type": "mentorship",
+      "note": "Samuel anointed David as Saul's successor while David was still a shepherd boy, at God's direction.",
+      "references": ["1 Samuel 16:1-13"]
+    },
+    {
+      "from": "aaron",
+      "to": "moses",
+      "type": "collaboration",
+      "note": "Aaron served as Moses' spokesman before Pharaoh and co-led Israel through the Exodus, though he also built the golden calf in Moses' absence.",
+      "references": ["Exodus 4:14-16", "Exodus 7:1-2", "Exodus 32"]
+    },
+    {
+      "from": "jonathan",
+      "to": "david",
+      "type": "collaboration",
+      "note": "Jonathan and David formed a covenant friendship; Jonathan repeatedly protected David from Saul at his own risk and forfeited his claim to the throne.",
+      "references": ["1 Samuel 18:1-4", "1 Samuel 20"]
+    },
+    {
+      "from": "paul",
+      "to": "peter",
+      "type": "rivalry",
+      "note": "Paul publicly opposed Peter at Antioch, calling him a hypocrite for withdrawing from table fellowship with Gentile believers under pressure from certain Jewish Christians.",
+      "references": ["Galatians 2:11-14"]
+    },
+    {
+      "from": "paul",
+      "to": "peter",
+      "type": "collaboration",
+      "note": "Paul and Peter stood together at the Jerusalem Council affirming that Gentiles are saved by grace apart from the law.",
+      "references": ["Acts 15:6-11", "Galatians 2:9"]
+    }
+  ]
+}

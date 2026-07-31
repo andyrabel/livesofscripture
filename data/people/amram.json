@@ -1,0 +1,20 @@
+{
+  "person_id": "amram",
+  "name": "Amram",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:18-20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "jochebed"
+    ],
+    "children": [
+      "moses"
+    ]
+  }
+}

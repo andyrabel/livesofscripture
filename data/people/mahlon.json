@@ -1,0 +1,19 @@
+{
+  "person_id": "mahlon",
+  "name": "Mahlon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ruth 1:1-5",
+    "Ruth 4:10"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "naomi",
+    "spouses": [
+      "ruth"
+    ],
+    "children": []
+  }
+}

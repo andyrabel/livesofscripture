@@ -1,0 +1,22 @@
+{
+  "person_id": "zipporah",
+  "name": "Zipporah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 2:21-22",
+    "Exodus 4:24-26",
+    "Exodus 18:2-4"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "moses"
+    ],
+    "children": [
+      "gershom"
+    ]
+  }
+}

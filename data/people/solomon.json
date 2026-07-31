@@ -1,0 +1,19 @@
+{
+  "person_id": "solomon",
+  "name": "Solomon",
+  "alt_names": [
+    "Jedidiah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 12:24-25",
+    "1 Kings 1-11"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "bathsheba",
+    "spouses": [],
+    "children": []
+  }
+}

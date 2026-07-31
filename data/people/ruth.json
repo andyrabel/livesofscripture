@@ -1,0 +1,33 @@
+{
+  "person_id": "ruth",
+  "name": "Ruth",
+  "alt_names": [],
+  "tier": "full",
+  "testament": "OT",
+  "era": "Judges",
+  "geographic_setting": ["Moab", "Bethlehem"],
+  "references": ["Ruth 1-4", "Matthew 1:5"],
+  "topics": ["loyalty (hesed)", "redemption", "inclusion of outsiders", "providence"],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Moabite widow who bound herself to her mother-in-law Naomi and to Naomi's God, gleaned in the fields of Boaz, and became through him the great-grandmother of King David — an outsider grafted directly into Israel's covenant line and named in Matthew's genealogy of Jesus.",
+  "adult_story": "Ruth was a Moabite widow, married into an Israelite family that had settled in Moab during a famine, who lost her husband Mahlon along with her father-in-law and brother-in-law, leaving her mother-in-law Naomi without a son, husband, or means of support (Ruth 1:1-5). When Naomi decided to return to Bethlehem and urged her two Moabite daughters-in-law to stay behind and remarry among their own people, Ruth refused, binding herself to Naomi, to Naomi's people, and to Naomi's God in one of Scripture's most quoted statements of loyalty: wherever Naomi went, Ruth would go (Ruth 1:16-17). This was not a small thing — Moabites were, by the law of Moses, barred from entering the assembly of the LORD for ten generations because of Moab's history of hostility toward Israel (Deuteronomy 23:3-6) — and Ruth's story is in part about how God's grace overrides that exclusion for one who takes refuge under His wings (Ruth 2:12). In Bethlehem, Ruth supported herself and Naomi by gleaning grain in the fields, where she came under the notice of Boaz, a relative of Naomi's late husband, whose kindness to her went beyond what the gleaning law required (Ruth 2). Naomi recognized Boaz as a potential 'kinsman-redeemer' — a relative with the right and obligation to marry a childless widow and preserve her dead husband's name and property — and guided Ruth through the culturally coded process of asking Boaz to fulfill that role, which he did after a nearer relative declined (Ruth 3-4). Ruth is never shown converting in an evangelistic sense; the text simply presents her covenant loyalty to Naomi and to Naomi's God as already settled fact by the time she reaches Bethlehem, and treats her faith the same way it treats Abraham's — trust credited without a New Testament-style conversion narrative, because none yet existed for her to have.",
+  "family_story": "Ruth's marriage to Boaz produced a son, Obed, whom the women of Bethlehem celebrated as a restorer of life to Naomi and a name-bearer for her dead husband's line, and Scripture closes the book with a short genealogy tracing Obed's descent forward to Jesse and to David (Ruth 4:13-22). A Moabite woman, once excluded by law from Israel's assembly, becomes by God's providence the great-grandmother of Israel's greatest king — and Matthew's genealogy of Jesus names her explicitly alongside Tamar, Rahab, and Bathsheba as one of only four women in Christ's ancestral line before Mary, each of them an outsider or a figure touched by scandal, underscoring that the Messiah's lineage was never limited to the respectable (Matthew 1:5).",
+  "image": {
+    "file": "ruth.jpg",
+    "prompt_used": "Simple outline/line-art illustration, ancient Near Eastern woman in field-gleaning attire holding grain, minimal detail, flat limited color palette, low file size, no attempt at facial-likeness accuracy since no historical portrait record exists.",
+    "prompt_image_source": null,
+    "caption": "AI-generated image — no copyright claimed"
+  },
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": ["mahlon", "boaz"],
+    "children": ["obed"]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}

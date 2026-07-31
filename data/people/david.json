@@ -1,0 +1,33 @@
+{
+  "person_id": "david",
+  "name": "David",
+  "alt_names": [],
+  "tier": "full",
+  "testament": "OT",
+  "era": "United Monarchy",
+  "geographic_setting": ["Bethlehem", "Hebron", "Jerusalem", "Kingdom of Israel"],
+  "references": ["1 Samuel 16-31", "2 Samuel", "1 Kings 1-2", "1 Chronicles 21"],
+  "topics": ["kingship", "repentance", "covenant", "messianic line"],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Samuel 24:1 says the LORD incited David to take the census, while 1 Chronicles 21:1 attributes the incitement to Satan. Most interpreters read these as complementary rather than contradictory — God permitting Satan's temptation as an instrument of judgment — but the wording difference has generated discussion.",
+  "source_summary": "Youngest son of Jesse, anointed king in Saul's place, slayer of Goliath, recipient of God's covenant promise of an eternal throne fulfilled in Christ; also an adulterer and murderer whose repentance in Psalm 51 Scripture holds up as a model, and whose family fractured in the aftermath of his sin.",
+  "adult_story": "David was the youngest of Jesse's sons, a shepherd anointed king by Samuel while his older brothers were passed over and while Saul still sat on the throne — God's explanation being that He looks at the heart, not outward appearance (1 Samuel 16:1-13). He rose to prominence by killing the Philistine champion Goliath, then spent years as a fugitive from a jealous Saul before finally becoming king first over Judah and then over all Israel (1 Samuel 17; 1 Samuel 19-31; 2 Samuel 5:1-5). God made an unconditional covenant with David, promising that his throne would be established forever — a promise the New Testament identifies as fulfilled in Christ, 'great David's greater Son' (2 Samuel 7:12-16; Luke 1:32-33; Acts 2:29-36). Scripture does not soften what came next: while his army was at war, David stayed home, saw Bathsheba bathing, sent for her, and slept with her; when she became pregnant, he tried to cover it up and, when that failed, arranged for her husband Uriah to be killed in battle (2 Samuel 11). The prophet Nathan confronted David directly, and David's response — recorded in his own words in Psalm 51 — is one of Scripture's clearest models of genuine repentance rather than self-justification; God forgave him, but the child conceived in adultery died, and Nathan told David the sword would never depart from his house (2 Samuel 12:1-14). It did not: David's son Amnon raped his half-sister Tamar, Tamar's brother Absalom murdered Amnon in revenge, and Absalom later led an open rebellion against his own father that nearly cost David his throne and ended with Absalom's death, which David mourned bitterly even though the rebellion had been against him (2 Samuel 13-18). Late in his reign David also sinned by ordering a census of Israel's fighting men, an act of pride in his own military strength that Scripture says provoked God's anger and brought a plague on the nation (2 Samuel 24; 1 Chronicles 21:1). Despite these failures, David is remembered in Scripture as a man after God's own heart — not because he was blameless, but because when confronted with his sin he did not defend it (1 Samuel 13:14; Psalm 51).",
+  "family_story": "David's family was marked by both covenant blessing and deep dysfunction. He had multiple wives, including Michal, Saul's daughter, who despised him for dancing before the ark and was left childless; Abigail, whose wisdom had once spared David from bloodguilt before he married her; and Bathsheba, whose first child with David died but whose second son, Solomon, God chose as David's throne successor (1 Samuel 25; 2 Samuel 6:16-23; 2 Samuel 12:24-25). The rivalry among David's sons for succession — Amnon, Absalom, and later Adonijah — dominates the last chapters of his reign and cost several of them their lives (2 Samuel 13; 2 Samuel 18; 1 Kings 1-2). David's close friendship with Jonathan, Saul's son, who repeatedly protected David from his own father at great personal risk and forfeited his own claim to the throne, is held up in Scripture as a model of covenant loyalty distinct from any blood relationship (1 Samuel 18:1-4; 1 Samuel 20). David was the great-grandson of Ruth and Boaz, a Moabite great-grandmother woven directly into the ancestry of Israel's greatest king (Ruth 4:17-22).",
+  "image": {
+    "file": "david.jpg",
+    "prompt_used": "Simple outline/line-art illustration, ancient Near Eastern king figure with simple crown, minimal detail, flat limited color palette, low file size, no attempt at facial-likeness accuracy since no historical portrait record exists.",
+    "prompt_image_source": null,
+    "caption": "AI-generated image — no copyright claimed"
+  },
+  "genealogy": {
+    "father": "jesse",
+    "mother": null,
+    "spouses": ["bathsheba"],
+    "children": ["solomon"]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}

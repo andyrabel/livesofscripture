@@ -1,0 +1,320 @@
+:root {
+  --color-bg: #faf6ef;
+  --color-surface: #ffffff;
+  --color-border: #e3d9c6;
+  --color-text: #2b2620;
+  --color-text-muted: #6b6255;
+  --color-accent: #7a5c2e;
+  --color-accent-strong: #513e1c;
+  --color-ot: #6b7f5e;
+  --color-nt: #7a5c8c;
+  --color-warn: #b5842a;
+  --color-ok: #4c7a4c;
+  --radius: 8px;
+  --max-width: 960px;
+  --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1b1712;
+    --color-surface: #24201a;
+    --color-border: #3a3327;
+    --color-text: #ede6d8;
+    --color-text-muted: #b3a891;
+    --color-accent: #d8b978;
+    --color-accent-strong: #eccf8f;
+    --color-ot: #9fb890;
+    --color-nt: #c3a4d8;
+    --color-warn: #e0b054;
+    --color-ok: #7fbf7f;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #1b1712;
+  --color-surface: #24201a;
+  --color-border: #3a3327;
+  --color-text: #ede6d8;
+  --color-text-muted: #b3a891;
+  --color-accent: #d8b978;
+  --color-accent-strong: #eccf8f;
+  --color-ot: #9fb890;
+  --color-nt: #c3a4d8;
+  --color-warn: #e0b054;
+  --color-ok: #7fbf7f;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #faf6ef;
+  --color-surface: #ffffff;
+  --color-border: #e3d9c6;
+  --color-text: #2b2620;
+  --color-text-muted: #6b6255;
+  --color-accent: #7a5c2e;
+  --color-accent-strong: #513e1c;
+  --color-ot: #6b7f5e;
+  --color-nt: #7a5c8c;
+  --color-warn: #b5842a;
+  --color-ok: #4c7a4c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+}
+
+a { color: var(--color-accent-strong); }
+
+header.site-header {
+  border-bottom: 1px solid var(--color-border);
+  padding: 1.25rem 1rem;
+  background: var(--color-surface);
+}
+
+header.site-header .header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+header.site-header h1 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+header.site-header h1 a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+header.site-header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+header.site-header nav a:hover { color: var(--color-accent-strong); }
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.controls input[type="search"] {
+  flex: 1 1 240px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.controls select {
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+#result-count {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.person-card {
+  display: block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.15s ease;
+}
+
+.person-card:hover { border-color: var(--color-accent); }
+
+.person-card .name {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.person-card .meta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+}
+
+.badge.ot { color: var(--color-ot); border-color: var(--color-ot); }
+.badge.nt { color: var(--color-nt); border-color: var(--color-nt); }
+.badge.stub { color: var(--color-text-muted); }
+
+.review-badge {
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.review-badge.reviewed { color: var(--color-ok); border: 1px solid var(--color-ok); }
+.review-badge.unreviewed { color: var(--color-warn); border: 1px solid var(--color-warn); }
+
+.person-header {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.person-header img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.person-header .image-placeholder {
+  width: 140px;
+  height: 140px;
+  border-radius: var(--radius);
+  border: 1px dashed var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.person-title h2 {
+  font-family: var(--font-serif);
+  margin: 0 0 0.3rem;
+  font-size: 1.9rem;
+}
+
+.person-title .alt-names {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.person-title .tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+
+section.story h3 {
+  font-family: var(--font-serif);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.interpretive-note {
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-warn);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+.references-list {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.genealogy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.genealogy-block h4 {
+  margin: 0 0 0.3rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-muted);
+}
+
+.connections-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+
+.connections-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.92rem;
+}
+
+.stub-notice {
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  color: var(--color-text-muted);
+}
+
+footer.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  color: var(--color-text-muted);
+  padding: 2rem 0;
+  text-align: center;
+}

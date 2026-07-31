@@ -1,0 +1,19 @@
+{
+  "person_id": "obed",
+  "name": "Obed",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ruth 4:13-17",
+    "Matthew 1:5"
+  ],
+  "genealogy": {
+    "father": "boaz",
+    "mother": "ruth",
+    "spouses": [],
+    "children": [
+      "jesse"
+    ]
+  }
+}

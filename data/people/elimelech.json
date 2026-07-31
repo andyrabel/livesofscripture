@@ -1,0 +1,14 @@
+{
+  "person_id": "elimelech",
+  "name": "Elimelech",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": ["Ruth 1:1-3"],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": ["naomi"],
+    "children": ["mahlon"]
+  }
+}

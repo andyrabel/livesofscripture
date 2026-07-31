@@ -1,0 +1,18 @@
+{
+  "person_id": "terah",
+  "name": "Terah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:24-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abraham"
+    ]
+  }
+}

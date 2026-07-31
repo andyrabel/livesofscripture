@@ -1,0 +1,21 @@
+{
+  "person_id": "jochebed",
+  "name": "Jochebed",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 2:1-10",
+    "Exodus 6:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "amram"
+    ],
+    "children": [
+      "moses"
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "person_id": "aaron",
+    "name": "Aaron",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "abraham",
+    "name": "Abraham",
+    "alt_names": [
+      "Abram"
+    ],
+    "tier": "full",
+    "testament": "OT",
+    "era": "Patriarchal",
+    "topics": [
+      "faith",
+      "covenant",
+      "promise",
+      "sonship"
+    ]
+  },
+  {
+    "person_id": "amram",
+    "name": "Amram",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "bathsheba",
+    "name": "Bathsheba",
+    "alt_names": [
+      "Bathshua"
+    ],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "boaz",
+    "name": "Boaz",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "david",
+    "name": "David",
+    "alt_names": [],
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "kingship",
+      "repentance",
+      "covenant",
+      "messianic line"
+    ]
+  },
+  {
+    "person_id": "elimelech",
+    "name": "Elimelech",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "gershom",
+    "name": "Gershom",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "hagar",
+    "name": "Hagar",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "isaac",
+    "name": "Isaac",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "ishmael",
+    "name": "Ishmael",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "jesse",
+    "name": "Jesse",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "jochebed",
+    "name": "Jochebed",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "jonathan",
+    "name": "Jonathan",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "mahlon",
+    "name": "Mahlon",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "moses",
+    "name": "Moses",
+    "alt_names": [],
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "deliverance",
+      "law",
+      "mediation",
+      "leadership"
+    ]
+  },
+  {
+    "person_id": "naomi",
+    "name": "Naomi",
+    "alt_names": [
+      "Mara"
+    ],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "obed",
+    "name": "Obed",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "paul",
+    "name": "Paul",
+    "alt_names": [
+      "Saul",
+      "Saul of Tarsus"
+    ],
+    "tier": "full",
+    "testament": "NT",
+    "era": "Apostolic",
+    "topics": [
+      "justification by faith",
+      "grace",
+      "Gentile mission",
+      "apostolic suffering"
+    ]
+  },
+  {
+    "person_id": "peter",
+    "name": "Peter",
+    "alt_names": [
+      "Simon",
+      "Simon Peter",
+      "Cephas"
+    ],
+    "tier": "full",
+    "testament": "NT",
+    "era": "Gospels",
+    "topics": [
+      "discipleship",
+      "failure and restoration",
+      "apostolic leadership"
+    ]
+  },
+  {
+    "person_id": "ruth",
+    "name": "Ruth",
+    "alt_names": [],
+    "tier": "full",
+    "testament": "OT",
+    "era": "Judges",
+    "topics": [
+      "loyalty (hesed)",
+      "redemption",
+      "inclusion of outsiders",
+      "providence"
+    ]
+  },
+  {
+    "person_id": "samuel",
+    "name": "Samuel",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "sarah",
+    "name": "Sarah",
+    "alt_names": [
+      "Sarai"
+    ],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "solomon",
+    "name": "Solomon",
+    "alt_names": [
+      "Jedidiah"
+    ],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "terah",
+    "name": "Terah",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  },
+  {
+    "person_id": "zipporah",
+    "name": "Zipporah",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT"
+  }
+]

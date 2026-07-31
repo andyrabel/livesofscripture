@@ -1,0 +1,21 @@
+{
+  "person_id": "hagar",
+  "name": "Hagar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 16",
+    "Genesis 21:8-21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "abraham"
+    ],
+    "children": [
+      "ishmael"
+    ]
+  }
+}

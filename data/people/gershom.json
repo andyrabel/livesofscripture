@@ -1,0 +1,17 @@
+{
+  "person_id": "gershom",
+  "name": "Gershom",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 2:22",
+    "Exodus 18:3"
+  ],
+  "genealogy": {
+    "father": "moses",
+    "mother": "zipporah",
+    "spouses": [],
+    "children": []
+  }
+}

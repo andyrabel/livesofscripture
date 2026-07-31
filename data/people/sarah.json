@@ -1,0 +1,24 @@
+{
+  "person_id": "sarah",
+  "name": "Sarah",
+  "alt_names": [
+    "Sarai"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:29",
+    "Genesis 17:15-16",
+    "Genesis 21:1-7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "abraham"
+    ],
+    "children": [
+      "isaac"
+    ]
+  }
+}

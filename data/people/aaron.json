@@ -1,0 +1,19 @@
+{
+  "person_id": "aaron",
+  "name": "Aaron",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 4:14-16",
+    "Exodus 28-29",
+    "Exodus 32",
+    "Numbers 20:22-29"
+  ],
+  "genealogy": {
+    "father": "amram",
+    "mother": "jochebed",
+    "spouses": [],
+    "children": []
+  }
+}
