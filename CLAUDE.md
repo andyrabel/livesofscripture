@@ -14,8 +14,8 @@ reliable reference for who's who in Scripture, how everyone connects by
 genealogy and relationship, and what each person's story reveals about God's
 redemptive plan.
 
-Domain: **LivesOfScripture.org** (name chosen 2026-07-30; verify registration
-before committing).
+Domain: **LivesOfScripture.org** (name chosen 2026-07-30; domain purchased by
+Andrew 2026-07-30).
 
 ---
 
@@ -104,9 +104,11 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
 
 - **NASB is the default/base translation** for canonical name spelling and
   the id/lookup system.
-- The site lets visitors select from a few translations (still just NASB,
-  KJV, and possibly NIV/ESV for name-display purposes — confirm final list)
-  — this changes displayed **name spelling only**, defaulting to NASB.
+- The site lets visitors select between **NASB and KJV** for name-display
+  purposes (decided 2026-07-30) — this changes displayed **name spelling
+  only**, defaulting to NASB. NIV/ESV may be added later without a schema
+  change (`alt_names` already generalizes to any number of translations) but
+  are not in scope for the initial build.
 - **No verse text is stored or quoted anywhere on the site**, in any
   translation, for copyright reasons. NASB/ESV/NIV are all copyrighted with
   quotation-limit policies that don't scale to thousands of entries. Use
@@ -136,8 +138,8 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
   "geographic_setting": ["Gilead", "Kingdom of Israel"],
   "references": ["1 Kings 17-19", "1 Kings 21", "2 Kings 1-2", "Malachi 4:5-6"],
   "topics": ["prophecy", "faith under persecution", "God's provision"],
-  "flagged": false,
-  "footnote": "",
+  "interpretive_dispute": false,
+  "interpretive_note": "",
   "source_summary": "Brief factual summary grounded in the biblical text",
   "adult_story": "...",
   "family_story": "...",
@@ -180,12 +182,22 @@ Stub entry (minimal tier):
 }
 ```
 
-Open questions on this schema (resolve before building): final `era`
-taxonomy for OT/NT chronology; whether `geographic_setting` is worth a
-controlled vocabulary for filtering the way Lives of Faith uses `region`;
-whether `flagged`/`footnote` is the right mechanism for interpretive disputes
-or needs its own field distinct from the moral/historical flag concept it's
-borrowed from.
+`era` taxonomy is finalized (see Open Questions history below). Still open:
+whether `geographic_setting` is worth a controlled vocabulary for filtering
+the way Lives of Faith uses `region` — revisit once enough full entries exist
+to see the actual spread of locations.
+
+Note on `interpretive_dispute`/`interpretive_note` (decided 2026-07-30): this
+is a deliberately distinct field from Lives of Faith's `flagged`/`footnote`,
+not a renamed reuse. Lives of Faith's field flags *moral/historical concerns*
+about a person. That concept has no equivalent here — per the Theological
+Requirements above, Scripture's own honesty about a hero's sin (David,
+Solomon, Noah, Abraham, Peter, Jonah) is the text itself, never a
+footnote-worthy concern, and must never be marked via this field.
+`interpretive_dispute`/`interpretive_note` exists only for *interpretive*
+questions: disputed authorship, disputed identification (e.g. "the beloved
+disciple"), disputed chronology, or a figure whose portrayal differs sharply
+across Christian traditions.
 
 ---
 
@@ -217,14 +229,20 @@ borrowed from.
   people" reference sites.
 - At ~3,000 people, genealogy edges (parent/child, tribal descent, marriage)
   cannot be hand-curated one-by-one from prose the way Lives of Faith's
-  `connections.json` is today. **Source a structured genealogy dataset**
-  (e.g. an existing open Bible genealogy/names dataset) to bulk-generate
-  parent/child edges, then hand-add the smaller set of *narrative*
-  relationship types (mentorship, conversion, rivalry, collaboration —
-  same typed-edge model as Lives of Faith) only for full-tier entries where
-  the story text documents them.
-- This is an unresolved research task, not yet scoped: identify and vet a
-  reliable structured genealogy source before building the graph.
+  `connections.json` is today. **Source dataset (decided 2026-07-30):
+  [BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data)**
+  — CC BY 4.0 (attribution required, commercial use permitted). Use its
+  `BibleData-Person`, `BibleData-PersonLabel` (Hebrew/Greek originals +
+  Strong's numbers), and `BibleData-PersonRelationship` tables to
+  bulk-generate parent/child edges and seed `person_id`/`alt_names`, then
+  hand-add the smaller set of *narrative* relationship types (mentorship,
+  conversion, rivalry, collaboration — same typed-edge model as Lives of
+  Faith) only for full-tier entries where the story text documents them.
+  Attribution to Brady Stephenson is required somewhere on the site (About
+  page / footer) per CC BY 4.0 terms.
+- Before bulk-importing, verify the current shape of the CSV/table exports
+  (column names, ID scheme) directly from the repo, since this decision was
+  made from repo documentation, not a hands-on data review.
 
 ---
 
@@ -255,8 +273,9 @@ would run 14–16MB even with light stub entries. Instead:
 └── images/portraits/
 ```
 
-(Exact chunking strategy — one file per person vs. sharded batches — is an
-implementation decision, not fixed yet.)
+(Chunking strategy decided 2026-07-30: one file per person, as shown above —
+not sharded batches. Simpler cache/invalidation behavior and smaller diffs
+per content update outweigh the extra file count at this scale.)
 
 ---
 
@@ -293,25 +312,31 @@ exist.
   historical/cultural background supplementing the text.
 - **Wikipedia** — background/context only, never as the source of narrative
   claims the text itself should be supplying.
-- A structured genealogy dataset (TBD — research task) for bulk
-  parent/child relationship data.
+- **[BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data)**
+  (CC BY 4.0) for bulk parent/child relationship data — see Genealogy /
+  Connections Graph above.
 
 ---
 
-## Open Questions Before Building
+## Open Questions — Resolved 2026-07-30
 
-These were flagged during scoping (2026-07-30) and should be resolved before
-Step 1 of the build sequence:
-1. Final `era` taxonomy for Bible chronology (Patriarchal, Exodus/Wilderness,
+All five items flagged during scoping are now resolved; the seed-set build
+may proceed.
+
+1. **Era taxonomy**: finalized as drafted — Patriarchal, Exodus/Wilderness,
    Judges, United Monarchy, Divided Monarchy, Exile, Post-Exile/
-   Intertestamental, Gospels, Apostolic — confirm and finalize).
-2. Which translations besides NASB the version-selector supports.
-3. Source and licensing check for the structured genealogy dataset.
-4. Exact chunking strategy for the data layer (per-person files vs. sharded
-   batches).
-5. Whether `flagged`/`footnote` (borrowed from Lives of Faith's
-   moral/historical concern mechanism) is the right fit for biblical
-   interpretive disputes, or needs a distinct field.
+   Intertestamental, Gospels, Apostolic.
+2. **Translations**: NASB (default) + KJV for the initial build. NIV/ESV
+   deferred, addable later without a schema change.
+3. **Genealogy dataset**: [BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data),
+   CC BY 4.0. See Genealogy / Connections Graph section for details and the
+   pre-import verification step.
+4. **Chunking strategy**: one JSON file per person (`data/people/[person_id].json`),
+   not sharded batches.
+5. **Interpretive-dispute field**: split into `interpretive_dispute` (bool) +
+   `interpretive_note` (string), kept fully distinct from Lives of Faith's
+   `flagged`/`footnote` moral-concern mechanism, which has no equivalent on
+   this site. See the JSON Schema section for the rationale.
 
 ---
 
@@ -321,9 +346,9 @@ Step 1 of the build sequence:
 2. Confirm understanding of the theological framing differences from Lives
    of Faith (redemptive-historical Christ-thread for OT figures; Scripture's
    own honesty about its heroes' flaws is not something to flag/footnote).
-3. Do not start content generation until the Open Questions above are
-   resolved with Andrew.
-4. Once resolved, create the directory structure and begin with a small
-   seed set of well-documented figures (e.g. Abraham, Moses, David, Ruth,
-   Peter, Paul) to prove out the two-tier schema and chunked data
-   architecture before scaling toward full coverage.
+3. The Open Questions above are resolved (2026-07-30) — content generation
+   may proceed.
+4. Create the directory structure and begin with a small seed set of
+   well-documented figures (e.g. Abraham, Moses, David, Ruth, Peter, Paul)
+   to prove out the two-tier schema and chunked data architecture before
+   scaling toward full coverage.
