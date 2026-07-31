@@ -233,6 +233,19 @@ async function renderFullPerson(person, index, connections) {
     main.appendChild(summary);
   }
 
+  if (person.family_friendly_summary) {
+    const kidBox = document.createElement("div");
+    kidBox.className = "family-friendly";
+    const label = document.createElement("span");
+    label.className = "family-friendly-label";
+    label.textContent = "For younger readers";
+    const text = document.createElement("p");
+    text.textContent = person.family_friendly_summary;
+    kidBox.appendChild(label);
+    kidBox.appendChild(text);
+    main.appendChild(kidBox);
+  }
+
   if (person.interpretive_dispute && person.interpretive_note) {
     const note = document.createElement("div");
     note.className = "interpretive-note";

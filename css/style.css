@@ -268,6 +268,28 @@ section.story h3 {
   margin-top: 2rem;
 }
 
+.family-friendly {
+  background: var(--color-surface);
+  border: 1px solid var(--color-ok);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.family-friendly-label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-ok);
+  margin-bottom: 0.25rem;
+}
+
+.family-friendly p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 .interpretive-note {
   background: var(--color-surface);
   border-left: 3px solid var(--color-warn);
