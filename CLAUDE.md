@@ -229,9 +229,30 @@ across Christian traditions.
     "artistic tradition, not historical record" rather than implying
     likeness accuracy.
 - Same caption-burning requirement as Lives of Faith: every published image
-  gets "AI-generated image — no copyright claimed" burned into the file
-  itself, not just an HTML caption.
+  gets a caption identifying its origin burned into the file itself, not
+  just an HTML caption. If an image is AI-generated, that caption reads
+  "AI-generated image — no copyright claimed"; see the note below for the
+  case where it isn't.
 - Only full-tier entries with a story get an image. Stub entries never do.
+
+**Note on the seed-set illustrations (2026-07-30):** the six seed images
+(Abraham, Moses, David, Ruth, Peter, Paul) were *not* AI-generated — no
+AI image-generation tool was available in the environment they were built
+in. They're hand-authored SVG line art instead: a plain robed silhouette
+with no attempted face, distinguished only by one symbolic prop per person
+(Abraham gesturing at stars, Moses with staff and tablets, David with crown
+and sling, Ruth with a wheat sheaf, Peter with a key, Paul with a scroll and
+radiating light). This still satisfies the style requirement above (simple,
+low-detail, no likeness claim) but is a symbolic-emblem approach rather than
+a figurative illustration of the person, and their captions say so
+("Original line-art illustration...") rather than claiming AI generation,
+which would be false. Caption text is *not* burned into these six PNGs
+(unlike the AI-generated-image requirement above) since there's no
+provenance ambiguity to guard against for original hand-authored vector
+art. Revisit this approach once a real image-generation pipeline is
+available for the site — decide then whether to keep the symbolic-emblem
+style at scale or switch to AI-generated figurative portraits per the
+original spec.
 
 ---
 
@@ -256,6 +277,88 @@ across Christian traditions.
 - Before bulk-importing, verify the current shape of the CSV/table exports
   (column names, ID scheme) directly from the repo, since this decision was
   made from repo documentation, not a hands-on data review.
+
+### Connections Graph Page
+
+Same pattern as Lives of Faith's `connections.html` — a radial graph
+visualization with a combobox picker to select a starting person, network-size
+counts, and greyed-out nodes for anyone unconnected to the current selection.
+At biblical scale this page matters *more* than it does on Lives of Faith,
+since most of a typical person's connections will be genealogical rather than
+narrative (mentorship/conversion/etc.), so the graph is likely to be dominated
+by long tribal-descent chains (e.g. the Genesis 5 and Genesis 11 "begat"
+chains, the 1 Chronicles 1–9 genealogies). Depth/zoom defaults that work for
+Lives of Faith's smaller, mostly-narrative-edge graph may not work unchanged
+here — expect this to need its own tuning pass once real genealogy data from
+BradyStephenson/bible-data is loaded, rather than assuming the original's
+settings transfer directly.
+
+---
+
+## Timeline
+
+Same concept as Lives of Faith's `timeline.html` — a chronological view across
+all full-tier people — but biblical chronology is a fundamentally harder
+problem than post-Reformation history, and this needs to be designed for from
+the start rather than discovered as a bug later:
+
+- Most Old Testament dates, especially pre-monarchy, are **disputed among
+  evangelical scholars themselves** — not just "uncertain" the way an obscure
+  missionary's birth year might be uncertain, but genuinely contested by
+  competing scholarly frameworks (e.g. the early-date ~1446 BC vs. late-date
+  ~1250 BC Exodus debate; differing patriarchal chronologies depending on how
+  the genealogies are read). The site must not silently pick one framework and
+  present it as settled fact.
+- Recommended approach: **default every OT figure to an `era` bucket**
+  (Patriarchal, Exodus/Wilderness, Judges, United Monarchy, Divided Monarchy,
+  Exile, Post-Exile/Intertestamental, Gospels, Apostolic — the finalized
+  taxonomy from the JSON Schema section) rather than a specific year. Only
+  assign a specific year (with the existing Lives of Faith `"c. "`
+  uncertainty-prefix convention) where a reasonably solid evangelical
+  scholarly consensus exists (e.g. Solomon's temple construction, calculable
+  from 1 Kings 6:1 and widely-used regnal chronologies) — and even then, note
+  in the entry that the date rests on a particular chronological framework
+  rather than stating it as bare fact.
+- New Testament dating is comparatively firmer (Roman-era cross-references
+  exist) and can follow the existing Lives of Faith `significant_dates`
+  pattern much more directly — full dates or `"c. "` estimates as normal.
+- The timeline UI itself should visually distinguish "era-only" placements
+  from "specific date" placements, since plotting a Judges-era figure at a
+  precise x-axis position implies a false precision the underlying data
+  doesn't have.
+
+---
+
+## Places / Map (Archaeological and Traditional Sites)
+
+Lives of Faith has two related concepts: a `memorials` array per person
+(gravestones, statues — confirmed physical locations) and a separate
+`places.json` (museums/archives not tied to one person), both rendered on
+`map.html`. For this project:
+
+- **Per-person memorials mostly don't apply**, as already noted under
+  Coverage and Two-Tier Depth — most biblical figures have no confirmed
+  burial site. Where a **traditional** site is well-known and visited (Tomb
+  of the Patriarchs at Hebron, traditional Tomb of David, Garden Tomb vs.
+  Church of the Holy Sepulchre for the resurrection site), it may be
+  included, but the entry must state plainly that it is a *traditional* or
+  *disputed* identification, not an archaeologically confirmed one — and
+  where two traditions compete for the same event (as with the two
+  resurrection-site candidates), include both rather than silently picking a
+  side, the same principle as the "disputed identification" rule under
+  Factual Accuracy above.
+- **A `places.json`-equivalent for archaeological/biblical-geography sites**
+  is a stronger fit here than it was for Lives of Faith, and worth building
+  deliberately rather than as an afterthought: excavated sites tied to
+  biblical narrative (Jericho, Capernaum, Megiddo, Masada, Corinth, Ephesus,
+  the Areopagus in Athens, Bethlehem's Church of the Nativity), and major
+  museum holdings relevant to the text (e.g. the Shrine of the Book at the
+  Israel Museum for the Dead Sea Scrolls). Same `type` + `open_to_public`
+  pattern as Lives of Faith's places schema, plus a new field distinguishing
+  **archaeologically confirmed** identification from **traditional/disputed**
+  identification — this distinction needs to be visible on the map itself,
+  not just buried in body text, given how many biblical site identifications
+  are genuinely contested among scholars.
 
 ---
 
@@ -300,6 +403,21 @@ Same badge system as Lives of Faith, full-tier entries only:
 
 Stub entries display no badge (nothing generative was produced beyond a name
 and a reference).
+
+---
+
+## What's New Feed
+
+Same concept as Lives of Faith's `data/whats-new.json` + home-page sidebar box
+— a short, factual, most-recent-4-shown feed of site changes (new features,
+not routine content additions). Carries over essentially unchanged:
+ISO-dated entries with a short title, a target page, and a one-sentence lowercase
+description. Not urgent for initial build — this is a nice-to-have once the
+site has shipped its first few real features, not part of the seed-set proof
+of concept. If Lives of Faith's git-history-driven auto-drafting script
+(`_build/generate_whats_new.py`) turns out to work well there, it's a
+reasonable candidate to port later rather than reinvent — revisit once this
+project has its own commit history to draft from.
 
 ---
 

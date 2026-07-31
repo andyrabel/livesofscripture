@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <circle cx="100" cy="72" r="19"/>
+    <!-- veil -->
+    <path d="M76 68 C 76 50 124 50 124 68 L 130 110 L 118 96 L 100 108 L 82 96 L 70 110 Z"/>
+    <!-- robe -->
+    <path d="M78 94 C78 89 122 89 122 94 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 94 L100 182"/>
+    <path d="M80 132 L120 132"/>
+    <!-- arm holding wheat -->
+    <path d="M122 102 L140 122"/>
+    <!-- wheat sheaf -->
+    <g>
+      <path d="M140 122 L140 90"/>
+      <path d="M140 96 L133 88 M140 96 L147 88 M140 104 L132 98 M140 104 L148 98 M140 112 L133 106 M140 112 L147 106"/>
+    </g>
+    <path d="M78 102 L62 118"/>
+  </g>
+</svg>

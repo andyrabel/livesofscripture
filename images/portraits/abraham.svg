@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- stars -->
+    <path d="M60 30 l3 7 7 1-5 5 1 7-6-4-6 4 1-7-5-5 7-1z" fill="#6b4a1f" stroke="none"/>
+    <path d="M100 20 l2.5 6 6 1-4.5 4 1 6-5-3.5-5 3.5 1-6-4.5-4 6-1z" fill="#6b4a1f" stroke="none"/>
+    <path d="M138 34 l3 7 7 1-5 5 1 7-6-4-6 4 1-7-5-5 7-1z" fill="#6b4a1f" stroke="none"/>
+    <!-- head -->
+    <circle cx="100" cy="70" r="20"/>
+    <!-- robe -->
+    <path d="M76 92 C76 87 124 87 124 92 L142 185 Q100 197 58 185 Z"/>
+    <path d="M100 92 L100 182"/>
+    <path d="M78 130 L122 130"/>
+    <!-- raised arm gesturing to stars -->
+    <path d="M118 100 C 132 92, 140 78, 138 60"/>
+  </g>
+</svg>

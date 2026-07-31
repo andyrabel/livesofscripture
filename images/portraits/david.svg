@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- small crown above head -->
+    <path d="M84 32 L84 20 L92 28 L100 16 L108 28 L116 20 L116 32 Z"/>
+    <!-- head -->
+    <circle cx="100" cy="58" r="18"/>
+    <!-- robe -->
+    <path d="M78 79 C78 74 122 74 122 79 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 79 L100 182"/>
+    <path d="M80 122 L120 122"/>
+    <!-- sling arm: two straps meeting at a pouch with a stone -->
+    <path d="M78 90 L58 100"/>
+    <path d="M58 100 L40 90 M58 100 L40 112"/>
+    <circle cx="38" cy="101" r="5" fill="#6b4a1f" stroke="none"/>
+    <!-- other arm resting -->
+    <path d="M122 90 L136 112"/>
+  </g>
+</svg>
