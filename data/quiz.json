@@ -420,6 +420,804 @@
       "topic_id": "jesse",
       "difficulty": 3,
       "reference": "Isaiah 11:1, 10"
+    },
+    {
+      "question": "Who anointed Saul as Israel's first king?",
+      "answer": "The prophet Samuel.",
+      "topic_id": "saul",
+      "difficulty": 1,
+      "reference": "1 Samuel 10:1"
+    },
+    {
+      "question": "What did Saul do at Gilgal that was his first recorded act of disobedience?",
+      "answer": "He offered a sacrifice himself instead of waiting for Samuel.",
+      "topic_id": "saul",
+      "difficulty": 2,
+      "reference": "1 Samuel 13:8-14"
+    },
+    {
+      "question": "Whom did Saul consult at En-dor before his final battle?",
+      "answer": "A medium, to summon the spirit of Samuel.",
+      "topic_id": "saul",
+      "difficulty": 3,
+      "reference": "1 Samuel 28:7-19"
+    },
+    {
+      "question": "Whose son was King Rehoboam?",
+      "answer": "Solomon's.",
+      "topic_id": "rehoboam",
+      "difficulty": 1,
+      "reference": "1 Kings 11:43"
+    },
+    {
+      "question": "What harsh answer did Rehoboam give the people who asked for lighter labor?",
+      "answer": "That he would make their yoke heavier, disciplining them with \"scorpions.\"",
+      "topic_id": "rehoboam",
+      "difficulty": 2,
+      "reference": "1 Kings 12:14"
+    },
+    {
+      "question": "Which Egyptian king invaded Judah in Rehoboam's fifth year and plundered the temple?",
+      "answer": "Shishak.",
+      "topic_id": "rehoboam",
+      "difficulty": 3,
+      "reference": "1 Kings 14:25-26"
+    },
+    {
+      "question": "Over how many of Israel's tribes did Jeroboam become king?",
+      "answer": "Ten (the northern tribes).",
+      "topic_id": "jeroboam",
+      "difficulty": 1,
+      "reference": "1 Kings 11:31"
+    },
+    {
+      "question": "What two objects did Jeroboam set up at Bethel and Dan for the people to worship?",
+      "answer": "Two golden calves.",
+      "topic_id": "jeroboam",
+      "difficulty": 2,
+      "reference": "1 Kings 12:28-29"
+    },
+    {
+      "question": "What miraculous sign confirmed the man of God's warning to Jeroboam at Bethel's altar?",
+      "answer": "The altar split apart, and Jeroboam's hand withered (then was restored).",
+      "topic_id": "jeroboam",
+      "difficulty": 3,
+      "reference": "1 Kings 13:3-6"
+    },
+    {
+      "question": "Who was Ahab's wife, who introduced Baal worship to Israel?",
+      "answer": "Jezebel.",
+      "topic_id": "ahab",
+      "difficulty": 1,
+      "reference": "1 Kings 16:31"
+    },
+    {
+      "question": "Whose vineyard did Ahab covet and unjustly seize?",
+      "answer": "Naboth's.",
+      "topic_id": "ahab",
+      "difficulty": 2,
+      "reference": "1 Kings 21:1-16"
+    },
+    {
+      "question": "How did Ahab die, as the prophet Micaiah had foretold?",
+      "answer": "Struck by a stray arrow at Ramoth-gilead.",
+      "topic_id": "ahab",
+      "difficulty": 3,
+      "reference": "1 Kings 22:34-38"
+    },
+    {
+      "question": "Whose son was King Jehoshaphat of Judah?",
+      "answer": "Asa's.",
+      "topic_id": "jehoshaphat-3",
+      "difficulty": 1,
+      "reference": "1 Kings 22:41"
+    },
+    {
+      "question": "What did Jehoshaphat do when a vast enemy coalition invaded Judah?",
+      "answer": "He proclaimed a fast and prayed publicly for God's help.",
+      "topic_id": "jehoshaphat-3",
+      "difficulty": 2,
+      "reference": "2 Chronicles 20:3-12"
+    },
+    {
+      "question": "Which prophet rebuked Jehoshaphat for allying with wicked King Ahab?",
+      "answer": "Jehu son of Hanani.",
+      "topic_id": "jehoshaphat-3",
+      "difficulty": 3,
+      "reference": "2 Chronicles 19:1-3"
+    },
+    {
+      "question": "Who anointed Jehu king over Israel?",
+      "answer": "A young prophet sent by Elisha.",
+      "topic_id": "jehu-2",
+      "difficulty": 1,
+      "reference": "2 Kings 9:1-6"
+    },
+    {
+      "question": "How did Jezebel die, fulfilling Elijah's earlier prophecy?",
+      "answer": "She was thrown from a window and eaten by dogs.",
+      "topic_id": "jehu-2",
+      "difficulty": 2,
+      "reference": "2 Kings 9:30-37"
+    },
+    {
+      "question": "What did Jehu fail to remove even after purging Baal worship from Israel?",
+      "answer": "The golden calves at Bethel and Dan.",
+      "topic_id": "jehu-2",
+      "difficulty": 3,
+      "reference": "2 Kings 10:29"
+    },
+    {
+      "question": "What object did Hezekiah destroy because Israel had begun worshiping it as an idol?",
+      "answer": "The bronze serpent Moses had made (Nehushtan).",
+      "topic_id": "hezekiah",
+      "difficulty": 1,
+      "reference": "2 Kings 18:4"
+    },
+    {
+      "question": "How many Assyrian soldiers did the angel of the LORD strike down in one night?",
+      "answer": "185,000.",
+      "topic_id": "hezekiah",
+      "difficulty": 2,
+      "reference": "2 Kings 19:35"
+    },
+    {
+      "question": "What sign did God give Hezekiah to confirm his life would be extended fifteen years?",
+      "answer": "The sun's shadow moved backward.",
+      "topic_id": "hezekiah",
+      "difficulty": 3,
+      "reference": "2 Kings 20:8-11"
+    },
+    {
+      "question": "Whose son was King Manasseh of Judah?",
+      "answer": "Hezekiah's.",
+      "topic_id": "manasseh-3",
+      "difficulty": 1,
+      "reference": "2 Kings 21:1"
+    },
+    {
+      "question": "What happened to Manasseh that led him to humble himself before God?",
+      "answer": "He was captured by the Assyrians and taken to Babylon in bronze shackles.",
+      "topic_id": "manasseh-3",
+      "difficulty": 2,
+      "reference": "2 Chronicles 33:11-12"
+    },
+    {
+      "question": "In which biblical book alone is Manasseh's repentance and restoration recorded?",
+      "answer": "2 Chronicles (not 2 Kings).",
+      "topic_id": "manasseh-3",
+      "difficulty": 3,
+      "reference": "2 Chronicles 33:12-13"
+    },
+    {
+      "question": "How old was Josiah when he became king?",
+      "answer": "Eight.",
+      "topic_id": "josiah",
+      "difficulty": 1,
+      "reference": "2 Kings 22:1"
+    },
+    {
+      "question": "What did Hilkiah discover during the temple repairs Josiah ordered?",
+      "answer": "The Book of the Law.",
+      "topic_id": "josiah",
+      "difficulty": 2,
+      "reference": "2 Kings 22:8"
+    },
+    {
+      "question": "How did Josiah die?",
+      "answer": "Fatally wounded in battle against Pharaoh Necho at Megiddo.",
+      "topic_id": "josiah",
+      "difficulty": 3,
+      "reference": "2 Chronicles 35:20-24"
+    },
+    {
+      "question": "What was Zedekiah's original name before Nebuchadnezzar renamed him?",
+      "answer": "Mattaniah.",
+      "topic_id": "zedekiah-2",
+      "difficulty": 1,
+      "reference": "2 Kings 24:17"
+    },
+    {
+      "question": "Which prophet did Zedekiah repeatedly consult but fail to heed?",
+      "answer": "Jeremiah.",
+      "topic_id": "zedekiah-2",
+      "difficulty": 2,
+      "reference": "Jeremiah 38:14-23"
+    },
+    {
+      "question": "What was the last thing Zedekiah saw before he was blinded?",
+      "answer": "The execution of his own sons at Riblah.",
+      "topic_id": "zedekiah-2",
+      "difficulty": 3,
+      "reference": "2 Kings 25:7"
+    },
+    {
+      "question": "On what mountain did Elijah defeat the prophets of Baal?",
+      "answer": "Mount Carmel.",
+      "topic_id": "elijah",
+      "difficulty": 1,
+      "reference": "1 Kings 18:19-40"
+    },
+    {
+      "question": "How did God speak to Elijah at Horeb after his flight from Jezebel?",
+      "answer": "In a still small voice (a gentle whisper).",
+      "topic_id": "elijah",
+      "difficulty": 2,
+      "reference": "1 Kings 19:11-13"
+    },
+    {
+      "question": "How did Elijah leave the earth?",
+      "answer": "Taken up to heaven in a whirlwind by a chariot of fire.",
+      "topic_id": "elijah",
+      "difficulty": 3,
+      "reference": "2 Kings 2:11"
+    },
+    {
+      "question": "What did Elisha ask for from Elijah before Elijah was taken up to heaven?",
+      "answer": "A double portion of his spirit.",
+      "topic_id": "elisha",
+      "difficulty": 1,
+      "reference": "2 Kings 2:9"
+    },
+    {
+      "question": "How many times did Naaman have to wash in the Jordan to be healed of leprosy?",
+      "answer": "Seven.",
+      "topic_id": "elisha",
+      "difficulty": 2,
+      "reference": "2 Kings 5:10-14"
+    },
+    {
+      "question": "What happened to Gehazi after he secretly took payment from Naaman?",
+      "answer": "He was struck with Naaman's leprosy.",
+      "topic_id": "elisha",
+      "difficulty": 3,
+      "reference": "2 Kings 5:20-27"
+    },
+    {
+      "question": "What did a seraph touch to Isaiah's lips in his vision of God's throne?",
+      "answer": "A burning coal.",
+      "topic_id": "isaiah",
+      "difficulty": 1,
+      "reference": "Isaiah 6:6-7"
+    },
+    {
+      "question": "What sign did Isaiah give King Ahaz, involving a child named Immanuel?",
+      "answer": "A virgin/young woman would conceive and bear a son called Immanuel.",
+      "topic_id": "isaiah",
+      "difficulty": 2,
+      "reference": "Isaiah 7:14"
+    },
+    {
+      "question": "What does Isaiah 53 describe that the New Testament applies to Jesus?",
+      "answer": "A suffering servant pierced for others' transgressions.",
+      "topic_id": "isaiah",
+      "difficulty": 3,
+      "reference": "Isaiah 53:5"
+    },
+    {
+      "question": "What excuse did Jeremiah give God when first called to be a prophet?",
+      "answer": "That he was only a youth.",
+      "topic_id": "jeremiah-6",
+      "difficulty": 1,
+      "reference": "Jeremiah 1:6"
+    },
+    {
+      "question": "What did King Jehoiakim do to the scroll of Jeremiah's prophecies?",
+      "answer": "He cut it up and burned it.",
+      "topic_id": "jeremiah-6",
+      "difficulty": 2,
+      "reference": "Jeremiah 36:23"
+    },
+    {
+      "question": "What new kind of covenant did Jeremiah promise God would make with His people?",
+      "answer": "A covenant written on their hearts, not on stone.",
+      "topic_id": "jeremiah-6",
+      "difficulty": 3,
+      "reference": "Jeremiah 31:31-33"
+    },
+    {
+      "question": "Where was Ezekiel when he received his prophetic call?",
+      "answer": "Beside the Chebar River, among the Babylonian exiles.",
+      "topic_id": "ezekiel",
+      "difficulty": 1,
+      "reference": "Ezekiel 1:1-3"
+    },
+    {
+      "question": "What vision showed God restoring Israel's spirit through renewed life?",
+      "answer": "The valley of dry bones.",
+      "topic_id": "ezekiel",
+      "difficulty": 2,
+      "reference": "Ezekiel 37:1-14"
+    },
+    {
+      "question": "What was Ezekiel forbidden to do when his wife died suddenly?",
+      "answer": "Mourn her openly, as a sign to the exiles.",
+      "topic_id": "ezekiel",
+      "difficulty": 3,
+      "reference": "Ezekiel 24:15-18"
+    },
+    {
+      "question": "What did Daniel and his three friends refuse to eat in Babylon?",
+      "answer": "The king's food (royal delicacies).",
+      "topic_id": "daniel-2",
+      "difficulty": 1,
+      "reference": "Daniel 1:8"
+    },
+    {
+      "question": "What happened to Daniel's three friends when they refused to worship Nebuchadnezzar's golden image?",
+      "answer": "They were thrown into a fiery furnace and emerged unharmed.",
+      "topic_id": "daniel-2",
+      "difficulty": 2,
+      "reference": "Daniel 3:19-27"
+    },
+    {
+      "question": "Why was Daniel thrown into the lions' den?",
+      "answer": "For continuing to pray to God despite a royal decree forbidding it.",
+      "topic_id": "daniel-2",
+      "difficulty": 3,
+      "reference": "Daniel 6:10-16"
+    },
+    {
+      "question": "Whom did God command Hosea to marry as a picture of Israel's unfaithfulness?",
+      "answer": "Gomer.",
+      "topic_id": "hosea",
+      "difficulty": 1,
+      "reference": "Hosea 1:2-3"
+    },
+    {
+      "question": "What did Hosea do after Gomer left him?",
+      "answer": "Bought her back and took her home again.",
+      "topic_id": "hosea",
+      "difficulty": 2,
+      "reference": "Hosea 3:1-2"
+    },
+    {
+      "question": "What verse from Hosea did Jesus quote against religious hardness of heart?",
+      "answer": "\"I desire steadfast love and not sacrifice.\"",
+      "topic_id": "hosea",
+      "difficulty": 3,
+      "reference": "Hosea 6:6"
+    },
+    {
+      "question": "What disaster does the book of Joel describe as a picture of the coming day of the LORD?",
+      "answer": "A devastating locust plague.",
+      "topic_id": "joel-11",
+      "difficulty": 1,
+      "reference": "Joel 1:4"
+    },
+    {
+      "question": "What did Joel promise God would one day pour out \"on all flesh\"?",
+      "answer": "His Spirit.",
+      "topic_id": "joel-11",
+      "difficulty": 2,
+      "reference": "Joel 2:28"
+    },
+    {
+      "question": "Who quoted Joel's prophecy of the Spirit at Pentecost?",
+      "answer": "The apostle Peter.",
+      "topic_id": "joel-11",
+      "difficulty": 3,
+      "reference": "Acts 2:16-21"
+    },
+    {
+      "question": "What was Amos's occupation before God called him to prophesy?",
+      "answer": "A shepherd (and sycamore-fig farmer).",
+      "topic_id": "amos",
+      "difficulty": 1,
+      "reference": "Amos 7:14-15"
+    },
+    {
+      "question": "What famous phrase did Amos use to describe what God wants instead of empty ritual?",
+      "answer": "\"Let justice roll down like waters.\"",
+      "topic_id": "amos",
+      "difficulty": 2,
+      "reference": "Amos 5:24"
+    },
+    {
+      "question": "Which priest confronted Amos and told him to stop prophesying at Bethel?",
+      "answer": "Amaziah.",
+      "topic_id": "amos",
+      "difficulty": 3,
+      "reference": "Amos 7:10-13"
+    },
+    {
+      "question": "How many verses long is the book of Obadiah?",
+      "answer": "21 — the shortest book in the Old Testament.",
+      "topic_id": "obadiah-12",
+      "difficulty": 1,
+      "reference": "Obadiah 1"
+    },
+    {
+      "question": "Against which nation is Obadiah's prophecy directed?",
+      "answer": "Edom.",
+      "topic_id": "obadiah-12",
+      "difficulty": 2,
+      "reference": "Obadiah 1:1"
+    },
+    {
+      "question": "What had Edom done that Obadiah condemns?",
+      "answer": "Gloated over and helped plunder Jerusalem when it fell.",
+      "topic_id": "obadiah-12",
+      "difficulty": 3,
+      "reference": "Obadiah 1:10-14"
+    },
+    {
+      "question": "Where was Jonah sent to preach, a mission he tried to flee instead?",
+      "answer": "Nineveh.",
+      "topic_id": "jonah",
+      "difficulty": 1,
+      "reference": "Jonah 1:1-3"
+    },
+    {
+      "question": "How long was Jonah inside the great fish?",
+      "answer": "Three days and three nights.",
+      "topic_id": "jonah",
+      "difficulty": 2,
+      "reference": "Jonah 1:17"
+    },
+    {
+      "question": "Why was Jonah angry after Nineveh repented?",
+      "answer": "Because God showed mercy and did not destroy the city.",
+      "topic_id": "jonah",
+      "difficulty": 3,
+      "reference": "Jonah 4:1-3"
+    },
+    {
+      "question": "What town did Micah prophesy would be the Messiah's birthplace?",
+      "answer": "Bethlehem.",
+      "topic_id": "micah-5",
+      "difficulty": 1,
+      "reference": "Micah 5:2"
+    },
+    {
+      "question": "What three things does Micah 6:8 say the LORD requires?",
+      "answer": "To do justice, love kindness, and walk humbly with God.",
+      "topic_id": "micah-5",
+      "difficulty": 2,
+      "reference": "Micah 6:8"
+    },
+    {
+      "question": "Whose warning was cited in Jeremiah's own defense as an example of a heeded prophet?",
+      "answer": "Micah's.",
+      "topic_id": "micah-5",
+      "difficulty": 3,
+      "reference": "Jeremiah 26:18-19"
+    },
+    {
+      "question": "What city does the book of Nahum announce judgment against?",
+      "answer": "Nineveh.",
+      "topic_id": "nahum",
+      "difficulty": 1,
+      "reference": "Nahum 1:1"
+    },
+    {
+      "question": "What earlier city's fall does Nahum cite as proof no city is beyond God's judgment?",
+      "answer": "Thebes (No-amon).",
+      "topic_id": "nahum",
+      "difficulty": 2,
+      "reference": "Nahum 3:8-10"
+    },
+    {
+      "question": "What does Nahum say about God's character even while pronouncing judgment?",
+      "answer": "That the LORD is slow to anger.",
+      "topic_id": "nahum",
+      "difficulty": 3,
+      "reference": "Nahum 1:3"
+    },
+    {
+      "question": "What does Habakkuk complain to God about at the start of his book?",
+      "answer": "Injustice and violence in Judah that seem to go unanswered.",
+      "topic_id": "habakkuk",
+      "difficulty": 1,
+      "reference": "Habakkuk 1:2-4"
+    },
+    {
+      "question": "Which nation did God say He was raising up to bring judgment on Judah?",
+      "answer": "The Babylonians (Chaldeans).",
+      "topic_id": "habakkuk",
+      "difficulty": 2,
+      "reference": "Habakkuk 1:6"
+    },
+    {
+      "question": "What famous phrase from Habakkuk 2:4 is quoted three times in the New Testament?",
+      "answer": "\"The righteous shall live by his faith.\"",
+      "topic_id": "habakkuk",
+      "difficulty": 3,
+      "reference": "Habakkuk 2:4"
+    },
+    {
+      "question": "During which king's reign did Zephaniah prophesy?",
+      "answer": "Josiah.",
+      "topic_id": "zephaniah-3",
+      "difficulty": 1,
+      "reference": "Zephaniah 1:1"
+    },
+    {
+      "question": "What earlier king is Zephaniah's genealogy traced back to?",
+      "answer": "Hezekiah.",
+      "topic_id": "zephaniah-3",
+      "difficulty": 2,
+      "reference": "Zephaniah 1:1"
+    },
+    {
+      "question": "What beautiful image closes the book of Zephaniah?",
+      "answer": "God rejoicing over His people with singing.",
+      "topic_id": "zephaniah-3",
+      "difficulty": 3,
+      "reference": "Zephaniah 3:17"
+    },
+    {
+      "question": "What had the returned exiles built for themselves while leaving the temple unfinished?",
+      "answer": "Paneled houses.",
+      "topic_id": "haggai",
+      "difficulty": 1,
+      "reference": "Haggai 1:4"
+    },
+    {
+      "question": "In which Persian king's reign did Haggai prophesy?",
+      "answer": "Darius (I).",
+      "topic_id": "haggai",
+      "difficulty": 2,
+      "reference": "Haggai 1:1"
+    },
+    {
+      "question": "What did Haggai promise about the rebuilt temple's future glory?",
+      "answer": "That it would be greater than the former (Solomon's) temple.",
+      "topic_id": "haggai",
+      "difficulty": 3,
+      "reference": "Haggai 2:9"
+    },
+    {
+      "question": "Whose grandson was the prophet Zechariah?",
+      "answer": "Iddo's.",
+      "topic_id": "zechariah-13",
+      "difficulty": 1,
+      "reference": "Zechariah 1:1"
+    },
+    {
+      "question": "What animal did Zechariah prophesy the coming king would ride?",
+      "answer": "A donkey.",
+      "topic_id": "zechariah-13",
+      "difficulty": 2,
+      "reference": "Zechariah 9:9"
+    },
+    {
+      "question": "How much silver did Zechariah prophesy would be paid, later linked to Judas's betrayal?",
+      "answer": "Thirty pieces of silver.",
+      "topic_id": "zechariah-13",
+      "difficulty": 3,
+      "reference": "Zechariah 11:12-13"
+    },
+    {
+      "question": "What does the name \"Malachi\" mean?",
+      "answer": "\"My messenger.\"",
+      "topic_id": "malachi",
+      "difficulty": 1,
+      "reference": "Malachi 1:1"
+    },
+    {
+      "question": "What had priests been offering God instead of their best animals?",
+      "answer": "Blind, lame, and diseased ones.",
+      "topic_id": "malachi",
+      "difficulty": 2,
+      "reference": "Malachi 1:8"
+    },
+    {
+      "question": "Who did Malachi promise would come before \"the great and awesome day of the LORD\"?",
+      "answer": "Elijah.",
+      "topic_id": "malachi",
+      "difficulty": 3,
+      "reference": "Malachi 4:5"
+    },
+    {
+      "question": "What promise did Nathan deliver to David about his throne?",
+      "answer": "That it would be established forever.",
+      "topic_id": "nathan-2",
+      "difficulty": 1,
+      "reference": "2 Samuel 7:16"
+    },
+    {
+      "question": "What story did Nathan tell David to confront him over Bathsheba and Uriah?",
+      "answer": "The parable of a rich man stealing a poor man's only ewe lamb.",
+      "topic_id": "nathan-2",
+      "difficulty": 2,
+      "reference": "2 Samuel 12:1-4"
+    },
+    {
+      "question": "Whose side did Nathan take when Adonijah tried to seize the throne?",
+      "answer": "Solomon's.",
+      "topic_id": "nathan-2",
+      "difficulty": 3,
+      "reference": "1 Kings 1:11-14"
+    },
+    {
+      "question": "What did Gad tell David to do early in his years as a fugitive?",
+      "answer": "Leave the stronghold and go to Judah.",
+      "topic_id": "gad-2",
+      "difficulty": 1,
+      "reference": "1 Samuel 22:5"
+    },
+    {
+      "question": "What three punishments did Gad offer David after his sinful census?",
+      "answer": "Famine, military defeat, or plague.",
+      "topic_id": "gad-2",
+      "difficulty": 2,
+      "reference": "2 Samuel 24:12-13"
+    },
+    {
+      "question": "Where did Gad instruct David to build an altar, later the site of Solomon's temple?",
+      "answer": "The threshing floor of Araunah the Jebusite.",
+      "topic_id": "gad-2",
+      "difficulty": 3,
+      "reference": "2 Samuel 24:18"
+    },
+    {
+      "question": "What did Eli mistake Hannah's silent prayer for?",
+      "answer": "Drunkenness.",
+      "topic_id": "eli",
+      "difficulty": 1,
+      "reference": "1 Samuel 1:12-14"
+    },
+    {
+      "question": "What sin did Eli's sons Hophni and Phinehas commit as priests?",
+      "answer": "Taking the best portions of offerings by force and committing immorality.",
+      "topic_id": "eli",
+      "difficulty": 2,
+      "reference": "1 Samuel 2:12-17, 22"
+    },
+    {
+      "question": "What news caused Eli to fall backward and die?",
+      "answer": "That the ark of the covenant had been captured.",
+      "topic_id": "eli",
+      "difficulty": 3,
+      "reference": "1 Samuel 4:17-18"
+    },
+    {
+      "question": "Why did Eleazar become next in line for the priesthood instead of his older brothers?",
+      "answer": "Nadab and Abihu were struck dead for offering unauthorized fire.",
+      "topic_id": "eleazar",
+      "difficulty": 1,
+      "reference": "Leviticus 10:1-2"
+    },
+    {
+      "question": "On what mountain was the high priesthood transferred from Aaron to Eleazar?",
+      "answer": "Mount Hor.",
+      "topic_id": "eleazar",
+      "difficulty": 2,
+      "reference": "Numbers 20:25-28"
+    },
+    {
+      "question": "Who did Eleazar work with to divide the promised land among the tribes?",
+      "answer": "Joshua.",
+      "topic_id": "eleazar",
+      "difficulty": 3,
+      "reference": "Joshua 14:1"
+    },
+    {
+      "question": "What did Phinehas do at Baal-peor to stop a plague?",
+      "answer": "He killed an Israelite man and a Midianite woman with a spear.",
+      "topic_id": "phinehas",
+      "difficulty": 1,
+      "reference": "Numbers 25:6-8"
+    },
+    {
+      "question": "What covenant did God grant Phinehas because of his zeal?",
+      "answer": "A covenant of peace and a perpetual priesthood.",
+      "topic_id": "phinehas",
+      "difficulty": 2,
+      "reference": "Numbers 25:12-13"
+    },
+    {
+      "question": "What did Phinehas do when the Transjordan tribes built a controversial altar?",
+      "answer": "He went to talk with them before assuming rebellion, helping avoid civil war.",
+      "topic_id": "phinehas",
+      "difficulty": 3,
+      "reference": "Joshua 22:13-32"
+    },
+    {
+      "question": "What role did David ask Zadok to play during Absalom's rebellion?",
+      "answer": "Keep the ark in Jerusalem and relay intelligence back to David.",
+      "topic_id": "zadok",
+      "difficulty": 1,
+      "reference": "2 Samuel 15:24-29"
+    },
+    {
+      "question": "Who did Zadok anoint as king at the Gihon spring?",
+      "answer": "Solomon.",
+      "topic_id": "zadok",
+      "difficulty": 2,
+      "reference": "1 Kings 1:38-39"
+    },
+    {
+      "question": "What happened to Abiathar's priesthood as a result of Zadok's loyalty?",
+      "answer": "Solomon removed Abiathar and made Zadok sole high priest.",
+      "topic_id": "zadok",
+      "difficulty": 3,
+      "reference": "1 Kings 2:26-27, 35"
+    },
+    {
+      "question": "How did Abiathar survive when Saul massacred the priests of Nob?",
+      "answer": "He escaped and fled to David.",
+      "topic_id": "abiathar",
+      "difficulty": 1,
+      "reference": "1 Samuel 22:20-23"
+    },
+    {
+      "question": "Whose side did Abiathar take when Adonijah tried to seize David's throne?",
+      "answer": "Adonijah's.",
+      "topic_id": "abiathar",
+      "difficulty": 2,
+      "reference": "1 Kings 1:7"
+    },
+    {
+      "question": "What did Solomon do to Abiathar as a result?",
+      "answer": "Removed him from the priesthood and banished him.",
+      "topic_id": "abiathar",
+      "difficulty": 3,
+      "reference": "1 Kings 2:26-27"
+    },
+    {
+      "question": "What did Hilkiah discover during temple repairs under Josiah?",
+      "answer": "The Book of the Law.",
+      "topic_id": "hilkiah-2",
+      "difficulty": 1,
+      "reference": "2 Kings 22:8"
+    },
+    {
+      "question": "Which prophetess did Hilkiah consult after the discovery?",
+      "answer": "Huldah.",
+      "topic_id": "hilkiah-2",
+      "difficulty": 2,
+      "reference": "2 Kings 22:14"
+    },
+    {
+      "question": "What was Josiah's reaction when the Law was read to him?",
+      "answer": "He tore his clothes in grief.",
+      "topic_id": "hilkiah-2",
+      "difficulty": 3,
+      "reference": "2 Kings 22:11"
+    },
+    {
+      "question": "Whom did Jehoiada and his wife Jehosheba hide in the temple for six years?",
+      "answer": "The infant prince Joash.",
+      "topic_id": "jehoiada-2",
+      "difficulty": 1,
+      "reference": "2 Kings 11:2-3"
+    },
+    {
+      "question": "What happened to Queen Athaliah when Jehoiada crowned Joash king?",
+      "answer": "She was executed.",
+      "topic_id": "jehoiada-2",
+      "difficulty": 2,
+      "reference": "2 Kings 11:13-16"
+    },
+    {
+      "question": "What tragic event happened to Jehoiada's own son after Jehoiada died?",
+      "answer": "He was stoned to death by order of King Joash.",
+      "topic_id": "jehoiada-2",
+      "difficulty": 3,
+      "reference": "2 Chronicles 24:20-22"
+    },
+    {
+      "question": "What was Ezra's profession, described as \"skilled in the Law of Moses\"?",
+      "answer": "Priest and scribe.",
+      "topic_id": "ezra",
+      "difficulty": 1,
+      "reference": "Ezra 7:6"
+    },
+    {
+      "question": "Why did Ezra refuse to ask the king for a military escort?",
+      "answer": "He was ashamed to, having told the king God's hand protects those who seek Him.",
+      "topic_id": "ezra",
+      "difficulty": 2,
+      "reference": "Ezra 8:21-23"
+    },
+    {
+      "question": "What did Ezra do before a great assembly at the Water Gate?",
+      "answer": "Read the Law aloud from morning until midday.",
+      "topic_id": "ezra",
+      "difficulty": 3,
+      "reference": "Nehemiah 8:1-3"
     }
   ]
 }

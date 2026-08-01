@@ -2,7 +2,7 @@
   "person_id": "onesimus",
   "name": "Onesimus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
   "references": [
     "Colossians 4:9",
@@ -14,5 +14,36 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era",
+    "note": "Onesimus's flight and return take place during Paul's imprisonment, most likely his Roman imprisonment of the early AD 60s."
+  },
+  "geographic_setting": [
+    "Colossae",
+    "Rome"
+  ],
+  "topics": [
+    "redemption",
+    "reconciliation",
+    "the gospel transforming slavery"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The traditional reading, reflected here, is that Onesimus was a slave who ran away from his master Philemon, possibly after wronging or stealing from him, and encountered Paul while Paul was imprisoned in Rome; the letter itself does not narrate the departure directly, so some scholars have proposed alternative reconstructions of the exact circumstances, though 'a runaway who wronged his master' remains the majority reading of Philemon 1:15-18. Separately, church tradition (not Scripture) identifies this Onesimus with the Onesimus later named as bishop of Ephesus in Ignatius's early second-century letter to the Ephesians -- a plausible but unconfirmed identification, not a fact stated in the biblical text itself.",
+  "source_summary": "A slave belonging to Philemon of Colossae who ran away, encountered the imprisoned apostle Paul in Rome, was converted, and was sent back to Philemon with Paul's letter urging that he be received not as a slave but as a beloved brother in Christ.",
+  "family_friendly_summary": "Onesimus was a slave who belonged to a Christian man named Philemon. At some point, Onesimus ran away from Philemon's house and ended up meeting the apostle Paul, who was in prison for teaching about Jesus. While helping Paul, Onesimus learned about Jesus and became a Christian himself. His name even meant \"useful,\" and he truly became a big help to Paul. But Paul knew Onesimus needed to go back and make things right with Philemon, so Paul sent him home with a letter. In that letter, Paul asked Philemon to forgive Onesimus and welcome him back not as a slave, but as a beloved brother in God's family. Onesimus's story shows how becoming part of God's family can completely change relationships, turning old wrongs into new friendship.",
+  "adult_story": "Onesimus was a slave belonging to Philemon, a believer in Colossae whose household hosted a church (Philemon 1:1-2). At some point Onesimus left his master -- the letter implies he may have wronged Philemon or stolen from him (1:18) -- and made his way to Rome, where he encountered the apostle Paul, then imprisoned for the gospel. Under Paul's ministry Onesimus became a believer; Paul calls him \"my child, whom I have begotten in my imprisonment\" (1:10) and describes him as having become genuinely useful both to Paul and, potentially, to Philemon -- a pointed wordplay, since \"Onesimus\" means \"useful\" or \"profitable\" in Greek (1:11). Paul grew deeply attached to Onesimus, calling him \"my very heart,\" and wanted to keep him as a helper during his imprisonment, but chose instead to send him back to Philemon, doing nothing \"without your consent\" so that any good done would not be \"as it were by compulsion\" (1:12-14). Paul's letter to Philemon appeals, with remarkable tact and firmness, for Onesimus to be received back \"no longer as a slave, but more than a slave, a beloved brother\" (1:16), and even offers to personally repay whatever Onesimus owes (1:18-19). Paul later commends Onesimus by name to the Colossian church as \"our faithful and beloved brother, who is one of you\" (Colossians 4:9), suggesting Philemon received him well. Onesimus's story is one of the New Testament's clearest pictures of the gospel dissolving social barriers between slave and free through shared standing in Christ.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon -- symbolic, no claim of likeness"
   }
 }

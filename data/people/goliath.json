@@ -2,7 +2,7 @@
   "person_id": "goliath",
   "name": "Goliath",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Samuel 17:4-57",
@@ -18,5 +18,37 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Goliath's death occurs early in Saul's reign, before David's own reign began, roughly the 11th century BC by the traditional United Monarchy chronology."
+  },
+  "geographic_setting": [
+    "Valley of Elah",
+    "Gath",
+    "Philistia"
+  ],
+  "topics": [
+    "pride",
+    "God's power over human strength",
+    "faith over fear"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Samuel 21:19 (Masoretic Text) states that Elhanan killed 'Goliath the Gittite,' which appears on its face to conflict with 1 Samuel 17's account of David killing Goliath. 1 Chronicles 20:5 harmonizes this by naming Elhanan's opponent as Lahmi, the brother of Goliath -- likely reflecting a scribal variant in the transmission of the Samuel text rather than two contradictory events. Manuscripts also vary on Goliath's height: the Masoretic Text gives about nine feet (six cubits and a span), while the Septuagint and a Dead Sea Scrolls fragment (4QSamuel-a) give roughly six-and-a-half feet (four cubits and a span).",
+  "source_summary": "A Philistine champion from Gath who defied the armies of Israel for forty days before being killed by the young shepherd David with a sling and a stone, a victory Scripture credits to God's power rather than David's skill or strength.",
+  "family_friendly_summary": "Goliath was a huge Philistine soldier, so tall and strong that he scared the whole army of Israel. Every day for forty days, he challenged the Israelites to send one man to fight him, but everyone was too afraid -- even King Saul. Then a young shepherd boy named David arrived at the battle camp to bring food to his brothers. David couldn't believe that anyone would be allowed to mock God's people this way. He told Saul that God, who had helped him defeat lions and bears while watching his sheep, would help him defeat Goliath too. David refused armor and a sword, choosing instead his sling and five smooth stones. With his very first throw, David knocked Goliath down, and the Philistine army ran away in fear. David's courage came from his trust that God, not the size of a soldier, wins the battle.",
+  "adult_story": "Goliath was a champion of the Philistine army from Gath, described as towering in height and armored head to foot in bronze, who for forty days taunted the armies of Israel encamped in the Valley of Elah to send a man to fight him one-on-one, with the losing nation becoming the other's servants (1 Samuel 17:1-11). King Saul and his soldiers were terrified, but the young shepherd David -- sent by his father to bring provisions to his brothers in the camp -- was indignant that this \"uncircumcised Philistine\" should defy \"the armies of the living God\" (17:26). Refusing Saul's armor, David went out with only his shepherd's staff, a sling, and five smooth stones, declaring that he came \"in the name of the LORD of hosts\" and that the battle belonged to God, not to sword or spear (17:45-47). David felled Goliath with a single stone to the forehead, then used the giant's own sword to kill him and cut off his head, sending the Philistine army fleeing (17:48-51). Goliath's defeat became a defining moment establishing David's reputation (18:6-7) and was still remembered decades later, when David took Goliath's sword with him while fleeing Saul (21:9). Later biblical texts describe further Philistine giants from Gath killed by David's men, including a warrior named Lahmi, called \"the brother of Goliath\" (1 Chronicles 20:5; compare 2 Samuel 21:19). Goliath's story is remembered above all as a demonstration that victory belongs to God, not to human size or strength.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure with helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
   }
 }

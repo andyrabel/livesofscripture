@@ -157,6 +157,7 @@ async function renderIndexPage() {
   const testamentFilter = document.getElementById("filter-testament");
   const tierFilter = document.getElementById("filter-tier");
   const eraFilter = document.getElementById("filter-era");
+  const sortOrder = document.getElementById("sort-order");
 
   const index = await loadIndex();
 
@@ -192,6 +193,27 @@ async function renderIndexPage() {
       return true;
     });
 
+    filtered.sort((a, b) => {
+      switch (sortOrder.value) {
+        case "name-desc":
+          return b.name.localeCompare(a.name);
+        case "era-asc":
+        case "era-desc": {
+          const ai = a.era ? ERA_ORDER.indexOf(a.era) : -1;
+          const bi = b.era ? ERA_ORDER.indexOf(b.era) : -1;
+          // People with no era (stubs) always sort last, in either direction.
+          if (ai === -1 && bi === -1) return a.name.localeCompare(b.name);
+          if (ai === -1) return 1;
+          if (bi === -1) return -1;
+          if (ai !== bi) return sortOrder.value === "era-asc" ? ai - bi : bi - ai;
+          return a.name.localeCompare(b.name);
+        }
+        case "name-asc":
+        default:
+          return a.name.localeCompare(b.name);
+      }
+    });
+
     grid.innerHTML = "";
     for (const entry of filtered) {
       grid.appendChild(personCard(entry));
@@ -205,6 +227,7 @@ async function renderIndexPage() {
   testamentFilter.addEventListener("change", render);
   tierFilter.addEventListener("change", render);
   eraFilter.addEventListener("change", render);
+  sortOrder.addEventListener("change", render);
 
   render();
 }
@@ -1757,6 +1780,7 @@ async function renderConnectionsPage() {
 // ---------------------------------------------------------------------
 
 const ERA_ORDER = [
+  "Primeval History",
   "Patriarchal",
   "Exodus/Wilderness",
   "Judges",
@@ -1777,6 +1801,15 @@ const ERA_ORDER = [
 // its tooltip, never as a specific date. Astronomical-style signed years
 // (negative = BC).
 const ERA_BANDS = {
+  // Genesis 1-11 (creation through the Table of Nations and Babel) has no
+  // scholarly consensus chronology at all -- not just disputed dates, like
+  // the Exodus, but disputed whether the genealogies even represent an
+  // unbroken chronological sequence (young-earth, old-earth, and framework
+  // readings differ far more sharply here than anywhere else in the era
+  // taxonomy). This band exists only to give these figures *some* left-right
+  // ordinal position ahead of Patriarchal; its width is not a claim about
+  // how long this period actually was.
+  "Primeval History": [-6000, -2166],
   "Patriarchal": [-2166, -1805],
   "Exodus/Wilderness": [-1446, -1200],
   "Judges": [-1200, -1050],
@@ -1864,7 +1897,8 @@ function timelineParseReference(ref) {
 // then which chapter -- used purely to order era-precision people left to
 // right, not to place them at a specific year.
 function timelineNarrativeRank(person) {
-  const parsed = timelineParseReference((person.references || [])[0]);
+  const ref = person.first_reference || (person.references || [])[0];
+  const parsed = timelineParseReference(ref);
   return parsed ? parsed.bookIndex * 1000 + parsed.chapter : null;
 }
 
@@ -2258,15 +2292,13 @@ async function renderTimelinePage() {
 
   setState("Loading…");
 
-  const index = await loadIndex();
-  const fullEntries = index.filter((p) => p.tier === "full");
-  const [peopleRaw, events] = await Promise.all([
-    Promise.all(fullEntries.map((e) => loadPerson(e.person_id))),
-    loadTimelineEvents(),
-  ]);
+  // Everyone in a genealogical ("x begat y") chain gets a timeline bar, not
+  // just full-tier entries -- era/region/genealogy for stub entries is
+  // pre-computed into the index by _build/infer_stub_eras.py, so no
+  // per-person fetch is needed for any of the ~3,000 people here.
+  const [index, events] = await Promise.all([loadIndex(), loadTimelineEvents()]);
 
-  const people = peopleRaw
-    .filter(Boolean)
+  const people = index
     .map((p) => {
       const span = timelinePersonSpan(p);
       return span ? Object.assign({}, p, span) : null;

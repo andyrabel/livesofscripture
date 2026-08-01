@@ -344,6 +344,28 @@ all full-tier people — but biblical chronology is a fundamentally harder
 problem than post-Reformation history, and this needs to be designed for from
 the start rather than discovered as a bug later:
 
+**Extended 2026-08-01 to include everyone in the genealogical ("x begat y")
+chains, not just full-tier entries** — Genesis 5, Genesis 11, 1 Chronicles
+1-9, and similar passages are the site's core differentiator and belong on
+the timeline even though almost none of those names have a narrative.
+Consequences for the data model:
+- Stub entries now also carry an inferred `era` (and where derivable,
+  `region` and a minimal `genealogy` of father/mother/spouses) in the
+  lightweight index (`data/people.json`), computed by
+  `_build/infer_stub_eras.py`: walk the genealogy graph out from every
+  full-tier person's known `era`, propagating to unresolved
+  parents/children/spouses until no more can be resolved, then fall back to
+  a default `era` by the book their `first_reference` falls in for anyone
+  never connected to a known-era anchor. This is a derived visualization
+  aid, not curated content — it does not make a stub eligible for a
+  human-review badge or any other full-tier treatment.
+- The timeline page (`js/app.js`) now builds its dataset directly from the
+  index rather than fetching every person's full JSON file, since the index
+  now carries every field the timeline needs (`era`, `region`, `genealogy`,
+  `timeline`, `first_reference`, `name`) for both tiers. Re-run
+  `_build/infer_stub_eras.py` (before `generate_static_site.py`) whenever
+  genealogy data or full-tier `era`/`timeline` values change.
+
 - Most Old Testament dates, especially pre-monarchy, are **disputed among
   evangelical scholars themselves** — not just "uncertain" the way an obscure
   missionary's birth year might be uncertain, but genuinely contested by
@@ -352,9 +374,10 @@ the start rather than discovered as a bug later:
   the genealogies are read). The site must not silently pick one framework and
   present it as settled fact.
 - Recommended approach: **default every OT figure to an `era` bucket**
-  (Patriarchal, Exodus/Wilderness, Judges, United Monarchy, Divided Monarchy,
-  Exile, Post-Exile/Intertestamental, Gospels, Apostolic — the finalized
-  taxonomy from the JSON Schema section) rather than a specific year. Only
+  (Primeval History, Patriarchal, Exodus/Wilderness, Judges, United Monarchy,
+  Divided Monarchy, Exile, Post-Exile/Intertestamental, Gospels, Apostolic —
+  see the Era Taxonomy note below for `Primeval History`, added 2026-08-01)
+  rather than a specific year. Only
   assign a specific year (with the existing Lives of Faith `"c. "`
   uncertainty-prefix convention) where a reasonably solid evangelical
   scholarly consensus exists (e.g. Solomon's temple construction, calculable
@@ -540,7 +563,17 @@ may proceed.
 
 1. **Era taxonomy**: finalized as drafted — Patriarchal, Exodus/Wilderness,
    Judges, United Monarchy, Divided Monarchy, Exile, Post-Exile/
-   Intertestamental, Gospels, Apostolic.
+   Intertestamental, Gospels, Apostolic. **Extended 2026-08-01** with a
+   **`Primeval History`** era preceding Patriarchal, for Genesis 1-11 figures
+   (Adam through the Table of Nations/Babel) once the timeline began placing
+   every person in a genealogical chain, not just full-tier entries — see
+   the Timeline section below. This period has no scholarly consensus
+   chronology at all, not merely a disputed date the way the Exodus is —
+   young-earth, old-earth, and framework readings of Genesis 1-11 disagree
+   far more sharply, including on whether the genealogies represent an
+   unbroken sequence of years in the first place. The era band is
+   deliberately wide and exists only to give these figures *some* ordinal
+   position before Patriarchal, never a chronology claim.
 2. **Translations**: NASB (default) + KJV for the initial build. NIV/ESV
    deferred, addable later without a schema change.
 3. **Genealogy dataset**: [BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data),
