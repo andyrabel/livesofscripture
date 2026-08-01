@@ -12145,13 +12145,6 @@
     "mutual": true
   },
   {
-    "from": "lot",
-    "to": "wife-of-lot",
-    "label": "married",
-    "type": "married",
-    "mutual": true
-  },
-  {
     "from": "abraham",
     "to": "keturah",
     "label": "married",

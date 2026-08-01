@@ -15,9 +15,7 @@
   "genealogy": {
     "father": "haran",
     "mother": null,
-    "spouses": [
-      "wife-of-lot"
-    ],
+    "spouses": [],
     "children": [
       "ammon",
       "firstborn-of-lot",

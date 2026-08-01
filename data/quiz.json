@@ -1,5 +1,5 @@
 {
-  "_note": "Quiz questions for full-tier entries. difficulty: 1=Easy, 2=Medium, 3=Hard. Answers are drawn directly from the referenced verses \u2014 no extra-biblical content. topic_id links back to the person's page for 'learn more' links and sheet dedup; subtopic_id is an optional secondary link for a sub-entity with its own detail page (not used yet on this site).",
+  "_note": "Quiz questions for full-tier entries. difficulty: 1=Easy, 2=Medium, 3=Hard. Answers are drawn directly from the referenced verses — no extra-biblical content. topic_id links back to the person's page for 'learn more' links and sheet dedup; subtopic_id is an optional secondary link for a sub-entity with its own detail page (not used yet on this site).",
   "questions": [
     {
       "question": "God told Abraham to count the stars as a picture of what?",
@@ -17,7 +17,7 @@
     },
     {
       "question": "To protect himself in Egypt, what did Abraham tell Pharaoh that Sarah was?",
-      "answer": "His sister (a half-truth \u2014 she was also his wife).",
+      "answer": "His sister (a half-truth — she was also his wife).",
       "topic_id": "abraham",
       "difficulty": 3,
       "reference": "Genesis 12:11-13"
@@ -101,7 +101,7 @@
     },
     {
       "question": "What physical affliction did Paul call his 'thorn in the flesh'?",
-      "answer": "Scripture doesn't say \u2014 Paul never identifies what it was, only that it kept him dependent on God's grace.",
+      "answer": "Scripture doesn't say — Paul never identifies what it was, only that it kept him dependent on God's grace.",
       "topic_id": "paul",
       "difficulty": 3,
       "reference": "2 Corinthians 12:7-9"
@@ -157,7 +157,7 @@
     },
     {
       "question": "What relation was Sarah to Abraham besides being his wife?",
-      "answer": "His half-sister \u2014 they shared the same father, Terah, but different mothers.",
+      "answer": "His half-sister — they shared the same father, Terah, but different mothers.",
       "topic_id": "sarah",
       "difficulty": 2,
       "reference": "Genesis 20:12"
@@ -241,21 +241,21 @@
     },
     {
       "question": "Who did Pharaoh's daughter unknowingly hire to nurse the baby she found in the basket?",
-      "answer": "Jochebed \u2014 the baby's own mother.",
+      "answer": "Jochebed — the baby's own mother.",
       "topic_id": "jochebed",
       "difficulty": 2,
       "reference": "Exodus 2:7-9"
     },
     {
       "question": "What does Hebrews 11 commend about Moses' parents' decision to hide him?",
-      "answer": "That they were not afraid of the king's edict \u2014 an act of faith.",
+      "answer": "That they were not afraid of the king's edict — an act of faith.",
       "topic_id": "jochebed",
       "difficulty": 3,
       "reference": "Hebrews 11:23"
     },
     {
       "question": "Where was Zipporah from?",
-      "answer": "Midian \u2014 she was the daughter of Jethro, a Midianite priest.",
+      "answer": "Midian — she was the daughter of Jethro, a Midianite priest.",
       "topic_id": "zipporah",
       "difficulty": 1,
       "reference": "Exodus 2:15-21"
@@ -822,7 +822,7 @@
     },
     {
       "question": "How many verses long is the book of Obadiah?",
-      "answer": "21 \u2014 the shortest book in the Old Testament.",
+      "answer": "21 — the shortest book in the Old Testament.",
       "topic_id": "obadiah-12",
       "difficulty": 1,
       "reference": "Obadiah 1"
@@ -2025,27 +2025,6 @@
       "reference": "2 Peter 2:7-8"
     },
     {
-      "question": "What instruction did the angels give Lot's family as they fled Sodom?",
-      "answer": "Not to look back.",
-      "topic_id": "wife-of-lot",
-      "difficulty": 1,
-      "reference": "Genesis 19:17"
-    },
-    {
-      "question": "What happened to Lot's wife when she looked back?",
-      "answer": "She became a pillar of salt.",
-      "topic_id": "wife-of-lot",
-      "difficulty": 1,
-      "reference": "Genesis 19:26"
-    },
-    {
-      "question": "Who later invoked 'Lot's wife' as a warning in His teaching?",
-      "answer": "Jesus.",
-      "topic_id": "wife-of-lot",
-      "difficulty": 2,
-      "reference": "Luke 17:32"
-    },
-    {
       "question": "What did Abraham tell Abimelech Sarah was, out of fear for his life?",
       "answer": "That she was only his sister.",
       "topic_id": "abimelech",
@@ -2597,27 +2576,6 @@
       "topic_id": "manoah",
       "difficulty": 3,
       "reference": "Judges 16:31"
-    },
-    {
-      "question": "What vow was Manoah's wife told her son must keep from birth?",
-      "answer": "He must be a Nazirite and never cut his hair.",
-      "topic_id": "wife-of-manoah",
-      "difficulty": 1,
-      "reference": "Judges 13:5"
-    },
-    {
-      "question": "How did Manoah's wife reassure her husband after they realized they had seen the angel of the LORD?",
-      "answer": "She reasoned God would not have accepted their offering or shown them these things if He meant to kill them.",
-      "topic_id": "wife-of-manoah",
-      "difficulty": 2,
-      "reference": "Judges 13:23"
-    },
-    {
-      "question": "What was Manoah's wife's condition before the angel's announcement?",
-      "answer": "She was barren.",
-      "topic_id": "wife-of-manoah",
-      "difficulty": 1,
-      "reference": "Judges 13:2-3"
     },
     {
       "question": "How much silver did the Philistine lords offer Delilah to discover Samson's secret?",

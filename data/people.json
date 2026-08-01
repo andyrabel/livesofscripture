@@ -2341,26 +2341,6 @@
     "gender": "male"
   },
   {
-    "person_id": "wife-of-lot",
-    "name": "Lot's Wife",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
-    "topics": [
-      "disobedience",
-      "attachment to sin",
-      "warning",
-      "judgment"
-    ],
-    "image": "generic-woman.png",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "female"
-  },
-  {
     "person_id": "firstborn-of-lot",
     "name": "Firstborn of Lot",
     "alt_names": [],
@@ -44146,24 +44126,6 @@
       "risking one's life for the gospel"
     ],
     "image": "generic-figure.png"
-  },
-  {
-    "person_id": "wife-of-manoah",
-    "name": "Manoah's Wife",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "Judges",
-    "region": "canaan-israel",
-    "topics": [
-      "faith of the overlooked",
-      "spiritual perception",
-      "motherhood of a deliverer"
-    ],
-    "image": "generic-figure.png",
-    "timeline": {
-      "precision": "era"
-    }
   },
   {
     "person_id": "menahem",

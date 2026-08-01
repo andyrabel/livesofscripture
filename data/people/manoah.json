@@ -12,9 +12,7 @@
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [
-      "wife-of-manoah"
-    ],
+    "spouses": [],
     "children": [
       "samson"
     ]
