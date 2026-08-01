@@ -2,10 +2,10 @@
   "person_id": "cain",
   "name": "Cain",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 4:1-25",
+    "Genesis 4:1-24",
     "Hebrews 11:4",
     "1 John 3:12",
     "Jude 1:11"
@@ -15,9 +15,37 @@
     "father": "adam",
     "mother": "eve",
     "spouses": [],
-    "children": [
-      "enoch"
-    ]
+    "children": []
+  },
+  "era": "Primeval History",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Garden of Eden (traditional location disputed)",
+    "Land of Nod, east of Eden"
+  ],
+  "topics": [
+    "jealousy",
+    "the first murder",
+    "sin's mastery",
+    "God's justice and mercy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Adam and Eve's firstborn son, a farmer whose jealousy over God's rejection of his offering led him to murder his brother Abel -- the Bible's first murder -- after which God judged him to a life of restless wandering while still marking him for protection.",
+  "family_friendly_summary": "Cain was the first son of Adam and Eve, and he grew up to be a farmer, while his younger brother Abel took care of sheep. Both brothers brought gifts to God, but God was pleased with Abel's gift and not with Cain's. This made Cain very angry and jealous. God warned Cain that sin was like something dangerous waiting at the door, ready to take control of him -- but Cain didn't listen. In a terrible moment of anger, Cain hurt his brother Abel, and Abel died. This was the first time anyone in the Bible was killed, and it broke God's heart. When God asked Cain where his brother was, Cain avoided the question instead of telling the truth. God punished Cain by sending him away to wander, but also protected him from being harmed by others. Cain's sad story warns where jealousy and unchecked anger can lead.",
+  "adult_story": "Cain is Adam and Eve's firstborn, a \"tiller of the ground\" whose younger brother Abel keeps flocks (Genesis 4:1-2). Both bring offerings to the LORD -- Cain from his crops, Abel \"of the firstlings of his flock\" -- and God accepts Abel's offering but not Cain's (4:3-5); Hebrews 11:4 credits Abel's offering to faith, implying Cain's lacked it. Cain's face falls in anger, and God warns him directly: sin is \"crouching at the door,\" desiring to master him, but he must master it (4:6-7) -- one of Scripture's clearest statements that sin can be resisted, not merely suffered. Cain does not master it. He lures Abel into a field and kills him, the Bible's first murder and first instance of one image-bearer destroying another (4:8). When God asks where Abel is, Cain's answer -- \"Am I my brother's keeper?\" -- is evasion compounding the crime. God curses the ground under Cain and makes him a restless wanderer, but also marks him for protection, so that no one who finds him will kill him in return (4:9-15) -- judgment tempered by mercy even here. Cain settles east of Eden in the land of Nod, builds a city, and fathers a line that includes Lamech, whose own violence (4:19-24) shows sin compounding across Cain's descendants. The New Testament later cites Cain as a warning example, both of hatred toward a righteous brother (1 John 3:12) and of false, self-serving religion (Jude 1:11).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

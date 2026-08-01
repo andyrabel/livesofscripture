@@ -507,7 +507,7 @@
     "person_id": "adam",
     "name": "Adam",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
@@ -518,13 +518,20 @@
     "timeline": {
       "precision": "era"
     },
-    "gender": "male"
+    "gender": "male",
+    "topics": [
+      "creation",
+      "the Fall",
+      "federal headship",
+      "image of God"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "eve",
     "name": "Eve",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
@@ -535,13 +542,20 @@
     "timeline": {
       "precision": "era"
     },
-    "gender": "female"
+    "gender": "female",
+    "topics": [
+      "creation",
+      "the Fall",
+      "temptation and deception",
+      "motherhood"
+    ],
+    "image": "generic-woman.png"
   },
   {
     "person_id": "cain",
     "name": "Cain",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
@@ -551,13 +565,20 @@
     "timeline": {
       "precision": "era"
     },
-    "gender": "male"
+    "gender": "male",
+    "topics": [
+      "jealousy",
+      "the first murder",
+      "sin's mastery",
+      "God's justice and mercy"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "abel",
     "name": "Abel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
@@ -567,7 +588,14 @@
     "timeline": {
       "precision": "era"
     },
-    "gender": "male"
+    "gender": "male",
+    "topics": [
+      "faith",
+      "righteous suffering",
+      "the first martyr",
+      "blood that cries out"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "enoch",
