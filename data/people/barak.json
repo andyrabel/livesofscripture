@@ -1,0 +1,21 @@
+{
+  "person_id": "barak",
+  "name": "Barak",
+  "alt_names": [
+    "Bedan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 4:6-22",
+    "Judges 5:1-15",
+    "1 Samuel 12:11",
+    "Hebrews 11:32"
+  ],
+  "genealogy": {
+    "father": "abinoam",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

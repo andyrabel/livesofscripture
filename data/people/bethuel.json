@@ -1,0 +1,21 @@
+{
+  "person_id": "bethuel",
+  "name": "Bethuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 22:22-23",
+    "Genesis 24:15-50",
+    "Genesis 25:20",
+    "Genesis 28:2-5"
+  ],
+  "genealogy": {
+    "father": "nahor-2",
+    "mother": "milcah",
+    "spouses": [],
+    "children": [
+      "rebekah"
+    ]
+  }
+}

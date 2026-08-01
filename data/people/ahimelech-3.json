@@ -1,0 +1,20 @@
+{
+  "person_id": "ahimelech-3",
+  "name": "Ahimelech",
+  "alt_names": [
+    "Abimelech"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:17",
+    "1 Chronicles 18:16",
+    "1 Chronicles 24:3-31"
+  ],
+  "genealogy": {
+    "father": "abiathar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

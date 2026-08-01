@@ -1,0 +1,16 @@
+{
+  "person_id": "jabal",
+  "name": "Jabal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:20"
+  ],
+  "genealogy": {
+    "father": "lamech",
+    "mother": "adah",
+    "spouses": [],
+    "children": []
+  }
+}

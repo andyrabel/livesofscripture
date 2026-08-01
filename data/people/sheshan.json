@@ -1,0 +1,18 @@
+{
+  "person_id": "sheshan",
+  "name": "Sheshan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:31-35"
+  ],
+  "genealogy": {
+    "father": "ishi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahlai"
+    ]
+  }
+}

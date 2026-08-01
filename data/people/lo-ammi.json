@@ -1,0 +1,16 @@
+{
+  "person_id": "lo-ammi",
+  "name": "Lo-ammi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Hosea 1:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "gomer-2",
+    "spouses": [],
+    "children": []
+  }
+}

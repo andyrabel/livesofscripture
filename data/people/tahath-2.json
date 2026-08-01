@@ -1,0 +1,18 @@
+{
+  "person_id": "tahath-2",
+  "name": "Tahath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:20"
+  ],
+  "genealogy": {
+    "father": "ephraim",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eleadah"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "shomer",
+  "name": "Shomer",
+  "alt_names": [
+    "Shimrith"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 12:21",
+    "2 Chronicles 24:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehozabad"
+    ]
+  }
+}

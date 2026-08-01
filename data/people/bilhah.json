@@ -1,0 +1,26 @@
+{
+  "person_id": "bilhah",
+  "name": "Bilhah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 29:29",
+    "Genesis 30:3-7",
+    "Genesis 35:22-25",
+    "Genesis 37:2",
+    "Genesis 46:25",
+    "1 Chronicles 7:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "israel"
+    ],
+    "children": [
+      "dan",
+      "naphtali"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "person_id": "shaphat",
+  "name": "Shaphat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:5"
+  ],
+  "genealogy": {
+    "father": "hori-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

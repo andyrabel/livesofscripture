@@ -9,7 +9,10 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Canaan", "Wilderness of Paran"],
+  "geographic_setting": [
+    "Canaan",
+    "Wilderness of Paran"
+  ],
   "references": [
     "Genesis 16",
     "Genesis 17:18-27",
@@ -17,7 +20,11 @@
     "Genesis 25:9",
     "Genesis 25:12-18"
   ],
-  "topics": ["birthright", "providence", "outsider blessing"],
+  "topics": [
+    "birthright",
+    "providence",
+    "outsider blessing"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "Abraham's firstborn son by Hagar, circumcised with Abraham at God's command though excluded from the covenant line carried through Isaac; sent away with his mother but blessed by God with numerous descendants, and reunited with Isaac only to bury their father.",
@@ -34,7 +41,21 @@
     "father": "abraham",
     "mother": "hagar",
     "spouses": [],
-    "children": []
+    "children": [
+      "adbeel",
+      "basemath-2",
+      "dumah",
+      "hadad",
+      "jetur",
+      "kedar",
+      "kedemah",
+      "massa",
+      "mibsam",
+      "mishma",
+      "naphish",
+      "nebaioth",
+      "tema"
+    ]
   },
   "review": {
     "human_reviewed": false,

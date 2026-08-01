@@ -1,0 +1,21 @@
+{
+  "person_id": "toi",
+  "name": "Toi",
+  "alt_names": [
+    "Tou"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:9-10",
+    "1 Chronicles 18:9-10"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joram"
+    ]
+  }
+}

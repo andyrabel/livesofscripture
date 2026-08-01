@@ -1,0 +1,19 @@
+{
+  "person_id": "shechem",
+  "name": "Shechem",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 33:19",
+    "Genesis 34:2-26",
+    "Joshua 24:32",
+    "Judges 9:28"
+  ],
+  "genealogy": {
+    "father": "hamor",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "timna",
+  "name": "Timna",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:12-22",
+    "1 Chronicles 1:36-39"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amalek"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "basemath-3",
+  "name": "Basemath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:15"
+  ],
+  "genealogy": {
+    "father": "solomon",
+    "mother": null,
+    "spouses": [
+      "ahimaaz-3"
+    ],
+    "children": []
+  }
+}

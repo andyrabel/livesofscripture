@@ -1,0 +1,20 @@
+{
+  "person_id": "festus",
+  "name": "Festus",
+  "alt_names": [
+    "Porcius Festus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 24:27",
+    "Acts 25:1-24",
+    "Acts 26:24-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

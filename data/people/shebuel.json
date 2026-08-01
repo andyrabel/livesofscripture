@@ -1,0 +1,23 @@
+{
+  "person_id": "shebuel",
+  "name": "Shebuel",
+  "alt_names": [
+    "Shubael"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 23:16",
+    "1 Chronicles 24:20",
+    "1 Chronicles 25:20",
+    "1 Chronicles 26:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehdeiah"
+    ]
+  }
+}

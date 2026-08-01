@@ -1,0 +1,20 @@
+{
+  "person_id": "matthew",
+  "name": "Matthew",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 9:9",
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:15",
+    "Acts 1:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

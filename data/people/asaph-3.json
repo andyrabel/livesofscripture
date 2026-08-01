@@ -1,0 +1,34 @@
+{
+  "person_id": "asaph-3",
+  "name": "Asaph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:15",
+    "2 Chronicles 35:15",
+    "Ezra 2:41",
+    "Ezra 3:10",
+    "Nehemiah 7:44",
+    "Nehemiah 11:17-22",
+    "Psalms 73:0",
+    "Psalms 74:0",
+    "Psalms 75:0",
+    "Psalms 76:0",
+    "Psalms 77:0",
+    "Psalms 78:0",
+    "Psalms 79:0",
+    "Psalms 80:0",
+    "Psalms 81:0",
+    "Psalms 82:0",
+    "Psalms 83:0"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zichri-5"
+    ]
+  }
+}

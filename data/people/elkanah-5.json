@@ -1,0 +1,19 @@
+{
+  "person_id": "elkanah-5",
+  "name": "Elkanah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:26-35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "tohu",
+      "zophai"
+    ]
+  }
+}

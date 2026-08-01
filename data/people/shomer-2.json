@@ -1,0 +1,23 @@
+{
+  "person_id": "shomer-2",
+  "name": "Shomer",
+  "alt_names": [
+    "Shemer"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:32-34"
+  ],
+  "genealogy": {
+    "father": "heber",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahi-2",
+      "aram-3",
+      "jehubbah",
+      "rohgah"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "person_id": "anak",
+  "name": "Anak",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:22-33",
+    "Deuteronomy 9:2",
+    "Joshua 15:13-14",
+    "Joshua 21:11",
+    "Judges 1:20"
+  ],
+  "genealogy": {
+    "father": "arba",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahiman",
+      "sheshai",
+      "talmai"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "person_id": "anah",
+  "name": "Anah",
+  "alt_names": [
+    "Beeri"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 26:34",
+    "Genesis 36:2-25",
+    "1 Chronicles 1:40"
+  ],
+  "genealogy": {
+    "father": "zibeon-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "dishon-2",
+      "oholibamah"
+    ]
+  }
+}

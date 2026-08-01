@@ -1,0 +1,26 @@
+{
+  "person_id": "seir",
+  "name": "Seir",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 32:3",
+    "Genesis 36:20-21",
+    "1 Chronicles 1:38"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "anah-2",
+      "dishan",
+      "dishon",
+      "ezer",
+      "lotan",
+      "shobal",
+      "zibeon-2"
+    ]
+  }
+}

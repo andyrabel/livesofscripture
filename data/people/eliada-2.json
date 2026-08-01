@@ -1,0 +1,18 @@
+{
+  "person_id": "eliada-2",
+  "name": "Eliada",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 11:23"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rezon"
+    ]
+  }
+}

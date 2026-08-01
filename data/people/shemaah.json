@@ -1,0 +1,19 @@
+{
+  "person_id": "shemaah",
+  "name": "Shemaah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 12:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahiezer-2",
+      "joash-7"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "ezra",
+  "name": "Ezra",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 7:1-25",
+    "Ezra 10:1-16",
+    "Nehemiah 8:1-13",
+    "Nehemiah 12:1-36"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meshullam-16"
+    ]
+  }
+}

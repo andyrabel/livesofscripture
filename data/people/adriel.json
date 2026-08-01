@@ -1,0 +1,19 @@
+{
+  "person_id": "adriel",
+  "name": "Adriel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 18:19",
+    "2 Samuel 21:8"
+  ],
+  "genealogy": {
+    "father": "barzillai-2",
+    "mother": null,
+    "spouses": [
+      "merab"
+    ],
+    "children": []
+  }
+}

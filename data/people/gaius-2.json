@@ -1,0 +1,16 @@
+{
+  "person_id": "gaius-2",
+  "name": "Gaius",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 20:4"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

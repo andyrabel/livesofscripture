@@ -1,0 +1,19 @@
+{
+  "person_id": "nethanel",
+  "name": "Nethanel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:8",
+    "Numbers 2:5",
+    "Numbers 7:18-23",
+    "Numbers 10:15"
+  ],
+  "genealogy": {
+    "father": "zuar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

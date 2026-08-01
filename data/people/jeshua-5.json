@@ -1,0 +1,20 @@
+{
+  "person_id": "jeshua-5",
+  "name": "Jeshua",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:40",
+    "Nehemiah 7:43",
+    "Nehemiah 12:8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jozabad-5"
+    ]
+  }
+}

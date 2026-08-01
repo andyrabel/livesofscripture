@@ -1,0 +1,21 @@
+{
+  "person_id": "maacah-2",
+  "name": "Maacah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:3",
+    "1 Chronicles 3:2"
+  ],
+  "genealogy": {
+    "father": "talmai-2",
+    "mother": null,
+    "spouses": [
+      "david"
+    ],
+    "children": [
+      "absalom"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "ananias-2",
+  "name": "Ananias",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 9:10-17",
+    "Acts 22:12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

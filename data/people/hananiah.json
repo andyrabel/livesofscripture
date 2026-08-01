@@ -1,0 +1,23 @@
+{
+  "person_id": "hananiah",
+  "name": "Hananiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:19-21"
+  ],
+  "genealogy": {
+    "father": "zerubbabel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "arnan",
+      "jeshaiah",
+      "obadiah-2",
+      "pelatiah",
+      "rephaiah",
+      "shecaniah"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "immanuel",
+  "name": "Immanuel",
+  "alt_names": [
+    "Maher-shalal-hash-baz"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Isaiah 7:14",
+    "Isaiah 8:4-8"
+  ],
+  "genealogy": {
+    "father": "isaiah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

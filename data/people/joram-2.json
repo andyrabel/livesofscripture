@@ -1,0 +1,25 @@
+{
+  "person_id": "joram-2",
+  "name": "Joram",
+  "alt_names": [
+    "Jehoram"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 1:17",
+    "2 Kings 3:1-13",
+    "2 Kings 5:5-8",
+    "2 Kings 6:9-26",
+    "2 Kings 7:6",
+    "2 Kings 8:16-29",
+    "2 Kings 9:14-29",
+    "2 Chronicles 22:5-7"
+  ],
+  "genealogy": {
+    "father": "ahab",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

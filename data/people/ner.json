@@ -1,0 +1,26 @@
+{
+  "person_id": "ner",
+  "name": "Ner",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 14:50-51",
+    "1 Samuel 26:5-14",
+    "2 Samuel 2:8-12",
+    "2 Samuel 3:23-37",
+    "1 Kings 2:5-32",
+    "1 Chronicles 8:33",
+    "1 Chronicles 9:36-39",
+    "1 Chronicles 26:28"
+  ],
+  "genealogy": {
+    "father": "abiel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abner",
+      "kish"
+    ]
+  }
+}

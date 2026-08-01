@@ -1,0 +1,19 @@
+{
+  "person_id": "maaseiah-6",
+  "name": "Maaseiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 10:18-21",
+    "Jeremiah 29:21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zedekiah-5"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "nethaniah-4",
+  "name": "Nethaniah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 36:14"
+  ],
+  "genealogy": {
+    "father": "shelemiah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehudi"
+    ]
+  }
+}

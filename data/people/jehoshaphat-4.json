@@ -1,0 +1,18 @@
+{
+  "person_id": "jehoshaphat-4",
+  "name": "Jehoshaphat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 9:2-14"
+  ],
+  "genealogy": {
+    "father": "nimshi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehu-2"
+    ]
+  }
+}

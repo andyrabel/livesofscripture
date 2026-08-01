@@ -1,0 +1,17 @@
+{
+  "person_id": "hadad-2",
+  "name": "Hadad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:35-36",
+    "1 Chronicles 1:46-47"
+  ],
+  "genealogy": {
+    "father": "bedad",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "jered",
+  "name": "Jered",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:18"
+  ],
+  "genealogy": {
+    "father": "mered",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gedor-2"
+    ]
+  }
+}

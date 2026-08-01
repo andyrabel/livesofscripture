@@ -1,0 +1,25 @@
+{
+  "person_id": "othniel",
+  "name": "Othniel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joshua 15:17",
+    "Judges 1:13",
+    "Judges 3:9-11",
+    "1 Chronicles 4:13",
+    "1 Chronicles 27:15"
+  ],
+  "genealogy": {
+    "father": "kenaz-2",
+    "mother": null,
+    "spouses": [
+      "achsah"
+    ],
+    "children": [
+      "hathath",
+      "meonothai"
+    ]
+  }
+}

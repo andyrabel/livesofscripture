@@ -1,0 +1,21 @@
+{
+  "person_id": "mica",
+  "name": "Mica",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:15",
+    "2 Chronicles 20:14",
+    "Nehemiah 10:11",
+    "Nehemiah 11:17-22"
+  ],
+  "genealogy": {
+    "father": "zichri-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mattaniah"
+    ]
+  }
+}

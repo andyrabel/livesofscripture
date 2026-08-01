@@ -1,0 +1,18 @@
+{
+  "person_id": "hur-3",
+  "name": "Hur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rephaiah-4"
+    ]
+  }
+}

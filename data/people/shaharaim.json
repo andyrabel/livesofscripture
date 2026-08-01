@@ -1,0 +1,30 @@
+{
+  "person_id": "shaharaim",
+  "name": "Shaharaim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:8"
+  ],
+  "genealogy": {
+    "father": "gera-4",
+    "mother": null,
+    "spouses": [
+      "baara",
+      "hodesh",
+      "hushim-3"
+    ],
+    "children": [
+      "abitub",
+      "elpaal",
+      "jeuz",
+      "jobab-4",
+      "malcam",
+      "mesha-3",
+      "mirmah",
+      "sachia",
+      "zibia"
+    ]
+  }
+}

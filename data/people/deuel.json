@@ -1,0 +1,21 @@
+{
+  "person_id": "deuel",
+  "name": "Deuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:14",
+    "Numbers 2:14",
+    "Numbers 7:42-47",
+    "Numbers 10:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliasaph"
+    ]
+  }
+}

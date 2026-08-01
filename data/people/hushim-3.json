@@ -1,0 +1,21 @@
+{
+  "person_id": "hushim-3",
+  "name": "Hushim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:8-11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "shaharaim"
+    ],
+    "children": [
+      "abitub",
+      "elpaal"
+    ]
+  }
+}

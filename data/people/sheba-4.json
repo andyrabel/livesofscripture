@@ -1,0 +1,16 @@
+{
+  "person_id": "sheba-4",
+  "name": "Sheba",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 20:1-22"
+  ],
+  "genealogy": {
+    "father": "bichri",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "zechariah-3",
+  "name": "Zechariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:7"
+  ],
+  "genealogy": {
+    "father": "bela-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeiel"
+    ]
+  }
+}

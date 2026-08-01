@@ -1,0 +1,21 @@
+{
+  "person_id": "maacah-4",
+  "name": "Maacah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:48"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shaaph-2",
+      "sheber",
+      "sheva-2",
+      "tirhanah"
+    ]
+  }
+}

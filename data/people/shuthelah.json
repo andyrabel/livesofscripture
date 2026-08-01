@@ -1,0 +1,19 @@
+{
+  "person_id": "shuthelah",
+  "name": "Shuthelah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:35-36",
+    "1 Chronicles 7:20"
+  ],
+  "genealogy": {
+    "father": "ephraim",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eran"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "nathan-6",
+  "name": "Nathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:36"
+  ],
+  "genealogy": {
+    "father": "attai",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zabad"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "person_id": "haman",
+  "name": "Haman",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Esther 3:1-15",
+    "Esther 4:7",
+    "Esther 5:4-14",
+    "Esther 6:4-14",
+    "Esther 7:1-10",
+    "Esther 8:1-7",
+    "Esther 9:10-24"
+  ],
+  "genealogy": {
+    "father": "hammedatha",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "adalia",
+      "aridai",
+      "aridatha",
+      "arisai",
+      "aspatha",
+      "dalphon",
+      "parmashta",
+      "parshandatha",
+      "poratha",
+      "vaizatha"
+    ]
+  }
+}

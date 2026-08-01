@@ -1,0 +1,18 @@
+{
+  "person_id": "barachel",
+  "name": "Barachel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 32:2-6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elihu-5"
+    ]
+  }
+}

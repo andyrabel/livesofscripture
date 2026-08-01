@@ -1,0 +1,19 @@
+{
+  "person_id": "assir",
+  "name": "Assir",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:24",
+    "1 Chronicles 6:22"
+  ],
+  "genealogy": {
+    "father": "korah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elkanah-3"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "pedaiah-2",
+  "name": "Pedaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:18-19"
+  ],
+  "genealogy": {
+    "father": "jehoiachin",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimei-4",
+      "zerubbabel"
+    ]
+  }
+}

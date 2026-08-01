@@ -1,0 +1,16 @@
+{
+  "person_id": "ebed-2",
+  "name": "Ebed",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:6"
+  ],
+  "genealogy": {
+    "father": "jonathan-8",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

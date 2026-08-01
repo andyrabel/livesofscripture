@@ -1,0 +1,19 @@
+{
+  "person_id": "becher-2",
+  "name": "Becher",
+  "alt_names": [
+    "Bered"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:35",
+    "1 Chronicles 7:20"
+  ],
+  "genealogy": {
+    "father": "ephraim",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

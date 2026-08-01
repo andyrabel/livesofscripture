@@ -1,0 +1,20 @@
+{
+  "person_id": "hadadezer",
+  "name": "Hadadezer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:3-12",
+    "2 Samuel 10:16-19",
+    "1 Kings 11:23",
+    "1 Chronicles 18:3-10",
+    "1 Chronicles 19:16-19"
+  ],
+  "genealogy": {
+    "father": "rehob",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

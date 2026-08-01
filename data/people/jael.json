@@ -1,0 +1,19 @@
+{
+  "person_id": "jael",
+  "name": "Jael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 4:17-22",
+    "Judges 5:6-24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "heber-2"
+    ],
+    "children": []
+  }
+}

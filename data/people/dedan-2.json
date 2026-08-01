@@ -1,0 +1,21 @@
+{
+  "person_id": "dedan-2",
+  "name": "Dedan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:3",
+    "1 Chronicles 1:32"
+  ],
+  "genealogy": {
+    "father": "jokshan",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "asshur-2",
+      "letush",
+      "leum"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "ammiel-2",
+  "name": "Ammiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 9:4-5",
+    "2 Samuel 17:27"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "machir-2"
+    ]
+  }
+}

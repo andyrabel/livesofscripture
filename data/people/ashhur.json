@@ -1,0 +1,29 @@
+{
+  "person_id": "ashhur",
+  "name": "Ashhur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:24",
+    "1 Chronicles 4:5"
+  ],
+  "genealogy": {
+    "father": "hezron-2",
+    "mother": "abijah-4",
+    "spouses": [
+      "helah",
+      "naarah"
+    ],
+    "children": [
+      "ahuzzam",
+      "ethnan",
+      "haahashtari",
+      "hepher-2",
+      "izhar-2",
+      "tekoa",
+      "temeni",
+      "zereth"
+    ]
+  }
+}

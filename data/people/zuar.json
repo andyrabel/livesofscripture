@@ -1,0 +1,21 @@
+{
+  "person_id": "zuar",
+  "name": "Zuar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:8",
+    "Numbers 2:5",
+    "Numbers 7:18-23",
+    "Numbers 10:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nethanel"
+    ]
+  }
+}

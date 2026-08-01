@@ -1,0 +1,17 @@
+{
+  "person_id": "legion",
+  "name": "Legion",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Mark 5:9",
+    "Luke 8:30"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "jebus",
+  "name": "Jebus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:16",
+    "1 Chronicles 1:14"
+  ],
+  "genealogy": {
+    "father": "canaan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

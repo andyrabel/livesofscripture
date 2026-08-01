@@ -1,0 +1,21 @@
+{
+  "person_id": "eliab-3",
+  "name": "Eliab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 16:6",
+    "1 Samuel 17:13-28",
+    "1 Chronicles 2:13",
+    "2 Chronicles 11:18"
+  ],
+  "genealogy": {
+    "father": "jesse",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abihail-4"
+    ]
+  }
+}

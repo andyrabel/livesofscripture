@@ -1,0 +1,18 @@
+{
+  "person_id": "agee",
+  "name": "Agee",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shammah-2"
+    ]
+  }
+}

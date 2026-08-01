@@ -1,0 +1,21 @@
+{
+  "person_id": "hamutal",
+  "name": "Hamutal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 23:31",
+    "2 Kings 24:18",
+    "Jeremiah 52:1"
+  ],
+  "genealogy": {
+    "father": "jeremiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehoahaz-2",
+      "zedekiah-2"
+    ]
+  }
+}

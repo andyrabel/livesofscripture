@@ -1,0 +1,18 @@
+{
+  "person_id": "dinah",
+  "name": "Dinah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 30:21",
+    "Genesis 34:1-26",
+    "Genesis 46:15"
+  ],
+  "genealogy": {
+    "father": "israel",
+    "mother": "leah",
+    "spouses": [],
+    "children": []
+  }
+}

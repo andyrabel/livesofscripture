@@ -1,0 +1,18 @@
+{
+  "person_id": "ahitub-4",
+  "name": "Ahitub",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meraioth-3"
+    ]
+  }
+}

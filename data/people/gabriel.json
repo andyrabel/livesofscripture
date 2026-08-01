@@ -1,0 +1,18 @@
+{
+  "person_id": "gabriel",
+  "name": "Gabriel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Daniel 8:16",
+    "Daniel 9:21",
+    "Luke 1:19-26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

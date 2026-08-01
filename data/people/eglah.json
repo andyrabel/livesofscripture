@@ -1,0 +1,21 @@
+{
+  "person_id": "eglah",
+  "name": "Eglah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:5",
+    "1 Chronicles 3:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "david"
+    ],
+    "children": [
+      "ithream"
+    ]
+  }
+}

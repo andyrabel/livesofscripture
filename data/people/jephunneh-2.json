@@ -1,0 +1,22 @@
+{
+  "person_id": "jephunneh-2",
+  "name": "Jephunneh",
+  "alt_names": [
+    "Ulla"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:38-39"
+  ],
+  "genealogy": {
+    "father": "ithran-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "arah",
+      "hanniel-2",
+      "rizia"
+    ]
+  }
+}

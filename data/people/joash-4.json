@@ -1,0 +1,24 @@
+{
+  "person_id": "joash-4",
+  "name": "Joash",
+  "alt_names": [
+    "Jehoash"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 13:9-25",
+    "2 Kings 14:1-27",
+    "2 Chronicles 25:17-25",
+    "Hosea 1:1",
+    "Amos 1:1"
+  ],
+  "genealogy": {
+    "father": "jehoahaz",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeroboam-2"
+    ]
+  }
+}

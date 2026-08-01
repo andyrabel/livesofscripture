@@ -1,0 +1,19 @@
+{
+  "person_id": "hilkiah-6",
+  "name": "Hilkiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:11",
+    "Nehemiah 12:7-21"
+  ],
+  "genealogy": {
+    "father": "meshullam-15",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "seraiah-8"
+    ]
+  }
+}

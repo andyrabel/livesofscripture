@@ -1,0 +1,19 @@
+{
+  "person_id": "amariah-2",
+  "name": "Amariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:11",
+    "2 Chronicles 19:11"
+  ],
+  "genealogy": {
+    "father": "azariah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahitub-3"
+    ]
+  }
+}

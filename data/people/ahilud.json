@@ -1,0 +1,21 @@
+{
+  "person_id": "ahilud",
+  "name": "Ahilud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:16",
+    "2 Samuel 20:24",
+    "1 Kings 4:3",
+    "1 Chronicles 18:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehoshaphat"
+    ]
+  }
+}

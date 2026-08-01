@@ -1,0 +1,20 @@
+{
+  "person_id": "elizabeth",
+  "name": "Elizabeth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 1:5-57"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "zacharias"
+    ],
+    "children": [
+      "john"
+    ]
+  }
+}

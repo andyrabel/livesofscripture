@@ -1,0 +1,25 @@
+{
+  "person_id": "oholibamah",
+  "name": "Oholibamah",
+  "alt_names": [
+    "Judith"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 26:34",
+    "Genesis 36:2-25"
+  ],
+  "genealogy": {
+    "father": "anah",
+    "mother": null,
+    "spouses": [
+      "esau"
+    ],
+    "children": [
+      "jalam",
+      "jeush",
+      "korah"
+    ]
+  }
+}

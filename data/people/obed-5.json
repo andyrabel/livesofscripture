@@ -1,0 +1,18 @@
+{
+  "person_id": "obed-5",
+  "name": "Obed",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 23:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah-10"
+    ]
+  }
+}

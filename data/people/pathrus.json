@@ -1,0 +1,17 @@
+{
+  "person_id": "pathrus",
+  "name": "Pathrus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:14",
+    "1 Chronicles 1:12"
+  ],
+  "genealogy": {
+    "father": "mizraim",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

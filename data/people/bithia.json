@@ -1,0 +1,22 @@
+{
+  "person_id": "bithia",
+  "name": "Bithia",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:17"
+  ],
+  "genealogy": {
+    "father": "pharaoh-5",
+    "mother": null,
+    "spouses": [
+      "mered"
+    ],
+    "children": [
+      "ishbah",
+      "miriam-2",
+      "shammai-3"
+    ]
+  }
+}

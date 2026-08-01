@@ -1,0 +1,18 @@
+{
+  "person_id": "jahath-3",
+  "name": "Jahath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:43"
+  ],
+  "genealogy": {
+    "father": "gershon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimei-8"
+    ]
+  }
+}

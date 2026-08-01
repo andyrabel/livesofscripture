@@ -1,0 +1,18 @@
+{
+  "person_id": "naggai",
+  "name": "Naggai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:25"
+  ],
+  "genealogy": {
+    "father": "maath",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hesli"
+    ]
+  }
+}

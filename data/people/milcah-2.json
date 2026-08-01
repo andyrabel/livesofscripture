@@ -1,0 +1,19 @@
+{
+  "person_id": "milcah-2",
+  "name": "Milcah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:33",
+    "Numbers 27:1",
+    "Numbers 36:11",
+    "Joshua 17:3"
+  ],
+  "genealogy": {
+    "father": "zelophehad",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

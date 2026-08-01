@@ -1,0 +1,21 @@
+{
+  "person_id": "shaul-2",
+  "name": "Shaul",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:10",
+    "Exodus 6:15",
+    "Numbers 26:13",
+    "1 Chronicles 4:24"
+  ],
+  "genealogy": {
+    "father": "simeon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shallum-5"
+    ]
+  }
+}

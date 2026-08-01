@@ -1,0 +1,17 @@
+{
+  "person_id": "abimael",
+  "name": "Abimael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:28",
+    "1 Chronicles 1:22"
+  ],
+  "genealogy": {
+    "father": "joktan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "shelemiah-6",
+  "name": "Shelemiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 36:26",
+    "Jeremiah 37:3"
+  ],
+  "genealogy": {
+    "father": "abdeel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehucal"
+    ]
+  }
+}

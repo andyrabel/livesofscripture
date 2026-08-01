@@ -1,0 +1,18 @@
+{
+  "person_id": "samuel-2",
+  "name": "Samuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:20",
+    "1 Chronicles 9:22",
+    "1 Chronicles 11:3"
+  ],
+  "genealogy": {
+    "father": "ammihud-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

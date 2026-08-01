@@ -1,0 +1,17 @@
+{
+  "person_id": "ananias-3",
+  "name": "Ananias",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 23:2",
+    "Acts 24:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

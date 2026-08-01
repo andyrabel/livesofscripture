@@ -1,0 +1,19 @@
+{
+  "person_id": "baruch-4",
+  "name": "Baruch",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 32:12-16",
+    "Jeremiah 36:4-32",
+    "Jeremiah 43:3-6",
+    "Jeremiah 45:1-2"
+  ],
+  "genealogy": {
+    "father": "neriah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

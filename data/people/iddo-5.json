@@ -1,0 +1,21 @@
+{
+  "person_id": "iddo-5",
+  "name": "Iddo",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 5:1",
+    "Ezra 6:14",
+    "Nehemiah 12:4-16",
+    "Zechariah 1:1-7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "berechiah-6"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "person_id": "jehoiachin",
+  "name": "Jehoiachin",
+  "alt_names": [
+    "Jeconiah",
+    "Coniah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 24:6-15",
+    "2 Kings 25:27",
+    "1 Chronicles 3:16-17",
+    "2 Chronicles 36:8-9",
+    "Esther 2:6",
+    "Jeremiah 22:24-28",
+    "Jeremiah 24:1",
+    "Jeremiah 27:20",
+    "Jeremiah 28:4",
+    "Jeremiah 29:2",
+    "Jeremiah 37:1",
+    "Jeremiah 52:31-33",
+    "Ezekiel 1:2",
+    "Matthew 1:11-12"
+  ],
+  "genealogy": {
+    "father": "jehoiakim",
+    "mother": "nehushta",
+    "spouses": [],
+    "children": [
+      "hoshama",
+      "jekamiah-2",
+      "malchiram",
+      "nedabiah",
+      "pedaiah-2",
+      "shealtiel",
+      "shenazzar"
+    ]
+  }
+}

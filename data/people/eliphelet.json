@@ -1,0 +1,18 @@
+{
+  "person_id": "eliphelet",
+  "name": "Eliphelet",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:16",
+    "1 Chronicles 3:8",
+    "1 Chronicles 14:7"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

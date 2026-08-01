@@ -1,0 +1,16 @@
+{
+  "person_id": "shechem-3",
+  "name": "Shechem",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:19"
+  ],
+  "genealogy": {
+    "father": "shemida",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "abiel",
+  "name": "Abiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 9:1",
+    "1 Samuel 14:51"
+  ],
+  "genealogy": {
+    "father": "zeror",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ner"
+    ]
+  }
+}

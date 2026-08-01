@@ -1,0 +1,20 @@
+{
+  "person_id": "reu",
+  "name": "Reu",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:18-21",
+    "1 Chronicles 1:25",
+    "Luke 3:35"
+  ],
+  "genealogy": {
+    "father": "peleg",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "serug"
+    ]
+  }
+}

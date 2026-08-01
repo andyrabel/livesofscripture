@@ -1,0 +1,18 @@
+{
+  "person_id": "gemalli",
+  "name": "Gemalli",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ammiel"
+    ]
+  }
+}

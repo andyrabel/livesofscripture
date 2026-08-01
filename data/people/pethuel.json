@@ -1,0 +1,18 @@
+{
+  "person_id": "pethuel",
+  "name": "Pethuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joel 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joel-11"
+    ]
+  }
+}

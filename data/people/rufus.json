@@ -1,0 +1,17 @@
+{
+  "person_id": "rufus",
+  "name": "Rufus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Mark 15:21",
+    "Romans 16:13"
+  ],
+  "genealogy": {
+    "father": "simon-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

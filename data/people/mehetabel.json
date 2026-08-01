@@ -1,0 +1,19 @@
+{
+  "person_id": "mehetabel",
+  "name": "Mehetabel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:39",
+    "1 Chronicles 1:50"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "matred",
+    "spouses": [
+      "hadad-3"
+    ],
+    "children": []
+  }
+}

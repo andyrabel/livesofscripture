@@ -1,0 +1,18 @@
+{
+  "person_id": "johanan-8",
+  "name": "Johanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 23:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ishmael-5"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "meraioth-3",
+  "name": "Meraioth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:11",
+    "Nehemiah 12:15"
+  ],
+  "genealogy": {
+    "father": "ahitub-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "helkai",
+      "zadok-6"
+    ]
+  }
+}

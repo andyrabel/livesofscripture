@@ -1,0 +1,17 @@
+{
+  "person_id": "nimrod",
+  "name": "Nimrod",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:8-9",
+    "1 Chronicles 1:10"
+  ],
+  "genealogy": {
+    "father": "cush",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

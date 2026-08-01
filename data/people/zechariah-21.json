@@ -1,0 +1,18 @@
+{
+  "person_id": "zechariah-21",
+  "name": "Zechariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:12"
+  ],
+  "genealogy": {
+    "father": "pashhur",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amzi-2"
+    ]
+  }
+}

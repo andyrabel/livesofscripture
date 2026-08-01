@@ -1,0 +1,16 @@
+{
+  "person_id": "talitha",
+  "name": "Talitha",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Mark 5:41"
+  ],
+  "genealogy": {
+    "father": "jairus",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

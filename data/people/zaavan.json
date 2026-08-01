@@ -1,0 +1,17 @@
+{
+  "person_id": "zaavan",
+  "name": "Zaavan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:27",
+    "1 Chronicles 1:42"
+  ],
+  "genealogy": {
+    "father": "ezer",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

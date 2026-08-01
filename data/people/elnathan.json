@@ -1,0 +1,20 @@
+{
+  "person_id": "elnathan",
+  "name": "Elnathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 24:8",
+    "Jeremiah 26:22",
+    "Jeremiah 36:12-25"
+  ],
+  "genealogy": {
+    "father": "achbor-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nehushta"
+    ]
+  }
+}

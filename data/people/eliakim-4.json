@@ -1,0 +1,18 @@
+{
+  "person_id": "eliakim-4",
+  "name": "Eliakim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:30"
+  ],
+  "genealogy": {
+    "father": "melea",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jonam"
+    ]
+  }
+}

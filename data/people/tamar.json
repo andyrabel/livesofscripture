@@ -1,0 +1,24 @@
+{
+  "person_id": "tamar",
+  "name": "Tamar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 38:6-24",
+    "Ruth 4:12",
+    "1 Chronicles 2:4",
+    "Matthew 1:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "er"
+    ],
+    "children": [
+      "perez",
+      "zerah-3"
+    ]
+  }
+}

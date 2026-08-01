@@ -1,0 +1,18 @@
+{
+  "person_id": "zabbai-2",
+  "name": "Zabbai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baruch"
+    ]
+  }
+}

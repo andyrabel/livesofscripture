@@ -1,0 +1,19 @@
+{
+  "person_id": "igal-2",
+  "name": "Igal",
+  "alt_names": [
+    "Joel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:36",
+    "1 Chronicles 11:38"
+  ],
+  "genealogy": {
+    "father": "nathan-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

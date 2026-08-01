@@ -1,0 +1,19 @@
+{
+  "person_id": "shallum-2",
+  "name": "Shallum",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:14",
+    "2 Chronicles 34:21"
+  ],
+  "genealogy": {
+    "father": "tikvah",
+    "mother": null,
+    "spouses": [
+      "huldah"
+    ],
+    "children": []
+  }
+}

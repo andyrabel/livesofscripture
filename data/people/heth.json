@@ -1,0 +1,21 @@
+{
+  "person_id": "heth",
+  "name": "Heth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:15",
+    "Genesis 23:3-20",
+    "Genesis 25:10",
+    "Genesis 27:46",
+    "Genesis 49:32",
+    "1 Chronicles 1:13"
+  ],
+  "genealogy": {
+    "father": "canaan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

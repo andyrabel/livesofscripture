@@ -1,0 +1,21 @@
+{
+  "person_id": "maoch",
+  "name": "Maoch",
+  "alt_names": [
+    "Maacah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 27:2",
+    "1 Kings 2:39"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "achish"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "azzan",
+  "name": "Azzan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "paltiel"
+    ]
+  }
+}

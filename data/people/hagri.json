@@ -1,0 +1,18 @@
+{
+  "person_id": "hagri",
+  "name": "Hagri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 11:38"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bani"
+    ]
+  }
+}

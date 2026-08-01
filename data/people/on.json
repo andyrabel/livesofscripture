@@ -1,0 +1,16 @@
+{
+  "person_id": "on",
+  "name": "On",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 16:1"
+  ],
+  "genealogy": {
+    "father": "peleth",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

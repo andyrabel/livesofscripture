@@ -1,0 +1,17 @@
+{
+  "person_id": "nogah",
+  "name": "Nogah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:7",
+    "1 Chronicles 14:6"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

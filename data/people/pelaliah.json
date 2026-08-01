@@ -1,0 +1,18 @@
+{
+  "person_id": "pelaliah",
+  "name": "Pelaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:12"
+  ],
+  "genealogy": {
+    "father": "amzi-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeroham-7"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "shobab",
+  "name": "Shobab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:14",
+    "1 Chronicles 3:5",
+    "1 Chronicles 14:4"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "bathsheba",
+    "spouses": [],
+    "children": []
+  }
+}

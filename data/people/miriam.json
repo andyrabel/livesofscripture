@@ -1,0 +1,22 @@
+{
+  "person_id": "miriam",
+  "name": "Miriam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 15:20-21",
+    "Numbers 12:1-15",
+    "Numbers 20:1",
+    "Numbers 26:59",
+    "Deuteronomy 24:9",
+    "1 Chronicles 6:3",
+    "Micah 6:4"
+  ],
+  "genealogy": {
+    "father": "amram",
+    "mother": "jochebed",
+    "spouses": [],
+    "children": []
+  }
+}

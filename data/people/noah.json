@@ -1,0 +1,34 @@
+{
+  "person_id": "noah",
+  "name": "Noah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:29-32",
+    "Genesis 6:8-22",
+    "Genesis 7:1-23",
+    "Genesis 8:1-20",
+    "Genesis 9:1-29",
+    "Genesis 10:1-32",
+    "1 Chronicles 1:4",
+    "Isaiah 54:9",
+    "Ezekiel 14:14-20",
+    "Matthew 24:37-38",
+    "Luke 3:36",
+    "Luke 17:26-27",
+    "Hebrews 11:7",
+    "1 Peter 3:20",
+    "2 Peter 2:5"
+  ],
+  "genealogy": {
+    "father": "lamech-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ham",
+      "japheth",
+      "shem"
+    ]
+  }
+}

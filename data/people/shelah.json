@@ -1,0 +1,21 @@
+{
+  "person_id": "shelah",
+  "name": "Shelah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:24",
+    "Genesis 11:12-15",
+    "1 Chronicles 1:18-24",
+    "Luke 3:36"
+  ],
+  "genealogy": {
+    "father": "arpachshad",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eber"
+    ]
+  }
+}

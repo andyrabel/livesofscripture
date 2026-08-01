@@ -1,0 +1,18 @@
+{
+  "person_id": "joanan",
+  "name": "Joanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:27"
+  ],
+  "genealogy": {
+    "father": "rhesa",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joda"
+    ]
+  }
+}

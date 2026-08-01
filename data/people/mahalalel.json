@@ -1,0 +1,20 @@
+{
+  "person_id": "mahalalel",
+  "name": "Mahalalel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:12-17",
+    "1 Chronicles 1:2",
+    "Luke 3:37"
+  ],
+  "genealogy": {
+    "father": "kenan",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jared"
+    ]
+  }
+}

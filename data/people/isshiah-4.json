@@ -1,0 +1,21 @@
+{
+  "person_id": "isshiah-4",
+  "name": "Isshiah",
+  "alt_names": [
+    "Jeshaiah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 24:21",
+    "1 Chronicles 26:25"
+  ],
+  "genealogy": {
+    "father": "rehabiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joram-3"
+    ]
+  }
+}

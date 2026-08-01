@@ -1,0 +1,16 @@
+{
+  "person_id": "tola-2",
+  "name": "Tola",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 10:1"
+  ],
+  "genealogy": {
+    "father": "puah-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

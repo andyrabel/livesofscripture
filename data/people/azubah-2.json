@@ -1,0 +1,22 @@
+{
+  "person_id": "azubah-2",
+  "name": "Azubah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:18-19"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "caleb-2"
+    ],
+    "children": [
+      "ardon",
+      "jesher",
+      "shobab-2"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "mahli-2",
+  "name": "Mahli",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:47"
+  ],
+  "genealogy": {
+    "father": "mushi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shemer-2"
+    ]
+  }
+}

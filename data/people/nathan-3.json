@@ -1,0 +1,19 @@
+{
+  "person_id": "nathan-3",
+  "name": "Nathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:36",
+    "1 Chronicles 11:38"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "igal-2"
+    ]
+  }
+}

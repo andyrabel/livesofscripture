@@ -1,0 +1,21 @@
+{
+  "person_id": "kadmiel",
+  "name": "Kadmiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:40",
+    "Ezra 3:9",
+    "Nehemiah 7:43",
+    "Nehemiah 12:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeshua-7"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "person_id": "thomas",
+  "name": "Thomas",
+  "alt_names": [
+    "Didymus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:15",
+    "John 11:16",
+    "John 14:5",
+    "John 20:24-28",
+    "John 21:2",
+    "Acts 1:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

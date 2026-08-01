@@ -1,0 +1,21 @@
+{
+  "person_id": "enoch-2",
+  "name": "Enoch",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:18-24",
+    "1 Chronicles 1:3",
+    "Luke 3:37",
+    "Jude 1:14"
+  ],
+  "genealogy": {
+    "father": "jared",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "methuselah"
+    ]
+  }
+}

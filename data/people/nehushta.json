@@ -1,0 +1,18 @@
+{
+  "person_id": "nehushta",
+  "name": "Nehushta",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 24:8"
+  ],
+  "genealogy": {
+    "father": "elnathan",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehoiachin"
+    ]
+  }
+}

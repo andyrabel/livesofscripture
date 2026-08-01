@@ -1,7 +1,9 @@
 {
   "person_id": "abraham",
   "name": "Abraham",
-  "alt_names": ["Abram"],
+  "alt_names": [
+    "Abram"
+  ],
   "tier": "full",
   "testament": "OT",
   "era": "Patriarchal",
@@ -9,9 +11,23 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Ur of the Chaldeans", "Haran", "Canaan", "Egypt"],
-  "references": ["Genesis 11:26-25:11", "Romans 4", "Hebrews 11:8-19"],
-  "topics": ["faith", "covenant", "promise", "sonship"],
+  "geographic_setting": [
+    "Ur of the Chaldeans",
+    "Haran",
+    "Canaan",
+    "Egypt"
+  ],
+  "references": [
+    "Genesis 11:26-25:11",
+    "Romans 4",
+    "Hebrews 11:8-19"
+  ],
+  "topics": [
+    "faith",
+    "covenant",
+    "promise",
+    "sonship"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "The location of 'Ur of the Chaldeans' (Genesis 11:28) is disputed. It is traditionally identified with the Sumerian city of Ur in southern Mesopotamia, though some scholars argue for a site closer to Haran in the north. Scripture does not resolve the question.",
   "source_summary": "Called by God out of Mesopotamia with a promise of land, descendants, and blessing to all nations; father of Isaac and, through Hagar, Ishmael; the model in Romans and Hebrews of justification by faith in a promise not yet seen fulfilled.",
@@ -27,8 +43,21 @@
   "genealogy": {
     "father": "terah",
     "mother": null,
-    "spouses": ["sarah", "hagar"],
-    "children": ["isaac", "ishmael"]
+    "spouses": [
+      "hagar",
+      "keturah",
+      "sarah"
+    ],
+    "children": [
+      "isaac",
+      "ishbak",
+      "ishmael",
+      "jokshan",
+      "medan",
+      "midian",
+      "shuah",
+      "zimran"
+    ]
   },
   "review": {
     "human_reviewed": false,

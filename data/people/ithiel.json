@@ -1,0 +1,18 @@
+{
+  "person_id": "ithiel",
+  "name": "Ithiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:7"
+  ],
+  "genealogy": {
+    "father": "jeshaiah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "maaseiah-12"
+    ]
+  }
+}

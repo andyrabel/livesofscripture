@@ -1,0 +1,23 @@
+{
+  "person_id": "jonah",
+  "name": "Jonah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 14:25",
+    "Jonah 1:1-17",
+    "Jonah 2:1-10",
+    "Jonah 3:1-4",
+    "Jonah 4:1-9",
+    "Matthew 12:39-41",
+    "Matthew 16:4",
+    "Luke 11:29-32"
+  ],
+  "genealogy": {
+    "father": "amittai",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "person_id": "ahijah",
+  "name": "Ahijah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 14:3-18",
+    "1 Kings 11:29-30",
+    "1 Kings 12:15",
+    "1 Kings 14:2-18",
+    "1 Kings 15:29-33",
+    "2 Chronicles 9:29",
+    "2 Chronicles 10:15",
+    "Nehemiah 11:5"
+  ],
+  "genealogy": {
+    "father": "ahitub",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

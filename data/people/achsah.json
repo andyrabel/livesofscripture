@@ -1,0 +1,19 @@
+{
+  "person_id": "achsah",
+  "name": "Achsah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joshua 15:16-17",
+    "Judges 1:12-13"
+  ],
+  "genealogy": {
+    "father": "caleb",
+    "mother": null,
+    "spouses": [
+      "othniel"
+    ],
+    "children": []
+  }
+}

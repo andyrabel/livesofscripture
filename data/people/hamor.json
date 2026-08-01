@@ -1,0 +1,22 @@
+{
+  "person_id": "hamor",
+  "name": "Hamor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 33:19",
+    "Genesis 34:2-26",
+    "Joshua 24:32",
+    "Judges 9:28",
+    "Acts 7:16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shechem"
+    ]
+  }
+}

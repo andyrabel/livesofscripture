@@ -1,0 +1,18 @@
+{
+  "person_id": "jesus",
+  "name": "Jesus",
+  "alt_names": [
+    "Justus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Colossians 4:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

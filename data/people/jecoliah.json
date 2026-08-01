@@ -1,0 +1,21 @@
+{
+  "person_id": "jecoliah",
+  "name": "Jecoliah",
+  "alt_names": [
+    "Jechiliah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:2",
+    "2 Chronicles 26:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "uzziah"
+    ]
+  }
+}

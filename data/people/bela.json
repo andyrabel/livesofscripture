@@ -1,0 +1,17 @@
+{
+  "person_id": "bela",
+  "name": "Bela",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:32-33",
+    "1 Chronicles 1:43-44"
+  ],
+  "genealogy": {
+    "father": "beor",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

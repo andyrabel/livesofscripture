@@ -1,0 +1,30 @@
+{
+  "person_id": "judas-2",
+  "name": "Judas",
+  "alt_names": [
+    "Judas Iscariot"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 10:4",
+    "Matthew 26:14-49",
+    "Matthew 27:3",
+    "Mark 3:19",
+    "Mark 14:10-45",
+    "Luke 6:16",
+    "Luke 22:3-48",
+    "John 6:71",
+    "John 12:4",
+    "John 13:2-29",
+    "John 14:22",
+    "John 18:2-5",
+    "Acts 1:16-25"
+  ],
+  "genealogy": {
+    "father": "simon-iscariot",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

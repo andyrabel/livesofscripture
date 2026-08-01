@@ -1,0 +1,19 @@
+{
+  "person_id": "hiel",
+  "name": "Hiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 16:34"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abiram-2",
+      "segub"
+    ]
+  }
+}

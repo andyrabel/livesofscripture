@@ -1,0 +1,19 @@
+{
+  "person_id": "kish-3",
+  "name": "Kish",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 23:21-22",
+    "1 Chronicles 24:29"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jerahmeel-2"
+    ]
+  }
+}

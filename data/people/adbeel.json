@@ -1,0 +1,17 @@
+{
+  "person_id": "adbeel",
+  "name": "Adbeel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:13",
+    "1 Chronicles 1:29"
+  ],
+  "genealogy": {
+    "father": "ishmael",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

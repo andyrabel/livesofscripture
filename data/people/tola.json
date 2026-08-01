@@ -1,0 +1,25 @@
+{
+  "person_id": "tola",
+  "name": "Tola",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:13",
+    "Numbers 26:23",
+    "1 Chronicles 7:1-2"
+  ],
+  "genealogy": {
+    "father": "issachar",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ibsam",
+      "jahmai",
+      "jeriel",
+      "rephaiah-3",
+      "samuel-3",
+      "uzzi-2"
+    ]
+  }
+}

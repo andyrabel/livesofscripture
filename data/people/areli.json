@@ -1,0 +1,17 @@
+{
+  "person_id": "areli",
+  "name": "Areli",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:16",
+    "Numbers 26:17"
+  ],
+  "genealogy": {
+    "father": "gad",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

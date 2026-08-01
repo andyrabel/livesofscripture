@@ -1,0 +1,23 @@
+{
+  "person_id": "jehoahaz",
+  "name": "Jehoahaz",
+  "alt_names": [
+    "Joahaz"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 10:35",
+    "2 Kings 13:1-25",
+    "2 Kings 14:1-17",
+    "2 Chronicles 25:17-25"
+  ],
+  "genealogy": {
+    "father": "jehu-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joash-4"
+    ]
+  }
+}

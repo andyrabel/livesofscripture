@@ -1,0 +1,20 @@
+{
+  "person_id": "johanan",
+  "name": "Johanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:23",
+    "Jeremiah 40:8-16",
+    "Jeremiah 41:11-16",
+    "Jeremiah 42:1-8",
+    "Jeremiah 43:2-5"
+  ],
+  "genealogy": {
+    "father": "kareah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

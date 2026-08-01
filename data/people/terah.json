@@ -8,11 +8,13 @@
     "Genesis 11:24-32"
   ],
   "genealogy": {
-    "father": null,
+    "father": "nahor",
     "mother": null,
     "spouses": [],
     "children": [
       "abraham",
+      "haran",
+      "nahor-2",
       "sarah"
     ]
   }

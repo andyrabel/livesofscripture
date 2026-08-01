@@ -1,0 +1,22 @@
+{
+  "person_id": "eliab-2",
+  "name": "Eliab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 16:1-12",
+    "Numbers 26:8-9",
+    "Deuteronomy 11:6"
+  ],
+  "genealogy": {
+    "father": "pallu",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abiram",
+      "dathan",
+      "nemuel"
+    ]
+  }
+}

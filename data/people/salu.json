@@ -1,0 +1,18 @@
+{
+  "person_id": "salu",
+  "name": "Salu",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 25:14"
+  ],
+  "genealogy": {
+    "father": "simeon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zimri"
+    ]
+  }
+}

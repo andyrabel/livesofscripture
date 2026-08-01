@@ -1,0 +1,18 @@
+{
+  "person_id": "shiphi",
+  "name": "Shiphi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:37"
+  ],
+  "genealogy": {
+    "father": "allon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ziza"
+    ]
+  }
+}

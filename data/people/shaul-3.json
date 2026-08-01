@@ -1,0 +1,18 @@
+{
+  "person_id": "shaul-3",
+  "name": "Shaul",
+  "alt_names": [
+    "Joel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:24-36"
+  ],
+  "genealogy": {
+    "father": "uzziah-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

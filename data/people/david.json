@@ -12,9 +12,24 @@
     "died": -970,
     "note": "Dates follow a widely-used regnal chronology anchored to 1 Kings 6:1 and the 40-year reigns credited to David and Solomon. Other evangelical chronological frameworks shift these dates by a decade or more."
   },
-  "geographic_setting": ["Bethlehem", "Hebron", "Jerusalem", "Kingdom of Israel"],
-  "references": ["1 Samuel 16-31", "2 Samuel", "1 Kings 1-2", "1 Chronicles 21"],
-  "topics": ["kingship", "repentance", "covenant", "messianic line"],
+  "geographic_setting": [
+    "Bethlehem",
+    "Hebron",
+    "Jerusalem",
+    "Kingdom of Israel"
+  ],
+  "references": [
+    "1 Samuel 16-31",
+    "2 Samuel",
+    "1 Kings 1-2",
+    "1 Chronicles 21"
+  ],
+  "topics": [
+    "kingship",
+    "repentance",
+    "covenant",
+    "messianic line"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "2 Samuel 24:1 says the LORD incited David to take the census, while 1 Chronicles 21:1 attributes the incitement to Satan. Most interpreters read these as complementary rather than contradictory — God permitting Satan's temptation as an instrument of judgment — but the wording difference has generated discussion.",
   "source_summary": "Youngest son of Jesse, anointed king in Saul's place, slayer of Goliath, recipient of God's covenant promise of an eternal throne fulfilled in Christ; also an adulterer and murderer whose repentance in Psalm 51 Scripture holds up as a model, and whose family fractured in the aftermath of his sin.",
@@ -30,8 +45,39 @@
   "genealogy": {
     "father": "jesse",
     "mother": null,
-    "spouses": ["bathsheba"],
-    "children": ["solomon"]
+    "spouses": [
+      "abigail",
+      "abital",
+      "ahinoam-2",
+      "bathsheba",
+      "eglah",
+      "haggith",
+      "maacah-2",
+      "michal"
+    ],
+    "children": [
+      "absalom",
+      "adonijah",
+      "amnon",
+      "chileab",
+      "eliada",
+      "eliphelet",
+      "eliphelet-3",
+      "elishama-2",
+      "elishua",
+      "ibhar",
+      "ithream",
+      "japhia-2",
+      "jerimoth-4",
+      "nathan",
+      "nepheg-2",
+      "nogah",
+      "shammua-2",
+      "shephatiah",
+      "shobab",
+      "solomon",
+      "tamar-2"
+    ]
   },
   "review": {
     "human_reviewed": false,

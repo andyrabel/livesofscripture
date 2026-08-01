@@ -1,0 +1,18 @@
+{
+  "person_id": "joshibiah",
+  "name": "Joshibiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:35"
+  ],
+  "genealogy": {
+    "father": "seraiah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehu-4"
+    ]
+  }
+}

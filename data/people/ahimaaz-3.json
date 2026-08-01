@@ -1,0 +1,18 @@
+{
+  "person_id": "ahimaaz-3",
+  "name": "Ahimaaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "basemath-3"
+    ],
+    "children": []
+  }
+}

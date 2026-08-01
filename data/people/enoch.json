@@ -1,0 +1,19 @@
+{
+  "person_id": "enoch",
+  "name": "Enoch",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:17-18",
+    "Hebrews 11:5"
+  ],
+  "genealogy": {
+    "father": "cain",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "irad"
+    ]
+  }
+}

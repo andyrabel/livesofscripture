@@ -1,0 +1,20 @@
+{
+  "person_id": "zerubbabel",
+  "name": "Zerubbabel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:19"
+  ],
+  "genealogy": {
+    "father": "pedaiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hananiah",
+      "meshullam-2",
+      "shelomith-2"
+    ]
+  }
+}

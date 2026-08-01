@@ -1,0 +1,19 @@
+{
+  "person_id": "meraioth",
+  "name": "Meraioth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:6-52",
+    "Ezra 7:3"
+  ],
+  "genealogy": {
+    "father": "zerahiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amariah"
+    ]
+  }
+}

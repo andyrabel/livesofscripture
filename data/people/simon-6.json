@@ -1,0 +1,17 @@
+{
+  "person_id": "simon-6",
+  "name": "Simon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 9:43",
+    "Acts 10:6-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

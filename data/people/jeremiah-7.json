@@ -1,0 +1,19 @@
+{
+  "person_id": "jeremiah-7",
+  "name": "Jeremiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 10:2",
+    "Nehemiah 12:1-34"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hananiah-9"
+    ]
+  }
+}

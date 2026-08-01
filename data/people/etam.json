@@ -1,0 +1,21 @@
+{
+  "person_id": "etam",
+  "name": "Etam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hazzelelponi",
+      "idbash",
+      "ishma",
+      "jezreel"
+    ]
+  }
+}

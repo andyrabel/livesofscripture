@@ -1,0 +1,24 @@
+{
+  "person_id": "philip",
+  "name": "Philip",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:14",
+    "John 1:43-48",
+    "John 6:5-7",
+    "John 12:21-22",
+    "John 14:8-9",
+    "Acts 1:13",
+    "Acts 8:5-40"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "person_id": "cush",
+  "name": "Cush",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:6-8",
+    "1 Chronicles 1:8-10"
+  ],
+  "genealogy": {
+    "father": "ham",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "havilah",
+      "nimrod",
+      "raamah",
+      "sabtah",
+      "sabteca",
+      "seba"
+    ]
+  }
+}

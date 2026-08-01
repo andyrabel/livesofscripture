@@ -1,0 +1,22 @@
+{
+  "person_id": "mushi",
+  "name": "Mushi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:19",
+    "Numbers 3:20",
+    "1 Chronicles 6:19-47",
+    "1 Chronicles 23:21-23",
+    "1 Chronicles 24:26-30"
+  ],
+  "genealogy": {
+    "father": "merari",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mahli-2"
+    ]
+  }
+}

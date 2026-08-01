@@ -1,0 +1,19 @@
+{
+  "person_id": "crispus",
+  "name": "Crispus",
+  "alt_names": [
+    "Sosthenes"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 18:8-17",
+    "1 Corinthians 1:1-14"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

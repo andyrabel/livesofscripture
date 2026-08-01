@@ -1,0 +1,18 @@
+{
+  "person_id": "hushai-2",
+  "name": "Hushai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baana-2"
+    ]
+  }
+}

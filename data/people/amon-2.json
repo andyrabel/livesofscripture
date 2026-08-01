@@ -1,0 +1,24 @@
+{
+  "person_id": "amon-2",
+  "name": "Amon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 21:18-25",
+    "1 Chronicles 3:14",
+    "2 Chronicles 33:20-25",
+    "Jeremiah 1:2",
+    "Jeremiah 25:3",
+    "Zephaniah 1:1",
+    "Matthew 1:10"
+  ],
+  "genealogy": {
+    "father": "manasseh-3",
+    "mother": "meshullemeth",
+    "spouses": [],
+    "children": [
+      "josiah"
+    ]
+  }
+}

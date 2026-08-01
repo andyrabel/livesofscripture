@@ -1,0 +1,18 @@
+{
+  "person_id": "michael-2",
+  "name": "Michael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:13-14"
+  ],
+  "genealogy": {
+    "father": "jeshishai",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gilead-3"
+    ]
+  }
+}

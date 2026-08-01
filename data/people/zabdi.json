@@ -1,0 +1,21 @@
+{
+  "person_id": "zabdi",
+  "name": "Zabdi",
+  "alt_names": [
+    "Zimri"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joshua 7:1-18",
+    "1 Chronicles 2:6"
+  ],
+  "genealogy": {
+    "father": "zerah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "carmi-2"
+    ]
+  }
+}

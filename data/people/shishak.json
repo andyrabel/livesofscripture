@@ -1,0 +1,23 @@
+{
+  "person_id": "shishak",
+  "name": "Shishak",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 3:1",
+    "1 Kings 9:16-24",
+    "1 Kings 11:18-40",
+    "1 Kings 14:25",
+    "2 Chronicles 8:11",
+    "2 Chronicles 12:2-9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "tahpenes"
+    ],
+    "children": []
+  }
+}

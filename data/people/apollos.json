@@ -1,0 +1,22 @@
+{
+  "person_id": "apollos",
+  "name": "Apollos",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 18:24",
+    "Acts 19:1",
+    "1 Corinthians 1:12",
+    "1 Corinthians 3:4-22",
+    "1 Corinthians 4:6",
+    "1 Corinthians 16:12",
+    "Titus 3:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

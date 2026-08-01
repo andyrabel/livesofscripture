@@ -1,0 +1,18 @@
+{
+  "person_id": "azbuk",
+  "name": "Azbuk",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nehemiah-2"
+    ]
+  }
+}

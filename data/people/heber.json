@@ -1,0 +1,23 @@
+{
+  "person_id": "heber",
+  "name": "Heber",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:17",
+    "Numbers 26:45",
+    "1 Chronicles 7:31-32"
+  ],
+  "genealogy": {
+    "father": "beriah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hotham",
+      "japhlet",
+      "shomer-2",
+      "shua-2"
+    ]
+  }
+}

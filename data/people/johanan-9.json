@@ -1,0 +1,18 @@
+{
+  "person_id": "johanan-9",
+  "name": "Johanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 28:12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah-11"
+    ]
+  }
+}

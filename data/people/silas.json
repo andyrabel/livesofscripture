@@ -1,0 +1,25 @@
+{
+  "person_id": "silas",
+  "name": "Silas",
+  "alt_names": [
+    "Silvanus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 15:22-40",
+    "Acts 16:19-29",
+    "Acts 17:4-15",
+    "Acts 18:5",
+    "2 Corinthians 1:19",
+    "1 Thessalonians 1:1",
+    "2 Thessalonians 1:1",
+    "1 Peter 5:12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

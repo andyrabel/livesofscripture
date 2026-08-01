@@ -1,0 +1,19 @@
+{
+  "person_id": "eliphelet-3",
+  "name": "Eliphelet",
+  "alt_names": [
+    "Elpelet"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:6",
+    "1 Chronicles 14:5"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

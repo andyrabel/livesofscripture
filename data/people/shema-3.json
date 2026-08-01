@@ -1,0 +1,28 @@
+{
+  "person_id": "shema-3",
+  "name": "Shema",
+  "alt_names": [
+    "Shimei"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:13-21"
+  ],
+  "genealogy": {
+    "father": "elpaal",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "adaiah-3",
+      "beraiah",
+      "eliel-2",
+      "elienai",
+      "jakim",
+      "shimrath",
+      "zabdi-2",
+      "zichri-2",
+      "zillethai"
+    ]
+  }
+}

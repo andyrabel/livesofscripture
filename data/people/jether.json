@@ -1,0 +1,16 @@
+{
+  "person_id": "jether",
+  "name": "Jether",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 8:20"
+  ],
+  "genealogy": {
+    "father": "gideon",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "seraiah-5",
+  "name": "Seraiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:35",
+    "1 Chronicles 6:14"
+  ],
+  "genealogy": {
+    "father": "asiel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joshibiah"
+    ]
+  }
+}

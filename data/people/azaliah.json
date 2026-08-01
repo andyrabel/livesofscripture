@@ -1,0 +1,19 @@
+{
+  "person_id": "azaliah",
+  "name": "Azaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:3",
+    "2 Chronicles 34:8"
+  ],
+  "genealogy": {
+    "father": "meshullam",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shaphan"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "goliath",
+  "name": "Goliath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 17:4-57",
+    "1 Samuel 18:6",
+    "1 Samuel 21:9",
+    "1 Samuel 22:10",
+    "2 Samuel 21:19",
+    "1 Chronicles 20:5"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

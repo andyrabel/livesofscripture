@@ -1,0 +1,18 @@
+{
+  "person_id": "jehu",
+  "name": "Jehu",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 16:1-12",
+    "2 Chronicles 19:2",
+    "2 Chronicles 20:34"
+  ],
+  "genealogy": {
+    "father": "hanani",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

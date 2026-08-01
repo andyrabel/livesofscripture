@@ -1,0 +1,21 @@
+{
+  "person_id": "ahimaaz-2",
+  "name": "Ahimaaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 15:27-36",
+    "2 Samuel 17:17-20",
+    "2 Samuel 18:19-29",
+    "1 Chronicles 6:8-53"
+  ],
+  "genealogy": {
+    "father": "zadok",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah-5"
+    ]
+  }
+}

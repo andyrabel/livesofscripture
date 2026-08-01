@@ -1,0 +1,18 @@
+{
+  "person_id": "azariah-4",
+  "name": "Azariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:38-39"
+  ],
+  "genealogy": {
+    "father": "jehu-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "helez-2"
+    ]
+  }
+}

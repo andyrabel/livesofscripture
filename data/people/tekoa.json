@@ -1,0 +1,17 @@
+{
+  "person_id": "tekoa",
+  "name": "Tekoa",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:24",
+    "1 Chronicles 4:5"
+  ],
+  "genealogy": {
+    "father": "ashhur",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

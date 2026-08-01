@@ -1,0 +1,36 @@
+{
+  "person_id": "james",
+  "name": "James",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 4:21",
+    "Matthew 10:2",
+    "Matthew 17:1",
+    "Mark 1:19-29",
+    "Mark 3:17",
+    "Mark 5:37",
+    "Mark 9:2",
+    "Mark 10:35-41",
+    "Mark 13:3",
+    "Mark 14:33",
+    "Luke 5:10",
+    "Luke 6:14",
+    "Luke 8:51",
+    "Luke 9:28-54",
+    "Acts 1:13",
+    "Acts 12:2-17",
+    "Acts 15:13",
+    "Acts 21:18",
+    "1 Corinthians 15:7",
+    "Galatians 1:19",
+    "Galatians 2:9-12"
+  ],
+  "genealogy": {
+    "father": "zebedee",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

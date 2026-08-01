@@ -1,0 +1,19 @@
+{
+  "person_id": "chilion",
+  "name": "Chilion",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ruth 1:2-5",
+    "Ruth 4:9"
+  ],
+  "genealogy": {
+    "father": "elimelech",
+    "mother": "naomi",
+    "spouses": [
+      "orpah"
+    ],
+    "children": []
+  }
+}

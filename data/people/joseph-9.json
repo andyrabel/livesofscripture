@@ -1,0 +1,18 @@
+{
+  "person_id": "joseph-9",
+  "name": "Joseph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:30"
+  ],
+  "genealogy": {
+    "father": "jonam",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "judah-5"
+    ]
+  }
+}

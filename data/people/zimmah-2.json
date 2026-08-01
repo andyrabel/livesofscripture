@@ -1,0 +1,18 @@
+{
+  "person_id": "zimmah-2",
+  "name": "Zimmah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:42"
+  ],
+  "genealogy": {
+    "father": "shimei-8",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ethan-2"
+    ]
+  }
+}

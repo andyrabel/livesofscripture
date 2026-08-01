@@ -1,0 +1,24 @@
+{
+  "person_id": "elioenai",
+  "name": "Elioenai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:23-24"
+  ],
+  "genealogy": {
+    "father": "neariah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "akkub",
+      "anani",
+      "delaiah",
+      "eliashib",
+      "hodaviah",
+      "johanan-2",
+      "pelaiah"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "person_id": "elkanah",
+  "name": "Elkanah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:24"
+  ],
+  "genealogy": {
+    "father": "korah-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

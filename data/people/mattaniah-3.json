@@ -1,0 +1,19 @@
+{
+  "person_id": "mattaniah-3",
+  "name": "Mattaniah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 29:13",
+    "Nehemiah 12:35"
+  ],
+  "genealogy": {
+    "father": "micaiah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shemaiah-14"
+    ]
+  }
+}

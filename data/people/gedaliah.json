@@ -1,0 +1,20 @@
+{
+  "person_id": "gedaliah",
+  "name": "Gedaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:22-25",
+    "Jeremiah 39:14",
+    "Jeremiah 40:5-16",
+    "Jeremiah 41:1-18",
+    "Jeremiah 43:6"
+  ],
+  "genealogy": {
+    "father": "ahikam",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

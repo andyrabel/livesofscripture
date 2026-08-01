@@ -1,0 +1,27 @@
+{
+  "person_id": "ham",
+  "name": "Ham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:32",
+    "Genesis 6:10",
+    "Genesis 7:13",
+    "Genesis 9:18-22",
+    "Genesis 10:1-20",
+    "1 Chronicles 1:4-8",
+    "Psalms 78:51"
+  ],
+  "genealogy": {
+    "father": "noah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "canaan",
+      "cush",
+      "mizraim",
+      "put"
+    ]
+  }
+}

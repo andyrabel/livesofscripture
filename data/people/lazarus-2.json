@@ -1,0 +1,17 @@
+{
+  "person_id": "lazarus-2",
+  "name": "Lazarus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "John 11:1-43",
+    "John 12:1-17"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

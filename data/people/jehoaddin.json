@@ -1,0 +1,21 @@
+{
+  "person_id": "jehoaddin",
+  "name": "Jehoaddin",
+  "alt_names": [
+    "Jehoaddan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 14:2",
+    "2 Chronicles 25:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amaziah"
+    ]
+  }
+}

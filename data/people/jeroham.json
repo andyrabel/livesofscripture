@@ -1,0 +1,19 @@
+{
+  "person_id": "jeroham",
+  "name": "Jeroham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:1",
+    "1 Chronicles 6:27-34"
+  ],
+  "genealogy": {
+    "father": "elihu",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elkanah-2"
+    ]
+  }
+}

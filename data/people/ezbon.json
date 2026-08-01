@@ -1,0 +1,19 @@
+{
+  "person_id": "ezbon",
+  "name": "Ezbon",
+  "alt_names": [
+    "Ozni"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:16",
+    "Numbers 26:16"
+  ],
+  "genealogy": {
+    "father": "gad",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

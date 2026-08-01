@@ -1,0 +1,16 @@
+{
+  "person_id": "mary-5",
+  "name": "Mary",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Romans 16:6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

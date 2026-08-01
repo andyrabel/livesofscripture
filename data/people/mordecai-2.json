@@ -1,0 +1,26 @@
+{
+  "person_id": "mordecai-2",
+  "name": "Mordecai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Esther 2:5-22",
+    "Esther 3:2-6",
+    "Esther 4:1-17",
+    "Esther 5:9-14",
+    "Esther 6:2-13",
+    "Esther 7:9-10",
+    "Esther 8:1-15",
+    "Esther 9:3-31",
+    "Esther 10:2-3"
+  ],
+  "genealogy": {
+    "father": "jair-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "esther"
+    ]
+  }
+}

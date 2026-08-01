@@ -1,0 +1,21 @@
+{
+  "person_id": "zophai",
+  "name": "Zophai",
+  "alt_names": [
+    "Zuph"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:1",
+    "1 Chronicles 6:26-35"
+  ],
+  "genealogy": {
+    "father": "elkanah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "tohu"
+    ]
+  }
+}

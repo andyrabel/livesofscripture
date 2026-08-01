@@ -1,0 +1,17 @@
+{
+  "person_id": "theophilus",
+  "name": "Theophilus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 1:3",
+    "Acts 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

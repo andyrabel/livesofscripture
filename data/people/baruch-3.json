@@ -1,0 +1,18 @@
+{
+  "person_id": "baruch-3",
+  "name": "Baruch",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:5"
+  ],
+  "genealogy": {
+    "father": "col-hozeh",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "maaseiah-11"
+    ]
+  }
+}

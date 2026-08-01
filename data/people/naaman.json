@@ -1,0 +1,18 @@
+{
+  "person_id": "naaman",
+  "name": "Naaman",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "Numbers 26:40",
+    "1 Chronicles 8:4"
+  ],
+  "genealogy": {
+    "father": "bela-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

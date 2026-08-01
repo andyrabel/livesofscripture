@@ -1,0 +1,16 @@
+{
+  "person_id": "lazarus",
+  "name": "Lazarus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 16:20-25"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

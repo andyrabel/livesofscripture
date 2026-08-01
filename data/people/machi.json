@@ -1,0 +1,18 @@
+{
+  "person_id": "machi",
+  "name": "Machi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "geuel"
+    ]
+  }
+}

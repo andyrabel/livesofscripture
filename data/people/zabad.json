@@ -1,0 +1,18 @@
+{
+  "person_id": "zabad",
+  "name": "Zabad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:36-37"
+  ],
+  "genealogy": {
+    "father": "nathan-6",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ephlal"
+    ]
+  }
+}

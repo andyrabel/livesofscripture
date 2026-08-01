@@ -1,0 +1,18 @@
+{
+  "person_id": "abihail",
+  "name": "Abihail",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 3:35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zuriel"
+    ]
+  }
+}

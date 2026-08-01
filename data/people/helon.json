@@ -1,0 +1,21 @@
+{
+  "person_id": "helon",
+  "name": "Helon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:9",
+    "Numbers 2:7",
+    "Numbers 7:24-29",
+    "Numbers 10:16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliab"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "immer-3",
+  "name": "Immer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:29"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zadok-5"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "machir-2",
+  "name": "Machir",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 9:4-5",
+    "2 Samuel 17:27"
+  ],
+  "genealogy": {
+    "father": "ammiel-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

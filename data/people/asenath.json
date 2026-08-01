@@ -1,0 +1,22 @@
+{
+  "person_id": "asenath",
+  "name": "Asenath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 41:45-50",
+    "Genesis 46:20"
+  ],
+  "genealogy": {
+    "father": "potiphera",
+    "mother": null,
+    "spouses": [
+      "joseph"
+    ],
+    "children": [
+      "ephraim",
+      "manasseh"
+    ]
+  }
+}

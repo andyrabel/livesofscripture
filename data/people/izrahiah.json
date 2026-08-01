@@ -1,0 +1,21 @@
+{
+  "person_id": "izrahiah",
+  "name": "Izrahiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:3"
+  ],
+  "genealogy": {
+    "father": "uzzi-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "isshiah",
+      "joel-5",
+      "michael-4",
+      "obadiah-3"
+    ]
+  }
+}

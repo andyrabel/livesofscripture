@@ -1,0 +1,27 @@
+{
+  "person_id": "becher",
+  "name": "Becher",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "1 Chronicles 7:6-8"
+  ],
+  "genealogy": {
+    "father": "benjamin",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abijah-5",
+      "alemeth",
+      "anathoth",
+      "eliezer-3",
+      "elioenai-3",
+      "jeremoth",
+      "joash-6",
+      "omri-2",
+      "zemirah"
+    ]
+  }
+}

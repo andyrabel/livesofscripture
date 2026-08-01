@@ -1,0 +1,21 @@
+{
+  "person_id": "zacharias",
+  "name": "Zacharias",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 1:5-67",
+    "Luke 3:2"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "elizabeth"
+    ],
+    "children": [
+      "john"
+    ]
+  }
+}

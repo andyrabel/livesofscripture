@@ -1,0 +1,18 @@
+{
+  "person_id": "jedaiah",
+  "name": "Jedaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:37"
+  ],
+  "genealogy": {
+    "father": "shimri",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "allon"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "person_id": "dodo-2",
+  "name": "Dodo",
+  "alt_names": [
+    "Jaare-oregim",
+    "Jair"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 21:19",
+    "2 Samuel 23:24",
+    "1 Chronicles 11:26",
+    "1 Chronicles 20:5"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elhanan"
+    ]
+  }
+}

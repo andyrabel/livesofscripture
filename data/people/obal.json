@@ -1,0 +1,19 @@
+{
+  "person_id": "obal",
+  "name": "Obal",
+  "alt_names": [
+    "Ebal"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:28",
+    "1 Chronicles 1:22"
+  ],
+  "genealogy": {
+    "father": "joktan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

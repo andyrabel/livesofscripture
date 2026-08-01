@@ -1,0 +1,18 @@
+{
+  "person_id": "meraioth-2",
+  "name": "Meraioth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:11"
+  ],
+  "genealogy": {
+    "father": "ahitub-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zadok-3"
+    ]
+  }
+}

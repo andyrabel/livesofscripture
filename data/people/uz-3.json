@@ -1,0 +1,17 @@
+{
+  "person_id": "uz-3",
+  "name": "Uz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:28",
+    "1 Chronicles 1:42"
+  ],
+  "genealogy": {
+    "father": "dishan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "herodias",
+  "name": "Herodias",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 14:3-6",
+    "Mark 6:17-22",
+    "Luke 3:19"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "philip-2"
+    ],
+    "children": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "caesar",
+  "name": "Caesar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 22:17-21",
+    "Mark 12:14-17",
+    "Luke 3:1",
+    "Luke 20:22-25",
+    "Luke 23:2",
+    "John 19:12-15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

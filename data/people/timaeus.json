@@ -1,0 +1,18 @@
+{
+  "person_id": "timaeus",
+  "name": "Timaeus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Mark 10:46"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bartimaeus"
+    ]
+  }
+}

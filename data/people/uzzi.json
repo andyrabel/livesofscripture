@@ -1,0 +1,19 @@
+{
+  "person_id": "uzzi",
+  "name": "Uzzi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:5-51",
+    "Ezra 7:4"
+  ],
+  "genealogy": {
+    "father": "bukki-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zerahiah"
+    ]
+  }
+}

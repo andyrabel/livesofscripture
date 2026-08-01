@@ -1,0 +1,16 @@
+{
+  "person_id": "zadok-5",
+  "name": "Zadok",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:29"
+  ],
+  "genealogy": {
+    "father": "immer-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

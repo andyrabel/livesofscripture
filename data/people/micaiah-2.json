@@ -1,0 +1,21 @@
+{
+  "person_id": "micaiah-2",
+  "name": "Micaiah",
+  "alt_names": [
+    "Micah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:12",
+    "2 Chronicles 34:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "achbor-2"
+    ]
+  }
+}

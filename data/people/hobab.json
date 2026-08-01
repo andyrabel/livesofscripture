@@ -1,0 +1,16 @@
+{
+  "person_id": "hobab",
+  "name": "Hobab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 10:29"
+  ],
+  "genealogy": {
+    "father": "jethro",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

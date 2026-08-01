@@ -1,0 +1,19 @@
+{
+  "person_id": "abiram",
+  "name": "Abiram",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 16:1-27",
+    "Numbers 26:9",
+    "Deuteronomy 11:6",
+    "Psalms 106:17"
+  ],
+  "genealogy": {
+    "father": "eliab-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

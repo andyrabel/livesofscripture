@@ -1,0 +1,41 @@
+{
+  "person_id": "hezekiah",
+  "name": "Hezekiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 16:20",
+    "2 Kings 18:1-37",
+    "2 Kings 19:1-20",
+    "2 Kings 20:1-21",
+    "2 Kings 21:3",
+    "1 Chronicles 3:13",
+    "1 Chronicles 4:41",
+    "2 Chronicles 28:27",
+    "2 Chronicles 29:1-36",
+    "2 Chronicles 30:1-24",
+    "2 Chronicles 31:2-20",
+    "2 Chronicles 32:2-33",
+    "2 Chronicles 33:3",
+    "Proverbs 25:1",
+    "Isaiah 1:1",
+    "Isaiah 36:1-22",
+    "Isaiah 37:1-21",
+    "Isaiah 38:1-22",
+    "Isaiah 39:1-8",
+    "Jeremiah 15:4",
+    "Jeremiah 26:18-19",
+    "Hosea 1:1",
+    "Micah 1:1",
+    "Matthew 1:9-10"
+  ],
+  "genealogy": {
+    "father": "ahaz",
+    "mother": "abi",
+    "spouses": [],
+    "children": [
+      "manasseh-3"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "bani",
+  "name": "Bani",
+  "alt_names": [
+    "Mibhar"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:36",
+    "1 Chronicles 11:38"
+  ],
+  "genealogy": {
+    "father": "hagri",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

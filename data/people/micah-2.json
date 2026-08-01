@@ -1,0 +1,25 @@
+{
+  "person_id": "micah-2",
+  "name": "Micah",
+  "alt_names": [
+    "Mica"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 9:12",
+    "1 Chronicles 8:34-35",
+    "1 Chronicles 9:40-41"
+  ],
+  "genealogy": {
+    "father": "mephibosheth",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahaz-2",
+      "melech",
+      "pithon",
+      "tarea"
+    ]
+  }
+}

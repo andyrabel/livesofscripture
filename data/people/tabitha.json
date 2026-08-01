@@ -1,0 +1,18 @@
+{
+  "person_id": "tabitha",
+  "name": "Tabitha",
+  "alt_names": [
+    "Dorcas"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 9:36-40"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

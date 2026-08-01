@@ -1,0 +1,20 @@
+{
+  "person_id": "neariah",
+  "name": "Neariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:22-23"
+  ],
+  "genealogy": {
+    "father": "shemaiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azrikam",
+      "elioenai",
+      "hizkiah"
+    ]
+  }
+}

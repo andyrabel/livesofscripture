@@ -1,0 +1,19 @@
+{
+  "person_id": "jozacar",
+  "name": "Jozacar",
+  "alt_names": [
+    "Zabad"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 12:21",
+    "2 Chronicles 24:26"
+  ],
+  "genealogy": {
+    "father": "shimeath",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

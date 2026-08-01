@@ -1,0 +1,21 @@
+{
+  "person_id": "ahitub-2",
+  "name": "Ahitub",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:17",
+    "1 Chronicles 6:7-52",
+    "1 Chronicles 18:16",
+    "Ezra 7:2"
+  ],
+  "genealogy": {
+    "father": "amariah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zadok"
+    ]
+  }
+}

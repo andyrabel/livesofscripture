@@ -1,0 +1,19 @@
+{
+  "person_id": "sheva-2",
+  "name": "Sheva",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:49"
+  ],
+  "genealogy": {
+    "father": "caleb-2",
+    "mother": "maacah-4",
+    "spouses": [],
+    "children": [
+      "gibea",
+      "machbena"
+    ]
+  }
+}

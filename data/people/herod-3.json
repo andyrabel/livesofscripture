@@ -1,0 +1,17 @@
+{
+  "person_id": "herod-3",
+  "name": "Herod",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 12:1-21",
+    "Acts 23:35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

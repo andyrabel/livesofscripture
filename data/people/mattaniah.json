@@ -1,0 +1,20 @@
+{
+  "person_id": "mattaniah",
+  "name": "Mattaniah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:15",
+    "2 Chronicles 20:14"
+  ],
+  "genealogy": {
+    "father": "mica",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hashabiah-7",
+      "jeiel-5"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "eshek",
+  "name": "Eshek",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:39"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliphelet-4",
+      "jeush-3",
+      "ulam-2"
+    ]
+  }
+}

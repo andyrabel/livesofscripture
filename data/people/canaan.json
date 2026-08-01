@@ -1,0 +1,33 @@
+{
+  "person_id": "canaan",
+  "name": "Canaan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 9:18-27",
+    "Genesis 10:6-15",
+    "Genesis 28:1-8",
+    "Genesis 31:18",
+    "Genesis 36:2",
+    "1 Chronicles 1:8-13"
+  ],
+  "genealogy": {
+    "father": "ham",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amor",
+      "ark",
+      "arvad",
+      "girgash",
+      "hamath",
+      "heth",
+      "hivi",
+      "jebus",
+      "sidon",
+      "sini",
+      "zemar"
+    ]
+  }
+}

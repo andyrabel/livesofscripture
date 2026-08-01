@@ -1,0 +1,18 @@
+{
+  "person_id": "josiah-2",
+  "name": "Josiah",
+  "alt_names": [
+    "Hen"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Zechariah 6:10-14"
+  ],
+  "genealogy": {
+    "father": "zephaniah-4",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

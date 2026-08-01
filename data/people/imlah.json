@@ -1,0 +1,19 @@
+{
+  "person_id": "imlah",
+  "name": "Imlah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 22:8-9",
+    "2 Chronicles 18:7-8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "micaiah"
+    ]
+  }
+}

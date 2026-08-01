@@ -1,0 +1,20 @@
+{
+  "person_id": "eliahba",
+  "name": "Eliahba",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:32",
+    "1 Chronicles 11:33"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jashen",
+      "jonathan-5"
+    ]
+  }
+}

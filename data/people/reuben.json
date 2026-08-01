@@ -1,0 +1,51 @@
+{
+  "person_id": "reuben",
+  "name": "Reuben",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 29:32",
+    "Genesis 30:14",
+    "Genesis 35:22-23",
+    "Genesis 37:21-29",
+    "Genesis 42:22-37",
+    "Genesis 46:8-9",
+    "Genesis 48:5",
+    "Genesis 49:3",
+    "Exodus 1:2",
+    "Exodus 6:14",
+    "Numbers 1:5-21",
+    "Numbers 2:10-16",
+    "Numbers 7:30",
+    "Numbers 10:18",
+    "Numbers 13:4",
+    "Numbers 16:1",
+    "Numbers 26:5",
+    "Numbers 32:1-37",
+    "Numbers 34:14",
+    "Deuteronomy 11:6",
+    "Deuteronomy 33:6",
+    "Joshua 4:12",
+    "Joshua 13:23",
+    "Joshua 15:6",
+    "Joshua 18:17",
+    "Joshua 21:7-36",
+    "Joshua 22:9-34",
+    "1 Chronicles 2:1",
+    "1 Chronicles 5:1-18",
+    "1 Chronicles 6:63-78",
+    "Revelation 7:5"
+  ],
+  "genealogy": {
+    "father": "israel",
+    "mother": "leah",
+    "spouses": [],
+    "children": [
+      "carmi",
+      "hanoch-2",
+      "hezron",
+      "pallu"
+    ]
+  }
+}

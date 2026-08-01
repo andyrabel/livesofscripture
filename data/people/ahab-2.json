@@ -1,0 +1,16 @@
+{
+  "person_id": "ahab-2",
+  "name": "Ahab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 29:21-22"
+  ],
+  "genealogy": {
+    "father": "kolaiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

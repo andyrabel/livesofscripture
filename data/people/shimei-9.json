@@ -1,0 +1,20 @@
+{
+  "person_id": "shimei-9",
+  "name": "Shimei",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 23:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "haran-3",
+      "haziel",
+      "shelomoth"
+    ]
+  }
+}

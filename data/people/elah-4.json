@@ -1,0 +1,18 @@
+{
+  "person_id": "elah-4",
+  "name": "Elah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:15"
+  ],
+  "genealogy": {
+    "father": "caleb",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "kenaz-3"
+    ]
+  }
+}

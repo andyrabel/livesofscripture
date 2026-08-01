@@ -1,0 +1,17 @@
+{
+  "person_id": "ben-hadad-2",
+  "name": "Ben-hadad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 13:3-25",
+    "Amos 1:4"
+  ],
+  "genealogy": {
+    "father": "hazael",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

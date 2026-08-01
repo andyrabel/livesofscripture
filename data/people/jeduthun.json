@@ -1,0 +1,33 @@
+{
+  "person_id": "jeduthun",
+  "name": "Jeduthun",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:16",
+    "1 Chronicles 16:38-42",
+    "1 Chronicles 25:1-6",
+    "2 Chronicles 5:12",
+    "2 Chronicles 29:14",
+    "2 Chronicles 35:15",
+    "Nehemiah 11:17",
+    "Psalms 39:0",
+    "Psalms 62:0",
+    "Psalms 77:0"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "galal",
+      "gedaliah-2",
+      "hashabiah-2",
+      "jeshaiah-2",
+      "mattithiah-3",
+      "shimei-10",
+      "zeri"
+    ]
+  }
+}

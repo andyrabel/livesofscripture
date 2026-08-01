@@ -1,0 +1,23 @@
+{
+  "person_id": "shemaiah-9",
+  "name": "Shemaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 26:4-7"
+  ],
+  "genealogy": {
+    "father": "obed-edom-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elihu-3",
+      "elzabad-2",
+      "obed-4",
+      "othni",
+      "rephael",
+      "semachiah"
+    ]
+  }
+}

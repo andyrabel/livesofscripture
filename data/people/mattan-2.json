@@ -1,0 +1,18 @@
+{
+  "person_id": "mattan-2",
+  "name": "Mattan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 38:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shephatiah-8"
+    ]
+  }
+}

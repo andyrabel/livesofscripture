@@ -1,0 +1,21 @@
+{
+  "person_id": "ehud-2",
+  "name": "Ehud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:10",
+    "1 Chronicles 8:6"
+  ],
+  "genealogy": {
+    "father": "bilhan-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahijah-5",
+      "gera-4",
+      "naaman-3"
+    ]
+  }
+}

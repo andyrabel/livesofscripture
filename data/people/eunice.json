@@ -1,0 +1,18 @@
+{
+  "person_id": "eunice",
+  "name": "Eunice",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "2 Timothy 1:6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "timothy"
+    ]
+  }
+}

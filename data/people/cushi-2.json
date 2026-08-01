@@ -1,0 +1,18 @@
+{
+  "person_id": "cushi-2",
+  "name": "Cushi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Zephaniah 1:1"
+  ],
+  "genealogy": {
+    "father": "gedaliah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zephaniah-3"
+    ]
+  }
+}

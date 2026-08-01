@@ -1,0 +1,37 @@
+{
+  "person_id": "jehoshaphat-3",
+  "name": "Jehoshaphat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 15:24",
+    "1 Kings 22:2-51",
+    "2 Kings 1:17",
+    "2 Kings 3:1-14",
+    "2 Kings 8:16",
+    "2 Kings 12:18",
+    "1 Chronicles 3:10",
+    "2 Chronicles 17:1-12",
+    "2 Chronicles 18:1-31",
+    "2 Chronicles 19:1-8",
+    "2 Chronicles 20:1-37",
+    "2 Chronicles 21:1-12",
+    "2 Chronicles 22:9",
+    "Matthew 1:8"
+  ],
+  "genealogy": {
+    "father": "asa",
+    "mother": "azubah",
+    "spouses": [],
+    "children": [
+      "azariah-8",
+      "azaryahu",
+      "jehiel-3",
+      "jehoram",
+      "michael-7",
+      "sephatiah",
+      "zechariah-11"
+    ]
+  }
+}

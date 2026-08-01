@@ -1,0 +1,18 @@
+{
+  "person_id": "bar-jesus",
+  "name": "Bar-Jesus",
+  "alt_names": [
+    "Elymas"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 13:6-8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

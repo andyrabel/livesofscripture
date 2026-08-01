@@ -1,0 +1,16 @@
+{
+  "person_id": "eliezer",
+  "name": "Eliezer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 15:2"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

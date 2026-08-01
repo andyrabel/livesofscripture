@@ -1,0 +1,22 @@
+{
+  "person_id": "basemath",
+  "name": "Basemath",
+  "alt_names": [
+    "Adah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 26:34"
+  ],
+  "genealogy": {
+    "father": "elon",
+    "mother": null,
+    "spouses": [
+      "esau"
+    ],
+    "children": [
+      "eliphaz"
+    ]
+  }
+}

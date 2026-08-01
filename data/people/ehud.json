@@ -1,0 +1,17 @@
+{
+  "person_id": "ehud",
+  "name": "Ehud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 3:15-26",
+    "Judges 4:1"
+  ],
+  "genealogy": {
+    "father": "gera-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

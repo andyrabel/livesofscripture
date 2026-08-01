@@ -1,0 +1,18 @@
+{
+  "person_id": "attai",
+  "name": "Attai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:35-36"
+  ],
+  "genealogy": {
+    "father": "jarha",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nathan-6"
+    ]
+  }
+}

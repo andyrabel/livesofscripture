@@ -1,0 +1,19 @@
+{
+  "person_id": "chileab",
+  "name": "Chileab",
+  "alt_names": [
+    "Daniel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:3",
+    "1 Chronicles 3:1"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "abigail",
+    "spouses": [],
+    "children": []
+  }
+}

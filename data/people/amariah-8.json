@@ -1,0 +1,18 @@
+{
+  "person_id": "amariah-8",
+  "name": "Amariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Zephaniah 1:1"
+  ],
+  "genealogy": {
+    "father": "hezekiah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gedaliah-5"
+    ]
+  }
+}

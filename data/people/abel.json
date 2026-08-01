@@ -1,0 +1,20 @@
+{
+  "person_id": "abel",
+  "name": "Abel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:2-25",
+    "Matthew 23:35",
+    "Luke 11:51",
+    "Hebrews 11:4",
+    "Hebrews 12:24"
+  ],
+  "genealogy": {
+    "father": "adam",
+    "mother": "eve",
+    "spouses": [],
+    "children": []
+  }
+}

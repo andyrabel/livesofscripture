@@ -1,0 +1,19 @@
+{
+  "person_id": "zophar",
+  "name": "Zophar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 2:11",
+    "Job 11:1",
+    "Job 20:1",
+    "Job 42:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

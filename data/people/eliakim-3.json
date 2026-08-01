@@ -1,0 +1,18 @@
+{
+  "person_id": "eliakim-3",
+  "name": "Eliakim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 1:13"
+  ],
+  "genealogy": {
+    "father": "abihud-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azor"
+    ]
+  }
+}

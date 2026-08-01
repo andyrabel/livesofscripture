@@ -1,0 +1,19 @@
+{
+  "person_id": "abinoam",
+  "name": "Abinoam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 4:6-12",
+    "Judges 5:1-12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "barak"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "chislon",
+  "name": "Chislon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elidad"
+    ]
+  }
+}

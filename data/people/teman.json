@@ -1,0 +1,17 @@
+{
+  "person_id": "teman",
+  "name": "Teman",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:11-42",
+    "1 Chronicles 1:36-53"
+  ],
+  "genealogy": {
+    "father": "eliphaz",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

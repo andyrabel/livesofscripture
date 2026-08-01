@@ -1,0 +1,19 @@
+{
+  "person_id": "lysias",
+  "name": "Lysias",
+  "alt_names": [
+    "Claudius Lysias"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 23:26",
+    "Acts 24:7-22"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

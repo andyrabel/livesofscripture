@@ -1,0 +1,19 @@
+{
+  "person_id": "elhanan",
+  "name": "Elhanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 21:19",
+    "2 Samuel 23:24",
+    "1 Chronicles 11:26",
+    "1 Chronicles 20:5"
+  ],
+  "genealogy": {
+    "father": "dodo-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

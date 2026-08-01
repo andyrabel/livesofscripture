@@ -1,0 +1,24 @@
+{
+  "person_id": "lamech",
+  "name": "Lamech",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:18-24"
+  ],
+  "genealogy": {
+    "father": "methushael",
+    "mother": null,
+    "spouses": [
+      "adah",
+      "zillah"
+    ],
+    "children": [
+      "jabal",
+      "jubal",
+      "naamah",
+      "tubal-cain"
+    ]
+  }
+}

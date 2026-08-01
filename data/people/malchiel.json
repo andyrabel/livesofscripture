@@ -1,0 +1,20 @@
+{
+  "person_id": "malchiel",
+  "name": "Malchiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:17",
+    "Numbers 26:45",
+    "1 Chronicles 7:31"
+  ],
+  "genealogy": {
+    "father": "beriah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "birzaith"
+    ]
+  }
+}

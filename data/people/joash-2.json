@@ -1,0 +1,17 @@
+{
+  "person_id": "joash-2",
+  "name": "Joash",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 22:26",
+    "2 Chronicles 18:25"
+  ],
+  "genealogy": {
+    "father": "ahab",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

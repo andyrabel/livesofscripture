@@ -1,0 +1,32 @@
+{
+  "person_id": "leah",
+  "name": "Leah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 29:16-32",
+    "Genesis 30:9-20",
+    "Genesis 31:4-33",
+    "Genesis 33:1-7",
+    "Genesis 34:1",
+    "Genesis 35:23-26",
+    "Genesis 46:15-18",
+    "Genesis 49:31",
+    "Ruth 4:11"
+  ],
+  "genealogy": {
+    "father": "laban",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "dinah",
+      "issachar",
+      "judah",
+      "levi",
+      "reuben",
+      "simeon",
+      "zebulun"
+    ]
+  }
+}

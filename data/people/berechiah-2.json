@@ -1,0 +1,19 @@
+{
+  "person_id": "berechiah-2",
+  "name": "Berechiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:39",
+    "1 Chronicles 15:17"
+  ],
+  "genealogy": {
+    "father": "shimea-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "asaph-2"
+    ]
+  }
+}

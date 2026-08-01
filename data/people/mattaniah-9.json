@@ -1,0 +1,18 @@
+{
+  "person_id": "mattaniah-9",
+  "name": "Mattaniah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 13:13"
+  ],
+  "genealogy": {
+    "father": "levi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zaccur-6"
+    ]
+  }
+}

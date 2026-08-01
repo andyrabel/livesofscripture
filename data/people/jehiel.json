@@ -1,0 +1,23 @@
+{
+  "person_id": "jehiel",
+  "name": "Jehiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 15:18-20",
+    "1 Chronicles 16:5",
+    "1 Chronicles 23:8",
+    "1 Chronicles 26:22",
+    "1 Chronicles 29:8"
+  ],
+  "genealogy": {
+    "father": "libni",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joel-6",
+      "zetham"
+    ]
+  }
+}

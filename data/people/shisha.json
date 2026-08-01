@@ -1,0 +1,19 @@
+{
+  "person_id": "shisha",
+  "name": "Shisha",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahijah-2",
+      "elihoreph"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "elishama-3",
+  "name": "Elishama",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:25",
+    "Jeremiah 41:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nethaniah"
+    ]
+  }
+}

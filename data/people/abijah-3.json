@@ -1,0 +1,27 @@
+{
+  "person_id": "abijah-3",
+  "name": "Abijah",
+  "alt_names": [
+    "Abijam"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 14:31",
+    "1 Kings 15:1-8",
+    "1 Chronicles 3:10",
+    "2 Chronicles 11:20-22",
+    "2 Chronicles 12:16",
+    "2 Chronicles 13:1-22",
+    "2 Chronicles 14:1",
+    "Matthew 1:7"
+  ],
+  "genealogy": {
+    "father": "rehoboam",
+    "mother": "maacah-3",
+    "spouses": [],
+    "children": [
+      "asa"
+    ]
+  }
+}

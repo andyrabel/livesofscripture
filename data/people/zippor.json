@@ -1,0 +1,21 @@
+{
+  "person_id": "zippor",
+  "name": "Zippor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 22:2-16",
+    "Numbers 23:18",
+    "Joshua 24:9",
+    "Judges 11:25"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "balak"
+    ]
+  }
+}

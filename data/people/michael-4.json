@@ -1,0 +1,19 @@
+{
+  "person_id": "michael-4",
+  "name": "Michael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:3",
+    "1 Chronicles 27:18"
+  ],
+  "genealogy": {
+    "father": "izrahiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "omri-4"
+    ]
+  }
+}

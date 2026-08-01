@@ -1,0 +1,19 @@
+{
+  "person_id": "hashabiah-2",
+  "name": "Hashabiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 25:3-19",
+    "Nehemiah 11:15"
+  ],
+  "genealogy": {
+    "father": "jeduthun",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azrikam-3"
+    ]
+  }
+}

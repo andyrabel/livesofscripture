@@ -1,0 +1,19 @@
+{
+  "person_id": "huldah",
+  "name": "Huldah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:14",
+    "2 Chronicles 34:21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "shallum-2"
+    ],
+    "children": []
+  }
+}

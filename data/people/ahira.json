@@ -1,0 +1,19 @@
+{
+  "person_id": "ahira",
+  "name": "Ahira",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:15",
+    "Numbers 2:29",
+    "Numbers 7:78-83",
+    "Numbers 10:27"
+  ],
+  "genealogy": {
+    "father": "enan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

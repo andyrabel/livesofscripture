@@ -1,0 +1,22 @@
+{
+  "person_id": "ebiasaph",
+  "name": "Ebiasaph",
+  "alt_names": [
+    "Abiasaph"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:24",
+    "1 Chronicles 9:19",
+    "1 Chronicles 26:1"
+  ],
+  "genealogy": {
+    "father": "korah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "kore"
+    ]
+  }
+}

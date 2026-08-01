@@ -1,0 +1,17 @@
+{
+  "person_id": "aram-2",
+  "name": "Aram",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 22:21",
+    "Hosea 12:12"
+  ],
+  "genealogy": {
+    "father": "kemuel",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

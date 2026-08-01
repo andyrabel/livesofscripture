@@ -1,0 +1,23 @@
+{
+  "person_id": "ben-hadad",
+  "name": "Ben-hadad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 15:18-20",
+    "1 Kings 20:1-33",
+    "1 Kings 22:3-31",
+    "2 Kings 5:1-5",
+    "2 Kings 6:8-24",
+    "2 Kings 8:7-9",
+    "2 Chronicles 16:2-7",
+    "2 Chronicles 18:30"
+  ],
+  "genealogy": {
+    "father": "tabrimmon",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "person_id": "jeremoth-2",
+  "name": "Jeremoth",
+  "alt_names": [
+    "Jeroham"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:14-27"
+  ],
+  "genealogy": {
+    "father": "elpaal",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "athaliah-2",
+      "elijah-2",
+      "jaareshiah",
+      "shamsherai",
+      "shehariah",
+      "zichri-4"
+    ]
+  }
+}

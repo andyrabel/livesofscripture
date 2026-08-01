@@ -1,0 +1,22 @@
+{
+  "person_id": "tohu",
+  "name": "Tohu",
+  "alt_names": [
+    "Nahath",
+    "Toah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:1",
+    "1 Chronicles 6:26-34"
+  ],
+  "genealogy": {
+    "father": "zophai",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elihu"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "sharar",
+  "name": "Sharar",
+  "alt_names": [
+    "Sacar"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:33",
+    "1 Chronicles 11:35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahiam"
+    ]
+  }
+}

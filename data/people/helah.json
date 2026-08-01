@@ -1,0 +1,22 @@
+{
+  "person_id": "helah",
+  "name": "Helah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:5-7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "ashhur"
+    ],
+    "children": [
+      "ethnan",
+      "izhar-2",
+      "zereth"
+    ]
+  }
+}

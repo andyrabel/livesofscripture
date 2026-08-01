@@ -1,0 +1,18 @@
+{
+  "person_id": "zerubbabel-3",
+  "name": "Zerubbabel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:27"
+  ],
+  "genealogy": {
+    "father": "shealtiel-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rhesa"
+    ]
+  }
+}

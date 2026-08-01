@@ -1,0 +1,32 @@
+{
+  "person_id": "elpaal",
+  "name": "Elpaal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:11-18"
+  ],
+  "genealogy": {
+    "father": "shaharaim",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahio-2",
+      "beriah-3",
+      "eber-3",
+      "heber-4",
+      "hizki",
+      "ishmerai",
+      "izliah",
+      "jeremoth-2",
+      "jobab-5",
+      "meshullam-4",
+      "misham",
+      "shashak",
+      "shema-3",
+      "shemed",
+      "zebadiah-2"
+    ]
+  }
+}

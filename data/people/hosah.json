@@ -1,0 +1,22 @@
+{
+  "person_id": "hosah",
+  "name": "Hosah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 16:38",
+    "1 Chronicles 26:10-16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hilkiah-5",
+      "shimri-3",
+      "tebaliah",
+      "zechariah-7"
+    ]
+  }
+}

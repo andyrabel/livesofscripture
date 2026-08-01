@@ -1,0 +1,19 @@
+{
+  "person_id": "shilhi",
+  "name": "Shilhi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 22:42",
+    "2 Chronicles 20:31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azubah"
+    ]
+  }
+}

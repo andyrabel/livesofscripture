@@ -1,0 +1,18 @@
+{
+  "person_id": "abdiel",
+  "name": "Abdiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:15"
+  ],
+  "genealogy": {
+    "father": "guni-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahi"
+    ]
+  }
+}

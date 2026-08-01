@@ -1,0 +1,28 @@
+{
+  "person_id": "jephunneh",
+  "name": "Jephunneh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:6",
+    "Numbers 14:6-38",
+    "Numbers 26:65",
+    "Numbers 32:12",
+    "Numbers 34:19",
+    "Deuteronomy 1:36",
+    "Joshua 14:6-14",
+    "Joshua 15:13",
+    "Joshua 21:12",
+    "1 Chronicles 4:15",
+    "1 Chronicles 6:56"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "caleb"
+    ]
+  }
+}

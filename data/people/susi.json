@@ -1,0 +1,18 @@
+{
+  "person_id": "susi",
+  "name": "Susi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gaddi"
+    ]
+  }
+}

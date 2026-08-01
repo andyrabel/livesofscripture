@@ -1,0 +1,18 @@
+{
+  "person_id": "buzi",
+  "name": "Buzi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezekiel 1:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ezekiel"
+    ]
+  }
+}

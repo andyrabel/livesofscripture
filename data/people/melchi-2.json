@@ -1,0 +1,18 @@
+{
+  "person_id": "melchi-2",
+  "name": "Melchi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:28"
+  ],
+  "genealogy": {
+    "father": "addi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "neri"
+    ]
+  }
+}

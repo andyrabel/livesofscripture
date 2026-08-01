@@ -1,0 +1,20 @@
+{
+  "person_id": "gera-4",
+  "name": "Gera",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:7"
+  ],
+  "genealogy": {
+    "father": "ehud-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahihud-2",
+      "shaharaim",
+      "uzzah-3"
+    ]
+  }
+}

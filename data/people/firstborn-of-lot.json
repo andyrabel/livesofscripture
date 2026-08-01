@@ -1,0 +1,18 @@
+{
+  "person_id": "firstborn-of-lot",
+  "name": "Firstborn of Lot",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 19:31-37"
+  ],
+  "genealogy": {
+    "father": "lot",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "moab"
+    ]
+  }
+}

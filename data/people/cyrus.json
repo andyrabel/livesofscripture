@@ -1,0 +1,26 @@
+{
+  "person_id": "cyrus",
+  "name": "Cyrus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 36:22-23",
+    "Ezra 1:1-8",
+    "Ezra 3:7",
+    "Ezra 4:3-5",
+    "Ezra 5:13-17",
+    "Ezra 6:3-14",
+    "Isaiah 44:28",
+    "Isaiah 45:1",
+    "Daniel 1:21",
+    "Daniel 6:28",
+    "Daniel 10:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

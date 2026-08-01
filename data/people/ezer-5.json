@@ -1,0 +1,17 @@
+{
+  "person_id": "ezer-5",
+  "name": "Ezer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:19",
+    "Nehemiah 12:42"
+  ],
+  "genealogy": {
+    "father": "jeshua-6",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

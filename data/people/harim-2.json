@@ -1,0 +1,20 @@
+{
+  "person_id": "harim-2",
+  "name": "Harim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:32",
+    "Nehemiah 7:35",
+    "Nehemiah 10:27"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "adna-2"
+    ]
+  }
+}

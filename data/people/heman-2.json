@@ -1,0 +1,38 @@
+{
+  "person_id": "heman-2",
+  "name": "Heman",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:33",
+    "1 Chronicles 15:17-19",
+    "1 Chronicles 16:41-42",
+    "1 Chronicles 25:1-6",
+    "2 Chronicles 5:12",
+    "2 Chronicles 29:14",
+    "2 Chronicles 35:15",
+    "Psalms 88:0"
+  ],
+  "genealogy": {
+    "father": "joel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bukkiah",
+      "eliathah",
+      "giddalti",
+      "hanani-2",
+      "hananiah-3",
+      "hothir",
+      "jerimoth-3",
+      "joshbekashah",
+      "mahazioth",
+      "mallothi",
+      "mattaniah-2",
+      "romamti-ezer",
+      "shebuel-2",
+      "uzziel-4"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "zechariah-2",
+  "name": "Zechariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 18:2",
+    "2 Chronicles 29:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abi"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "kemuel",
+  "name": "Kemuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 22:21"
+  ],
+  "genealogy": {
+    "father": "nahor-2",
+    "mother": "milcah",
+    "spouses": [],
+    "children": [
+      "aram-2"
+    ]
+  }
+}

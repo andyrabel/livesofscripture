@@ -1,0 +1,18 @@
+{
+  "person_id": "ephlal",
+  "name": "Ephlal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:37"
+  ],
+  "genealogy": {
+    "father": "zabad",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "obed-2"
+    ]
+  }
+}

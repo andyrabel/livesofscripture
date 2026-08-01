@@ -1,0 +1,20 @@
+{
+  "person_id": "ahijah-3",
+  "name": "Ahijah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 15:27",
+    "1 Kings 21:22",
+    "2 Kings 9:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baasha"
+    ]
+  }
+}

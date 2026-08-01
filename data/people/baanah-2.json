@@ -1,0 +1,19 @@
+{
+  "person_id": "baanah-2",
+  "name": "Baanah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:29",
+    "1 Chronicles 11:30"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "heleb"
+    ]
+  }
+}

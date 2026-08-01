@@ -1,0 +1,20 @@
+{
+  "person_id": "haran",
+  "name": "Haran",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:26-31"
+  ],
+  "genealogy": {
+    "father": "terah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "iscah",
+      "lot",
+      "milcah"
+    ]
+  }
+}

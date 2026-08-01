@@ -1,0 +1,18 @@
+{
+  "person_id": "meshullemeth",
+  "name": "Meshullemeth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 21:19"
+  ],
+  "genealogy": {
+    "father": "haruz",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amon-2"
+    ]
+  }
+}

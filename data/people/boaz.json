@@ -9,12 +9,18 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Bethlehem"],
+  "geographic_setting": [
+    "Bethlehem"
+  ],
   "references": [
     "Ruth 2-4",
     "Matthew 1:5"
   ],
-  "topics": ["kinsman-redeemer", "generosity", "inclusion of outsiders"],
+  "topics": [
+    "kinsman-redeemer",
+    "generosity",
+    "inclusion of outsiders"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Matthew 1:5 names Boaz's mother as Rahab, traditionally identified with Rahab of Jericho (Joshua 2; Joshua 6:22-25). Some scholars find the implied chronology tight, given the centuries the book of Judges otherwise describes between the conquest and the events of Ruth, and read Matthew's genealogy as compressed or selective — common practice in ancient genealogies — rather than a strict unbroken father-to-son chain. Scripture does not clarify the gap, and this site notes rather than resolves the tension.",
   "source_summary": "A wealthy and godly landowner in Bethlehem, relative of Naomi's late husband, who showed exceptional kindness to the Moabite widow Ruth gleaning in his fields and formally redeemed her as kinsman, marrying her and becoming great-grandfather to King David.",
@@ -28,10 +34,14 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
+    "father": "salmon",
     "mother": null,
-    "spouses": ["ruth"],
-    "children": ["obed"]
+    "spouses": [
+      "ruth"
+    ],
+    "children": [
+      "obed"
+    ]
   },
   "review": {
     "human_reviewed": false,

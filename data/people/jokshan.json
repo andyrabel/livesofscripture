@@ -1,0 +1,20 @@
+{
+  "person_id": "jokshan",
+  "name": "Jokshan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:2-3",
+    "1 Chronicles 1:32"
+  ],
+  "genealogy": {
+    "father": "abraham",
+    "mother": "keturah",
+    "spouses": [],
+    "children": [
+      "dedan-2",
+      "sheba-3"
+    ]
+  }
+}

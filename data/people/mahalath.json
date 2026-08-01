@@ -1,0 +1,22 @@
+{
+  "person_id": "mahalath",
+  "name": "Mahalath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 11:18"
+  ],
+  "genealogy": {
+    "father": "jerimoth-4",
+    "mother": "abihail-4",
+    "spouses": [
+      "rehoboam"
+    ],
+    "children": [
+      "jeush-5",
+      "shemariah-2",
+      "zaham"
+    ]
+  }
+}

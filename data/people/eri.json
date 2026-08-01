@@ -1,0 +1,17 @@
+{
+  "person_id": "eri",
+  "name": "Eri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:16",
+    "Numbers 26:16"
+  ],
+  "genealogy": {
+    "father": "gad",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

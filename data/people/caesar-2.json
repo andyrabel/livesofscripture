@@ -1,0 +1,20 @@
+{
+  "person_id": "caesar-2",
+  "name": "Caesar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 25:8-25",
+    "Acts 26:32",
+    "Acts 27:24",
+    "Acts 28:19",
+    "Philippians 4:22"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

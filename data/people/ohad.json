@@ -1,0 +1,17 @@
+{
+  "person_id": "ohad",
+  "name": "Ohad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:10",
+    "Exodus 6:15"
+  ],
+  "genealogy": {
+    "father": "simeon",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

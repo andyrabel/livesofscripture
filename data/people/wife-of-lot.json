@@ -1,0 +1,18 @@
+{
+  "person_id": "wife-of-lot",
+  "name": "Wife of Lot",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 19:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "lot"
+    ],
+    "children": []
+  }
+}

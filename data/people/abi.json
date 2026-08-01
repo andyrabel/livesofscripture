@@ -1,0 +1,21 @@
+{
+  "person_id": "abi",
+  "name": "Abi",
+  "alt_names": [
+    "Abijah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 18:2",
+    "2 Chronicles 29:1"
+  ],
+  "genealogy": {
+    "father": "zechariah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hezekiah"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "meshullam-15",
+  "name": "Meshullam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:11"
+  ],
+  "genealogy": {
+    "father": "zadok-6",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hilkiah-6"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "arvad",
+  "name": "Arvad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:18",
+    "1 Chronicles 1:16"
+  ],
+  "genealogy": {
+    "father": "canaan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

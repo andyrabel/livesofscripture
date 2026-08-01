@@ -1,0 +1,26 @@
+{
+  "person_id": "benaiah",
+  "name": "Benaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:18",
+    "2 Samuel 20:23",
+    "2 Samuel 23:20-22",
+    "1 Kings 1:8-44",
+    "1 Kings 2:25-46",
+    "1 Kings 4:4",
+    "1 Chronicles 11:22-24",
+    "1 Chronicles 18:17",
+    "1 Chronicles 27:5-34"
+  ],
+  "genealogy": {
+    "father": "jehoiada",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ammizabad"
+    ]
+  }
+}

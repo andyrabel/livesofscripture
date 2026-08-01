@@ -1,0 +1,18 @@
+{
+  "person_id": "adaiah-8",
+  "name": "Adaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:5"
+  ],
+  "genealogy": {
+    "father": "joiarib-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hazaiah"
+    ]
+  }
+}

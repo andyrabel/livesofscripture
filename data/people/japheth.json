@@ -1,0 +1,30 @@
+{
+  "person_id": "japheth",
+  "name": "Japheth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:32",
+    "Genesis 6:10",
+    "Genesis 7:13",
+    "Genesis 9:18-27",
+    "Genesis 10:1-21",
+    "1 Chronicles 1:4-5"
+  ],
+  "genealogy": {
+    "father": "noah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elishah-2",
+      "gomer",
+      "javan",
+      "madai",
+      "magog",
+      "meshech",
+      "tiras",
+      "tubal"
+    ]
+  }
+}

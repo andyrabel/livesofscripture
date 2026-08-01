@@ -1,0 +1,20 @@
+{
+  "person_id": "japhlet",
+  "name": "Japhlet",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:32-33"
+  ],
+  "genealogy": {
+    "father": "heber",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ashvath",
+      "bimhal",
+      "pasach"
+    ]
+  }
+}

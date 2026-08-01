@@ -1,0 +1,23 @@
+{
+  "person_id": "baasha",
+  "name": "Baasha",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 15:16-33",
+    "1 Kings 16:1-13",
+    "1 Kings 21:22",
+    "2 Kings 9:9",
+    "2 Chronicles 16:1-6",
+    "Jeremiah 41:9"
+  ],
+  "genealogy": {
+    "father": "ahijah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elah-2"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "elkanah-3",
+  "name": "Elkanah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:23"
+  ],
+  "genealogy": {
+    "father": "assir",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahimoth",
+      "amasai",
+      "ebiasaph-2"
+    ]
+  }
+}

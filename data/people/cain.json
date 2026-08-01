@@ -1,0 +1,21 @@
+{
+  "person_id": "cain",
+  "name": "Cain",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:1-25",
+    "Hebrews 11:4",
+    "1 John 3:12",
+    "Jude 1:11"
+  ],
+  "genealogy": {
+    "father": "adam",
+    "mother": "eve",
+    "spouses": [],
+    "children": [
+      "enoch"
+    ]
+  }
+}

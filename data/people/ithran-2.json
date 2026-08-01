@@ -1,0 +1,22 @@
+{
+  "person_id": "ithran-2",
+  "name": "Ithran",
+  "alt_names": [
+    "Jether"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:37-38"
+  ],
+  "genealogy": {
+    "father": "zophah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ara",
+      "jephunneh-2",
+      "pispa"
+    ]
+  }
+}

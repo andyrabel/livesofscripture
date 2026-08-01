@@ -1,0 +1,18 @@
+{
+  "person_id": "segub-2",
+  "name": "Segub",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:21-22"
+  ],
+  "genealogy": {
+    "father": "hezron-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jair"
+    ]
+  }
+}

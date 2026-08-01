@@ -1,0 +1,19 @@
+{
+  "person_id": "abidan",
+  "name": "Abidan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:11",
+    "Numbers 2:22",
+    "Numbers 7:60-65",
+    "Numbers 10:24"
+  ],
+  "genealogy": {
+    "father": "gideoni",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

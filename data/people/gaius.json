@@ -1,0 +1,19 @@
+{
+  "person_id": "gaius",
+  "name": "Gaius",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 19:29",
+    "Romans 16:23",
+    "1 Corinthians 1:14",
+    "3 John 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

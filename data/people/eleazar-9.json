@@ -1,0 +1,18 @@
+{
+  "person_id": "eleazar-9",
+  "name": "Eleazar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 1:15"
+  ],
+  "genealogy": {
+    "father": "eliud",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "matthan"
+    ]
+  }
+}

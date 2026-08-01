@@ -1,0 +1,16 @@
+{
+  "person_id": "adna-2",
+  "name": "Adna",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 12:15"
+  ],
+  "genealogy": {
+    "father": "harim-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

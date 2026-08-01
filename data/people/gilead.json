@@ -1,0 +1,28 @@
+{
+  "person_id": "gilead",
+  "name": "Gilead",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:29-30",
+    "Numbers 27:1",
+    "Numbers 36:1",
+    "Joshua 17:1-3",
+    "1 Chronicles 2:21-23",
+    "1 Chronicles 7:14-17"
+  ],
+  "genealogy": {
+    "father": "machir",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abiezer",
+      "asriel",
+      "helek",
+      "hepher",
+      "shechem-2",
+      "shemida"
+    ]
+  }
+}

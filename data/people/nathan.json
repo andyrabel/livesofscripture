@@ -1,0 +1,21 @@
+{
+  "person_id": "nathan",
+  "name": "Nathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:14",
+    "1 Chronicles 3:5",
+    "1 Chronicles 14:4",
+    "Luke 3:31"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "bathsheba",
+    "spouses": [],
+    "children": [
+      "mattatha"
+    ]
+  }
+}

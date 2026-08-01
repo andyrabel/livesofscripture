@@ -1,0 +1,19 @@
+{
+  "person_id": "micah-4",
+  "name": "Micah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 23:20",
+    "1 Chronicles 24:24-25"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shamir"
+    ]
+  }
+}

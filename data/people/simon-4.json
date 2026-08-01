@@ -1,0 +1,16 @@
+{
+  "person_id": "simon-4",
+  "name": "Simon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 7:40-44"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

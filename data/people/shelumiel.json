@@ -1,0 +1,19 @@
+{
+  "person_id": "shelumiel",
+  "name": "Shelumiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:6",
+    "Numbers 2:12",
+    "Numbers 7:36-41",
+    "Numbers 10:19"
+  ],
+  "genealogy": {
+    "father": "zurishaddai",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "person_id": "bezalel",
+  "name": "Bezalel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 31:2",
+    "Exodus 34:23",
+    "Exodus 35:30",
+    "Exodus 36:1-8",
+    "Exodus 37:1",
+    "Exodus 38:22",
+    "Numbers 16:9",
+    "1 Chronicles 2:20",
+    "2 Chronicles 1:5"
+  ],
+  "genealogy": {
+    "father": "uri",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

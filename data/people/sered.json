@@ -1,0 +1,17 @@
+{
+  "person_id": "sered",
+  "name": "Sered",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:14",
+    "Numbers 26:26"
+  ],
+  "genealogy": {
+    "father": "zebulun",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

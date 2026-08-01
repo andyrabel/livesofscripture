@@ -1,0 +1,17 @@
+{
+  "person_id": "jalam",
+  "name": "Jalam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:5-18",
+    "1 Chronicles 1:35"
+  ],
+  "genealogy": {
+    "father": "esau",
+    "mother": "oholibamah",
+    "spouses": [],
+    "children": []
+  }
+}

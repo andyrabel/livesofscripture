@@ -1,0 +1,33 @@
+{
+  "person_id": "adam",
+  "name": "Adam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 2:20",
+    "Genesis 3:17-21",
+    "Genesis 4:25",
+    "Genesis 5:1-5",
+    "1 Chronicles 1:1",
+    "Job 31:33",
+    "Hosea 6:7",
+    "Luke 3:38",
+    "Romans 5:14",
+    "1 Corinthians 15:22-45",
+    "1 Timothy 2:13-14",
+    "Jude 1:14"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "eve"
+    ],
+    "children": [
+      "abel",
+      "cain",
+      "seth"
+    ]
+  }
+}

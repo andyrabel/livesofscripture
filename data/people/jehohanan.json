@@ -1,0 +1,19 @@
+{
+  "person_id": "jehohanan",
+  "name": "Jehohanan",
+  "alt_names": [
+    "Johanan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 10:6",
+    "Nehemiah 12:23"
+  ],
+  "genealogy": {
+    "father": "eliashib-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

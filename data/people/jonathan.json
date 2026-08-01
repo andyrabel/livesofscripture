@@ -9,7 +9,11 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Gibeah", "Michmash", "Mount Gilboa"],
+  "geographic_setting": [
+    "Gibeah",
+    "Michmash",
+    "Mount Gilboa"
+  ],
   "references": [
     "1 Samuel 13-14",
     "1 Samuel 18:1-4",
@@ -18,7 +22,11 @@
     "1 Samuel 31",
     "2 Samuel 1:17-27"
   ],
-  "topics": ["covenant friendship", "courage", "selflessness"],
+  "topics": [
+    "covenant friendship",
+    "courage",
+    "selflessness"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "David's lament for Jonathan says 'your love to me was more wonderful than the love of women' (2 Samuel 1:26). Some modern readers propose a romantic relationship. Conservative interpreters read the line, and the friendship as a whole, within the ancient Near Eastern vocabulary of covenant loyalty that frames the entire relationship — Jonathan's gift of his robe and armor, the mutual covenant oaths, and his willing surrender of his own claim to the throne — rather than as romantic language, noting the same lament praises Saul in equally strong terms in the surrounding verses. Scripture does not use the vocabulary elsewhere in this narrative to describe a sexual relationship, and this site follows the covenant-friendship reading while noting the modern dispute exists.",
   "source_summary": "Saul's eldest son and a courageous warrior in his own right, whose covenant friendship with David led him to protect David repeatedly from his father's jealousy and to willingly forfeit his own claim to the throne; killed alongside Saul at Mount Gilboa.",
@@ -32,10 +40,12 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
+    "father": "saul",
     "mother": null,
     "spouses": [],
-    "children": []
+    "children": [
+      "mephibosheth"
+    ]
   },
   "review": {
     "human_reviewed": false,

@@ -1,0 +1,22 @@
+{
+  "person_id": "kenaz-2",
+  "name": "Kenaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joshua 15:17",
+    "Judges 1:13",
+    "Judges 3:9-11",
+    "1 Chronicles 4:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "othniel",
+      "seraiah-4"
+    ]
+  }
+}

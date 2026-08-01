@@ -1,0 +1,16 @@
+{
+  "person_id": "cornelius",
+  "name": "Cornelius",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 10:1-31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

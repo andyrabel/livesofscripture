@@ -1,0 +1,16 @@
+{
+  "person_id": "archelaus",
+  "name": "Archelaus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 2:22"
+  ],
+  "genealogy": {
+    "father": "herod",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

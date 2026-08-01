@@ -1,0 +1,21 @@
+{
+  "person_id": "azariah",
+  "name": "Azariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:2",
+    "1 Chronicles 6:10-11",
+    "2 Chronicles 26:17-20",
+    "Ezra 7:3"
+  ],
+  "genealogy": {
+    "father": "johanan-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amariah-2"
+    ]
+  }
+}

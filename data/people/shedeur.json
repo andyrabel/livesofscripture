@@ -1,0 +1,21 @@
+{
+  "person_id": "shedeur",
+  "name": "Shedeur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:5",
+    "Numbers 2:10",
+    "Numbers 7:30-35",
+    "Numbers 10:18"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elizur"
+    ]
+  }
+}

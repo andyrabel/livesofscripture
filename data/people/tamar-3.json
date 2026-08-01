@@ -1,0 +1,16 @@
+{
+  "person_id": "tamar-3",
+  "name": "Tamar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 14:27"
+  ],
+  "genealogy": {
+    "father": "absalom",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

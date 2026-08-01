@@ -1,0 +1,17 @@
+{
+  "person_id": "anam",
+  "name": "Anam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:13",
+    "1 Chronicles 1:11"
+  ],
+  "genealogy": {
+    "father": "mizraim",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

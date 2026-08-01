@@ -1,0 +1,24 @@
+{
+  "person_id": "eber",
+  "name": "Eber",
+  "alt_names": [
+    "Heber"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:21-25",
+    "Genesis 11:14-17",
+    "1 Chronicles 1:18-25",
+    "Luke 3:35"
+  ],
+  "genealogy": {
+    "father": "shelah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joktan",
+      "peleg"
+    ]
+  }
+}

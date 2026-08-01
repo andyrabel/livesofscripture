@@ -1,0 +1,20 @@
+{
+  "person_id": "atarah",
+  "name": "Atarah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "jerahmeel"
+    ],
+    "children": [
+      "onam-2"
+    ]
+  }
+}

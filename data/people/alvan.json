@@ -1,0 +1,19 @@
+{
+  "person_id": "alvan",
+  "name": "Alvan",
+  "alt_names": [
+    "Alian"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:23",
+    "1 Chronicles 1:40"
+  ],
+  "genealogy": {
+    "father": "shobal",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

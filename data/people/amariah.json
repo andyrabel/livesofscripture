@@ -1,0 +1,19 @@
+{
+  "person_id": "amariah",
+  "name": "Amariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:7-52",
+    "Ezra 7:3"
+  ],
+  "genealogy": {
+    "father": "meraioth",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahitub-2"
+    ]
+  }
+}

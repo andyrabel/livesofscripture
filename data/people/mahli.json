@@ -1,0 +1,23 @@
+{
+  "person_id": "mahli",
+  "name": "Mahli",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:19",
+    "Numbers 3:20",
+    "1 Chronicles 6:19-29",
+    "1 Chronicles 23:21",
+    "1 Chronicles 24:26-28",
+    "Ezra 8:18"
+  ],
+  "genealogy": {
+    "father": "merari",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "libni-2"
+    ]
+  }
+}

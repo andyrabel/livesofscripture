@@ -1,0 +1,26 @@
+{
+  "person_id": "pharaoh-2",
+  "name": "Pharaoh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 37:36",
+    "Genesis 39:1",
+    "Genesis 40:1-21",
+    "Genesis 41:1-55",
+    "Genesis 42:15-16",
+    "Genesis 44:18",
+    "Genesis 45:2-21",
+    "Genesis 46:5-33",
+    "Genesis 47:1-26",
+    "Genesis 50:4-7",
+    "Acts 7:10-13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

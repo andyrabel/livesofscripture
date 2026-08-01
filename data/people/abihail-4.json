@@ -1,0 +1,18 @@
+{
+  "person_id": "abihail-4",
+  "name": "Abihail",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 11:18"
+  ],
+  "genealogy": {
+    "father": "eliab-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mahalath"
+    ]
+  }
+}

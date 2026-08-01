@@ -1,0 +1,23 @@
+{
+  "person_id": "achbor-2",
+  "name": "Achbor",
+  "alt_names": [
+    "Abdon"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:12-14",
+    "2 Chronicles 34:20",
+    "Jeremiah 26:22",
+    "Jeremiah 36:12"
+  ],
+  "genealogy": {
+    "father": "micaiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elnathan"
+    ]
+  }
+}

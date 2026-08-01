@@ -1,0 +1,26 @@
+{
+  "person_id": "izhar",
+  "name": "Izhar",
+  "alt_names": [
+    "Amminadab"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:18-21",
+    "Numbers 3:19",
+    "Numbers 16:1",
+    "1 Chronicles 6:2-38",
+    "1 Chronicles 23:12-18"
+  ],
+  "genealogy": {
+    "father": "kohath",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "korah-3",
+      "nepheg",
+      "zichri"
+    ]
+  }
+}

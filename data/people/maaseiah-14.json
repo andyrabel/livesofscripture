@@ -1,0 +1,20 @@
+{
+  "person_id": "maaseiah-14",
+  "name": "Maaseiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 21:1",
+    "Jeremiah 29:25",
+    "Jeremiah 37:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zephaniah-2"
+    ]
+  }
+}

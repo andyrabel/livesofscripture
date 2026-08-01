@@ -1,0 +1,31 @@
+{
+  "person_id": "lot",
+  "name": "Lot",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:27-31",
+    "Genesis 12:4-5",
+    "Genesis 13:1-14",
+    "Genesis 14:12-16",
+    "Genesis 19:1-36",
+    "Deuteronomy 2:9-19",
+    "Psalms 83:8",
+    "Luke 17:28-32",
+    "2 Peter 2:7"
+  ],
+  "genealogy": {
+    "father": "haran",
+    "mother": null,
+    "spouses": [
+      "wife-of-lot"
+    ],
+    "children": [
+      "ammon",
+      "firstborn-of-lot",
+      "moab",
+      "younger-of-lot"
+    ]
+  }
+}

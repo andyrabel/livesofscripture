@@ -1,0 +1,21 @@
+{
+  "person_id": "jozadak",
+  "name": "Jozadak",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 3:2-8",
+    "Ezra 5:2",
+    "Ezra 10:18",
+    "Nehemiah 12:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeshua-3"
+    ]
+  }
+}

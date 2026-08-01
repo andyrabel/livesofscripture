@@ -1,0 +1,16 @@
+{
+  "person_id": "caesar-augustus",
+  "name": "Caesar Augustus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 2:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

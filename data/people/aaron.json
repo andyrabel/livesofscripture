@@ -9,7 +9,10 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Egypt", "Sinai Peninsula"],
+  "geographic_setting": [
+    "Egypt",
+    "Sinai Peninsula"
+  ],
   "references": [
     "Exodus 4:14-16",
     "Exodus 6:20",
@@ -21,7 +24,12 @@
     "Numbers 16-17",
     "Numbers 20:22-29"
   ],
-  "topics": ["priesthood", "mediation", "idolatry", "atonement"],
+  "topics": [
+    "priesthood",
+    "mediation",
+    "idolatry",
+    "atonement"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "Moses' older brother and spokesman before Pharaoh, consecrated as Israel's first high priest at Sinai; built the golden calf in Moses' absence, and died on Mount Hor after his priestly garments were transferred to his son Eleazar.",
@@ -37,8 +45,15 @@
   "genealogy": {
     "father": "amram",
     "mother": "jochebed",
-    "spouses": [],
-    "children": []
+    "spouses": [
+      "elisheba"
+    ],
+    "children": [
+      "abihu",
+      "eleazar",
+      "ithamar",
+      "nadab"
+    ]
   },
   "review": {
     "human_reviewed": false,

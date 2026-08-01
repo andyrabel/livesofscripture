@@ -1,0 +1,19 @@
+{
+  "person_id": "joseph-10",
+  "name": "Joseph",
+  "alt_names": [
+    "Barsabbas",
+    "Justus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 1:23"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

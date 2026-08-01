@@ -1,0 +1,26 @@
+{
+  "person_id": "manasseh-3",
+  "name": "Manasseh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 20:21",
+    "2 Kings 21:1-20",
+    "2 Kings 23:12-26",
+    "2 Kings 24:3",
+    "1 Chronicles 3:13",
+    "2 Chronicles 32:33",
+    "2 Chronicles 33:1-23",
+    "Jeremiah 15:4",
+    "Matthew 1:10"
+  ],
+  "genealogy": {
+    "father": "hezekiah",
+    "mother": "hephzibah",
+    "spouses": [],
+    "children": [
+      "amon-2"
+    ]
+  }
+}

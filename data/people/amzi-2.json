@@ -1,0 +1,18 @@
+{
+  "person_id": "amzi-2",
+  "name": "Amzi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:12"
+  ],
+  "genealogy": {
+    "father": "zechariah-21",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "pelaliah"
+    ]
+  }
+}

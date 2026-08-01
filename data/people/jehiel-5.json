@@ -1,0 +1,18 @@
+{
+  "person_id": "jehiel-5",
+  "name": "Jehiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "obadiah-9"
+    ]
+  }
+}

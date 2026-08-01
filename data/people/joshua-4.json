@@ -1,0 +1,21 @@
+{
+  "person_id": "joshua-4",
+  "name": "Joshua",
+  "alt_names": [
+    "Branch"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Haggai 1:1-14",
+    "Haggai 2:2-4",
+    "Zechariah 3:1-9",
+    "Zechariah 6:11-12"
+  ],
+  "genealogy": {
+    "father": "jehozadak-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

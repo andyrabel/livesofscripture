@@ -1,0 +1,18 @@
+{
+  "person_id": "hassenuah-2",
+  "name": "Hassenuah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "judah-3"
+    ]
+  }
+}

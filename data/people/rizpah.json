@@ -1,0 +1,20 @@
+{
+  "person_id": "rizpah",
+  "name": "Rizpah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:7",
+    "2 Samuel 21:8-11"
+  ],
+  "genealogy": {
+    "father": "aiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "armoni",
+      "mephibosheth-2"
+    ]
+  }
+}

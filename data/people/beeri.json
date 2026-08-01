@@ -1,0 +1,18 @@
+{
+  "person_id": "beeri",
+  "name": "Beeri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Hosea 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hosea"
+    ]
+  }
+}

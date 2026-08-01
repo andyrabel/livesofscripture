@@ -1,0 +1,18 @@
+{
+  "person_id": "johanan-3",
+  "name": "Johanan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:9-10"
+  ],
+  "genealogy": {
+    "father": "azariah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah"
+    ]
+  }
+}

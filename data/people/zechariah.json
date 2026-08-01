@@ -1,0 +1,17 @@
+{
+  "person_id": "zechariah",
+  "name": "Zechariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 14:29",
+    "2 Kings 15:8-11"
+  ],
+  "genealogy": {
+    "father": "jeroboam-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

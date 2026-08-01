@@ -1,0 +1,17 @@
+{
+  "person_id": "calcol",
+  "name": "Calcol",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:31",
+    "1 Chronicles 2:6"
+  ],
+  "genealogy": {
+    "father": "zerah-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

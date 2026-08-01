@@ -1,0 +1,21 @@
+{
+  "person_id": "ahasbai",
+  "name": "Ahasbai",
+  "alt_names": [
+    "Ur"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:34",
+    "1 Chronicles 11:35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliphelet-2"
+    ]
+  }
+}

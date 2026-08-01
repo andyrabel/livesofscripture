@@ -1,0 +1,17 @@
+{
+  "person_id": "daniel",
+  "name": "Daniel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:2",
+    "Nehemiah 10:6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "person_id": "keturah",
+  "name": "Keturah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:1-4",
+    "1 Chronicles 1:32-33"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "abraham"
+    ],
+    "children": [
+      "ishbak",
+      "jokshan",
+      "medan",
+      "midian",
+      "shuah",
+      "zimran"
+    ]
+  }
+}

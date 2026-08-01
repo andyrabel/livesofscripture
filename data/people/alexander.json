@@ -1,0 +1,16 @@
+{
+  "person_id": "alexander",
+  "name": "Alexander",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Mark 15:21"
+  ],
+  "genealogy": {
+    "father": "simon-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "person_id": "jehoiakim",
+  "name": "Jehoiakim",
+  "alt_names": [
+    "Eliakim"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 23:34-36",
+    "2 Kings 24:1-19",
+    "1 Chronicles 3:15-16",
+    "2 Chronicles 36:4-8",
+    "Jeremiah 1:3",
+    "Jeremiah 22:18-24",
+    "Jeremiah 24:1",
+    "Jeremiah 25:1",
+    "Jeremiah 26:1-23",
+    "Jeremiah 27:20",
+    "Jeremiah 28:4",
+    "Jeremiah 35:1",
+    "Jeremiah 36:1-32",
+    "Jeremiah 37:1",
+    "Jeremiah 45:1",
+    "Jeremiah 46:2",
+    "Jeremiah 52:2",
+    "Daniel 1:1-2"
+  ],
+  "genealogy": {
+    "father": "josiah",
+    "mother": "zebidah",
+    "spouses": [],
+    "children": [
+      "jehoiachin",
+      "jerahmeel-3",
+      "zedekiah-3"
+    ]
+  }
+}

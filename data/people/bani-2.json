@@ -1,0 +1,18 @@
+{
+  "person_id": "bani-2",
+  "name": "Bani",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:46"
+  ],
+  "genealogy": {
+    "father": "shemer-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amzi"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "omri",
+  "name": "Omri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 16:16-30",
+    "2 Kings 8:26",
+    "2 Chronicles 22:2",
+    "Micah 6:16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahab"
+    ]
+  }
+}

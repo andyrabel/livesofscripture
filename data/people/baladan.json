@@ -1,0 +1,19 @@
+{
+  "person_id": "baladan",
+  "name": "Baladan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 20:12",
+    "Isaiah 39:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "berodach-baladan"
+    ]
+  }
+}

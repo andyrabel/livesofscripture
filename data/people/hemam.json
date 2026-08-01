@@ -1,0 +1,19 @@
+{
+  "person_id": "hemam",
+  "name": "Hemam",
+  "alt_names": [
+    "Homam"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:22",
+    "1 Chronicles 1:39"
+  ],
+  "genealogy": {
+    "father": "lotan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

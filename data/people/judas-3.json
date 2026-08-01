@@ -1,0 +1,20 @@
+{
+  "person_id": "judas-3",
+  "name": "Judas",
+  "alt_names": [
+    "Jude"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 13:55",
+    "Mark 6:3",
+    "Jude 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "mary",
+    "spouses": [],
+    "children": []
+  }
+}

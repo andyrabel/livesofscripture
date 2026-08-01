@@ -1,0 +1,16 @@
+{
+  "person_id": "jemimah",
+  "name": "Jemimah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 42:14"
+  ],
+  "genealogy": {
+    "father": "job",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

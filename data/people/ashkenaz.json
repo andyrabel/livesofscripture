@@ -1,0 +1,17 @@
+{
+  "person_id": "ashkenaz",
+  "name": "Ashkenaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:3",
+    "1 Chronicles 1:6"
+  ],
+  "genealogy": {
+    "father": "gomer",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "rechab-2",
+  "name": "Rechab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 10:15-23",
+    "Jeremiah 35:6-19"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jonadab-2"
+    ]
+  }
+}

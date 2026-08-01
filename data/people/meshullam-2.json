@@ -1,0 +1,22 @@
+{
+  "person_id": "meshullam-2",
+  "name": "Meshullam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:19"
+  ],
+  "genealogy": {
+    "father": "zerubbabel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "berechiah",
+      "hasadiah",
+      "hashubah",
+      "jushab-hesed",
+      "ohel"
+    ]
+  }
+}

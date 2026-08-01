@@ -1,0 +1,18 @@
+{
+  "person_id": "jehu-3",
+  "name": "Jehu",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:38"
+  ],
+  "genealogy": {
+    "father": "obed-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah-4"
+    ]
+  }
+}

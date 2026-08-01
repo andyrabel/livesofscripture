@@ -1,0 +1,18 @@
+{
+  "person_id": "mesha-2",
+  "name": "Mesha",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:42"
+  ],
+  "genealogy": {
+    "father": "caleb-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ziph"
+    ]
+  }
+}

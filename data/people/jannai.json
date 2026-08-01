@@ -1,0 +1,18 @@
+{
+  "person_id": "jannai",
+  "name": "Jannai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:24"
+  ],
+  "genealogy": {
+    "father": "joseph-8",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "melchi"
+    ]
+  }
+}

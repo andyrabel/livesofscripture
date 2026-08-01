@@ -1,0 +1,26 @@
+{
+  "person_id": "nahshon",
+  "name": "Nahshon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:23",
+    "Numbers 1:7",
+    "Numbers 2:3",
+    "Numbers 7:12-17",
+    "Numbers 10:14",
+    "Ruth 4:20",
+    "1 Chronicles 2:10-11",
+    "Matthew 1:4",
+    "Luke 3:32"
+  ],
+  "genealogy": {
+    "father": "amminadab",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "salmon"
+    ]
+  }
+}

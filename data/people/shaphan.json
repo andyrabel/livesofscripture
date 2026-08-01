@@ -1,0 +1,26 @@
+{
+  "person_id": "shaphan",
+  "name": "Shaphan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:3-14",
+    "2 Kings 25:22",
+    "2 Chronicles 34:8-20",
+    "Jeremiah 26:24",
+    "Jeremiah 39:14",
+    "Jeremiah 40:5-11",
+    "Jeremiah 41:2",
+    "Jeremiah 43:6"
+  ],
+  "genealogy": {
+    "father": "azaliah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahikam",
+      "gemariah-2"
+    ]
+  }
+}

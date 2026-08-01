@@ -1,0 +1,18 @@
+{
+  "person_id": "ishmael-2",
+  "name": "Ishmael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:23-25",
+    "Jeremiah 40:8-16",
+    "Jeremiah 41:1-18"
+  ],
+  "genealogy": {
+    "father": "nethaniah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

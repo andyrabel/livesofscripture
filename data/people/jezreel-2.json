@@ -1,0 +1,16 @@
+{
+  "person_id": "jezreel-2",
+  "name": "Jezreel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Hosea 1:4"
+  ],
+  "genealogy": {
+    "father": "hosea",
+    "mother": "gomer-2",
+    "spouses": [],
+    "children": []
+  }
+}

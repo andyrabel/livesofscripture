@@ -1,0 +1,19 @@
+{
+  "person_id": "berechiah-6",
+  "name": "Berechiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Zechariah 1:1-7",
+    "Matthew 23:35"
+  ],
+  "genealogy": {
+    "father": "iddo-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zechariah-13"
+    ]
+  }
+}

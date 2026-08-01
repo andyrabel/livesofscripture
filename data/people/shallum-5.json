@@ -1,0 +1,18 @@
+{
+  "person_id": "shallum-5",
+  "name": "Shallum",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:25"
+  ],
+  "genealogy": {
+    "father": "shaul-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mibsam-2"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "tamar-2",
+  "name": "Tamar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 13:1-32",
+    "1 Chronicles 3:9"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "shelemiah-5",
+  "name": "Shelemiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 36:14"
+  ],
+  "genealogy": {
+    "father": "cushi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nethaniah-4"
+    ]
+  }
+}

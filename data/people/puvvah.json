@@ -1,0 +1,21 @@
+{
+  "person_id": "puvvah",
+  "name": "Puvvah",
+  "alt_names": [
+    "Puvah",
+    "Puah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:13",
+    "Numbers 26:23",
+    "1 Chronicles 7:1"
+  ],
+  "genealogy": {
+    "father": "issachar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

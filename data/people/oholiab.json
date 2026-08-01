@@ -1,0 +1,19 @@
+{
+  "person_id": "oholiab",
+  "name": "Oholiab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 31:6",
+    "Exodus 35:34",
+    "Exodus 36:1-2",
+    "Exodus 38:23"
+  ],
+  "genealogy": {
+    "father": "ahisamach",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

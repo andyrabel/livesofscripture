@@ -1,0 +1,16 @@
+{
+  "person_id": "jokim",
+  "name": "Jokim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:22"
+  ],
+  "genealogy": {
+    "father": "shelah-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

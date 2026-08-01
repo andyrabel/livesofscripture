@@ -1,0 +1,18 @@
+{
+  "person_id": "orpah",
+  "name": "Orpah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ruth 1:4-14"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "chilion"
+    ],
+    "children": []
+  }
+}

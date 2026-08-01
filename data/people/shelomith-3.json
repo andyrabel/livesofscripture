@@ -1,0 +1,21 @@
+{
+  "person_id": "shelomith-3",
+  "name": "Shelomith",
+  "alt_names": [
+    "Shelomoth"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 23:18",
+    "1 Chronicles 24:22"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jahath-5"
+    ]
+  }
+}

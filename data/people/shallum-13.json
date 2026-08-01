@@ -1,0 +1,18 @@
+{
+  "person_id": "shallum-13",
+  "name": "Shallum",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 32:7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hanamel"
+    ]
+  }
+}

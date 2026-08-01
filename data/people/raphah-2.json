@@ -1,0 +1,21 @@
+{
+  "person_id": "raphah-2",
+  "name": "Raphah",
+  "alt_names": [
+    "Rephaiah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:37",
+    "1 Chronicles 9:43"
+  ],
+  "genealogy": {
+    "father": "binea",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eleasah-2"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "rekem-2",
+  "name": "Rekem",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:43-44"
+  ],
+  "genealogy": {
+    "father": "korah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shammai-2"
+    ]
+  }
+}

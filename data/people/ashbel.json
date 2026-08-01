@@ -1,0 +1,23 @@
+{
+  "person_id": "ashbel",
+  "name": "Ashbel",
+  "alt_names": [
+    "Jediael"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "Numbers 26:38",
+    "1 Chronicles 7:6-11",
+    "1 Chronicles 8:1"
+  ],
+  "genealogy": {
+    "father": "benjamin",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bilhan-2"
+    ]
+  }
+}

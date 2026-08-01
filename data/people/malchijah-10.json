@@ -1,0 +1,18 @@
+{
+  "person_id": "malchijah-10",
+  "name": "Malchijah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 38:1-6"
+  ],
+  "genealogy": {
+    "father": "zedekiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "pashhur-4"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "simon",
+  "name": "Simon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 13:55",
+    "Mark 6:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "mary",
+    "spouses": [],
+    "children": []
+  }
+}

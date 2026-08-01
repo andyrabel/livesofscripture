@@ -1,0 +1,21 @@
+{
+  "person_id": "hannah",
+  "name": "Hannah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:2-22",
+    "1 Samuel 2:1-21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "elkanah-2"
+    ],
+    "children": [
+      "samuel"
+    ]
+  }
+}

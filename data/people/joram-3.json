@@ -1,0 +1,19 @@
+{
+  "person_id": "joram-3",
+  "name": "Joram",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 26:25"
+  ],
+  "genealogy": {
+    "father": "isshiah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shelomoth-2",
+      "zichri-6"
+    ]
+  }
+}

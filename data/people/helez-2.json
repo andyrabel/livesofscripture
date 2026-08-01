@@ -1,0 +1,18 @@
+{
+  "person_id": "helez-2",
+  "name": "Helez",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:39"
+  ],
+  "genealogy": {
+    "father": "azariah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eleasah"
+    ]
+  }
+}

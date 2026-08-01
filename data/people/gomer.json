@@ -1,0 +1,21 @@
+{
+  "person_id": "gomer",
+  "name": "Gomer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:2-3",
+    "1 Chronicles 1:5-6"
+  ],
+  "genealogy": {
+    "father": "japheth",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ashkenaz",
+      "riphath",
+      "togarmah"
+    ]
+  }
+}

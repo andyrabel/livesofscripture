@@ -1,0 +1,31 @@
+{
+  "person_id": "joktan",
+  "name": "Joktan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:25-29",
+    "1 Chronicles 1:19-23"
+  ],
+  "genealogy": {
+    "father": "eber",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abimael",
+      "almodad",
+      "diklah",
+      "hadoram",
+      "havilah-2",
+      "hazarmaveth",
+      "jerah",
+      "jobab",
+      "obal",
+      "ophir",
+      "sheba-2",
+      "sheleph",
+      "uzal"
+    ]
+  }
+}

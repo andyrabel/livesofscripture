@@ -1,7 +1,9 @@
 {
   "person_id": "bathsheba",
   "name": "Bathsheba",
-  "alt_names": ["Bathshua"],
+  "alt_names": [
+    "Bathshua"
+  ],
   "tier": "full",
   "testament": "OT",
   "era": "United Monarchy",
@@ -9,7 +11,9 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Jerusalem"],
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Samuel 11",
     "2 Samuel 12:1-25",
@@ -17,7 +21,11 @@
     "1 Kings 2:13-25",
     "Matthew 1:6"
   ],
-  "topics": ["consequence and grace", "advocacy", "restoration"],
+  "topics": [
+    "consequence and grace",
+    "advocacy",
+    "restoration"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "2 Samuel 11 gives Bathsheba almost no voice or interiority in the initial encounter with David — 'he sent messengers, and took her.' Interpreters differ over how much agency the text implies she had in a situation where a reigning king summoned a subject's wife: some read the episode as mutual sin, others emphasize the severe power imbalance and read David's action as closer to abuse of royal authority than to a two-sided affair, noting that Nathan's parable names David alone as the guilty 'rich man' (2 Samuel 12:1-6) and that 2 Samuel 11:27 states plainly that 'the thing that David had done was evil in the sight of the LORD' without naming Bathsheba's culpability. Scripture does not state her intent, and this site does not pick a side.",
   "source_summary": "Wife of Uriah the Hittite, summoned by King David while her husband was at war; after David arranged Uriah's death to cover the resulting pregnancy, she became David's wife and, decades later, successfully secured the throne for her son Solomon against a rival claimant.",
@@ -31,10 +39,18 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
+    "father": "eliam",
     "mother": null,
-    "spouses": ["david"],
-    "children": ["solomon"]
+    "spouses": [
+      "david",
+      "uriah"
+    ],
+    "children": [
+      "nathan",
+      "shammua-2",
+      "shobab",
+      "solomon"
+    ]
   },
   "review": {
     "human_reviewed": false,

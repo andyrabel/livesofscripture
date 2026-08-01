@@ -1,0 +1,19 @@
+{
+  "person_id": "ribai",
+  "name": "Ribai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:29",
+    "1 Chronicles 11:31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ittai"
+    ]
+  }
+}

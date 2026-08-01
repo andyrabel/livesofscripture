@@ -1,0 +1,21 @@
+{
+  "person_id": "hadad-3",
+  "name": "Hadad",
+  "alt_names": [
+    "Hadar"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:39",
+    "1 Chronicles 1:50-51"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "mehetabel"
+    ],
+    "children": []
+  }
+}

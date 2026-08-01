@@ -1,0 +1,27 @@
+{
+  "person_id": "jotham-2",
+  "name": "Jotham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:5-38",
+    "2 Kings 16:1",
+    "1 Chronicles 5:17",
+    "2 Chronicles 26:21-23",
+    "2 Chronicles 27:1-9",
+    "Isaiah 1:1",
+    "Isaiah 7:1",
+    "Hosea 1:1",
+    "Micah 1:1",
+    "Matthew 1:9"
+  ],
+  "genealogy": {
+    "father": "uzziah",
+    "mother": "jerusha",
+    "spouses": [],
+    "children": [
+      "ahaz"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "person_id": "jethro",
+  "name": "Jethro",
+  "alt_names": [
+    "Reuel",
+    "Hobab"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 2:16-18",
+    "Exodus 3:1",
+    "Exodus 4:18",
+    "Exodus 18:1-12",
+    "Numbers 10:29",
+    "Judges 1:16",
+    "Judges 4:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hobab",
+      "zipporah"
+    ]
+  }
+}

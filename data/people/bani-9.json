@@ -1,0 +1,18 @@
+{
+  "person_id": "bani-9",
+  "name": "Bani",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:22"
+  ],
+  "genealogy": {
+    "father": "hashabiah-7",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "uzzi-5"
+    ]
+  }
+}

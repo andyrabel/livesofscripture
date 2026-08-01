@@ -1,0 +1,26 @@
+{
+  "person_id": "pharaoh-7",
+  "name": "Pharaoh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 25:19",
+    "Jeremiah 37:5-11",
+    "Jeremiah 43:9",
+    "Jeremiah 44:30",
+    "Jeremiah 46:17-25",
+    "Jeremiah 47:1",
+    "Ezekiel 17:17",
+    "Ezekiel 29:2-3",
+    "Ezekiel 30:21-25",
+    "Ezekiel 31:2-18",
+    "Ezekiel 32:2-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

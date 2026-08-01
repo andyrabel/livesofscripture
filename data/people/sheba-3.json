@@ -1,0 +1,17 @@
+{
+  "person_id": "sheba-3",
+  "name": "Sheba",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:3",
+    "1 Chronicles 1:32"
+  ],
+  "genealogy": {
+    "father": "jokshan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "zohar",
+  "name": "Zohar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 23:8",
+    "Genesis 25:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ephron"
+    ]
+  }
+}

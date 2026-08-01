@@ -1,0 +1,23 @@
+{
+  "person_id": "james-3",
+  "name": "James",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 13:55",
+    "Matthew 27:56",
+    "Mark 6:3",
+    "Mark 15:40",
+    "Mark 16:1",
+    "Luke 24:10",
+    "James 1:1",
+    "Jude 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "mary",
+    "spouses": [],
+    "children": []
+  }
+}

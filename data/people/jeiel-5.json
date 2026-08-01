@@ -1,0 +1,18 @@
+{
+  "person_id": "jeiel-5",
+  "name": "Jeiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 20:14"
+  ],
+  "genealogy": {
+    "father": "mattaniah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "benaiah-5"
+    ]
+  }
+}

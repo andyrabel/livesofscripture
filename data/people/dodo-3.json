@@ -1,0 +1,19 @@
+{
+  "person_id": "dodo-3",
+  "name": "Dodo",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:9",
+    "1 Chronicles 11:12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eleazar-3"
+    ]
+  }
+}

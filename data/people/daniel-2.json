@@ -1,0 +1,30 @@
+{
+  "person_id": "daniel-2",
+  "name": "Daniel",
+  "alt_names": [
+    "Belteshazzar"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezekiel 14:14-20",
+    "Ezekiel 28:3",
+    "Daniel 1:6-21",
+    "Daniel 2:13-49",
+    "Daniel 4:8-19",
+    "Daniel 5:12-29",
+    "Daniel 6:2-28",
+    "Daniel 7:1-28",
+    "Daniel 8:1-27",
+    "Daniel 9:2-22",
+    "Daniel 10:1-12",
+    "Daniel 12:4-9",
+    "Matthew 24:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

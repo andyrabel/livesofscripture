@@ -1,0 +1,18 @@
+{
+  "person_id": "azaz",
+  "name": "Azaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:8"
+  ],
+  "genealogy": {
+    "father": "shema-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bela-3"
+    ]
+  }
+}

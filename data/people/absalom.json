@@ -1,0 +1,30 @@
+{
+  "person_id": "absalom",
+  "name": "Absalom",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:3",
+    "2 Samuel 13:1-39",
+    "2 Samuel 14:1-33",
+    "2 Samuel 15:1-37",
+    "2 Samuel 16:8-23",
+    "2 Samuel 17:1-26",
+    "2 Samuel 18:5-33",
+    "2 Samuel 19:1-10",
+    "2 Samuel 20:6",
+    "1 Kings 1:6",
+    "1 Kings 2:7-28",
+    "1 Chronicles 3:2",
+    "Psalms 3:0"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "maacah-2",
+    "spouses": [],
+    "children": [
+      "tamar-3"
+    ]
+  }
+}

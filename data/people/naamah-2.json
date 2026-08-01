@@ -1,0 +1,19 @@
+{
+  "person_id": "naamah-2",
+  "name": "Naamah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 14:21-31",
+    "2 Chronicles 12:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rehoboam"
+    ]
+  }
+}

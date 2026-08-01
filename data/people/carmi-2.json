@@ -1,0 +1,20 @@
+{
+  "person_id": "carmi-2",
+  "name": "Carmi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Joshua 7:1-18",
+    "1 Chronicles 2:7",
+    "1 Chronicles 4:1"
+  ],
+  "genealogy": {
+    "father": "zabdi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "achan"
+    ]
+  }
+}

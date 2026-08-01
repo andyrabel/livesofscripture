@@ -1,0 +1,17 @@
+{
+  "person_id": "gera",
+  "name": "Gera",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "1 Chronicles 8:3"
+  ],
+  "genealogy": {
+    "father": "benjamin",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

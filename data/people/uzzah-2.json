@@ -1,0 +1,18 @@
+{
+  "person_id": "uzzah-2",
+  "name": "Uzzah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:29"
+  ],
+  "genealogy": {
+    "father": "shimei-7",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimea"
+    ]
+  }
+}

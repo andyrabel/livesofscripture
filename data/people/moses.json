@@ -9,9 +9,23 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Egypt", "Midian", "Sinai Peninsula", "Plains of Moab"],
-  "references": ["Exodus 2-40", "Numbers", "Deuteronomy 34"],
-  "topics": ["deliverance", "law", "mediation", "leadership"],
+  "geographic_setting": [
+    "Egypt",
+    "Midian",
+    "Sinai Peninsula",
+    "Plains of Moab"
+  ],
+  "references": [
+    "Exodus 2-40",
+    "Numbers",
+    "Deuteronomy 34"
+  ],
+  "topics": [
+    "deliverance",
+    "law",
+    "mediation",
+    "leadership"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Traditional Jewish and Christian interpretation attributes authorship of the Pentateuch (Genesis-Deuteronomy) to Moses, based on internal statements that Moses wrote down specific material (e.g. Exodus 24:4, Deuteronomy 31:9). Some material, including the account of Moses' own death (Deuteronomy 34), was necessarily added by another hand. The extent and process of the Pentateuch's composition remains a disputed question among interpreters.",
   "source_summary": "Raised in Pharaoh's household, called at the burning bush to deliver Israel from slavery, mediator of the Sinai covenant and giver of the Law; barred from entering the promised land after striking the rock at Meribah in anger.",
@@ -27,8 +41,13 @@
   "genealogy": {
     "father": "amram",
     "mother": "jochebed",
-    "spouses": ["zipporah"],
-    "children": ["gershom"]
+    "spouses": [
+      "zipporah"
+    ],
+    "children": [
+      "eliezer-2",
+      "gershom"
+    ]
   },
   "review": {
     "human_reviewed": false,

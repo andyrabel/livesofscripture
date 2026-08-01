@@ -1,0 +1,18 @@
+{
+  "person_id": "maon",
+  "name": "Maon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:45"
+  ],
+  "genealogy": {
+    "father": "shammai-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bethzur"
+    ]
+  }
+}

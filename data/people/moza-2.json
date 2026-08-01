@@ -1,0 +1,19 @@
+{
+  "person_id": "moza-2",
+  "name": "Moza",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:36-37",
+    "1 Chronicles 9:42-43"
+  ],
+  "genealogy": {
+    "father": "zimri-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "binea"
+    ]
+  }
+}

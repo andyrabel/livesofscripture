@@ -1,0 +1,17 @@
+{
+  "person_id": "hori",
+  "name": "Hori",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:22",
+    "1 Chronicles 1:39"
+  ],
+  "genealogy": {
+    "father": "lotan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

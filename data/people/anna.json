@@ -1,0 +1,16 @@
+{
+  "person_id": "anna",
+  "name": "Anna",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 2:36"
+  ],
+  "genealogy": {
+    "father": "phanuel",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

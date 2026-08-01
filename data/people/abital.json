@@ -1,0 +1,21 @@
+{
+  "person_id": "abital",
+  "name": "Abital",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:4",
+    "1 Chronicles 3:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "david"
+    ],
+    "children": [
+      "shephatiah"
+    ]
+  }
+}

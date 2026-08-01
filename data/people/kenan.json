@@ -1,0 +1,22 @@
+{
+  "person_id": "kenan",
+  "name": "Kenan",
+  "alt_names": [
+    "Cainan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:9-14",
+    "1 Chronicles 1:2",
+    "Luke 3:38"
+  ],
+  "genealogy": {
+    "father": "enosh",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mahalalel"
+    ]
+  }
+}

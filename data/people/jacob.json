@@ -1,0 +1,18 @@
+{
+  "person_id": "jacob",
+  "name": "Jacob",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 1:15-16"
+  ],
+  "genealogy": {
+    "father": "matthan",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joseph-6"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "dodanim",
+  "name": "Dodanim",
+  "alt_names": [
+    "Rodanim"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:4",
+    "1 Chronicles 1:7"
+  ],
+  "genealogy": {
+    "father": "javan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

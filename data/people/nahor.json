@@ -1,0 +1,22 @@
+{
+  "person_id": "nahor",
+  "name": "Nahor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:22-25",
+    "Genesis 29:5",
+    "Genesis 31:53",
+    "1 Chronicles 1:26",
+    "Luke 3:34"
+  ],
+  "genealogy": {
+    "father": "serug",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "terah"
+    ]
+  }
+}

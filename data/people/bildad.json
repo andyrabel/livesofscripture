@@ -1,0 +1,20 @@
+{
+  "person_id": "bildad",
+  "name": "Bildad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 2:11",
+    "Job 8:1",
+    "Job 18:1",
+    "Job 25:1",
+    "Job 42:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "beriah",
+  "name": "Beriah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:17",
+    "Numbers 26:44-45",
+    "1 Chronicles 7:30-31"
+  ],
+  "genealogy": {
+    "father": "asher",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "heber",
+      "malchiel"
+    ]
+  }
+}

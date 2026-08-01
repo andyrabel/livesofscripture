@@ -1,0 +1,18 @@
+{
+  "person_id": "obed-2",
+  "name": "Obed",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:37-38"
+  ],
+  "genealogy": {
+    "father": "ephlal",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehu-3"
+    ]
+  }
+}

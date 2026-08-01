@@ -1,0 +1,25 @@
+{
+  "person_id": "beor-2",
+  "name": "Beor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 22:5",
+    "Numbers 24:3-15",
+    "Numbers 31:8",
+    "Deuteronomy 23:4",
+    "Joshua 13:22",
+    "Joshua 24:9",
+    "Micah 6:5",
+    "2 Peter 2:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "balaam"
+    ]
+  }
+}

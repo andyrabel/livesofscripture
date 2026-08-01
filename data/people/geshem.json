@@ -1,0 +1,19 @@
+{
+  "person_id": "geshem",
+  "name": "Geshem",
+  "alt_names": [
+    "Gashmu"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 2:19",
+    "Nehemiah 6:1-6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

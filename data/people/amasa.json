@@ -1,0 +1,23 @@
+{
+  "person_id": "amasa",
+  "name": "Amasa",
+  "alt_names": [
+    "Amasai"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 17:25",
+    "2 Samuel 19:13",
+    "2 Samuel 20:4-12",
+    "1 Kings 2:5-32",
+    "1 Chronicles 2:17",
+    "1 Chronicles 12:18"
+  ],
+  "genealogy": {
+    "father": "jether-2",
+    "mother": "abigail-2",
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "ard",
+  "name": "Ard",
+  "alt_names": [
+    "Addar"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "Numbers 26:40",
+    "1 Chronicles 8:3"
+  ],
+  "genealogy": {
+    "father": "bela-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

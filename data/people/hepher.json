@@ -1,0 +1,20 @@
+{
+  "person_id": "hepher",
+  "name": "Hepher",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:32-33",
+    "Numbers 27:1",
+    "Joshua 17:2-3"
+  ],
+  "genealogy": {
+    "father": "gilead",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zelophehad"
+    ]
+  }
+}

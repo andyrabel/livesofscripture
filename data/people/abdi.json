@@ -1,0 +1,19 @@
+{
+  "person_id": "abdi",
+  "name": "Abdi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:44",
+    "2 Chronicles 29:12"
+  ],
+  "genealogy": {
+    "father": "malluch",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "kishi"
+    ]
+  }
+}

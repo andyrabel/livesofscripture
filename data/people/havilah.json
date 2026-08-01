@@ -1,0 +1,17 @@
+{
+  "person_id": "havilah",
+  "name": "Havilah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:7",
+    "1 Chronicles 1:9"
+  ],
+  "genealogy": {
+    "father": "cush",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "elihu-5",
+  "name": "Elihu",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 32:2-6",
+    "Job 34:1",
+    "Job 35:1",
+    "Job 36:1"
+  ],
+  "genealogy": {
+    "father": "barachel",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

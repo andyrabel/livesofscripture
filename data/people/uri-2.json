@@ -1,0 +1,18 @@
+{
+  "person_id": "uri-2",
+  "name": "Uri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:19"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "geber"
+    ]
+  }
+}

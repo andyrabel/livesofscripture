@@ -1,0 +1,45 @@
+{
+  "person_id": "gad",
+  "name": "Gad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 30:11",
+    "Genesis 35:26",
+    "Genesis 46:16",
+    "Genesis 49:19",
+    "Exodus 1:4",
+    "Numbers 1:14-25",
+    "Numbers 2:14",
+    "Numbers 7:42",
+    "Numbers 10:20",
+    "Numbers 13:15",
+    "Numbers 26:15",
+    "Numbers 32:1-34",
+    "Numbers 34:14",
+    "Joshua 4:12",
+    "Joshua 13:24-28",
+    "Joshua 21:7-38",
+    "Joshua 22:9-34",
+    "1 Chronicles 2:2",
+    "1 Chronicles 5:11",
+    "1 Chronicles 6:63-80",
+    "1 Chronicles 12:14",
+    "Revelation 7:5"
+  ],
+  "genealogy": {
+    "father": "israel",
+    "mother": "zilpah",
+    "spouses": [],
+    "children": [
+      "areli",
+      "arodi",
+      "eri",
+      "ezbon",
+      "haggi",
+      "shuni",
+      "ziphion"
+    ]
+  }
+}

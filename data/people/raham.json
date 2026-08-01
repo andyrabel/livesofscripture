@@ -1,0 +1,18 @@
+{
+  "person_id": "raham",
+  "name": "Raham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:44"
+  ],
+  "genealogy": {
+    "father": "shema",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jorkeam"
+    ]
+  }
+}

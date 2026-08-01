@@ -1,0 +1,35 @@
+{
+  "person_id": "merari",
+  "name": "Merari",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:11",
+    "Exodus 6:16-19",
+    "Numbers 3:17-36",
+    "Numbers 4:29-45",
+    "Numbers 7:8",
+    "Numbers 10:17",
+    "Numbers 26:57",
+    "Joshua 21:7-40",
+    "1 Chronicles 6:1-77",
+    "1 Chronicles 9:14",
+    "1 Chronicles 15:6-17",
+    "1 Chronicles 23:6-21",
+    "1 Chronicles 24:26-27",
+    "1 Chronicles 26:10-19",
+    "2 Chronicles 29:12",
+    "2 Chronicles 34:12",
+    "Ezra 8:19"
+  ],
+  "genealogy": {
+    "father": "levi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mahli",
+      "mushi"
+    ]
+  }
+}

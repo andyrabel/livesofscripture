@@ -1,0 +1,19 @@
+{
+  "person_id": "hemdan",
+  "name": "Hemdan",
+  "alt_names": [
+    "Hamran"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:26",
+    "1 Chronicles 1:41"
+  ],
+  "genealogy": {
+    "father": "dishon-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

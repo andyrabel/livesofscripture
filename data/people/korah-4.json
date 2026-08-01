@@ -1,0 +1,20 @@
+{
+  "person_id": "korah-4",
+  "name": "Korah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:43"
+  ],
+  "genealogy": {
+    "father": "hebron-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rekem-2",
+      "shema",
+      "tappuah"
+    ]
+  }
+}

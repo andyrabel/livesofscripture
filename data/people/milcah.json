@@ -1,0 +1,29 @@
+{
+  "person_id": "milcah",
+  "name": "Milcah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:29",
+    "Genesis 22:20-23",
+    "Genesis 24:15-47"
+  ],
+  "genealogy": {
+    "father": "haran",
+    "mother": null,
+    "spouses": [
+      "nahor-2"
+    ],
+    "children": [
+      "bethuel",
+      "buz",
+      "chesed",
+      "hazo",
+      "jidlaph",
+      "kemuel",
+      "pildash",
+      "uz-2"
+    ]
+  }
+}

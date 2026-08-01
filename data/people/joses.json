@@ -1,0 +1,21 @@
+{
+  "person_id": "joses",
+  "name": "Joses",
+  "alt_names": [
+    "Joseph"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 13:55",
+    "Matthew 27:56",
+    "Mark 6:3",
+    "Mark 15:40-47"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "mary",
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "person_id": "basemath-2",
+  "name": "Basemath",
+  "alt_names": [
+    "Mahalath"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 28:9",
+    "Genesis 36:3-17"
+  ],
+  "genealogy": {
+    "father": "ishmael",
+    "mother": null,
+    "spouses": [
+      "esau"
+    ],
+    "children": [
+      "reuel"
+    ]
+  }
+}

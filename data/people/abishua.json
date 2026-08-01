@@ -1,0 +1,19 @@
+{
+  "person_id": "abishua",
+  "name": "Abishua",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:4-50",
+    "Ezra 7:5"
+  ],
+  "genealogy": {
+    "father": "phinehas",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bukki-2"
+    ]
+  }
+}

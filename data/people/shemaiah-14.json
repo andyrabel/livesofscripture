@@ -1,0 +1,19 @@
+{
+  "person_id": "shemaiah-14",
+  "name": "Shemaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:16",
+    "Nehemiah 12:35"
+  ],
+  "genealogy": {
+    "father": "mattaniah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jonathan-12"
+    ]
+  }
+}

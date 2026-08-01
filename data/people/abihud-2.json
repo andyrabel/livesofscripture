@@ -1,0 +1,18 @@
+{
+  "person_id": "abihud-2",
+  "name": "Abihud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 1:13"
+  ],
+  "genealogy": {
+    "father": "zerubbabel-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliakim-3"
+    ]
+  }
+}

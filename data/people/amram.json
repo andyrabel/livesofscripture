@@ -8,13 +8,14 @@
     "Exodus 6:18-20"
   ],
   "genealogy": {
-    "father": null,
+    "father": "kohath",
     "mother": null,
     "spouses": [
       "jochebed"
     ],
     "children": [
       "aaron",
+      "miriam",
       "moses"
     ]
   }

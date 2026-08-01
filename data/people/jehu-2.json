@@ -1,0 +1,29 @@
+{
+  "person_id": "jehu-2",
+  "name": "Jehu",
+  "alt_names": [
+    "Zimri"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 19:16-17",
+    "2 Kings 9:2-31",
+    "2 Kings 10:1-36",
+    "2 Kings 12:1",
+    "2 Kings 13:1",
+    "2 Kings 14:8",
+    "2 Kings 15:12",
+    "2 Chronicles 22:7-9",
+    "2 Chronicles 25:17",
+    "Hosea 1:4"
+  ],
+  "genealogy": {
+    "father": "jehoshaphat-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehoahaz"
+    ]
+  }
+}

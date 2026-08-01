@@ -1,0 +1,25 @@
+{
+  "person_id": "mizraim",
+  "name": "Mizraim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:6-13",
+    "1 Chronicles 1:8-11"
+  ],
+  "genealogy": {
+    "father": "ham",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "anam",
+      "caphtor",
+      "casluh",
+      "lehab",
+      "lud",
+      "naphtuh",
+      "pathrus"
+    ]
+  }
+}

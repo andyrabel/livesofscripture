@@ -1,0 +1,22 @@
+{
+  "person_id": "jether-2",
+  "name": "Jether",
+  "alt_names": [
+    "Ithra"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 17:25",
+    "1 Kings 2:5-32",
+    "1 Chronicles 2:17"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amasa"
+    ]
+  }
+}

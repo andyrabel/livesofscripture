@@ -1,0 +1,21 @@
+{
+  "person_id": "hoshaiah-2",
+  "name": "Hoshaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:23",
+    "Jeremiah 42:1",
+    "Jeremiah 43:2"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azariah-16",
+      "jezaniah"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "person_id": "balak",
+  "name": "Balak",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 22:2-41",
+    "Numbers 23:1-30",
+    "Numbers 24:10-25",
+    "Joshua 24:9",
+    "Judges 11:17-25",
+    "Micah 6:5",
+    "Revelation 2:14"
+  ],
+  "genealogy": {
+    "father": "zippor",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

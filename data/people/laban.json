@@ -1,0 +1,27 @@
+{
+  "person_id": "laban",
+  "name": "Laban",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 24:29-50",
+    "Genesis 25:20",
+    "Genesis 27:43",
+    "Genesis 28:2-5",
+    "Genesis 29:5-29",
+    "Genesis 30:25-42",
+    "Genesis 31:1-55",
+    "Genesis 32:4",
+    "Genesis 46:18-25"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "leah",
+      "rachel"
+    ]
+  }
+}

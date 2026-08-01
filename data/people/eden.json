@@ -1,0 +1,17 @@
+{
+  "person_id": "eden",
+  "name": "Eden",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 29:12",
+    "2 Chronicles 31:15"
+  ],
+  "genealogy": {
+    "father": "joah-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

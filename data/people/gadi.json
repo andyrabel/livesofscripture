@@ -1,0 +1,18 @@
+{
+  "person_id": "gadi",
+  "name": "Gadi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:14-17"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "menachem"
+    ]
+  }
+}

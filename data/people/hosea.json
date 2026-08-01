@@ -1,0 +1,21 @@
+{
+  "person_id": "hosea",
+  "name": "Hosea",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Hosea 1:1-2",
+    "Romans 9:25"
+  ],
+  "genealogy": {
+    "father": "beeri",
+    "mother": null,
+    "spouses": [
+      "gomer-2"
+    ],
+    "children": [
+      "jezreel-2"
+    ]
+  }
+}

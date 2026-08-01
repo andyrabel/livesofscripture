@@ -1,0 +1,18 @@
+{
+  "person_id": "amnon",
+  "name": "Amnon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:2",
+    "2 Samuel 13:1-39",
+    "1 Chronicles 3:1"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "ahinoam-2",
+    "spouses": [],
+    "children": []
+  }
+}

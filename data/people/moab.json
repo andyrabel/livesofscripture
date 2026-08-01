@@ -1,0 +1,19 @@
+{
+  "person_id": "moab",
+  "name": "Moab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 19:37",
+    "Genesis 36:35",
+    "Numbers 25:1",
+    "2 Chronicles 20:1-23"
+  ],
+  "genealogy": {
+    "father": "lot",
+    "mother": "firstborn-of-lot",
+    "spouses": [],
+    "children": []
+  }
+}

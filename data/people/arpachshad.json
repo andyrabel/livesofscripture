@@ -1,0 +1,23 @@
+{
+  "person_id": "arpachshad",
+  "name": "Arpachshad",
+  "alt_names": [
+    "Arphaxad"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:22-24",
+    "Genesis 11:10-13",
+    "1 Chronicles 1:17-24",
+    "Luke 3:36"
+  ],
+  "genealogy": {
+    "father": "shem",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shelah"
+    ]
+  }
+}

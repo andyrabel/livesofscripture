@@ -9,14 +9,20 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Egypt"],
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "Exodus 2:1-10",
     "Exodus 6:20",
     "Numbers 26:59",
     "Hebrews 11:23"
   ],
-  "topics": ["faith under persecution", "motherhood", "providence"],
+  "topics": [
+    "faith under persecution",
+    "motherhood",
+    "providence"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "A Levite woman who hid her infant son Moses for three months in defiance of Pharaoh's decree to kill Hebrew baby boys, then set him adrift in a basket on the Nile, where Pharaoh's own daughter found him and unknowingly hired Jochebed herself to nurse him.",
@@ -32,8 +38,14 @@
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": ["amram"],
-    "children": ["aaron", "moses"]
+    "spouses": [
+      "amram"
+    ],
+    "children": [
+      "aaron",
+      "miriam",
+      "moses"
+    ]
   },
   "review": {
     "human_reviewed": false,

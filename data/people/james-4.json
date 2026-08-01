@@ -1,0 +1,19 @@
+{
+  "person_id": "james-4",
+  "name": "James",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 6:16",
+    "Acts 1:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "judas"
+    ]
+  }
+}

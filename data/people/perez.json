@@ -1,0 +1,29 @@
+{
+  "person_id": "perez",
+  "name": "Perez",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 38:29",
+    "Genesis 46:12",
+    "Numbers 26:20-21",
+    "Ruth 4:12-18",
+    "1 Chronicles 2:4-5",
+    "1 Chronicles 4:1",
+    "1 Chronicles 9:4",
+    "1 Chronicles 27:3",
+    "Nehemiah 11:4-6",
+    "Matthew 1:3",
+    "Luke 3:33"
+  ],
+  "genealogy": {
+    "father": "judah",
+    "mother": "tamar",
+    "spouses": [],
+    "children": [
+      "hamul",
+      "hezron-2"
+    ]
+  }
+}

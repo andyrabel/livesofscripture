@@ -1,0 +1,19 @@
+{
+  "person_id": "onam-2",
+  "name": "Onam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:26-28"
+  ],
+  "genealogy": {
+    "father": "jerahmeel",
+    "mother": "atarah",
+    "spouses": [],
+    "children": [
+      "jada",
+      "shammai"
+    ]
+  }
+}

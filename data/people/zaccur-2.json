@@ -1,0 +1,18 @@
+{
+  "person_id": "zaccur-2",
+  "name": "Zaccur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:26"
+  ],
+  "genealogy": {
+    "father": "hammuel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimei-5"
+    ]
+  }
+}

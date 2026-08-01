@@ -1,0 +1,25 @@
+{
+  "person_id": "zelophehad",
+  "name": "Zelophehad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:33",
+    "Numbers 27:1-7",
+    "Numbers 36:2-11",
+    "Joshua 17:3"
+  ],
+  "genealogy": {
+    "father": "hepher",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hoglah",
+      "mahlah",
+      "milcah-2",
+      "noah-2",
+      "tirzah"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "harhas",
+  "name": "Harhas",
+  "alt_names": [
+    "Hasrah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:14",
+    "2 Chronicles 34:21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "tikvah"
+    ]
+  }
+}

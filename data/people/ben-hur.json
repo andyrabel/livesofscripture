@@ -1,0 +1,16 @@
+{
+  "person_id": "ben-hur",
+  "name": "Ben-hur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 4:8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

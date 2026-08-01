@@ -1,0 +1,21 @@
+{
+  "person_id": "tikvah",
+  "name": "Tikvah",
+  "alt_names": [
+    "Tokhath"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 22:14",
+    "2 Chronicles 34:21"
+  ],
+  "genealogy": {
+    "father": "harhas",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shallum-2"
+    ]
+  }
+}

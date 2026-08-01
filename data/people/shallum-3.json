@@ -1,0 +1,18 @@
+{
+  "person_id": "shallum-3",
+  "name": "Shallum",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:40-41"
+  ],
+  "genealogy": {
+    "father": "sismai",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jekamiah"
+    ]
+  }
+}

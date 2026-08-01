@@ -1,0 +1,22 @@
+{
+  "person_id": "reuel",
+  "name": "Reuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:4-17",
+    "1 Chronicles 1:35-37"
+  ],
+  "genealogy": {
+    "father": "esau",
+    "mother": "basemath-2",
+    "spouses": [],
+    "children": [
+      "mizzah",
+      "nahath",
+      "shammah",
+      "zerah"
+    ]
+  }
+}

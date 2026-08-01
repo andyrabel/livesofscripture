@@ -1,0 +1,17 @@
+{
+  "person_id": "agrippa",
+  "name": "Agrippa",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 25:13-26",
+    "Acts 26:1-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

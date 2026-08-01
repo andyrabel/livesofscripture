@@ -1,0 +1,19 @@
+{
+  "person_id": "jeroham-4",
+  "name": "Jeroham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 12:7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joelah",
+      "zebadiah-3"
+    ]
+  }
+}

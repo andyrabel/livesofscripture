@@ -1,0 +1,30 @@
+{
+  "person_id": "hur",
+  "name": "Hur",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 17:10-12",
+    "Exodus 24:14",
+    "Exodus 31:2",
+    "Exodus 35:30",
+    "Exodus 38:22",
+    "1 Chronicles 2:19-50",
+    "1 Chronicles 4:1-4",
+    "2 Chronicles 1:5"
+  ],
+  "genealogy": {
+    "father": "caleb-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ezer-2",
+      "hareph",
+      "penuel",
+      "salma",
+      "shobal-2",
+      "uri"
+    ]
+  }
+}

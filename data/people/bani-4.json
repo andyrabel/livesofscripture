@@ -1,0 +1,21 @@
+{
+  "person_id": "bani-4",
+  "name": "Bani",
+  "alt_names": [
+    "Binnui"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:10",
+    "Ezra 8:10",
+    "Ezra 10:29-34",
+    "Nehemiah 7:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

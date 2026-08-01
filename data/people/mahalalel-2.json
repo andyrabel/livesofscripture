@@ -1,0 +1,18 @@
+{
+  "person_id": "mahalalel-2",
+  "name": "Mahalalel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:4"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shephatiah-7"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "zibeon-2",
+  "name": "Zibeon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:20-29",
+    "1 Chronicles 1:38-40"
+  ],
+  "genealogy": {
+    "father": "seir",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "aiah",
+      "anah"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "eliashib-7",
+  "name": "Eliashib",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:1-21",
+    "Nehemiah 13:4-28"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joiada-3"
+    ]
+  }
+}

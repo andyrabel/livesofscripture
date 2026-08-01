@@ -1,0 +1,22 @@
+{
+  "person_id": "jezebel",
+  "name": "Jezebel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 16:31",
+    "1 Kings 18:4-19",
+    "1 Kings 19:1-2",
+    "1 Kings 21:5-25",
+    "2 Kings 9:7-37"
+  ],
+  "genealogy": {
+    "father": "ethbaal",
+    "mother": null,
+    "spouses": [
+      "ahab"
+    ],
+    "children": []
+  }
+}

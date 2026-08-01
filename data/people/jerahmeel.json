@@ -1,0 +1,25 @@
+{
+  "person_id": "jerahmeel",
+  "name": "Jerahmeel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:9-42"
+  ],
+  "genealogy": {
+    "father": "hezron-2",
+    "mother": null,
+    "spouses": [
+      "atarah"
+    ],
+    "children": [
+      "ahijah-4",
+      "bunah",
+      "onam-2",
+      "oren",
+      "ozem-2",
+      "ram-2"
+    ]
+  }
+}

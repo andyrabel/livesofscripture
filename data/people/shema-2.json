@@ -1,0 +1,18 @@
+{
+  "person_id": "shema-2",
+  "name": "Shema",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:8"
+  ],
+  "genealogy": {
+    "father": "joel-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "azaz"
+    ]
+  }
+}

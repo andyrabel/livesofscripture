@@ -1,0 +1,19 @@
+{
+  "person_id": "joel-3",
+  "name": "Joel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:4-8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shema-2",
+      "shemaiah-4"
+    ]
+  }
+}

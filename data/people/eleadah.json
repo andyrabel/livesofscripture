@@ -1,0 +1,18 @@
+{
+  "person_id": "eleadah",
+  "name": "Eleadah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:20"
+  ],
+  "genealogy": {
+    "father": "tahath-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "tahath-3"
+    ]
+  }
+}

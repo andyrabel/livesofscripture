@@ -1,0 +1,19 @@
+{
+  "person_id": "jonathan-6",
+  "name": "Jonathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:32-33"
+  ],
+  "genealogy": {
+    "father": "jada",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "peleth-2",
+      "zaza"
+    ]
+  }
+}

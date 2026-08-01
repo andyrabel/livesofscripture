@@ -1,0 +1,30 @@
+{
+  "person_id": "og",
+  "name": "Og",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 21:33",
+    "Numbers 32:33",
+    "Deuteronomy 1:4",
+    "Deuteronomy 3:1-13",
+    "Deuteronomy 4:47",
+    "Deuteronomy 29:7",
+    "Deuteronomy 31:4",
+    "Joshua 2:10",
+    "Joshua 9:10",
+    "Joshua 12:4",
+    "Joshua 13:12-31",
+    "1 Kings 4:19",
+    "Nehemiah 9:22",
+    "Psalms 135:11",
+    "Psalms 136:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

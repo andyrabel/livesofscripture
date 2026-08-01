@@ -1,0 +1,23 @@
+{
+  "person_id": "shuppim",
+  "name": "Shuppim",
+  "alt_names": [
+    "Muppim",
+    "Shephupham",
+    "Shephuphan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:21",
+    "Numbers 26:39",
+    "1 Chronicles 7:12-15",
+    "1 Chronicles 8:5"
+  ],
+  "genealogy": {
+    "father": "iri",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

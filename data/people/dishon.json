@@ -1,0 +1,17 @@
+{
+  "person_id": "dishon",
+  "name": "Dishon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:21-30",
+    "1 Chronicles 1:38-41"
+  ],
+  "genealogy": {
+    "father": "seir",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "person_id": "uzziah",
+  "name": "Uzziah",
+  "alt_names": [
+    "Azariah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 14:21",
+    "2 Kings 15:1-34",
+    "2 Chronicles 26:1-23",
+    "2 Chronicles 27:2",
+    "Isaiah 1:1",
+    "Isaiah 6:1",
+    "Isaiah 7:1",
+    "Hosea 1:1",
+    "Amos 1:1",
+    "Zechariah 14:5",
+    "Matthew 1:8-9"
+  ],
+  "genealogy": {
+    "father": "amaziah",
+    "mother": "jecoliah",
+    "spouses": [],
+    "children": [
+      "jotham-2"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "abiezer",
+  "name": "Abiezer",
+  "alt_names": [
+    "Iezer"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:30",
+    "Joshua 17:2",
+    "Judges 8:2"
+  ],
+  "genealogy": {
+    "father": "gilead",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

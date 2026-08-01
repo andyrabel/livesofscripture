@@ -1,0 +1,18 @@
+{
+  "person_id": "mareshah",
+  "name": "Mareshah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:42"
+  ],
+  "genealogy": {
+    "father": "ziph",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hebron-2"
+    ]
+  }
+}

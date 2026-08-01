@@ -1,0 +1,17 @@
+{
+  "person_id": "uzal",
+  "name": "Uzal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:27",
+    "1 Chronicles 1:21"
+  ],
+  "genealogy": {
+    "father": "joktan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

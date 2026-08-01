@@ -1,0 +1,17 @@
+{
+  "person_id": "helek",
+  "name": "Helek",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:30",
+    "Joshua 17:2"
+  ],
+  "genealogy": {
+    "father": "gilead",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

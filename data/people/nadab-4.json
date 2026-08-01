@@ -1,0 +1,17 @@
+{
+  "person_id": "nadab-4",
+  "name": "Nadab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:30",
+    "1 Chronicles 9:36"
+  ],
+  "genealogy": {
+    "father": "jeiel-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

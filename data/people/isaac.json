@@ -9,7 +9,11 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Canaan", "Gerar", "Beersheba"],
+  "geographic_setting": [
+    "Canaan",
+    "Gerar",
+    "Beersheba"
+  ],
   "references": [
     "Genesis 21:1-7",
     "Genesis 22",
@@ -19,7 +23,12 @@
     "Genesis 27",
     "Genesis 35:27-29"
   ],
-  "topics": ["sacrifice", "promise", "blessing", "covenant continuity"],
+  "topics": [
+    "sacrifice",
+    "promise",
+    "blessing",
+    "covenant continuity"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "The long-promised son of Abraham and Sarah, offered by his father at God's command on Mount Moriah and spared by a substitute ram; married Rebekah through his father's servant's providential guidance, and later, in his own old age, was deceived into blessing Jacob instead of his favored son Esau.",
@@ -36,7 +45,10 @@
     "father": "abraham",
     "mother": "sarah",
     "spouses": [],
-    "children": []
+    "children": [
+      "esau",
+      "israel"
+    ]
   },
   "review": {
     "human_reviewed": false,

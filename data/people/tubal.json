@@ -1,0 +1,18 @@
+{
+  "person_id": "tubal",
+  "name": "Tubal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:2",
+    "1 Chronicles 1:5",
+    "Ezekiel 27:13"
+  ],
+  "genealogy": {
+    "father": "japheth",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

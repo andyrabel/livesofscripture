@@ -1,0 +1,34 @@
+{
+  "person_id": "nahor-2",
+  "name": "Nahor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 11:26-29",
+    "Genesis 22:20-23",
+    "Genesis 24:10-47",
+    "Joshua 24:2"
+  ],
+  "genealogy": {
+    "father": "terah",
+    "mother": null,
+    "spouses": [
+      "milcah"
+    ],
+    "children": [
+      "bethuel",
+      "buz",
+      "chesed",
+      "gaham",
+      "hazo",
+      "jidlaph",
+      "kemuel",
+      "maacah",
+      "pildash",
+      "tahash",
+      "tebah",
+      "uz-2"
+    ]
+  }
+}

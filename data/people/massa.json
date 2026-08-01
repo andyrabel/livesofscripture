@@ -1,0 +1,17 @@
+{
+  "person_id": "massa",
+  "name": "Massa",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:14",
+    "1 Chronicles 1:30"
+  ],
+  "genealogy": {
+    "father": "ishmael",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

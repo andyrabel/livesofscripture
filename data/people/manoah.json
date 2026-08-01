@@ -1,0 +1,19 @@
+{
+  "person_id": "manoah",
+  "name": "Manoah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 13:2-22",
+    "Judges 16:31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "samson"
+    ]
+  }
+}

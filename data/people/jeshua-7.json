@@ -1,0 +1,20 @@
+{
+  "person_id": "jeshua-7",
+  "name": "Jeshua",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 8:7",
+    "Nehemiah 9:4-5",
+    "Nehemiah 12:10-24"
+  ],
+  "genealogy": {
+    "father": "kadmiel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joiakim"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "beor",
+  "name": "Beor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:32",
+    "1 Chronicles 1:43"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bela"
+    ]
+  }
+}

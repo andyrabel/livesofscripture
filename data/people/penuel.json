@@ -1,0 +1,18 @@
+{
+  "person_id": "penuel",
+  "name": "Penuel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:4"
+  ],
+  "genealogy": {
+    "father": "hur",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gedor"
+    ]
+  }
+}

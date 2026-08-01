@@ -1,0 +1,19 @@
+{
+  "person_id": "amaziah-3",
+  "name": "Amaziah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:45",
+    "Amos 7:10-14"
+  ],
+  "genealogy": {
+    "father": "hilkiah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hashabiah"
+    ]
+  }
+}

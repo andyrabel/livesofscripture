@@ -1,0 +1,22 @@
+{
+  "person_id": "elihu",
+  "name": "Elihu",
+  "alt_names": [
+    "Eliab",
+    "Eliel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:1",
+    "1 Chronicles 6:27-34"
+  ],
+  "genealogy": {
+    "father": "tohu",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeroham"
+    ]
+  }
+}

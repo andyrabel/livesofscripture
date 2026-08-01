@@ -1,0 +1,21 @@
+{
+  "person_id": "peleg",
+  "name": "Peleg",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:25",
+    "Genesis 11:16-19",
+    "1 Chronicles 1:19-25",
+    "Luke 3:35"
+  ],
+  "genealogy": {
+    "father": "eber",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "reu"
+    ]
+  }
+}

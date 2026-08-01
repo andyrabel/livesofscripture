@@ -1,0 +1,20 @@
+{
+  "person_id": "hammedatha",
+  "name": "Hammedatha",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Esther 3:1-10",
+    "Esther 8:5",
+    "Esther 9:10-24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "haman"
+    ]
+  }
+}

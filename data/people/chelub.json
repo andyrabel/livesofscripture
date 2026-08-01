@@ -1,0 +1,20 @@
+{
+  "person_id": "chelub",
+  "name": "Chelub",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:11",
+    "1 Chronicles 27:26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ezri",
+      "mehir"
+    ]
+  }
+}

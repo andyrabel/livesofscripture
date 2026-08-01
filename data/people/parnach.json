@@ -1,0 +1,18 @@
+{
+  "person_id": "parnach",
+  "name": "Parnach",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:25"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elizaphan"
+    ]
+  }
+}

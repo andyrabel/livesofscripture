@@ -1,0 +1,21 @@
+{
+  "person_id": "zichri-5",
+  "name": "Zichri",
+  "alt_names": [
+    "Zabdi"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:15",
+    "Nehemiah 11:17"
+  ],
+  "genealogy": {
+    "father": "asaph-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "mica"
+    ]
+  }
+}

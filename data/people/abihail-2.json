@@ -1,0 +1,21 @@
+{
+  "person_id": "abihail-2",
+  "name": "Abihail",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:29"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "abishur"
+    ],
+    "children": [
+      "ahban",
+      "molid"
+    ]
+  }
+}

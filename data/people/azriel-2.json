@@ -1,0 +1,18 @@
+{
+  "person_id": "azriel-2",
+  "name": "Azriel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 27:19"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeremoth-4"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "harim-4",
+  "name": "Harim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "malchijah-7"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "jehosheba",
+  "name": "Jehosheba",
+  "alt_names": [
+    "Jehoshabeath"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 11:2",
+    "2 Chronicles 22:11"
+  ],
+  "genealogy": {
+    "father": "jehoram",
+    "mother": null,
+    "spouses": [
+      "jehoiada-2"
+    ],
+    "children": []
+  }
+}

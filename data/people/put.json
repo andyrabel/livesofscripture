@@ -1,0 +1,17 @@
+{
+  "person_id": "put",
+  "name": "Put",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:6",
+    "1 Chronicles 1:8"
+  ],
+  "genealogy": {
+    "father": "ham",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

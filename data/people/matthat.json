@@ -1,0 +1,18 @@
+{
+  "person_id": "matthat",
+  "name": "Matthat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:24"
+  ],
+  "genealogy": {
+    "father": "levi-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eli-2"
+    ]
+  }
+}

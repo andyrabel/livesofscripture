@@ -1,0 +1,18 @@
+{
+  "person_id": "uzziah-4",
+  "name": "Uzziah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:4"
+  ],
+  "genealogy": {
+    "father": "zechariah-19",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "athaiah"
+    ]
+  }
+}

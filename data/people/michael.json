@@ -1,0 +1,18 @@
+{
+  "person_id": "michael",
+  "name": "Michael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "sethur"
+    ]
+  }
+}

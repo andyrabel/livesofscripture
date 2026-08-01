@@ -1,0 +1,18 @@
+{
+  "person_id": "shephatiah-2",
+  "name": "Shephatiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:8"
+  ],
+  "genealogy": {
+    "father": "reuel-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meshullam-5"
+    ]
+  }
+}

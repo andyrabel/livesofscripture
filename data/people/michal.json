@@ -1,0 +1,25 @@
+{
+  "person_id": "michal",
+  "name": "Michal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 14:49",
+    "1 Samuel 18:20-28",
+    "1 Samuel 19:11-17",
+    "1 Samuel 25:44",
+    "2 Samuel 3:13-14",
+    "2 Samuel 6:16-23",
+    "1 Chronicles 15:29"
+  ],
+  "genealogy": {
+    "father": "saul",
+    "mother": null,
+    "spouses": [
+      "david",
+      "palti-2"
+    ],
+    "children": []
+  }
+}

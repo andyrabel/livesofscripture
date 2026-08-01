@@ -1,0 +1,21 @@
+{
+  "person_id": "enan",
+  "name": "Enan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:15",
+    "Numbers 2:29",
+    "Numbers 7:78-83",
+    "Numbers 10:27"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahira"
+    ]
+  }
+}

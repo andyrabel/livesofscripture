@@ -1,0 +1,19 @@
+{
+  "person_id": "jedaiah-5",
+  "name": "Jedaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:10",
+    "Nehemiah 12:6-21"
+  ],
+  "genealogy": {
+    "father": "joiarib-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nethanel-7"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "person_id": "jeiel-2",
+  "name": "Jeiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:35"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "maacah-6"
+    ],
+    "children": [
+      "abdon-3",
+      "ahio-3",
+      "baal-2",
+      "gedor-3",
+      "kish-2",
+      "mikloth",
+      "nadab-4",
+      "zecher",
+      "zur-3"
+    ]
+  }
+}

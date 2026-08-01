@@ -1,0 +1,19 @@
+{
+  "person_id": "jashen",
+  "name": "Jashen",
+  "alt_names": [
+    "Hashem"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:32",
+    "1 Chronicles 11:34"
+  ],
+  "genealogy": {
+    "father": "eliahba",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

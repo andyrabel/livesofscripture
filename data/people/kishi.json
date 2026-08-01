@@ -1,0 +1,23 @@
+{
+  "person_id": "kishi",
+  "name": "Kishi",
+  "alt_names": [
+    "Kushaiah",
+    "Kish"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:44",
+    "1 Chronicles 15:17",
+    "2 Chronicles 29:12"
+  ],
+  "genealogy": {
+    "father": "abdi",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ethan-3"
+    ]
+  }
+}

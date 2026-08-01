@@ -1,0 +1,19 @@
+{
+  "person_id": "jorah",
+  "name": "Jorah",
+  "alt_names": [
+    "Hariph"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:18",
+    "Nehemiah 7:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

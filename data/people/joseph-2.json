@@ -1,0 +1,18 @@
+{
+  "person_id": "joseph-2",
+  "name": "Joseph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "igal"
+    ]
+  }
+}

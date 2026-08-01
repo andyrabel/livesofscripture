@@ -1,0 +1,21 @@
+{
+  "person_id": "gera-3",
+  "name": "Gera",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 16:5",
+    "2 Samuel 19:16-18",
+    "1 Kings 2:8",
+    "1 Chronicles 8:5"
+  ],
+  "genealogy": {
+    "father": "bela-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimei-2"
+    ]
+  }
+}

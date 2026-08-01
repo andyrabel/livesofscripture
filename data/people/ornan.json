@@ -1,0 +1,20 @@
+{
+  "person_id": "ornan",
+  "name": "Ornan",
+  "alt_names": [
+    "Araunah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 24:16-24",
+    "1 Chronicles 21:15-28",
+    "2 Chronicles 3:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

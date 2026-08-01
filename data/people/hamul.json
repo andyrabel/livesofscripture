@@ -1,0 +1,18 @@
+{
+  "person_id": "hamul",
+  "name": "Hamul",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:12",
+    "Numbers 26:21",
+    "1 Chronicles 2:5"
+  ],
+  "genealogy": {
+    "father": "perez",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

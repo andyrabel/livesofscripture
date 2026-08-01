@@ -1,0 +1,19 @@
+{
+  "person_id": "zadok-2",
+  "name": "Zadok",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:33",
+    "2 Chronicles 27:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jerusha"
+    ]
+  }
+}

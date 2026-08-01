@@ -1,0 +1,19 @@
+{
+  "person_id": "berechiah-5",
+  "name": "Berechiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:4-30",
+    "Nehemiah 6:18"
+  ],
+  "genealogy": {
+    "father": "meshezabel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meshullam-11"
+    ]
+  }
+}

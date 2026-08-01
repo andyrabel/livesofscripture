@@ -1,0 +1,18 @@
+{
+  "person_id": "zebidah",
+  "name": "Zebidah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 23:36"
+  ],
+  "genealogy": {
+    "father": "pedaiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehoiakim"
+    ]
+  }
+}

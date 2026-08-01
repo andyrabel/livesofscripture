@@ -1,0 +1,19 @@
+{
+  "person_id": "gamaliel",
+  "name": "Gamaliel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:10",
+    "Numbers 2:20",
+    "Numbers 7:54-59",
+    "Numbers 10:23"
+  ],
+  "genealogy": {
+    "father": "pedahzur",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

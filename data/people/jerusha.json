@@ -1,0 +1,21 @@
+{
+  "person_id": "jerusha",
+  "name": "Jerusha",
+  "alt_names": [
+    "Jeruashah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:33",
+    "2 Chronicles 27:1"
+  ],
+  "genealogy": {
+    "father": "zadok-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jotham-2"
+    ]
+  }
+}

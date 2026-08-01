@@ -1,0 +1,21 @@
+{
+  "person_id": "seth",
+  "name": "Seth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:25-26",
+    "Genesis 5:3-8",
+    "1 Chronicles 1:1",
+    "Luke 3:38"
+  ],
+  "genealogy": {
+    "father": "adam",
+    "mother": "eve",
+    "spouses": [],
+    "children": [
+      "enosh"
+    ]
+  }
+}

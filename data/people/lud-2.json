@@ -1,0 +1,17 @@
+{
+  "person_id": "lud-2",
+  "name": "Lud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:22",
+    "1 Chronicles 1:17"
+  ],
+  "genealogy": {
+    "father": "shem",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

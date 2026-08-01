@@ -1,0 +1,18 @@
+{
+  "person_id": "jekamiah",
+  "name": "Jekamiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:41"
+  ],
+  "genealogy": {
+    "father": "shallum-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elishama-4"
+    ]
+  }
+}

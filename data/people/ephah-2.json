@@ -1,0 +1,20 @@
+{
+  "person_id": "ephah-2",
+  "name": "Ephah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:46"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gazez",
+      "haran-2",
+      "moza"
+    ]
+  }
+}

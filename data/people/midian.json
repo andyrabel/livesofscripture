@@ -1,0 +1,23 @@
+{
+  "person_id": "midian",
+  "name": "Midian",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:2-4",
+    "1 Chronicles 1:32-33"
+  ],
+  "genealogy": {
+    "father": "abraham",
+    "mother": "keturah",
+    "spouses": [],
+    "children": [
+      "abida",
+      "eldaah",
+      "ephah",
+      "epher",
+      "hanoch"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "person_id": "ahithophel",
+  "name": "Ahithophel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 15:12-34",
+    "2 Samuel 16:15-23",
+    "2 Samuel 17:1-23",
+    "2 Samuel 23:34",
+    "1 Chronicles 27:33-34"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliam-2"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "person_id": "ikkesh",
+  "name": "Ikkesh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:26",
+    "1 Chronicles 11:28",
+    "1 Chronicles 27:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ira-2"
+    ]
+  }
+}

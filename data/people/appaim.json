@@ -1,0 +1,18 @@
+{
+  "person_id": "appaim",
+  "name": "Appaim",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:30-31"
+  ],
+  "genealogy": {
+    "father": "nadab-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ishi"
+    ]
+  }
+}

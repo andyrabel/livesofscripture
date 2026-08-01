@@ -1,0 +1,19 @@
+{
+  "person_id": "pagiel",
+  "name": "Pagiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:13",
+    "Numbers 2:27",
+    "Numbers 7:72-77",
+    "Numbers 10:26"
+  ],
+  "genealogy": {
+    "father": "ochran",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

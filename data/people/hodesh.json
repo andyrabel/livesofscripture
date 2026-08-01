@@ -1,0 +1,26 @@
+{
+  "person_id": "hodesh",
+  "name": "Hodesh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "shaharaim"
+    ],
+    "children": [
+      "jeuz",
+      "jobab-4",
+      "malcam",
+      "mesha-3",
+      "mirmah",
+      "sachia",
+      "zibia"
+    ]
+  }
+}

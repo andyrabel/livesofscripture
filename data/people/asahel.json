@@ -1,0 +1,23 @@
+{
+  "person_id": "asahel",
+  "name": "Asahel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 2:18-32",
+    "2 Samuel 3:27-30",
+    "2 Samuel 23:24",
+    "1 Chronicles 2:16",
+    "1 Chronicles 11:26",
+    "1 Chronicles 27:7"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "zeruiah",
+    "spouses": [],
+    "children": [
+      "zebadiah-5"
+    ]
+  }
+}

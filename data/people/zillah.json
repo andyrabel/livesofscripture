@@ -1,0 +1,21 @@
+{
+  "person_id": "zillah",
+  "name": "Zillah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:19-23"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "lamech"
+    ],
+    "children": [
+      "naamah",
+      "tubal-cain"
+    ]
+  }
+}

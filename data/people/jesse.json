@@ -9,14 +9,20 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Bethlehem"],
+  "geographic_setting": [
+    "Bethlehem"
+  ],
   "references": [
     "Ruth 4:17-22",
     "1 Samuel 16:1-13",
     "1 Samuel 17:12-20",
     "Isaiah 11:1,10"
   ],
-  "topics": ["ordinary faithfulness", "God's choice", "messianic lineage"],
+  "topics": [
+    "ordinary faithfulness",
+    "God's choice",
+    "messianic lineage"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "A Bethlehemite farmer, grandson of Boaz and Ruth, whose youngest son David was secretly anointed king by Samuel while his seven older sons were passed over — and whose family line Isaiah later names directly as the root from which the Messiah would spring.",
@@ -33,7 +39,15 @@
     "father": "obed",
     "mother": null,
     "spouses": [],
-    "children": ["david"]
+    "children": [
+      "abinadab-3",
+      "david",
+      "eliab-3",
+      "nethanel-2",
+      "ozem",
+      "raddai",
+      "shimeah"
+    ]
   },
   "review": {
     "human_reviewed": false,

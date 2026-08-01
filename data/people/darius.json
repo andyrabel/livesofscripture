@@ -1,0 +1,26 @@
+{
+  "person_id": "darius",
+  "name": "Darius",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 4:5-24",
+    "Ezra 5:5-7",
+    "Ezra 6:1-22",
+    "Nehemiah 12:22",
+    "Daniel 5:31",
+    "Daniel 6:1-28",
+    "Daniel 11:1",
+    "Haggai 1:1-15",
+    "Haggai 2:10",
+    "Zechariah 1:1-7",
+    "Zechariah 7:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

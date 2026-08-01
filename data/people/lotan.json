@@ -1,0 +1,20 @@
+{
+  "person_id": "lotan",
+  "name": "Lotan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:20-29",
+    "1 Chronicles 1:38-39"
+  ],
+  "genealogy": {
+    "father": "seir",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hemam",
+      "hori"
+    ]
+  }
+}

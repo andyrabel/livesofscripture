@@ -1,0 +1,17 @@
+{
+  "person_id": "jozabad-5",
+  "name": "Jozabad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:33",
+    "Nehemiah 11:16"
+  ],
+  "genealogy": {
+    "father": "jeshua-5",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

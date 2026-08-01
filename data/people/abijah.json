@@ -1,0 +1,17 @@
+{
+  "person_id": "abijah",
+  "name": "Abijah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 8:2",
+    "1 Chronicles 6:28"
+  ],
+  "genealogy": {
+    "father": "samuel",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

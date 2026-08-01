@@ -1,0 +1,16 @@
+{
+  "person_id": "pelet-2",
+  "name": "Pelet",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 12:3"
+  ],
+  "genealogy": {
+    "father": "azmaveth-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

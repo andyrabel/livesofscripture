@@ -1,0 +1,19 @@
+{
+  "person_id": "elon",
+  "name": "Elon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 26:34",
+    "Genesis 36:2"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "basemath"
+    ]
+  }
+}

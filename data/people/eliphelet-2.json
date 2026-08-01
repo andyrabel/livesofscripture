@@ -1,0 +1,19 @@
+{
+  "person_id": "eliphelet-2",
+  "name": "Eliphelet",
+  "alt_names": [
+    "Eliphal"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:34",
+    "1 Chronicles 11:35"
+  ],
+  "genealogy": {
+    "father": "ahasbai",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

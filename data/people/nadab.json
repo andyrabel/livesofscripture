@@ -1,0 +1,23 @@
+{
+  "person_id": "nadab",
+  "name": "Nadab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:23",
+    "Exodus 24:1-9",
+    "Exodus 28:1",
+    "Leviticus 10:1",
+    "Numbers 3:2-4",
+    "Numbers 26:60-61",
+    "1 Chronicles 6:3",
+    "1 Chronicles 24:1-2"
+  ],
+  "genealogy": {
+    "father": "aaron",
+    "mother": "elisheba",
+    "spouses": [],
+    "children": []
+  }
+}

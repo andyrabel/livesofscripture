@@ -1,0 +1,20 @@
+{
+  "person_id": "abijah-4",
+  "name": "Abijah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:24"
+  ],
+  "genealogy": {
+    "father": "machir",
+    "mother": null,
+    "spouses": [
+      "hezron-2"
+    ],
+    "children": [
+      "ashhur"
+    ]
+  }
+}

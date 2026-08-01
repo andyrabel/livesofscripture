@@ -1,0 +1,19 @@
+{
+  "person_id": "rimmon",
+  "name": "Rimmon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 4:2-9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baanah",
+      "rechab"
+    ]
+  }
+}

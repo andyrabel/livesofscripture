@@ -1,0 +1,18 @@
+{
+  "person_id": "jogli",
+  "name": "Jogli",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:22"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bukki"
+    ]
+  }
+}

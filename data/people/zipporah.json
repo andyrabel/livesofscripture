@@ -9,13 +9,21 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Midian", "Egypt", "Sinai wilderness"],
+  "geographic_setting": [
+    "Midian",
+    "Egypt",
+    "Sinai wilderness"
+  ],
   "references": [
     "Exodus 2:15-22",
     "Exodus 4:24-26",
     "Exodus 18:1-6"
   ],
-  "topics": ["marriage across boundaries", "circumcision", "providence"],
+  "topics": [
+    "marriage across boundaries",
+    "circumcision",
+    "providence"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Exodus 4:24-26 — Zipporah circumcising her son and touching Moses (or the son) with the foreskin, declaring him 'a bridegroom of blood' — is among the most difficult and disputed passages in the Pentateuch. Interpreters differ over whom the LORD sought to kill (Moses or the son), why circumcision had apparently been neglected, and what exactly the phrase 'bridegroom of blood' means. This site presents the episode without resolving the dispute, consistent with its practice of flagging rather than silently choosing among contested readings.",
   "source_summary": "A Midianite priest's daughter who married Moses during his years of exile, mother of his sons, and the one who circumcised their son in a tense and much-debated episode that saved Moses' life on the road back to Egypt.",
@@ -29,10 +37,15 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
+    "father": "jethro",
     "mother": null,
-    "spouses": ["moses"],
-    "children": ["gershom"]
+    "spouses": [
+      "moses"
+    ],
+    "children": [
+      "eliezer-2",
+      "gershom"
+    ]
   },
   "review": {
     "human_reviewed": false,

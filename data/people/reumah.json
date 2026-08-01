@@ -1,0 +1,21 @@
+{
+  "person_id": "reumah",
+  "name": "Reumah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 22:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "gaham",
+      "maacah",
+      "tahash",
+      "tebah"
+    ]
+  }
+}

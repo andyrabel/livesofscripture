@@ -1,0 +1,18 @@
+{
+  "person_id": "pedaiah-6",
+  "name": "Pedaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:7"
+  ],
+  "genealogy": {
+    "father": "kolaiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joed"
+    ]
+  }
+}

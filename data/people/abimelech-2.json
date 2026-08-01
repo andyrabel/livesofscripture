@@ -1,0 +1,18 @@
+{
+  "person_id": "abimelech-2",
+  "name": "Abimelech",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 8:31",
+    "Judges 9:1-56",
+    "Judges 10:1"
+  ],
+  "genealogy": {
+    "father": "gideon",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

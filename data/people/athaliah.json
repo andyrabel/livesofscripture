@@ -1,0 +1,24 @@
+{
+  "person_id": "athaliah",
+  "name": "Athaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 8:26",
+    "2 Kings 11:1-20",
+    "2 Chronicles 22:2-12",
+    "2 Chronicles 23:12-21",
+    "2 Chronicles 24:7"
+  ],
+  "genealogy": {
+    "father": "ahab",
+    "mother": null,
+    "spouses": [
+      "jehoram"
+    ],
+    "children": [
+      "ahaziah-2"
+    ]
+  }
+}

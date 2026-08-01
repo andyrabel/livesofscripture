@@ -1,0 +1,22 @@
+{
+  "person_id": "shemaiah-2",
+  "name": "Shemaiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 3:22"
+  ],
+  "genealogy": {
+    "father": "shecaniah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bariah",
+      "hattush",
+      "igal-3",
+      "neariah",
+      "shaphat-3"
+    ]
+  }
+}

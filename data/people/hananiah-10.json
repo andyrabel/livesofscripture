@@ -1,0 +1,19 @@
+{
+  "person_id": "hananiah-10",
+  "name": "Hananiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 28:1-17",
+    "Jeremiah 36:12"
+  ],
+  "genealogy": {
+    "father": "azzur-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zedekiah-6"
+    ]
+  }
+}

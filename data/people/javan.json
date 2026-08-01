@@ -1,0 +1,23 @@
+{
+  "person_id": "javan",
+  "name": "Javan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:2-4",
+    "1 Chronicles 1:5-7",
+    "Ezekiel 27:13"
+  ],
+  "genealogy": {
+    "father": "japheth",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "dodanim",
+      "elishah",
+      "kittim",
+      "tarshish"
+    ]
+  }
+}

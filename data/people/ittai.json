@@ -1,0 +1,21 @@
+{
+  "person_id": "ittai",
+  "name": "Ittai",
+  "alt_names": [
+    "Ithai"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 15:19-22",
+    "2 Samuel 18:2-12",
+    "2 Samuel 23:29",
+    "1 Chronicles 11:31"
+  ],
+  "genealogy": {
+    "father": "ribai",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "shimon",
+  "name": "Shimon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amnon-2",
+      "benhanan",
+      "rinnah",
+      "tilon"
+    ]
+  }
+}

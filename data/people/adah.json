@@ -1,0 +1,22 @@
+{
+  "person_id": "adah",
+  "name": "Adah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 4:19-23",
+    "Genesis 36:2-16"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "lamech"
+    ],
+    "children": [
+      "jabal",
+      "jubal"
+    ]
+  }
+}

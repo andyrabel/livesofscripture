@@ -1,0 +1,19 @@
+{
+  "person_id": "amittai",
+  "name": "Amittai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 14:25",
+    "Jonah 1:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jonah"
+    ]
+  }
+}

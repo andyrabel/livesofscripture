@@ -1,0 +1,19 @@
+{
+  "person_id": "henadad-2",
+  "name": "Henadad",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:24",
+    "Nehemiah 10:9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "binnui-4"
+    ]
+  }
+}

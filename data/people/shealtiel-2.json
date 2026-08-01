@@ -1,0 +1,22 @@
+{
+  "person_id": "shealtiel-2",
+  "name": "Shealtiel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 3:2-8",
+    "Ezra 5:2",
+    "Nehemiah 12:1",
+    "Haggai 1:1-14",
+    "Haggai 2:2-23"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zerubbabel-2"
+    ]
+  }
+}

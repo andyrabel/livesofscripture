@@ -1,0 +1,19 @@
+{
+  "person_id": "barabbas",
+  "name": "Barabbas",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 27:16-26",
+    "Mark 15:7-15",
+    "Luke 23:18",
+    "John 18:40"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

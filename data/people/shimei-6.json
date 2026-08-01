@@ -1,0 +1,18 @@
+{
+  "person_id": "shimei-6",
+  "name": "Shimei",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:4"
+  ],
+  "genealogy": {
+    "father": "gog",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "micah-3"
+    ]
+  }
+}

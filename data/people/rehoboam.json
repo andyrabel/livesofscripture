@@ -1,0 +1,36 @@
+{
+  "person_id": "rehoboam",
+  "name": "Rehoboam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 11:40-43",
+    "1 Kings 12:1-27",
+    "1 Kings 14:21-31",
+    "1 Kings 15:6",
+    "1 Chronicles 3:10",
+    "2 Chronicles 9:31",
+    "2 Chronicles 10:1-18",
+    "2 Chronicles 11:1-22",
+    "2 Chronicles 12:1-16",
+    "2 Chronicles 13:7",
+    "Matthew 1:7"
+  ],
+  "genealogy": {
+    "father": "solomon",
+    "mother": "naamah-2",
+    "spouses": [
+      "mahalath"
+    ],
+    "children": [
+      "abijah-3",
+      "attai-3",
+      "jeush-5",
+      "shelomith-4",
+      "shemariah-2",
+      "zaham",
+      "ziza-2"
+    ]
+  }
+}

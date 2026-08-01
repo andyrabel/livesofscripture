@@ -1,0 +1,23 @@
+{
+  "person_id": "jehoahaz-2",
+  "name": "Jehoahaz",
+  "alt_names": [
+    "Joahaz",
+    "Johanan",
+    "Shallum"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 23:30-34",
+    "1 Chronicles 3:15",
+    "2 Chronicles 36:1-4",
+    "Jeremiah 22:11"
+  ],
+  "genealogy": {
+    "father": "josiah",
+    "mother": "hamutal",
+    "spouses": [],
+    "children": []
+  }
+}

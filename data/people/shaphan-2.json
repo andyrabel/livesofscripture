@@ -1,0 +1,19 @@
+{
+  "person_id": "shaphan-2",
+  "name": "Shaphan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Jeremiah 29:3",
+    "Jeremiah 36:10-12"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elasah-2"
+    ]
+  }
+}

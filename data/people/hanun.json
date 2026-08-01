@@ -1,0 +1,17 @@
+{
+  "person_id": "hanun",
+  "name": "Hanun",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 10:1-4",
+    "1 Chronicles 19:2-6"
+  ],
+  "genealogy": {
+    "father": "nahash",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

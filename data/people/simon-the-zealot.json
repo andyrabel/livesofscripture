@@ -1,0 +1,21 @@
+{
+  "person_id": "simon-the-zealot",
+  "name": "Simon the zealot",
+  "alt_names": [
+    "Simon"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 10:4",
+    "Mark 3:18",
+    "Luke 6:15",
+    "Acts 1:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

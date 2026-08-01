@@ -1,0 +1,20 @@
+{
+  "person_id": "nethaniah",
+  "name": "Nethaniah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 25:23-25",
+    "Jeremiah 40:8-15",
+    "Jeremiah 41:1-18"
+  ],
+  "genealogy": {
+    "father": "elishama-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ishmael-2"
+    ]
+  }
+}

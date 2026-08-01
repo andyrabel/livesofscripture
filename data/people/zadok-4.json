@@ -1,0 +1,17 @@
+{
+  "person_id": "zadok-4",
+  "name": "Zadok",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:4",
+    "Nehemiah 10:21"
+  ],
+  "genealogy": {
+    "father": "baana-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

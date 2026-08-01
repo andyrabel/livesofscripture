@@ -1,0 +1,18 @@
+{
+  "person_id": "huri",
+  "name": "Huri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:14"
+  ],
+  "genealogy": {
+    "father": "jaroah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abihail-3"
+    ]
+  }
+}

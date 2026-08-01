@@ -1,0 +1,18 @@
+{
+  "person_id": "ulam",
+  "name": "Ulam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:16-17"
+  ],
+  "genealogy": {
+    "father": "peresh",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bedan"
+    ]
+  }
+}

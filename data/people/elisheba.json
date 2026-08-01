@@ -1,0 +1,23 @@
+{
+  "person_id": "elisheba",
+  "name": "Elisheba",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:23"
+  ],
+  "genealogy": {
+    "father": "amminadab",
+    "mother": null,
+    "spouses": [
+      "aaron"
+    ],
+    "children": [
+      "abihu",
+      "eleazar",
+      "ithamar",
+      "nadab"
+    ]
+  }
+}

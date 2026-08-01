@@ -1,0 +1,18 @@
+{
+  "person_id": "peninnah",
+  "name": "Peninnah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:2-4"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "elkanah-2"
+    ],
+    "children": []
+  }
+}

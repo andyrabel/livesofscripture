@@ -1,0 +1,28 @@
+{
+  "person_id": "shashak",
+  "name": "Shashak",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:14-25"
+  ],
+  "genealogy": {
+    "father": "elpaal",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abdon-2",
+      "anthothijah",
+      "eber-4",
+      "elam-2",
+      "eliel-3",
+      "hanan",
+      "hananiah-2",
+      "iphdeiah",
+      "ishpan",
+      "penuel-2",
+      "zichri-3"
+    ]
+  }
+}

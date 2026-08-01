@@ -1,0 +1,19 @@
+{
+  "person_id": "hacaliah",
+  "name": "Hacaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 1:1",
+    "Nehemiah 10:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "nehemiah"
+    ]
+  }
+}

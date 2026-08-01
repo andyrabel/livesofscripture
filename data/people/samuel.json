@@ -9,14 +9,25 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Shiloh", "Ramah", "Bethel", "Gilgal", "Mizpah"],
+  "geographic_setting": [
+    "Shiloh",
+    "Ramah",
+    "Bethel",
+    "Gilgal",
+    "Mizpah"
+  ],
   "references": [
     "1 Samuel 1-3",
     "1 Samuel 7-12",
     "1 Samuel 15-16",
     "1 Samuel 28:3-19"
   ],
-  "topics": ["prayer", "obedience over sacrifice", "prophetic authority", "transition to kingship"],
+  "topics": [
+    "prayer",
+    "obedience over sacrifice",
+    "prophetic authority",
+    "transition to kingship"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "1 Samuel 28:3-19 describes a figure identified as Samuel appearing after Saul consults a medium at En-dor, despite Samuel having forbidden such practices during his lifetime. Interpreters are divided over whether this was genuinely Samuel's spirit, permitted by God for this one final pronouncement of judgment on Saul, or a deceptive apparition. Scripture does not explain the mechanism, only that a true and devastating prophecy of Saul's coming death was delivered.",
   "source_summary": "Born to Hannah in answer to prayer and dedicated to the LORD from infancy, Samuel served as Israel's last judge and a prophet who anointed both Saul and David as king, confronting Saul's disobedience directly and mourning him even after rejecting him as king.",
@@ -30,10 +41,13 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
-    "mother": null,
+    "father": "elkanah-2",
+    "mother": "hannah",
     "spouses": [],
-    "children": []
+    "children": [
+      "abijah",
+      "joel"
+    ]
   },
   "review": {
     "human_reviewed": false,

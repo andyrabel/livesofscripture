@@ -1,0 +1,23 @@
+{
+  "person_id": "beriah-3",
+  "name": "Beriah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:13-16"
+  ],
+  "genealogy": {
+    "father": "elpaal",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "arad",
+      "eder",
+      "ishpah",
+      "joha",
+      "michael-5",
+      "zebadiah"
+    ]
+  }
+}

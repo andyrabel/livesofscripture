@@ -1,0 +1,23 @@
+{
+  "person_id": "salmon",
+  "name": "Salmon",
+  "alt_names": [
+    "Salma"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ruth 4:20-21",
+    "1 Chronicles 2:11",
+    "Matthew 1:4-5",
+    "Luke 3:32"
+  ],
+  "genealogy": {
+    "father": "nahshon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "boaz"
+    ]
+  }
+}

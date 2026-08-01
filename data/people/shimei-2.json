@@ -1,0 +1,18 @@
+{
+  "person_id": "shimei-2",
+  "name": "Shimei",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 16:5-13",
+    "2 Samuel 19:16-23",
+    "1 Kings 2:8-44"
+  ],
+  "genealogy": {
+    "father": "gera-3",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

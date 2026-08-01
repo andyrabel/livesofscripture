@@ -1,0 +1,18 @@
+{
+  "person_id": "bunni-2",
+  "name": "Bunni",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:15"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hashabiah-2"
+    ]
+  }
+}

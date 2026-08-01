@@ -1,0 +1,20 @@
+{
+  "person_id": "shammua-2",
+  "name": "Shammua",
+  "alt_names": [
+    "Shimea"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:14",
+    "1 Chronicles 3:5",
+    "1 Chronicles 14:4"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": "bathsheba",
+    "spouses": [],
+    "children": []
+  }
+}

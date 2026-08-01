@@ -1,0 +1,19 @@
+{
+  "person_id": "hotham-2",
+  "name": "Hotham",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 11:44"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeiel-3",
+      "shama"
+    ]
+  }
+}

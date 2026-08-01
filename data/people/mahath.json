@@ -1,0 +1,19 @@
+{
+  "person_id": "mahath",
+  "name": "Mahath",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:35",
+    "2 Chronicles 29:12"
+  ],
+  "genealogy": {
+    "father": "amasai",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elkanah-4"
+    ]
+  }
+}

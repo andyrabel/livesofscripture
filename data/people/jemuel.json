@@ -1,0 +1,21 @@
+{
+  "person_id": "jemuel",
+  "name": "Jemuel",
+  "alt_names": [
+    "Nemuel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:10",
+    "Exodus 6:15",
+    "Numbers 26:12",
+    "1 Chronicles 4:24"
+  ],
+  "genealogy": {
+    "father": "simeon",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

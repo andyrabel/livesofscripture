@@ -1,0 +1,18 @@
+{
+  "person_id": "menna",
+  "name": "Menna",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Luke 3:31"
+  ],
+  "genealogy": {
+    "father": "mattatha",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "melea"
+    ]
+  }
+}

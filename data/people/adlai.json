@@ -1,0 +1,18 @@
+{
+  "person_id": "adlai",
+  "name": "Adlai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 27:29"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shaphat-5"
+    ]
+  }
+}

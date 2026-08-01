@@ -1,0 +1,20 @@
+{
+  "person_id": "jashub",
+  "name": "Jashub",
+  "alt_names": [
+    "Iob"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 46:13",
+    "Numbers 26:24",
+    "1 Chronicles 7:1"
+  ],
+  "genealogy": {
+    "father": "issachar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

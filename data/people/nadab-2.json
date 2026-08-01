@@ -1,0 +1,17 @@
+{
+  "person_id": "nadab-2",
+  "name": "Nadab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 14:20",
+    "1 Kings 15:25-31"
+  ],
+  "genealogy": {
+    "father": "jeroboam",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

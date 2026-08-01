@@ -1,0 +1,19 @@
+{
+  "person_id": "zimri-3",
+  "name": "Zimri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:36",
+    "1 Chronicles 9:42"
+  ],
+  "genealogy": {
+    "father": "jehoaddah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "moza-2"
+    ]
+  }
+}

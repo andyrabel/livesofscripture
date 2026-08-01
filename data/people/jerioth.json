@@ -1,0 +1,18 @@
+{
+  "person_id": "jerioth",
+  "name": "Jerioth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:18"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "caleb-2"
+    ],
+    "children": []
+  }
+}

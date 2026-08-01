@@ -1,0 +1,17 @@
+{
+  "person_id": "sidon",
+  "name": "Sidon",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:15",
+    "1 Chronicles 1:13"
+  ],
+  "genealogy": {
+    "father": "canaan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

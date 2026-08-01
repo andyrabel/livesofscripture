@@ -1,0 +1,19 @@
+{
+  "person_id": "joseph-7",
+  "name": "Joseph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 27:57-59",
+    "Mark 15:43-46",
+    "Luke 23:50",
+    "John 19:38"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

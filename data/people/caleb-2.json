@@ -1,0 +1,35 @@
+{
+  "person_id": "caleb-2",
+  "name": "Caleb",
+  "alt_names": [
+    "Chelubai"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:9-50"
+  ],
+  "genealogy": {
+    "father": "hezron-2",
+    "mother": null,
+    "spouses": [
+      "azubah-2",
+      "ephrath",
+      "jerioth"
+    ],
+    "children": [
+      "achsah-2",
+      "gazez",
+      "haran-2",
+      "hur",
+      "jesher",
+      "mesha-2",
+      "moza",
+      "shaaph-2",
+      "sheber",
+      "sheva-2",
+      "shobab-2",
+      "tirhanah"
+    ]
+  }
+}

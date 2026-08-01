@@ -1,0 +1,17 @@
+{
+  "person_id": "philip-3",
+  "name": "Philip",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 6:5",
+    "Acts 21:8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

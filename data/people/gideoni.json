@@ -1,0 +1,21 @@
+{
+  "person_id": "gideoni",
+  "name": "Gideoni",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:11",
+    "Numbers 2:22",
+    "Numbers 7:60-65",
+    "Numbers 10:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abidan"
+    ]
+  }
+}

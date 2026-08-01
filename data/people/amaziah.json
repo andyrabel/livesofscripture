@@ -1,0 +1,25 @@
+{
+  "person_id": "amaziah",
+  "name": "Amaziah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 12:21",
+    "2 Kings 13:12",
+    "2 Kings 14:1-23",
+    "2 Kings 15:1-3",
+    "1 Chronicles 3:12",
+    "2 Chronicles 24:27",
+    "2 Chronicles 25:1-27",
+    "2 Chronicles 26:1-4"
+  ],
+  "genealogy": {
+    "father": "joash-3",
+    "mother": "jehoaddin",
+    "spouses": [],
+    "children": [
+      "uzziah"
+    ]
+  }
+}

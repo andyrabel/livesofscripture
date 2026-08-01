@@ -1,0 +1,26 @@
+{
+  "person_id": "zadok-3",
+  "name": "Zadok",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:12",
+    "1 Chronicles 9:11",
+    "1 Chronicles 15:11",
+    "1 Chronicles 16:39",
+    "Ezra 7:2",
+    "Ezekiel 40:46",
+    "Ezekiel 43:19",
+    "Ezekiel 44:15",
+    "Ezekiel 48:11"
+  ],
+  "genealogy": {
+    "father": "meraioth-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shallum-6"
+    ]
+  }
+}

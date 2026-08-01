@@ -1,0 +1,23 @@
+{
+  "person_id": "jeroboam-2",
+  "name": "Jeroboam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 13:13",
+    "2 Kings 14:16-29",
+    "2 Kings 15:1-8",
+    "Hosea 1:1",
+    "Amos 1:1",
+    "Amos 7:9-11"
+  ],
+  "genealogy": {
+    "father": "joash-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zechariah"
+    ]
+  }
+}

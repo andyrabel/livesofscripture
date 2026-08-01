@@ -1,7 +1,9 @@
 {
   "person_id": "naomi",
   "name": "Naomi",
-  "alt_names": ["Mara"],
+  "alt_names": [
+    "Mara"
+  ],
   "tier": "full",
   "testament": "OT",
   "era": "Judges",
@@ -9,14 +11,21 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Bethlehem", "Moab"],
+  "geographic_setting": [
+    "Bethlehem",
+    "Moab"
+  ],
   "references": [
     "Ruth 1",
     "Ruth 2:1-3",
     "Ruth 3",
     "Ruth 4:14-17"
   ],
-  "topics": ["bitterness and restoration", "providence", "loyalty (hesed)"],
+  "topics": [
+    "bitterness and restoration",
+    "providence",
+    "loyalty (hesed)"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "An Israelite widow who lost her husband and both sons in Moab, returned to Bethlehem calling herself 'Mara' (bitter), and was restored through her daughter-in-law Ruth's loyalty and the kindness of her kinsman Boaz, becoming grandmother in the line leading to David.",
@@ -32,8 +41,13 @@
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": ["elimelech"],
-    "children": ["mahlon"]
+    "spouses": [
+      "elimelech"
+    ],
+    "children": [
+      "chilion",
+      "mahlon"
+    ]
   },
   "review": {
     "human_reviewed": false,

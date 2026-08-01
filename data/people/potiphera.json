@@ -1,0 +1,19 @@
+{
+  "person_id": "potiphera",
+  "name": "Potiphera",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 41:45-50",
+    "Genesis 46:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "asenath"
+    ]
+  }
+}

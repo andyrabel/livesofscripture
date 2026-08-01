@@ -1,0 +1,25 @@
+{
+  "person_id": "libni",
+  "name": "Libni",
+  "alt_names": [
+    "Ladan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:17",
+    "Numbers 3:18",
+    "1 Chronicles 6:17-20",
+    "1 Chronicles 23:7-9",
+    "1 Chronicles 26:21"
+  ],
+  "genealogy": {
+    "father": "gershon",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jahath-2",
+      "jehiel"
+    ]
+  }
+}

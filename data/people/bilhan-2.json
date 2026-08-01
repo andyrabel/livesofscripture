@@ -1,0 +1,24 @@
+{
+  "person_id": "bilhan-2",
+  "name": "Bilhan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:10"
+  ],
+  "genealogy": {
+    "father": "ashbel",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahishahar",
+      "benjamin-2",
+      "chenaanah-2",
+      "ehud-2",
+      "jeush-2",
+      "tarshish-2",
+      "zethan"
+    ]
+  }
+}

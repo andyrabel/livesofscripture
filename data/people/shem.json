@@ -1,0 +1,29 @@
+{
+  "person_id": "shem",
+  "name": "Shem",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 5:32",
+    "Genesis 6:10",
+    "Genesis 7:13",
+    "Genesis 9:18-27",
+    "Genesis 10:1-31",
+    "Genesis 11:10-11",
+    "1 Chronicles 1:4-24",
+    "Luke 3:36"
+  ],
+  "genealogy": {
+    "father": "noah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "aram",
+      "arpachshad",
+      "asshur",
+      "elam",
+      "lud-2"
+    ]
+  }
+}

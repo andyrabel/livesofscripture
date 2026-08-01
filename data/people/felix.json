@@ -1,0 +1,18 @@
+{
+  "person_id": "felix",
+  "name": "Felix",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 23:24-26",
+    "Acts 24:3-27",
+    "Acts 25:14"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

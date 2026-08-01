@@ -1,0 +1,17 @@
+{
+  "person_id": "omar",
+  "name": "Omar",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:11-15",
+    "1 Chronicles 1:36"
+  ],
+  "genealogy": {
+    "father": "eliphaz",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "eliezer-2",
+  "name": "Eliezer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 18:4",
+    "1 Chronicles 23:15-17",
+    "1 Chronicles 26:25"
+  ],
+  "genealogy": {
+    "father": "moses",
+    "mother": "zipporah",
+    "spouses": [],
+    "children": []
+  }
+}

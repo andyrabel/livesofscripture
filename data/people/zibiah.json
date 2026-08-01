@@ -1,0 +1,19 @@
+{
+  "person_id": "zibiah",
+  "name": "Zibiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 12:1",
+    "2 Chronicles 24:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joash-3"
+    ]
+  }
+}

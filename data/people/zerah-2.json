@@ -1,0 +1,19 @@
+{
+  "person_id": "zerah-2",
+  "name": "Zerah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:33",
+    "1 Chronicles 1:44"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jobab-2"
+    ]
+  }
+}

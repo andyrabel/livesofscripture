@@ -1,0 +1,23 @@
+{
+  "person_id": "elam-4",
+  "name": "Elam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:7",
+    "Ezra 8:7",
+    "Ezra 10:2-26",
+    "Nehemiah 7:12",
+    "Nehemiah 10:14",
+    "Nehemiah 12:42"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jehiel-6"
+    ]
+  }
+}

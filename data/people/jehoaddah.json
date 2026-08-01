@@ -1,0 +1,23 @@
+{
+  "person_id": "jehoaddah",
+  "name": "Jehoaddah",
+  "alt_names": [
+    "Jarah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 8:36",
+    "1 Chronicles 9:42"
+  ],
+  "genealogy": {
+    "father": "ahaz-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "alemeth-2",
+      "azmaveth-2",
+      "zimri-3"
+    ]
+  }
+}

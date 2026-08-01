@@ -1,0 +1,22 @@
+{
+  "person_id": "shallum-6",
+  "name": "Shallum",
+  "alt_names": [
+    "Meshullam"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:12-13",
+    "1 Chronicles 9:11",
+    "Ezra 7:2"
+  ],
+  "genealogy": {
+    "father": "zadok-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "hilkiah-3"
+    ]
+  }
+}

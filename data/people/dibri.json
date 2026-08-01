@@ -1,0 +1,18 @@
+{
+  "person_id": "dibri",
+  "name": "Dibri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Leviticus 24:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shelomith"
+    ]
+  }
+}

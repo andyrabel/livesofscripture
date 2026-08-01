@@ -1,0 +1,18 @@
+{
+  "person_id": "mehir",
+  "name": "Mehir",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:11"
+  ],
+  "genealogy": {
+    "father": "chelub",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eshton"
+    ]
+  }
+}

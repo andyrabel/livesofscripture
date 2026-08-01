@@ -1,0 +1,18 @@
+{
+  "person_id": "shiphtan",
+  "name": "Shiphtan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 34:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "kemuel-2"
+    ]
+  }
+}

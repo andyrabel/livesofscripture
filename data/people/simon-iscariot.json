@@ -1,0 +1,21 @@
+{
+  "person_id": "simon-iscariot",
+  "name": "Simon Iscariot",
+  "alt_names": [
+    "Simon"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "John 6:71",
+    "John 13:2-26"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "judas-2"
+    ]
+  }
+}

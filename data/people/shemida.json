@@ -1,0 +1,23 @@
+{
+  "person_id": "shemida",
+  "name": "Shemida",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 26:32",
+    "Joshua 17:2",
+    "1 Chronicles 7:19"
+  ],
+  "genealogy": {
+    "father": "gilead",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ahian",
+      "aniam",
+      "lihki",
+      "shechem-3"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "barzillai-2",
+  "name": "Barzillai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 21:8"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "adriel"
+    ]
+  }
+}

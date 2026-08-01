@@ -1,0 +1,23 @@
+{
+  "person_id": "uriah",
+  "name": "Uriah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 11:3-26",
+    "2 Samuel 12:9-15",
+    "2 Samuel 23:39",
+    "1 Kings 15:5",
+    "1 Chronicles 11:41",
+    "Matthew 1:6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "bathsheba"
+    ],
+    "children": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "person_id": "gamaliel-2",
+  "name": "Gamaliel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 5:34",
+    "Acts 22:3"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

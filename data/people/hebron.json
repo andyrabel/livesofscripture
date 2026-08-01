@@ -1,0 +1,20 @@
+{
+  "person_id": "hebron",
+  "name": "Hebron",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:18",
+    "Numbers 3:19",
+    "1 Chronicles 6:2-18",
+    "1 Chronicles 15:9",
+    "1 Chronicles 23:12-19"
+  ],
+  "genealogy": {
+    "father": "kohath",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

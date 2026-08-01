@@ -1,0 +1,19 @@
+{
+  "person_id": "achbor",
+  "name": "Achbor",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:38-39",
+    "1 Chronicles 1:49"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baal-hanan"
+    ]
+  }
+}

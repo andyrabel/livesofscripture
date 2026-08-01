@@ -1,0 +1,18 @@
+{
+  "person_id": "gilead-3",
+  "name": "Gilead",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:14"
+  ],
+  "genealogy": {
+    "father": "michael-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jaroah"
+    ]
+  }
+}

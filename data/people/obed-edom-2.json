@@ -1,0 +1,28 @@
+{
+  "person_id": "obed-edom-2",
+  "name": "Obed-edom",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 15:18-24",
+    "1 Chronicles 16:5-38",
+    "1 Chronicles 26:4-15",
+    "2 Chronicles 25:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ammiel-3",
+      "issachar-2",
+      "jehozabad-2",
+      "joah-3",
+      "nethanel-5",
+      "peullethai",
+      "sacar",
+      "shemaiah-9"
+    ]
+  }
+}

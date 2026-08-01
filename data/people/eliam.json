@@ -1,0 +1,21 @@
+{
+  "person_id": "eliam",
+  "name": "Eliam",
+  "alt_names": [
+    "Ammiel"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 11:3",
+    "1 Chronicles 3:5"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bathsheba"
+    ]
+  }
+}

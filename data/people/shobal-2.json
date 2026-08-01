@@ -1,0 +1,20 @@
+{
+  "person_id": "shobal-2",
+  "name": "Shobal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:50-52",
+    "1 Chronicles 4:1-2"
+  ],
+  "genealogy": {
+    "father": "hur",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "haroeh",
+      "reaiah"
+    ]
+  }
+}

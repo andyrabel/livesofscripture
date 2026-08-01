@@ -1,0 +1,19 @@
+{
+  "person_id": "zepho",
+  "name": "Zepho",
+  "alt_names": [
+    "Zephi"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:11-15",
+    "1 Chronicles 1:36"
+  ],
+  "genealogy": {
+    "father": "eliphaz",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

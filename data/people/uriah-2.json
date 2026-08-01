@@ -1,0 +1,19 @@
+{
+  "person_id": "uriah-2",
+  "name": "Uriah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 8:33",
+    "Nehemiah 3:4-21"
+  ],
+  "genealogy": {
+    "father": "hakkoz-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meremoth"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "person_id": "hazael",
+  "name": "Hazael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 19:15-17",
+    "2 Kings 8:8-28",
+    "2 Kings 9:14-15",
+    "2 Kings 10:32",
+    "2 Kings 12:17-18",
+    "2 Kings 13:3-25",
+    "2 Chronicles 22:5-6",
+    "Amos 1:4"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ben-hadad-2"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "person_id": "remaliah",
+  "name": "Remaliah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:25-37",
+    "2 Kings 16:1-5",
+    "2 Chronicles 28:6",
+    "Isaiah 7:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "pekah"
+    ]
+  }
+}

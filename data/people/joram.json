@@ -1,0 +1,19 @@
+{
+  "person_id": "joram",
+  "name": "Joram",
+  "alt_names": [
+    "Hadoram"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 8:10",
+    "1 Chronicles 18:10"
+  ],
+  "genealogy": {
+    "father": "toi",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "person_id": "joseph-6",
+  "name": "Joseph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 1:16-24",
+    "Matthew 2:13-21",
+    "Luke 1:27",
+    "Luke 2:4-16",
+    "Luke 3:23",
+    "Luke 4:22",
+    "John 1:45",
+    "John 6:42"
+  ],
+  "genealogy": {
+    "father": "jacob",
+    "mother": null,
+    "spouses": [
+      "mary"
+    ],
+    "children": []
+  }
+}

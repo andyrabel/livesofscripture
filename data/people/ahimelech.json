@@ -1,0 +1,22 @@
+{
+  "person_id": "ahimelech",
+  "name": "Ahimelech",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 21:1-8",
+    "1 Samuel 22:9-20",
+    "1 Samuel 23:6",
+    "1 Samuel 30:7",
+    "Psalms 52:0"
+  ],
+  "genealogy": {
+    "father": "ahitub",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abiathar"
+    ]
+  }
+}

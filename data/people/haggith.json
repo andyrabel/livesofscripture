@@ -1,0 +1,23 @@
+{
+  "person_id": "haggith",
+  "name": "Haggith",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:4",
+    "1 Kings 1:5-11",
+    "1 Kings 2:13",
+    "1 Chronicles 3:2"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "david"
+    ],
+    "children": [
+      "adonijah"
+    ]
+  }
+}

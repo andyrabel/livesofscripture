@@ -1,0 +1,18 @@
+{
+  "person_id": "ebiasaph-2",
+  "name": "Ebiasaph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:23-37"
+  ],
+  "genealogy": {
+    "father": "elkanah-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "assir-2"
+    ]
+  }
+}

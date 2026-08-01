@@ -1,0 +1,19 @@
+{
+  "person_id": "abihail-5",
+  "name": "Abihail",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Esther 2:15",
+    "Esther 9:29"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "esther"
+    ]
+  }
+}

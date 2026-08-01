@@ -1,0 +1,17 @@
+{
+  "person_id": "ethan-3",
+  "name": "Ethan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:44",
+    "1 Chronicles 15:17-19"
+  ],
+  "genealogy": {
+    "father": "kishi",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

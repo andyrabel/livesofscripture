@@ -1,0 +1,19 @@
+{
+  "person_id": "matred",
+  "name": "Matred",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 36:39",
+    "1 Chronicles 1:50"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": "mezahab",
+    "spouses": [],
+    "children": [
+      "mehetabel"
+    ]
+  }
+}

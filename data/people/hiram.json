@@ -1,0 +1,25 @@
+{
+  "person_id": "hiram",
+  "name": "Hiram",
+  "alt_names": [
+    "Huram"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:11",
+    "1 Kings 5:1-18",
+    "1 Kings 9:11-27",
+    "1 Kings 10:11-22",
+    "1 Chronicles 14:1",
+    "2 Chronicles 2:3-12",
+    "2 Chronicles 8:2-18",
+    "2 Chronicles 9:10-21"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

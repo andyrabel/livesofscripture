@@ -1,0 +1,28 @@
+{
+  "person_id": "pilate",
+  "name": "Pilate",
+  "alt_names": [
+    "Pontius Pilate"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 27:2-65",
+    "Mark 15:1-44",
+    "Luke 3:1",
+    "Luke 13:1",
+    "Luke 23:1-52",
+    "John 18:29-38",
+    "John 19:1-38",
+    "Acts 3:13",
+    "Acts 4:27",
+    "Acts 13:28",
+    "1 Timothy 6:13"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

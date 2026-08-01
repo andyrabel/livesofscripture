@@ -1,0 +1,20 @@
+{
+  "person_id": "obadiah-5",
+  "name": "Obadiah",
+  "alt_names": [
+    "Abda"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 9:16",
+    "2 Chronicles 17:7",
+    "Nehemiah 11:17"
+  ],
+  "genealogy": {
+    "father": "shemaiah-6",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

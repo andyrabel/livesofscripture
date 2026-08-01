@@ -1,0 +1,18 @@
+{
+  "person_id": "ishmael-4",
+  "name": "Ishmael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 19:11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zebadiah-7"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "person_id": "esau",
+  "name": "Esau",
+  "alt_names": [
+    "Edom"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:25-34",
+    "Genesis 26:34",
+    "Genesis 27:1-42",
+    "Genesis 28:5-9",
+    "Genesis 32:3-19",
+    "Genesis 33:1-16",
+    "Genesis 35:1-29",
+    "Genesis 36:1-43",
+    "Deuteronomy 2:4-29",
+    "Joshua 24:4",
+    "1 Chronicles 1:34-35",
+    "Psalms 137:7",
+    "Jeremiah 49:8-10",
+    "Obadiah 1:18",
+    "Malachi 1:2-3",
+    "Romans 9:13",
+    "Hebrews 11:20",
+    "Hebrews 12:16"
+  ],
+  "genealogy": {
+    "father": "isaac",
+    "mother": "rebekah",
+    "spouses": [
+      "basemath",
+      "basemath-2",
+      "oholibamah"
+    ],
+    "children": [
+      "eliphaz",
+      "jalam",
+      "jeush",
+      "korah",
+      "reuel"
+    ]
+  }
+}

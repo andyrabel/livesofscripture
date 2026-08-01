@@ -1,0 +1,20 @@
+{
+  "person_id": "eliphaz-2",
+  "name": "Eliphaz",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Job 2:11",
+    "Job 4:1",
+    "Job 15:1",
+    "Job 22:1",
+    "Job 42:7-9"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

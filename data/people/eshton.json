@@ -1,0 +1,20 @@
+{
+  "person_id": "eshton",
+  "name": "Eshton",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:11-12"
+  ],
+  "genealogy": {
+    "father": "mehir",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "beth-rapha",
+      "paseah",
+      "tehinnah"
+    ]
+  }
+}

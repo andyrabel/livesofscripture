@@ -1,0 +1,18 @@
+{
+  "person_id": "zechariah-10",
+  "name": "Zechariah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Chronicles 20:14"
+  ],
+  "genealogy": {
+    "father": "benaiah-5",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jahaziel-3"
+    ]
+  }
+}

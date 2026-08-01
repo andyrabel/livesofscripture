@@ -1,0 +1,20 @@
+{
+  "person_id": "jonathan-10",
+  "name": "Jonathan",
+  "alt_names": [
+    "Johanan"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 12:11-22"
+  ],
+  "genealogy": {
+    "father": "joiada-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jaddua-2"
+    ]
+  }
+}

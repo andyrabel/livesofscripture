@@ -1,0 +1,19 @@
+{
+  "person_id": "eliam-2",
+  "name": "Eliam",
+  "alt_names": [
+    "Hepher"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:34",
+    "1 Chronicles 11:36"
+  ],
+  "genealogy": {
+    "father": "ahithophel",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person_id": "jair",
+  "name": "Jair",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 32:41",
+    "Deuteronomy 3:14",
+    "1 Kings 4:13",
+    "1 Chronicles 2:22"
+  ],
+  "genealogy": {
+    "father": "segub-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

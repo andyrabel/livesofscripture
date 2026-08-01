@@ -1,0 +1,23 @@
+{
+  "person_id": "elkanah-2",
+  "name": "Elkanah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 1:1-23",
+    "1 Samuel 2:11-20",
+    "1 Chronicles 6:27-34"
+  ],
+  "genealogy": {
+    "father": "jeroham",
+    "mother": null,
+    "spouses": [
+      "hannah",
+      "peninnah"
+    ],
+    "children": [
+      "samuel"
+    ]
+  }
+}

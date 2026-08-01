@@ -1,0 +1,22 @@
+{
+  "person_id": "abinadab-2",
+  "name": "Abinadab",
+  "alt_names": [
+    "Ishvi"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Samuel 14:49",
+    "1 Samuel 31:2",
+    "1 Chronicles 8:33",
+    "1 Chronicles 9:39",
+    "1 Chronicles 10:2"
+  ],
+  "genealogy": {
+    "father": "saul",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "person_id": "sennacherib",
+  "name": "Sennacherib",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 18:13-33",
+    "2 Kings 19:4-36",
+    "2 Kings 20:6",
+    "2 Chronicles 32:1-22",
+    "Isaiah 36:1-18",
+    "Isaiah 37:4-37",
+    "Isaiah 38:6",
+    "Nahum 3:18"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "adrammelech",
+      "esarhaddon",
+      "sharezer"
+    ]
+  }
+}

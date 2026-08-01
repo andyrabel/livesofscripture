@@ -1,0 +1,20 @@
+{
+  "person_id": "immer-2",
+  "name": "Immer",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 24:14",
+    "Ezra 2:37",
+    "Ezra 10:20",
+    "Nehemiah 7:40",
+    "Jeremiah 20:1"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

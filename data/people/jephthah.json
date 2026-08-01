@@ -1,0 +1,19 @@
+{
+  "person_id": "jephthah",
+  "name": "Jephthah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 11:1-40",
+    "Judges 12:1-7",
+    "1 Samuel 12:11",
+    "Hebrews 11:32"
+  ],
+  "genealogy": {
+    "father": "gilead-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

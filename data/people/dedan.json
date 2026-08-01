@@ -1,0 +1,17 @@
+{
+  "person_id": "dedan",
+  "name": "Dedan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:7",
+    "1 Chronicles 1:9"
+  ],
+  "genealogy": {
+    "father": "raamah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

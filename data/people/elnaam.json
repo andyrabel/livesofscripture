@@ -1,0 +1,19 @@
+{
+  "person_id": "elnaam",
+  "name": "Elnaam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 11:46"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeribai",
+      "joshaviah"
+    ]
+  }
+}

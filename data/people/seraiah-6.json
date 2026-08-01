@@ -1,0 +1,22 @@
+{
+  "person_id": "seraiah-6",
+  "name": "Seraiah",
+  "alt_names": [
+    "Azariah"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Ezra 2:2",
+    "Nehemiah 7:7",
+    "Nehemiah 12:1-33"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meraiah"
+    ]
+  }
+}

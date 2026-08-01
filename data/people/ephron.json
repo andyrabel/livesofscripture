@@ -1,0 +1,19 @@
+{
+  "person_id": "ephron",
+  "name": "Ephron",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 23:8-17",
+    "Genesis 25:9",
+    "Genesis 49:29-30",
+    "Genesis 50:13"
+  ],
+  "genealogy": {
+    "father": "zohar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

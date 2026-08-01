@@ -1,0 +1,18 @@
+{
+  "person_id": "ahaziah",
+  "name": "Ahaziah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 22:40-51",
+    "2 Kings 1:2-18",
+    "2 Chronicles 20:35-37"
+  ],
+  "genealogy": {
+    "father": "ahab",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

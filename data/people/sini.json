@@ -1,0 +1,17 @@
+{
+  "person_id": "sini",
+  "name": "Sini",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:17",
+    "1 Chronicles 1:15"
+  ],
+  "genealogy": {
+    "father": "canaan",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

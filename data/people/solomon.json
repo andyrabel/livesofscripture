@@ -1,7 +1,9 @@
 {
   "person_id": "solomon",
   "name": "Solomon",
-  "alt_names": ["Jedidiah"],
+  "alt_names": [
+    "Jedidiah"
+  ],
   "tier": "full",
   "testament": "OT",
   "era": "United Monarchy",
@@ -9,7 +11,10 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Jerusalem", "Gibeon"],
+  "geographic_setting": [
+    "Jerusalem",
+    "Gibeon"
+  ],
   "references": [
     "2 Samuel 12:24-25",
     "1 Kings 1-11",
@@ -17,7 +22,12 @@
     "Proverbs 1:1",
     "Ecclesiastes 1:1"
   ],
-  "topics": ["wisdom", "wealth", "idolatry", "temple"],
+  "topics": [
+    "wisdom",
+    "wealth",
+    "idolatry",
+    "temple"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Solomon is traditionally credited as author of Proverbs, Ecclesiastes, and Song of Solomon, based on 1 Kings 4:32 and the books' own superscriptions, and this site follows that traditional attribution. Ecclesiastes' authorship and dating in particular is disputed among evangelical scholars, some of whom read 'the Preacher' (Qoheleth) as a later author writing in Solomon's persona rather than Solomon himself. Scripture does not settle the question, and this site notes rather than resolves it.",
   "source_summary": "David and Bathsheba's son, chosen by God to succeed David and build the Jerusalem temple; renowned for God-given wisdom and vast wealth, but whose seven hundred wives and three hundred concubines turned his heart to foreign gods in his old age, fracturing the kingdom his son would inherit.",
@@ -34,7 +44,11 @@
     "father": "david",
     "mother": "bathsheba",
     "spouses": [],
-    "children": []
+    "children": [
+      "basemath-3",
+      "rehoboam",
+      "taphath"
+    ]
   },
   "review": {
     "human_reviewed": false,

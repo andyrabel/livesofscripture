@@ -1,0 +1,19 @@
+{
+  "person_id": "zadok-6",
+  "name": "Zadok",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 11:11",
+    "Nehemiah 13:13"
+  ],
+  "genealogy": {
+    "father": "meraioth-3",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "meshullam-15"
+    ]
+  }
+}

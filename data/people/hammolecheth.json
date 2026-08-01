@@ -1,0 +1,20 @@
+{
+  "person_id": "hammolecheth",
+  "name": "Hammolecheth",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:18"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "abiezer-3",
+      "ishhod",
+      "mahlah-2"
+    ]
+  }
+}

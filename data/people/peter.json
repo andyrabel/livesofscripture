@@ -1,7 +1,11 @@
 {
   "person_id": "peter",
   "name": "Peter",
-  "alt_names": ["Simon", "Simon Peter", "Cephas"],
+  "alt_names": [
+    "Simon",
+    "Simon Peter",
+    "Cephas"
+  ],
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",
@@ -12,9 +16,26 @@
     "died": 68,
     "note": "Birth year is estimated from his adult activity during Jesus' ministry (c. AD 27-30). The death date rests on early church tradition (Eusebius, Origen) placing his martyrdom in Rome under Nero, not on Scripture itself."
   },
-  "geographic_setting": ["Galilee", "Capernaum", "Jerusalem", "Antioch"],
-  "references": ["Matthew 4:18-20", "Matthew 16:13-23", "Matthew 26:69-75", "John 21:15-19", "Acts 2", "Acts 10", "Galatians 2:11-14"],
-  "topics": ["discipleship", "failure and restoration", "apostolic leadership"],
+  "geographic_setting": [
+    "Galilee",
+    "Capernaum",
+    "Jerusalem",
+    "Antioch"
+  ],
+  "references": [
+    "Matthew 4:18-20",
+    "Matthew 16:13-23",
+    "Matthew 26:69-75",
+    "John 21:15-19",
+    "Acts 2",
+    "Acts 10",
+    "Galatians 2:11-14"
+  ],
+  "topics": [
+    "discipleship",
+    "failure and restoration",
+    "apostolic leadership"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Matthew 16:18 ('you are Peter, and on this rock I will build my church') has been read differently across Christian traditions — some identify 'this rock' with Peter's confession of faith, others with Peter himself in a foundational role among the apostles, and Roman Catholic tradition builds a doctrine of papal succession from it. The text itself does not adjudicate between these readings.",
   "source_summary": "Galilean fisherman called as one of the twelve apostles, first to confess Jesus as the Christ, denied Jesus three times the night of His arrest, restored and recommissioned by the risen Christ, and became a leading voice of the early church at Pentecost and in opening the gospel to Gentiles.",
@@ -28,7 +49,7 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "genealogy": {
-    "father": null,
+    "father": "john-3",
     "mother": null,
     "spouses": [],
     "children": []

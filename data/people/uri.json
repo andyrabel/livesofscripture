@@ -1,0 +1,22 @@
+{
+  "person_id": "uri",
+  "name": "Uri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 31:2",
+    "Exodus 35:30",
+    "Exodus 38:22",
+    "1 Chronicles 2:20",
+    "2 Chronicles 1:5"
+  ],
+  "genealogy": {
+    "father": "hur",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "bezalel"
+    ]
+  }
+}

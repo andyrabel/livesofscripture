@@ -1,0 +1,19 @@
+{
+  "person_id": "pharaoh-3",
+  "name": "Pharaoh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 1:11-22",
+    "Exodus 2:5-23",
+    "Acts 7:18-21",
+    "Hebrews 11:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

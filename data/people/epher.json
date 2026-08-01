@@ -1,0 +1,17 @@
+{
+  "person_id": "epher",
+  "name": "Epher",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 25:4",
+    "1 Chronicles 1:33"
+  ],
+  "genealogy": {
+    "father": "midian",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

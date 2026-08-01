@@ -1,0 +1,18 @@
+{
+  "person_id": "jabesh",
+  "name": "Jabesh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 15:10-14"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shallum"
+    ]
+  }
+}

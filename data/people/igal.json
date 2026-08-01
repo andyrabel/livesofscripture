@@ -1,0 +1,16 @@
+{
+  "person_id": "igal",
+  "name": "Igal",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 13:7"
+  ],
+  "genealogy": {
+    "father": "joseph-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

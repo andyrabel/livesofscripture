@@ -1,0 +1,16 @@
+{
+  "person_id": "jonathan-2",
+  "name": "Jonathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Judges 18:30"
+  ],
+  "genealogy": {
+    "father": "gershom-2",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

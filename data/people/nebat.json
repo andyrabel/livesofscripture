@@ -1,0 +1,34 @@
+{
+  "person_id": "nebat",
+  "name": "Nebat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 11:26",
+    "1 Kings 12:2-15",
+    "1 Kings 15:1",
+    "1 Kings 16:3-31",
+    "1 Kings 21:22",
+    "1 Kings 22:52",
+    "2 Kings 3:3",
+    "2 Kings 9:9",
+    "2 Kings 10:29",
+    "2 Kings 13:2-11",
+    "2 Kings 14:24",
+    "2 Kings 15:9-24",
+    "2 Kings 17:21",
+    "2 Kings 23:15",
+    "2 Chronicles 9:29",
+    "2 Chronicles 10:2-15",
+    "2 Chronicles 13:6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jeroboam"
+    ]
+  }
+}

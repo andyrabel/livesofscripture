@@ -1,0 +1,18 @@
+{
+  "person_id": "lael",
+  "name": "Lael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 3:24"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "eliasaph-2"
+    ]
+  }
+}

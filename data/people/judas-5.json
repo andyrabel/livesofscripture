@@ -1,0 +1,18 @@
+{
+  "person_id": "judas-5",
+  "name": "Judas",
+  "alt_names": [
+    "Barsabbas"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Acts 15:22-32"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

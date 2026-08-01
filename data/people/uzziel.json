@@ -1,0 +1,26 @@
+{
+  "person_id": "uzziel",
+  "name": "Uzziel",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:18-22",
+    "Leviticus 10:4",
+    "Numbers 3:19-30",
+    "1 Chronicles 6:2-18",
+    "1 Chronicles 15:10",
+    "1 Chronicles 23:12-20",
+    "1 Chronicles 24:24"
+  ],
+  "genealogy": {
+    "father": "kohath",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elzaphan",
+      "mishael",
+      "sithri"
+    ]
+  }
+}

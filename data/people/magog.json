@@ -1,0 +1,17 @@
+{
+  "person_id": "magog",
+  "name": "Magog",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Genesis 10:2",
+    "1 Chronicles 1:5"
+  ],
+  "genealogy": {
+    "father": "japheth",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

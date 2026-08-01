@@ -1,0 +1,25 @@
+{
+  "person_id": "mered",
+  "name": "Mered",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:17"
+  ],
+  "genealogy": {
+    "father": "ezrah",
+    "mother": null,
+    "spouses": [
+      "bithia"
+    ],
+    "children": [
+      "heber-3",
+      "ishbah",
+      "jekuthiel",
+      "jered",
+      "miriam-2",
+      "shammai-3"
+    ]
+  }
+}

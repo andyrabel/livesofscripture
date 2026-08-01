@@ -1,0 +1,20 @@
+{
+  "person_id": "shaphat-2",
+  "name": "Shaphat",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 19:16-19",
+    "2 Kings 3:11",
+    "2 Kings 6:31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elisha"
+    ]
+  }
+}

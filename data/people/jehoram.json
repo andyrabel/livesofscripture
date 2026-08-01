@@ -1,0 +1,32 @@
+{
+  "person_id": "jehoram",
+  "name": "Jehoram",
+  "alt_names": [
+    "Joram"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 22:50",
+    "2 Kings 1:17",
+    "2 Kings 3:7-14",
+    "2 Kings 8:16-25",
+    "2 Kings 11:2",
+    "2 Kings 12:18",
+    "1 Chronicles 3:11",
+    "2 Chronicles 21:1-16",
+    "2 Chronicles 22:1-11",
+    "Matthew 1:8"
+  ],
+  "genealogy": {
+    "father": "jehoshaphat-3",
+    "mother": null,
+    "spouses": [
+      "athaliah"
+    ],
+    "children": [
+      "ahaziah-2",
+      "jehosheba"
+    ]
+  }
+}

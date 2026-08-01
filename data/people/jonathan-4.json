@@ -1,0 +1,18 @@
+{
+  "person_id": "jonathan-4",
+  "name": "Jonathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 21:21",
+    "1 Chronicles 20:7",
+    "1 Chronicles 27:32"
+  ],
+  "genealogy": {
+    "father": "shimeah",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

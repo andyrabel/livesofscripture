@@ -1,0 +1,23 @@
+{
+  "person_id": "naarah",
+  "name": "Naarah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:5-6"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "ashhur"
+    ],
+    "children": [
+      "ahuzzam",
+      "haahashtari",
+      "hepher-2",
+      "temeni"
+    ]
+  }
+}

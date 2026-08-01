@@ -1,0 +1,22 @@
+{
+  "person_id": "ish-bosheth",
+  "name": "Ish-bosheth",
+  "alt_names": [
+    "Eshbaal"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 2:8-15",
+    "2 Samuel 3:7-15",
+    "2 Samuel 4:1-12",
+    "1 Chronicles 8:33",
+    "1 Chronicles 9:39"
+  ],
+  "genealogy": {
+    "father": "saul",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

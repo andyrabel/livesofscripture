@@ -1,0 +1,17 @@
+{
+  "person_id": "jonathan-5",
+  "name": "Jonathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:32",
+    "1 Chronicles 11:34"
+  ],
+  "genealogy": {
+    "father": "eliahba",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

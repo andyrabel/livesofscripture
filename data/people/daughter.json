@@ -1,0 +1,18 @@
+{
+  "person_id": "daughter",
+  "name": "Daughter",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 9:22",
+    "Mark 5:34",
+    "Luke 8:48"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

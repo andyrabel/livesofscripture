@@ -1,0 +1,19 @@
+{
+  "person_id": "queen-of-sheba",
+  "name": "Queen of Sheba",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Kings 10:1-13",
+    "2 Chronicles 9:1-12",
+    "Matthew 12:42",
+    "Luke 11:31"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

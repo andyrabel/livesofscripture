@@ -1,0 +1,20 @@
+{
+  "person_id": "elishua",
+  "name": "Elishua",
+  "alt_names": [
+    "Elishama"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:15",
+    "1 Chronicles 3:6",
+    "1 Chronicles 14:5"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

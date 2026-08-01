@@ -1,0 +1,19 @@
+{
+  "person_id": "zimmah",
+  "name": "Zimmah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:20",
+    "2 Chronicles 29:12"
+  ],
+  "genealogy": {
+    "father": "jahath-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joah-2"
+    ]
+  }
+}

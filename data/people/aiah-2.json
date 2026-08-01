@@ -1,0 +1,19 @@
+{
+  "person_id": "aiah-2",
+  "name": "Aiah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 3:7",
+    "2 Samuel 21:8-11"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "rizpah"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "nepheg-2",
+  "name": "Nepheg",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 5:15",
+    "1 Chronicles 3:7",
+    "1 Chronicles 14:6"
+  ],
+  "genealogy": {
+    "father": "david",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

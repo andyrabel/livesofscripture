@@ -1,0 +1,18 @@
+{
+  "person_id": "michael-3",
+  "name": "Michael",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:40"
+  ],
+  "genealogy": {
+    "father": "baaseiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimea-2"
+    ]
+  }
+}

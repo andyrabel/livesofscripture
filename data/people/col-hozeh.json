@@ -1,0 +1,20 @@
+{
+  "person_id": "col-hozeh",
+  "name": "Col-hozeh",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 3:15",
+    "Nehemiah 11:5"
+  ],
+  "genealogy": {
+    "father": "hazaiah",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "baruch-3",
+      "shallum-12"
+    ]
+  }
+}

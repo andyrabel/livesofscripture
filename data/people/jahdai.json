@@ -1,0 +1,23 @@
+{
+  "person_id": "jahdai",
+  "name": "Jahdai",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 2:47"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ephah-3",
+      "geshan",
+      "jotham-3",
+      "pelet",
+      "regem",
+      "shaaph"
+    ]
+  }
+}

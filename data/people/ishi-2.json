@@ -1,0 +1,23 @@
+{
+  "person_id": "ishi-2",
+  "name": "Ishi",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 4:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "ben-zoheth",
+      "neariah-2",
+      "pelatiah-2",
+      "rephaiah-2",
+      "uzziel-2",
+      "zoheth"
+    ]
+  }
+}

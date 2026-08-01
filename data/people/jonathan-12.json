@@ -1,0 +1,18 @@
+{
+  "person_id": "jonathan-12",
+  "name": "Jonathan",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Nehemiah 12:35"
+  ],
+  "genealogy": {
+    "father": "shemaiah-14",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "zechariah-22"
+    ]
+  }
+}

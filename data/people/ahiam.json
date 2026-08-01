@@ -1,0 +1,17 @@
+{
+  "person_id": "ahiam",
+  "name": "Ahiam",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Samuel 23:33",
+    "1 Chronicles 11:35"
+  ],
+  "genealogy": {
+    "father": "sharar",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

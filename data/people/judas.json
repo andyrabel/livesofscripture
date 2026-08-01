@@ -1,0 +1,22 @@
+{
+  "person_id": "judas",
+  "name": "Judas",
+  "alt_names": [
+    "Thaddaeus"
+  ],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:16",
+    "John 14:22",
+    "Acts 1:13"
+  ],
+  "genealogy": {
+    "father": "james-4",
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

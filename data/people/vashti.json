@@ -1,0 +1,19 @@
+{
+  "person_id": "vashti",
+  "name": "Vashti",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Esther 1:9-19",
+    "Esther 2:1-17"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [
+      "ahasuerus"
+    ],
+    "children": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_id": "micah-3",
+  "name": "Micah",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:5"
+  ],
+  "genealogy": {
+    "father": "shimei-6",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "reaiah-2"
+    ]
+  }
+}

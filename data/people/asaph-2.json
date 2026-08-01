@@ -1,0 +1,28 @@
+{
+  "person_id": "asaph-2",
+  "name": "Asaph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 6:39",
+    "1 Chronicles 15:17-19",
+    "1 Chronicles 16:5-37",
+    "1 Chronicles 25:1-9",
+    "2 Chronicles 5:12",
+    "2 Chronicles 29:13-30",
+    "Nehemiah 12:35-46",
+    "Psalms 50:0"
+  ],
+  "genealogy": {
+    "father": "berechiah-2",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "asharelah",
+      "joseph-3",
+      "nethaniah-2",
+      "zaccur-4"
+    ]
+  }
+}

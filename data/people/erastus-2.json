@@ -1,0 +1,17 @@
+{
+  "person_id": "erastus-2",
+  "name": "Erastus",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "NT",
+  "references": [
+    "Romans 16:23",
+    "2 Timothy 4:20"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": []
+  }
+}

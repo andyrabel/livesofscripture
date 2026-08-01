@@ -1,0 +1,19 @@
+{
+  "person_id": "asaph",
+  "name": "Asaph",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "2 Kings 18:18-37",
+    "Isaiah 36:3-22"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "joah"
+    ]
+  }
+}

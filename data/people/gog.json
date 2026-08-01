@@ -1,0 +1,18 @@
+{
+  "person_id": "gog",
+  "name": "Gog",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 5:4"
+  ],
+  "genealogy": {
+    "father": "shemaiah-4",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "shimei-6"
+    ]
+  }
+}

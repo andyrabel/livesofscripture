@@ -1,0 +1,18 @@
+{
+  "person_id": "shimri-2",
+  "name": "Shimri",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 11:45"
+  ],
+  "genealogy": {
+    "father": null,
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "jediael"
+    ]
+  }
+}

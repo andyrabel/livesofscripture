@@ -1,0 +1,22 @@
+{
+  "person_id": "ammihud",
+  "name": "Ammihud",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Numbers 1:10",
+    "Numbers 2:18",
+    "Numbers 7:48-53",
+    "Numbers 10:22",
+    "1 Chronicles 7:26"
+  ],
+  "genealogy": {
+    "father": "ephraim",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elishama"
+    ]
+  }
+}

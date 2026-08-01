@@ -1,0 +1,23 @@
+{
+  "person_id": "hotham",
+  "name": "Hotham",
+  "alt_names": [
+    "Helem"
+  ],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "1 Chronicles 7:32-35"
+  ],
+  "genealogy": {
+    "father": "heber",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "amal",
+      "imna",
+      "shelesh",
+      "zophah"
+    ]
+  }
+}

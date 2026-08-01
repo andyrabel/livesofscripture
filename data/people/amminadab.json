@@ -1,0 +1,27 @@
+{
+  "person_id": "amminadab",
+  "name": "Amminadab",
+  "alt_names": [],
+  "tier": "stub",
+  "testament": "OT",
+  "references": [
+    "Exodus 6:23",
+    "Numbers 1:7",
+    "Numbers 2:3",
+    "Numbers 7:12-17",
+    "Numbers 10:14",
+    "Ruth 4:19-20",
+    "1 Chronicles 2:10",
+    "Matthew 1:4",
+    "Luke 3:33"
+  ],
+  "genealogy": {
+    "father": "admin",
+    "mother": null,
+    "spouses": [],
+    "children": [
+      "elisheba",
+      "nahshon"
+    ]
+  }
+}
