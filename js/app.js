@@ -272,9 +272,9 @@ function initials(name) {
     .toUpperCase();
 }
 
-function portraitImg(personId, name, className) {
+function portraitImg(personId, name, className, imageFile) {
   const img = document.createElement("img");
-  img.src = `images/portraits/${personId}.png`;
+  img.src = `images/portraits/${imageFile || `${personId}.png`}`;
   img.alt = name;
   img.className = className;
   img.onerror = () => {
@@ -460,7 +460,7 @@ async function renderHomeSpotlight(fullTier) {
   }
   const person = await loadPerson(pick.person_id);
   box.innerHTML = "";
-  box.appendChild(portraitImg(pick.person_id, pick.name, "home-spotlight__thumb"));
+  box.appendChild(portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image));
 
   const text = document.createElement("div");
   const label = document.createElement("div");
@@ -497,7 +497,7 @@ function exploreCard(entry) {
   const a = document.createElement("a");
   a.className = "explore-card";
   a.href = `people/${encodeURIComponent(entry.person_id)}.html`;
-  a.appendChild(portraitImg(entry.person_id, entry.name, "explore-card__thumb"));
+  a.appendChild(portraitImg(entry.person_id, entry.name, "explore-card__thumb", entry.image));
   const name = document.createElement("span");
   name.className = "explore-card__name";
   name.textContent = entry.name;
@@ -1493,7 +1493,7 @@ function renderConnectionsSidebar(state) {
   const entry = state.index.find((e) => e.person_id === state.centerId);
   if (!entry) return;
 
-  container.appendChild(portraitImg(entry.person_id, entry.name, "connections-sidebar__avatar"));
+  container.appendChild(portraitImg(entry.person_id, entry.name, "connections-sidebar__avatar", entry.image));
 
   const name = document.createElement("h3");
   name.textContent = entry.name;

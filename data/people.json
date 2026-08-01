@@ -11,7 +11,8 @@
       "mediation",
       "idolatry",
       "atonement"
-    ]
+    ],
+    "image": "aaron.png"
   },
   {
     "person_id": "abraham",
@@ -27,7 +28,8 @@
       "covenant",
       "promise",
       "sonship"
-    ]
+    ],
+    "image": "abraham.png"
   },
   {
     "person_id": "amram",
@@ -49,7 +51,8 @@
       "consequence and grace",
       "advocacy",
       "restoration"
-    ]
+    ],
+    "image": "bathsheba.png"
   },
   {
     "person_id": "boaz",
@@ -62,7 +65,8 @@
       "kinsman-redeemer",
       "generosity",
       "inclusion of outsiders"
-    ]
+    ],
+    "image": "boaz.png"
   },
   {
     "person_id": "david",
@@ -76,7 +80,8 @@
       "repentance",
       "covenant",
       "messianic line"
-    ]
+    ],
+    "image": "david.png"
   },
   {
     "person_id": "elimelech",
@@ -104,7 +109,8 @@
       "God who sees",
       "providence",
       "outsider"
-    ]
+    ],
+    "image": "hagar.png"
   },
   {
     "person_id": "isaac",
@@ -118,7 +124,8 @@
       "promise",
       "blessing",
       "covenant continuity"
-    ]
+    ],
+    "image": "isaac.png"
   },
   {
     "person_id": "ishmael",
@@ -131,7 +138,8 @@
       "birthright",
       "providence",
       "outsider blessing"
-    ]
+    ],
+    "image": "ishmael.png"
   },
   {
     "person_id": "jesse",
@@ -144,7 +152,8 @@
       "ordinary faithfulness",
       "God's choice",
       "messianic lineage"
-    ]
+    ],
+    "image": "jesse.png"
   },
   {
     "person_id": "jochebed",
@@ -157,7 +166,8 @@
       "faith under persecution",
       "motherhood",
       "providence"
-    ]
+    ],
+    "image": "jochebed.png"
   },
   {
     "person_id": "jonathan",
@@ -170,7 +180,8 @@
       "covenant friendship",
       "courage",
       "selflessness"
-    ]
+    ],
+    "image": "jonathan.png"
   },
   {
     "person_id": "mahlon",
@@ -191,7 +202,8 @@
       "law",
       "mediation",
       "leadership"
-    ]
+    ],
+    "image": "moses.png"
   },
   {
     "person_id": "naomi",
@@ -206,7 +218,8 @@
       "bitterness and restoration",
       "providence",
       "loyalty (hesed)"
-    ]
+    ],
+    "image": "naomi.png"
   },
   {
     "person_id": "obed",
@@ -230,7 +243,8 @@
       "grace",
       "Gentile mission",
       "apostolic suffering"
-    ]
+    ],
+    "image": "paul.png"
   },
   {
     "person_id": "peter",
@@ -247,7 +261,8 @@
       "discipleship",
       "failure and restoration",
       "apostolic leadership"
-    ]
+    ],
+    "image": "peter.png"
   },
   {
     "person_id": "ruth",
@@ -261,7 +276,8 @@
       "redemption",
       "inclusion of outsiders",
       "providence"
-    ]
+    ],
+    "image": "ruth.png"
   },
   {
     "person_id": "samuel",
@@ -275,7 +291,8 @@
       "obedience over sacrifice",
       "prophetic authority",
       "transition to kingship"
-    ]
+    ],
+    "image": "samuel.png"
   },
   {
     "person_id": "sarah",
@@ -291,7 +308,8 @@
       "promise",
       "barrenness",
       "laughter"
-    ]
+    ],
+    "image": "sarah.png"
   },
   {
     "person_id": "solomon",
@@ -307,7 +325,8 @@
       "wealth",
       "idolatry",
       "temple"
-    ]
+    ],
+    "image": "solomon.png"
   },
   {
     "person_id": "terah",
@@ -327,7 +346,8 @@
       "marriage across boundaries",
       "circumcision",
       "providence"
-    ]
+    ],
+    "image": "zipporah.png"
   },
   {
     "person_id": "adam",
@@ -2958,7 +2978,8 @@
       "priesthood",
       "faithful service",
       "transition of leadership"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "ithamar",
@@ -3009,7 +3030,8 @@
       "justice",
       "wisdom",
       "priesthood"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "miriam",
@@ -4638,7 +4660,8 @@
       "parenting",
       "consequences",
       "mentorship"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "hophni",
@@ -4743,7 +4766,8 @@
       "disobedience",
       "jealousy",
       "tragic decline"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "nahash",
@@ -4912,7 +4936,8 @@
       "guidance",
       "consequences",
       "worship"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "abiathar",
@@ -4926,7 +4951,8 @@
       "loyalty",
       "consequences",
       "fulfilled prophecy"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "nabal",
@@ -5262,7 +5288,8 @@
       "courage",
       "confrontation",
       "covenant"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "hadadezer",
@@ -5322,7 +5349,8 @@
       "loyalty",
       "faithfulness",
       "fulfilled prophecy"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "ahitub-2",
@@ -6334,7 +6362,8 @@
       "idolatry",
       "divided kingdom",
       "golden calves"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "nebat",
@@ -6362,7 +6391,8 @@
       "folly",
       "divided kingdom",
       "messianic line"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "shemaiah",
@@ -6383,7 +6413,8 @@
       "reform",
       "covenant renewal",
       "tragic death"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "abijah-2",
@@ -6488,7 +6519,8 @@
       "faithfulness",
       "compromised alliances",
       "answered prayer"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "ahijah-3",
@@ -6572,7 +6604,8 @@
       "idolatry",
       "false repentance",
       "injustice"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "jezebel",
@@ -6621,7 +6654,8 @@
       "faith under persecution",
       "God's provision",
       "discouragement"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "obadiah",
@@ -6650,7 +6684,8 @@
       "kingship",
       "zealous judgment",
       "incomplete obedience"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "nimshi",
@@ -6671,7 +6706,8 @@
       "miracles",
       "God's provision",
       "honesty"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "shaphat-2",
@@ -6882,7 +6918,8 @@
       "priesthood",
       "mentorship",
       "covenant renewal"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "mattan",
@@ -6990,7 +7027,8 @@
       "mercy",
       "God's compassion",
       "reluctant prophet"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "amittai",
@@ -7166,7 +7204,8 @@
       "trust in God",
       "answered prayer",
       "pride"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "shalmaneser",
@@ -7275,7 +7314,8 @@
       "trust in God",
       "messianic prophecy",
       "suffering servant"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "amoz",
@@ -7375,7 +7415,8 @@
       "innocent blood",
       "repentance",
       "God's mercy"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "hephzibah",
@@ -7458,7 +7499,8 @@
       "priesthood",
       "rediscovery of Scripture",
       "reform"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "ahikam",
@@ -7647,7 +7689,8 @@
       "broken oath",
       "fall of Jerusalem",
       "exile"
-    ]
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "nebuzaradan",
@@ -14343,7 +14386,8 @@
       "temple rebuilding",
       "messianic prophecy",
       "restoration"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "jeiel-6",
@@ -14749,7 +14793,8 @@
       "persecution",
       "lament",
       "new covenant"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "cyrus",
@@ -15549,7 +15594,8 @@
       "priorities",
       "encouragement",
       "messianic hope"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "iddo-5",
@@ -15584,7 +15630,8 @@
       "reform",
       "trust in God",
       "covenant renewal"
-    ]
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "gershom-3",
@@ -19021,7 +19068,8 @@
       "social justice",
       "prophecy",
       "messianic prophecy"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "uriah-4",
@@ -19504,7 +19552,8 @@
       "exile",
       "symbolic acts",
       "restoration"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "buzi",
@@ -19569,7 +19618,8 @@
       "wisdom",
       "prophecy",
       "God's protection"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "gog-2",
@@ -19701,7 +19751,8 @@
       "unfaithfulness",
       "redeeming love",
       "covenant"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "beeri",
@@ -19763,7 +19814,8 @@
       "prophecy",
       "repentance",
       "outpouring of the Spirit"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "pethuel",
@@ -19783,7 +19835,8 @@
       "social justice",
       "prophecy",
       "accountability"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "obadiah-12",
@@ -19796,7 +19849,8 @@
       "prophecy",
       "justice",
       "family betrayal"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "king-of-nineveh",
@@ -19816,7 +19870,8 @@
       "prophecy",
       "God's justice",
       "comfort for the oppressed"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "habakkuk",
@@ -19830,7 +19885,8 @@
       "justice",
       "trust in God",
       "honest questions"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "zephaniah-3",
@@ -19844,7 +19900,8 @@
       "day of the LORD",
       "restoration",
       "God's joy"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "cushi-2",
@@ -19960,7 +20017,8 @@
       "faithfulness",
       "tithing",
       "coming messenger"
-    ]
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "abihud-2",
