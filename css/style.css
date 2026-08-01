@@ -41,6 +41,14 @@
   --region-rome-italy: #4a3aa7;
   --region-other: #898781;
   --timeline-event: var(--color-accent-strong);
+
+  /* Israel (Northern Kingdom) vs Judah (Southern Kingdom), Divided Monarchy
+     only -- a political rather than geographic split, so it's a distinct
+     pair from the region palette above rather than reusing one of those
+     hues. Validated via the dataviz skill's validate_palette.js. */
+  --kingdom-israel: #1f6fd6;
+  --kingdom-judah: #c0388a;
+  --timeline-label-bg: rgba(255, 255, 255, 0.85);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -75,6 +83,9 @@
     --region-rome-italy: #9085e9;
     --region-other: #898781;
     --timeline-event: var(--color-accent-strong);
+    --kingdom-israel: #4f8fe0;
+    --kingdom-judah: #d15aa8;
+    --timeline-label-bg: rgba(36, 32, 26, 0.85);
   }
 }
 
@@ -109,6 +120,9 @@
   --region-rome-italy: #9085e9;
   --region-other: #898781;
   --timeline-event: var(--color-accent-strong);
+  --kingdom-israel: #4f8fe0;
+  --kingdom-judah: #d15aa8;
+  --timeline-label-bg: rgba(36, 32, 26, 0.85);
 }
 
 :root[data-theme="light"] {
@@ -142,6 +156,9 @@
   --region-rome-italy: #4a3aa7;
   --region-other: #898781;
   --timeline-event: var(--color-accent-strong);
+  --kingdom-israel: #1f6fd6;
+  --kingdom-judah: #c0388a;
+  --timeline-label-bg: rgba(255, 255, 255, 0.85);
 }
 
 * { box-sizing: border-box; }
@@ -979,6 +996,17 @@ body.connections-fullpage-active {
   background: var(--timeline-event);
 }
 
+.timeline-legend__swatch--kingdom-israel { background: var(--kingdom-israel); }
+.timeline-legend__swatch--kingdom-judah { background: var(--kingdom-judah); }
+
+.timeline-legend--kingdom {
+  margin-top: -0.6rem;
+}
+
+.timeline-legend__intro {
+  font-weight: 600;
+}
+
 .timeline-canvas-wrapper {
   position: relative;
   overflow: auto;
@@ -1029,22 +1057,11 @@ body.connections-fullpage-active {
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 28px;
-  padding: 0 0.5rem;
+  padding: 0 0.4rem;
   border-radius: 5px;
-  overflow: hidden;
-  text-align: center;
-  color: #12100c;
-  text-shadow:
-    0 0 3px rgba(255, 255, 255, 0.9),
-    0 0 5px rgba(255, 255, 255, 0.7),
-    0 1px 0 rgba(255, 255, 255, 0.6);
-  font-size: 0.78rem;
-  font-weight: 600;
   text-decoration: none;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   box-shadow: 0 0 0 2px var(--color-surface);
 }
 
@@ -1054,7 +1071,18 @@ body.connections-fullpage-active {
   outline: none;
 }
 
-.timeline-bar--era {
+/* The colored fill is a separate layer from the name label below, so the
+   era band's textured/faded treatment (which needs to visually signal "this
+   date is an estimate") never has to fight with keeping the person's name
+   legible -- see .timeline-bar__label. */
+.timeline-bar__fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.timeline-bar__fill--era {
   border: 1px dashed rgba(0, 0, 0, 0.35);
   background-image: repeating-linear-gradient(
     135deg,
@@ -1068,9 +1096,29 @@ body.connections-fullpage-active {
   mask-image: linear-gradient(to right, transparent 0%, black 22%, black 78%, transparent 100%);
 }
 
-.timeline-bar--alive {
+.timeline-bar--alive .timeline-bar__fill {
   border: 1px dashed rgba(0, 0, 0, 0.35);
   opacity: 0.85;
+}
+
+/* Solid chip (not a text-shadow halo) so the name reads at full contrast
+   regardless of what's underneath -- the fill's own color, the era hatch
+   texture, or its faded edges. Sits at the left end of the bar per the
+   site's convention of reading a bar left-to-right from its start. */
+.timeline-bar__label {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  min-width: 0;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--timeline-label-bg);
+  color: var(--color-text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @keyframes timeline-pulse {

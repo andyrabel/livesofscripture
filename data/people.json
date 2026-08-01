@@ -11927,6 +11927,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "kingship",
       "idolatry",
@@ -11949,7 +11950,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "zeruah",
@@ -11961,7 +11963,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "rehoboam",
@@ -11970,6 +11973,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "kingship",
       "folly",
@@ -12002,6 +12006,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "kingship",
       "reform",
@@ -12029,7 +12034,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "nadab-2",
@@ -12044,7 +12050,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "naamah-2",
@@ -12056,7 +12063,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shishak-2",
@@ -12081,7 +12089,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "maacah-3",
@@ -12098,7 +12107,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "abishalom",
@@ -12113,7 +12123,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "asa",
@@ -12129,7 +12140,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "baasha",
@@ -12191,6 +12203,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "kingship",
       "faithfulness",
@@ -12287,7 +12300,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "tibni",
@@ -12332,6 +12346,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "kingship",
       "idolatry",
@@ -12360,7 +12375,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "ethbaal",
@@ -12372,7 +12388,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "hiel",
@@ -12420,6 +12437,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "prophecy",
       "faith under persecution",
@@ -12463,6 +12481,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "kingship",
       "zealous judgment",
@@ -12484,7 +12503,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "elisha",
@@ -12493,6 +12513,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "prophecy",
       "miracles",
@@ -12515,7 +12536,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "naboth",
@@ -12602,7 +12624,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "ahaziah",
@@ -12617,7 +12640,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "azubah",
@@ -12632,7 +12656,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shilhi",
@@ -12644,7 +12669,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jehoram",
@@ -12664,7 +12690,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "joram-2",
@@ -12681,7 +12708,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "mesha",
@@ -12744,7 +12772,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "athaliah",
@@ -12762,7 +12791,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jehoshaphat-4",
@@ -12777,7 +12807,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "bidkar",
@@ -12832,7 +12863,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jehosheba",
@@ -12852,7 +12884,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "joash-3",
@@ -12870,7 +12903,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jehoiada-2",
@@ -12879,6 +12913,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "courage",
       "priesthood",
@@ -12912,7 +12947,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jozacar",
@@ -12982,7 +13018,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "ben-hadad-2",
@@ -13013,7 +13050,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jeroboam-2",
@@ -13028,7 +13066,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jehoaddin",
@@ -13060,7 +13099,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jonah",
@@ -13069,6 +13109,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "obedience",
       "mercy",
@@ -13091,7 +13132,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "zechariah",
@@ -13106,7 +13148,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jecoliah",
@@ -13120,7 +13163,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jotham-2",
@@ -13136,7 +13180,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shallum",
@@ -13313,7 +13358,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zadok-2",
@@ -13325,7 +13371,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "rezin",
@@ -13351,7 +13398,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "urijah",
@@ -13373,6 +13421,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "kingship",
       "trust in God",
@@ -13424,7 +13473,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zechariah-2",
@@ -13436,7 +13486,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "sennacherib",
@@ -13552,6 +13603,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "prophecy",
       "trust in God",
@@ -13574,7 +13626,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "tirhakah",
@@ -13718,6 +13771,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "idolatry",
       "innocent blood",
@@ -13742,7 +13796,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "uzza",
@@ -13769,7 +13824,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "meshullemeth",
@@ -13784,7 +13840,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "haruz",
@@ -13796,7 +13853,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jedidah",
@@ -13811,7 +13869,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "adaiah",
@@ -13823,7 +13882,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shaphan",
@@ -13871,6 +13931,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "priesthood",
       "rediscovery of Scripture",
@@ -14064,7 +14125,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "hamutal",
@@ -14079,7 +14141,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jeremiah",
@@ -14091,7 +14154,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jehoiakim",
@@ -14109,7 +14173,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zebidah",
@@ -14124,7 +14189,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "pedaiah",
@@ -14136,7 +14202,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "nebuchadnezzar",
@@ -14207,6 +14274,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "kingship",
       "broken oath",
@@ -15822,7 +15890,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zedekiah-3",
@@ -15837,7 +15906,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shealtiel",
@@ -26289,7 +26359,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jerimoth-4",
@@ -26335,7 +26406,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shemariah-2",
@@ -26351,7 +26423,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zaham",
@@ -26367,7 +26440,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "attai-3",
@@ -26383,7 +26457,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "ziza-2",
@@ -26399,7 +26474,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "shelomith-4",
@@ -26415,7 +26491,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zerah-6",
@@ -26806,7 +26883,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "jehiel-3",
@@ -26821,7 +26899,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zechariah-11",
@@ -26836,7 +26915,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "azaryahu",
@@ -26851,7 +26931,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "michael-7",
@@ -26866,7 +26947,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "sephatiah",
@@ -26881,7 +26963,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "azariah-9",
@@ -27021,7 +27104,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "king-of-damascus",
@@ -27128,7 +27212,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "azrikam-4",
@@ -27726,6 +27811,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "prophecy",
       "persecution",
@@ -34720,7 +34806,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "tabeel-2",
@@ -34748,7 +34835,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "zechariah-23",
@@ -34851,6 +34939,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "social justice",
       "prophecy",
@@ -35321,7 +35410,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "seraiah-9",
@@ -35525,7 +35615,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "malchijah-10",
@@ -35540,7 +35631,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "ebed-melech",
@@ -36016,6 +36108,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "prophecy",
       "unfaithfulness",
@@ -36038,7 +36131,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "gomer-2",
@@ -36055,7 +36149,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "diblaim",
@@ -36082,7 +36177,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "lo-ruhamah",
@@ -36097,7 +36193,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "lo-ammi",
@@ -36112,7 +36209,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "king-jareb",
@@ -36132,6 +36230,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "prophecy",
       "repentance",
@@ -36153,7 +36252,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "amos",
@@ -36162,6 +36262,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "israel",
     "topics": [
       "social justice",
       "prophecy",
@@ -36227,6 +36328,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "faith",
       "justice",
@@ -36246,6 +36348,7 @@
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
+    "kingdom": "judah",
     "topics": [
       "prophecy",
       "day of the LORD",
@@ -36271,7 +36374,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "gedaliah-5",
@@ -36286,7 +36390,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "amariah-8",
@@ -36301,7 +36406,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "hezekiah-3",
@@ -36313,7 +36419,8 @@
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "kingdom": "judah"
   },
   {
     "person_id": "joshua-4",
@@ -39341,9 +39448,7 @@
   {
     "person_id": "epaphras",
     "name": "Epaphras",
-    "alt_names": [
-      "Epaphroditus"
-    ],
+    "alt_names": [],
     "tier": "stub",
     "testament": "NT",
     "era": "Apostolic",
@@ -39809,5 +39914,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT"
+  },
+  {
+    "person_id": "epaphroditus",
+    "name": "Epaphroditus",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "NT",
+    "era": "Apostolic",
+    "timeline": {
+      "precision": "era"
+    }
   }
 ]

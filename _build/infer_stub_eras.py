@@ -150,6 +150,7 @@ def main():
     first_ref = {}
     known_era = {}
     known_region = {}
+    known_kingdom = {}
     full_timeline = {}
 
     for entry in index:
@@ -166,6 +167,8 @@ def main():
                 known_era[pid] = person["era"]
             if person.get("region"):
                 known_region[pid] = person["region"]
+            if person.get("kingdom"):
+                known_kingdom[pid] = person["kingdom"]
             if person.get("timeline"):
                 full_timeline[pid] = person["timeline"]
 
@@ -228,6 +231,29 @@ def main():
             era_result[pid] = low_conf_era[pid]
             fallback_count += 1
 
+    # Kingdom propagation (Israel = Northern Kingdom vs Judah = Southern
+    # Kingdom), seeded only from full-tier anchors with a hand-curated
+    # `kingdom` and bounded much tighter than era (KINGDOM_MAX_HOPS) since
+    # dynastic affiliation is a far more local signal than era placement.
+    # Only ever propagates between two people who have already resolved to
+    # the Divided Monarchy era -- a genealogy edge that crosses into another
+    # era (e.g. a Divided-Monarchy figure's descendant born into the Exile)
+    # says nothing about which pre-exilic kingdom anyone belonged to.
+    KINGDOM_MAX_HOPS = 4
+    kingdom_result = dict(known_kingdom)
+    kingdom_queue = deque((pid, 0) for pid in kingdom_result)
+    while kingdom_queue:
+        pid, hops = kingdom_queue.popleft()
+        if hops >= KINGDOM_MAX_HOPS:
+            continue
+        for nb in adjacency.get(pid, ()):
+            if nb in kingdom_result:
+                continue
+            if era_result.get(nb) != "Divided Monarchy":
+                continue
+            kingdom_result[nb] = kingdom_result[pid]
+            kingdom_queue.append((nb, hops + 1))
+
     # Write results back into the index. Full-tier entries keep their
     # human-authored era/region/genealogy untouched, but still get their
     # `timeline` object copied into the index so the timeline page can read
@@ -248,6 +274,9 @@ def main():
         region = region_result.get(pid)
         if region:
             entry["region"] = region
+        kingdom = kingdom_result.get(pid)
+        if kingdom:
+            entry["kingdom"] = kingdom
         gen = genealogy.get(pid) or {}
         minimal_gen = {
             k: v for k, v in {
@@ -268,6 +297,8 @@ def main():
           f"{bfs_count} via genealogy BFS, {fallback_count} via low-confidence book fallback).")
     unresolved = [pid for pid in genealogy if pid not in era_result]
     print(f"Updated {updated} stub index entries. {len(unresolved)} people still unresolved (no first_reference match).")
+    print(f"Resolved kingdom (Israel/Judah) for {len(kingdom_result)} Divided Monarchy people "
+          f"({len(known_kingdom)} full-tier anchors, {len(kingdom_result) - len(known_kingdom)} via genealogy BFS).")
 
 
 if __name__ == "__main__":

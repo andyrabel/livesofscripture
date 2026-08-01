@@ -71,12 +71,17 @@
       Show historical events
     </label>
     <label class="timeline-toolbar__field">
+      <input type="checkbox" id="timeline-stub-toggle">
+      Show name-only entries
+    </label>
+    <label class="timeline-toolbar__field">
       Jump to era
       <select id="timeline-jump-era"></select>
     </label>
   </div>
 
   <div id="timeline-legend" class="timeline-legend"></div>
+  <div id="timeline-kingdom-legend" class="timeline-legend timeline-legend--kingdom"></div>
 
   <div id="timeline-state" class="timeline-state"></div>
   <div id="timeline-canvas-wrapper" class="timeline-canvas-wrapper">
@@ -92,6 +97,9 @@
     bar for specifics.</p>
     <p>The historical events shown for context are a small curated set of well-documented,
     independently-dated anchor points — not an exhaustive historical record.</p>
+    <p><strong>Name-only entries</strong> are people who appear in Scripture only in a
+    genealogy or list, with no narrative of their own — hidden by default to keep the
+    timeline readable, but available via the checkbox above for tracing full family lines.</p>
   </div>
 </main>
 

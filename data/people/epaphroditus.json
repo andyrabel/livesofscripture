@@ -1,15 +1,14 @@
 {
-  "person_id": "philip-3",
-  "name": "Philip",
+  "person_id": "epaphroditus",
+  "name": "Epaphroditus",
   "alt_names": [],
   "tier": "stub",
   "testament": "NT",
   "references": [
-    "Acts 6:5",
-    "Acts 8:5-40",
-    "Acts 21:8"
+    "Philippians 2:25-30",
+    "Philippians 4:18"
   ],
-  "first_reference": "Acts 6:5",
+  "first_reference": "Philippians 2:25-30",
   "genealogy": {
     "father": null,
     "mother": null,

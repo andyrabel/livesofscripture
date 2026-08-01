@@ -1835,6 +1835,16 @@ const TIMELINE_REGIONS_WITH_OTHER = [
   { key: "other", label: "Other / unspecified" },
 ];
 
+// Only meaningful during the Divided Monarchy era (930-586 BC), when the
+// united kingdom split into the Northern Kingdom (Israel) and Southern
+// Kingdom (Judah) -- see data's `kingdom` field, hand-curated for full-tier
+// figures and propagated to stub genealogy relatives by
+// _build/infer_stub_eras.py. People from other eras never carry this field.
+const TIMELINE_KINGDOMS = [
+  { key: "israel", label: "Israel (Northern Kingdom)" },
+  { key: "judah", label: "Judah (Southern Kingdom)" },
+];
+
 // Compositional order of the biblical books, used only to give era-precision
 // (year-less) OT figures a relative left-to-right position within their era
 // band -- e.g. Abraham (Genesis 12) plots left of Joseph (Genesis 37) inside
@@ -2059,6 +2069,11 @@ function timelineRegionLabel(key) {
   return found ? found.label : "Region unspecified";
 }
 
+function timelineKingdomLabel(kingdom) {
+  const found = TIMELINE_KINGDOMS.find((k) => k.key === kingdom);
+  return found ? found.label : "";
+}
+
 function timelineFormatYear(year) {
   const y = Math.round(year);
   return y < 0 ? `${-y} BC` : `AD ${y}`;
@@ -2163,7 +2178,10 @@ function showTimelinePersonTooltip(evt, p, mode) {
   el.appendChild(strong);
   el.appendChild(document.createTextNode(timelineLifespanLabel(p)));
   const meta = document.createElement("div");
-  meta.textContent = `${timelineRegionLabel(timelineRegionKey(p.region))} · ${p.era || ""}`.trim();
+  const kingdomLabel = timelineKingdomLabel(p.kingdom);
+  meta.textContent = [timelineRegionLabel(timelineRegionKey(p.region)), p.era, kingdomLabel]
+    .filter(Boolean)
+    .join(" · ");
   el.appendChild(meta);
   const note = timelineTooltipNote(p);
   if (note) {
@@ -2217,6 +2235,41 @@ function timelineBuildLegend(container, presentKeys, onChange) {
   eventItem.appendChild(eventSwatch);
   eventItem.appendChild(document.createTextNode("Historical event"));
   container.appendChild(eventItem);
+}
+
+// Separate legend for the Israel/Judah split, shown only when at least one
+// visible person carries a `kingdom` value (i.e. only ever during the
+// Divided Monarchy era -- see TIMELINE_KINGDOMS above). Kept as its own
+// row, distinct from the geographic region legend, since kingdom is a
+// political rather than geographic distinction and both kingdoms share the
+// same "Canaan & Israel" region.
+function timelineBuildKingdomLegend(container, presentKingdoms, onChange) {
+  container.innerHTML = "";
+  if (!presentKingdoms.size) {
+    container.style.display = "none";
+    return;
+  }
+  container.style.display = "flex";
+  const intro = document.createElement("span");
+  intro.className = "timeline-legend__intro";
+  intro.textContent = "Divided Monarchy:";
+  container.appendChild(intro);
+  for (const kingdom of TIMELINE_KINGDOMS) {
+    if (!presentKingdoms.has(kingdom.key)) continue;
+    const label = document.createElement("label");
+    label.className = "timeline-legend__item";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = true;
+    cb.value = kingdom.key;
+    cb.addEventListener("change", onChange);
+    const swatch = document.createElement("span");
+    swatch.className = `timeline-legend__swatch timeline-legend__swatch--kingdom-${kingdom.key}`;
+    label.appendChild(cb);
+    label.appendChild(swatch);
+    label.appendChild(document.createTextNode(kingdom.label));
+    container.appendChild(label);
+  }
 }
 
 function timelinePopulateJumpSelect(select) {
@@ -2276,7 +2329,9 @@ async function renderTimelinePage() {
   const canvas = document.getElementById("timeline-canvas");
   const countEl = document.getElementById("timeline-results-count");
   const legendEl = document.getElementById("timeline-legend");
+  const kingdomLegendEl = document.getElementById("timeline-kingdom-legend");
   const eventsToggle = document.getElementById("timeline-events-toggle");
+  const stubToggle = document.getElementById("timeline-stub-toggle");
   const jumpSelect = document.getElementById("timeline-jump-era");
 
   function setState(msg) {
@@ -2314,12 +2369,22 @@ async function renderTimelinePage() {
   }
 
   const presentKeys = new Set(people.map((p) => timelineRegionKey(p.region)));
+  const presentKingdoms = new Set(people.filter((p) => p.kingdom).map((p) => p.kingdom));
 
   function render() {
     const activeRegions = new Set(
       Array.from(legendEl.querySelectorAll('input[type="checkbox"]:checked')).map((cb) => cb.value)
     );
-    const visible = people.filter((p) => activeRegions.has(timelineRegionKey(p.region)));
+    const activeKingdoms = new Set(
+      Array.from(kingdomLegendEl.querySelectorAll('input[type="checkbox"]:checked')).map((cb) => cb.value)
+    );
+    const showStubs = stubToggle.checked;
+    const visible = people.filter((p) => {
+      if (!activeRegions.has(timelineRegionKey(p.region))) return false;
+      if (p.kingdom && !activeKingdoms.has(p.kingdom)) return false;
+      if (!showStubs && p.tier === "stub") return false;
+      return true;
+    });
 
     countEl.textContent = `Showing ${visible.length} ${visible.length === 1 ? "person" : "people"}`;
 
@@ -2365,15 +2430,27 @@ async function renderTimelinePage() {
     for (const p of spans) {
       const bar = document.createElement("a");
       bar.href = `people/${encodeURIComponent(p.person_id)}.html`;
-      bar.className = `timeline-bar timeline-bar--${p.precision}${p.alive ? " timeline-bar--alive" : ""}`;
+      bar.className = `timeline-bar${p.alive ? " timeline-bar--alive" : ""}`;
       bar.dataset.personId = p.person_id;
       const x = Math.round((p.start - minYear) * TIMELINE_PX_PER_YEAR);
       const w = Math.max(TIMELINE_MIN_BAR_WIDTH, Math.round((p.end - p.start) * TIMELINE_PX_PER_YEAR));
       bar.style.left = `${x}px`;
       bar.style.top = `${TIMELINE_LANE_GAP + p.lane * (TIMELINE_LANE_HEIGHT + TIMELINE_LANE_GAP)}px`;
       bar.style.width = `${w}px`;
-      bar.style.backgroundColor = `var(--region-${timelineRegionKey(p.region)})`;
-      if (w >= TIMELINE_LABEL_MIN_WIDTH) bar.textContent = p.name;
+
+      const fill = document.createElement("span");
+      fill.className = `timeline-bar__fill timeline-bar__fill--${p.precision}`;
+      fill.style.backgroundColor = p.kingdom
+        ? `var(--kingdom-${p.kingdom})`
+        : `var(--region-${timelineRegionKey(p.region)})`;
+      bar.appendChild(fill);
+
+      if (w >= TIMELINE_LABEL_MIN_WIDTH) {
+        const label = document.createElement("span");
+        label.className = "timeline-bar__label";
+        label.textContent = p.name;
+        bar.appendChild(label);
+      }
       bar.addEventListener("mousemove", (evt) => showTimelinePersonTooltip(evt, p, "mouse"));
       bar.addEventListener("mouseenter", (evt) => showTimelinePersonTooltip(evt, p, "mouse"));
       bar.addEventListener("mouseleave", hideTimelineTooltip);
@@ -2413,12 +2490,14 @@ async function renderTimelinePage() {
   }
 
   timelineBuildLegend(legendEl, presentKeys, render);
+  timelineBuildKingdomLegend(kingdomLegendEl, presentKingdoms, render);
   timelinePopulateJumpSelect(jumpSelect);
   jumpSelect.addEventListener("change", () => {
     if (jumpSelect.value) timelineScrollToYear(Number(jumpSelect.value));
     jumpSelect.value = "";
   });
   eventsToggle.addEventListener("change", render);
+  stubToggle.addEventListener("change", render);
 
   render();
 }

@@ -1,19 +1,15 @@
 {
   "person_id": "epaphras",
   "name": "Epaphras",
-  "alt_names": [
-    "Epaphroditus"
-  ],
+  "alt_names": [],
   "tier": "stub",
   "testament": "NT",
   "references": [
-    "Philippians 2:25",
-    "Philippians 4:18",
     "Colossians 1:7",
     "Colossians 4:12",
     "Philemon 1:23"
   ],
-  "first_reference": "Philippians 2:25",
+  "first_reference": "Colossians 1:7",
   "genealogy": {
     "father": null,
     "mother": null,

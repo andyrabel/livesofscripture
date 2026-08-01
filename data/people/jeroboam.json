@@ -40,6 +40,7 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
+  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "The biblical regnal formula for Israel's kings (unlike Judah's) does not record an accession age, only reign length and synchronism to Judah's king — enough to fix roughly when Jeroboam reigned (c. 931-910 BC), but not his own birth or death year, so no specific date is plotted here."
