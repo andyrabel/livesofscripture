@@ -33,10 +33,10 @@
   "family_friendly_summary": "Delilah lived in the Valley of Sorek, and Samson fell in love with her. The Philistine rulers, desperate to capture Samson, offered Delilah a large sum of money if she could discover the secret of his incredible strength. Delilah asked Samson again and again, and even though he lied to her three times, she kept pressuring him until he finally told her the truth: his strength was tied to a vow to God that meant his hair had never been cut. Delilah had his hair cut off while he slept, and Samson's strength left him. Her story is a hard lesson about how persistent pressure toward compromise can eventually wear someone down.",
   "adult_story": "Delilah, a woman from the Valley of Sorek whom Samson loved, was approached by the lords of the Philistines with a substantial bribe -- eleven hundred pieces of silver each -- to discover the secret of Samson's strength so he could finally be subdued (Judges 16:4-5). Delilah pursued the answer directly and repeatedly, asking Samson outright how he might be bound, and three times he gave her false answers -- fresh bowstrings, new ropes, weaving his hair into a loom -- each of which she tested immediately with Philistine men hiding in ambush, and each of which failed (16:6-14). Undeterred, and pressing him relentlessly day after day until, Scripture says, 'his soul was annoyed to death,' Samson finally told her the truth: he was a Nazirite from birth, and if his hair were cut his strength would leave him (16:15-17). Delilah recognized this answer was genuine, sent word to the Philistine rulers to bring the promised silver, lulled Samson to sleep on her knees, and had his seven locks of hair shaved off; Samson awoke to find the LORD had departed from him, and the Philistines seized, blinded, and imprisoned him (16:18-21). Scripture gives no account of Delilah's own fate afterward. Her story stands as a stark warning about persistent, profit-driven manipulation, and about how Samson's own long pattern of compromising with what should have been off-limits finally cost him everything.",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,

@@ -35,10 +35,10 @@
   "family_friendly_summary": "Dinah was the daughter of Jacob and Leah. While visiting the women of a nearby city called Shechem, a prince from that city assaulted her -- a terrible wrong done to her. When Dinah's brothers Simeon and Levi found out, they were furious, and they tricked the men of the whole city and then attacked and killed them in revenge, which was itself deeply wrong and something their father Jacob strongly disapproved of, both right away and later on his deathbed. Dinah's story is a hard one, showing real harm done to her and a violent, sinful overreaction by her brothers -- Scripture doesn't hide either wrong, and it shows that even in Jacob's own family, terrible things happened that God's Word does not pretend away.",
   "adult_story": "Dinah, daughter of Jacob and Leah, went out to visit the women of Shechem while her family was camped nearby, and Shechem, son of the local ruler Hamor, seized and violated her (Genesis 34:1-2). Shechem afterward claimed to love her and asked to marry her, and his father proposed a full alliance between the two peoples (34:3-10). Jacob's sons responded with deceit: they demanded that all the men of Shechem's city be circumcised as a condition of the marriage and alliance, and while the men were incapacitated recovering, Simeon and Levi, Dinah's full brothers, attacked the city and killed every man, plundering it and reclaiming Dinah from Shechem's house (34:13-29). Jacob rebuked them immediately for endangering the whole family among the surrounding peoples (34:30), and on his deathbed condemned their 'anger, for it is fierce, and their wrath, for it is cruel,' scattering their descendants among Israel's tribes rather than blessing them (49:5-7). Genesis gives Dinah no recorded words at any point in the account -- neither about the assault nor its violent aftermath -- and her story closes without further mention of her own life. Scripture presents both the wrong done to her and the wrong done in her name as genuine evils, refusing to justify either one, even within the family through whom God's covenant promises were being carried forward.",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,

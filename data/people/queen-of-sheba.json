@@ -36,10 +36,10 @@
   "family_friendly_summary": "The Queen of Sheba ruled a wealthy kingdom far from Israel, and when she heard about King Solomon's incredible wisdom, she made the long journey to Jerusalem to see it for herself, bringing camels loaded with spices, gold, and precious stones. She tested Solomon with hard questions, and Solomon was able to answer every single one. When she saw his wisdom, his palace, and how well he ran his kingdom, she was amazed and declared that even everything she'd heard hadn't come close to describing the reality. She praised the LORD for loving Israel enough to make Solomon king. The two exchanged generous gifts before she returned home.",
   "adult_story": "The Queen of Sheba, ruler of a wealthy kingdom (likely in southern Arabia), heard of Solomon's fame -- connected to the name of the LORD -- and traveled a great distance with camels bearing spices, gold, and precious stones to test him with hard questions (1 Kings 10:1-2). Solomon answered every question; 'there was nothing hidden from the king which he did not explain to her' (10:3). She was overwhelmed by his wisdom, his palace, his officials, and his temple offerings, to the point that 'there was no more spirit in her' (10:4-5). Her response moved beyond admiration for Solomon to recognition of God's hand behind it: 'Blessed be the LORD your God who delighted in you, setting you on the throne of Israel... He made you king, to do justice and righteousness' (10:9) -- a remarkable confession of Israel's God from a foreign ruler. She gave Solomon an extraordinary quantity of gold, spices, and precious stones, and he gave her whatever she desired in return, beyond his customary royal generosity, before she returned to her own land (10:10-13). Centuries later, Jesus Himself cited her journey approvingly, saying 'the queen of the South will rise up with this generation... and she will condemn it, because she came from the ends of the earth to hear the wisdom of Solomon; and behold, something greater than Solomon is here' (Matthew 12:42; Luke 11:31).",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-queen.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a veil and royal circlet, holding a royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for queens -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,

@@ -44,10 +44,10 @@
   "family_friendly_summary": "Bilhah was a servant given to Rachel when Rachel married Jacob. When Rachel wasn't able to have children of her own for a long time, she gave Bilhah to Jacob so that Bilhah's sons could be counted as Rachel's own -- a custom of that time. Bilhah gave birth to two of Jacob's twelve sons, Dan and Naphtali, who each became one of the twelve tribes of Israel. Bilhah's story reminds us that even people with very little power or choice in a household were still part of God's unfolding plan, and that the beginnings of the twelve tribes of Israel included the children of servants, not only of the free wives.",
   "adult_story": "Bilhah entered Jacob's household as Rachel's personal maidservant, a gift from Laban at Rachel's marriage (Genesis 29:29). When years passed with Rachel unable to conceive, Rachel gave Bilhah to Jacob as a wife so that Bilhah's children would legally count as Rachel's own -- an arrangement echoing Sarah's earlier use of Hagar. Bilhah bore Dan, whose name reflects Rachel's sense that God had vindicated her, and Naphtali, named for Rachel's 'wrestlings' with her sister (30:1-8); both became founding fathers of two of Israel's twelve tribes. Bilhah's position in the household, however, left her without full agency of her own, and Genesis records a later, troubling episode without commentary or excuse: Jacob's firstborn son Reuben 'lay with Bilhah his father's concubine,' an act Jacob heard of and that later cost Reuben his birthright blessing (35:22; 49:3-4, in context with Jacob's deathbed pronouncement). Genesis gives Bilhah no recorded words of her own throughout -- she appears only as mother and, in that final incident, as one wronged within a household already marked by rivalry and dysfunction between Leah and Rachel. Her sons' inclusion among the twelve tribes nonetheless shows that Israel's founding family, from its earliest generation, included those brought in through servanthood and hardship, not only the free-born wives.",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,

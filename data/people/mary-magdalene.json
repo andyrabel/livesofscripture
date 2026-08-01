@@ -37,10 +37,10 @@
   "family_friendly_summary": "Mary Magdalene came from a town called Magdala, and Jesus freed her from seven demons that had troubled her. After that, she became one of Jesus's most devoted followers, and along with some other women, she helped provide for Jesus and His disciples out of her own resources. Mary Magdalene showed remarkable courage and loyalty -- she was among the women who stayed near the cross when Jesus was crucified, even after most of His male disciples had run away in fear. She then went early to the tomb after Jesus died and was the very first person to see Him alive again after His resurrection. Jesus spoke her name, and she immediately ran to tell the other disciples the incredible news that He was risen.",
   "adult_story": "Mary Magdalene, from the town of Magdala on the Sea of Galilee, is introduced as a woman \"from whom seven demons had gone out,\" healed by Jesus, after which she became one of several women who \"were contributing to their support out of their private means,\" traveling with Jesus and the twelve (Luke 8:1-3). She is named consistently first among the women who followed Jesus, suggesting particular prominence among them. Her greatest significance in the Gospels comes at the end of Jesus's life: she was among the women who remained at the cross when nearly all the male disciples had fled, watching Jesus die (Matthew 27:55-56; John 19:25). She then went to the tomb early on the first day of the week and discovered it empty, running to tell Peter and John (John 20:1-2). Remaining at the tomb weeping, she was the first person to see the risen Jesus, though she initially mistook Him for the gardener until He spoke her name, \"Mary,\" at which she recognized Him and cried out, \"Rabboni!\" (20:11-16). Jesus then gave her the first commission to announce His resurrection: \"go to My brethren, and say to them, 'I ascend to My Father and your Father, and My God and your God'\" (20:17). Mary Magdalene ran and told the disciples she had seen the Lord (20:18) -- making her the first witness and first proclaimer of the resurrection, the central event of the Christian faith, in all four Gospels' accounts.",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

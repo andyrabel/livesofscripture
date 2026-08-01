@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- veil -->
+    <path d="M76 58 C76 40 124 40 124 58 L130 100 L70 100 Z"/>
+    <!-- royal circlet -->
+    <path d="M84 54 L116 54"/>
+    <circle cx="100" cy="52" r="3" fill="#6b4a1f" stroke="none"/>
+    <!-- head -->
+    <circle cx="100" cy="64" r="18"/>
+    <!-- robe -->
+    <path d="M78 92 C78 87 122 87 122 92 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 92 L100 182"/>
+    <path d="M80 132 L120 132"/>
+    <!-- arm holding royal staff -->
+    <path d="M122 100 L134 115"/>
+    <path d="M134 115 L134 58"/>
+    <circle cx="134" cy="54" r="5" fill="#6b4a1f" stroke="none"/>
+    <!-- other arm resting -->
+    <path d="M78 100 L64 123"/>
+  </g>
+</svg>

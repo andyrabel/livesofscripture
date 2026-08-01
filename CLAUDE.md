@@ -283,24 +283,33 @@ full-tier entries were hand-illustrated with their own unique prop, e.g.
 Aaron, Sarah, Solomon, Bathsheba, Jochebed — see `images/portraits/*.svg`
 for the current roster of person-specific icons.)
 
-**Generic role icons (decided 2026-07-31):** every full-tier ("major")
-person — anyone with enough narrative to get a story, not just a name in a
-list, including figures like Mephibosheth, Onesimus, or Goliath — must have
-an icon. Hand-authoring a unique symbolic prop per person doesn't scale, so
-five shared generic icons exist in the same hand-drawn line-art style
-(`images/portraits/generic-king.svg/png`, `generic-prophet.svg/png`,
-`generic-priest.svg/png`, `generic-warrior.svg/png`, `generic-figure.svg/png`)
+**Generic role icons (decided 2026-07-31, extended 2026-08-01):** every
+full-tier ("major") person — anyone with enough narrative to get a story,
+not just a name in a list, including figures like Mephibosheth, Onesimus, or
+Goliath — must have an icon. Hand-authoring a unique symbolic prop per
+person doesn't scale, so seven shared generic icons exist in the same
+hand-drawn line-art style (`images/portraits/generic-king.svg/png`,
+`generic-queen.svg/png`, `generic-prophet.svg/png`, `generic-priest.svg/png`,
+`generic-warrior.svg/png`, `generic-figure.svg/png`, `generic-woman.svg/png`)
 and are reused across many people rather than duplicated per person:
 - **King** — crown + royal staff.
+- **Queen** — veil + royal circlet + royal staff (added 2026-08-01, for
+  female monarchs, e.g. Jezebel, Athaliah, Queen of Sheba).
 - **Prophet** — both arms raised, mouth open (crying out a message).
 - **Priest** — turban + the breastplate of judgment (12 stones, Exodus 28).
 - **Warrior** — helmet, sword, and round shield.
-- **Figure** — the plain base figure with no prop, for full-tier people who
-  don't fit any of the four roles above (e.g. Mephibosheth, Onesimus).
+- **Figure** — the plain base figure with no prop, for full-tier *male*
+  people who don't fit any of the roles above (e.g. Mephibosheth, Onesimus).
+- **Woman** — the same plain pose as Figure but wearing a veil (added
+  2026-08-01), for full-tier *female* people who aren't a monarch and don't
+  have a unique icon (e.g. Rachel, Hannah, Priscilla). The veil mirrors the
+  convention already used on hand-drawn female icons like Sarah and Ruth,
+  rather than inventing a new visual language.
 
 Rule going forward: **keep a person's existing unique hand-drawn icon if one
 already exists** (check `images/portraits/[person_id].svg`); only assign a
-generic role icon to full-tier people who don't have one. Set
+generic role icon to full-tier people who don't have one. Pick Figure vs.
+Woman (and King vs. Queen for monarchs) by the person's `gender` field. Set
 `image.file` to the shared filename (e.g. `"generic-priest.png"`), and
 `image.caption` to `"Generic line-art icon for {role}s — symbolic, no claim
 of likeness"`. The lightweight index (`data/people.json`) also carries a

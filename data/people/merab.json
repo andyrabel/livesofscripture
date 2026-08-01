@@ -37,10 +37,10 @@
   "family_friendly_summary": "Merab was King Saul's older daughter. Saul had promised her in marriage to whoever defeated the giant Goliath, and David was the one who did it -- but when the time came, Saul gave Merab to another man named Adriel instead of keeping his promise to David. Years later, during David's reign, Merab's five sons were handed over to the Gibeonites to make things right for a great wrong Saul had done to them earlier, and they were put to death. Merab's story shows the painful ripple effects that a father's broken promises and violent choices could have on his children, even years later.",
   "adult_story": "Merab, Saul's older daughter, is first mentioned in the summary of Saul's family (1 Samuel 14:49). Saul had promised his daughter in marriage to whoever killed Goliath, a promise David's victory should have secured for him, but when the moment came to give Merab to David, Saul instead married her to Adriel of Meholah (18:17-19) -- Scripture noting that Saul's actual motive in offering her at all had been to use the marriage to place David into greater danger against the Philistines, not genuine favor (18:17). Merab herself is given no recorded words or reaction to being promised, then withheld, then married elsewhere. She bore five sons to Adriel. Years later, during a famine in David's reign attributed to Saul's earlier slaughter of the Gibeonites in violation of Israel's ancient treaty with them, David sought to make atonement, and the Gibeonites demanded seven of Saul's male descendants be handed over for execution; five of these were 'the sons of Merab... whom she bore to Adriel' by the widely accepted reading of 2 Samuel 21:8, and they were killed and left exposed until Rizpah's vigil led David to see to their proper burial (2 Samuel 21:1-9). Merab's own story, though brief, illustrates how the political marriages and violent choices of Saul's kingship carried painful, lethal consequences into the next generation of his family.",
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,
