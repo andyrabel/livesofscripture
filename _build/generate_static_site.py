@@ -135,9 +135,23 @@ def timeline_link(person_id, base):
     return f'<p><a href="{base}timeline.html?highlight={person_id}">See on the full timeline →</a></p>'
 
 
-def connection_edge_line(edge, index_by_id, base):
-    from_link = f'<a href="{base}people/{esc(edge["from"])}.html">{esc(index_by_id.get(edge["from"], edge["from"]))}</a>'
-    to_link = f'<a href="{base}people/{esc(edge["to"])}.html">{esc(index_by_id.get(edge["to"], edge["to"]))}</a>'
+def gender_tag(gender):
+    if gender == "male":
+        return ' <span class="gender-tag gender-tag--male">(M)</span>'
+    if gender == "female":
+        return ' <span class="gender-tag gender-tag--female">(F)</span>'
+    return ""
+
+
+def connection_edge_line(edge, index_by_id, gender_by_id, base):
+    from_link = (
+        f'<a href="{base}people/{esc(edge["from"])}.html">{esc(index_by_id.get(edge["from"], edge["from"]))}</a>'
+        f"{gender_tag(gender_by_id.get(edge['from']))}"
+    )
+    to_link = (
+        f'<a href="{base}people/{esc(edge["to"])}.html">{esc(index_by_id.get(edge["to"], edge["to"]))}</a>'
+        f"{gender_tag(gender_by_id.get(edge['to']))}"
+    )
     sep = f' ↔ {esc(edge["label"])} ↔ ' if edge.get("mutual") else f' — {esc(edge["label"])} → '
     parts = [f"<li>{from_link}{sep}{to_link}"]
     if edge.get("note"):
@@ -166,12 +180,12 @@ def genealogy_section(person, index_by_id, base):
   </section>"""
 
 
-def connections_section(person, index_by_id, connections, base):
+def connections_section(person, index_by_id, gender_by_id, connections, base):
     pid = person["person_id"]
     related = [e for e in connections if e["from"] == pid or e["to"] == pid]
     if not related:
         return ""
-    items = "\n    ".join(connection_edge_line(e, index_by_id, base) for e in related)
+    items = "\n    ".join(connection_edge_line(e, index_by_id, gender_by_id, base) for e in related)
     return f"""<section>
     <h3>Connections</h3>
     <ul class="connections-list">
@@ -206,7 +220,7 @@ def disambiguation_section(person_name, same_name, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, connections, base, portrait_exists, full_people_by_name=None):
+def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name=None):
     parts = []
 
     if portrait_exists:
@@ -260,7 +274,7 @@ def render_full_person_body(person, index_by_id, connections, base, portrait_exi
 
     parts.append(genealogy_section(person, index_by_id, base))
 
-    conn_section = connections_section(person, index_by_id, connections, base)
+    conn_section = connections_section(person, index_by_id, gender_by_id, connections, base)
     if conn_section:
         parts.append(conn_section)
 
@@ -282,7 +296,7 @@ def render_full_person_body(person, index_by_id, connections, base, portrait_exi
     return "\n  ".join(parts)
 
 
-def render_stub_person_body(person, index_by_id, connections, base):
+def render_stub_person_body(person, index_by_id, gender_by_id, connections, base):
     parts = [f"<h2>{esc(person['name'])}</h2>"]
 
     if person.get("alt_names"):
@@ -302,7 +316,7 @@ def render_stub_person_body(person, index_by_id, connections, base):
 
     parts.append(genealogy_section(person, index_by_id, base))
 
-    conn_section = connections_section(person, index_by_id, connections, base)
+    conn_section = connections_section(person, index_by_id, gender_by_id, connections, base)
     if conn_section:
         parts.append(conn_section)
 
@@ -353,7 +367,7 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, connections, full_people_by_name=None):
+def build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
@@ -366,9 +380,9 @@ def build_person_page(person, index_by_id, connections, full_people_by_name=None
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, connections, base, portrait_exists, full_people_by_name)
+        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name)
     else:
-        body = render_stub_person_body(person, index_by_id, connections, base)
+        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base)
 
     json_ld = person_json_ld(person, index_by_id, SITE_URL, canonical, og_image, portrait_exists)
 
@@ -433,8 +447,9 @@ def person_card_html(entry):
     else:
         meta_badge = ""
     testament_class = "ot" if entry.get("testament") == "OT" else "nt"
+    name_gender = f'{esc(entry["name"])}{gender_tag(entry.get("gender"))}'
     return f"""<a class="person-card" href="people/{entry['person_id']}.html">
-      <div class="name">{esc(entry["name"])}</div>
+      <div class="name">{name_gender}</div>
       <div class="meta"><span class="badge {testament_class}">{esc(entry.get("testament", ""))}</span>{meta_badge}</div>
     </a>"""
 
@@ -514,6 +529,7 @@ def main():
     index = json.loads((ROOT / "data" / "people.json").read_text())
     connections = json.loads((ROOT / "data" / "connections.json").read_text())
     index_by_id = {e["person_id"]: e["name"] for e in index}
+    gender_by_id = {e["person_id"]: e.get("gender") for e in index}
     full_people_by_name = build_full_people_by_name(index)
 
     people_dir = ROOT / "people"
@@ -527,7 +543,7 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, connections, full_people_by_name)
+        page = build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 

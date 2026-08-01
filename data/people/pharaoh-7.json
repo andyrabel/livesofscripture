@@ -23,5 +23,6 @@
     "mother": null,
     "spouses": [],
     "children": []
-  }
+  },
+  "gender": "male"
 }

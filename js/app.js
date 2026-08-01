@@ -90,6 +90,11 @@ function personCard(entry) {
   const name = document.createElement("div");
   name.className = "name";
   name.textContent = entry.name;
+  const tag = genderTag(entry.gender);
+  if (tag) {
+    name.appendChild(document.createTextNode(" "));
+    name.appendChild(tag);
+  }
   a.appendChild(name);
 
   const meta = document.createElement("div");
@@ -295,15 +300,27 @@ function initials(name) {
     .toUpperCase();
 }
 
-function portraitImg(personId, name, className, imageFile) {
+function genderTag(gender) {
+  if (gender !== "male" && gender !== "female") return null;
+  const span = document.createElement("span");
+  span.className = `gender-tag gender-tag--${gender}`;
+  span.textContent = gender === "male" ? "(M)" : "(F)";
+  return span;
+}
+
+function portraitImg(personId, name, className, imageFile, gender) {
   const img = document.createElement("img");
   img.src = `images/portraits/${imageFile || `${personId}.png`}`;
   img.alt = name;
   img.className = className;
   img.onerror = () => {
     const placeholder = document.createElement("div");
-    placeholder.className = `${className} avatar-placeholder`;
-    placeholder.textContent = initials(name);
+    if (gender === "male" || gender === "female") {
+      placeholder.className = `${className} avatar-placeholder avatar-placeholder--icon avatar-placeholder--${gender}`;
+    } else {
+      placeholder.className = `${className} avatar-placeholder`;
+      placeholder.textContent = initials(name);
+    }
     img.replaceWith(placeholder);
   };
   return img;
@@ -1404,11 +1421,15 @@ function renderConnectionsSvg(canvas, state) {
       class: "connections-node__label-link",
     });
     labelLink.addEventListener("click", (evt) => evt.stopPropagation());
+    const genderLabelClass =
+      entry && (entry.gender === "male" || entry.gender === "female")
+        ? ` connections-node__label--${entry.gender}`
+        : "";
     const label = svgEl("text", {
       x: node.x,
       y: node.y + radius + 14,
       "text-anchor": "middle",
-      class: "connections-node__label",
+      class: `connections-node__label${genderLabelClass}`,
     });
     label.textContent = entry ? entry.name : node.id;
     labelLink.appendChild(label);
@@ -1516,10 +1537,17 @@ function renderConnectionsSidebar(state) {
   const entry = state.index.find((e) => e.person_id === state.centerId);
   if (!entry) return;
 
-  container.appendChild(portraitImg(entry.person_id, entry.name, "connections-sidebar__avatar", entry.image));
+  container.appendChild(
+    portraitImg(entry.person_id, entry.name, "connections-sidebar__avatar", entry.image, entry.gender)
+  );
 
   const name = document.createElement("h3");
   name.textContent = entry.name;
+  const tag = genderTag(entry.gender);
+  if (tag) {
+    name.appendChild(document.createTextNode(" "));
+    name.appendChild(tag);
+  }
   container.appendChild(name);
 
   const meta = document.createElement("p");

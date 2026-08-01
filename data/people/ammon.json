@@ -43,5 +43,6 @@
     "mother": "younger-of-lot",
     "spouses": [],
     "children": []
-  }
+  },
+  "gender": "male"
 }

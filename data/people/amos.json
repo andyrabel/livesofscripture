@@ -48,5 +48,6 @@
     "prompt_used": "Generic role icon, not person-specific: robed silhouette figure with both arms raised and mouth open, crying out a message.",
     "prompt_image_source": null,
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
-  }
+  },
+  "gender": "male"
 }

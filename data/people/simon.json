@@ -14,5 +14,6 @@
     "mother": "mary",
     "spouses": [],
     "children": []
-  }
+  },
+  "gender": "male"
 }

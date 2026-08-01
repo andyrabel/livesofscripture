@@ -150,6 +150,7 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
   "alt_names": ["Elias"],
   "tier": "full",
   "testament": "OT",
+  "gender": "male",
   "era": "Divided Monarchy",
   "geographic_setting": ["Gilead", "Kingdom of Israel"],
   "references": ["1 Kings 17-19", "1 Kings 21", "2 Kings 1-2", "Malachi 4:5-6"],
@@ -189,6 +190,7 @@ Stub entry (minimal tier):
   "alt_names": [],
   "tier": "stub",
   "testament": "OT",
+  "gender": "male",
   "references": ["1 Chronicles 2:47"],
   "first_reference": "1 Chronicles 2:47",
   "genealogy": {
@@ -207,6 +209,17 @@ dataset are already in canonical book order (confirmed by sampling the
 BradyStephenson import), so this is a derived convenience field, not
 independently curated — regenerate it from `references[0]` if the
 references array for a person is ever edited.
+
+**`gender`** (added 2026-08-01): `"male" | "female"`, present on every person
+(full or stub). Backfilled from the BradyStephenson dataset's `sex` column
+(`_build/backfill_gender.py`, `data/people/*.json` + `data/people.json`) —
+not independently curated, and not stored for the 4 dataset rows that are
+titles rather than named individuals (e.g. "the angel of the LORD"), which
+the site's import intentionally never turned into person entries in the
+first place. Used to render a `(M)`/`(F)` marker after a person's name on
+person pages' Connections section, the People search page, and the
+connections graph's sidebar card, and to color-code names on the
+connections graph (dark blue for male, dark red for female).
 
 `era` taxonomy is finalized (see Open Questions history below). Still open:
 whether `geographic_setting` is worth a controlled vocabulary for filtering

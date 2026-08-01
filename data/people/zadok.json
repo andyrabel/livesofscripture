@@ -62,5 +62,6 @@
     "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a turban and the priestly breastplate of judgment (12 stones).",
     "prompt_image_source": null,
     "caption": "Generic line-art icon for priests — symbolic, no claim of likeness"
-  }
+  },
+  "gender": "male"
 }

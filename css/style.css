@@ -49,6 +49,12 @@
   --kingdom-israel: #1f6fd6;
   --kingdom-judah: #c0388a;
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
+
+  /* Gender marker/graph color-coding (dark blue / dark red), a distinct
+     dimension from era/region/kingdom above — contrast-checked against both
+     --color-bg and --color-surface. */
+  --gender-male: #1a4480;
+  --gender-female: #8f1d33;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -86,6 +92,8 @@
     --kingdom-israel: #4f8fe0;
     --kingdom-judah: #d15aa8;
     --timeline-label-bg: rgba(36, 32, 26, 0.85);
+    --gender-male: #6ea8e8;
+    --gender-female: #e8869a;
   }
 }
 
@@ -123,6 +131,8 @@
   --kingdom-israel: #4f8fe0;
   --kingdom-judah: #d15aa8;
   --timeline-label-bg: rgba(36, 32, 26, 0.85);
+  --gender-male: #6ea8e8;
+  --gender-female: #e8869a;
 }
 
 :root[data-theme="light"] {
@@ -159,6 +169,8 @@
   --kingdom-israel: #1f6fd6;
   --kingdom-judah: #c0388a;
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
+  --gender-male: #1a4480;
+  --gender-female: #8f1d33;
 }
 
 * { box-sizing: border-box; }
@@ -841,6 +853,9 @@ body.connections-fullpage-active {
   text-decoration: none;
 }
 
+.connections-node__label--male { fill: var(--gender-male); }
+.connections-node__label--female { fill: var(--gender-female); }
+
 .connections-node--center .connections-node__label {
   fill: var(--color-accent-strong);
   font-weight: 600;
@@ -881,6 +896,31 @@ body.connections-fullpage-active {
   color: var(--color-text-muted);
   font-weight: 600;
 }
+
+/* Connections-page avatar fallback: the site's existing generic line-art
+   figure (images/portraits/generic-figure.svg), recolored per gender via
+   CSS mask instead of the plain-letter placeholder used elsewhere. */
+.avatar-placeholder--icon {
+  -webkit-mask-image: url("../images/portraits/generic-figure.svg");
+  mask-image: url("../images/portraits/generic-figure.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 60%;
+  mask-size: 60%;
+}
+
+.avatar-placeholder--icon.avatar-placeholder--male { background-color: var(--gender-male); }
+.avatar-placeholder--icon.avatar-placeholder--female { background-color: var(--gender-female); }
+
+.gender-tag {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.gender-tag--male { color: var(--gender-male); }
+.gender-tag--female { color: var(--gender-female); }
 
 .connections-sidebar__meta {
   color: var(--color-text-muted);

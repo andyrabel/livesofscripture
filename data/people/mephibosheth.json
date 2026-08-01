@@ -54,5 +54,6 @@
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
     "caption": "Generic line-art icon -- symbolic, no claim of likeness"
-  }
+  },
+  "gender": "male"
 }
