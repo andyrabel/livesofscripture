@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- helmet with crest -->
+    <path d="M100 26 L100 34"/>
+    <path d="M82 56 Q100 32 118 56 L118 62 Q100 52 82 62 Z"/>
+    <!-- head -->
+    <circle cx="100" cy="64" r="18"/>
+    <path d="M100 58 L100 72"/>
+    <!-- robe -->
+    <path d="M78 85 C78 80 122 80 122 85 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 85 L100 182"/>
+    <path d="M80 125 L120 125"/>
+    <!-- arm holding sword -->
+    <path d="M122 93 L134 106"/>
+    <path d="M126 102 L140 102"/>
+    <path d="M134 102 L134 58"/>
+    <!-- other arm holding round shield -->
+    <path d="M78 93 L66 106"/>
+    <circle cx="56" cy="112" r="16"/>
+    <circle cx="56" cy="112" r="4" fill="#6b4a1f" stroke="none"/>
+  </g>
+</svg>

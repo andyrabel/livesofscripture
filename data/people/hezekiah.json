@@ -66,5 +66,11 @@
     "human_reviewed": false,
     "reviewed_by": "",
     "reviewed_date": ""
+  },
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings — symbolic, no claim of likeness"
   }
 }
