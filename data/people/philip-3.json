@@ -2,18 +2,50 @@
   "person_id": "philip-3",
   "name": "Philip",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Samaria",
+    "Gaza road",
+    "Caesarea"
+  ],
   "references": [
     "Acts 6:5",
     "Acts 8:5-40",
     "Acts 21:8"
   ],
   "first_reference": "Acts 6:5",
+  "topics": [
+    "evangelism",
+    "obedience to the Spirit's leading",
+    "crossing boundaries"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "Distinct from Philip the apostle, one of the Twelve, who has a separate entry.",
+  "source_summary": "One of the seven chosen to serve the Jerusalem church, who became a pioneering evangelist, preaching successfully in Samaria and leading an Ethiopian court official to faith on the Gaza road.",
+  "family_friendly_summary": "Philip, sometimes called Philip the Evangelist to distinguish him from the apostle by the same name, was one of seven men chosen by the early church to help distribute food fairly to those in need. After persecution scattered believers away from Jerusalem, Philip traveled to Samaria and preached about Jesus there, and many people believed and were healed and freed from evil spirits, bringing great joy to the city. Later, an angel told Philip to go out to a desert road, where he met an important Ethiopian official reading from the book of Isaiah in his chariot but not understanding it. Philip explained that the passage was about Jesus, and the official believed and was baptized right there. Immediately afterward, the Spirit suddenly took Philip away to another town, where he continued preaching the gospel.",
+  "adult_story": "Philip was one of the seven men chosen by the Jerusalem church to oversee food distribution to widows, a role requiring men \"full of the Spirit and of wisdom\" (Acts 6:3-5). After Stephen's martyrdom scattered believers out of Jerusalem, Philip went to a city in Samaria and preached Christ there; the crowds paid attention as he performed signs, healed the sick, and cast out unclean spirits, and \"there was much rejoicing in that city\" (8:5-8) -- a significant step, since Jews and Samaritans typically had no dealings with each other. An angel then directed Philip to a desert road toward Gaza, where he encountered an Ethiopian court official, treasurer to the queen, riding in his chariot and reading aloud from Isaiah without understanding it (8:26-31). Philip, prompted by the Spirit, ran alongside and asked if he understood what he was reading; invited up into the chariot, he explained that the passage -- Isaiah's suffering servant -- pointed to Jesus, and preached the gospel to him (8:29-35). At the eunuch's request, Philip baptized him at the first water they found, after which \"the Spirit of the Lord snatched Philip away,\" and he found himself at Azotus, continuing to preach through towns until reaching Caesarea (8:36-40). Years later, Paul stayed at Philip's home in Caesarea, where Philip is again called \"the evangelist,\" and where his four daughters were known for prophesying (21:8-9) -- a family marked, across a generation, by Spirit-empowered ministry.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

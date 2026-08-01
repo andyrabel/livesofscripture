@@ -2,17 +2,46 @@
   "person_id": "tobiah",
   "name": "Tobiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ammon",
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 2:60",
     "Nehemiah 7:62"
   ],
   "first_reference": "Ezra 2:60",
+  "topics": [
+    "opposition to God's work",
+    "compromise"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An Ammonite official allied with Sanballat who mocked and schemed against Nehemiah's wall-building, and who, through marriage alliances with Jewish nobles, later gained a room inside the temple itself that Nehemiah forcibly evicted him from.",
+  "family_friendly_summary": "Tobiah was an official from Ammon who worked closely with Sanballat to oppose and mock Nehemiah's project of rebuilding Jerusalem's walls. He joined in ridiculing the builders and later took part in plots to intimidate and frighten Nehemiah into giving up. What makes Tobiah's story unusual is that, despite being such a strong opponent, he had married into a prominent Jewish family and had many allies among Jewish nobles who kept reporting good things about him to Nehemiah and passing along his letters. Years later, when Nehemiah returned to Jerusalem after a time away, he discovered that Tobiah had actually been given a room to live in inside the temple itself. Nehemiah was outraged and immediately threw Tobiah's belongings out, restoring the room to its proper use.",
+  "adult_story": "Tobiah the Ammonite official, closely allied with Sanballat, mocked Nehemiah's wall-building project from its earliest stages, adding his own scornful jab that even a fox climbing the wall would break it down (Nehemiah 2:10, 19; 4:3). He joined Sanballat's plots to attack the builders by surprise and to intimidate Nehemiah into abandoning the work through threats and false accusations (4:7-8; 6:1-9). What distinguishes Tobiah's opposition is how deeply compromised Jerusalem's own nobility already was toward him: he had married a Jewish wife, his son had married the daughter of a prominent Jewish official, and \"many in Judah were bound by oath to him,\" continually reporting his good deeds to Nehemiah and relaying Nehemiah's own words back to Tobiah (6:17-19). Even the high priest Eliashib was related to him by marriage and, during a later period when Nehemiah had returned briefly to Persia, had given Tobiah an entire room inside the temple courts, previously used for storing tithes and offerings, to live in (13:4-5). When Nehemiah came back to Jerusalem and discovered this, he was furious, personally threw all of Tobiah's household possessions out of the room, and had it ceremonially cleansed and restored to its proper use for the temple's offerings (13:6-9). Tobiah's story shows opposition to God's work operating not only through open threats, but through compromise and infiltration among God's own people.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

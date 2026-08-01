@@ -2,8 +2,17 @@
   "person_id": "jephthah",
   "name": "Jephthah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "moab-transjordan",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gilead",
+    "Ammon"
+  ],
   "references": [
     "Judges 11:1-40",
     "Judges 12:1-7",
@@ -11,10 +20,33 @@
     "Hebrews 11:32"
   ],
   "first_reference": "Judges 11:1-40",
+  "topics": [
+    "rash vows",
+    "deliverance",
+    "the cost of sin's ripple effects"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jephthah vowed that whatever came out of his house to meet him after his victory would be offered as a burnt offering, and his daughter met him first (Judges 11:30-31, 34-39). Interpreters are divided on what he actually did: some read it as a literal human sacrifice, a horrifying rash vow carried out against God's own law (which forbids human sacrifice, e.g. Leviticus 18:21, 20:2-5); others argue the text describes lifelong dedicated virgin service at the tabernacle rather than death, pointing to her mourning specifically \"her virginity\" rather than her life, and to the resulting Israelite custom of commemorating her (11:37-40). Scripture does not resolve the ambiguity, and this site does not take a side.",
+  "source_summary": "An outcast son of a prostitute who became a mighty warrior and judge, delivered Israel from Ammon, but made a rash vow before battle whose fulfillment cost his only daughter dearly.",
+  "family_friendly_summary": "Jephthah grew up as an outcast -- his half-brothers drove him away because his mother was not their father's wife. He became a skilled fighter, and when the Ammonites threatened Israel, the very leaders who had rejected him came asking him to lead their army. Jephthah agreed, and before the battle he made a solemn vow to God: if God gave him victory, he would dedicate to God whatever came out of his house to meet him first. God gave Israel the victory, but the vow turned out to cost Jephthah far more than he expected, since it was his own beloved daughter who came out to greet him. His story is a serious warning about the weight of the promises we make to God, and about thinking carefully before we speak.",
+  "adult_story": "Jephthah, son of a prostitute, was driven out by his half-brothers so he would not share their father Gilead's inheritance, and he settled among worthless men in the land of Tob (Judges 11:1-3). When Ammon threatened Israel, Gilead's elders came begging the very man they had exiled to lead them, and Jephthah agreed on condition he would remain their head afterward (11:4-11). He first tried diplomacy, sending Ammon's king a detailed historical argument for Israel's right to the land, but war came anyway, and \"the Spirit of the LORD came upon Jephthah\" as he advanced (11:12-29). Before the battle, he vowed that whatever came out of his house to meet him on his return would be the LORD's, offered as a burnt offering (11:30-31). Israel won decisively -- but it was his only child, his daughter, who came out first, dancing to celebrate him (11:34). Jephthah tore his clothes in anguish, yet held that the vow must be kept; she asked only for two months to grieve with her friends in the hills before he did to her \"according to his vow\" (11:35-39). Scripture leaves the exact nature of that fulfillment genuinely disputed (see note), but is unambiguous about the lesson: an unconsidered vow, made in haste before God, cannot simply be undone once spoken (Ecclesiastes 5:4-5).",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet and carrying a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
-    "father": "gilead-2",
+    "father": "gilead-3",
     "mother": null,
     "spouses": [],
-    "children": []
+    "children": [
+      "jephthahs-daughter"
+    ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

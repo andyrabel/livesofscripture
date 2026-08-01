@@ -2,16 +2,46 @@
   "person_id": "lydia",
   "name": "Lydia",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Philippi",
+    "Thyatira"
+  ],
   "references": [
     "Acts 16:14-40"
   ],
   "first_reference": "Acts 16:14-40",
+  "topics": [
+    "conversion",
+    "hospitality",
+    "the gospel opening hearts"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A businesswoman dealing in purple cloth from Thyatira, worshiping God though not yet Christian, whose heart the Lord opened to Paul's message in Philippi, becoming the first recorded European convert and hosting the new church in her home.",
+  "family_friendly_summary": "Lydia was a successful businesswoman who sold purple cloth, a valuable and expensive product, and she had moved from her hometown of Thyatira to the city of Philippi. Even though she wasn't yet a follower of Jesus, she already worshiped God and gathered with other women to pray by a riverside on the Sabbath. When Paul and his companions came to Philippi, they found this group of women and shared the good news about Jesus with them. As Paul spoke, God opened Lydia's heart to respond, and she believed and was baptized, along with her whole household. She then insisted that Paul and his companions stay at her home, showing warm and generous hospitality. Lydia is remembered as the first documented convert to Christianity in Europe, and her home likely became a meeting place for the young Philippian church.",
+  "adult_story": "Lydia was a dealer in purple cloth from Thyatira, a valuable trade good associated with wealth and status, now living in Philippi (Acts 16:14). Though not yet a believer in Christ, she was already \"a worshiper of God,\" part of a group of women who gathered by a riverside outside the city for prayer, likely in place of a formal synagogue, which required ten Jewish men to establish (16:13). Paul and his companions, having been redirected to Macedonia by a vision, found this group and spoke to the women there; \"the Lord opened her heart to respond to the things spoken by Paul,\" and she and her household were baptized (16:14-15) -- one of Scripture's clearest statements that genuine faith is ultimately God's work opening a heart, not merely persuasive argument. Lydia immediately urged Paul and his companions to stay at her home, insisting, \"if you have judged me to be faithful to the Lord, come into my house and stay,\" and \"she prevailed upon us\" (16:15). Her home apparently became a base for the young church: after Paul and Silas were later released from prison following the earthquake, they went directly to Lydia's house to encourage the believers gathered there before leaving the city (16:40). As the first documented convert in Philippi, and the first recorded convert on European soil in Acts, Lydia's hospitality and immediate practical response to faith set the pattern for a church that later received Paul's letter to the Philippians.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

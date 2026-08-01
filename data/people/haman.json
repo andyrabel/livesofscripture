@@ -2,8 +2,16 @@
   "person_id": "haman",
   "name": "Haman",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Susa"
+  ],
   "references": [
     "Esther 3:1-15",
     "Esther 4:7",
@@ -14,6 +22,22 @@
     "Esther 9:10-24"
   ],
   "first_reference": "Esther 3:1-15",
+  "topics": [
+    "pride",
+    "genocide plotted",
+    "poetic judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Persian king's highest official, who plotted the genocide of all Jews in the empire out of rage at Mordecai's refusal to bow to him, and was ultimately hanged on the gallows he had built for Mordecai.",
+  "family_friendly_summary": "Haman was the most powerful official under King Ahasuerus of Persia, and everyone was required to bow down to him -- everyone except Mordecai, a Jewish man who refused because of his faith. This refusal enraged Haman so much that he convinced the king to issue a decree allowing the destruction of every Jewish person throughout the entire empire on a particular day, and he even built a tall set of gallows specifically to execute Mordecai. But Haman's plans fell apart. Queen Esther, who was secretly Jewish and Mordecai's cousin, bravely revealed Haman's evil plot to the king at a banquet. The king was furious, and in a dramatic reversal, Haman ended up being executed on the very gallows he had built for Mordecai, while Mordecai was honored instead.",
+  "adult_story": "Haman was elevated by King Ahasuerus above all other officials in Persia, with the king commanding everyone to bow before him; when Mordecai the Jew alone refused, Haman was filled with rage, and \"scorned the thought of laying hands on Mordecai alone,\" instead plotting to destroy all Jews throughout the empire (Esther 3:1-6). He cast lots (\"Pur\") to choose a date, then persuaded the king with a bribe of ten thousand talents of silver and a claim that this people's customs threatened royal law, securing an irrevocable edict for their annihilation (3:7-15). Confident in his power, Haman built a gallows seventy-five feet high specifically to hang Mordecai on, boasting to his wife and friends about his wealth, many sons, and royal favor -- yet admitting none of it satisfied him \"as long as I see Mordecai the Jew sitting at the king's gate\" (5:9-14). That very night, the king, unable to sleep, had the record of Mordecai's forgotten loyalty read to him, and the next day was forced to have Haman himself lead Mordecai through the city in royal honor (6:1-11). At Esther's second banquet, she exposed Haman as the plotter behind the decree to destroy her own people, and the king, enraged, had Haman hanged on the very gallows he had built for Mordecai (7:1-10). Haman's downfall is Scripture's vivid picture of pride and plotted violence turned back on the one who devised it (Psalm 7:15-16; Proverbs 26:27).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hammedatha",
     "mother": null,
@@ -30,5 +54,10 @@
       "poratha",
       "vaizatha"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

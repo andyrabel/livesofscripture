@@ -2,8 +2,17 @@
   "person_id": "sanballat",
   "name": "Sanballat",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Jerusalem"
+  ],
   "references": [
     "Nehemiah 2:10-19",
     "Nehemiah 4:1-7",
@@ -11,10 +20,30 @@
     "Nehemiah 13:28"
   ],
   "first_reference": "Nehemiah 2:10-19",
+  "topics": [
+    "opposition to God's work",
+    "intimidation"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Samaritan (Horonite) official who repeatedly mocked, threatened, and schemed against Nehemiah's rebuilding of Jerusalem's walls, ultimately failing to stop the work.",
+  "family_friendly_summary": "Sanballat was a powerful official from Samaria who strongly opposed Nehemiah's efforts to rebuild Jerusalem's broken-down walls. He mocked the project, claiming the walls were so weak that even a fox climbing on them would knock them down. When mockery didn't stop the work, Sanballat and his allies plotted to attack the builders by surprise, so Nehemiah had half the workers stand guard with weapons while the other half continued building. Sanballat then tried several other tricks, including inviting Nehemiah to a supposedly friendly meeting that was actually a trap, and spreading a false rumor that Nehemiah was planning a rebellion. Nehemiah saw through each scheme and stayed focused on the work, and the wall was completed successfully in spite of all of Sanballat's opposition.",
+  "adult_story": "Sanballat the Horonite, an official with authority in Samaria, was \"greatly enraged\" when he heard that Nehemiah had come to seek Jerusalem's welfare and rebuild its walls, mocking the effort from the start alongside Tobiah and Geshem: \"what is this thing you are doing? Are you rebelling against the king?\" (Nehemiah 2:10, 19). As the wall rose, his mockery escalated -- he ridiculed the Jews before his associates, claiming their feeble stones would collapse if even a fox walked on them (4:1-3). When ridicule failed to stop the work, Sanballat and his allies conspired to attack Jerusalem by surprise, forcing Nehemiah to post armed guards and have half the workers build with a weapon in one hand (4:7-18). Failing again, Sanballat tried to lure Nehemiah away from the work under the pretense of a peaceful meeting at Ono, a trap Nehemiah refused four separate times, recognizing the danger and replying, \"I am doing a great work and I cannot come down\" (6:1-4). Sanballat then sent an open letter falsely accusing Nehemiah of plotting rebellion and planning to be crowned king, hoping to intimidate him into stopping through fear or discredit him publicly; Nehemiah again refused to be frightened off (6:5-9). Despite every scheme, the wall was completed in just fifty-two days, and Nehemiah records that even Israel's enemies recognized the work had been accomplished by God (6:15-16).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

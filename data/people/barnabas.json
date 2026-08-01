@@ -4,8 +4,18 @@
   "alt_names": [
     "Joseph"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Cyprus",
+    "Jerusalem",
+    "Antioch"
+  ],
   "references": [
     "Acts 4:36",
     "Acts 9:27",
@@ -19,10 +29,31 @@
     "Colossians 4:10"
   ],
   "first_reference": "Acts 4:36",
+  "topics": [
+    "encouragement",
+    "generosity",
+    "second chances"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite from Cyprus, nicknamed \"Son of Encouragement,\" who sold his own property for the early church, vouched for the newly converted Saul, and became Paul's first missionary companion before a sharp disagreement over John Mark.",
+  "family_friendly_summary": "Barnabas was a Levite from Cyprus whose real name was Joseph, but the apostles nicknamed him Barnabas, meaning \"Son of Encouragement,\" because that's exactly the kind of person he was. He sold a field he owned and gave the money to help the early church. When Saul, formerly a persecutor of Christians, first tried to join the believers in Jerusalem, many were afraid of him, but Barnabas vouched for him and helped him be accepted. Barnabas later became Saul's (Paul's) missionary companion, and together they traveled and preached the gospel widely. Barnabas also believed in giving people second chances -- when his younger relative John Mark had abandoned an earlier mission trip, Barnabas wanted to give him another opportunity, but Paul strongly disagreed, and the two eventually parted ways over the disagreement, each continuing the mission with a different companion.",
+  "adult_story": "Barnabas, a Levite from Cyprus whose given name was Joseph, is introduced selling a field he owned and laying the proceeds at the apostles' feet, earning him the nickname \"Son of Encouragement\" from the apostles themselves (Acts 4:36-37). When Saul, newly converted, tried to join the disciples in Jerusalem, they were understandably afraid of him given his history as a persecutor; Barnabas took the risk of vouching for him, describing his encounter with the Lord and his bold preaching in Damascus, and the church accepted Saul on his word (9:26-28). Sent by the Jerusalem church to the growing congregation in Antioch, Barnabas encouraged the believers there and then sought out Saul in Tarsus to help teach the new church for a full year (11:22-26). The two were formally set apart by the Holy Spirit and sent out together on what became known as the first missionary journey, and Barnabas is listed first, suggesting he was initially the senior partner, though Paul's role grows more prominent as the account proceeds (13:1-3). Barnabas consistently extended grace: preparing for a second journey, he wanted to bring his cousin John Mark, who had abandoned the first journey partway through, but Paul refused, judging Mark unreliable, and the disagreement grew sharp enough that the two separated, Barnabas taking Mark to Cyprus while Paul chose Silas (15:36-41). Barnabas's willingness to give Mark a second chance appears vindicated later, when Paul himself calls Mark \"useful to me for service\" (2 Timothy 4:11).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

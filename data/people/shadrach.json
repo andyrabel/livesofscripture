@@ -4,18 +4,46 @@
   "alt_names": [
     "Hananiah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Babylon"
+  ],
   "references": [
     "Daniel 1:6-19",
     "Daniel 2:17-49",
     "Daniel 3:12-30"
   ],
   "first_reference": "Daniel 1:6-19",
+  "topics": [
+    "faithfulness under pressure",
+    "God's deliverance"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of Daniel's three Judean companions, given a Babylonian name in exile, who refused to bow to Nebuchadnezzar's golden image and was miraculously preserved unharmed in a fiery furnace.",
+  "family_friendly_summary": "Shadrach, whose Hebrew name was Hananiah, was one of Daniel's three close friends who were taken from Judah to Babylon and trained to serve in the king's court. When King Nebuchadnezzar set up a huge golden statue and commanded everyone to bow down and worship it, Shadrach and his two friends refused, because they would only worship the one true God. Furious, the king had them thrown into a blazing furnace, heated so hot that the soldiers who threw them in were killed by the heat. But God protected Shadrach and his friends completely -- they walked around unharmed inside the flames, and witnesses even saw a fourth figure with them. When they came out, not even their clothes smelled of smoke. Nebuchadnezzar was amazed and honored their God.",
+  "adult_story": "Shadrach was the Babylonian name given to Hananiah, one of the young Judean nobles taken to Babylon with Daniel and trained for royal service (Daniel 1:6-7). Along with Meshach and Abednego, he was later promoted to administer the province of Babylon at Daniel's request (2:49). When King Nebuchadnezzar erected a ninety-foot golden image and commanded all officials to bow and worship it at the sound of music, Shadrach, Meshach, and Abednego refused, since bowing to an idol would violate their exclusive worship of the LORD (3:1-12). Reported to the furious king, they answered him with remarkable resolve: \"our God whom we serve is able to deliver us... but even if He does not, let it be known to you, O king, that we are not going to serve your gods\" (3:16-18) -- faith that did not depend on the outcome. Nebuchadnezzar had the furnace heated seven times hotter and had them bound and thrown in, so hot that the soldiers who threw them in were killed by the flames (3:19-23). Yet the king, watching, saw four men walking unbound and unharmed in the fire, the fourth appearing \"like a son of the gods\" (3:24-25). Shadrach and his companions emerged without so much as the smell of smoke on them, and Nebuchadnezzar publicly praised their God and promoted them further (3:26-30) -- one of Scripture's most vivid demonstrations that God can deliver His faithful even from certain death, and is worthy of worship whether He does or not.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

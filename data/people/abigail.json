@@ -2,8 +2,18 @@
   "person_id": "abigail",
   "name": "Abigail",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Carmel",
+    "Maon",
+    "Hebron"
+  ],
   "references": [
     "1 Samuel 25:3-42",
     "1 Samuel 27:3",
@@ -13,6 +23,22 @@
     "1 Chronicles 3:1"
   ],
   "first_reference": "1 Samuel 25:3-42",
+  "topics": [
+    "wisdom",
+    "peacemaking",
+    "discernment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The wise and discerning wife of the foolish Nabal, who prevented David from taking bloody vengeance on her household, and became David's wife after Nabal's sudden death.",
+  "family_friendly_summary": "Abigail was married to a wealthy but rude and foolish man named Nabal. When Nabal insulted David and refused to help him after David's men had protected his flocks, David set out furiously to attack Nabal's whole household. As soon as Abigail heard what had happened, she acted quickly and wisely, gathering food and supplies and riding out to meet David herself, without telling her husband. She humbly apologized on Nabal's behalf, offered David the provisions, and convinced him not to take revenge, reminding him that God would fight his battles for him. David recognized her wisdom immediately and thanked God for sending her to stop him. Ten days after Abigail told Nabal what had happened, he died, and David then took Abigail as his wife. Her story is a wonderful example of wisdom, courage, and peacemaking.",
+  "adult_story": "Abigail was married to Nabal, a wealthy but harsh and foolish man, and Scripture describes her by contrast as \"intelligent and beautiful\" (1 Samuel 25:3). When Nabal contemptuously refused David's reasonable request for provisions, one of Nabal's servants came to Abigail, knowing David was preparing an armed attack on the household (25:14-17). Abigail acted immediately and without consulting her husband: she gathered bread, wine, meat, and other provisions, rode out to intercept David, and bowed before him with a carefully reasoned appeal -- taking responsibility for what she called her own \"guilt,\" urging David not to stain his future kingship with needless bloodshed, and trusting that the LORD Himself would deal with his enemies (25:18-31). David immediately recognized both her wisdom and God's providence in sending her: \"blessed be your discernment, and blessed be you, who have kept me... from bloodshed\" (25:32-35). When Abigail told Nabal what she had done the next day, he suffered what appears to be a stroke and died about ten days later; David then sent for her and she became his wife (25:36-42). Abigail stands out in Scripture as a model of wisdom exercised boldly under pressure -- discerning, courageous, and instrumental in restraining a future king from an act of vengeance he would have regretted.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -23,5 +49,10 @@
     "children": [
       "chileab"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

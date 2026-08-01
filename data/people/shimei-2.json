@@ -2,18 +2,48 @@
   "person_id": "shimei-2",
   "name": "Shimei",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bahurim",
+    "Jerusalem"
+  ],
   "references": [
     "2 Samuel 16:5-13",
     "2 Samuel 19:16-23",
     "1 Kings 2:8-44"
   ],
   "first_reference": "2 Samuel 16:5-13",
+  "topics": [
+    "cursing and mercy",
+    "unresolved grudges",
+    "judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Benjamite relative of Saul who cursed and threw stones at David during Absalom's revolt, was later spared when David returned, but was executed by Solomon years afterward for violating a sworn restriction.",
+  "family_friendly_summary": "Shimei belonged to Saul's family, and when David had to flee Jerusalem during his own son Absalom's rebellion, Shimei walked along a nearby hill shouting insults, cursing David, and throwing stones and dust at him, blaming him for Saul's downfall. One of David's officers wanted to kill Shimei on the spot, but David stopped him, choosing to bear the insults patiently and trust God with the outcome. After the rebellion ended and David returned safely, Shimei came and begged for forgiveness, and David spared his life. Years later, though, after David died, King Solomon set a firm rule that Shimei must never leave Jerusalem. When Shimei eventually broke that rule, Solomon had him executed. His story shows both David's remarkable patience and the seriousness of the promises Solomon later held him to.",
+  "adult_story": "As David fled Jerusalem during Absalom's revolt, Shimei son of Gera, from Saul's own clan, came out cursing him, throwing stones, and hurling dust, shouting that David was a \"man of bloodshed\" being repaid for the house of Saul (2 Samuel 16:5-8). Abishai wanted to kill him for cursing the king, but David restrained him: \"let him curse, for the LORD has told him... perhaps the LORD will look on my affliction\" (16:9-12) -- one of David's clearest moments of humble submission to God's providence even in personal humiliation. After the revolt collapsed, Shimei rushed to meet the returning king, threw himself down, and begged forgiveness; David swore an oath that day that he would not put him to death (19:16-23). Yet David's forgiveness was not the final word. On his deathbed, David instructed Solomon not to let Shimei's earlier curse go entirely unpunished, though he stopped short of ordering his death outright (1 Kings 2:8-9). Solomon confined Shimei to Jerusalem under penalty of death if he ever crossed the Kidron valley; Shimei agreed, but three years later left the city to retrieve runaway servants, and Solomon had him executed for breaking his sworn word (2:36-46). Shimei's arc moves from vicious insult, through mercy, to a delayed judgment finally executed once the king's oath was tested and broken.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
-    "father": "gera-3",
+    "father": "gera",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

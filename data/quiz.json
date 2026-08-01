@@ -1218,6 +1218,664 @@
       "topic_id": "ezra",
       "difficulty": 3,
       "reference": "Nehemiah 8:1-3"
+    },
+    {
+      "question": "What sign did Rahab hang from her window so the Israelites would spare her family?",
+      "answer": "A scarlet (red) cord.",
+      "topic_id": "rahab",
+      "difficulty": 1,
+      "reference": "Joshua 2:18-21"
+    },
+    {
+      "question": "In whose genealogy is Rahab named in the New Testament?",
+      "answer": "Jesus Christ's (Matthew's genealogy).",
+      "topic_id": "rahab",
+      "difficulty": 2,
+      "reference": "Matthew 1:5"
+    },
+    {
+      "question": "How old was Caleb when he asked to take the hill country of Hebron from the Anakim?",
+      "answer": "Eighty-five years old.",
+      "topic_id": "caleb",
+      "difficulty": 2,
+      "reference": "Joshua 14:10-12"
+    },
+    {
+      "question": "How did Othniel win Achsah, Caleb's daughter, as his wife?",
+      "answer": "By capturing the city of Kiriath-sepher.",
+      "topic_id": "othniel",
+      "difficulty": 2,
+      "reference": "Joshua 15:16-17"
+    },
+    {
+      "question": "What distinctive physical trait of Ehud's did Scripture note, which helped him surprise King Eglon's guards?",
+      "answer": "He was left-handed.",
+      "topic_id": "ehud",
+      "difficulty": 1,
+      "reference": "Judges 3:15"
+    },
+    {
+      "question": "What unusual weapon did Shamgar use to kill six hundred Philistines?",
+      "answer": "An ox goad.",
+      "topic_id": "shamgar",
+      "difficulty": 1,
+      "reference": "Judges 3:31"
+    },
+    {
+      "question": "What did Jael use to kill Sisera while he slept in her tent?",
+      "answer": "A tent peg and a hammer.",
+      "topic_id": "jael",
+      "difficulty": 1,
+      "reference": "Judges 4:21"
+    },
+    {
+      "question": "What items did Achan take from Jericho's devoted plunder?",
+      "answer": "A beautiful robe from Shinar, silver, and a bar of gold.",
+      "topic_id": "achan",
+      "difficulty": 2,
+      "reference": "Joshua 7:21"
+    },
+    {
+      "question": "What vow did Jephthah make before going into battle against Ammon?",
+      "answer": "That whatever came out of his house to meet him on his return would belong to the LORD, offered as a burnt offering.",
+      "topic_id": "jephthah",
+      "difficulty": 2,
+      "reference": "Judges 11:30-31"
+    },
+    {
+      "question": "How many years did Tola judge Israel?",
+      "answer": "Twenty-three years.",
+      "topic_id": "tola",
+      "difficulty": 2,
+      "reference": "Judges 10:1-2"
+    },
+    {
+      "question": "How many sons did Jair have, and what did each one ride?",
+      "answer": "Thirty sons, each riding his own donkey.",
+      "topic_id": "jair",
+      "difficulty": 2,
+      "reference": "Judges 10:4"
+    },
+    {
+      "question": "How many sons and how many daughters did Ibzan have?",
+      "answer": "Thirty sons and thirty daughters.",
+      "topic_id": "ibzan",
+      "difficulty": 2,
+      "reference": "Judges 12:9"
+    },
+    {
+      "question": "From which tribe did the judge Elon come?",
+      "answer": "Zebulun.",
+      "topic_id": "elon",
+      "difficulty": 2,
+      "reference": "Judges 12:11"
+    },
+    {
+      "question": "How many sons and grandsons did Abdon have, and what did they all ride?",
+      "answer": "Forty sons and thirty grandsons, all riding on seventy donkeys.",
+      "topic_id": "abdon",
+      "difficulty": 3,
+      "reference": "Judges 12:14"
+    },
+    {
+      "question": "What did Ziba bring David when he met him fleeing Jerusalem during Absalom's revolt?",
+      "answer": "Donkeys, bread, raisins, summer fruit, and wine.",
+      "topic_id": "ziba",
+      "difficulty": 2,
+      "reference": "2 Samuel 16:1-2"
+    },
+    {
+      "question": "Who wanted to kill Shimei for cursing David, and how did David respond?",
+      "answer": "Abishai wanted to kill him, but David restrained him, saying to let him curse since the LORD had told him to.",
+      "topic_id": "shimei-2",
+      "difficulty": 2,
+      "reference": "2 Samuel 16:9-12"
+    },
+    {
+      "question": "What did Ahithophel do after Absalom rejected his military advice in favor of Hushai's?",
+      "answer": "He went home, set his affairs in order, and hanged himself.",
+      "topic_id": "ahithophel",
+      "difficulty": 2,
+      "reference": "2 Samuel 17:23"
+    },
+    {
+      "question": "What task did David give Hushai when he sent him back to Jerusalem during Absalom's revolt?",
+      "answer": "To pretend loyalty to Absalom and work to defeat Ahithophel's counsel from within.",
+      "topic_id": "hushai",
+      "difficulty": 2,
+      "reference": "2 Samuel 15:32-34"
+    },
+    {
+      "question": "What sacred object was captured by the Philistines the same day Hophni and Phinehas died?",
+      "answer": "The ark of the covenant.",
+      "topic_id": "hophni",
+      "difficulty": 1,
+      "reference": "1 Samuel 4:10-11"
+    },
+    {
+      "question": "How many priests did Doeg kill at Saul's command after Ahimelech helped David?",
+      "answer": "Eighty-five priests who wore the linen ephod.",
+      "topic_id": "doeg",
+      "difficulty": 2,
+      "reference": "1 Samuel 22:18"
+    },
+    {
+      "question": "Who murdered Abner, and why?",
+      "answer": "Joab, in revenge for Abner's killing of Joab's brother Asahel in battle.",
+      "topic_id": "abner",
+      "difficulty": 2,
+      "reference": "2 Samuel 3:27"
+    },
+    {
+      "question": "Who assassinated Ish-bosheth, and how did David respond to them?",
+      "answer": "His own captains Baanah and Rechab; David had them executed for murdering an innocent man.",
+      "topic_id": "ish-bosheth",
+      "difficulty": 2,
+      "reference": "2 Samuel 4:5-12"
+    },
+    {
+      "question": "What did Baanah and Rechab bring to David expecting a reward, after murdering Ish-bosheth?",
+      "answer": "Ish-bosheth's severed head.",
+      "topic_id": "rechab",
+      "difficulty": 2,
+      "reference": "2 Samuel 4:8"
+    },
+    {
+      "question": "What does the name \"Nabal\" mean, and how does Scripture connect it to his character?",
+      "answer": "It means \"fool\" -- Scripture says \"as his name is, so is he... folly is with him.\"",
+      "topic_id": "nabal",
+      "difficulty": 2,
+      "reference": "1 Samuel 25:25"
+    },
+    {
+      "question": "What did Abigail do when she learned David was coming to take vengeance on Nabal's household?",
+      "answer": "She quickly gathered provisions and rode out to meet David, interceding before he reached them.",
+      "topic_id": "abigail",
+      "difficulty": 2,
+      "reference": "1 Samuel 25:18-23"
+    },
+    {
+      "question": "How did Michal help David escape when Saul sent men to kill him?",
+      "answer": "She lowered him through a window and put a household idol in his bed to deceive the pursuers.",
+      "topic_id": "michal",
+      "difficulty": 2,
+      "reference": "1 Samuel 19:11-17"
+    },
+    {
+      "question": "Why did Uriah refuse to go home to his wife while home from battle at David's invitation?",
+      "answer": "Because his fellow soldiers and the ark were still camped in the field, and he would not enjoy comforts they could not.",
+      "topic_id": "uriah",
+      "difficulty": 2,
+      "reference": "2 Samuel 11:11"
+    },
+    {
+      "question": "How did Joab kill Amasa?",
+      "answer": "He pretended to greet him warmly, took his beard as if to kiss him, and struck him fatally with a concealed sword.",
+      "topic_id": "amasa",
+      "difficulty": 2,
+      "reference": "2 Samuel 20:9-10"
+    },
+    {
+      "question": "What did David charge Solomon to do about Joab on his deathbed, and why?",
+      "answer": "Not to let Joab die peacefully in old age, because of the innocent blood he had shed (Abner's and Amasa's) in peacetime.",
+      "topic_id": "joab",
+      "difficulty": 3,
+      "reference": "1 Kings 2:5-6"
+    },
+    {
+      "question": "What happened to Absalom that left him trapped and vulnerable during the final battle?",
+      "answer": "His hair (or head) caught fast in the branches of a great oak tree.",
+      "topic_id": "absalom",
+      "difficulty": 2,
+      "reference": "2 Samuel 18:9"
+    },
+    {
+      "question": "What request did Adonijah make to Solomon through Bathsheba that led to his execution?",
+      "answer": "That he be given Abishag, David's attendant, as a wife.",
+      "topic_id": "adonijah",
+      "difficulty": 2,
+      "reference": "1 Kings 2:13-25"
+    },
+    {
+      "question": "How did the city of Abel Beth-maacah avoid destruction from Joab's siege over Sheba's rebellion?",
+      "answer": "A wise woman from the city persuaded the people to behead Sheba and throw his head over the wall.",
+      "topic_id": "sheba",
+      "difficulty": 2,
+      "reference": "2 Samuel 20:16-22"
+    },
+    {
+      "question": "Who assassinated King Elah of Israel, and in what state was Elah at the time?",
+      "answer": "Zimri, his chariot commander, killed him while he was drunk.",
+      "topic_id": "elah-2",
+      "difficulty": 2,
+      "reference": "1 Kings 16:9-10"
+    },
+    {
+      "question": "How long did Zimri reign as king of Israel before his death?",
+      "answer": "Seven days.",
+      "topic_id": "zimri-2",
+      "difficulty": 1,
+      "reference": "1 Kings 16:15"
+    },
+    {
+      "question": "What city did Omri found as Israel's new capital?",
+      "answer": "Samaria.",
+      "topic_id": "omri",
+      "difficulty": 1,
+      "reference": "1 Kings 16:24"
+    },
+    {
+      "question": "What did Jezebel arrange to happen to Naboth so Ahab could take his vineyard?",
+      "answer": "She arranged false witnesses to accuse him of blasphemy, leading to his death by stoning.",
+      "topic_id": "jezebel",
+      "difficulty": 2,
+      "reference": "1 Kings 21:8-13"
+    },
+    {
+      "question": "How many of the LORD's prophets did Obadiah hide from Jezebel, and how?",
+      "answer": "A hundred, hidden fifty at a time in two caves and fed with bread and water.",
+      "topic_id": "obadiah",
+      "difficulty": 2,
+      "reference": "1 Kings 18:4"
+    },
+    {
+      "question": "Why did Naboth refuse to sell his vineyard to King Ahab?",
+      "answer": "Because it was his ancestral inheritance, which God's law protected from being given away.",
+      "topic_id": "naboth",
+      "difficulty": 2,
+      "reference": "1 Kings 21:3"
+    },
+    {
+      "question": "What judgment fell on Gehazi after he lied to obtain silver and clothing from Naaman?",
+      "answer": "Naaman's leprosy clung to Gehazi and his descendants.",
+      "topic_id": "gehazi",
+      "difficulty": 1,
+      "reference": "2 Kings 5:27"
+    },
+    {
+      "question": "What did Elisha instruct Naaman to do to be healed of leprosy?",
+      "answer": "Wash seven times in the Jordan River.",
+      "topic_id": "naaman",
+      "difficulty": 1,
+      "reference": "2 Kings 5:10"
+    },
+    {
+      "question": "How did the infant Joash survive Athaliah's massacre of the royal family?",
+      "answer": "His aunt Jehosheba secretly rescued and hid him for six years.",
+      "topic_id": "athaliah",
+      "difficulty": 2,
+      "reference": "2 Kings 11:2-3"
+    },
+    {
+      "question": "How old was Jehoiada when he died, and what honor did he receive?",
+      "answer": "130 years old; he was buried among the kings of Judah for the good he had done.",
+      "topic_id": "jehoiada",
+      "difficulty": 3,
+      "reference": "2 Chronicles 24:15-16"
+    },
+    {
+      "question": "Who did Josiah's officials consult to confirm the authenticity of the rediscovered Book of the Law?",
+      "answer": "Huldah the prophetess.",
+      "topic_id": "huldah",
+      "difficulty": 2,
+      "reference": "2 Kings 22:14"
+    },
+    {
+      "question": "What did King Jehoiakim do when Baruch's scroll of Jeremiah's warnings was read to him?",
+      "answer": "He cut it apart with a knife and burned it in a brazier.",
+      "topic_id": "baruch",
+      "difficulty": 2,
+      "reference": "Jeremiah 36:22-23"
+    },
+    {
+      "question": "What did Ebed-Melech use to cushion the ropes when pulling Jeremiah out of the cistern?",
+      "answer": "Old rags and worn-out clothes.",
+      "topic_id": "ebed-melech",
+      "difficulty": 3,
+      "reference": "Jeremiah 38:11-13"
+    },
+    {
+      "question": "Who assassinated Gedaliah, and what happened to the remaining Judeans as a result?",
+      "answer": "Ishmael, a man of royal blood; the terrified remnant then fled to Egypt.",
+      "topic_id": "gedaliah",
+      "difficulty": 2,
+      "reference": "Jeremiah 41:1-3, 43:1-7"
+    },
+    {
+      "question": "What did Shadrach and his friends say to Nebuchadnezzar about God's deliverance before being thrown in the furnace?",
+      "answer": "That God was able to deliver them, but even if He did not, they still would not worship the king's idol.",
+      "topic_id": "shadrach",
+      "difficulty": 2,
+      "reference": "Daniel 3:16-18"
+    },
+    {
+      "question": "What disrespectful act did Belshazzar commit at his feast that provoked God's judgment?",
+      "answer": "He drank from the sacred gold and silver vessels taken from the Jerusalem temple while praising idols.",
+      "topic_id": "belshazzar",
+      "difficulty": 2,
+      "reference": "Daniel 5:2-4"
+    },
+    {
+      "question": "What compromise did Daniel propose to Ashpenaz so he could avoid the king's food without endangering him?",
+      "answer": "A ten-day test eating only vegetables and water, compared to the young men eating the king's food.",
+      "topic_id": "ashpenaz",
+      "difficulty": 3,
+      "reference": "Daniel 1:11-14"
+    },
+    {
+      "question": "What did Mordecai discover and report that saved King Ahasuerus's life?",
+      "answer": "A plot by two royal officers to assassinate the king.",
+      "topic_id": "mordecai",
+      "difficulty": 2,
+      "reference": "Esther 2:21-23"
+    },
+    {
+      "question": "What ultimately happened to Haman on the gallows he had built for Mordecai?",
+      "answer": "He was hanged on it himself.",
+      "topic_id": "haman",
+      "difficulty": 1,
+      "reference": "Esther 7:9-10"
+    },
+    {
+      "question": "What promise did God give Zerubbabel through the prophet Zechariah about how the temple would be completed?",
+      "answer": "\"Not by might nor by power, but by My Spirit.\"",
+      "topic_id": "zerubbabel",
+      "difficulty": 2,
+      "reference": "Zechariah 4:6"
+    },
+    {
+      "question": "What excuse did Nehemiah repeatedly give for refusing Sanballat's invitations to meet at Ono?",
+      "answer": "\"I am doing a great work and I cannot come down.\"",
+      "topic_id": "sanballat",
+      "difficulty": 2,
+      "reference": "Nehemiah 6:3"
+    },
+    {
+      "question": "What did Nehemiah discover Tobiah had been given inside the temple, and how did he respond?",
+      "answer": "A room formerly used for offerings; Nehemiah threw out his belongings and had it cleansed.",
+      "topic_id": "tobiah",
+      "difficulty": 3,
+      "reference": "Nehemiah 13:4-9"
+    },
+    {
+      "question": "What did God say about Eliphaz and Job's other two friends at the end of the book?",
+      "answer": "That they had not spoken correctly about Him, the way His servant Job had.",
+      "topic_id": "eliphaz-2",
+      "difficulty": 2,
+      "reference": "Job 42:7"
+    },
+    {
+      "question": "What did Orpah do when Naomi urged her daughters-in-law to return to their own people?",
+      "answer": "She kissed Naomi goodbye and returned to Moab, while Ruth stayed with Naomi.",
+      "topic_id": "orpah",
+      "difficulty": 1,
+      "reference": "Ruth 1:14"
+    },
+    {
+      "question": "What did Zaccheus pledge to do after Jesus came to his house?",
+      "answer": "Give half his possessions to the poor and repay fourfold anyone he had defrauded.",
+      "topic_id": "zaccheus",
+      "difficulty": 1,
+      "reference": "Luke 19:8"
+    },
+    {
+      "question": "How did Paul ask Philemon to receive his runaway slave Onesimus?",
+      "answer": "No longer as a slave, but as a beloved brother.",
+      "topic_id": "philemon",
+      "difficulty": 2,
+      "reference": "Philemon 1:16"
+    },
+    {
+      "question": "What title did Bartimaeus use to call out to Jesus?",
+      "answer": "\"Son of David.\"",
+      "topic_id": "bartimaeus",
+      "difficulty": 1,
+      "reference": "Mark 10:47"
+    },
+    {
+      "question": "Why was Simon of Cyrene forced to carry Jesus's cross?",
+      "answer": "Roman soldiers compelled him, since Jesus, already badly beaten, could not carry it any further.",
+      "topic_id": "simon-3",
+      "difficulty": 1,
+      "reference": "Mark 15:21"
+    },
+    {
+      "question": "What core teaching did Jesus give Nicodemus about entering the kingdom of God?",
+      "answer": "That one must be \"born again\" (born of water and the Spirit).",
+      "topic_id": "nicodemus",
+      "difficulty": 1,
+      "reference": "John 3:3-5"
+    },
+    {
+      "question": "What did Joseph of Arimathea ask Pilate for after Jesus's death?",
+      "answer": "Permission to take Jesus's body for burial.",
+      "topic_id": "joseph-7",
+      "difficulty": 1,
+      "reference": "Mark 15:43"
+    },
+    {
+      "question": "How many days had Lazarus been in the tomb by the time Jesus arrived?",
+      "answer": "Four days.",
+      "topic_id": "lazarus",
+      "difficulty": 1,
+      "reference": "John 11:17, 39"
+    },
+    {
+      "question": "What confession of faith did Martha make to Jesus at Lazarus's tomb?",
+      "answer": "\"I do believe that You are the Christ, the Son of God.\"",
+      "topic_id": "martha",
+      "difficulty": 2,
+      "reference": "John 11:27"
+    },
+    {
+      "question": "What did Jesus say Mary's costly anointing of His feet was preparing Him for?",
+      "answer": "His burial.",
+      "topic_id": "mary-2",
+      "difficulty": 2,
+      "reference": "John 12:7"
+    },
+    {
+      "question": "Who was the first person to see the risen Jesus and announce His resurrection to the other disciples?",
+      "answer": "Mary Magdalene.",
+      "topic_id": "mary-magdalene",
+      "difficulty": 1,
+      "reference": "John 20:16-18"
+    },
+    {
+      "question": "At what moment did Cleopas and his companion finally recognize the risen Jesus?",
+      "answer": "When He broke the bread at their meal in Emmaus.",
+      "topic_id": "cleopas",
+      "difficulty": 1,
+      "reference": "Luke 24:30-31"
+    },
+    {
+      "question": "What crimes was Barabbas imprisoned for before his release at Jesus's trial?",
+      "answer": "Insurrection and murder.",
+      "topic_id": "barabbas",
+      "difficulty": 1,
+      "reference": "Mark 15:7"
+    },
+    {
+      "question": "What did Jesus do for Malchus after Peter cut off his ear?",
+      "answer": "He touched his ear and healed him.",
+      "topic_id": "malchus",
+      "difficulty": 2,
+      "reference": "Luke 22:51"
+    },
+    {
+      "question": "What exactly was Ananias and Sapphira's sin, according to Peter?",
+      "answer": "Lying to the Holy Spirit by claiming to give the full proceeds of their sale while secretly keeping some back.",
+      "topic_id": "ananias",
+      "difficulty": 2,
+      "reference": "Acts 5:3-4"
+    },
+    {
+      "question": "What did Ananias call Saul when he came to restore his sight, despite Saul's reputation as a persecutor?",
+      "answer": "\"Brother Saul.\"",
+      "topic_id": "ananias-2",
+      "difficulty": 2,
+      "reference": "Acts 9:17"
+    },
+    {
+      "question": "What did Stephen pray for the people who were stoning him, just before he died?",
+      "answer": "That God would not hold the sin against them (he forgave them).",
+      "topic_id": "stephen",
+      "difficulty": 2,
+      "reference": "Acts 7:60"
+    },
+    {
+      "question": "What Old Testament book was the Ethiopian official reading when Philip met him on the Gaza road?",
+      "answer": "Isaiah.",
+      "topic_id": "philip-3",
+      "difficulty": 2,
+      "reference": "Acts 8:28, 32-33"
+    },
+    {
+      "question": "What did Simon the sorcerer try to buy from Peter and John, and why was this wrong?",
+      "answer": "The power to give the Holy Spirit by the laying on of hands; he treated God's gift as something to purchase for his own gain.",
+      "topic_id": "simon-5",
+      "difficulty": 2,
+      "reference": "Acts 8:18-21"
+    },
+    {
+      "question": "What happened while Peter was still preaching to Cornelius's household?",
+      "answer": "The Holy Spirit fell on all who were listening.",
+      "topic_id": "cornelius",
+      "difficulty": 2,
+      "reference": "Acts 10:44"
+    },
+    {
+      "question": "What does the name \"Barnabas\" mean, and why was it given to him?",
+      "answer": "\"Son of Encouragement\" -- given by the apostles because of his generous, encouraging character.",
+      "topic_id": "barnabas",
+      "difficulty": 2,
+      "reference": "Acts 4:36"
+    },
+    {
+      "question": "Why did Paul refuse to take John Mark on the second missionary journey?",
+      "answer": "Because Mark had deserted them partway through the first journey, at Pamphylia.",
+      "topic_id": "mark",
+      "difficulty": 2,
+      "reference": "Acts 15:37-38"
+    },
+    {
+      "question": "What did Paul and Silas do at midnight in the Philippian prison, right before the earthquake?",
+      "answer": "They were praying and singing hymns of praise to God.",
+      "topic_id": "silas",
+      "difficulty": 1,
+      "reference": "Acts 16:25"
+    },
+    {
+      "question": "What did Paul encourage Timothy not to let others do because of his youth?",
+      "answer": "Look down on him; instead he should be an example in speech, conduct, love, faith, and purity.",
+      "topic_id": "timothy",
+      "difficulty": 2,
+      "reference": "1 Timothy 4:12"
+    },
+    {
+      "question": "What task did Paul leave Titus to do on the island of Crete?",
+      "answer": "Organize the churches and appoint elders in every city.",
+      "topic_id": "titus",
+      "difficulty": 2,
+      "reference": "Titus 1:5"
+    },
+    {
+      "question": "What trade did Lydia work in?",
+      "answer": "She was a dealer in purple cloth.",
+      "topic_id": "lydia",
+      "difficulty": 1,
+      "reference": "Acts 16:14"
+    },
+    {
+      "question": "What did Priscilla and Aquila do for the preacher Apollos when they realized his understanding was incomplete?",
+      "answer": "They took him aside privately and explained the way of God to him more accurately.",
+      "topic_id": "priscilla",
+      "difficulty": 2,
+      "reference": "Acts 18:26"
+    },
+    {
+      "question": "What did Paul say about the relationship between his own ministry and Apollos's in Corinth?",
+      "answer": "\"I planted, Apollos watered, but God was causing the growth\" -- they were united in service, not rivals.",
+      "topic_id": "apollos",
+      "difficulty": 2,
+      "reference": "1 Corinthians 3:6-8"
+    },
+    {
+      "question": "Why did Paul say Demas deserted him, according to 2 Timothy?",
+      "answer": "Because he had loved this present world.",
+      "topic_id": "demas",
+      "difficulty": 2,
+      "reference": "2 Timothy 4:10"
+    },
+    {
+      "question": "What happened to Eutychus during Paul's long late-night sermon in Troas?",
+      "answer": "He fell asleep, fell from a third-story window, and was picked up dead -- then Paul raised him back to life.",
+      "topic_id": "eutychus",
+      "difficulty": 1,
+      "reference": "Acts 20:9-10"
+    },
+    {
+      "question": "What was Felix's reaction when Paul spoke to him about righteousness, self-control, and the coming judgment?",
+      "answer": "He became frightened and sent Paul away, saying he would call for him later.",
+      "topic_id": "felix",
+      "difficulty": 2,
+      "reference": "Acts 24:25"
+    },
+    {
+      "question": "What did Festus exclaim to Paul while he was explaining the resurrection of Christ?",
+      "answer": "\"You are out of your mind! Your great learning is driving you mad.\"",
+      "topic_id": "festus",
+      "difficulty": 2,
+      "reference": "Acts 26:24"
+    },
+    {
+      "question": "What did King Agrippa say to Paul after hearing his testimony?",
+      "answer": "\"In a short time you will persuade me to become a Christian.\"",
+      "topic_id": "agrippa",
+      "difficulty": 2,
+      "reference": "Acts 26:28"
+    },
+    {
+      "question": "What warning did Gamaliel give the Sanhedrin about opposing the apostles?",
+      "answer": "That if their movement was of God, the council would risk being found fighting against God Himself.",
+      "topic_id": "gamaliel-2",
+      "difficulty": 2,
+      "reference": "Acts 5:38-39"
+    },
+    {
+      "question": "What did the grieving widows show Peter when he arrived after Tabitha's death?",
+      "answer": "The tunics and garments Tabitha had made for them.",
+      "topic_id": "tabitha",
+      "difficulty": 2,
+      "reference": "Acts 9:39"
+    },
+    {
+      "question": "Why did Epaphroditus nearly die during his mission to Paul?",
+      "answer": "He risked his life doing the work of Christ, serving Paul on the Philippian church's behalf.",
+      "topic_id": "epaphroditus",
+      "difficulty": 2,
+      "reference": "Philippians 2:27, 30"
+    },
+    {
+      "question": "What civic position did Erastus hold in Corinth?",
+      "answer": "City treasurer.",
+      "topic_id": "erastus-2",
+      "difficulty": 2,
+      "reference": "Romans 16:23"
+    },
+    {
+      "question": "What did Diotrephes do to church members who welcomed John's messengers?",
+      "answer": "He put them out of the church.",
+      "topic_id": "diotrephes",
+      "difficulty": 2,
+      "reference": "3 John 1:10"
+    },
+    {
+      "question": "What happened to Elymas (Bar-Jesus) after he opposed Paul and Barnabas before Sergius Paulus?",
+      "answer": "Paul declared judgment on him, and he was struck blind for a time.",
+      "topic_id": "bar-jesus",
+      "difficulty": 1,
+      "reference": "Acts 13:11"
     }
   ]
 }

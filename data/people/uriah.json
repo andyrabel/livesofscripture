@@ -2,8 +2,17 @@
   "person_id": "uriah",
   "name": "Uriah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Rabbah"
+  ],
   "references": [
     "2 Samuel 11:3-26",
     "2 Samuel 12:9-15",
@@ -13,6 +22,22 @@
     "Matthew 1:6"
   ],
   "first_reference": "2 Samuel 11:3-26",
+  "topics": [
+    "integrity",
+    "injustice",
+    "David's sin"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of David's mighty men, a Hittite soldier married to Bathsheba, whose integrity in refusing personal comfort while his men were at war led David to have him deliberately killed in battle to cover up his adultery with Bathsheba.",
+  "family_friendly_summary": "Uriah was a loyal, respected soldier in David's army and one of David's \"mighty men.\" While Uriah was away fighting for the king, David committed a serious sin against him -- and then tried to cover it up by bringing Uriah home from the battlefield, hoping he would go home to his wife so it would look like nothing was wrong. But Uriah refused to enjoy comforts at home while his fellow soldiers were still camped out fighting, showing real integrity and loyalty to his comrades. When David's plan failed, David arranged for Uriah to be placed in the most dangerous part of the battle and then abandoned, causing his death. Uriah never knew about the plot against him. His story is a sobering reminder of how one sin can lead to another, and one of the most serious wrongs recorded of King David.",
+  "adult_story": "Uriah the Hittite was one of David's \"thirty mighty men,\" married to Bathsheba, and away at the siege of Rabbah when David saw Bathsheba bathing and sent for her, committing adultery that led to her pregnancy (2 Samuel 11:1-5; 23:39). David brought Uriah home from the front, hoping he would sleep with his wife and unknowingly cover the child's true parentage. But Uriah refused to enjoy his own house and bed while \"the ark and Israel and Judah are staying in temporary shelters, and my lord Joab and the servants of my lord are camping in the open field\" -- even when David got him deliberately drunk (11:6-13). His loyalty to his fellow soldiers, an outsider showing more faithfulness to Israel's covenant army than the king himself, foiled the cover-up. David then sent Uriah back to Joab carrying his own death sentence: written orders to place him at the fiercest point of battle and withdraw support so he would be killed, which Joab carried out (11:14-17). Uriah died never knowing of the betrayal. The prophet Nathan later confronted David directly over the murder, and Scripture states plainly that \"the thing that David had done was evil in the sight of the LORD\" (11:27; 12:1-14). Uriah's integrity, held up against David's failure, is one of Scripture's sharpest studies of righteousness surrounding a king's worst sin.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet and carrying a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -20,5 +45,10 @@
       "bathsheba"
     ],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

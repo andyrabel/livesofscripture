@@ -2,18 +2,48 @@
   "person_id": "gehazi",
   "name": "Gehazi",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "near Israel"
+  ],
   "references": [
     "2 Kings 4:12-36",
     "2 Kings 5:20-25",
     "2 Kings 8:4-5"
   ],
   "first_reference": "2 Kings 4:12-36",
+  "topics": [
+    "greed",
+    "deceit",
+    "judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Elisha's servant who, after Elisha refused payment from the healed Naaman, secretly chased Naaman down for gifts under false pretenses and was struck with Naaman's leprosy as judgment.",
+  "family_friendly_summary": "Gehazi served as the personal servant and assistant to the prophet Elisha. When the Syrian commander Naaman was miraculously healed of leprosy after following Elisha's instructions, he wanted to give Elisha a generous reward, but Elisha refused to accept anything, wanting it to be clear that the healing was entirely God's gift. After Naaman left, though, Gehazi secretly ran after him, made up a false story, and asked for silver and clothing for himself, which Naaman happily gave. When Gehazi returned, Elisha already knew exactly what he had done, even though Gehazi lied about it. As a consequence for his greed and deceit, Elisha told Gehazi that the leprosy Naaman had been healed of would now cling to Gehazi and his descendants instead.",
+  "adult_story": "Gehazi served as Elisha's personal attendant, appearing throughout the prophet's ministry, including once helping restore a Shunammite boy to life at Elisha's instruction (2 Kings 4:29-37) and once wrongly trying to keep the Shunammite woman from Elisha (4:27). His defining moment comes after Naaman, the Syrian commander, was healed of leprosy by following Elisha's instructions to wash in the Jordan; when Naaman offered a generous reward, Elisha firmly refused any payment, making clear the healing was God's gift, not something to be bought (5:14-16). After Naaman departed, Gehazi decided to pursue him secretly, fabricating a story that two young prophets had just arrived and needed a talent of silver and two changes of clothing; Naaman, glad to give, pressed even more silver on him than requested (5:20-24). Gehazi hid the goods and returned to Elisha, who asked where he had been; Gehazi lied outright, saying he had gone nowhere (5:25). Elisha revealed he had seen it all in spirit, and pronounced judgment: \"the leprosy of Naaman shall cling to you and to your descendants forever.\" Gehazi left Elisha's presence \"a leper as white as snow\" (5:26-27). His story is a sharp warning against turning a genuine act of God's grace into a private opportunity for personal gain through deceit.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

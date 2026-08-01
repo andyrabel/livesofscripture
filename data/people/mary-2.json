@@ -2,18 +2,47 @@
   "person_id": "mary-2",
   "name": "Mary",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethany"
+  ],
   "references": [
     "Luke 10:39-42",
     "John 11:1-45",
     "John 12:3"
   ],
   "first_reference": "Luke 10:39-42",
+  "topics": [
+    "devotion",
+    "worship",
+    "sitting at Jesus's feet"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Sister of Martha and Lazarus in Bethany, commended by Jesus for choosing to sit and listen at His feet, and remembered for anointing His feet with costly perfume shortly before His death.",
+  "family_friendly_summary": "Mary of Bethany was the sister of Martha and Lazarus, and Jesus loved this family deeply. In one story, while Martha busily prepared food for their guest, Mary chose instead to sit quietly at Jesus's feet and simply listen to Him teach. When Martha complained, Jesus said Mary had chosen the better priority. Later, after Jesus raised her brother Lazarus from the dead, Mary showed her gratitude and devotion in an extravagant way -- she took a jar of very expensive perfume and poured it on Jesus's feet, wiping them with her own hair. Some at the dinner criticized her for the costly waste, but Jesus defended her, saying she had done a beautiful thing in preparing His body ahead of time for burial.",
+  "adult_story": "Mary of Bethany, sister of Martha and Lazarus, first appears choosing to sit at Jesus's feet listening to His teaching while Martha busied herself with hospitality preparations; Jesus commended Mary's choice as \"the good part,\" one that would not be taken from her (Luke 10:39-42). When Lazarus died, Mary stayed at home until Martha told her Jesus was asking for her, then went to Him and fell at His feet with the same words her sister had used: \"if You had been here, my brother would not have died\" (John 11:28-32). Seeing her weeping, along with the Jewish mourners who came with her, Jesus Himself was \"deeply moved\" and wept, just before raising Lazarus from the dead (11:33-35, 43-44). Mary's most memorable act comes shortly before Jesus's crucifixion: at a dinner in Bethany, she took about a pint of very costly perfume made of pure nard, worth roughly a year's wages, anointed Jesus's feet with it, and wiped them with her hair, filling the house with its fragrance (12:1-3). Judas Iscariot objected to the extravagance, feigning concern for the poor, but Jesus defended her: \"let her alone, so that she may keep it for the day of My burial,\" recognizing in her act a preparation for His coming death that even His own disciples had not grasped (12:4-8; compare Mark 14:8-9, where Jesus says her act will be told wherever the gospel is preached). Mary's story is one of consistent, worshipful devotion centered entirely on Jesus.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

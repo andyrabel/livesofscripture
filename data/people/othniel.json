@@ -2,8 +2,17 @@
   "person_id": "othniel",
   "name": "Othniel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kiriath-sepher",
+    "Hebron"
+  ],
   "references": [
     "Joshua 15:17",
     "Judges 1:13",
@@ -12,6 +21,22 @@
     "1 Chronicles 27:15"
   ],
   "first_reference": "Joshua 15:17",
+  "topics": [
+    "deliverance",
+    "the Spirit's empowering",
+    "faithfulness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Caleb's nephew, who captured Kiriath-sepher to win Caleb's daughter Achsah in marriage, and became Israel's first judge, delivering the nation from eight years of oppression by Cushan-rishathaim.",
+  "family_friendly_summary": "Othniel was Caleb's younger relative, and he was brave and skilled in battle. When Caleb offered his daughter Achsah's hand in marriage to whoever could capture the city of Kiriath-sepher, Othniel took up the challenge and won. Years later, after Joshua died, Israel began worshiping other gods and forgot the Lord. God allowed a foreign king named Cushan-rishathaim to rule harshly over them for eight years. When the people finally cried out to God for help, He sent His Spirit to empower Othniel to lead Israel into battle. Othniel won, and the land had peace for forty years. He became Israel's very first judge -- a leader God raised up to rescue His people whenever they turned back to Him.",
+  "adult_story": "Othniel, son of Caleb's younger brother Kenaz, first appears when Caleb offers his daughter Achsah in marriage to whoever captures Kiriath-sepher; Othniel takes the city and wins her hand (Joshua 15:16-17; Judges 1:12-13). After Joshua's generation died, Israel \"did evil in the sight of the LORD\" by worshiping Baals and Asheroth, and God gave them into the hand of Cushan-rishathaim, king of Aram-naharaim, for eight years (Judges 3:7-8). When Israel cried out, \"the Spirit of the LORD came upon\" Othniel; he judged Israel, went to war, and God gave Cushan-rishathaim into his hand, and the land had rest for forty years (3:9-11). Othniel's brief account establishes the pattern the whole book of Judges repeats: Israel's sin, oppression, cry for help, a Spirit-empowered deliverer, and rest -- a cycle that exposes the nation's repeated unfaithfulness even as it displays God's repeated mercy. As the first and most straightforwardly faithful of the judges, with no moral failure recorded of him, Othniel stands as a picture of the kind of Spirit-raised deliverer Israel would need again and again until a final judge and king came who would not fail.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet and carrying a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "kenaz-2",
     "mother": null,
@@ -22,5 +47,10 @@
       "hathath",
       "meonothai"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

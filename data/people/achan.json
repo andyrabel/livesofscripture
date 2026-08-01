@@ -4,18 +4,49 @@
   "alt_names": [
     "Achar"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jericho",
+    "Ai",
+    "Valley of Achor"
+  ],
   "references": [
     "Joshua 7:1-24",
     "Joshua 22:20",
     "1 Chronicles 2:7"
   ],
   "first_reference": "Joshua 7:1-24",
+  "topics": [
+    "sin's consequences",
+    "corporate accountability",
+    "greed"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An Israelite of the tribe of Judah who secretly kept plunder devoted to destruction from Jericho, causing Israel's defeat at Ai and, once exposed by lot, was executed with his family and possessions.",
+  "family_friendly_summary": "When Israel conquered the city of Jericho, God commanded that everything in the city be either destroyed or given to His treasury -- none of it was to be kept by the people. But a man named Achan disobeyed. He saw a beautiful robe, silver, and gold, and he secretly took them and hid them under his tent. Because of this hidden sin, God allowed Israel's next battle, at the small city of Ai, to end in defeat, and soldiers were killed. Joshua asked God why, and God revealed that someone had disobeyed. Through a process of elimination, Achan was found out, confessed what he had done, and faced serious consequences along with his family. Achan's story is a sobering reminder that sin, even when hidden, affects more than just the person who commits it.",
+  "adult_story": "After Jericho fell, God had commanded that everything in the city was \"under the ban\" -- devoted to destruction or to the LORD's treasury, with nothing kept for personal gain (Joshua 6:17-19). Achan, of the tribe of Judah, saw among the plunder a beautiful robe from Shinar, two hundred shekels of silver, and a bar of gold; he coveted them, took them, and buried them under his tent (7:21). Israel's very next battle, a small assault on Ai, ended in a shocking defeat with the deaths of about thirty-six men, and Joshua tore his clothes in grief before God, asking why (7:2-9). God told Joshua that Israel had sinned by keeping devoted things, and that Israel could not stand against its enemies until the sin was removed (7:10-13). Through a process of lots narrowing tribe, clan, family, and household, Achan was identified; he confessed exactly what he had done, and the stolen goods were found buried precisely where he said (7:16-23). Achan, his family, his livestock, and his plunder were destroyed at a valley afterward named Achor, \"trouble,\" and the account closes with the LORD's fierce anger turning away from Israel (7:24-26). The episode is one of Scripture's starkest illustrations that hidden sin is never merely private -- it exposed the whole camp to defeat until it was uncovered and dealt with.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "carmi-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

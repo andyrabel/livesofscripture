@@ -2,21 +2,51 @@
   "person_id": "simon-3",
   "name": "Simon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Cyrene",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 27:32",
     "Mark 15:21",
     "Luke 23:26"
   ],
   "first_reference": "Matthew 27:32",
+  "topics": [
+    "unexpected calling",
+    "bearing the cross"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A man from Cyrene compelled by Roman soldiers to carry Jesus's cross to Golgotha, identified as the father of Alexander and Rufus, possibly later connected to the early church at Rome.",
+  "family_friendly_summary": "Simon was a man from Cyrene, a city in North Africa, who happened to be in Jerusalem, likely visiting for Passover, when Jesus was being led out to be crucified. Jesus had already been beaten and was too weak to keep carrying His own heavy cross, so Roman soldiers grabbed Simon out of the crowd and forced him to carry it the rest of the way to Golgotha. Simon almost certainly didn't expect or ask for this role, but he ended up being the one who literally carried Jesus's cross. The Gospel of Mark even names his two sons, Alexander and Rufus, suggesting they may have later become known members of the early church, meaning this unplanned moment may have led Simon's whole family toward faith in Jesus.",
+  "adult_story": "Simon of Cyrene, a city in North Africa with a significant Jewish population, was passing by -- possibly coming in from the countryside or arriving for Passover -- when Roman soldiers seized him and compelled him to carry Jesus's cross the rest of the way to Golgotha, since Jesus, already severely beaten, could not carry it any further Himself (Matthew 27:32; Mark 15:21; Luke 23:26). Roman law permitted soldiers to conscript a passerby for such forced labor, meaning Simon had no choice in the matter and almost certainly no idea, at that moment, whom he was helping. Mark's Gospel adds a detail found in no other account: Simon was \"the father of Alexander and Rufus\" (Mark 15:21), naming his sons as though the original audience would recognize them -- likely because they became known figures in the early church, and a Rufus is greeted by Paul in Romans 16:13 as \"a choice man in the Lord,\" along with his mother, whom Paul calls \"his mother and mine,\" possibly indicating the family's continued closeness to the apostolic circle. Nothing else is recorded of Simon's response to the experience, but the detail Mark preserves suggests that a moment of forced, unwanted labor under Roman compulsion may have become the doorway through which an entire family came into the early church's story, quite possibly the reason his sons' names meant something to Mark's readers at all.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": [
       "alexander",
-      "rufus"
+      "rufus",
+      "alexander-3"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

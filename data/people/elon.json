@@ -2,13 +2,36 @@
   "person_id": "elon",
   "name": "Elon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Aijalon",
+    "Zebulun"
+  ],
   "references": [
     "Genesis 26:34",
     "Genesis 36:2"
   ],
   "first_reference": "Genesis 26:34",
+  "topics": [
+    "quiet faithfulness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Zebulunite judge of Israel who led the nation for ten years and was buried at Aijalon.",
+  "family_friendly_summary": "Elon was from the tribe of Zebulun and judged Israel for ten years. Like a few of the other judges in the book of Judges, the Bible gives us only a couple of sentences about him -- his tribe, how long he led, and where he was buried in Aijalon. Even though we don't know the details of what he did, the Bible still counted his years of leadership worth recording, showing that God notices and remembers faithful service even when it isn't dramatic or widely known.",
+  "adult_story": "Elon the Zebulunite judged Israel for ten years, after which he died and was buried at Aijalon in the land of Zebulun (Judges 12:11-12). That is the entirety of what Scripture records about him -- no deliverance, no family detail, no failure. Among the six \"minor judges\" listed in Judges 10 and 12 (Tola, Jair, Ibzan, Elon, Abdon, and implicitly contrasted with the fuller accounts of Gideon, Jephthah, and Samson), Elon's account is the shortest of all. His inclusion at all is itself a quiet theological point: the book of Judges, and the Bible generally, does not measure a life's worth only by dramatic acts recorded at length. A decade of leadership over God's people, even one summarized in a single verse, was still counted worth naming in the sacred text.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -16,5 +39,10 @@
     "children": [
       "basemath"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

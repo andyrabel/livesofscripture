@@ -2,16 +2,38 @@
   "person_id": "tola",
   "name": "Tola",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Shamir in the hill country of Ephraim"
+  ],
   "references": [
     "Genesis 46:13",
     "Numbers 26:23",
     "1 Chronicles 7:1-2"
   ],
   "first_reference": "Genesis 46:13",
+  "topics": [
+    "quiet faithfulness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A judge from the tribe of Issachar who arose after Abimelech's violent kingship and judged Israel peacefully for twenty-three years from Shamir.",
+  "family_friendly_summary": "After a very troubled time under a harsh ruler named Abimelech, God raised up a man named Tola to lead and judge Israel. Tola lived in the hill country of Ephraim and led the people faithfully for twenty-three years. The Bible doesn't record any dramatic battles or miracles from his time as judge -- just steady, faithful leadership over many years. Tola's story reminds us that not every leader God uses has a big, dramatic story; sometimes faithfulness over the long haul is exactly what God's people need.",
+  "adult_story": "Tola, of the tribe of Issachar, \"arose to save Israel\" after the violent and short-lived kingship of Abimelech, who had massacred his own brothers and was eventually killed by a millstone dropped from a tower (Judges 9:1-57; 10:1). Tola lived in Shamir in the hill country of Ephraim and judged Israel for twenty-three years before he died and was buried there (10:1-2). No battle, deliverance, or moral failure is recorded of him at all -- his entire account is two verses. Coming directly after Abimelech's brutal and self-serving reign, Tola's long, unremarkable tenure reads as a deliberate contrast: after chaos and bloodshed, Israel simply had two decades of a judge who is remembered for nothing except that he \"saved Israel\" and then quietly served out his years. Scripture does not need every faithful life to be dramatic to record it as significant.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
-    "father": "issachar",
+    "father": "puah-2",
     "mother": null,
     "spouses": [],
     "children": [
@@ -22,5 +44,10 @@
       "samuel-3",
       "uzzi-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

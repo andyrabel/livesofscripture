@@ -1206,15 +1206,21 @@
     "person_id": "sheba",
     "name": "Sheba",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "United Monarchy",
     "genealogy": {
       "father": "raamah"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "rebellion",
+      "tribal division"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "dedan",
@@ -2543,7 +2549,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
@@ -3094,7 +3100,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "elon",
@@ -3110,13 +3116,17 @@
     "person_id": "elon",
     "name": "Elon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "quiet faithfulness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "basemath-2",
@@ -3159,7 +3169,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "laban"
@@ -3336,7 +3346,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "israel",
@@ -4818,8 +4828,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "perez",
       "spouses": [
@@ -4849,16 +4859,20 @@
     "person_id": "tola",
     "name": "Tola",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "issachar"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "quiet faithfulness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "puvvah",
@@ -4869,7 +4883,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "issachar"
@@ -4886,7 +4900,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "issachar"
@@ -4901,7 +4915,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "issachar"
@@ -5175,7 +5189,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "benjamin"
@@ -5222,7 +5236,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "benjamin"
@@ -5235,16 +5249,22 @@
     "person_id": "naaman",
     "name": "Naaman",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "healing",
+      "humility",
+      "grace for outsiders"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "ehi",
@@ -5292,7 +5312,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "iri"
@@ -5310,7 +5330,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "iri"
@@ -5327,7 +5347,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -5925,8 +5945,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2"
     },
@@ -5956,13 +5976,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
+    "era": "Judges",
     "genealogy": {
       "father": "uri"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "uri",
@@ -5970,13 +5991,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "oholiab",
@@ -6462,7 +6484,7 @@
     "person_id": "caleb",
     "name": "Caleb",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
@@ -6470,7 +6492,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness",
+    "topics": [
+      "faith",
+      "perseverance",
+      "wholehearted devotion"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "jephunneh",
@@ -6481,7 +6510,8 @@
     "era": "Exodus/Wilderness",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "igal",
@@ -7307,16 +7337,21 @@
     "person_id": "jair",
     "name": "Jair",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "segub-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "quiet faithfulness",
+      "prosperity"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "nobah",
@@ -7485,13 +7520,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
+    "era": "United Monarchy",
     "genealogy": {
       "father": "azzan"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "azzan",
@@ -7499,10 +7535,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
+    "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "ahihud",
@@ -7558,12 +7595,19 @@
     "person_id": "rahab",
     "name": "Rahab",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Exodus/Wilderness",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "faith",
+      "grace for outsiders",
+      "hospitality"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "king-of-jericho",
@@ -7593,16 +7637,22 @@
     "alt_names": [
       "Achar"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Exodus/Wilderness",
     "region": "canaan-israel",
     "genealogy": {
       "father": "carmi-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "sin's consequences",
+      "corporate accountability",
+      "greed"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "carmi-2",
@@ -7610,7 +7660,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Exodus/Wilderness",
     "region": "canaan-israel",
     "genealogy": {
       "father": "zabdi"
@@ -7627,7 +7677,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Exodus/Wilderness",
     "region": "canaan-israel",
     "genealogy": {
       "father": "zerah-3"
@@ -8012,7 +8062,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Exodus/Wilderness",
     "genealogy": {
       "father": "caleb",
       "spouses": [
@@ -8021,13 +8071,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "othniel",
     "name": "Othniel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8038,7 +8089,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "deliverance",
+      "the Spirit's empowering",
+      "faithfulness"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "kenaz-2",
@@ -8049,7 +8107,8 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "adoni-bezek",
@@ -8088,7 +8147,7 @@
     "person_id": "ehud",
     "name": "Ehud",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8096,7 +8155,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "deliverance",
+      "God using the unexpected"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "gera-2",
@@ -8107,13 +8172,14 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "shamgar",
     "name": "Shamgar",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8121,7 +8187,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "deliverance",
+      "unlikely weapons"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "anath",
@@ -8132,7 +8204,8 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "sisera",
@@ -8218,13 +8291,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "jael",
     "name": "Jael",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8234,7 +8308,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "deliverance",
+      "courage",
+      "God using the unexpected"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "joash",
@@ -8408,7 +8489,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "puah-2",
@@ -8422,7 +8504,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "dodo",
@@ -8433,7 +8516,8 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "jair-2",
@@ -8450,7 +8534,7 @@
     "person_id": "jephthah",
     "name": "Jephthah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8458,7 +8542,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan",
+    "topics": [
+      "rash vows",
+      "deliverance",
+      "the cost of sin's ripple effects"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "gilead-2",
@@ -8469,7 +8560,8 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "king-of-the-sons-of-ammon",
@@ -8486,12 +8578,18 @@
     "person_id": "ibzan",
     "name": "Ibzan",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "quiet faithfulness",
+      "family"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "elon-3",
@@ -8508,7 +8606,7 @@
     "person_id": "abdon",
     "name": "Abdon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
@@ -8516,7 +8614,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "quiet faithfulness",
+      "prosperity"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "hillel",
@@ -8527,7 +8631,8 @@
     "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "manoah",
@@ -8638,10 +8743,10 @@
     "person_id": "orpah",
     "name": "Orpah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
-    "region": "canaan-israel",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "chilion"
@@ -8649,7 +8754,12 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "a road not taken",
+      "loyalty vs. loss"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ram",
@@ -8657,8 +8767,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
-    "region": "sinai-wilderness",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2"
     },
@@ -8708,7 +8818,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
       "father": "elihu"
@@ -8724,16 +8834,21 @@
       "Eliab",
       "Eliel"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tohu"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "God's sovereignty",
+      "the purpose of suffering"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "tohu",
@@ -8744,7 +8859,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
       "father": "zophai"
@@ -8761,7 +8876,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
       "father": "elkanah-5"
@@ -8827,7 +8942,7 @@
     "person_id": "hophni",
     "name": "Hophni",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "region": "canaan-israel",
@@ -8836,7 +8951,12 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "priestly corruption",
+      "judgment"
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "phinehas-2",
@@ -9120,7 +9240,7 @@
     "person_id": "michal",
     "name": "Michal",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9133,7 +9253,12 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "love turned bitter",
+      "family torn by politics"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ahinoam",
@@ -9169,16 +9294,22 @@
     "person_id": "abner",
     "name": "Abner",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "ner"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "civil war",
+      "shifting loyalty",
+      "vengeance"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "ner",
@@ -9310,12 +9441,19 @@
     "person_id": "doeg",
     "name": "Doeg",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "betrayal",
+      "informing",
+      "massacre"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "achish",
@@ -9386,7 +9524,7 @@
     "person_id": "nabal",
     "name": "Nabal",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9397,13 +9535,19 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "foolishness",
+      "ingratitude",
+      "God's judgment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "abigail",
     "name": "Abigail",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9415,7 +9559,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "wisdom",
+      "peacemaking",
+      "discernment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ahinoam-2",
@@ -9484,13 +9634,14 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "United Monarchy",
     "genealogy": {
       "mother": "zeruiah"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "zeruiah",
@@ -9498,24 +9649,32 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "joab",
     "name": "Joab",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "United Monarchy",
     "genealogy": {
       "mother": "zeruiah"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "ruthlessness",
+      "military loyalty",
+      "unresolved blood-guilt"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "maoch",
@@ -9536,7 +9695,7 @@
     "alt_names": [
       "Eshbaal"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9545,7 +9704,12 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "civil war",
+      "weak leadership"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "asahel",
@@ -9599,7 +9763,7 @@
     "person_id": "absalom",
     "name": "Absalom",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9609,7 +9773,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "rebellion",
+      "pride",
+      "a father's grief"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "maacah-2",
@@ -9648,7 +9818,7 @@
     "person_id": "adonijah",
     "name": "Adonijah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -9658,7 +9828,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "premature ambition",
+      "succession",
+      "fear"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "haggith",
@@ -9774,7 +9950,7 @@
     "person_id": "baanah",
     "name": "Baanah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
@@ -9782,13 +9958,19 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "betrayal",
+      "misplaced ambition"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "rechab",
     "name": "Rechab",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
@@ -9796,7 +9978,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "betrayal",
+      "misplaced ambition"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "rimmon",
@@ -9807,7 +9995,8 @@
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "mephibosheth",
@@ -10212,35 +10401,50 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "United Monarchy",
+    "era": "Divided Monarchy",
     "genealogy": {
       "father": "jehoiada"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "kingdom": "judah"
   },
   {
     "person_id": "jehoiada",
     "name": "Jehoiada",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "United Monarchy",
+    "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "courage",
+      "covenant restoration",
+      "faithful mentorship"
+    ],
+    "image": "generic-priest.png"
   },
   {
     "person_id": "ziba",
     "name": "Ziba",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "ambiguous loyalty",
+      "opportunism"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "machir-2",
@@ -10340,7 +10544,7 @@
     "person_id": "uriah",
     "name": "Uriah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -10351,7 +10555,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "integrity",
+      "injustice",
+      "David's sin"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "abimelech-3",
@@ -10439,12 +10649,19 @@
     "person_id": "ahithophel",
     "name": "Ahithophel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "betrayal",
+      "wisdom turned to ruin",
+      "despair"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ittai",
@@ -10496,27 +10713,39 @@
     "person_id": "hushai",
     "name": "Hushai",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "loyalty",
+      "God using human strategy"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "shimei-2",
     "name": "Shimei",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "gera-3"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "cursing and mercy",
+      "unresolved grudges",
+      "judgment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "gera-3",
@@ -10524,7 +10753,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -10539,7 +10768,7 @@
     "alt_names": [
       "Amasai"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
@@ -10548,7 +10777,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "reconciliation",
+      "betrayal",
+      "rivalry"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "jether-2",
@@ -10561,7 +10797,8 @@
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "abigail-2",
@@ -10575,7 +10812,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "nahash-2",
@@ -10586,7 +10824,8 @@
     "era": "United Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "shobi",
@@ -10630,13 +10869,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "United Monarchy",
+    "era": "Primeval History",
     "genealogy": {
       "father": "bichri"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "bichri",
@@ -10644,10 +10884,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "United Monarchy",
+    "era": "Primeval History",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "adoram",
@@ -11201,7 +11442,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "hezro",
@@ -12155,7 +12397,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "ben-hadad",
@@ -12227,7 +12470,8 @@
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "jehu",
@@ -12258,7 +12502,7 @@
     "person_id": "elah-2",
     "name": "Elah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
@@ -12266,18 +12510,33 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "kingdom": "israel",
+    "topics": [
+      "kingship",
+      "drunkenness",
+      "judgment"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "zimri-2",
     "name": "Zimri",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "kingdom": "israel",
+    "topics": [
+      "short-lived ambition",
+      "self-destruction"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "arza",
@@ -12294,20 +12553,26 @@
     "person_id": "omri",
     "name": "Omri",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
     },
-    "kingdom": "israel"
+    "kingdom": "israel",
+    "topics": [
+      "kingship",
+      "idolatry",
+      "political achievement"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "tibni",
     "name": "Tibni",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
@@ -12315,7 +12580,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "civil war",
+      "failed ambition"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ginath",
@@ -12326,7 +12597,8 @@
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "shemer",
@@ -12363,7 +12635,7 @@
     "person_id": "jezebel",
     "name": "Jezebel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "region": "canaan-israel",
@@ -12376,7 +12648,13 @@
     "timeline": {
       "precision": "era"
     },
-    "kingdom": "israel"
+    "kingdom": "israel",
+    "topics": [
+      "idolatry",
+      "persecution",
+      "judgment"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "ethbaal",
@@ -12454,12 +12732,18 @@
     "person_id": "obadiah",
     "name": "Obadiah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "quiet faithfulness under persecution",
+      "courage"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "hazael",
@@ -12543,12 +12827,19 @@
     "person_id": "naboth",
     "name": "Naboth",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "injustice",
+      "covenant faithfulness",
+      "martyrdom"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "micaiah",
@@ -12737,12 +13028,19 @@
     "person_id": "gehazi",
     "name": "Gehazi",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "greed",
+      "deceit",
+      "judgment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "naaman-2",
@@ -12779,7 +13077,7 @@
     "person_id": "athaliah",
     "name": "Athaliah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "region": "canaan-israel",
@@ -12792,7 +13090,13 @@
     "timeline": {
       "precision": "era"
     },
-    "kingdom": "israel"
+    "kingdom": "judah",
+    "topics": [
+      "usurpation",
+      "idolatry",
+      "judgment"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "jehoshaphat-4",
@@ -13891,13 +14195,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "azaliah"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "azaliah",
@@ -13905,13 +14210,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "meshullam"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "meshullam",
@@ -13919,10 +14225,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "hilkiah-2",
@@ -13949,13 +14256,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "shaphan"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "achbor-2",
@@ -14003,7 +14311,7 @@
     "person_id": "huldah",
     "name": "Huldah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
@@ -14013,7 +14321,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "prophecy",
+      "revival",
+      "God's word confirmed"
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "shallum-2",
@@ -14030,7 +14345,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "tikvah",
@@ -14046,7 +14362,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "harhas",
@@ -14059,7 +14376,8 @@
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "joshua-3",
@@ -14211,10 +14529,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "jehoiachin",
@@ -14329,15 +14648,21 @@
     "person_id": "gedaliah",
     "name": "Gedaliah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "ahikam"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "leadership amid ruin",
+      "betrayal"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ishmael-2",
@@ -14488,8 +14813,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2",
       "spouses": [
@@ -14508,8 +14833,8 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2",
       "spouses": [
@@ -14573,8 +14898,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "caleb-2"
@@ -14590,8 +14915,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "caleb-2"
@@ -14607,8 +14932,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "azubah-2"
@@ -14623,8 +14948,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "azubah-2"
@@ -14639,13 +14964,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "mother": "azubah-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "ephrath",
@@ -14653,8 +14979,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "caleb-2"
@@ -14670,8 +14996,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2"
     },
@@ -14685,8 +15011,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "machir",
       "spouses": [
@@ -14703,8 +15029,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2",
       "mother": "abijah-4",
@@ -14723,8 +15049,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur"
     },
@@ -14738,8 +15064,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel"
     },
@@ -14753,8 +15079,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel"
     },
@@ -14768,8 +15094,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel"
     },
@@ -14783,8 +15109,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel"
     },
@@ -14798,8 +15124,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel"
     },
@@ -14813,8 +15139,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "jerahmeel"
@@ -14830,8 +15156,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "jerahmeel",
       "mother": "atarah"
@@ -14846,13 +15172,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "ram-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jamin-2",
@@ -14860,13 +15187,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "ram-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "eker",
@@ -14874,13 +15202,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "ram-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "shammai",
@@ -14888,13 +15217,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "onam-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jada",
@@ -14902,13 +15232,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "onam-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "nadab-3",
@@ -14916,13 +15247,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "shammai"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "abishur",
@@ -14930,7 +15262,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "shammai",
       "spouses": [
@@ -14939,7 +15271,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "abihail-2",
@@ -15063,13 +15396,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "jada"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jonathan-6",
@@ -15077,13 +15411,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "jada"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "peleth-2",
@@ -15312,8 +15647,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2"
     },
@@ -15327,13 +15662,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "mesha-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "mareshah",
@@ -15341,13 +15677,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "ziph"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "hebron-2",
@@ -15495,10 +15832,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "haran-2",
@@ -15506,8 +15844,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "ephah-2"
@@ -15522,8 +15860,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "ephah-2"
@@ -15538,8 +15876,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "ephah-2"
@@ -15554,13 +15892,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "haran-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jahdai",
@@ -15663,10 +16002,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "sheber",
@@ -15674,8 +16014,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "maacah-4"
@@ -15690,8 +16030,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "maacah-4"
@@ -15706,8 +16046,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "maacah-4"
@@ -15722,13 +16062,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "shaaph-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "sheva-2",
@@ -15736,8 +16077,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2",
       "mother": "maacah-4"
@@ -15752,13 +16093,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "sheva-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "gibea",
@@ -15766,13 +16108,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "sheva-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "achsah-2",
@@ -15780,8 +16123,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "caleb-2"
     },
@@ -15795,13 +16138,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "salma",
@@ -15809,13 +16153,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "hareph",
@@ -15823,13 +16168,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "haroeh",
@@ -15837,13 +16183,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "shobal-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "eliphelet-3",
@@ -16018,7 +16365,7 @@
     "person_id": "zerubbabel",
     "name": "Zerubbabel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
@@ -16027,7 +16374,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "topics": [
+      "restoration",
+      "leadership amid opposition",
+      "messianic line"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "shimei-4",
@@ -16484,13 +16837,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "shobal-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jahath",
@@ -16607,13 +16961,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "gedor",
@@ -16621,13 +16976,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "penuel"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "ezer-2",
@@ -16635,13 +16991,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "hur"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "hushah",
@@ -16649,13 +17006,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "ezer-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "helah",
@@ -16663,8 +17021,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "ashhur"
@@ -16680,8 +17038,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "spouses": [
         "ashhur"
@@ -16697,8 +17055,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "naarah"
@@ -16713,8 +17071,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "naarah"
@@ -16729,8 +17087,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "naarah"
@@ -16745,8 +17103,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "naarah"
@@ -16761,8 +17119,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "helah"
@@ -16777,8 +17135,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "helah"
@@ -16793,8 +17151,8 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
+    "era": "Judges",
+    "region": "moab-transjordan",
     "genealogy": {
       "father": "ashhur",
       "mother": "helah"
@@ -16979,13 +17337,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "kenaz-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "hathath",
@@ -16993,13 +17352,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "othniel"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "meonothai",
@@ -17007,13 +17367,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "othniel"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "ophrah",
@@ -17021,13 +17382,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "meonothai"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "joab-2",
@@ -17035,13 +17397,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "seraiah-4"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "iru",
@@ -17049,13 +17412,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exodus/Wilderness",
     "genealogy": {
       "father": "caleb"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "elah-4",
@@ -17063,13 +17427,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exodus/Wilderness",
     "genealogy": {
       "father": "caleb"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "naam",
@@ -17077,13 +17442,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exodus/Wilderness",
     "genealogy": {
       "father": "caleb"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "kenaz-3",
@@ -17091,13 +17457,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exodus/Wilderness",
     "genealogy": {
       "father": "elah-4"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "sinai-wilderness"
   },
   {
     "person_id": "jehallelel",
@@ -18318,13 +18685,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "jeshishai"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "meshullam-3",
@@ -18398,13 +18766,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "huri"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "huri",
@@ -18412,13 +18781,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "jaroah"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jaroah",
@@ -18426,13 +18796,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "gilead-3"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "gilead-3",
@@ -18440,13 +18811,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "michael-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jeshishai",
@@ -18454,13 +18826,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "jahdo"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "jahdo",
@@ -18468,13 +18841,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "genealogy": {
       "father": "buz-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "buz-2",
@@ -18482,10 +18856,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Judges",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "moab-transjordan"
   },
   {
     "person_id": "ahi",
@@ -19064,7 +19439,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "timeline": {
       "precision": "era"
@@ -19535,7 +19910,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19550,7 +19925,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19565,7 +19940,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19580,7 +19955,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19595,7 +19970,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19610,7 +19985,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "tola"
@@ -19625,7 +20000,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "uzzi-2"
@@ -19655,7 +20030,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -19670,7 +20045,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -19685,7 +20060,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -19700,7 +20075,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -19715,7 +20090,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -19730,7 +20105,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -19745,7 +20120,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -19762,7 +20137,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -20975,7 +21350,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -20990,7 +21365,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -21005,7 +21380,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -25835,7 +26210,16 @@
     "name": "Ammizabad",
     "alt_names": [],
     "tier": "stub",
-    "testament": "OT"
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "timeline": {
+      "precision": "era"
+    },
+    "region": "canaan-israel",
+    "kingdom": "judah",
+    "genealogy": {
+      "father": "benaiah"
+    }
   },
   {
     "person_id": "zebadiah-5",
@@ -27929,12 +28313,19 @@
     "person_id": "mordecai",
     "name": "Mordecai",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "providence",
+      "courage",
+      "faithfulness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "bilshan",
@@ -28895,12 +29286,18 @@
     "person_id": "tobiah",
     "name": "Tobiah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "opposition to God's work",
+      "compromise"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "habaiah",
@@ -31019,12 +31416,18 @@
     "person_id": "sanballat",
     "name": "Sanballat",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "opposition to God's work",
+      "intimidation"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "tobiah-2",
@@ -31043,12 +31446,17 @@
     "alt_names": [
       "Gashmu"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "opposition to God's work"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "eliashib-7",
@@ -31595,15 +32003,21 @@
     "person_id": "baruch",
     "name": "Baruch",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Divided Monarchy",
     "genealogy": {
       "father": "zabbai-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "faithful service",
+      "suffering with a prophet"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "zabbai-2",
@@ -31611,10 +32025,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "benjamin-4",
@@ -34312,7 +34727,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "jair-3",
@@ -34326,7 +34742,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "shimei-17",
@@ -34340,7 +34757,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "kish-4",
@@ -34351,7 +34769,8 @@
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "esther",
@@ -34367,7 +34786,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "shaashgaz",
@@ -34389,7 +34809,8 @@
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "bigthan",
@@ -34419,7 +34840,7 @@
     "person_id": "haman",
     "name": "Haman",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
@@ -34427,7 +34848,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "pride",
+      "genocide plotted",
+      "poetic judgment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "hammedatha",
@@ -34438,7 +34866,8 @@
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "hathach",
@@ -34474,7 +34903,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "dalphon",
@@ -34488,7 +34918,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "aspatha",
@@ -34502,7 +34933,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "poratha",
@@ -34516,7 +34948,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "adalia",
@@ -34530,7 +34963,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "aridatha",
@@ -34544,7 +34978,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "parmashta",
@@ -34558,7 +34993,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "arisai",
@@ -34572,7 +35008,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "aridai",
@@ -34586,7 +35023,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "vaizatha",
@@ -34600,7 +35038,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia"
   },
   {
     "person_id": "job",
@@ -34617,34 +35056,52 @@
     "person_id": "eliphaz-2",
     "name": "Eliphaz",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Patriarchal",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "suffering and false counsel",
+      "retributive theology"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "bildad",
     "name": "Bildad",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Patriarchal",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "suffering and false counsel",
+      "retributive theology"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "zophar",
     "name": "Zophar",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Patriarchal",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "suffering and false counsel",
+      "retributive theology"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "elihu-5",
@@ -34658,7 +35115,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "barachel",
@@ -34669,7 +35127,8 @@
     "era": "Patriarchal",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "ram-3",
@@ -35193,7 +35652,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "neriah",
@@ -35207,7 +35667,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "mahseiah",
@@ -35218,7 +35679,8 @@
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "jaazaniah",
@@ -35289,7 +35751,15 @@
     "name": "Gemariah",
     "alt_names": [],
     "tier": "stub",
-    "testament": "OT"
+    "testament": "OT",
+    "era": "Exile",
+    "timeline": {
+      "precision": "era"
+    },
+    "region": "canaan-israel",
+    "genealogy": {
+      "father": "shaphan"
+    }
   },
   {
     "person_id": "micaiah-6",
@@ -35297,13 +35767,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "gemariah-2"
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "elishama-6",
@@ -35638,12 +36109,19 @@
     "person_id": "ebed-melech",
     "name": "Ebed-melech",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "courage",
+      "compassion",
+      "reward for faith"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "nergal-sar-ezer",
@@ -35784,7 +36262,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "ezekiel",
@@ -35928,12 +36407,18 @@
     "person_id": "ashpenaz",
     "name": "Ashpenaz",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "providence",
+      "conviction under pressure"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "shadrach",
@@ -35941,12 +36426,18 @@
     "alt_names": [
       "Hananiah"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "faithfulness under pressure",
+      "God's deliverance"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "meshach",
@@ -35954,12 +36445,18 @@
     "alt_names": [
       "Mishael"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "faithfulness under pressure",
+      "God's deliverance"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "abed-nego",
@@ -35967,12 +36464,18 @@
     "alt_names": [
       "Azariah"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exile",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "faithfulness under pressure",
+      "God's deliverance"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "arioch-2",
@@ -35989,7 +36492,7 @@
     "person_id": "belshazzar",
     "name": "Belshazzar",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exile",
     "genealogy": {
@@ -35997,7 +36500,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "mesopotamia",
+    "topics": [
+      "pride",
+      "judgment",
+      "the writing on the wall"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "gabriel",
@@ -37105,23 +37615,35 @@
     "person_id": "barabbas",
     "name": "Barabbas",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "substitution",
+      "the innocent for the guilty"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "simon-3",
     "name": "Simon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "unexpected calling",
+      "bearing the cross"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "mary-magdalene",
@@ -37129,23 +37651,37 @@
     "alt_names": [
       "Mary"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "deliverance",
+      "faithful presence at the cross",
+      "resurrection witness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "joseph-7",
     "name": "Joseph",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "courage",
+      "quiet discipleship",
+      "burial of Christ"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "legion",
@@ -37187,7 +37723,7 @@
     "person_id": "bartimaeus",
     "name": "Bartimaeus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
@@ -37195,7 +37731,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "persistent faith",
+      "healing"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "timaeus",
@@ -37206,7 +37748,8 @@
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "alexander",
@@ -37220,7 +37763,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "rufus",
@@ -37234,7 +37778,8 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "salome",
@@ -38016,56 +38561,90 @@
     "person_id": "martha",
     "name": "Martha",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "hospitality",
+      "faith in grief",
+      "priorities"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "mary-2",
     "name": "Mary",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "devotion",
+      "worship",
+      "sitting at Jesus's feet"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "lazarus",
     "name": "Lazarus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "resurrection power",
+      "friendship with Jesus",
+      "faith through grief"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "zaccheus",
     "name": "Zaccheus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "repentance",
+      "grace for outsiders",
+      "restitution"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "cleopas",
     "name": "Cleopas",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "recognizing Christ",
+      "resurrection appearances"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "john-3",
@@ -38083,12 +38662,19 @@
     "person_id": "nicodemus",
     "name": "Nicodemus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "new birth",
+      "gradual faith",
+      "courage growing over time"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "simon-iscariot",
@@ -38118,12 +38704,18 @@
     "person_id": "malchus",
     "name": "Malchus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "Jesus's restraint",
+      "mercy toward an enemy"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "mary-3",
@@ -38210,18 +38802,25 @@
     "alt_names": [
       "Joseph"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "encouragement",
+      "generosity",
+      "second chances"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ananias",
     "name": "Ananias",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38231,13 +38830,20 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "hypocrisy",
+      "judgment",
+      "the seriousness of lying to God"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "sapphira",
     "name": "Sapphira",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38247,18 +38853,32 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "hypocrisy",
+      "judgment",
+      "the seriousness of lying to God"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "gamaliel-2",
     "name": "Gamaliel",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "cautious wisdom",
+      "discernment",
+      "restraint"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "theudas",
@@ -38286,23 +38906,37 @@
     "person_id": "stephen",
     "name": "Stephen",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "martyrdom",
+      "courage",
+      "forgiveness of enemies"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "philip-3",
     "name": "Philip",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "evangelism",
+      "obedience to the Spirit's leading",
+      "crossing boundaries"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "prochorus",
@@ -38363,12 +38997,19 @@
     "person_id": "simon-5",
     "name": "Simon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "counterfeit faith",
+      "money and spiritual power",
+      "false conversion"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "the-ethiopian-eunuch",
@@ -38396,12 +39037,19 @@
     "person_id": "ananias-2",
     "name": "Ananias",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "obedience despite fear",
+      "restoration",
+      "God's surprising choices"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "judas-4",
@@ -38431,12 +39079,19 @@
     "alt_names": [
       "Dorcas"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "charity",
+      "resurrection power",
+      "a life devoted to good works"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "simon-6",
@@ -38453,12 +39108,19 @@
     "person_id": "cornelius",
     "name": "Cornelius",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "the gospel to the Gentiles",
+      "devout seeking",
+      "God's impartiality"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "agabus",
@@ -38502,7 +39164,8 @@
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece"
   },
   {
     "person_id": "mark",
@@ -38510,7 +39173,7 @@
     "alt_names": [
       "John"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38518,7 +39181,13 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "failure and restoration",
+      "usefulness after setback"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "rhoda",
@@ -38585,12 +39254,18 @@
     "alt_names": [
       "Elymas"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "opposition to the gospel",
+      "spiritual blindness as judgment"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "sergius-paulus",
@@ -38622,18 +39297,25 @@
     "alt_names": [
       "Silvanus"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "missionary partnership",
+      "suffering for the gospel",
+      "faithfulness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "timothy",
     "name": "Timothy",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38641,18 +39323,32 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "mentorship",
+      "youthful ministry",
+      "faithful example"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "lydia",
     "name": "Lydia",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "conversion",
+      "hospitality",
+      "the gospel opening hearts"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "jason",
@@ -38691,7 +39387,7 @@
     "person_id": "aquila",
     "name": "Aquila",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38701,7 +39397,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "ministry partnership",
+      "teaching",
+      "hospitality"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "priscilla",
@@ -38709,7 +39412,7 @@
     "alt_names": [
       "Prisca"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "genealogy": {
@@ -38719,7 +39422,14 @@
     },
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "ministry partnership",
+      "teaching",
+      "hospitality"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "titius-justus",
@@ -38760,12 +39470,19 @@
     "person_id": "apollos",
     "name": "Apollos",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "eloquence used for God",
+      "teachability",
+      "avoiding factionalism"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "tyrannus",
@@ -38839,10 +39556,11 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Apostolic",
+    "era": "Gospels",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "sopater",
@@ -38917,12 +39635,18 @@
     "person_id": "eutychus",
     "name": "Eutychus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "God's power over death",
+      "a memorable mishap"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "mnason",
@@ -38950,12 +39674,19 @@
     "person_id": "felix",
     "name": "Felix",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "fear of conviction",
+      "delayed decision",
+      "corruption"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "lysias",
@@ -38990,7 +39721,8 @@
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel"
   },
   {
     "person_id": "festus",
@@ -38998,12 +39730,18 @@
     "alt_names": [
       "Porcius Festus"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "political expediency",
+      "fair-minded skepticism"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "caesar-2",
@@ -39020,23 +39758,35 @@
     "person_id": "agrippa",
     "name": "Agrippa",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "near-persuasion",
+      "hearing the gospel and hesitating"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "bernice",
     "name": "Bernice",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "canaan-israel",
+    "topics": [
+      "proximity to the gospel",
+      "royal spectacle"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "julius",
@@ -39361,12 +40111,18 @@
     "person_id": "erastus-2",
     "name": "Erastus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "faithful service",
+      "using position for the gospel"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "quartus",
@@ -39427,12 +40183,19 @@
     "person_id": "titus",
     "name": "Titus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "mentorship",
+      "church organization",
+      "trustworthy leadership"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "aretas",
@@ -39535,12 +40298,18 @@
     "person_id": "demas",
     "name": "Demas",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "falling away",
+      "love of the world"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "nympha",
@@ -39606,7 +40375,8 @@
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece"
   },
   {
     "person_id": "phygelus",
@@ -39755,12 +40525,19 @@
     "person_id": "philemon",
     "name": "Philemon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "reconciliation",
+      "Christian brotherhood",
+      "forgiveness"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "apphia",
@@ -39788,12 +40565,19 @@
     "person_id": "diotrephes",
     "name": "Diotrephes",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "abuse of church authority",
+      "pride",
+      "rejecting godly correction"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "demetrius-2",
@@ -39919,11 +40703,17 @@
     "person_id": "epaphroditus",
     "name": "Epaphroditus",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
       "precision": "era"
-    }
+    },
+    "region": "asia-minor-greece",
+    "topics": [
+      "sacrificial service",
+      "risking one's life for the gospel"
+    ],
+    "image": "generic-figure.png"
   }
 ]

@@ -2,14 +2,39 @@
   "person_id": "zerubbabel",
   "name": "Zerubbabel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Babylon"
+  ],
   "references": [
     "1 Chronicles 3:19"
   ],
   "first_reference": "1 Chronicles 3:19",
+  "topics": [
+    "restoration",
+    "leadership amid opposition",
+    "messianic line"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Davidic-line governor who led the first group of Jewish exiles back from Babylon, laid the foundation of the rebuilt temple, and completed its construction despite years of opposition, encouraged by the prophets Haggai and Zechariah.",
+  "family_friendly_summary": "Zerubbabel was a descendant of King David who led the first group of Jewish people back to Jerusalem after their exile in Babylon ended. One of his most important jobs was helping to rebuild the temple that had been destroyed. Building started well, but strong opposition from surrounding peoples caused the work to stop for years. Eventually, God sent the prophets Haggai and Zechariah to encourage Zerubbabel and the people to get back to work, promising that the temple would be completed \"not by might nor by power, but by My Spirit.\" Zerubbabel led the people faithfully through the challenge, and the temple was eventually finished. As a descendant of David, Zerubbabel is also part of the family line leading to Jesus, mentioned in the New Testament genealogies.",
+  "adult_story": "Zerubbabel, grandson of the exiled King Jehoiachin and thus part of David's royal line, was appointed governor and led the first wave of Jewish exiles back from Babylon to Jerusalem under Cyrus's decree (Ezra 2:1-2; 1 Chronicles 3:17-19). With the priest Jeshua, he rebuilt the altar and laid the foundation of the second temple, an event that provoked both joyful shouting and weeping among those who remembered Solomon's original temple (Ezra 3:8-13). Opposition from surrounding peoples, who offered false help and then wrote hostile letters to the Persian court, halted construction for years (4:1-5, 24). When work finally resumed under Darius, the prophets Haggai and Zechariah directly confronted the people's excuse-making and encouraged Zerubbabel specifically, with God's word to him promising success \"not by might nor by power, but by My Spirit\" (Zechariah 4:6; Haggai 1:1-15). Zechariah pictured Zerubbabel's hands that had laid the foundation also finishing the temple, and it was completed and dedicated in the sixth year of Darius (Zechariah 4:9; Ezra 6:14-16). As the last governor of David's royal line recorded in the Old Testament, Zerubbabel carried forward the messianic line through the exile's disruption, and both Matthew's and Luke's genealogies of Jesus trace through him, connecting the temple-rebuilder directly to the ultimate hope his generation was still watching for (Matthew 1:12-13; Luke 3:27).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
-    "father": "pedaiah-2",
+    "father": "shealtiel",
     "mother": null,
     "spouses": [],
     "children": [
@@ -17,5 +42,10 @@
       "meshullam-2",
       "shelomith-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

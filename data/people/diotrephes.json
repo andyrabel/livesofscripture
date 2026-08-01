@@ -2,16 +2,45 @@
   "person_id": "diotrephes",
   "name": "Diotrephes",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Asia Minor"
+  ],
   "references": [
     "3 John 1:9"
   ],
   "first_reference": "3 John 1:9",
+  "topics": [
+    "abuse of church authority",
+    "pride",
+    "rejecting godly correction"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A church leader rebuked by name in 3 John for loving to be first, refusing to welcome the apostle John's messengers, spreading malicious accusations, and expelling from the church anyone who welcomed them.",
+  "family_friendly_summary": "Diotrephes was a leader in a local church who caused serious problems through pride and controlling behavior. The apostle John wrote about him directly, explaining that Diotrephes loved having the most important, first place in the church and refused to welcome or even acknowledge John's own messengers when they came. Not satisfied with that, Diotrephes went further, spreading harmful, false accusations about John, and he even kicked people out of the church simply for showing hospitality to the traveling teachers John had sent. John warned that if he came in person, he would address Diotrephes's behavior directly and publicly. Diotrephes's story is a serious warning in the New Testament about the danger of using a position of church leadership for personal pride and control rather than humble service.",
+  "adult_story": "Diotrephes is named directly, and critically, in John's third epistle, one of only a small handful of individuals in the New Testament singled out by name for negative rebuke in this way. John writes that Diotrephes, \"who loves to be first among them, does not accept what we say\" -- refusing to acknowledge the authority of John's own apostolic ministry within the local church (3 John 1:9). John lists his offenses in escalating order: he was \"unjustly accusing us with wicked words,\" refused to welcome the traveling brothers John had sent to support the church's ministry, and \"forbids those who desire to do so and puts them out of the church\" -- actively excommunicating members simply for extending hospitality to legitimate gospel workers (1:10). This portrait of a local leader consolidating personal power, silencing outside correction, spreading slander, and punishing those loyal to apostolic teaching stands as one of the New Testament's clearest warnings against church leadership corrupted by pride rather than humble service. John promises that if he comes in person, he \"will call attention to his deeds,\" holding him publicly accountable (1:10). By contrast, John immediately commends a different figure, Demetrius, \"well spoken of by everyone,\" as the kind of leader worth imitating instead (1:12) -- a deliberate contrast placed right alongside Diotrephes's rebuke.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

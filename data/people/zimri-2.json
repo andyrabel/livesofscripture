@@ -2,16 +2,44 @@
   "person_id": "zimri-2",
   "name": "Zimri",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Tirzah"
+  ],
   "references": [
     "1 Kings 16:9-20"
   ],
   "first_reference": "1 Kings 16:9-20",
+  "topics": [
+    "short-lived ambition",
+    "self-destruction"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A chariot commander who assassinated King Elah, seized Israel's throne, and reigned only seven days before burning down the palace over himself when the army rejected him for another king.",
+  "family_friendly_summary": "Zimri commanded half of King Elah's chariots, but he wasn't content serving under someone else. He assassinated Elah while the king was drunk and declared himself the new king of Israel, then killed off the rest of the previous king's family to secure his position. But Zimri's reign didn't last -- when the army heard what he had done, they refused to accept him as king and chose a different commander, Omri, instead. Omri's forces surrounded the capital city, and realizing he had no way out, Zimri set the palace on fire around himself, dying in the flames after ruling for only seven days -- the shortest reign of any king in Israel's history.",
+  "adult_story": "Zimri commanded half of King Elah's chariots before murdering him at a drunken feast and seizing Israel's throne for himself, immediately wiping out every remaining male of Baasha's household to eliminate rival claims, exactly as the prophet Jehu had foretold against that dynasty for its idolatry (1 Kings 16:9-13). But Zimri's coup found no support among the people: when Israel's army, then besieging the Philistine city of Gibbethon, heard that Zimri had killed the king, they immediately proclaimed their own commander Omri king instead and marched on Tirzah, Israel's capital (16:15-17). Zimri had no army of his own to resist and no way to escape; seeing the city taken, he retreated into the citadel of the palace, set it on fire around himself, and died in the flames he had started (16:18). His reign lasted just seven days, the shortest of any king of Israel or Judah recorded in Scripture. The narrator's brief verdict is damning: Zimri died \"because of his sins which he sinned, doing evil in the sight of the LORD, walking in the way of Jeroboam\" (16:19) -- a life of grasping ambition that could not outlast a single week once seized by force rather than given by God.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

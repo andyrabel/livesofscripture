@@ -2,12 +2,36 @@
   "person_id": "sapphira",
   "name": "Sapphira",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Acts 5:1"
   ],
   "first_reference": "Acts 5:1",
+  "topics": [
+    "hypocrisy",
+    "judgment",
+    "the seriousness of lying to God"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A member of the early Jerusalem church who, with her husband Ananias, sold property but secretly kept back part of the proceeds while claiming to give the whole amount, and fell dead when Peter exposed the lie.",
+  "family_friendly_summary": "Sapphira and her husband Ananias were part of the early church in Jerusalem, a community where believers were generously selling property and sharing the proceeds to help anyone in need. The couple sold a piece of property too, but secretly agreed together to keep back part of the money while telling the apostles they were giving the entire amount. The problem wasn't that they kept some money -- it was theirs to keep if they wanted. The problem was the lie, pretending to give everything while secretly holding some back. About three hours after Ananias had already lied to Peter and died as a result, Sapphira arrived, not yet knowing what had happened. Peter gave her a chance to tell the truth, but she repeated the same lie and died just as Ananias had. This sobering story reminded the early church how seriously God takes hypocrisy before Him.",
+  "adult_story": "Sapphira, together with her husband Ananias, belonged to the early Jerusalem church during a period marked by remarkable generosity, when believers sold property and laid the proceeds at the apostles' feet to meet the needs of the poor among them (Acts 4:32-37). The couple sold a piece of property too, and Sapphira had \"full knowledge\" of the plan to keep back part of the price while presenting the gift as the complete amount (5:1-2). After Ananias brought the money, lied about it to Peter, and immediately fell dead, he was buried before Sapphira, unaware of what had happened, arrived about three hours later (5:5-7). Peter gave her a direct opportunity to come clean, asking whether the land had sold for the amount stated; she repeated the same lie her husband had told (5:8). Peter's response named the true nature of the act: \"how is it that you have agreed together to put the Spirit of the Lord to the test?\" -- and told her she too would be carried out, just as her husband had been (5:9). She fell down immediately and died, and was buried beside Ananias, and \"great fear came over the whole church\" (5:10-11). Sapphira's willing participation, choosing to repeat the lie even when directly questioned rather than confess, shows the sin was a shared, deliberate choice -- and the episode stands as a sobering, foundational warning about hypocrisy dressed up as devotion.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -15,5 +39,10 @@
       "ananias"
     ],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

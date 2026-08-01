@@ -2,17 +2,46 @@
   "person_id": "epaphroditus",
   "name": "Epaphroditus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Philippi",
+    "Rome"
+  ],
   "references": [
     "Philippians 2:25-30",
     "Philippians 4:18"
   ],
   "first_reference": "Philippians 2:25-30",
+  "topics": [
+    "sacrificial service",
+    "risking one's life for the gospel"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "Distinct from Epaphras, a fellow worker of Paul from Colossae, mentioned in Colossians and Philemon; the two names, though similar, refer to different individuals in Scripture.",
+  "source_summary": "A messenger sent by the church at Philippi to deliver a gift to the imprisoned Paul, who became severely ill in the course of his service and, upon recovering, was sent home with Paul's letter to the Philippians.",
+  "family_friendly_summary": "Epaphroditus was sent by the church at Philippi to deliver a generous financial gift to Paul, who was in prison, and to help serve him in whatever way he could. While carrying out this mission, Epaphroditus became extremely sick, so sick that he nearly died. Word of his illness reached the church back home in Philippi, and they were deeply worried about him. Once Epaphroditus recovered, Paul decided to send him back home, both to relieve the Philippians' anxiety and because Epaphroditus was homesick for his own church family. Paul praised Epaphroditus highly, calling him his brother, fellow worker, and fellow soldier, and asked the church to welcome him back with joy and to honor people like him, since he had risked his life for the sake of the gospel work.",
+  "adult_story": "Epaphroditus was sent by the church at Philippi, likely one of Paul's most affectionate congregations, carrying a financial gift to Paul during his imprisonment and remaining to \"minister to my need,\" serving Paul personally on the church's behalf (Philippians 2:25; 4:18). In the course of this service, Epaphroditus became gravely ill, \"so sick that he came close to death,\" and Paul makes clear it was specifically because of \"the work of Christ\" that he nearly died, \"risking his life\" in some way tied directly to his mission (2:27, 30). News of his illness reached the Philippian church and caused them real distress, and Epaphroditus himself, aware of their worry, was \"distressed\" on their behalf as well -- a mutual, tender concern Paul describes with obvious warmth (2:26). Once Epaphroditus recovered, Paul decided to send him home, both to relieve the Philippians' anxiety and to spare Epaphroditus further homesickness, carrying with him what became the letter to the Philippians itself (2:25, 28). Paul's description of him piles up honorific titles rarely stacked so densely for anyone else in his letters -- \"my brother and fellow worker and fellow soldier, who is also your messenger and minister to my need\" -- and he specifically instructs the church to \"receive him then in the Lord with all joy, and hold men like him in high regard,\" precisely because he had risked his life to complete the service the church could not perform in person (2:25, 29-30).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }
