@@ -265,7 +265,36 @@ provenance ambiguity to guard against for original hand-authored vector
 art. Revisit this approach once a real image-generation pipeline is
 available for the site — decide then whether to keep the symbolic-emblem
 style at scale or switch to AI-generated figurative portraits per the
-original spec.
+original spec. (The seed set has since grown past the original six as more
+full-tier entries were hand-illustrated with their own unique prop, e.g.
+Aaron, Sarah, Solomon, Bathsheba, Jochebed — see `images/portraits/*.svg`
+for the current roster of person-specific icons.)
+
+**Generic role icons (decided 2026-07-31):** every full-tier ("major")
+person — anyone with enough narrative to get a story, not just a name in a
+list, including figures like Mephibosheth, Onesimus, or Goliath — must have
+an icon. Hand-authoring a unique symbolic prop per person doesn't scale, so
+five shared generic icons exist in the same hand-drawn line-art style
+(`images/portraits/generic-king.svg/png`, `generic-prophet.svg/png`,
+`generic-priest.svg/png`, `generic-warrior.svg/png`, `generic-figure.svg/png`)
+and are reused across many people rather than duplicated per person:
+- **King** — crown + royal staff.
+- **Prophet** — both arms raised, mouth open (crying out a message).
+- **Priest** — turban + the breastplate of judgment (12 stones, Exodus 28).
+- **Warrior** — helmet, sword, and round shield.
+- **Figure** — the plain base figure with no prop, for full-tier people who
+  don't fit any of the four roles above (e.g. Mephibosheth, Onesimus).
+
+Rule going forward: **keep a person's existing unique hand-drawn icon if one
+already exists** (check `images/portraits/[person_id].svg`); only assign a
+generic role icon to full-tier people who don't have one. Set
+`image.file` to the shared filename (e.g. `"generic-priest.png"`), and
+`image.caption` to `"Generic line-art icon for {role}s — symbolic, no claim
+of likeness"`. The lightweight index (`data/people.json`) also carries a
+flat `image` filename string per full-tier entry (not the full nested
+object) so client-side code (`js/app.js`'s `portraitImg()`) can render an
+avatar without fetching the per-person JSON file — keep that field in sync
+whenever a full-tier person's `image.file` changes.
 
 ---
 
