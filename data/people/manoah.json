@@ -2,19 +2,50 @@
   "person_id": "manoah",
   "name": "Manoah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Judges 13:2-22",
+    "Judges 13:2-23",
     "Judges 16:31"
   ],
-  "first_reference": "Judges 13:2-22",
+  "first_reference": "Judges 13:2-23",
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [],
+    "spouses": [
+      "wife-of-manoah"
+    ],
     "children": [
       "samson"
     ]
+  },
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Zorah"
+  ],
+  "topics": [
+    "parenting a child of promise",
+    "reverent fear",
+    "faith alongside his wife"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Danite from Zorah whose unnamed wife was first visited by the angel of the LORD announcing Samson's birth; Manoah asked to see the angel himself, offered a sacrifice at which the angel ascended in the flame, and later buried Samson between Zorah and Eshtaol.",
+  "family_friendly_summary": "Manoah and his wife had no children, until an angel of the LORD appeared -- first to Manoah's wife alone -- announcing that she would have a son who would begin to rescue Israel from the Philistines, and that the boy must never cut his hair as a sign of being set apart to God. Manoah prayed to see the angel too, and God graciously answered by sending the angel again. When Manoah offered a sacrifice, the angel ascended to heaven in the flame right before their eyes, and Manoah and his wife realized they had truly seen God at work. Their son was Samson, and years later, Manoah buried him in the family tomb.",
+  "adult_story": "Manoah, a Danite from Zorah, and his unnamed but equally significant wife were childless when the angel of the LORD appeared -- first to her alone -- announcing she would bear a son, that she must avoid wine and unclean food during the pregnancy, and that the boy, a Nazirite from birth, would begin to deliver Israel from Philistine oppression (Judges 13:2-5). When she told Manoah, he prayed for the 'man of God' to return and teach them how to raise the coming child, and God graciously granted the request, sending the angel a second time -- again to the wife first, out in the field, so that she had to fetch Manoah to meet him (13:8-11). Manoah asked the angel's name and was told it was 'too wonderful' to tell; when Manoah then offered a young goat and grain offering on a rock, the angel ascended toward heaven in the altar's flame, and Manoah, terrified, said to his wife, 'We will surely die, for we have seen God' (13:15-22). His wife's calm reasoning -- that God would hardly have accepted their offering and revealed all this only to kill them -- steadied them both (13:23). Their son Samson was born as promised, and though his adult life brought Manoah repeated grief through Samson's compromises with the Philistines, it was Manoah's own family tomb between Zorah and Eshtaol where Samson was finally buried (16:31).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

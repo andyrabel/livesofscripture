@@ -2,11 +2,11 @@
   "person_id": "elkanah-2",
   "name": "Elkanah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Samuel 1:1-23",
-    "1 Samuel 2:11-20",
+    "1 Samuel 2:11-21",
     "1 Chronicles 6:27-34"
   ],
   "first_reference": "1 Samuel 1:1-23",
@@ -20,5 +20,35 @@
     "children": [
       "samuel"
     ]
+  },
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ramathaim-zophim",
+    "Shiloh"
+  ],
+  "topics": [
+    "love amid family strife",
+    "faithful worship",
+    "answered prayer"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An Ephraimite Levite, husband of Hannah and Peninnah, whose devotion to worshiping the LORD annually at Shiloh and tender love for the barren Hannah frame the story leading to Samuel's birth.",
+  "family_friendly_summary": "Elkanah was a faithful man who traveled to Shiloh every year with his family to worship and offer sacrifices to the LORD. He had two wives, Hannah and Peninnah, and Peninnah had children while Hannah, whom Elkanah loved deeply, did not. Elkanah tried to comfort Hannah during her sadness, asking her, 'Am I not more to you than ten sons?' Eventually, God answered Hannah's prayers and she gave birth to Samuel, who would grow up to become one of Israel's greatest prophets. Elkanah's steady faith and love for his family are the quiet backdrop to one of the Bible's most touching stories of answered prayer.",
+  "adult_story": "Elkanah, an Ephraimite of Levite descent, is introduced through his faithful yearly pilgrimage to worship and sacrifice to the LORD of hosts at Shiloh, where Eli's sons served as priests (1 Samuel 1:1-3). He had two wives: Peninnah, who had children, and Hannah, whom he loved but who remained barren, and whom Peninnah provoked bitterly year after year over her childlessness (1:2-7). Elkanah's tenderness toward Hannah is recorded directly: 'Hannah, why do you weep and why do you not eat and why is your heart sad? Am I not more to you than ten sons?' (1:8) -- a genuine comfort that could not itself resolve her grief. He gave Hannah a double portion at the sacrificial meals as a sign of his love, and did not object when Hannah made her own vow before the LORD at Shiloh, praying desperately for a son (1:4-5, 9-11). When Hannah finally bore Samuel, Elkanah supported her decision to keep the boy home until weaned rather than bringing him immediately, and then joined her in fulfilling the vow, bringing Samuel to Eli to serve at Shiloh for the rest of his life (1:21-28). Elkanah continued his annual worship pilgrimages afterward, and each year Hannah brought Samuel a little robe she had made -- with Elkanah's household growing further as God gave them additional children (2:19-21). Elkanah's steady, faithful worship and genuine love for his grieving wife form the quiet domestic foundation for the birth of one of Israel's most significant prophets.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

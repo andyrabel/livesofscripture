@@ -1,22 +1,50 @@
 {
   "person_id": "ittai",
-  "name": "Ittai",
+  "name": "Ittai the Gittite",
   "alt_names": [
     "Ithai"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "2 Samuel 15:19-22",
-    "2 Samuel 18:2-12",
-    "2 Samuel 23:29",
-    "1 Chronicles 11:31"
+    "2 Samuel 15:18-22",
+    "2 Samuel 18:1-5"
   ],
-  "first_reference": "2 Samuel 15:19-22",
+  "first_reference": "2 Samuel 15:18-22",
   "genealogy": {
     "father": "ribai",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kidron Valley"
+  ],
+  "topics": [
+    "loyalty of an outsider",
+    "steadfast commitment",
+    "trusted leadership"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Philistine from Gath who, though a recent arrival with no obligation to David, insisted on remaining loyal to him during Absalom's revolt rather than staying safely behind, and was later given command of a third of David's army in the battle against Absalom.",
+  "family_friendly_summary": "Ittai was a Philistine from the city of Gath who had only recently come to serve David. When Absalom's rebellion forced David to flee Jerusalem, David told Ittai he was free to stay behind since he was a foreigner with no long history of obligation to David. But Ittai insisted on staying loyal to David no matter what, saying that wherever David went, whether to live or to die, that's where he would be too. David was moved by his devotion, and later trusted Ittai enough to put him in command of a third of his entire army. Ittai's story is a great example of loyalty freely chosen, not required.",
+  "adult_story": "Ittai the Gittite, a Philistine from Gath who had only recently come over to David's service, appears as David flees Jerusalem during Absalom's rebellion (2 Samuel 15:18-19). Passing his loyal troops in review, David specifically singled Ittai out and urged him to turn back with the new king Absalom instead, reasoning that Ittai was a foreigner and an exile himself with no long-standing obligation to share in David's uncertain, dangerous flight (15:19-20). Ittai's response was immediate and total: 'As the LORD lives, and as my lord the king lives, surely wherever my lord the king may be, whether for death or for life, there also your servant will be' (15:21) -- a declaration of loyalty offered freely by an outsider with every reason to walk away safely. David accepted his commitment, and Ittai crossed the Kidron with his men, women, and children in tow, joining David's retreat (15:22-23). His loyalty proved substantial rather than symbolic: when David organized his forces for the decisive battle against Absalom's army, he divided command into three parts, giving one third each to Joab, Abishai, and Ittai the Gittite -- placing this recent foreign arrival on equal footing with David's own most trusted commanders (18:1-2). Ittai's brief but pointed appearances in David's darkest political crisis stand as one of Scripture's clearest pictures of loyalty chosen rather than owed.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a helmet and carrying a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

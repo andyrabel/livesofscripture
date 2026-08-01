@@ -2,16 +2,46 @@
   "person_id": "pekahiah",
   "name": "Pekahiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 15:22-26"
   ],
   "first_reference": "2 Kings 15:22-26",
   "genealogy": {
-    "father": "menachem",
+    "father": "menahem",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "kingdom": "israel",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria"
+  ],
+  "topics": [
+    "short reign",
+    "assassination",
+    "continued idolatry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Israel, son of Menahem, who reigned only two years before being assassinated in the palace citadel by his own army officer Pekah, with fifty Gileadite men, in another episode of the northern kingdom's ongoing political instability.",
+  "family_friendly_summary": "Pekahiah became king of Israel after his father Menahem died, but his reign only lasted about two years. Like the kings before him, Pekahiah continued the same idol worship that had plagued Israel's kings for generations. His own military officer, a man named Pekah, conspired against him along with fifty men from Gilead, attacked him right inside the palace citadel in Samaria, and killed him, taking the throne for himself. Pekahiah's brief and violent reign is another example of just how unstable the northern kingdom's leadership had become in its final decades before being conquered by Assyria.",
+  "adult_story": "Pekahiah succeeded his father Menahem as king of Israel and reigned two years in Samaria, continuing, like every king of the northern kingdom before him, in the sins Jeroboam had first introduced by refusing to worship at Jerusalem's temple (2 Kings 15:23-24). His reign ended in the same violent pattern that had already claimed several of his predecessors: Pekah, one of his own military officers, conspired against him along with fifty men of Gilead, and struck him down inside the citadel of the royal palace in Samaria itself, along with two other officials, Argob and Arieh (15:25). Pekah then took the throne in his place. The brief notice of Pekahiah's reign, closing with its usual reference to 'the Book of the Chronicles of the Kings of Israel' for further detail not preserved in the biblical text itself, is one more entry in the northern kingdom's accelerating cycle of coups in its final decades (15:26). Coming so soon after his father Menahem had paid heavy tribute just to stabilize the throne, Pekahiah's swift assassination underscores how little that stability actually lasted -- the northern kingdom, only a few decades from Assyria's final conquest, could no longer sustain even one secure succession from father to son.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

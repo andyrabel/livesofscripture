@@ -1,11 +1,12 @@
 {
   "person_id": "eliezer",
-  "name": "Eliezer",
+  "name": "Eliezer of Damascus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 15:2"
+    "Genesis 15:2",
+    "Genesis 24:1-67"
   ],
   "first_reference": "Genesis 15:2",
   "genealogy": {
@@ -13,5 +14,34 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Hebron/Canaan",
+    "Damascus (origin)"
+  ],
+  "topics": [
+    "faithful service",
+    "trust",
+    "prayer"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Genesis 15:2 names 'Eliezer of Damascus' as Abram's heir apparent before Isaac's birth; Genesis 24's unnamed servant sent to find Isaac a wife is widely assumed by tradition to be this same Eliezer, since he is described as Abraham's oldest servant who ruled over all he had, but the text never explicitly states the identification, so this site presents it as a longstanding inference rather than a stated fact.",
+  "source_summary": "Abram's chief household servant, identified in Genesis 15:2 as his heir before the promise of a son, and traditionally identified with the unnamed senior servant of Genesis 24 who prayed for guidance and was led to Rebekah as a wife for Isaac.",
+  "family_friendly_summary": "Eliezer was Abraham's most trusted servant. Before Abraham had any children, God told him he would have a son of his own to be his heir, not Eliezer -- a promise Abraham struggled to believe at first. Many Bible readers believe Eliezer is also the unnamed servant later sent by Abraham on an important mission: to travel back to Abraham's homeland and find a wife for Isaac. That servant prayed for God's guidance every step of the way, and God answered clearly, leading him straight to Rebekah. Eliezer's story shows what it looks like to serve faithfully and to trust God completely, even when carrying out someone else's big responsibility.",
+  "adult_story": "Eliezer of Damascus is named only once, when Abram, still childless, laments to God that 'the heir of my house is Eliezer of Damascus' -- his household servant, who under the customs of the time stood to inherit everything in the absence of a son (Genesis 15:2-3). God's response was the covenant promise that Abram's own son, not a servant, would be his heir (15:4-6). Genesis 24 later describes Abraham's unnamed 'servant, the oldest of his household, who had charge of all that he had,' sent on a mission back to Abraham's homeland to find a wife for Isaac -- widely though not explicitly identified with Eliezer. This servant prayed specifically for a sign confirming God's chosen woman, and watched God answer immediately and precisely through Rebekah at the well (24:12-27), then insisted on returning home the same day rather than delaying, and recounted the whole story faithfully to Rebekah's family, giving God credit throughout rather than taking any for himself (24:34-49, 56). Whether or not the two passages describe the same man, together they present a servant marked by faithful, unglamorous service -- content to be Abraham's heir apparent when there was no other, and later content to disappear from the story entirely once his mission for Isaac's marriage was accomplished, having sought and trusted God's guidance at every step.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

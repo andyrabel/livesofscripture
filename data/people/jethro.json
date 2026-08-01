@@ -2,21 +2,16 @@
   "person_id": "jethro",
   "name": "Jethro",
   "alt_names": [
-    "Reuel",
-    "Hobab"
+    "Reuel"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Exodus 2:16-18",
+    "Exodus 2:16-22",
     "Exodus 3:1",
-    "Exodus 4:18",
-    "Exodus 18:1-12",
-    "Numbers 10:29",
-    "Judges 1:16",
-    "Judges 4:11"
+    "Exodus 18:1-27"
   ],
-  "first_reference": "Exodus 2:16-18",
+  "first_reference": "Exodus 2:16-22",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -25,5 +20,35 @@
       "hobab",
       "zipporah"
     ]
+  },
+  "era": "Exodus/Wilderness",
+  "region": "midian",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Midian",
+    "Sinai"
+  ],
+  "topics": [
+    "wise counsel",
+    "hospitality to an outsider",
+    "delegated leadership"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Exodus 2:18 names Moses' father-in-law Reuel, while Exodus 3:1 and 18:1 call him Jethro; most interpreters take these as one man known by two names (possibly a personal name and a priestly title), though Numbers 10:29 complicates the picture by calling Hobab, likely Jethro's son, the son of 'Reuel the Midianite,' so the exact family relationships are not fully certain from the text alone.",
+  "source_summary": "Priest of Midian and Moses' father-in-law, who took Moses in as a shepherd after he fled Egypt, gave him Zipporah in marriage, and later advised him to appoint capable men to share the burden of judging Israel's disputes.",
+  "family_friendly_summary": "Jethro was a priest in the land of Midian who welcomed Moses in when Moses had fled Egypt with nowhere to go. Jethro gave Moses a place to stay, work as a shepherd, and eventually his daughter Zipporah to marry. Years later, after Moses had led Israel out of Egypt, Jethro visited Moses in the wilderness and noticed that Moses was exhausted from trying to settle every single dispute among the people all by himself. Jethro gave Moses wise advice: choose trustworthy leaders to help share the load. Moses listened, and it made leading God's people far more manageable. Jethro's story shows how God can use wise counsel from an outsider to help His own leaders.",
+  "adult_story": "Jethro, a priest of Midian, took in Moses after Moses fled Egypt as a fugitive, giving him work as a shepherd and his daughter Zipporah as a wife (Exodus 2:16-21). It was while tending Jethro's flock near Horeb that Moses encountered the burning bush and God's call to deliver Israel (3:1). Years later, after the exodus, Jethro brought Zipporah and Moses' two sons out to meet Moses in the wilderness, rejoicing at hearing all God had done for Israel and offering a sacrifice and praise to the LORD (18:1-12) -- a striking response from a Midianite priest outside Israel's covenant. The next day, Jethro observed Moses sitting alone from morning to evening judging every dispute the people brought him, and told him plainly, 'What you are doing is not good... you will surely wear out, both yourself and these people' (18:14-18). His counsel was concrete: appoint capable, God-fearing, honest men as leaders over thousands, hundreds, fifties, and tens, so only the hardest cases would reach Moses himself (18:19-23). Moses did exactly as Jethro advised, and the text notes the arrangement worked (18:24-26). Jethro's brief but pivotal appearance shows God's provision for Moses coming, at two different critical moments, through the household and wisdom of an outsider to Israel.",
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a priestly turban and the breastplate of judgment.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

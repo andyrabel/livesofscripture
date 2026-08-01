@@ -2,16 +2,43 @@
   "person_id": "philetus",
   "name": "Philetus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
   "references": [
-    "2 Timothy 2:17"
+    "2 Timothy 2:16-18"
   ],
-  "first_reference": "2 Timothy 2:17",
+  "first_reference": "2 Timothy 2:16-18",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ephesus (likely)"
+  ],
+  "topics": [
+    "false teaching",
+    "danger of doctrinal drift"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A man Paul names alongside Hymenaeus as having gone astray from the truth by teaching that the resurrection had already occurred, upsetting the faith of some believers.",
+  "family_friendly_summary": "Philetus is mentioned by Paul in a letter to Timothy, alongside another man named Hymenaeus, as someone who had wandered away from the truth. Together they taught that the resurrection of believers had already happened -- which wasn't true -- and this false teaching upset the faith of some people who heard it. Paul compares this kind of teaching to gangrene, something that spreads and causes real damage if it isn't stopped. Philetus's brief mention is a warning about how false teaching, even about something as important as the resurrection, can seriously harm other believers' faith if left unchecked.",
+  "adult_story": "Philetus is mentioned only once in Scripture, paired with Hymenaeus in Paul's second letter to Timothy as an example of the kind of 'worldly and empty chatter' Timothy must avoid, since it 'leads to further ungodliness' and spreads 'like gangrene' (2 Timothy 2:16-17). Paul's specific charge against the two men is doctrinal: they had 'gone astray from the truth saying that the resurrection has already taken place,' a teaching that 'upset the faith of some' who heard it (2:18). This error struck at the heart of Christian hope, effectively spiritualizing or explaining away the future bodily resurrection that Paul elsewhere defends at length as essential to the gospel (see 1 Corinthians 15). Nothing else is recorded of Philetus's background, teaching career, or fate -- he appears in Scripture solely as a cautionary example alongside Hymenaeus. Paul's urgent tone in warning Timothy about this specific pair reflects how seriously the early church took the spread of false doctrine, even from men who had presumably once been received within the Christian community; sound teaching about core truths like the resurrection was not treated as a matter of indifference, but as something worth Timothy's vigilant, active correction to protect the faith of those under his care.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

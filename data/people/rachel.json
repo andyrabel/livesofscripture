@@ -2,29 +2,57 @@
   "person_id": "rachel",
   "name": "Rachel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 29:6-31",
-    "Genesis 30:1-25",
-    "Genesis 31:4-34",
-    "Genesis 33:1-7",
-    "Genesis 35:16-25",
-    "Genesis 46:19-25",
-    "Genesis 48:7",
-    "Ruth 4:11",
-    "1 Samuel 10:2",
-    "Jeremiah 31:15",
+    "Genesis 29:1-30",
+    "Genesis 30:1-24",
+    "Genesis 31:19-35",
+    "Genesis 35:16-20",
     "Matthew 2:18"
   ],
-  "first_reference": "Genesis 29:6-31",
+  "first_reference": "Genesis 29:1-30",
   "genealogy": {
     "father": "laban",
     "mother": null,
-    "spouses": [],
+    "spouses": [
+      "jacob"
+    ],
     "children": [
       "benjamin",
       "joseph"
     ]
+  },
+  "era": "Patriarchal",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Paddan-aram/Haran",
+    "Canaan",
+    "road to Ephrath (Bethlehem)"
+  ],
+  "topics": [
+    "longing for children",
+    "jealousy",
+    "grief",
+    "beloved yet barren"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Jacob's beloved wife, Laban's younger daughter, whom Jacob served fourteen years to marry; long barren while her sister Leah bore children, she eventually gave birth to Joseph and later died bearing Benjamin on the road to Bethlehem.",
+  "family_friendly_summary": "Rachel was the wife Jacob loved most, and he worked fourteen years for her father Laban just to marry her. For a long time, Rachel could not have children while her sister Leah had several, and Rachel struggled deeply with jealousy and longing during those years. Eventually God remembered Rachel and she gave birth to Joseph, who would later become a great leader in Egypt. Sadly, Rachel died giving birth to her second son, Benjamin, on the road to Bethlehem, and Jacob buried her there. Rachel's story is an honest picture of how painful waiting and longing can be, and how God does not forget the people who feel forgotten.",
+  "adult_story": "Rachel, Laban's younger daughter, was the wife Jacob loved and worked fourteen years to marry, after being deceived into marrying her older sister Leah first (Genesis 29:16-30). While Leah bore son after son, Rachel remained barren, and her anguish is recorded starkly: 'Give me children, or else I die' (30:1) -- a cry Jacob answered with anger rather than comfort. Rachel gave her servant Bilhah to Jacob as a surrogate, as Sarah once had with Hagar, gaining sons Dan and Naphtali 'through' her (30:3-8). Eventually 'God remembered Rachel... and opened her womb,' and she bore Joseph, naming him with a prayer for yet another son (30:22-24). Fleeing her father's household years later, Rachel secretly stole her father's household idols and hid them, lying to Laban about it when he searched -- a episode Genesis records without excusing (31:19, 34-35). She died in labor with her second son on the road near Bethlehem, naming him with her last breath Ben-oni ('son of my sorrow'), though Jacob renamed him Benjamin ('son of the right hand'); Jacob buried her there and set up a pillar (35:16-20). Centuries later, Matthew 2:18 applies Jeremiah's image of 'Rachel weeping for her children' to Herod's slaughter of Bethlehem's infants, linking her grief to Christ's own perilous infancy.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

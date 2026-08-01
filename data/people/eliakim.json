@@ -2,14 +2,14 @@
   "person_id": "eliakim",
   "name": "Eliakim",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 18:18-37",
-    "2 Kings 19:2",
-    "Isaiah 22:20",
+    "2 Kings 19:1-7",
+    "Isaiah 22:15-25",
     "Isaiah 36:3-22",
-    "Isaiah 37:2"
+    "Isaiah 37:1-7"
   ],
   "first_reference": "2 Kings 18:18-37",
   "genealogy": {
@@ -17,5 +17,34 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "kingdom": "judah",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "faithful administration",
+    "steady leadership in crisis"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Hezekiah's palace administrator, one of three officials who negotiated with the Assyrian field commander Rabshakeh outside Jerusalem's walls during Sennacherib's siege, and to whom Isaiah earlier prophesied a position of trusted, secure authority replacing the corrupt Shebna.",
+  "family_friendly_summary": "Eliakim was in charge of King Hezekiah's palace in Jerusalem. When the powerful Assyrian army, led by King Sennacherib, surrounded Jerusalem and sent a spokesman to threaten and demand surrender, Eliakim was one of three officials sent out to hear the message. Eliakim and the others tore their clothes in distress and brought the frightening report back to Hezekiah, who then sought out the prophet Isaiah for God's help. Isaiah had earlier prophesied that God would give Eliakim a position of secure, trustworthy leadership, calling him like 'a peg in a firm place' for his household -- a picture of dependable, faithful service during a very dangerous time for Judah.",
+  "adult_story": "Eliakim, son of Hilkiah, served as palace administrator over King Hezekiah's household in Jerusalem. The prophet Isaiah had earlier prophesied his rise to this position directly, declaring that God would remove the corrupt steward Shebna and replace him with Eliakim, clothing him with authority and calling him 'a peg in a firm place' who would bring honor to his father's house -- language emphasizing steady, dependable service (Isaiah 22:15-23). By the time of Sennacherib's siege of Jerusalem, Eliakim held that position, and was one of three officials -- alongside Shebna, now reduced to secretary, and Joah the recorder -- sent out to meet the Assyrian field commander Rabshakeh at the wall (2 Kings 18:18). When Rabshakeh delivered his threatening speech in Hebrew loudly enough for the people on the wall to hear, undermining confidence in both Hezekiah and the LORD's ability to save the city, Eliakim asked him to speak in Aramaic instead so ordinary people would not understand and panic -- a request Rabshakeh refused, deliberately intensifying the psychological pressure (18:19-27). Eliakim and his colleagues tore their clothes in distress and reported the full threat to Hezekiah (18:37; 19:1-2). Hezekiah then sent this same delegation to consult Isaiah, who answered with a word of assurance that Sennacherib would not succeed (19:2-7) -- a promise fulfilled when the Assyrian army was struck down and withdrew. Eliakim's steady, faithful service during Judah's most dangerous crisis fulfilled Isaiah's earlier prophecy of him as dependable support in a time of national peril.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

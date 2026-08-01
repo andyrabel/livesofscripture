@@ -2,20 +2,15 @@
   "person_id": "laban",
   "name": "Laban",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 24:29-50",
-    "Genesis 25:20",
-    "Genesis 27:43",
-    "Genesis 28:2-5",
-    "Genesis 29:5-29",
-    "Genesis 30:25-42",
-    "Genesis 31:1-55",
-    "Genesis 32:4",
-    "Genesis 46:18-25"
+    "Genesis 24:29-60",
+    "Genesis 29:1-30",
+    "Genesis 30:25-43",
+    "Genesis 31:1-55"
   ],
-  "first_reference": "Genesis 24:29-50",
+  "first_reference": "Genesis 24:29-60",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -24,5 +19,34 @@
       "leah",
       "rachel"
     ]
+  },
+  "era": "Patriarchal",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Paddan-aram/Haran"
+  ],
+  "topics": [
+    "deception",
+    "family conflict",
+    "God's protection of Jacob"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Rebekah's brother and Jacob's uncle and father-in-law, who deceived Jacob into marrying Leah before Rachel, changed his wages repeatedly over twenty years of service, and pursued Jacob after he fled before making an uneasy covenant of separation with him at Mizpah.",
+  "family_friendly_summary": "Laban was Jacob's uncle, and later his father-in-law too. When Jacob fled from his brother Esau and came to live with Laban's family, he fell in love with Laban's younger daughter Rachel and agreed to work seven years to marry her. But on the wedding night, Laban tricked Jacob into marrying his older daughter Leah instead, and Jacob had to work another seven years for Rachel. Laban kept changing Jacob's wages many times over the twenty years Jacob worked for him. Eventually Jacob left secretly with his family, and after Laban chased him down, the two made a peace agreement instead of fighting. Laban's story shows how deception can run in a family, but also how God protected Jacob through it all.",
+  "adult_story": "Laban, Rebekah's brother, first appears eagerly welcoming Abraham's servant and the marriage proposal for his sister, drawn by the gifts of gold he saw (Genesis 24:29-31, 50-53). A generation later, his nephew Jacob arrived fleeing Esau and fell in love with Laban's younger daughter Rachel, agreeing to serve seven years for her (29:15-20). On the wedding night, Laban substituted his older daughter Leah in the dark, justifying it afterward by local custom that the older daughter must marry first -- deception matching, almost point for point, the deception Jacob himself had once practiced on his own father (29:21-27). Jacob served another seven years for Rachel, and over twenty years total, Laban changed his wages ten times, trying to limit Jacob's growing flocks (31:7, 41). When Jacob finally fled with his family and possessions without warning, Laban pursued him for seven days, but God warned Laban in a dream not to harm Jacob (31:22-24). Confronting Jacob over his household idols Rachel had secretly stolen, Laban's underlying suspicion and grievance surfaced fully before the two men settled their long, uneasy relationship with a covenant and a heap of stones at Mizpah, agreeing to part ways in peace (31:43-55). Laban's story shows deception passed down and repaid within one family, framed throughout by God's quiet, persistent protection of Jacob despite his uncle's repeated attempts to control and cheat him.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

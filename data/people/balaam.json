@@ -2,27 +2,53 @@
   "person_id": "balaam",
   "name": "Balaam",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Numbers 22:5-41",
+    "Numbers 22:1-41",
     "Numbers 23:1-30",
     "Numbers 24:1-25",
-    "Numbers 31:8-16",
+    "Numbers 31:8",
     "Deuteronomy 23:4-5",
-    "Joshua 13:22",
-    "Joshua 24:9-10",
-    "Nehemiah 13:2",
-    "Micah 6:5",
-    "2 Peter 2:15",
+    "2 Peter 2:15-16",
     "Jude 1:11",
     "Revelation 2:14"
   ],
-  "first_reference": "Numbers 22:5-41",
+  "first_reference": "Numbers 22:1-41",
   "genealogy": {
-    "father": "beor-2",
+    "father": "beor",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Exodus/Wilderness",
+  "region": "moab-transjordan",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Pethor (Mesopotamia)",
+    "plains of Moab"
+  ],
+  "topics": [
+    "greed disguised as piety",
+    "God's sovereignty over pagan prophecy",
+    "a mixed legacy"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Balaam is a genuinely mixed figure in Scripture: within Numbers itself, God speaks true, Spirit-given blessings on Israel through him and even uses a donkey to rebuke him, yet Numbers 31:16 and later New Testament references (2 Peter 2:15-16; Jude 1:11; Revelation 2:14) treat him as a byword for greed and leading Israel into sin at Baal-peor. Interpreters generally read this as showing that God can speak true words through a compromised or even unrighteous man without that man himself being righteous -- his prophetic gift and his moral character are not the same thing.",
+  "source_summary": "A non-Israelite prophet hired by Balak of Moab to curse Israel, who was rebuked by his own donkey when an angel blocked his path, and who ultimately could only bless Israel as God commanded, though he later advised the Moabites to draw Israel into idolatry and sexual sin at Baal-peor.",
+  "family_friendly_summary": "Balaam was a prophet hired by King Balak of Moab to curse the people of Israel, who Balak feared. On the way, God sent an angel to block Balaam's path, though at first only Balaam's donkey could see it. When the donkey stopped and finally spoke to Balaam in a moment God caused to happen, Balaam realized how serious things were. Every time Balaam tried to curse Israel, God only let him speak blessings instead, no matter how much Balak pressured him. Balaam's story shows that God's plans for His people cannot be undone by anyone hired against them -- but it also has a sad ending, since Balaam later gave Moab advice that led Israel into sin, showing a gift from God isn't the same as a godly heart.",
+  "adult_story": "Balaam, a prophet from Pethor with a real if compromised reputation for hearing from God, was hired by Balak, king of Moab, to curse the encroaching Israelites (Numbers 22:1-6). God initially told Balaam not to go, then permitted him to go but warned him to speak only what God commanded (22:12, 20). On the road, the angel of the LORD blocked the path three times, visible only to Balaam's donkey, which balked and was beaten each time until God opened the donkey's mouth to rebuke Balaam directly, after which Balaam's own eyes were opened to see the angel himself (22:22-31). Delivered to Balak, Balaam built altars and offered sacrifices across three separate attempts to curse Israel, but each time God put a blessing in his mouth instead, culminating in the striking messianic oracle of a star and scepter rising out of Jacob (23:1-24:25). Furious, Balak dismissed him without payment (24:10-11). Yet Numbers 31:16 later reveals that Balaam himself had counseled the Moabites and Midianites to seduce Israel into idolatry and sexual immorality at Baal-peor, since he could not curse them directly (compare Numbers 25); Balaam was ultimately killed in Israel's later war with Midian (31:8). The New Testament remembers him as a byword for a prophet who loved 'the wages of unrighteousness' (2 Peter 2:15-16; Jude 1:11; Revelation 2:14) -- a man through whom God spoke true and even messianic words, yet whose own heart pursued profit over faithfulness.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure with both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

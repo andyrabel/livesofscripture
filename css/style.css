@@ -251,6 +251,20 @@ main {
   color: var(--color-text);
 }
 
+.controls__checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.controls__checkbox input[type="checkbox"] {
+  margin: 0;
+}
+
 #result-count {
   color: var(--color-text-muted);
   font-size: 0.9rem;

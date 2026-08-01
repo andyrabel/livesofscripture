@@ -155,7 +155,7 @@ async function renderIndexPage() {
   const emptyEl = document.getElementById("empty-state");
   const searchInput = document.getElementById("search-input");
   const testamentFilter = document.getElementById("filter-testament");
-  const tierFilter = document.getElementById("filter-tier");
+  const includeStubsCheckbox = document.getElementById("filter-include-stubs");
   const eraFilter = document.getElementById("filter-era");
   const sortOrder = document.getElementById("sort-order");
 
@@ -182,13 +182,13 @@ async function renderIndexPage() {
   function render() {
     const query = searchInput.value;
     const testament = testamentFilter.value;
-    const tier = tierFilter.value;
+    const includeStubs = includeStubsCheckbox.checked;
     const era = eraFilter.value;
 
     const filtered = index.filter((entry) => {
+      if (!includeStubs && entry.tier === "stub") return false;
       if (!matchesSearch(entry, query)) return false;
       if (testament && entry.testament !== testament) return false;
-      if (tier && entry.tier !== tier) return false;
       if (era && entry.era !== era) return false;
       return true;
     });
@@ -225,7 +225,7 @@ async function renderIndexPage() {
 
   searchInput.addEventListener("input", render);
   testamentFilter.addEventListener("change", render);
-  tierFilter.addEventListener("change", render);
+  includeStubsCheckbox.addEventListener("change", render);
   eraFilter.addEventListener("change", render);
   sortOrder.addEventListener("change", render);
 
@@ -912,7 +912,7 @@ function svgEl(tag, attrs) {
   return el;
 }
 
-const CONN_DEFAULT_DEPTH = 4;
+const CONN_DEFAULT_DEPTH = 2;
 const CONN_MIN_DEPTH = 1;
 const CONN_MAX_DEPTH = 5;
 const CONN_RADII = [24, 18, 15, 13, 11];

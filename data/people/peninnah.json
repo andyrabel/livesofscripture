@@ -2,12 +2,12 @@
   "person_id": "peninnah",
   "name": "Peninnah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "1 Samuel 1:2-4"
+    "1 Samuel 1:2-7"
   ],
-  "first_reference": "1 Samuel 1:2-4",
+  "first_reference": "1 Samuel 1:2-7",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -15,5 +15,33 @@
       "elkanah-2"
     ],
     "children": []
+  },
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ramathaim-zophim"
+  ],
+  "topics": [
+    "cruelty toward another's pain",
+    "family rivalry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Elkanah's second wife, who bore him children while his other wife Hannah remained barren, and who provoked and irritated Hannah bitterly over her childlessness during the family's yearly worship trips to Shiloh.",
+  "family_friendly_summary": "Peninnah was married to Elkanah alongside Hannah, and unlike Hannah, Peninnah had children of her own. Instead of being kind about it, Peninnah used her advantage to tease and provoke Hannah cruelly, especially during their family's yearly trip to worship at Shiloh, making an already painful situation for Hannah even harder. Peninnah's story is brief, but it's an honest example from Scripture of how easily blessings can be misused to hurt someone else instead of showing compassion.",
+  "adult_story": "Peninnah is introduced simply as Elkanah's other wife, distinguished from Hannah by one clear fact: 'Peninnah had children, but Hannah had no children' (1 Samuel 1:2). Scripture records that Peninnah used this difference cruelly, provoking Hannah 'bitterly, to irritate her, because the LORD had closed her womb' -- a pattern repeated 'year by year' whenever the family went up to worship at Shiloh, to the point that Hannah wept and could not eat (1:6-7). The text gives Peninnah no recorded words of her own and no further scenes once Hannah's prayer at Shiloh and Samuel's birth take over the narrative. Her brief, unflattering role exists mainly to intensify the depth of Hannah's grief and the genuineness of her later answered prayer and praise. Peninnah's story, though minor, is an honest biblical example of how having what someone else lacks can curdle into cruelty rather than compassion -- and it stands, by contrast, against Hannah's own response to years of provocation, which was not bitterness toward Peninnah but persistent, humble prayer to God.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

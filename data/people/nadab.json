@@ -2,17 +2,15 @@
   "person_id": "nadab",
   "name": "Nadab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Exodus 6:23",
     "Exodus 24:1-9",
     "Exodus 28:1",
-    "Leviticus 10:1",
+    "Leviticus 10:1-3",
     "Numbers 3:2-4",
-    "Numbers 26:60-61",
-    "1 Chronicles 6:3",
-    "1 Chronicles 24:1-2"
+    "Numbers 26:60-61"
   ],
   "first_reference": "Exodus 6:23",
   "genealogy": {
@@ -20,5 +18,34 @@
     "mother": "elisheba",
     "spouses": [],
     "children": []
+  },
+  "era": "Exodus/Wilderness",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Sinai"
+  ],
+  "topics": [
+    "unauthorized worship",
+    "holiness of God",
+    "consequence for disobedience"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Aaron's eldest son and one of Israel's first ordained priests, who together with his brother Abihu offered 'strange fire' not commanded by God and was consumed by fire from the LORD's presence.",
+  "family_friendly_summary": "Nadab was Aaron's oldest son, and he was one of the very first priests set apart to serve God at the newly built tabernacle. This was an incredible honor and responsibility. But Nadab and his brother Abihu offered incense to God in a way God had not commanded, using what the Bible calls 'strange fire.' Fire came out from the LORD's presence and both brothers died instantly. It's a hard and sobering story, and it teaches that God takes worship seriously -- He wants to be approached in the way He asks, not however people decide on their own, especially for those given the responsibility of leading others in worship.",
+  "adult_story": "Nadab, Aaron's firstborn son, was set apart along with his father and three brothers as one of Israel's first ordained priests at Sinai, and was among the seventy-four elders and leaders privileged to go up the mountain and 'see the God of Israel' before the covenant meal (Exodus 24:1, 9-11; 28:1). This high honor makes what followed at the tabernacle's dedication especially severe: Nadab and his brother Abihu each took his own censer, put fire and incense in it, and 'offered strange fire before the LORD, which He had not commanded them' (Leviticus 10:1). Fire came out from the presence of the LORD and consumed them, and they died there before the LORD (10:2). Moses explained the judgment to a stunned Aaron by quoting God's own words: 'By those who come near Me I will be treated as holy, and before all the people I will be honored' (10:3) -- the newly consecrated priesthood was held to the highest standard precisely because of its nearness to God's presence. Aaron, forbidden even to mourn openly for his sons in the moment given the priesthood's ongoing duties, remained silent (10:3, 6-7). Nadab died without children, and the priesthood passed instead through his younger brothers Eleazar and Ithamar (Numbers 3:2-4; 26:60-61). His death remains one of Scripture's starkest warnings that access to worship God is a gift with real boundaries, not a license for self-styled devotion.",
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a priestly turban and the breastplate of judgment.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

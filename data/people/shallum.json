@@ -2,7 +2,7 @@
   "person_id": "shallum",
   "name": "Shallum",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 15:10-15"
@@ -13,5 +13,34 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "kingdom": "israel",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria"
+  ],
+  "topics": [
+    "assassination and instability",
+    "short-lived usurpation"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Israel who assassinated Zechariah, the last king of Jehu's dynasty, and seized the throne, only to be assassinated himself by Menahem after reigning just one month.",
+  "family_friendly_summary": "Shallum was a man who conspired against King Zechariah of Israel, killed him in public, and took the throne for himself. This ended the dynasty of Jehu, which God had said would last four generations, exactly as promised. But Shallum's own reign didn't last long at all -- only about one month -- before a man named Menahem attacked him, killed him, and became king in his place. Shallum's brief, violent reign is part of a long stretch of instability in the northern kingdom of Israel, where assassination repeatedly replaced any settled line of kings.",
+  "adult_story": "Shallum, son of Jabesh, conspired against King Zechariah of Israel, striking him down publicly at Ibleam and reigning in his place (2 Kings 15:10). Zechariah's death fulfilled, to the exact generation, God's earlier word to Jehu that his descendants would sit on Israel's throne only to the fourth generation -- a promise that had now run its course precisely (15:12; see 10:30). Shallum's own grip on power proved far briefer: after only one month reigning in Samaria, Menahem son of Gadi marched up from Tirzah, attacked Shallum in Samaria, killed him, and took the throne himself (15:13-14). The record of Shallum's reign is remarkably short, noted simply in the closing formula referring readers to 'the Book of the Chronicles of the Kings of Israel' for the rest of the conspiracy's details, which the biblical text itself does not preserve (15:15). Shallum's month-long usurpation is one link in the northern kingdom's long, grim pattern following Jehu's dynasty: king after king seizing power through assassination rather than any stable succession, a picture of a kingdom increasingly unraveling politically in the decades before Assyria's eventual conquest ended the northern kingdom of Israel entirely.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

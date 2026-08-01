@@ -1,20 +1,16 @@
 {
   "person_id": "hiram",
-  "name": "Hiram",
+  "name": "Hiram of Tyre",
   "alt_names": [
     "Huram"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Samuel 5:11",
     "1 Kings 5:1-18",
-    "1 Kings 9:11-27",
-    "1 Kings 10:11-22",
-    "1 Chronicles 14:1",
-    "2 Chronicles 2:3-12",
-    "2 Chronicles 8:2-18",
-    "2 Chronicles 9:10-21"
+    "1 Kings 9:10-27",
+    "2 Chronicles 2:3-16"
   ],
   "first_reference": "2 Samuel 5:11",
   "genealogy": {
@@ -22,5 +18,33 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Tyre"
+  ],
+  "topics": [
+    "alliance with a foreign king",
+    "provision for the temple",
+    "cooperation across nations"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Tyre and friend to both David and Solomon, who supplied cedar and cypress timber, skilled craftsmen, and gold for the construction of Solomon's temple and palace in exchange for wheat, oil, and later a grant of cities in Galilee.",
+  "family_friendly_summary": "Hiram was the king of Tyre, a coastal city famous for skilled builders and beautiful cedar wood from Lebanon's forests. Hiram was a friend to King David, and stayed friends with David's son Solomon when he became king. When Solomon began planning to build the temple for the LORD, Hiram supplied huge amounts of cedar and cypress logs along with skilled craftsmen to help construct it, and Solomon paid him back with large shipments of wheat and oil. Hiram's cooperation with Israel shows how God used the resources and skills of a foreign nation to help build His temple in Jerusalem.",
+  "adult_story": "Hiram, king of Tyre, first appears as an ally sending cedar timber, carpenters, and stonemasons to build David's palace in Jerusalem, part of a friendship the text notes Hiram 'always loved David' (2 Samuel 5:11; 1 Kings 5:1). When Solomon succeeded David and began preparing to build the temple, Hiram, hearing of his intentions, sent envoys, and Solomon requested the same skilled timber and craftsmanship, explicitly noting that Tyre's workmen were more skilled at cutting timber than Israel's (1 Kings 5:2-6). Hiram responded with evident joy, blessing the LORD for giving David a wise son, and the two kings formalized a substantial trade agreement: Hiram supplied cedar and cypress logs rafted down the coast, along with craftsmen, in exchange for enormous annual shipments of wheat and pure oil to sustain Hiram's household (5:7-11; 2 Chronicles 2:3-16). Hiram also sent his own skilled craftsman, also named Hiram, to cast the temple's bronze furnishings (1 Kings 7:13-14). Once the temple and Solomon's palace were both complete, Solomon in turn gave Hiram twenty cities in the region of Galilee, though Hiram was reportedly displeased with their quality, naming the region Cabul (9:10-13). The two kings' fleets also cooperated on trading voyages to Ophir for gold (9:26-28; 10:11). Hiram's long, mutually beneficial partnership with both David and Solomon shows a foreign king's skill and resources directly enabling the construction of Israel's central place of worship.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

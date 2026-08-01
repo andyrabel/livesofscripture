@@ -2,19 +2,50 @@
   "person_id": "enoch",
   "name": "Enoch",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 4:17-18",
-    "Hebrews 11:5"
+    "Genesis 5:18-24",
+    "Hebrews 11:5",
+    "Jude 1:14-15"
   ],
-  "first_reference": "Genesis 4:17-18",
+  "first_reference": "Genesis 5:18-24",
   "genealogy": {
-    "father": "cain",
+    "father": "jared",
     "mother": null,
     "spouses": [],
     "children": [
-      "irad"
+      "irad",
+      "methuselah"
     ]
+  },
+  "era": "Primeval History",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Mesopotamia (traditional setting of Genesis 1-11)"
+  ],
+  "topics": [
+    "walking with God",
+    "faith",
+    "taken up without dying",
+    "prophecy"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jude 1:14-15 quotes a prophecy attributed to Enoch that also appears in the non-canonical Book of 1 Enoch. Jude's quotation affirms that this particular prophecy is true and Spirit-inspired; it is not an endorsement of the rest of that book as Scripture, a distinction interpreters are careful to maintain.",
+  "source_summary": "A descendant of Seth in Genesis 5's genealogy of whom Scripture uniquely says he 'walked with God' and did not die, but was taken directly into God's presence; Hebrews commends his faith, and Jude preserves a prophecy attributed to him.",
+  "family_friendly_summary": "Enoch shows up in a long list of names in Genesis 5, but the Bible says something special about him that it doesn't say about almost anyone else: Enoch 'walked with God.' That means he lived close to God every day, like walking side by side with a friend. After many years of walking with God, something amazing happened -- Enoch didn't die like everyone else in the list. God simply took him up to be with Him instead. The book of Hebrews explains that Enoch pleased God because he trusted Him, even though he lived long before Jesus was born. Enoch's short story reminds us that walking closely with God matters more than anything else, and that God notices and rewards those who truly seek Him.",
+  "adult_story": "Enoch appears in the middle of Genesis 5's genealogical chain of Adam's line through Seth, but the text breaks its usual formula to say something remarkable: 'Enoch walked with God' (Genesis 5:22, 24) -- a description used elsewhere only of Noah (Genesis 6:9). After fathering Methuselah, Enoch walked with God 300 more years, fathering other sons and daughters, and then 'was not, for God took him' -- Scripture's way of saying Enoch did not die but was taken directly into God's presence, a distinction shared afterward only by Elijah. Hebrews 11:5 makes the theological point explicit: Enoch was taken up because he pleased God, and 'without faith it is impossible to please Him' -- Enoch stands among the great examples of Old Testament faith in a promise not yet fully revealed. Jude 1:14-15 preserves a prophecy attributed to Enoch about the Lord's coming judgment on the ungodly. Enoch's brief record -- a single paragraph in a genealogy otherwise defined by the repeated refrain 'and he died' -- stands out precisely because death is what it does not say of him, a quiet foretaste of resurrection hope centuries before the gospel made that hope explicit in Christ.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure with both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

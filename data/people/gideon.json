@@ -4,19 +4,17 @@
   "alt_names": [
     "Jerubbaal"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Judges 6:11-39",
+    "Judges 6:1-40",
     "Judges 7:1-25",
-    "Judges 8:4-35",
-    "Judges 9:1-57",
-    "1 Samuel 12:11",
+    "Judges 8:1-35",
     "Hebrews 11:32"
   ],
-  "first_reference": "Judges 6:11-39",
+  "first_reference": "Judges 6:1-40",
   "genealogy": {
-    "father": "joash",
+    "father": "joash-3",
     "mother": null,
     "spouses": [],
     "children": [
@@ -24,5 +22,37 @@
       "jether",
       "jotham"
     ]
+  },
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ophrah",
+    "Jezreel Valley",
+    "east of the Jordan"
+  ],
+  "topics": [
+    "fearful faith",
+    "testing God",
+    "idolatry's return",
+    "faith imperfect but real"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A judge who, despite calling himself the least in his family, was called by God to deliver Israel from Midianite oppression; he tested God with the sign of the fleece, defeated a vast army with only 300 men, but later made a golden ephod that became a snare to Israel and led an army against fellow Israelites.",
+  "family_friendly_summary": "Gideon was threshing wheat in hiding, afraid of Midianite raiders, when an angel called him a 'mighty man of valor' and told him he would rescue Israel. Gideon doubted this at first and asked God for signs -- twice using a wool fleece -- to be sure God was really speaking to him, and God patiently answered both times. God then reduced Gideon's army from 32,000 down to just 300 men, so that when they won, everyone would know it was God's doing, not human strength. With torches, trumpets, and jars, Gideon's 300 men routed the entire Midianite camp. But after his great victory, Gideon made a golden ephod that Israel began worshiping instead of God -- showing that even faithful leaders can stumble badly after great successes.",
+  "adult_story": "Gideon was found threshing wheat secretly in a winepress, hiding from Midianite raiders, when the angel of the LORD greeted him as 'a valiant warrior' (Judges 6:11-12) -- language sharply at odds with Gideon's own self-description as the least in the weakest clan of Manasseh (6:15). Gideon asked for repeated confirmation: first a sign of fire consuming an offering (6:17-21), then twice testing God with a wool fleece, once wet with dry ground around it, once dry with wet ground around it -- and God patiently granted both requests (6:36-40). Called to fight Midian, Gideon first tore down his own father's altar to Baal by night, out of fear of the townspeople (6:25-27). God then deliberately shrank his army from 32,000 to just 300 men, 'so that Israel may not boast... saying, My own hand has saved me' (7:2-7), and that remnant routed the vast Midianite camp using only torches, empty jars, and trumpets, trusting God rather than weapons for the actual assault (7:16-22). Gideon pursued and captured Midian's kings, executing them, and violently punished two Israelite towns that had refused to aid his exhausted men (8:4-17). Offered kingship afterward, Gideon refused, saying 'the LORD shall rule over you' (8:22-23) -- yet he then made a golden ephod from the plunder that 'became a snare' as Israel worshiped it, undoing much of his own legacy (8:24-27). Hebrews 11:32 nonetheless lists Gideon among the heroes of faith, a flawed but genuine deliverer.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a helmet and carrying a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

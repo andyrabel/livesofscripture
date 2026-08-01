@@ -2,18 +2,14 @@
   "person_id": "lot",
   "name": "Lot",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Genesis 11:27-31",
-    "Genesis 12:4-5",
-    "Genesis 13:1-14",
+    "Genesis 13:1-13",
     "Genesis 14:12-16",
-    "Genesis 19:1-36",
-    "Deuteronomy 2:9-19",
-    "Psalms 83:8",
-    "Luke 17:28-32",
-    "2 Peter 2:7"
+    "Genesis 19:1-38",
+    "2 Peter 2:7-8"
   ],
   "first_reference": "Genesis 11:27-31",
   "genealogy": {
@@ -28,5 +24,38 @@
       "moab",
       "younger-of-lot"
     ]
+  },
+  "era": "Patriarchal",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ur/Haran (origin)",
+    "Canaan",
+    "Sodom",
+    "the hill country near Zoar"
+  ],
+  "topics": [
+    "worldly choices",
+    "compromise",
+    "rescue by grace",
+    "consequences"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Abraham's nephew who chose the fertile Jordan plain and settled in Sodom, was rescued once by Abraham from invading kings and again by angels the night Sodom was destroyed, losing his wife and, later, his moral integrity in the aftermath.",
+  "family_friendly_summary": "Lot was Abraham's nephew who traveled with him to Canaan. When their households grew too large to share the land peacefully, Lot chose the lush, well-watered plain near the city of Sodom for himself, even though Sodom was a very wicked place. Lot ended up living there, and when God decided to destroy Sodom because of its sin, He sent angels to rescue Lot and his family first, warning them to flee and not look back. Lot's story shows both how easy it is to be drawn toward comfortable but dangerous choices, and how patient and merciful God is to rescue people who don't fully deserve it.",
+  "adult_story": "Lot, Abraham's nephew, traveled with him from Ur to Canaan (Genesis 11:27-12:5). When their combined livestock strained the land, Lot chose the well-watered Jordan plain for himself, moving his tents toward Sodom, 'wicked and exceedingly sinful against the LORD' (Genesis 13:8-13) -- a choice driven by visible prosperity rather than caution about the company he'd keep. When Sodom was raided and Lot captured, Abraham rescued him by force (14:12-16), and later two angels came to warn Lot to flee before Sodom's destruction; Lot hesitated so long that the angels had to physically drag him and his family out (19:1-16). His wife, fleeing behind him, looked back and became a pillar of salt (19:26). Alone with his daughters afterward, Lot was made drunk by them and, in an episode Scripture records without excusing it, unknowingly fathered Moab and Ammon (19:30-38) -- an ending that shows Sodom's corruption had followed Lot out of the city rather than staying behind. Yet 2 Peter 2:7-8 calls Lot 'righteous' and 'oppressed by the sensual conduct of unprincipled men,' tormented daily by what he saw and heard -- a man who compromised badly but whose soul, Peter insists, remained genuinely grieved by the evil around him. Lot's story is less a portrait of consistent faith than of a man repeatedly rescued by grace despite his own poor choices.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

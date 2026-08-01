@@ -67,11 +67,6 @@
       <option value="OT">Old Testament</option>
       <option value="NT">New Testament</option>
     </select>
-    <select id="filter-tier">
-      <option value="">All entries</option>
-      <option value="full">Full stories</option>
-      <option value="stub">Names only</option>
-    </select>
     <select id="filter-era">
       <option value="">All eras</option>
     </select>
@@ -81,6 +76,10 @@
       <option value="era-asc">Era (earliest first)</option>
       <option value="era-desc">Era (latest first)</option>
     </select>
+    <label class="controls__checkbox">
+      <input type="checkbox" id="filter-include-stubs">
+      Include name-only entries
+    </label>
   </div>
 
   <div id="result-count"></div>
@@ -208,7 +207,7 @@
     </a>
     <a class="person-card" href="people/enoch.html">
       <div class="name">Enoch</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Primeval History</span></div>
     </a>
     <a class="person-card" href="people/irad.html">
       <div class="name">Irad</div>
@@ -224,7 +223,7 @@
     </a>
     <a class="person-card" href="people/lamech.html">
       <div class="name">Lamech</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Primeval History</span></div>
     </a>
     <a class="person-card" href="people/adah.html">
       <div class="name">Adah</div>
@@ -276,7 +275,7 @@
     </a>
     <a class="person-card" href="people/methuselah.html">
       <div class="name">Methuselah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Primeval History</span></div>
     </a>
     <a class="person-card" href="people/lamech-2.html">
       <div class="name">Lamech</div>
@@ -400,7 +399,7 @@
     </a>
     <a class="person-card" href="people/nimrod.html">
       <div class="name">Nimrod</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Primeval History</span></div>
     </a>
     <a class="person-card" href="people/lud.html">
       <div class="name">Lud</div>
@@ -600,7 +599,7 @@
     </a>
     <a class="person-card" href="people/lot.html">
       <div class="name">Lot</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/milcah.html">
       <div class="name">Milcah</div>
@@ -664,19 +663,15 @@
     </a>
     <a class="person-card" href="people/melchizedek.html">
       <div class="name">Melchizedek</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/eliezer.html">
-      <div class="name">Eliezer</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
-    </a>
-    <a class="person-card" href="people/the-angel-of-the-lord.html">
-      <div class="name">the angel of the LORD</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="name">Eliezer of Damascus</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/wife-of-lot.html">
-      <div class="name">Wife of Lot</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="name">Lot&#x27;s Wife</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/firstborn-of-lot.html">
       <div class="name">Firstborn of Lot</div>
@@ -696,7 +691,7 @@
     </a>
     <a class="person-card" href="people/abimelech.html">
       <div class="name">Abimelech</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/phicol.html">
       <div class="name">Phicol</div>
@@ -772,7 +767,7 @@
     </a>
     <a class="person-card" href="people/laban.html">
       <div class="name">Laban</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/keturah.html">
       <div class="name">Keturah</div>
@@ -924,19 +919,19 @@
     </a>
     <a class="person-card" href="people/rachel.html">
       <div class="name">Rachel</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/leah.html">
       <div class="name">Leah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/zilpah.html">
       <div class="name">Zilpah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/bilhah.html">
       <div class="name">Bilhah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/reuben.html">
       <div class="name">Reuben</div>
@@ -980,7 +975,7 @@
     </a>
     <a class="person-card" href="people/dinah.html">
       <div class="name">Dinah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/joseph.html">
       <div class="name">Joseph</div>
@@ -1276,7 +1271,7 @@
     </a>
     <a class="person-card" href="people/potiphar.html">
       <div class="name">Potiphar</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/pharaoh-2.html">
       <div class="name">Pharaoh</div>
@@ -1304,7 +1299,7 @@
     </a>
     <a class="person-card" href="people/tamar.html">
       <div class="name">Tamar</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/perez.html">
       <div class="name">Perez</div>
@@ -1316,7 +1311,7 @@
     </a>
     <a class="person-card" href="people/asenath.html">
       <div class="name">Asenath</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Patriarchal</span></div>
     </a>
     <a class="person-card" href="people/potiphera.html">
       <div class="name">Potiphera</div>
@@ -1544,15 +1539,15 @@
     </a>
     <a class="person-card" href="people/shiphrah.html">
       <div class="name">Shiphrah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/puah.html">
       <div class="name">Puah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/jethro.html">
       <div class="name">Jethro</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/pharaoh-4.html">
       <div class="name">Pharaoh</div>
@@ -1588,7 +1583,7 @@
     </a>
     <a class="person-card" href="people/korah-3.html">
       <div class="name">Korah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/nepheg.html">
       <div class="name">Nepheg</div>
@@ -1624,11 +1619,11 @@
     </a>
     <a class="person-card" href="people/nadab.html">
       <div class="name">Nadab</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/abihu.html">
       <div class="name">Abihu</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/eleazar.html">
       <div class="name">Eleazar</div>
@@ -1964,7 +1959,7 @@
     </a>
     <a class="person-card" href="people/balak.html">
       <div class="name">Balak</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/zippor.html">
       <div class="name">Zippor</div>
@@ -1972,7 +1967,7 @@
     </a>
     <a class="person-card" href="people/balaam.html">
       <div class="name">Balaam</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/beor-2.html">
       <div class="name">Beor</div>
@@ -2036,23 +2031,23 @@
     </a>
     <a class="person-card" href="people/mahlah.html">
       <div class="name">Mahlah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/noah-2.html">
       <div class="name">Noah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/hoglah.html">
       <div class="name">Hoglah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/milcah-2.html">
       <div class="name">Milcah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/tirzah.html">
       <div class="name">Tirzah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Exodus/Wilderness</span></div>
     </a>
     <a class="person-card" href="people/shuthelah.html">
       <div class="name">Shuthelah</div>
@@ -2176,10 +2171,6 @@
     </a>
     <a class="person-card" href="people/king-of-jericho.html">
       <div class="name">King of Jericho</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
-    </a>
-    <a class="person-card" href="people/the-captain-of-the-host-of-the-lord.html">
-      <div class="name">the captain of the host of the LORD</div>
       <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/achan.html">
@@ -2332,7 +2323,7 @@
     </a>
     <a class="person-card" href="people/achsah.html">
       <div class="name">Achsah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/othniel.html">
       <div class="name">Othniel</div>
@@ -2376,7 +2367,7 @@
     </a>
     <a class="person-card" href="people/deborah-2.html">
       <div class="name">Deborah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/lappidoth.html">
       <div class="name">Lappidoth</div>
@@ -2384,7 +2375,7 @@
     </a>
     <a class="person-card" href="people/barak.html">
       <div class="name">Barak</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/abinoam.html">
       <div class="name">Abinoam</div>
@@ -2404,7 +2395,7 @@
     </a>
     <a class="person-card" href="people/gideon.html">
       <div class="name">Gideon</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/purah.html">
       <div class="name">Purah</div>
@@ -2436,7 +2427,7 @@
     </a>
     <a class="person-card" href="people/jotham.html">
       <div class="name">Jotham</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/gaal.html">
       <div class="name">Gaal</div>
@@ -2496,7 +2487,7 @@
     </a>
     <a class="person-card" href="people/manoah.html">
       <div class="name">Manoah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/samson.html">
       <div class="name">Samson</div>
@@ -2504,11 +2495,11 @@
     </a>
     <a class="person-card" href="people/delilah.html">
       <div class="name">Delilah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/micah.html">
       <div class="name">Micah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/jonathan-2.html">
       <div class="name">Jonathan</div>
@@ -2540,7 +2531,7 @@
     </a>
     <a class="person-card" href="people/elkanah-2.html">
       <div class="name">Elkanah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/jeroham.html">
       <div class="name">Jeroham</div>
@@ -2560,11 +2551,11 @@
     </a>
     <a class="person-card" href="people/hannah.html">
       <div class="name">Hannah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/peninnah.html">
       <div class="name">Peninnah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
     </a>
     <a class="person-card" href="people/eli.html">
       <div class="name">Eli</div>
@@ -2596,11 +2587,11 @@
     </a>
     <a class="person-card" href="people/joel.html">
       <div class="name">Joel</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/abijah.html">
       <div class="name">Abijah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/kish.html">
       <div class="name">Kish</div>
@@ -2632,7 +2623,7 @@
     </a>
     <a class="person-card" href="people/ahijah.html">
       <div class="name">Ahijah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/ahitub.html">
       <div class="name">Ahitub</div>
@@ -2648,7 +2639,7 @@
     </a>
     <a class="person-card" href="people/merab.html">
       <div class="name">Merab</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/michal.html">
       <div class="name">Michal</div>
@@ -2812,7 +2803,7 @@
     </a>
     <a class="person-card" href="people/rizpah.html">
       <div class="name">Rizpah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/aiah-2.html">
       <div class="name">Aiah</div>
@@ -2835,8 +2826,8 @@
       <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/hiram.html">
-      <div class="name">Hiram</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="name">Hiram of Tyre</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/shammua-2.html">
       <div class="name">Shammua</div>
@@ -3007,8 +2998,8 @@
       <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/ittai.html">
-      <div class="name">Ittai</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="name">Ittai the Gittite</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/ahimaaz-2.html">
       <div class="name">Ahimaaz</div>
@@ -3052,7 +3043,7 @@
     </a>
     <a class="person-card" href="people/barzillai.html">
       <div class="name">Barzillai</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/chimham.html">
       <div class="name">Chimham</div>
@@ -3275,8 +3266,8 @@
       <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/ornan.html">
-      <div class="name">Ornan</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="name">Araunah</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/abishag.html">
       <div class="name">Abishag</div>
@@ -3436,7 +3427,7 @@
     </a>
     <a class="person-card" href="people/queen-of-sheba.html">
       <div class="name">Queen of Sheba</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">United Monarchy</span></div>
     </a>
     <a class="person-card" href="people/hadad-4.html">
       <div class="name">Hadad</div>
@@ -3632,7 +3623,7 @@
     </a>
     <a class="person-card" href="people/micaiah.html">
       <div class="name">Micaiah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/imlah.html">
       <div class="name">Imlah</div>
@@ -3776,7 +3767,7 @@
     </a>
     <a class="person-card" href="people/uzziah.html">
       <div class="name">Uzziah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/jonah.html">
       <div class="name">Jonah</div>
@@ -3800,7 +3791,7 @@
     </a>
     <a class="person-card" href="people/shallum.html">
       <div class="name">Shallum</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/jabesh.html">
       <div class="name">Jabesh</div>
@@ -3820,11 +3811,11 @@
     </a>
     <a class="person-card" href="people/pekahiah.html">
       <div class="name">Pekahiah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/pekah.html">
       <div class="name">Pekah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/remaliah.html">
       <div class="name">Remaliah</div>
@@ -3892,7 +3883,7 @@
     </a>
     <a class="person-card" href="people/sennacherib.html">
       <div class="name">Sennacherib</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/tartan.html">
       <div class="name">Tartan</div>
@@ -3908,7 +3899,7 @@
     </a>
     <a class="person-card" href="people/eliakim.html">
       <div class="name">Eliakim</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/hilkiah.html">
       <div class="name">Hilkiah</div>
@@ -3916,11 +3907,11 @@
     </a>
     <a class="person-card" href="people/shebna.html">
       <div class="name">Shebna</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/joah.html">
       <div class="name">Joah</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/asaph.html">
       <div class="name">Asaph</div>
@@ -4012,7 +4003,7 @@
     </a>
     <a class="person-card" href="people/shaphan.html">
       <div class="name">Shaphan</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/azaliah.html">
       <div class="name">Azaliah</div>
@@ -4088,7 +4079,7 @@
     </a>
     <a class="person-card" href="people/jehoiakim.html">
       <div class="name">Jehoiakim</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
     </a>
     <a class="person-card" href="people/zebidah.html">
       <div class="name">Zebidah</div>
@@ -10862,10 +10853,6 @@
       <div class="name">Darius</div>
       <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
     </a>
-    <a class="person-card" href="people/prince-of-the-kingdom-of-persia.html">
-      <div class="name">Prince of the Kingdom of Persia</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
-    </a>
     <a class="person-card" href="people/michael-9.html">
       <div class="name">Michael</div>
       <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
@@ -10884,10 +10871,6 @@
     </a>
     <a class="person-card" href="people/king-of-the-north.html">
       <div class="name">King of the North</div>
-      <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
-    </a>
-    <a class="person-card" href="people/a-despicable-person.html">
-      <div class="name">a despicable person</div>
       <div class="meta"><span class="badge ot">OT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/hosea.html">
@@ -11143,12 +11126,12 @@
       <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/herod-2.html">
-      <div class="name">Herod</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="name">Herod Antipas</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/herodias.html">
       <div class="name">Herodias</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/philip-2.html">
       <div class="name">Philip</div>
@@ -11192,7 +11175,7 @@
     </a>
     <a class="person-card" href="people/jairus.html">
       <div class="name">Jairus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/talitha.html">
       <div class="name">Talitha</div>
@@ -11224,11 +11207,11 @@
     </a>
     <a class="person-card" href="people/zacharias.html">
       <div class="name">Zacharias</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/elizabeth.html">
       <div class="name">Elizabeth</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/caesar-augustus.html">
       <div class="name">Caesar Augustus</div>
@@ -11240,11 +11223,11 @@
     </a>
     <a class="person-card" href="people/simeon-2.html">
       <div class="name">Simeon</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/anna.html">
       <div class="name">Anna</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
     </a>
     <a class="person-card" href="people/phanuel.html">
       <div class="name">Phanuel</div>
@@ -11491,12 +11474,12 @@
       <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/joseph-10.html">
-      <div class="name">Joseph</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="name">Joseph called Barsabbas</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/matthias.html">
       <div class="name">Matthias</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/john-4.html">
       <div class="name">John</div>
@@ -11596,7 +11579,7 @@
     </a>
     <a class="person-card" href="people/agabus.html">
       <div class="name">Agabus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/claudius.html">
       <div class="name">Claudius</div>
@@ -11607,8 +11590,8 @@
       <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
     </a>
     <a class="person-card" href="people/mary-4.html">
-      <div class="name">Mary</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="name">Mary, mother of John Mark</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/mark.html">
       <div class="name">Mark</div>
@@ -11616,7 +11599,7 @@
     </a>
     <a class="person-card" href="people/rhoda.html">
       <div class="name">Rhoda</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/blastus.html">
       <div class="name">Blastus</div>
@@ -11684,7 +11667,7 @@
     </a>
     <a class="person-card" href="people/crispus.html">
       <div class="name">Crispus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/gallio.html">
       <div class="name">Gallio</div>
@@ -11712,7 +11695,7 @@
     </a>
     <a class="person-card" href="people/gaius.html">
       <div class="name">Gaius</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/aristarchus.html">
       <div class="name">Aristarchus</div>
@@ -11740,11 +11723,11 @@
     </a>
     <a class="person-card" href="people/tychicus.html">
       <div class="name">Tychicus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/trophimus.html">
       <div class="name">Trophimus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/eutychus.html">
       <div class="name">Eutychus</div>
@@ -11796,11 +11779,11 @@
     </a>
     <a class="person-card" href="people/publius.html">
       <div class="name">Publius</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/phoebe.html">
       <div class="name">Phoebe</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/epanetus.html">
       <div class="name">Epanetus</div>
@@ -11812,11 +11795,11 @@
     </a>
     <a class="person-card" href="people/andronicus.html">
       <div class="name">Andronicus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/junias.html">
-      <div class="name">Junias</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="name">Junia</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/ampliatus.html">
       <div class="name">Ampliatus</div>
@@ -11904,7 +11887,7 @@
     </a>
     <a class="person-card" href="people/tertius.html">
       <div class="name">Tertius</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/erastus-2.html">
       <div class="name">Erastus</div>
@@ -11980,11 +11963,11 @@
     </a>
     <a class="person-card" href="people/hymenaeus.html">
       <div class="name">Hymenaeus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/alexander-4.html">
-      <div class="name">Alexander</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="name">Alexander the Coppersmith</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/lois.html">
       <div class="name">Lois</div>
@@ -12004,11 +11987,11 @@
     </a>
     <a class="person-card" href="people/onesiphorus.html">
       <div class="name">Onesiphorus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/philetus.html">
       <div class="name">Philetus</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/jannes.html">
       <div class="name">Jannes</div>
@@ -12064,7 +12047,7 @@
     </a>
     <a class="person-card" href="people/demetrius-2.html">
       <div class="name">Demetrius</div>
-      <div class="meta"><span class="badge nt">NT</span><span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <a class="person-card" href="people/antipas.html">
       <div class="name">Antipas</div>
@@ -12116,6 +12099,26 @@
     </a>
     <a class="person-card" href="people/epaphroditus.html">
       <div class="name">Epaphroditus</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
+    </a>
+    <a class="person-card" href="people/wife-of-manoah.html">
+      <div class="name">Manoah&#x27;s Wife</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Judges</span></div>
+    </a>
+    <a class="person-card" href="people/menahem.html">
+      <div class="name">Menahem</div>
+      <div class="meta"><span class="badge ot">OT</span><span class="badge">Divided Monarchy</span></div>
+    </a>
+    <a class="person-card" href="people/salome-2.html">
+      <div class="name">Salome</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Gospels</span></div>
+    </a>
+    <a class="person-card" href="people/sosthenes.html">
+      <div class="name">Sosthenes</div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
+    </a>
+    <a class="person-card" href="people/gaius-3.html">
+      <div class="name">Gaius</div>
       <div class="meta"><span class="badge nt">NT</span><span class="badge">Apostolic</span></div>
     </a>
     <!-- STATIC_PERSON_GRID_END -->

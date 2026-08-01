@@ -1,13 +1,13 @@
 {
   "person_id": "mary-4",
-  "name": "Mary",
+  "name": "Mary, mother of John Mark",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
   "references": [
-    "Acts 12:12"
+    "Acts 12:12-17"
   ],
-  "first_reference": "Acts 12:12",
+  "first_reference": "Acts 12:12-17",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -15,5 +15,34 @@
     "children": [
       "mark"
     ]
+  },
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "hospitality to the church",
+    "a house of prayer",
+    "faithful behind the scenes"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Mother of John Mark, whose Jerusalem home served as a gathering place for believers praying for Peter's release from prison, and to whose door Peter came directly once freed by the angel.",
+  "family_friendly_summary": "Mary was the mother of John Mark, who would later write the Gospel of Mark. Her home in Jerusalem was used as a gathering place for believers, and it was there that a group of Christians had gathered to pray all night for Peter, who was in prison awaiting execution. God answered their prayers dramatically -- an angel freed Peter from his chains, and Peter made his way straight to Mary's house, knowing he'd find believers praying there. Mary's story shows the quiet but essential role of opening one's home to be a place of prayer and community for the early church.",
+  "adult_story": "Mary, mother of John Mark (who later traveled with Paul and Barnabas and wrote the Gospel bearing his name), is introduced through her house in Jerusalem, described as a place 'where many were gathered together and were praying' the night Peter was imprisoned by Herod Agrippa and facing likely execution (Acts 12:12). Her home evidently functioned as an established meeting place for the early Jerusalem church, well known enough that Peter, once freed from prison by an angel, went directly there rather than anywhere else, apparently confident he would find fellow believers gathered (12:12-13). The scene at her door became memorable in its own right: the servant girl Rhoda recognized Peter's voice through the gate but was so overjoyed she forgot to let him in, running instead to tell the praying group inside, who did not believe her until Peter's continued knocking forced them to open the door themselves (12:14-16). Mary herself speaks no recorded words in the account, but her household's willingness to host a prayer gathering during a moment of real danger for the church -- with Herod actively persecuting and executing apostles, having already killed James -- reflects quiet, costly hospitality and faith. Her home's role as a known refuge and prayer center for believers in a hostile political climate stands as a model of behind-the-scenes faithfulness that made such a dramatic answer to prayer possible in the first place.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

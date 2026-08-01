@@ -2,7 +2,7 @@
   "person_id": "queen-of-sheba",
   "name": "Queen of Sheba",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Kings 10:1-13",
@@ -16,5 +16,34 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Sheba (likely southern Arabia)",
+    "Jerusalem"
+  ],
+  "topics": [
+    "seeking wisdom",
+    "recognition of God's blessing",
+    "testing and being satisfied"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The Queen of Sheba's exact homeland is disputed -- most commonly identified with the ancient kingdom of Saba in southern Arabia (modern Yemen), though some traditions, especially in Ethiopia, identify her with the ancient kingdom of Aksum and credit her with founding a royal dynasty through a son by Solomon; that Ethiopian tradition (recorded in the Kebra Nagast) is extra-biblical and not part of the Genesis-through-Revelation record, so this site notes it only as tradition, not fact.",
+  "source_summary": "A foreign queen who traveled a great distance to test Solomon's fabled wisdom with hard questions, was overwhelmed by his wisdom and the splendor of his kingdom, praised the LORD for placing Solomon on Israel's throne, and exchanged rich gifts with him.",
+  "family_friendly_summary": "The Queen of Sheba ruled a wealthy kingdom far from Israel, and when she heard about King Solomon's incredible wisdom, she made the long journey to Jerusalem to see it for herself, bringing camels loaded with spices, gold, and precious stones. She tested Solomon with hard questions, and Solomon was able to answer every single one. When she saw his wisdom, his palace, and how well he ran his kingdom, she was amazed and declared that even everything she'd heard hadn't come close to describing the reality. She praised the LORD for loving Israel enough to make Solomon king. The two exchanged generous gifts before she returned home.",
+  "adult_story": "The Queen of Sheba, ruler of a wealthy kingdom (likely in southern Arabia), heard of Solomon's fame -- connected to the name of the LORD -- and traveled a great distance with camels bearing spices, gold, and precious stones to test him with hard questions (1 Kings 10:1-2). Solomon answered every question; 'there was nothing hidden from the king which he did not explain to her' (10:3). She was overwhelmed by his wisdom, his palace, his officials, and his temple offerings, to the point that 'there was no more spirit in her' (10:4-5). Her response moved beyond admiration for Solomon to recognition of God's hand behind it: 'Blessed be the LORD your God who delighted in you, setting you on the throne of Israel... He made you king, to do justice and righteousness' (10:9) -- a remarkable confession of Israel's God from a foreign ruler. She gave Solomon an extraordinary quantity of gold, spices, and precious stones, and he gave her whatever she desired in return, beyond his customary royal generosity, before she returned to her own land (10:10-13). Centuries later, Jesus Himself cited her journey approvingly, saying 'the queen of the South will rise up with this generation... and she will condemn it, because she came from the ends of the earth to hear the wisdom of Solomon; and behold, something greater than Solomon is here' (Matthew 12:42; Luke 11:31).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

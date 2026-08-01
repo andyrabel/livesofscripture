@@ -1,25 +1,58 @@
 {
   "person_id": "tamar",
   "name": "Tamar",
-  "alt_names": [],
-  "tier": "stub",
+  "alt_names": [
+    "Thamar"
+  ],
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Genesis 38:6-24",
+    "Genesis 38:1-30",
     "Ruth 4:12",
     "1 Chronicles 2:4",
     "Matthew 1:3"
   ],
-  "first_reference": "Genesis 38:6-24",
+  "first_reference": "Genesis 38:1-30",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [
-      "er"
+      "er",
+      "judah"
     ],
     "children": [
       "perez",
       "zerah-3"
     ]
+  },
+  "era": "Patriarchal",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Timnah",
+    "Canaan"
+  ],
+  "topics": [
+    "justice for the wronged",
+    "deception",
+    "inclusion in the messianic line"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Genesis 38:26 has Judah declare Tamar 'more righteous than I,' a judgment about the specific wrong Judah had done her (withholding his son Shelah as promised) rather than a blanket endorsement of her method of seeking justice through deception and disguise; interpreters generally read the text as portraying her act as understandable and ultimately vindicated in context, without treating deception itself as commended in principle.",
+  "source_summary": "Judah's Canaanite daughter-in-law, twice widowed by Judah's sons and denied the third son promised to her, who disguised herself and conceived twins by Judah himself to secure justice and an heir; named in Matthew's genealogy of Christ.",
+  "family_friendly_summary": "Tamar married two of Judah's sons in a row, and both of them died. Under the custom of that time, she was owed a chance to have children through Judah's family line, but Judah kept putting her off and didn't keep his promise to let her marry his youngest son. So Tamar took a bold and risky step to make sure justice was done, disguising herself so that Judah himself would provide her an heir. When the truth came out, Judah admitted that Tamar had been more in the right than he had. Tamar had twin sons, and she is even named generations later in the family line that leads all the way to Jesus.",
+  "adult_story": "Tamar married Judah's firstborn son Er, who died for wickedness the text does not detail; under the custom requiring a brother to raise up an heir for a dead man's line, she then married Judah's second son Onan, who also died after refusing to fulfill that duty honestly (Genesis 38:6-10). Judah, fearing for his third son Shelah, sent Tamar back to her father's house with a promise to give her Shelah once grown -- a promise he never kept even after Shelah was grown (38:11, 14). Widowed, childless, and wronged, Tamar disguised herself as a prostitute and sat where she knew Judah, himself now widowed, would pass; Judah, not recognizing her, slept with her, leaving his seal, cord, and staff as pledged payment (38:13-23). When Tamar's pregnancy became known, Judah ordered her burned for prostitution, until she produced his own pledged items as proof of whose child she carried; Judah confessed, 'She is more righteous than I, since I did not give her to my son Shelah' (38:24-26). Tamar bore twins, Perez and Zerah, born in a scene marked by a striking reversal of expected birth order (38:27-30). Ruth 4:12 and 1 Chronicles 2:4 preserve her place in Judah's line, and Matthew 1:3 names her -- one of only a few women, and the first -- in Christ's genealogy, a wronged Canaanite widow whose determined pursuit of justice became part of the ancestry of the Messiah.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

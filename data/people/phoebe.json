@@ -2,16 +2,45 @@
   "person_id": "phoebe",
   "name": "Phoebe",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
   "references": [
-    "Romans 16:1"
+    "Romans 16:1-2"
   ],
-  "first_reference": "Romans 16:1",
+  "first_reference": "Romans 16:1-2",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Cenchrea"
+  ],
+  "topics": [
+    "service and deaconship",
+    "carrying Scripture to the church",
+    "commended leadership"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Whether Phoebe's title in Romans 16:1 (Greek diakonos) should be understood as a formal office of 'deacon' or 'deaconess' in the early church, or more generally as 'servant' or 'helper,' is genuinely debated among interpreters and translations render it differently; this site notes the term without resolving the debate over the exact nature of the office in the earliest churches.",
+  "source_summary": "A servant (or deacon) of the church at Cenchrea near Corinth, commended by Paul to the Roman believers as one who had been a helper of many including Paul himself, and traditionally understood to have been the one who carried Paul's letter to the Romans to its destination.",
+  "family_friendly_summary": "Phoebe served the church in Cenchrea, a town near Corinth. Paul commended her warmly to the believers in Rome, describing her as someone who had helped many people, including Paul himself, and asking the Roman church to welcome her and assist her with anything she needed. Many believe Phoebe was the one entrusted to actually carry Paul's letter to the Romans -- one of the most important letters in the New Testament -- all the way to Rome and deliver it to the church there. Phoebe's story highlights the significant, trusted role women held in serving and supporting the early church.",
+  "adult_story": "Phoebe is introduced at the very start of Romans 16 as 'our sister, who is a servant of the church which is at Cenchrea' -- Corinth's eastern port town -- with Paul urging the Roman believers to 'receive her in the Lord in a manner worthy of the saints, and help her in whatever matter she may have need' of them (Romans 16:1-2). Paul's reason for this request is personal and direct: Phoebe 'has been a helper of many, and of myself as well' (16:2), indicating a woman of real standing and practical service within the early church, trusted enough by Paul to warrant this formal, specific commendation to a congregation that had not yet met her. The Greek word Paul uses for her role, diakonos, is the same word used elsewhere for the office of deacon, and interpreters continue to debate whether Phoebe held a formal recognized office in the Cenchrean church or served in a less formally defined capacity -- either way, her position was significant enough for Paul to vouch for her by name. Tradition and the letter's own internal logic strongly suggest Phoebe was the one entrusted to physically carry Paul's letter to the Romans from Corinth to Rome, making her, in effect, the first person to deliver and likely to explain one of the most significant theological documents in church history to its original audience.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

@@ -2,23 +2,48 @@
   "person_id": "ahijah",
   "name": "Ahijah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "1 Samuel 14:3-18",
-    "1 Kings 11:29-30",
+    "1 Kings 11:29-39",
     "1 Kings 12:15",
-    "1 Kings 14:2-18",
-    "1 Kings 15:29-33",
-    "2 Chronicles 9:29",
-    "2 Chronicles 10:15",
-    "Nehemiah 11:5"
+    "1 Kings 14:1-18",
+    "2 Chronicles 9:29"
   ],
-  "first_reference": "1 Samuel 14:3-18",
+  "first_reference": "1 Kings 11:29-39",
   "genealogy": {
     "father": "ahitub",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Shiloh"
+  ],
+  "topics": [
+    "prophecy of judgment",
+    "torn kingdom",
+    "consequences of idolatry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A prophet from Shiloh who tore his new cloak into twelve pieces to symbolically announce that God would tear ten tribes away from Solomon's dynasty and give them to Jeroboam, and who later, when consulted in disguise by Jeroboam's wife, pronounced judgment on Jeroboam's household.",
+  "family_friendly_summary": "Ahijah was a prophet from Shiloh. God gave him a dramatic way to deliver an important message to a man named Jeroboam: Ahijah tore his own brand-new cloak into twelve pieces and told Jeroboam to take ten of them, showing that God was about to tear ten tribes of Israel away from Solomon's family because of Solomon's idolatry, and give them to Jeroboam to rule instead. Years later, when Jeroboam's wife came to Ahijah in disguise to ask about their sick son, Ahijah, now old and blind, recognized her anyway and delivered a hard prophecy of judgment against Jeroboam's entire household because of the idols Jeroboam had made.",
+  "adult_story": "Ahijah, a prophet from Shiloh, met Jeroboam alone on a road outside Jerusalem and delivered God's judgment on Solomon's kingdom through a striking acted-out prophecy: he tore his own new cloak into twelve pieces and told Jeroboam to take ten, since God was tearing the kingdom out of Solomon's son's hand because of Solomon's idolatry, leaving only one tribe for David's line for the sake of God's promise to David and Jerusalem (1 Kings 11:29-36). Ahijah's word promised Jeroboam an enduring dynasty over the ten tribes if he would keep God's statutes as David had (11:37-38) -- a conditional promise Jeroboam would not keep. When Jeroboam later became king and made two golden calves for Israel's worship instead of trusting God's promise, Ahijah's earlier prophecy came true, but not on the generous terms first offered. Years afterward, when Jeroboam's son fell ill, Jeroboam sent his wife to Ahijah in disguise, hoping the now old and blind prophet would not recognize her; God told Ahijah who was coming before she arrived, and Ahijah pronounced sweeping judgment on Jeroboam's entire household because of the idols he had made, declaring the sick child would die -- mercifully, the only member of Jeroboam's house to receive proper burial, since some good was found in him (14:1-18). Ahijah's ministry frames both the founding and the unraveling of Jeroboam's dynasty, a consistent witness that God's blessing on kingship was never separate from covenant faithfulness.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure with both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

@@ -2,16 +2,45 @@
   "person_id": "shiphrah",
   "name": "Shiphrah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "Exodus 1:15"
+    "Exodus 1:15-21"
   ],
-  "first_reference": "Exodus 1:15",
+  "first_reference": "Exodus 1:15-21",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Exodus/Wilderness",
+  "region": "egypt",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
+  "topics": [
+    "civil disobedience for righteousness",
+    "fear of God",
+    "courage of the powerless"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of two Hebrew midwives (with Puah) who defied Pharaoh's order to kill Hebrew baby boys at birth, fearing God rather than the king, and whom God rewarded with households of their own.",
+  "family_friendly_summary": "Shiphrah was one of two midwives, along with Puah, whose job was to help Hebrew women give birth safely. When the king of Egypt, afraid of how many Hebrew people there were, ordered the midwives to secretly kill any baby boys as they were born, Shiphrah and Puah refused, because they feared and honored God more than they feared the king. When Pharaoh questioned them about it, they gave a clever answer to protect themselves and the babies. Because of their courage, God blessed Shiphrah and Puah with families of their own. Shiphrah's story is one of the Bible's clearest examples of ordinary people bravely refusing to do evil, even when a powerful ruler commands it.",
+  "adult_story": "Shiphrah is named alongside Puah as one of the Hebrew midwives Pharaoh ordered to kill every Hebrew baby boy at the moment of birth, out of fear that Israel's growing population posed a threat to Egypt (Exodus 1:15-16). Scripture states directly that 'the midwives feared God, and did not do as the king of Egypt had commanded them, but let the boys live' (1:17) -- an act of open civil disobedience against the most powerful ruler in the region, undertaken by two women with no political standing of their own. When Pharaoh confronted them about why the boys kept surviving, they answered that Hebrew women gave birth too quickly for the midwives to arrive in time -- an explanation the text neither confirms nor condemns as strictly true, but records as their bold, protective response under direct royal pressure (1:18-19). God's verdict on their action is unambiguous: 'God was good to the midwives... and because the midwives feared God, He established households for them' (1:20-21). Shiphrah's defiance sits at the very hinge of Exodus, the first recorded act of resistance against the Egyptian oppression that Moses would later be raised up to end entirely -- proof that God's deliverance of Israel began not with a prince or a plague, but with the quiet, dangerous courage of two midwives who feared God more than Pharaoh.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

@@ -1,26 +1,54 @@
 {
   "person_id": "herod-2",
-  "name": "Herod",
-  "alt_names": [],
-  "tier": "stub",
+  "name": "Herod Antipas",
+  "alt_names": [
+    "Herod the Tetrarch"
+  ],
+  "tier": "full",
   "testament": "NT",
   "references": [
-    "Matthew 14:1-6",
-    "Mark 6:14-22",
-    "Mark 8:15",
+    "Matthew 14:1-12",
+    "Mark 6:14-29",
     "Luke 3:1-20",
-    "Luke 8:3",
     "Luke 9:7-9",
-    "Luke 13:31",
-    "Luke 23:7-15",
-    "Acts 4:27",
-    "Acts 13:1"
+    "Luke 23:6-12",
+    "Acts 4:27"
   ],
-  "first_reference": "Matthew 14:1-6",
+  "first_reference": "Matthew 14:1-12",
   "genealogy": {
     "father": "herod",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee",
+    "Perea",
+    "Jerusalem"
+  ],
+  "topics": [
+    "fear of God's word without repentance",
+    "moral weakness under pressure",
+    "mockery of Christ"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Herod the Great and tetrarch of Galilee and Perea, who imprisoned and beheaded John the Baptist to satisfy a rash oath made to Herodias's daughter, was curious to see Jesus perform a sign but received no answer and only mocked Him, and was later reconciled with Pilate over the encounter.",
+  "family_friendly_summary": "Herod Antipas ruled over Galilee during the time of Jesus' ministry. He had imprisoned John the Baptist because John boldly told him it was wrong for him to have married Herodias, his brother's wife. At a birthday party, Herodias's daughter danced and pleased Herod so much that he rashly promised to give her anything she asked, and, prompted by her mother, she asked for John's head. Herod was distressed but kept his promise and had John beheaded. Later, when Jesus was sent to Herod during His trial, Herod was excited to see Jesus perform some miracle, but Jesus said nothing to him at all, and Herod and his soldiers mocked and ridiculed Jesus before sending Him back to Pilate.",
+  "adult_story": "Herod Antipas, son of Herod the Great, ruled as tetrarch over Galilee and Perea throughout Jesus' public ministry. He had imprisoned John the Baptist after John publicly condemned his marriage to Herodias, his brother Philip's wife, as unlawful (Mark 6:17-18). Herod feared John, recognizing him as a righteous and holy man, and even 'used to enjoy listening to him,' though it left him 'very perplexed'; he protected John from Herodias's own desire to kill him (6:19-20). At a birthday banquet, however, Herodias's daughter danced and so pleased Herod that he swore before his guests to give her anything up to half his kingdom; prompted by her mother, she asked for John's head on a platter, and Herod, 'although he was very sorry,' honored the oath rather than break faith before his guests, and had John beheaded in prison (6:21-28). Later, hearing reports of Jesus, Herod grew troubled, wondering if this was John raised from the dead, and 'kept trying to see Him' (Luke 9:7-9). That opportunity came during Jesus' trial, when Pilate, learning Jesus was under Herod's jurisdiction, sent Him to Herod, who was 'very glad' and hoped to see a miraculous sign; but Jesus answered him nothing at all, and Herod and his soldiers, with contempt, mocked Him, dressed Him in a fine robe, and sent Him back to Pilate -- an encounter that, Luke notes, turned former enemies Herod and Pilate into friends that same day (Luke 23:6-12).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

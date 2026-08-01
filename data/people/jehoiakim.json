@@ -4,29 +4,16 @@
   "alt_names": [
     "Eliakim"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
-    "2 Kings 23:34-36",
-    "2 Kings 24:1-19",
-    "1 Chronicles 3:15-16",
+    "2 Kings 23:34-37",
+    "2 Kings 24:1-6",
     "2 Chronicles 36:4-8",
-    "Jeremiah 1:3",
-    "Jeremiah 22:18-24",
-    "Jeremiah 24:1",
-    "Jeremiah 25:1",
-    "Jeremiah 26:1-23",
-    "Jeremiah 27:20",
-    "Jeremiah 28:4",
-    "Jeremiah 35:1",
-    "Jeremiah 36:1-32",
-    "Jeremiah 37:1",
-    "Jeremiah 45:1",
-    "Jeremiah 46:2",
-    "Jeremiah 52:2",
-    "Daniel 1:1-2"
+    "Jeremiah 22:13-19",
+    "Jeremiah 36:1-32"
   ],
-  "first_reference": "2 Kings 23:34-36",
+  "first_reference": "2 Kings 23:34-37",
   "genealogy": {
     "father": "josiah",
     "mother": "zebidah",
@@ -36,5 +23,38 @@
       "jerahmeel-3",
       "zedekiah-3"
     ]
+  },
+  "era": "Divided Monarchy",
+  "kingdom": "judah",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": -635,
+    "died": -598,
+    "note": "2 Kings 23:36 states Jehoiakim was 25 when he began to reign and reigned 11 years in Jerusalem; dates follow a widely-used regnal chronology."
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "contempt for God's word",
+    "oppression of the poor",
+    "rebellion against Babylon"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Josiah, placed on Judah's throne by Pharaoh Necho and renamed from Eliakim, who built his palace through forced, unpaid labor, personally burned the scroll of Jeremiah's prophecies section by section as it was read to him, and rebelled against Babylon, dying under Nebuchadnezzar's advancing siege.",
+  "family_friendly_summary": "Jehoiakim was one of King Josiah's sons, placed on Judah's throne by the Egyptian Pharaoh Necho, who also changed his name from Eliakim to Jehoiakim. Unlike his father's reforms, Jehoiakim did evil, built himself a grand palace using forced labor he refused to pay, and treated God's word with open contempt -- when Jeremiah's scroll of prophecies was read to him, Jehoiakim cut off each section with a knife and threw it into the fire, piece by piece, without any fear of what it warned. He later rebelled against the powerful Babylonian empire, a decision that led to Babylon's armies advancing on Judah during his reign, foreshadowing the disaster that would soon follow for the whole nation.",
+  "adult_story": "Jehoiakim, originally named Eliakim, was Josiah's son placed on Judah's throne by Pharaoh Necho of Egypt after Necho deposed his younger brother Jehoahaz, changing his name and imposing a heavy tribute on Judah (2 Kings 23:34-35). Unlike his reforming father, Jehoiakim 'did evil in the sight of the LORD' (23:37), and Jeremiah confronted him directly for building his palace through forced, unpaid labor: 'woe to him who builds his house without righteousness... who uses his neighbor's services without pay and does not give him his wages' (Jeremiah 22:13). Jehoiakim's most vivid recorded act of defiance came when Jeremiah's scribe Baruch read aloud a scroll of the LORD's warnings against Judah in the king's hearing; as each section was read, Jehoiakim cut it off with a scribe's knife and threw it into the fire burning in his winter chamber, showing no fear despite officials urging him not to, and Jeremiah simply dictated the scroll again with additional words of judgment added (Jeremiah 36:20-32). Jehoiakim became a vassal of Nebuchadnezzar of Babylon for three years before rebelling, prompting Babylonian, Aramean, Moabite, and Ammonite raiders to harass Judah in fulfillment of earlier prophetic warnings (2 Kings 24:1-2). He died as Nebuchadnezzar's forces advanced against Jerusalem, and his son Jehoiachin inherited a kingdom already collapsing (24:6; 2 Chronicles 36:5-8).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }
