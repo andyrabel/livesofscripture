@@ -1835,6 +1835,161 @@ const TIMELINE_REGIONS_WITH_OTHER = [
   { key: "other", label: "Other / unspecified" },
 ];
 
+// Compositional order of the biblical books, used only to give era-precision
+// (year-less) OT figures a relative left-to-right position within their era
+// band -- e.g. Abraham (Genesis 12) plots left of Joseph (Genesis 37) inside
+// the same Patriarchal band -- instead of every person in an era rendering
+// as one identical block. This is an ordinal ranking by narrative sequence,
+// never a claim about a specific calendar year.
+const BOOK_ORDER = [
+  "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
+  "Joshua", "Judges", "Ruth",
+  "1 Samuel", "2 Samuel", "1 Kings", "2 Kings",
+  "1 Chronicles", "2 Chronicles", "Ezra", "Nehemiah", "Esther",
+  "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon",
+  "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel",
+  "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum",
+  "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi",
+  "Matthew", "Mark", "Luke", "John", "Acts",
+  "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians",
+  "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians",
+  "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews",
+  "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude",
+  "Revelation",
+];
+
+// Fraction of an era band's width used as a generic "lifetime" bar length
+// for era-precision figures, and the margin kept clear at each end of the
+// band so the earliest/latest-ranked person's bar isn't flush with the
+// hard edge of the era itself.
+const TIMELINE_ERA_ORDINAL_SPAN_FRACTION = 0.16;
+const TIMELINE_ERA_ORDINAL_MARGIN_FRACTION = 0.08;
+
+function timelineParseReference(ref) {
+  if (!ref) return null;
+  let bestBook = null;
+  for (const book of BOOK_ORDER) {
+    if ((ref === book || ref.startsWith(`${book} `)) && (!bestBook || book.length > bestBook.length)) {
+      bestBook = book;
+    }
+  }
+  if (!bestBook) return null;
+  const chapterMatch = ref.slice(bestBook.length).trim().match(/^(\d+)/);
+  return {
+    bookIndex: BOOK_ORDER.indexOf(bestBook),
+    chapter: chapterMatch ? Number(chapterMatch[1]) : 0,
+  };
+}
+
+// Ordinal rank of a person's earliest listed reference: which book it's in,
+// then which chapter -- used purely to order era-precision people left to
+// right, not to place them at a specific year.
+function timelineNarrativeRank(person) {
+  const parsed = timelineParseReference((person.references || [])[0]);
+  return parsed ? parsed.bookIndex * 1000 + parsed.chapter : null;
+}
+
+// Spreads era-precision people out across their shared era band using the
+// genealogy edges already in the data wherever they exist, falling back to
+// narrative (book/chapter) order otherwise:
+//   - spouses are known contemporaries, so they're placed in the exact same
+//     slot (their bars fully overlap in x, stacked in separate lanes by the
+//     existing lane packer) rather than wherever their own first reference
+//     happens to fall in the text -- this is what fixes Abraham/Sarah/Hagar
+//     rendering as if they lived decades apart.
+//   - a child is never placed before their own parent's slot, even if the
+//     child's first reference happens to appear earlier in the text.
+// Mutates each person's start/end in place.
+function assignEraOrdinalSpans(people) {
+  const byEra = new Map();
+  for (const p of people) {
+    if (p.precision !== "era") continue;
+    if (!byEra.has(p.era)) byEra.set(p.era, []);
+    byEra.get(p.era).push(p);
+  }
+  for (const [era, group] of byEra) {
+    const band = ERA_BANDS[era];
+    if (!band) continue;
+    const bandWidth = band[1] - band[0];
+    const groupIds = new Set(group.map((p) => p.person_id));
+    const byId = new Map(group.map((p) => [p.person_id, p]));
+    const baseRank = new Map(group.map((p) => [p.person_id, timelineNarrativeRank(p)]));
+
+    // Union-find over spouse edges within this era, so married couples
+    // (and, transitively, co-wives of the same husband) collapse to one slot.
+    const parentOf = new Map(group.map((p) => [p.person_id, p.person_id]));
+    const find = (id) => {
+      while (parentOf.get(id) !== id) {
+        parentOf.set(id, parentOf.get(parentOf.get(id)));
+        id = parentOf.get(id);
+      }
+      return id;
+    };
+    const union = (a, b) => {
+      const ra = find(a), rb = find(b);
+      if (ra !== rb) parentOf.set(ra, rb);
+    };
+    for (const p of group) {
+      for (const spouseId of (p.genealogy && p.genealogy.spouses) || []) {
+        if (groupIds.has(spouseId)) union(p.person_id, spouseId);
+      }
+    }
+
+    // Cluster rank = the best (earliest) narrative rank among its members.
+    const clusterRank = new Map();
+    for (const p of group) {
+      const root = find(p.person_id);
+      const r = baseRank.get(p.person_id);
+      if (r == null) continue;
+      if (!clusterRank.has(root) || r < clusterRank.get(root)) clusterRank.set(root, r);
+    }
+
+    // A few relaxation passes so a child's cluster never ranks before their
+    // parent's cluster, even across spouse-merged clusters.
+    for (let pass = 0; pass < 4; pass++) {
+      for (const p of group) {
+        const parentIds = [p.genealogy && p.genealogy.father, p.genealogy && p.genealogy.mother];
+        for (const parentId of parentIds) {
+          if (!parentId || !byId.has(parentId)) continue;
+          const childRoot = find(p.person_id);
+          const parentRoot = find(parentId);
+          if (childRoot === parentRoot) continue;
+          const parentR = clusterRank.get(parentRoot);
+          const childR = clusterRank.get(childRoot);
+          if (parentR != null && (childR == null || childR <= parentR)) {
+            clusterRank.set(childRoot, parentR + 0.5);
+          }
+        }
+      }
+    }
+
+    // Order distinct clusters (not individual people) evenly across the band.
+    const clusters = new Map();
+    for (const p of group) {
+      const root = find(p.person_id);
+      if (!clusters.has(root)) clusters.set(root, []);
+      clusters.get(root).push(p);
+    }
+    const ordered = Array.from(clusters.entries()).sort((a, b) => {
+      const ra = clusterRank.has(a[0]) ? clusterRank.get(a[0]) : Infinity;
+      const rb = clusterRank.has(b[0]) ? clusterRank.get(b[0]) : Infinity;
+      return ra - rb;
+    });
+
+    const usableStart = band[0] + bandWidth * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION;
+    const usableWidth = bandWidth * (1 - 2 * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION);
+    const lifespan = Math.max(bandWidth * TIMELINE_ERA_ORDINAL_SPAN_FRACTION, 15);
+    ordered.forEach(([, members], i) => {
+      const t = ordered.length > 1 ? i / (ordered.length - 1) : 0.5;
+      const center = usableStart + t * usableWidth;
+      for (const p of members) {
+        p.start = center - lifespan / 2;
+        p.end = center + lifespan / 2;
+      }
+    });
+  }
+}
+
 const TIMELINE_PX_PER_YEAR = 4;
 const TIMELINE_LANE_HEIGHT = 28;
 const TIMELINE_LANE_GAP = 8;
@@ -1859,10 +2014,20 @@ function timelineFormatYear(year) {
   return y < 0 ? `${-y} BC` : `AD ${y}`;
 }
 
-function timelineTickStep(spanYears) {
-  if (spanYears < 150) return 10;
-  if (spanYears < 400) return 25;
-  return 50;
+// Splits a visible [minYear, maxYear] range into the era segments it spans,
+// clipped to that range -- used to label the axis by era name instead of by
+// specific BC/AD year, since only the era boundaries themselves (not any one
+// person's position within them) rest on a cited chronology.
+function timelineEraSegments(minYear, maxYear) {
+  const segments = [];
+  for (const era of ERA_ORDER) {
+    const band = ERA_BANDS[era];
+    if (!band) continue;
+    const start = Math.max(band[0], minYear);
+    const end = Math.min(band[1], maxYear);
+    if (end > start) segments.push({ era, start, end });
+  }
+  return segments;
 }
 
 // Resolves a full-tier person record into a {start, end, precision, alive}
@@ -1886,7 +2051,7 @@ function timelinePersonSpan(person) {
 
 function timelineLifespanLabel(p) {
   if (p.precision === "era") {
-    return `${p.era} era — c. ${timelineFormatYear(p.start)} to c. ${timelineFormatYear(p.end)} (estimated)`;
+    return `${p.era} era — position reflects narrative order across Scripture's books and chapters, not a calendar date`;
   }
   const endLabel = p.alive ? "present" : `c. ${timelineFormatYear(p.end)}`;
   return `c. ${timelineFormatYear(p.start)} – ${endLabel}`;
@@ -1895,7 +2060,7 @@ function timelineLifespanLabel(p) {
 function timelineTooltipNote(p) {
   if (p.timeline && p.timeline.note) return p.timeline.note;
   if (p.precision === "era") {
-    return "Era estimate — this period's chronology is genuinely disputed among evangelical scholars, so this bar spans the whole era rather than marking a specific date.";
+    return "Era estimate — this period's chronology is genuinely disputed among evangelical scholars. This bar's left-right position reflects where this person falls across Scripture's books and chapters, not a calendar year, and its faded edges are a reminder that neither the date nor the exact span is known.";
   }
   return "";
 }
@@ -2091,6 +2256,7 @@ async function renderTimelinePage() {
       return span ? Object.assign({}, p, span) : null;
     })
     .filter(Boolean);
+  assignEraOrdinalSpans(people);
 
   if (!people.length) {
     countEl.textContent = "Showing 0 people";
@@ -2127,17 +2293,21 @@ async function renderTimelinePage() {
 
     const axis = document.createElement("div");
     axis.className = "timeline-axis";
-    const step = timelineTickStep(maxYear - minYear);
-    for (let y = Math.ceil(minYear / step) * step; y <= maxYear; y += step) {
-      const tick = document.createElement("div");
-      tick.className = "timeline-axis__tick";
-      tick.style.left = `${Math.round((y - minYear) * TIMELINE_PX_PER_YEAR)}px`;
-      const tickLabel = document.createElement("span");
-      tickLabel.className = "timeline-axis__tick-label";
-      tickLabel.textContent = timelineFormatYear(y);
-      tick.appendChild(tickLabel);
-      axis.appendChild(tick);
-    }
+    const segments = timelineEraSegments(minYear, maxYear);
+    segments.forEach((seg, i) => {
+      if (i > 0) {
+        const divider = document.createElement("div");
+        divider.className = "timeline-axis__tick";
+        divider.style.left = `${Math.round((seg.start - minYear) * TIMELINE_PX_PER_YEAR)}px`;
+        axis.appendChild(divider);
+      }
+      const label = document.createElement("span");
+      label.className = "timeline-axis__era-label";
+      label.style.left = `${Math.round((seg.start - minYear) * TIMELINE_PX_PER_YEAR)}px`;
+      label.style.width = `${Math.round((seg.end - seg.start) * TIMELINE_PX_PER_YEAR)}px`;
+      label.textContent = seg.era;
+      axis.appendChild(label);
+    });
     canvas.appendChild(axis);
 
     const lanesEl = document.createElement("div");

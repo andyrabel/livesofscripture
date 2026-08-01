@@ -285,16 +285,6 @@ main {
 .badge.nt { color: var(--color-nt); border-color: var(--color-nt); }
 .badge.stub { color: var(--color-text-muted); }
 
-.review-badge {
-  font-size: 0.78rem;
-  padding: 0.15rem 0.55rem;
-  border-radius: 999px;
-  display: inline-block;
-}
-
-.review-badge.reviewed { color: var(--color-ok); border: 1px solid var(--color-ok); }
-.review-badge.unreviewed { color: var(--color-warn); border: 1px solid var(--color-warn); }
-
 .person-header {
   display: flex;
   gap: 1.25rem;
@@ -959,13 +949,16 @@ body.connections-fullpage-active {
   border-left: 1px solid var(--color-border);
 }
 
-.timeline-axis__tick-label {
+.timeline-axis__era-label {
   position: absolute;
   top: 6px;
-  left: 5px;
+  padding: 0 6px;
   font-size: 0.72rem;
+  font-weight: 600;
   color: var(--color-text-muted);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .timeline-lanes {
@@ -1002,6 +995,11 @@ body.connections-fullpage-active {
     rgba(255, 255, 255, 0.32) 0 5px,
     transparent 5px 10px
   );
+  /* Soft-fade the start/end of era-only bars instead of a hard rectangle
+     edge -- their left-right position is an ordinal estimate (narrative
+     order), not a real start/end date, so the shape itself should say so. */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 22%, black 78%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 22%, black 78%, transparent 100%);
 }
 
 .timeline-bar--alive {

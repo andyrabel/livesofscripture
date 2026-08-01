@@ -116,12 +116,6 @@ def genealogy_block(title, ids, index_by_id, base):
     </div>"""
 
 
-def review_badge(review):
-    if review and review.get("human_reviewed"):
-        return '<span class="review-badge reviewed">✅ Reviewed for accuracy</span>'
-    return '<span class="review-badge unreviewed">⚠️ AI-generated — not yet human reviewed</span>'
-
-
 def references_list(refs):
     return f'<p class="references-list">References: {esc("; ".join(refs))}</p>'
 
@@ -204,7 +198,6 @@ def render_full_person_body(person, index_by_id, connections, base, portrait_exi
         <span class="badge {testament_class}">{esc(person.get("testament", ""))}</span>
         {era_badge}
       </div>
-      <p>{review_badge(person.get("review"))}</p>
     </div>
   </div>""")
 
