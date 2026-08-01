@@ -78,22 +78,26 @@ named individuals in Scripture are single-verse genealogy mentions with no
 narrative to tell. Two tiers:
 
 ### Full entries
-For narratively-documented figures — enough text in Scripture to support the
-three-paragraph story structure (see Two Story Versions below). Gets: adult
-story, family story, a family-friendly summary (see below), image, memorials
-(if any — see note below), significant events, connections/genealogy edges,
-quiz questions.
+For narratively-documented figures — enough text in Scripture to support two
+description fields (decided 2026-08-01, superseding the earlier three-field
+draft below): `adult_story` (**250 words max**) and `family_friendly_summary`
+(**150 words max**) — no separate `family_story` field. Gets: those two
+descriptions, image, memorials (if any — see note below), significant
+events, connections/genealogy edges, quiz questions.
 
-**Family-friendly summary** (decided 2026-07-30): a single sentence, 150
-characters or fewer, written for an 8-and-up reading level. It sits alongside
-`adult_story`/`family_story`, not in place of them — the full-length stories
-keep Scripture's own honesty about a person's documented sin per the
-Theological Requirements above. The short summary is an age-calibrated
+**`adult_story`** (≤250 words): the full-length treatment, keeping
+Scripture's own honesty about a person's documented sin per the Theological
+Requirements above — this is where family/relationship context belongs too,
+folded into the narrative rather than a separate field.
+
+**`family_friendly_summary`** (decided 2026-07-30, length revised
+2026-08-01): up to 150 words, written for an 8-and-up reading level — a
+short paragraph now, not a single sentence. It is an age-calibrated
 retelling, not a sanitized replacement: it can be honest in general terms
 ("David made big mistakes but always turned back to God") without spelling
 out adult content (adultery, murder, sexual sin, graphic violence) that
-isn't appropriate to hand an 8-year-old in a one-line summary. Full entries
-only — stub entries have no story to summarize.
+isn't appropriate to hand an 8-year-old. Full entries only — stub entries
+have no story to summarize.
 
 ### Minimal (stub) entries
 For everyone else — a name appearing in a genealogy or list with no narrative
@@ -149,13 +153,13 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
   "era": "Divided Monarchy",
   "geographic_setting": ["Gilead", "Kingdom of Israel"],
   "references": ["1 Kings 17-19", "1 Kings 21", "2 Kings 1-2", "Malachi 4:5-6"],
+  "first_reference": "1 Kings 17-19",
   "topics": ["prophecy", "faith under persecution", "God's provision"],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "Brief factual summary grounded in the biblical text",
-  "family_friendly_summary": "One sentence, <=150 characters, 8-and-up reading level.",
-  "adult_story": "...",
-  "family_story": "...",
+  "family_friendly_summary": "Up to 150 words, 8-and-up reading level.",
+  "adult_story": "Up to 250 words. Family/relationship context is folded in here, not a separate field.",
   "image": {
     "file": "elijah.jpg",
     "prompt_used": "Simple outline/line-art illustration, ancient Near Eastern prophet, minimal detail, low file size...",
@@ -186,6 +190,7 @@ Stub entry (minimal tier):
   "tier": "stub",
   "testament": "OT",
   "references": ["1 Chronicles 2:47"],
+  "first_reference": "1 Chronicles 2:47",
   "genealogy": {
     "father": "caleb-son-of-hezron",
     "mother": null,
@@ -194,6 +199,14 @@ Stub entry (minimal tier):
   }
 }
 ```
+
+**`first_reference`** (decided 2026-08-01): every person, full or stub, carries
+this field — the single reference where they are first named in Scripture,
+always equal to `references[0]`. The `references` arrays throughout the
+dataset are already in canonical book order (confirmed by sampling the
+BradyStephenson import), so this is a derived convenience field, not
+independently curated — regenerate it from `references[0]` if the
+references array for a person is ever edited.
 
 `era` taxonomy is finalized (see Open Questions history below). Still open:
 whether `geographic_setting` is worth a controlled vocabulary for filtering
@@ -372,8 +385,8 @@ would run 14–16MB even with light stub entries. Instead:
 
 - A small **index file** (id, name, alt_names, tier, testament, topics —
   enough for search/filter/list views) loaded on every page.
-- Full entry data (`adult_story`, `family_story`, `image`, `genealogy`)
-  fetched per-person only when a person's page is opened.
+- Full entry data (`adult_story`, `family_friendly_summary`, `image`,
+  `genealogy`) fetched per-person only when a person's page is opened.
 
 ```
 /
@@ -395,7 +408,7 @@ per content update outweigh the extra file count at this scale.)
 
 ### Static pre-rendering for SEO / LLM-search crawlability (decided 2026-07-31)
 
-Person content (`adult_story`, `family_story`, genealogy, etc.) was originally
+Person content (`adult_story`, `family_friendly_summary`, genealogy, etc.) was originally
 rendered entirely client-side by `js/app.js` fetching `data/people/[id].json`
 into `person.html?id=[id]`. Googlebot executes JavaScript so this worked for
 Google, but most LLM-search crawlers (GPTBot, ClaudeBot, PerplexityBot,

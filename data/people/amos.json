@@ -2,17 +2,44 @@
   "person_id": "amos",
   "name": "Amos",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Amos 1:1",
     "Amos 7:8-14",
     "Amos 8:2"
   ],
+  "first_reference": "Amos 1:1",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Amos 1:1 dates his ministry to the reigns of Uzziah of Judah and Jeroboam II of Israel, roughly the mid-700s BC, but gives no personal birth or death year, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Tekoa",
+    "Bethel",
+    "Kingdom of Israel"
+  ],
+  "topics": [
+    "social justice",
+    "prophecy",
+    "accountability"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Shepherd from Judah with no prophetic pedigree, sent to confront wealthy, complacent Israel over its oppression of the poor, famous for demanding that \"justice roll down like waters\" instead of empty religious ritual.",
+  "family_friendly_summary": "Amos wasn't a professional prophet — he was just a shepherd and farmer from Judah when God sent him to give a tough message to the wealthier northern kingdom of Israel. Amos saw that many rich and powerful people were treating poor people unfairly, even while still going to religious services like nothing was wrong. Amos boldly said that God cares more about people treating each other fairly and kindly than about religious ceremonies done without real caring hearts — his famous words are that God wants justice to \"roll down like a river.\" When a priest told Amos to stop preaching and go home, Amos bravely kept speaking the truth anyway. Even though most of his message was a warning, Amos ended with a hopeful promise that God would rebuild what had been broken — a promise about welcoming many nations into God's family.",
+  "adult_story": "Amos was a shepherd and sycamore-fig farmer from Tekoa in Judah, with no prophetic training or pedigree — \"I was no prophet, nor a prophet's son... but the LORD took me from following the flock\" — yet God sent him north to prophesy against Israel during the prosperous reign of Jeroboam II (Amos 1:1; 7:14-15). Amos's message confronts a nation that maintained its rituals while its wealthy oppressed the poor, \"selling the righteous for silver, and the needy for a pair of sandals,\" and demanded instead, \"let justice roll down like waters, and righteousness like an ever-flowing stream\" (Amos 2:6; 5:24). His preaching provoked Amaziah, the priest at Bethel's royal shrine, who ordered Amos back to Judah; Amos refused to be silenced and pronounced judgment on Amaziah's own household in response (Amos 7:10-17). Amos catalogued Israel's neighbors' sins before turning the same standard on Israel and Judah themselves, insisting that being God's chosen people made them more accountable for injustice, not exempt from it (Amos 1-2; 3:2). Though his book is largely judgment, it closes with a promise beyond exile: God would restore \"David's fallen tent\" (Amos 9:11-12) — a promise James quoted at the Jerusalem council as fulfilled in Gentiles being welcomed into God's people through Christ (Acts 15:13-17).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

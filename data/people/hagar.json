@@ -9,19 +9,29 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Egypt", "Canaan", "Wilderness of Shur", "Wilderness of Paran"],
+  "geographic_setting": [
+    "Egypt",
+    "Canaan",
+    "Wilderness of Shur",
+    "Wilderness of Paran"
+  ],
   "references": [
     "Genesis 16",
     "Genesis 21:8-21",
     "Galatians 4:21-31"
   ],
-  "topics": ["affliction", "God who sees", "providence", "outsider"],
+  "first_reference": "Genesis 16",
+  "topics": [
+    "affliction",
+    "God who sees",
+    "providence",
+    "outsider"
+  ],
   "interpretive_dispute": true,
   "interpretive_note": "Genesis 21:9 describes Ishmael 'mocking' (NASB) or, in other translations, 'playing with' or 'laughing at' Isaac — the Hebrew term is ambiguous, and interpreters differ over how serious the behavior was and how much it justifies Sarah's demand that Hagar and Ishmael be sent away. Scripture does not resolve the ambiguity, and this site does not pick a side.",
   "source_summary": "Sarah's Egyptian servant, given to Abraham as a surrogate wife to produce an heir; fled Sarah's harsh treatment and was met by the angel of the LORD in the wilderness, becoming the first person in Scripture recorded naming God; later cast out with her son Ishmael and again met by God's provision.",
-  "family_friendly_summary": "Hagar was treated unfairly, but God saw her in the wilderness and promised to take care of her and her son.",
-  "adult_story": "Hagar was Sarai's Egyptian servant, given to Abram as a wife so that Sarai, still barren after years in Canaan, could obtain a family through her — a solution common in the ancient world but one Scripture frames as a lack of trust in God's own promise rather than an ideal (Genesis 16:1-3). Once pregnant, Hagar looked on her mistress with contempt, and Sarai, with Abram's permission, 'dealt harshly' with her, so harshly that Hagar fled into the wilderness rather than remain (Genesis 16:4-6). There, at a spring on the road to Shur, the angel of the LORD found her — the first angelic appearance recorded in Scripture — and told her to return and submit to Sarai, while also promising that her son would father a multitude too numerous to count, though he would be 'a wild donkey of a man,' his hand against everyone and everyone's hand against him (Genesis 16:7-12). Hagar's response became the first recorded instance in Scripture of a person naming God: she called Him 'El Roi,' the God who sees, marveling that she had seen the One who sees her and lived (Genesis 16:13-14). She returned and bore Ishmael. Years later, after Isaac's birth and weaning, Sarah saw Ishmael doing something to Isaac that Scripture's own wording leaves ambiguous — 'mocking' in some translations, more neutrally 'playing with' or 'laughing at' in others — and demanded that Abraham cast out both Hagar and her son. Abraham was deeply distressed, since Ishmael was his own son, but God told him to listen to Sarah, promising again that Ishmael would become a great nation for Abraham's sake (Genesis 21:8-13). Sent away with only bread and a skin of water, Hagar wandered in the wilderness of Beersheba until the water ran out; unable to watch her son die of thirst, she put him under a bush and sat at a distance, weeping. God heard the boy's voice, and the angel called to Hagar a second time, opening her eyes to see a well of water she had not noticed before (Genesis 21:14-19). Ishmael grew up in the wilderness of Paran, became an archer, and Hagar herself arranged an Egyptian wife for him — a mother from Egypt securing her son's future the way her own origin had shaped his (Genesis 21:20-21).",
-  "family_story": "Hagar was an Egyptian servant in Sarah's household, given to Abraham as a secondary wife and the mother of his firstborn son, Ishmael. After being sent away, she disappears from the narrative except for the detail that she chose an Egyptian wife for her son, tying his family line back to her own homeland even after her exclusion from Abraham's household (Genesis 21:21). The New Testament's only further comment on her comes from Paul, who uses Hagar and Sarah allegorically in Galatians to contrast slavery under the law with freedom under God's promise — a theological application of the story for a specific argument about the gospel, not a claim about Hagar's own standing before God, whom the Genesis narrative itself shows caring for her directly, by name, twice (Galatians 4:21-31).",
+  "family_friendly_summary": "Hagar was a servant in Sarah and Abraham's household, and things got difficult for her more than once through no fault of her own. When she was treated harshly and ran away into the wilderness, God didn't ignore her — an angel found her there and made her a promise, and she gave God a special name: 'the God who sees me.' Later, Hagar and her son Ishmael were sent away from Abraham's household, and when they ran out of water in the wilderness, God heard her son crying and showed Hagar a well of water she hadn't noticed before. Hagar's story is a beautiful reminder that God notices and cares for people even when others treat them unfairly, and that He hears our cries in our hardest moments.",
+  "adult_story": "Hagar was Sarai's Egyptian servant, given to Abram as a wife so the barren Sarai could obtain a family through her — a solution Scripture frames as a lack of trust in God's promise (Genesis 16:1-3). Once pregnant, Hagar looked on her mistress with contempt, and Sarai treated her so harshly that Hagar fled (Genesis 16:4-6). At a spring, the angel of the LORD found her — Scripture's first angelic appearance — telling her to return to Sarai, while promising her son would father a multitude (Genesis 16:7-12). Hagar responded by naming God 'El Roi,' the God who sees — Scripture's first instance of a person naming God (Genesis 16:13-14). She returned and bore Ishmael. After Isaac's weaning, Sarah demanded Hagar and her son be cast out; Abraham was distressed, but God told him to listen to Sarah, again promising Ishmael would become a great nation (Genesis 21:8-13). Sent away with only bread and water, Hagar wandered until the water ran out; unable to watch her son die, she wept at a distance until God heard his cry and opened her eyes to a well she had not seen (Genesis 21:14-19). Ishmael grew up in Paran, became an archer, and Hagar arranged an Egyptian wife for him (Genesis 21:20-21). Paul later uses Hagar and Sarah allegorically to contrast slavery under law with freedom under promise — a theological application, not a claim about Hagar's own standing before God, whom Genesis shows caring for her directly, by name, twice (Galatians 4:21-31).",
   "image": {
     "file": "hagar.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, carrying a waterskin over one shoulder — evoking Genesis 21:14-19 and the well God opened her eyes to see.",
@@ -31,8 +41,12 @@
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": ["abraham"],
-    "children": ["ishmael"]
+    "spouses": [
+      "abraham"
+    ],
+    "children": [
+      "ishmael"
+    ]
   },
   "review": {
     "human_reviewed": false,

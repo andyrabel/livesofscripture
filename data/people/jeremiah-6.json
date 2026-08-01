@@ -2,7 +2,7 @@
   "person_id": "jeremiah-6",
   "name": "Jeremiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Chronicles 35:25",
@@ -46,10 +46,39 @@
     "Matthew 16:14",
     "Matthew 27:9"
   ],
+  "first_reference": "2 Chronicles 35:25",
   "genealogy": {
     "father": "hilkiah-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Jeremiah 1:2-3 dates his ministry from Josiah's 13th year to Jerusalem's fall (c. 627-586 BC), an unusually well-fixed ministry span, but no personal birth or death year is given, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Anathoth",
+    "Jerusalem",
+    "Egypt",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "prophecy",
+    "persecution",
+    "lament",
+    "new covenant"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jewish tradition credits Jeremiah with writing Lamentations, consistent with 2 Chronicles 35:25's note that he composed laments for Josiah, but the book of Lamentations itself does not name an author.",
+  "source_summary": "The \"weeping prophet,\" called as a youth, who warned Judah of coming judgment for decades against fierce opposition, was thrown in a muddy cistern for his message, and yet promised a coming New Covenant written on human hearts, fulfilled in Christ.",
+  "family_friendly_summary": "Jeremiah was called by God to be a prophet while he was still young, even though he felt too young for the job. For many years, he warned the people of Judah that they needed to stop worshiping idols and turn back to God, or trouble would come. Almost nobody listened, and Jeremiah was treated very badly for telling the truth — he was even thrown into a deep, muddy pit! But even while warning about hard times ahead, Jeremiah also gave a wonderful promise: that God would one day make a brand-new kind of promise with His people, writing His ways on their hearts instead of just on stone tablets — a promise Christians believe came true through Jesus. Jeremiah's story shows how hard it can be to tell the truth, and how God's promises of hope remain even during the saddest times.",
+  "adult_story": "Jeremiah was called as a young man — he protested, \"I am only a youth,\" but God told him, \"Before you were born I consecrated you... a prophet to the nations\" (Jeremiah 1:4-10). From Josiah's thirteenth year until Jerusalem's fall, Jeremiah warned Judah that persistent idolatry and false confidence in the temple itself (\"This is the temple of the LORD\") would bring Babylonian judgment, a message so unwelcome that he was beaten, put in stocks, and lowered into a muddy cistern to die before a foreign official, Ebed-melech, rescued him (Jeremiah 7:1-15; 20:1-2; 38:1-13). King Jehoiakim cut up and burned the scroll of Jeremiah's prophecies as Baruch read it aloud, and Jeremiah simply dictated it again (Jeremiah 36). Even while announcing seventy years of exile, Jeremiah bought a field in Anathoth as a prophetic sign that God would one day restore the land (Jeremiah 32:6-15). His deepest message looked past judgment to hope: God promised a New Covenant written on human hearts rather than stone, a promise the New Testament identifies as fulfilled in Christ (Jeremiah 31:31-34; Hebrews 8:8-12). After Jerusalem fell and the governor Gedaliah was assassinated, Jeremiah was forced against his own counsel to flee to Egypt with the surviving remnant, and Scripture's record of him ends there (Jeremiah 43:1-7).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

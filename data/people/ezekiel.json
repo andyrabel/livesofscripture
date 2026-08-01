@@ -2,7 +2,7 @@
   "person_id": "ezekiel",
   "name": "Ezekiel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Ezekiel 1:3",
@@ -44,10 +44,37 @@
     "Ezekiel 44:5",
     "Ezekiel 47:6"
   ],
+  "first_reference": "Ezekiel 1:3",
   "genealogy": {
     "father": "buzi",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Exile",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era",
+    "note": "Ezekiel 1:1-2 dates his call to the fifth year of King Jehoiachin's exile (c. 593 BC), and his final dated oracle to c. 571 BC, but no personal birth or death year is given, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Chebar River",
+    "Babylon"
+  ],
+  "topics": [
+    "prophecy",
+    "exile",
+    "symbolic acts",
+    "restoration"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Ezekiel's closing vision of an elaborate future temple (chapters 40-48) is read variously as a literal future temple, a symbolic ideal of restored worship, or a picture already fulfilled in Christ and the church — a genuine, ongoing interpretive question rather than a settled one.",
+  "source_summary": "Priest exiled to Babylon who received an overwhelming vision of God's throne-chariot, acted out Jerusalem's coming judgment through dramatic symbolic acts, and later saw a valley of dry bones brought to life as a picture of Israel's restoration.",
+  "family_friendly_summary": "Ezekiel was a priest who was taken away from his home to live in Babylon, far from Jerusalem. There, God gave him an incredible vision of His glory and called him to be a prophet, like a watchman warning people of danger. God asked Ezekiel to act out many of his messages instead of just speaking them, like lying down for a long time, so people would really pay attention. Even during a very sad time in his own life, Ezekiel trusted God and let his own quiet grief become a lesson for others. One of his most famous visions shows a valley full of dry, dead bones coming back to life — a picture of hope that God could bring His people back to life even after terrible loss. Ezekiel's story reminds us that God can bring new life out of the driest, most hopeless places.",
+  "adult_story": "Ezekiel, a priest exiled to Babylon with King Jehoiachin in 597 BC, received his prophetic call beside the Chebar River through an overwhelming vision of God's throne-chariot — wheels within wheels, four living creatures, and blazing glory — after which he ate a scroll of lament and was appointed \"a watchman for the house of Israel\" (Ezekiel 1-3). His ministry was marked by dramatic symbolic acts: he lay on his side for over a year to bear Israel's guilt, ate rationed food to depict coming siege and famine, shaved his head and divided the hair to picture Jerusalem's judgment, and packed an exile's bag and dug through a wall to act out the coming captivity (Ezekiel 4-5; 12:1-7). When his wife suddenly died, God forbade Ezekiel to mourn openly, making his own restrained grief a sign to the exiles of the greater loss coming to Jerusalem (Ezekiel 24:15-24). Ezekiel saw the glory of the LORD deliberately depart from a defiled temple before Jerusalem's fall, and later saw it return in a vision of restoration (Ezekiel 10-11; 43:1-5). His best-known vision, a valley of dry bones brought back to life, pictures God restoring not just land but Israel's very spirit (Ezekiel 37:1-14). His closing chapters describe an elaborate future temple whose meaning remains genuinely debated among careful readers (Ezekiel 40-48).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

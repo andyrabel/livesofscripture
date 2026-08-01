@@ -377,6 +377,12 @@ section.story h3 {
   color: var(--color-text-muted);
 }
 
+.first-reference {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
 .genealogy-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -402,6 +408,60 @@ section.story h3 {
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--color-border);
   font-size: 0.92rem;
+}
+
+.disambiguation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.disambiguation-card {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.65rem;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.15s ease;
+}
+
+.disambiguation-card:hover { border-color: var(--color-accent); }
+
+.disambiguation-card img,
+.disambiguation-card .image-placeholder {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.disambiguation-card .image-placeholder {
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.62rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.disambiguation-card__name {
+  font-family: var(--font-serif);
+  margin-bottom: 0.25rem;
+}
+
+.disambiguation-card__blurb {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
 }
 
 .stub-notice {
@@ -969,11 +1029,17 @@ body.connections-fullpage-active {
   position: absolute;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 28px;
   padding: 0 0.5rem;
   border-radius: 5px;
   overflow: hidden;
-  color: var(--color-cta-text);
+  text-align: center;
+  color: #12100c;
+  text-shadow:
+    0 0 3px rgba(255, 255, 255, 0.9),
+    0 0 5px rgba(255, 255, 255, 0.7),
+    0 1px 0 rgba(255, 255, 255, 0.6);
   font-size: 0.78rem;
   font-weight: 600;
   text-decoration: none;
@@ -1255,41 +1321,6 @@ header.site-header nav a.nav-cta:hover {
   border-radius: var(--radius);
   padding: 1.1rem 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.home-hero {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-.home-hero__thumb,
-.home-hero__thumb .avatar-placeholder {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.home-hero__label {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-accent-strong);
-  font-weight: 600;
-}
-
-.home-hero__name {
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
-  margin: 0.15rem 0;
-}
-
-.home-hero__fact {
-  margin: 0;
-  color: var(--color-text-muted);
-  font-size: 0.92rem;
 }
 
 .home-topic-box {

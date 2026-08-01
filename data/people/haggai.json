@@ -2,7 +2,7 @@
   "person_id": "haggai",
   "name": "Haggai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Ezra 5:1",
@@ -10,10 +10,36 @@
     "Haggai 1:1-13",
     "Haggai 2:1-20"
   ],
+  "first_reference": "Ezra 5:1",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Haggai's four oracles are each dated to a specific month and day in the second year of Darius I of Persia — August through December 520 BC — an unusually precise ministry window, though his own birth or death year is not recorded, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "temple rebuilding",
+    "priorities",
+    "encouragement",
+    "messianic hope"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Post-exilic prophet whose brief, urgent preaching moved the returned exiles to resume building the temple after years of neglect, promising the new house's future glory would exceed the old.",
+  "family_friendly_summary": "Haggai was a prophet who preached for only a few months, but his message made a big difference. The people had returned home from exile in Babylon, but instead of finishing God's temple, they had gotten comfortable building nice houses for themselves and left the temple half-built. Haggai told them plainly that this was why things weren't going well for them, and encouraged them to get back to work on God's house first. His message worked — the leaders and people started building again right away! Haggai also gave an encouraging promise: even though the new temple looked plain compared to the old one, its future glory would be even greater, pointing forward to something wonderful still to come. Haggai's story shows how putting God first, even when it's inconvenient, leads to real blessing.",
+  "adult_story": "Haggai prophesied for just a few months in 520 BC, the second year of the Persian king Darius, a date fixed with unusual precision by four oracles each dated to a specific day (Haggai 1:1, 15; 2:1, 10, 20). Nearly two decades after the first exiles had returned from Babylon, the temple's foundation still lay unfinished while the people had built \"paneled houses\" for themselves — Haggai's blunt message was that their hardship (\"you have sown much, and harvested little\") was a direct consequence of putting their own comfort ahead of God's house (Haggai 1:2-11). His preaching, alongside the prophet Zechariah, worked: governor Zerubbabel and high priest Joshua led the people to resume construction within weeks (Haggai 1:12-15; Ezra 5:1-2; 6:14-15). To those discouraged that the new temple looked modest compared to Solomon's, Haggai promised that \"the latter glory of this house shall be greater than the former,\" and that God would again \"shake the heavens and the earth\" so \"the desire of all nations shall come\" — words Hebrews later applies to the greater, unshakeable kingdom established through Christ (Haggai 2:3-9; Hebrews 12:26-28). Haggai's final oracle, addressed to Zerubbabel, promises he would be made like a signet ring — a sign that God's covenant purposes for David's line were still intact (Haggai 2:20-23).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

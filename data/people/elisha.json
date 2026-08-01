@@ -2,7 +2,7 @@
   "person_id": "elisha",
   "name": "Elisha",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Kings 19:16-19",
@@ -17,10 +17,39 @@
     "2 Kings 13:14-21",
     "Luke 4:27"
   ],
+  "first_reference": "1 Kings 19:16-19",
   "genealogy": {
     "father": "shaphat-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given for Elisha; his ministry spans several Israelite kings' reigns, roughly the mid-800s to early 700s BC."
+  },
+  "geographic_setting": [
+    "Gilgal",
+    "Jordan River",
+    "Samaria",
+    "Kingdom of Israel"
+  ],
+  "topics": [
+    "prophecy",
+    "miracles",
+    "God's provision",
+    "honesty"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Elijah's successor and attendant, who received a double portion of his spirit and performed an unusually large concentration of miracles — healing, provision, and even one after his own death — while also confronting greed in his own servant Gehazi.",
+  "family_friendly_summary": "Elisha was a farmer who left everything behind to follow the prophet Elijah and, later, took over as Israel's prophet after Elijah went up to heaven. God did many amazing miracles through Elisha — he helped a poor widow have enough oil to sell, brought a boy back to life, fed a hundred hungry people with just a little food, and even healed a foreign army commander named Naaman from a serious skin disease. When Elisha's own helper Gehazi lied and greedily took money for that healing, he ended up sick himself. Elisha's story shows how God can use an ordinary, hardworking person to do extraordinary things, and how honesty matters even when no one seems to be watching.",
+  "adult_story": "Elisha, a farmer plowing with oxen, was called by Elijah, who threw his cloak over him; Elisha said goodbye to his family and became Elijah's attendant, later asking for and receiving \"a double portion\" of his spirit as Elijah was taken up to heaven (1 Kings 19:19-21; 2 Kings 2:1-15). His ministry shows an unusual concentration of miracles: he healed Jericho's poisoned water, multiplied a widow's oil to pay her debts, raised a Shunammite woman's son from death, fed a hundred men from twenty loaves, and made an axe head float (2 Kings 2:19-22; 4:1-44; 6:1-7). When some youths mocked him, Elisha's curse brought two bears out of the woods to maul forty-two of them — a stark judgment on contempt for God's prophet (2 Kings 2:23-25). Elisha healed Naaman, a Syrian military commander, of leprosy after Naaman washed seven times in the Jordan, but when Elisha's servant Gehazi secretly took payment Naaman had offered and Elisha had refused, Gehazi was struck with the same leprosy (2 Kings 5). Elisha wept when he foresaw the atrocities Hazael would commit as king of Aram, anointed Jehu to purge Ahab's house, and once had God blind an Aramean raiding party, then showed them mercy instead of harm (2 Kings 6:8-23; 8:7-15; 9:1-3). Remarkably, a dead man thrown into Elisha's grave was revived simply by touching his bones (2 Kings 13:20-21).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

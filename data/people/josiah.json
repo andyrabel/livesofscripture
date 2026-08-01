@@ -2,7 +2,7 @@
   "person_id": "josiah",
   "name": "Josiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Kings 13:2",
@@ -28,6 +28,7 @@
     "Zephaniah 1:1",
     "Matthew 1:10-11"
   ],
+  "first_reference": "1 Kings 13:2",
   "genealogy": {
     "father": "amon-2",
     "mother": "jedidah",
@@ -38,5 +39,34 @@
       "shallum-4",
       "zedekiah-2"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": -648,
+    "died": -609,
+    "note": "2 Kings 22:1 states Josiah was 8 when he began to reign and reigned 31 years in Jerusalem; dates follow a widely-used regnal chronology."
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Megiddo",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "kingship",
+    "reform",
+    "covenant renewal",
+    "tragic death"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Boy-king of Judah, grandson of Manasseh, whose discovery of the Book of the Law sparked the nation's deepest covenant renewal and its largest Passover since the days of the judges, but who died young after ignoring a foreign king's warning at Megiddo.",
+  "family_friendly_summary": "Josiah became king of Judah when he was just eight years old, after some very bad kings had ruled before him. As he grew up, Josiah decided to fully follow God, tearing down idols across the land. While the temple was being repaired, workers found an old scroll containing God's Law, and when it was read aloud, Josiah was so sad about how far his people had drifted that he tore his clothes in sorrow. He led the whole nation back to following God and celebrated a huge Passover festival. Sadly, Josiah's story ends with him dying in a battle he probably shouldn't have joined. Even so, he is remembered as one of Judah's most faithful kings, someone whose heart stayed soft and quick to obey God.",
+  "adult_story": "Josiah became king of Judah at age eight, following two of the worst kings in Judah's history — his grandfather Manasseh and father Amon. At sixteen he began seeking God, and at twenty launched a sweeping campaign against idolatry throughout Judah and even the former northern kingdom (2 Chronicles 34:1-7). During temple repairs, the high priest Hilkiah discovered a scroll of the Law, and when it was read to Josiah he tore his clothes in grief, realizing how far Judah had strayed; he consulted the prophetess Huldah, who confirmed judgment was coming but that Josiah himself, because his heart was tender and he humbled himself, would not see it in his lifetime (2 Kings 22:8-20). Josiah then led the nation in public covenant renewal and celebrated a Passover \"such as had not been kept since the days of the judges\" (2 Kings 23:1-3, 21-23). His reforms were thorough — destroying altars and idols, even the shrine Jeroboam had built at Bethel centuries earlier, fulfilling an old prophecy word for word (2 Kings 23:4-20; 1 Kings 13:1-3). Yet Josiah's story ends abruptly: when Pharaoh Necho marched through Judah toward Assyria, Josiah went out to intercept him despite Necho's warning that God had sent him elsewhere, and Josiah was fatally wounded at Megiddo, mourned deeply by the whole nation (2 Chronicles 35:20-25).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

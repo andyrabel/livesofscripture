@@ -2,7 +2,7 @@
   "person_id": "manasseh-3",
   "name": "Manasseh",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 20:21",
@@ -15,6 +15,7 @@
     "Jeremiah 15:4",
     "Matthew 1:10"
   ],
+  "first_reference": "2 Kings 20:21",
   "genealogy": {
     "father": "hezekiah",
     "mother": "hephzibah",
@@ -22,5 +23,34 @@
     "children": [
       "amon-2"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": -709,
+    "died": -642,
+    "note": "2 Kings 21:1 states Manasseh was 12 when he began to reign and reigned 55 years in Jerusalem, the longest of any king of Judah or Israel; dates follow a widely-used regnal chronology."
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kingdom of Judah",
+    "Babylon"
+  ],
+  "topics": [
+    "idolatry",
+    "innocent blood",
+    "repentance",
+    "God's mercy"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Manasseh's captivity and repentance (2 Chronicles 33:10-13) appear only in Chronicles, not in the parallel account in 2 Kings 21, which some scholars discuss as a distinctively Chronicles-era theological emphasis rather than an omission; most evangelical readers treat the two accounts as complementary rather than contradictory.",
+  "source_summary": "Judah's most wicked and longest-reigning king, who filled Jerusalem with idolatry and innocent blood — including sacrificing his own sons — yet who, according to 2 Chronicles, was later humbled through Assyrian captivity and genuinely restored to God, spending his remaining years undoing some of his own damage.",
+  "family_friendly_summary": "Manasseh became king of Judah when he was only twelve years old, and he grew up to be one of the worst kings Judah ever had — he built altars to false gods, even inside God's own temple, and did many terrible things. Eventually he was captured by enemy soldiers and taken away in chains. It was there, in his lowest moment, that Manasseh finally turned back to God and prayed for help, truly sorry for what he had done. God heard him! Manasseh was allowed to return home as king, and he spent the rest of his life trying to undo the wrong he had caused and telling people to worship God alone. Manasseh's story shows that no one has sinned so much that God won't forgive them when they truly turn back to Him.",
+  "adult_story": "Manasseh, son of the godly Hezekiah, became Judah's most wicked king: he rebuilt the high places his father had destroyed, built altars to Baal, worshiped \"all the host of heaven,\" practiced sorcery, and even sacrificed his own sons in the fire, filling Jerusalem \"from one end to another\" with innocent blood (2 Kings 21:1-16). His fifty-five-year reign was the longest in Judah or Israel, and Scripture holds him chiefly responsible for the judgment that would eventually fall on Jerusalem (2 Kings 21:11-15; 24:3-4). Yet his story does not end in unrelieved darkness: 2 Chronicles alone records that the Assyrians captured Manasseh, bound him with bronze shackles, and took him to Babylon, where \"in his distress he entreated the favor of the LORD his God and humbled himself greatly\" (2 Chronicles 33:10-13). God heard him, restored him to his throne, and Manasseh spent his remaining years removing the foreign gods and altars he had built, repairing the altar of the LORD, and telling Judah to serve God alone — though the high places, later destroyed by his grandson Josiah's reforms, show the damage of his earlier decades outlasted his own lifetime (2 Chronicles 33:14-17). Manasseh's story is Scripture's starkest picture that even the worst offender can be genuinely restored by God's mercy.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

@@ -1,7 +1,9 @@
 {
   "person_id": "sarah",
   "name": "Sarah",
-  "alt_names": ["Sarai"],
+  "alt_names": [
+    "Sarai"
+  ],
   "tier": "full",
   "testament": "OT",
   "era": "Patriarchal",
@@ -9,7 +11,12 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": ["Ur of the Chaldeans", "Haran", "Canaan", "Egypt"],
+  "geographic_setting": [
+    "Ur of the Chaldeans",
+    "Haran",
+    "Canaan",
+    "Egypt"
+  ],
   "references": [
     "Genesis 11:29-31",
     "Genesis 12:10-20",
@@ -22,13 +29,18 @@
     "Hebrews 11:11",
     "1 Peter 3:5-6"
   ],
-  "topics": ["faith", "promise", "barrenness", "laughter"],
+  "first_reference": "Genesis 11:29-31",
+  "topics": [
+    "faith",
+    "promise",
+    "barrenness",
+    "laughter"
+  ],
   "interpretive_dispute": false,
   "interpretive_note": "",
   "source_summary": "Abraham's wife and half-sister, barren for decades until she bore Isaac in old age as God had promised; twice presented by Abraham as only his sister to protect his own life, and named in Hebrews 11 and 1 Peter 3 as a model of faith.",
-  "family_friendly_summary": "Sarah waited a very long time for God's promise of a son, and laughed with joy when Isaac was finally born.",
-  "adult_story": "Sarai left Ur of the Chaldeans and then Haran with her husband Abram at God's call, already carrying the quiet grief of barrenness in a culture that measured a wife's worth by children (Genesis 11:29-31). Twice her own husband endangered her to save himself: in Egypt and again in Gerar, Abraham told rulers that Sarah was only his sister — true enough, since she was his father's daughter by another mother, but a half-truth meant to deflect danger onto her rather than him, and both times God intervened directly to protect her from the harem of a foreign king (Genesis 12:10-20; Genesis 20; Genesis 20:12). When decades passed with no child, Sarai gave her servant Hagar to Abram to bear an heir in her place, a culturally accepted solution that nonetheless produced lasting grief: Hagar's contempt for her once pregnant, and Sarai's harsh treatment of Hagar in return, are both recorded plainly, without either woman cast simply as villain (Genesis 16:1-6). When the LORD renewed the promise and renamed her Sarah ('princess'), declaring that she herself, not a substitute, would bear the son of promise within the year, Sarah laughed to herself in disbelief at ninety years old — and when confronted, denied laughing out of fear, prompting God's own reply, 'Is anything too difficult for the LORD?' (Genesis 17:15-21; Genesis 18:1-15). The promise held: Isaac was born, and this time Sarah's laughter was pure joy — 'God has made laughter for me; everyone who hears will laugh with me' (Genesis 21:1-7). Her hardest moment as a mother came soon after, when she saw Hagar's son Ishmael in some way threatening or mocking Isaac at his weaning feast and demanded Abraham cast out both mother and child — a request that distressed Abraham deeply until God told him to listen to Sarah, since the covenant would run through Isaac while Ishmael would be blessed as a nation in his own right (Genesis 21:8-14). Sarah died at 127 in Hebron, and Abraham's purchase of the cave of Machpelah to bury her became Israel's first legal foothold of land ownership in the country God had promised them (Genesis 23). The New Testament remembers her not for her failures but for her faith: Hebrews 11:11 credits her with considering God faithful to His promise despite her body's inability, and 1 Peter 3:5-6 holds her up as a model of a wife's hope set on God, obeying Abraham and calling him lord.",
-  "family_story": "Sarah was Abraham's half-sister as well as his wife, both children of Terah though by different mothers (Genesis 20:12) — an arrangement ordinary in the patriarchal period though it would later be forbidden under the Law given through Moses. She bore Isaac, the child of promise, in her old age, and her rivalry with Hagar over Ishmael's place in the household shaped the rest of Abraham's family story, eventually separating the two half-brothers' lines even as God kept a promise of blessing to both (Genesis 21; Genesis 25:12-18). Paul later uses Sarah and Hagar allegorically in Galatians, contrasting the 'freeborn' son of promise with the son born 'according to the flesh' to illustrate the difference between the covenant of grace and the covenant of law — a theological use of the story that stands alongside, not in place of, its plain historical meaning (Galatians 4:21-31).",
+  "family_friendly_summary": "Sarah waited a very, very long time for God to give her the son He had promised — so long that she laughed in surprise when she was told it would finally happen, because she was already very old! Along the way, Sarah struggled with impatience and even made a difficult decision that hurt another woman in her household when she tried to make the promise happen her own way instead of waiting on God. But God kept His promise anyway, and Isaac was born, filling Sarah with real joy this time instead of doubt. The New Testament remembers Sarah especially for her faith — trusting that God would keep His word even when it seemed impossible. Sarah's story reminds us that God is patient with our doubts and mistakes, and that His promises come true in His own timing, not ours.",
+  "adult_story": "Sarai left Ur and then Haran with her husband Abram at God's call, carrying the quiet grief of barrenness (Genesis 11:29-31). Twice Abraham told foreign rulers she was only his sister, endangering her until God intervened both times (Genesis 12:10-20; 20). When decades passed without a child, Sarai gave her servant Hagar to Abram to bear an heir — a solution that produced lasting grief, recorded plainly with neither woman cast simply as villain (Genesis 16:1-6). When the LORD renewed His promise and renamed her Sarah ('princess'), declaring she herself would bear the promised son within the year, Sarah laughed in disbelief at ninety, then denied laughing out of fear — prompting God's reply, 'Is anything too difficult for the LORD?' (Genesis 17:15-21; 18:1-15). The promise held: Isaac was born, and this time Sarah's laughter was pure joy (Genesis 21:1-7). Her hardest moment as a mother came when she saw Hagar's son Ishmael in some way threatening or mocking Isaac and demanded Abraham send both away — a request that distressed Abraham until God told him to listen to her, since the covenant would run through Isaac alone (Genesis 21:8-14). Sarah died at 127 in Hebron; Abraham's purchase of the cave of Machpelah to bury her became Israel's first legal foothold in the promised land (Genesis 23). The New Testament remembers her for faith: Hebrews 11:11 credits her considering God faithful despite her body's inability, and 1 Peter 3:5-6 holds her up as a model of hope set on God.",
   "image": {
     "file": "sarah.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a veiled robed silhouette figure, no attempted facial likeness, with a hand raised to the mouth in a gesture of laughter — evoking Genesis 18:12 and 21:6.",
@@ -38,8 +50,12 @@
   "genealogy": {
     "father": "terah",
     "mother": null,
-    "spouses": ["abraham"],
-    "children": ["isaac"]
+    "spouses": [
+      "abraham"
+    ],
+    "children": [
+      "isaac"
+    ]
   },
   "review": {
     "human_reviewed": false,

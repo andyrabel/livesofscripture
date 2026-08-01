@@ -2,16 +2,42 @@
   "person_id": "habakkuk",
   "name": "Habakkuk",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Habakkuk 1:1",
     "Habakkuk 3:1"
   ],
+  "first_reference": "Habakkuk 1:1",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Habakkuk's description of the Babylonians (Chaldeans) as a rising power points to the late 600s BC, shortly before Judah's fall, but no personal birth or death year is given, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "faith",
+    "justice",
+    "trust in God",
+    "honest questions"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Prophet unique for questioning God directly about injustice and receiving real answers, including the foundational declaration \"the righteous shall live by his faith,\" quoted three times in the New Testament.",
+  "family_friendly_summary": "Habakkuk's short book is different from most other prophets' books — instead of just giving God's message to people, Habakkuk actually asks God hard questions and God answers him back! Habakkuk was upset about unfairness and violence happening in his own country, and even more confused when God said He would use an even more wicked nation to bring justice. God's answer taught Habakkuk that truly righteous people learn to trust God even when they don't understand everything that's happening — a lesson the New Testament repeats several times as being at the very heart of faith. Habakkuk's book ends beautifully: even imagining that everything might go wrong, he still decides to rejoice in God. Habakkuk's story teaches us it's okay to bring our confused, hard questions honestly to God, and that real faith means trusting Him even when life doesn't make sense.",
+  "adult_story": "Habakkuk is unusual among the prophets: rather than delivering God's message to the people, his book is a dialogue directly with God, wrestling honestly with hard questions. He opens by crying out over injustice and violence within Judah itself: \"How long, O LORD, will I call for help, and You will not hear?\" (Habakkuk 1:2-4). God's answer troubles him further — He is raising up the Babylonians, a nation \"more wicked,\" to bring judgment (Habakkuk 1:5-11). Habakkuk pushes back: how can a holy God use a nation even more corrupt than Judah as His instrument? (Habakkuk 1:12-2:1). God's second answer becomes one of Scripture's most important verses: \"the righteous shall live by his faith\" — a life of trust in God, not visible outcomes, is what genuine righteousness looks like — quoted twice by Paul and once in Hebrews as foundational to the gospel (Habakkuk 2:4; Romans 1:17; Galatians 3:11; Hebrews 10:38). God also promises Babylon's own pride and violence will eventually be judged in turn (Habakkuk 2:6-20). Habakkuk's book closes not with resolved circumstances but with resolved faith: even if every crop fails and every flock dies, \"yet I will rejoice in the LORD; I will take joy in the God of my salvation\" (Habakkuk 3:17-19).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

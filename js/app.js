@@ -293,39 +293,6 @@ function truncateExcerpt(text, max) {
   return `${cut.slice(0, lastSpace)}…`;
 }
 
-async function renderHomeHero(fullTier) {
-  const box = document.getElementById("home-hero");
-  const pick = dailyPick("hero", fullTier);
-  if (!pick) {
-    box.innerHTML = "<h2>Every person named in the Bible, in one place.</h2>";
-    return;
-  }
-  const person = await loadPerson(pick.person_id);
-  box.innerHTML = "";
-  box.appendChild(portraitImg(pick.person_id, pick.name, "home-hero__thumb"));
-
-  const text = document.createElement("div");
-  const label = document.createElement("div");
-  label.className = "home-hero__label";
-  label.textContent = "Today's Featured Life";
-  text.appendChild(label);
-
-  const a = document.createElement("a");
-  a.href = `people/${encodeURIComponent(pick.person_id)}.html`;
-  const name = document.createElement("div");
-  name.className = "home-hero__name";
-  name.textContent = pick.name;
-  a.appendChild(name);
-  text.appendChild(a);
-
-  const fact = document.createElement("p");
-  fact.className = "home-hero__fact";
-  fact.textContent = person?.family_friendly_summary || person?.source_summary || "";
-  text.appendChild(fact);
-
-  box.appendChild(text);
-}
-
 function renderHomeTopic(fullTier) {
   const box = document.getElementById("home-topic");
   const withTopics = fullTier.filter((p) => p.topics && p.topics.length);
@@ -584,7 +551,7 @@ async function renderHomePage() {
   const [index, quiz] = await Promise.all([loadIndex(), loadQuiz()]);
   const fullTier = index.filter((p) => p.tier === "full");
 
-  await Promise.all([renderHomeHero(fullTier), renderHomeSpotlight(fullTier)]);
+  await renderHomeSpotlight(fullTier);
   renderHomeTopic(fullTier);
   initHomeQuiz(quiz, index);
   renderExploreRow(fullTier, index.length);
@@ -1865,6 +1832,18 @@ const BOOK_ORDER = [
 const TIMELINE_ERA_ORDINAL_SPAN_FRACTION = 0.16;
 const TIMELINE_ERA_ORDINAL_MARGIN_FRACTION = 0.08;
 
+// Where, within a parent's own bar, a child's bar begins -- expressed as a
+// fraction of the parent's span. A child is a known contemporary of their
+// parent (born partway through the parent's life, often outliving them),
+// so anchoring here guarantees the two bars overlap instead of just sitting
+// in sequence. Multiple children of the same parent are staggered by
+// TIMELINE_PARENT_OVERLAP_STEP_FRACTION each so they don't all render as one
+// identical bar, capped at TIMELINE_PARENT_OVERLAP_MAX_FRACTION so a large
+// family doesn't get pushed past the parent's own lifespan.
+const TIMELINE_PARENT_OVERLAP_START_FRACTION = 0.2;
+const TIMELINE_PARENT_OVERLAP_STEP_FRACTION = 0.12;
+const TIMELINE_PARENT_OVERLAP_MAX_FRACTION = 0.75;
+
 function timelineParseReference(ref) {
   if (!ref) return null;
   let bestBook = null;
@@ -1987,6 +1966,43 @@ function assignEraOrdinalSpans(people) {
         p.end = center + lifespan / 2;
       }
     });
+
+    // Re-anchor children to overlap their same-era parent's bar (see
+    // TIMELINE_PARENT_OVERLAP_START_FRACTION above) instead of leaving them
+    // at the purely ordinal position assigned just above. Processed in
+    // `ordered`'s rank order, which the relaxation passes already guarantee
+    // is parent-before-child, so a parent's span is final (whether from the
+    // ordinal pass or from this same pass acting on a grandparent) by the
+    // time each of its children is reached -- this also lets multi-generation
+    // chains (e.g. Abraham -> Isaac -> Jacob) resolve correctly in one pass.
+    const childCountByParentRoot = new Map();
+    for (const [root, members] of ordered) {
+      let parent = null;
+      for (const p of members) {
+        const fatherId = p.genealogy && p.genealogy.father;
+        const motherId = p.genealogy && p.genealogy.mother;
+        const candidateId = fatherId && byId.has(fatherId)
+          ? fatherId
+          : (motherId && byId.has(motherId) ? motherId : null);
+        if (!candidateId || find(candidateId) === root) continue;
+        parent = byId.get(candidateId);
+        break;
+      }
+      if (!parent || parent.start == null) continue;
+      const parentRoot = find(parent.person_id);
+      const idx = childCountByParentRoot.get(parentRoot) || 0;
+      childCountByParentRoot.set(parentRoot, idx + 1);
+      const parentWidth = parent.end - parent.start;
+      const startFraction = Math.min(
+        TIMELINE_PARENT_OVERLAP_START_FRACTION + idx * TIMELINE_PARENT_OVERLAP_STEP_FRACTION,
+        TIMELINE_PARENT_OVERLAP_MAX_FRACTION
+      );
+      const newStart = parent.start + parentWidth * startFraction;
+      for (const p of members) {
+        p.start = newStart;
+        p.end = newStart + lifespan;
+      }
+    }
   }
 }
 

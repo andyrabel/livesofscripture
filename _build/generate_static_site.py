@@ -120,6 +120,13 @@ def references_list(refs):
     return f'<p class="references-list">References: {esc("; ".join(refs))}</p>'
 
 
+def first_reference_line(person):
+    ref = person.get("first_reference")
+    if not ref:
+        return ""
+    return f'<p class="first-reference">First named in {esc(ref)}</p>'
+
+
 def connections_graph_link(person_id, base):
     return f'<p><a href="{base}connections.html?id={person_id}">View full connections graph →</a></p>'
 
@@ -173,7 +180,33 @@ def connections_section(person, index_by_id, connections, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, connections, base, portrait_exists):
+def disambiguation_section(person_name, same_name, base):
+    if not same_name:
+        return ""
+    cards = []
+    for e in same_name:
+        if e["portrait_exists"]:
+            img_html = f'<img src="{base}images/portraits/{esc(e["image"]["file"])}" alt="{esc(e["name"])}">'
+        else:
+            img_html = '<div class="image-placeholder image-placeholder--thumb">Illustration pending</div>'
+        blurb = truncate(e.get("source_summary", ""), 90)
+        cards.append(f"""<a class="disambiguation-card" href="{base}people/{esc(e['person_id'])}.html">
+      {img_html}
+      <div class="disambiguation-card__text">
+        <div class="disambiguation-card__name">{esc(e['name'])}</div>
+        <div class="disambiguation-card__blurb">{esc(blurb)}</div>
+      </div>
+    </a>""")
+    cards_html = "\n    ".join(cards)
+    return f"""<section class="disambiguation">
+    <h3>Other people named {esc(person_name)}</h3>
+    <div class="disambiguation-grid">
+    {cards_html}
+    </div>
+  </section>"""
+
+
+def render_full_person_body(person, index_by_id, connections, base, portrait_exists, full_people_by_name=None):
     parts = []
 
     if portrait_exists:
@@ -216,9 +249,11 @@ def render_full_person_body(person, index_by_id, connections, base, portrait_exi
     parts.append(f"""<section class="story">
     <h3>Life Story</h3>
     <p>{esc(person.get("adult_story"))}</p>
-    <h3>Family</h3>
-    <p>{esc(person.get("family_story"))}</p>
   </section>""")
+
+    first_ref = first_reference_line(person)
+    if first_ref:
+        parts.append(first_ref)
 
     if person.get("references"):
         parts.append(references_list(person["references"]))
@@ -234,6 +269,16 @@ def render_full_person_body(person, index_by_id, connections, base, portrait_exi
     if person.get("timeline"):
         parts.append(timeline_link(person["person_id"], base))
 
+    if full_people_by_name:
+        same_name = [
+            e
+            for e in full_people_by_name.get(person["name"].strip().lower(), [])
+            if e["person_id"] != person["person_id"]
+        ]
+        disamb = disambiguation_section(person["name"], same_name, base)
+        if disamb:
+            parts.append(disamb)
+
     return "\n  ".join(parts)
 
 
@@ -247,6 +292,10 @@ def render_stub_person_body(person, index_by_id, connections, base):
         '<div class="stub-notice">Named in Scripture, but with no narrative of their own — '
         "kept here for the connections graph.</div>"
     )
+
+    first_ref = first_reference_line(person)
+    if first_ref:
+        parts.append(first_ref)
 
     if person.get("references"):
         parts.append(references_list(person["references"]))
@@ -304,19 +353,20 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, connections):
+def build_person_page(person, index_by_id, connections, full_people_by_name=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
-    portrait_exists = person["tier"] == "full" and (
-        ROOT / "images" / "portraits" / person.get("image", {}).get("file", "")
+    portrait_file = person.get("image", {}).get("file")
+    portrait_exists = bool(portrait_file) and person["tier"] == "full" and (
+        ROOT / "images" / "portraits" / portrait_file
     ).exists()
     og_image = f'{SITE_URL}/images/portraits/{person["image"]["file"]}' if portrait_exists else DEFAULT_OG_IMAGE
     description = meta_description_for(person)
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, connections, base, portrait_exists)
+        body = render_full_person_body(person, index_by_id, connections, base, portrait_exists, full_people_by_name)
     else:
         body = render_stub_person_body(person, index_by_id, connections, base)
 
@@ -433,10 +483,38 @@ def build_sitemap(index):
 # ---------------------------------------------------------------------
 
 
+def build_full_people_by_name(index):
+    """Full-tier people ("major people... with a description") grouped by
+    exact name match, so a person's page can point to other full entries
+    sharing their name (e.g. the several Jehoshaphats, Jehus, and Zechariahs
+    in the underlying genealogy dataset) instead of leaving the reader to
+    guess which one is meant."""
+    by_name = {}
+    for entry in index:
+        if entry["tier"] != "full":
+            continue
+        pid = entry["person_id"]
+        person_path = ROOT / "data" / "people" / f"{pid}.json"
+        if not person_path.exists():
+            continue
+        fp = json.loads(person_path.read_text())
+        portrait_file = fp.get("image", {}).get("file")
+        portrait_exists = bool(portrait_file) and (ROOT / "images" / "portraits" / portrait_file).exists()
+        by_name.setdefault(fp["name"].strip().lower(), []).append({
+            "person_id": pid,
+            "name": fp["name"],
+            "source_summary": fp.get("source_summary", ""),
+            "image": fp.get("image"),
+            "portrait_exists": portrait_exists,
+        })
+    return by_name
+
+
 def main():
     index = json.loads((ROOT / "data" / "people.json").read_text())
     connections = json.loads((ROOT / "data" / "connections.json").read_text())
     index_by_id = {e["person_id"]: e["name"] for e in index}
+    full_people_by_name = build_full_people_by_name(index)
 
     people_dir = ROOT / "people"
     people_dir.mkdir(exist_ok=True)
@@ -449,7 +527,7 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, connections)
+        page = build_person_page(person, index_by_id, connections, full_people_by_name)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 

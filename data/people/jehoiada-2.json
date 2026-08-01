@@ -2,7 +2,7 @@
   "person_id": "jehoiada-2",
   "name": "Jehoiada",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 11:4-17",
@@ -11,6 +11,7 @@
     "2 Chronicles 23:1-18",
     "2 Chronicles 24:2-25"
   ],
+  "first_reference": "2 Kings 11:4-17",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -20,5 +21,30 @@
     "children": [
       "zechariah-12"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "2 Chronicles 24:15 states Jehoiada died at 130, an unusually long life, but without a fixed calendar anchor for his birth or death, so no specific date is plotted; his ministry falls under Athaliah's usurpation and Joash's early reign, roughly the mid-800s BC."
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "courage",
+    "priesthood",
+    "mentorship",
+    "covenant renewal"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "High priest who secretly protected the infant King Joash for six years from a usurping queen, then led a coup to install him as rightful king and guided Judah back to true worship for the rest of his long life.",
+  "family_friendly_summary": "Jehoiada was a priest who did something very brave. When a wicked queen named Athaliah tried to kill off the entire royal family to take the throne for herself, Jehoiada and his wife secretly hid and protected a baby prince named Joash inside the temple for six years. When Joash was seven, Jehoiada bravely helped crown him as the rightful king and led the people back to worshiping God instead of false idols. For the rest of his long life, Jehoiada guided young King Joash to do what was right. Sadly, after Jehoiada died, Joash stopped listening to God's ways. Jehoiada's story shows how one faithful, courageous person can protect and guide an entire nation's future, even during very dangerous and uncertain times.",
+  "adult_story": "Jehoiada, high priest during a violent chapter in Judah's history, was married to Jehosheba, a daughter of the royal house, a rare priestly-royal union (2 Chronicles 22:11). When Athaliah seized the throne after her son Ahaziah's death and moved to exterminate the royal family, Jehosheba secretly rescued the infant prince Joash and hid him in the temple, where Jehoiada kept him concealed for six years (2 Kings 11:1-3). In the seventh year, Jehoiada organized a carefully planned coup: he armed the temple guards, brought out the seven-year-old Joash, crowned and anointed him king in the temple courts, and had Athaliah executed when she realized what was happening (2 Kings 11:4-16). Jehoiada then led the people and the new king in a covenant to be the LORD's people, and the crowd tore down the temple of Baal and killed its priest (2 Kings 11:17-18). For as long as Jehoiada lived, he guided young Joash, and Scripture notes Joash \"did what was right in the eyes of the LORD all the days of Jehoiada the priest\" (2 Kings 12:2). Jehoiada died at 130, and was honored with burial among the kings of Judah \"because he had done good in Israel\" (2 Chronicles 24:15-16) — though tragically, after his death, Joash abandoned the faith Jehoiada had instilled and had Jehoiada's own son Zechariah stoned to death for confronting the nation's idolatry (2 Chronicles 24:17-22).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

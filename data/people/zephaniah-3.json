@@ -2,15 +2,42 @@
   "person_id": "zephaniah-3",
   "name": "Zephaniah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Zephaniah 1:1"
   ],
+  "first_reference": "Zephaniah 1:1",
   "genealogy": {
     "father": "cushi-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Zephaniah 1:1 dates his ministry to the reign of Josiah, likely its earlier years before the 622 BC reforms, but gives no personal birth or death year, so no specific date is plotted."
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "prophecy",
+    "day of the LORD",
+    "restoration",
+    "God's joy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Prophet of possible royal descent who warned of a coming day of judgment on Judah's idolatry and spiritual apathy under Josiah, closing his book with one of Scripture's most tender pictures of God rejoicing over His restored people.",
+  "family_friendly_summary": "Zephaniah came from a family that could be traced all the way back to King Hezekiah, which was unusual for a prophet. He preached during King Josiah's reign, warning Judah that they had stopped truly caring whether God was pleased or not — many people worshiped idols and just assumed nothing would happen either way. Zephaniah warned of a coming day when God would judge wrongdoing, both in Judah and in the nations around it. But his short book doesn't end in gloom — it ends with one of the most beautiful pictures in the whole Bible: God rejoicing over His people with singing, like a parent overjoyed with love for a child. Zephaniah's story reminds us that God's warnings are real, but so is His overflowing joy and love for His people.",
+  "adult_story": "Zephaniah's genealogy is traced back four generations to King Hezekiah, an unusual level of detail suggesting possible royal descent (Zephaniah 1:1). He prophesied during Josiah's reign, likely in its earlier years, describing a Judah still steeped in Baal worship, star worship, and a practical atheism that assumed \"the LORD will not do good, nor will he do ill\" (Zephaniah 1:4-6, 12). Zephaniah's central theme is the coming \"day of the LORD,\" described in stacking, urgent language as a day of wrath and darkness for Judah and its neighbors alike (Zephaniah 1:14-18; 2:4-15). Yet the book turns decisively toward hope in its final verses: God promises to purify a faithful remnant who will \"do no injustice and speak no lies,\" restore the fortunes of His scattered people, and gather the outcast and afflicted (Zephaniah 3:9-13, 19-20). Its closing image is among Scripture's most tender: \"The LORD your God is in your midst... he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing\" (Zephaniah 3:17) — a picture of God's own joy over His restored people.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

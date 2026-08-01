@@ -2,7 +2,7 @@
   "person_id": "jehoshaphat-3",
   "name": "Jehoshaphat",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Kings 15:24",
@@ -20,6 +20,7 @@
     "2 Chronicles 22:9",
     "Matthew 1:8"
   ],
+  "first_reference": "1 Kings 15:24",
   "genealogy": {
     "father": "asa",
     "mother": "azubah",
@@ -33,5 +34,33 @@
       "sephatiah",
       "zechariah-11"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "date",
+    "born": -907,
+    "died": -848,
+    "note": "1 Kings 22:42 states Jehoshaphat was 35 when he began to reign and reigned 25 years in Jerusalem; dates follow a widely-used regnal chronology, with other evangelical frameworks shifting these figures by a few years."
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "kingship",
+    "faithfulness",
+    "compromised alliances",
+    "answered prayer"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A genuinely faithful king of Judah who sent teachers throughout the land and won a battle through prayer alone, but whose marriage alliance with wicked King Ahab of Israel brought lasting harm to Judah's royal line.",
+  "family_friendly_summary": "Jehoshaphat was a king of Judah who truly loved God — he sent teachers around the country to teach people God's Law and appointed fair judges. When a huge enemy army came against Judah, Jehoshaphat didn't rely on his own army first; he prayed and told God, \"We don't know what to do, but we are looking to You.\" God won the battle without Judah even having to fight! But Jehoshaphat also made a big mistake: he became close friends with a wicked king named Ahab and even let his own son marry into Ahab's family, which caused trouble for Judah later on. Jehoshaphat's story shows that trusting God in a crisis is wonderful, but choosing the wrong friends can still cause real harm.",
+  "adult_story": "Jehoshaphat, son of Asa, is remembered as one of Judah's genuinely good kings: he removed many high places, sent officials and Levites to teach the Law throughout Judah, and appointed judges told, \"Consider what you are doing, for you judge not for man but for the LORD\" (2 Chronicles 17:6-9; 19:4-7). When a vast coalition of Moabites and Ammonites invaded, Jehoshaphat proclaimed a fast, prayed that Judah had \"no might... but our eyes are on You,\" and sent singers ahead of the army — the enemy coalition destroyed itself before Judah even engaged (2 Chronicles 20:1-30). Yet his record is not clean: he made a marriage alliance with wicked King Ahab by joining his son Jehoram to Ahab's daughter Athaliah, later bringing Baal worship and bloodshed into Judah's own royal line (2 Chronicles 18:1; 21:6; 22:2-4). He nearly died fighting alongside Ahab at Ramoth-gilead after ignoring the prophet Micaiah's warning, and was rebuked by the prophet Jehu son of Hanani simply for helping \"the wicked\" (1 Kings 22:29-33; 2 Chronicles 19:1-3). A later shipping partnership with wicked King Ahaziah of Israel ended in shipwreck, again prophesied as judgment for the alliance (2 Chronicles 20:35-37). Jehoshaphat's story shows genuine faithfulness coexisting with dangerously compromised alliances.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

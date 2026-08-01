@@ -2,7 +2,7 @@
   "person_id": "gad-2",
   "name": "Gad",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Samuel 22:5",
@@ -11,10 +11,38 @@
     "1 Chronicles 29:29",
     "2 Chronicles 29:25"
   ],
+  "first_reference": "1 Samuel 22:5",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given for Gad; his appearances span from David's fugitive years to his old age, roughly the mid-1000s to mid-900s BC."
+  },
+  "geographic_setting": [
+    "Judah",
+    "Jerusalem",
+    "Kingdom of Israel"
+  ],
+  "topics": [
+    "prophecy",
+    "guidance",
+    "consequences",
+    "worship"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "David's seer, who advised him during his fugitive years, delivered God's judgment after David's sinful census, and instructed him to build the altar on the site that would become Solomon's temple.",
+  "family_friendly_summary": "Gad was a prophet who gave King David advice at several important moments in his life. Early on, while David was still hiding from King Saul, Gad told him where to go for safety. Years later, after David proudly counted his army in a way that displeased God, Gad brought him God's message about the consequences, and David chose to trust in God's mercy rather than the punishment of enemies. Gad then told David to build an altar on a specific piece of land — a place that later became the site of Solomon's great temple! Gad's story shows how God used a faithful messenger to guide David through both dangerous times and moments of consequence, always pointing him back toward trusting and worshiping God.",
+  "adult_story": "Gad first appears advising David during his years as a fugitive from Saul, telling him to leave a stronghold and return to the land of Judah (1 Samuel 22:5). He reappears decades later, after David took a census of Israel's fighting men in an act of pride Scripture says provoked God's anger; Gad delivered God's offer of three possible punishments — famine, military defeat, or plague — and David chose to fall into God's hands rather than man's, resulting in a plague that killed seventy thousand (2 Samuel 24:11-15). Gad then instructed David to build an altar on the threshing floor of Araunah the Jebusite to stop the plague — the very site that would later become the location of Solomon's temple, so that Gad's instruction marks the origin point of Israel's central place of worship (2 Samuel 24:18-25; 2 Chronicles 3:1). Gad is also credited, alongside the prophet Nathan, with recording the events of David's reign, and later generations remembered him as having a role in organizing the Levitical musicians for temple worship (1 Chronicles 29:29; 2 Chronicles 29:25). Gad's appearances span the length of David's story, from fugitive to king to aging ruler facing the consequences of his sin, always a steady voice bringing God's word at pivotal moments.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

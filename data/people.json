@@ -2951,8 +2951,14 @@
     "person_id": "eleazar",
     "name": "Eleazar",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "priesthood",
+      "faithful service",
+      "transition of leadership"
+    ]
   },
   {
     "person_id": "ithamar",
@@ -2995,8 +3001,15 @@
     "person_id": "phinehas",
     "name": "Phinehas",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exodus/Wilderness",
+    "topics": [
+      "zeal for God",
+      "justice",
+      "wisdom",
+      "priesthood"
+    ]
   },
   {
     "person_id": "miriam",
@@ -4617,8 +4630,15 @@
     "person_id": "eli",
     "name": "Eli",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Judges",
+    "topics": [
+      "priesthood",
+      "parenting",
+      "consequences",
+      "mentorship"
+    ]
   },
   {
     "person_id": "hophni",
@@ -4715,8 +4735,15 @@
     "person_id": "saul",
     "name": "Saul",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "kingship",
+      "disobedience",
+      "jealousy",
+      "tragic decline"
+    ]
   },
   {
     "person_id": "nahash",
@@ -4877,15 +4904,29 @@
     "person_id": "gad-2",
     "name": "Gad",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "prophecy",
+      "guidance",
+      "consequences",
+      "worship"
+    ]
   },
   {
     "person_id": "abiathar",
     "name": "Abiathar",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "priesthood",
+      "loyalty",
+      "consequences",
+      "fulfilled prophecy"
+    ]
   },
   {
     "person_id": "nabal",
@@ -5213,8 +5254,15 @@
     "person_id": "nathan-2",
     "name": "Nathan",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "prophecy",
+      "courage",
+      "confrontation",
+      "covenant"
+    ]
   },
   {
     "person_id": "hadadezer",
@@ -5266,8 +5314,15 @@
     "person_id": "zadok",
     "name": "Zadok",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "United Monarchy",
+    "topics": [
+      "priesthood",
+      "loyalty",
+      "faithfulness",
+      "fulfilled prophecy"
+    ]
   },
   {
     "person_id": "ahitub-2",
@@ -6271,8 +6326,15 @@
     "person_id": "jeroboam",
     "name": "Jeroboam",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "idolatry",
+      "divided kingdom",
+      "golden calves"
+    ]
   },
   {
     "person_id": "nebat",
@@ -6292,8 +6354,15 @@
     "person_id": "rehoboam",
     "name": "Rehoboam",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "folly",
+      "divided kingdom",
+      "messianic line"
+    ]
   },
   {
     "person_id": "shemaiah",
@@ -6306,8 +6375,15 @@
     "person_id": "josiah",
     "name": "Josiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "reform",
+      "covenant renewal",
+      "tragic death"
+    ]
   },
   {
     "person_id": "abijah-2",
@@ -6404,8 +6480,15 @@
     "person_id": "jehoshaphat-3",
     "name": "Jehoshaphat",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "faithfulness",
+      "compromised alliances",
+      "answered prayer"
+    ]
   },
   {
     "person_id": "ahijah-3",
@@ -6481,8 +6564,15 @@
     "person_id": "ahab",
     "name": "Ahab",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "idolatry",
+      "false repentance",
+      "injustice"
+    ]
   },
   {
     "person_id": "jezebel",
@@ -6523,8 +6613,15 @@
     "person_id": "elijah",
     "name": "Elijah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "faith under persecution",
+      "God's provision",
+      "discouragement"
+    ]
   },
   {
     "person_id": "obadiah",
@@ -6546,8 +6643,14 @@
     "alt_names": [
       "Zimri"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "zealous judgment",
+      "incomplete obedience"
+    ]
   },
   {
     "person_id": "nimshi",
@@ -6560,8 +6663,15 @@
     "person_id": "elisha",
     "name": "Elisha",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "miracles",
+      "God's provision",
+      "honesty"
+    ]
   },
   {
     "person_id": "shaphat-2",
@@ -6764,8 +6874,15 @@
     "person_id": "jehoiada-2",
     "name": "Jehoiada",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "courage",
+      "priesthood",
+      "mentorship",
+      "covenant renewal"
+    ]
   },
   {
     "person_id": "mattan",
@@ -6865,8 +6982,15 @@
     "person_id": "jonah",
     "name": "Jonah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "obedience",
+      "mercy",
+      "God's compassion",
+      "reluctant prophet"
+    ]
   },
   {
     "person_id": "amittai",
@@ -7034,8 +7158,15 @@
     "person_id": "hezekiah",
     "name": "Hezekiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "trust in God",
+      "answered prayer",
+      "pride"
+    ]
   },
   {
     "person_id": "shalmaneser",
@@ -7136,8 +7267,15 @@
     "person_id": "isaiah",
     "name": "Isaiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "trust in God",
+      "messianic prophecy",
+      "suffering servant"
+    ]
   },
   {
     "person_id": "amoz",
@@ -7229,8 +7367,15 @@
     "person_id": "manasseh-3",
     "name": "Manasseh",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "idolatry",
+      "innocent blood",
+      "repentance",
+      "God's mercy"
+    ]
   },
   {
     "person_id": "hephzibah",
@@ -7306,8 +7451,14 @@
     "person_id": "hilkiah-2",
     "name": "Hilkiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "priesthood",
+      "rediscovery of Scripture",
+      "reform"
+    ]
   },
   {
     "person_id": "ahikam",
@@ -7488,8 +7639,15 @@
     "alt_names": [
       "Mattaniah"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "kingship",
+      "broken oath",
+      "fall of Jerusalem",
+      "exile"
+    ]
   },
   {
     "person_id": "nebuzaradan",
@@ -14177,8 +14335,15 @@
     "person_id": "zechariah-13",
     "name": "Zechariah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Post-Exile/Intertestamental",
+    "topics": [
+      "prophecy",
+      "temple rebuilding",
+      "messianic prophecy",
+      "restoration"
+    ]
   },
   {
     "person_id": "jeiel-6",
@@ -14576,8 +14741,15 @@
     "person_id": "jeremiah-6",
     "name": "Jeremiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "persecution",
+      "lament",
+      "new covenant"
+    ]
   },
   {
     "person_id": "cyrus",
@@ -15369,8 +15541,15 @@
     "person_id": "haggai",
     "name": "Haggai",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Post-Exile/Intertestamental",
+    "topics": [
+      "temple rebuilding",
+      "priorities",
+      "encouragement",
+      "messianic hope"
+    ]
   },
   {
     "person_id": "iddo-5",
@@ -15397,8 +15576,15 @@
     "person_id": "ezra",
     "name": "Ezra",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Post-Exile/Intertestamental",
+    "topics": [
+      "scripture",
+      "reform",
+      "trust in God",
+      "covenant renewal"
+    ]
   },
   {
     "person_id": "gershom-3",
@@ -18828,8 +19014,14 @@
     "person_id": "micah-5",
     "name": "Micah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "social justice",
+      "prophecy",
+      "messianic prophecy"
+    ]
   },
   {
     "person_id": "uriah-4",
@@ -19304,8 +19496,15 @@
     "person_id": "ezekiel",
     "name": "Ezekiel",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exile",
+    "topics": [
+      "prophecy",
+      "exile",
+      "symbolic acts",
+      "restoration"
+    ]
   },
   {
     "person_id": "buzi",
@@ -19362,8 +19561,15 @@
     "alt_names": [
       "Belteshazzar"
     ],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exile",
+    "topics": [
+      "faithfulness",
+      "wisdom",
+      "prophecy",
+      "God's protection"
+    ]
   },
   {
     "person_id": "gog-2",
@@ -19487,8 +19693,15 @@
     "person_id": "hosea",
     "name": "Hosea",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "unfaithfulness",
+      "redeeming love",
+      "covenant"
+    ]
   },
   {
     "person_id": "beeri",
@@ -19543,8 +19756,14 @@
     "person_id": "joel-11",
     "name": "Joel",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "repentance",
+      "outpouring of the Spirit"
+    ]
   },
   {
     "person_id": "pethuel",
@@ -19557,15 +19776,27 @@
     "person_id": "amos",
     "name": "Amos",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "social justice",
+      "prophecy",
+      "accountability"
+    ]
   },
   {
     "person_id": "obadiah-12",
     "name": "Obadiah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Exile",
+    "topics": [
+      "prophecy",
+      "justice",
+      "family betrayal"
+    ]
   },
   {
     "person_id": "king-of-nineveh",
@@ -19578,22 +19809,42 @@
     "person_id": "nahum",
     "name": "Nahum",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "God's justice",
+      "comfort for the oppressed"
+    ]
   },
   {
     "person_id": "habakkuk",
     "name": "Habakkuk",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "faith",
+      "justice",
+      "trust in God",
+      "honest questions"
+    ]
   },
   {
     "person_id": "zephaniah-3",
     "name": "Zephaniah",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Divided Monarchy",
+    "topics": [
+      "prophecy",
+      "day of the LORD",
+      "restoration",
+      "God's joy"
+    ]
   },
   {
     "person_id": "cushi-2",
@@ -19701,8 +19952,15 @@
     "person_id": "malachi",
     "name": "Malachi",
     "alt_names": [],
-    "tier": "stub",
-    "testament": "OT"
+    "tier": "full",
+    "testament": "OT",
+    "era": "Post-Exile/Intertestamental",
+    "topics": [
+      "prophecy",
+      "faithfulness",
+      "tithing",
+      "coming messenger"
+    ]
   },
   {
     "person_id": "abihud-2",

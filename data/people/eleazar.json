@@ -2,7 +2,7 @@
   "person_id": "eleazar",
   "name": "Eleazar",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Exodus 6:23-25",
@@ -32,6 +32,7 @@
     "1 Chronicles 24:1-6",
     "Ezra 7:5"
   ],
+  "first_reference": "Exodus 6:23-25",
   "genealogy": {
     "father": "aaron",
     "mother": "elisheba",
@@ -39,5 +40,31 @@
     "children": [
       "phinehas"
     ]
+  },
+  "era": "Exodus/Wilderness",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given for Eleazar; his ministry spans from the wilderness wandering into the early settlement of Canaan, roughly the 15th-13th centuries BC depending on the framework used for the Exodus date."
+  },
+  "geographic_setting": [
+    "Mount Hor",
+    "Wilderness",
+    "Canaan"
+  ],
+  "topics": [
+    "priesthood",
+    "faithful service",
+    "transition of leadership"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Aaron's third son, who became high priest after his two older brothers died for unauthorized worship, assisted Moses and then Joshua, and oversaw the priesthood's transition from the wilderness generation into the promised land.",
+  "family_friendly_summary": "Eleazar was one of Aaron's sons, and he became Israel's next high priest after his two older brothers died for disobeying God, and after his father Aaron passed away. Eleazar had special responsibilities for taking care of the tabernacle, Israel's place of worship, as they traveled through the wilderness. After Moses died, Eleazar worked closely with Joshua to help fairly divide the promised land among Israel's twelve tribes. Eleazar's son Phinehas later became known for standing up firmly for what was right. Eleazar's story shows the importance of faithfully carrying out our responsibilities, especially the quiet, steady kind of service that keeps a community running well, generation after generation.",
+  "adult_story": "Eleazar, Aaron's third son, became next in line for the priesthood after his two older brothers, Nadab and Abihu, were struck dead for offering \"unauthorized fire\" before the LORD (Leviticus 10:1-2; Numbers 3:2-4). Eleazar was given specific responsibilities over the tabernacle's furnishings and charge of the ashes of the red heifer used for purification (Numbers 4:16; 19:1-10). When Aaron's death approached, Moses took Aaron and Eleazar up Mount Hor, removed Aaron's priestly garments, and put them on Eleazar, transferring the high priesthood to him in Israel's full sight (Numbers 20:25-28). Eleazar assisted Moses in taking the second wilderness census, oversaw the division of plunder taken from Midian, and, after Moses's death, worked alongside Joshua to divide the promised land among the tribes by casting lots before the LORD (Numbers 26:1-4; 31:21-31; Joshua 14:1; 19:51). His own son Phinehas would later be commended by God for zealously stopping a plague brought on by Israel's idolatry at Baal-peor, a family legacy of decisive action for covenant faithfulness (Numbers 25:7-13). Eleazar died in old age and was buried in the hill country of Ephraim, closing out the priesthood's peaceful transition from the wilderness generation to the generation that would inherit the land (Joshua 24:33).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

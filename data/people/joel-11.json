@@ -2,16 +2,41 @@
   "person_id": "joel-11",
   "name": "Joel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Joel 1:1",
     "Acts 2:16"
   ],
+  "first_reference": "Joel 1:1",
   "genealogy": {
     "father": "pethuel",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "Joel gives no reference to a reigning king, unusual among the prophetic books, so its date is genuinely disputed among scholars, ranging from the 9th century BC to the post-exilic period; placed here in the earlier of the commonly proposed windows."
+  },
+  "geographic_setting": [
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "prophecy",
+    "repentance",
+    "outpouring of the Spirit"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Joel's date of composition is one of the most genuinely disputed among the Minor Prophets, since the book contains no reference to a reigning king or datable political event; proposals range from the 9th century BC to the post-exilic period.",
+  "source_summary": "Prophet who interpreted a devastating locust plague as a foretaste of the coming day of the LORD, called the nation to genuine repentance, and promised a future outpouring of God's Spirit \"on all flesh\" that Peter declared fulfilled at Pentecost.",
+  "family_friendly_summary": "We don't know very much about Joel's own life, but his short book carries a big message. A terrible swarm of locusts had eaten up all of Judah's crops, and Joel used this disaster to warn people that they needed to turn back to God with truly sorry hearts, not just going through religious routines. Joel promised that if the people returned to God, He would restore what had been lost. He also gave an exciting promise for the future — that one day God would pour out His Spirit on all kinds of people, young and old. This promise came true on the day of Pentecost in the book of Acts, when God's Spirit filled Jesus's followers. Joel's story reminds us that even hard times can be a chance to turn back to God.",
+  "adult_story": "Little is recorded about Joel beyond his father's name, Pethuel (Joel 1:1); his entire message centers on a devastating locust plague that had stripped Judah bare, which he interprets as both a real agricultural disaster and a foretaste of the coming \"day of the LORD\" (Joel 1:2-2:11). Joel calls the nation to genuine repentance — \"rend your hearts and not your garments\" — rather than empty ritual, promising that if they returned to the LORD, He would restore what the locusts had eaten (Joel 2:12-13, 25). His book's best-known promise looks far beyond his own day: God would one day \"pour out my Spirit on all flesh,\" so that sons and daughters, young and old, would prophesy (Joel 2:28-32). The apostle Peter quoted this passage directly at Pentecost, declaring it fulfilled as the Holy Spirit was poured out on the early church (Acts 2:16-21). Joel also promises deliverance for \"everyone who calls on the name of the LORD,\" a phrase Paul later applies to salvation available to Jew and Gentile alike (Joel 2:32; Romans 10:13).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

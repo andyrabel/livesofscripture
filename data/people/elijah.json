@@ -2,7 +2,7 @@
   "person_id": "elijah",
   "name": "Elijah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Kings 17:1-24",
@@ -31,10 +31,39 @@
     "Romans 11:2",
     "James 5:17"
   ],
+  "first_reference": "1 Kings 17:1-24",
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given — Elijah did not die but was taken up in a whirlwind — so no specific date is plotted; his ministry falls under Ahab through Ahaziah, roughly the mid-800s BC."
+  },
+  "geographic_setting": [
+    "Gilead",
+    "Mount Carmel",
+    "Horeb",
+    "Kingdom of Israel"
+  ],
+  "topics": [
+    "prophecy",
+    "faith under persecution",
+    "God's provision",
+    "discouragement"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Malachi 4:5-6 promises an \"Elijah\" before the day of the LORD; the New Testament shows Jesus identifying John the Baptist as this promised Elijah \"in the spirit and power of Elijah,\" while John himself denied being Elijah literally reborn (Luke 1:17; Matthew 11:14; John 1:21) — a distinction between typological fulfillment and literal identity worth noting rather than flattening.",
+  "source_summary": "Fiery prophet who confronted King Ahab and 450 prophets of Baal at Mount Carmel, then fled in despair from Jezebel until God met him in a still small voice; taken up to heaven without dying, and later appeared with Moses at Jesus' transfiguration.",
+  "family_friendly_summary": "Elijah was a brave prophet who told wicked King Ahab that no rain would fall because Israel had turned to worship a false god named Baal. God took care of Elijah in amazing ways, even using birds to bring him food! Elijah's biggest moment was a contest on Mount Carmel, where God sent fire from heaven to prove He is the one true God. But right after that big victory, Elijah got very scared and discouraged when a wicked queen threatened him. God didn't scold Elijah — He spoke to him gently, in a quiet whisper, and reminded him he wasn't alone. Instead of dying, Elijah was taken up to heaven in a whirlwind. Elijah's story shows that even brave people get discouraged sometimes, and God is patient and gentle with us when we do.",
+  "adult_story": "Elijah the Tishbite appears abruptly, announcing a drought to King Ahab as judgment for Baal worship, then surviving by ravens and a widow's jar of flour and oil that never ran out — even raising her dead son back to life (1 Kings 17). His defining moment came at Mount Carmel: he alone confronted 450 prophets of Baal, and after their god failed to answer, fire fell from heaven onto Elijah's water-soaked sacrifice, and the people cried, \"The LORD, He is God\" (1 Kings 18:20-40). Yet immediately afterward, threatened by Jezebel, Elijah fled in terror to Horeb, wishing to die; God met him not in wind, earthquake, or fire but in a \"still small voice,\" gently correcting his despair and sending him back to work (1 Kings 19:1-18). Elijah anointed Elisha as his successor, confronted Ahab over Naboth's murdered inheritance, and later confronted King Ahaziah for consulting a foreign god instead of the LORD (1 Kings 19:19-21; 21:17-24; 2 Kings 1). Rather than dying, Elijah was taken up to heaven in a whirlwind by a chariot of fire, witnessed by Elisha, who received a double portion of his spirit (2 Kings 2:1-14). Elijah later appeared with Moses at Jesus' transfiguration, and Jesus identified John the Baptist as the promised \"Elijah\" of Malachi 4:5, \"in spirit and power,\" though John denied being Elijah literally reborn (Matthew 17:3-13; Luke 1:17; John 1:21).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

@@ -2,7 +2,7 @@
   "person_id": "hilkiah-2",
   "name": "Hilkiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 22:4-14",
@@ -11,6 +11,7 @@
     "2 Chronicles 35:8",
     "Jeremiah 1:1"
   ],
+  "first_reference": "2 Kings 22:4-14",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -18,5 +19,29 @@
     "children": [
       "jeremiah-6"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given for Hilkiah; his high-priesthood falls under Josiah's reign, roughly the late 600s BC."
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "topics": [
+    "priesthood",
+    "rediscovery of Scripture",
+    "reform"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "This dataset links Hilkiah the high priest to Jeremiah as his father, since Jeremiah 1:1 identifies Jeremiah as one of \"the priests who were in Anathoth.\" Many scholars distinguish the two: Anathoth was the town to which Solomon banished the priest Abiathar's line, suggesting Jeremiah's father may belong to that displaced priestly family rather than to the Jerusalem high priest of the same common name. Scripture does not explicitly equate them, so the identification is presented here as uncertain rather than settled.",
+  "source_summary": "High priest under King Josiah who discovered a scroll of the Law of Moses during temple repairs, setting off Judah's most sweeping religious reforms.",
+  "family_friendly_summary": "Hilkiah was the high priest during King Josiah's reign. While workers were repairing God's temple, Hilkiah found an old scroll containing God's Law that had apparently been forgotten or lost for a long time. When it was read aloud to King Josiah, the king was so moved that he tore his clothes in sorrow and led the whole nation back to obeying God. Hilkiah's discovery helped spark one of the biggest returns to following God in the Old Testament. Hilkiah's story shows how rediscovering and truly listening to God's word can change an entire nation's direction.",
+  "adult_story": "Hilkiah served as high priest during King Josiah's reign, and his defining moment came during temple repairs Josiah had ordered: while distributing funds to the workers, Hilkiah discovered \"the Book of the Law\" in the temple, apparently forgotten or neglected for years (2 Kings 22:3-8). He gave it to Shaphan the royal secretary, who read it to Josiah; the king was so shaken by how far Judah had strayed from its contents that he tore his clothes in grief and sent Hilkiah and other officials to consult the prophetess Huldah, who confirmed the coming judgment but promised Josiah himself would not see it in his lifetime because of his humble response (2 Kings 22:9-20). Hilkiah then helped lead Josiah's sweeping reforms, removing idols and pagan altars throughout Judah, and stood alongside the king during the public covenant renewal and the great Passover celebration that followed (2 Kings 23:1-23). Hilkiah's discovery of the Law is treated in Scripture as a genuinely pivotal moment, showing how a forgotten word of God, once rediscovered and taken seriously, could still reshape an entire nation's direction even generations after it had been set aside.",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }

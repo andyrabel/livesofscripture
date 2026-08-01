@@ -2,7 +2,7 @@
   "person_id": "zadok",
   "name": "Zadok",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Samuel 8:17",
@@ -22,6 +22,7 @@
     "1 Chronicles 29:22",
     "2 Chronicles 31:10"
   ],
+  "first_reference": "2 Samuel 8:17",
   "genealogy": {
     "father": "ahitub-2",
     "mother": null,
@@ -29,5 +30,31 @@
     "children": [
       "ahimaaz-2"
     ]
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era",
+    "note": "No birth or death year is given for Zadok; his ministry spans David's and Solomon's reigns, roughly the mid-1000s to mid-900s BC."
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Gihon"
+  ],
+  "topics": [
+    "priesthood",
+    "loyalty",
+    "faithfulness",
+    "fulfilled prophecy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "David's loyal priest, who supported Solomon's succession over Adonijah's rebellion and was made sole high priest as a result — quietly fulfilling an old prophecy that God would replace the corrupt house of Eli with \"a faithful priest.\"",
+  "family_friendly_summary": "Zadok was one of King David's priests who stayed loyal to him even during a difficult time when David's own son Absalom tried to take over the kingdom. Zadok helped keep David informed about what was happening back in Jerusalem. Later, when another of David's sons tried to become king without David's blessing, Zadok stood firmly with the rightful choice, Solomon, and was the one who anointed Solomon as the new king. Because of his faithfulness, Zadok became Israel's chief priest, and his family continued serving as priests for a very long time afterward. Zadok's story shows how staying loyal and trustworthy, even when it's difficult, leads to being trusted with even greater responsibility.",
+  "adult_story": "Zadok served as one of David's chief priests and remained conspicuously loyal during Absalom's rebellion: when David fled Jerusalem, Zadok and the Levites wanted to carry the ark of the covenant into exile with him, but David sent it back, telling Zadok to keep it in the city and relay news of Absalom's plans back to David through his son Ahimaaz (2 Samuel 15:24-36). When David was old and his son Adonijah tried to seize the throne without approval, Zadok sided with the prophet Nathan and Bathsheba in support of Solomon, and it was Zadok who anointed Solomon king at the Gihon spring (1 Kings 1:32-45). This loyalty was rewarded decisively: when Solomon consolidated power, he removed the priest Abiathar, who had backed Adonijah, from office entirely and made Zadok sole high priest (1 Kings 2:26-27, 35). This transition quietly fulfilled an old prophecy given generations earlier against the corrupt house of Eli, that God would raise up \"a faithful priest\" in its place — since Abiathar descended from Eli's line through Ithamar, while Zadok descended from Aaron's son Eleazar (1 Samuel 2:27-35). Zadok's descendants continued as Jerusalem's priestly line for centuries, and Ezekiel later singled out \"the sons of Zadok\" as the faithful priests of his vision of a restored temple (Ezekiel 44:15-16).",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   }
 }
