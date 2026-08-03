@@ -80,31 +80,55 @@ narrative to tell. Two tiers:
 ### Full entries
 For narratively-documented figures — enough text in Scripture to support two
 description fields (decided 2026-08-01, superseding the earlier three-field
-draft below): `adult_story` (**250 words max**) and `family_friendly_summary`
-(**150 words max**) — no separate `family_story` field. Gets: those two
-descriptions, image, memorials (if any — see note below), significant
-events, connections/genealogy edges, quiz questions.
+draft below): `adult_story` and `family_friendly_summary` — no separate
+`family_story` field. Gets: those two descriptions plus `christ_connections`
+(added 2026-08-03, see below), image, memorials (if any — see note below),
+significant events, connections/genealogy edges, quiz questions.
 
-**`adult_story`** (≤250 words): the full-length treatment, keeping
-Scripture's own honesty about a person's documented sin per the Theological
-Requirements above — this is where family/relationship context belongs too,
-folded into the narrative rather than a separate field.
+**`adult_story`** (target ~200 words, **250 words max**, length revised
+2026-08-03): the full-length treatment, keeping Scripture's own honesty
+about a person's documented sin per the Theological Requirements above —
+this is where family/relationship context belongs too, folded into the
+narrative rather than a separate field.
 
 **`family_friendly_summary`** (decided 2026-07-30, length revised
-2026-08-01): up to 150 words, written for an 8-and-up reading level — a
-short paragraph now, not a single sentence. It is an age-calibrated
-retelling, not a sanitized replacement: it can be honest in general terms
-("David made big mistakes but always turned back to God") without spelling
-out adult content (adultery, murder, sexual sin, graphic violence) that
-isn't appropriate to hand an 8-year-old. Full entries only — stub entries
-have no story to summarize.
+2026-08-01, target revised 2026-08-03 to ~100 words, **150 words max**):
+written for an 8-and-up reading level — a short paragraph now, not a single
+sentence. It is an age-calibrated retelling, not a sanitized replacement: it
+can be honest in general terms ("David made big mistakes but always turned
+back to God") without spelling out adult content (adultery, murder, sexual
+sin, graphic violence) that isn't appropriate to hand an 8-year-old. Full
+entries only — stub entries have no story to summarize.
+
+**`christ_connections`** (added 2026-08-03): an array of up to 3 short
+(1-2 sentence) phrases on how this person points to Christ or reminds us of
+the gospel — per the Theological Requirements' testament-aware framing (OT
+figures point forward per Romans 4 / Hebrews 11, NT figures relate to
+Christ's accomplished work directly). Full-tier only. Fewer than 3 entries
+is fine when that's all the text genuinely supports — do not pad to hit the
+count. This supersedes the earlier "one paragraph per person" draft of this
+idea in favor of several short, discrete phrases.
+
+**Promotion rule** (decided 2026-08-03): a person belongs in the full tier
+whenever Scripture narrates something about them beyond a bare name/parentage
+listing — an action, words, or a distinguishing episode — even a minor one
+(e.g. Ahimaaz the runner, Nicolas one of the seven in Acts 6). A name that
+occurs only inside genealogy-list passages (Genesis 5/10/11/36, 1 Chronicles
+1-9, Ezra 2, Nehemiah 7/12, and similar) with nothing else said about them
+stays a stub — there is no narrative content to write, and inventing any
+would violate the Factual Accuracy rules above. When in doubt, check what
+the actual verse(s) say before deciding, not just whether the reference
+falls outside a known genealogy chapter — many single-verse mentions outside
+those chapters (e.g. a name in a wall-builders list or an officials roster)
+are still just a name with no narrative, and should stay stubs.
 
 ### Minimal (stub) entries
-For everyone else — a name appearing in a genealogy or list with no narrative
-content. Gets: `person_id`, `alt_names`, book/chapter/verse references,
-genealogy relationship edges (parent/child, tribe, etc.), and nothing else.
-No image, no story, no human-review badge (nothing was generated that needs
-reviewing). These exist primarily so the connections/genealogy graph can be
+For people with no narrative in Scripture — a name appearing in a genealogy
+or list with nothing else said about them. Gets: `person_id`, `alt_names`,
+book/chapter/verse references, genealogy relationship edges (parent/child,
+tribe, etc.), and nothing else. No image, no story, no human-review badge
+(nothing was generated that needs reviewing). These exist primarily so the
+connections/genealogy graph can be
 complete.
 
 `tier: "full" | "stub"` on every entry marks which one applies.
@@ -161,6 +185,11 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
   "source_summary": "Brief factual summary grounded in the biblical text",
   "family_friendly_summary": "Up to 150 words, 8-and-up reading level.",
   "adult_story": "Up to 250 words. Family/relationship context is folded in here, not a separate field.",
+  "christ_connections": [
+    "Up to 3 short (1-2 sentence) phrases on how this person points to Christ or the gospel.",
+    "Old Testament figures point forward per Romans 4 / Hebrews 11 framing; New Testament figures relate to Christ's accomplished work directly.",
+    "Full-tier entries only. Fewer than 3 is fine if that's all the text supports — do not pad."
+  ],
   "image": {
     "file": "elijah.jpg",
     "prompt_used": "Simple outline/line-art illustration, ancient Near Eastern prophet, minimal detail, low file size...",
@@ -220,6 +249,12 @@ first place. Used to render a `(M)`/`(F)` marker after a person's name on
 person pages' Connections section, the People search page, and the
 connections graph's sidebar card, and to color-code names on the
 connections graph (dark blue for male, dark red for female).
+
+**`disambiguation`** (added 2026-08-03, index-only): a derived string field
+on `data/people.json` entries for anyone who shares their `name` with
+another person — see the "Name Disambiguation" section below for the rules
+and regeneration script. Not part of the per-person JSON schema shown
+above; computed and stored only in the lightweight index.
 
 `era` taxonomy is finalized (see Open Questions history below). Still open:
 whether `geographic_setting` is worth a controlled vocabulary for filtering
@@ -356,6 +391,88 @@ Lives of Faith's smaller, mostly-narrative-edge graph may not work unchanged
 here — expect this to need its own tuning pass once real genealogy data from
 BradyStephenson/bible-data is loaded, rather than assuming the original's
 settings transfer directly.
+
+---
+
+## Name Disambiguation (decided 2026-08-03)
+
+Distinct from the "Other people named X" grid already implemented at the
+bottom of full-tier Person Detail pages (`disambiguation_section()` in
+`_build/generate_static_site.py`, full-tier-to-full-tier only, icon + blurb
++ link). This section covers a second, separate mechanism: a short inline
+qualifier shown next to a person's *name* wherever it appears, for **any**
+person (full or stub) who shares their `name` with another entry in the
+dataset — not just full-tier collisions.
+
+**Rules**, applied to whichever have data (never fabricated — see Factual
+Accuracy above):
+1. Full name / nickname / title, where the dataset already encodes one
+   (currently: an `alt_names` entry that extends the base name, e.g. base
+   "Judas" + alt_name "Judas Iscariot" → "Iscariot"). Textual epithets like
+   "Sons of Thunder" are **not** hand-curated yet — see gap note below.
+2. Relationship to a named person: father, else mother, else first spouse,
+   else first child, from the person's own `genealogy` edges — worded
+   "son of"/"daughter of"/"husband of"/"wife of"/"father of"/"mother of" by
+   the subject's `gender` (falls back to "child of"/"spouse of"/"parent
+   of" when gender is unknown). The referent does not need to be a
+   full-tier person — Scripture itself commonly disambiguates this way
+   (e.g. "son of Zebedee" vs. "son of Alphaeus") even when the parent
+   named is only a stub entry.
+3. Abbreviated first reference: `first_reference` with its book name
+   swapped for a standard abbreviation (e.g. "1 Chronicles 3:21" → "1 Chr
+   3:21").
+
+Parts that exist are joined (title/nickname, then relationship, then the
+abbreviated reference in parentheses); a bare `"(Gen 4:1)"` is a valid
+result when rules 1–2 have no data for that person. **Safety rule:** if two
+or more people in the same name collision would get an *identical*
+relationship phrase, the phrase doesn't disambiguate them and is suppressed
+for those people (falls back to reference-only) rather than shown — this
+generally signals a pre-existing data problem in the underlying genealogy
+import rather than a real "we just don't know more" case.
+
+**Regeneration:** `_build/generate_disambiguation.py` computes this from
+`data/people/*.json` (genealogy, `first_reference`, `alt_names`) and bakes
+the result into a `disambiguation` string field on `data/people.json`
+index entries (same "index carries derived aid fields" pattern as
+`_build/infer_stub_eras.py`) — not stored on the per-person files. Re-run
+it (before `generate_static_site.py`) whenever genealogy, name,
+`alt_names`, or `first_reference` values change.
+
+**Rendered so far — People List page only** (`js/app.js`'s `personCard()`
+and `_build/generate_static_site.py`'s `person_card_html()`, for both the
+client-rendered and static-fallback grid): every full-tier ("not name
+only") person's name renders in `<strong>`; stub-tier names render in
+plain `<span>` — this bolding applies to *every* full-tier card, not only
+those with a collision. Any person with a `disambiguation` value gets it
+shown as a muted line under the name, whichever tier they are. **Person
+Detail pages intentionally do not use this yet** — deferred per Andrew
+2026-08-03 pending other fixes; when picked up, reuse the same
+`disambiguation` index field rather than recomputing it, and decide
+placement (byline under the name vs. inline).
+
+**Known gap:** rule 1 (title/nickname) fires for only 1 of 1692 affected
+people today (`alt_names` rarely carries a fuller epithet) — hand-curating
+Scripture's own epithets (e.g. "Sons of Thunder" for James/John sons of
+Zebedee, "the Baptist", "Magdalene", "the Zealot") for the small set of
+*famous* collisions is a worthwhile follow-up, not attempted in this pass
+to avoid inventing text for the other ~480 collision groups that have no
+comparable textual epithet.
+
+**Data-quality issue discovered while building this (2026-08-03):**
+several name collisions resolve to identical relationship phrases *and*
+overlapping/identical `first_reference` values, which looks like genuine
+duplicate person entries from the BradyStephenson import rather than two
+different biblical individuals — most clearly `enoch`/`enoch-2` (both cite
+Genesis 5:18-24) and likely `zerubbabel`/`zerubbabel-2`/`zerubbabel-3`
+(son of Shealtiel, spanning three person_ids). Separately, `matthat`/
+`matthat-2` (Luke 3:24 and 3:29 — Luke's genealogy genuinely does contain
+two men named Matthat) both resolved to "son of Levi", suggesting the
+import may have collapsed two distinct Levis in that same genealogy list
+into one `levi` person_id. None of this was fixed here — the
+disambiguation script's safety rule (above) just avoids surfacing the
+resulting misleading phrases — but it's worth a dedicated genealogy-data
+cleanup pass against the source BradyStephenson tables.
 
 ---
 

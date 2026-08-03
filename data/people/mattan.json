@@ -2,18 +2,48 @@
   "person_id": "mattan",
   "name": "Mattan",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Kings 11:18",
     "2 Chronicles 23:17"
   ],
   "first_reference": "2 Kings 11:18",
+  "topics": [
+    "idolatry judged",
+    "religious reform"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Priest of Baal in Jerusalem during Athaliah's usurpation, killed before his idol's altars when Jehoiada the priest led the people to tear down the temple of Baal after the boy-king Joash was enthroned.",
+  "family_friendly_summary": "Mattan was a priest who served the false god Baal in Jerusalem during a dark period when a wicked queen named Athaliah ruled the land. When Athaliah was finally removed and the rightful young king, Joash, was placed on the throne, a faithful priest named Jehoiada led the people to tear down Baal's temple and destroy his altars and idols. Mattan, the priest who had led people away from the true God, was killed as part of this cleanup. His story marks a turning point when Judah returned to worshiping the LORD instead of false gods.",
+  "adult_story": "Mattan served as priest of Baal in Jerusalem during the six-year usurpation of Queen Athaliah, who had seized the throne after murdering the royal family (2 Kings 11:1-3). When the priest Jehoiada engineered the overthrow of Athaliah and crowned the boy-king Joash, the people responded by tearing down the temple built for Baal worship: 'all the people of the land went to the house of Baal and tore it down; they broke his altars and his images in pieces thoroughly, and killed Mattan the priest of Baal before the altars' (2 Kings 11:18; 2 Chronicles 23:17). Mattan's death is recorded without elaboration -- a brief but pointed notice that the same reform which restored Judah's Davidic king also purged the temple of Baal's idolatrous priesthood from the very altars where he had served. His death parallels the earlier judgment on the prophets of Baal under Elijah on Mount Carmel (1 Kings 18:40), part of Scripture's recurring pattern of decisive judgment against organized idolatry when covenant faithfulness to the LORD is restored.",
+  "christ_connections": [
+    "Mattan's death alongside the destruction of Baal's temple, occurring at the very moment the rightful Davidic king was restored to the throne, pictures how the coming of the true King exposes and overthrows false worship (Isaiah 2:18-20)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

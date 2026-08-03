@@ -2,8 +2,15 @@
   "person_id": "meremoth",
   "name": "Meremoth",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 8:33",
     "Nehemiah 3:4-21",
@@ -11,11 +18,34 @@
     "Nehemiah 12:3"
   ],
   "first_reference": "Ezra 8:33",
+  "topics": [
+    "faithful stewardship",
+    "wall rebuilding"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A priest, son of Uriah, personally entrusted by Ezra with weighing and recording the silver, gold, and sacred vessels brought back from exile for the temple, and later a repairer of two sections of Jerusalem's wall under Nehemiah.",
+  "family_friendly_summary": "Meremoth was a priest who lived after the Israelites returned from exile in Babylon. When Ezra brought back a huge amount of silver, gold, and special bowls and vessels for the temple, he needed someone trustworthy to weigh and record it all carefully. He chose Meremoth for this important job. Years later, Meremoth also helped rebuild the broken walls of Jerusalem, working on not just one but two sections of the wall alongside his neighbors. Meremoth's story shows how being reliable with even small, careful tasks -- like counting silver -- can be just as important to God's work as more exciting jobs.",
+  "adult_story": "Meremoth, son of Uriah the priest, appears at two distinct moments in the postexilic restoration of Judah. When Ezra led a group of exiles back to Jerusalem carrying a great weight of silver, gold, and sacred vessels donated for the temple, he was careful to entrust the treasure to trustworthy hands rather than risk it on the journey through hostile territory. Upon arrival, 'the silver and the gold and the utensils were weighed into the hands of Meremoth the priest, son of Uriah... they weighed out to them the silver, the gold, and the utensils, giving a full account at that time' (Ezra 8:33-34) -- a task requiring integrity given the value involved and the temptation for such wealth to go missing. Years later, during Nehemiah's rebuilding of Jerusalem's walls, Meremoth is named as repairing not one but two separate sections -- from the tower of Hananel to the house of Eliashib, and again near the priests' district (Nehemiah 3:4, 21) -- suggesting particular energy or standing among the builders. He also appears among those who sealed Nehemiah's covenant of renewed obedience to the Law (Nehemiah 10:5) and among the priestly families listed at that time (12:3). Meremoth's story is one of quiet, repeated trustworthiness rather than dramatic action -- entrusted with treasure, then entrusted with labor, in both cases faithfully accountable.",
+  "christ_connections": [
+    "Meremoth's careful, accountable stewardship of the temple's sacred treasure reflects the kind of trustworthy service Jesus commends in the parable of the talents -- 'well done, good and faithful servant... you were faithful over a little' (Matthew 25:21)."
+  ],
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: turban and the breastplate of judgment (twelve stones) on a plain robed figure.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "uriah-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

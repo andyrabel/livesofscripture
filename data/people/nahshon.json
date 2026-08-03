@@ -2,8 +2,15 @@
   "person_id": "nahshon",
   "name": "Nahshon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "wilderness camp of Israel"
+  ],
   "references": [
     "Exodus 6:23",
     "Numbers 1:7",
@@ -16,6 +23,24 @@
     "Luke 3:32"
   ],
   "first_reference": "Exodus 6:23",
+  "topics": [
+    "tribal leadership",
+    "ancestor of David and Christ"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Leader of the tribe of Judah during the wilderness wanderings, brother-in-law of Aaron, the first tribal leader to bring his dedication offering at the tabernacle's consecration, and a direct ancestor of David and of Christ through the line recorded in Ruth, Matthew, and Luke.",
+  "family_friendly_summary": "Nahshon was the leader of the tribe of Judah while Israel traveled through the wilderness after leaving Egypt. He was related to Aaron the priest by marriage. When the tabernacle, God's special tent for worship, was finished and dedicated, each of the twelve tribal leaders brought a generous offering on his own day -- and Nahshon went first, on the very first day. Nahshon's family line turned out to be especially important: he was an ancestor of Boaz (from the story of Ruth), and through that family line, an ancestor of King David and eventually of Jesus Christ Himself.",
+  "adult_story": "Nahshon, son of Amminadab, led the tribe of Judah during Israel's wilderness journey after the exodus from Egypt (Numbers 1:7; 2:3). He was connected to Israel's priestly family by marriage, since his sister Elisheba was the wife of Aaron (Exodus 6:23). When the tabernacle was completed and consecrated, the twelve tribal leaders each brought an offering on a successive day of dedication; Nahshon, representing Judah, brought his on the very first day (Numbers 7:12). Scripture records his offering in full detail -- a silver dish and bowl filled with fine flour mixed with oil, a gold pan of incense, and a bull, ram, lamb, goat, and additional animals for the peace offerings (7:13-17) -- the same detailed formula repeated for each of the twelve leaders across the following days, giving Nahshon the distinction of leading off Israel's first corporate act of worship at the newly dedicated tabernacle. He also led Judah's contingent as the tribes set out from Sinai in their prescribed marching order (Numbers 10:14). Nahshon's greatest significance, however, lies in his genealogical position: he is named as the father of Salmon and an ancestor of Boaz, Obed, Jesse, and ultimately King David (Ruth 4:20-22; 1 Chronicles 2:10-11), placing him directly in the Messianic line recorded in both Matthew's and Luke's genealogies of Jesus Christ (Matthew 1:4; Luke 3:32).",
+  "christ_connections": [
+    "Nahshon stands as a direct ancestor of Christ in both Matthew's and Luke's genealogies, an ordinary wilderness-era tribal leader whose obscure faithfulness became a link in the chain leading to the Messiah (Matthew 1:4)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "amminadab",
     "mother": null,
@@ -23,6 +48,11 @@
     "children": [
       "salmon"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

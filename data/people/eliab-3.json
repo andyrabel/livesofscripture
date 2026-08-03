@@ -2,8 +2,16 @@
   "person_id": "eliab-3",
   "name": "Eliab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethlehem",
+    "Valley of Elah"
+  ],
   "references": [
     "1 Samuel 16:6",
     "1 Samuel 17:13-28",
@@ -11,6 +19,25 @@
     "2 Chronicles 11:18"
   ],
   "first_reference": "1 Samuel 16:6",
+  "topics": [
+    "sibling rivalry",
+    "pride",
+    "David's youth"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "David's eldest brother, so impressive in appearance that Samuel initially assumed he was the LORD's anointed, who later scolded David angrily for coming to the battle line against Goliath.",
+  "family_friendly_summary": "Eliab was the oldest of Jesse's sons and David's big brother. When the prophet Samuel came to anoint a new king, he looked at tall, strong Eliab and thought, \"This must be the one.\" But God told Samuel not to judge by appearance -- God had chosen young David instead. Later, when David visited his brothers at the battle line against the Philistines and asked why no one would fight Goliath, Eliab got angry with him and accused him of just wanting to watch the fighting. David didn't let his brother's harsh words stop him from trusting God, and went on to defeat Goliath.",
+  "adult_story": "Eliab was Jesse's firstborn son, David's oldest brother (1 Chronicles 2:13). When Samuel came to Bethlehem to anoint one of Jesse's sons as Israel's next king, Eliab was presented first, and his height and appearance struck Samuel as surely marking the LORD's choice. But God corrected him: \"Do not look at his appearance or at the height of his stature, because I have rejected him; for God sees not as man sees, for man looks at the outward appearance, but the LORD looks at the heart\" (1 Samuel 16:6-7). Eliab was passed over in favor of his youngest brother, David. Later, when David came to the battle line where Eliab served under Saul against the Philistines and asked why no one would face Goliath, Eliab's anger burned against him: \"Why have you come down? And with whom have you left those few sheep in the wilderness? I know your insolence and the wickedness of your heart, for you have come down in order to see the battle\" (17:28) -- a harsh, dismissive rebuke from an older brother who had himself already been rejected for the very throne David would take. David did not let the accusation deter him, and went on to kill Goliath. Eliab's daughter Abihail later married into the royal line through Rehoboam (2 Chronicles 11:18).",
+  "christ_connections": [
+    "Samuel's mistaken assumption about Eliab, corrected by God's reminder that \"the LORD looks at the heart,\" anticipates the pattern of God's kingdom repeatedly favoring the humble and overlooked over the impressive -- the same pattern fulfilled when the promised King is born not in a palace but a manger."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jesse",
     "mother": null,
@@ -18,6 +45,11 @@
     "children": [
       "abihail-4"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

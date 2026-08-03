@@ -2,13 +2,41 @@
   "person_id": "mahlon",
   "name": "Mahlon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethlehem",
+    "Moab"
+  ],
   "references": [
     "Ruth 1:1-5",
     "Ruth 4:10"
   ],
   "first_reference": "Ruth 1:1-5",
+  "topics": [
+    "famine and migration",
+    "loss",
+    "levirate redemption"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Elimelech and Naomi of Bethlehem, who married the Moabite Ruth during a famine-driven sojourn in Moab and died there without children; his name and inheritance were later restored through Boaz's redemption.",
+  "family_friendly_summary": "Mahlon was the son of Elimelech and Naomi, a family from Bethlehem. During a famine, the family moved to the country of Moab to find food. There, Mahlon married a Moabite woman named Ruth. Sadly, Mahlon died in Moab, along with his father and brother, leaving Naomi and Ruth as widows. Later, back in Bethlehem, a kind relative named Boaz married Ruth and bought back the family's land, keeping Mahlon's name and family line alive. Mahlon's story is really the beginning of Ruth's story -- his death is what leads Ruth to show great love and loyalty to Naomi, which God then blessed in a wonderful way.",
+  "adult_story": "Mahlon was one of two sons of Elimelech and Naomi, a family from Bethlehem in Judah who migrated to Moab during a severe famine (Ruth 1:1-2). While there, Mahlon married Ruth, a Moabite woman, and his brother Chilion married Orpah (1:4). After about ten years, Mahlon died in Moab, along with his brother and father, leaving Naomi without husband or sons and both young women widowed (1:3-5). Naomi and Ruth returned to Bethlehem together, where Ruth's loyalty to her mother-in-law and her gleaning in the fields brought her into contact with Boaz, a close relative of Elimelech. Boaz agreed to redeem Elimelech's property and to marry Ruth 'to raise up the name of the dead on his inheritance, so that the name of the dead may not be cut off' -- Mahlon's name specifically preserved through this act of levirate-style redemption (4:9-10). Mahlon himself speaks no words and performs no recorded deed in the narrative; his significance lies entirely in his marriage, his death, and the inheritance that Boaz redeems in his name. Through Ruth and Boaz's son Obed, the family line associated with Mahlon's household became part of the ancestry of David -- and ultimately of Christ (4:17-22; Matthew 1:5-6).",
+  "christ_connections": [
+    "The redemption of Mahlon's name and inheritance by Boaz -- a kinsman-redeemer acting out of love to restore what was lost -- foreshadows Christ's greater redemption of His people's lost inheritance.",
+    "Mahlon's death, though tragic, becomes the occasion through which Ruth joins Israel and enters the Messianic line, showing how God weaves loss into His larger redemptive plan (Matthew 1:5)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "elimelech",
     "mother": "naomi",
@@ -16,6 +44,11 @@
       "ruth"
     ],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

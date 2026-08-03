@@ -447,9 +447,13 @@ def person_card_html(entry):
     else:
         meta_badge = ""
     testament_class = "ot" if entry.get("testament") == "OT" else "nt"
-    name_gender = f'{esc(entry["name"])}{gender_tag(entry.get("gender"))}'
+    name_tag = "strong" if entry["tier"] != "stub" else "span"
+    name_gender = f'<{name_tag} class="name-text">{esc(entry["name"])}</{name_tag}>{gender_tag(entry.get("gender"))}'
+    disamb_html = ""
+    if entry.get("disambiguation"):
+        disamb_html = f'\n      <div class="disambiguation">{esc(entry["disambiguation"])}</div>'
     return f"""<a class="person-card" href="people/{entry['person_id']}.html">
-      <div class="name">{name_gender}</div>
+      <div class="name">{name_gender}</div>{disamb_html}
       <div class="meta"><span class="badge {testament_class}">{esc(entry.get("testament", ""))}</span>{meta_badge}</div>
     </a>"""
 

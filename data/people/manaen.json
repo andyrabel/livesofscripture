@@ -2,17 +2,48 @@
   "person_id": "manaen",
   "name": "Manaen",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Antioch"
+  ],
   "references": [
     "Acts 13:1"
   ],
   "first_reference": "Acts 13:1",
+  "topics": [
+    "early church leadership",
+    "prophets and teachers"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of five named prophets and teachers in the church at Antioch, distinguished by Luke as having been brought up together with Herod the tetrarch (Herod Antipas); part of the leadership group that fasted, prayed, and commissioned Barnabas and Saul for missionary work.",
+  "family_friendly_summary": "Manaen was one of the leaders of the church in the city of Antioch. Luke, who wrote the book of Acts, tells us something interesting about him: Manaen had grown up together with Herod the tetrarch, one of the rulers who later opposed Jesus. Even though he came from a background so close to power, Manaen chose to follow Jesus and became a prophet and teacher in the early church. He was part of the group of leaders who prayed and fasted together and then sent out Barnabas and Saul (later called Paul) on the first great missionary journey to tell others about Jesus.",
+  "adult_story": "Manaen appears once in Scripture, named among the prophets and teachers of the church at Antioch alongside Barnabas, Simeon called Niger, Lucius of Cyrene, and Saul (Acts 13:1). Luke singles out one striking biographical detail: Manaen had been 'brought up with Herod the tetrarch' -- likely meaning he was raised as a companion or foster-brother of Herod Antipas, the ruler who later had John the Baptist beheaded and mocked Jesus before His crucifixion (Luke 23:11). That someone raised so close to the corridors of Herodian power instead became a leader in the persecuted, Spirit-filled church at Antioch is a quiet but striking testimony to the reach of the gospel across social and political lines. As one of the church's prophets and teachers, Manaen was part of the group who were 'ministering to the Lord and fasting' when the Holy Spirit said, 'Set apart for Me Barnabas and Saul for the work to which I have called them' (Acts 13:2) -- the group then laid hands on the two men and sent them off on what became the first recorded missionary journey (13:3). Manaen's own subsequent ministry is not recorded, but his presence in this founding moment of Gentile mission places him at a pivotal juncture in the early church's expansion beyond Jerusalem.",
+  "christ_connections": [
+    "Manaen's journey from Herod's household to gospel ministry shows the same grace that called fishermen and tax collectors -- Christ draws people from every background into His service, regardless of their former proximity to worldly power.",
+    "His part in commissioning Paul and Barnabas at Antioch places him within the church's obedience to Christ's Great Commission, extending the gospel to the nations."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

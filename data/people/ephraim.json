@@ -2,8 +2,16 @@
   "person_id": "ephraim",
   "name": "Ephraim",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt",
+    "Canaan"
+  ],
   "references": [
     "Genesis 41:52",
     "Genesis 46:20",
@@ -32,6 +40,26 @@
     "Ezekiel 37:16-19"
   ],
   "first_reference": "Genesis 41:52",
+  "topics": [
+    "the younger blessed over the elder",
+    "eponymous tribal ancestor",
+    "God's providence"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Joseph's younger son, born in Egypt to his Egyptian wife Asenath, whom the dying Jacob deliberately blessed above his older brother Manasseh; became the eponymous ancestor of one of the largest and most prominent tribes of Israel, later used by the prophets as a name for the whole northern kingdom.",
+  "family_friendly_summary": "Ephraim was Joseph's younger son, born in Egypt during the years after Joseph rose to become a powerful official there. Joseph named him Ephraim, meaning \"fruitful,\" because God had made him successful even in the land of his suffering. Near the end of his life, Jacob, Joseph's father, asked to bless Ephraim and his older brother Manasseh. Joseph expected Jacob to give the greater blessing to Manasseh, the firstborn, and tried to guide his father's hands that way. But Jacob crossed his arms on purpose and blessed younger Ephraim first, saying his descendants would become even greater than his brother's. Ephraim's family grew into one of the largest tribes of Israel.",
+  "adult_story": "Ephraim was Joseph's second son, born in Egypt to Asenath, daughter of Potiphera priest of On, during the years of Joseph's rise to power under Pharaoh (Genesis 41:50-52). Joseph named him Ephraim, saying, \"God has made me fruitful in the land of my affliction\" (41:52) -- a name that became a lasting testimony to God's providence even in exile. Ephraim's defining moment comes near the end of Jacob's life in Genesis 48: Jacob, near death, summons Joseph and his two sons to bless them, formally adopting Ephraim and Manasseh as his own, equal in status to Reuben and Simeon (48:5). When Joseph positions his sons so that Manasseh, the firstborn, would receive Jacob's right hand of greater blessing, Jacob deliberately crosses his arms, placing his right hand on younger Ephraim's head instead. Joseph, displeased, tries to correct him, but Jacob refuses: \"I know, my son, I know... his younger brother shall be greater than he\" (48:19). Jacob's blessing places Ephraim's name ahead of Manasseh's, and history bore this out -- the tribe of Ephraim grew to such prominence in the territory of central Canaan that the prophets later use \"Ephraim\" as a name for the entire northern kingdom of Israel (Jeremiah 31:18-20; Ezekiel 37:16-19; Hosea, throughout). Ephraim's story is a clear instance of a pattern that runs throughout Genesis: God's blessing repeatedly bypassing human expectations of birth order, choosing the younger over the elder.",
+  "christ_connections": [
+    "Jacob's deliberate choice of the younger Ephraim over the firstborn Manasseh continues Genesis's recurring pattern -- Isaac over Ishmael, Jacob over Esau -- of God's grace overturning human expectations of merit and birthright, the same grace by which sinners are adopted as heirs through Christ rather than by birth or works (Galatians 3:26-29).",
+    "God's tender promise through Jeremiah, \"Is Ephraim My dear son... I will surely have mercy on him\" (Jeremiah 31:20), voiced even after generations of Ephraim's unfaithfulness, anticipates the persistent, undeserved mercy God extends to His wayward people through the new covenant sealed in Christ's blood (Jeremiah 31:31-34)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "joseph",
     "mother": "asenath",
@@ -52,6 +80,11 @@
       "telah",
       "zabad-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

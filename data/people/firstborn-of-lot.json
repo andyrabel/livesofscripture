@@ -2,12 +2,38 @@
   "person_id": "firstborn-of-lot",
   "name": "Firstborn of Lot",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "hill country near Zoar"
+  ],
   "references": [
     "Genesis 19:31-37"
   ],
   "first_reference": "Genesis 19:31-37",
+  "topics": [
+    "aftermath of Sodom",
+    "family sin",
+    "origins of Moab"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Lot's elder daughter, who after the destruction of Sodom devised a plan with her sister to get their father drunk and conceive children by him, believing no other husbands remained available to them; became the mother of Moab.",
+  "family_friendly_summary": "After the destructive judgment on Sodom and Gomorrah, Lot and his two daughters were the only ones left from their family, living alone in the hills. Believing wrongly that there was no one left in the world for them to marry, Lot's older daughter came up with a troubling plan involving her father. What happened next was a serious wrong, born out of fear and desperation rather than trust in God. A son named Moab was born as a result, who became the ancestor of the nation of Moab. This part of the Bible is honest about a painful chapter in Lot's family's story, showing how far people can fall when they stop trusting God to provide.",
+  "adult_story": "Lot's elder, unnamed daughter appears in the difficult closing episode of his story, immediately after the destruction of Sodom and Gomorrah (Genesis 19:24-29). Having fled first to Zoar and then, out of fear, to a cave in the hills with her father and younger sister (19:30), she concluded that no husbands remained anywhere for them: \"there is not a man on earth to come in to us after the manner of the earth\" (19:31). She proposed to her sister that they get their father drunk with wine and lie with him \"that we may preserve our family line through our father\" (19:32). Scripture records the plan carried out over two successive nights, with Lot said to be unaware, and both daughters becoming pregnant by their own father (19:33-36). The elder daughter's son was named Moab, explicitly said to mean \"from father,\" and he became the ancestor of the Moabite nation (19:37) -- a people who later both opposed and, through Ruth the Moabite generations afterward, became woven into Israel's own story, including the line of David. Scripture does not soften or excuse this episode; it records it plainly as a family's desperate and sinful response to catastrophe, born from a failure to trust that God -- who had just rescued them from Sodom -- could still provide for their future.",
+  "christ_connections": [
+    "The dark irony that Moab's origin lay in Lot's family's failure to trust God's provision, and yet a Moabite woman, Ruth, would later become a great-grandmother of King David and an ancestor of Christ, displays how God's redemptive purposes are not derailed even by a family's deepest sin (Ruth 4:13-17; Matthew 1:5)."
+  ],
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "lot",
     "mother": null,
@@ -15,6 +41,11 @@
     "children": [
       "moab"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

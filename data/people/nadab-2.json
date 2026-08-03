@@ -2,18 +2,49 @@
   "person_id": "nadab-2",
   "name": "Nadab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Israel",
+    "Gibbethon"
+  ],
   "references": [
     "1 Kings 14:20",
     "1 Kings 15:25-31"
   ],
   "first_reference": "1 Kings 14:20",
+  "topics": [
+    "prophetic fulfillment",
+    "royal assassination"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son and successor of Jeroboam I as king of Israel; reigned two years, 'did evil in the sight of the LORD,' and was assassinated by Baasha while besieging the Philistine city of Gibbethon, who then exterminated Jeroboam's entire house, fulfilling the prophet Ahijah's earlier judgment.",
+  "family_friendly_summary": "Nadab became king of Israel after his father, Jeroboam, who had led Israel into worshiping false gods. Nadab followed in his father's sinful footsteps rather than turning back to God. He only ruled for two years before a man named Baasha assassinated him while Israel's army was besieging a city called Gibbethon. Baasha then took the throne and wiped out the rest of Jeroboam's family, which fulfilled a warning God had given earlier through a prophet named Ahijah about what would happen to Jeroboam's descendants because of his sin.",
+  "adult_story": "Nadab succeeded his father Jeroboam I as king of the northern kingdom of Israel and reigned two years (1 Kings 15:25). Like his father, he 'did evil in the sight of the LORD, walking in the way of his father and in his sin which he made Israel sin' (15:26) -- a reference to Jeroboam's establishment of alternative worship centers with golden calves at Bethel and Dan to keep his subjects from returning their allegiance to Jerusalem. While Nadab and all Israel were besieging the Philistine city of Gibbethon, Baasha of the tribe of Issachar conspired against him and struck him down (15:27). Baasha then seized the throne and, in a further act of violence, 'killed all the household of Jeroboam. He did not leave to Jeroboam any persons alive, until he had destroyed him' (15:29). The narrator explicitly connects this bloody purge to prophecy: it happened 'according to the word of the LORD which He spoke by His servant Ahijah the Shilonite,' who had earlier warned that Jeroboam's dynasty would be utterly cut off because of his idolatry (14:10-11; 15:29). Nadab's brief, unremarkable reign and violent end mark the collapse of Israel's first royal dynasty, setting the pattern of instability and bloody usurpation that would recur throughout the northern kingdom's history.",
+  "christ_connections": [
+    "The precise fulfillment of Ahijah's prophecy against Jeroboam's house in Nadab's downfall shows that God's word never returns void, whether in judgment or in the promises that ultimately find their yes in Christ (Isaiah 55:11; 2 Corinthians 1:20)."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff on a plain robed figure.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jeroboam",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

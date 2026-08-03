@@ -2,12 +2,39 @@
   "person_id": "elimelech",
   "name": "Elimelech",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethlehem",
+    "Moab"
+  ],
   "references": [
     "Ruth 1:1-3"
   ],
   "first_reference": "Ruth 1:1-3",
+  "topics": [
+    "famine",
+    "leaving the promised land",
+    "loss"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Naomi's husband and Mahlon and Chilion's father, who moved his family from Bethlehem to Moab to escape a famine and died there, an event that sets in motion the entire book of Ruth.",
+  "family_friendly_summary": "Elimelech lived in Bethlehem with his wife Naomi and their two sons, Mahlon and Chilion. When a terrible famine struck the land, Elimelech decided to move his family to the nearby country of Moab, hoping to find food there. Sadly, not long after they arrived, Elimelech died, leaving Naomi a widow far from home with her two sons. This sad beginning sets the stage for the rest of the story, which follows Naomi and her Moabite daughter-in-law Ruth as they travel back to Bethlehem together and God provides for them in surprising ways.",
+  "adult_story": "Elimelech of Bethlehem in Judah opens the book of Ruth with a decision: when a famine struck the land during the era of the judges, he took his wife Naomi and their two sons, Mahlon and Chilion, and left the promised land to live as a sojourner in the country of Moab (Ruth 1:1-2). Scripture records nothing of his character beyond this choice and its outcome -- while the family was in Moab, Elimelech died, leaving Naomi a widow with two sons in a foreign land (1:3). His sons went on to marry Moabite women, Orpah and Ruth, before they too died, leaving all three women widowed (1:4-5). Elimelech never appears again in the narrative, but his decision to leave Bethlehem for Moab is the hinge on which the entire book turns: his death, and his sons' deaths, are what set Naomi on the road back to Bethlehem with her devoted daughter-in-law Ruth, leading to Ruth's meeting with Boaz, a kinsman of Elimelech's, and ultimately to the birth of Obed, grandfather of David (4:17-22). Whether Elimelech's move to Moab reflected a lack of trust in God's provision during famine, as some later readers have inferred, or was simply a hard necessity of survival, Scripture does not say outright -- it lets the consequences of leaving speak for themselves.",
+  "christ_connections": [
+    "Elimelech's death in Moab, which seemed to end his family line, instead becomes the doorway through which his kinsman Boaz redeems Ruth and Naomi -- foreshadowing how God brings life and redemption out of loss, ultimately through the greater Kinsman-Redeemer, Christ, born in Elimelech's own line (Ruth 4:17-22; Matthew 1:5)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -18,6 +45,11 @@
       "chilion",
       "mahlon"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

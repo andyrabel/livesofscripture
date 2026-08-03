@@ -2,17 +2,47 @@
   "person_id": "micaiah-6",
   "name": "Micaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 36:11-13"
   ],
   "first_reference": "Jeremiah 36:11-13",
+  "topics": [
+    "the word of God relayed",
+    "royal officials and the prophetic word"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Gemariah who, upon hearing Baruch read Jeremiah's scroll of prophecies aloud, went down to report the words to the king's officials -- setting in motion the events of Jeremiah 36 that led to King Jehoiakim burning the scroll.",
+  "family_friendly_summary": "Micaiah was the son of an official named Gemariah in Jerusalem. One day, he happened to be in the temple when Baruch, the prophet Jeremiah's helper, read aloud a scroll containing all of Jeremiah's warnings from God. Micaiah listened carefully, then went straight to tell the king's officials everything he had heard. His report caused the officials to ask Baruch to come read the scroll to them too, which set off a chain of events. Micaiah's simple act of paying attention and passing along an important message played a real part in how God's words reached the leaders of Judah.",
+  "adult_story": "Micaiah, son of Gemariah and grandson of Shaphan, appears in the account of Jeremiah 36, which describes how the LORD instructed Jeremiah to dictate all his prophecies to his scribe Baruch on a scroll, then have it read publicly in the temple (36:1-8). When Baruch read the scroll aloud to the people in the temple, Micaiah happened to be present and 'heard all the words of the LORD from the book' (36:11). He immediately went down to the king's house, into the scribe's chamber where the officials of Judah were sitting, and personally relayed everything Baruch had read (36:12-13). This report prompted the officials to send for Baruch and have him read the scroll again to them directly (36:14-15), and eventually to report its contents to King Jehoiakim -- who responded by cutting the scroll into pieces and burning it in a fire pot, showing open contempt for the LORD's word (36:22-23). Micaiah's role is brief but pivotal: his attentiveness and willingness to pass along what he heard is the hinge that moves Jeremiah's warning from the temple courts to the highest levels of government, even though the king himself ultimately rejected it.",
+  "christ_connections": [
+    "Micaiah's simple act of relaying God's word faithfully, regardless of how it would be received, models the calling of every believer to pass along the truth of Christ even when the outcome is not in their control (2 Timothy 4:2)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "gemariah-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

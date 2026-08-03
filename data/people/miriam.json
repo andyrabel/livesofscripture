@@ -2,8 +2,16 @@
   "person_id": "miriam",
   "name": "Miriam",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt",
+    "wilderness camp of Israel"
+  ],
   "references": [
     "Exodus 15:20-21",
     "Numbers 12:1-15",
@@ -14,11 +22,36 @@
     "Micah 6:4"
   ],
   "first_reference": "Exodus 15:20-21",
+  "topics": [
+    "prophetic leadership",
+    "the danger of envy",
+    "worship and song"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Sister of Moses and Aaron, remembered as a prophetess who led the women of Israel in song and dance after the crossing of the Red Sea; later challenged Moses's unique authority alongside Aaron and was struck with leprosy for it, healed only after Moses interceded for her; she died at Kadesh.",
+  "family_friendly_summary": "Miriam was the older sister of Moses and Aaron. As a young girl, she likely watched over baby Moses when he was hidden in a basket on the Nile River (though the Bible doesn't name her there directly, most readers connect the unnamed sister in that story with her). Later, after God rescued Israel from Egypt by parting the Red Sea, Miriam, called a prophetess, led the women of Israel in joyful singing and dancing to celebrate God's victory. But Miriam wasn't perfect -- later she and Aaron spoke against Moses out of jealousy, questioning his special role as leader. God was displeased and Miriam was struck with a skin disease as a result. Moses, showing his humility and love for his sister, prayed for her healing, and after a week outside the camp, she was restored and rejoined the people. Miriam died later in the wilderness at a place called Kadesh.",
+  "adult_story": "Miriam, daughter of Amram and Jochebed and sister of Moses and Aaron, is first named explicitly in Scripture after the crossing of the Red Sea, where she is called 'the prophetess' and led the women of Israel with tambourines and dancing in a song celebrating the LORD's triumph over Pharaoh's army: 'Sing to the LORD, for He is highly exalted; the horse and his rider He has hurled into the sea' (Exodus 15:20-21). This scene has led many readers to identify her as the same unnamed sister who watched over the infant Moses in his basket on the Nile and arranged for their mother to nurse him (Exodus 2:4-8), though Scripture does not state this connection directly. Miriam's story takes a darker turn in Numbers 12, where she and Aaron 'spoke against Moses because of the Cushite woman whom he had married,' and challenged his unique authority: 'Has the LORD indeed spoken only through Moses? Has He not spoken through us as well?' (12:1-2). The LORD Himself intervened, affirming Moses's singular role as one with whom He spoke 'mouth to mouth' rather than through visions and dreams as with other prophets (12:6-8), and struck Miriam -- apparently the primary instigator, since she alone bore the punishment -- with leprosy (12:10). Aaron pleaded with Moses on her behalf, and Moses, in one of Scripture's shortest and most heartfelt prayers, cried out, 'O God, heal her, I pray!' (12:13). Miriam was shut outside the camp for seven days as the law for such uncleanness required, and the people did not move on until she was restored (12:14-15). Scripture records her death simply, at Kadesh in the wilderness of Zin (Numbers 20:1), and both Deuteronomy and Micah later recall her, alongside Moses and Aaron, as part of God's leadership given to Israel at the exodus (Deuteronomy 24:9; Micah 6:4).",
+  "christ_connections": [
+    "Miriam's song after the Red Sea crossing, celebrating God's decisive victory over His people's enemies, anticipates the greater song of redemption sung by the saints who have overcome through Christ (Revelation 15:2-3, 'the song of Moses... and the song of the Lamb').",
+    "Moses's brief, urgent intercession for his sister's healing -- despite her sin against him -- models the kind of forgiving intercession Christ makes for His own people even when they have wronged Him (Hebrews 7:25)."
+  ],
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "amram",
     "mother": "jochebed",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

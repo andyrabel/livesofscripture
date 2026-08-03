@@ -2,17 +2,48 @@
   "person_id": "gaal",
   "name": "Gaal",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Shechem"
+  ],
   "references": [
     "Judges 9:26-41"
   ],
   "first_reference": "Judges 9:26-41",
+  "topics": [
+    "rebellion",
+    "pride and downfall",
+    "political intrigue"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Ebed, who moved to Shechem and stirred its leading citizens into open rebellion against Abimelech, boasting he could defeat him, but was routed in battle and driven out of the city by Abimelech's officer Zebul.",
+  "family_friendly_summary": "Gaal came to live in the city of Shechem at a time when the people there were unhappy with their ruler, a harsh man named Abimelech. Gaal boldly encouraged the citizens to rebel against Abimelech, boasting loudly about how easily he could defeat him if given the chance. But when Abimelech's army actually came to attack, Gaal's confidence crumbled -- his forces were beaten, and Shechem's own official, Zebul, drove Gaal and his family out of the city. Gaal's story is a warning about big talk that doesn't hold up when it's tested.",
+  "adult_story": "Gaal son of Ebed moved into Shechem during a period when the city's leading citizens had grown disillusioned with Abimelech, the ruthless son of Gideon who had murdered his seventy brothers to seize power there (Judges 9:1-6, 22-25). Gaal exploited this discontent, publicly mocking Abimelech's legitimacy at a festival and boasting, \"Who is Abimelech... that we should serve him? ... If only this people were under my authority, then I would remove Abimelech\" (9:28-29). Zebul, the city's governor and a loyalist to Abimelech, secretly sent word of the uprising to Abimelech, who moved his forces against the city (9:30-33). When Gaal saw troops approaching from the hills, his confidence faltered even before battle began -- he first tried to explain away what he saw, then was forced to lead his men out to fight (9:36-39). The confrontation went badly for Gaal; many of his men fell as they fled back toward the city gate, and Zebul, having exposed him, then drove Gaal and his relatives out of Shechem entirely (9:40-41). Gaal disappears from the narrative at that point, his rebellion having only worsened, not solved, the corruption already destroying Shechem -- the city itself fell to Abimelech's brutal reprisal soon afterward (9:42-49).",
+  "christ_connections": [
+    "Gaal's loud boasting collapsing the moment it was tested illustrates a recurring biblical warning against confidence built on words rather than substance -- \"Let not the wise man boast... but let him who boasts boast in the LORD\" (Jeremiah 9:23-24), the only boast that does not fail."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "ebed",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

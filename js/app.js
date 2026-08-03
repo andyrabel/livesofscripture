@@ -89,13 +89,23 @@ function personCard(entry) {
 
   const name = document.createElement("div");
   name.className = "name";
-  name.textContent = entry.name;
+  const nameText = document.createElement(entry.tier === "stub" ? "span" : "strong");
+  nameText.className = "name-text";
+  nameText.textContent = entry.name;
+  name.appendChild(nameText);
   const tag = genderTag(entry.gender);
   if (tag) {
     name.appendChild(document.createTextNode(" "));
     name.appendChild(tag);
   }
   a.appendChild(name);
+
+  if (entry.disambiguation) {
+    const disamb = document.createElement("div");
+    disamb.className = "disambiguation";
+    disamb.textContent = entry.disambiguation;
+    a.appendChild(disamb);
+  }
 
   const meta = document.createElement("div");
   meta.className = "meta";

@@ -2,17 +2,47 @@
   "person_id": "memucan",
   "name": "Memucan",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Susa"
+  ],
   "references": [
     "Esther 1:14-21"
   ],
   "first_reference": "Esther 1:14-21",
+  "topics": [
+    "royal counsel",
+    "consequences of pride"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the seven princes of Persia and Media who had access to King Ahasuerus (Xerxes); when Queen Vashti refused the king's summons, Memucan was the one who spoke up, advising that she be deposed and a decree issued establishing husbands' authority throughout the kingdom.",
+  "family_friendly_summary": "Memucan was one of seven wise men who advised King Ahasuerus of Persia. When Queen Vashti refused to come when the king called for her during a big feast, the king was embarrassed and turned to his advisors for help deciding what to do. Memucan was the one who spoke up. He suggested that Vashti be removed as queen and that a new law be made so that husbands throughout the kingdom would be respected in their homes. The king followed Memucan's advice. This decision set off the chain of events that eventually led to Esther becoming the new queen -- someone God would use to save His people.",
+  "adult_story": "Memucan was one of seven princes of Persia and Media who 'had access to the king's presence' and were skilled in 'law and justice' (Esther 1:13-14). When King Ahasuerus, in a fit of anger after Queen Vashti refused his summons during a lavish banquet, asked his wise men what should legally be done to her, Memucan was the one who answered. He argued that Vashti's defiance was not a private matter but a public danger: 'the queen's conduct will become known to all the women, causing them to look with contempt on their husbands' (1:17), and he urged the king to issue an irrevocable royal decree removing Vashti from her position and giving her royal position to another, 'so that all women will give honor to their husbands, great and small' (1:20). The king and his princes followed Memucan's counsel, and letters were sent throughout the empire in every language, declaring that every man should be master in his own house (1:21-22). Memucan's advice, whatever its underlying anxieties about wounded male pride, set in motion the search for a new queen that eventually brought Esther, a Jewish exile, into the palace -- positioning her providentially to intercede for her people when Haman later plotted their destruction.",
+  "christ_connections": [
+    "Memucan's counsel, offered for reasons of political self-interest and wounded pride, becomes the unwitting first link in a chain of events God uses to place Esther in position to save His people -- Scripture's recurring pattern of using flawed human decisions to accomplish sovereign purposes (Genesis 50:20)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,12 +2,38 @@
   "person_id": "eunice",
   "name": "Eunice",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Lystra"
+  ],
   "references": [
     "2 Timothy 1:6"
   ],
   "first_reference": "2 Timothy 1:6",
+  "topics": [
+    "sincere faith",
+    "spiritual legacy",
+    "motherhood"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Timothy's mother, a Jewish believer whom Paul commends for sincere faith that she passed down to her son alongside her own mother Lois.",
+  "family_friendly_summary": "Eunice was the mother of Timothy, a young man who became one of the apostle Paul's closest helpers and eventually a church leader himself. Paul reminded Timothy that he had grown up watching real, sincere faith in God lived out first in his grandmother Lois and then in his mother Eunice, and that Paul was confident that same genuine faith lived in Timothy too. Eunice's quiet example of trusting God at home helped shape one of the early church's most important young leaders.",
+  "adult_story": "Eunice is named once in Scripture, in Paul's second letter to her son Timothy: \"I am mindful of the sincere faith within you, which first dwelt in your grandmother Lois and your mother Eunice, and I am sure that it is in you as well\" (2 Timothy 1:5). No episode or action of hers is recorded -- only Paul's confident testimony that her faith was genuine, and that it was passed down through two generations of women before taking root in Timothy himself. Paul's language elsewhere describes Timothy as having known the sacred writings from childhood (2 Timothy 3:15), a formation that most naturally traces back to the home Eunice and Lois provided. Acts identifies Timothy's mother as a believing Jewish woman married to a Greek father (Acts 16:1), consistent with Paul's description here, though that verse is not among this entry's cited references. Eunice's entire biblical portrait consists of this single commendation, yet it credits her with something Paul considered worth naming directly to the young leader she raised: a faith sincere enough to be handed on.",
+  "christ_connections": [
+    "Eunice's quiet transmission of \"sincere faith\" across three generations models the ordinary, often uncelebrated means by which the gospel has always spread -- household by household, parent to child -- the same pattern the New Testament commends throughout the early church (2 Timothy 3:14-15)."
+  ],
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -15,6 +41,11 @@
     "children": [
       "timothy"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

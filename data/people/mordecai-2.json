@@ -2,8 +2,15 @@
   "person_id": "mordecai-2",
   "name": "Mordecai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Susa"
+  ],
   "references": [
     "Esther 2:5-22",
     "Esther 3:2-6",
@@ -16,6 +23,26 @@
     "Esther 10:2-3"
   ],
   "first_reference": "Esther 2:5-22",
+  "topics": [
+    "providence",
+    "courage under threat",
+    "reversal of fortune"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Jewish exile in Susa who raised his orphaned cousin Esther as his own daughter, refused to bow to the official Haman, uncovered a plot to kill the king, and, after Haman schemed to destroy the Jews, urged Esther to intercede -- ultimately being honored by the king and elevated to second-in-command over Persia after Haman's downfall.",
+  "family_friendly_summary": "Mordecai was a Jewish man living in the Persian city of Susa. When his younger cousin Esther lost both her parents, Mordecai raised her as his own daughter. When Esther was chosen to become queen, Mordecai stayed close, watching out for her. He once overheard a plot to kill the king and reported it, saving the king's life. Later, a proud official named Haman became angry that Mordecai wouldn't bow to him and plotted to destroy all the Jewish people in the kingdom. Mordecai bravely asked Esther to risk her life by speaking to the king on behalf of her people, saying that maybe she had become queen 'for such a time as this.' Esther's courage, combined with Mordecai's wisdom, led to the Jewish people being saved, and in the end, Mordecai himself was honored and given great authority in the kingdom.",
+  "adult_story": "Mordecai, a Jewish exile living in Susa descended from the tribe of Benjamin, raised his younger cousin Hadassah -- known as Esther -- after the death of her parents, treating her as his own daughter (Esther 2:5-7). When Esther was taken into the king's harem and eventually chosen as queen, Mordecai instructed her not to reveal her Jewish identity, and continued to watch over her welfare from outside the palace (2:10-11). He soon uncovered a conspiracy by two of the king's officers to assassinate King Ahasuerus, reported it through Esther, and the plot was foiled and recorded in the royal chronicles (2:21-23). Trouble arose when Mordecai refused to bow before Haman, an official recently elevated above all other princes; enraged, and learning Mordecai was a Jew, Haman schemed not merely to punish Mordecai but to destroy all Jews throughout the Persian empire, securing a royal decree for their annihilation (3:2-13). Mordecai responded with public mourning and urgently pressed Esther to intercede with the king, warning her that silence would not spare her and asking, 'Who knows whether you have not attained royalty for such a time as this?' (4:14). Esther agreed to risk her life by appearing before the king unsummoned. In a dramatic reversal, the king that same night discovered Mordecai's earlier, unrewarded service in exposing the assassination plot, and forced Haman -- who had built gallows intending to hang Mordecai -- to instead publicly honor him (6:1-11). Haman was ultimately hanged on his own gallows (7:9-10), and Mordecai was elevated to Haman's former position, becoming second in rank to the king himself, using his authority to secure the Jews' defense and establish the festival of Purim commemorating their deliverance (8:1-2, 15; 9:20-22; 10:2-3).",
+  "christ_connections": [
+    "Mordecai's unseen, faithful service -- exposing the assassination plot with no immediate reward -- followed by an unexpected, dramatic reversal of honor, echoes the biblical pattern of God exalting the humble and faithful in His own timing (Luke 14:11).",
+    "The book of Esther never mentions God's name directly, yet Mordecai's role in it displays His providence working through ordinary, courageous obedience to save His covenant people from destruction -- foreshadowing the ultimate deliverance secured through Christ."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jair-3",
     "mother": null,
@@ -23,6 +50,11 @@
     "children": [
       "esther"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

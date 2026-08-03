@@ -2,17 +2,47 @@
   "person_id": "mamre",
   "name": "Mamre",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Hebron"
+  ],
   "references": [
     "Genesis 14:13-24"
   ],
   "first_reference": "Genesis 14:13-24",
+  "topics": [
+    "covenant alliance",
+    "rescue of Lot"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An Amorite near Hebron, brother of Eshcol and Aner, whose household lived among Abram's allies; he joined Abram's pursuit to rescue Lot from the four invading kings and shared in the recovered spoil.",
+  "family_friendly_summary": "Mamre was an Amorite man who lived near Hebron, close to where Abram (later called Abraham) had set up his camp among the oak trees. When Abram's nephew Lot was captured during a war between several kings, Abram gathered his men and went to rescue him. Mamre and his brothers Eshcol and Aner were allies of Abram, and they joined him in this rescue mission. Afterward, Abram made sure Mamre and his brothers received their fair share of what was recovered. Mamre's name is remembered because the place where Abram lived -- 'the oaks of Mamre' -- was named after him.",
+  "adult_story": "Mamre was an Amorite living near Hebron, described in Genesis 14:13 as an ally of Abram, along with his brothers Eshcol and Aner. When four eastern kings raided the region and carried off Abram's nephew Lot along with the goods of Sodom, a fugitive brought word to Abram, 'who was living by the oaks of Mamre the Amorite' (14:13). Abram armed his trained men and, together with Mamre, Eshcol, and Aner as allies, pursued the raiding kings as far as Dan and Damascus, defeating them and recovering Lot, the other captives, and the plundered goods (14:14-16). Afterward, when the king of Sodom offered Abram the recovered goods, Abram refused to take anything for himself, but specified that 'the share of the men who went with me, Aner, Eshcol, and Mamre, let them take their share' (14:24) -- honoring his allies' right to the spoils of the campaign even as he himself took none. Mamre's name became permanently attached to the place where Abram settled, 'the oaks of Mamre' near Hebron, later the site of significant events including God's visit to Abraham (Genesis 18) and the purchase of the cave of Machpelah as a family burial site (23:17-19).",
+  "christ_connections": [
+    "Mamre's loyal alliance with Abram in rescuing a captive relative pictures the kind of covenant faithfulness and rescue that finds its fullest expression in Christ, who redeems His people from captivity to sin."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

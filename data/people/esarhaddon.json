@@ -2,8 +2,16 @@
   "person_id": "esarhaddon",
   "name": "Esarhaddon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Assyria",
+    "Samaria"
+  ],
   "references": [
     "2 Kings 19:37",
     "2 Chronicles 33:11",
@@ -11,11 +19,34 @@
     "Isaiah 37:38"
   ],
   "first_reference": "2 Kings 19:37",
+  "topics": [
+    "foreign kings",
+    "Assyrian empire"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Chronicles 33:11 refers only to \"the commanders of the army of the king of Assyria\" who captured King Manasseh and does not name Esarhaddon directly; historians commonly place this event during Esarhaddon's reign or that of his son Ashurbanipal, but Scripture itself does not settle which Assyrian king is meant in that verse.",
+  "source_summary": "King of Assyria who succeeded his father Sennacherib after Sennacherib's assassination, and who, according to Ezra 4:2, resettled foreign peoples into Samaria during his reign.",
+  "family_friendly_summary": "Esarhaddon became king of the powerful Assyrian empire after his father, Sennacherib, was murdered by two of his own sons. Esarhaddon then ruled in his father's place. Years later, when the Jewish people returned from exile and began rebuilding God's temple in Jerusalem, some local residents told them, \"We have worshiped your God since the days of Esarhaddon king of Assyria, who brought us here\" -- meaning Esarhaddon had resettled foreign peoples into the land of Israel long before, which is part of the reason those groups were living there.",
+  "adult_story": "Esarhaddon became king of Assyria after his father, Sennacherib, was assassinated by two of his own sons, Adrammelech and Sharezer, while worshiping in the temple of his god Nisroch; the assassins fled to Ararat, and \"Esarhaddon his son became king in his place\" (2 Kings 19:37; Isaiah 37:38). Esarhaddon ruled the Assyrian empire at the height of its power in the seventh century BC. His only other biblical mention with independent content comes generations later: when the returned exiles began rebuilding the Jerusalem temple, the peoples already settled in the land approached them claiming shared worship, saying, \"we... have been sacrificing to Him since the days of Esarhaddon king of Assyria, who brought us up here\" (Ezra 4:2) -- a reference to Esarhaddon's policy, common to Assyrian kings, of resettling conquered and deported populations across the empire, including into the territory of the former northern kingdom of Israel. Some historians also connect Esarhaddon to the Assyrian king who captured Judah's King Manasseh \"with hooks\" and carried him to Babylon (2 Chronicles 33:11), though that verse itself does not name him, leaving the exact identification uncertain.",
+  "christ_connections": [
+    "Esarhaddon's resettlement of foreign peoples into the land, later used by Israel's adversaries to claim a false kinship with the returning exiles (Ezra 4:1-3), stands in contrast to the true ingathering of the nations God accomplishes not through conquest but through the gospel of Christ (Ephesians 2:11-19)."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "sennacherib",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

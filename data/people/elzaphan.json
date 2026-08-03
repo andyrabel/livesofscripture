@@ -4,8 +4,15 @@
   "alt_names": [
     "Elizaphan"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "wilderness camp at Sinai"
+  ],
   "references": [
     "Exodus 6:22",
     "Leviticus 10:4",
@@ -13,11 +20,34 @@
     "2 Chronicles 29:13"
   ],
   "first_reference": "Exodus 6:22",
+  "topics": [
+    "the holiness of God",
+    "priestly duty"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A cousin of Aaron and leader of the Kohathite Levite clan who, at Moses' command, carried the bodies of Aaron's sons Nadab and Abihu out of the camp after God struck them dead for offering unauthorized fire.",
+  "family_friendly_summary": "Elzaphan was a Levite, a cousin of Aaron the priest. One solemn day, Aaron's two oldest sons, Nadab and Abihu, disobeyed God's instructions about how to offer incense in the tabernacle, and God's judgment fell on them. Moses called on Elzaphan and his brother Mishael to step forward and carry Nadab and Abihu's bodies outside the camp for burial, since Aaron and his surviving sons had to keep serving at the tabernacle without stopping to mourn. Elzaphan and his brother did exactly as Moses asked. Elzaphan later became the leader of his family group among the Levites who cared for the tabernacle.",
+  "adult_story": "Elzaphan (also spelled Elizaphan) was a son of Uzziel and a cousin of Aaron and Moses through the Kohathite branch of Levi (Exodus 6:22). His defining moment comes at a solemn point in Israel's wilderness worship: after Aaron's sons Nadab and Abihu offered \"strange fire\" before the LORD that He had not commanded and were struck dead for it (Leviticus 10:1-2), Moses called Elzaphan and his brother Mishael forward and instructed them, \"Come forward, carry your relatives away from the front of the sanctuary to a place outside the camp\" (10:4). They obeyed immediately, carrying the bodies out still in their tunics, as Moses had ordered (10:5) -- a task Aaron and his remaining sons could not perform themselves, since they were forbidden from the normal rites of mourning while still serving at the newly consecrated tabernacle (10:6-7). Elzaphan later served as head of the Kohathite family division among the Levites (Numbers 3:30), and his descendants are noted generations later assisting in Hezekiah's temple reforms (2 Chronicles 29:13). His one recorded act -- removing the dead from before the sanctuary at Moses' command -- underscores how seriously God's holiness was to be guarded at the tabernacle's very founding.",
+  "christ_connections": [
+    "Elzaphan's task of carrying the dead outside the camp, away from the place of God's holy presence, pictures the separation sin creates between God and humanity -- a separation Christ Himself bridged by suffering \"outside the gate\" to make His people holy (Hebrews 13:11-12)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "uzziel",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

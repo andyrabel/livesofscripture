@@ -2,8 +2,16 @@
   "person_id": "ephron",
   "name": "Ephron",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Hebron",
+    "Machpelah"
+  ],
   "references": [
     "Genesis 23:8-17",
     "Genesis 25:9",
@@ -11,11 +19,35 @@
     "Genesis 50:13"
   ],
   "first_reference": "Genesis 23:8-17",
+  "topics": [
+    "burial rights",
+    "negotiation",
+    "the promised land"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Hittite from Hebron who sold Abraham the cave of Machpelah and its surrounding field as a burial place for Sarah, in a detailed negotiated transaction that became the family burial site for Abraham, Isaac, Jacob, and their wives.",
+  "family_friendly_summary": "When Abraham's wife Sarah died, Abraham needed a place to bury her, since he didn't own any land of his own in Canaan. He went to the local people and asked to buy a burial cave from a man named Ephron the Hittite. At first Ephron offered to just give Abraham the cave and field for free, but Abraham insisted on paying the full price so the land would truly belong to him. Ephron named a price, Abraham paid it in silver, and the cave of Machpelah became the family burial place -- later used for Abraham himself, Isaac, Jacob, and their wives.",
+  "adult_story": "Ephron the Hittite, son of Zohar, appears in one of Genesis's most carefully narrated business transactions. After Sarah's death at Hebron, Abraham approached the local Hittites, still a landless sojourner in Canaan despite God's promise that the land would belong to his descendants, and asked to purchase a burial site (Genesis 23:3-4). Ephron, present among the elders at the city gate, at first offered the cave of Machpelah and its field to Abraham as a gift: \"I give you the field, and I give you the cave that is in it... bury your dead\" (23:11). Abraham refused to accept it for free, insisting on paying full price so that the land would be legally and undisputedly his. Ephron then named the price -- four hundred shekels of silver -- and Abraham weighed it out before witnesses, formally securing the field, the cave, and all its trees as a permanent possession (23:14-18). This transaction, recorded with unusual legal precision for Genesis, gave Abraham his only actual landholding in the entire promise-land narrative: the cave of Machpelah became the burial place of Sarah, and later of Abraham himself (25:9), Isaac and Rebekah, Leah, and Jacob, whose sons carried his body back from Egypt to bury him there (49:29-32; 50:13). Ephron's brief but pivotal role secured, in the middle of a story about promises not yet fulfilled, one small and permanent foothold of the promised land.",
+  "christ_connections": [
+    "Ephron's field, the one piece of the promised land Abraham actually owned in his lifetime, stands as a small down payment on God's much larger promise -- a pattern of partial, present possession pointing to a fuller inheritance later secured for all who are in Christ (Hebrews 11:13-16, 39-40)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zohar",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }
