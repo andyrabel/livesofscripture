@@ -2,17 +2,45 @@
   "person_id": "elishaphat",
   "name": "Elishaphat",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Chronicles 23:1"
   ],
   "first_reference": "2 Chronicles 23:1",
+  "topics": [
+    "restoring the Davidic line",
+    "covenant loyalty",
+    "courage"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of five military commanders whom Jehoiada the priest brought into covenant to overthrow the usurper Athaliah and crown the boy-king Joash, restoring the Davidic royal line.",
+  "family_friendly_summary": "Elishaphat was an army commander in Jerusalem during a dangerous time. Years earlier, a wicked queen named Athaliah had seized the throne and was ruling in place of the rightful royal family. But one little prince, Joash, had been hidden away and kept safe. When Joash was seven years old, Jehoiada the priest decided it was time to act. He made a covenant with five trusted commanders, including Elishaphat, and together they gathered soldiers, brought young Joash out, and crowned him king in the temple. When Athaliah heard the celebration and rushed in shouting for help, no one came to her aid. Elishaphat's courage helped return Judah's throne to the family God had promised it to.",
+  "adult_story": "Elishaphat son of Zichri was one of five commanders of hundreds whom Jehoiada the priest brought into a covenant to end the reign of Athaliah, the usurping queen who had seized Judah's throne after murdering the rest of the royal family -- all but the infant Joash, hidden in the temple for six years (2 Chronicles 22:10-23:1). In the seventh year, Jehoiada \"took courage\" and made this covenant with Elishaphat and four other commanders -- Azariah, Ishmael, Azariah, and Maaseiah -- who then went throughout Judah gathering Levites and family heads to Jerusalem (23:1-2). The assembled leaders made a covenant with the young king in God's house, and Jehoiada organized armed guards at every entrance of the temple to protect him (23:3-7). The Levites and all Judah did exactly as Jehoiada commanded; the boy was brought out, given the crown and the testimony, anointed, and proclaimed king to shouts of \"Long live the king!\" (23:8-11). When Athaliah heard the noise and rushed into the temple crying \"Treason! Treason!,\" Jehoiada ordered her taken out and put to death, and the covenant people renewed their commitment to the LORD, tearing down the temple of Baal (23:12-17). Elishaphat's willingness to risk his life entering this covenant was decisive in preserving David's line -- through which Judah's promised King would one day come.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zichri-9",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

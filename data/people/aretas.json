@@ -2,17 +2,46 @@
   "person_id": "aretas",
   "name": "Aretas",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Damascus"
+  ],
   "references": [
     "2 Corinthians 11:32"
   ],
   "first_reference": "2 Corinthians 11:32",
+  "topics": [
+    "persecution of Paul",
+    "deliverance",
+    "boasting in weakness"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scholars debate how Aretas's ethnarch came to hold authority over Damascus at this time, since the city was normally under direct Roman control and no clear historical record explains the arrangement. Acts 9:23-25 recounts the same escape but attributes the plot to \"the Jews\" without mentioning Aretas; most read the two accounts as complementary rather than contradictory, but the exact relationship between them is not stated by either text.",
+  "source_summary": "Aretas IV was the Nabatean king whose ethnarch in Damascus, according to Paul's own account in 2 Corinthians 11:32-33, guarded the city to seize him -- prompting Paul's escape by being lowered over the city wall in a basket.",
+  "family_friendly_summary": "Aretas was a king who ruled a kingdom called Nabatea, near where Paul the apostle was preaching about Jesus in the city of Damascus. Paul tells us that the king's officer in Damascus wanted to catch him and had guards watching the city gates. But Paul's friends helped him escape in an unusual way -- they lowered him down the outside of the city wall in a large basket, in the middle of the night! Paul later listed this scary moment among the many hard things he went through for following Jesus. Aretas himself isn't described doing anything else in the Bible; we only know him through this one dramatic story about how God helped Paul get away safely.",
+  "adult_story": "Aretas IV was king of Nabatea, an Arab kingdom southeast of Judea, from roughly 9 BC to AD 40. Paul names him once, in a passage recalling the sufferings he endured for the gospel: \"in Damascus the ethnarch under Aretas the king was guarding the city of the Damascenes in order to seize me, and I was let down in a basket through a window in the wall, and so escaped his hands\" (2 Corinthians 11:32-33). Acts 9:23-25 recounts the same escape but attributes the plot to \"the Jews\" watching the gates; the two accounts are best read as complementary rather than contradictory -- local opponents of Paul's preaching may have worked through or alongside the ethnarch's authority in the city. Exactly how a Nabatean king's officer came to hold authority in Damascus, a city usually under Roman control, is a genuine historical puzzle scholars still debate, since no clear record survives of Rome ceding the city to Aretas outright. Whatever the precise arrangement, Paul's point in recounting it is not political but personal: even a king's guards could not stop God's purpose for him, and his undignified escape in a basket -- lowered down a wall like cargo rather than fleeing with dignity -- became, in Paul's own telling, a badge of weakness he chose to boast in rather than a humiliation to hide.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

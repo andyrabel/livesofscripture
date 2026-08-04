@@ -2,19 +2,47 @@
   "person_id": "claudius",
   "name": "Claudius",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Rome",
+    "the Roman Empire"
+  ],
   "references": [
     "Acts 11:28",
     "Acts 17:7",
     "Acts 18:2"
   ],
   "first_reference": "Acts 11:28",
+  "topics": [
+    "Roman imperial history",
+    "background to the early church"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Roman emperor (reigned AD 41-54) during whose rule a severe famine struck the empire as Agabus had prophesied, and who issued an edict expelling Jews from Rome that sent Aquila and Priscilla to Corinth, where they met Paul.",
+  "family_friendly_summary": "Claudius was the emperor who ruled the entire Roman Empire while the early church was just getting started, during the time described in the book of Acts. The Bible mentions him in two ways. First, a prophet named Agabus warned that a terrible famine was coming, and Luke tells us that famine really happened while Claudius was emperor. Second, Claudius made a law commanding all Jewish people to leave the city of Rome. Because of that law, a Jewish couple named Aquila and Priscilla had to move to the city of Corinth -- which is exactly where they met the apostle Paul and became his close friends and coworkers in spreading the gospel.",
+  "adult_story": "Claudius was the fourth Roman emperor (reigned AD 41-54), and Scripture mentions him twice by name as a marker of secular history intersecting the early church's story. In Acts 11:28, the prophet Agabus, moved by the Spirit, predicted \"that there would certainly be a great famine all over the world. And this took place in the reign of Claudius\" -- prompting the Antioch church to send relief to believers in Judea (11:29-30), an early example of cross-regional Christian generosity in response to real hardship. Later, in Acts 18:2, Luke records that Paul met \"a Jew named Aquila... and his wife Priscilla, because Claudius had commanded all the Jews to leave Rome.\" This expulsion, a documented historical event generally dated to around AD 49, is what brought Aquila and Priscilla to Corinth, where they partnered with Paul in tentmaking and ministry and later became significant coworkers in his mission (18:3, 18, 26; Romans 16:3-4). Claudius himself takes no direct action toward the church in the text -- his famine and his edict are simply the backdrop against which God moved His people, provided for the suffering, and brought key partners into Paul's path. Scripture treats even the decisions of a pagan emperor with no awareness of Christ as falling within the reach of God's providence for His church.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

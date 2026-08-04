@@ -2,17 +2,45 @@
   "person_id": "ammiel",
   "name": "Ammiel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kadesh-barnea"
+  ],
   "references": [
     "Numbers 13:12"
   ],
   "first_reference": "Numbers 13:12",
+  "topics": [
+    "the twelve spies",
+    "unbelief",
+    "wilderness wandering"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the twelve tribal representatives Moses sent to scout the land of Canaan, representing the tribe of Dan; one of the ten spies whose fearful report of the land's inhabitants led Israel to rebel against entering the promised land.",
+  "family_friendly_summary": "Ammiel was chosen to represent the tribe of Dan when Moses sent twelve men to explore the land of Canaan before Israel tried to enter it. The spies traveled through the land for forty days and came back carrying huge clusters of fruit as proof of how good the land was. But ten of the spies, including Ammiel, told the people the land's cities were too strong and its people too big to defeat, and they scared everyone into refusing to go in. Only Joshua and Caleb trusted God's promise. Because of the people's fear, God said that whole generation would wander in the wilderness for forty years instead.",
+  "adult_story": "Ammiel son of Gemalli represented the tribe of Dan among the twelve men Moses sent from Kadesh-barnea to scout the land of Canaan before Israel's planned entry (Numbers 13:1-16). For forty days the spies explored the land, returning with an enormous cluster of grapes along with pomegranates and figs, tangible proof of its fruitfulness (13:23-25). Yet when they reported back, ten of the twelve -- almost certainly including Ammiel, since only Caleb and Joshua are recorded standing apart from the group -- focused on what frightened them: fortified cities and people of great size, whom they called Nephilim, saying, \"we became like grasshoppers in our own sight, and so we were in their sight\" (13:31-33). Their report spread through the camp and incited the whole community to weep, rebel against Moses and Aaron, and talk of choosing a new leader to take them back to Egypt rather than trust God for the land He had promised (14:1-4). The LORD's judgment fell on that entire unbelieving generation: none but Caleb and Joshua would live to enter Canaan, and Israel would wander the wilderness for forty years, a year for each day the spies had scouted the land (14:26-35). The ten spies who had spread the fearful report, presumably including Ammiel, died immediately by a plague before the LORD (14:36-37) -- Scripture's own verdict on unbelief that refuses a promise already spoken.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "gemalli",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

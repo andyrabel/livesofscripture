@@ -2,17 +2,42 @@
   "person_id": "death",
   "name": "Death",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "Revelation 6:8"
   ],
   "first_reference": "Revelation 6:8",
+  "topics": [
+    "the four horsemen",
+    "judgment",
+    "the reach and limits of death"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Whether \"Death,\" the rider of the fourth horse, represents a specific being or agent of judgment or is better read as a symbolic personification of death itself (paired with Hades \"following with him\") is not resolved by the text; Revelation's vision language is widely read symbolically rather than as physical description.",
+  "source_summary": "The fourth of the four horsemen of Revelation's vision, riding an ashen horse and given authority over a fourth of the earth to kill by sword, famine, plague, and wild beasts, with Hades following behind him.",
+  "family_friendly_summary": "In John's vision in the book of Revelation, he sees four horses and riders that appear one after another as a scroll's seals are opened. The fourth rider comes on a pale, ashen-colored horse, and John tells us this rider's name is Death, with another figure called Hades following right behind him. This rider is given power over a fourth of the earth, allowed to bring serious harm for a limited time. It's a frightening picture, but Revelation makes clear that even Death itself only acts within limits God allows -- and later in the same book, Death is finally defeated forever when Jesus makes all things new.",
+  "adult_story": "Death appears in John's vision of the four horsemen in Revelation 6, at the opening of the fourth seal. As with the first three riders -- conquest, war, and famine -- an ashen (or \"pale\") horse comes forward: \"and he who sat on it had the name Death; and Hades was following with him. Authority was given to them over a fourth of the earth, to kill with sword and with famine and with pestilence and by the wild beasts of the earth\" (Revelation 6:8, NASB). Unlike the earlier riders, whose identities are inferred from what they carry or bring, this rider's name is stated outright, and he does not act alone -- Hades, the realm of the dead, trails behind him as if gathering what Death claims. The scope of the devastation is explicitly limited (\"a fourth of the earth\"), consistent with Revelation's pattern of bounded, escalating judgments rather than immediate final destruction. Death's brief but chilling appearance underscores both the seriousness of God's judgment on a rebellious world and its temporary character within Revelation's larger story: this same book later declares that death itself will ultimately be \"thrown into the lake of fire\" and that God will one day wipe away every tear, with \"no longer any death\" (Revelation 20:14; 21:4) -- Death's authority here, however severe, is never presented as the last word.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon -- symbolic, no claim of likeness or appearance; Revelation gives no physical description of this rider"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

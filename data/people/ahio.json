@@ -2,18 +2,46 @@
   "person_id": "ahio",
   "name": "Ahio",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kiriath-jearim"
+  ],
   "references": [
     "2 Samuel 6:3-4",
     "1 Chronicles 13:7"
   ],
   "first_reference": "2 Samuel 6:3-4",
+  "topics": [
+    "the Ark of the Covenant",
+    "worship on God's terms",
+    "David's reign"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Abinadab who, with his brother Uzzah, drove the cart carrying the Ark of the Covenant toward Jerusalem during David's first attempt to bring it up, walking ahead of the ark on the journey that ended when Uzzah touched it and died.",
+  "family_friendly_summary": "Ahio was the son of Abinadab, in whose house the Ark of the Covenant had rested for many years. When King David decided to bring the Ark to Jerusalem, Ahio and his brother Uzzah placed it on a new cart and set out. Ahio walked ahead of the ark as it traveled, guiding the way amid singing and celebration. But partway there, the oxen stumbled, Uzzah reached out to steady the ark, and God struck him down for touching it, since the Ark was meant to be carried by priests, not driven on a cart. The journey stopped there, and David tried again later, the right way.",
+  "adult_story": "Ahio and his brother Uzzah were sons of Abinadab, in whose house on the hill at Kiriath-jearim the Ark of the Covenant had rested since its return from the Philistines a generation earlier (1 Samuel 7:1-2). When David assembled thirty thousand chosen men to bring the Ark up to Jerusalem, Uzzah and Ahio drove the new cart carrying it, with Ahio walking ahead of the ark as the procession set out amid celebration, music, and dancing (2 Samuel 6:1-5; 1 Chronicles 13:1-8). The procession never reached Jerusalem. At the threshing floor of Nacon, the oxen stumbled, Uzzah reached out to steady the Ark, and the LORD struck him dead for touching it -- a stark reminder that the Ark was to be carried on the shoulders of consecrated Levites using its poles, as the Law commanded, never transported like ordinary cargo (Numbers 4:15; 2 Samuel 6:6-7). David, angry and afraid, halted the procession and left the Ark at the house of Obed-edom rather than bringing it further. Scripture records nothing more of Ahio individually; unlike Uzzah, he is not struck down, and he simply disappears from the account once the cart stops. His brief appearance marks him as an eyewitness to one of Israel's sobering lessons about approaching God's presence on God's own terms rather than human convenience -- a lesson David took to heart three months later, when the Ark came up properly at last, carried by priests and accompanied by sacrifice.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "abinadab",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,18 +2,48 @@
   "person_id": "ben-hadad-2",
   "name": "Ben-hadad",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Damascus",
+    "Aram",
+    "Israel"
+  ],
   "references": [
     "2 Kings 13:3-25",
     "Amos 1:4"
   ],
   "first_reference": "2 Kings 13:3-25",
+  "topics": [
+    "divine judgment on Aram",
+    "Elisha's final prophecy",
+    "war with Israel"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Aram-Damascus who succeeded his father Hazael; under him Israel's King Jehoash recovered lost cities in three battles, exactly fulfilling the dying prophet Elisha's limited promise of victory, and his dynasty's citadels are later named in Amos's oracle of judgment against Aram.",
+  "family_friendly_summary": "Ben-hadad became king of Aram (Syria) after his father Hazael, who had been a fierce enemy of Israel. Around this time, the prophet Elisha was dying. Israel's King Jehoash came to see him, and Elisha told him to shoot an arrow out the window as a sign that God would give Israel victory over Aram, then to strike the ground with more arrows. The king struck the ground three times and stopped -- so Elisha told him he would only defeat Aram three times, not completely. Sure enough, after Elisha died, King Jehoash won three battles against Ben-hadad and got back cities Aram had taken. Later, the prophet Amos warned that God would judge Aram's capital, Damascus, for its cruelty.",
+  "adult_story": "Ben-hadad, son of Hazael, inherited the throne of Aram-Damascus at a low point for Israel: under his father Hazael, the LORD had given Israel again and again into Aram's hand as judgment for Jehoahaz's unfaithfulness, until Jehoahaz sought the LORD and was granted a deliverer (2 Kings 13:1-5). By the time Hazael died and Ben-hadad succeeded him, Elisha the prophet was himself dying. King Jehoash of Israel wept over Elisha and was told to shoot an arrow eastward -- \"the LORD's arrow of victory over Aram\" -- then to strike the ground with more arrows. Jehoash struck only three times and stopped; Elisha, angry, told him he should have struck five or six times to destroy Aram completely, but now he would defeat Ben-hadad only three times (13:14-19). After Elisha died, that word came true exactly: Jehoash recovered the Israelite cities Ben-hadad's father had seized, defeating Ben-hadad in battle three times, no more and no less (13:22-25). Ben-hadad's Damascus later appears again in the prophet Amos's oracles of judgment against the nations, where God promises to send fire on \"the house of Hazael\" that will \"consume the citadels of Ben-hadad\" (Amos 1:4) -- a sentence of judgment on Aram's cruelty that Ben-hadad's own reign helped bring on his dynasty.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crowned figure holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hazael",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

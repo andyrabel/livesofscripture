@@ -4,18 +4,42 @@
   "alt_names": [
     "Dara"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "1 Kings 4:31",
     "1 Chronicles 2:6"
   ],
   "first_reference": "1 Kings 4:31",
+  "topics": [
+    "wisdom",
+    "genealogy of Judah"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture places Darda among the \"sons of Zerah\" in Judah's genealogy (1 Chronicles 2:6), which would put him in the generation just after Jacob's sons, yet 1 Kings 4:31 invokes his wisdom as a living point of comparison for Solomon centuries later, calling the same group \"sons of Mahol.\" Whether these are the same men, remembered across many generations (since \"son of\" can mean \"descendant of\" in genealogies), or whether 1 Kings 4:31 names different, closer-to-Solomon's-day individuals who merely share these names, is debated; Scripture does not resolve the question.",
+  "source_summary": "A son of Zerah in Judah's genealogy remembered alongside his brothers as one of the proverbially wise men of Israel's early history, named in 1 Kings 4:31 as part of the standard by which Solomon's God-given wisdom was measured and shown to surpass.",
+  "family_friendly_summary": "Darda was known in Israel's history as a very wise man. He is named in the Bible alongside three other men -- Ethan, Heman, and Calcol -- as some of the wisest people of their time. We don't know exactly what wise things Darda said or did; the Bible only tells us that people remembered him for his wisdom. When the Bible describes just how wise King Solomon was, it says Solomon was even wiser than Darda and these other famous wise men. That comparison shows just how extraordinary the wisdom God gave Solomon truly was.",
+  "adult_story": "Darda, like Calcol, Ethan, and Heman, is named in Scripture only as a byword for wisdom. Among the descendants of Zerah, Judah's son by Tamar, was \"Dara\" -- an alternate spelling of Darda -- listed alongside his brothers Zimri, Ethan, Heman, and Calcol (1 Chronicles 2:6). First Kings 4:29-31 praises Solomon's God-given wisdom by comparison: Solomon \"was wiser than all men, than Ethan the Ezrahite, Heman, Calcol and Darda, the sons of Mahol; and his fame was known in all the surrounding nations\" (NASB). The comparison implies these four were already renowned sages of Israel's history, proverbial enough that surpassing them said something remarkable about Solomon. (Whether \"the sons of Mahol\" of 1 Kings 4:31 are the same men as the \"sons of Zerah\" of 1 Chronicles 2:6 is debated, since Scripture does not explicitly equate the two lists, and \"son of\" can indicate a more distant ancestor in genealogies.) Nothing else is recorded of Darda's own words, deeds, or the content of his wisdom -- only that his name, alongside his brothers', had become an established standard by which even a king as wise as Solomon could be measured, and found to surpass.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zerah-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

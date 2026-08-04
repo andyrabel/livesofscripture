@@ -2,18 +2,46 @@
   "person_id": "conaniah",
   "name": "Conaniah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Chronicles 31:12-13",
     "2 Chronicles 35:9"
   ],
   "first_reference": "2 Chronicles 31:12-13",
+  "topics": [
+    "temple administration",
+    "faithful stewardship",
+    "Hezekiah's reform"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Chronicles 31:12-13 places Conaniah's administrative service under King Hezekiah (c. 8th century BC), while 2 Chronicles 35:9 names a Conaniah giving generously toward Josiah's Passover roughly a century later; these are most likely two different Levites bearing the same family name across generations rather than the same individual, though Scripture does not explicitly distinguish them.",
+  "source_summary": "A Levite entrusted by King Hezekiah as chief officer over the storerooms of tithes and contributions brought to the temple during Hezekiah's religious reforms, ensuring the offerings were faithfully distributed to the priests and Levites.",
+  "family_friendly_summary": "Conaniah was a Levite who lived during the time of King Hezekiah, a king who worked hard to bring the people of Judah back to worshiping God properly. When the people brought generous gifts and offerings to the temple, Hezekiah needed someone trustworthy to organize and store everything so it could be shared fairly with the priests and Levites who served there. He picked Conaniah for this important job, along with his brother Shimei to help him. Conaniah's faithful, careful work behind the scenes made sure that God's house ran well and that the people who served there were taken care of.",
+  "adult_story": "Conaniah served as a Levite during King Hezekiah's sweeping religious reforms, which included restoring proper temple worship and calling the people to bring their tithes and offerings again (2 Chronicles 29-31). As the people responded generously, bringing in \"the tithe of everything\" in great abundance, Hezekiah needed a reliable system to store and distribute it (31:5-10). Scripture records: \"Conaniah the Levite had charge of these things, and Shimei his brother was second; and Jehiel, Azaziah, Nahath, Asahel, Jerimoth, Jozabad, Eliel, Ismachiah, Mahath, and Benaiah were overseers... by the appointment of Hezekiah the king\" (31:12-13, NASB). Conaniah's role was to oversee the storerooms of contributions in the temple and ensure faithful distribution to the priests and Levites according to their divisions (31:14-19). A Levite named Conaniah appears again generations later, during Josiah's reign, contributing generously to the Levites for Josiah's great Passover celebration (35:9) -- likely a different man of the same name, given the roughly hundred-year gap, though Scripture does not explicitly clarify the relationship. Either way, both notices commend the same quiet virtue: careful, honest administration of what God's people gave for worship, a role Scripture takes seriously enough to record by name even though it involved no dramatic deed or spoken word.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

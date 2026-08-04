@@ -2,17 +2,44 @@
   "person_id": "deborah",
   "name": "Deborah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethel"
+  ],
   "references": [
     "Genesis 35:8"
   ],
   "first_reference": "Genesis 35:8",
+  "topics": [
+    "faithful service",
+    "mourning and memorial"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "This Deborah, Rebekah's nurse, is a different person from the more famous Deborah the prophetess and judge of Judges 4-5, who lived generations later.",
+  "source_summary": "Rebekah's childhood nurse, who accompanied her from her homeland to marry Isaac and remained with the family for decades; her death near Bethel was memorialized by the naming of a tree, \"Allon-bacuth\" (Oak of Weeping).",
+  "family_friendly_summary": "Deborah was a woman who took care of Rebekah when Rebekah was young, long before Rebekah married Isaac. Deborah loved and served Rebekah's family so faithfully that she stayed with them for many, many years, even traveling with Jacob's family later in life. When Deborah finally died, it happened near a place called Bethel, and the family was sad enough to give the tree where she was buried a special name: Allon-bacuth, which means \"Oak of Weeping.\" Even though the Bible only tells us a little about Deborah, the loving memorial the family gave her shows how much her many years of faithful service meant to them.",
+  "adult_story": "Deborah served as Rebekah's nurse from Rebekah's youth in Paddan-aram, evidently accompanying her on the journey to marry Isaac (implied by Genesis 24:59, where an unnamed nurse departs with Rebekah, generally identified with this same Deborah). She remained connected to the family for decades afterward, appearing again late in Jacob's life traveling with his household as they journeyed back toward Bethel. Genesis records her death simply and briefly: \"Now Deborah, Rebekah's nurse, died, and she was buried below Bethel under the oak; it was named Allon-bacuth\" (Genesis 35:8, NASB) -- a name meaning \"oak of weeping.\" No words of Deborah's are recorded, and no specific deed beyond her decades of faithful presence in the family. Yet the family's grief was significant enough that the place of her burial was given a lasting, named memorial, an honor otherwise rare for a household servant in the biblical text. Her brief notice is a quiet reminder that Scripture takes note of long, faithful, largely unheralded service -- a life spent caring for others that is worth mourning and remembering, even when it produces no headline-making episode of its own.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a veil, plain pose with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

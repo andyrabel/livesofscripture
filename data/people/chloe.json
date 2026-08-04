@@ -2,17 +2,41 @@
   "person_id": "chloe",
   "name": "Chloe",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "1 Corinthians 1:11"
   ],
   "first_reference": "1 Corinthians 1:11",
+  "topics": [
+    "reporting church conflict",
+    "a woman of standing in the early church"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A woman, evidently a person of some standing with a household or business associates, whose people reported the divisions within the Corinthian church to Paul, prompting his appeal for unity at the opening of 1 Corinthians.",
+  "family_friendly_summary": "Chloe was a woman mentioned by the apostle Paul in his first letter to the church in Corinth. Paul says that people connected to Chloe -- maybe her family, her household, or people who worked with her -- told him that the Christians in Corinth were arguing and dividing into different groups. Because of what Chloe's people reported, Paul wrote strongly about the importance of Christians staying united instead of splitting into rival camps. We don't know much else about Chloe, but her honesty in letting Paul know the truth helped him care for the church well.",
+  "adult_story": "Chloe is named only once in Scripture, at the opening of Paul's response to reported trouble in the Corinthian church: \"For I have been informed concerning you, my brethren, by Chloe's people, that there are quarrels among you\" (1 Corinthians 1:11, NASB). \"Chloe's people\" likely refers to members of her household, servants, or business associates -- language implying she had some social or economic standing, whether in Corinth itself or in Ephesus, where Paul was staying when he wrote. Whoever they were, their report reached Paul while he was away from Corinth and told him that the church there had split into competing factions, each claiming loyalty to a different leader -- Paul, Apollos, Cephas, or Christ (1:12). That single report becomes the occasion for Paul's extended appeal for unity and his rebuke of a party spirit that prized human wisdom and personal allegiance over the cross of Christ (1:10-2:5). Chloe herself takes no action in the text beyond being the source through whom the truth reached Paul -- but that act of honest reporting, whether hers or her household's, mattered enough that Paul named her by name at the head of one of his most important letters, rather than leaving the source of his information anonymous.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a veil, plain pose with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

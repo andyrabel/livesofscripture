@@ -2,17 +2,45 @@
   "person_id": "azaryahu",
   "name": "Azaryahu",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Judah"
+  ],
   "references": [
     "2 Chronicles 21:2"
   ],
   "first_reference": "2 Chronicles 21:2",
+  "topics": [
+    "fratricide",
+    "royal succession",
+    "sibling rivalry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of King Jehoshaphat's six sons (his name a longer form of his brother Azariah's), given wealth and fortified cities by his father, but killed by his older brother Jehoram along with his other brothers when Jehoram secured the throne of Judah.",
+  "family_friendly_summary": "Azaryahu was one of the sons of Jehoshaphat, a good king of Judah, and a brother to another son also named Azariah. Their father loved his sons and gave them gifts, silver, and cities to live in. But when Jehoshaphat died, his oldest son Jehoram became king instead. Jehoram worried that his brothers might challenge him for the throne, so instead of trusting God to protect his rule, he had Azaryahu and all his brothers killed. It is a hard story, but the Bible tells it honestly, showing how the hunger for power can turn even brothers against each other.",
+  "adult_story": "Azaryahu was one of six sons of King Jehoshaphat of Judah, listed alongside his brothers Azariah, Jehiel, Zechariah, Michael, and Shephatiah -- his name a slightly longer form of his brother Azariah's, both meaning \"the LORD has helped\" (2 Chronicles 21:2). Jehoshaphat gave each of his sons generous gifts of silver, gold, and valuable things, together with fortified cities throughout Judah, but reserved the throne itself for Jehoram, his firstborn (21:3). After Jehoshaphat's death, Jehoram consolidated his new reign by violence: \"he killed all his brothers with the sword, and some of the rulers of Israel also\" (21:4). Azaryahu was among those murdered by his own brother, simply for being a potential rival claimant to the throne -- Scripture records no crime on his part, only that he was a son of Jehoshaphat and therefore a threat to Jehoram's grip on power. The Chronicler tells this without excuse or embellishment, immediately followed by an account of Jehoram's further unfaithfulness -- idolatry, a ruinous alliance through his wife Athaliah, and eventual divine judgment (21:6-19). Azaryahu's brief, grim entry in Judah's royal history is a sober reminder that even within the covenant line carrying God's promises, sin and violence went unchecked at the highest levels.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoshaphat-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

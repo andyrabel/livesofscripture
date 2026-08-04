@@ -2,19 +2,49 @@
   "person_id": "hanani-4",
   "name": "Hanani",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Susa (Persia)"
+  ],
   "references": [
     "Nehemiah 1:2",
     "Nehemiah 7:2",
     "Nehemiah 12:36"
   ],
   "first_reference": "Nehemiah 1:2",
+  "topics": [
+    "burden for Jerusalem",
+    "trustworthy leadership",
+    "answered prayer"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Nehemiah's brother, whose report on Jerusalem's ruined walls and distressed remnant moved Nehemiah to prayer and fasting and set his mission in motion; later appointed by Nehemiah to help oversee Jerusalem because he was faithful and feared God.",
+  "family_friendly_summary": "Hanani was the brother of Nehemiah, who worked far away in the palace of the king of Persia. One day Hanani traveled from Jerusalem to visit Nehemiah and told him sad news: the walls of Jerusalem were broken down, the gates had been burned, and the people who lived there were in much trouble. When Nehemiah heard this, he sat down and cried, then prayed and fasted for many days, asking God to help him do something. This news from Hanani was the spark that led Nehemiah to ask the king for permission to go rebuild Jerusalem's walls. Later, after the walls were finished, Nehemiah trusted Hanani with an important job -- helping to watch over the city -- because Hanani was faithful and loved God.",
+  "adult_story": "Hanani was Nehemiah's brother, and it was his visit to the Persian capital of Susa, along with men from Judah, that set Nehemiah's whole mission in motion. Nehemiah asked them about Jerusalem, and Hanani reported: \"The remnant there in the province who survived the captivity are in great distress and reproach, and the wall of Jerusalem is broken down and its gates are burned with fire\" (Nehemiah 1:2-3). The news devastated Nehemiah -- he sat down, wept, mourned, fasted, and prayed for days before approaching King Artaxerxes for permission to go rebuild the city (1:4-11; 2:1-8). Once Jerusalem's wall was completed, Nehemiah placed Hanani in charge of the city alongside Hananiah the commander of the fortress, explicitly \"because he was a faithful man and feared God more than many\" (7:2) -- a rare, direct commendation of character. A Hanani also appears leading part of the procession of musicians at the wall's dedication ceremony, though Scripture does not state whether this is certainly the same man (12:36). Though he speaks only once in the narrative, Hanani's honest, grieving account of Jerusalem's condition is the hinge on which the entire book of Nehemiah turns, and his trustworthiness under Nehemiah's own testimony makes him a quiet model of faithful, God-fearing service.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,44 @@
   "person_id": "damaris",
   "name": "Damaris",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Athens"
+  ],
   "references": [
     "Acts 17:34"
   ],
   "first_reference": "Acts 17:34",
+  "topics": [
+    "conversion",
+    "response to the gospel in Athens"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A woman in Athens who believed the gospel after hearing Paul's address to the philosophers at the Areopagus, one of only a few named converts from that famous but largely unreceptive audience.",
+  "family_friendly_summary": "Damaris lived in the Greek city of Athens, a place full of philosophers and people who loved to discuss new ideas. When the apostle Paul visited Athens, he stood up in a public meeting place called the Areopagus and told the crowd about the one true God and about Jesus rising from the dead. Most people there either made fun of Paul or said they'd like to hear more some other time. But a few people believed what Paul said right then, and Damaris was one of them. Her story reminds us that even in a place full of doubters, God can still open hearts to trust Him.",
+  "adult_story": "Damaris is named among the small number of Athenians who believed Paul's message at one of the most famous speeches in the New Testament. Paul, waiting in Athens for Silas and Timothy, was distressed to see the city \"full of idols\" and began reasoning both in the synagogue and in the marketplace, eventually being brought before the Areopagus (the city's court of philosophers) to explain his teaching (Acts 17:16-21). There he delivered his address on the \"unknown god,\" declaring the LORD as Creator who \"made the world and all things in it,\" who commands all people everywhere to repent because He has fixed a day of judgment through the Man He raised from the dead (17:22-31). The response was mixed: some sneered at the idea of resurrection, others said they would hear him again later -- a polite deflection -- \"but some men joined him and believed, among them Dionysius the Areopagite and a woman named Damaris and others with them\" (17:32-34, NASB). Scripture gives no further detail about Damaris -- her social standing, family, or later life are unrecorded. Her brief, named appearance stands simply as evidence that even in a sophisticated, skeptical city largely resistant to the gospel, God's word did not return empty, and at least a few, including this one named woman, believed.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a veil, plain pose with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

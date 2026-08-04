@@ -2,8 +2,17 @@
   "person_id": "darius",
   "name": "Darius",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Babylon",
+    "Persia",
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 4:5-24",
     "Ezra 5:5-7",
@@ -18,11 +27,32 @@
     "Zechariah 7:1"
   ],
   "first_reference": "Ezra 4:5-24",
+  "topics": [
+    "the lions' den",
+    "integrity under pressure",
+    "authorizing the temple's completion"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "This entry likely conflates two different historical rulers who share the name Darius in Scripture: \"Darius the Mede,\" who received the kingdom immediately after Belshazzar's fall (Daniel 5:31) and appears in the lions' den account of Daniel 6 (his precise historical identity outside Daniel is debated, sometimes proposed as a governor or general serving under Cyrus), and Darius I Hystaspes, the Persian king (reigned 522-486 BC) of Ezra 4-6, Haggai, and Zechariah, who authorized completion of the Jerusalem temple decades after Cyrus's original decree. The underlying genealogy dataset this site's index derives from does not distinguish them under separate IDs; this entry focuses on the events most clearly narrated (the Daniel 6 account) and notes the likely distinction rather than treating both sets of references as one continuous biography.",
+  "source_summary": "Scripture names at least one king called Darius who governed Babylon after its fall to the Medes and Persians and famously ordered Daniel thrown into a den of lions for continuing to pray to the LORD; references to a King Darius elsewhere authorize completion of the rebuilt Jerusalem temple during the Persian period.",
+  "family_friendly_summary": "The Bible tells us about a king named Darius who ruled after Babylon fell to the Medes and Persians. Darius liked Daniel and planned to put him in charge of his whole kingdom, but jealous officials tricked Darius into signing a law that said no one could pray to anyone except the king for thirty days. Daniel kept praying to God anyway, just like always, so the officials insisted Darius punish him by throwing him into a den of lions. Darius was very upset, but the law couldn't be changed. All night he worried, and at dawn he ran to the den -- and found Daniel completely safe, because God had sent an angel to shut the lions' mouths. Darius praised God and honored Daniel.",
+  "adult_story": "Scripture names more than one Persian-period ruler called Darius, and this entry focuses on the one most vividly narrated: \"Darius the Mede,\" who received the kingdom of Babylon at about sixty-two years old after Belshazzar's fall (Daniel 5:30-31). Darius planned to set Daniel over his whole kingdom because of his extraordinary spirit, provoking jealousy among his other officials (Daniel 6:1-4). Unable to find any fault in Daniel's conduct, they trapped Darius into signing an irrevocable law forbidding prayer to anyone but the king for thirty days, specifically to catch Daniel, who continued praying to the LORD three times a day as always (6:5-10). When Daniel was reported, Darius was \"deeply distressed\" and worked until sundown trying to save him, but the Medo-Persian law could not be revoked, so Daniel was thrown into the lions' den (6:14-17). Darius spent a sleepless night fasting and hurried to the den at dawn, calling out anxiously -- and found Daniel unharmed, because \"my God sent His angel and shut the lions' mouths\" (6:18-22). Darius had Daniel's accusers thrown to the lions instead and issued a decree that all his subjects should fear the God of Daniel (6:23-27). A ruler named Darius appears again in Ezra and Haggai, authorizing the rebuilt Jerusalem temple's completion decades later -- likely a different king by the same name (see interpretive note).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

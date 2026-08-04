@@ -2,17 +2,45 @@
   "person_id": "azariah-8",
   "name": "Azariah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Judah"
+  ],
   "references": [
     "2 Chronicles 21:2"
   ],
   "first_reference": "2 Chronicles 21:2",
+  "topics": [
+    "fratricide",
+    "royal succession",
+    "sibling rivalry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of King Jehoshaphat's six sons, given wealth and fortified cities by his father, but killed by his older brother Jehoram along with his other brothers when Jehoram secured the throne of Judah.",
+  "family_friendly_summary": "Azariah was one of the sons of Jehoshaphat, a good king of Judah. His father loved him and gave him gifts, silver, and cities to live in, along with his brothers. But when Jehoshaphat died, the oldest son, Jehoram, became king instead. Jehoram was afraid his brothers might try to take the throne from him, so instead of trusting God to keep him safe, he had Azariah and his brothers killed. It is a sad story about how the desire for power can lead someone to hurt even their own family, but the Bible tells it honestly rather than hiding it.",
+  "adult_story": "Azariah was one of six sons of King Jehoshaphat of Judah, named alongside his brothers Jehiel, Zechariah, Azaryahu, Michael, and Shephatiah (2 Chronicles 21:2). Jehoshaphat, wanting to provide for all his sons, gave each of them substantial gifts of silver, gold, and valuables, along with fortified cities in Judah -- but he gave the kingdom itself to Jehoram, his firstborn (21:3). When Jehoshaphat died and Jehoram took the throne, Jehoram moved quickly to secure his position: \"he killed all his brothers with the sword, and some of the rulers of Israel also\" (21:4). Azariah, along with his brothers, was murdered by his own sibling -- an act of naked political self-preservation with no attempt at justification recorded in the text. The Chronicler does not soften this; it is reported as bluntly as Jehoram's subsequent unfaithfulness (idolatry, marriage to Ahab's daughter Athaliah, and eventual divine judgment through illness, 21:6-19). Azariah's death stands as part of Scripture's unflinching record that the royal line through which God's covenant promises ran was not spared its own violence and sin -- family loyalty gave way to raw ambition even among the sons of a genuinely faithful king.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoshaphat-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

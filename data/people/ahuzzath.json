@@ -2,17 +2,45 @@
   "person_id": "ahuzzath",
   "name": "Ahuzzath",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gerar"
+  ],
   "references": [
     "Genesis 26:26"
   ],
   "first_reference": "Genesis 26:26",
+  "topics": [
+    "covenant-making",
+    "peace with the Philistines",
+    "Isaac's blessing"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Philistine official identified as a friend or advisor of King Abimelech of Gerar, part of the delegation that came to Isaac to make a peace covenant after witnessing the LORD's blessing on him.",
+  "family_friendly_summary": "Ahuzzath was a trusted friend of Abimelech, the king of the Philistine city of Gerar. Isaac had lived nearby, and God blessed him so much with flocks, servants, and wells of water that the Philistines grew envious and asked him to move away. Later, Abimelech realized God was clearly with Isaac, so he traveled to see him, bringing Ahuzzath and his army commander Phicol along. Instead of fighting, the two groups shared a feast together and made a peace treaty, promising not to harm one another. The next morning everyone exchanged solemn promises, and Isaac sent them home in peace.",
+  "adult_story": "Ahuzzath appears once in Scripture, as part of the Philistine delegation that traveled from Gerar to make peace with Isaac (Genesis 26:26). Isaac had settled near Gerar during a famine, and the LORD prospered him so greatly -- in flocks, servants, and reopened wells -- that King Abimelech had already asked him to leave the region, wary of his growing strength (26:12-16). Some time later, Abimelech came to Isaac at Beersheba, bringing Ahuzzath, described as \"his friend\" or advisor, along with Phicol, the commander of his army (26:26). Isaac, still smarting from earlier conflict over the wells, asked pointedly why they had come, since they had sent him away in hostility (26:27). The delegation answered that they now saw plainly the LORD was with him, and proposed a sworn covenant of nonaggression: neither side would harm the other, just as Abimelech's household claimed to have done Isaac only good (26:28-29). Isaac prepared a feast, they ate and drank together, and the next morning both parties exchanged oaths before parting in peace (26:30-31). Ahuzzath is never mentioned again, but his presence at this scene marks him as a witness to a recurring biblical pattern -- surrounding nations recognizing, sometimes reluctantly, that God's blessing rested visibly on the patriarchs, and choosing peace with them rather than continued rivalry.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

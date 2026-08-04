@@ -2,8 +2,15 @@
   "person_id": "ham",
   "name": "Ham",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Primeval History",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Mesopotamia (traditional setting of Genesis 1-11)"
+  ],
   "references": [
     "Genesis 5:32",
     "Genesis 6:10",
@@ -14,6 +21,23 @@
     "Psalms 78:51"
   ],
   "first_reference": "Genesis 5:32",
+  "topics": [
+    "Noah's family",
+    "dishonoring a parent",
+    "the curse of Canaan",
+    "table of nations"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Interpreters differ on exactly what made Ham's act so serious (whether \"saw his father's nakedness\" implies something more than looking) and on why Noah's curse fell on Ham's son Canaan rather than on Ham himself. Scripture does not explain either point, so no reading is stated as settled fact.",
+  "source_summary": "One of Noah's three sons who survived the flood; father of Canaan, Cush, Mizraim, and Put. After the flood, Ham saw his father's drunken nakedness and told his brothers rather than covering him, resulting in Noah's curse on Ham's son Canaan.",
+  "family_friendly_summary": "Ham was one of Noah's three sons who lived through the great flood with their families. After the flood, Noah planted a vineyard and one day drank too much wine and fell asleep without his clothes on inside his tent. Ham saw this and, instead of quietly covering his father, went and told his two brothers, Shem and Japheth. They respectfully walked in backward and covered Noah without looking. When Noah woke up and learned what had happened, he spoke a hard word over Ham's son Canaan. Ham's family grew into many nations after this, listed in the Bible's Table of Nations, including the ancestors of Egypt. Ham's story reminds us that how we treat our parents, even in their weak moments, matters to God.",
+  "adult_story": "Ham was one of Noah's three sons -- with Shem and Japheth -- who entered the ark and survived the flood with their wives (Genesis 5:32; 6:10; 7:13). After the waters receded, Noah planted a vineyard, drank its wine, and became drunk, lying uncovered inside his tent. Ham, \"the father of Canaan,\" saw his father's nakedness and went out and told his two brothers rather than covering him (Genesis 9:20-22). Shem and Japheth took a garment, walked in backward, and covered Noah without looking, careful not to add to their father's shame. When Noah awoke and learned what Ham had done, he pronounced a curse -- not on Ham directly, but on Ham's son Canaan, that he would be \"a servant of servants\" to his brothers, while blessing Shem and Japheth (9:24-27). The episode is framed as a clear failure to honor a parent, in sharp contrast to his brothers' careful discretion. Genesis 10 traces Ham's line into the Table of Nations -- Cush, Mizraim (Egypt), Put, and Canaan -- ancestor of many peoples surrounding Israel, including the Canaanites Israel would later displace (Genesis 10:6-20; 1 Chronicles 1:4-8). Psalm 78:51 later calls Egypt poetically \"the tents of Ham,\" recalling this ancestry when recounting the exodus plagues God struck against Pharaoh's land.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "noah",
     "mother": null,
@@ -24,6 +48,11 @@
       "mizraim",
       "put"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

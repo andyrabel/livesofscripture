@@ -2,18 +2,46 @@
   "person_id": "chenaniah",
   "name": "Chenaniah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 15:22-27",
     "1 Chronicles 26:29"
   ],
   "first_reference": "1 Chronicles 15:22-27",
+  "topics": [
+    "worship leadership",
+    "music",
+    "administration"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite chosen for his musical skill to direct the singing when David brought the ark to Jerusalem, and later placed with his sons over outward administrative duties for Israel.",
+  "family_friendly_summary": "Chenaniah was a Levite known for being especially good at music. When King David brought the special box called the Ark of the Covenant into Jerusalem, there was a big celebration with singing and instruments, and Chenaniah was chosen to lead the singers because he understood music so well. Later on, Chenaniah and his sons were given a different kind of job -- helping run some of the everyday business of the nation, working as officers and judges. Chenaniah shows how God gives people different gifts, whether for leading worship or leading in other kinds of service, and calls them to use those gifts well.",
+  "adult_story": "Chenaniah was a Levite singled out for his musical skill during one of Israel's great celebrations. When David organized the procession bringing the ark of the covenant up to Jerusalem, he appointed Levites as singers and instrumentalists, and Scripture specifically names \"Chenaniah, chief of the Levites, in charge of the singing; he gave instruction in singing because he was skillful\" (1 Chronicles 15:22, NASB). He is listed again among the musicians appointed with cymbals as the ark procession moved forward (15:27). Later, in David's broader organization of Levitical duties, Chenaniah and his sons are named among the Izharites \"for the outward business over Israel, as officers and judges\" (26:29) -- a separate administrative role distinct from his earlier musical leadership. Nothing more is recorded of Chenaniah's words or actions; he appears only within these two organizational lists. But both notices highlight the same pattern: he is named specifically because of a recognized skill -- first musical, then administrative -- entrusted to serve Israel's worship and its governance under David's reign. His brief appearances are a small but real reminder that Scripture takes note of ordinary skilled service offered to God's people, not only the deeds of kings and prophets.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

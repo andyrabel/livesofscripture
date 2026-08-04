@@ -2,12 +2,35 @@
   "person_id": "gomer-2",
   "name": "Gomer",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Northern Kingdom of Israel"
+  ],
   "references": [
     "Hosea 1:3"
   ],
   "first_reference": "Hosea 1:3",
+  "topics": [
+    "prophetic symbolism",
+    "unfaithfulness and redemption",
+    "marriage"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Whether the woman Hosea is told to love again in Hosea 3 is Gomer herself is not stated explicitly in the text and is a widely assumed but inferred reading. Interpreters also disagree on whether Hosea 1:2's description applies to her character before the marriage or is a prophetic description of what her unfaithfulness within the marriage would come to reveal.",
+  "source_summary": "Wife of the prophet Hosea, whose marriage and children's symbolic names were used by God as a living picture of Israel's unfaithfulness to Him and, ultimately, of His persistent love and promised restoration.",
+  "family_friendly_summary": "Gomer was the wife of the prophet Hosea. God gave Hosea an unusual assignment: to marry Gomer and let their family become a living picture of the story between God and His people, Israel. Gomer and Hosea had children, and God had Hosea give them unusual names that carried sad messages about how far Israel had wandered from God. But the story doesn't end in sadness -- later, Hosea is told to go and love his wife again and bring her back, even after she had wandered away, as a picture of how much God loves His people and wants to bring them back to Himself, no matter how far they've strayed.",
+  "adult_story": "Gomer, daughter of Diblaim, became the wife of the prophet Hosea by God's direct command, as an acted-out message to the northern kingdom of Israel: \"Go, take to yourself a wife of harlotry and have children of harlotry, for the land commits flagrant harlotry, forsaking the LORD\" (Hosea 1:2). She bore three children whom Hosea, at God's instruction, gave names carrying prophetic weight -- Jezreel, recalling coming judgment on the house of Jehu; Lo-ruhamah (\"not pitied\"), signaling a season when God would withhold compassion from Israel; and Lo-ammi (\"not My people\"), announcing a rupture in the covenant relationship itself (1:3-9). The marriage mirrored Israel's own spiritual unfaithfulness -- chasing after other gods the way an unfaithful spouse chases other lovers. Yet the book does not end in judgment. In Hosea 3, God tells the prophet, \"Go again, love a woman who is loved by her husband, yet an adulteress, ... even as the LORD loves the sons of Israel\"; Hosea buys her back for silver and barley and takes her home (3:1-3) -- widely understood, though not explicitly stated in the text, to be Gomer restored after straying. Whatever pain the marriage cost Hosea personally, Scripture uses Gomer's story -- unfaithfulness met with pursuing, purchased love -- to dramatize God's own refusal to finally abandon His unfaithful people.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -19,6 +42,11 @@
       "lo-ammi",
       "lo-ruhamah"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

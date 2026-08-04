@@ -2,17 +2,45 @@
   "person_id": "amminadab-2",
   "name": "Amminadab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 15:10-11"
   ],
   "first_reference": "1 Chronicles 15:10-11",
+  "topics": [
+    "the Ark of the Covenant",
+    "Levitical service",
+    "worship on God's terms"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite of the family of Uzziel, named chief of his father's household and personally summoned by King David to consecrate himself and help carry the Ark of the Covenant to Jerusalem properly on Levites' shoulders, after the earlier failed attempt that killed Uzzah.",
+  "family_friendly_summary": "After Uzzah died for touching the Ark of the Covenant during David's first attempt to bring it to Jerusalem, David realized the Ark had to be carried the way God commanded -- on the shoulders of specially prepared Levites, not on a cart. Amminadab was the leader of one of the Levite families, the sons of Uzziel, and David personally called on him, along with other Levite leaders, to get ready for the task. Amminadab and the others set themselves apart as holy before carrying the Ark, and this time the journey succeeded, with celebration, music, and sacrifices all along the way.",
+  "adult_story": "Amminadab was a Levite, chief of the sons of Uzziel, named among the family heads David summoned after the disastrous first attempt to bring the Ark of the Covenant to Jerusalem had ended in Uzzah's death for touching it (1 Chronicles 13; 15:1-10). Reflecting on that failure, David concluded, \"No one is to carry the ark of God but the Levites; for the LORD chose them to carry the ark of God and to minister to Him forever\" (15:2). He therefore gathered the priests Zadok and Abiathar along with the leading Levites -- Uriel, Asaiah, Joel, Shemaiah, Eliel, and Amminadab among them -- and commanded them, \"Consecrate yourselves, both you and your relatives, that you may bring up the ark of the LORD God of Israel to the place that I have prepared for it\" (15:11-12). Amminadab and his fellow Levites obeyed, sanctifying themselves and carrying the Ark on their shoulders with its poles, exactly as the Law of Moses required rather than on a cart (15:14-15). The second attempt succeeded where the first had failed: the Ark came up to Jerusalem amid sacrifice, singing, and rejoicing, with David himself dancing before it with all his strength (15:25-16:1). Amminadab's brief but named appearance marks him as one of the Levites entrusted to correct Israel's earlier mistake and bring God's presence into the city on God's own terms.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }
