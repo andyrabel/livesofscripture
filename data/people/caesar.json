@@ -2,8 +2,17 @@
   "person_id": "caesar",
   "name": "Caesar",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Judea",
+    "Rome"
+  ],
   "references": [
     "Matthew 22:17-21",
     "Mark 12:14-17",
@@ -13,11 +22,36 @@
     "John 19:12-15"
   ],
   "first_reference": "Matthew 22:17-21",
+  "topics": [
+    "Roman authority",
+    "taxation",
+    "Jesus's trial"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture calls this ruler only by his title, \"Caesar,\" never a personal name, in these passages. Luke 3:1 dates John the Baptist's ministry to \"the fifteenth year of the reign of Tiberius Caesar,\" and the tribute-coin and trial scenes fall within Tiberius's reign (AD 14-37), so most readers understand \"Caesar\" in these Gospel passages to mean Tiberius specifically -- but the Gospels themselves never name him directly outside Luke 3:1's dating note.",
+  "source_summary": "The reigning Roman emperor (understood as Tiberius) invoked throughout the Gospels as the image on the tribute coin in Jesus's teaching on rendering to Caesar, the ruler by whose reign year Luke dates John the Baptist's ministry, and the authority the crowd and Pilate invoked in condemning Jesus.",
+  "family_friendly_summary": "In the Gospels, \"Caesar\" is the title of the Roman emperor who ruled over the whole empire, including the land of Israel, during Jesus's life. Jesus never went looking for a fight with Caesar's government. When religious leaders tried to trap Jesus by asking if it was right to pay taxes to Caesar, Jesus asked to see a coin, pointed to Caesar's picture stamped on it, and said, \"Give to Caesar what belongs to Caesar, and to God what belongs to God\" -- a wise answer that avoided the trap. Later, during Jesus's trial, the crowd shouted that Pilate wasn't Caesar's friend if he let Jesus go, and that they had \"no king but Caesar\" -- pressuring Pilate into sentencing Jesus to death.",
+  "adult_story": "\"Caesar\" appears throughout the Gospels as the title of Rome's emperor, never a personal name -- though Luke 3:1 dates the start of John the Baptist's ministry to \"the fifteenth year of the reign of Tiberius Caesar,\" placing Jesus's public ministry and death within Tiberius's rule. When religious leaders tried to trap Jesus with a politically loaded question -- whether it was lawful to pay the poll tax to Caesar -- Jesus asked for a coin, had them identify whose image and inscription were on it, and answered, \"Render to Caesar the things that are Caesar's, and to God the things that are God's\" (Matthew 22:17-21; Mark 12:14-17; Luke 20:22-25), refusing either to endorse Rome's claims or hand His questioners a charge of sedition. During Jesus's trial before Pilate, Caesar's authority became the crowd's weapon: \"If you release this Man, you are no friend of Caesar; everyone who makes himself out to be a king opposes Caesar\" (John 19:12), and when Pilate offered to release Jesus as \"King of the Jews,\" the chief priests answered, \"We have no king but Caesar\" (19:15) -- a chilling declaration from Israel's own leaders, who rejected their true King in favor of Rome's. Luke also notes it was before Caesar's own authority that the charge against Jesus, of opposing payment of taxes and claiming kingship, was ultimately pressed (23:2).",
+  "christ_connections": [
+    "The crowd cried, \"We have no king but Caesar,\" rejecting their true King to His face. Lord Jesus, don't let me trade Your rule for anything smaller, even when it's costly to follow You instead.",
+    "You told them to give Caesar his coin and God what belongs to God. Everything I have bears Your image before it bears anyone else's -- help me give You what's actually Yours: all of me."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crowned figure holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,48 @@
   "person_id": "jehudi",
   "name": "Jehudi",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 36:14-23"
   ],
   "first_reference": "Jeremiah 36:14-23",
+  "topics": [
+    "the word of God",
+    "royal defiance",
+    "prophetic scroll"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A royal official sent to fetch Baruch's scroll of Jeremiah's prophecies and read it aloud, first to the officials and then to King Jehoiakim, who cut the scroll apart and burned it column by column.",
+  "family_friendly_summary": "Jehudi worked for the king of Judah. One day the officials asked him to bring a scroll that had God's words written on it by Jeremiah's helper, Baruch. Jehudi read the scroll out loud so everyone could hear what God had said. When King Jehoiakim heard it, he didn't want to listen. He cut the scroll into pieces with a knife and threw it into the fire until it was all burned up. But that didn't erase God's message -- Jeremiah simply had the whole scroll written out again, with more added. Jehudi's story is a small reminder that people can try to silence God's word, but they can never truly get rid of it.",
+  "adult_story": "Jehudi, son of Nethaniah, was a royal official in Jerusalem during the reign of King Jehoiakim. When Baruch, Jeremiah's scribe, read aloud in the temple the scroll of judgments Jeremiah had dictated, the alarmed officials sent Jehudi to fetch Baruch and the scroll so they could hear it themselves (Jeremiah 36:14). After hearing it, they sent Jehudi to read it again, this time before King Jehoiakim, who was sitting by a fire in his winter house (36:20-21). As Jehudi read, column by column, the king cut each section off with a scribe's knife and threw it into the brazier, until the entire scroll was consumed -- showing no fear despite his officials' warning (36:22-24). Neither the king nor those with him tore their clothes in repentance, unlike Josiah a generation earlier when he heard God's law (compare 2 Kings 22:11). Jehudi himself is simply the messenger and reader in this account, carrying out his masters' orders, but his role puts him at the center of one of Scripture's starkest pictures of royal defiance: a king who thought he could destroy God's word by burning the paper it was written on. The LORD immediately had Jeremiah dictate the scroll again, \"and many similar words were added\" (36:32), including a specific judgment against Jehoiakim for the act.",
+  "christ_connections": [
+    "Jehoiakim's attempt to destroy God's word by fire, only to have it rewritten and expanded, testifies that \"the word of our God stands forever\" (Isaiah 40:8) -- the same word that is ultimately fulfilled and embodied in Christ, the living Word (John 1:1, 14)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "nethaniah-4",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

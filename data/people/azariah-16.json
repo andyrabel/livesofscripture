@@ -2,17 +2,50 @@
   "person_id": "azariah-16",
   "name": "Azariah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "region": "egypt",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Mizpah",
+    "Egypt"
+  ],
   "references": [
     "Jeremiah 43:2"
   ],
   "first_reference": "Jeremiah 43:2",
+  "topics": [
+    "rejecting God's word",
+    "unbelief",
+    "forced exile to Egypt"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jeremiah 42:1 names a leader among this same group as \"Jezaniah son of Hoshaiah,\" while Jeremiah 43:2 names \"Azariah son of Hoshaiah\" -- ancient manuscripts and translations vary, and most interpreters take these as the same individual under two names or a textual variant, but Scripture itself does not explicitly identify them as one person.",
+  "source_summary": "One of the leaders who, after the assassination of Gedaliah, accused Jeremiah of lying about God's command to remain in Judah and led the remnant of Judah, together with Jeremiah and Baruch, down into Egypt in direct defiance of that word.",
+  "family_friendly_summary": "After Jerusalem fell and its governor Gedaliah was murdered, the Judeans who were left were afraid of what the Babylonians might do to them. They asked the prophet Jeremiah to pray and find out what God wanted them to do, and they promised to obey, whatever the answer was. Jeremiah told them that God wanted them to stay in the land, and promised to protect and bless them if they did. But a man named Azariah didn't believe him. He accused Jeremiah of lying and said Jeremiah's friend Baruch had convinced him to say it. Azariah and the other leaders refused to obey God's word, and they forced the whole remaining group -- including Jeremiah -- to go down to Egypt instead. It's a sad reminder that hearing God's word isn't the same as obeying it.",
+  "adult_story": "After the Babylonian-appointed governor Gedaliah was assassinated, the surviving leaders of Judah -- fearing Babylonian retaliation for the murder -- came to Jeremiah and asked him to seek the LORD's guidance about whether to flee to Egypt, solemnly vowing, \"whether it is pleasant or unpleasant, we will listen to the voice of the LORD our God\" (Jeremiah 42:1-6). Ten days later, Jeremiah delivered God's answer: remain in the land, and the LORD would build them up and show them mercy even under Babylon's hand; go to Egypt instead, and the very sword and famine they feared would overtake them there (42:7-22). Azariah, son of Hoshaiah, was among those who rejected this word outright. Together with Johanan son of Kareah and \"all the arrogant men,\" he accused Jeremiah to his face: \"You are telling a lie! The LORD our God has not sent you... Baruch the son of Neriah is inciting you against us\" (43:2-3). Despite their earlier vow to obey, Azariah and the others refused to stay in Judah. They forced the entire remnant -- including Jeremiah and his scribe Baruch, taken against their will -- down into Egypt, settling at Tahpanhes (43:4-7). Azariah's story is a study in the gap between asking for God's word and actually submitting to it: he sought a prophecy, received a clear answer, and then called the messenger a liar rather than obey it.",
+  "christ_connections": [
+    "Lord Jesus, Azariah asked for God's word and then refused to believe it when it wasn't what he wanted to hear. Keep me from doing what he did -- give me a heart that obeys You even when Your answer isn't the one I hoped for."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hoshaiah-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,48 @@
   "person_id": "amasiah",
   "name": "Amasiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Judah"
+  ],
   "references": [
     "2 Chronicles 17:16"
   ],
   "first_reference": "2 Chronicles 17:16",
+  "topics": [
+    "military commander",
+    "personal devotion to God",
+    "Jehoshaphat's army"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of King Jehoshaphat's senior military commanders in Judah, distinguished in the army roster by the note that he 'volunteered himself to the LORD.'",
+  "family_friendly_summary": "During the reign of King Jehoshaphat of Judah, the Bible lists several of his top military commanders, each leading enormous armies. One of them was Amasiah. Out of all the commanders named, the Bible adds something special about Amasiah: he had volunteered himself to the LORD. That means Amasiah didn't just serve because it was his job -- he had personally and willingly given himself to serve God. It's a small detail in a long list of names, but it shows that even in the middle of running a kingdom's army, one man's heart was set on belonging to God first.",
+  "adult_story": "Jehoshaphat, king of Judah, organized his kingdom's defenses by appointing commanders over large divisions of troops stationed throughout the land (2 Chronicles 17:12-19). Scripture lists these officers by name and by the size of the forces under them -- Adnah with 300,000, Jehohanan with 280,000, and then \"next to him Amasiah the son of Zichri, who volunteered for the LORD, and with him 200,000 valiant warriors\" (17:16). Among the commanders named in this roster, Amasiah alone receives this added note of personal devotion -- while the others are identified only by lineage and troop numbers, Amasiah is remembered specifically as a man who gave himself to the LORD's service willingly, not merely by appointment or birthright. The text does not elaborate further on what that volunteering looked like in practice, but the distinction Scripture draws between duty and devotion is itself the point: in a kingdom being strengthened militarily under a king who \"walked in the earlier ways of his father David\" and sought the LORD (17:3-4), Amasiah stands out as a man whose service to the throne flowed from a prior, deliberate commitment to God Himself.",
+  "christ_connections": [
+    "Lord, let it be said of me the way it was said of Amasiah -- that I didn't just end up serving You, I gave myself to You on purpose. Take what I volunteer and use it."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zichri-8",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

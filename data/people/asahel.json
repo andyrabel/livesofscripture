@@ -2,8 +2,16 @@
   "person_id": "asahel",
   "name": "Asahel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gibeon"
+  ],
   "references": [
     "2 Samuel 2:18-32",
     "2 Samuel 3:27-30",
@@ -13,6 +21,25 @@
     "1 Chronicles 27:7"
   ],
   "first_reference": "2 Samuel 2:18-32",
+  "topics": [
+    "swift but reckless zeal",
+    "blood vengeance",
+    "David's mighty men"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of King David's mighty men, brother of Joab and Abishai and nephew of David through his mother Zeruiah, famed for being 'as swift-footed as a wild gazelle,' killed by Abner while relentlessly pursuing him after the battle of Gibeon -- a death Joab later avenged by murdering Abner.",
+  "family_friendly_summary": "Asahel was one of King David's strongest soldiers, famous for being incredibly fast, like a wild deer. During a battle between David's men and the forces loyal to Saul's family, Asahel chased down an enemy commander named Abner, determined to catch him. Abner warned Asahel more than once to stop and go after someone else instead, but Asahel wouldn't give up the chase. In the end, Abner was forced to defend himself, and Asahel was killed. His death caused a lot of pain and led to more trouble between the two families, showing how choices made in the heat of a moment can have consequences that last a long time.",
+  "adult_story": "Asahel, son of Zeruiah (David's sister or half-sister) and brother of Joab and Abishai, was one of David's chief mighty men, distinguished specifically for speed: \"Asahel was as swift-footed as one of the gazelles which is in the field\" (2 Samuel 2:18). During the battle between David's forces and Abner's forces at Gibeon, Asahel pursued Abner directly, \"without turning to the right or to the left from following Abner\" (2:19). Abner, the more experienced commander, repeatedly urged Asahel to turn aside and take an easier opponent, warning him plainly that he did not want to kill him and face Joab's revenge -- \"How then could I lift up my face to your brother Joab?\" (2:20-23). Asahel refused to stop, so Abner struck him with the butt end of his spear, driving it through his body; Asahel died on the spot, and his fellow soldiers stopped in their tracks when they reached his body (2:23). His death did not end there: two years later, Joab lured Abner aside at Hebron and killed him in revenge, \"because he had put his brother Asahel to death\" (2 Samuel 3:27-30), a blood feud David publicly mourned and disavowed even as it stained his own commander. Asahel was buried in his father's tomb in Bethlehem and remained honored among David's thirty mighty men (2 Samuel 23:24; 1 Chronicles 11:26), later remembered as a division commander in David's military organization (1 Chronicles 27:7).",
+  "christ_connections": [
+    "Asahel's unstoppable zeal, admirable in its courage but reckless in its refusal to hear a warning, is a caution Scripture doesn't shy from -- even David's own family suffered for it. It points to the need for a wisdom greater than raw zeal, the kind Christ showed in knowing exactly when to press forward and when to yield (Matthew 26:52-54)."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": "zeruiah",
@@ -20,6 +47,11 @@
     "children": [
       "zebadiah-5"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

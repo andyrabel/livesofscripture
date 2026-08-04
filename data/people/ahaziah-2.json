@@ -5,7 +5,7 @@
     "Jehoahaz",
     "Azariah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 8:24-26",
@@ -28,6 +28,41 @@
     "children": [
       "joash-3"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "kingdom": "judah",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "house of Ahab's influence",
+    "royal downfall",
+    "Jehu's purge"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Kings 8:26 states Ahaziah was twenty-two years old when he began to reign, while 2 Chronicles 22:2 gives his age as forty-two, which would make him older than his own father Jehoram. Most scholars regard the Chronicles figure as an early copying error, since some ancient versions read \"twenty-two\" there as well, but this site notes rather than silently resolves the discrepancy.",
+  "source_summary": "A king of Judah, son of Jehoram and Ahab's daughter Athaliah, who followed the house of Ahab's ways, allied with Israel's King Joram against Aram, and was killed by Jehu during Jehu's purge of Ahab's dynasty.",
+  "family_friendly_summary": "Ahaziah became king of Judah after his father Jehoram died. His mother, Athaliah, came from the family of wicked King Ahab of Israel, and sadly Ahaziah followed their bad example instead of following God. He joined his uncle King Joram of Israel in a war against the king of Aram. When Joram was wounded in battle, Ahaziah went to visit him while he recovered. At the same time, God had chosen a man named Jehu to become the next king of Israel and to bring judgment on Ahab's whole family for their years of wickedness. When Jehu came to carry out that judgment, Ahaziah happened to be with Joram and was struck down too, dying a short time later. He was brought back to Jerusalem to be buried.",
+  "adult_story": "Ahaziah became king of Judah after his father Jehoram's death, and Scripture is blunt about why he \"walked in the way of the house of Ahab\": his mother was Athaliah, granddaughter of Omri, who counseled him toward the same evil that had marked Ahab's dynasty in Israel (2 Kings 8:26-27). Ahaziah allied with his uncle Joram, king of Israel, to fight Hazael of Aram at Ramoth-gilead, where Joram was wounded and withdrew to Jezreel to recover; Ahaziah went down to visit him there (8:28-29). At that moment, Elisha's prophetic word came to pass: Jehu was anointed king of Israel and commissioned to wipe out Ahab's entire house as judgment for Jezebel's and Ahab's bloodshed (9:1-10). When Jehu struck down Joram, Ahaziah fled, but Jehu's men pursued and mortally wounded him near Ibleam; he managed to reach Megiddo before he died, and his servants carried his body to Jerusalem for burial (9:27-28). A parallel account in 2 Chronicles 22:7-9 adds that Ahaziah was found hiding in Samaria and was brought before Jehu to be put to death. Ahaziah's one-year reign shows Scripture's consistent verdict: alliance with evil, even by family ties, carries real and often fatal consequences.",
+  "christ_connections": [
+    "Lord Jesus, Ahaziah's family ties to Ahab's house pulled him into their judgment. Being united to You instead of to sin is the only family tie that saves rather than destroys.",
+    "Jehu's purge came suddenly, sweeping up even those just visiting at the wrong moment. Your judgment is certain too -- which is exactly why I need to be found in You, not just near You, when it comes."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

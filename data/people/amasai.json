@@ -2,14 +2,41 @@
   "person_id": "amasai",
   "name": "Amasai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "the wilderness stronghold"
+  ],
   "references": [
     "1 Chronicles 6:25-35",
     "1 Chronicles 15:24",
     "2 Chronicles 29:12"
   ],
   "first_reference": "1 Chronicles 6:25-35",
+  "topics": [
+    "Spirit-inspired declaration",
+    "loyalty to David",
+    "David's mighty men"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "It is uncertain whether the Amasai of 1 Chronicles 12:18 (David's era), the Levite listed in 1 Chronicles 6:25, and the man of the same name in 2 Chronicles 29:12 (generations later, under Hezekiah) are the same individual or different men sharing a common name; Scripture does not clarify.",
+  "source_summary": "Chief of David's 'thirty' mighty men; moved by the Spirit of God, he declared the assembled warriors' loyalty to David in poetic words while David was still a fugitive from Saul.",
+  "family_friendly_summary": "Long before David became king, while he was still hiding from King Saul, a large group of skilled warriors came to join him at his stronghold in the wilderness. David wasn't sure at first whether they had come to help him or to trick him, so he asked them directly. Then something wonderful happened: God's Spirit came upon a man named Amasai, the leader of David's inner circle of thirty mighty warriors. Amasai spoke up boldly, declaring that he and the others belonged to David and were on his side, and that God Himself was helping David. David welcomed them and made them commanders in his growing army.",
+  "adult_story": "While David was a fugitive hiding from King Saul, warriors from various tribes began gathering to him at his wilderness stronghold. When a large company of Benjamites and Judahites arrived, David went out to meet them and questioned their intentions bluntly: if they came in peace to help him, he would welcome them, but if they came to betray him to his enemies, he prayed God Himself would judge it (1 Chronicles 12:16-17). In response, \"the Spirit came upon Amasai, who was chief of the thirty, and he said, 'We are yours, O David, and with you, O son of Jesse! Peace, peace to you, and peace to him who helps you; indeed, your God helps you!'\" (12:18). Amasai's Spirit-prompted words settled the matter -- David received the men and made them officers over his growing band (12:18). Amasai reappears briefly elsewhere: he is listed in the Levitical genealogy of Kohath's descendants (1 Chronicles 6:25) and helped bring up the ark to Jerusalem as a priestly trumpeter (15:24), and a man of the same name later helps consecrate the temple under Hezekiah (2 Chronicles 29:12), though it is uncertain whether all these references describe one man or several bearing a common name. His clearest moment remains this single Spirit-filled declaration of loyalty at a decisive turning point in David's rise -- brief, but unmistakably attributed to God's own prompting rather than mere political calculation.",
+  "christ_connections": [
+    "Lord, Amasai's loyalty to David came from Your Spirit, not his own decision. Move in me the same way -- let my 'yes' to You be Your work in me, not just my own resolve.",
+    "'We are yours, and with you' -- that is what I want to say to You, Lord Jesus, the true Son of David. Peace to You, and peace to everyone who helps Your cause."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "elkanah-3",
     "mother": null,
@@ -17,6 +44,11 @@
     "children": [
       "mahath"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

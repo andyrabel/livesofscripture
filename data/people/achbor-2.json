@@ -4,8 +4,15 @@
   "alt_names": [
     "Abdon"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Kings 22:12-14",
     "2 Chronicles 34:20",
@@ -13,6 +20,24 @@
     "Jeremiah 36:12"
   ],
   "first_reference": "2 Kings 22:12-14",
+  "topics": [
+    "seeking God's word",
+    "royal officials"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A royal official under King Josiah, one of five men sent to consult the prophetess Huldah after the Book of the Law was discovered in the temple; his son Elnathan later served under King Jehoiakim and was present when Baruch read Jeremiah's scroll aloud.",
+  "family_friendly_summary": "Achbor was one of King Josiah's officials. When the Book of the Law was found in the temple during repairs, Josiah was troubled and wanted to know what it meant for the nation. He sent Achbor and four other trusted men to ask the prophetess Huldah what God wanted His people to know. Huldah gave them a serious message about coming judgment, but also good news for Josiah personally, because his heart was tender toward God. Later, Achbor's son Elnathan also served as an official and appears during the reign of the next king, showing how this family stayed involved in the nation's affairs during a critical time.",
+  "adult_story": "Achbor son of Micaiah was one of five officials King Josiah sent to inquire of the LORD after the Book of the Law was discovered in the temple during renovations. Alongside Hilkiah the priest, Ahikam, Shaphan the scribe, and Asaiah, Achbor went to the prophetess Huldah in Jerusalem's Second Quarter to learn what the newly recovered Law meant for the nation (2 Kings 22:12-14; 2 Chronicles 34:20). Huldah's answer was sobering: judgment was indeed coming on Judah for its idolatry, but because Josiah's heart was tender and he had humbled himself before the LORD, he personally would be gathered to his grave in peace before the disaster fell (22:15-20). Achbor is not recorded speaking on his own, but his presence in this specific five-man delegation, named individually rather than folded into a generic \"officials,\" marks him as one of the trusted men Josiah relied on at a pivotal moment in Judah's history. His son Elnathan continued in royal service after him: he was one of the officials King Jehoiakim sent to Egypt to retrieve the fleeing prophet Uriah (Jeremiah 26:20-23), and he was present in the scribe's chamber urging that Jeremiah's scroll not be burned when Jehoiakim destroyed it, though the king refused to listen (36:11-12, 25).",
+  "christ_connections": [
+    "Achbor was sent to find out what God's newly recovered word required, and Josiah acted on the answer immediately. Lord Jesus, You are the Word made flesh -- give me the same eagerness Josiah had to hear and obey what You have already spoken."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "micaiah-2",
     "mother": null,
@@ -20,6 +45,11 @@
     "children": [
       "elnathan"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

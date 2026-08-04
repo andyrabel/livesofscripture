@@ -2,17 +2,49 @@
   "person_id": "bidkar",
   "name": "Bidkar",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jezreel"
+  ],
   "references": [
     "2 Kings 9:25"
   ],
   "first_reference": "2 Kings 9:25",
+  "topics": [
+    "justice",
+    "divine judgment",
+    "loyalty"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An officer of Jehu who was ordered to cast the body of the slain King Joram of Israel into the field of Naboth the Jezreelite, in fulfillment of Elijah's earlier prophecy against Ahab's house.",
+  "family_friendly_summary": "Bidkar was an officer who served under Jehu, a commander who became king of Israel. Years earlier, King Ahab had wrongly taken a vineyard from a man named Naboth and had him killed to get it. God had promised through the prophet Elijah that Ahab's family would pay for that crime. When Jehu killed Ahab's son, King Joram, in that very same field, he told Bidkar to throw Joram's body onto the field that had belonged to Naboth. Jehu reminded Bidkar that they had both been riding behind Ahab years before when Elijah first spoke that warning -- and now, at last, God's word had come true.",
+  "adult_story": "Bidkar was Jehu's officer, riding beside him the day Jehu was anointed to overthrow the house of Ahab and become king of Israel (2 Kings 9:1-13). When Jehu confronted King Joram, son of Ahab, on the very plot of land that had belonged to Naboth the Jezreelite, Joram fled and Jehu shot him through the heart with an arrow (9:21-24). Jehu then turned to Bidkar and gave him a specific charge: \"Take him up and cast him into the property of the field of Naboth the Jezreelite; for I remember when you and I were riding together after Ahab his father, that the LORD laid this oracle against him\" (9:25). Jehu recalled Elijah's earlier prophecy that God had seen Naboth's blood and would repay Ahab's house on that same ground (9:25-26; compare 1 Kings 21:19-24). Bidkar, addressed personally and recalled as an eyewitness alongside Jehu to Elijah's original oracle, carried out the order, disposing of Joram's body on the very field his father had stolen through murder. Bidkar's brief appearance ties together two generations of a single unresolved sin, and shows God's word, spoken years earlier through a prophet, coming true exactly, to the place, at the hand God chose.",
+  "christ_connections": [
+    "God's word against Naboth's murder didn't expire with time -- it came true exactly where it was spoken. Lord Jesus, I trust that every promise You've made will be kept just as surely, in Your time."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet, holding a sword and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

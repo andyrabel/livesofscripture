@@ -2,17 +2,50 @@
   "person_id": "elasah-2",
   "name": "Elasah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Babylon"
+  ],
   "references": [
     "Jeremiah 29:3"
   ],
   "first_reference": "Jeremiah 29:3",
+  "topics": [
+    "delivering God's word",
+    "exile"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Shaphan, sent by King Zedekiah as an envoy to Nebuchadnezzar in Babylon, by whose hand Jeremiah sent his letter urging the exiles to settle in and seek the welfare of the city.",
+  "family_friendly_summary": "Elasah was a messenger sent by King Zedekiah of Judah on a trip to Babylon to see the powerful king Nebuchadnezzar. The prophet Jeremiah used this trip to send an important letter to the Israelites who were already living as exiles in Babylon. In the letter, Jeremiah told the people not to lose hope but to build homes, plant gardens, and pray for the good of the city where they were living, because God had a good plan for their future. Elasah's part in the story is small, but he was the one who carried this hopeful message to God's people far from home.",
+  "adult_story": "Elasah, son of Shaphan, was sent by King Zedekiah of Judah as part of an embassy to Nebuchadnezzar, king of Babylon, along with Gemariah son of Hilkiah (Jeremiah 29:3). Jeremiah used this journey to send a letter, by Elasah's hand, to the elders, priests, prophets, and all the people the Babylonians had already carried off from Jerusalem into exile. The letter itself is one of the most significant passages in Jeremiah: rather than promising a quick return, it instructed the exiles to build houses and live in them, plant gardens, marry, have children, and \"seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf\" (29:4-7). It warned against the false prophets telling the exiles their captivity would be short, and gave the famous promise that after seventy years God would fulfill His good word toward them and bring them back, plans \"for welfare and not for calamity, to give you a future and a hope\" (29:10-11). Elasah himself performs no independent action beyond carrying the letter as a royal envoy, but his role placed him at the center of a pivotal moment: God's most important message of patient hope to His exiled people traveled to them because Elasah made the journey.",
+  "christ_connections": [
+    "The letter Elasah carried told God's exiled people to seek the welfare of a foreign city while they waited for God's promised future -- the same posture Christ calls His people to as exiles and sojourners now, doing good even where they do not yet belong (1 Peter 2:11-12).",
+    "The hope in the letter Elasah delivered, a future and a hope after exile, points forward to the far greater homecoming Christ secures for all who trust Him, a hope no exile can finally take away (Hebrews 11:13-16)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shaphan-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

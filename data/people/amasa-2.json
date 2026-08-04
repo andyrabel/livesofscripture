@@ -2,17 +2,50 @@
   "person_id": "amasa-2",
   "name": "Amasa",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Jericho"
+  ],
   "references": [
     "2 Chronicles 28:12"
   ],
   "first_reference": "2 Chronicles 28:12",
+  "topics": [
+    "mercy to captives",
+    "opposing injustice",
+    "heeding a prophet's warning"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of four named Ephraimite leaders who, heeding the prophet Oded's warning, confronted Israel's returning army and insisted that Judean war captives be clothed, fed, and sent home rather than enslaved.",
+  "family_friendly_summary": "After a war between Israel and Judah, the army of Israel brought home thousands of captured people from Judah, planning to make them servants. A prophet named Oded warned the army that this was wrong -- these captives were their own relatives, and God was already angry about the bloodshed. Amasa was one of four leaders in Israel who listened. Along with the others, he stood up to the returning soldiers and insisted that the captives be treated kindly instead. Because of Amasa and his fellow leaders, the prisoners were given clothes, sandals, food, and even donkeys to ride, and were safely escorted home to Jericho.",
+  "adult_story": "During the reign of King Ahaz, Judah suffered a heavy defeat at the hands of Israel's King Pekah, who killed vast numbers of Judah's soldiers and brought 200,000 women and children north to Samaria as captives, intending to make them slaves (2 Chronicles 28:5-8). The prophet Oded met the returning army and rebuked them sharply: bringing their own kinsmen into slavery would only add to Israel's guilt before the LORD, whose anger already burned against them (28:9-11). Amasa the son of Hadlai was one of four named heads of the tribe of Ephraim -- alongside Azariah, Berechiah, and Jehizkiah -- who took Oded's warning seriously. Together they \"arose against those who were coming from the war\" and told them plainly, \"You must not bring the captives in here, for you are proposing to bring upon us guilt against the LORD, adding to our sins and our guilt\" (28:12-13). Their words worked: the soldiers left the captives and plunder before the assembly, and Amasa and the others personally clothed the naked, fed the hungry, anointed the injured with oil, set the weak on donkeys, and escorted the captives all the way home to Jericho, the city of palm trees (28:14-15). In a chapter otherwise dominated by King Ahaz's unfaithfulness, Amasa's stand for mercy is a rare bright spot.",
+  "christ_connections": [
+    "Lord, Amasa refused to let cruelty pass just because a crowd of armed men wanted it. Give me the same courage to stand up and insist on mercy, even when it isn't popular.",
+    "You clothe the naked and feed the hungry through Your own hands on the cross, Lord Jesus. Amasa and his friends only imitated for a moment what You do completely and forever."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hadlai",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

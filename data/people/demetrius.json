@@ -2,17 +2,49 @@
   "person_id": "demetrius",
   "name": "Demetrius",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ephesus"
+  ],
   "references": [
     "Acts 19:24-38"
   ],
   "first_reference": "Acts 19:24-38",
+  "topics": [
+    "opposition to the gospel",
+    "idolatry and profit"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A silversmith in Ephesus who made shrines of the goddess Artemis and, seeing his trade threatened by Paul's preaching, incited a citywide riot against Paul and his companions.",
+  "family_friendly_summary": "Demetrius was a silversmith in the city of Ephesus who made his living crafting little silver shrines of the goddess Artemis, which people bought to worship her. When the apostle Paul preached that gods made by human hands are not really gods at all, many people believed him and stopped buying the shrines. Demetrius grew worried about losing money and gathered the other silversmiths and craftsmen together. He stirred them up until a huge, confused crowd filled the city's theater, shouting for two hours, \"Great is Artemis of the Ephesians!\" The city officials finally calmed everyone down and sent them home. Demetrius's story shows how the gospel can upset people's business and comfort, not just their beliefs.",
+  "adult_story": "Demetrius was a silversmith in Ephesus who made a substantial living crafting silver shrines of the goddess Artemis, whose great temple there was one of the wonders of the ancient world (Acts 19:24). As Paul's preaching in Ephesus led many to turn from idols, arguing that gods made by human hands are not gods at all, Demetrius saw both his trade and Artemis's reputation threatened (19:25-27). He gathered the silversmiths and other craftsmen and gave a calculated speech, framing the danger not just as lost income but as an insult to \"the great goddess Artemis\" herself (19:27). Enraged, the workers began shouting, and the uproar spread through the city; a crowd dragged Paul's traveling companions Gaius and Aristarchus into the theater, and for two hours the confused mob chanted, \"Great is Artemis of the Ephesians!\" (19:28-34). Paul wanted to appear before the crowd himself, but disciples and even some Asiarch officials, his friends, kept him from the danger (19:30-31). The city clerk finally quieted the crowd, warning that they risked being charged with rioting since there was no legitimate legal complaint, and dispersed the assembly (19:35-41). Demetrius's episode shows the gospel provoking opposition rooted not in argument but in threatened profit and pride -- a pattern the early church repeatedly faced.",
+  "christ_connections": [
+    "Demetrius fought the gospel because it threatened his income, echoing how the moneychangers and those profiting from the temple system resisted Jesus (John 2:14-16) -- the truth about the true God has always cost some people something they'd rather keep.",
+    "The riot Demetrius stirred up could not stop the gospel from taking root in Ephesus -- just as no opposition, however loud, could stop the risen Christ's church from being built (Matthew 16:18)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

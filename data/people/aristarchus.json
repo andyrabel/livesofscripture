@@ -2,8 +2,18 @@
   "person_id": "aristarchus",
   "name": "Aristarchus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Thessalonica",
+    "Ephesus",
+    "Rome"
+  ],
   "references": [
     "Acts 19:29",
     "Acts 20:4",
@@ -12,11 +22,34 @@
     "Philemon 1:24"
   ],
   "first_reference": "Acts 19:29",
+  "topics": [
+    "companionship in ministry",
+    "suffering with Paul"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Macedonian from Thessalonica who traveled as one of Paul's companions, was seized by the mob during the riot in Ephesus, accompanied Paul to Jerusalem and then on the voyage to Rome, and is called Paul's 'fellow prisoner.'",
+  "family_friendly_summary": "Aristarchus was a friend and traveling companion of the apostle Paul. When a huge, angry crowd rioted in the city of Ephesus because Paul's preaching was hurting the local idol-making business, the mob grabbed Aristarchus and dragged him into a theater, even though he hadn't done anything except be Paul's companion. That didn't stop him from following Paul -- he kept traveling with him, even joining Paul on the difficult sea voyage to Rome, where Paul was going to stand trial. Paul later called him his \"fellow prisoner,\" showing how loyal Aristarchus was, willing to share in hardship for the sake of the gospel.",
+  "adult_story": "Aristarchus, a Macedonian from Thessalonica, was one of Paul's traveling companions during his third missionary journey (Acts 20:4; 27:2). He was swept up in the violent riot at Ephesus, where silversmiths angry that Paul's preaching threatened their trade in idols of Artemis stirred the whole city into confusion; the mob seized Aristarchus and Gaius, another of Paul's companions, and dragged them into the theater, though Paul himself was kept from entering by the disciples and even by sympathetic city officials (Acts 19:23-31). Aristarchus continued with Paul afterward, traveling with him from Greece toward Jerusalem (Acts 20:4) and later sailing with him as a prisoner bound for Rome (Acts 27:2), sharing in the danger of that voyage, including the shipwreck at Malta. Paul's letters confirm the closeness of this partnership: writing from prison, he calls Aristarchus his \"fellow prisoner\" who sends greetings to the Colossians (Colossians 4:10) and lists him among his \"fellow workers\" in the short letter to Philemon (Philemon 1:24). Scripture records no specific words from Aristarchus, but his repeated, risk-taking presence at Paul's side -- through a riot, a long journey, a shipwreck, and imprisonment -- speaks for itself.",
+  "christ_connections": [
+    "Aristarchus shared Paul's chains as his \"fellow prisoner\" for no fault of his own except loyalty to the gospel -- a small picture of Christ, who bore chains and a cross that were never His to bear, for people who were."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

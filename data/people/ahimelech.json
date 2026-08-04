@@ -2,7 +2,7 @@
   "person_id": "ahimelech",
   "name": "Ahimelech",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Samuel 21:1-8",
@@ -19,6 +19,39 @@
     "children": [
       "abiathar"
     ]
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Nob"
+  ],
+  "topics": [
+    "priest of Nob",
+    "massacre",
+    "David's flight from Saul"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The priest at Nob who unknowingly aided David during his flight from Saul, giving him consecrated bread and Goliath's sword; when Saul learned of it, he had Ahimelech and eighty-four other priests of Nob massacred, along with the entire town, in one of the darkest atrocities of Saul's reign.",
+  "family_friendly_summary": "Ahimelech was the priest at a town called Nob. When David was running away from King Saul, who wanted to hurt him, David came to Ahimelech and asked for food and a weapon, without fully explaining why he needed to hide. Not knowing David was in danger from the king, Ahimelech kindly gave him bread and the sword that had once belonged to Goliath. A man named Doeg saw this happen and later told Saul about it. Saul became furious and accused Ahimelech of helping his enemy. Even though Ahimelech explained that he had done nothing wrong and didn't know David was fleeing from the king, Saul ordered him and many other priests to be killed, and the town of Nob was destroyed. It was one of the saddest and most unjust things Saul did as king.",
+  "adult_story": "Ahimelech served as priest at Nob when David, fleeing Saul, arrived alone and asked for provisions, telling Ahimelech he was on a secret royal errand (1 Samuel 21:1-2) -- a lie that put Ahimelech in danger without his knowledge. Having no ordinary bread available, Ahimelech gave David the consecrated showbread, and also handed over the sword of Goliath, which had been kept wrapped behind the ephod since David's earlier victory (21:6, 9). Doeg the Edomite, Saul's chief herdsman, witnessed the exchange and later reported it to Saul, who was already hunting for any excuse to strike at David's supporters (22:9-10). Saul summoned Ahimelech and all the priests of Nob and accused them of conspiracy. Ahimelech answered honestly and courageously: he had no idea David was a fugitive, and no servant of Saul's was more faithful than David (22:14-15). Saul, unmoved, ordered his guards to execute the priests; when they refused to raise a hand against the LORD's priests, Saul commanded Doeg, who alone killed all eighty-five priests wearing the linen ephod, then put the entire town of Nob to the sword -- men, women, children, infants, and livestock (22:17-19). Only Ahimelech's son Abiathar escaped to tell David what had happened. David, recognizing his own lie had set the massacre in motion, confessed his responsibility plainly: \"I have brought about the death of every person in your father's household\" (22:22). Ahimelech's death stands as one of Scripture's starkest pictures of an innocent man destroyed by a tyrant's paranoia.",
+  "christ_connections": [
+    "Lord Jesus, Ahimelech gave David the holy bread when he had nothing else to offer, foreshadowing how You would later call Yourself the true Bread from heaven, freely given to the hungry and desperate.",
+    "David's lie cost an innocent priest his life, and David knew it and grieved it. You never once lied, yet You still bore the death that was rightly mine."
+  ],
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a turban and the priestly breastplate of judgment (12 stones).",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

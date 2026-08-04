@@ -2,7 +2,7 @@
   "person_id": "adrammelech",
   "name": "Adrammelech",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 19:37",
@@ -14,6 +14,39 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Divided Monarchy",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Nineveh",
+    "Ararat"
+  ],
+  "topics": [
+    "assassination",
+    "fulfilled prophecy",
+    "Assyrian empire"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A son of the Assyrian king Sennacherib who, together with his brother Sharezer, assassinated their father while he worshiped his god Nisroch, fleeing afterward to the land of Ararat -- fulfilling Isaiah's prophecy that Sennacherib would fall by the sword in his own land.",
+  "family_friendly_summary": "Adrammelech was a son of Sennacherib, the powerful king of Assyria who had threatened Jerusalem but was stopped by God. Years earlier, the prophet Isaiah had warned Sennacherib that he would die by the sword in his own country. That's exactly what happened: while Sennacherib was worshiping his false god, his own sons Adrammelech and Sharezer killed him, then ran away to a land called Ararat. Adrammelech's actions, even though he didn't mean it this way, showed that God's word through Isaiah came true exactly as He said it would.",
+  "adult_story": "Adrammelech was a son of Sennacherib, the Assyrian king whose army had besieged Jerusalem and mocked the LORD during Hezekiah's reign, only to be struck down by the angel of the LORD in a single night (2 Kings 19:35). Sennacherib retreated to Nineveh, where sometime later, while he was worshiping in the house of his god Nisroch, his own sons Adrammelech and Sharezer assassinated him with the sword and then fled to the land of Ararat; another son, Esarhaddon, took the throne in his place (2 Kings 19:36-37; Isaiah 37:37-38). Scripture records the assassination without commentary on Adrammelech's motives, but the placement of the account is deliberate: Isaiah had already told Sennacherib, \"you shall fall by the sword in your own land\" (Isaiah 37:7), and his death at his own sons' hands, in his own capital, before his own god's altar, was that prophecy's exact fulfillment. Adrammelech's act of patricide, murderous and self-interested as it was, still served the LORD's declared word -- a stark example of Scripture's repeated pattern that no human power, however violent, ever escapes the boundaries of God's sovereign purposes.",
+  "christ_connections": [
+    "Lord Jesus, even Adrammelech's violence couldn't stop Your word from coming true through Isaiah. Nothing -- not empires, not murder, not human plotting -- can keep Your promises from being fulfilled."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

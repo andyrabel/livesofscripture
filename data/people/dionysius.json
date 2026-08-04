@@ -1,18 +1,52 @@
 {
   "person_id": "dionysius",
   "name": "Dionysius",
-  "alt_names": [],
-  "tier": "stub",
+  "alt_names": [
+    "Dionysius the Areopagite"
+  ],
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Athens"
+  ],
   "references": [
     "Acts 17:34"
   ],
   "first_reference": "Acts 17:34",
+  "topics": [
+    "conversion",
+    "response to the gospel"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A member of the Areopagus, the council of Athens, who believed the gospel after hearing Paul's speech at Mars Hill.",
+  "family_friendly_summary": "Dionysius was an important man in the city of Athens -- he belonged to a respected council of leaders called the Areopagus, who met on a hill to discuss ideas and judge important matters. When the apostle Paul stood before this council and explained who the true God is and how He raised Jesus from the dead, most of the crowd laughed or brushed him off. But Dionysius was different: he believed what Paul said and became a follower of Jesus, along with a woman named Damaris and some others. Dionysius's story shows that even in a place full of doubters, God can open the heart of a respected leader to trust in Christ.",
+  "adult_story": "Dionysius was a member of the Areopagus, the ancient council of Athens that met on Mars Hill to weigh new ideas and philosophies entering the city (Acts 17:19-21). When Paul stood before the Areopagus and reasoned from the Athenians' own altar \"to an unknown god\" to proclaim the one true Creator, who commands all people everywhere to repent because He has fixed a day of judgment through Jesus, whom He raised from the dead, the response split (17:22-31). Some mocked at the mention of resurrection, others deferred, saying they would hear him again -- but Luke records that \"some men joined him and believed, among whom also were Dionysius the Areopagite and a woman named Damaris and others with them\" (17:32-34). That Dionysius held a position on Athens's most prestigious council makes his conversion notable: a man of intellectual and civic standing in a famously skeptical, philosophy-saturated city chose to believe a message about a crucified and risen Jew whom most of his peers dismissed. Scripture says nothing further about him; later church tradition claims he became bishop of Athens, but this is tradition, not a stated biblical fact.",
+  "christ_connections": [
+    "Dionysius believed the gospel in a city that prized clever argument over truth, and even among mockery -- a reminder that Christ's resurrection can win over the sharpest skeptics when the Spirit opens a heart (1 Corinthians 1:22-24).",
+    "Where an entire council of respected judges could have closed ranks against an outsider's strange message, God still drew one of their own to Jesus -- grace reaching people of standing and comfort just as much as the poor and outcast."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

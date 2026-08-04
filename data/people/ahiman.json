@@ -2,7 +2,7 @@
   "person_id": "ahiman",
   "name": "Ahiman",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Numbers 13:22",
@@ -14,6 +14,38 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Exodus/Wilderness",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Hebron"
+  ],
+  "topics": [
+    "Anakim giants",
+    "conquest of Hebron",
+    "Caleb's faith"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the three sons of Anak, the intimidating Hebron giants whose presence terrified the ten unbelieving spies, and who was later driven out of Hebron by Caleb in fulfillment of God's promise to the man who trusted Him fully.",
+  "family_friendly_summary": "Ahiman was one of three brothers living in the city of Hebron who were part of a family of very tall, strong people called the Anakim, sometimes described like giants. When Moses sent twelve spies to explore the promised land, most of them saw Ahiman and his brothers and were so scared that they convinced the Israelites not to trust God's promise to give them the land. Many years later, though, Caleb, one of the two spies who had trusted God all along, returned to Hebron and drove Ahiman and his brothers out, exactly as God had promised him.",
+  "adult_story": "Ahiman was one of three brothers -- with Sheshai and Talmai -- descended from Anak, living in and around Hebron when the twelve spies scouted the land of Canaan (Numbers 13:22). Seeing Ahiman and his brothers among the land's imposing inhabitants contributed to the ten spies' fearful, unbelieving report that convinced Israel the land could not be taken (13:28, 31-33), a rebellion that cost that entire generation forty years of wandering. Caleb alone, along with Joshua, urged Israel to trust God's promise despite the Anakim's size. Decades later, that faith was vindicated: after Israel entered the land, Caleb specifically requested Hebron as his inheritance because of his wholehearted trust in the LORD years before, and Scripture records that \"Caleb drove out from there the three sons of Anak: Sheshai and Ahiman and Talmai, the children of Anak\" (Joshua 15:14; compare Judges 1:10). Ahiman's presence in the text bookends a larger story about fear versus faith -- the same giant who once made an entire nation shrink back in unbelief was ultimately driven out by one man who had refused to let fear have the last word.",
+  "christ_connections": [
+    "Lord Jesus, Ahiman looked unbeatable to ten frightened spies, but not to Caleb, who trusted Your promise instead of the giant in front of him. Help me measure my fears against Your power, not the other way around."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

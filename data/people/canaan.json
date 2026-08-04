@@ -2,8 +2,16 @@
   "person_id": "canaan",
   "name": "Canaan",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Primeval History",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "the land of Canaan"
+  ],
   "references": [
     "Genesis 9:18-27",
     "Genesis 10:6-15",
@@ -13,6 +21,26 @@
     "1 Chronicles 1:8-13"
   ],
   "first_reference": "Genesis 9:18-27",
+  "topics": [
+    "Noah's curse",
+    "ancestry of nations",
+    "consequences of sin"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture does not fully explain why the curse falls on Canaan rather than on Ham, who committed the offense; ancient and modern interpreters differ over what exactly happened and why judgment passed to Canaan's line rather than Ham's other sons. This passage has been tragically misused throughout history to justify the enslavement and racial subjugation of Black Africans -- a reading the text does not support. Canaan is the ancestor of the peoples later called Canaanites (Genesis 10:15-19), inhabitants of the land later promised to Abraham's descendants, not any racial group defined by skin color, which the text never mentions.",
+  "source_summary": "Son of Ham and grandson of Noah, on whom Noah pronounced a curse of servitude after Ham saw his father's nakedness; ancestor of the Canaanite peoples who later occupied the land promised to Abraham.",
+  "family_friendly_summary": "Canaan was one of Noah's grandsons, the son of Ham. After the flood, Noah planted a vineyard, drank too much wine, and was found uncovered in his tent. Ham saw this and told his brothers instead of covering their father with respect, but Shem and Japheth walked in backward and covered Noah without looking. When Noah woke up and learned what had happened, he spoke a curse over Canaan, saying Canaan's descendants would serve the descendants of Shem and Japheth. Canaan grew up to father many peoples who later lived in the land of Canaan -- the land God would one day promise to Abraham and his family. Canaan's story is a sad reminder of how one family's sin had consequences that lasted for generations.",
+  "adult_story": "Canaan was the son of Ham and grandson of Noah (Genesis 9:18; 10:6). After the flood, Noah planted a vineyard, drank its wine, became drunk, and lay uncovered inside his tent. Ham \"saw the nakedness of his father\" and told his two brothers, Shem and Japheth, who instead walked in backward and covered Noah without looking (9:20-23). When Noah awoke and learned what Ham had done, he pronounced judgment -- not on Ham directly, but on Ham's son: \"Cursed be Canaan; a servant of servants he shall be to his brothers,\" followed by a blessing on Shem and Japheth (9:24-27). Scripture does not explain why the curse fell on Canaan rather than on Ham himself, and interpreters differ over exactly what Ham's offense involved and why his son bore the consequence. This passage has a painful history of misuse -- for centuries it was wrongly invoked to justify the enslavement of Black Africans, a reading the text itself does not support: Canaan's descendants are simply the peoples later called Canaanites who settled the land later promised to Abraham (10:15-19), and the text nowhere mentions skin color or any particular race. Canaan fathered Sidon, Heth, and the ancestors of the Jebusites, Amorites, and other Canaanite peoples (10:15-18), the very nations Israel would later be commanded to dispossess in the conquest of the promised land.",
+  "christ_connections": [
+    "A father's sin brought real consequences down through Canaan's family line for generations -- a sober reminder that sin never stays contained to just one person. Lord Jesus, break the patterns of sin in my own family line; only You can end a curse instead of just passing it on.",
+    "The land under this old curse became, later, the very land You walked, taught, died, and rose in. What was under judgment, You entered to redeem."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "ham",
     "mother": null,
@@ -30,6 +58,11 @@
       "sini",
       "zemar"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

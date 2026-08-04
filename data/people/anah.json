@@ -4,14 +4,39 @@
   "alt_names": [
     "Beeri"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Seir"
+  ],
   "references": [
     "Genesis 26:34",
     "Genesis 36:2-25",
     "1 Chronicles 1:40"
   ],
   "first_reference": "Genesis 26:34",
+  "topics": [
+    "Esau's family",
+    "Edomite genealogy"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Genesis 36:24 names Anah as a son of Zibeon the Hivite, but Genesis 36:2 calls Oholibamah \"the daughter of Anah, daughter of Zibeon the Hivite,\" which some translations render as if Anah were female -- most interpreters read the second \"daughter\" as referring to Zibeon rather than making Anah a woman, but the Hebrew phrasing is genuinely ambiguous. The identification of Anah with \"Beeri the Hittite,\" father of Esau's wife Judith in Genesis 26:34, is a traditional harmonization of Esau's differently-named wife lists in Genesis 26 and 36, not a fact the text states outright.",
+  "source_summary": "Son of Zibeon the Hivite who found hot springs in the wilderness while pasturing his father's donkeys, and whose daughter Oholibamah became one of Esau's wives and an ancestress of Edomite clan chiefs.",
+  "family_friendly_summary": "Anah was part of the family of Seir the Hivite, a people who lived in the land of Edom before Esau's descendants settled there. One day, while Anah was out in the wilderness taking care of his father Zibeon's donkeys, he discovered hot springs -- a surprising and memorable find in a dry land. Anah's daughter, Oholibamah, later married Esau, Isaac's son, and their children became leaders among the Edomite people. Anah's short story is a small but real detail tucked into the Bible's careful record of Esau's family line.",
+  "adult_story": "Anah appears in the genealogical record of Esau's Edomite descendants in Genesis 36. He is identified as a son of Zibeon the Hivite (36:20, 24), and Genesis preserves one specific, memorable detail about him: \"he is the Anah who found the hot springs in the wilderness while he was pasturing the donkeys of his father Zibeon\" (36:24). This brief note singles him out from the surrounding list of Seir's descendants, most of whom receive nothing but a name. Anah's daughter Oholibamah married Esau (36:2, 25), becoming one of Esau's three wives along with Adah and Basemath, and her sons became chiefs among the Edomites (36:18). Genesis 26:34 also records a Hittite wife of Esau named Judith, daughter of \"Beeri the Hittite\" -- a name many interpreters connect to Anah, since Genesis 26 and 36 give overlapping but differently-worded lists of Esau's wives and in-laws, a harmonization tradition rather than a stated identification. Anah himself performs no further action in Scripture; his significance lies in linking the Hivite inhabitants of Seir to Esau's family and, through Oholibamah, to the Edomite nation that descended from Esau alongside Israel's twelve tribes descending from Jacob.",
+  "christ_connections": [
+    "Esau's marriages into the peoples of Canaan and Seir, recorded through figures like Anah, mark the slow divergence of Edom from the covenant line running through Jacob -- a reminder that God's redemptive promise narrows to a particular family by His choice, not human achievement (Romans 9:10-13)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zibeon-2",
     "mother": null,
@@ -20,6 +45,11 @@
       "dishon-2",
       "oholibamah"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

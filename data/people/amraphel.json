@@ -2,17 +2,48 @@
   "person_id": "amraphel",
   "name": "Amraphel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Shinar"
+  ],
   "references": [
     "Genesis 14:1-9"
   ],
   "first_reference": "Genesis 14:1-9",
+  "topics": [
+    "ancient warfare",
+    "Abram's era",
+    "the rescue of Lot"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Shinar and one of four eastern kings who campaigned against five kings of the Jordan plain, defeating them and taking captives and plunder -- including Abram's nephew Lot -- which set up Abram's rescue mission in Genesis 14.",
+  "family_friendly_summary": "Long before Abram had any children of his own, a group of four kings from the east, led by a king named Amraphel, went to war against five kings near where Abram's nephew Lot was living. Amraphel's side won the battle, and they captured people and goods from the losing cities -- including Lot and everything he owned. When Abram heard that his nephew had been taken, he gathered his men and chased after the invading kings to rescue him. Amraphel's war is the reason Abram's great rescue of Lot happens at all, and it shows Abram acting bravely to protect his family.",
+  "adult_story": "Amraphel, king of Shinar, appears in Genesis 14 as one of a coalition of four eastern kings -- alongside Arioch of Ellasar, Chedorlaomer of Elam, and Tidal -- who had held five kings of the Jordan plain, including the king of Sodom, under tribute for twelve years. In the thirteenth year the five kings rebelled, and Amraphel's coalition marched out, defeating a series of regional peoples before routing the rebel kings in the Valley of Siddim (Genesis 14:1-10). The victors seized the goods and provisions of Sodom and Gomorrah and departed -- taking with them Lot, Abram's nephew, who was living in Sodom, along with his possessions (14:11-12). When a survivor reported this to Abram, he armed 318 trained men, pursued the coalition as far as Dan, and routed them by night, recovering Lot, the other captives, and the plundered goods (14:13-16). Amraphel himself has no further recorded words or actions; he functions in the narrative as one of the aggressors whose war becomes the occasion for Abram's decisive rescue and his subsequent encounter with Melchizedek, king of Salem, who blesses Abram in God's name (14:18-20).",
+  "christ_connections": [
+    "Abram's armed pursuit to rescue his captured kinsman previews a pattern that runs through Scripture -- God's people delivered from captors by a stronger deliverer, fulfilled completely when Christ rescues captives to sin and death (Colossians 1:13-14)."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

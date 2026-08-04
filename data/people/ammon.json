@@ -4,8 +4,15 @@
   "alt_names": [
     "Ben-ammi"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "hill country near Zoar"
+  ],
   "references": [
     "Genesis 19:38",
     "Numbers 21:24",
@@ -38,11 +45,35 @@
     "Zephaniah 2:8-9"
   ],
   "first_reference": "Genesis 19:38",
+  "topics": [
+    "origin of a nation",
+    "family crisis after judgment",
+    "Lot's daughters"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son born to Lot's younger daughter after she and her sister, believing no husbands remained to them following the destruction of Sodom, made their father drunk and conceived by him; named Ben-ammi, he became ancestor of the Ammonites, who remained Israel's neighbors and frequent adversaries throughout the Old Testament.",
+  "family_friendly_summary": "After God destroyed the sinful cities of Sodom and Gomorrah, Lot and his two daughters escaped to live alone in the hills. His daughters were afraid there were no husbands left anywhere for them, so they made a plan that was deeply wrong: they got their father drunk and became pregnant by him, without his knowledge. The younger daughter had a son and named him Ben-ammi, meaning \"son of my people.\" He grew up to become the ancestor of a whole nation, the Ammonites, who lived near Israel and are mentioned often throughout the rest of the Old Testament, sometimes as enemies and sometimes in more peaceful dealings with God's people.",
+  "adult_story": "After the LORD destroyed Sodom and Gomorrah, Lot fled with his two daughters to live in a cave in the hills, afraid to stay even in nearby Zoar (Genesis 19:30). Convinced that no husbands remained for them anywhere and desperate to preserve their father's line, the daughters made a plan: on successive nights, they got Lot drunk with wine and lay with him, and \"Lot did not know when she lay down or when she arose\" (19:33, 35). Both daughters conceived. The younger bore a son and named him Ben-ammi, \"son of my people\" -- he became father of the Ammonites, a nation that lived east of the Jordan and remained Israel's neighbors, sometimes trading partners and frequently adversaries, throughout the rest of the Old Testament, down through the periods of the judges, the united and divided kingdoms, and the exile (Genesis 19:38; Judges 11; 2 Samuel 10; 2 Chronicles 20; Nehemiah 13; Zephaniah 2:8-9). Scripture records the episode without excusing it -- the incest and deception are stated plainly, born out of the daughters' fear and desperation in the aftermath of catastrophic judgment on Sodom rather than out of any statement of approval. It stands as one of the Bible's frank accounts of a patriarch's family unraveling even after being spared.",
+  "christ_connections": [
+    "Lord, this story starts in fear and shame, and the family it produced stayed at odds with Yours for a thousand years. But even Moab, the Ammonites' sister nation born the same night, gave rise to Ruth, whose line led straight to You. No family's start is too broken for You to redeem."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "lot",
     "mother": "younger-of-lot",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

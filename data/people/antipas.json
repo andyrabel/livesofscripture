@@ -2,17 +2,49 @@
   "person_id": "antipas",
   "name": "Antipas",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Pergamum"
+  ],
   "references": [
     "Revelation 2:13"
   ],
   "first_reference": "Revelation 2:13",
+  "topics": [
+    "martyrdom",
+    "faithful witness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A believer in the church at Pergamum -- a city Christ describes as the place 'where Satan's throne is' -- commended by name in Revelation as Christ's 'faithful witness,' who was put to death for his faith.",
+  "family_friendly_summary": "In the book of Revelation, Jesus praises a Christian named Antipas by name for staying true to Him, even in a city that was very hostile to believers. Antipas was killed for his faith, but Jesus calls him \"My faithful witness.\" We aren't told any other details about his life. Antipas's story is a reminder that Jesus sees every act of faithfulness, even when it costs everything, and even when the world barely notices.",
+  "adult_story": "In His letter to the church at Pergamum, one of the seven churches addressed in Revelation, Christ commends believers there for holding fast to His name and not denying their faith \"even in the days of Antipas, My witness, My faithful one, who was killed among you, where Satan dwells\" (Revelation 2:13). Pergamum was a center of Roman emperor worship and pagan temple life, which likely explains John's description of it as the place \"where Satan's throne is.\" Scripture states nothing else about Antipas's life or the circumstances of his death beyond this single verse -- only that he was killed there for his faithfulness to Christ in a city openly hostile to that confession. Later church tradition holds that Antipas served as Pergamum's bishop and was martyred by being roasted alive inside a bronze bull under the emperor Domitian, but this account comes from writings composed centuries later and should be received as tradition, not as something Revelation itself states. What Scripture does say plainly is Christ's own verdict: Antipas is the only individual member of any of the seven churches singled out by name anywhere in Revelation, named specifically as \"My witness, My faithful one.\"",
+  "christ_connections": [
+    "Christ calls Antipas \"My witness, My faithful one\" -- the same word later used for those who die for the gospel. Lord Jesus, You are the ultimate faithful witness (Revelation 1:5), and You counted Antipas's death, unseen by the world, as worth naming forever.",
+    "Antipas died in the very city Satan called home, and Christ still saw him there. Whatever hostile ground I stand on, Lord, You see me there too."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

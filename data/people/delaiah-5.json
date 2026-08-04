@@ -2,17 +2,49 @@
   "person_id": "delaiah-5",
   "name": "Delaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 36:12-25"
   ],
   "first_reference": "Jeremiah 36:12-25",
+  "topics": [
+    "courage before power",
+    "the word of God resisted"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A royal official in Jerusalem during Jehoiakim's reign who, with two colleagues, urged the king not to burn the scroll containing Jeremiah's prophecies after hearing it read aloud.",
+  "family_friendly_summary": "Delaiah worked as an official in the king's palace in Jerusalem. One day, Jeremiah's friend Baruch read aloud a scroll containing all of God's warnings that Jeremiah had spoken. Delaiah and the other officials were alarmed by what they heard and knew the king needed to know. When wicked King Jehoiakim began cutting the scroll apart and burning it in a fire piece by piece, Delaiah was one of three officials who spoke up and begged the king to stop. Sadly, the king would not listen and burned it anyway. Delaiah's story reminds us that speaking up for God's word, even when the powerful don't want to hear it, still matters.",
+  "adult_story": "Delaiah, son of Shemaiah, was one of the officials serving in King Jehoiakim's court in Jerusalem. When Baruch, at Jeremiah's direction, read aloud the scroll of the prophet's warnings against Judah in the chamber of Elishama the scribe, Delaiah was among the officials present (Jeremiah 36:12). Struck by what they heard, the officials went to report the words to the king, first telling Baruch to hide, along with Jeremiah (36:16-19). When the scroll was brought before Jehoiakim and read to him, the king grew increasingly hostile, cutting each section off with a scribe's knife and throwing it into a brazier as it was read, until the whole scroll was consumed (36:21-23). Unlike the king and his attendants, who showed no fear or torn garments at what they heard, Delaiah joined Elnathan and Gemariah in specifically urging Jehoiakim not to burn the scroll -- but the king would not listen to them (36:24-25). Delaiah's brief appearance shows a minority voice of conscience within a corrupt court: he recognized the seriousness of God's word even as his king treated it with contempt, though his intervention could not stop the burning. God's response was to have Jeremiah dictate the scroll again, with additional words of judgment against Jehoiakim (36:27-32).",
+  "christ_connections": [
+    "Delaiah's failed plea before a king who burned God's word rather than heed it points to the deeper pattern Scripture traces to its end: human authority resisting God's word, until the Word himself, Jesus, came and could not be silenced or destroyed, even by death.",
+    "Delaiah stood almost alone in urging the king to listen -- a small echo of how few are willing to defend God's word before power, and a reminder to pray for the same courage Christ calls His people to show."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shemaiah-21",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

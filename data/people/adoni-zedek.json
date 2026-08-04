@@ -2,7 +2,7 @@
   "person_id": "adoni-zedek",
   "name": "Adoni-zedek",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Joshua 8:1-29",
@@ -15,6 +15,41 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Exodus/Wilderness",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Gibeon",
+    "Makkedah"
+  ],
+  "topics": [
+    "conquest of Canaan",
+    "divine judgment",
+    "coalition against Israel"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Amorite king of Jerusalem who organized a five-king coalition to punish Gibeon for making peace with Israel, was defeated by Joshua in the battle where the LORD sent hailstones and the sun stood still, and was executed at Makkedah along with his allied kings.",
+  "family_friendly_summary": "Adoni-zedek was the king of Jerusalem. When he heard that the Gibeonites had made peace with Joshua and the Israelites, he was afraid and angry, so he convinced four other kings to join him in attacking Gibeon. Gibeon asked Joshua for help, and Joshua's army marched all night to rescue them. God fought for Israel that day, sending down large hailstones on the enemy army, and the sun stayed in the sky an extra long time so Israel could finish the battle. Adoni-zedek and his four allies hid in a cave, but Joshua found them, and they were defeated just as God had promised.",
+  "adult_story": "Adoni-zedek, the Amorite king of Jerusalem, heard how Joshua had destroyed Ai and that the Gibeonites had made a treaty of peace with Israel, and it struck fear into him (Joshua 10:1-2). He rallied four fellow kings -- of Hebron, Jarmuth, Lachish, and Eglon -- to join him in attacking Gibeon for defecting to Israel's side (10:3-5). Gibeon appealed to Joshua, who marched his army all night from Gilgal and routed the coalition; the LORD threw the enemy into confusion and sent a hailstorm that killed more of them than Israel's swords did, while the sun stood still at Joshua's command so Israel could finish the victory in daylight (10:9-14). Adoni-zedek and his four allies fled and hid in a cave at Makkedah. Joshua had the cave sealed with stones until the battle was finished, then brought the five kings out, had his army commanders set their feet on the kings' necks as a sign of total defeat, and put the kings to death himself, hanging their bodies on trees until evening before they were sealed back in the cave (10:16-27). Adoni-zedek's downfall is presented as proof that the LORD Himself was fighting for Israel, not merely Israel's own military strength.",
+  "christ_connections": [
+    "Lord Jesus, You fought this battle for Israel before they'd even swung a sword -- the hail and the sun obeyed You. I can rest knowing my battles are Yours to win too.",
+    "Adoni-zedek's neck was placed under Israel's feet as a sign that his rebellion was finished. You have already crushed the real enemy, and one day every rebellion will bow to You."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

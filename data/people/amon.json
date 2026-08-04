@@ -2,18 +2,49 @@
   "person_id": "amon",
   "name": "Amon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria"
+  ],
   "references": [
     "1 Kings 22:26",
     "2 Chronicles 18:25"
   ],
   "first_reference": "1 Kings 22:26",
+  "topics": [
+    "royal officials",
+    "the cost of true prophecy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The governor of Samaria under King Ahab, ordered along with Joash the king's son to imprison the prophet Micaiah on starvation rations after Micaiah gave a true but unwelcome prophecy against the king.",
+  "family_friendly_summary": "Before a battle, King Ahab asked the prophet Micaiah whether he would win. Micaiah told the truth: Ahab would lose and be killed. Furious, Ahab ordered a city official named Amon, along with the king's son Joash, to throw Micaiah in prison and give him only bread and water until the king returned safely from battle. Ahab was sure he'd come back fine. He didn't -- he was killed in the very battle Micaiah warned him about, proving the prophet right. Amon's part in the story is small, but it's part of a bigger lesson about what happens when people don't want to hear the truth.",
+  "adult_story": "Before King Ahab of Israel marched to battle at Ramoth-gilead, he gathered his prophets, who all promised victory. Only Micaiah son of Imlah, summoned reluctantly, told Ahab the truth: Israel would be defeated and Ahab would die (1 Kings 22:13-28). Enraged at a message he didn't want to hear, Ahab ordered him imprisoned: \"Take Micaiah and return him to Amon the governor of the city and to Joash the king's son, and say, 'Thus says the king, \\\"Put this man in prison and feed him sparingly with bread and water until I return safely\\\"'\" (1 Kings 22:26-27; 2 Chronicles 18:25-26). Amon and Joash are named as the two officials specifically entrusted with silencing God's true word by force -- reducing His prophet to prison rations rather than heeding him. Micaiah's own reply left no room for doubt about what would happen: \"If you indeed return safely, the LORD has not spoken by me.\" And he added, \"Listen, all you people\" (22:28). Ahab did not return safely; he was struck by a stray arrow in the battle and died that evening, propped up in his chariot so his army wouldn't panic (22:34-37). Scripture records nothing further about Amon or what became of his prisoner, but the outcome vindicated the very word Amon had been ordered to bury.",
+  "christ_connections": [
+    "Amon's harsh commission -- to starve a prophet into silence -- echoes every attempt in Scripture to punish God's messengers for telling the truth, from Jeremiah in the cistern to Christ before Pilate, the truest witness of all, silenced by unjust power but not defeated by it."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

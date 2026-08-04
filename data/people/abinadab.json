@@ -2,14 +2,40 @@
   "person_id": "abinadab",
   "name": "Abinadab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kiriath-jearim"
+  ],
   "references": [
     "1 Samuel 7:1",
     "2 Samuel 6:3-4",
     "1 Chronicles 13:7"
   ],
   "first_reference": "1 Samuel 7:1",
+  "topics": [
+    "the ark of the covenant",
+    "reverence for holy things"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A man of Kiriath-jearim in whose house the ark of the covenant rested for about twenty years after the Philistines returned it, until King David later had it moved toward Jerusalem, an attempt that ended with the death of Abinadab's son Uzzah.",
+  "family_friendly_summary": "After the Philistines had captured the ark of the covenant and then given it back because of the trouble it caused them, the people of Israel brought it to the house of a man named Abinadab in the town of Kiriath-jearim. Abinadab's family cared for the ark there for many years -- his son Eleazar was even set apart to guard it. Much later, King David decided it was time to bring the ark to Jerusalem, and he had it carried on a cart from Abinadab's house. Sadly, the journey went wrong along the way when Abinadab's other son Uzzah touched the ark and died, reminding everyone that God's holy things must be treated with great care and according to His instructions.",
+  "adult_story": "Abinadab lived at Kiriath-jearim, and after the ark of the covenant caused plagues among the Philistines who had captured it, they returned it, and the men of Kiriath-jearim brought it to his house. His son Eleazar was consecrated to guard it there, and it remained for about twenty years while Israel \"lamented after the LORD\" (1 Samuel 7:1-2). Years later, once David had become king and united Israel, he resolved to bring the ark to Jerusalem. David and thirty thousand men went to Abinadab's house on the hill and set the ark on a new cart, with Abinadab's sons Uzzah and Ahio driving it and walking alongside (2 Samuel 6:3-4; 1 Chronicles 13:7). Along the way, the oxen stumbled, Uzzah reached out to steady the ark, and God struck him dead on the spot for touching it -- a shocking judgment that frightened David and halted the procession (2 Samuel 6:6-9). The ark was diverted to the house of Obed-edom for three months before David tried again, this time carrying it properly on the shoulders of Levites as the Law required, rather than on a cart (1 Chronicles 15:2, 13-15). Abinadab himself performs no independent action in the account -- his significance is that his household, quietly and faithfully, sheltered Israel's most sacred object for a generation, at the center of one of Scripture's sharpest warnings about approaching God's holiness on His terms, not on convenient human terms.",
+  "christ_connections": [
+    "For twenty years the ark sat in Abinadab's house, and God's holy presence dwelt with an ordinary family who simply kept faith. Lord Jesus, You are the far greater presence of God who now dwells not in a tent or a house but within everyone who trusts You.",
+    "Uzzah's death at the ark shows how dangerous it is to approach a holy God carelessly. Lord, You made a way for sinful people to draw near safely -- not by our care, but by Your blood, once and for all."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -19,6 +45,11 @@
       "eleazar-2",
       "uzzah"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

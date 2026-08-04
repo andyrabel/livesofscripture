@@ -2,17 +2,51 @@
   "person_id": "caesar-augustus",
   "name": "Caesar Augustus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Rome",
+    "Bethlehem"
+  ],
   "references": [
     "Luke 2:1"
   ],
   "first_reference": "Luke 2:1",
+  "topics": [
+    "Roman rule",
+    "providence",
+    "fulfilled prophecy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Rome's first emperor, whose empire-wide census decree providentially brought Joseph and the pregnant Mary from Nazareth to Bethlehem, fulfilling the prophecy that Israel's Messiah would be born there.",
+  "family_friendly_summary": "Caesar Augustus was the most powerful ruler in the world when Jesus was born -- he was the emperor of the huge Roman Empire, which included the land where Mary and Joseph lived. The Bible tells us that Augustus sent out an order for everyone in the empire to be counted in a census, which meant everyone had to travel to their family's hometown to be registered. Because of this order, Joseph had to travel from Nazareth to Bethlehem, the town of his ancestor King David, taking Mary with him. It was in Bethlehem, because of Caesar's decree, that Jesus was born -- fulfilling exactly what an Old Testament prophet had said hundreds of years earlier.",
+  "adult_story": "Caesar Augustus (born Octavian), grand-nephew and adopted heir of Julius Caesar, became Rome's first emperor and ruled the empire during the years of Jesus's birth. Luke names him directly at the start of the nativity account: \"Now it came about in those days that a decree went out from Caesar Augustus, that a census be taken of all the inhabited earth\" (Luke 2:1). This decree required people to register in their ancestral hometowns, which is why Joseph, \"of the house and family of David,\" traveled from Nazareth in Galilee to Bethlehem in Judea, taking Mary, who was engaged to him and expecting a child (2:3-5). Augustus never appears again in Scripture and never learns what his administrative order accomplished, but Luke frames the most powerful man in the ancient world as an unwitting instrument of God's larger plan: it was in Bethlehem, the city of David, that Mary gave birth to Jesus, fulfilling the prophet Micah's centuries-old word that Israel's ruler would come from that small town (Micah 5:2; Luke 2:6-7). The emperor who counted the world for taxes could not see that his own decree was delivering the King who would truly rule it.",
+  "christ_connections": [
+    "The most powerful man on earth signed a decree for his own reasons, and it delivered You exactly where the prophets said You'd be born. Lord Jesus, no ruler's plans, however large, can overrule Yours.",
+    "Augustus never knew he was serving Your purposes. I don't always see how You're working through the ordinary events of my life either -- but You are, even now."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crowned figure holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

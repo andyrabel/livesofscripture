@@ -2,19 +2,51 @@
   "person_id": "annas",
   "name": "Annas",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Luke 3:2",
     "John 18:13-24",
     "Acts 4:6"
   ],
   "first_reference": "Luke 3:2",
+  "topics": [
+    "Jesus's trial",
+    "religious authority",
+    "opposition to the apostles"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A former high priest and powerful patriarch of the priestly establishment in Jerusalem, father-in-law of Caiaphas, to whom Jesus was first brought after His arrest, and who later sat in judgment over Peter and John.",
+  "family_friendly_summary": "Annas had once been the high priest in Jerusalem, and even after he no longer officially held the position, he remained one of the most powerful religious leaders in the city -- his son-in-law Caiaphas was the current high priest. On the night Jesus was arrested, the soldiers brought Him to Annas first for questioning before sending Him on to Caiaphas and the council. Years later, after Peter and John healed a man in Jesus's name, Annas was again present when the Jewish council questioned the apostles about their authority to teach and heal.",
+  "adult_story": "Annas held the office of high priest earlier in his career and remained the dominant figure in Jerusalem's priestly aristocracy long after Rome replaced him, with several of his sons and his son-in-law Caiaphas cycling through the formal office. Luke names him alongside Caiaphas as marking the year John the Baptist began his ministry, treating Annas as the effective head of the priesthood even though Caiaphas held the title (Luke 3:2). On the night of Jesus's arrest, the soldiers brought Jesus first to Annas, who questioned Him about His disciples and His teaching. Jesus answered that He had spoken openly in synagogues and the temple and had said nothing in secret, prompting an officer to strike Him for what he considered disrespect toward the high priest (John 18:13, 19-23). Annas then sent Jesus, still bound, to Caiaphas for the formal proceedings (18:24). Annas appears again in Acts 4:6, seated among the rulers, elders, and scribes who summoned Peter and John after they healed a lame man and preached Christ's resurrection in the temple -- the same body that had condemned Jesus now confronting His apostles with the identical question of authority. Annas represents the entrenched religious establishment that resisted both Jesus and the early church's testimony about Him.",
+  "christ_connections": [
+    "The blow Jesus received at Annas's questioning, though He had spoken only truth, fulfilled the pattern of the suffering servant who was struck though He had done no violence and no deceit was found in His mouth (Isaiah 53:9).",
+    "Annas's presence at both Jesus's interrogation and the apostles' later trial shows the same unbelief confronting the same testimony twice -- yet the church, unlike the rulers, would not be silenced, because the risen Christ had already been vindicated (Acts 4:19-20)."
+  ],
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: turban and the breastplate of judgment (twelve stones).",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

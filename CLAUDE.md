@@ -100,14 +100,28 @@ back to God") without spelling out adult content (adultery, murder, sexual
 sin, graphic violence) that isn't appropriate to hand an 8-year-old. Full
 entries only — stub entries have no story to summarize.
 
-**`christ_connections`** (added 2026-08-03): an array of up to 3 short
-(1-2 sentence) phrases on how this person points to Christ or reminds us of
-the gospel — per the Theological Requirements' testament-aware framing (OT
-figures point forward per Romans 4 / Hebrews 11, NT figures relate to
-Christ's accomplished work directly). Full-tier only. Fewer than 3 entries
-is fine when that's all the text genuinely supports — do not pad to hit the
-count. This supersedes the earlier "one paragraph per person" draft of this
-idea in favor of several short, discrete phrases.
+**`christ_connections`** (added 2026-08-03, voice revised 2026-08-03): an
+array of up to 3 short (1-2 sentence) phrases on how this person points to
+Christ or reminds us of the gospel — per the Theological Requirements'
+testament-aware framing (OT figures point forward per Romans 4 / Hebrews 11,
+NT figures relate to Christ's accomplished work directly). Full-tier only.
+Fewer than 3 entries is fine when that's all the text genuinely supports —
+do not pad to hit the count. This supersedes the earlier "one paragraph per
+person" draft of this idea in favor of several short, discrete phrases.
+
+**Voice (decided 2026-08-03, superseding the original draft's
+explanatory/analytical tone):** devotional and worshipful, not
+teaching-mode. Written in first-person prayer voice, addressed to Christ
+("Lord Jesus, You are...") rather than describing the connection in the
+third person ("David's throne prefigures..."). Simple, short sentences —
+plain words over theological vocabulary (e.g. "found" not "sought," "win"
+not "victory," "picked" not "chose"). Still text-grounded: each phrase
+should trace to a specific, real detail from the person's `adult_story`
+(an event, a line, a choice), never generic praise that could apply to
+anyone. Example (David):
+- "Lord Jesus, You are David's greater Son, and Your throne will never end. Every earthly king has let me down — You never will."
+- "David had blood on his hands, and You still forgave him. If grace can cover a murderer, Lord, it can cover me."
+- "You didn't pick David for how he looked. You looked at his heart. You look at mine the same way — and You love what You see enough to save it."
 
 **Promotion rule** (decided 2026-08-03): a person belongs in the full tier
 whenever Scripture narrates something about them beyond a bare name/parentage

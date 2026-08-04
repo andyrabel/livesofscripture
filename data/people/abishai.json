@@ -5,8 +5,15 @@
     "Abshai",
     "Ishmaiah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Israel"
+  ],
   "references": [
     "1 Samuel 26:6-9",
     "2 Samuel 2:18-24",
@@ -25,11 +32,36 @@
     "1 Chronicles 19:11-15"
   ],
   "first_reference": "1 Samuel 26:6-9",
+  "topics": [
+    "loyalty to David",
+    "military command",
+    "restrained vengeance"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of David's sister Zeruiah, brother of Joab and Asahel, and one of David's chief warriors and commanders -- fiercely loyal and repeatedly ready to kill David's enemies on the spot, restrained more than once by David himself, and credited with once single-handedly rescuing David from a Philistine giant.",
+  "family_friendly_summary": "Abishai was David's nephew and one of his closest, toughest warriors, along with his brothers Joab and Asahel. He first appears sneaking into King Saul's camp at night with David, urging David to let him kill the sleeping king -- David refused and took only Saul's spear and water jug instead. Abishai went on to lead troops in many of David's battles and was counted among his mightiest warriors, once killing 300 enemies by himself with his spear. Late in David's life, when an exhausted David was in danger from a Philistine giant, Abishai stepped in and killed the giant, saving the king. Abishai was loyal and brave, though quick-tempered and often eager for harsher justice than David wanted.",
+  "adult_story": "Abishai, son of David's sister Zeruiah and brother of Joab and Asahel, first appears sneaking with David into Saul's camp at night; he urged David to let him pin the sleeping king to the ground with one thrust of the spear, but David refused to harm \"the LORD's anointed\" and took only the spear and water jug as proof (1 Samuel 26:6-9). Abishai became a top commander in David's army, fighting alongside Joab against Abner's forces after Asahel's death (2 Samuel 2:18-24), commanding troops against the Ammonites and Arameans (10:10), and leading a third of David's army against Absalom's rebellion (18:2). He repeatedly urged David toward lethal justice that David refused -- offering twice to kill Shimei for cursing the king, once during Absalom's revolt and again after it, both times overruled by David (16:9-11; 19:21). His fiercest personal moment came late in life: when an exhausted David faced the Philistine giant Ishbi-benob, who threatened to kill him, Abishai came to David's rescue and struck the giant down, after which David's men made him swear never to go to battle again, \"so that you do not extinguish the lamp of Israel\" (21:15-17). Scripture credits Abishai as chief of the Three, killing 300 men with his spear in one encounter, honored above the Thirty though not equal to Joab (23:18-19; 1 Chronicles 11:20-21).",
+  "christ_connections": [
+    "Twice Abishai wanted to strike down David's enemies immediately, and twice David held him back, choosing mercy over vengeance. Lord Jesus, You are the greater Son of David who bore the vengeance we deserved instead of dealing it out, so that mercy could win.",
+    "When David was too weary to defend himself, Abishai stepped in and saved his life. Lord, You are the one who steps in for me when I am weak and cannot save myself -- my true defender."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield on a plain robed silhouette figure.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": "zeruiah",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

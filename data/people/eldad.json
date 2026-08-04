@@ -2,17 +2,49 @@
   "person_id": "eldad",
   "name": "Eldad",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "wilderness camp of Israel"
+  ],
   "references": [
     "Numbers 11:26-27"
   ],
   "first_reference": "Numbers 11:26-27",
+  "topics": [
+    "the Spirit's freedom",
+    "prophecy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the seventy elders appointed to help Moses, who remained in the camp rather than going to the tent of meeting and was still given the Spirit and began to prophesy, prompting Joshua to ask Moses to stop him.",
+  "family_friendly_summary": "Eldad was one of seventy leaders chosen to help Moses lead the huge crowd of Israelites in the wilderness. Most of the seventy went out to a special tent where God gave them His Spirit so they could help Moses. But Eldad and his friend Medad stayed back in the camp -- and God gave them His Spirit there too, so they started prophesying right where they were. A young man ran and told Moses, and Joshua urged Moses to make them stop. But Moses wasn't jealous at all. He said he wished every single one of God's people could have God's Spirit like that. Eldad's story shows that God's Spirit isn't limited to the \"proper\" place -- He works wherever He chooses.",
+  "adult_story": "Eldad was one of the seventy elders of Israel whom Moses gathered at the LORD's command to share the burden of leading the people during the wilderness wandering (Numbers 11:16-17, 24-25). When the LORD took of the Spirit that was on Moses and put it on the seventy elders gathered at the tent of meeting, they prophesied. But Eldad and Medad had not gone out to the tent -- they had remained in the camp -- and the Spirit rested on them there anyway, and they prophesied among the people (11:26). A young man ran to report it to Moses: \"Eldad and Medad are prophesying in the camp\" (11:27). Joshua, Moses' assistant, was troubled and urged him, \"Moses, my lord, restrain them\" (11:28). Moses' response has become one of Scripture's clearest statements about the Spirit's freedom and his own lack of jealousy for his unique authority: \"Are you jealous for my sake? Would that all the LORD's people were prophets, that the LORD would put His Spirit upon them!\" (11:29). Eldad's brief appearance, prophesying outside the expected setting, becomes the occasion for this larger, striking statement -- a leader who wanted God's Spirit poured out on everyone, not guarded as his own privilege.",
+  "christ_connections": [
+    "Moses' longing that all the LORD's people would receive the Spirit anticipates Pentecost, when Christ poured out the Spirit on all His people, not a select few -- Eldad's unexpected prophesying is an early foretaste of what Christ would give to the whole church (Acts 2:17-18).",
+    "God gave His Spirit to Eldad outside the \"proper\" place, showing that His grace was never confined to the structures people expect -- the same generosity Christ shows in extending His Spirit freely to all who believe, wherever they are."
+  ],
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open as if crying out a message, on a plain robed silhouette figure.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

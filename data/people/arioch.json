@@ -2,17 +2,49 @@
   "person_id": "arioch",
   "name": "Arioch",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ellasar",
+    "Valley of Siddim"
+  ],
   "references": [
     "Genesis 14:1-9"
   ],
   "first_reference": "Genesis 14:1-9",
+  "topics": [
+    "ancient warfare",
+    "Abram's rescue of Lot"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Ellasar, one of four eastern kings led by Chedorlaomer who campaigned against five kings of the plain in Genesis 14 -- the war that led to Lot's capture and Abram's rescue.",
+  "family_friendly_summary": "Arioch was a king from a place called Ellasar, far to the east. He joined three other kings and their armies to fight against five kings near the Dead Sea, including the king of Sodom, where Abram's nephew Lot lived. When Arioch and his allies won the battle, they captured Lot along with the rest of Sodom's people and goods. As soon as Abram heard that his nephew had been taken, he gathered his men, chased the kings down, and rescued Lot and everyone who had been captured. Arioch's part in the story sets the stage for one of Abram's bravest and most loyal acts.",
+  "adult_story": "Arioch, king of Ellasar, was one of four eastern kings -- alongside Chedorlaomer of Elam, Amraphel of Shinar, and Tidal -- who campaigned together against a coalition of five kings near the Dead Sea, including the king of Sodom (Genesis 14:1-2). After twelve years under Chedorlaomer's rule, the five kings rebelled, prompting Arioch and his allies to march west, defeating several peoples along the way before meeting the five kings in battle in the Valley of Siddim (14:5-9). The four kings won decisively; the kings of Sodom and Gomorrah fled, and the victors plundered the cities, taking captives and goods -- including Abram's nephew Lot, who was living in Sodom (14:10-12). When word reached Abram, he armed 318 of his own men, pursued the retreating kings as far as Dan and Hobah near Damascus, and recovered Lot, the other captives, and the plundered goods (14:13-16). Arioch has no further individual role in the account beyond his listing among the four victorious kings; his campaign functions in Genesis chiefly as the occasion for displaying Abram's courage and decisiveness, and immediately afterward, his encounter with Melchizedek and his refusal to enrich himself from the king of Sodom's recovered goods (14:17-24).",
+  "christ_connections": [
+    "Arioch's war set the stage for Abram to rescue Lot at great personal risk -- a faint picture of a greater Rescuer who went after people held captive not by earthly kings, but by sin and death (Colossians 1:13)."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

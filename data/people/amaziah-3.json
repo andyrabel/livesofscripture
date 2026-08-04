@@ -2,13 +2,40 @@
   "person_id": "amaziah-3",
   "name": "Amaziah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethel"
+  ],
   "references": [
     "1 Chronicles 6:45",
     "Amos 7:10-14"
   ],
   "first_reference": "1 Chronicles 6:45",
+  "topics": [
+    "opposition to a prophet",
+    "false worship",
+    "prophetic judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The priest in charge of the royal sanctuary at Bethel under King Jeroboam II of Israel, who accused the prophet Amos of conspiracy and ordered him to stop prophesying and leave the kingdom -- and was answered with a specific prophecy of judgment against his own household.",
+  "family_friendly_summary": "Amaziah was the priest in charge of a worship center at Bethel, a place King Jeroboam II had set up instead of the real temple in Jerusalem. When the prophet Amos came and spoke hard words from God against the kingdom of Israel, Amaziah didn't like it one bit. He complained to the king that Amos was stirring up trouble, and then he told Amos directly to go away, back to his home in Judah, and never prophesy at Bethel again. Amos refused to back down. He told Amaziah that God had sent him and that serious, sad consequences would come to Amaziah's own family because of how he had treated God's true message.",
+  "adult_story": "Amaziah served as priest of the royal sanctuary at Bethel, a worship site King Jeroboam II maintained as a rival to the Jerusalem temple. When the prophet Amos arrived from Judah and delivered God's warnings of judgment against Israel's idolatry and oppression of the poor, Amaziah reported him to the king as a conspirator: \"Amos has conspired against you... the land is unable to endure all his words\" (Amos 7:10). Amaziah then confronted Amos directly: \"Go, you seer, flee away to the land of Judah, and there eat bread and there do your prophesying! But no longer prophesy at Bethel, for it is a sanctuary of the king and a royal residence\" (7:12-13) -- dismissing Amos's calling as a paid trade and treating Bethel as royal property rather than the LORD's. Amos answered that he was no professional prophet but a herdsman whom the LORD Himself had called and sent (7:14-15), and pronounced a specific, severe judgment on Amaziah personally: his wife would become a prostitute in the city, his sons and daughters would fall by the sword, his land would be divided up, and Amaziah himself would die in a foreign, unclean land, while Israel would surely go into exile (7:16-17). Amaziah's attempt to silence God's word did not stop it -- it became the occasion for it.",
+  "christ_connections": [
+    "Lord Jesus, Amaziah tried to shut Your word up because it threatened his position. People did the same to You, and it didn't stop You either. Don't let me ever be found protecting my own place instead of listening to You.",
+    "Amos wouldn't be silenced because You had sent him, not because it was his job. Send me the same way, Lord, and give me the same backbone."
+  ],
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: turban and the breastplate of judgment (12 stones, Exodus 28).",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hilkiah-4",
     "mother": null,
@@ -16,6 +43,11 @@
     "children": [
       "hashabiah"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

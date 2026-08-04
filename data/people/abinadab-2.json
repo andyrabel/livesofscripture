@@ -4,8 +4,15 @@
   "alt_names": [
     "Ishvi"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Mount Gilboa"
+  ],
   "references": [
     "1 Samuel 14:49",
     "1 Samuel 31:2",
@@ -14,11 +21,34 @@
     "1 Chronicles 10:2"
   ],
   "first_reference": "1 Samuel 14:49",
+  "topics": [
+    "the fall of Saul's house",
+    "battle"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Some scholars debate whether the \"Ishvi\" listed among Saul's sons in 1 Samuel 14:49 is the same person as Abinadab, since the names of Saul's sons vary slightly across the parallel genealogical lists (1 Samuel 14:49; 1 Chronicles 8:33; 9:39). The identification is treated as likely but not certain.",
+  "source_summary": "One of King Saul's sons, killed alongside his father and his brother Jonathan by the Philistines on Mount Gilboa, ending Saul's reign and dynasty.",
+  "family_friendly_summary": "Abinadab was one of King Saul's sons and a brother of Jonathan, David's close friend. When the Philistines went to war against Israel, Abinadab fought alongside his father and brothers on Mount Gilboa. It was a terrible defeat: Abinadab, Jonathan, and another brother were all killed in the battle, and Saul himself died as well. Abinadab's death marked the sad end of Saul's family ruling over Israel, and it set the stage for David to become king, exactly as God had already planned.",
+  "adult_story": "Abinadab was one of Saul's sons, listed among his brothers Jonathan, Malchishua, and their sister Merab and Michal (1 Samuel 14:49; 1 Chronicles 8:33; 9:39). Scripture records nothing of him individually beyond his birth into Saul's family and his death: when the Philistines massed against Israel at Mount Gilboa, \"the Philistines overtook Saul and his sons; and the Philistines killed Jonathan and Abinadab and Malchishua, the sons of Saul\" (1 Samuel 31:2; 1 Chronicles 10:2). Saul himself, badly wounded and refusing to fall into enemy hands, took his own life shortly after (31:3-4). Abinadab's death came as part of a national catastrophe -- Israel's army fled, the Philistines occupied the abandoned towns, and the bodies of Saul and his sons were hung on the wall of Beth-shan before valiant men of Jabesh-gilead recovered and buried them (31:7-13). Though a minor figure with no words or deeds of his own recorded, Abinadab's death is one of the hinge-points of Israel's history: it closed out Saul's disastrous, disobedient reign and cleared the way for David, already anointed by Samuel, to become king over Israel as God had determined.",
+  "christ_connections": [
+    "Abinadab died in the collapse of a kingship God Himself had not chosen for Saul's line to keep. Lord Jesus, Your throne was not seized or lost in battle -- it was given to You by the Father, and it will never fall the way Saul's house fell."
+  ],
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield on a plain robed silhouette figure.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "saul",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

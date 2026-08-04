@@ -2,18 +2,50 @@
   "person_id": "archippus",
   "name": "Archippus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Colossae"
+  ],
   "references": [
     "Colossians 4:17",
     "Philemon 1:2"
   ],
   "first_reference": "Colossians 4:17",
+  "topics": [
+    "ministry",
+    "exhortation",
+    "perseverance"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Archippus's exact ministry role at Colossae and his relationship to Philemon (a common guess is that he was Philemon's son) are not stated by the text; these remain traditional inferences, not confirmed facts.",
+  "source_summary": "A member of the church at Colossae, called Paul's 'fellow soldier' in the letter to Philemon, whom Paul publicly charged through the Colossian letter to 'fulfill the ministry' he had received.",
+  "family_friendly_summary": "Archippus was a Christian in the city of Colossae. The apostle Paul, writing from prison, sent him a short but direct message through a letter read to the whole church: \"Make sure you finish the work God gave you to do.\" Paul also called Archippus his \"fellow soldier,\" someone standing with him in serving Jesus even when it was hard. We don't know exactly what Archippus's specific job was -- only that Paul wanted him to stay faithful and see it through all the way to the end.",
+  "adult_story": "Archippus was part of the church at Colossae, known from two brief mentions in Paul's letters. In the letter to Philemon, addressed jointly to Philemon, Apphia, and Archippus, Paul calls him \"our fellow soldier\" (Philemon 1:2) -- the same word Paul uses of Epaphroditus (Philippians 2:25), marking Archippus as someone actively laboring in gospel work alongside Paul, not merely a bystander. In Colossians, written from prison, Paul closes with a direct, public charge relayed through the whole congregation: \"say to Archippus, 'Take heed to the ministry which you have received in the Lord, that you may fulfill it'\" (Colossians 4:17). Paul does not specify what this ministry was, and later guesses -- that Archippus was Philemon's son, or held a pastoral office at Colossae -- go beyond what the text states. What is clear is the exhortation's tone: not exactly a rebuke, but a pointed, public reminder, delivered secondhand through the church itself, that a ministry received \"in the Lord\" must actually be carried through, not merely begun. Paul trusted the congregation to hold Archippus accountable to finish what he'd been given.",
+  "christ_connections": [
+    "Paul's charge to \"fulfill\" the ministry received in the Lord echoes Christ's own words from the cross, \"It is finished\" (John 19:30) -- He completed the work His Father gave Him, and calls His people to persevere in theirs because of that finished work, never in order to earn it."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,49 @@
   "person_id": "alexander-3",
   "name": "Alexander",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ephesus"
+  ],
   "references": [
     "Acts 19:33"
   ],
   "first_reference": "Acts 19:33",
+  "topics": [
+    "silenced by a mob",
+    "early church controversy",
+    "the riot at Ephesus"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Some readers identify this Alexander with \"Alexander the coppersmith\" who later opposed Paul (2 Timothy 4:14) or with the Alexander named among the high priest's household in Acts 4:6, but Scripture never states this explicitly, so any identification with those other men remains uncertain.",
+  "source_summary": "A Jewish man put forward by Ephesus's Jewish community during the silversmiths' riot, who raised his hand to address the mob but was shouted down for two hours once the crowd realized he was a Jew.",
+  "family_friendly_summary": "During Paul's time preaching in the city of Ephesus, some local silversmiths grew angry because fewer people were buying their silver statues of the goddess Artemis. A huge, confused crowd gathered in the city's theater, shouting for hours. In the middle of it all, some people pushed a man named Alexander forward. He raised his hand, hoping to calm things down and explain something to the crowd. But as soon as people realized he was Jewish, they refused to listen and just kept shouting the same chant over and over for two more hours. Alexander never got to say a word. His short appearance shows how loud and unreasonable an angry crowd can become, even against someone trying to bring calm.",
+  "adult_story": "During Paul's lengthy ministry in Ephesus, a silversmith named Demetrius incited a riot among craftsmen whose profitable trade in silver shrines of Artemis was threatened by the spread of the gospel (Acts 19:23-27). A mob seized two of Paul's traveling companions and dragged them into the city's great theater, where confused shouting continued for hours, \"for the assembly was in confusion, and the majority did not know for what reason they had come together\" (19:32). In the chaos, \"some of the crowd concluded it was Alexander, since the Jews had put him forward; and having motioned with his hand, Alexander was intending to make a defense to the assembly\" (19:33). What he meant to say is not recorded -- perhaps an attempt to separate Ephesus's Jewish community from the Christian preaching the crowd blamed for their economic losses. He never got the chance: \"when they recognized that he was a Jew, a single outcry arose from them all as they shouted for about two hours, 'Great is Artemis of the Ephesians!'\" (19:34). The riot only ends when the city clerk warns the crowd that Rome could hold the whole city accountable for the disorder (19:35-41). Alexander disappears from the narrative as abruptly as he entered it -- a man silenced before he could speak.",
+  "christ_connections": [
+    "Lord Jesus, Alexander raised his hand to speak and was drowned out before a single word came -- You know what it is to stand before a crowd that had already decided not to listen. Give me courage to speak for You anyway, even into the noise.",
+    "The mob shouted for two straight hours rather than hear one man out. Lord, keep me from joining a crowd like that -- deaf to truth because it's easier to shout than to listen."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

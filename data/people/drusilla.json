@@ -2,17 +2,49 @@
   "person_id": "drusilla",
   "name": "Drusilla",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Caesarea"
+  ],
   "references": [
     "Acts 24:24"
   ],
   "first_reference": "Acts 24:24",
+  "topics": [
+    "hearing the gospel",
+    "power and delay"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Jewish woman married to the Roman governor Felix, who accompanied him to hear Paul speak about faith in Christ Jesus while Paul was held prisoner in Caesarea.",
+  "family_friendly_summary": "Drusilla was a Jewish woman who married Felix, the Roman governor of the region where Paul was held as a prisoner in the city of Caesarea. One day, Felix sent for Paul so that he and Drusilla could listen to him talk about faith in Jesus Christ. The Bible doesn't tell us whether Drusilla believed what she heard. Her short appearance in the story is a reminder that hearing about Jesus is a real moment of decision -- and that everyone who hears the gospel, no matter how important or busy they are, has to decide what to do with it.",
+  "adult_story": "Drusilla was a Jewish woman, historically known as the youngest daughter of Herod Agrippa I, who became the wife of Antonius Felix, the Roman governor of Judea. She appears once in Scripture: while Paul was held as a prisoner in Caesarea awaiting trial, \"Felix arrived with his wife Drusilla, who was a Jewess, and sent for Paul and heard him speak about faith in Christ Jesus\" (Acts 24:24). Luke records that as Paul reasoned about righteousness, self-control, and the coming judgment, Felix became frightened and sent Paul away, saying, \"Go away for the present, and when I find time I will summon you\" (24:25) -- a delay Luke notes was also motivated by Felix's hope of a bribe (24:26). Scripture does not record Drusilla's own reaction to Paul's message, only that she was present and heard it alongside her husband. Her brief, unresolved appearance stands as one of Scripture's many moments where someone hears the truth about Christ firsthand and the text simply moves on without telling us what they did with it -- leaving the response, as with Felix, an open and unanswered question rather than a stated outcome one way or the other.",
+  "christ_connections": [
+    "Drusilla heard Paul speak plainly about faith in Christ Jesus, righteousness, and judgment to come -- the same gospel call every person must answer, whether they are a governor's wife in a Roman court or anyone else within reach of the word.",
+    "Her husband Felix's response, delay rather than decision, is a warning Scripture leaves standing for every hearer: the moment the gospel is heard is not one that stays neutral forever (2 Corinthians 6:2)."
+  ],
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed female silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

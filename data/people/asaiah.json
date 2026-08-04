@@ -2,18 +2,49 @@
   "person_id": "asaiah",
   "name": "Asaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Kings 22:12-14",
     "2 Chronicles 34:20"
   ],
   "first_reference": "2 Kings 22:12-14",
+  "topics": [
+    "seeking God's word",
+    "royal service"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Described as 'the king's servant,' one of five officials King Josiah sent to inquire of the LORD about the newly rediscovered Book of the Law, alongside Hilkiah, Ahikam, Achbor, and Shaphan -- the delegation that consulted the prophetess Huldah.",
+  "family_friendly_summary": "Asaiah worked directly for King Josiah of Judah. When workers found an old, forgotten scroll of God's Law hidden in the temple, and Josiah heard what it said, he was very worried that Judah had drifted far from God. So Josiah sent Asaiah and four other trusted men to ask a prophetess named Huldah what God wanted them to do. Huldah gave them God's answer, and it helped lead to one of the biggest returns to God in Judah's history. Asaiah's part was small, but he was part of a mission that changed a whole nation's direction.",
+  "adult_story": "Asaiah, called \"the king's servant,\" was one of five officials King Josiah personally commanded to seek the LORD's guidance after Hilkiah the priest discovered the long-lost Book of the Law during temple repairs (2 Kings 22:8-12). Alongside Hilkiah, Ahikam son of Shaphan, Achbor son of Micaiah, and Shaphan the scribe, Asaiah was sent with an urgent charge: \"Go, inquire of the LORD for me and the people and all Judah concerning the words of this book that has been found, for great is the wrath of the LORD that burns against us, because our fathers have not listened to the words of this book\" (22:13). The five went together to Huldah the prophetess, who lived in Jerusalem's Second Quarter, and \"they talked with her\" -- Scripture's simple note that this was a real conversation, not merely a message relayed (22:14). Huldah's reply confirmed the coming judgment Josiah feared, but also promised that because Josiah's heart was tender and he had humbled himself before the LORD, he personally would be spared from seeing the disaster in his lifetime (22:15-20; 2 Chronicles 34:23-28). That word, delivered through the delegation Asaiah belonged to, launched Josiah into one of Judah's most sweeping religious reforms -- destroying idolatrous altars and high places, and restoring the Passover on a scale unmatched since the days of the judges (2 Kings 23:1-25).",
+  "christ_connections": [
+    "Asaiah's mission was simply to go and ask, then bring back exactly what God said -- no editing, no softening. That same faithful carrying of God's word finds its fullest picture in Christ, who said only what the Father gave Him to say (John 12:49-50)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

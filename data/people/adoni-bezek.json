@@ -2,7 +2,7 @@
   "person_id": "adoni-bezek",
   "name": "Adoni-bezek",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "Judges 1:5-7"
@@ -13,6 +13,40 @@
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bezek",
+    "Jerusalem"
+  ],
+  "topics": [
+    "divine justice",
+    "conquest of Canaan",
+    "poetic retribution"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Canaanite king captured by Judah and Simeon at Bezek, whose thumbs and big toes were cut off in the same mutilation he had inflicted on seventy defeated kings -- a judgment he himself recognized as God's just repayment.",
+  "family_friendly_summary": "Adoni-bezek was a powerful Canaanite king who had cruelly treated seventy other kings he had defeated, making them suffer under his table for scraps. When the tribes of Judah and Simeon fought against him at Bezek, they caught him and did the very same painful thing to him that he had done to others. Adoni-bezek didn't complain -- he admitted that God had simply paid him back fairly for what he had done to so many other kings. He was brought to Jerusalem, where he died. His story teaches that God sees every wrong done, even by the powerful, and that no one escapes His justice forever.",
+  "adult_story": "Adoni-bezek -- \"lord of Bezek\" -- ruled as a Canaanite king when Judah and Simeon attacked his forces at Bezek during Israel's conquest of the land (Judges 1:4-5). Defeated in battle, he fled but was captured, and his pursuers cut off his thumbs and big toes (1:6) -- the same mutilation, Adoni-bezek reveals, he had inflicted on seventy kings he had subdued, reducing them to gathering scraps under his table like dogs (1:7). Rather than protest, Adoni-bezek confessed the justice of what had happened to him: \"As I have done, so God has repaid me.\" His own conscience recognized the LORD's hand in his downfall, even though he was a pagan king with no covenant relationship to Israel's God. Brought to Jerusalem, he died there. His account is brief but theologically pointed: it opens the book of Judges with a demonstration that God's justice reaches even beyond Israel to the nations, repaying cruelty with cruelty's own measure. Adoni-bezek's willingness to name God as the author of his punishment stands as an unusual moment of pagan testimony to divine justice in a book that otherwise centers on Israel's own repeated unfaithfulness.",
+  "christ_connections": [
+    "Lord Jesus, Adoni-bezek got exactly what he had done to others, and even he called it fair. I deserve the same fair repayment for my own sin -- but You took it in my place instead.",
+    "You are the true Judge who sees every cruelty, even when kings think they're untouchable. I can trust You to make all things right in the end."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

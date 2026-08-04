@@ -2,7 +2,7 @@
   "person_id": "adriel",
   "name": "Adriel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "1 Samuel 18:19",
@@ -16,6 +16,39 @@
       "merab"
     ],
     "children": []
+  },
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Abel-meholah"
+  ],
+  "topics": [
+    "broken promise",
+    "royal marriage",
+    "national bloodguilt"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Samuel 21:8 names the mother of Adriel's five executed sons as \"Michal the daughter of Saul,\" but 1 Samuel 18:19 states it was Merab, not Michal, who was given to Adriel as wife, and 2 Samuel 6:23 states Michal had no children. Many scholars read this as a scribal issue (some Hebrew manuscripts and versions read \"Merab\"), while others propose Michal raised her sister's sons after Merab's death. Scripture as it stands does not resolve the discrepancy.",
+  "source_summary": "A Meholathite who married Merab, Saul's daughter, after Saul reneged on an earlier expectation involving David; years later, five of his sons were handed over by David to the Gibeonites and executed to atone for Saul's earlier bloodguilt against them.",
+  "family_friendly_summary": "Adriel the Meholathite married Merab, one of King Saul's daughters. Long before, Saul had hinted that his daughter would marry whoever defeated the giant Goliath -- but instead of giving Merab to David for that victory, Saul gave her to Adriel. Years later, Israel suffered a famine because Saul had broken an old peace treaty with a neighboring people called the Gibeonites and had wronged them. To make things right, King David handed several of Saul's family members over to the Gibeonites, including five sons connected to Adriel's family, and they were put to death. Adriel's story shows how the broken promises and sins of one generation can bring pain to the next.",
+  "adult_story": "Adriel the Meholathite, son of Barzillai, married Merab, King Saul's older daughter -- the very daughter Saul had implied would go to whoever killed Goliath, a promise pointing at David (1 Samuel 17:25). Instead, \"at the time when Merab... should have been given to David,\" Saul gave her to Adriel instead (18:19), one more sign of Saul's erratic, jealousy-driven dealings with David throughout this period. Adriel's family reappears years later under David's reign. A three-year famine struck Israel, and the LORD revealed it was because Saul had broken Israel's old treaty with the Gibeonites and killed some of them (2 Samuel 21:1-2). To atone for this bloodguilt and end the famine, David handed seven of Saul's male descendants over to the Gibeonites to be executed, including \"the five sons of Michal the daughter of Saul, whom she had borne to Adriel\" (21:8) -- though 1 Samuel 18:19 says it was Merab, not Michal, who married Adriel, and 2 Samuel 6:23 states Michal had no children, a discrepancy Scripture itself does not explain. However the family relationships are reconciled, the sons connected to Adriel's household paid with their lives for sins committed a generation earlier by Saul, a sobering picture of how bloodguilt and covenant-breaking can outlast the guilty party.",
+  "christ_connections": [
+    "Lord Jesus, Adriel's sons bore the weight of a debt their grandfather Saul owed, not one they created themselves. You bore a debt that was entirely mine, though it cost You everything and me nothing.",
+    "The famine only lifted once the bloodguilt was answered for. My guilt before You was answered for once and fully at the cross -- I don't have to wonder if enough has been paid."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

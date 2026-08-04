@@ -45651,18 +45651,6 @@
     "gender": "female"
   },
   {
-    "person_id": "antichrist",
-    "name": "Antichrist",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "NT",
-    "era": "Apostolic",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "diotrephes",
     "name": "Diotrephes",
     "alt_names": [],

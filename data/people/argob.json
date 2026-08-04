@@ -2,17 +2,48 @@
   "person_id": "argob",
   "name": "Argob",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria"
+  ],
   "references": [
     "2 Kings 15:25"
   ],
   "first_reference": "2 Kings 15:25",
+  "topics": [
+    "political violence",
+    "Israel's unstable throne"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Whether Argob and Arieh were royal officials killed alongside King Pekahiah when Pekah assassinated him, or were themselves among Pekah's fellow conspirators, is disputed -- the Hebrew syntax is difficult, and some scholars have even proposed that 'Argob' names a place rather than a person. This entry follows the more common reading of both as individuals present at the killing.",
+  "source_summary": "Named alongside Arieh as present in the citadel of the royal palace in Samaria when the army officer Pekah assassinated King Pekahiah of Israel in a violent coup.",
+  "family_friendly_summary": "Argob is a name mentioned during a hard time for the kingdom of Israel. Israel's kings often gained the throne through violence instead of the peaceful, God-honoring succession Israel was meant to have. Argob is named as present in the king's own palace when an army officer named Pekah killed King Pekahiah to seize the throne for himself. Argob's brief mention is part of the Bible's honest record of a kingdom that kept drifting from God, and it shows how much Israel needed a King who would rule justly and rule forever, unlike the string of kings who grabbed Israel's throne through murder.",
+  "adult_story": "Argob appears once, in the brief account of Pekah's violent seizure of Israel's throne. King Pekahiah, son of Menahem, had reigned only two years when \"Pekah the son of Remaliah, his officer, conspired against him and struck him fatally in Samaria, in the citadel of the king's house, with Argob and Arieh; and with him were fifty men of the Gileadites\" (2 Kings 15:25). The Hebrew leaves genuinely unclear whether Argob and Arieh were fellow victims killed alongside Pekahiah, or companions who joined Pekah in carrying out the assassination -- commentators are divided, and Scripture supplies no further detail about either man. What is unambiguous is the pattern this single verse belongs to: the northern kingdom's throne changed hands violently again and again in its final decades, dynasty after dynasty ended by assassination rather than succession (compare Zimri's murder of Elah, 1 Kings 16:9-10, and Shallum's murder of Zechariah just one chapter earlier, 2 Kings 15:10). Argob's single, ambiguous mention is a small piece of that larger, grim record -- part of the historical books' unflinching account of Israel's political chaos in the decades leading up to the Assyrian conquest (2 Kings 17).",
+  "christ_connections": [
+    "Argob's story, whichever side of the coup he stood on, is swallowed up in Israel's long parade of kings who seized the throne by the sword. It points, by contrast, to the King who takes His throne not by violence but by right, and holds it forever (Luke 1:32-33)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

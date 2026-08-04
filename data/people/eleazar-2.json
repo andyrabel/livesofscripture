@@ -2,17 +2,49 @@
   "person_id": "eleazar-2",
   "name": "Eleazar",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kiriath-jearim"
+  ],
   "references": [
     "1 Samuel 7:1"
   ],
   "first_reference": "1 Samuel 7:1",
+  "topics": [
+    "guarding what is holy",
+    "quiet faithfulness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Abinadab, consecrated by the men of Kiriath-jearim to keep watch over the ark of the covenant after it was returned by the Philistines, a duty he held for about twenty years.",
+  "family_friendly_summary": "After the Philistines captured the ark of the covenant and then sent it back because it kept bringing them trouble, the ark ended up in a town called Kiriath-jearim. The people there brought the ark into the house of a man named Abinadab, and they set apart his son Eleazar to take special care of it. Eleazar watched over the ark faithfully for about twenty years, until the ark was finally brought to Jerusalem years later during King David's reign. Eleazar's job wasn't flashy or exciting, but it mattered -- he guarded something holy that belonged to God, quietly and faithfully, for a very long time.",
+  "adult_story": "Eleazar was the son of Abinadab of Kiriath-jearim. After the Philistines captured the ark of the covenant in battle and then, plagued by disaster wherever they kept it, sent it back to Israel on a cart, it came to rest at Kiriath-jearim (1 Samuel 6:1-7:1). The men of that town brought the ark into Abinadab's house on the hill and \"consecrated Eleazar his son to keep the ark of the LORD\" (7:1). The ark remained there under Eleazar's watch for about twenty years, the span of time noted before Samuel called Israel back to the LORD (7:2). Scripture records no further individual action of Eleazar's -- his role was custodial, not narrated as a series of events, but the text singles him out by name as the one specifically set apart for this responsibility over Israel's most sacred object during a long, formative stretch of Israel's history between the judges and the monarchy. It was not until years later, under King David, that the ark was finally moved from that region toward Jerusalem (2 Samuel 6), at which point Eleazar's brothers Uzzah and Ahio, not Eleazar himself, are named as the ones who drove the cart. Eleazar's contribution was simply faithful, sustained guardianship of what God's people held holy, without complaint or incident recorded across two decades.",
+  "christ_connections": [
+    "Eleazar's long, unseen faithfulness guarding the ark, the earthly symbol of God's presence, points to Christ, who now dwells permanently with His people and needs no human guardian to keep His presence secure (Matthew 28:20).",
+    "A task with no drama or applause, kept faithfully for twenty years, echoes the quiet, hidden obedience Christ calls His followers to -- faithfulness in what is unseen matters to God even when Scripture records little else about it (Luke 16:10)."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "abinadab",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

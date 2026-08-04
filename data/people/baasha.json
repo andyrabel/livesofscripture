@@ -2,8 +2,17 @@
   "person_id": "baasha",
   "name": "Baasha",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Tirzah",
+    "Kingdom of Israel"
+  ],
   "references": [
     "1 Kings 15:16-33",
     "1 Kings 16:1-13",
@@ -13,6 +22,27 @@
     "Jeremiah 41:9"
   ],
   "first_reference": "1 Kings 15:16-33",
+  "topics": [
+    "usurpation",
+    "idolatry",
+    "prophetic judgment",
+    "cycle of violence"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A commander who assassinated King Nadab and exterminated the house of Jeroboam to seize Israel's throne, reigned twenty-four years marked by continued idolatry and war with Judah, and was condemned by the prophet Jehu son of Hanani for repeating Jeroboam's sins.",
+  "family_friendly_summary": "Baasha was a military commander who killed King Nadab of Israel and took the throne for himself, then wiped out the rest of Nadab's family, just as a prophet had said would happen because of an earlier king's sins. But instead of leading Israel back to God, Baasha followed the same wrong path, worshiping idols instead of the LORD. He fought a long war against King Asa of Judah, even building a fort to block Judah's border, until Asa paid a foreign king to attack Israel and force Baasha to stop. God sent a prophet named Jehu to warn Baasha that his own family would be destroyed too, just like the family he had destroyed.",
+  "adult_story": "Baasha, son of Ahijah of the tribe of Issachar, conspired against King Nadab of Israel, killed him, and wiped out the entire house of Jeroboam -- fulfilling the prophet Ahijah's earlier judgment against Jeroboam's dynasty, though Scripture never excuses Baasha's own bloody ambition in carrying it out (1 Kings 15:27-29). He reigned twenty-four years from Tirzah, but \"walked in the way of Jeroboam and in his sin,\" continuing the calf-worship that had led Israel into idolatry (1 Kings 15:33-34). Baasha warred continually with King Asa of Judah, and began fortifying Ramah to choke off Judah's border, until Asa emptied the temple treasury to bribe Ben-hadad of Aram into attacking Israel's northern territory, forcing Baasha to abandon the project (1 Kings 15:16-22; 2 Chronicles 16:1-6). For his sin, God sent the prophet Jehu son of Hanani to pronounce the same verdict on Baasha's house that had fallen on Jeroboam's: total destruction, his dead to be eaten by dogs and birds (1 Kings 16:1-4). Baasha died and was buried at Tirzah, succeeded briefly by his son Elah -- who, along with the rest of Baasha's family, was murdered within two years by Zimri, exactly as Jehu had prophesied (1 Kings 16:6-13). Baasha's reign is one of Kings' clearest illustrations that seizing power through violence, even against a corrupt line, does not itself produce a faithful king.",
+  "christ_connections": [
+    "Lord Jesus, Baasha destroyed one wicked dynasty only to build another just like it -- proof that a new king isn't enough; the throne itself needed a King who would not sin. You are that King.",
+    "Baasha's house fell exactly as the prophet said it would. Every word against him came true -- and every word of promise about You has come true too, Lord, down to the smallest detail."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "ahijah-3",
     "mother": null,
@@ -20,6 +50,11 @@
     "children": [
       "elah-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

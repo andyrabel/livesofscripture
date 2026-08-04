@@ -2,7 +2,7 @@
   "person_id": "ahaz",
   "name": "Ahaz",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
   "references": [
     "2 Kings 15:38",
@@ -32,6 +32,41 @@
       "hezekiah",
       "maaseiah-4"
     ]
+  },
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "kingdom": "judah",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Kingdom of Judah"
+  ],
+  "topics": [
+    "idolatry",
+    "unbelief",
+    "Assyrian vassalage"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A king of Judah who abandoned the LORD for pagan worship, including sacrificing his own son in the fire, refused Isaiah's offered sign of God's protection during a national crisis, and instead purchased Assyrian help by stripping the temple treasury, becoming Assyria's vassal.",
+  "family_friendly_summary": "Ahaz became king of Judah at a young age and, unlike some of the kings before him, did not follow God. He copied the wrong practices of Israel's kings and other nations around him and worshiped false gods, making poor and sinful choices the Bible doesn't go into detail about for young readers. When two enemy kings threatened to attack Jerusalem, God sent the prophet Isaiah to comfort Ahaz and offer him a sign that God would protect Judah. But Ahaz refused to ask God for help, even though God invited him to. Instead of trusting God, Ahaz paid the powerful king of Assyria for protection, even taking treasures from God's temple to do it. Even so, God still kept His promise to keep David's family line going through Ahaz's own son, Hezekiah.",
+  "adult_story": "Ahaz became king of Judah and, unlike his father Jotham, \"did not do right in the sight of the LORD\" (2 Kings 16:2). He walked in the ways of Israel's kings, cast metal images for the Baals, burned incense on the high places, and even made his own son pass through the fire, following the abhorrent practices of the nations the LORD had driven out before Israel (2 Chronicles 28:1-3). When Aram's King Rezin and Israel's King Pekah allied to attack Jerusalem, Ahaz and his people trembled \"as the trees of the forest shake with the wind\" (Isaiah 7:2). The LORD sent Isaiah to Ahaz with a staggering offer: ask for any sign, as deep as Sheol or as high as heaven, to confirm God's promise of deliverance (Isaiah 7:10-11). Ahaz refused, hiding behind false piety -- \"I will not ask, nor will I test the LORD\" (7:12) -- so Isaiah gave the sign anyway, unasked: a virgin would bear a son called Immanuel (7:14). Rather than trust God, Ahaz stripped silver and gold from the temple and palace to buy Assyrian King Tiglath-pileser's help, becoming his vassal, and later remodeled the temple's altar after a pagan design he had seen in Damascus, going so far as to shut the temple doors altogether (2 Kings 16:7-18; 2 Chronicles 28:24). Despite Ahaz's unbelief, the LORD preserved the Davidic line through his son Hezekiah, and Ahaz is still named in Matthew's genealogy of Jesus (Matthew 1:9).",
+  "christ_connections": [
+    "Lord Jesus, Ahaz refused the sign You offered him, so You gave it anyway -- Immanuel, God with us. You keep Your promises even to people who won't ask for them, and You kept that one by being born of a virgin, for me.",
+    "Ahaz shut the doors of Your house, but You never shut the door on Your promise to David's line. Your faithfulness didn't depend on Ahaz's -- it depends only on You."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }
