@@ -172,6 +172,9 @@ async function renderIndexPage() {
   const testamentFilter = document.getElementById("filter-testament");
   const includeStubsCheckbox = document.getElementById("filter-include-stubs");
   const eraFilter = document.getElementById("filter-era");
+  const genderFilter = document.getElementById("filter-gender");
+  const kingdomFilter = document.getElementById("filter-kingdom");
+  const regionFilter = document.getElementById("filter-region");
   const sortOrder = document.getElementById("sort-order");
 
   const index = await loadIndex();
@@ -194,17 +197,32 @@ async function renderIndexPage() {
     eraFilter.appendChild(opt);
   }
 
+  const presentRegions = new Set(index.filter((e) => e.region).map((e) => e.region));
+  for (const region of TIMELINE_REGIONS) {
+    if (!presentRegions.has(region.key)) continue;
+    const opt = document.createElement("option");
+    opt.value = region.key;
+    opt.textContent = region.label;
+    regionFilter.appendChild(opt);
+  }
+
   function render() {
     const query = searchInput.value;
     const testament = testamentFilter.value;
     const includeStubs = includeStubsCheckbox.checked;
     const era = eraFilter.value;
+    const gender = genderFilter.value;
+    const kingdom = kingdomFilter.value;
+    const region = regionFilter.value;
 
     const filtered = index.filter((entry) => {
       if (!includeStubs && entry.tier === "stub") return false;
       if (!matchesSearch(entry, query)) return false;
       if (testament && entry.testament !== testament) return false;
       if (era && entry.era !== era) return false;
+      if (gender && entry.gender !== gender) return false;
+      if (kingdom && entry.kingdom !== kingdom) return false;
+      if (region && entry.region !== region) return false;
       return true;
     });
 
@@ -242,6 +260,9 @@ async function renderIndexPage() {
   testamentFilter.addEventListener("change", render);
   includeStubsCheckbox.addEventListener("change", render);
   eraFilter.addEventListener("change", render);
+  genderFilter.addEventListener("change", render);
+  kingdomFilter.addEventListener("change", render);
+  regionFilter.addEventListener("change", render);
   sortOrder.addEventListener("change", render);
 
   render();

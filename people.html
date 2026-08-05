@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>People — Lives of Scripture</title>
-<meta name="description" content="Browse and search every person named in the Bible — filter by testament, era, or full story vs. name-only entry.">
+<meta name="description" content="Browse and search every person named in the Bible — filter by testament, era, gender, kingdom, region, or full story vs. name-only entry.">
 <link rel="canonical" href="https://livesofscripture.org/people.html">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -16,12 +16,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="People — Lives of Scripture">
-<meta property="og:description" content="Browse and search every person named in the Bible — filter by testament, era, or full story vs. name-only entry.">
+<meta property="og:description" content="Browse and search every person named in the Bible — filter by testament, era, gender, kingdom, region, or full story vs. name-only entry.">
 <meta property="og:url" content="https://livesofscripture.org/people.html">
 <meta property="og:image" content="https://livesofscripture.org/images/social/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="People — Lives of Scripture">
-<meta name="twitter:description" content="Browse and search every person named in the Bible — filter by testament, era, or full story vs. name-only entry.">
+<meta name="twitter:description" content="Browse and search every person named in the Bible — filter by testament, era, gender, kingdom, region, or full story vs. name-only entry.">
 <meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
 
 <link rel="stylesheet" href="css/style.css">
@@ -69,6 +69,19 @@
     </select>
     <select id="filter-era">
       <option value="">All eras</option>
+    </select>
+    <select id="filter-gender">
+      <option value="">All genders</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <select id="filter-kingdom">
+      <option value="">All kingdoms</option>
+      <option value="israel">Northern Kingdom (Israel)</option>
+      <option value="judah">Southern Kingdom (Judah)</option>
+    </select>
+    <select id="filter-region">
+      <option value="">All regions</option>
     </select>
     <select id="sort-order">
       <option value="name-asc">Name (A–Z)</option>
