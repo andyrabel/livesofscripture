@@ -6,8 +6,15 @@
     "Shimei",
     "Shimea"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethlehem"
+  ],
   "references": [
     "1 Samuel 16:9",
     "1 Samuel 17:13",
@@ -18,6 +25,22 @@
     "1 Chronicles 20:7"
   ],
   "first_reference": "1 Samuel 16:9",
+  "topics": [
+    "family of David",
+    "rejected for kingship",
+    "father of Jonadab"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of Jesse's elder sons and an older brother of David, passed over by Samuel when Israel's next king was anointed, later the father of Jonadab (Amnon's scheming friend) and Jonathan (who killed a Philistine giant).",
+  "family_friendly_summary": "Shimeah, also called Shammah, was one of Jesse's older sons and one of King David's big brothers. When the prophet Samuel came to Jesse's house looking for the next king of Israel, Shimeah was one of the sons brought before him -- but God told Samuel this wasn't the one He had chosen, just as with his brother Eliab. Shimeah later followed King Saul into battle against the Philistines, the same battle where his youngest brother David famously fought Goliath. Shimeah isn't a major character in the Bible, but his family became very important: his sons Jonadab and Jonathan both show up later in David's story.",
+  "adult_story": "Shimeah, also called Shammah, was one of Jesse's elder sons and an older brother of David. When Samuel came to Bethlehem to anoint Israel's next king, Jesse presented his sons to him one by one; Shimeah was made to pass before the prophet just as Eliab had been, and like Eliab he was passed over -- \"the LORD has not chosen this one, either\" (1 Samuel 16:9-10). He is later named among the three eldest sons of Jesse who followed Saul into the campaign against the Philistines, the same standoff in which their youngest brother David killed Goliath (1 Samuel 17:13-14). Shimeah does not reappear as an actor in his own right, but his sons do: his son Jonadab was the \"very shrewd\" friend of Amnon who devised the scheme leading to Tamar's rape (2 Samuel 13:3-5), and another son, Jonathan, killed a Philistine giant with six fingers and toes at Gath (2 Samuel 21:20-21). Shimeah's story is a minor thread in a much larger family drama -- rejected for the throne himself, yet the father of sons who shaped, for better and worse, the reign of the brother God did choose.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jesse",
     "mother": null,
@@ -26,6 +49,11 @@
       "jonadab",
       "jonathan-4"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

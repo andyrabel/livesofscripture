@@ -2,17 +2,45 @@
   "person_id": "seraiah-9",
   "name": "Seraiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 36:26"
   ],
   "first_reference": "Jeremiah 36:26",
+  "topics": [
+    "royal opposition to prophecy",
+    "divine protection"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A royal official whom King Jehoiakim commanded, along with two others, to arrest Jeremiah and his scribe Baruch after the king burned Jeremiah's prophetic scroll -- an order the LORD frustrated by hiding them.",
+  "family_friendly_summary": "When the prophet Jeremiah's scroll of warnings was read to King Jehoiakim, the king got angry, cut the scroll into pieces, and burned it in the fire instead of listening to God's message. Then he ordered some of his officials, including a man named Seraiah, to go arrest Jeremiah and his helper Baruch. But God protected His prophet -- the Bible tells us simply that \"the LORD hid them.\" Seraiah's part in the story shows both how much some leaders resisted God's word, and how God can protect His people even from a king's direct orders.",
+  "adult_story": "Seraiah son of Azriel is named as one of three officials -- alongside Jerahmeel, the king's son, and Shelemiah son of Abdeel -- whom King Jehoiakim commanded to seize the prophet Jeremiah and his scribe Baruch (Jeremiah 36:26). The order came directly after the king had listened to Jeremiah's scroll of warnings against Judah being read aloud, cut it into pieces with a scribe's knife, and burned the entire thing in his winter-house brazier, unmoved and unafraid despite officials pleading with him not to destroy it (36:21-25). Jehoiakim's response to God's word was contempt followed by an attempt to silence the messenger by force. Seraiah's role, brief as it is, places him on the side of a king actively resisting the LORD -- yet the mission failed: \"the LORD hid them,\" and Jeremiah simply dictated the scroll's contents again, with more added besides (36:26-32).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "azriel-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,13 +2,37 @@
   "person_id": "joanna",
   "name": "Joanna",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee",
+    "Jerusalem"
+  ],
   "references": [
     "Luke 8:3",
     "Luke 24:10"
   ],
   "first_reference": "Luke 8:3",
+  "topics": [
+    "financial support of Jesus's ministry",
+    "witness to the resurrection",
+    "women disciples"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Wife of Chuza, Herod Antipas's household manager, Joanna was one of several women who traveled with Jesus and the Twelve and supported their ministry out of her own means, and later one of the women who found the empty tomb and reported it to the apostles.",
+  "family_friendly_summary": "Joanna was married to Chuza, an important official who worked for King Herod. Even though her husband worked in a royal palace, Joanna chose to follow Jesus and used her own money to help support Him and His disciples as they traveled and taught. Later, Joanna was one of the women who went to Jesus's tomb early in the morning after He died. She found the tomb empty and an angel told her Jesus had risen. Joanna ran to tell the apostles the good news, though at first they did not believe her. She is remembered as a faithful, generous follower of Jesus and one of the very first people to know He was alive.",
+  "adult_story": "Joanna appears twice in Luke's Gospel, both times among a small group of named women. She is introduced as \"the wife of Chuza, Herod's steward\" -- a position of real standing in Herod Antipas's court -- who, along with Mary Magdalene, Susanna, and many others, traveled with Jesus and the Twelve and \"were contributing to their support out of their private means\" (Luke 8:1-3). Her wealth and connections funded an itinerant ministry that had no other income, a quiet but essential form of discipleship. Luke names her again after the crucifixion: Joanna is among the women who came to Jesus's tomb at dawn, found the stone rolled away and the body gone, and were told by two angelic figures, \"He is not here, but He has risen\" (24:1-7). She and the other women ran and told this to the eleven apostles and the rest, \"but these words appeared to them as nonsense, and they would not believe them\" (24:9-11). Joanna's discipleship spans the whole arc of Luke's Gospel -- from financing Jesus's Galilean ministry out of her own resources to being among the very first witnesses of His resurrection and the first to carry that news, unbelieved, to the very apostles who would later preach it to the world.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -16,6 +40,11 @@
       "chuza"
     ],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

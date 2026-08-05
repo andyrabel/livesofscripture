@@ -5,19 +5,44 @@
     "Josheb-basshebeth",
     "Adino the Eznite"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "2 Samuel 23:8",
     "1 Chronicles 11:11",
     "1 Chronicles 27:2"
   ],
   "first_reference": "2 Samuel 23:8",
+  "topics": [
+    "mighty warrior",
+    "loyalty to David",
+    "military leadership"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The Hebrew text of 2 Samuel 23:8 is notoriously difficult and differs from its parallel in 1 Chronicles 11:11 -- the name appears there as \"Josheb-basshebeth\" or, in some manuscript traditions, \"Adino the Eznite,\" and the number of men he killed in one encounter is given as eight hundred in 2 Samuel versus three hundred in Chronicles. Most scholars regard this as textual corruption in the transmission of Samuel rather than two different events, with Chronicles likely preserving the more reliable number, but the exact original wording is uncertain.",
+  "source_summary": "Chief of David's three mightiest warriors, credited with killing hundreds of enemy soldiers in a single encounter; later served as captain of the first monthly division of David's army.",
+  "family_friendly_summary": "Jashobeam was the greatest of David's \"mighty men,\" an elite group of David's bravest warriors. The Bible tells us he was chief of the three greatest of them, and that in one incredible battle he fought off and killed a huge number of enemy soldiers by himself. Later, David trusted Jashobeam with an important job: commanding the first of twelve army divisions that took turns serving the king each month, each with 24,000 soldiers. Jashobeam's story is a reminder of the loyal, courageous men who stood by David throughout his reign, even though the Bible names some of them only briefly.",
+  "adult_story": "Jashobeam, son of a Hachmonite (or, by another reading, of Zabdiel), was chief among \"the three,\" the top tier of David's elite mighty men (1 Chronicles 11:11; 27:2). Scripture records a single staggering feat: \"he lifted up his spear against three hundred whom he killed at one time\" (1 Chronicles 11:11) -- rendered in 2 Samuel 23:8 with a different name form and a count of eight hundred, a discrepancy most attribute to textual corruption in Samuel's transmission rather than two separate incidents. Whatever the precise number, both texts agree he stood at the very top of David's fighting men, part of the small circle whose loyalty and battlefield courage helped secure David's kingdom during years of conflict with Israel's enemies and rivals for the throne. Beyond this feat of arms, 1 Chronicles 27:2 records that Jashobeam went on to hold formal command: he was appointed captain over the first of David's twelve monthly military divisions, each numbering 24,000 men, showing that his standing was not only a matter of past heroics but ongoing trusted leadership within David's kingdom. Jashobeam represents a figure common in David's story -- a warrior whose singular courage in a moment of crisis becomes the foundation for a lifetime of entrusted responsibility.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zabdiel",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

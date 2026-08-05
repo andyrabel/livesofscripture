@@ -2,18 +2,46 @@
   "person_id": "horam",
   "name": "Horam",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gezer",
+    "Lachish"
+  ],
   "references": [
     "Joshua 10:28-33",
     "Joshua 12:16"
   ],
   "first_reference": "Joshua 10:28-33",
+  "topics": [
+    "the conquest of Canaan",
+    "judgment on Canaanite kings"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The king of Gezer who marched to relieve Lachish during Joshua's southern campaign but was defeated along with his entire army, leaving no survivors.",
+  "family_friendly_summary": "Horam was the king of the city of Gezer in Canaan. During Joshua's campaign to conquer southern Canaan, the Israelite army attacked the city of Lachish. Horam brought his army to try to help defend Lachish and stop Joshua's advance. But Joshua's forces defeated Horam and his whole army completely -- the Bible says none of them survived. Horam's story is very short, just one verse, but it is part of the bigger picture of Joshua's conquest of the promised land, showing how God gave Israel victory after victory as they took possession of the land He had promised to Abraham's descendants.",
+  "adult_story": "Horam, king of Gezer, appears in a single verse during Joshua's southern military campaign. While Israel's forces were attacking Lachish, \"Horam king of Gezer came up to help Lachish. And Joshua defeated him and his people until he had left him no survivor\" (Joshua 10:33). Unlike the five-king coalition against Gibeon narrated at length earlier in the same chapter (10:1-27), Horam's account is compressed into a single clause -- he marches out to relieve a besieged ally and is annihilated along with his entire army before he can change the outcome at Lachish. Joshua's later summary of the thirty-one Canaanite kings defeated west of the Jordan also lists the king of Gezer among them (12:16). Brief as it is, Horam's defeat is presented as part of the same divine pattern running through the whole conquest narrative: Canaanite military power repeatedly proves unable to stand against Israel because, as Joshua 10:14 says of this same campaign, \"the LORD fought for Israel.\"",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

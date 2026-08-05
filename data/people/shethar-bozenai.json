@@ -2,18 +2,45 @@
   "person_id": "shethar-bozenai",
   "name": "Shethar-bozenai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 5:3-6",
     "Ezra 6:6-13"
   ],
   "first_reference": "Ezra 5:3-6",
+  "topics": [
+    "opposition to rebuilding",
+    "Persian administration"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Persian official who, with the governor Tattenai, questioned the Jews' authority to rebuild the Jerusalem temple, reported the matter to King Darius, and then obeyed Darius's decree confirming the work.",
+  "family_friendly_summary": "When the Jewish people who had returned from Babylon began rebuilding God's temple in Jerusalem, some local Persian officials were suspicious. One of them was named Shethar-bozenai. He and another official named Tattenai came and asked the Jewish leaders who had given them permission to build. Instead of just stopping the work, Shethar-bozenai sent a letter all the way to King Darius asking him to check the old royal records. When Darius wrote back and confirmed that King Cyrus really had given permission, Shethar-bozenai did exactly what the king commanded and let the building continue, even helping supply what was needed.",
+  "adult_story": "Shethar-bozenai was a Persian official serving alongside Tattenai, governor of the province beyond the Euphrates, during the rebuilding of the Jerusalem temple under Zerubbabel and Joshua the priest. When the two officials saw the work underway, they came to the Jewish elders and asked pointedly, \"Who issued you a decree to rebuild this temple?\" (Ezra 5:3-4). Rather than halting the project outright, Shethar-bozenai joined Tattenai in sending a detailed report to King Darius, recounting the Jews' claim that Cyrus had authorized the rebuilding and requesting a search of the royal archives to verify it (Ezra 5:6-17). The search confirmed Cyrus's original decree, and Darius responded with a decree of his own, commanding Tattenai and Shethar-bozenai not only to stay away from the work but to fund it from royal revenue (Ezra 6:6-12). Scripture then records their obedience: \"Then Tattenai... and Shethar-bozenai... did in accordance with what King Darius had sent\" (Ezra 6:13), and the temple was finished. Shethar-bozenai's brief role -- an official who investigated rather than obstructed, and who complied fully once the king's will was clear -- became, under God's providence, part of the mechanism through which the rebuilding of His house went forward unhindered.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

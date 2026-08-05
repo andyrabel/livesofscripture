@@ -2,8 +2,16 @@
   "person_id": "hoshea",
   "name": "Hoshea",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Kingdom of Israel"
+  ],
   "references": [
     "2 Kings 15:30",
     "2 Kings 17:1-6",
@@ -11,11 +19,32 @@
     "Hosea 10:15"
   ],
   "first_reference": "2 Kings 15:30",
+  "topics": [
+    "the fall of the northern kingdom",
+    "rebellion against Assyria",
+    "exile"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The last king of the northern kingdom of Israel, who took the throne by assassinating his predecessor Pekah, later rebelled against Assyria, and saw his kingdom conquered and its people carried into exile when Samaria fell.",
+  "family_friendly_summary": "Hoshea was the last king of Israel, the northern kingdom made up of ten of Israel's twelve tribes. He became king in a violent way -- by killing the previous king, Pekah. The Bible says Hoshea did what was evil in God's sight, though not as badly as some earlier kings of Israel had. For a while Hoshea paid tribute money to the powerful king of Assyria to keep peace, but then he secretly tried to get help from Egypt instead and stopped paying. When the king of Assyria found out, he was furious. Assyria's army surrounded Israel's capital city, Samaria, for three years, and finally captured it. Israel's people were taken from their land into exile, and the northern kingdom came to an end -- an ending God's prophets had long warned was coming.",
+  "adult_story": "Hoshea son of Elah seized Israel's throne through assassination, conspiring against King Pekah, striking him down, and becoming king in his place (2 Kings 15:30). He reigned nine years in Samaria as Israel's last king, doing evil in the LORD's sight -- though, Scripture notes almost as a footnote, \"not as the kings of Israel who were before him\" (17:1-2). Hoshea became a vassal of Assyria's Shalmaneser, paying tribute to avoid invasion, but then gambled on rebellion: he sent secret envoys to \"So, king of Egypt,\" seeking an alliance, and stopped paying Assyria's tribute (17:3-4). Shalmaneser discovered the conspiracy, seized Hoshea, and bound him in prison, then marched on Israel itself, besieging Samaria for three years (17:4-5). In Hoshea's ninth year, Samaria fell; Assyria deported the northern kingdom's population, resettling foreign peoples in their place -- the end of the ten northern tribes as an independent nation (17:6). The chapter immediately follows this with a long theological verdict: Israel's exile came \"because the sons of Israel had sinned against the LORD their God\" through generations of idolatry, ignoring prophet after prophet's warning (17:7-23). Hoshea's brief, unheroic reign -- born in violence, ended in captivity -- closes the book on the northern kingdom exactly as its prophets, including Hosea, had long warned would happen (Hosea 10:15).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "elah-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

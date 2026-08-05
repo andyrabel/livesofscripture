@@ -4,8 +4,16 @@
   "alt_names": [
     "Jehoash"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Kingdom of Israel"
+  ],
   "references": [
     "2 Kings 13:9-25",
     "2 Kings 14:1-27",
@@ -14,6 +22,22 @@
     "Amos 1:1"
   ],
   "first_reference": "2 Kings 13:9-25",
+  "topics": [
+    "weeping over a dying prophet",
+    "military victory over Aram",
+    "war with Judah"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Israel and son of Jehoahaz, Joash (Jehoash) wept at the dying prophet Elisha's bedside and received a symbolic prophecy of victory over Aram through striking arrows on the ground, went on to recover cities from Aram, and later defeated an overconfident King Amaziah of Judah in battle.",
+  "family_friendly_summary": "Joash was a king of Israel who visited the prophet Elisha when Elisha was dying. Joash wept and called Elisha \"my father,\" honoring him as someone who had protected Israel like an army. Elisha told Joash to shoot an arrow out the window and then strike the ground with more arrows -- Joash struck the ground three times and stopped, so Elisha told him he would only defeat Israel's enemy Aram three times instead of completely. Even so, Joash later won real victories and recovered cities Aram had taken. When King Amaziah of Judah challenged him to battle out of pride, Joash tried to warn him off first, but when Amaziah wouldn't listen, Joash defeated him decisively.",
+  "adult_story": "Joash (Jehoash), son of Jehoahaz, became king of Israel and, near the end of Elisha's life, went to weep over the dying prophet, crying, \"My father, my father, the chariots of Israel and its horsemen!\" -- the very words Elisha himself had cried at Elijah's departure (2 Kings 13:14; compare 2:12). Elisha had Joash shoot an arrow eastward as a sign of the LORD's arrow of victory over Aram, then told him to strike the ground with the remaining arrows. Joash struck three times and stopped -- and Elisha, angry, told him that half-hearted response meant only three victories over Aram rather than a complete rout (13:15-19). After Elisha died, Joash did recover the cities Aram had taken from his father, defeating Aram three times just as foretold (13:24-25). Later, Amaziah of Judah, flush with a victory over Edom, challenged Joash to battle. Joash first answered with a parable warning Amaziah not to overreach -- a thistle sending word to a cedar of Lebanon, trampled by a passing animal -- but Amaziah would not listen (14:8-11; 2 Chronicles 25:17-19). Joash routed Judah's army, captured Amaziah, broke down a stretch of Jerusalem's wall, and plundered the temple and palace treasuries (14:12-14). Scripture is blunt that both kings, like most of the Divided Monarchy's rulers, \"did evil in the sight of the LORD\" (13:11) -- Joash's real military successes came without any turning of Israel from the idolatry Jeroboam had begun generations before.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoahaz",
     "mother": null,
@@ -21,6 +45,11 @@
     "children": [
       "jeroboam-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

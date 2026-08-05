@@ -2,17 +2,46 @@
   "person_id": "nergal-sar-ezer-2",
   "name": "Nergal-sar-ezer",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Babylon"
+  ],
   "references": [
     "Jeremiah 39:3-13"
   ],
   "first_reference": "Jeremiah 39:3-13",
+  "topics": [
+    "fall of Jerusalem",
+    "Babylonian officials",
+    "release of Jeremiah"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The name \"Nergal-sar-ezer\" appears twice in Jeremiah 39:3, which many scholars read as textual corruption or duplication rather than two separate officials -- this entry follows the figure titled \"the Rab-mag,\" who reappears by that title in verse 13. He is also often, though not certainly, identified by historians with Neriglissar, the Babylonian general who later seized the throne after murdering Nebuchadnezzar's son and successor Amel-Marduk; Scripture itself does not make that identification.",
+  "source_summary": "A high Babylonian official titled \"the Rab-mag,\" present at the fall of Jerusalem in 586 BC, later sent with other officers to carry out Nebuchadnezzar's order releasing the prophet Jeremiah from custody.",
+  "family_friendly_summary": "Nergal-sar-ezer was an important Babylonian official who came to Jerusalem when the Babylonian army broke through the city walls in 586 BC. His special title, \"the Rab-mag,\" meant he held a high position in the king's court. After the city fell, King Nebuchadnezzar gave orders that the prophet Jeremiah should be treated well and set free instead of being carried off as a captive. Nergal-sar-ezer was one of the officials sent to carry out that order, helping to release Jeremiah and hand him safely over to Gedaliah, the new governor. Some historians think this same official later became a king of Babylon himself, though Scripture does not say that directly.",
+  "adult_story": "When Jerusalem's walls were finally breached in the eleventh year of King Zedekiah's reign, \"all the officials of the king of Babylon\" entered the conquered city and took their seats at the Middle Gate to preside over its fall (Jeremiah 39:3). Among those named is Nergal-sar-ezer, given the title \"the Rab-mag\" -- a senior court office, sometimes rendered \"chief soothsayer\" or \"chief officer.\" Soon after, Zedekiah's sons were executed before him, and he was blinded and bound for exile (39:4-7). In the midst of that judgment, Nebuchadnezzar issued a specific, contrasting order about the prophet Jeremiah, who had been imprisoned for counseling surrender: he was to be found, cared for, and released rather than deported with the rest of the captives (39:11-12). Nergal-sar-ezer the Rab-mag was one of the named officials -- alongside Nebuzaradan the captain of the guard and Nebushazban the Rab-saris -- who carried out that order, taking Jeremiah from the guard's courtyard and entrusting him to Gedaliah, the newly appointed governor over the remnant left in the land (39:13-14). Many historians identify this Rab-mag with Neriglissar, the Babylonian general who several years later seized the throne himself after murdering Nebuchadnezzar's son and successor, Amel-Marduk -- a plausible but not certain identification, since Scripture itself never draws that connection.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

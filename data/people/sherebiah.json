@@ -2,17 +2,46 @@
   "person_id": "sherebiah",
   "name": "Sherebiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Babylon",
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 8:18-24"
   ],
   "first_reference": "Ezra 8:18-24",
+  "topics": [
+    "the return from exile",
+    "trustworthiness",
+    "Levitical service"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite described as \"a man of insight,\" brought to join Ezra's returning caravan from Babylon to supply needed Levites for the temple, and later personally entrusted with the silver, gold, and sacred vessels donated for the house of God.",
+  "family_friendly_summary": "When Ezra was getting ready to lead a group of Jewish exiles back home to Jerusalem from Babylon, he realized no Levites -- the tribe responsible for temple service -- had volunteered to go. Ezra sent messengers to find some, and God provided a capable, wise man named Sherebiah to join the journey along with his sons and brothers. Because Sherebiah was trustworthy, Ezra chose him as one of the leaders responsible for safely carrying valuable gold, silver, and sacred temple items all the way from Babylon to Jerusalem -- treasures given by the king, his officials, and the Jewish people for God's house. Sherebiah's honesty and care helped make sure nothing was lost along the dangerous journey.",
+  "adult_story": "Sherebiah appears in Ezra 8 as Ezra assembled the group of exiles who would travel with him from Babylon back to Jerusalem. Reviewing the caravan before departure, Ezra found no Levites among them -- a serious gap, since Levites were needed for temple service -- and sent a delegation of leading men to Iddo at Casiphia asking for ministers for the house of God (8:15-17). \"By the good hand of our God upon us,\" they brought back Sherebiah, described as \"a man of insight,\" along with eighteen of his sons and brothers (8:18). Because of this trustworthy reputation, Ezra later selected Sherebiah as one of twelve leading priests and Levites to whom he weighed out the silver, gold, and sacred vessels donated by the king, his counselors, and the people for the temple in Jerusalem -- a considerable treasure entrusted for the journey (8:24-30). Ezra explicitly instructed them to guard these gifts carefully until they could be weighed out again before the priests and leaders in Jerusalem (8:28-29), and upon arrival, the treasure was found to match exactly, item for item, what had been recorded (8:33-34). Sherebiah's brief but pointed appearance -- singled out by name for insight and given real responsibility over the temple's wealth -- models the kind of trustworthy service Ezra needed to complete the return safely.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

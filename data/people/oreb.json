@@ -2,19 +2,48 @@
   "person_id": "oreb",
   "name": "Oreb",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "the rock of Oreb"
+  ],
   "references": [
     "Judges 7:25",
     "Judges 8:3",
     "Psalms 83:11"
   ],
   "first_reference": "Judges 7:25",
+  "topics": [
+    "Gideon's victory over Midian",
+    "divine deliverance",
+    "Ephraim"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of two Midianite princes captured and executed by the Ephraimites during Israel's rout of the Midianite army in Gideon's campaign; the site of his death, \"the rock of Oreb,\" was named after him.",
+  "family_friendly_summary": "After Gideon and his small band of 300 soldiers won a surprising victory over a huge Midianite army with God's help, the defeated Midianites fled. Gideon called on the tribe of Ephraim to help chase them down and stop them from escaping across the Jordan River. The Ephraimites captured two Midianite leaders, Oreb and Zeeb, and killed them. The place where Oreb died became known afterward as \"the rock of Oreb.\" Oreb's defeat was a key part of God's complete victory over Midian, a story remembered later in Israel's history and poetry as an example of God rescuing His people from an overwhelming enemy.",
+  "adult_story": "Oreb was one of two named Midianite princes (the other, Zeeb) captured during the rout that followed Gideon's famous victory with 300 men over the vast Midianite camp (Judges 7). After the Midianites fled in panic, Gideon summoned the tribe of Ephraim to seize the fords of the Jordan and cut off their retreat (7:24). The Ephraimites captured and killed both princes: \"they killed Oreb at the rock of Oreb, and Zeeb they killed at the wine press of Zeeb... and brought the heads of Oreb and Zeeb to Gideon\" (7:25). The place-name outlived the event -- \"the rock of Oreb\" became a lasting geographic marker of the victory, still referenced generations later when the psalmist prays that God's present enemies would be brought as low \"as with Midian, as with Sisera... at Endor... Make their nobles like Oreb and like Zeeb\" (Psalm 83:9-11). Oreb's death, alongside Zeeb's, completed a battle that began with God deliberately shrinking Gideon's army so that Israel could not credit the victory to its own strength (Judges 7:2) -- Oreb's fall was ultimately remembered as evidence of what God alone had accomplished for His people.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure with helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

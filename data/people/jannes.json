@@ -2,17 +2,45 @@
   "person_id": "jannes",
   "name": "Jannes",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "2 Timothy 3:8-9"
   ],
   "first_reference": "2 Timothy 3:8-9",
+  "topics": [
+    "opposition to God's messengers",
+    "false wisdom exposed",
+    "Egypt's magicians"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Named by Paul as one of two Egyptian court magicians who opposed Moses before Pharaoh; Exodus itself does not name Pharaoh's magicians, but Paul cites the tradition of their names as an example of teachers whose opposition to the truth is ultimately exposed as folly.",
+  "family_friendly_summary": "Jannes and his companion Jambres aren't named anywhere in the book of Exodus, but Jewish tradition and the New Testament remember them as the magicians in Pharaoh's court who copied some of Moses' miracles to make it look like their gods could do the same things (see Exodus 7-8). The apostle Paul names Jannes first when he warns Timothy that just as Jannes opposed Moses, some teachers in Paul's own day were opposing the truth about Jesus. Paul reassures Timothy that people like this may fool others for a while, but their foolishness always becomes clear in the end, just as Jannes's did.",
+  "adult_story": "Jannes is not named in Exodus itself, where Pharaoh's court \"magicians\" anonymously imitate some of Moses' signs -- turning staffs into serpents, water into blood -- before failing at the plague of gnats and confessing, \"this is the finger of God\" (Exodus 7:11-12, 22; 8:18-19). Jewish tradition names these magicians Jannes and Jambres, and Paul treats that tradition as established history when writing to Timothy: \"Just as Jannes and Jambres opposed Moses, so these men also oppose the truth, men of depraved mind, rejected in regard to the faith. But they will not make further progress; for their folly will be obvious to all, just as Jannes's and Jambres's folly was also\" (2 Timothy 3:8-9). Paul names Jannes first, using him as the more prominent of the pair in a pastoral warning to Timothy about false teachers who resist the gospel through imitation and deceit -- confident that, as with Jannes before Pharaoh, such opposition cannot ultimately succeed against God's truth. Exodus never names Pharaoh's magicians; the names Jannes and Jambres rest on a tradition Paul's inspired letter draws on and affirms, even though Scripture's own record of it is limited to this single New Testament passage.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -4,19 +4,48 @@
   "alt_names": [
     "Jude"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Nazareth",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 13:55",
     "Mark 6:3",
     "Jude 1:1"
   ],
   "first_reference": "Matthew 13:55",
+  "topics": [
+    "family of Jesus",
+    "epistle author",
+    "contending for the faith"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The author of the epistle of Jude identifies himself only as \"a bond-servant of Jesus Christ, and brother of James\" (Jude 1:1). Tradition and most scholars identify him with Jesus' brother Judas/Jude named in Matthew 13:55 and Mark 6:3, but this identification is inferred rather than explicitly stated in the text.",
+  "source_summary": "One of Jesus' four half-brothers listed in the Gospels, traditionally identified as the \"Jude... brother of James\" who wrote the New Testament epistle bearing that name, calling believers to contend for the faith against false teachers.",
+  "family_friendly_summary": "Judas, also called Jude, was one of Jesus' younger brothers, growing up in the same household in Nazareth along with James, Joseph, and Simon. Like his other brothers, Jude did not follow Jesus as the Messiah during His earthly ministry. Most Bible scholars believe this same Jude later wrote a short New Testament letter, the book of Jude, in which he calls himself \"a bond-servant of Jesus Christ\" and urges believers to hold firmly to the true faith and watch out for people trying to twist God's truth. It's a striking example of someone who grew up alongside Jesus without believing in Him, but who came to serve Him wholeheartedly.",
+  "adult_story": "Judas -- rendered \"Jude\" in most English translations of his epistle, to distinguish him from Judas Iscariot -- is named among Jesus' brothers in Nazareth, alongside James, Joseph, and Simon (Matthew 13:55; Mark 6:3). Like his brothers, he is not counted among Jesus' followers during His earthly ministry, since \"not even His brothers were believing in Him\" (John 7:5), and by the traditional identification, he came to faith only after the resurrection. The short epistle of Jude identifies its author simply as \"Jude, a bond-servant of Jesus Christ, and brother of James\" (Jude 1:1) -- a self-description many find striking, since he could have claimed to be the Lord's own brother by blood but instead identifies himself by service. The letter urges believers to \"contend earnestly for the faith\" against false teachers who had infiltrated the church, warns of God's judgment on rebellion using vivid Old Testament examples (Cain, Balaam, Korah), and closes with one of the New Testament's best-known doxologies, praising the God \"who is able to keep you from stumbling\" (Jude 24-25). The identification of the epistle's author with Jesus' brother, rather than another Judas in the New Testament, is the traditional and majority view but is not stated explicitly in the text itself and remains debated among scholars.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": "mary",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

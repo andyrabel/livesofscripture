@@ -2,19 +2,48 @@
   "person_id": "jehu",
   "name": "Jehu",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Israel",
+    "Judah"
+  ],
   "references": [
     "1 Kings 16:1-12",
     "2 Chronicles 19:2",
     "2 Chronicles 20:34"
   ],
   "first_reference": "1 Kings 16:1-12",
+  "topics": [
+    "prophecy",
+    "judgment",
+    "rebuke of kings"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A prophet, son of the seer Hanani, who pronounced the LORD's judgment on King Baasha of Israel's dynasty, later rebuked King Jehoshaphat of Judah for allying with wicked King Ahab, and recorded Jehoshaphat's reign in a chronicle later cited by the author of Chronicles.",
+  "family_friendly_summary": "Jehu was a prophet, the son of another prophet named Hanani. God sent Jehu to speak hard words of judgment to King Baasha of Israel because of his wickedness and idol worship, telling him that his family's rule would come to a violent end. Years later, Jehu also spoke boldly to King Jehoshaphat of Judah, a much better king, but one who had made friends with the evil King Ahab of Israel. Jehu asked him directly, \"Should you help the wicked?\" Jehu also kept a written record of Jehoshaphat's reign, part of which was later used as a source by the writers of Scripture.",
+  "adult_story": "Jehu son of Hanani was a prophet active across the reigns of two very different kings. Early in his ministry, \"the word of the LORD came to Jehu the son of Hanani against Baasha,\" pronouncing that because Baasha had walked in Jeroboam's sins and made Israel sin, his entire house would be swept away exactly as Jeroboam's had been -- a prophecy fulfilled when Zimri later exterminated Baasha's dynasty (1 Kings 16:1-4, 7, 12). Decades later, Jehu confronted a very different king: Jehoshaphat of Judah, a largely faithful ruler who had nonetheless allied himself by marriage and military campaign with wicked Ahab of Israel. After Jehoshaphat returned safely from the disastrous battle in which Ahab was killed, \"Jehu the son of Hanani the seer went out to meet him and said to King Jehoshaphat, 'Should you help the wicked and love those who hate the LORD? For this thing wrath has gone forth against you from the LORD'\" (2 Chronicles 19:2). Yet Jehu also acknowledged the good in Jehoshaphat, who had set his heart to seek God (19:3). Jehu's ministry left a documentary legacy too -- the Chronicler notes that the rest of Jehoshaphat's acts were recorded in the annals of Jehu the son of Hanani (2 Chronicles 20:34).",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed figure with both arms raised and mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hanani",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

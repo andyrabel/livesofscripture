@@ -4,8 +4,17 @@
   "alt_names": [
     "Neco"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt",
+    "Megiddo",
+    "Judah"
+  ],
   "references": [
     "2 Kings 23:29-35",
     "2 Kings 24:7",
@@ -14,11 +23,32 @@
     "Jeremiah 46:2"
   ],
   "first_reference": "2 Kings 23:29-35",
+  "topics": [
+    "the death of Josiah",
+    "vassal kingship over Judah",
+    "downfall to Babylon"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Necho II, king of Egypt, who killed King Josiah in battle at Megiddo, deposed Josiah's successor Jehoahaz and installed Jehoiakim as a tribute-paying vassal over Judah, then lost control of the region after Babylon defeated his army at Carchemish.",
+  "family_friendly_summary": "Pharaoh Neco was the king of Egypt during the last years of the kingdom of Judah. When Neco marched his army north to help Assyria fight a war, good King Josiah of Judah tried to stop him at Megiddo. Neco warned Josiah that he had no quarrel with Judah, but Josiah went into battle anyway and was killed there -- a heartbreaking loss for God's people. Afterward, Neco took control of Judah for a while. He removed Josiah's son Jehoahaz from the throne and took him to Egypt as a prisoner, then made another of Josiah's sons, Jehoiakim, king in his place and required him to pay heavy tribute. A few years later, though, a bigger power -- Babylon -- defeated Neco's army, and Egypt's control over Judah came to an end.",
+  "adult_story": "Neco II, king of Egypt, marched north in 609 BC to aid Assyria against the rising power of Babylon. King Josiah of Judah moved to intercept him at Megiddo, though Neco sent word that he had no quarrel with Judah and claimed to be acting at God's command (2 Chronicles 35:21-22). Josiah disguised himself and went into battle anyway, was struck by archers, and died -- a devastating end to Judah's last reforming king, mourned in laments still remembered generations later (2 Chronicles 35:22-25). With Judah now vulnerable, Neco deposed Josiah's son Jehoahaz after only three months on the throne, took him captive to Egypt where he died, and installed his brother Eliakim as a puppet king, renaming him Jehoiakim and imposing a heavy tribute of silver and gold on the land (2 Kings 23:31-35). For several years Judah existed as an Egyptian vassal state. But Neco's ambitions collapsed in 605 BC at the battle of Carchemish, where Nebuchadnezzar of Babylon decisively crushed the Egyptian army; Neco never again ventured past his own border, and Babylon replaced Egypt as the power controlling Judah's fate (2 Kings 24:7; Jeremiah 46:2). Neco's brief dominance shows how thoroughly Judah's political fortunes, even under its best kings, had become hostage to the great empires surrounding it -- Josiah's death effectively closed the door on national reform and set the stage for Judah's slide into Babylonian exile.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,18 +2,46 @@
   "person_id": "jehozabad",
   "name": "Jehozabad",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Kings 12:21",
     "2 Chronicles 24:26"
   ],
   "first_reference": "2 Kings 12:21",
+  "topics": [
+    "conspiracy",
+    "regicide",
+    "consequence of sin"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Kings 12:21 names the second conspirator's companion as Jozacar son of Shimeath, while 2 Chronicles 24:26 gives Zabad son of Shimrith the Moabitess for what appears to be the same figure, and the two accounts also differ on the conspirators' mothers -- a minor harmonization question between Kings and Chronicles, not resolved here.",
+  "source_summary": "One of two royal servants who conspired against and assassinated King Joash of Judah in his own bed, an act Chronicles ties directly to Joash's earlier murder of Zechariah son of Jehoiada the priest.",
+  "family_friendly_summary": "Jehozabad was a servant working in King Joash's palace in Jerusalem. Joash had done much good early in his reign, repairing God's Temple, but later in his life he turned away from the Lord and had the priest Zechariah killed for speaking God's truth to him. Not long after, while Joash lay sick, Jehozabad and another servant plotted against him and killed him in his own bed. It was a violent end for a king whose story had started with such promise. Joash was buried in Jerusalem, and his son Amaziah became the next king.",
+  "adult_story": "Jehozabad was one of King Joash of Judah's own servants. Joash had been rescued as an infant and crowned king by the priest Jehoiada, and under Jehoiada's guidance had led a genuine reform, repairing the temple of the LORD (2 Kings 12:1-16). But after Jehoiada died, Joash abandoned the LORD for idols, and when Jehoiada's son Zechariah the priest confronted him for it, Joash had Zechariah stoned to death in the temple courtyard -- Zechariah's dying words were \"May the LORD see and avenge!\" (2 Chronicles 24:17-22). Not long afterward, after Judah's army had been devastated by a much smaller Aramean force and Joash left severely wounded, Jehozabad, son of Shomer, and a fellow servant conspired against the king (2 Kings 12:20-21; 2 Chronicles 24:23-25). They struck him down on his own bed at the house of Millo, and Chronicles states plainly that they did it \"because of the blood of the sons of Jehoiada the priest\" (24:25). Joash was buried in the city of David, though Chronicles notes he was not buried among the tombs of the kings, and his son Amaziah succeeded him (2 Kings 12:21; 2 Chronicles 24:25). Kings and Chronicles differ slightly on the names and mothers of the two conspirators, a minor textual variation between the two accounts.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shomer",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

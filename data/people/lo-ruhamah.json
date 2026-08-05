@@ -2,17 +2,46 @@
   "person_id": "lo-ruhamah",
   "name": "Lo-ruhamah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Israel (Northern Kingdom)"
+  ],
   "references": [
     "Hosea 1:6-8"
   ],
   "first_reference": "Hosea 1:6-8",
+  "topics": [
+    "prophetic sign-act",
+    "withheld compassion",
+    "symbolic naming"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The second child born to Hosea and Gomer, a daughter given a name meaning \"not pitied\" at God's command -- a living prophetic sign that God was, for a time, withdrawing mercy from unfaithful Israel, even while promising continued compassion to Judah.",
+  "family_friendly_summary": "Lo-ruhamah was the daughter of the prophet Hosea and his wife Gomer. God told Hosea to give her a name that means \"not pitied\" or \"no compassion.\" It was meant to be a message to the people of Israel: because they kept turning away from God to worship false gods, God was warning that He would no longer show them the compassion they had grown used to -- at least not for a while. At the very same time, God said He would still show compassion to the people of Judah. Even though Lo-ruhamah's name sounds sad, it wasn't the end of the story. Later, God promised that compassion would come again. Her name was a warning, not God's final answer.",
+  "adult_story": "Lo-ruhamah was the second child born in the prophet Hosea's marriage to Gomer, a marriage that itself dramatized God's relationship with unfaithful Israel (Hosea 1:2-3). At her birth, \"the LORD said to him, 'Name her Lo-ruhamah, for I will no longer have compassion on the house of Israel, that I would ever forgive them. But I will have compassion on the house of Judah and deliver them by the LORD their God'\" (1:6-7). Her name -- meaning \"not pitied\" or \"no compassion\" -- made Israel's spiritual crisis unavoidably public: God was declaring that persistent idolatry had, for a time, exhausted the compassion Israel had presumed upon, even while Judah would still be shown mercy. Like her younger brother Lo-ammi (\"not My people\"), Lo-ruhamah's very existence and name were themselves the prophetic message, a sign-act lived out in a child rather than merely spoken. Yet Hosea does not leave the name as the last word: chapter 2 reverses it explicitly -- \"I will have compassion on her who had not obtained compassion, and I will say to those who were not My people, 'You are My people!'\" (2:23) -- and the apostle Peter later applies this same reversal to God's mercy shown in Christ toward those who once \"had not received mercy, but now have received mercy\" (1 Peter 2:10). Lo-ruhamah's hard name pointed toward a withheld mercy that God Himself promised would not last forever.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": "gomer-2",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

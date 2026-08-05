@@ -2,18 +2,47 @@
   "person_id": "hur-2",
   "name": "Hur",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Midian",
+    "plains of Moab"
+  ],
   "references": [
     "Numbers 31:8",
     "Joshua 13:21"
   ],
   "first_reference": "Numbers 31:8",
+  "topics": [
+    "the war against Midian",
+    "divine judgment",
+    "the Baal-Peor aftermath"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the five kings of Midian killed by Israel's army in the war of vengeance commanded by God following the Baal-Peor incident, in the same battle in which the prophet Balaam was also killed.",
+  "family_friendly_summary": "Hur was one of five kings who ruled over the Midianite people during the time Israel was in the wilderness, getting ready to enter the promised land. Earlier, the Midianites had led some of Israel's men into worshiping false gods (a story told in Numbers 25). Because of this, God commanded Israel to fight against Midian. Israel's army won the battle, and Hur was one of the five Midianite kings killed in the fighting, along with a prophet-for-hire named Balaam who had been advising Midian against Israel. Hur's brief story reminds us that Scripture takes seriously the danger of leading God's people away from Him.",
+  "adult_story": "Hur is named as one of \"the five kings of Midian\" -- along with Evi, Rekem, Zur, and Reba -- killed when Israel carried out God's command to take vengeance on Midian (Numbers 31:8). The campaign followed the events of Numbers 25, where Midianite women had drawn Israelite men into idolatry and sexual immorality at Baal of Peor, provoking a plague that killed 24,000 Israelites. God told Moses, \"Take vengeance for the sons of Israel on the Midianites\" (31:1-2), and Israel's army killed every Midianite male, including their kings (31:7-8). Hur died alongside Balaam son of Beor, the prophet Midian and Moab had hired earlier to curse Israel, killed in the same battle \"with the sword\" (31:8). Joshua 13:21 later recalls Hur and the other four as \"the chiefs of Midian... the princes of Sihon,\" folding this conquered territory into Israel's account of the lands taken east of the Jordan. Hur's entire biblical presence is a single name in a casualty list, but that list marks a real turning point -- Israel executing God's judgment on a nation that had deliberately corrupted His people, just before Moses' death and Israel's entry into Canaan.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,18 +2,47 @@
   "person_id": "lazarus-2",
   "name": "Lazarus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethany"
+  ],
   "references": [
     "John 11:1-43",
     "John 12:1-17"
   ],
   "first_reference": "John 11:1-43",
+  "topics": [
+    "resurrection power",
+    "friendship with Jesus",
+    "grief and faith"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Brother of Mary and Martha of Bethany and a close friend of Jesus, whose death and resurrection after four days in the tomb -- the last and greatest of Jesus' recorded miracles before His own death -- became a turning point that hardened the religious leaders' resolve to kill Jesus.",
+  "family_friendly_summary": "Lazarus lived in the village of Bethany with his sisters Mary and Martha, and they were close friends of Jesus. When Lazarus got very sick, his sisters sent word to Jesus, but Jesus didn't arrive until four days after Lazarus had died and been buried. Martha and Mary were heartbroken, and even Jesus wept at his friend's tomb. Then Jesus did something amazing: He called out, \"Lazarus, come forth!\" -- and Lazarus walked out of the tomb alive, still wrapped in his grave clothes. Many people who saw this believed in Jesus. But it also made some religious leaders angry and afraid, and they began plotting against Jesus. Lazarus's story shows that Jesus has power even over death.",
+  "adult_story": "Lazarus of Bethany, brother of Mary and Martha, was a man Jesus loved (John 11:3, 36). When Lazarus fell gravely ill, his sisters sent for Jesus -- yet Jesus deliberately delayed two days, telling His disciples the illness was \"for the glory of God\" (11:4-6). By the time Jesus arrived, Lazarus had been dead and entombed four days. Martha met Him first, grieving but still confessing faith: \"even now I know that whatever You ask of God, God will give You\" (11:21-22). Jesus told her, \"I am the resurrection and the life,\" and asked if she believed it (11:25-26). At the tomb, seeing Mary and the mourners weeping, Jesus Himself wept (11:35) -- sharing their grief even knowing what He was about to do. He ordered the stone rolled away, prayed aloud to the Father, and cried out, \"Lazarus, come forth!\" Lazarus walked out still bound in graveclothes (11:38-44). Many who witnessed it believed in Jesus, but the sign also pushed the chief priests and Pharisees to plot Jesus' death, fearing Rome's response to His growing following (11:45-53). Afterward, Lazarus appeared at a dinner in Bethany six days before Passover, so remarkable a living witness that the chief priests plotted to kill him too (12:1-2, 9-11).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

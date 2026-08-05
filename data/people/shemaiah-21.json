@@ -2,13 +2,36 @@
   "person_id": "shemaiah-21",
   "name": "Shemaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Babylon"
+  ],
   "references": [
     "Jeremiah 29:24-32",
     "Jeremiah 36:12"
   ],
   "first_reference": "Jeremiah 29:24-32",
+  "topics": [
+    "false prophecy",
+    "opposition to Jeremiah",
+    "judgment on false prophets"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "The \"Delaiah son of Shemaiah\" named among the king's officials in Jeremiah 36:12 may or may not be the same Shemaiah as the Nehelamite false prophet of chapter 29; Scripture does not say.",
+  "source_summary": "A false prophet among the Judean exiles in Babylon (called \"the Nehelamite\") who wrote letters opposing Jeremiah and urging his imprisonment, for which Jeremiah pronounced God's judgment on him and his line.",
+  "family_friendly_summary": "After many people from Judah were taken away to live in Babylon, a man named Shemaiah, who was called \"the Nehelamite,\" pretended to speak for God even though God had not sent him. He wrote a letter back to the priests in Jerusalem, complaining about Jeremiah and saying Jeremiah should be arrested and punished for telling the exiles they would be in Babylon a long time. But Jeremiah had told the truth, and Shemaiah's message was false. Because Shemaiah tried to discourage God's people from trusting God's real word, God announced through Jeremiah that Shemaiah would not live to see the good things God had promised to do for His people.",
+  "adult_story": "Shemaiah the Nehelamite was among the Judean exiles Nebuchadnezzar had carried to Babylon. After Jeremiah sent a letter to the exiles urging them to settle in for a long stay -- to build houses, plant gardens, and seek the welfare of the city, because God's plan for them there would take seventy years (Jeremiah 29:1-14) -- Shemaiah wrote back to Jerusalem in anger. In letters sent in his own name to the priest Zephaniah and the people, he demanded that Jeremiah be put in stocks and a neck-iron for \"acting like a prophet\" and telling the exiles their captivity would be long (29:24-28). When Zephaniah read the letter aloud to Jeremiah, the word of the LORD came against Shemaiah directly: because he had \"prophesied\" without being sent and \"counseled rebellion against the LORD,\" he would be punished -- none of his descendants would remain among the people, and he himself would not live to see the good God would eventually do for them (29:30-32). Shemaiah's opposition is one of several episodes in Jeremiah where rival prophets contradicted his hard message of a long exile, insisting instead on false hope, and each is answered in the text with a specific, spoken judgment naming the false prophet by name.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -16,6 +39,11 @@
     "children": [
       "delaiah-5"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

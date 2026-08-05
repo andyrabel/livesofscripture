@@ -2,19 +2,47 @@
   "person_id": "jonathan-4",
   "name": "Jonathan",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gob",
+    "Jerusalem"
+  ],
   "references": [
     "2 Samuel 21:21",
     "1 Chronicles 20:7",
     "1 Chronicles 27:32"
   ],
   "first_reference": "2 Samuel 21:21",
+  "topics": [
+    "defeating a giant",
+    "royal counselor"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "David's nephew, son of his brother Shimeah, Jonathan killed a giant descendant of the Rapha who taunted Israel during the Philistine wars, and later served David as a wise counselor and scribe.",
+  "family_friendly_summary": "Jonathan was King David's nephew, the son of David's brother Shimeah. During a period when Israel fought several battles against giant warriors from a family of Philistine giants, one of these giants mocked and challenged Israel -- and Jonathan struck him down. Beyond this moment of bravery, Jonathan is also remembered for a very different kind of strength: the Bible describes him as a wise and understanding counselor who helped advise King David, showing that he served his uncle not only with courage in battle but also with good judgment in giving advice.",
+  "adult_story": "Jonathan was the son of Shimeah, David's brother, making him David's nephew. He appears in the closing notices of 2 Samuel 21, which record four skirmishes against Philistine giants descended from \"the giant\" (the Rapha) in Gath -- including the giant Goliath's kin. In the last of these encounters, \"a man of great stature who had six fingers on each hand and six toes on each foot... also had been born to the giant\" defied Israel, and \"Jonathan the son of Shimeah, David's brother, killed him\" (2 Samuel 21:20-21; 1 Chronicles 20:6-7). Coming at the close of a chapter listing warriors who struck down these giants when even David himself had grown too weary for combat, Jonathan's victory stands alongside the exploits of David's mightiest men. Jonathan is also named among David's court in 1 Chronicles 27:32, described as \"a counselor, a man of understanding, and a scribe\" -- a role of trusted wisdom rather than only battlefield strength, distinguishing him from the other listed officials responsible for property and armies. Together the two brief notices present Jonathan as a man valued both for courage against Israel's enemies and for sound judgment at his uncle's court, a minor but real presence within David's inner circle of family and advisors.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shimeah",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -4,8 +4,16 @@
   "alt_names": [
     "Zaphenath-paneah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Canaan",
+    "Egypt"
+  ],
   "references": [
     "Genesis 30:24-25",
     "Genesis 33:2-7",
@@ -56,6 +64,23 @@
     "Revelation 7:8"
   ],
   "first_reference": "Genesis 30:24-25",
+  "topics": [
+    "dreams and providence",
+    "forgiveness",
+    "family reconciliation",
+    "famine relief"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Jacob's favored son, sold into slavery by his own brothers, who rose through unjust imprisonment to become Egypt's second-in-command, preserved his family through famine, and forgave the brothers who betrayed him.",
+  "family_friendly_summary": "Joseph was Jacob's favorite son, and his older brothers were jealous of him -- especially after he told them about dreams where they all bowed down to him. The brothers sold Joseph as a slave to traders heading to Egypt. In Egypt, Joseph served faithfully even through hard times, including being falsely accused and thrown in prison. God gave him the ability to explain dreams, and Pharaoh made him ruler over all of Egypt to prepare for a coming famine. Years later, Joseph's brothers came to Egypt for food, not recognizing him. Instead of taking revenge, Joseph forgave them and said God had used their evil plan for good, saving many lives.",
+  "adult_story": "Joseph, Jacob's eleventh son and Rachel's firstborn, was his father's favorite, marked out by a special robe -- favoritism that fed his brothers' hatred, sharpened by Joseph's dreams of his family bowing to him (Genesis 37:2-11). The brothers seized him, threw him into a pit, sold him to Ishmaelite traders, and deceived Jacob into believing him dead (37:18-35). In Egypt, Joseph served in Potiphar's house with integrity, refusing Potiphar's wife's repeated advances -- and was imprisoned on her false accusation for it (39:1-20). In prison he interpreted fellow prisoners' dreams accurately, and two years later interpreted Pharaoh's dreams of coming famine, so Pharaoh set him over all Egypt at thirty years old (40:1-41:46). When famine drove his brothers to Egypt for grain, Joseph tested them before revealing himself, weeping openly: \"you meant evil against me, but God meant it for good\" (45:1-15; 50:20). He settled his family in Goshen, provided for them through the famine, and before his death made Israel swear to carry his bones to Canaan when God brought them out -- a final act of faith in God's promise (50:24-26). Joseph's life is a sustained testimony that God works through betrayal, slavery, and injustice to preserve His covenant people.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "israel",
     "mother": "rachel",
@@ -66,6 +91,11 @@
       "ephraim",
       "manasseh"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

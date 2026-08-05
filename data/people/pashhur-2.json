@@ -2,17 +2,45 @@
   "person_id": "pashhur-2",
   "name": "Pashhur",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 20:1-6"
   ],
   "first_reference": "Jeremiah 20:1-6",
+  "topics": [
+    "persecution of prophets",
+    "false security",
+    "God's judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A priest and chief officer of the Jerusalem temple who had Jeremiah beaten and put in stocks for prophesying Jerusalem's coming destruction; Jeremiah renamed him \"Magor-missabib\" (\"terror on every side\") and foretold his exile and death in Babylon.",
+  "family_friendly_summary": "Pashhur was a priest who held an important job as the chief officer in charge of order at God's Temple in Jerusalem. When the prophet Jeremiah kept warning that God was going to judge Jerusalem for turning away from Him, Pashhur got angry, had Jeremiah beaten, and locked him in stocks overnight at one of the Temple gates. The next day, when Pashhur let him out, Jeremiah didn't back down. He told Pashhur that God was giving him a new name -- \"Terror on Every Side\" -- because Pashhur and everyone he loved would one day be carried off to Babylon as captives, exactly the future Pashhur had tried to silence Jeremiah for predicting.",
+  "adult_story": "Pashhur son of Immer was a priest serving as chief officer in the temple, responsible for maintaining order (Jeremiah 20:1). When he heard Jeremiah publicly prophesying the temple's destruction and Judah's coming captivity, he had Jeremiah beaten and locked in stocks at the upper Benjamin Gate overnight (20:2) -- an attempt to silence a message he found intolerable rather than weigh whether it was true. When Pashhur released him the next day, Jeremiah did not soften his words; instead he declared that the LORD had renamed Pashhur \"Magor-missabib,\" meaning \"terror on every side\" (20:3). Jeremiah pronounced that Pashhur himself, his household, and his friends would see Judah fall to the king of Babylon, that Pashhur would be carried into exile, and that he would die and be buried there, along with everyone to whom he had \"falsely prophesied\" peace (20:4-6). Pashhur's attempt to punish the prophet into silence became the occasion for one of Jeremiah's starkest personal judgment oracles -- naming an individual persecutor by name and fate, rather than speaking only in general terms. His story warns against using power to suppress an unwelcome word from God rather than heeding it, and it shows Jeremiah's own costly faithfulness: this beating and the mockery he endured afterward drove him, in the very next verses, to one of his rawest complaints against God (Jeremiah 20:7-18).",
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a turban and the priestly breastplate of judgment (12 stones).",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

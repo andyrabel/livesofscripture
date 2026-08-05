@@ -2,17 +2,44 @@
   "person_id": "ira",
   "name": "Ira",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jair (Gilead)"
+  ],
   "references": [
     "2 Samuel 20:26"
   ],
   "first_reference": "2 Samuel 20:26",
+  "topics": [
+    "David's court officials",
+    "priesthood outside the Levites"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The Hebrew word translated \"priest\" (kohen) applied to Ira, who was not a Levite, has puzzled interpreters since Ira is named alongside Zadok and Abiathar, Judah's actual priests, in the very same verse. Many scholars and translations (following the same difficulty in 2 Samuel 8:18, where David's own sons are called \"priests\") read the term here as \"chief minister\" or \"royal adviser\" rather than a formal priestly office, since Scripture elsewhere restricts sacrificial priesthood to Aaron's line. Scripture does not resolve which sense is meant.",
+  "source_summary": "A Jairite named in the closing list of King David's chief officials as \"also a priest to David,\" a title alongside Judah's Levitical priests Zadok and Abiathar that has drawn scholarly discussion.",
+  "family_friendly_summary": "Near the end of a list describing the men who helped King David run his kingdom -- his army commander, his royal secretary, and others -- the Bible names one more person: Ira, from a place called Jair, who is called \"a priest to David.\" We aren't told exactly what Ira did in this role, only that he held it. Bible teachers have wondered whether this meant Ira was a priest the way Israel's regular priests were, or whether it meant something more like a trusted royal adviser to the king. Either way, it shows David surrounded himself with a wide circle of officials to help him lead well.",
+  "adult_story": "Ira the Jairite appears only once, in the closing summary of King David's governing officials near the end of the account of Absalom's rebellion and its aftermath: \"Ira the Jairite was also a priest to David\" (2 Samuel 20:26). The verse comes at the end of a short, specific roster -- Joab over the army, Benaiah over the royal guard, Adoram over forced labor, Jehoshaphat as recorder, Sheva as scribe, and Zadok and Abiathar as priests -- with Ira added as one more, distinctly titled, official. His designation as a \"Jairite\" ties him to the clan of Jair from Gilead, east of the Jordan, not to the tribe of Levi from which Israel's sacrificial priests were normally drawn. This has led many interpreters to read \"priest\" here in the broader sense the word can carry elsewhere in these court lists -- something closer to a trusted royal counselor or chief officer of the king's household -- rather than a formal Levitical priesthood, since Scripture consistently reserves altar service for Aaron's descendants. Whichever sense is meant, Ira's brief mention reflects the reality of David's expanding, well-organized court: a kingdom now stable enough, after years of war and rebellion, to require a defined circle of named officials serving the king in distinct capacities.",
+  "image": {
+    "file": "generic-priest.png",
+    "prompt_used": "Generic role icon, not person-specific: turban and the breastplate of judgment with twelve stones.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for priests -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

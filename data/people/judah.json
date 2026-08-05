@@ -2,8 +2,16 @@
   "person_id": "judah",
   "name": "Judah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Canaan",
+    "Egypt"
+  ],
   "references": [
     "Genesis 29:35",
     "Genesis 35:23",
@@ -80,6 +88,23 @@
     "Revelation 7:5"
   ],
   "first_reference": "Genesis 29:35",
+  "topics": [
+    "repentance",
+    "family failure and change",
+    "messianic line",
+    "tribal leadership"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Jacob's fourth son by Leah, whose idea it was to sell Joseph into slavery and who wronged his daughter-in-law Tamar, but who later offered himself in his youngest brother's place and became ancestor of Israel's royal and messianic line.",
+  "family_friendly_summary": "Judah was one of Jacob's twelve sons and the ancestor of the tribe of Judah, which King David and eventually Jesus would come from. As a young man, Judah made bad choices -- it was his idea to sell his brother Joseph as a slave instead of killing him, and he treated his daughter-in-law Tamar unfairly. But Judah changed over time. Years later, when the brothers returned to Egypt and Joseph (now a powerful ruler) threatened to keep their youngest brother Benjamin as a slave, Judah bravely offered to take Benjamin's place, showing how much he had grown. Jacob's final blessing promised that kings would come from Judah's family line -- a promise that pointed all the way to Jesus.",
+  "adult_story": "Judah, Jacob's fourth son by Leah, proposed selling Joseph to Ishmaelite traders rather than killing him outright (Genesis 37:26-27) -- self-interested, but it spared Joseph's life. He then married a Canaanite wife, and after his sons Er and Onan died under God's judgment, failed to give his daughter-in-law Tamar to his third son as promised. Tamar disguised herself and conceived by Judah himself; when he threatened to have her burned for apparent immorality, she revealed he was the father, and Judah admitted, \"she is more righteous than I\" (Genesis 38:1-26) -- a rare moment of self-indicting honesty. Years later in Egypt, facing the unknowing Joseph's demand to keep Benjamin as a slave, Judah offered himself in Benjamin's place rather than let their father Jacob lose another beloved son, a striking reversal of the man who once sold his own brother (44:18-34). Jacob's deathbed blessing gave Judah preeminence among the tribes: \"the scepter shall not depart from Judah... until Shiloh comes\" (49:8-10), and the tribe of Judah became Israel's leading tribe, providing its kings from David onward. Judah's arc -- from selling a brother into slavery to offering himself for one -- models repentance's real shape: not merely regret, but changed action when the same kind of test comes again.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "israel",
     "mother": "leah",
@@ -91,6 +116,11 @@
       "shelah-2",
       "zerah-3"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

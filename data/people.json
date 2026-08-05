@@ -2321,18 +2321,6 @@
     "gender": "male"
   },
   {
-    "person_id": "king-of-bela",
-    "name": "King of Bela",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Patriarchal",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "mamre",
     "name": "Mamre",
     "alt_names": [],
@@ -7573,32 +7561,6 @@
     "disambiguation": "father of On (Num 16:1)"
   },
   {
-    "person_id": "king-of-edom",
-    "name": "King of Edom",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exodus/Wilderness",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Num 20:14)"
-  },
-  {
-    "person_id": "king-of-arad",
-    "name": "King of Arad",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exodus/Wilderness",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Num 21:1)"
-  },
-  {
     "person_id": "sihon",
     "name": "Sihon",
     "alt_names": [],
@@ -7609,19 +7571,6 @@
       "precision": "era"
     },
     "gender": "male"
-  },
-  {
-    "person_id": "king-of-moab",
-    "name": "King of Moab",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exodus/Wilderness",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Num 21:26)"
   },
   {
     "person_id": "og",
@@ -8460,18 +8409,6 @@
     "gender": "female"
   },
   {
-    "person_id": "king-of-jericho",
-    "name": "King of Jericho",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "achan",
     "name": "Achan",
     "alt_names": [
@@ -8530,14 +8467,6 @@
     },
     "gender": "male",
     "disambiguation": "son of Zerah (Josh 7:1-18)"
-  },
-  {
-    "person_id": "king-of-ai",
-    "name": "King of Ai",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "gender": "male"
   },
   {
     "person_id": "adoni-zedek",
@@ -8613,18 +8542,6 @@
     "gender": "male"
   },
   {
-    "person_id": "king-of-makkedah",
-    "name": "King of Makkedah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "horam",
     "name": "Horam",
     "alt_names": [],
@@ -8660,259 +8577,6 @@
     },
     "gender": "male",
     "disambiguation": "(Josh 11:1)"
-  },
-  {
-    "person_id": "king-of-shimron",
-    "name": "King of Shimron",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-achshaph",
-    "name": "King of Achshaph",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-debir",
-    "name": "King of Debir",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-geder",
-    "name": "King of Geder",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-hormah",
-    "name": "King of Hormah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-arad-2",
-    "name": "King of Arad",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Josh 12:14)"
-  },
-  {
-    "person_id": "king-of-libnah",
-    "name": "King of Libnah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-adullam",
-    "name": "King of Adullam",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-bethel",
-    "name": "King of Bethel",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-tappuah",
-    "name": "King of Tappuah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-hepher",
-    "name": "King of Hepher",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-aphek",
-    "name": "King of Aphek",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-lasharon",
-    "name": "King of Lasharon",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-shimron-meron",
-    "name": "King of Shimron-meron",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-taanach",
-    "name": "King of Taanach",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-megiddo",
-    "name": "King of Megiddo",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-kedesh",
-    "name": "King of Kedesh",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-jokneam",
-    "name": "King of Jokneam",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-dor",
-    "name": "King of Dor",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-goiim-in-gilgal",
-    "name": "King of Goiim in Gilgal",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-tirzah",
-    "name": "King of Tirzah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
   },
   {
     "person_id": "arba",
@@ -9517,19 +9181,6 @@
     "region": "moab-transjordan",
     "gender": "male",
     "disambiguation": "father of Jephthah (Judg 11:1-2)"
-  },
-  {
-    "person_id": "king-of-the-sons-of-ammon",
-    "name": "King of the sons of Ammon",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Judges",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Judg 11:12-28)"
   },
   {
     "person_id": "ibzan",
@@ -10545,19 +10196,6 @@
       "precision": "era"
     },
     "gender": "male"
-  },
-  {
-    "person_id": "king-of-moab-2",
-    "name": "King of Moab",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "United Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(1 Sam 22:3-4)"
   },
   {
     "person_id": "gad-2",
@@ -11692,18 +11330,6 @@
     },
     "gender": "male",
     "disambiguation": "son of Nahash (2 Sam 10:1-4)"
-  },
-  {
-    "person_id": "king-of-maacah",
-    "name": "King of Maacah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "United Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
   },
   {
     "person_id": "shobach",
@@ -14515,19 +14141,6 @@
     "disambiguation": "(2 Kings 3:4-26)"
   },
   {
-    "person_id": "king-of-edom-2",
-    "name": "King of Edom",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(2 Kings 3:9-26)"
-  },
-  {
     "person_id": "gehazi",
     "name": "Gehazi",
     "alt_names": [],
@@ -15597,66 +15210,6 @@
     "gender": "male"
   },
   {
-    "person_id": "king-of-hamath",
-    "name": "King of Hamath",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-arpad",
-    "name": "King of Arpad",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-sepharvaim",
-    "name": "King of Sepharvaim",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-hena",
-    "name": "King of Hena",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-ivvah",
-    "name": "King of Ivvah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "adrammelech",
     "name": "Adrammelech",
     "alt_names": [],
@@ -16113,18 +15666,6 @@
     "alt_names": [
       "Neco"
     ],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-assyria",
-    "name": "King of Assyria",
-    "alt_names": [],
     "tier": "stub",
     "testament": "OT",
     "era": "Divided Monarchy",
@@ -30804,14 +30345,6 @@
     "disambiguation": "son of Jehoiada (2 Chr 24:20)"
   },
   {
-    "person_id": "king-of-damascus",
-    "name": "King of Damascus",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "gender": "male"
-  },
-  {
     "person_id": "zechariah-13",
     "name": "Zechariah",
     "alt_names": [],
@@ -30870,30 +30403,6 @@
     },
     "gender": "male",
     "disambiguation": "(2 Chr 26:11)"
-  },
-  {
-    "person_id": "king-of-the-ammonites",
-    "name": "King of the Ammonites",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-aram",
-    "name": "King of Aram",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
   },
   {
     "person_id": "zichri-10",
@@ -39861,69 +39370,6 @@
     "disambiguation": "father of Uriah (Jer 26:20)"
   },
   {
-    "person_id": "king-of-edom-3",
-    "name": "King of Edom",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Jer 27:3)"
-  },
-  {
-    "person_id": "king-of-moab-3",
-    "name": "King of Moab",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Jer 27:3)"
-  },
-  {
-    "person_id": "king-of-the-sons-of-ammon-2",
-    "name": "King of the sons of Ammon",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Jer 27:3)"
-  },
-  {
-    "person_id": "king-of-tyre",
-    "name": "King of Tyre",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "king-of-sidon",
-    "name": "King of Sidon",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "hananiah-10",
     "name": "Hananiah",
     "alt_names": [],
@@ -41125,45 +40571,6 @@
     "gender": "male"
   },
   {
-    "person_id": "king-of-the-south",
-    "name": "King of the South",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exile",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
-    "person_id": "daughter-of-the-king-of-the-south",
-    "name": "daughter of the King of the South",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exile",
-    "genealogy": {
-      "father": "king-of-the-south"
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "female"
-  },
-  {
-    "person_id": "king-of-the-north",
-    "name": "King of the North",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Exile",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
-  },
-  {
     "person_id": "hosea",
     "name": "Hosea",
     "alt_names": [],
@@ -41370,18 +40777,6 @@
     },
     "gender": "male",
     "disambiguation": "(Obad 1:1)"
-  },
-  {
-    "person_id": "king-of-nineveh",
-    "name": "King of Nineveh",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male"
   },
   {
     "person_id": "nahum",

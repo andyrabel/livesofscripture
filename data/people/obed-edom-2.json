@@ -2,8 +2,15 @@
   "person_id": "obed-edom-2",
   "name": "Obed-edom",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 15:18-24",
     "1 Chronicles 16:5-38",
@@ -11,6 +18,22 @@
     "2 Chronicles 25:24"
   ],
   "first_reference": "1 Chronicles 15:18-24",
+  "topics": [
+    "Levitical gatekeepers",
+    "faithful service",
+    "God's blessing"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Many interpreters identify this Obed-edom with Obed-edom the Gittite, in whose house the ark of the covenant rested for three months before David brought it to Jerusalem (2 Samuel 6:10-12; see that separate entry) -- his household's blessing there would explain the large family recorded here. But 1 Chronicles 16:38 also identifies an \"Obed-edom, the son of Jeduthun\" among the gatekeepers, which some read as a distinct man descended from the Levite musician Jeduthun rather than the Gittite. Scripture does not resolve which reading is correct.",
+  "source_summary": "A Levite gatekeeper and musician appointed by David to minister before the ark in Jerusalem, blessed with eight sons and many grandsons who served as gatekeepers of the tabernacle and, later, the temple treasury.",
+  "family_friendly_summary": "Obed-edom was a Levite chosen to help take care of the ark of the covenant after King David brought it to Jerusalem. He played music before the ark and served as one of its gatekeepers, guarding the entrance and helping lead worship. The Bible says God blessed Obed-edom with eight sons, and his family grew large -- more than sixty of his sons and grandsons became gatekeepers too, known as strong, capable men entrusted with an important job. Years later, during a different king's reign, the temple treasures were kept in the care of a man from this same family line, showing how their trusted role continued for generations.",
+  "adult_story": "Obed-edom was one of the Levites David appointed to minister before the ark of the covenant once it reached Jerusalem. He is listed among the gatekeepers and musicians who played lyres \"tuned to alamoth\" as the ark was brought up with rejoicing (1 Chronicles 15:18-21, 24), and afterward David appointed him, alongside Jeiel, to minister continually before the ark with harps (16:5). Chronicles later specifies \"Obed-edom, the son of Jeduthun,\" as one of the gatekeepers set over this ministry (16:38). His household was remarkably blessed: he had eight sons -- Shemaiah, Jehozabad, Joah, Sacar, Nethanel, Ammiel, Issachar, and Peullethai -- and Chronicles states plainly, \"for God blessed him\" (26:4-5). His son Shemaiah's own sons became leaders in their father's house, \"mighty men of valor,\" and in total sixty-two capable men descended from Obed-edom served as temple gatekeepers, assigned their posts by sacred lot (26:6-15). Generations later, during King Amaziah's reign, the temple treasures plundered by Jehoash of Israel are described as having been \"with Obed-edom\" (2 Chronicles 25:24) -- almost certainly a descendant carrying the family name and hereditary post rather than the original man himself. Whether this Obed-edom is the same Gittite who once sheltered the ark in his own home (2 Samuel 6:10-12) is debated, but either way his family's long, faithful service around the ark and temple spans generations.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -25,6 +48,11 @@
       "sacar",
       "shemaiah-9"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

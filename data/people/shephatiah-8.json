@@ -2,17 +2,44 @@
   "person_id": "shephatiah-8",
   "name": "Shephatiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 38:1"
   ],
   "first_reference": "Jeremiah 38:1",
+  "topics": [
+    "opposition to Jeremiah",
+    "the siege of Jerusalem"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of four officials in Zedekiah's court who, angered by Jeremiah's message that surrender to Babylon meant survival, urged the king to put Jeremiah to death; Jeremiah was instead lowered into a muddy cistern to die.",
+  "family_friendly_summary": "During the final siege of Jerusalem, the prophet Jeremiah kept telling the soldiers and people that surrendering to the Babylonian army was the only way to survive, and that staying to fight would only bring death. Four officials in the king's court, including a man named Shephatiah, were furious about this message because they thought it was discouraging the soldiers. They went to King Zedekiah and demanded that Jeremiah be put to death. The king let them do as they wished, and they lowered Jeremiah into a deep, muddy cistern with no water, leaving him to sink in the mud. Later, a man named Ebed-melech convinced the king to rescue Jeremiah before he died.",
+  "adult_story": "Shephatiah son of Mattan was one of four officials in King Zedekiah's court during the final Babylonian siege of Jerusalem, alongside Gedaliah son of Pashhur, Jucal son of Shelemiah, and Pashhur son of Malchijah (Jeremiah 38:1). All four heard Jeremiah telling the people that \"he who stays in this city will die by the sword, by famine and by pestilence, but he who goes out to the Chaldeans will live... this city will certainly be given into the hand of the army of the king of Babylon\" (38:2-3). Convinced Jeremiah's words were undermining the defenders' morale, Shephatiah and his colleagues went to Zedekiah and demanded, \"Now let this man be put to death, inasmuch as he is discouraging the men of war... this man is not seeking the well-being of this people but rather their harm\" (38:4). The weak king handed Jeremiah over, saying he could not oppose them, and the officials lowered Jeremiah by ropes into an empty cistern in the court of the guard, where he sank into the mud (38:5-6). Jeremiah would have died there had an Ethiopian official, Ebed-melech, not intervened and persuaded the king to have him pulled out (38:7-13). Shephatiah's role in this episode places him among those who tried to silence Jeremiah's unwelcome but accurate warning.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "mattan-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

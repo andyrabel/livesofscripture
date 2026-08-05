@@ -2,8 +2,17 @@
   "person_id": "philip",
   "name": "Philip",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bethsaida",
+    "Galilee",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 10:3",
     "Mark 3:18",
@@ -15,11 +24,32 @@
     "Acts 1:13"
   ],
   "first_reference": "Matthew 10:3",
+  "topics": [
+    "calling of the disciples",
+    "bringing others to Jesus",
+    "slow-to-understand faith"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "Distinct from Philip the Evangelist, one of the seven chosen in Acts 6, who has a separate entry.",
+  "source_summary": "One of the Twelve apostles, from Bethsaida, personally called by Jesus, who brought Nathanael to Him, was tested by Jesus before the feeding of the five thousand, brought Greek seekers to Jesus, and asked to be shown the Father.",
+  "family_friendly_summary": "Philip was one of Jesus's twelve apostles. He came from the town of Bethsaida, and Jesus called him to follow personally. As soon as Philip started following Jesus, he found his friend Nathanael and told him, 'We have found the one Moses and the prophets wrote about -- Jesus of Nazareth!' Later, when a huge crowd of five thousand people needed food, Jesus tested Philip by asking where they could buy enough bread; Philip could only think about how expensive that would be, not that Jesus could provide it Himself. Some Greeks who wanted to meet Jesus came to Philip first, and he brought them to Jesus. Philip once asked Jesus to show the disciples God the Father, and Jesus gently reminded him that anyone who had seen Jesus had already seen the Father.",
+  "adult_story": "Philip, from Bethsaida, was called directly by Jesus -- 'Follow Me' -- early in His ministry, and immediately found his friend Nathanael, announcing, 'We have found Him of whom Moses in the Law and also the Prophets wrote' (John 1:43-45). When Nathanael was skeptical that anything good could come from Nazareth, Philip simply answered, 'Come and see' (1:46). Before feeding the five thousand, Jesus asked Philip where they might buy bread for the crowd, 'to test him, for He Himself knew what He was intending to do'; Philip could only calculate that two hundred denarii worth of bread wouldn't be enough, missing that Jesus needed no market at all (John 6:5-7). When Greeks at the Passover feast wanted to see Jesus, they approached Philip first, and he brought their request to Andrew before both told Jesus (John 12:20-22). At the Last Supper, Philip asked Jesus to 'show us the Father, and it is enough for us,' prompting Jesus's patient rebuke: 'Have I been so long with you, and yet you have not come to know Me, Philip? He who has seen Me has seen the Father' (John 14:8-9). Scripture never shows Philip performing a dramatic act, but his repeated role as a practical-minded bridge -- bringing Nathanael, the Greeks, and his own honest questions to Jesus -- pictures the ordinary, often slow-to-understand faith most disciples actually walk in.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

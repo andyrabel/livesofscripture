@@ -2,17 +2,45 @@
   "person_id": "jemimah",
   "name": "Jemimah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Land of Uz"
+  ],
   "references": [
     "Job 42:14"
   ],
   "first_reference": "Job 42:14",
+  "topics": [
+    "restoration",
+    "inheritance",
+    "God's blessing after suffering"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The eldest of Job's three daughters, born after the LORD restored Job's fortunes, remembered for her beauty and for receiving an inheritance alongside her brothers -- unusual for daughters in that culture.",
+  "family_friendly_summary": "Jemimah was the oldest of three daughters born to Job after God blessed him again following all his suffering. The Bible tells us Job named her Jemimah, and that she and her sisters, Keziah and Keren-happuch, were said to be the most beautiful women in the land. What makes Jemimah's story special is that her father gave her a share of his inheritance right alongside her brothers, which was unusual at that time. Jemimah's brief mention is part of the happy ending to Job's story -- after everything he lost, God gave him back a full and blessed family.",
+  "adult_story": "Jemimah was the first of three daughters born to Job after \"the LORD blessed the latter days of Job more than his beginning\" (Job 42:12), restoring him following the catastrophic loss of his first ten children, his health, and his wealth. Alongside seven new sons, Job had three daughters, and Scripture names each of them: Jemimah, then Keziah, then Keren-happuch (42:13-14). The text singles out these daughters for two things: \"in all the land no women were found so beautiful as Job's daughters,\" and their father \"gave them an inheritance among their brothers\" (42:15) -- a detail worth noting, since inheritance in Israelite and broader ancient Near Eastern custom ordinarily passed only to sons unless there were no male heirs (compare the exceptional case of Zelophehad's daughters in Numbers 27). Job had seven sons as well, so giving Jemimah and her sisters a share was not a legal necessity but a deliberate act of favor by their father. Jemimah herself speaks no words and performs no independent deed in the text; she is named and described only as part of the record of Job's full restoration -- long life, a large family, and, in her case specifically, a father's generosity that went beyond what custom required.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "job",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

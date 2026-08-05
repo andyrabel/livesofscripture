@@ -2,8 +2,18 @@
   "person_id": "rebekah",
   "name": "Rebekah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Paddan-aram",
+    "Beersheba",
+    "Gerar",
+    "Hebron"
+  ],
   "references": [
     "Genesis 22:23",
     "Genesis 24:15-67",
@@ -17,6 +27,22 @@
     "Romans 9:10"
   ],
   "first_reference": "Genesis 22:23",
+  "topics": [
+    "providence in marriage",
+    "favoritism",
+    "deception to secure God's promise"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Wife of Isaac and mother of Esau and Jacob, chosen through answered prayer at a well in Mesopotamia to marry Isaac, who later favored Jacob and orchestrated his deceptive theft of Isaac's blessing meant for Esau.",
+  "family_friendly_summary": "Rebekah lived far away in Mesopotamia when Abraham's servant traveled there looking for a wife for Isaac. The servant prayed for a sign, and Rebekah was the very girl who answered his prayer exactly -- she offered water not only to him but to all his camels too. Rebekah agreed to leave her family and travel back with the servant to marry Isaac, and Isaac loved her. For years Rebekah had no children, but God answered prayer, and she gave birth to twin boys, Esau and Jacob, who struggled even before they were born. God told Rebekah that the younger, Jacob, would become the greater nation. As the boys grew, Rebekah loved Jacob best, and when it came time for Isaac to bless his older son, Rebekah helped Jacob trick his father into giving him the blessing instead -- a choice that caused deep pain and division in their family.",
+  "adult_story": "Rebekah's story begins in Mesopotamia, where Abraham's servant, sent to find a wife for Isaac, prayed for a sign at a well; Rebekah, a relative of Abraham, answered it precisely -- offering water to the servant and drawing enough for all ten camels (Genesis 24:12-20). She agreed to leave her family at once, traveled to Canaan, and became Isaac's wife, whom he loved and who comforted him after his mother's death (24:58-67). Barren for twenty years, Rebekah conceived after Isaac prayed for her, and when the twins struggled violently within her, she inquired of the LORD and was told, 'the older will serve the younger' (25:21-23). Isaac, echoing Abraham's own earlier failure, once passed Rebekah off as his sister out of fear among the Philistines, until Abimelech discovered the truth (26:6-11). As the boys grew, Isaac favored Esau while Rebekah favored Jacob (25:28). When Isaac, old and nearly blind, prepared to bless Esau, Rebekah overheard, and orchestrated a deception -- dressing Jacob in Esau's clothes and animal skins to fool Isaac's touch, so Jacob stole the blessing meant for his brother (27:5-29). The scheme secured God's earlier promise, but at a heavy cost: Esau's murderous rage forced Rebekah to send Jacob away to her own family for years, and Scripture never records that she saw her favored son again before she died (27:41-45; 49:31). Rebekah's life holds together genuine faith and calculated deceit, exactly as Scripture records it.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: veiled plain robed silhouette figure, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "bethuel",
     "mother": null,
@@ -25,6 +51,11 @@
       "esau",
       "israel"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

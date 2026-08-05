@@ -2,17 +2,45 @@
   "person_id": "jezebel-2",
   "name": "Jezebel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Thyatira"
+  ],
   "references": [
     "Revelation 2:20"
   ],
   "first_reference": "Revelation 2:20",
+  "topics": [
+    "false teaching",
+    "church discipline",
+    "call to repentance"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scholars are divided on whether \"Jezebel\" was this woman's actual name or a symbolic title Christ applies to her because her influence echoed the Old Testament queen Jezebel's promotion of idolatry (1 Kings 16-21); Revelation itself does not resolve which is meant.",
+  "source_summary": "The name Christ gives, in His letter to the church at Thyatira, to a self-proclaimed prophetess whose false teaching led believers there into sexual immorality and idol-food compromise; Christ calls the church to repentance and warns of coming judgment.",
+  "family_friendly_summary": "In His letters to seven churches in the book of Revelation, Jesus has strong words for the church in the city of Thyatira. He says they have allowed a woman there, whom He calls \"Jezebel,\" to teach things that lead people away from following Him faithfully -- the name recalls a wicked queen from the Old Testament who led Israel into idol worship. Jesus says He gave this woman time to change her ways, but she would not. He warns that His judgment is coming unless there is real repentance. At the same time, Jesus promises to reward everyone in that church who stays faithful and does not follow her teaching.",
+  "adult_story": "In His letter to the church at Thyatira, one of the seven churches of Revelation 2-3, the risen Christ commends the congregation's love, faith, service, and perseverance -- but rebukes them sharply for tolerating \"the woman Jezebel, who calls herself a prophetess,\" whose teaching led His servants into sexual immorality and eating food sacrificed to idols (Revelation 2:20). The name deliberately recalls the notorious Old Testament queen who promoted Baal worship and persecuted the LORD's prophets (1 Kings 16-21) -- whether this is her actual name or a title Christ applies to her because of that resemblance, Scripture does not say. Christ states that He \"gave her time to repent\" but she was unwilling (2:21), and pronounces coming judgment: sickness for her, \"great tribulation\" for those who commit adultery with her unless they repent of her deeds, and death for her children -- so that \"all the churches will know that I am He who searches the minds and hearts\" and repays each according to their deeds (2:22-23). Yet Christ also promises that those in Thyatira \"who do not hold this teaching\" and remain faithful will be given authority and \"the morning star\" (2:24-28). Jezebel's episode is a sober warning about tolerating false teaching within the church, paired with real hope for those who resist it.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

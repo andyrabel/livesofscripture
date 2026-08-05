@@ -2,17 +2,45 @@
   "person_id": "maaseiah-4",
   "name": "Maaseiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Judah"
+  ],
   "references": [
     "2 Chronicles 28:7"
   ],
   "first_reference": "2 Chronicles 28:7",
+  "topics": [
+    "war",
+    "judgment",
+    "royal family"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A son of King Ahaz of Judah, killed by Zichri, a mighty warrior of Ephraim, during Israel's devastating invasion of Judah in the Syro-Ephraimite war -- part of the judgment Scripture attributes to Ahaz's unfaithfulness.",
+  "family_friendly_summary": "Maaseiah was one of the sons of King Ahaz of Judah, a king who did many things that displeased God and led the nation away from Him. During a difficult war, when the armies of Israel and Syria attacked Judah, a strong soldier from Israel named Zichri killed Maaseiah along with two other important officials. The Bible tells us this happened because Judah had turned away from God under Ahaz's leadership, and the nation suffered painful consequences for it. Maaseiah's brief, sad story is part of a larger lesson in the Bible: the choices leaders make can affect the safety and lives of the people connected to them, even their own family.",
+  "adult_story": "Maaseiah was a son of King Ahaz of Judah, one of the most unfaithful kings in Judah's history -- a king who shut the doors of the temple, set up altars to foreign gods on every corner of Jerusalem, and even sacrificed his own children in the fire in imitation of pagan practice (2 Chronicles 28:1-4, 24-25). During Ahaz's reign, the allied kings of Israel and Syria (Pekah and Rezin) invaded Judah in the Syro-Ephraimite war, inflicting massive casualties as divine judgment on Ahaz's apostasy (28:5-6). In the course of that invasion, Zichri, described as \"a mighty man of Ephraim,\" killed three men in a single, terse notice: \"Maaseiah the king's son, Azrikam the ruler of the house, and Elkanah who was second to the king\" (28:7). No further detail is given -- no battle scene, no last words, only the bare fact of a king's son cut down alongside two of his father's chief officials in a catastrophic national defeat that in one day claimed 120,000 soldiers of Judah, according to the Chronicler (28:6). Maaseiah's death is recorded not to honor him individually but to underscore the scale and reality of the judgment Scripture says fell on Judah because of Ahaz's idolatry -- a sobering reminder that a leader's unfaithfulness carries consequences that reach even into his own household.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "ahaz",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

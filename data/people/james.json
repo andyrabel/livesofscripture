@@ -2,8 +2,16 @@
   "person_id": "james",
   "name": "James",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 4:21",
     "Matthew 10:2",
@@ -28,11 +36,33 @@
     "Galatians 2:9-12"
   ],
   "first_reference": "Matthew 4:21",
+  "topics": [
+    "ambition rebuked",
+    "the inner three",
+    "martyrdom",
+    "costly discipleship"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "This entry's reference list mixes two distinct men named James. James son of Zebedee, one of the Twelve, was martyred by Herod Agrippa I in Acts 12:2 (c. AD 44). James, the Lord's brother, led the Jerusalem church and appears in Acts 15:13, Acts 21:18, 1 Corinthians 15:7, and Galatians 1:19 and 2:9-12 -- events that occurred after Zebedee's son was already dead. This entry follows the Gospel and early-Acts material that clearly belongs to James son of Zebedee; the later Jerusalem-council and Galatians references almost certainly describe the other James, not this one.",
+  "source_summary": "A Galilean fisherman, son of Zebedee and brother of John, called by Jesus to be one of the Twelve and part of His inner circle of three (with Peter and John); nicknamed a \"son of thunder,\" present at the Transfiguration and in Gethsemane, and the first apostle martyred, executed by Herod Agrippa I.",
+  "family_friendly_summary": "James was a fisherman on the Sea of Galilee, working with his father Zebedee and his brother John, when Jesus called the two brothers to leave their nets and follow Him. James became one of Jesus' twelve closest followers and part of an even smaller inner group -- with Peter and his brother John -- who were with Jesus at some of His most important moments, like when He was transfigured in dazzling glory on a mountain. Jesus gave James and John the nickname \"Sons of Thunder,\" maybe because of their fiery tempers. James wasn't perfect -- he once asked for a place of honor in Jesus' kingdom -- but he stayed faithful, becoming the very first apostle to die for following Jesus.",
+  "adult_story": "James, son of Zebedee and older brother of John, was mending nets with his father on the Sea of Galilee when Jesus called him; he \"immediately left the boat and his father, and followed Him\" (Matthew 4:21-22). Jesus nicknamed James and John \"Boanerges,\" or \"Sons of Thunder\" (Mark 3:17), a name that fits their temperament: they once asked Jesus to call down fire on a Samaritan village that rejected Him (Luke 9:54), and James and John themselves asked Jesus for the two highest seats in His coming kingdom, provoking the other ten disciples' indignation (Mark 10:35-41). Yet James belonged to Jesus' innermost circle: with Peter and John, he alone witnessed the raising of Jairus's daughter (Mark 5:37), Jesus' Transfiguration (Mark 9:2), and His agony in Gethsemane (Mark 14:33), being asked there to \"remain here and keep watch\" -- and falling asleep instead. James became the first apostle martyred for the faith: Herod Agrippa I \"had James the brother of John put to death with a sword\" to please the Jewish leaders (Acts 12:2), fulfilling Jesus' earlier warning that James and John would indeed drink His cup of suffering (Mark 10:38-39). Ambitious and imperfect, James nonetheless followed Christ to the point of death.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zebedee",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,46 @@
   "person_id": "on",
   "name": "On",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "sinai-wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "the wilderness"
+  ],
   "references": [
     "Numbers 16:1"
   ],
   "first_reference": "Numbers 16:1",
+  "topics": [
+    "Korah's rebellion",
+    "envy and pride",
+    "tribe of Reuben"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture names On among the rebellion's leaders in Numbers 16:1 but never mentions him again, including in the account of the judgment that follows -- his ultimate fate is not stated. Later Jewish tradition (e.g., in rabbinic sources) holds his wife persuaded him to withdraw and so spared his life, but this is tradition, not something the biblical text itself confirms.",
+  "source_summary": "A Reubenite named among those who joined Korah's rebellion against Moses and Aaron's leadership in the wilderness; unlike Korah, Dathan, and Abiram, Scripture says nothing further about his fate.",
+  "family_friendly_summary": "During Israel's time in the wilderness, a group of men decided to challenge Moses and Aaron's leadership, believing they deserved positions of honor too. A man named On, from the tribe of Reuben, is named as joining this rebellion alongside Korah, Dathan, and Abiram. The Bible doesn't tell us what happened to On specifically after this -- only Korah, Dathan, and Abiram are described later on, facing serious consequences for turning against the leaders God had chosen. On's story is short, but it's part of a bigger lesson from the wilderness: challenging God's chosen leaders out of envy or pride has serious consequences.",
+  "adult_story": "On, son of Peleth, a Reubenite, is named once in Scripture, at the opening of one of the wilderness generation's most serious rebellions: \"Now Korah... with Dathan and Abiram... and On the son of Peleth, sons of Reuben, took action, and they rose up before Moses\" (Numbers 16:1-2). The rebellion combined two grievances -- Korah, a Levite, resented that only Aaron's line held the priesthood, while Dathan, Abiram, and On, from Reuben, may have resented losing their tribe's traditional firstborn standing to Moses and Aaron's leadership. Together with 250 leaders of the congregation, they confronted Moses: \"You have gone far enough, for all the congregation are holy, every one of them... so why do you exalt yourselves?\" (16:3). What follows is remembered as one of Scripture's starkest judgments -- the ground opened and swallowed Korah, Dathan, and Abiram with their households, and fire consumed the 250 leaders (16:31-35). Strikingly, On is never mentioned again in the account of the judgment or afterward -- Scripture simply does not say what became of him. Later Jewish tradition holds that On's wife persuaded him to withdraw from the conspiracy before the end, sparing his life, but this is not stated in the biblical text itself and should be read as later tradition, not confirmed fact.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "peleth",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -4,17 +4,46 @@
   "alt_names": [
     "Barsabbas"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Antioch"
+  ],
   "references": [
     "Acts 15:22-32"
   ],
   "first_reference": "Acts 15:22-32",
+  "topics": [
+    "Jerusalem council",
+    "prophetic ministry",
+    "encouragement"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A leading man among the Jerusalem believers, chosen with Silas to carry the Jerusalem council's letter to the Gentile church at Antioch, where as a prophet he encouraged and strengthened the believers with a lengthy message.",
+  "family_friendly_summary": "After the apostles and elders in Jerusalem decided how Gentile believers should live as part of God's family, they needed trusted messengers to deliver the news to the church in Antioch. They chose Judas, also called Barsabbas, along with a man named Silas -- both described as leaders among the believers. Judas and Silas traveled to Antioch, delivered the letter, and then, because Judas was also a prophet, spoke many encouraging words that strengthened the believers there. Afterward he was sent back to Jerusalem in peace. Judas's short story shows how much the early church valued people who could deliver truth with real encouragement.",
+  "adult_story": "Judas, surnamed Barsabbas, was one of the \"leading men among the brethren\" in the Jerusalem church (Acts 15:22). After the apostles and elders resolved the dispute over whether Gentile converts must be circumcised to keep the law of Moses, they chose Judas and Silas to accompany Paul and Barnabas to Antioch and personally deliver the council's letter, so the Gentile believers would hear the decision confirmed by trusted witnesses rather than by letter alone (15:22-27). Scripture specifically identifies Judas as a prophet: \"Judas and Silas, also being prophets themselves, encouraged and strengthened the brethren with a lengthy message\" (15:32). After some time, he was sent back to Jerusalem in peace by the believers at Antioch (15:33). Judas's brief but significant role -- entrusted with a delicate diplomatic and pastoral mission at a pivotal moment when the early church was working out what it meant to include Gentiles without requiring the works of the law -- shows the value the Jerusalem church placed on sending respected, gifted men to reinforce unity between the mother church and the growing Gentile mission.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open, as if crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,8 +2,15 @@
   "person_id": "perez",
   "name": "Perez",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Canaan"
+  ],
   "references": [
     "Genesis 38:29",
     "Genesis 46:12",
@@ -18,6 +25,22 @@
     "Luke 3:33"
   ],
   "first_reference": "Genesis 38:29",
+  "topics": [
+    "ancestor of David",
+    "genealogy of Christ",
+    "God's providence amid family brokenness"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Judah and Tamar, born first of unexpected twins after Judah failed to fulfill his levirate-marriage obligation to Tamar; ancestor of Boaz, David, and, through David's line, Jesus Christ.",
+  "family_friendly_summary": "Perez was the son of Judah, one of Jacob's twelve sons. His birth came out of a complicated family situation: Judah's daughter-in-law Tamar had lost her husband and wasn't being cared for the way she should have been, so she took bold action to make sure Judah's family line continued. When Tamar gave birth, she had twins. During the delivery, one baby's hand appeared first and a scarlet thread was tied around his wrist to mark him as the firstborn -- but then he pulled his hand back, and his brother Perez was actually born first, \"breaking through\" ahead of him. That's how Perez got his name, which means \"breakthrough.\" Perez became an important ancestor in Israel's history -- generations later, both King David and Jesus would come from his family line.",
+  "adult_story": "Perez was born to Judah and his daughter-in-law Tamar under circumstances Scripture does not soften. After Judah's sons Er and Onan both died, and Judah failed to give Tamar his third son Shelah in marriage as levirate custom required, Tamar disguised herself and conceived by Judah himself, who did not recognize her and had approached her thinking she was a prostitute (Genesis 38:6-19). When Judah later learned Tamar was pregnant, he ordered her burned to death for immorality -- until she produced his own seal, cord, and staff as proof, and Judah admitted, \"She is more righteous than I\" (38:24-26). At Tamar's delivery, twins were born. One twin's hand emerged first and a scarlet thread was tied to it to mark the firstborn, but the hand withdrew, and his brother emerged first instead. The midwife exclaimed, \"What a breach you have made for yourself!\" and he was named Perez, meaning \"breach\" or \"breakthrough\" (38:27-30). Despite the shame surrounding his conception, Perez's line became central to Israel's story: he is named among Judah's sons who went to Egypt (Genesis 46:12), his descendants are prominent in Judah's genealogies (1 Chronicles 2:4-5), and Ruth 4:12,18 traces Boaz's line through him -- making Perez a direct ancestor of David and, through David's royal line, of Jesus Christ (Matthew 1:3; Luke 3:33).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "judah",
     "mother": "tamar",
@@ -26,6 +49,11 @@
       "hamul",
       "hezron-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

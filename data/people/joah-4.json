@@ -2,17 +2,45 @@
   "person_id": "joah-4",
   "name": "Joah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Chronicles 34:8"
   ],
   "first_reference": "2 Chronicles 34:8",
+  "topics": [
+    "temple repair",
+    "faithful administration",
+    "Josiah's reforms"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Joah son of Joahaz served as royal recorder under King Josiah and was one of three officials sent to deliver funds collected for the temple to Hilkiah the high priest, part of Josiah's initiative to repair the house of the LORD.",
+  "family_friendly_summary": "Joah was an official in the royal court of King Josiah, one of the good kings of Judah. His job title was \"recorder,\" someone trusted to help run the kingdom's business. When Josiah decided the Lord's temple in Jerusalem needed to be repaired after years of neglect, he sent Joah, along with two other officials named Shaphan and Maaseiah, to carry the money the people had given for the project to Hilkiah the high priest. Joah's small task was part of a much bigger story -- Josiah's reforms brought Judah back toward faithful worship of God, including the exciting discovery of a lost copy of God's Law hidden in the temple.",
+  "adult_story": "Joah son of Joahaz held the office of recorder in the court of King Josiah of Judah, one of the few kings Scripture commends without qualification (2 Kings 22-23; 2 Chronicles 34-35). In the eighteenth year of his reign, after Josiah had already begun purging Judah of idolatry, he turned to the long-neglected house of the LORD. He sent three officials -- Shaphan the son of Azaliah, Maaseiah the governor of the city, and Joah the son of Joahaz the recorder -- to repair the temple (2 Chronicles 34:8). Joah and his colleagues came to Hilkiah the high priest and delivered the silver that the Levite doorkeepers had collected from the people of Israel and Judah for the repair project (34:9). That money was passed on to the workmen and used to buy quarried stone and timber, restoring a temple that generations of unfaithful kings had let fall into ruin (34:10-11). This same initiative soon led to Hilkiah's discovery of the Book of the Law in the temple, which Josiah heard read aloud and which sparked the most sweeping covenant renewal and reform of idolatry Judah had seen since David. Joah's task was modest and administrative -- he moved money, not mountains -- but his small, faithful errand was one thread in a larger act of national repentance that Scripture treats as one of Judah's last bright moments before the exile.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "joahaz",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,46 @@
   "person_id": "jahaziel-3",
   "name": "Jahaziel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Tekoa"
+  ],
   "references": [
     "2 Chronicles 20:14"
   ],
   "first_reference": "2 Chronicles 20:14",
+  "topics": [
+    "prophecy",
+    "trusting God in crisis",
+    "deliverance without a fight"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite of Asaph's line on whom the Spirit of the LORD came in the assembled congregation, delivering a prophecy to King Jehoshaphat that promised victory over an invading coalition without Judah needing to fight.",
+  "family_friendly_summary": "When a huge army from Moab, Ammon, and Edom came to attack Judah, King Jehoshaphat gathered the whole nation together to pray and ask God for help. In the middle of that big meeting, God's Spirit came upon a Levite named Jahaziel, and he stood up and spoke a message from God: \"Don't be afraid. This battle is not yours, but God's. You won't even have to fight -- just stand still and watch what God will do.\" The people believed him, and the next day, just as Jahaziel said, God caused their enemies to turn on each other, and Judah won without swinging a single sword.",
+  "adult_story": "Jahaziel was a Levite of the sons of Asaph, son of Zechariah in a genealogy traced back through several generations (2 Chronicles 20:14). When a vast coalition of Moabites, Ammonites, and Meunites marched against Judah, King Jehoshaphat, afraid, proclaimed a fast and gathered the whole nation at the temple to seek the LORD (20:1-13). In the midst of that assembly, \"the Spirit of the LORD came upon Jahaziel,\" and he prophesied: \"Listen, all Judah and inhabitants of Jerusalem and King Jehoshaphat: thus says the LORD to you, 'Do not fear or be dismayed because of this great multitude, for the battle is not yours but God's... you need not fight in this battle; station yourselves, stand and see the salvation of the LORD on your behalf'\" (20:15-17). Jehoshaphat and the people bowed and worshiped in response. The next morning, as Judah's singers went out ahead of the army praising God, the LORD caused the invading armies to turn on and destroy one another, and Judah found only plunder left to gather (20:20-25). Jahaziel's single recorded act -- a Spirit-empowered word spoken at exactly the moment of national terror -- turned a certain military disaster into a bloodless deliverance, and his prophecy became one of Scripture's clearest declarations that the battle, and the victory, belong to the LORD.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "zechariah-10",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -6,8 +6,17 @@
     "Johanan",
     "Shallum"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Riblah",
+    "Egypt"
+  ],
   "references": [
     "2 Kings 23:30-34",
     "1 Chronicles 3:15",
@@ -15,11 +24,32 @@
     "Jeremiah 22:11"
   ],
   "first_reference": "2 Kings 23:30-34",
+  "topics": [
+    "exile",
+    "royal downfall",
+    "fulfilled prophecy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Josiah, made king of Judah by popular acclaim after his father's death, but reigned only three months before Pharaoh Necho deposed him and carried him captive to Egypt, where he died as Jeremiah had prophesied.",
+  "family_friendly_summary": "Jehoahaz (also called Shallum) was one of King Josiah's sons. When Josiah died in battle, the people of Judah chose Jehoahaz to be their next king. But he only ruled for three months. The powerful king of Egypt, Pharaoh Necho, marched into Judah, removed Jehoahaz from the throne, and put his brother Eliakim in his place instead, renaming him Jehoiakim. Jehoahaz was taken away in chains to Egypt, and he never returned home to Judah -- he died there, just as the prophet Jeremiah had said he would. His short reign was a sad sign of how much trouble was coming for Judah.",
+  "adult_story": "Jehoahaz, also called Shallum, was Josiah's son, made king by popular acclaim in Jerusalem after his father died fighting Pharaoh Necho at Megiddo (2 Kings 23:30). He was twenty-three when he began to reign, and Scripture states plainly that \"he did evil in the sight of the LORD, according to all that his fathers had done\" (23:31-32) -- unlike the reforming father he succeeded. His reign lasted only three months. Pharaoh Necho, now the dominant power over Judah, summoned him to Riblah, bound him, and deposed him before he could establish himself, imposing a heavy tribute of silver and gold on the land and installing Jehoahaz's brother Eliakim as a puppet king under the new name Jehoiakim (23:33-34; 2 Chronicles 36:1-4). Necho then carried Jehoahaz off to Egypt, where he died, never seeing Judah again (2 Kings 23:34). Jeremiah had already pronounced this fate: \"he will not return again, but in the place where they have led him captive, there he will die\" (Jeremiah 22:11-12), weeping for him as one to be mourned more than for Josiah, since exile was worse than death. Jehoahaz's brief, evil reign was the first of Judah's kings forcibly deposed by a foreign power -- a preview of the exile soon to come.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "josiah",
     "mother": "hamutal",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

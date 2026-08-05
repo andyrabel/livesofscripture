@@ -2,17 +2,46 @@
   "person_id": "sheba-4",
   "name": "Sheba",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Abel Beth-maacah",
+    "Israel"
+  ],
   "references": [
     "2 Samuel 20:1-22"
   ],
   "first_reference": "2 Samuel 20:1-22",
+  "topics": [
+    "rebellion against David",
+    "civil strife",
+    "divine and human justice"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Benjamite who led a short-lived revolt against King David immediately after Absalom's rebellion was crushed, rallying Israel away from David until Joab's forces besieged him in Abel Beth-maacah, where the city gave him up to save itself.",
+  "family_friendly_summary": "Sheba was a man from the tribe of Benjamin who tried to lead the people of Israel away from King David, right after another big rebellion (led by Absalom) had just ended. Sheba blew a trumpet and called out that Israel should abandon David and follow him instead, and many people followed him for a time. David sent his army commander Joab to stop him. Joab chased Sheba all the way to a city called Abel Beth-maacah and surrounded it, ready to attack. A wise woman living in the city spoke with Joab and worked out a plan to save her people by giving up Sheba instead. The city agreed, Joab's army left peacefully, and the rebellion came to an end.",
+  "adult_story": "Sheba son of Bichri, a Benjamite, exploited the raw tension between Israel and Judah in the chaotic aftermath of Absalom's failed rebellion. When a dispute broke out over which tribes had the greater claim on David, Sheba blew a trumpet and cried, \"We have no portion in David... every man to his tents, O Israel!\" -- and the men of Israel abandoned David to follow him, leaving only Judah loyal to the king (2 Samuel 20:1-2). David, wary of a second uprising so soon after Absalom's, sent Amasa to muster Judah's forces, then Abishai, and finally Joab took command and pursued Sheba north (20:4-13) -- along the way Joab murdered Amasa, his rival for command, in cold blood (20:9-10). Joab besieged Sheba inside Abel Beth-maacah and began battering the wall. A \"wise woman\" of the city called out to Joab, negotiated on the city's behalf, and persuaded her fellow citizens to end the siege by giving up the rebel: \"they cut off the head of Sheba the son of Bichri and threw it to Joab\" (20:14-22). Joab blew the trumpet, withdrew his army, and the revolt collapsed as quickly as it began. Sheba's brief rebellion shows how fragile David's kingdom remained even after Absalom's defeat, and how ruthlessly -- and effectively -- Joab was willing to act to hold it together.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "bichri",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,45 @@
   "person_id": "segub",
   "name": "Segub",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jericho"
+  ],
   "references": [
     "1 Kings 16:34"
   ],
   "first_reference": "1 Kings 16:34",
+  "topics": [
+    "fulfilled prophecy",
+    "cost of disobedience"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The youngest son of Hiel the Bethelite, whose death while his father was rebuilding Jericho fulfilled, centuries later, Joshua's curse that whoever rebuilt the city would lose his firstborn and youngest sons.",
+  "family_friendly_summary": "Long before Segub was born, Joshua had warned that if anyone ever rebuilt the ruined city of Jericho, it would cost them their oldest and youngest sons (Joshua 6:26). Hundreds of years later, a man named Hiel decided to rebuild Jericho anyway. Sadly, exactly what Joshua had warned came true: Hiel's oldest son Abiram died when the foundation was laid, and his youngest son, Segub, died when the city gates were finally set up. Segub's short, sad story is a sober reminder that God's word, even spoken generations earlier, always comes true.",
+  "adult_story": "Segub's entire biblical record is a single clause: \"In his days Hiel the Bethelite built Jericho; he laid its foundation with the loss of Abiram his firstborn, and set up its gates with the loss of his youngest son Segub, according to the word of the LORD, which He spoke through Joshua the son of Nun\" (1 Kings 16:34). Some seven centuries earlier, after Israel's conquest of Jericho, Joshua had pronounced a curse on anyone who dared rebuild the city: \"with the loss of his firstborn he will lay its foundation, and with the loss of his youngest son he will set up its gates\" (Joshua 6:26). During wicked King Ahab's reign, Hiel rebuilt Jericho anyway, and Segub's death -- like his brother's -- stands in Scripture as sobering, exact proof that God's word outlasts generations.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hiel",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

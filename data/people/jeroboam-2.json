@@ -2,8 +2,16 @@
   "person_id": "jeroboam-2",
   "name": "Jeroboam",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kingdom of Israel",
+    "Samaria"
+  ],
   "references": [
     "2 Kings 13:13",
     "2 Kings 14:16-29",
@@ -13,6 +21,22 @@
     "Amos 7:9-11"
   ],
   "first_reference": "2 Kings 13:13",
+  "topics": [
+    "prosperity under compromise",
+    "prophetic warning",
+    "idolatry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Jeroboam II, son of Joash, was Israel's longest-reigning king, restoring the northern kingdom's borders and bringing decades of military and economic prosperity even as it grew spiritually corrupt -- the backdrop against which the prophets Amos and Hosea preached.",
+  "family_friendly_summary": "Jeroboam II ruled the northern kingdom of Israel for over forty years, longer than almost any other king. Under his rule, Israel grew strong and wealthy again, winning back land it had lost to its enemies. But even though the nation looked successful on the outside, God saw that many people had turned away from Him, cheating the poor and worshiping idols instead of trusting the LORD. God sent two prophets, Amos and Hosea, to warn Jeroboam's Israel that outward success wasn't the same as being right with God. One priest even complained to Jeroboam about Amos's preaching, trying to get the prophet silenced. Jeroboam's story is a reminder that God cares more about faithful hearts than a full treasury.",
+  "adult_story": "Jeroboam II, son of Joash, reigned over the northern kingdom of Israel for forty-one years (2 Kings 14:23) -- longer than any other Israelite king -- restoring Israel's border \"from the entrance of Hamath to the Sea of the Arabah,\" according to the word the LORD had spoken through His servant Jonah son of Amittai (2 Kings 14:25). Under Jeroboam, Israel recovered territory lost to Aram and enjoyed real military strength and economic prosperity (2 Kings 14:28). Yet 2 Kings is blunt: \"he did evil in the sight of the LORD; he did not depart from all the sins of Jeroboam the son of Nebat\" -- the golden-calf worship the dynasty's first Jeroboam had institutionalized generations earlier (14:24). It was during this outwardly golden but spiritually hollow reign that God sent the prophets Amos and Hosea. Amos condemned Israel's luxury built on exploitation of the poor and corrupt courts, and prophesied that \"Jeroboam will die by the sword, and Israel will certainly go from its land into exile\" (Amos 7:9-11) -- so unwelcome a message that the priest Amaziah reported Amos to the king and tried to expel him from Bethel. Hosea likewise dated his ministry to Jeroboam's reign (Hosea 1:1), preaching against Israel's idolatry beneath the same prosperous surface. Jeroboam II's story pairs national success with spiritual decline -- exactly the combination the prophets were raised up to expose.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "joash-4",
     "mother": null,
@@ -20,6 +44,11 @@
     "children": [
       "zechariah"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

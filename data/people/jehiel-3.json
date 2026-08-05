@@ -2,17 +2,45 @@
   "person_id": "jehiel-3",
   "name": "Jehiel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Judah"
+  ],
   "references": [
     "2 Chronicles 21:2"
   ],
   "first_reference": "2 Chronicles 21:2",
+  "topics": [
+    "royal fratricide",
+    "sons of Jehoshaphat"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of King Jehoshaphat's sons, given wealth and fortified cities by his father but murdered along with his brothers when his brother Jehoram secured the throne of Judah.",
+  "family_friendly_summary": "Jehiel was one of King Jehoshaphat of Judah's sons. Before he died, Jehoshaphat gave Jehiel and his brothers many gifts of silver, gold, and valuable things, along with cities to live in. But he chose his oldest son, Jehoram, to be the next king. Once Jehoram had the throne firmly in his hands, he did something terrible: he had Jehiel and all his other brothers put to death, along with some of Judah's leaders, so no one could challenge his rule. Jehiel's short story is a sad reminder of how the desire for power can turn family members against each other.",
+  "adult_story": "Jehiel was one of the sons of Jehoshaphat, king of Judah, named alongside his brothers Azariah, Zechariah, Azariah, Michael, and Shephatiah in the record of Jehoshaphat's household (2 Chronicles 21:2). Their father, generous and mindful of his large family, gave each of them substantial gifts of silver, gold, and valuables, along with fortified cities in Judah to hold. Yet the kingdom itself he reserved for Jehoram, his firstborn, following the standard practice of primogeniture (21:1-3). The arrangement did not satisfy Jehoram. As soon as he had taken the throne and secured his position, he had Jehiel and all his brothers put to the sword, along with some of the officials of Israel, eliminating any rival claim to power (21:4). Scripture records no words or deeds of Jehiel's own beyond his birth and his death; his entire biblical account is the brief notice of his father's generosity and his brother's brutality. His fate stands as one of Scripture's blunt illustrations of how the throne of Judah, even under a relatively faithful king like Jehoshaphat, could still produce a son willing to murder his own family for undisputed power -- a pattern Chronicles does not soften or excuse.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoshaphat-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

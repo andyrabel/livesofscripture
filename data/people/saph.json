@@ -4,18 +4,48 @@
   "alt_names": [
     "Sippai"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gob",
+    "Philistine territory"
+  ],
   "references": [
     "2 Samuel 21:18",
     "1 Chronicles 20:4"
   ],
   "first_reference": "2 Samuel 21:18",
+  "topics": [
+    "Philistine giant",
+    "descendant of the Rephaim",
+    "David's warriors"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Philistine warrior descended from \"the giant,\" killed by Sibbecai the Hushathite, one of David's mighty men, during a battle against the Philistines at Gob.",
+  "family_friendly_summary": "Saph was a huge Philistine warrior, descended from a line of giants. During a war between Israel and the Philistines at a place called Gob, one of King David's mighty warriors, a man named Sibbecai, fought and defeated Saph. Saph's short story is grouped together in the Bible with three other giant Philistine warriors, all of whom were defeated by David and his men. Together, these stories show how God gave David's small band of loyal fighters victory over enemies who looked impossible to beat.",
+  "adult_story": "Saph (also called Sippai in the parallel account, 1 Chronicles 20:4) was a Philistine warrior identified as a descendant of \"the giant\" -- likely Rapha, ancestor of the Rephaim, a line associated elsewhere in Scripture with Goliath and other outsized enemy champions. During renewed fighting between Israel and the Philistines at Gob, Saph was killed by Sibbecai the Hushathite, one of David's elite mighty men (2 Samuel 21:18). His death is recorded alongside three other notable Philistine casualties in the same short passage: Goliath's brother, killed by Elhanan, and a six-fingered, six-toed giant, killed by Jonathan, David's nephew (21:19-22). The narrator's summary line is pointed: these four giants \"fell by the hand of David and by the hand of his servants\" (21:22) -- a reminder that Israel's ongoing victories over intimidating enemies, even after David's own youthful battle with Goliath, were consistently credited to God working through David's men, not merely to superior individual might.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

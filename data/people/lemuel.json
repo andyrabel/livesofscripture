@@ -2,17 +2,42 @@
   "person_id": "lemuel",
   "name": "Lemuel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "Proverbs 31:1-4"
   ],
   "first_reference": "Proverbs 31:1-4",
+  "topics": [
+    "wisdom literature",
+    "a mother's instruction",
+    "righteous kingship"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Lemuel's identity and kingdom are not stated elsewhere in Scripture. Some Jewish tradition identifies \"Lemuel\" as a symbolic name for Solomon, taught by his mother Bathsheba; others read \"king of Massa\" (following the Hebrew of Proverbs 31:1) as a specific but otherwise unknown non-Israelite king, perhaps from the Ishmaelite clan of Massa named in Genesis 25:14. Scripture does not resolve which reading is correct, so no identification is stated as fact.",
+  "source_summary": "A king -- possibly a non-Israelite ruler, though some Jewish tradition identifies him with Solomon -- whose mother's oracle of instruction opens Proverbs 31, warning against wine and the misuse of royal strength and urging justice for the voiceless.",
+  "family_friendly_summary": "Proverbs 31 opens with \"the words of King Lemuel,\" wisdom his mother taught him. She warned her son, as a king, not to waste his strength on things that would ruin him, and not to drink wine and forget his duty to rule justly. Instead, she told him to use his position to speak up for people who have no voice of their own and to judge fairly for the poor and needy. The Bible doesn't tell us much else about who Lemuel was or where he ruled -- some old Jewish traditions think \"Lemuel\" might even be another name for Solomon, taught by his mother. Whoever he was, his mother's advice about self-control and justice is remembered as part of God's wise word.",
+  "adult_story": "Lemuel is known only from the superscription of Proverbs 31: \"The words of King Lemuel, the oracle which his mother taught him\" (31:1). What follows is his mother's direct address to her son -- \"What, O my son? And what, O son of my womb? And what, O son of my vows?\" (31:2) -- urging him, as a king, not to spend his strength on women who would destroy kings, and not to drink wine or strong drink, \"for they will drink and forget what is decreed, and pervert the rights of all the afflicted\" (31:3-5). Instead she instructs him to reserve strong drink only for comforting the perishing and the bitter of heart -- not for himself -- and to \"open your mouth for the mute, for the rights of all the unfortunate. Open your mouth, judge righteously, and defend the rights of the afflicted and needy\" (31:6-9). Scripture gives no further biography: no kingdom is confirmed, no reign narrated, no deeds recorded beyond this received instruction (see interpretive note on his disputed identity). What is preserved is a mother's wisdom to a son entrusted with power -- that self-control and justice for the voiceless matter more than royal indulgence -- words some read as introducing the following poem on the excellent wife (31:10-31), though that connection is not stated explicitly in the text.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

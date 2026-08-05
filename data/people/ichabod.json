@@ -2,18 +2,46 @@
   "person_id": "ichabod",
   "name": "Ichabod",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Shiloh"
+  ],
   "references": [
     "1 Samuel 4:21",
     "1 Samuel 14:3"
   ],
   "first_reference": "1 Samuel 4:21",
+  "topics": [
+    "the ark of the covenant",
+    "the fall of Eli's house",
+    "the departed glory"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The son of Phinehas, born the day the ark of God was captured by the Philistines and his father and grandfather Eli both died; his dying mother named him \"no glory,\" mourning that Israel's glory had departed.",
+  "family_friendly_summary": "Ichabod was born on one of the saddest days in Israel's early history. His father, Phinehas, and his grandfather, Eli the priest, both died on the same day, after the Philistines captured the ark of the covenant in battle. When the news reached Phinehas's wife, the shock sent her into labor, and she knew she was dying. Even as the women around her tried to comfort her with news of her new baby son, she was overwhelmed by the loss of the ark. She named her son Ichabod, which means \"no glory,\" saying, \"The glory has departed from Israel,\" because God's ark had been taken. It is a sorrowful story, but it shows how seriously God's people took His presence among them.",
+  "adult_story": "Ichabod's birth is bound up with one of the darkest days in Israel's early history. His father Phinehas and his uncle Hophni, corrupt priests who abused their office (1 Samuel 2:12-17, 22), carried the ark of the covenant into battle against the Philistines as a talisman rather than in genuine faith; both were killed and the ark itself was captured (4:10-11). When the news reached Shiloh, Eli -- Phinehas's father, Israel's aged priest and judge -- fell backward off his seat and died on hearing that the ark was taken (4:17-18). At that same moment, Phinehas's wife, far along in pregnancy, went into labor from the shock. As she was dying, the women attending her tried to comfort her: \"Do not be afraid, for you have given birth to a son.\" But she did not answer or pay attention. She named the boy Ichabod, saying, \"The glory has departed from Israel,\" because of the capture of the ark and the deaths of her father-in-law and husband -- then repeated it once more before she died: \"The glory has departed from Israel, for the ark of God was taken\" (4:19-22). Ichabod himself never speaks or acts again in Scripture; his name alone stands as a permanent, grieving verdict on a corrupt priesthood and a nation that had begun to treat God's presence carelessly.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "phinehas-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

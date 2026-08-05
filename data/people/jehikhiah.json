@@ -2,17 +2,46 @@
   "person_id": "jehikhiah",
   "name": "Jehikhiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Ephraim"
+  ],
   "references": [
     "2 Chronicles 28:12"
   ],
   "first_reference": "2 Chronicles 28:12",
+  "topics": [
+    "mercy to captives",
+    "prophetic rebuke",
+    "compassion"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of four Ephraimite tribal leaders who, moved by the prophet Oded's rebuke, insisted that Israel's army release the Judean captives taken in battle and personally clothed and fed them rather than allow them to be enslaved.",
+  "family_friendly_summary": "Jehikhiah was a leader from the tribe of Ephraim, in the northern kingdom of Israel. After Israel's army won a battle against Judah and marched home with many prisoners, the prophet Oded warned the soldiers that enslaving their own relatives would bring God's anger on them. Jehikhiah and three other Ephraimite leaders agreed. They stood up to the returning army and refused to let the captives be treated as slaves. Then they went further: they gave the prisoners clothes and sandals, fed them, gave them something to drink, cared for the weak by letting them ride donkeys, and safely brought them home to Jericho.",
+  "adult_story": "Jehikhiah appears once in Scripture, during the reign of Ahaz of Judah, at a moment when the northern kingdom of Israel had just won a bloody victory over Judah and marched thousands of Judean women and children north as captives (2 Chronicles 28:5-8). The prophet Oded met the returning army at Samaria's border and rebuked them sharply: their own sins made them in no position to enslave their kinsmen, and doing so would only add fresh guilt before the LORD (28:9-11). Jehikhiah, identified as the son of Shallum and one of the heads of the tribe of Ephraim, joined three other leaders -- Azariah, Berechiah, and Amasa -- in standing up against the soldiers returning from battle, insisting that the captives not be brought in as slaves (28:12-13). Their intervention succeeded: the soldiers left the prisoners and plunder before the officials and the assembly, and Jehikhiah and the others personally clothed the naked captives from the plunder, gave them sandals, fed and gave them drink, anointed the weak with oil, set them on donkeys, and escorted them all the way to Jericho, \"the city of palm trees,\" before returning home (28:14-15). It is a rare bright moment of mercy within the northern kingdom's otherwise grim history.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shallum-8",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

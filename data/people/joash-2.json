@@ -2,18 +2,47 @@
   "person_id": "joash-2",
   "name": "Joash",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Ramoth-gilead"
+  ],
   "references": [
     "1 Kings 22:26",
     "2 Chronicles 18:25"
   ],
   "first_reference": "1 Kings 22:26",
+  "topics": [
+    "true vs. false prophecy",
+    "royal power",
+    "suppressing God's word"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Joash, a son of King Ahab of Israel, was commanded by his father to imprison the prophet Micaiah on meager rations after Micaiah's true but unwelcome prophecy of Ahab's death, spoken against the flattering lies of 400 court prophets.",
+  "family_friendly_summary": "Joash was one of King Ahab's sons. Before a big battle, Ahab gathered 400 prophets who all told him exactly what he wanted to hear -- that he would win. But a true prophet named Micaiah warned that God had shown him Israel's army scattered and Ahab defeated. Ahab didn't want to hear that, so he ordered his son Joash and a city official named Amon to lock Micaiah in prison and give him just bread and water until Ahab returned safely from battle. Micaiah bravely stood by what God had shown him anyway. Joash's part in the story shows how easy it is for those in power to silence an uncomfortable truth instead of listening to it.",
+  "adult_story": "Joash, a son of King Ahab of Israel, appears in one of Scripture's sharpest confrontations between true and false prophecy (1 Kings 22; 2 Chronicles 18). Before marching to war against Aram at Ramoth-gilead, Ahab summoned 400 prophets who unanimously promised victory. Suspicious of their unanimity, Jehoshaphat of Judah asked whether a prophet of the LORD was available, and Ahab reluctantly sent for Micaiah son of Imlah, admitting, \"I hate him, because he does not prophesy good concerning me, but evil\" (1 Kings 22:8). Micaiah first mocked Ahab with sarcastic agreement, then, pressed for the truth, described a vision of Israel scattered like sheep without a shepherd and revealed that a deceiving spirit had filled the mouths of Ahab's yes-men prophets to lure him to his death (22:17-23). Enraged, Ahab ordered, \"Put this man in prison and feed him sparingly with bread and water until I return safely\" (22:27) -- and it was Joash, the king's own son, along with the city official Amon, who was given custody of the imprisoned prophet. Micaiah's parting words were a challenge to every future reader: \"If you indeed return safely, the LORD has not spoken by me\" (22:28). Ahab did not return safely; he died in that battle, struck by a random arrow, just as Micaiah foretold. Joash's brief role -- carrying out his father's order to silence an inconvenient true word from God -- stands as a quiet warning about power used to suppress truth rather than heed it.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "ahab",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

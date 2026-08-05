@@ -2,18 +2,46 @@
   "person_id": "jason",
   "name": "Jason",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Thessalonica"
+  ],
   "references": [
     "Acts 17:5-9",
     "Romans 16:21"
   ],
   "first_reference": "Acts 17:5-9",
+  "topics": [
+    "hosting the gospel",
+    "costly hospitality",
+    "false accusation"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A believer in Thessalonica who hosted Paul and Silas in his home during their missionary preaching; when a mob failed to find them, they dragged Jason before the city authorities on a trumped-up political charge, and he was released only after posting a pledge or bond.",
+  "family_friendly_summary": "Jason lived in the city of Thessalonica and opened his home to Paul and Silas while they were preaching about Jesus there. Not everyone welcomed the message -- some jealous men in the city stirred up a mob and attacked Jason's house, hoping to drag Paul and Silas out to face the crowd. When they couldn't find Paul and Silas, they grabbed Jason and some other believers instead and hauled them before the city officials, falsely accusing them of acting against Rome by saying Jesus was king. Jason had to pay money or make a promise to the officials before he was allowed to go free. Paul later calls a man named Jason his \"kinsman\" in one of his letters, who may be this same believer.",
+  "adult_story": "Jason hosted Paul and Silas in his home in Thessalonica during their mission there, at a time when Paul was reasoning from the Scriptures in the synagogue for three Sabbaths that Jesus was the Christ (Acts 17:1-4). Some Jews, jealous of the response Paul and Silas were getting, formed a mob \"from the market place\" and \"set the city in an uproar,\" attacking Jason's house in an attempt to drag the missionaries out before the assembly (17:5). Not finding Paul and Silas there, the mob seized Jason and some other believers instead and hauled them before the city authorities, shouting a politically dangerous accusation: \"These men who have upset the world have come here also... they all act contrary to the decrees of Caesar, saying that there is another king, Jesus\" (17:6-7) -- a charge that could have meant serious trouble for Jason under Roman law. The city officials, disturbed, made Jason and the others post a bond or pledge of security before releasing them (17:8-9), likely a guarantee that Paul and Silas would leave the city -- which they promptly did that same night (17:10). Paul may refer to this same man in Romans 16:21, sending greetings from \"Jason my kinsman,\" a believer who risked real legal and financial exposure simply for opening his home to the gospel.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,14 +2,36 @@
   "person_id": "joash",
   "name": "Joash",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Ophrah"
+  ],
   "references": [
     "Judges 6:11-31",
     "Judges 7:14",
     "Judges 8:13-32"
   ],
   "first_reference": "Judges 6:11-31",
+  "topics": [
+    "defending a son from a mob",
+    "confronting idolatry"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "An Abiezrite of Ophrah and father of the judge Gideon, Joash owned the altar of Baal that Gideon tore down at God's command, and when the townspeople demanded Gideon's death for it, Joash publicly defended his son and gave him the name Jerubbaal.",
+  "family_friendly_summary": "Joash was the father of Gideon, one of Israel's judges. Joash owned an altar to the false god Baal, and one night God told Gideon to tear it down and build an altar to the true God instead. When the men of the town found out, they were furious and wanted to kill Gideon. But Joash stood up for his son with clever words: he said that if Baal were really a god, Baal could defend himself. The crowd backed down, and Gideon was even given a new name, Jerubbaal, meaning \"let Baal contend.\" Joash's courage to speak up protected his son and helped Israel see that idols have no power at all.",
+  "adult_story": "Joash was an Abiezrite of the tribe of Manasseh, living in Ophrah, and the father of Gideon. He owned an altar to Baal and an Asherah pole beside it (Judges 6:25) -- household idolatry Gideon grew up under during Israel's long slide into apostasy in the days of the judges. When the angel of the LORD commissioned Gideon to deliver Israel from Midian, the first assignment was closer to home: tear down his father's altar to Baal and the Asherah beside it, and build an altar to the LORD in its place, using the wood of the Asherah for the sacrifice (6:25-27). Gideon obeyed at night, fearing his family and the townspeople. When the men of the city discovered it in the morning, they demanded Joash hand his son over to be killed (6:28-30). Joash's response is the episode's turning point: \"Will you contend for Baal, or will you deliver him? ... If he is a god, let him contend for himself, because someone has torn down his altar\" (6:31). The crowd relented, and Gideon was called Jerubbaal, \"let Baal contend against him,\" from that day (6:32). Joash's sharp, faithless-shaming logic -- let the god defend himself if he can -- both saved his son's life and publicly exposed Baal's powerlessness before Gideon's God-given deliverance of Israel began.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -17,6 +39,11 @@
     "children": [
       "gideon"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

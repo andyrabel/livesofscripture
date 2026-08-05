@@ -2,18 +2,47 @@
   "person_id": "rufus",
   "name": "Rufus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Rome"
+  ],
   "references": [
     "Mark 15:21",
     "Romans 16:13"
   ],
   "first_reference": "Mark 15:21",
+  "topics": [
+    "personal commendation",
+    "family faithfulness"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Many identify the Rufus greeted in Romans 16:13 with the son of Simon of Cyrene named in Mark 15:21 -- same name, same era, and Mark's Gospel (widely linked to the Roman church) names him as if its readers would recognize him. Scripture does not state outright that they are the same man, so this identification, while plausible, is not certain.",
+  "source_summary": "A believer in Rome whom Paul greets by name as \"a choice man in the Lord,\" commonly identified with the son of Simon of Cyrene, the man compelled to carry Jesus's cross.",
+  "family_friendly_summary": "Rufus was a Christian in the city of Rome. We don't know a lot about him, but the apostle Paul thought enough of him to send a special greeting in his letter to the Roman church, calling him \"a choice man in the Lord\" -- someone whose faith and character stood out. Paul also sent greetings to Rufus's mother, saying she had been like a mother to him too. Many believe this Rufus was the son of Simon of Cyrene, the man who was made to carry Jesus's cross to Calvary -- though the Bible doesn't say this for certain.",
+  "adult_story": "Rufus appears by name only once with any description: in Paul's long list of personal greetings closing his letter to the Romans, he writes, \"Greet Rufus, a choice man in the Lord, also his mother and mine\" (Romans 16:13). The commendation is brief but personal -- Paul singles him out from the many names in that chapter for a specific compliment on his character, and adds the striking detail that Rufus's mother had, at some point, cared for Paul as her own son. Many readers connect this Rufus to the son of Simon of Cyrene, the man Roman soldiers forced to carry Jesus's cross to Golgotha: Mark's Gospel names Simon's sons, Alexander and Rufus, as if its original readers -- likely a Roman congregation -- would recognize them (Mark 15:21). If the identification holds, it means a family swept into Jesus's crucifixion by force became, within a generation, a household Paul knew and loved in the Roman church -- an ordinary family transformed by standing unexpectedly close to the cross.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "simon-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

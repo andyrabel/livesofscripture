@@ -2,17 +2,45 @@
   "person_id": "shabbethai",
   "name": "Shabbethai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 10:15"
   ],
   "first_reference": "Ezra 10:15",
+  "topics": [
+    "post-exilic reform",
+    "mixed marriages controversy"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Ezra 10:15's Hebrew is notoriously difficult, and translations differ on whether Shabbethai and Meshullam opposed the assembly's plan to have Israelite men separate from their foreign wives, or instead were appointed to help administer and carry out that process. Scripture's wording alone does not settle which role Shabbethai actually held.",
+  "source_summary": "A Levite named in connection with the tense post-exilic controversy over Israelite men who had married foreign wives, though the text is disputed as to whether he opposed or helped administer the assembly's response.",
+  "family_friendly_summary": "After the Jewish people returned from exile in Babylon, Ezra the priest discovered that many of the men had married wives from nations that worshiped other gods, which put their faithfulness to the one true God at risk. The whole community gathered to figure out what to do about it, and a Levite named Shabbethai is mentioned by name as being involved in that difficult, emotional discussion. The Bible's wording here is hard to translate exactly, so we aren't completely sure whether Shabbethai supported the community's decision or pushed back against it.",
+  "adult_story": "After Ezra confronted the returned exiles with the sobering discovery that many Israelite men, including priests and Levites, had married foreign wives who worshiped other gods, the whole assembly gathered in Jerusalem in distress and grief to decide how to respond (Ezra 10:1-14). In the account of that meeting, Shabbethai the Levite is named alongside Meshullam in connection with Jonathan son of Asahel and Jahzeiah son of Tikvah: \"Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this, and Meshullam and Shabbethai the Levite supported them\" (Ezra 10:15). The Hebrew here is genuinely difficult, and some translations instead read the four men as being appointed to oversee the difficult process of resolving the marriages, rather than opposing it. Either way, Shabbethai is placed at the center of one of the rawest, most painful reform efforts in Israel's post-exilic story.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

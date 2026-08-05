@@ -2,18 +2,48 @@
   "person_id": "salome",
   "name": "Salome",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee",
+    "Jerusalem"
+  ],
   "references": [
     "Mark 15:40",
     "Mark 16:1"
   ],
   "first_reference": "Mark 15:40",
+  "topics": [
+    "devotion at the cross",
+    "witness to the empty tomb",
+    "quiet faithfulness"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Salome is widely, though not certainly, identified as the mother of James and John (the sons of Zebedee), by comparing Mark 15:40 with Matthew 27:56's parallel list. Some also identify her as the sister of Jesus's mother mentioned in John 19:25, which would make her Jesus's aunt -- Scripture does not state either identification directly.",
+  "source_summary": "One of the women who followed Jesus and provided for Him in Galilee, watched His crucifixion from a distance, and came to His tomb with spices on the first Easter morning.",
+  "family_friendly_summary": "Salome was one of a group of women who followed Jesus and helped support His ministry. When Jesus was crucified, Salome didn't run away -- she stayed nearby, watching from a distance along with other women, even though it must have been terrifying and heartbreaking. Early on the morning after the Sabbath, Salome was one of the women who went to Jesus's tomb, carrying spices to anoint His body, only to discover that He had risen from the dead. Salome's quiet faithfulness -- staying close to Jesus in His darkest hour and showing up at the tomb -- made her one of the first witnesses to the resurrection.",
+  "adult_story": "Salome is named twice in Mark's Gospel, both times among a small group of women who stayed near Jesus in His final hours. At the crucifixion, Mark records that \"there were also women looking on from a distance, among whom were Mary Magdalene, and Mary the mother of James the less and Joses, and Salome\" -- women who had followed and ministered to Jesus back in Galilee and had come with Him to Jerusalem (Mark 15:40-41). Unlike the male disciples, who scattered, these women remained visible witnesses to the crucifixion, even from a distance. Very early on the first day of the week, Salome was one of the women who bought spices and went to the tomb to anoint Jesus's body, only to find the stone rolled away and to hear the angel's announcement that He had risen (Mark 16:1-6). Salome is often identified with the mother of James and John who elsewhere asks Jesus for places of honor for her sons (Matthew 20:20-23) -- if so, her steady presence at the cross and tomb stands in quiet contrast to that earlier request for status, showing a faith that outlasted ambition.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

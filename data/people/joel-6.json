@@ -2,19 +2,47 @@
   "person_id": "joel-6",
   "name": "Joel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 15:7-11",
     "1 Chronicles 23:8",
     "1 Chronicles 26:22"
   ],
   "first_reference": "1 Chronicles 15:7-11",
+  "topics": [
+    "the ark of the covenant",
+    "levitical service",
+    "temple treasuries"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Joel, a Gershonite Levite chief, was one of the Levitical leaders David summoned to consecrate themselves and see that the ark of the covenant was carried to Jerusalem in the proper, God-ordained way; he and his brother Zetham later oversaw the treasuries of the house of the LORD.",
+  "family_friendly_summary": "Joel was a leader among the Levites, the tribe of priests and temple helpers, during the time of King David. When David decided to bring the ark of the covenant -- the sacred box representing God's presence -- to Jerusalem, he called together Joel and other Levite family leaders to prepare themselves properly and organize the many workers needed to carry it the right way, as God had commanded. Later, Joel and his brother Zetham were given an important trust: they were put in charge of guarding the treasures kept in the house of the LORD. Joel's story shows how faithful behind-the-scenes service -- organizing, preparing, and guarding what belongs to God -- matters just as much as more famous, dramatic acts.",
+  "adult_story": "Joel was a chief among the Gershonite Levites during King David's reign. When David resolved to bring the ark of the covenant to Jerusalem -- determined this time to do it God's way after the earlier, disastrous attempt that cost Uzzah his life (1 Chronicles 13; 15:1-2) -- he summoned the heads of the Levitical families, including Joel, and charged them: \"You are the heads of the fathers' households of the Levites; consecrate yourselves, both you and your relatives, that you may bring up the ark of the LORD God of Israel to the place that I have prepared for it\" (15:12). Joel, identified as chief of the Gershonites with 130 relatives under him, was one of those summoned by name along with Zadok and Abiathar the priests and the other Levite chiefs to see that the ark was carried by Levites on their shoulders with poles, exactly as the Law commanded, rather than on a cart as before (15:7-15). Joel later appears again among the sons of Ladan the Gershonite (23:8), and, together with his brother Zetham, was entrusted with charge of the treasuries of the house of the LORD -- the sacred gifts and dedicated wealth stored for the temple's future construction and service (26:20-22). Joel's account, spread across three brief mentions, is a portrait of sustained, unglamorous faithfulness: consecrated service in a pivotal act of worship, then decades of trusted stewardship over what belonged to God.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehiel",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

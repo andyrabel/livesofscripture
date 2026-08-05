@@ -2,8 +2,12 @@
   "person_id": "shem",
   "name": "Shem",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Primeval History",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "Genesis 5:32",
     "Genesis 6:10",
@@ -15,6 +19,23 @@
     "Luke 3:36"
   ],
   "first_reference": "Genesis 5:32",
+  "topics": [
+    "Noah's family",
+    "the blessing of Shem",
+    "ancestor of the Semitic peoples",
+    "the line to Abraham"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Noah's son who covered his father's nakedness after Noah's drunkenness rather than shaming him, and was blessed as a result; ancestor of the Semitic peoples and, through the genealogies, of Abraham and ultimately Christ.",
+  "family_friendly_summary": "Shem was one of Noah's three sons who survived the flood together with their wives. After the flood, Noah planted a vineyard, drank too much wine, and ended up uncovered in his tent. When Shem found out, he and his brother Japheth walked in backward, carrying a garment between them, and covered their father without looking at him -- treating him with respect even in an embarrassing moment. Because of this, Noah blessed Shem in a special way, honoring the LORD as \"the God of Shem.\" Shem's family line, listed in Genesis, leads all the way to Abraham -- and through Abraham's family, eventually to Jesus. Shem is remembered as the ancestor of the Semitic peoples, including Israel.",
+  "adult_story": "Shem was a son of Noah named first in most genealogical lists, though not necessarily Noah's eldest (Genesis 5:32; 9:24; 10:21). He, his wife, and his brothers Ham and Japheth with their wives were among the eight people who survived the flood in the ark (Genesis 7:13). Afterward, Noah planted a vineyard, drank its wine, and lay uncovered and drunk inside his tent. Ham saw his father's nakedness and told his brothers outside rather than covering him; Shem and Japheth instead took a garment, walked in backward, and covered Noah without looking at him (9:20-23). When Noah awoke and learned what had happened, he cursed Ham's son Canaan but blessed Shem directly: \"Blessed be the LORD, the God of Shem\" (9:26) -- language distinct from the blessing given to Japheth, singling out Shem's line as the one through whom the LORD would particularly be known. Genesis 10 traces Shem's descendants -- Elam, Asshur, Arpachshad, Lud, and Aram -- as ancestors of many peoples of the ancient Near East, and Genesis 11's genealogy narrows that line specifically through Arpachshad to Terah, father of Abram (11:10-26). Through this line Shem stands as an ancestor not only of Israel but, ultimately, through Abraham's family, of the Messiah himself.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "noah",
     "mother": null,
@@ -26,6 +47,11 @@
       "elam",
       "lud-2"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

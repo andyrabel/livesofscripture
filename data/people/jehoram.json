@@ -4,8 +4,17 @@
   "alt_names": [
     "Joram"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Judah",
+    "Edom"
+  ],
   "references": [
     "1 Kings 22:50",
     "2 Kings 1:17",
@@ -19,6 +28,22 @@
     "Matthew 1:8"
   ],
   "first_reference": "1 Kings 22:50",
+  "topics": [
+    "idolatry",
+    "fratricide",
+    "divine judgment"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Judah who murdered his own brothers upon taking the throne, married Ahab's daughter Athaliah and adopted Israel's idolatry under her influence, received a written prophecy of judgment from Elijah, and died of a horrific, prolonged intestinal disease, unlamented and denied burial among the kings.",
+  "family_friendly_summary": "Jehoram became king of Judah after his father Jehoshaphat died. One of the first things he did as king was have all his own brothers killed so no one could challenge him. He married Athaliah, the daughter of wicked King Ahab of Israel, and she influenced him to worship false gods instead of the true God. Under his rule, Judah turned away from the Lord, and nearby nations like Edom rebelled against him. The prophet Elijah sent Jehoram a letter warning him of God's coming judgment. Jehoram later became very sick with a terrible, lasting illness and died in great pain -- and, unlike other kings, no one mourned him.",
+  "adult_story": "Jehoram, son of Jehoshaphat, began his reign over Judah the way he meant to continue it: by killing all his brothers and some of Judah's officials as soon as he had secured the throne (2 Chronicles 21:1-4). He married Athaliah, daughter of Ahab and Jezebel, and under her influence \"walked in the way of the kings of Israel, just as the house of Ahab had done... and did evil in the sight of the LORD\" (21:6). During his reign Edom revolted from Judah's control and set up its own king, and Libnah revolted as well (21:8-10). The prophet Elijah sent him a written message pronouncing God's judgment: because he had led Judah and Jerusalem into idolatry and murdered brothers better than himself, the LORD would strike his people, his wives, his children, and his own body with serious disease (21:12-15). Philistine and Arab raiders soon carried off his wives and sons, sparing only the youngest, Ahaziah (21:16-17; 22:1). Then the LORD struck him with an incurable intestinal disease; he suffered for two full years until his intestines came out because of the illness, and he died in great pain (21:18-19). Judah did not honor him at his death -- no funeral fire was made for him as for his fathers, and he was buried apart from the tombs of the kings (21:19-20).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoshaphat-3",
     "mother": null,
@@ -29,6 +54,11 @@
       "ahaziah-2",
       "jehosheba"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

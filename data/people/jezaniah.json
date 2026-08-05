@@ -4,19 +4,47 @@
   "alt_names": [
     "Jaazaniah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Mizpah"
+  ],
   "references": [
     "2 Kings 25:23",
     "Jeremiah 40:8",
     "Jeremiah 42:1"
   ],
   "first_reference": "2 Kings 25:23",
+  "topics": [
+    "seeking God's guidance",
+    "national crisis",
+    "submission to authority"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Judean military commander who submitted to the Babylonian-appointed governor Gedaliah after Jerusalem's fall, and later joined the group of leaders who asked the prophet Jeremiah for guidance about what to do next.",
+  "family_friendly_summary": "After the Babylonians destroyed Jerusalem and took many people away, a governor named Gedaliah was left in charge of those who remained. Jezaniah was one of the army commanders who came and pledged loyalty to Gedaliah at a town called Mizpah instead of continuing to fight. Later, when the people were frightened and unsure what to do next, Jezaniah was one of the leaders who helped bring everyone together to ask the prophet Jeremiah to pray and find out what God wanted them to do. It's a picture of people in a hard, uncertain moment turning to God's prophet for direction.",
+  "adult_story": "After Jerusalem fell to Babylon, the Babylonians appointed Gedaliah governor over the Judeans left in the land and set his headquarters at Mizpah. Jezaniah, son of Hoshaiah, was one of the army commanders still in the field who came to Gedaliah there and submitted to Babylonian rule rather than continuing armed resistance (2 Kings 25:23; Jeremiah 40:8). This was a real, if uneasy, choice -- accepting a foreign-appointed governor over a shattered nation, in the shadow of men like Ishmael son of Nethaniah, who would soon assassinate Gedaliah rather than accept it. After that assassination threw the remaining community into fear of Babylonian reprisal, Jezaniah is named again among \"all the commanders of the forces\" and \"all the people from the least to the greatest\" who came to the prophet Jeremiah asking him to pray to the LORD and reveal \"the way in which we should walk and the thing that we should do\" (Jeremiah 42:1-3). It is a moment of a nation at its lowest, genuinely seeking God's direction through His prophet rather than acting purely on fear. Jezaniah's brief appearances trace real decisions made under real pressure -- submission to Babylon, then a plea for divine guidance -- in the chaotic months after Jerusalem's destruction, without Scripture telling us more about how his own story ended.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "hoshaiah-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

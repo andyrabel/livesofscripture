@@ -2,17 +2,46 @@
   "person_id": "hiram-2",
   "name": "Hiram",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Tyre",
+    "Jerusalem"
+  ],
   "references": [
     "1 Kings 7:13-45"
   ],
   "first_reference": "1 Kings 7:13-45",
+  "topics": [
+    "craftsmanship",
+    "temple construction",
+    "skilled work for God's house"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A bronze craftsman from Tyre, son of a widow of the tribe of Naphtali and a Tyrian father, whom Solomon brought to Jerusalem to cast the temple's bronze pillars, the great basin called the sea, and its other bronze furnishings.",
+  "family_friendly_summary": "Hiram was a skilled craftsman from the city of Tyre. His mother was from the tribe of Naphtali in Israel, and his father, who had died, had been a bronze worker from Tyre. Hiram learned the same trade and became known for his skill in bronze work. When King Solomon built the Temple in Jerusalem, he sent for Hiram to come and make many of its most important furnishings: two huge bronze pillars for the entrance, a massive bronze basin called \"the sea,\" and dozens of stands, bowls, and tools used in worship. The Bible lists his work in careful detail, showing that God cares about excellence in the things made for His house, and that skilled craftsmanship is itself a gift worth honoring.",
+  "adult_story": "Hiram (called Huram-abi in Chronicles' parallel account) was a bronze craftsman from Tyre, the son of a widow from the tribe of Naphtali and a now-deceased Tyrian bronze worker (1 Kings 7:13-14). Filled, Scripture says, \"with wisdom and understanding and skill for doing any work in bronze,\" he came to Jerusalem at Solomon's summons to cast the temple's major bronze furnishings (7:14). His work is catalogued at length: two free-standing pillars, Jachin and Boaz, each with ornate capitals of network and pomegranates (7:15-22); the enormous cast \"sea,\" a round basin resting on twelve bronze oxen, used for priestly washing (7:23-26); ten portable stands with wheeled bronze bases and their basins (7:27-39); and pots, shovels, and sprinkling bowls for the altar (7:40-45). The text notes he \"finished all the work that he performed for King Solomon in the house of the LORD\" (7:40), and that the sheer quantity of bronze used was too great to weigh (7:47). Hiram is not a prophet, king, or judge -- he appears only as a master craftsman, but Scripture devotes an entire chapter to his handiwork, treating skilled labor devoted to God's house as worth recording in detail. His work furnished the temple where Israel's sacrifices and worship of the LORD took place for centuries, until its destruction by Babylon.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,8 +2,16 @@
   "person_id": "og",
   "name": "Og",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "moab-transjordan",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Bashan"
+  ],
   "references": [
     "Numbers 21:33",
     "Numbers 32:33",
@@ -22,11 +30,32 @@
     "Psalms 136:20"
   ],
   "first_reference": "Numbers 21:33",
+  "topics": [
+    "conquest of the Transjordan",
+    "the Rephaim/giants",
+    "God's power over enemies"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The giant king of Bashan, described as the last survivor of the Rephaim, defeated by Israel along with his entire kingdom during the conquest of the Transjordan under Moses.",
+  "family_friendly_summary": "Og was a powerful king who ruled the land of Bashan, east of the Jordan River. The Bible describes him as very large -- he was remembered as the last of a race of unusually tall people called the Rephaim, and his iron bed was famous for being enormous. When Israel traveled through his territory on the way to the Promised Land, Og came out to fight them with his whole army. But God gave Israel the victory, and Og and his people were defeated. His land was later given to the tribe of Manasseh. Moses later reminded the Israelites of this victory as proof that God fights for His people, no matter how strong the enemy looks.",
+  "adult_story": "Og, king of Bashan, ruled sixty fortified cities east of the Jordan River when Israel approached his territory near the end of the wilderness years. Scripture identifies him as the last remaining member of the Rephaim, a people remembered for great size and strength; his iron bed -- preserved as a curiosity in Rabbah of the Ammonites -- measured about thirteen and a half feet long and six feet wide by common cubit reckoning (Deuteronomy 3:11). Like Sihon king of the Amorites before him, Og marched out with his army to confront Israel at Edrei rather than let them pass peacefully. The LORD told Moses not to fear him: \"I have given him into your hand, and all his people and his land\" (Numbers 21:34). Israel struck down Og, his sons, and all his people, leaving no survivor, and took possession of Bashan, later dividing it as inheritance for the half-tribe of Manasseh (Numbers 21:35; Deuteronomy 3:1-13). Og's defeat became one of Israel's touchstone memories of God's power over seemingly unbeatable enemies -- invoked repeatedly afterward alongside Sihon's defeat in Israel's historical recitations and worship (Deuteronomy 29:7; Joshua 2:10; 1 Kings 4:19; Psalm 135:11; 136:20), a recurring reminder that no giant king could stand against the LORD fighting for His people.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,44 @@
   "person_id": "jonathan-9",
   "name": "Jonathan",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 10:15"
   ],
   "first_reference": "Ezra 10:15",
+  "topics": [
+    "the foreign-wives crisis",
+    "dissent"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Ezra 10:15 is a well-known translation crux. Some translations (including NASB) render Jonathan and Jahzeiah as opposing Ezra's plan to investigate and dissolve the unlawful marriages to foreign women, while others (following a different reading of the Hebrew preposition) render them as being appointed to oversee the proceedings. Scripture does not resolve which reading is correct, so this entry notes both possibilities rather than choosing one as certain.",
+  "source_summary": "One of only four men named at a pivotal moment in Ezra's reforms after the exile, when the community moved to dissolve marriages to foreign women -- named either as an opponent of the plan or as one of the men appointed to oversee it, depending on how a disputed Hebrew phrase is translated.",
+  "family_friendly_summary": "After the Jewish people returned from exile in Babylon, the leader Ezra discovered that many people, including priests, had married women from nations that worshiped false gods, against God's command. Ezra called the whole community together to figure out what to do about it. Out of everyone gathered, the Bible names only four men in connection with what happened next: Jonathan, Jahzeiah, Meshullam, and Shabbethai. Bible translators aren't completely sure whether Jonathan and Jahzeiah spoke up against the plan to deal with the problem, or whether they were the ones chosen to help oversee it carefully. Either way, Jonathan stands out as one of just a few people named individually during this difficult moment for God's people.",
+  "adult_story": "Jonathan son of Asahel is named at a critical juncture in Ezra's reforms following the return from Babylonian exile. Ezra had discovered that many Israelites, including priests and Levites, had intermarried with the surrounding peoples in direct violation of God's command, endangering the community's covenant faithfulness (Ezra 9:1-2; 10:1-5). When the assembly agreed in principle to investigate and dissolve these marriages, Scripture singles out only four men by name in connection with the process: \"Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah opposed this, with Meshullam and Shabbethai the Levite supporting them\" (Ezra 10:15). The Hebrew wording here is genuinely ambiguous, and translations differ over whether Jonathan and Jahzeiah objected to the plan -- perhaps regarding it as too harsh, too slow, or procedurally flawed -- or were instead appointed to administer the case-by-case review that followed over the next three months (10:16-17). Either reading places Jonathan at the center of one of the most searching and painful reforms in postexilic Israel's history, a rare moment where a private individual's name and stance on a controversial covenant decision were thought significant enough to preserve, even though the text does not tell us more about him or his reasoning.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "asahel-4",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

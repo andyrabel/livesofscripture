@@ -2,8 +2,15 @@
   "person_id": "pharaoh-3",
   "name": "Pharaoh",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "Exodus 1:11-22",
     "Exodus 2:5-23",
@@ -11,11 +18,32 @@
     "Hebrews 11:24"
   ],
   "first_reference": "Exodus 1:11-22",
+  "topics": [
+    "oppression of Israel",
+    "infanticide",
+    "Moses' early life"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture does not name this Pharaoh, and evangelical scholars disagree on which historical Egyptian king he corresponds to, tied to the wider dispute between an early-date (c. 1446 BC) and late-date (c. 1250 BC) Exodus chronology. Exodus 2:23 records that this Pharaoh died and was succeeded by another king before Moses returned from Midian, distinguishing him from the Pharaoh of the plagues and the Exodus itself.",
+  "source_summary": "The Egyptian king who enslaved the Israelites, ordered Hebrew midwives to kill Hebrew baby boys and then commanded that every Hebrew son be thrown into the Nile, and who later sought to kill the adult Moses after he killed an Egyptian; he died before Moses returned to confront his successor.",
+  "family_friendly_summary": "This Pharaoh became worried because the Israelites living in Egypt had grown into a huge nation. Afraid they might become too powerful, he forced them into hard slave labor. When that didn't stop their growth, he gave a terrible order: Hebrew midwives were told to kill baby boys as they were born. The brave midwives refused, so Pharaoh commanded that every Hebrew baby boy be thrown into the Nile River. It was during this dangerous time that Moses was born, hidden, and then adopted by Pharaoh's own daughter. Years later, when adult Moses killed an Egyptian who was beating a Hebrew slave, this Pharaoh tried to have Moses killed, so Moses fled to Midian. This Pharaoh died before Moses returned to Egypt.",
+  "adult_story": "A new king arose in Egypt \"who did not know Joseph,\" alarmed that the enslaved Israelites had grown so numerous he feared they might side with an enemy in war (Exodus 1:8-10). He forced them into brutal labor building the store cities of Pithom and Rameses, but the harder Israel was oppressed, the more it multiplied (1:11-14). When that failed, he ordered the Hebrew midwives Shiphrah and Puah to kill every Hebrew son at birth; they feared God and refused, so Pharaoh escalated the order to his own people: every Hebrew son was to be thrown into the Nile (1:15-22). It was into this danger that Moses was born, hidden three months, then set adrift in a basket -- providentially found and raised by Pharaoh's own daughter (2:1-10). As an adult, Moses killed an Egyptian he saw beating a Hebrew slave; when Pharaoh heard of it, he sought to kill Moses, who fled to Midian (2:11-15; Acts 7:23-29). Hebrews 11:24-27 later commends Moses for refusing the privileges of being called \"the son of Pharaoh's daughter\" and for leaving Egypt \"not fearing the wrath of the king.\" This Pharaoh did not live to see Moses' return: \"the king of Egypt died\" while Moses was still in Midian, and a new Pharaoh took the throne (2:23) -- the one Moses and Aaron would confront over the ten plagues and Israel's release.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: king figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

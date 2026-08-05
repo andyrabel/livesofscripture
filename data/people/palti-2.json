@@ -4,13 +4,37 @@
   "alt_names": [
     "Paltiel"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gallim",
+    "Bahurim"
+  ],
   "references": [
     "1 Samuel 25:44",
     "2 Samuel 3:15"
   ],
   "first_reference": "1 Samuel 25:44",
+  "topics": [
+    "grief",
+    "royal politics",
+    "loss"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Saul gave his daughter Michal, David's wife, to Palti (also called Paltiel) son of Laish of Gallim after David fled Saul's court; when David later reclaimed Michal as he consolidated the kingship, Palti followed her weeping until Abner ordered him home.",
+  "family_friendly_summary": "After David had to flee from King Saul, Saul gave his daughter Michal -- David's wife -- to another man named Palti, son of Laish, from a town called Gallim. Years later, after Saul died and David became king, David asked for Michal to be returned to him, since she was still legally his wife. Palti had to let her go. The Bible tells us he was so sad about it that he walked behind her, crying, all the way to a town called Bahurim. Finally, one of David's commanders, Abner, told him to stop following and go home, and Palti obeyed. It's a small, sad story tucked inside the bigger story of David becoming king.",
+  "adult_story": "Palti son of Laish, of Gallim, also called Paltiel, enters Scripture only because of what was done to him. While David was a fugitive from Saul, Saul gave Michal -- David's wife, whom David had married after paying a bride-price of a hundred Philistine foreskins -- to Palti instead (1 Samuel 25:44), almost certainly to sever any dynastic claim David held through her. Years later, after Saul's death, David was consolidating his claim to the throne and demanded Michal back from Ish-bosheth as a condition of Abner's defection, asserting his prior right to her (2 Samuel 3:13-14). Ish-bosheth had her taken from Paltiel. Scripture records one detail about him with unusual tenderness: \"her husband went with her, weeping as he went, and followed her to Bahurim\" (3:16). Only when Abner ordered him, \"Go, return,\" did Paltiel turn back. Nothing else is said of him -- no words of his own are recorded, only his grief. He is a minor casualty of the political maneuvering between Saul's collapsing house and David's rising one, a reminder that the human cost of royal power struggles often falls on people Scripture otherwise never mentions.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -18,6 +42,11 @@
       "michal"
     ],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,45 @@
   "person_id": "jerahmeel-3",
   "name": "Jerahmeel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 36:26"
   ],
   "first_reference": "Jeremiah 36:26",
+  "topics": [
+    "opposition to God's word",
+    "royal command",
+    "God's protection of His prophets"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jeremiah 36:26 calls him \"the king's son\" (ben-hammelekh), which many scholars take as a royal court title or office rather than a claim that he was literally Jehoiakim's son, especially since he is listed alongside two other officials identified by patronymics; Scripture does not clarify which is meant.",
+  "source_summary": "A royal official, called \"the king's son,\" whom King Jehoiakim commanded to arrest the prophet Jeremiah and his scribe Baruch after the king burned Jeremiah's scroll, but the LORD hid them.",
+  "family_friendly_summary": "Jerahmeel worked for King Jehoiakim of Judah, a king who did not want to hear the hard warnings God sent through the prophet Jeremiah. When Jehoiakim heard Jeremiah's words read from a scroll, he became so angry that he cut the scroll apart and burned it in the fire. Then he ordered Jerahmeel, along with two other officials, to go arrest Jeremiah and his helper Baruch. But God protected His prophet -- when Jerahmeel and the others went looking for them, they could not find Jeremiah or Baruch, because the Lord had hidden them.",
+  "adult_story": "Jerahmeel is identified in Scripture as \"the king's son,\" one of three officials King Jehoiakim commanded to arrest Jeremiah the prophet and Baruch his scribe (Jeremiah 36:26). The order came at the climax of one of the Old Testament's most vivid confrontations between a king and God's word: Baruch had written down Jeremiah's prophecies on a scroll, and when it was read aloud to Jehoiakim in his winter house, the king responded not with repentance but with contempt -- as each section was read, he cut it off with a scribe's knife and threw it into the fire burning in the brazier before him, until the entire scroll was consumed, and neither he nor his attendants showed any fear (36:20-24). Some officials had urged him to stop, but he would not listen (36:25). His response to God's word being destroyed was to try to destroy God's messengers as well: he commanded Jerahmeel, along with Seraiah son of Azriel and Shelemiah son of Abdeel, to seize Jeremiah and Baruch (36:26). The attempt failed -- \"the LORD hid them\" (36:26) -- and Jeremiah promptly dictated the entire scroll again to Baruch, with additional words added besides, undoing the king's attempt to erase God's message (36:27-32).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoiakim",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

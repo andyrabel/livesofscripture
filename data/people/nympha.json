@@ -2,17 +2,46 @@
   "person_id": "nympha",
   "name": "Nympha",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Laodicea"
+  ],
   "references": [
     "Colossians 4:15"
   ],
   "first_reference": "Colossians 4:15",
+  "topics": [
+    "house churches",
+    "hospitality",
+    "early church in the Lycus Valley"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "The Greek text of Colossians 4:15 is ambiguous between a feminine name (Nympha, \"her house\") and a masculine one (Nymphas, \"his house\"); manuscripts and translations differ. This entry follows the feminine reading reflected in the dataset's gender field, but the underlying textual question is genuinely disputed among scholars.",
+  "source_summary": "A believer, likely in or near Laodicea, whose home hosted a house church that Paul greets in his letter to the Colossians -- one of several women in the New Testament known for opening her home to a congregation.",
+  "family_friendly_summary": "In the early church, there weren't special church buildings yet -- believers often met together to worship in people's homes. Nympha was a believer, probably living near the city of Laodicea, who opened her own house so a group of Christians could gather there to meet, pray, and learn together. When the apostle Paul wrote his letter to the church in nearby Colossae, he sent greetings to Nympha and to \"the church that meets in her house.\" Her simple act of hospitality gave an entire community of believers a place to belong.",
+  "adult_story": "Nympha is named only once in Scripture, in Paul's closing greetings to the Colossian church: \"Greet the brethren who are in Laodicea and also Nympha and the church that is in her house\" (Colossians 4:15). Laodicea and Colossae were neighboring cities in the Lycus Valley, and Paul's letter instructs that it be read aloud in both congregations, alongside a now-lost letter to Laodicea (4:16) -- placing Nympha's household church among a small network of early congregations Paul was directly shepherding by correspondence. Like Lydia in Philippi, Priscilla and Aquila in Rome and Ephesus, and Philemon in Colossae itself, Nympha represents the New Testament pattern of the early church meeting not in dedicated buildings but in believers' homes, with the homeowner's hospitality effectively sustaining a congregation's existence. The Greek text underlying \"her house\" is genuinely ambiguous in the manuscript tradition -- some manuscripts and translations read \"his house\" (as though the name were the masculine Nymphas) rather than \"her house,\" and this uncertainty is reflected across different English translations. Whichever the case, Scripture credits this single figure with providing a gathering place for a body of believers in the Lycus Valley, a quiet but essential form of ministry that the rest of the New Testament shows was common, valuable, and often carried out by women of means and faith.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

@@ -2,12 +2,36 @@
   "person_id": "hiel",
   "name": "Hiel",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jericho",
+    "Bethel"
+  ],
   "references": [
     "1 Kings 16:34"
   ],
   "first_reference": "1 Kings 16:34",
+  "topics": [
+    "fulfilled prophecy",
+    "consequences of disobedience",
+    "the cost of defying God's word"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Bethelite who rebuilt Jericho during Ahab's reign, losing his firstborn son Abiram when he laid its foundation and his youngest son Segub when he set up its gates, in exact fulfillment of the curse Joshua had pronounced on anyone who rebuilt the city (Joshua 6:26).",
+  "family_friendly_summary": "Long before, when Joshua and Israel first conquered the city of Jericho, Joshua said that anyone who tried to rebuild that city as a fortified city again would lose his firstborn and youngest sons for doing it. Many years later, during the time of wicked King Ahab, a man named Hiel decided to rebuild Jericho. Just as Joshua had warned so long before, Hiel lost his oldest son when he started laying the foundation, and lost his youngest son when he finished putting up the gates. The Bible tells this story as an exact fulfillment of God's word -- a sober reminder that what God says will happen, happens, even generations later.",
+  "adult_story": "Hiel the Bethelite rebuilt the city of Jericho during the reign of King Ahab of Israel, one of the most idolatrous kings in Israel's history (1 Kings 16:29-34). The single verse devoted to Hiel notes the cost with stark precision: \"he laid its foundations with the loss of Abiram his firstborn, and set up its gates with the loss of his youngest son Segub\" (16:34). The text explicitly ties this to the ancient curse Joshua pronounced roughly five centuries earlier, immediately after Jericho's miraculous fall: \"Cursed before the LORD is the man who rises up and builds this city Jericho; with the loss of his firstborn he shall lay its foundation, and with the loss of his youngest son he shall set up its gates\" (Joshua 6:26). Hiel's story is placed deliberately at the start of Ahab's reign, immediately before Elijah's ministry begins, as an editorial signal: \"according to the word of the LORD, which He spoke through Joshua the son of Nun\" (1 Kings 16:34). Scripture gives no explanation of Hiel's motives -- whether he acted in defiant unbelief, simple ignorance of the old curse, or reckless ambition to fortify a strategic city under a king who tolerated no shortage of presumption toward the LORD. What it emphasizes instead is the precision of fulfillment: an oath spoken generations earlier, in the very generation Israel's unfaithfulness reached a new low under Ahab, came due exactly as declared, at the cost of two sons.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -16,6 +40,11 @@
       "abiram-2",
       "segub"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

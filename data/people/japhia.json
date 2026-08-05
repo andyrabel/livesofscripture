@@ -2,18 +2,46 @@
   "person_id": "japhia",
   "name": "Japhia",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Lachish"
+  ],
   "references": [
     "Joshua 10:3-23",
     "Joshua 12:11"
   ],
   "first_reference": "Joshua 10:3-23",
+  "topics": [
+    "opposing God's people",
+    "divine judgment",
+    "Joshua's conquest"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Lachish and one of five Amorite kings who allied against Gibeon after it made peace with Israel; defeated by Joshua at Gibeon's plea, he hid with the other kings in a cave at Makkedah, was captured, and was executed by Joshua as a sign of God's judgment on Canaan.",
+  "family_friendly_summary": "Japhia was the king of a Canaanite city called Lachish. When the city of Gibeon made peace with Joshua and the Israelites, Japhia joined four other kings to attack Gibeon for switching sides. Gibeon asked Joshua for help, and God gave Israel a great victory, even sending huge hailstones to fight for them. Japhia and the other four kings hid in a cave, but Joshua's soldiers found them, and the kings were put to death for leading the attack against God's people. Japhia's story is part of the larger account of how God gave the land of Canaan to Israel under Joshua's leadership.",
+  "adult_story": "Japhia, king of Lachish, was one of five Amorite kings -- with Adoni-zedek of Jerusalem, Hoham of Hebron, Piram of Jarmuth, and Debir of Eglon -- who banded together to attack Gibeon after it made a peace treaty with Israel and Joshua (Joshua 10:1-5). Gibeon appealed to Joshua for help, and Joshua marched his army through the night to relieve the city; the LORD threw the enemy coalition into confusion, killed many with massive hailstones, and famously extended the daylight at Joshua's request so Israel could complete the rout: \"the sun stood still... there was no day like that before it or after it\" (10:12-14). Japhia and his four allied kings fled and hid in a cave at Makkedah. Joshua had the cave sealed until the battle was finished, then brought the five kings out, had his commanders symbolically place their feet on the kings' necks as a sign of coming victory over Canaan, and put all five to death, hanging their bodies on trees until evening before burying them in the same cave where they had hidden (10:16-27). Japhia's death is recorded again in the summary list of Canaanite kings Israel defeated (Joshua 12:11), part of Scripture's larger account of God's judgment executed on Canaan's kings through Joshua's conquest.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,45 @@
   "person_id": "jedaiah-6",
   "name": "Jedaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Zechariah 6:10-14"
   ],
   "first_reference": "Zechariah 6:10-14",
+  "topics": [
+    "symbol of the coming Branch",
+    "post-exile temple",
+    "gifts for God's house"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of a small group of returned exiles whose silver and gold, brought as an offering, the prophet Zechariah was told to use in making an elaborate crown -- placed on the head of Joshua the high priest as a prophetic sign pointing to the coming Messianic \"Branch.\"",
+  "family_friendly_summary": "After the Israelites returned from exile in Babylon, God gave the prophet Zechariah an unusual instruction. Jedaiah was one of a small group of returning exiles who had brought silver and gold with them. God told Zechariah to take some of that silver and gold from Jedaiah and two other men and use it to make an elaborate crown. Zechariah placed the crown on the head of Joshua, the high priest, as a living picture -- a sign pointing forward to someone the Bible calls \"the Branch,\" who would one day build the true temple of God and rule as both priest and king. Jedaiah's gift became part of that special prophecy.",
+  "adult_story": "When Zechariah prophesied to the returned exiles rebuilding Jerusalem, the LORD directed him to a specific, immediate task: \"Take an offering from the exiles, from Heldai, Tobijah, and Jedaiah, who have arrived from Babylon, and go the same day and enter the house of Josiah the son of Zephaniah\" (Zechariah 6:10). Jedaiah was one of these three named returnees whose silver and gold Zechariah was told to collect and use to make an elaborate crown (6:11). Rather than crowning a king, Zechariah placed the crown on the head of Joshua the high priest, and announced a prophecy: \"Behold, a man whose name is Branch... it is He who will build the temple of the LORD... and He will be a priest on His throne, and the counsel of peace will be between the two offices\" (6:12-13) -- a Messianic sign pointing forward to one who would unite the offices of priest and king. The crown was afterward to be kept in the temple \"as a memorial\" for Jedaiah and his companions, and Zechariah adds that people \"who are far off will come and build the temple of the LORD\" as confirmation of the prophecy's truth (6:14-15). Jedaiah's contribution was small -- silver and gold handed over for a single symbolic object -- but Scripture ties his name permanently to one of the Old Testament's clearest prophetic pictures of the coming Messiah.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,8 +2,15 @@
   "person_id": "heman-2",
   "name": "Heman",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 6:33",
     "1 Chronicles 15:17-19",
@@ -15,6 +22,22 @@
     "Psalms 88:0"
   ],
   "first_reference": "1 Chronicles 6:33",
+  "topics": [
+    "temple worship",
+    "music and psalmody",
+    "Levitical service"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Psalm 88's title credits \"Heman the Ezrahite,\" and some identify this Levitical musician as that psalmist. But \"Ezrahite\" traditionally denotes descent from Zerah, and a different Heman -- son of Zerah of Judah (1 Kings 4:31; 1 Chronicles 2:6) -- more naturally fits that title by lineage. Scripture does not state which Heman, if either, wrote Psalm 88.",
+  "source_summary": "A Kohathite Levite whom David appointed as one of three chief musicians over Israel's temple worship, leading song and cymbals before the ark and later at the dedication of Solomon's temple; sometimes, though disputed, identified with the \"Heman the Ezrahite\" credited in the title of Psalm 88.",
+  "family_friendly_summary": "Heman was a Levite -- a member of the tribe God set apart to serve in worship -- whom King David chose to help lead music in Israel's worship of the LORD. Along with two other men, Asaph and Jeduthun, Heman was put in charge of singing and playing instruments like cymbals whenever the people gathered to worship, including when the ark of the covenant was brought to Jerusalem and later when Solomon's temple was dedicated. Heman had many sons, and they served alongside him as musicians too. One of the songs in the book of Psalms, Psalm 88, is connected to a man named Heman, though it isn't certain this is the same one. Heman's whole life's work was helping God's people sing and worship well.",
+  "adult_story": "Heman was a Kohathite Levite, grandson of the prophet Samuel through his son Joel (1 Chronicles 6:33), whom David appointed as one of three chief musicians -- alongside Asaph and Jeduthun -- over the service of song before the ark once it was brought to Jerusalem (1 Chronicles 15:16-19; 16:41-42). Under David's later organization of temple worship, Heman's fourteen sons and three daughters were numbered among the trained musicians, and 1 Chronicles 25:5 calls Heman \"the king's seer in the words of God, to exalt his horn,\" crediting him with a role combining musical leadership with something like prophetic insight in composing for worship. His family's musical service continued into the next generation: Heman is named among those who ministered at Hezekiah's temple reforms (2 Chronicles 29:14) and at Josiah's Passover celebration (2 Chronicles 35:15). The title of Psalm 88 -- one of the Psalter's darkest laments, ending without resolution, \"darkness is my closest friend\" -- attributes the song to \"Heman the Ezrahite,\" though whether this is the same Heman or the distinct wise man of that name from Judah's tribe of Zerah is not settled by the text. Whatever the precise relationship, the Chronicler presents Heman's decades of appointed service as central, structural work in shaping how Israel worshiped God in song.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "joel",
     "mother": null,
@@ -35,6 +58,11 @@
       "shebuel-2",
       "uzziel-4"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -4,8 +4,16 @@
   "alt_names": [
     "Judas Iscariot"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Judea",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 10:4",
     "Matthew 26:14-49",
@@ -22,11 +30,33 @@
     "Acts 1:16-25"
   ],
   "first_reference": "Matthew 10:4",
+  "topics": [
+    "betrayal",
+    "greed",
+    "remorse without repentance",
+    "the twelve apostles"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Matthew 27:5 states Judas hanged himself, while Acts 1:18 describes him falling headlong so that his body burst open; most interpreters read these as complementary details of the same death (the means giving way after the hanging), while some scholars see them as differing traditions -- Scripture itself does not fully harmonize the two accounts.",
+  "source_summary": "One of the twelve apostles, entrusted with the disciples' money, who agreed to betray Jesus to the religious authorities for thirty pieces of silver, identified Him with a kiss in Gethsemane, and, overcome with remorse afterward, took his own life.",
+  "family_friendly_summary": "Judas Iscariot was one of Jesus' twelve apostles and was trusted to carry the money for the group. Even after walking with Jesus and seeing His miracles, Judas agreed to betray Him to the religious leaders who wanted Him arrested, in exchange for thirty pieces of silver. In the garden of Gethsemane, Judas identified Jesus to the soldiers with a kiss. Once Jesus was condemned, Judas was overcome with guilt, tried to return the money, and confessed that he had betrayed an innocent man -- but it was too late to undo what he had done. Overwhelmed by despair, Judas took his own life. His story is one of Scripture's saddest warnings about choosing sin over Christ.",
+  "adult_story": "Judas Iscariot, son of Simon Iscariot, was one of the twelve apostles and served as treasurer for Jesus' band of disciples, keeping the money box -- from which John says he used to steal (John 12:6). At Bethany, Judas objected to Mary's costly anointing of Jesus as wasteful, ostensibly for the poor but really, John notes, out of greed (12:4-6). Shortly after, Judas went to the chief priests and struck a deal to betray Jesus for thirty pieces of silver, then sought an opportunity to hand Him over (Matthew 26:14-16). At the Last Supper Jesus identified him as the betrayer, and Judas left into the night (John 13:21-30). In Gethsemane, Judas led an armed crowd to Jesus and identified Him with a kiss -- a gesture of intimacy turned into a signal for arrest (Matthew 26:47-49). Scripture attributes his act to both human choice and satanic influence: \"Satan entered into Judas\" (Luke 22:3), yet Judas is fully responsible, and Jesus calls him \"the son of perdition\" (John 17:12). Seeing Jesus condemned, Judas was seized with remorse, returned the silver to the priests declaring \"I have sinned by betraying innocent blood,\" and then hanged himself (Matthew 27:3-5); Acts adds that his body later fell and burst open in the field purchased with the money (Acts 1:18-19). His place among the Twelve was filled by casting lots (Acts 1:23-26). Judas's story stands as Scripture's starkest picture of proximity to Christ without saving faith.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "simon-iscariot",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

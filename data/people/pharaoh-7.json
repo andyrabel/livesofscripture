@@ -2,8 +2,16 @@
   "person_id": "pharaoh-7",
   "name": "Pharaoh",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt",
+    "Judah"
+  ],
   "references": [
     "Jeremiah 25:19",
     "Jeremiah 37:5-11",
@@ -18,11 +26,32 @@
     "Ezekiel 32:2-32"
   ],
   "first_reference": "Jeremiah 25:19",
+  "topics": [
+    "prophetic judgment",
+    "Egypt's downfall",
+    "false alliances"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "This entry bundles prophetic material naming or addressing at least two distinct historical pharaohs under one generic \"Pharaoh\" label. Jeremiah 46:17-25 closes an oracle explicitly directed against Pharaoh Neco, defeated by Nebuchadnezzar at Carchemish (Jeremiah 46:1-2, during Jehoiakim's reign, c. 605 BC). Jeremiah 44:30 names a different king, Pharaoh Hophra, decades later during and after Jerusalem's fall (c. 588 BC), and the oracles in Jeremiah 37:5-11 and 43:9 belong to that same later period. Ezekiel's oracles against Pharaoh (chapters 29-32) do not name him but are usually dated to Hophra's reign as well. Scripture's own text distinguishes Neco by name from the later, unnamed pharaoh(s) addressed elsewhere in this cluster of oracles.",
+  "source_summary": "A cluster of prophetic oracles in Jeremiah and Ezekiel pronouncing God's judgment on Egypt and its king during the last years of Judah's kingdom -- including the defeat of Pharaoh Neco at Carchemish and a prediction that Pharaoh Hophra would be delivered into his enemies' hands, with Ezekiel's unnamed oracles against Pharaoh usually associated with Hophra as well.",
+  "family_friendly_summary": "During the last troubled years before Judah was conquered by Babylon, the prophets Jeremiah and Ezekiel spoke several messages of judgment against Egypt and its king, called Pharaoh. One of these kings, Pharaoh Neco, marched his army to fight the Babylonians at a place called Carchemish and was badly defeated. Later, Jeremiah warned that Judah's leaders were foolish to trust Egypt's Pharaoh for protection instead of trusting God -- and predicted that another Pharaoh, named Hophra, would be handed over to his enemies. Ezekiel pictured Egypt's proud king as a great sea monster and as a mighty tree that God would cut down. These prophecies warned God's people not to put their hope in powerful nations instead of in the LORD.",
+  "adult_story": "Several prophetic oracles in Jeremiah and Ezekiel pronounce judgment on Egypt and its king during Judah's final years before the Babylonian conquest. Jeremiah's oracle against Egypt is directed at Pharaoh Neco, whose army was crushed by Nebuchadnezzar at Carchemish on the Euphrates (46:1-2), and it closes by mocking his defeat: \"Pharaoh king of Egypt is but a big noise; he has let the appointed time pass by\" (46:17-25) -- a humiliation that ended Egypt's bid to control the region and left Babylon dominant. Decades later, as Judah's exiles fled to Egypt against Jeremiah's warning, the prophet named a different king, Pharaoh Hophra, declaring that the LORD would \"give over Pharaoh Hophra, king of Egypt, into the hand of his enemies\" just as He had given Zedekiah into Nebuchadnezzar's hand (44:30) -- a period that also saw Pharaoh's army briefly march out and interrupt Babylon's siege of Jerusalem (37:5-11) and Jeremiah symbolically bury stones at Pharaoh's palace in Tahpanhes, prophesying Nebuchadnezzar's throne would be set there instead (43:9). Ezekiel's extended oracles against an unnamed Pharaoh (chapters 29-32), usually dated to Hophra's reign, pictured Egypt's king as a great river monster God would drag out and destroy, and as a felled cedar once towering over the nations, now brought down to the pit alongside other fallen empires. Together these oracles warn that no earthly power, however mighty, escapes God's judgment or can substitute for trust in Him.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: king figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

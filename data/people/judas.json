@@ -4,8 +4,16 @@
   "alt_names": [
     "Thaddaeus"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 10:3",
     "Mark 3:18",
@@ -14,11 +22,32 @@
     "Acts 1:13"
   ],
   "first_reference": "Matthew 10:3",
+  "topics": [
+    "the twelve apostles",
+    "question at the last supper",
+    "God's self-revelation"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Matthew 10:3 and Mark 3:18 list an apostle named Thaddaeus (some manuscripts read Lebbaeus), while Luke 6:16 and Acts 1:13 instead name \"Judas the son of James\" in that same position among the Twelve. Nearly all interpreters harmonize these as one man known by more than one name, distinguished from Judas Iscariot by John's note \"Judas (not Iscariot)\" in John 14:22, though Scripture never states the equation explicitly.",
+  "source_summary": "One of the twelve apostles, called Thaddaeus in Matthew and Mark and Judas son of James in Luke and Acts, remembered for a question he asked Jesus at the Last Supper about why He would reveal Himself only to His followers and not to the world.",
+  "family_friendly_summary": "Judas -- also called Thaddaeus, and carefully distinguished in the Bible from Judas Iscariot -- was one of Jesus' twelve apostles. He isn't mentioned doing much on his own, but at the Last Supper he asked Jesus an honest question: why was Jesus planning to show Himself to His followers but not to the whole world? Jesus answered by explaining that anyone who loves Him and keeps His word will have a special relationship with God, with the Father and the Son making their home with that person. Judas's question opened the door to one of Jesus' most meaningful teachings about love and obedience.",
+  "adult_story": "Judas appears in the lists of the twelve apostles under two names: Matthew and Mark call him Thaddaeus, while Luke and Acts call him \"Judas the son of James\" (Matthew 10:3; Mark 3:18; Luke 6:16; Acts 1:13) -- understood by nearly all interpreters as one apostle known by both names. His one recorded moment comes at the Last Supper, where John is careful to identify him as \"Judas (not Iscariot)\" to avoid confusion with the betrayer. As Jesus spoke of disclosing Himself to His disciples, Judas asked, \"Lord, what then has happened that You are going to disclose Yourself to us and not to the world?\" (John 14:22). Jesus' answer did not directly resolve the question but redirected it toward love and obedience: \"If anyone loves Me, he will keep My word; and My Father will love him, and We will come to him and make Our abode with him\" (14:23) -- teaching that God's self-revelation is relational, given to those who love and obey Him, not a public spectacle for the world at large. Judas is listed again among the apostles gathered in the upper room after the ascension, devoting themselves to prayer while awaiting the Spirit (Acts 1:13-14). Though Scripture records little else about him individually, his honest question drew out one of Jesus' richest statements on what it means for God to dwell with His people.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "james-4",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

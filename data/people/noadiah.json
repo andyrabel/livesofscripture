@@ -2,17 +2,46 @@
   "person_id": "noadiah",
   "name": "Noadiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 8:33"
   ],
   "first_reference": "Ezra 8:33",
+  "topics": [
+    "stewardship",
+    "temple treasure",
+    "faithfulness with resources"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Levite, son of Binnui, who helped weigh and verify the silver, gold, and sacred vessels brought back from Babylon for the temple in Jerusalem.",
+  "family_friendly_summary": "When Ezra led a group of exiles back to Jerusalem from Babylon, they carried a huge amount of silver, gold, and special bowls and vessels meant for God's temple. This treasure had to be handled very carefully and honestly. When the group arrived safely in Jerusalem, trusted men carefully weighed and counted everything to make sure nothing was missing. Noadiah, a Levite, was one of the men given this important, trustworthy job. It wasn't a flashy task, but it mattered -- caring faithfully with what belongs to God, down to the last detail.",
+  "adult_story": "Noadiah, son of Binnui, was one of the Levites entrusted with a careful, accountable task at the end of Ezra's journey from Babylon to Jerusalem. Ezra had gathered an enormous offering of silver, gold, and sacred vessels for the temple from the king, his officials, and the Jewish community in exile, and had deliberately traveled without a military escort, trusting God's protection instead (Ezra 8:21-23). Before setting out, he had already weighed the treasure into the hands of leading priests and Levites for safekeeping along the way, charging them, \"you are holy to the LORD... watch and keep them until you weigh them before the leading priests... in the chambers of the house of the LORD\" (8:24-29). On arrival in Jerusalem, that trust was verified: \"on the fourth day the silver and the gold and the utensils were weighed out in the house of our God into the hand of Meremoth... and with them were the Levites... Noadiah the son of Binnui\" (8:33-34), with everything counted and weighed and the total recorded. Noadiah's role, though brief, reflects a principle Ezra insisted on throughout the journey: God's people are called to handle what is entrusted to them -- especially what belongs to God -- with scrupulous, verifiable integrity.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "binnui",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

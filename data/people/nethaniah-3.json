@@ -2,17 +2,46 @@
   "person_id": "nethaniah-3",
   "name": "Nethaniah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Judah"
+  ],
   "references": [
     "2 Chronicles 17:8"
   ],
   "first_reference": "2 Chronicles 17:8",
+  "topics": [
+    "teaching Scripture",
+    "Jehoshaphat's reforms",
+    "revival"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the Levites Jehoshaphat sent throughout the cities of Judah, carrying the Book of the Law, to teach the people -- part of a kingdom-wide effort at spiritual instruction and reform.",
+  "family_friendly_summary": "When Jehoshaphat became king of Judah, he wanted his people to know and follow God's law. So he sent out a team of officials, priests, and Levites -- including a man named Nethaniah -- to travel to towns all across Judah. They carried the Book of the Law with them and taught the people from it. Because Jehoshaphat did what was right and made sure God's word was taught, the Bible says other nations respected Judah and God's protection was on the kingdom. Nethaniah's short mention is part of that bigger story of a king who cared about his people knowing God's word.",
+  "adult_story": "Nethaniah is named among the team King Jehoshaphat commissioned in the third year of his reign to teach God's law throughout Judah (2 Chronicles 17:7-9). Jehoshaphat, remembered as a king who \"sought the God of his father\" and removed idolatrous worship sites, sent out five officials, nine Levites (including Nethaniah), and two priests together, carrying \"the book of the law of the LORD\" from town to town. Chronicles records the result plainly: \"they taught in Judah, having the book of the law of the LORD with them; and they went throughout all the cities of Judah and taught among the people\" (17:9). This is one of Scripture's clearest pictures of organized, itinerant biblical instruction under royal sponsorship -- not a single prophet's message but a coordinated team effort reaching the whole kingdom. The passage credits this reform, along with Jehoshaphat's broader faithfulness, with the fear of the LORD falling on surrounding nations so that none made war against Judah, and with tribute flowing in from the Philistines and Arabians (17:10-11). Nethaniah himself receives no further individual mention, but his part in this traveling teaching mission reflects a conviction that runs throughout Chronicles: a kingdom's health depends on its people actually knowing God's word, not merely possessing it.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

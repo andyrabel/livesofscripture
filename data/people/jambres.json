@@ -2,17 +2,45 @@
   "person_id": "jambres",
   "name": "Jambres",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "2 Timothy 3:8-9"
   ],
   "first_reference": "2 Timothy 3:8-9",
+  "topics": [
+    "opposition to God's messengers",
+    "false wisdom exposed",
+    "Egypt's magicians"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Named by Paul as one of two Egyptian court magicians who opposed Moses before Pharaoh; Exodus itself does not name Pharaoh's magicians, but Paul cites the tradition of their names as an example of teachers whose opposition to the truth is ultimately exposed as folly.",
+  "family_friendly_summary": "Jambres and his companion Jannes aren't named anywhere in the book of Exodus, but the New Testament remembers them as the magicians in Pharaoh's court who copied some of Moses' miracles to make it look like their own gods were just as powerful (see Exodus 7-8). The apostle Paul mentions Jambres by name in a letter to Timothy, warning that just as Jambres opposed Moses, some people in Paul's own day were opposing the truth about Jesus. Paul says people like this may seem clever for a while, but their foolishness always becomes plain to everyone eventually, just as it did with Jambres long before.",
+  "adult_story": "Jambres is not named in Exodus itself, where Pharaoh's \"magicians\" anonymously reproduce some of Moses' signs before Pharaoh -- turning staffs into serpents and water into blood -- before failing to match the plague of gnats and admitting, \"this is the finger of God\" (Exodus 7:11-12, 22; 8:18-19). Jewish tradition supplied the names Jannes and Jambres for these court magicians, and Paul treats the tradition as reliable history when he writes to Timothy: \"Just as Jannes and Jambres opposed Moses, so these men also oppose the truth, men of depraved mind, rejected in regard to the faith. But they will not make further progress; for their folly will be obvious to all, just as Jannes's and Jambres's folly was also\" (2 Timothy 3:8-9). Paul's point is pastoral, not biographical: he uses Jambres as a known example to warn Timothy about false teachers in the church who resist the gospel through imitation and deception, confident that -- as with Jambres before Pharaoh -- their opposition cannot ultimately prevail against God's truth. Exodus itself never names Pharaoh's magicians; the names come from a tradition Paul treats as established, though Scripture's own inspired record of it is confined to this single New Testament passage.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,47 @@
   "person_id": "sergius-paulus",
   "name": "Sergius Paulus",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "asia-minor-greece",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Cyprus",
+    "Paphos"
+  ],
   "references": [
     "Acts 13:7"
   ],
   "first_reference": "Acts 13:7",
+  "topics": [
+    "conversion of a Roman official",
+    "opposition from a sorcerer",
+    "power encounter"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Roman proconsul of Cyprus who summoned Barnabas and Saul (Paul) to hear the word of God, and believed after witnessing Paul strike the sorcerer Elymas blind for opposing the gospel.",
+  "family_friendly_summary": "Sergius Paulus was an important Roman official, the governor of the island of Cyprus. He was curious and wanted to hear God's message, so he invited Paul and Barnabas to come speak with him. A magician named Elymas tried to stop this from happening because he didn't want the governor to believe in Jesus. Paul confronted Elymas, and Elymas was suddenly struck blind. When Sergius Paulus saw this happen, he was amazed at the power of God and believed the message about Jesus. His story shows that even powerful, important people can be changed by encountering the truth about Jesus.",
+  "adult_story": "Sergius Paulus, the Roman proconsul governing Cyprus, is described in Acts as \"a man of intelligence\" who summoned Barnabas and Saul to his court specifically because he wanted to hear the word of God (Acts 13:7). Present with him was a Jewish false prophet and sorcerer named Bar-Jesus, also called Elymas, who actively opposed the missionaries, \"trying to turn the proconsul away from the faith\" (13:8). Paul -- named here for the first time in Acts, notably in this same episode -- confronted Elymas directly, calling him a son of the devil and enemy of righteousness, and pronounced that the LORD's hand would strike him blind for a time (13:9-11). The judgment fell immediately: \"mist and darkness fell upon him,\" and Elymas had to grope for someone to lead him by the hand. Watching this power encounter unfold, \"the proconsul believed when he saw what had happened, being amazed at the teaching of the Lord\" (13:12). Sergius Paulus's conversion is Scripture's account of the gospel reaching directly into Roman colonial government, and his belief came not from argument alone but from seeing God's word vindicated against active spiritual opposition.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

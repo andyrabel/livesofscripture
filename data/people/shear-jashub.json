@@ -2,17 +2,45 @@
   "person_id": "shear-jashub",
   "name": "Shear-jashub",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Isaiah 7:3"
   ],
   "first_reference": "Isaiah 7:3",
+  "topics": [
+    "prophetic sign",
+    "the remnant",
+    "trust in God amid crisis"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Isaiah's son, whose name means \"a remnant will return,\" brought by his father as a living prophetic sign to reassure King Ahaz during the Syro-Ephraimite crisis, when Israel and Aram threatened Jerusalem.",
+  "family_friendly_summary": "Shear-jashub was the son of the prophet Isaiah. His name has a special meaning in Hebrew: \"a remnant will return.\" During a scary time when two enemy kings were threatening to attack Jerusalem, God told Isaiah to bring Shear-jashub along with him to meet King Ahaz. Just having Shear-jashub there was meant to be a living reminder and message from God: even if hard things happened, God would keep His promise to preserve His people, and a remnant of them would always remain and return to Him. Shear-jashub's very name was a sign of hope, encouraging Ahaz -- and everyone who has heard the story since -- to trust God instead of being afraid.",
+  "adult_story": "Shear-jashub, whose Hebrew name means \"a remnant will return,\" was the son of the prophet Isaiah. During the Syro-Ephraimite crisis -- when King Rezin of Aram and King Pekah of Israel allied against Judah and threatened to depose King Ahaz -- the LORD sent Isaiah to meet Ahaz at the end of the conduit of the upper pool, on the highway to the fuller's field, and instructed him to bring his son along: \"Go out now to meet Ahaz, you and your son Shear-jashub\" (Isaiah 7:1-3). The boy is not recorded as saying or doing anything himself; his presence was the message. His name embodied both a warning and a promise built into the same word -- \"remnant\" implies that judgment was coming and much would be lost, while \"will return\" promised that God would not let His people be wiped out entirely. Isaiah went on in that meeting to urge the frightened king to trust the LORD rather than seek Assyria's help, and offered Ahaz a sign, which Ahaz refused to ask for -- leading to the well-known Immanuel prophecy of Isaiah 7:14. Isaiah later names another son, Maher-shalal-hash-baz, using the same method of turning a child's name itself into a public, standing prophetic sign (Isaiah 8:1-4, 18).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "isaiah",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

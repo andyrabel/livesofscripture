@@ -2,18 +2,47 @@
   "person_id": "phicol",
   "name": "Phicol",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Beersheba",
+    "Gerar"
+  ],
   "references": [
     "Genesis 21:22-32",
     "Genesis 26:26"
   ],
   "first_reference": "Genesis 21:22-32",
+  "topics": [
+    "covenant treaty",
+    "peacemaking",
+    "Abimelech's court"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Because the same names 'Abimelech' and 'Phicol' reappear in the same royal court a generation apart (Genesis 21 with Abraham, Genesis 26 with Isaac), some interpreters read 'Abimelech' as a dynastic or throne title rather than a personal name, which would mean 'Phicol' may likewise function as a recurring military title. Scripture does not resolve the question, and the text simply presents both accounts as involving the same named individuals.",
+  "source_summary": "Commander of the Philistine king Abimelech's army at Gerar, who accompanied Abimelech in making covenant treaties with both Abraham and, a generation later, Isaac at Beersheba.",
+  "family_friendly_summary": "Phicol was the commander of the army serving Abimelech, a Philistine king who lived near Abraham and Isaac. Twice, Phicol appears alongside King Abimelech when the king made a peace treaty -- first with Abraham after a dispute over a well of water, and later with Abraham's son Isaac after a similar disagreement. Both times, Abimelech and Phicol came to make sure there was peace between their people and God's chosen family, recognizing that God was clearly blessing Abraham and Isaac. Phicol's presence at both treaties, a whole generation apart, shows how seriously these neighboring rulers took their agreements with God's people.",
+  "adult_story": "Phicol served as commander of the army under Abimelech, the Philistine king of Gerar, and appears at two separate treaty-making moments a generation apart. After Abraham's servants and Abimelech's servants disputed over a well at Beersheba, Abimelech came to Abraham together with Phicol and said, 'God is with you in everything that you do; now therefore, swear to me here by God that you will not deal falsely with me' (Genesis 21:22-23). Abraham agreed, set apart seven ewe lambs as a witness to his claim on the well, and the two men made a covenant at Beersheba before Abimelech and Phicol returned home (21:27-32). Decades later, after similar friction over wells between Isaac's herdsmen and the Philistines, Abimelech again came to Isaac at Beersheba, bringing his adviser Ahuzzath and Phicol the commander of his army, wanting a sworn treaty of peace 'since we see plainly that the LORD has been with you' (Genesis 26:26-29). Isaac made them a feast, and they swore an oath together the next morning before parting (26:30-31). Phicol never speaks alone or acts independently of his king, but his presence at both covenants marks him as a recurring witness to how visibly God's blessing on Abraham's family shaped even the political dealings of their pagan neighbors.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

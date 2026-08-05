@@ -2,17 +2,46 @@
   "person_id": "igal",
   "name": "Igal",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kadesh-barnea",
+    "wilderness of Paran"
+  ],
   "references": [
     "Numbers 13:7"
   ],
   "first_reference": "Numbers 13:7",
+  "topics": [
+    "the twelve spies",
+    "unbelief in the wilderness",
+    "the wilderness generation"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the twelve spies Moses sent to scout Canaan, representing the tribe of Issachar; part of the ten who brought back a fearful report and, according to Numbers 14, died in a plague for it, while only Joshua and Caleb survived to enter the land.",
+  "family_friendly_summary": "Igal was chosen to represent the tribe of Issachar when Moses sent twelve men to explore the land of Canaan before Israel tried to enter it. The spies traveled through the land for forty days and returned with samples of its fruit, proof that it was a rich and fertile place, just as God had promised. But ten of the twelve spies, including Igal, were afraid of the strong people living there and convinced the Israelites not to trust God enough to go in. Only Joshua and Caleb encouraged the people to trust God's promise. Because of the fear and complaining that followed, God decided that generation would wander in the wilderness for forty years instead of entering the land right away, and Numbers tells us the ten fearful spies did not live to see it.",
+  "adult_story": "Igal son of Joseph was chosen to represent the tribe of Issachar among the twelve men Moses sent from Kadesh-barnea to spy out the land of Canaan (Numbers 13:7). The spies traveled the land for forty days, returning with a cluster of grapes so large it had to be carried on a pole, along with pomegranates and figs -- physical proof of the land's richness (13:23-27). Yet ten of the twelve, apparently including Igal, reported that the land's inhabitants were too strong to overcome, describing fortified cities and people \"of great size\" before whom they felt like grasshoppers (13:28-33). Their report spread fear through the whole camp; the people wept, rebelled against Moses and Aaron, and even talked of choosing a new leader to take them back to Egypt (14:1-4). Only Joshua and Caleb urged the people to trust God's promise instead (14:6-9). For this unbelief, the LORD declared that the entire generation twenty years old and up -- except Joshua and Caleb -- would die in the wilderness over the next forty years, never entering the promised land (14:26-35). Numbers adds a specific judgment on the ten who spread the fearful report: \"the men who had brought out the very bad report of the land died by a plague before the LORD\" (14:36-37). Igal is named only in the roll call of spies, but that roll call ties him directly to this larger account of unbelief and its consequences.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "joseph-2",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

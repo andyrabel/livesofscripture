@@ -2,17 +2,47 @@
   "person_id": "osnappar",
   "name": "Osnappar",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "region": "mesopotamia",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Assyria"
+  ],
   "references": [
     "Ezra 4:10"
   ],
   "first_reference": "Ezra 4:10",
+  "topics": [
+    "Assyrian resettlement policy",
+    "opposition to Jerusalem's rebuilding",
+    "Samaria"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Osnappar's name doesn't precisely match any Assyrian king known from extrabiblical records; most scholars identify him with Ashurbanipal (reigned c. 669-631 BC), though some have proposed Esarhaddon instead. The identification is a reasonable scholarly inference, not a certainty.",
+  "source_summary": "The \"great and honorable\" Assyrian king credited in a hostile letter to Persia's King Artaxerxes with deporting foreign peoples and resettling them in Samaria and the region beyond the Euphrates -- widely, though not certainly, identified by scholars with Ashurbanipal.",
+  "family_friendly_summary": "Long before the events described in the book of Ezra, a powerful Assyrian king moved groups of people from other lands and settled them in the region of Samaria, in what had been the northern kingdom of Israel. Years later, people opposed to the Jews rebuilding Jerusalem wrote a letter to the Persian king, mentioning this earlier Assyrian king by the name Osnappar and claiming they represented the people he had resettled there. Scholars today think Osnappar was probably a well-known Assyrian king named Ashurbanipal, known under a different name, but this isn't completely certain.",
+  "adult_story": "Osnappar is named only once in Scripture, inside a hostile letter that officials of the Persian province \"Beyond the River\" sent to King Artaxerxes to stop the rebuilding of Jerusalem's walls (Ezra 4:7-16). Listing themselves as representatives of the various peoples living in Samaria, the letter's writers identify their community by referring back to their origin: they were \"the rest of the nations which the great and honorable Osnappar deported and settled in the city of Samaria, and in the rest of the region beyond the River\" (4:10). This describes an act of forced resettlement -- moving conquered foreign populations into formerly Israelite territory, a standard Assyrian imperial policy also seen in 2 Kings 17:24, which names several of the same peoples being settled in Samaria after the northern kingdom's fall. \"Osnappar\" does not exactly match any Assyrian royal name known from other records, but most scholars identify him with Ashurbanipal, the powerful seventh-century BC Assyrian king known for extensive conquests and resettlement campaigns, though this identification is inferred rather than certain. Whoever he was precisely, his long-past act of resettlement is invoked generations later by people opposing God's people -- a reminder that the political and ethnic tangles surrounding Judah's restoration had deep, complicated roots reaching back decades before Ezra's own time.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

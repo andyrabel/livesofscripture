@@ -2,17 +2,45 @@
   "person_id": "hermogenes",
   "name": "Hermogenes",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Asia (Roman province)"
+  ],
   "references": [
     "2 Timothy 1:15"
   ],
   "first_reference": "2 Timothy 1:15",
+  "topics": [
+    "apostasy",
+    "abandonment of Paul",
+    "cost of association with the gospel"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Named by Paul in his final imprisonment as one of the believers in the Roman province of Asia who turned away from him, paired with Phygelus as an example of desertion, in contrast to the loyalty of Onesiphorus described in the very next verses.",
+  "family_friendly_summary": "Near the end of his life, while he was in prison for preaching about Jesus, Paul wrote a letter to his younger friend Timothy. In it, Paul sadly mentioned that many believers in the region of Asia had turned away from him when things got hard -- and he named two of them, Phygelus and Hermogenes. We don't know exactly what they did or why, only that they abandoned Paul when he needed support. Right after mentioning them, Paul praises a man named Onesiphorus who did the opposite -- he wasn't ashamed of Paul and searched hard to find him in prison. Hermogenes's story is a quiet warning about what it costs to stand by someone the world has rejected, and how easy it can be to walk away instead.",
+  "adult_story": "Hermogenes is known only from a single, sobering line near the end of 2 Timothy, Paul's last letter, written from a Roman prison shortly before his execution. Paul writes to Timothy, \"You are aware of the fact that all who are in Asia turned away from me, among whom are Phygelus and Hermogenes\" (2 Timothy 1:15). No explanation is given -- whether Hermogenes renounced the faith outright, simply distanced himself from a prisoner facing capital charges to protect himself, or some other cause of the break. What Scripture does make clear is the contrast Paul draws immediately afterward: \"The Lord grant mercy to the house of Onesiphorus, for he often refreshed me and was not ashamed of my chains, but when he was in Rome, he eagerly searched for me and found me\" (1:16-17). Hermogenes is named specifically, not left anonymous within \"all who are in Asia,\" which suggests Timothy would have recognized him -- perhaps a co-worker or acquaintance whose defection stung in a personal way. Set against Onesiphorus's costly loyalty, Hermogenes's brief, unflattering mention stands as one of the New Testament's plain reminders that not everyone who starts well in the faith, or in association with the apostles, finishes that way.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

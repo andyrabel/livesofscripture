@@ -5,8 +5,16 @@
     "Jeconiah",
     "Coniah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Babylon"
+  ],
   "references": [
     "2 Kings 24:6-15",
     "2 Kings 25:27",
@@ -24,6 +32,22 @@
     "Matthew 1:11-12"
   ],
   "first_reference": "2 Kings 24:6-15",
+  "topics": [
+    "exile",
+    "captivity",
+    "royal lineage of Christ"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "King of Judah for three months before surrendering to Nebuchadnezzar and being carried into Babylonian exile with the temple treasures and Judah's leading citizens; decades later he was released from prison and given a seat of honor at the Babylonian king's table, and he appears in Matthew's genealogy of Jesus.",
+  "family_friendly_summary": "Jehoiachin (also called Jeconiah) became king of Judah when he was only eighteen, right as the powerful Babylonian empire was closing in. He ruled for just three months before he surrendered to King Nebuchadnezzar, who carried him off to Babylon along with his family, his officials, and the treasures from God's temple. Jehoiachin spent many years as a prisoner in Babylon. But near the end of his life, a new Babylonian king showed him surprising kindness -- releasing him from prison, giving him new clothes, and letting him eat at the king's own table for the rest of his days. Jehoiachin's name is even listed in Jesus' family line in the Gospel of Matthew.",
+  "adult_story": "Jehoiachin, also called Jeconiah or Coniah, became king of Judah at eighteen when his father Jehoiakim died, but his reign lasted only three months and ten days (2 Kings 24:6-8; 2 Chronicles 36:9). Scripture judges him bluntly: \"he did evil in the sight of the LORD, according to all that his father had done\" (2 Kings 24:9). With Nebuchadnezzar's army besieging Jerusalem, Jehoiachin surrendered along with his mother, servants, officials, and officers (24:12). Nebuchadnezzar carried him off to Babylon, stripped the temple and palace treasuries, and deported ten thousand of Judah's leading citizens, craftsmen, and soldiers -- including Ezekiel -- leaving only the poorest people in the land (24:13-16). Jeremiah pronounced hard words over him: he would be recorded as childless in his generation, none of his offspring succeeding to David's throne (Jeremiah 22:24-30) -- fulfilled in that his line continued but never again reigned as king. Jehoiachin remained a prisoner in Babylon for thirty-seven years, until Evil-merodach, Nebuchadnezzar's successor, showed him unexpected favor: releasing him from prison, giving him new garments, a permanent place at the king's own table, and a regular allowance for the rest of his life (2 Kings 25:27-30). Matthew's genealogy still names him in the line leading to Christ (Matthew 1:11-12).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "jehoiakim",
     "mother": "nehushta",
@@ -37,6 +61,11 @@
       "shealtiel",
       "shenazzar"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

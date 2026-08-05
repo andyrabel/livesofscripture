@@ -2,13 +2,36 @@
   "person_id": "oded",
   "name": "Oded",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria"
+  ],
   "references": [
     "2 Chronicles 15:1-8",
     "2 Chronicles 28:9"
   ],
   "first_reference": "2 Chronicles 15:1-8",
+  "topics": [
+    "prophetic courage",
+    "compassion for captives",
+    "obedience to God's word"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Two men named Oded appear in Chronicles roughly a century and a half apart. This entry's genealogy (father of the prophet Azariah, 2 Chronicles 15:1) reflects the earlier man from King Asa's reign, about whom Scripture states nothing beyond his son's identity. Its narrative content comes from a separate, later prophet also named Oded who confronted Israel's army during King Ahaz's reign (2 Chronicles 28:9-15). Most interpreters treat these as two different men who share a name rather than one individual spanning both eras.",
+  "source_summary": "A prophet of the LORD in the northern kingdom who confronted Israel's victorious army after they took thousands of Judean captives in battle, successfully persuading them to release, clothe, and feed the captives and return them home; a different, earlier Oded is named only as the father of the prophet Azariah in King Asa's reign.",
+  "family_friendly_summary": "Oded was a prophet of God who lived in the northern kingdom of Israel. After Israel won a battle against Judah and marched home with thousands of captives, God sent Oded out to meet the returning army. He told the soldiers they had gone too far -- these captives were their own relatives, and mistreating them would bring God's anger. Oded's brave, direct words worked. Some of the Israelite leaders listened, and instead of enslaving the captives, they gave them food and clothes and helped them travel safely back home to Jericho. Oded's story shows how one person's courage to speak up for what's right can change what happens to many others.",
+  "adult_story": "Oded was a prophet of the LORD in the northern kingdom during the reign of Ahaz, king of Judah -- a time when Israel had just defeated Judah in battle, killing a great many soldiers and marching home with 200,000 Judean women and children as captives along with vast plunder (2 Chronicles 28:5-8). Oded met the returning army at the border of Samaria and confronted them directly: their victory, he said, was the LORD's judgment on Judah for its sins, but Israel's own guilt was no less real, and enslaving their fellow Israelites -- \"your relatives\" -- would only add to it, provoking God's fierce anger against them too (28:9-11). Several chief men of Ephraim took up Oded's rebuke, confronting the returning soldiers and insisting the captives be released rather than made slaves (28:12-13). The army complied: the captives were clothed from the plunder, given sandals, food, and drink, and the weakest were carried on donkeys, escorted all the way to Jericho, \"the city of palm trees,\" before the Israelites returned home (28:14-15). A different Oded is named earlier in Chronicles only as the father of Azariah, the prophet who encouraged King Asa to reform Judah's worship (2 Chronicles 15:1) -- Scripture records nothing else about that man. This entry's narrative rests on the later prophet's confrontation, one of Scripture's clearest pictures of courageous, compassionate obedience overturning a cruel wartime decision.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: prophet figure with both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -16,6 +39,11 @@
     "children": [
       "azariah-7"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,45 @@
   "person_id": "jaazaniah-2",
   "name": "Jaazaniah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exile",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Ezekiel 8:11"
   ],
   "first_reference": "Ezekiel 8:11",
+  "topics": [
+    "idolatry",
+    "Ezekiel's temple vision",
+    "judgment on Jerusalem's leaders"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Son of Shaphan, named individually among seventy elders of Israel whom Ezekiel saw in a vision offering incense to idols in a hidden chamber of the Jerusalem temple.",
+  "family_friendly_summary": "God gave the prophet Ezekiel a vision that let him see something happening in secret back in Jerusalem: a group of Israel's elders, meeting in a hidden room, were burning incense to idols carved on the walls instead of worshiping the one true God. Ezekiel saw one of them by name -- Jaazaniah, son of Shaphan -- standing right among them with his own censer in his hand. It's a sobering picture of leaders who should have known better secretly turning away from God, and it helps explain why God's judgment on Jerusalem was coming.",
+  "adult_story": "Jaazaniah, son of Shaphan, appears in one of the disturbing visions God gave the prophet Ezekiel while he was already in exile in Babylon, shown in spirit what was happening in Jerusalem's temple before its final fall (Ezekiel 8:1-4). Led through a hole dug in a wall into a hidden chamber, Ezekiel saw \"seventy elders of the house of Israel\" standing before wall carvings of detestable creeping things and idols, each man with his own censer, a thick cloud of incense rising (8:7-11). Among them, named individually rather than left anonymous like the rest, was \"Jaazaniah son of Shaphan standing among them.\" The elders reasoned to themselves, \"The LORD does not see us; the LORD has forsaken the land\" (8:12) -- a statement of practical unbelief that the vision exposes as false. Notably, Jaazaniah's father Shaphan was the scribe who had faithfully read the rediscovered Book of the Law to King Josiah a generation earlier (2 Kings 22:8-10), making the son's secret idolatry a stark departure from his father's household. This vision, together with others Ezekiel witnessed that day -- women weeping for Tammuz, men worshiping the sun -- catalogued the corruption that God cites as grounds for the coming judgment on Jerusalem (Ezekiel 8:17-18).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shaphan-3",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

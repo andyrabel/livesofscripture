@@ -2,17 +2,45 @@
   "person_id": "shemaiah-18",
   "name": "Shemaiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Nehemiah 6:10"
   ],
   "first_reference": "Nehemiah 6:10",
+  "topics": [
+    "false prophecy",
+    "opposition to Nehemiah",
+    "integrity under pressure"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A man \"confined at home\" whom Nehemiah's enemies Sanballat and Tobiah hired to pose as a prophet and frighten Nehemiah into fleeing into the temple for safety -- a scheme Nehemiah recognized and refused.",
+  "family_friendly_summary": "While Nehemiah was leading the people of Jerusalem to rebuild the city's broken walls, some enemies wanted to stop him and even scare him into doing something wrong. They secretly paid a man named Shemaiah to pretend God had given him a message for Nehemiah. Shemaiah told Nehemiah to hide inside the temple because assassins were coming to kill him. But Nehemiah realized God had not really sent this warning -- Shemaiah had been hired to trick him into sinning and looking like a coward. Nehemiah bravely refused to hide, and the wall-building work continued. Nehemiah's courage and discernment kept the enemies' trick from working.",
+  "adult_story": "Shemaiah, son of Delaiah and grandson of Mehetabel, appears in Nehemiah's account of rebuilding Jerusalem's walls as a man \"confined at home\" whom Nehemiah visited (Nehemiah 6:10). Nehemiah's enemies Sanballat and Tobiah, unable to stop the wall by force or slander, had hired Shemaiah to pose as a prophet and unsettle Nehemiah's resolve. Shemaiah urged him, \"Let us meet together in the house of God, within the temple, and let us close the doors of the temple, for they are coming to kill you -- they are coming to kill you at night\" (6:10). It was a trap on two levels: fleeing into the temple's inner sanctuary was itself forbidden to a layman like Nehemiah, so following the advice would have discredited and disgraced him even as it appeared to save his life. Nehemiah saw through it: \"Should a man like me flee? And could one such as I go into the temple and live? I will not go in.\" He recognized \"that God had not sent him, but he uttered this prophecy against me because Tobiah and Sanballat had hired him\" to frighten him into sin and give his enemies grounds to discredit him (6:11-13). Shemaiah's attempted deception failed, and the wall was finished in fifty-two days (6:15).",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "delaiah-4",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

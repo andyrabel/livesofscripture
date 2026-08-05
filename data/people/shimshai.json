@@ -2,17 +2,45 @@
   "person_id": "shimshai",
   "name": "Shimshai",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 4:8-23"
   ],
   "first_reference": "Ezra 4:8-23",
+  "topics": [
+    "opposition to rebuilding",
+    "Persian administration"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Persian government scribe who, with the commander Rehum, wrote to King Artaxerxes accusing the returned Jews of rebellion and successfully halted the rebuilding of Jerusalem's walls for a time.",
+  "family_friendly_summary": "After some Jewish exiles returned to Jerusalem, they began rebuilding the city walls. Not everyone was happy about this. A government scribe named Shimshai worked with an official named Rehum to write a letter to the Persian king, accusing the Jews of planning to rebel if the walls went up. Their plan worked for a while -- the king ordered the building to stop, and Shimshai and his officials hurried to Jerusalem and forced the workers to stop by force. Later, though, a different king allowed the work to continue and it was finished anyway. Shimshai's story shows that human opposition cannot permanently stop what God has planned.",
+  "adult_story": "Shimshai was a Persian government scribe stationed in Samaria who, together with the commander Rehum and other officials, opposed the Jewish rebuilding of Jerusalem's walls during the reign of Artaxerxes. Shimshai co-authored a letter to the king warning that if the \"rebellious and evil city\" were rebuilt, its inhabitants would refuse to pay tribute and Persian control of the region would suffer (Ezra 4:8-16). The letter worked: Artaxerxes, after having the royal records searched, ordered the work stopped until further notice (4:17-22). Ezra records that once the decree reached Rehum, Shimshai, and their associates, \"they went in haste to Jerusalem... and stopped them by force and power,\" halting construction (4:23). Shimshai's opposition was real and effective in the moment, but it was not the end of the story -- the narrative that follows in Ezra 5-6 shows the temple work resuming and eventually the walls themselves being finished under Nehemiah despite continued hostility from surrounding officials. Shimshai's brief, self-interested appearance in the text stands as one instance of a recurring biblical pattern: earthly powers can delay God's purposes for His people for a season, but Scripture consistently shows those purposes ultimately accomplished.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

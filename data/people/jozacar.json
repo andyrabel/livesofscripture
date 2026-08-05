@@ -4,18 +4,46 @@
   "alt_names": [
     "Zabad"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Kings 12:21",
     "2 Chronicles 24:26"
   ],
   "first_reference": "2 Kings 12:21",
+  "topics": [
+    "conspiracy",
+    "regicide",
+    "judgment on a king"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of two royal servants who conspired against King Joash of Judah and struck him down in his bed, in retaliation, according to Chronicles, for Joash's execution of the prophet Zechariah son of Jehoiada.",
+  "family_friendly_summary": "Jozacar was a servant in the royal court of Joash, king of Judah. Joash had done many good things earlier in his reign, but later turned away from following the LORD and even had the priest Zechariah killed for speaking God's warning to him. In response, two of Joash's own servants, Jozacar and a man named Jehozabad, plotted against the king and killed him while he was in his bed. Joash was buried in Jerusalem, but not in the special tombs where Judah's kings were normally laid to rest. Jozacar's part in this sad story is a reminder of how far a good king can fall when he stops listening to God.",
+  "adult_story": "Jozacar son of Shimeath (called Zabad in Chronicles) was one of King Joash of Judah's own servants. Joash had begun his reign well under the guidance of the priest Jehoiada, repairing the temple and restoring proper worship, but after Jehoiada's death he abandoned the LORD for idolatry. When Jehoiada's son, the prophet Zechariah, confronted the king's unfaithfulness by the Spirit of God, Joash had him stoned to death in the very temple courtyard his father had defended (2 Chronicles 24:17-22). In retaliation for \"the blood of the son of Jehoiada the priest,\" Jozacar and a fellow servant, Jehozabad, conspired against Joash and struck him down on his sickbed (2 Kings 12:20-21; 2 Chronicles 24:25). Joash was buried in the city of David, but, marking the shame of his end, not among the tombs of the kings (2 Chronicles 24:25). Jozacar's act was murder and treason against God's anointed king, not sanctioned by Scripture as righteous vengeance -- yet the text frames Joash's violent death as the outworking of the king's own guilt in shedding innocent blood, a sober picture of how apostasy and injustice unravel even a promising reign.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shimeath",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

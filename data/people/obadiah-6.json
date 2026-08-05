@@ -2,17 +2,46 @@
   "person_id": "obadiah-6",
   "name": "Obadiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "the stronghold in the wilderness"
+  ],
   "references": [
     "1 Chronicles 12:9"
   ],
   "first_reference": "1 Chronicles 12:9",
+  "topics": [
+    "David's mighty men",
+    "loyalty before the throne",
+    "military valor"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of eleven Gadite warriors, described as lion-faced and swift as gazelles, who defected from Saul's territory to join David's forces at his wilderness stronghold and helped rout enemy forces across a flooded Jordan.",
+  "family_friendly_summary": "Before David became king, while he was hiding from King Saul, brave warriors from different tribes began joining him. A group of eleven skilled soldiers from the tribe of Gad crossed over to join David at his stronghold in the wilderness. The Bible describes them as fierce and quick, like lions and gazelles. One of them was named Obadiah. Together, this group even crossed the Jordan River while it was flooding over its banks, and they drove back enemy forces on both sides. Their courage and loyalty to David, even before he was king, made them stand out as some of his mighty men.",
+  "adult_story": "Obadiah was one of eleven Gadite warriors named in 1 Chronicles 12 among the men who defected to David while he was still an outlaw fleeing King Saul, gathering at \"the stronghold in the wilderness\" (12:8). Chronicles describes the group in vivid terms: \"mighty men of valor, men trained for war, who could handle shield and spear, whose faces were like the faces of lions, and who were as swift as gazelles on the mountains\" (12:8). Obadiah is listed second in a ranked roster of the eleven, each apparently ordered by military standing, from Ezer down to Machbannai, \"the least was equal to a hundred and the greatest to a thousand\" (12:14). The chapter records a specific feat accomplished by this company: \"these are the ones who crossed the Jordan in the first month when it was overflowing all its banks, and they put to flight all those in the valleys, both toward the east and toward the west\" (12:15) -- a dangerous river crossing at floodstage followed by a successful rout of enemies on both banks. Their defection to David during his most vulnerable years, before he held any throne, is remembered in Chronicles as an example of loyal, capable men recognizing, ahead of the rest of Israel, who the LORD had actually chosen.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure with helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

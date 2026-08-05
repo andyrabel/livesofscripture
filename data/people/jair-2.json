@@ -2,17 +2,45 @@
   "person_id": "jair-2",
   "name": "Jair",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Gilead"
+  ],
   "references": [
     "Judges 10:3-5"
   ],
   "first_reference": "Judges 10:3-5",
+  "topics": [
+    "quiet faithfulness",
+    "prosperity",
+    "the judges cycle"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of the 'minor judges,' a Gileadite who judged Israel twenty-two years; his thirty sons rode thirty donkeys and governed thirty towns in Gilead called Havvoth-jair.",
+  "family_friendly_summary": "Jair was a judge from Gilead who led Israel for twenty-two years. The Bible tells us he had thirty sons, and each of them rode his own donkey and ruled over one of thirty towns in Gilead, which came to be called Havvoth-jair, meaning \"the towns of Jair.\" Unlike some judges whose stories involve battles or dramatic rescues, Jair's account is a quiet one -- the Bible simply tells us he judged faithfully for over two decades and that his family was large and well-respected. His short story sits among a handful of judges the Bible mentions only briefly, between the more dramatic accounts of Gideon and Jephthah.",
+  "adult_story": "Jair the Gileadite judged Israel for twenty-two years, one of the so-called \"minor judges\" whose accounts Scripture gives in only a few verses, sandwiched between the far longer narratives of Tola and Jephthah (Judges 10:1-5). He had thirty sons, and Scripture notes a specific mark of prosperity and standing: each son rode his own donkey, and together they possessed thirty towns in the land of Gilead, which were called Havvoth-jair (\"the villages of Jair\") \"to this day\" (10:4). This name recalls an earlier conquest-era Jair, a descendant of Manasseh, who had captured Gilead's villages generations before (Numbers 32:41; Deuteronomy 3:14) -- whether this judge is a descendant reclaiming or simply inheriting that name is not stated. Jair died and was buried in Camon. His brief, uneventful account stands in the book of Judges' larger pattern: after each cycle of Israel's apostasy, oppression, and deliverance, a period of stability follows under a judge, sometimes narrated at length, sometimes -- as with Jair -- reduced to a single note about a peaceful, prosperous tenure. That very silence is its own witness: not every faithful leader's story is dramatic, and Scripture still records his name and years among Israel's judges.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

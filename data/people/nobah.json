@@ -2,17 +2,47 @@
   "person_id": "nobah",
   "name": "Nobah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "region": "moab-transjordan",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Kenath",
+    "Gilead"
+  ],
   "references": [
     "Numbers 32:42"
   ],
   "first_reference": "Numbers 32:42",
+  "topics": [
+    "conquest of the Transjordan",
+    "tribal inheritance",
+    "Manasseh"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A leader of Manasseh who captured the Amorite town of Kenath and its surrounding villages during Israel's conquest of the Transjordan, renaming it Nobah after himself.",
+  "family_friendly_summary": "As the Israelites were settling the land east of the Jordan River before crossing into Canaan, a man named Nobah led an attack and captured a town called Kenath, along with the smaller villages around it. Afterward, he renamed the town after himself -- it became known as Nobah. This happened around the same time other Israelite leaders were claiming and naming towns and land for their families in that same region, as God gave Israel victory over the people living there.",
+  "adult_story": "Nobah appears briefly in the closing account of Israel's conquest of the Transjordan, the territory east of the Jordan River that the tribes of Reuben, Gad, and half of Manasseh requested and received as their inheritance (Numbers 32). As various clan leaders within these tribes moved to occupy and secure the land, Scripture records: \"Nobah went and took Kenath and its villages, and called it Nobah after his own name\" (Numbers 32:42). This follows immediately after a similar notice about Jair, a descendant of Manasseh, who captured a cluster of towns in Gilead and renamed them \"Havvoth-jair\" (32:41), and Machir's earlier capture of Gilead itself (32:39-40). Naming a conquered town after oneself was a way of marking a lasting claim on the land for one's family line. \"Nobah\" as a place-name does appear later, in Judges 8:11, when Gideon pursues the fleeing Midianite kings \"by the caravan route east of Nobah and Jogbehah\" -- generally understood as the same town, still carrying Nobah's name generations later. Beyond this single act of conquest and naming, Scripture tells us nothing more about Nobah himself -- but his name endured on the map of Gilead long after he is last mentioned.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: figure with helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

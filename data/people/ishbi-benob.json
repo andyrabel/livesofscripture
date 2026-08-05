@@ -2,17 +2,45 @@
   "person_id": "ishbi-benob",
   "name": "Ishbi-benob",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Philistia"
+  ],
   "references": [
     "2 Samuel 21:16"
   ],
   "first_reference": "2 Samuel 21:16",
+  "topics": [
+    "warfare against the Philistines",
+    "David's vulnerability",
+    "the giants of Gath"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Philistine warrior descended from the giant Rapha, armed with a massive bronze-tipped spear, who nearly killed an exhausted King David in battle before David's men intervened.",
+  "family_friendly_summary": "Ishbi-benob was a huge Philistine warrior, descended from a family of giants, who fought against King David and his men. During one battle, David grew very tired -- he had been king a long time and fighting was harder for him now. Ishbi-benob, carrying a massive new weapon, saw his chance and moved to attack the worn-out king. But one of David's mighty men, Abishai, rushed in and rescued David, striking Ishbi-benob down. After that, David's men made him promise not to go out into battle anymore, because they didn't want to lose their king. It shows how much David's loyal soldiers loved and protected him.",
+  "adult_story": "Ishbi-benob was a Philistine warrior descended from the giant clan of Rapha, armed with a new sword and a bronze spearhead weighing three hundred shekels -- roughly seven and a half pounds (2 Samuel 21:16). During ongoing war between Israel and the Philistines, David went out with his men to fight, but by this point in his reign he was worn down by age and combat. Ishbi-benob \"intended to kill David,\" seeing the king's exhaustion as an opening (21:16). Before he could strike, Abishai, the son of Zeruiah, came to David's aid, struck the Philistine down, and killed him (21:17). Shaken by how close their king had come to death, David's men swore an oath afterward: \"You shall not go out again with us to battle, so that you do not extinguish the lamp of Israel\" (21:17). Ishbi-benob's brief, violent appearance marks a turning point in David's story -- the once-unstoppable warrior-king now needed his men to fight for him, and to protect him from himself. His account sits among a cluster of stories about the giant descendants of Rapha whom David's mighty men defeated in these later Philistine wars (21:15-22).",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "raphah",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

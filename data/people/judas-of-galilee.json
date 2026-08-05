@@ -2,17 +2,44 @@
   "person_id": "judas-of-galilee",
   "name": "Judas of Galilee",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Galilee"
+  ],
   "references": [
     "Acts 5:37"
   ],
   "first_reference": "Acts 5:37",
+  "topics": [
+    "failed rebellion",
+    "God's sovereignty over movements"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A rebel leader recalled by the Pharisee Gamaliel before the Sanhedrin, who rose up during the Roman census and drew away followers before perishing and seeing his movement scattered -- cited as a cautionary precedent when the council debated what to do with the apostles.",
+  "family_friendly_summary": "Judas of Galilee is mentioned only once in the Bible, in a speech given by a wise Jewish teacher named Gamaliel. When the Jewish council was deciding whether to punish Jesus' apostles for preaching, Gamaliel reminded them of earlier men who had started movements that eventually failed on their own. One of these was Judas of Galilee, who led a large group of followers during a Roman census but was killed, and his followers scattered afterward. Gamaliel used this example to argue that if the apostles' message wasn't truly from God, it would fail the same way -- but if it was from God, fighting against it would be fighting against God Himself.",
+  "adult_story": "Judas of Galilee appears only within a speech by Gamaliel, a respected Pharisee and teacher of the law, addressing the Sanhedrin as it debated what to do with the apostles after their miraculous release from prison (Acts 5:17-40). Urging caution, Gamaliel recalls two recent failed uprisings as evidence that movements not established by God collapse on their own: first Theudas, then \"Judas of Galilee,\" who \"rose up in the days of the census and drew away some people after him; he too perished, and all those who followed him were scattered\" (5:37). The census in view is most likely the Roman registration under Quirinius around A.D. 6, which provoked armed resistance from Jews who saw submission to Roman taxation as disloyalty to God alone as king -- a revolt the Jewish historian Josephus also records, describing Judas as a leading instigator whose movement is sometimes linked to the roots of the later Zealot party. Gamaliel's point was that if the apostles' movement was merely human, like Judas's, it would likewise fail; but if it was from God, the council would find itself fighting against God. Judas's brief, unflattering appearance functions as a foil: a would-be deliverer whose rebellion ended in death and scattered followers, set against the apostles' gospel, which the rest of Acts shows could not be stopped.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

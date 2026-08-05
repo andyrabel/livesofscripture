@@ -2,17 +2,44 @@
   "person_id": "persis",
   "name": "Persis",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Rome"
+  ],
   "references": [
     "Romans 16:12"
   ],
   "first_reference": "Romans 16:12",
+  "topics": [
+    "faithful service",
+    "women in the early church"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A Christian woman in Rome whom Paul greets by name in Romans 16, commending her as \"beloved\" and noting that she \"has worked hard in the Lord.\"",
+  "family_friendly_summary": "Near the end of his letter to the Romans, Paul sends personal greetings to many people he knew in the church there. One of them is a woman named Persis. Paul doesn't tell a long story about her, but he calls her \"the beloved Persis\" and says she \"has worked hard in the Lord\" -- meaning she was known for serving faithfully and working hard for God's people. Even though we don't know the details of what she did, Paul's brief words show that her effort was noticed, valued, and worth naming, out of the many believers quietly serving the early church.",
+  "adult_story": "Persis is named only once in Scripture, among the long list of personal greetings Paul sends at the close of his letter to the Romans (Romans 16:1-16). Most names on the list receive a bare mention, but Paul singles out a handful, including Persis, with a specific commendation: \"Greet Persis the beloved, who has worked hard in the Lord\" (16:12). The same phrase -- \"worked hard\" -- is used of at least two other women in this chapter (Mary, v. 6, and Tryphaena and Tryphosa, also v. 12), suggesting sustained, costly labor in gospel ministry rather than a passing courtesy. Nothing else is recorded about Persis: not her role, her location within Rome, or the nature of her work. What Scripture does preserve is Paul's evident personal affection and respect for her -- \"the beloved\" -- and public acknowledgment that her labor for Christ's church was real and worth naming, even though the details have not survived.",
+  "image": {
+    "file": "generic-woman.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "female"
 }

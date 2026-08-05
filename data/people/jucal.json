@@ -2,17 +2,44 @@
   "person_id": "jucal",
   "name": "Jucal",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Jeremiah 38:1"
   ],
   "first_reference": "Jeremiah 38:1",
+  "topics": [
+    "opposition to a prophet",
+    "the siege of Jerusalem"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of four royal officials in besieged Jerusalem who, angered by Jeremiah's message that surrender to Babylon meant survival, had the prophet lowered into a muddy cistern to die.",
+  "family_friendly_summary": "As the Babylonian army surrounded Jerusalem, the prophet Jeremiah kept telling the people God's true message: that anyone who left the city and surrendered would live, but anyone who stayed would die. Four of the king's officials, including a man named Jucal, were angry that Jeremiah's words were discouraging the soldiers and people from fighting. They went to King Zedekiah and convinced him to let them deal with Jeremiah, and Jeremiah was lowered by ropes into an empty cistern, where he sank down into deep mud. Jeremiah was later rescued by a man named Ebed-melech, who convinced the king to pull him back out. Jucal's story is a reminder that speaking God's truth is not always welcomed, even by a nation's own leaders.",
+  "adult_story": "Jucal son of Shelemiah was one of four officials in Jerusalem's royal court -- alongside Shephatiah, Gedaliah, and Pashhur -- who heard Jeremiah proclaiming God's word to the people during the Babylonian siege: that whoever stayed in the city would die by sword, famine, or plague, but whoever surrendered to the Chaldeans would live (Jeremiah 38:1-2). Convinced that Jeremiah's message was demoralizing the soldiers and undermining the city's defense, Jucal and the others went to King Zedekiah and demanded that Jeremiah be put to death, calling him a threat to the people's welfare (38:4). Zedekiah, weak and unwilling to oppose his own officials, handed Jeremiah over to them, and they lowered him by ropes into Malchijah's cistern, where he sank into the mud at the bottom (38:5-6). Jeremiah would have died there had Ebed-melech the Cushite not intervened and persuaded the king to let him be pulled out (38:7-13). Jucal's role in this episode places him among those in Judah's final years who treated a genuine word from the LORD as sedition rather than warning -- a pattern the book of Jeremiah repeatedly identifies as part of why Jerusalem's fall could not be averted.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shelemiah-8",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

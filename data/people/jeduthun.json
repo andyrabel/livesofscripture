@@ -2,8 +2,15 @@
   "person_id": "jeduthun",
   "name": "Jeduthun",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "1 Chronicles 9:16",
     "1 Chronicles 16:38-42",
@@ -17,6 +24,22 @@
     "Psalms 77:0"
   ],
   "first_reference": "1 Chronicles 9:16",
+  "topics": [
+    "temple music and worship",
+    "prophesying through song",
+    "faithful service across generations"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Jeduthun is widely thought to be the same man called Ethan the Ezrahite, one of the three Levites -- with Heman and Asaph -- first appointed as chief musicians when the ark was brought to Jerusalem (1 Chronicles 15:17, 19), since later texts consistently list Jeduthun in that same third position alongside Heman and Asaph. Scripture itself never explicitly states the two names refer to one man, so the identification, though widely accepted, is not certain.",
+  "source_summary": "One of David's three chief temple musicians, alongside Asaph and Heman, whose family formed one of the twenty-four courses of Levitical singers; associated with Psalms 39, 62, and 77, and remembered generations later as \"the king's seer\" during Hezekiah's and Josiah's reforms.",
+  "family_friendly_summary": "Jeduthun was one of three men King David chose to lead the music and worship at God's house in Jerusalem, along with Asaph and Heman. Jeduthun and his sons played instruments and sang, and the Bible even says they \"prophesied\" with their lyres -- using music to praise God and proclaim His truth. Three psalms in the book of Psalms mention Jeduthun by name in their titles. Long after Jeduthun's own lifetime, his family kept serving as musicians for generations, including during the temple celebrations under later kings like Hezekiah and Josiah, when Jeduthun is remembered with the special title \"the king's seer.\"",
+  "adult_story": "When David brought the ark of the covenant to Jerusalem and organized worship there, he appointed Jeduthun, along with Asaph and Heman, over the service of song (1 Chronicles 16:41-42; 25:1). Jeduthun's sons were set apart \"to prophesy with the lyre in giving thanks and praising the LORD\" (25:1, 3), and his family became one of the twenty-four courses of Levitical musicians who ministered in rotation at the sanctuary (25:1-6; 9:16). Three psalms carry his name in their titles -- Psalms 39, 62, and 77 -- traditionally understood as psalms performed \"according to Jeduthun,\" possibly indicating a musical style or choir associated with his line. Jeduthun's family's ministry outlasted his own lifetime by centuries: his descendants sang at the dedication of Solomon's temple (2 Chronicles 5:12), took part in Hezekiah's reconsecration of the temple (29:14), and served again at Josiah's great Passover celebration, where Jeduthun himself is remembered by the striking title \"the king's seer\" (35:15) -- language elsewhere reserved for prophets who spoke on the king's behalf. Jeduthun's story is less a single dramatic episode than a lifelong, generational vocation: leading God's people in sung worship that Scripture treats as itself a form of prophetic proclamation, faithfully carried on by his family long after him.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
@@ -30,6 +53,11 @@
       "shimei-10",
       "zeri"
     ]
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

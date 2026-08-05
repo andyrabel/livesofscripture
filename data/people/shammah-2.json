@@ -2,17 +2,42 @@
   "person_id": "shammah-2",
   "name": "Shammah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "2 Samuel 23:11"
   ],
   "first_reference": "2 Samuel 23:11",
+  "topics": [
+    "courage in battle",
+    "David's mighty men",
+    "trust in the LORD"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of David's three chief mighty men, remembered for single-handedly holding a field of lentils against a Philistine raiding party after the rest of Israel's army fled, resulting in a great victory Scripture credits to the LORD.",
+  "family_friendly_summary": "Shammah was one of David's three strongest and bravest warriors, called \"the three mighty men.\" One time, the Philistine army attacked Israel at a field full of lentil plants, and all the Israelite soldiers ran away in fear. But Shammah did not run. He stood alone in the middle of the field and fought off the entire enemy attack by himself. Because of his courage, the Bible says the LORD won a great victory that day. Shammah's story reminds us that real courage often means standing firm when everyone else is running away, and that victory ultimately belongs to God.",
+  "adult_story": "Shammah son of Agee the Hararite was one of David's \"three mighty men,\" an elite trio distinguished among David's larger circle of thirty warriors for extraordinary individual feats in battle (2 Samuel 23:8-12). Scripture records one such episode: the Philistines massed for battle at a plot of ground full of lentils, and the Israelite troops broke and fled before them. Shammah alone did not flee. He took his stand in the middle of the field, defended it against the entire enemy assault, and struck the Philistines down (23:11-12). The text is careful to credit the outcome not merely to Shammah's skill but to the LORD: \"the LORD brought about a great victory.\" This pairs Shammah with the account immediately before his, of Eleazar son of Dodo, who likewise stood his ground alone after Israel's army withdrew and won because \"the LORD brought about a great victory that day\" (23:9-10) -- the same refrain used twice, underscoring that these mighty men's individual courage was real, but their victories were understood in Israel as gifts of God's power rather than human strength alone. Beyond this single field, nothing more is recorded of Shammah's life, but this one stand is enough to place him permanently among David's most celebrated warriors.",
+  "image": {
+    "file": "generic-warrior.png",
+    "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "agee",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

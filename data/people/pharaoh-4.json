@@ -2,8 +2,15 @@
   "person_id": "pharaoh-4",
   "name": "Pharaoh",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Exodus/Wilderness",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "Exodus 3:10-19",
     "Exodus 4:21-22",
@@ -34,11 +41,33 @@
     "Romans 9:17"
   ],
   "first_reference": "Exodus 3:10-19",
+  "topics": [
+    "the ten plagues",
+    "hardened heart",
+    "the Exodus",
+    "Red Sea"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "Scripture does not name this Pharaoh, and his historical identity is tied to the same disputed early-date (c. 1446 BC) versus late-date (c. 1250 BC) Exodus chronology noted on the previous Pharaoh's entry. Exodus repeatedly says both that Pharaoh hardened his own heart and that the LORD hardened Pharaoh's heart (e.g. Exodus 8:15; 9:12) -- interpreters differ on how to relate divine sovereignty and human responsibility here, and the text affirms both without resolving the tension philosophically.",
+  "source_summary": "The Egyptian king who repeatedly refused Moses and Aaron's demand to let Israel go despite ten devastating plagues, finally releasing them after the death of Egypt's firstborn, then pursued Israel to the Red Sea where his army was destroyed.",
+  "family_friendly_summary": "This new Pharaoh became king after the one who had tried to kill Moses died. When Moses and his brother Aaron came to him with God's message -- \"Let my people go\" -- Pharaoh refused, again and again, even as God sent ten terrible plagues on Egypt: blood, frogs, gnats, flies, sick animals, boils, hail, locusts, darkness, and finally the death of every Egyptian firstborn son. After that last plague, a grieving Pharaoh finally let Israel leave. But he quickly changed his mind and chased them with his army all the way to the Red Sea. God parted the sea so Israel could cross safely, and when Pharaoh's army followed, the water closed over them. Pharaoh's stubborn refusal to obey God led to disaster for his whole nation.",
+  "adult_story": "This Pharaoh took the throne after his predecessor's death (Exodus 2:23) and became the central figure God worked through to redeem Israel from slavery. When Moses and Aaron demanded, \"Let My people go,\" Pharaoh refused and increased Israel's labor instead (Exodus 5:1-9). Ten plagues followed -- blood, frogs, gnats, flies, livestock death, boils, hail, locusts, darkness, and finally the death of every Egyptian firstborn -- as Pharaoh repeatedly refused Moses' demand, sometimes offering partial concessions before reneging (chapters 7-10). Scripture says both that Pharaoh hardened his own heart and that the LORD hardened it (8:15; 9:12), a tension the text states without resolving. After the tenth plague killed his own son along with every firstborn in Egypt, a broken Pharaoh finally drove Israel out in the night (12:29-33). He then changed his mind, pursued Israel with chariots, and trapped them at the Red Sea -- only to watch the sea part for Israel and then collapse over his own army, destroying it completely (14:5-28). Later Scripture returns to this Pharaoh repeatedly as the paradigm case of God's power over the proudest earthly ruler: God raised him up \"to demonstrate My power in you, and that My name might be proclaimed throughout the whole earth\" (9:16, quoted in Romans 9:17), and Israel's exodus from under his hand became its defining story of redemption, recalled for generations (Deuteronomy 6:21-22; Psalm 136:15).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: king figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,17 +2,45 @@
   "person_id": "hashabneiah-2",
   "name": "Hashabneiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "Nehemiah 9:5"
   ],
   "first_reference": "Nehemiah 9:5",
+  "topics": [
+    "worship leadership",
+    "corporate confession",
+    "covenant renewal"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of eight Levites named in Nehemiah 9:5 who called the assembled people to stand and bless the LORD, introducing the long corporate prayer of confession that follows at the covenant-renewal gathering after Jerusalem's wall was completed.",
+  "family_friendly_summary": "After the walls of Jerusalem were finished, the people gathered to hear God's Word read aloud and to admit the ways they had disobeyed Him. A group of Levites -- helpers who served God in worship -- stood up to lead the people. Hashabneiah was one of them. He and the others called out, \"Stand up and bless the LORD your God forever and ever!\" Then they led the people in a long prayer, remembering all the ways God had been faithful from the very beginning, even when His people had not been faithful to Him. Hashabneiah's part in the story is small, but it mattered -- he helped call God's people back to worship and honest confession.",
+  "adult_story": "Hashabneiah was one of eight Levites -- alongside Jeshua, Kadmiel, Bani, Sherebiah, Hodiah, Shebaniah, and Pethahiah -- named in Nehemiah 9:5 at a great assembly following the completion of Jerusalem's wall. The people had gathered to hear the Law read (Nehemiah 8), then returned in sackcloth and dust to fast, confess their sins, and separate themselves from foreign entanglements (9:1-3). Hashabneiah and his fellow Levites stood and called the assembly to worship: \"Stand up, bless the LORD your God forever and ever! Blessed be Your glorious name.\" Their call introduces one of Scripture's longest corporate prayers (9:6-37), a sweeping recital of God's covenant faithfulness -- creation, the call of Abraham, the exodus, the wilderness, the conquest, the era of judges and kings, and the exile -- set against Israel's repeated rebellion. The prayer culminates in a sober confession: \"You are just in all that has come upon us, for You have dealt faithfully, but we have acted wickedly.\" Hashabneiah is not individually distinguished beyond appearing in this list of worship leaders, but his role -- summoning a repentant, restored community to bless God before recounting both His mercy and their own failure -- is a real, if modest, part of one of the Old Testament's great moments of corporate repentance and covenant renewal.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,19 +2,43 @@
   "person_id": "iddo-4",
   "name": "Iddo",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
   "references": [
     "2 Chronicles 9:29",
     "2 Chronicles 12:15",
     "2 Chronicles 13:22"
   ],
   "first_reference": "2 Chronicles 9:29",
+  "topics": [
+    "prophetic record-keeping",
+    "royal chronicles"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A prophet (\"seer\") during the reigns of Solomon, Rehoboam, and Abijah, cited three times in Chronicles as the author of now-lost written records concerning each king's acts.",
+  "family_friendly_summary": "Iddo was a prophet, also called a \"seer,\" who lived during the time of three kings of Israel and Judah: Solomon, Rehoboam, and Abijah. The Bible tells us that Iddo wrote down records about what happened during these kings' reigns -- these writings are called \"the visions of Iddo the seer\" and \"the chronicles of Iddo the seer\" in the book of 2 Chronicles. Sadly, these actual writings have not survived to today; we only know they once existed because 2 Chronicles mentions them as sources. Iddo's story reminds us that many faithful people recorded God's work among His people, even when their own writings did not last.",
+  "adult_story": "Iddo appears not as an actor in a narrated scene but as a named, respected source cited three times by the Chronicler. Concerning Solomon's reign, 2 Chronicles points readers to \"the visions of Iddo the seer concerning Jeroboam the son of Nebat\" for further acts of Solomon (9:29). Concerning Rehoboam, it cites \"the chronicles of Shemaiah the prophet and of Iddo the seer, according to genealogical enrollment\" (12:15). Concerning Abijah, it points to \"the treatise of the prophet Iddo\" (13:22). Each reference identifies Iddo by the prophetic title \"seer\" and credits him with an extensive written record -- now lost -- covering three successive reigns spanning the end of the united monarchy and the earliest years of the divided kingdom. That none of Iddo's writing survives outside these citations is itself instructive: Scripture treats faithful prophetic record-keeping as valuable even when the record itself does not endure, and it names its sources rather than presenting royal history anonymously. Iddo stands alongside Nathan, Gad, Shemaiah, and other named prophet-historians the Chronicler relies on, a reminder that Israel's prophets served as both its conscience and its court record.",
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: robed figure with both arms raised, mouth open as if crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

@@ -2,8 +2,16 @@
   "person_id": "james-3",
   "name": "James",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Nazareth",
+    "Jerusalem"
+  ],
   "references": [
     "Matthew 13:55",
     "Matthew 27:56",
@@ -15,11 +23,32 @@
     "Jude 1:1"
   ],
   "first_reference": "Matthew 13:55",
+  "topics": [
+    "from skeptic to leader",
+    "epistle author",
+    "family of Jesus"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "This entry's reference list touches an identification question Scripture does not fully resolve. Matthew 13:55 and Mark 6:3 name James as a brother of Jesus, and James 1:1 and Jude 1:1 are traditionally understood as this same James (the Lord's brother) and his brother Jude. But Matthew 27:56, Mark 15:40, Mark 16:1, and Luke 24:10 name a \"Mary the mother of James\" among the women at the cross and empty tomb -- most interpreters identify this James as James the son of Alphaeus, a different man among the Twelve, since none of these texts call this Mary \"the mother of Jesus.\" This entry follows the majority reading (James, the Lord's brother) rather than treating the two as certainly the same person.",
+  "source_summary": "One of Jesus' half-brothers, named among His siblings during His earthly ministry; though skeptical of Jesus at first, he is understood, together with the New Testament epistle bearing his name, to be the James who became a leading figure among the early Jerusalem believers.",
+  "family_friendly_summary": "James was one of Jesus' younger half-brothers, growing up in the same household in Nazareth. During Jesus' ministry, His brothers -- including James -- didn't yet believe He was the Messiah. But something changed for James, and he became a respected leader among the first Christians. James wrote one of the letters in the New Testament that bears his name, full of practical wisdom about living out real faith -- famous for saying that faith without action is dead. His brother Jude also wrote a New Testament letter and introduced himself simply as \"a brother of James,\" showing how well-known and respected James had become among believers.",
+  "adult_story": "James grew up in Nazareth as one of Jesus' younger half-brothers, the son of Mary, named alongside Joseph, Simon, and Judas when Jesus' hometown neighbors questioned how a mere \"carpenter's son\" could teach with such authority (Matthew 13:55; Mark 6:3). During Jesus' earthly ministry His brothers were not among His followers -- John records elsewhere that \"not even His brothers were believing in Him\" -- which makes James's later transformation striking. By the time the New Testament epistle bearing his name was written, its author identifies himself simply: \"James, a bond-servant of God and of the Lord Jesus Christ\" (James 1:1), writing with pastoral authority to scattered Jewish believers about enduring trials, controlling the tongue, and the insistence that genuine faith always produces works -- \"faith without works is dead\" (James 2:26). His brother Jude introduces his own letter by identifying himself as \"a bond-servant of Jesus Christ, and brother of James\" (Jude 1:1), evidence of how recognized James's standing had become among early believers. Widely understood alongside these letters as the James who came to lead the Jerusalem church after the resurrection, his path -- from a skeptical brother to a servant who calls himself Christ's bond-servant -- traces one of the New Testament's clearest arcs from unbelief to devoted leadership.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": "mary",
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

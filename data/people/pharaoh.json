@@ -2,17 +2,45 @@
   "person_id": "pharaoh",
   "name": "Pharaoh",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Egypt"
+  ],
   "references": [
     "Genesis 12:15-20"
   ],
   "first_reference": "Genesis 12:15-20",
+  "topics": [
+    "divine protection",
+    "deception exposed",
+    "God's providence"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The unnamed Egyptian king who took Abram's wife Sarai into his household after Abram, fearing for his life, passed her off as his sister; when the LORD struck Pharaoh's house with plagues, he confronted Abram and sent them away.",
+  "family_friendly_summary": "When a famine forced Abram and his wife Sarai to go to Egypt, Abram was afraid the Egyptians might kill him to take Sarai, so he asked her to say she was his sister instead of his wife. Pharaoh, the king of Egypt, saw how beautiful Sarai was and took her into his palace, giving Abram many gifts. But God sent serious troubles on Pharaoh's household because of it. Somehow Pharaoh learned the truth -- that Sarai was really Abram's wife -- and he was upset that Abram hadn't told him. Pharaoh gave Sarai back to Abram and sent them both safely out of Egypt.",
+  "adult_story": "When a famine drove Abram down to Egypt, he told his wife Sarai to say she was his sister, fearing the Egyptians would kill him for her sake since she was beautiful (Genesis 12:10-13) -- a half-truth Abram would repeat later with another king (Genesis 20). Pharaoh's officials saw Sarai and praised her to Pharaoh, and she was taken into his household; Pharaoh treated Abram well for her sake, giving him sheep, oxen, donkeys, servants, and camels (12:14-16). But \"the LORD struck Pharaoh and his house with great plagues because of Sarai, Abram's wife\" (12:17). Scripture does not say how Pharaoh learned the truth, only that he did, and summoned Abram to confront him directly: \"What is this you have done to me? Why did you not tell me that she was your wife? Why did you say, 'She is my sister,' so that I took her as my wife? Now then, here is your wife, take her and go\" (12:18-19). Pharaoh then had his men send Abram away with his wife and everything he had (12:20). Despite being the wronged party, Pharaoh's household bore God's judgment for Abram's deception -- a striking early instance of God protecting the ancestral line of His promise even when the patriarch's own faith faltered and endangered it.",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: king figure with crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

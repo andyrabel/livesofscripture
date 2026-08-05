@@ -2,8 +2,17 @@
   "person_id": "shalmaneser",
   "name": "Shalmaneser",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Assyria",
+    "Samaria",
+    "Kingdom of Israel"
+  ],
   "references": [
     "2 Kings 17:3-27",
     "2 Kings 18:7-11",
@@ -13,11 +22,33 @@
     "Isaiah 14:4"
   ],
   "first_reference": "2 Kings 17:3-27",
+  "topics": [
+    "Assyrian conquest",
+    "fall of Israel",
+    "exile",
+    "divine judgment"
+  ],
+  "interpretive_dispute": true,
+  "interpretive_note": "2 Kings 17-18 attributes the three-year siege and capture of Samaria to Shalmaneser, but Assyrian records credit the city's actual fall to his successor Sargon II, who took the throne right around the same time. Historians differ on how to reconcile the two accounts -- most likely Shalmaneser began the siege and died before it concluded, with Sargon II completing the conquest.",
+  "source_summary": "King of Assyria (r. c. 727-722 BC) who invaded the northern kingdom of Israel after King Hoshea's rebellion, besieged the capital Samaria for three years, and brought about the fall and exile of the ten northern tribes.",
+  "family_friendly_summary": "Shalmaneser was a powerful king who ruled the Assyrian Empire. In the Bible, he is the king who conquered the northern kingdom of Israel. King Hoshea of Israel had been paying Shalmaneser tribute money to keep peace, but then secretly asked Egypt for help and stopped paying. Shalmaneser found out, arrested Hoshea, and marched his army against Israel's capital city, Samaria. His soldiers surrounded the city for three years before it finally fell. Afterward, the Assyrians marched many people from Israel far away to other lands, and brought foreign people to live in Israel instead. The Bible says this happened because Israel had turned away from God to worship idols, despite many warnings from His prophets.",
+  "adult_story": "Shalmaneser V ruled Assyria for about five years (c. 727-722 BC) and appears in Scripture as the king who ended the northern kingdom of Israel. King Hoshea of Israel had submitted to him and paid tribute, but then conspired with the king of Egypt (So) and withheld payment. When Shalmaneser discovered the betrayal, he seized Hoshea and imprisoned him, then invaded the land and besieged Samaria, Israel's capital, for three years (2 Kings 17:3-5). The city finally fell -- Assyrian records credit the capture to Shalmaneser's successor Sargon II, who took the throne around the time Samaria fell, so it may be that Shalmaneser began the siege and died before its conclusion. Assyria then deported the population of Israel to Halah, Habor, the river Gozan, and the cities of the Medes, and resettled the land with foreign peoples, mixing Israel's identity permanently among the nations (2 Kings 17:6, 24). 2 Kings pauses its narrative here for a lengthy theological verdict: this catastrophe came not from Assyria's strength but because Israel had persistently sinned against the LORD, worshiped idols, ignored repeated prophetic warnings, and \"walked in the customs of the nations\" (17:7-23). Isaiah likewise names Shalmaneser's Assyria as the instrument, however unwitting, of God's judgment on His unfaithful people (Isaiah 10:5-12).",
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

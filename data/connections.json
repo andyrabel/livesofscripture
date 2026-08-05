@@ -11487,13 +11487,6 @@
     "mutual": false
   },
   {
-    "from": "king-of-the-south",
-    "to": "daughter-of-the-king-of-the-south",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
     "from": "beeri",
     "to": "hosea",
     "label": "begot",

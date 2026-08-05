@@ -2,17 +2,44 @@
   "person_id": "jonadab",
   "name": "Jonadab",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "United Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
   "references": [
     "2 Samuel 13:3-35"
   ],
   "first_reference": "2 Samuel 13:3-35",
+  "topics": [
+    "shrewd but destructive counsel",
+    "complicity in family tragedy"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "David's nephew and Amnon's cousin, Jonadab was \"a very shrewd man\" who devised the scheme by which Amnon lured his half-sister Tamar into his room and violated her, and later coolly informed David that only Amnon, not all his sons, had been killed in Absalom's revenge.",
+  "family_friendly_summary": "Jonadab was King David's nephew, described in the Bible as very clever. When his cousin Amnon was troubled and lovesick over his half-sister Tamar, Jonadab came up with a scheme to get the two of them alone together -- advice that led to Amnon doing something terrible to Tamar. This set off a chain of pain in David's family: Tamar's brother Absalom grew to hate Amnon and eventually had him killed. When rumors reached David that all his sons had been murdered, Jonadab was the one who calmly told the king that only Amnon was dead -- showing he had likely known Absalom's plan for revenge was coming all along. Jonadab's story is a sobering reminder that clever advice is not the same as good or right advice.",
+  "adult_story": "Jonadab, son of Shimeah, David's brother, is introduced as \"a very shrewd man\" (2 Samuel 13:3). When his cousin Amnon, David's firstborn, grew lovesick and frustrated over his desire for his half-sister Tamar, Jonadab asked why the king's son looked so haggard morning after morning, then devised the plan: Amnon should feign illness and ask David to send Tamar to prepare food for him alone in his room. Amnon followed the scheme exactly, and used the private access it created to violate Tamar despite her pleading (13:4-14). Jonadab's cleverness here is not neutral -- Scripture records it without softening what it enabled, one of the darkest episodes in David's family. The aftermath consumed the royal household: Tamar's full brother Absalom took her into his house desolate, nursed his hatred of Amnon for two full years, then had him murdered at a sheep-shearing feast (13:20-29). When the news first reached David as a rumor that all his sons were dead, it was Jonadab who spoke up with striking composure: \"Do not let my lord suppose they have put to death all the young men, the king's sons, for Amnon alone is dead\" -- knowledge so precise it strongly suggests Jonadab already knew of Absalom's plan for revenge (13:32-35). Jonadab disappears from the narrative after this, his shrewdness ultimately serving as an instrument of tragedy rather than wisdom.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "shimeah",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

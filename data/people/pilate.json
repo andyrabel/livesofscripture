@@ -4,8 +4,16 @@
   "alt_names": [
     "Pontius Pilate"
   ],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Gospels",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem",
+    "Judea"
+  ],
   "references": [
     "Matthew 27:2-65",
     "Mark 15:1-44",
@@ -20,11 +28,32 @@
     "1 Timothy 6:13"
   ],
   "first_reference": "Matthew 27:2-65",
+  "topics": [
+    "trial of Jesus",
+    "political expediency",
+    "moral compromise"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Roman prefect of Judea who presided over Jesus' trial, repeatedly declared Him innocent, yet caved to the crowd's demand and handed Him over to be crucified -- a figure independently confirmed as historical by Roman sources and a first-century inscription bearing his name.",
+  "family_friendly_summary": "Pontius Pilate was the Roman governor in charge of Judea when Jesus was arrested and put on trial. The Jewish leaders brought Jesus to Pilate because only Rome had the power to execute someone. Pilate questioned Jesus and told the crowd more than once that he found no real crime in Him. He even offered to release Jesus instead of a violent criminal named Barabbas, following a Passover custom, but the crowd, stirred up by the religious leaders, shouted for Barabbas to go free and for Jesus to be crucified instead. Even though he knew Jesus was innocent, Pilate was afraid of a riot and worried about his own position, so he gave in, symbolically washing his hands to say he wasn't responsible, and handed Jesus over to be crucified.",
+  "adult_story": "Pontius Pilate, Rome's governor over Judea, presided over Jesus' trial after Jewish leaders brought Him bound before him, since only Rome could carry out execution (John 18:28-31). Pilate questioned Jesus about His kingship; Jesus answered that His kingdom was 'not of this world' and that He had come 'to testify to the truth,' to which Pilate replied, 'What is truth?' and declared, 'I find no guilt in Him' (John 18:33-38). Learning Jesus was a Galilean, Pilate briefly sent Him to Herod Antipas before Jesus was returned (Luke 23:6-11). Pilate tried repeatedly to release Jesus -- offering the crowd a Passover choice between Jesus and the insurrectionist Barabbas, and having Jesus scourged, perhaps hoping that would satisfy them -- but the chief priests stirred the crowd to demand crucifixion instead (Matthew 27:15-23; John 19:1-6). Warned by his wife's troubling dream and his own conscience, Pilate still caved to the threat that releasing Jesus made him 'no friend of Caesar,' washed his hands before the crowd to declare himself innocent of Jesus' blood, and handed Him over to be crucified (Matthew 27:19,24; John 19:12-16). He ordered the inscription 'King of the Jews' placed over the cross and refused to change it despite the priests' objection (John 19:19-22), and later let Joseph of Arimathea take the body for burial (Mark 15:43-45). Pilate's decision, made against his own stated judgment, stands as Scripture's starkest picture of a man who knew the right thing to do and chose the expedient thing instead.",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }
