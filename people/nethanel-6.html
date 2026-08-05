@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Nethanel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Nethanel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 17:7</p>
+    </div>
     <div class="person-title">
-      <h2>Nethanel</h2>
+      <h2>Nethanel <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>One of five officials King Jehoshaphat sent throughout the cities of Judah, together with Levites and priests, to teach the Book of the Law of the LORD among the people.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Nethanel was one of the leaders King Jehoshaphat chose for a special job. Jehoshaphat wanted everyone in Judah to know what God&#x27;s law said, so in the third year of his reign he sent out a team of officials, along with priests and Levites, to travel to towns all across the land. Nethanel was one of five officials on that team. They carried the Book of the Law of the LORD with them and taught the people directly, city by city. It was part of Jehoshaphat&#x27;s larger effort to lead Judah back to faithfully following God, unlike some kings before and after him.</p>
+  <div class="story-tabs-wrapper" data-person-name="Nethanel">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Nethanel is named among five officials -- Ben-hail, Obadiah, Zechariah, Nethanel, and Micaiah -- whom King Jehoshaphat of Judah sent out in the third year of his reign as part of a deliberate program of national religious instruction (2 Chronicles 17:7). Jehoshaphat, one of Judah&#x27;s more faithful kings, paired these officials with a team of Levites and two priests, Elishama and Jehoram (17:8). Together &quot;they taught in Judah, having the book of the law of the LORD with them; and they went throughout all the cities of Judah and taught among the people&quot; (17:9). This was not a passive gesture -- it was an organized circuit of instruction reaching the whole kingdom, undertaken early in Jehoshaphat&#x27;s reign as part of the broader reforms Scripture credits him with, including removing pagan high places and Asherim from Judah (17:6). The chapter goes on to describe how surrounding nations, awed by the LORD&#x27;s evident hand on Judah, brought Jehoshaphat tribute and did not make war against him (17:10-11) -- framing this teaching mission as connected to the kingdom&#x27;s stability and blessing under a king who, unlike so many others, actively sought that his people know God&#x27;s word.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Nethanel was one of the leaders King Jehoshaphat chose for a special job. Jehoshaphat wanted everyone in Judah to know what God&#x27;s law said, so in the third year of his reign he sent out a team of officials, along with priests and Levites, to travel to towns all across the land. Nethanel was one of five officials on that team. They carried the Book of the Law of the LORD with them and taught the people directly, city by city. It was part of Jehoshaphat&#x27;s larger effort to lead Judah back to faithfully following God, unlike some kings before and after him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Nethanel is named among five officials -- Ben-hail, Obadiah, Zechariah, Nethanel, and Micaiah -- whom King Jehoshaphat of Judah sent out in the third year of his reign as part of a deliberate program of national religious instruction (2 Chronicles 17:7). Jehoshaphat, one of Judah&#x27;s more faithful kings, paired these officials with a team of Levites and two priests, Elishama and Jehoram (17:8). Together &quot;they taught in Judah, having the book of the law of the LORD with them; and they went throughout all the cities of Judah and taught among the people&quot; (17:9). This was not a passive gesture -- it was an organized circuit of instruction reaching the whole kingdom, undertaken early in Jehoshaphat&#x27;s reign as part of the broader reforms Scripture credits him with, including removing pagan high places and Asherim from Judah (17:6). The chapter goes on to describe how surrounding nations, awed by the LORD&#x27;s evident hand on Judah, brought Jehoshaphat tribute and did not make war against him (17:10-11) -- framing this teaching mission as connected to the kingdom&#x27;s stability and blessing under a king who, unlike so many others, actively sought that his people know God&#x27;s word.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 17:7</p>
   <p class="references-list">References: 2 Chronicles 17:7</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

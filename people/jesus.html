@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Jesus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Jesus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Colossians 4:11</p>
+    </div>
     <div class="person-title">
-      <h2>Jesus</h2>
+      <h2>Jesus <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Justus</div>
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>A Jewish-Christian companion of Paul, distinguished in Colossians as &quot;Jesus who is called Justus,&quot; one of only three Jewish believers among Paul&#x27;s fellow workers at the time who Paul says had been a genuine source of encouragement to him.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Near the end of his letter to the Colossians, Paul sends greetings from the friends who were with him. One of them was a Jewish believer named Jesus, who went by the nickname Justus so people would not mix him up with Jesus Christ. Paul mentions that Justus was one of only a few Jewish Christians working alongside him at the time, and he says plainly that Justus and his companions had been a real encouragement to him. It is a small window into how much Paul valued the loyal friends who stood by him, even when Scripture tells us almost nothing else about them.</p>
+  <div class="story-tabs-wrapper" data-person-name="Jesus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Near the close of his letter to the Colossians, Paul lists several companions sending greetings, including &quot;Jesus who is called Justus&quot; (Colossians 4:11) -- almost certainly using the nickname &quot;Justus&quot; (&quot;the just one&quot;) precisely to distinguish this man from Jesus Christ, since &quot;Jesus&quot; (Yeshua/Joshua) was a common Jewish name. Paul groups him with Aristarchus and Mark as &quot;the only fellow workers for the kingdom of God who are of the circumcision&quot; -- that is, Jewish believers -- among those currently with him, and adds a simple but meaningful commendation: &quot;they have proved to be an encouragement to me&quot; (4:10-11). Writing from prison, with many former associates having drifted or opposed him, Paul singles out the loyalty of this small remaining circle of Jewish Christian coworkers. Nothing else is recorded about Justus&#x27;s background, ministry, or later life. What survives is this one line of gratitude -- a reminder that Scripture does not only record dramatic conversions and mighty deeds, but also quietly honors the faithful companions whose steady presence sustained an apostle through imprisonment.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Near the end of his letter to the Colossians, Paul sends greetings from the friends who were with him. One of them was a Jewish believer named Jesus, who went by the nickname Justus so people would not mix him up with Jesus Christ. Paul mentions that Justus was one of only a few Jewish Christians working alongside him at the time, and he says plainly that Justus and his companions had been a real encouragement to him. It is a small window into how much Paul valued the loyal friends who stood by him, even when Scripture tells us almost nothing else about them.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Near the close of his letter to the Colossians, Paul lists several companions sending greetings, including &quot;Jesus who is called Justus&quot; (Colossians 4:11) -- almost certainly using the nickname &quot;Justus&quot; (&quot;the just one&quot;) precisely to distinguish this man from Jesus Christ, since &quot;Jesus&quot; (Yeshua/Joshua) was a common Jewish name. Paul groups him with Aristarchus and Mark as &quot;the only fellow workers for the kingdom of God who are of the circumcision&quot; -- that is, Jewish believers -- among those currently with him, and adds a simple but meaningful commendation: &quot;they have proved to be an encouragement to me&quot; (4:10-11). Writing from prison, with many former associates having drifted or opposed him, Paul singles out the loyalty of this small remaining circle of Jewish Christian coworkers. Nothing else is recorded about Justus&#x27;s background, ministry, or later life. What survives is this one line of gratitude -- a reminder that Scripture does not only record dramatic conversions and mighty deeds, but also quietly honors the faithful companions whose steady presence sustained an apostle through imprisonment.</p>
-  </section>
-  <p class="first-reference">First named in Colossians 4:11</p>
   <p class="references-list">References: Colossians 4:11</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

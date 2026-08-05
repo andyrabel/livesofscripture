@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Simon — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Simon — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Luke 7:40-44</p>
+    </div>
     <div class="person-title">
-      <h2>Simon</h2>
+      <h2>Simon <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>A Pharisee who hosted Jesus for a meal, silently judged a sinful woman who anointed Jesus&#x27;s feet, and was rebuked through the parable of the two debtors for his lack of ordinary hospitality compared to her devotion.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Simon was a Pharisee -- a religious leader -- who invited Jesus to eat dinner at his house. While they were eating, a woman known for her sinful life came in, crying, and washed Jesus&#x27;s feet with her tears and expensive perfume. Simon judged her in his heart and doubted Jesus, thinking a real prophet would know what kind of woman this was. Jesus knew exactly what Simon was thinking, and told him a short story about two people who owed money -- one owed a lot, one owed a little, and both were forgiven. Jesus asked Simon which one would love the lender more, gently teaching him that those who are forgiven much, love much.</p>
+  <div class="story-tabs-wrapper" data-person-name="Simon">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Simon was a Pharisee who invited Jesus to dine at his home, an invitation Jesus accepted (Luke 7:36). During the meal, a woman of the town known for sin entered uninvited, wept at Jesus&#x27;s feet, wiped them with her hair, kissed them, and anointed them with perfume -- a scandalous public display. Simon&#x27;s reaction was silent judgment, both of the woman and of Jesus: &quot;If this man were a prophet He would know who and what sort of person this woman is... for she is a sinner&quot; (7:39). Jesus, perceiving his thoughts, addressed him directly by name and told a brief parable of two debtors, one forgiven five hundred denarii and one fifty, then asked which would love the moneylender more. Simon answered correctly -- &quot;I suppose the one whom he forgave more&quot; -- and Jesus used his own answer to expose his failure of ordinary hospitality (no water for Jesus&#x27;s feet, no kiss of greeting, no oil for His head) set against the woman&#x27;s extravagant devotion (7:40-46). Jesus then declared her sins, many as they were, forgiven, &quot;for she loved much,&quot; while the one forgiven little loves little (7:47). Simon is never shown responding further; Scripture leaves his story as a pointed, unresolved rebuke to religious respectability that judges sinners while missing its own need for grace.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Simon was a Pharisee -- a religious leader -- who invited Jesus to eat dinner at his house. While they were eating, a woman known for her sinful life came in, crying, and washed Jesus&#x27;s feet with her tears and expensive perfume. Simon judged her in his heart and doubted Jesus, thinking a real prophet would know what kind of woman this was. Jesus knew exactly what Simon was thinking, and told him a short story about two people who owed money -- one owed a lot, one owed a little, and both were forgiven. Jesus asked Simon which one would love the lender more, gently teaching him that those who are forgiven much, love much.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Simon was a Pharisee who invited Jesus to dine at his home, an invitation Jesus accepted (Luke 7:36). During the meal, a woman of the town known for sin entered uninvited, wept at Jesus&#x27;s feet, wiped them with her hair, kissed them, and anointed them with perfume -- a scandalous public display. Simon&#x27;s reaction was silent judgment, both of the woman and of Jesus: &quot;If this man were a prophet He would know who and what sort of person this woman is... for she is a sinner&quot; (7:39). Jesus, perceiving his thoughts, addressed him directly by name and told a brief parable of two debtors, one forgiven five hundred denarii and one fifty, then asked which would love the moneylender more. Simon answered correctly -- &quot;I suppose the one whom he forgave more&quot; -- and Jesus used his own answer to expose his failure of ordinary hospitality (no water for Jesus&#x27;s feet, no kiss of greeting, no oil for His head) set against the woman&#x27;s extravagant devotion (7:40-46). Jesus then declared her sins, many as they were, forgiven, &quot;for she loved much,&quot; while the one forgiven little loves little (7:47). Simon is never shown responding further; Scripture leaves his story as a pointed, unresolved rebuke to religious respectability that judges sinners while missing its own need for grace.</p>
-  </section>
-  <p class="first-reference">First named in Luke 7:40-44</p>
   <p class="references-list">References: Luke 7:40-44</p>
   <section>
     <h3>Genealogy</h3>
@@ -156,6 +173,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

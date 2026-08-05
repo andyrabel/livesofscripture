@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Shobi — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Shobi — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Samuel 17:27</p>
+    </div>
     <div class="person-title">
-      <h2>Shobi</h2>
+      <h2>Shobi <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>An Ammonite, son of Nahash, who brought David and his followers beds, food, and supplies when they fled to Mahanaim exhausted and hungry during Absalom&#x27;s rebellion.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shobi was the son of Nahash, an Ammonite king, and he lived in the city of Rabbah. When David had to flee Jerusalem because his own son Absalom rebelled against him, David and his exhausted followers ended up out in the wilderness with little food or supplies. Shobi was one of three men -- along with Machir and Barzillai -- who showed David great kindness at that difficult time. They brought beds, bowls, pottery, wheat, barley, flour, honey, cheese, and more for David and his hungry, tired people. Shobi&#x27;s generosity to a king on the run is a small but real example of kindness shown at exactly the right moment.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shobi">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shobi, son of Nahash, was from Rabbah of the Ammonites -- likely a brother of Hanun, the Ammonite king whose humiliation of David&#x27;s envoys had triggered war with Israel years earlier (2 Samuel 10:1-4), which raises the possibility that Shobi had been installed as a loyal vassal after Israel&#x27;s victory over Ammon. Whatever his exact position, when David fled Jerusalem barefoot and grieving during Absalom&#x27;s rebellion, arriving exhausted and hungry at Mahanaim, Shobi was one of three men -- alongside Machir son of Ammiel and Barzillai the Gileadite -- who came out to meet him with substantial provisions: beds, basins, pottery, wheat, barley, flour, roasted grain, beans, lentils, honey, curds, sheep, and cheese, reasoning that the people with David &quot;were hungry, tired, and thirsty in the wilderness&quot; (2 Samuel 17:27-29). Nothing else is recorded about Shobi -- no further word or deed -- but this single act, offered to a king at his lowest and most vulnerable moment, placed him among the small group of loyal friends whose provision sustained David and his men until Absalom&#x27;s rebellion was crushed. Shobi&#x27;s story is a reminder that Scripture sometimes remembers a person for exactly one thing: showing costly kindness to someone in need at precisely the right time.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shobi was the son of Nahash, an Ammonite king, and he lived in the city of Rabbah. When David had to flee Jerusalem because his own son Absalom rebelled against him, David and his exhausted followers ended up out in the wilderness with little food or supplies. Shobi was one of three men -- along with Machir and Barzillai -- who showed David great kindness at that difficult time. They brought beds, bowls, pottery, wheat, barley, flour, honey, cheese, and more for David and his hungry, tired people. Shobi&#x27;s generosity to a king on the run is a small but real example of kindness shown at exactly the right moment.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shobi, son of Nahash, was from Rabbah of the Ammonites -- likely a brother of Hanun, the Ammonite king whose humiliation of David&#x27;s envoys had triggered war with Israel years earlier (2 Samuel 10:1-4), which raises the possibility that Shobi had been installed as a loyal vassal after Israel&#x27;s victory over Ammon. Whatever his exact position, when David fled Jerusalem barefoot and grieving during Absalom&#x27;s rebellion, arriving exhausted and hungry at Mahanaim, Shobi was one of three men -- alongside Machir son of Ammiel and Barzillai the Gileadite -- who came out to meet him with substantial provisions: beds, basins, pottery, wheat, barley, flour, roasted grain, beans, lentils, honey, curds, sheep, and cheese, reasoning that the people with David &quot;were hungry, tired, and thirsty in the wilderness&quot; (2 Samuel 17:27-29). Nothing else is recorded about Shobi -- no further word or deed -- but this single act, offered to a king at his lowest and most vulnerable moment, placed him among the small group of loyal friends whose provision sustained David and his men until Absalom&#x27;s rebellion was crushed. Shobi&#x27;s story is a reminder that Scripture sometimes remembers a person for exactly one thing: showing costly kindness to someone in need at precisely the right time.</p>
-  </section>
-  <p class="first-reference">First named in 2 Samuel 17:27</p>
   <p class="references-list">References: 2 Samuel 17:27</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Demas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Demas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Colossians 4:14</p>
+    </div>
     <div class="person-title">
-      <h2>Demas</h2>
+      <h2>Demas <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>One of Paul&#x27;s fellow workers during his imprisonment, who is warmly named alongside Luke and Mark in two letters but, in Paul&#x27;s final letter, is said to have deserted him, having loved this present world.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Demas was one of Paul&#x27;s coworkers who stayed with him during a period of imprisonment, mentioned warmly alongside other faithful companions like Luke and Mark. But in Paul&#x27;s very last letter, written near the end of his life, something had changed -- Paul wrote sadly that Demas had deserted him, choosing to leave because he had come to love the things of this present world more than continuing on in difficult ministry. Demas&#x27;s story stands as a sobering warning within the New Testament that even someone who serves alongside faithful believers for a time can still drift away and abandon their calling if their heart&#x27;s affections shift toward worldly comfort instead of lasting devotion to Christ.</p>
+  <div class="story-tabs-wrapper" data-person-name="Demas">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Demas appears twice early on among Paul&#x27;s trusted companions during his imprisonment, sent greetings alongside Luke, &quot;the beloved physician,&quot; and Mark in Paul&#x27;s letters to the Colossians and to Philemon, with no hint yet of any trouble (Colossians 4:14; Philemon 1:24). By the time of 2 Timothy, however, widely believed to be Paul&#x27;s final letter, written shortly before his execution in Rome, the picture has changed sharply: &quot;Demas, having loved this present world, has deserted me and gone to Thessalonica&quot; (2 Timothy 4:10). Paul gives no further detail about what specifically drew Demas away -- whether fear of the danger surrounding Paul&#x27;s imprisonment under Nero, simple homesickness, worldly ambition, or something else entirely -- only the stark diagnosis that his heart&#x27;s affection had shifted toward &quot;this present world&quot; rather than continued faithfulness alongside Paul&#x27;s costly ministry. The brief, sobering line stands in the New Testament as a real, unresolved instance of falling away recorded without embellishment, alongside the far more numerous accounts of perseverance -- a reminder, set intentionally near the very end of Paul&#x27;s own letters, that beginning well in ministry is no guarantee of finishing well, and that love for the world and love for Christ&#x27;s mission can pull decisively in opposite directions.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Demas was one of Paul&#x27;s coworkers who stayed with him during a period of imprisonment, mentioned warmly alongside other faithful companions like Luke and Mark. But in Paul&#x27;s very last letter, written near the end of his life, something had changed -- Paul wrote sadly that Demas had deserted him, choosing to leave because he had come to love the things of this present world more than continuing on in difficult ministry. Demas&#x27;s story stands as a sobering warning within the New Testament that even someone who serves alongside faithful believers for a time can still drift away and abandon their calling if their heart&#x27;s affections shift toward worldly comfort instead of lasting devotion to Christ.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Demas appears twice early on among Paul&#x27;s trusted companions during his imprisonment, sent greetings alongside Luke, &quot;the beloved physician,&quot; and Mark in Paul&#x27;s letters to the Colossians and to Philemon, with no hint yet of any trouble (Colossians 4:14; Philemon 1:24). By the time of 2 Timothy, however, widely believed to be Paul&#x27;s final letter, written shortly before his execution in Rome, the picture has changed sharply: &quot;Demas, having loved this present world, has deserted me and gone to Thessalonica&quot; (2 Timothy 4:10). Paul gives no further detail about what specifically drew Demas away -- whether fear of the danger surrounding Paul&#x27;s imprisonment under Nero, simple homesickness, worldly ambition, or something else entirely -- only the stark diagnosis that his heart&#x27;s affection had shifted toward &quot;this present world&quot; rather than continued faithfulness alongside Paul&#x27;s costly ministry. The brief, sobering line stands in the New Testament as a real, unresolved instance of falling away recorded without embellishment, alongside the far more numerous accounts of perseverance -- a reminder, set intentionally near the very end of Paul&#x27;s own letters, that beginning well in ministry is no guarantee of finishing well, and that love for the world and love for Christ&#x27;s mission can pull decisively in opposite directions.</p>
-  </section>
-  <p class="first-reference">First named in Colossians 4:14</p>
   <p class="references-list">References: Colossians 4:14; 2 Timothy 4:10; Philemon 1:24</p>
   <section>
     <h3>Genealogy</h3>
@@ -137,6 +154,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

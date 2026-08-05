@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Hegai — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Hegai — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Esther 2:3-15</p>
+    </div>
     <div class="person-title">
-      <h2>Hegai</h2>
+      <h2>Hegai <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>The king&#x27;s eunuch in charge of the royal harem at Susa, who took an immediate liking to Esther among the candidates gathered for King Ahasuerus, giving her the best place and provisions and advising her on how to prepare -- favor Scripture presents as part of God&#x27;s unseen hand in Esther&#x27;s rise.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Hegai was in charge of the young women brought to the king&#x27;s palace when King Ahasuerus was choosing a new queen. When Esther arrived, Hegai liked her right away and treated her kindly. He gave her the best rooms, special beauty treatments, good food, and seven maids to help her. He also gave her good advice about what to bring when she went before the king. None of this happened by accident in the story -- Esther &quot;found favor&quot; with Hegai just as she would later find favor with the king himself. Hegai&#x27;s small kindnesses were one of the quiet ways God was working behind the scenes to put Esther in the right place at the right time.</p>
+  <div class="story-tabs-wrapper" data-person-name="Hegai">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Hegai was the king&#x27;s eunuch entrusted with the young women gathered from across the Persian empire as candidates to replace Queen Vashti (Esther 2:3). When Esther was brought into his custody, she &quot;pleased him and found favor with him,&quot; and he moved quickly on her behalf: giving her cosmetics and choice food, assigning her seven select maids from the king&#x27;s palace, and moving her and her maids to the best place in the harem (2:8-9). A year of beauty preparations followed for every candidate, and when each woman&#x27;s turn came to go to the king, she could take whatever she wished -- but Esther, notably, &quot;did not request anything except what Hegai... advised,&quot; trusting his experienced judgment (2:12-15). The narrator emphasizes the result: &quot;Esther found favor in the eyes of all who saw her&quot; (2:15). Hegai never speaks a recorded word and vanishes from the narrative once Esther is crowned queen, but his consistent, quiet favor toward her -- unusual enough that the text names him specifically among many officials -- is one of several human hands the author of Esther uses to show God&#x27;s providence working through ordinary court politics, without ever naming God directly, to position Esther for the crisis still to come.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Hegai was in charge of the young women brought to the king&#x27;s palace when King Ahasuerus was choosing a new queen. When Esther arrived, Hegai liked her right away and treated her kindly. He gave her the best rooms, special beauty treatments, good food, and seven maids to help her. He also gave her good advice about what to bring when she went before the king. None of this happened by accident in the story -- Esther &quot;found favor&quot; with Hegai just as she would later find favor with the king himself. Hegai&#x27;s small kindnesses were one of the quiet ways God was working behind the scenes to put Esther in the right place at the right time.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Hegai was the king&#x27;s eunuch entrusted with the young women gathered from across the Persian empire as candidates to replace Queen Vashti (Esther 2:3). When Esther was brought into his custody, she &quot;pleased him and found favor with him,&quot; and he moved quickly on her behalf: giving her cosmetics and choice food, assigning her seven select maids from the king&#x27;s palace, and moving her and her maids to the best place in the harem (2:8-9). A year of beauty preparations followed for every candidate, and when each woman&#x27;s turn came to go to the king, she could take whatever she wished -- but Esther, notably, &quot;did not request anything except what Hegai... advised,&quot; trusting his experienced judgment (2:12-15). The narrator emphasizes the result: &quot;Esther found favor in the eyes of all who saw her&quot; (2:15). Hegai never speaks a recorded word and vanishes from the narrative once Esther is crowned queen, but his consistent, quiet favor toward her -- unusual enough that the text names him specifically among many officials -- is one of several human hands the author of Esther uses to show God&#x27;s providence working through ordinary court politics, without ever naming God directly, to position Esther for the crisis still to come.</p>
-  </section>
-  <p class="first-reference">First named in Esther 2:3-15</p>
   <p class="references-list">References: Esther 2:3-15</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

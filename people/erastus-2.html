@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Erastus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Erastus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Romans 16:23</p>
+    </div>
     <div class="person-title">
-      <h2>Erastus</h2>
+      <h2>Erastus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>The city treasurer of Corinth and one of Paul&#x27;s ministry helpers, whose civic position lends historical weight to the social range of the early Corinthian church, mentioned in Romans and 2 Timothy.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Erastus held an important civic position as the city treasurer of Corinth, managing public finances for the city, while also serving as one of Paul&#x27;s helpers in ministry. Paul mentions him warmly in his letter to the Romans, sending greetings from him alongside other believers in Corinth. Erastus&#x27;s position shows that the early church wasn&#x27;t made up only of poor or powerless people -- it included at least some believers with real civic responsibility and standing in their communities. Paul also mentions in a later letter that Erastus remained behind in Corinth while others traveled on with Paul, suggesting his civic duties or continued ministry there kept him rooted in that city.</p>
+  <div class="story-tabs-wrapper" data-person-name="Erastus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Erastus is identified in Paul&#x27;s letter to the Romans, written from Corinth, as &quot;the city treasurer&quot; who joins Paul in sending greetings to the Roman church (Romans 16:23) -- a detail of real historical significance, since it places a man with genuine civic responsibility for Corinth&#x27;s public finances among the early converts to Christianity in that city. This detail matters for understanding the makeup of the early church: rather than being drawn exclusively from society&#x27;s poor or marginalized, the Corinthian congregation apparently included at least some members with real administrative standing and public trust in their city&#x27;s government, alongside &quot;not many wise... not many mighty, not many noble&quot; that Paul elsewhere says characterized most of the church (1 Corinthians 1:26). Some archaeological findings from Corinth include an inscription naming an Erastus who served as a city aedile (a Roman civic official responsible for public works), which many scholars connect, though not with total certainty, to this same man. Paul also mentions an Erastus in his final letter, noting that he &quot;remained at Corinth&quot; rather than traveling on with Paul or Timothy, most likely the same figure remaining rooted in his home city and its ongoing needs, whether civic or for the church there (2 Timothy 4:20).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Erastus held an important civic position as the city treasurer of Corinth, managing public finances for the city, while also serving as one of Paul&#x27;s helpers in ministry. Paul mentions him warmly in his letter to the Romans, sending greetings from him alongside other believers in Corinth. Erastus&#x27;s position shows that the early church wasn&#x27;t made up only of poor or powerless people -- it included at least some believers with real civic responsibility and standing in their communities. Paul also mentions in a later letter that Erastus remained behind in Corinth while others traveled on with Paul, suggesting his civic duties or continued ministry there kept him rooted in that city.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Erastus is identified in Paul&#x27;s letter to the Romans, written from Corinth, as &quot;the city treasurer&quot; who joins Paul in sending greetings to the Roman church (Romans 16:23) -- a detail of real historical significance, since it places a man with genuine civic responsibility for Corinth&#x27;s public finances among the early converts to Christianity in that city. This detail matters for understanding the makeup of the early church: rather than being drawn exclusively from society&#x27;s poor or marginalized, the Corinthian congregation apparently included at least some members with real administrative standing and public trust in their city&#x27;s government, alongside &quot;not many wise... not many mighty, not many noble&quot; that Paul elsewhere says characterized most of the church (1 Corinthians 1:26). Some archaeological findings from Corinth include an inscription naming an Erastus who served as a city aedile (a Roman civic official responsible for public works), which many scholars connect, though not with total certainty, to this same man. Paul also mentions an Erastus in his final letter, noting that he &quot;remained at Corinth&quot; rather than traveling on with Paul or Timothy, most likely the same figure remaining rooted in his home city and its ongoing needs, whether civic or for the church there (2 Timothy 4:20).</p>
-  </section>
-  <p class="first-reference">First named in Romans 16:23</p>
   <p class="references-list">References: Romans 16:23; 2 Timothy 4:20</p>
   <section>
     <h3>Genealogy</h3>
@@ -148,6 +165,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

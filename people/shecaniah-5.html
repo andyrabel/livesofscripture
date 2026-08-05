@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Shecaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Shecaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Ezra 10:2</p>
+    </div>
     <div class="person-title">
-      <h2>Shecaniah</h2>
+      <h2>Shecaniah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A son of Jehiel who, on behalf of the returned-exile community, confessed the people&#x27;s sin of intermarriage with pagan neighbors to Ezra and proposed a covenant to put it right, urging Ezra to take courageous action.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>After the Israelites returned home from exile in Babylon, many of the people had disobeyed God by marrying people from nations that worshiped false gods, which put their faithfulness to the one true God at risk. When Ezra the priest heard about this, he was devastated and prayed and wept in front of the Temple. A man named Shecaniah came to Ezra and spoke up bravely. He admitted that the people had done wrong, but said there was still hope if they turned back to God and made things right. Shecaniah encouraged Ezra to be strong and take action to fix the problem, and promised that the people would support him. His honest, hopeful words helped start the community&#x27;s return to faithfulness.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shecaniah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shecaniah, son of Jehiel, of the family of Elam, stepped forward at a pivotal, painful moment for the returned-exile community. Ezra had just learned that many Israelites -- including priests and Levites -- had intermarried with the surrounding peoples in direct violation of the LORD&#x27;s command, threatening to repeat the very unfaithfulness that had led to exile in the first place. Ezra tore his garment, pulled out his own hair, and sat appalled, then fell on his knees in prayer and public confession before a large crowd that gathered around him, weeping bitterly (Ezra 9:3-10:1). Into that grief, Shecaniah spoke: &quot;We have been unfaithful to our God and have married foreign women from the peoples of the land, but in spite of this there is now hope for Israel&quot; (10:2). He proposed a specific remedy -- a covenant before God to send away the foreign wives and the children born to them, &quot;according to the law&quot; -- and then turned the moment back to Ezra with a direct charge: &quot;Arise! For this matter is your responsibility, but we will be with you; be courageous and act&quot; (10:3-4). Ezra did exactly that, rising to lead the assembly through the difficult, costly process of covenant renewal that follows in the rest of the chapter. Shecaniah&#x27;s own confession and initiative -- naming the sin plainly while still declaring hope -- set that process in motion.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>After the Israelites returned home from exile in Babylon, many of the people had disobeyed God by marrying people from nations that worshiped false gods, which put their faithfulness to the one true God at risk. When Ezra the priest heard about this, he was devastated and prayed and wept in front of the Temple. A man named Shecaniah came to Ezra and spoke up bravely. He admitted that the people had done wrong, but said there was still hope if they turned back to God and made things right. Shecaniah encouraged Ezra to be strong and take action to fix the problem, and promised that the people would support him. His honest, hopeful words helped start the community&#x27;s return to faithfulness.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shecaniah, son of Jehiel, of the family of Elam, stepped forward at a pivotal, painful moment for the returned-exile community. Ezra had just learned that many Israelites -- including priests and Levites -- had intermarried with the surrounding peoples in direct violation of the LORD&#x27;s command, threatening to repeat the very unfaithfulness that had led to exile in the first place. Ezra tore his garment, pulled out his own hair, and sat appalled, then fell on his knees in prayer and public confession before a large crowd that gathered around him, weeping bitterly (Ezra 9:3-10:1). Into that grief, Shecaniah spoke: &quot;We have been unfaithful to our God and have married foreign women from the peoples of the land, but in spite of this there is now hope for Israel&quot; (10:2). He proposed a specific remedy -- a covenant before God to send away the foreign wives and the children born to them, &quot;according to the law&quot; -- and then turned the moment back to Ezra with a direct charge: &quot;Arise! For this matter is your responsibility, but we will be with you; be courageous and act&quot; (10:3-4). Ezra did exactly that, rising to lead the assembly through the difficult, costly process of covenant renewal that follows in the rest of the chapter. Shecaniah&#x27;s own confession and initiative -- naming the sin plainly while still declaring hope -- set that process in motion.</p>
-  </section>
-  <p class="first-reference">First named in Ezra 10:2</p>
   <p class="references-list">References: Ezra 10:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

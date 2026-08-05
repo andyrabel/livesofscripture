@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Geuel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Geuel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Numbers 13:15</p>
+    </div>
     <div class="person-title">
-      <h2>Geuel</h2>
+      <h2>Geuel <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>One of the twelve spies Moses sent to explore Canaan, representing the tribe of Gad; among the ten who brought back a fearful report and died in the plague that followed Israel&#x27;s rebellion at Kadesh.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>When the Israelites reached the edge of the Promised Land, Moses sent twelve men -- one from each tribe -- to explore the land of Canaan and see what it was like. Geuel represented the tribe of Gad. For forty days, the twelve spies traveled through the land, then came back to report what they saw. Ten of the spies, including Geuel, were afraid of the strong cities and people they saw, and convinced the people not to trust God to help them take the land. Only two spies, Joshua and Caleb, trusted God and encouraged everyone to move forward. Because of the people&#x27;s fear and complaining, God said that whole generation would wander in the wilderness, and Geuel and the other fearful spies died before ever reaching the Promised Land.</p>
+  <div class="story-tabs-wrapper" data-person-name="Geuel">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Geuel son of Machi represented the tribe of Gad among the twelve men Moses sent from Kadesh-barnea to spy out the land of Canaan (Numbers 13:15, 17-20). For forty days the spies explored the land from the wilderness of Zin to Rehob, bringing back a report of its fruitfulness -- including a single cluster of grapes so large it had to be carried on a pole between two men -- alongside news of its fortified cities and formidable inhabitants (13:21-29). Ten of the twelve, presumably including Geuel, urged the people not to attempt the conquest, insisting &quot;we are not able to go up against the people, for they are too strong for us&quot; and spreading a report that the land &quot;devours its inhabitants&quot; (13:31-32). Only Caleb and Joshua dissented, urging Israel to trust God&#x27;s promise. The congregation&#x27;s panic and refusal to enter the land provoked the LORD&#x27;s judgment: that entire generation would wander and die in the wilderness over the next forty years, one year for each day the spies had explored the land (14:26-35). Scripture specifically records that &quot;the men who brought out the very bad report of the land, died by the plague before the LORD&quot; (14:36-37) -- a fate Geuel shared with nine of his fellow spies, in contrast to Joshua and Caleb, who alone of that generation survived to enter Canaan.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>When the Israelites reached the edge of the Promised Land, Moses sent twelve men -- one from each tribe -- to explore the land of Canaan and see what it was like. Geuel represented the tribe of Gad. For forty days, the twelve spies traveled through the land, then came back to report what they saw. Ten of the spies, including Geuel, were afraid of the strong cities and people they saw, and convinced the people not to trust God to help them take the land. Only two spies, Joshua and Caleb, trusted God and encouraged everyone to move forward. Because of the people&#x27;s fear and complaining, God said that whole generation would wander in the wilderness, and Geuel and the other fearful spies died before ever reaching the Promised Land.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Geuel son of Machi represented the tribe of Gad among the twelve men Moses sent from Kadesh-barnea to spy out the land of Canaan (Numbers 13:15, 17-20). For forty days the spies explored the land from the wilderness of Zin to Rehob, bringing back a report of its fruitfulness -- including a single cluster of grapes so large it had to be carried on a pole between two men -- alongside news of its fortified cities and formidable inhabitants (13:21-29). Ten of the twelve, presumably including Geuel, urged the people not to attempt the conquest, insisting &quot;we are not able to go up against the people, for they are too strong for us&quot; and spreading a report that the land &quot;devours its inhabitants&quot; (13:31-32). Only Caleb and Joshua dissented, urging Israel to trust God&#x27;s promise. The congregation&#x27;s panic and refusal to enter the land provoked the LORD&#x27;s judgment: that entire generation would wander and die in the wilderness over the next forty years, one year for each day the spies had explored the land (14:26-35). Scripture specifically records that &quot;the men who brought out the very bad report of the land, died by the plague before the LORD&quot; (14:36-37) -- a fate Geuel shared with nine of his fellow spies, in contrast to Joshua and Caleb, who alone of that generation survived to enter Canaan.</p>
-  </section>
-  <p class="first-reference">First named in Numbers 13:15</p>
   <p class="references-list">References: Numbers 13:15</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

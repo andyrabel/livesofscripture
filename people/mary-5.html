@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-woman.png" alt="Mary — Generic line-art icon for women -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-woman.png" alt="Mary — Generic line-art icon for women -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Romans 16:6</p>
+    </div>
     <div class="person-title">
-      <h2>Mary</h2>
+      <h2>Mary <span class="gender-tag gender-tag--female">(F)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A believer in the Roman church whom Paul singles out by name in his closing greetings, commending her for having &#x27;worked hard&#x27; on behalf of the congregation.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>This Mary was a Christian woman living in Rome. We don&#x27;t know much about her, but at the end of his letter to the Roman church, Paul took time to greet her by name and thank her for something specific: she had worked hard to serve and help the church. Even though the Bible doesn&#x27;t tell us exactly what she did, Paul&#x27;s short greeting shows that God notices and values the hard work of His people, even when it doesn&#x27;t make headlines.</p>
+  <div class="story-tabs-wrapper" data-person-name="Mary">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Mary is one of nearly thirty individuals Paul greets by name in the closing chapter of his letter to the Romans, a chapter that offers a rare window into the makeup of the early church at Rome (Romans 16:1-16). Of her, Paul writes simply: &#x27;Greet Mary, who has worked hard for you&#x27; (16:6). Unlike some others in the list, Paul gives no further detail about her role, family, or background -- but the commendation itself is significant. The Greek verb behind &#x27;worked hard&#x27; (kopiao) is the same word Paul uses elsewhere for strenuous labor, including his own apostolic toil (1 Corinthians 15:10) and the work of church leaders worthy of double honor (1 Timothy 5:17). That Paul applies this word to Mary, without elaboration, suggests sustained, costly service to the Roman congregation, though its exact nature is not stated. Her brief mention is part of a larger pattern in Romans 16, where Paul names and honors numerous women -- Phoebe, Priscilla, Junia, Tryphena, Tryphosa, Persis -- alongside men, as valued laborers in the gospel&#x27;s advance at Rome.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>This Mary was a Christian woman living in Rome. We don&#x27;t know much about her, but at the end of his letter to the Roman church, Paul took time to greet her by name and thank her for something specific: she had worked hard to serve and help the church. Even though the Bible doesn&#x27;t tell us exactly what she did, Paul&#x27;s short greeting shows that God notices and values the hard work of His people, even when it doesn&#x27;t make headlines.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Mary is one of nearly thirty individuals Paul greets by name in the closing chapter of his letter to the Romans, a chapter that offers a rare window into the makeup of the early church at Rome (Romans 16:1-16). Of her, Paul writes simply: &#x27;Greet Mary, who has worked hard for you&#x27; (16:6). Unlike some others in the list, Paul gives no further detail about her role, family, or background -- but the commendation itself is significant. The Greek verb behind &#x27;worked hard&#x27; (kopiao) is the same word Paul uses elsewhere for strenuous labor, including his own apostolic toil (1 Corinthians 15:10) and the work of church leaders worthy of double honor (1 Timothy 5:17). That Paul applies this word to Mary, without elaboration, suggests sustained, costly service to the Roman congregation, though its exact nature is not stated. Her brief mention is part of a larger pattern in Romans 16, where Paul names and honors numerous women -- Phoebe, Priscilla, Junia, Tryphena, Tryphosa, Persis -- alongside men, as valued laborers in the gospel&#x27;s advance at Rome.</p>
-  </section>
-  <p class="first-reference">First named in Romans 16:6</p>
   <p class="references-list">References: Romans 16:6</p>
   <section>
     <h3>Genealogy</h3>
@@ -154,6 +171,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

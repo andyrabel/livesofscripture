@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Erastus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Erastus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 19:22</p>
+    </div>
     <div class="person-title">
-      <h2>Erastus</h2>
+      <h2>Erastus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,17 +97,30 @@
       </div>
     </div>
   </div>
-  <p>One of two assistants Paul sent ahead into Macedonia from Ephesus while he remained in Asia a while longer.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Erastus was one of Paul&#x27;s helpers during his missionary travels. While Paul was staying in the city of Ephesus, he sent Erastus and another helper named Timothy ahead of him into the region of Macedonia to prepare the way and help the churches there. Erastus isn&#x27;t described doing anything dramatic in the Bible&#x27;s story, but being trusted enough by Paul to be sent out on this kind of mission shows he was a reliable member of Paul&#x27;s ministry team.</p>
+  <div class="story-tabs-wrapper" data-person-name="Erastus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Erastus is introduced briefly during Paul&#x27;s extended ministry in Ephesus: &quot;having sent into Macedonia two of those who ministered to him, Timothy and Erastus, he himself stayed in Asia for a while&quot; (Acts 19:22). The verse gives no further detail about what task Erastus and Timothy carried out in Macedonia, but the fact that Paul entrusted him with a mission ahead of his own arrival places Erastus among the small circle of coworkers Paul relied on to strengthen churches he had planted. Some interpreters identify this Erastus with the city treasurer of Corinth whom Paul mentions sending greetings from in Romans 16:23, and possibly with a first-century inscription discovered at Corinth naming an Erastus who paid for a public pavement -- an identification that, if correct, would place him as a person of civic standing who used his position in service of the gospel. Scripture itself, however, never explicitly states that these are the same man, so the connection remains a plausible but unproven inference rather than a stated fact.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Erastus was one of Paul&#x27;s helpers during his missionary travels. While Paul was staying in the city of Ephesus, he sent Erastus and another helper named Timothy ahead of him into the region of Macedonia to prepare the way and help the churches there. Erastus isn&#x27;t described doing anything dramatic in the Bible&#x27;s story, but being trusted enough by Paul to be sent out on this kind of mission shows he was a reliable member of Paul&#x27;s ministry team.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Some identify this Erastus with the city treasurer of Corinth named in Romans 16:23 and possibly with an Erastus mentioned on a first-century inscription found at Corinth, though Scripture itself does not confirm these are the same person, and this entry is limited to what Acts 19:22 states.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Erastus is introduced briefly during Paul&#x27;s extended ministry in Ephesus: &quot;having sent into Macedonia two of those who ministered to him, Timothy and Erastus, he himself stayed in Asia for a while&quot; (Acts 19:22). The verse gives no further detail about what task Erastus and Timothy carried out in Macedonia, but the fact that Paul entrusted him with a mission ahead of his own arrival places Erastus among the small circle of coworkers Paul relied on to strengthen churches he had planted. Some interpreters identify this Erastus with the city treasurer of Corinth whom Paul mentions sending greetings from in Romans 16:23, and possibly with a first-century inscription discovered at Corinth naming an Erastus who paid for a public pavement -- an identification that, if correct, would place him as a person of civic standing who used his position in service of the gospel. Scripture itself, however, never explicitly states that these are the same man, so the connection remains a plausible but unproven inference rather than a stated fact.</p>
-  </section>
-  <p class="first-reference">First named in Acts 19:22</p>
   <p class="references-list">References: Acts 19:22</p>
   <section>
     <h3>Genealogy</h3>
@@ -148,6 +164,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

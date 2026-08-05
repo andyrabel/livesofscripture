@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Oreb — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Oreb — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Judges 7:25</p>
+    </div>
     <div class="person-title">
-      <h2>Oreb</h2>
+      <h2>Oreb <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>One of two Midianite princes captured and executed by the Ephraimites during Israel&#x27;s rout of the Midianite army in Gideon&#x27;s campaign; the site of his death, &quot;the rock of Oreb,&quot; was named after him.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>After Gideon and his small band of 300 soldiers won a surprising victory over a huge Midianite army with God&#x27;s help, the defeated Midianites fled. Gideon called on the tribe of Ephraim to help chase them down and stop them from escaping across the Jordan River. The Ephraimites captured two Midianite leaders, Oreb and Zeeb, and killed them. The place where Oreb died became known afterward as &quot;the rock of Oreb.&quot; Oreb&#x27;s defeat was a key part of God&#x27;s complete victory over Midian, a story remembered later in Israel&#x27;s history and poetry as an example of God rescuing His people from an overwhelming enemy.</p>
+  <div class="story-tabs-wrapper" data-person-name="Oreb">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Oreb was one of two named Midianite princes (the other, Zeeb) captured during the rout that followed Gideon&#x27;s famous victory with 300 men over the vast Midianite camp (Judges 7). After the Midianites fled in panic, Gideon summoned the tribe of Ephraim to seize the fords of the Jordan and cut off their retreat (7:24). The Ephraimites captured and killed both princes: &quot;they killed Oreb at the rock of Oreb, and Zeeb they killed at the wine press of Zeeb... and brought the heads of Oreb and Zeeb to Gideon&quot; (7:25). The place-name outlived the event -- &quot;the rock of Oreb&quot; became a lasting geographic marker of the victory, still referenced generations later when the psalmist prays that God&#x27;s present enemies would be brought as low &quot;as with Midian, as with Sisera... at Endor... Make their nobles like Oreb and like Zeeb&quot; (Psalm 83:9-11). Oreb&#x27;s death, alongside Zeeb&#x27;s, completed a battle that began with God deliberately shrinking Gideon&#x27;s army so that Israel could not credit the victory to its own strength (Judges 7:2) -- Oreb&#x27;s fall was ultimately remembered as evidence of what God alone had accomplished for His people.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>After Gideon and his small band of 300 soldiers won a surprising victory over a huge Midianite army with God&#x27;s help, the defeated Midianites fled. Gideon called on the tribe of Ephraim to help chase them down and stop them from escaping across the Jordan River. The Ephraimites captured two Midianite leaders, Oreb and Zeeb, and killed them. The place where Oreb died became known afterward as &quot;the rock of Oreb.&quot; Oreb&#x27;s defeat was a key part of God&#x27;s complete victory over Midian, a story remembered later in Israel&#x27;s history and poetry as an example of God rescuing His people from an overwhelming enemy.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Oreb was one of two named Midianite princes (the other, Zeeb) captured during the rout that followed Gideon&#x27;s famous victory with 300 men over the vast Midianite camp (Judges 7). After the Midianites fled in panic, Gideon summoned the tribe of Ephraim to seize the fords of the Jordan and cut off their retreat (7:24). The Ephraimites captured and killed both princes: &quot;they killed Oreb at the rock of Oreb, and Zeeb they killed at the wine press of Zeeb... and brought the heads of Oreb and Zeeb to Gideon&quot; (7:25). The place-name outlived the event -- &quot;the rock of Oreb&quot; became a lasting geographic marker of the victory, still referenced generations later when the psalmist prays that God&#x27;s present enemies would be brought as low &quot;as with Midian, as with Sisera... at Endor... Make their nobles like Oreb and like Zeeb&quot; (Psalm 83:9-11). Oreb&#x27;s death, alongside Zeeb&#x27;s, completed a battle that began with God deliberately shrinking Gideon&#x27;s army so that Israel could not credit the victory to its own strength (Judges 7:2) -- Oreb&#x27;s fall was ultimately remembered as evidence of what God alone had accomplished for His people.</p>
-  </section>
-  <p class="first-reference">First named in Judges 7:25</p>
   <p class="references-list">References: Judges 7:25; Judges 8:3; Psalms 83:11</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

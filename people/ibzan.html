@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ibzan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ibzan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Judges 12:8-10</p>
+    </div>
     <div class="person-title">
-      <h2>Ibzan</h2>
+      <h2>Ibzan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A judge of Israel from Bethlehem who had thirty sons and thirty daughters, arranging marriages for all of them outside his clan, and judged for seven years.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ibzan was a judge from the town of Bethlehem who led Israel for seven years. Like Jair, we learn about him mostly through details about his large family: he had thirty sons and thirty daughters. He made sure all thirty daughters married into families outside his own clan, and brought in thirty wives for his sons from outside as well. This shows Ibzan was a man who cared about building strong connections between different families and clans in Israel during his years of leadership.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ibzan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ibzan of Bethlehem judged Israel for seven years after Jephthah (Judges 12:8-9). His account, like those of Tola, Jair, Elon, and Abdon, is brief and contains no battle or crisis: Scripture notes only that he had thirty sons and thirty daughters, sent his daughters out in marriage to men outside his clan, and brought in thirty daughters-in-law from outside for his sons (12:9). Marrying outward in this way built alliances between families and clans across Israel rather than concentrating power within one household -- the kind of quiet, relationally wise governance that doesn&#x27;t make for dramatic narrative but reflects real stability. He died and was buried in Bethlehem, a town that centuries later would matter far beyond anything recorded of Ibzan himself. His entry, brief as it is, belongs to the same pattern as the other &quot;minor judges&quot;: not every leader God raises up is remembered for a rescue, but for simply governing his household and his people well during his years.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ibzan was a judge from the town of Bethlehem who led Israel for seven years. Like Jair, we learn about him mostly through details about his large family: he had thirty sons and thirty daughters. He made sure all thirty daughters married into families outside his own clan, and brought in thirty wives for his sons from outside as well. This shows Ibzan was a man who cared about building strong connections between different families and clans in Israel during his years of leadership.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ibzan of Bethlehem judged Israel for seven years after Jephthah (Judges 12:8-9). His account, like those of Tola, Jair, Elon, and Abdon, is brief and contains no battle or crisis: Scripture notes only that he had thirty sons and thirty daughters, sent his daughters out in marriage to men outside his clan, and brought in thirty daughters-in-law from outside for his sons (12:9). Marrying outward in this way built alliances between families and clans across Israel rather than concentrating power within one household -- the kind of quiet, relationally wise governance that doesn&#x27;t make for dramatic narrative but reflects real stability. He died and was buried in Bethlehem, a town that centuries later would matter far beyond anything recorded of Ibzan himself. His entry, brief as it is, belongs to the same pattern as the other &quot;minor judges&quot;: not every leader God raises up is remembered for a rescue, but for simply governing his household and his people well during his years.</p>
-  </section>
-  <p class="first-reference">First named in Judges 12:8-10</p>
   <p class="references-list">References: Judges 12:8-10</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

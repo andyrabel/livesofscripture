@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Obed-edom — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Obed-edom — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Samuel 6:10-12</p>
+    </div>
     <div class="person-title">
-      <h2>Obed-edom</h2>
+      <h2>Obed-edom <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,17 +100,30 @@
       </div>
     </div>
   </div>
-  <p>A Gittite in whose house the ark of the covenant rested for three months after Uzzah&#x27;s death, during which God blessed him and his household abundantly; David then had the ark brought from his house to Jerusalem with rejoicing.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>After a frightening accident during an attempt to bring the ark of the covenant to Jerusalem, King David became afraid and decided not to bring it any further right away. Instead, he left it at the house of a man named Obed-edom for three months. Instead of anything bad happening, God blessed Obed-edom and his whole family the entire time the ark stayed there. When David heard about this blessing, he was encouraged, and he finally brought the ark the rest of the way into Jerusalem with music, dancing, and great celebration.</p>
+  <div class="story-tabs-wrapper" data-person-name="Obed-edom">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Obed-edom the Gittite unexpectedly became the ark of the covenant&#x27;s temporary home during one of the most dramatic episodes of David&#x27;s early reign. David had organized a grand procession to bring the ark from Kiriath-jearim to Jerusalem, but when the cart carrying it stumbled and Uzzah reached out to steady it, God struck him dead for touching the sacred object in violation of the law (2 Samuel 6:1-7). Afraid, David abandoned the plan and diverted the ark into the house of Obed-edom rather than bringing it into the City of David (6:9-10). For three months, rather than danger following the ark as David feared, blessing did: &quot;the LORD blessed Obed-edom and all his household&quot; (6:11). Word of this reached David and dispelled his fear; he resumed the procession with proper care this time, sacrificing oxen and fatlings every six steps and dancing before the ark with all his strength as it finally entered Jerusalem (6:12-15). Obed-edom&#x27;s brief role bridges the story&#x27;s fear and its joy -- the same ark that brought death to a man who handled it wrongly brought sustained blessing to a household that simply, faithfully, hosted it.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>After a frightening accident during an attempt to bring the ark of the covenant to Jerusalem, King David became afraid and decided not to bring it any further right away. Instead, he left it at the house of a man named Obed-edom for three months. Instead of anything bad happening, God blessed Obed-edom and his whole family the entire time the ark stayed there. When David heard about this blessing, he was encouraged, and he finally brought the ark the rest of the way into Jerusalem with music, dancing, and great celebration.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Some interpreters identify this Obed-edom the Gittite with the Levitical gatekeeper family named Obed-edom described later in 1 Chronicles 15-16 and 26, seeing his faithful care of the ark rewarded with a lasting role in temple service; Scripture never explicitly states this is the same person, so the identification remains an inference rather than a stated fact.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Obed-edom the Gittite unexpectedly became the ark of the covenant&#x27;s temporary home during one of the most dramatic episodes of David&#x27;s early reign. David had organized a grand procession to bring the ark from Kiriath-jearim to Jerusalem, but when the cart carrying it stumbled and Uzzah reached out to steady it, God struck him dead for touching the sacred object in violation of the law (2 Samuel 6:1-7). Afraid, David abandoned the plan and diverted the ark into the house of Obed-edom rather than bringing it into the City of David (6:9-10). For three months, rather than danger following the ark as David feared, blessing did: &quot;the LORD blessed Obed-edom and all his household&quot; (6:11). Word of this reached David and dispelled his fear; he resumed the procession with proper care this time, sacrificing oxen and fatlings every six steps and dancing before the ark with all his strength as it finally entered Jerusalem (6:12-15). Obed-edom&#x27;s brief role bridges the story&#x27;s fear and its joy -- the same ark that brought death to a man who handled it wrongly brought sustained blessing to a household that simply, faithfully, hosted it.</p>
-  </section>
-  <p class="first-reference">First named in 2 Samuel 6:10-12</p>
   <p class="references-list">References: 2 Samuel 6:10-12; 1 Chronicles 13:13-14; 1 Chronicles 15:25</p>
   <section>
     <h3>Genealogy</h3>
@@ -151,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

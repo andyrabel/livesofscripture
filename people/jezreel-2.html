@@ -97,9 +97,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Jezreel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Jezreel — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Hosea 1:4</p>
+    </div>
     <div class="person-title">
-      <h2>Jezreel</h2>
+      <h2>Jezreel <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -107,16 +110,30 @@
       </div>
     </div>
   </div>
-  <p>The eldest son of the prophet Hosea and his wife Gomer, given by divine command a prophetic sign-name recalling the bloodshed at Jezreel and announcing coming judgment on the house of Jehu and the kingdom of Israel.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>The prophet Hosea&#x27;s family became a living picture of God&#x27;s message to Israel. When Hosea and Gomer had a son, God told Hosea to name him Jezreel. That name was not picked at random -- Jezreel was the place where a violent chapter of Israel&#x27;s history had happened, and by naming his son after it, Hosea was announcing that God was about to judge the current royal family for that bloodshed and bring big changes to the kingdom. Even a baby&#x27;s name became a message from God about the past catching up with the present.</p>
+  <div class="story-tabs-wrapper" data-person-name="Jezreel">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jezreel was the firstborn son of the prophet Hosea and his wife Gomer. Scripture records his birth in the barest terms -- &quot;she conceived and bore him a son&quot; -- but what matters is the name God commanded Hosea to give him: &quot;the LORD said to him, &#x27;Name him Jezreel; for yet a little while, and I will punish the house of Jehu for the bloodshed of Jezreel, and I will put an end to the kingdom of the house of Israel&#x27;&quot; (Hosea 1:3-4). The name pointed back to Jezreel, the site where Jehu had violently seized the throne generations earlier (2 Kings 9-10) -- bloodshed that, though it began as God&#x27;s own judgment on Ahab&#x27;s house, Jehu&#x27;s dynasty was now held accountable for having exceeded. Jezreel is the first of three children given prophetic sign-names in Hosea&#x27;s family, followed by Lo-ruhamah (&quot;not pitied&quot;) and Lo-ammi (&quot;not my people&quot;) -- each one turning ordinary family life into a walking object lesson for the nation. Jezreel&#x27;s very name was a message he carried simply by being called it: judgment was coming on the northern kingdom, and its royal house would not escape.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>The prophet Hosea&#x27;s family became a living picture of God&#x27;s message to Israel. When Hosea and Gomer had a son, God told Hosea to name him Jezreel. That name was not picked at random -- Jezreel was the place where a violent chapter of Israel&#x27;s history had happened, and by naming his son after it, Hosea was announcing that God was about to judge the current royal family for that bloodshed and bring big changes to the kingdom. Even a baby&#x27;s name became a message from God about the past catching up with the present.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jezreel was the firstborn son of the prophet Hosea and his wife Gomer. Scripture records his birth in the barest terms -- &quot;she conceived and bore him a son&quot; -- but what matters is the name God commanded Hosea to give him: &quot;the LORD said to him, &#x27;Name him Jezreel; for yet a little while, and I will punish the house of Jehu for the bloodshed of Jezreel, and I will put an end to the kingdom of the house of Israel&#x27;&quot; (Hosea 1:3-4). The name pointed back to Jezreel, the site where Jehu had violently seized the throne generations earlier (2 Kings 9-10) -- bloodshed that, though it began as God&#x27;s own judgment on Ahab&#x27;s house, Jehu&#x27;s dynasty was now held accountable for having exceeded. Jezreel is the first of three children given prophetic sign-names in Hosea&#x27;s family, followed by Lo-ruhamah (&quot;not pitied&quot;) and Lo-ammi (&quot;not my people&quot;) -- each one turning ordinary family life into a walking object lesson for the nation. Jezreel&#x27;s very name was a message he carried simply by being called it: judgment was coming on the northern kingdom, and its royal house would not escape.</p>
-  </section>
-  <p class="first-reference">First named in Hosea 1:4</p>
   <p class="references-list">References: Hosea 1:4</p>
   <section>
     <h3>Genealogy</h3>
@@ -157,6 +174,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

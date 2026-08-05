@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Mishael — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Mishael — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Exodus 6:22</p>
+    </div>
     <div class="person-title">
-      <h2>Mishael</h2>
+      <h2>Mishael <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A cousin of Moses and Aaron (son of Uzziel), summoned by Moses along with his brother Elzaphan to carry the bodies of Nadab and Abihu out of the camp after they were struck down for offering unauthorized fire before the LORD.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Mishael was a cousin of Moses and Aaron. He appears in a sad moment in the story of Israel&#x27;s worship in the wilderness. Aaron&#x27;s sons Nadab and Abihu had disobeyed God&#x27;s instructions for how to offer incense, and God struck them down. Moses called on Mishael and his brother Elzaphan to carry the bodies of Nadab and Abihu out of the camp for burial. It was a hard and solemn task, but Mishael and his brother did what needed to be done, helping the community move forward after this tragedy.</p>
+  <div class="story-tabs-wrapper" data-person-name="Mishael">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Mishael was a son of Uzziel and a cousin of Moses and Aaron, identified in the genealogy of Exodus 6:22 among the Levite clan of Kohath. His one recorded action comes in the aftermath of a solemn tragedy: Aaron&#x27;s sons Nadab and Abihu had offered &#x27;strange fire&#x27; before the LORD that He had not commanded, and &#x27;fire came out from the presence of the LORD and consumed them, and they died before the LORD&#x27; (Leviticus 10:1-2). In the immediate aftermath, with Aaron and his remaining sons forbidden from the normal rites of mourning so as not to interrupt their priestly duties, Moses called on Mishael and his brother Elzaphan, saying, &#x27;Come near, carry your relatives away from the front of the sanctuary to the outside of the camp&#x27; (10:4). They did so, carrying the bodies out by their tunics, just as Moses had commanded (10:5). Mishael&#x27;s role, though brief, placed him at the center of one of the wilderness narrative&#x27;s most sobering moments -- a stark reminder, immediately following the tabernacle&#x27;s dedication, that approaching the holy God on His own terms was a matter of life and death for the priesthood.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Mishael was a cousin of Moses and Aaron. He appears in a sad moment in the story of Israel&#x27;s worship in the wilderness. Aaron&#x27;s sons Nadab and Abihu had disobeyed God&#x27;s instructions for how to offer incense, and God struck them down. Moses called on Mishael and his brother Elzaphan to carry the bodies of Nadab and Abihu out of the camp for burial. It was a hard and solemn task, but Mishael and his brother did what needed to be done, helping the community move forward after this tragedy.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Mishael was a son of Uzziel and a cousin of Moses and Aaron, identified in the genealogy of Exodus 6:22 among the Levite clan of Kohath. His one recorded action comes in the aftermath of a solemn tragedy: Aaron&#x27;s sons Nadab and Abihu had offered &#x27;strange fire&#x27; before the LORD that He had not commanded, and &#x27;fire came out from the presence of the LORD and consumed them, and they died before the LORD&#x27; (Leviticus 10:1-2). In the immediate aftermath, with Aaron and his remaining sons forbidden from the normal rites of mourning so as not to interrupt their priestly duties, Moses called on Mishael and his brother Elzaphan, saying, &#x27;Come near, carry your relatives away from the front of the sanctuary to the outside of the camp&#x27; (10:4). They did so, carrying the bodies out by their tunics, just as Moses had commanded (10:5). Mishael&#x27;s role, though brief, placed him at the center of one of the wilderness narrative&#x27;s most sobering moments -- a stark reminder, immediately following the tabernacle&#x27;s dedication, that approaching the holy God on His own terms was a matter of life and death for the priesthood.</p>
-  </section>
-  <p class="first-reference">First named in Exodus 6:22</p>
   <p class="references-list">References: Exodus 6:22; Leviticus 10:4</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

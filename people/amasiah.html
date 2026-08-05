@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Amasiah — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Amasiah — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 17:16</p>
+    </div>
     <div class="person-title">
-      <h2>Amasiah</h2>
+      <h2>Amasiah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>One of King Jehoshaphat&#x27;s senior military commanders in Judah, distinguished in the army roster by the note that he &#x27;volunteered himself to the LORD.&#x27;</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>During the reign of King Jehoshaphat of Judah, the Bible lists several of his top military commanders, each leading enormous armies. One of them was Amasiah. Out of all the commanders named, the Bible adds something special about Amasiah: he had volunteered himself to the LORD. That means Amasiah didn&#x27;t just serve because it was his job -- he had personally and willingly given himself to serve God. It&#x27;s a small detail in a long list of names, but it shows that even in the middle of running a kingdom&#x27;s army, one man&#x27;s heart was set on belonging to God first.</p>
+  <div class="story-tabs-wrapper" data-person-name="Amasiah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jehoshaphat, king of Judah, organized his kingdom&#x27;s defenses by appointing commanders over large divisions of troops stationed throughout the land (2 Chronicles 17:12-19). Scripture lists these officers by name and by the size of the forces under them -- Adnah with 300,000, Jehohanan with 280,000, and then &quot;next to him Amasiah the son of Zichri, who volunteered for the LORD, and with him 200,000 valiant warriors&quot; (17:16). Among the commanders named in this roster, Amasiah alone receives this added note of personal devotion -- while the others are identified only by lineage and troop numbers, Amasiah is remembered specifically as a man who gave himself to the LORD&#x27;s service willingly, not merely by appointment or birthright. The text does not elaborate further on what that volunteering looked like in practice, but the distinction Scripture draws between duty and devotion is itself the point: in a kingdom being strengthened militarily under a king who &quot;walked in the earlier ways of his father David&quot; and sought the LORD (17:3-4), Amasiah stands out as a man whose service to the throne flowed from a prior, deliberate commitment to God Himself.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>During the reign of King Jehoshaphat of Judah, the Bible lists several of his top military commanders, each leading enormous armies. One of them was Amasiah. Out of all the commanders named, the Bible adds something special about Amasiah: he had volunteered himself to the LORD. That means Amasiah didn&#x27;t just serve because it was his job -- he had personally and willingly given himself to serve God. It&#x27;s a small detail in a long list of names, but it shows that even in the middle of running a kingdom&#x27;s army, one man&#x27;s heart was set on belonging to God first.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jehoshaphat, king of Judah, organized his kingdom&#x27;s defenses by appointing commanders over large divisions of troops stationed throughout the land (2 Chronicles 17:12-19). Scripture lists these officers by name and by the size of the forces under them -- Adnah with 300,000, Jehohanan with 280,000, and then &quot;next to him Amasiah the son of Zichri, who volunteered for the LORD, and with him 200,000 valiant warriors&quot; (17:16). Among the commanders named in this roster, Amasiah alone receives this added note of personal devotion -- while the others are identified only by lineage and troop numbers, Amasiah is remembered specifically as a man who gave himself to the LORD&#x27;s service willingly, not merely by appointment or birthright. The text does not elaborate further on what that volunteering looked like in practice, but the distinction Scripture draws between duty and devotion is itself the point: in a kingdom being strengthened militarily under a king who &quot;walked in the earlier ways of his father David&quot; and sought the LORD (17:3-4), Amasiah stands out as a man whose service to the throne flowed from a prior, deliberate commitment to God Himself.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 17:16</p>
   <p class="references-list">References: 2 Chronicles 17:16</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

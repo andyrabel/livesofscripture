@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Rufus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Rufus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Mark 15:21</p>
+    </div>
     <div class="person-title">
-      <h2>Rufus</h2>
+      <h2>Rufus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -102,17 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A believer in Rome whom Paul greets by name as &quot;a choice man in the Lord,&quot; commonly identified with the son of Simon of Cyrene, the man compelled to carry Jesus&#x27;s cross.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Rufus was a Christian in the city of Rome. We don&#x27;t know a lot about him, but the apostle Paul thought enough of him to send a special greeting in his letter to the Roman church, calling him &quot;a choice man in the Lord&quot; -- someone whose faith and character stood out. Paul also sent greetings to Rufus&#x27;s mother, saying she had been like a mother to him too. Many believe this Rufus was the son of Simon of Cyrene, the man who was made to carry Jesus&#x27;s cross to Calvary -- though the Bible doesn&#x27;t say this for certain.</p>
+  <div class="story-tabs-wrapper" data-person-name="Rufus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Rufus appears by name only once with any description: in Paul&#x27;s long list of personal greetings closing his letter to the Romans, he writes, &quot;Greet Rufus, a choice man in the Lord, also his mother and mine&quot; (Romans 16:13). The commendation is brief but personal -- Paul singles him out from the many names in that chapter for a specific compliment on his character, and adds the striking detail that Rufus&#x27;s mother had, at some point, cared for Paul as her own son. Many readers connect this Rufus to the son of Simon of Cyrene, the man Roman soldiers forced to carry Jesus&#x27;s cross to Golgotha: Mark&#x27;s Gospel names Simon&#x27;s sons, Alexander and Rufus, as if its original readers -- likely a Roman congregation -- would recognize them (Mark 15:21). If the identification holds, it means a family swept into Jesus&#x27;s crucifixion by force became, within a generation, a household Paul knew and loved in the Roman church -- an ordinary family transformed by standing unexpectedly close to the cross.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Rufus was a Christian in the city of Rome. We don&#x27;t know a lot about him, but the apostle Paul thought enough of him to send a special greeting in his letter to the Roman church, calling him &quot;a choice man in the Lord&quot; -- someone whose faith and character stood out. Paul also sent greetings to Rufus&#x27;s mother, saying she had been like a mother to him too. Many believe this Rufus was the son of Simon of Cyrene, the man who was made to carry Jesus&#x27;s cross to Calvary -- though the Bible doesn&#x27;t say this for certain.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Many identify the Rufus greeted in Romans 16:13 with the son of Simon of Cyrene named in Mark 15:21 -- same name, same era, and Mark&#x27;s Gospel (widely linked to the Roman church) names him as if its readers would recognize him. Scripture does not state outright that they are the same man, so this identification, while plausible, is not certain.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Rufus appears by name only once with any description: in Paul&#x27;s long list of personal greetings closing his letter to the Romans, he writes, &quot;Greet Rufus, a choice man in the Lord, also his mother and mine&quot; (Romans 16:13). The commendation is brief but personal -- Paul singles him out from the many names in that chapter for a specific compliment on his character, and adds the striking detail that Rufus&#x27;s mother had, at some point, cared for Paul as her own son. Many readers connect this Rufus to the son of Simon of Cyrene, the man Roman soldiers forced to carry Jesus&#x27;s cross to Golgotha: Mark&#x27;s Gospel names Simon&#x27;s sons, Alexander and Rufus, as if its original readers -- likely a Roman congregation -- would recognize them (Mark 15:21). If the identification holds, it means a family swept into Jesus&#x27;s crucifixion by force became, within a generation, a household Paul knew and loved in the Roman church -- an ordinary family transformed by standing unexpectedly close to the cross.</p>
-  </section>
-  <p class="first-reference">First named in Mark 15:21</p>
   <p class="references-list">References: Mark 15:21; Romans 16:13</p>
   <section>
     <h3>Genealogy</h3>
@@ -151,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

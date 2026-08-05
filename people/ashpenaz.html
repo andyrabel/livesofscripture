@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ashpenaz — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ashpenaz — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Daniel 1:3</p>
+    </div>
     <div class="person-title">
-      <h2>Ashpenaz</h2>
+      <h2>Ashpenaz <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>Nebuchadnezzar&#x27;s chief official in charge of training the exiled Judean nobles, including Daniel, who showed unexpected favor toward Daniel&#x27;s request to avoid the king&#x27;s food despite the risk to himself.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ashpenaz was the official in King Nebuchadnezzar&#x27;s court responsible for selecting and training talented young men from conquered nations, including Daniel and his three friends, for service in the king&#x27;s palace. Part of this training included eating rich food and wine from the king&#x27;s own table, but Daniel didn&#x27;t want to eat food that would go against his faithfulness to God. Daniel respectfully asked Ashpenaz for permission not to eat the king&#x27;s food, but Ashpenaz was afraid, since he could be punished if Daniel and his friends looked unhealthy compared to the others. God caused Ashpenaz to show Daniel unusual kindness and favor, and eventually a compromise was worked out that let Daniel remain faithful to God while staying safely in Ashpenaz&#x27;s care.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ashpenaz">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ashpenaz was Nebuchadnezzar&#x27;s chief official, tasked with selecting healthy, intelligent, well-favored young men from among the Judean nobility taken captive to Babylon and training them for royal service, among them Daniel, Hananiah, Mishael, and Azariah (Daniel 1:3-6). Part of the three-year training program included food and wine from the king&#x27;s own table, but Daniel resolved not to defile himself with it, likely because it violated dietary law or had been offered to idols, and asked Ashpenaz for permission to abstain (1:8). &quot;God granted Daniel favor and compassion in the sight of the commander of the officials,&quot; yet Ashpenaz still voiced a genuine fear: if Daniel and his companions looked thinner and less healthy than the other young men eating the royal diet, the king might have his head for it (1:9-10). Ashpenaz&#x27;s caution led Daniel to propose a ten-day test instead, administered by an overseer Ashpenaz had appointed, and when the four young men appeared healthier on vegetables and water than those eating the king&#x27;s food, the concession was allowed to continue (1:11-16). Ashpenaz appears briefly, but his role is significant: God&#x27;s providence worked through a pagan official&#x27;s genuine anxiety and reasonable compromise to protect Daniel&#x27;s convictions rather than requiring an open confrontation with the king.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ashpenaz was the official in King Nebuchadnezzar&#x27;s court responsible for selecting and training talented young men from conquered nations, including Daniel and his three friends, for service in the king&#x27;s palace. Part of this training included eating rich food and wine from the king&#x27;s own table, but Daniel didn&#x27;t want to eat food that would go against his faithfulness to God. Daniel respectfully asked Ashpenaz for permission not to eat the king&#x27;s food, but Ashpenaz was afraid, since he could be punished if Daniel and his friends looked unhealthy compared to the others. God caused Ashpenaz to show Daniel unusual kindness and favor, and eventually a compromise was worked out that let Daniel remain faithful to God while staying safely in Ashpenaz&#x27;s care.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ashpenaz was Nebuchadnezzar&#x27;s chief official, tasked with selecting healthy, intelligent, well-favored young men from among the Judean nobility taken captive to Babylon and training them for royal service, among them Daniel, Hananiah, Mishael, and Azariah (Daniel 1:3-6). Part of the three-year training program included food and wine from the king&#x27;s own table, but Daniel resolved not to defile himself with it, likely because it violated dietary law or had been offered to idols, and asked Ashpenaz for permission to abstain (1:8). &quot;God granted Daniel favor and compassion in the sight of the commander of the officials,&quot; yet Ashpenaz still voiced a genuine fear: if Daniel and his companions looked thinner and less healthy than the other young men eating the royal diet, the king might have his head for it (1:9-10). Ashpenaz&#x27;s caution led Daniel to propose a ten-day test instead, administered by an overseer Ashpenaz had appointed, and when the four young men appeared healthier on vegetables and water than those eating the king&#x27;s food, the concession was allowed to continue (1:11-16). Ashpenaz appears briefly, but his role is significant: God&#x27;s providence worked through a pagan official&#x27;s genuine anxiety and reasonable compromise to protect Daniel&#x27;s convictions rather than requiring an open confrontation with the king.</p>
-  </section>
-  <p class="first-reference">First named in Daniel 1:3</p>
   <p class="references-list">References: Daniel 1:3</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

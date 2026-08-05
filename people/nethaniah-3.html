@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Nethaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Nethaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 17:8</p>
+    </div>
     <div class="person-title">
-      <h2>Nethaniah</h2>
+      <h2>Nethaniah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>One of the Levites Jehoshaphat sent throughout the cities of Judah, carrying the Book of the Law, to teach the people -- part of a kingdom-wide effort at spiritual instruction and reform.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>When Jehoshaphat became king of Judah, he wanted his people to know and follow God&#x27;s law. So he sent out a team of officials, priests, and Levites -- including a man named Nethaniah -- to travel to towns all across Judah. They carried the Book of the Law with them and taught the people from it. Because Jehoshaphat did what was right and made sure God&#x27;s word was taught, the Bible says other nations respected Judah and God&#x27;s protection was on the kingdom. Nethaniah&#x27;s short mention is part of that bigger story of a king who cared about his people knowing God&#x27;s word.</p>
+  <div class="story-tabs-wrapper" data-person-name="Nethaniah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Nethaniah is named among the team King Jehoshaphat commissioned in the third year of his reign to teach God&#x27;s law throughout Judah (2 Chronicles 17:7-9). Jehoshaphat, remembered as a king who &quot;sought the God of his father&quot; and removed idolatrous worship sites, sent out five officials, nine Levites (including Nethaniah), and two priests together, carrying &quot;the book of the law of the LORD&quot; from town to town. Chronicles records the result plainly: &quot;they taught in Judah, having the book of the law of the LORD with them; and they went throughout all the cities of Judah and taught among the people&quot; (17:9). This is one of Scripture&#x27;s clearest pictures of organized, itinerant biblical instruction under royal sponsorship -- not a single prophet&#x27;s message but a coordinated team effort reaching the whole kingdom. The passage credits this reform, along with Jehoshaphat&#x27;s broader faithfulness, with the fear of the LORD falling on surrounding nations so that none made war against Judah, and with tribute flowing in from the Philistines and Arabians (17:10-11). Nethaniah himself receives no further individual mention, but his part in this traveling teaching mission reflects a conviction that runs throughout Chronicles: a kingdom&#x27;s health depends on its people actually knowing God&#x27;s word, not merely possessing it.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>When Jehoshaphat became king of Judah, he wanted his people to know and follow God&#x27;s law. So he sent out a team of officials, priests, and Levites -- including a man named Nethaniah -- to travel to towns all across Judah. They carried the Book of the Law with them and taught the people from it. Because Jehoshaphat did what was right and made sure God&#x27;s word was taught, the Bible says other nations respected Judah and God&#x27;s protection was on the kingdom. Nethaniah&#x27;s short mention is part of that bigger story of a king who cared about his people knowing God&#x27;s word.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Nethaniah is named among the team King Jehoshaphat commissioned in the third year of his reign to teach God&#x27;s law throughout Judah (2 Chronicles 17:7-9). Jehoshaphat, remembered as a king who &quot;sought the God of his father&quot; and removed idolatrous worship sites, sent out five officials, nine Levites (including Nethaniah), and two priests together, carrying &quot;the book of the law of the LORD&quot; from town to town. Chronicles records the result plainly: &quot;they taught in Judah, having the book of the law of the LORD with them; and they went throughout all the cities of Judah and taught among the people&quot; (17:9). This is one of Scripture&#x27;s clearest pictures of organized, itinerant biblical instruction under royal sponsorship -- not a single prophet&#x27;s message but a coordinated team effort reaching the whole kingdom. The passage credits this reform, along with Jehoshaphat&#x27;s broader faithfulness, with the fear of the LORD falling on surrounding nations so that none made war against Judah, and with tribute flowing in from the Philistines and Arabians (17:10-11). Nethaniah himself receives no further individual mention, but his part in this traveling teaching mission reflects a conviction that runs throughout Chronicles: a kingdom&#x27;s health depends on its people actually knowing God&#x27;s word, not merely possessing it.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 17:8</p>
   <p class="references-list">References: 2 Chronicles 17:8</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

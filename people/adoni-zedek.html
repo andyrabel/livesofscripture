@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Adoni-zedek — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Adoni-zedek — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Joshua 8:1-29</p>
+    </div>
     <div class="person-title">
-      <h2>Adoni-zedek</h2>
+      <h2>Adoni-zedek <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>The Amorite king of Jerusalem who organized a five-king coalition to punish Gibeon for making peace with Israel, was defeated by Joshua in the battle where the LORD sent hailstones and the sun stood still, and was executed at Makkedah along with his allied kings.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Adoni-zedek was the king of Jerusalem. When he heard that the Gibeonites had made peace with Joshua and the Israelites, he was afraid and angry, so he convinced four other kings to join him in attacking Gibeon. Gibeon asked Joshua for help, and Joshua&#x27;s army marched all night to rescue them. God fought for Israel that day, sending down large hailstones on the enemy army, and the sun stayed in the sky an extra long time so Israel could finish the battle. Adoni-zedek and his four allies hid in a cave, but Joshua found them, and they were defeated just as God had promised.</p>
+  <div class="story-tabs-wrapper" data-person-name="Adoni-zedek">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Adoni-zedek, the Amorite king of Jerusalem, heard how Joshua had destroyed Ai and that the Gibeonites had made a treaty of peace with Israel, and it struck fear into him (Joshua 10:1-2). He rallied four fellow kings -- of Hebron, Jarmuth, Lachish, and Eglon -- to join him in attacking Gibeon for defecting to Israel&#x27;s side (10:3-5). Gibeon appealed to Joshua, who marched his army all night from Gilgal and routed the coalition; the LORD threw the enemy into confusion and sent a hailstorm that killed more of them than Israel&#x27;s swords did, while the sun stood still at Joshua&#x27;s command so Israel could finish the victory in daylight (10:9-14). Adoni-zedek and his four allies fled and hid in a cave at Makkedah. Joshua had the cave sealed with stones until the battle was finished, then brought the five kings out, had his army commanders set their feet on the kings&#x27; necks as a sign of total defeat, and put the kings to death himself, hanging their bodies on trees until evening before they were sealed back in the cave (10:16-27). Adoni-zedek&#x27;s downfall is presented as proof that the LORD Himself was fighting for Israel, not merely Israel&#x27;s own military strength.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Adoni-zedek was the king of Jerusalem. When he heard that the Gibeonites had made peace with Joshua and the Israelites, he was afraid and angry, so he convinced four other kings to join him in attacking Gibeon. Gibeon asked Joshua for help, and Joshua&#x27;s army marched all night to rescue them. God fought for Israel that day, sending down large hailstones on the enemy army, and the sun stayed in the sky an extra long time so Israel could finish the battle. Adoni-zedek and his four allies hid in a cave, but Joshua found them, and they were defeated just as God had promised.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Adoni-zedek, the Amorite king of Jerusalem, heard how Joshua had destroyed Ai and that the Gibeonites had made a treaty of peace with Israel, and it struck fear into him (Joshua 10:1-2). He rallied four fellow kings -- of Hebron, Jarmuth, Lachish, and Eglon -- to join him in attacking Gibeon for defecting to Israel&#x27;s side (10:3-5). Gibeon appealed to Joshua, who marched his army all night from Gilgal and routed the coalition; the LORD threw the enemy into confusion and sent a hailstorm that killed more of them than Israel&#x27;s swords did, while the sun stood still at Joshua&#x27;s command so Israel could finish the victory in daylight (10:9-14). Adoni-zedek and his four allies fled and hid in a cave at Makkedah. Joshua had the cave sealed with stones until the battle was finished, then brought the five kings out, had his army commanders set their feet on the kings&#x27; necks as a sign of total defeat, and put the kings to death himself, hanging their bodies on trees until evening before they were sealed back in the cave (10:16-27). Adoni-zedek&#x27;s downfall is presented as proof that the LORD Himself was fighting for Israel, not merely Israel&#x27;s own military strength.</p>
-  </section>
-  <p class="first-reference">First named in Joshua 8:1-29</p>
   <p class="references-list">References: Joshua 8:1-29; Joshua 10:1-3; Joshua 12:9</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

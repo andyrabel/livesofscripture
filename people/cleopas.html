@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Cleopas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Cleopas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Luke 24:18</p>
+    </div>
     <div class="person-title">
-      <h2>Cleopas</h2>
+      <h2>Cleopas <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>One of two disciples walking to Emmaus on resurrection day who, joined unknowingly by the risen Jesus explaining the Scriptures, finally recognized Him in the breaking of bread.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Cleopas was one of Jesus&#x27;s followers, though not one of the twelve apostles, and on the very day Jesus rose from the dead, he was walking with another disciple from Jerusalem to a village called Emmaus, discussing everything that had just happened. A stranger joined them on the road and asked what they were talking about -- it was actually Jesus Himself, though something kept them from recognizing Him at first. As they walked, Jesus explained from the Scriptures how the Messiah had to suffer before entering His glory. When they reached Emmaus, they invited the stranger to stay for a meal, and as He broke the bread, their eyes were suddenly opened and they recognized Jesus -- who then vanished from their sight. Cleopas and his companion rushed straight back to Jerusalem, even though it was already evening, to tell the other disciples that Jesus was alive.</p>
+  <div class="story-tabs-wrapper" data-person-name="Cleopas">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Cleopas was one of two disciples walking from Jerusalem to Emmaus, about seven miles away, on the very day of Jesus&#x27;s resurrection, discussing in confusion and grief everything that had just happened (Luke 24:13-14). A stranger joined them and asked what they were discussing; Cleopas, surprised he seemed not to know, summarized the crucifixion and the strange report from the women that morning of an empty tomb and angels declaring Jesus alive (24:15-24). The stranger -- Jesus Himself, though &quot;their eyes were prevented from recognizing Him&quot; -- rebuked their slowness to believe the prophets and &quot;beginning with Moses and with all the prophets, He explained to them the things concerning Himself in all the Scriptures,&quot; one of Scripture&#x27;s clearest statements that the entire Old Testament points toward Christ (24:25-27). As evening fell, they urged Him to stay, and &quot;when He had reclined at the table with them, He took the bread and blessed it, and breaking it, He began giving it to them. Then their eyes were opened and they recognized Him; and He vanished from their sight&quot; (24:28-31). Cleopas and his companion immediately got up, despite the late hour, and returned the seven miles to Jerusalem to tell the eleven apostles that Jesus was risen and had appeared to them, arriving just as the disciples were already discussing a resurrection appearance to Peter (24:33-35). Cleopas&#x27;s story captures how the risen Christ opens both Scripture and eyes to recognize Him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Cleopas was one of Jesus&#x27;s followers, though not one of the twelve apostles, and on the very day Jesus rose from the dead, he was walking with another disciple from Jerusalem to a village called Emmaus, discussing everything that had just happened. A stranger joined them on the road and asked what they were talking about -- it was actually Jesus Himself, though something kept them from recognizing Him at first. As they walked, Jesus explained from the Scriptures how the Messiah had to suffer before entering His glory. When they reached Emmaus, they invited the stranger to stay for a meal, and as He broke the bread, their eyes were suddenly opened and they recognized Jesus -- who then vanished from their sight. Cleopas and his companion rushed straight back to Jerusalem, even though it was already evening, to tell the other disciples that Jesus was alive.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Cleopas was one of two disciples walking from Jerusalem to Emmaus, about seven miles away, on the very day of Jesus&#x27;s resurrection, discussing in confusion and grief everything that had just happened (Luke 24:13-14). A stranger joined them and asked what they were discussing; Cleopas, surprised he seemed not to know, summarized the crucifixion and the strange report from the women that morning of an empty tomb and angels declaring Jesus alive (24:15-24). The stranger -- Jesus Himself, though &quot;their eyes were prevented from recognizing Him&quot; -- rebuked their slowness to believe the prophets and &quot;beginning with Moses and with all the prophets, He explained to them the things concerning Himself in all the Scriptures,&quot; one of Scripture&#x27;s clearest statements that the entire Old Testament points toward Christ (24:25-27). As evening fell, they urged Him to stay, and &quot;when He had reclined at the table with them, He took the bread and blessed it, and breaking it, He began giving it to them. Then their eyes were opened and they recognized Him; and He vanished from their sight&quot; (24:28-31). Cleopas and his companion immediately got up, despite the late hour, and returned the seven miles to Jerusalem to tell the eleven apostles that Jesus was risen and had appeared to them, arriving just as the disciples were already discussing a resurrection appearance to Peter (24:33-35). Cleopas&#x27;s story captures how the risen Christ opens both Scripture and eyes to recognize Him.</p>
-  </section>
-  <p class="first-reference">First named in Luke 24:18</p>
   <p class="references-list">References: Luke 24:18</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

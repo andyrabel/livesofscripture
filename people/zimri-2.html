@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Zimri — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Zimri — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Kings 16:9-20</p>
+    </div>
     <div class="person-title">
-      <h2>Zimri</h2>
+      <h2>Zimri <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A chariot commander who assassinated King Elah, seized Israel&#x27;s throne, and reigned only seven days before burning down the palace over himself when the army rejected him for another king.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Zimri commanded half of King Elah&#x27;s chariots, but he wasn&#x27;t content serving under someone else. He assassinated Elah while the king was drunk and declared himself the new king of Israel, then killed off the rest of the previous king&#x27;s family to secure his position. But Zimri&#x27;s reign didn&#x27;t last -- when the army heard what he had done, they refused to accept him as king and chose a different commander, Omri, instead. Omri&#x27;s forces surrounded the capital city, and realizing he had no way out, Zimri set the palace on fire around himself, dying in the flames after ruling for only seven days -- the shortest reign of any king in Israel&#x27;s history.</p>
+  <div class="story-tabs-wrapper" data-person-name="Zimri">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Zimri commanded half of King Elah&#x27;s chariots before murdering him at a drunken feast and seizing Israel&#x27;s throne for himself, immediately wiping out every remaining male of Baasha&#x27;s household to eliminate rival claims, exactly as the prophet Jehu had foretold against that dynasty for its idolatry (1 Kings 16:9-13). But Zimri&#x27;s coup found no support among the people: when Israel&#x27;s army, then besieging the Philistine city of Gibbethon, heard that Zimri had killed the king, they immediately proclaimed their own commander Omri king instead and marched on Tirzah, Israel&#x27;s capital (16:15-17). Zimri had no army of his own to resist and no way to escape; seeing the city taken, he retreated into the citadel of the palace, set it on fire around himself, and died in the flames he had started (16:18). His reign lasted just seven days, the shortest of any king of Israel or Judah recorded in Scripture. The narrator&#x27;s brief verdict is damning: Zimri died &quot;because of his sins which he sinned, doing evil in the sight of the LORD, walking in the way of Jeroboam&quot; (16:19) -- a life of grasping ambition that could not outlast a single week once seized by force rather than given by God.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Zimri commanded half of King Elah&#x27;s chariots, but he wasn&#x27;t content serving under someone else. He assassinated Elah while the king was drunk and declared himself the new king of Israel, then killed off the rest of the previous king&#x27;s family to secure his position. But Zimri&#x27;s reign didn&#x27;t last -- when the army heard what he had done, they refused to accept him as king and chose a different commander, Omri, instead. Omri&#x27;s forces surrounded the capital city, and realizing he had no way out, Zimri set the palace on fire around himself, dying in the flames after ruling for only seven days -- the shortest reign of any king in Israel&#x27;s history.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Zimri commanded half of King Elah&#x27;s chariots before murdering him at a drunken feast and seizing Israel&#x27;s throne for himself, immediately wiping out every remaining male of Baasha&#x27;s household to eliminate rival claims, exactly as the prophet Jehu had foretold against that dynasty for its idolatry (1 Kings 16:9-13). But Zimri&#x27;s coup found no support among the people: when Israel&#x27;s army, then besieging the Philistine city of Gibbethon, heard that Zimri had killed the king, they immediately proclaimed their own commander Omri king instead and marched on Tirzah, Israel&#x27;s capital (16:15-17). Zimri had no army of his own to resist and no way to escape; seeing the city taken, he retreated into the citadel of the palace, set it on fire around himself, and died in the flames he had started (16:18). His reign lasted just seven days, the shortest of any king of Israel or Judah recorded in Scripture. The narrator&#x27;s brief verdict is damning: Zimri died &quot;because of his sins which he sinned, doing evil in the sight of the LORD, walking in the way of Jeroboam&quot; (16:19) -- a life of grasping ambition that could not outlast a single week once seized by force rather than given by God.</p>
-  </section>
-  <p class="first-reference">First named in 1 Kings 16:9-20</p>
   <p class="references-list">References: 1 Kings 16:9-20</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

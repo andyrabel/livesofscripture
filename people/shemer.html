@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Shemer — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Shemer — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Kings 16:24</p>
+    </div>
     <div class="person-title">
-      <h2>Shemer</h2>
+      <h2>Shemer <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>The owner of the hill that King Omri of Israel purchased for two talents of silver and built into the city of Samaria, which was named after him.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shemer owned a hill in the land of Israel. King Omri, who ruled the northern kingdom of Israel, bought that hill from Shemer for a large sum of silver. Omri then built a new city on the hill and made it his capital. He named the new city Samaria, after Shemer, the man who had owned the land. Samaria went on to become the most important city in the northern kingdom of Israel for the rest of its history, all because of a hill that once belonged to a man named Shemer.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shemer">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shemer is named in a single verse as the owner of a hill in the territory of the northern kingdom of Israel. When Omri became king after a period of civil war between rival claimants to Israel&#x27;s throne, he chose to build a new capital rather than continue ruling from Tirzah. &quot;He bought the hill Samaria from Shemer for two talents of silver and built on the hill, and named the city which he built Samaria, after the name of Shemer, the owner of the hill&quot; (1 Kings 16:24). Nothing else is recorded about Shemer -- not his tribe, family, or fate -- only that his name became permanently attached to the city that would serve as the capital of the northern kingdom for the rest of its existence, the city so identified with Israel&#x27;s later idolatry and judgment that &quot;Samaria&quot; and &quot;Israel&quot; become nearly interchangeable terms in the prophets.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shemer owned a hill in the land of Israel. King Omri, who ruled the northern kingdom of Israel, bought that hill from Shemer for a large sum of silver. Omri then built a new city on the hill and made it his capital. He named the new city Samaria, after Shemer, the man who had owned the land. Samaria went on to become the most important city in the northern kingdom of Israel for the rest of its history, all because of a hill that once belonged to a man named Shemer.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shemer is named in a single verse as the owner of a hill in the territory of the northern kingdom of Israel. When Omri became king after a period of civil war between rival claimants to Israel&#x27;s throne, he chose to build a new capital rather than continue ruling from Tirzah. &quot;He bought the hill Samaria from Shemer for two talents of silver and built on the hill, and named the city which he built Samaria, after the name of Shemer, the owner of the hill&quot; (1 Kings 16:24). Nothing else is recorded about Shemer -- not his tribe, family, or fate -- only that his name became permanently attached to the city that would serve as the capital of the northern kingdom for the rest of its existence, the city so identified with Israel&#x27;s later idolatry and judgment that &quot;Samaria&quot; and &quot;Israel&quot; become nearly interchangeable terms in the prophets.</p>
-  </section>
-  <p class="first-reference">First named in 1 Kings 16:24</p>
   <p class="references-list">References: 1 Kings 16:24</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

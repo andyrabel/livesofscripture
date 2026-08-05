@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Bidkar — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Bidkar — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Kings 9:25</p>
+    </div>
     <div class="person-title">
-      <h2>Bidkar</h2>
+      <h2>Bidkar <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>An officer of Jehu who was ordered to cast the body of the slain King Joram of Israel into the field of Naboth the Jezreelite, in fulfillment of Elijah&#x27;s earlier prophecy against Ahab&#x27;s house.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Bidkar was an officer who served under Jehu, a commander who became king of Israel. Years earlier, King Ahab had wrongly taken a vineyard from a man named Naboth and had him killed to get it. God had promised through the prophet Elijah that Ahab&#x27;s family would pay for that crime. When Jehu killed Ahab&#x27;s son, King Joram, in that very same field, he told Bidkar to throw Joram&#x27;s body onto the field that had belonged to Naboth. Jehu reminded Bidkar that they had both been riding behind Ahab years before when Elijah first spoke that warning -- and now, at last, God&#x27;s word had come true.</p>
+  <div class="story-tabs-wrapper" data-person-name="Bidkar">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Bidkar was Jehu&#x27;s officer, riding beside him the day Jehu was anointed to overthrow the house of Ahab and become king of Israel (2 Kings 9:1-13). When Jehu confronted King Joram, son of Ahab, on the very plot of land that had belonged to Naboth the Jezreelite, Joram fled and Jehu shot him through the heart with an arrow (9:21-24). Jehu then turned to Bidkar and gave him a specific charge: &quot;Take him up and cast him into the property of the field of Naboth the Jezreelite; for I remember when you and I were riding together after Ahab his father, that the LORD laid this oracle against him&quot; (9:25). Jehu recalled Elijah&#x27;s earlier prophecy that God had seen Naboth&#x27;s blood and would repay Ahab&#x27;s house on that same ground (9:25-26; compare 1 Kings 21:19-24). Bidkar, addressed personally and recalled as an eyewitness alongside Jehu to Elijah&#x27;s original oracle, carried out the order, disposing of Joram&#x27;s body on the very field his father had stolen through murder. Bidkar&#x27;s brief appearance ties together two generations of a single unresolved sin, and shows God&#x27;s word, spoken years earlier through a prophet, coming true exactly, to the place, at the hand God chose.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Bidkar was an officer who served under Jehu, a commander who became king of Israel. Years earlier, King Ahab had wrongly taken a vineyard from a man named Naboth and had him killed to get it. God had promised through the prophet Elijah that Ahab&#x27;s family would pay for that crime. When Jehu killed Ahab&#x27;s son, King Joram, in that very same field, he told Bidkar to throw Joram&#x27;s body onto the field that had belonged to Naboth. Jehu reminded Bidkar that they had both been riding behind Ahab years before when Elijah first spoke that warning -- and now, at last, God&#x27;s word had come true.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Bidkar was Jehu&#x27;s officer, riding beside him the day Jehu was anointed to overthrow the house of Ahab and become king of Israel (2 Kings 9:1-13). When Jehu confronted King Joram, son of Ahab, on the very plot of land that had belonged to Naboth the Jezreelite, Joram fled and Jehu shot him through the heart with an arrow (9:21-24). Jehu then turned to Bidkar and gave him a specific charge: &quot;Take him up and cast him into the property of the field of Naboth the Jezreelite; for I remember when you and I were riding together after Ahab his father, that the LORD laid this oracle against him&quot; (9:25). Jehu recalled Elijah&#x27;s earlier prophecy that God had seen Naboth&#x27;s blood and would repay Ahab&#x27;s house on that same ground (9:25-26; compare 1 Kings 21:19-24). Bidkar, addressed personally and recalled as an eyewitness alongside Jehu to Elijah&#x27;s original oracle, carried out the order, disposing of Joram&#x27;s body on the very field his father had stolen through murder. Bidkar&#x27;s brief appearance ties together two generations of a single unresolved sin, and shows God&#x27;s word, spoken years earlier through a prophet, coming true exactly, to the place, at the hand God chose.</p>
-  </section>
-  <p class="first-reference">First named in 2 Kings 9:25</p>
   <p class="references-list">References: 2 Kings 9:25</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

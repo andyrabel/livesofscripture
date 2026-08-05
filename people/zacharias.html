@@ -108,9 +108,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-priest.png" alt="Zacharias — Generic line-art icon for priests -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-priest.png" alt="Zacharias — Generic line-art icon for priests -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Luke 1:5-25</p>
+    </div>
     <div class="person-title">
-      <h2>Zacharias</h2>
+      <h2>Zacharias <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Zechariah</div>
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -118,16 +121,30 @@
       </div>
     </div>
   </div>
-  <p>A priest of the division of Abijah, husband of Elizabeth, struck mute for doubting the angel Gabriel&#x27;s announcement that they would have a son in their old age; his speech returned at John&#x27;s circumcision, when he burst into a prophetic song of praise.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Zacharias was a priest, and he and his wife Elizabeth were already old and had never been able to have children. One day, while Zacharias was serving in the temple, the angel Gabriel appeared and told him that he and Elizabeth would have a son, John, who would prepare the way for the Messiah. Zacharias doubted this news and asked for proof, so Gabriel told him he would be unable to speak until the baby was born. Sure enough, Zacharias couldn&#x27;t say a word for the rest of Elizabeth&#x27;s pregnancy. The moment their son John was born and named, Zacharias&#x27;s voice returned, and he immediately burst into a beautiful song of praise to God.</p>
+  <div class="story-tabs-wrapper" data-person-name="Zacharias">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Zacharias, a priest of the division of Abijah, was serving his turn burning incense in the temple when the angel Gabriel appeared to announce that his wife Elizabeth, both of them &#x27;advanced in years&#x27; and previously barren, would bear a son to be named John, who would go before the Lord &#x27;in the spirit and power of Elijah&#x27; to prepare His way (Luke 1:5-17). Zacharias asked for proof: &#x27;How will I know this for certain? For I am an old man and my wife is advanced in years&#x27; (1:18) -- and Gabriel&#x27;s response was pointed: because Zacharias did not believe, he would be mute until the day these things took place (1:19-20). Zacharias emerged from the temple unable to explain to the waiting crowd what he had seen, communicating only by signs for the length of Elizabeth&#x27;s pregnancy (1:21-23, 62-64). When the baby was born and neighbors assumed he would be named after his father, Elizabeth insisted on the name John; when Zacharias confirmed it in writing, &#x27;his mouth was opened... and he began to speak in praise of God&#x27; (1:57-64). Immediately he was filled with the Holy Spirit and prophesied at length -- the Benedictus -- blessing God for raising up a horn of salvation in David&#x27;s house and describing his own son&#x27;s calling to prepare the way of the Lord and give His people the knowledge of salvation through the forgiveness of their sins (1:67-79).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Zacharias was a priest, and he and his wife Elizabeth were already old and had never been able to have children. One day, while Zacharias was serving in the temple, the angel Gabriel appeared and told him that he and Elizabeth would have a son, John, who would prepare the way for the Messiah. Zacharias doubted this news and asked for proof, so Gabriel told him he would be unable to speak until the baby was born. Sure enough, Zacharias couldn&#x27;t say a word for the rest of Elizabeth&#x27;s pregnancy. The moment their son John was born and named, Zacharias&#x27;s voice returned, and he immediately burst into a beautiful song of praise to God.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Zacharias, a priest of the division of Abijah, was serving his turn burning incense in the temple when the angel Gabriel appeared to announce that his wife Elizabeth, both of them &#x27;advanced in years&#x27; and previously barren, would bear a son to be named John, who would go before the Lord &#x27;in the spirit and power of Elijah&#x27; to prepare His way (Luke 1:5-17). Zacharias asked for proof: &#x27;How will I know this for certain? For I am an old man and my wife is advanced in years&#x27; (1:18) -- and Gabriel&#x27;s response was pointed: because Zacharias did not believe, he would be mute until the day these things took place (1:19-20). Zacharias emerged from the temple unable to explain to the waiting crowd what he had seen, communicating only by signs for the length of Elizabeth&#x27;s pregnancy (1:21-23, 62-64). When the baby was born and neighbors assumed he would be named after his father, Elizabeth insisted on the name John; when Zacharias confirmed it in writing, &#x27;his mouth was opened... and he began to speak in praise of God&#x27; (1:57-64). Immediately he was filled with the Holy Spirit and prophesied at length -- the Benedictus -- blessing God for raising up a horn of salvation in David&#x27;s house and describing his own son&#x27;s calling to prepare the way of the Lord and give His people the knowledge of salvation through the forgiveness of their sins (1:67-79).</p>
-  </section>
-  <p class="first-reference">First named in Luke 1:5-25</p>
   <p class="references-list">References: Luke 1:5-25; Luke 1:57-80</p>
   <section>
     <h3>Genealogy</h3>
@@ -168,6 +185,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

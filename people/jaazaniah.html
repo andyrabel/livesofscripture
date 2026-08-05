@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Jaazaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Jaazaniah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Jeremiah 35:3</p>
+    </div>
     <div class="person-title">
-      <h2>Jaazaniah</h2>
+      <h2>Jaazaniah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>Head of the Rechabite family whom Jeremiah brought into the temple and offered wine to; his family&#x27;s refusal, in obedience to an ancestor&#x27;s command, became a living rebuke to unfaithful Judah.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Jaazaniah led a family called the Rechabites, who had a rule passed down from their ancestor Jonadab: never drink wine, and live simply, without permanent houses, as a way of staying set apart. God told the prophet Jeremiah to bring Jaazaniah and his whole family into the temple and offer them wine to drink -- as a test. Jaazaniah and his family politely refused, explaining they were keeping the promise their ancestor had made generations before. God then used their faithfulness as an example: if this family could obey a mere human ancestor so carefully for so long, why wouldn&#x27;t Judah obey the living God who kept calling them back?</p>
+  <div class="story-tabs-wrapper" data-person-name="Jaazaniah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jaazaniah, son of Jeremiah (a different man from the prophet) and grandson of Habazziniah, was the head of the Rechabite family in Jeremiah&#x27;s day (Jeremiah 35:3). At the LORD&#x27;s instruction, the prophet Jeremiah brought Jaazaniah and his entire household into a chamber of the temple and set wine before them, inviting them to drink (35:2-5). Jaazaniah and his kinsmen refused: &quot;We will not drink wine, for Jonadab the son of Rechab, our father, commanded us... you shall not build a house, sow seed, plant a vineyard... but you shall live in tents all your days&#x27;&quot; -- and they explained they had kept that command faithfully for generations, only recently sheltering in Jerusalem because of the Babylonian invasion (35:6-11). Jeremiah then delivered the point of the test as God&#x27;s word to Judah: &quot;the sons of Jonadab... have observed the command of their father... but this people has not listened to Me&quot; (35:14-16). Because of their obedience, the LORD promised Jonadab&#x27;s descendants would never lack a man to stand before Him (35:19). Jaazaniah&#x27;s family thus became a living object lesson -- ordinary, generations-long faithfulness to a human command standing in sharp, deliberate contrast to Judah&#x27;s persistent refusal to obey the living God who kept sending them prophets.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Jaazaniah led a family called the Rechabites, who had a rule passed down from their ancestor Jonadab: never drink wine, and live simply, without permanent houses, as a way of staying set apart. God told the prophet Jeremiah to bring Jaazaniah and his whole family into the temple and offer them wine to drink -- as a test. Jaazaniah and his family politely refused, explaining they were keeping the promise their ancestor had made generations before. God then used their faithfulness as an example: if this family could obey a mere human ancestor so carefully for so long, why wouldn&#x27;t Judah obey the living God who kept calling them back?</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jaazaniah, son of Jeremiah (a different man from the prophet) and grandson of Habazziniah, was the head of the Rechabite family in Jeremiah&#x27;s day (Jeremiah 35:3). At the LORD&#x27;s instruction, the prophet Jeremiah brought Jaazaniah and his entire household into a chamber of the temple and set wine before them, inviting them to drink (35:2-5). Jaazaniah and his kinsmen refused: &quot;We will not drink wine, for Jonadab the son of Rechab, our father, commanded us... you shall not build a house, sow seed, plant a vineyard... but you shall live in tents all your days&#x27;&quot; -- and they explained they had kept that command faithfully for generations, only recently sheltering in Jerusalem because of the Babylonian invasion (35:6-11). Jeremiah then delivered the point of the test as God&#x27;s word to Judah: &quot;the sons of Jonadab... have observed the command of their father... but this people has not listened to Me&quot; (35:14-16). Because of their obedience, the LORD promised Jonadab&#x27;s descendants would never lack a man to stand before Him (35:19). Jaazaniah&#x27;s family thus became a living object lesson -- ordinary, generations-long faithfulness to a human command standing in sharp, deliberate contrast to Judah&#x27;s persistent refusal to obey the living God who kept sending them prophets.</p>
-  </section>
-  <p class="first-reference">First named in Jeremiah 35:3</p>
   <p class="references-list">References: Jeremiah 35:3</p>
   <section>
     <h3>Genealogy</h3>
@@ -169,6 +186,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

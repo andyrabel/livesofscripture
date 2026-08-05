@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Philetus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Philetus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Timothy 2:16-18</p>
+    </div>
     <div class="person-title">
-      <h2>Philetus</h2>
+      <h2>Philetus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A man Paul names alongside Hymenaeus as having gone astray from the truth by teaching that the resurrection had already occurred, upsetting the faith of some believers.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Philetus is mentioned by Paul in a letter to Timothy, alongside another man named Hymenaeus, as someone who had wandered away from the truth. Together they taught that the resurrection of believers had already happened -- which wasn&#x27;t true -- and this false teaching upset the faith of some people who heard it. Paul compares this kind of teaching to gangrene, something that spreads and causes real damage if it isn&#x27;t stopped. Philetus&#x27;s brief mention is a warning about how false teaching, even about something as important as the resurrection, can seriously harm other believers&#x27; faith if left unchecked.</p>
+  <div class="story-tabs-wrapper" data-person-name="Philetus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Philetus is mentioned only once in Scripture, paired with Hymenaeus in Paul&#x27;s second letter to Timothy as an example of the kind of &#x27;worldly and empty chatter&#x27; Timothy must avoid, since it &#x27;leads to further ungodliness&#x27; and spreads &#x27;like gangrene&#x27; (2 Timothy 2:16-17). Paul&#x27;s specific charge against the two men is doctrinal: they had &#x27;gone astray from the truth saying that the resurrection has already taken place,&#x27; a teaching that &#x27;upset the faith of some&#x27; who heard it (2:18). This error struck at the heart of Christian hope, effectively spiritualizing or explaining away the future bodily resurrection that Paul elsewhere defends at length as essential to the gospel (see 1 Corinthians 15). Nothing else is recorded of Philetus&#x27;s background, teaching career, or fate -- he appears in Scripture solely as a cautionary example alongside Hymenaeus. Paul&#x27;s urgent tone in warning Timothy about this specific pair reflects how seriously the early church took the spread of false doctrine, even from men who had presumably once been received within the Christian community; sound teaching about core truths like the resurrection was not treated as a matter of indifference, but as something worth Timothy&#x27;s vigilant, active correction to protect the faith of those under his care.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Philetus is mentioned by Paul in a letter to Timothy, alongside another man named Hymenaeus, as someone who had wandered away from the truth. Together they taught that the resurrection of believers had already happened -- which wasn&#x27;t true -- and this false teaching upset the faith of some people who heard it. Paul compares this kind of teaching to gangrene, something that spreads and causes real damage if it isn&#x27;t stopped. Philetus&#x27;s brief mention is a warning about how false teaching, even about something as important as the resurrection, can seriously harm other believers&#x27; faith if left unchecked.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Philetus is mentioned only once in Scripture, paired with Hymenaeus in Paul&#x27;s second letter to Timothy as an example of the kind of &#x27;worldly and empty chatter&#x27; Timothy must avoid, since it &#x27;leads to further ungodliness&#x27; and spreads &#x27;like gangrene&#x27; (2 Timothy 2:16-17). Paul&#x27;s specific charge against the two men is doctrinal: they had &#x27;gone astray from the truth saying that the resurrection has already taken place,&#x27; a teaching that &#x27;upset the faith of some&#x27; who heard it (2:18). This error struck at the heart of Christian hope, effectively spiritualizing or explaining away the future bodily resurrection that Paul elsewhere defends at length as essential to the gospel (see 1 Corinthians 15). Nothing else is recorded of Philetus&#x27;s background, teaching career, or fate -- he appears in Scripture solely as a cautionary example alongside Hymenaeus. Paul&#x27;s urgent tone in warning Timothy about this specific pair reflects how seriously the early church took the spread of false doctrine, even from men who had presumably once been received within the Christian community; sound teaching about core truths like the resurrection was not treated as a matter of indifference, but as something worth Timothy&#x27;s vigilant, active correction to protect the faith of those under his care.</p>
-  </section>
-  <p class="first-reference">First named in 2 Timothy 2:16-18</p>
   <p class="references-list">References: 2 Timothy 2:16-18</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

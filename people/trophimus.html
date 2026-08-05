@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Trophimus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Trophimus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 20:4</p>
+    </div>
     <div class="person-title">
-      <h2>Trophimus</h2>
+      <h2>Trophimus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>An Ephesian believer who traveled with Paul, whose presence with Paul in Jerusalem sparked a riot when Jews mistakenly assumed Paul had brought him, a Gentile, into the temple&#x27;s restricted area, and whom Paul later left behind at Miletus due to illness.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Trophimus was a believer from Ephesus who traveled together with Paul on his journeys, part of a group carrying gifts collected for the believers in Jerusalem. While in Jerusalem, some people saw Trophimus, who was a Gentile, in the city with Paul and wrongly assumed Paul had brought him into a restricted area of the temple that only Jewish people were allowed to enter. This false assumption caused a huge uproar and led directly to Paul&#x27;s arrest. Later, in one of Paul&#x27;s final letters, he mentions leaving Trophimus behind at Miletus because he was sick. Trophimus&#x27;s story shows how a simple misunderstanding could spiral into a major, dangerous situation for someone serving faithfully alongside Paul.</p>
+  <div class="story-tabs-wrapper" data-person-name="Trophimus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Trophimus, from Ephesus, is named among the group of men from various churches who accompanied Paul on his journey carrying the collection for the poor believers in Jerusalem (Acts 20:4). His presence with Paul in Jerusalem became the spark for one of the most consequential moments in Paul&#x27;s ministry: some Jews from Asia, having previously seen Trophimus, a Gentile, together with Paul in the city, spotted Paul in the temple and wrongly assumed he had brought Trophimus into the inner court reserved exclusively for Jews, a serious violation punishable by death (Acts 21:27-29). Though the accusation was factually mistaken -- Paul had not actually brought Trophimus into the restricted area -- the crowd&#x27;s outrage stirred the whole city, and Paul was seized, beaten, and would have been killed had Roman soldiers not intervened, an arrest that led directly to his years of imprisonment and eventual journey to Rome (21:30-36). Trophimus himself is not recorded as being harmed in the incident, and appears once more, near the end of Paul&#x27;s ministry: in his final letter to Timothy, Paul mentions plainly, &#x27;Trophimus I left sick at Miletus&#x27; (2 Timothy 4:20), a small, human detail showing that not even Paul&#x27;s own traveling companions were exempt from ordinary illness or the practical limits it placed on continued travel and ministry together.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Trophimus was a believer from Ephesus who traveled together with Paul on his journeys, part of a group carrying gifts collected for the believers in Jerusalem. While in Jerusalem, some people saw Trophimus, who was a Gentile, in the city with Paul and wrongly assumed Paul had brought him into a restricted area of the temple that only Jewish people were allowed to enter. This false assumption caused a huge uproar and led directly to Paul&#x27;s arrest. Later, in one of Paul&#x27;s final letters, he mentions leaving Trophimus behind at Miletus because he was sick. Trophimus&#x27;s story shows how a simple misunderstanding could spiral into a major, dangerous situation for someone serving faithfully alongside Paul.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Trophimus, from Ephesus, is named among the group of men from various churches who accompanied Paul on his journey carrying the collection for the poor believers in Jerusalem (Acts 20:4). His presence with Paul in Jerusalem became the spark for one of the most consequential moments in Paul&#x27;s ministry: some Jews from Asia, having previously seen Trophimus, a Gentile, together with Paul in the city, spotted Paul in the temple and wrongly assumed he had brought Trophimus into the inner court reserved exclusively for Jews, a serious violation punishable by death (Acts 21:27-29). Though the accusation was factually mistaken -- Paul had not actually brought Trophimus into the restricted area -- the crowd&#x27;s outrage stirred the whole city, and Paul was seized, beaten, and would have been killed had Roman soldiers not intervened, an arrest that led directly to his years of imprisonment and eventual journey to Rome (21:30-36). Trophimus himself is not recorded as being harmed in the incident, and appears once more, near the end of Paul&#x27;s ministry: in his final letter to Timothy, Paul mentions plainly, &#x27;Trophimus I left sick at Miletus&#x27; (2 Timothy 4:20), a small, human detail showing that not even Paul&#x27;s own traveling companions were exempt from ordinary illness or the practical limits it placed on continued travel and ministry together.</p>
-  </section>
-  <p class="first-reference">First named in Acts 20:4</p>
   <p class="references-list">References: Acts 20:4; Acts 21:27-29; 2 Timothy 4:20</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

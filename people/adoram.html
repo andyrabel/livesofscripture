@@ -90,9 +90,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Adoram — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Adoram — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Samuel 20:24</p>
+    </div>
     <div class="person-title">
-      <h2>Adoram</h2>
+      <h2>Adoram <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Hadoram</div>
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -100,16 +103,30 @@
       </div>
     </div>
   </div>
-  <p>A royal official who administered forced labor under King David and later King Rehoboam; sent by Rehoboam to negotiate with the rebelling northern tribes at Shechem, he was stoned to death by the crowd, an act that triggered the kingdom&#x27;s split into Israel and Judah.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Adoram, also called Hadoram, was in charge of organizing work crews for King David and later for King Rehoboam, Solomon&#x27;s son. When Rehoboam became king, the people of Israel were tired of hard work and heavy taxes, and they asked him to make things easier. Rehoboam refused and spoke harshly to them instead. He sent Adoram to talk with the angry crowd, but the people were so furious that they attacked and killed him with stones. Rehoboam had to rush away in his chariot. This sad event was part of the kingdom of Israel splitting into two separate kingdoms.</p>
+  <div class="story-tabs-wrapper" data-person-name="Adoram">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Adoram (also called Hadoram) served as the official in charge of forced labor first under King David (2 Samuel 20:24) and continued in that role into the reign of Solomon&#x27;s son Rehoboam. When Rehoboam became king, the northern tribes gathered at Shechem and asked him to lighten the heavy labor and taxation Solomon had imposed. Rejecting the counsel of his father&#x27;s older advisors, Rehoboam followed younger counselors and answered harshly, threatening even heavier burdens (1 Kings 12:1-15). In the fury that followed, Israel rejected the house of David outright, crying &quot;To your tents, O Israel!&quot; Rehoboam then made the disastrous choice to send Adoram -- the very symbol of the forced labor the people hated -- to address the rebelling crowd. They stoned him to death on the spot, and Rehoboam himself barely escaped, fleeing to Jerusalem in his chariot (12:18). Adoram&#x27;s death marks the violent, immediate trigger of the kingdom&#x27;s permanent split into Israel and Judah. His decades of loyal administrative service under two or three kings ended as collateral damage in Rehoboam&#x27;s political failure -- a reminder of how one leader&#x27;s pride and poor judgment can cost others their lives.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Adoram, also called Hadoram, was in charge of organizing work crews for King David and later for King Rehoboam, Solomon&#x27;s son. When Rehoboam became king, the people of Israel were tired of hard work and heavy taxes, and they asked him to make things easier. Rehoboam refused and spoke harshly to them instead. He sent Adoram to talk with the angry crowd, but the people were so furious that they attacked and killed him with stones. Rehoboam had to rush away in his chariot. This sad event was part of the kingdom of Israel splitting into two separate kingdoms.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Adoram (also called Hadoram) served as the official in charge of forced labor first under King David (2 Samuel 20:24) and continued in that role into the reign of Solomon&#x27;s son Rehoboam. When Rehoboam became king, the northern tribes gathered at Shechem and asked him to lighten the heavy labor and taxation Solomon had imposed. Rejecting the counsel of his father&#x27;s older advisors, Rehoboam followed younger counselors and answered harshly, threatening even heavier burdens (1 Kings 12:1-15). In the fury that followed, Israel rejected the house of David outright, crying &quot;To your tents, O Israel!&quot; Rehoboam then made the disastrous choice to send Adoram -- the very symbol of the forced labor the people hated -- to address the rebelling crowd. They stoned him to death on the spot, and Rehoboam himself barely escaped, fleeing to Jerusalem in his chariot (12:18). Adoram&#x27;s death marks the violent, immediate trigger of the kingdom&#x27;s permanent split into Israel and Judah. His decades of loyal administrative service under two or three kings ended as collateral damage in Rehoboam&#x27;s political failure -- a reminder of how one leader&#x27;s pride and poor judgment can cost others their lives.</p>
-  </section>
-  <p class="first-reference">First named in 2 Samuel 20:24</p>
   <p class="references-list">References: 2 Samuel 20:24; 1 Kings 12:18; 2 Chronicles 10:18</p>
   <section>
     <h3>Genealogy</h3>
@@ -141,6 +158,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

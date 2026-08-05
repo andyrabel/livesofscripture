@@ -75,6 +75,63 @@ function initNavToggle() {
   });
 }
 
+const STORY_PREF_KEY = "preferred-story-version";
+
+function getStoryVersion() {
+  return localStorage.getItem(STORY_PREF_KEY) || "adult";
+}
+
+function setStoryVersion(v) {
+  localStorage.setItem(STORY_PREF_KEY, v);
+}
+
+function initPersonStory() {
+  const wrapper = document.querySelector(".story-tabs-wrapper");
+  if (!wrapper) return;
+
+  function applyVersion(v) {
+    wrapper.querySelectorAll(".story-tab").forEach((b) => {
+      const active = b.dataset.version === v;
+      b.classList.toggle("active", active);
+      b.setAttribute("aria-selected", String(active));
+    });
+    wrapper.querySelectorAll(".story-panel").forEach((p) => {
+      p.classList.toggle("hidden", p.dataset.version !== v);
+    });
+  }
+
+  applyVersion(getStoryVersion());
+
+  wrapper.querySelectorAll(".story-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const v = btn.dataset.version;
+      setStoryVersion(v);
+      applyVersion(v);
+    });
+  });
+
+  wrapper.querySelectorAll("[data-copy-version]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const panel = wrapper.querySelector(`.story-panel[data-version="${btn.dataset.copyVersion}"]`);
+      const storyText = panel ? panel.querySelector(".story-text").innerText : "";
+      const personName = wrapper.dataset.personName || "";
+      const text = personName ? `${personName}\n\n${storyText}` : storyText;
+      const original = btn.textContent;
+      try {
+        await navigator.clipboard.writeText(text);
+        btn.textContent = "Copied!";
+        btn.classList.add("copied");
+      } catch (err) {
+        btn.textContent = "Copy failed";
+      }
+      setTimeout(() => {
+        btn.textContent = original;
+        btn.classList.remove("copied");
+      }, 2000);
+    });
+  });
+}
+
 function matchesSearch(entry, query) {
   if (!query) return true;
   const q = query.trim().toLowerCase();

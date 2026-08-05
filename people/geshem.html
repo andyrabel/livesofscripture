@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Geshem — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Geshem — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Nehemiah 2:19</p>
+    </div>
     <div class="person-title">
-      <h2>Geshem</h2>
+      <h2>Geshem <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Gashmu</div>
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>An Arab official allied with Sanballat and Tobiah who joined in mocking and threatening Nehemiah&#x27;s rebuilding of Jerusalem&#x27;s walls, including a false accusation of planned rebellion.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Geshem was an Arab leader who joined Sanballat and Tobiah in opposing Nehemiah&#x27;s work rebuilding the walls of Jerusalem. Together, the three of them mocked the project and tried several plans to stop it, including plotting a surprise attack and later spreading a false rumor that Nehemiah was planning to rebel against the Persian king and crown himself as ruler. Nehemiah refused to be frightened or distracted by any of their tricks and stayed focused on finishing the wall, which was completed successfully despite all their opposition.</p>
+  <div class="story-tabs-wrapper" data-person-name="Geshem">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Geshem the Arab is named alongside Sanballat and Tobiah as one of the three chief opponents of Nehemiah&#x27;s project to rebuild Jerusalem&#x27;s walls, mocking the effort from its outset with the question, &quot;are you rebelling against the king?&quot; (Nehemiah 2:19; 6:1). He joined the conspiracy to attack the builders by surprise once the wall began rising, a plot Nehemiah countered by arming half his workforce while the other half continued construction (4:7-9). Later, when the wall neared completion, Geshem is specifically named alongside Sanballat in a final attempt to lure Nehemiah away from the work under the pretense of a meeting, and in circulating an open letter falsely accusing Nehemiah of intending to rebel against Persia and be proclaimed king himself, an accusation designed to alarm the Persian authorities and pressure Nehemiah into abandoning the wall out of fear for his life (6:1-7). Nehemiah recognized the letter as an attempt at intimidation rather than a genuine report, and pressed on. Some historical evidence outside Scripture identifies a Geshem as a powerful Arabian ruler of the period, suggesting Nehemiah&#x27;s opposition came not merely from local rivals but from regional political power determined to keep Jerusalem weak and unfortified.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Geshem was an Arab leader who joined Sanballat and Tobiah in opposing Nehemiah&#x27;s work rebuilding the walls of Jerusalem. Together, the three of them mocked the project and tried several plans to stop it, including plotting a surprise attack and later spreading a false rumor that Nehemiah was planning to rebel against the Persian king and crown himself as ruler. Nehemiah refused to be frightened or distracted by any of their tricks and stayed focused on finishing the wall, which was completed successfully despite all their opposition.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Geshem the Arab is named alongside Sanballat and Tobiah as one of the three chief opponents of Nehemiah&#x27;s project to rebuild Jerusalem&#x27;s walls, mocking the effort from its outset with the question, &quot;are you rebelling against the king?&quot; (Nehemiah 2:19; 6:1). He joined the conspiracy to attack the builders by surprise once the wall began rising, a plot Nehemiah countered by arming half his workforce while the other half continued construction (4:7-9). Later, when the wall neared completion, Geshem is specifically named alongside Sanballat in a final attempt to lure Nehemiah away from the work under the pretense of a meeting, and in circulating an open letter falsely accusing Nehemiah of intending to rebel against Persia and be proclaimed king himself, an accusation designed to alarm the Persian authorities and pressure Nehemiah into abandoning the wall out of fear for his life (6:1-7). Nehemiah recognized the letter as an attempt at intimidation rather than a genuine report, and pressed on. Some historical evidence outside Scripture identifies a Geshem as a powerful Arabian ruler of the period, suggesting Nehemiah&#x27;s opposition came not merely from local rivals but from regional political power determined to keep Jerusalem weak and unfortified.</p>
-  </section>
-  <p class="first-reference">First named in Nehemiah 2:19</p>
   <p class="references-list">References: Nehemiah 2:19; Nehemiah 6:1-6</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

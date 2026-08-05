@@ -89,9 +89,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Bigthan — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Bigthan — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Esther 2:21</p>
+    </div>
     <div class="person-title">
-      <h2>Bigthan</h2>
+      <h2>Bigthan <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Bigthana</div>
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -99,16 +102,30 @@
       </div>
     </div>
   </div>
-  <p>One of two royal officers who guarded the king&#x27;s entrance and conspired to assassinate King Ahasuerus; Mordecai uncovered the plot, and the conspirators were hanged after being exposed.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Bigthan was one of the king&#x27;s guards in the Persian palace at Susa. Along with another guard named Teresh, Bigthan became angry with King Ahasuerus and secretly planned to kill him. But Mordecai, a Jewish man who worked at the palace gate, found out about the plot. He told Queen Esther, who warned the king, giving credit to Mordecai. The king&#x27;s officials investigated, found out the plot was true, and the two guards were put to death. The event was written down in the official records. Later in the story, that written record turns out to matter a great deal, helping save the Jewish people from a terrible danger.</p>
+  <div class="story-tabs-wrapper" data-person-name="Bigthan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Bigthan (also called Bigthana), one of two royal officers who guarded the entrance to King Ahasuerus&#x27;s palace at Susa, became angry with the king and, together with a fellow guard named Teresh, plotted to assassinate him (Esther 2:21). Mordecai, Esther&#x27;s cousin who sat at the king&#x27;s gate, learned of the conspiracy and reported it to Queen Esther, giving Mordecai credit by name (2:22). The matter was investigated, found to be true, and both men were hanged on a wooden gallows; the event was recorded in the official chronicles of the kingdom in the king&#x27;s presence (2:23). That written record seems forgotten for several chapters -- until, on a sleepless night, King Ahasuerus has the chronicles read to him and discovers Mordecai was never rewarded for exposing the plot (6:1-3). That overlooked debt becomes the turning point of the entire book: it leads directly to Mordecai&#x27;s public honor and to the unraveling of Haman&#x27;s plan to destroy the Jews (6:4-14). Bigthan&#x27;s failed conspiracy, unremarkable on its own, turns out to be the hinge God uses -- without ever being named in the book of Esther -- to protect His people at the moment of their greatest danger.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Bigthan was one of the king&#x27;s guards in the Persian palace at Susa. Along with another guard named Teresh, Bigthan became angry with King Ahasuerus and secretly planned to kill him. But Mordecai, a Jewish man who worked at the palace gate, found out about the plot. He told Queen Esther, who warned the king, giving credit to Mordecai. The king&#x27;s officials investigated, found out the plot was true, and the two guards were put to death. The event was written down in the official records. Later in the story, that written record turns out to matter a great deal, helping save the Jewish people from a terrible danger.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Bigthan (also called Bigthana), one of two royal officers who guarded the entrance to King Ahasuerus&#x27;s palace at Susa, became angry with the king and, together with a fellow guard named Teresh, plotted to assassinate him (Esther 2:21). Mordecai, Esther&#x27;s cousin who sat at the king&#x27;s gate, learned of the conspiracy and reported it to Queen Esther, giving Mordecai credit by name (2:22). The matter was investigated, found to be true, and both men were hanged on a wooden gallows; the event was recorded in the official chronicles of the kingdom in the king&#x27;s presence (2:23). That written record seems forgotten for several chapters -- until, on a sleepless night, King Ahasuerus has the chronicles read to him and discovers Mordecai was never rewarded for exposing the plot (6:1-3). That overlooked debt becomes the turning point of the entire book: it leads directly to Mordecai&#x27;s public honor and to the unraveling of Haman&#x27;s plan to destroy the Jews (6:4-14). Bigthan&#x27;s failed conspiracy, unremarkable on its own, turns out to be the hinge God uses -- without ever being named in the book of Esther -- to protect His people at the moment of their greatest danger.</p>
-  </section>
-  <p class="first-reference">First named in Esther 2:21</p>
   <p class="references-list">References: Esther 2:21; Esther 6:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -140,6 +157,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

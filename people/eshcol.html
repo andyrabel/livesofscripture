@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Eshcol — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Eshcol — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 14:13-24</p>
+    </div>
     <div class="person-title">
-      <h2>Eshcol</h2>
+      <h2>Eshcol <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>An Amorite chieftain, brother of Mamre and Aner, who was allied with Abram and stood with him during the rescue of Lot from Chedorlaomer&#x27;s raiding kings; afterward Abram made sure he received his rightful share of the recovered goods.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Eshcol was an Amorite leader who lived near Hebron. He and his brothers Mamre and Aner were friends and allies of Abram. When four powerful kings attacked the region and carried off Abram&#x27;s nephew Lot as a captive, Abram gathered his men and chased after the raiders to rescue him. Eshcol and his brothers stood with Abram during this dangerous rescue. Afterward, when Abram refused to keep any of the recovered treasure for himself, he made sure that Eshcol and his brothers received the fair share that belonged to them. Eshcol&#x27;s story shows how God surrounded Abram with loyal friends who supported him in doing what was right.</p>
+  <div class="story-tabs-wrapper" data-person-name="Eshcol">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Eshcol was an Amorite chieftain who lived near Hebron, one of three brothers -- along with Mamre and Aner -- who were allies of Abram (Genesis 14:13). When Chedorlaomer and three confederate kings swept through the region, plundering Sodom and Gomorrah and carrying off captives, including Abram&#x27;s nephew Lot, Abram mobilized 318 of his own trained men and pursued the raiders north as far as Dan and beyond Damascus, routing them by night and recovering the captives and the goods (14:14-16). Eshcol and his brothers are named as Abram&#x27;s confederates in this account, allied with him in the region. Afterward, when Melchizedek king of Salem blessed Abram and Abram gave him a tenth of everything, the king of Sodom offered Abram the recovered goods for himself. Abram refused to take so much as a thread or a sandal strap, unwilling to let anyone say the king of Sodom had made him rich -- but he made one exception: &quot;the share of the men who went with me, Aner, Eshcol, and Mamre, let them take their share&quot; (14:24). Eshcol&#x27;s brief appearance shows a man of quiet integrity, content to receive only what was justly his, standing loyally with Abram in a dangerous rescue without seeking personal gain beyond it.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Eshcol was an Amorite leader who lived near Hebron. He and his brothers Mamre and Aner were friends and allies of Abram. When four powerful kings attacked the region and carried off Abram&#x27;s nephew Lot as a captive, Abram gathered his men and chased after the raiders to rescue him. Eshcol and his brothers stood with Abram during this dangerous rescue. Afterward, when Abram refused to keep any of the recovered treasure for himself, he made sure that Eshcol and his brothers received the fair share that belonged to them. Eshcol&#x27;s story shows how God surrounded Abram with loyal friends who supported him in doing what was right.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Eshcol was an Amorite chieftain who lived near Hebron, one of three brothers -- along with Mamre and Aner -- who were allies of Abram (Genesis 14:13). When Chedorlaomer and three confederate kings swept through the region, plundering Sodom and Gomorrah and carrying off captives, including Abram&#x27;s nephew Lot, Abram mobilized 318 of his own trained men and pursued the raiders north as far as Dan and beyond Damascus, routing them by night and recovering the captives and the goods (14:14-16). Eshcol and his brothers are named as Abram&#x27;s confederates in this account, allied with him in the region. Afterward, when Melchizedek king of Salem blessed Abram and Abram gave him a tenth of everything, the king of Sodom offered Abram the recovered goods for himself. Abram refused to take so much as a thread or a sandal strap, unwilling to let anyone say the king of Sodom had made him rich -- but he made one exception: &quot;the share of the men who went with me, Aner, Eshcol, and Mamre, let them take their share&quot; (14:24). Eshcol&#x27;s brief appearance shows a man of quiet integrity, content to receive only what was justly his, standing loyally with Abram in a dangerous rescue without seeking personal gain beyond it.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 14:13-24</p>
   <p class="references-list">References: Genesis 14:13-24</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

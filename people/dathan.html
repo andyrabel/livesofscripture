@@ -95,9 +95,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Dathan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Dathan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Numbers 16:1-27</p>
+    </div>
     <div class="person-title">
-      <h2>Dathan</h2>
+      <h2>Dathan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -105,16 +108,30 @@
       </div>
     </div>
   </div>
-  <p>A Reubenite who, with his brother Abiram and Korah the Levite, led a rebellion against the leadership of Moses and Aaron in the wilderness, and was swallowed alive by the earth along with his family as divine judgment.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Dathan was an Israelite leader who, along with his brother Abiram and a man named Korah, decided to rebel against Moses and Aaron&#x27;s leadership while the Israelites were traveling through the wilderness. They gathered other unhappy leaders and accused Moses of putting himself above everyone else. Moses warned them that God Himself would show who His true leaders were. The next day, something frightening happened: the ground opened up right where Dathan, Abiram, and their families were standing, and they were swallowed into the earth. It was a sobering reminder that God takes rebellion against the leaders He appoints very seriously.</p>
+  <div class="story-tabs-wrapper" data-person-name="Dathan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Dathan, along with his brother Abiram, sons of Eliab of the tribe of Reuben, joined Korah the Levite in leading a rebellion against Moses and Aaron in the wilderness (Numbers 16:1). Together with 250 prominent Israelite leaders, they confronted Moses, claiming he and Aaron had exalted themselves above the rest of the congregation, since &quot;all the congregation are holy, every one of them, and the LORD is in their midst&quot; (16:2-3). When Moses summoned Dathan and Abiram to account for their accusations, they refused to come, defiantly accusing Moses of having failed to bring Israel into the promised land and of trying to &quot;lord it over&quot; them (16:12-14). Moses, deeply grieved, warned the congregation to separate from the tents of Korah, Dathan, and Abiram, telling the people that if these men died a natural death it would prove Moses had not acted on his own authority, but if the LORD did something unprecedented -- if the earth opened its mouth and swallowed them alive -- the people would know they had &quot;spurned the LORD&quot; (16:28-30). Exactly that happened: the ground split open and swallowed Dathan, Abiram, their households, and their possessions, and they went down alive into Sheol (16:31-33). Scripture later recalls the episode as a lasting warning against rebellion against God-appointed leadership (Deuteronomy 11:6; Psalm 106:16-18).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Dathan was an Israelite leader who, along with his brother Abiram and a man named Korah, decided to rebel against Moses and Aaron&#x27;s leadership while the Israelites were traveling through the wilderness. They gathered other unhappy leaders and accused Moses of putting himself above everyone else. Moses warned them that God Himself would show who His true leaders were. The next day, something frightening happened: the ground opened up right where Dathan, Abiram, and their families were standing, and they were swallowed into the earth. It was a sobering reminder that God takes rebellion against the leaders He appoints very seriously.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Dathan, along with his brother Abiram, sons of Eliab of the tribe of Reuben, joined Korah the Levite in leading a rebellion against Moses and Aaron in the wilderness (Numbers 16:1). Together with 250 prominent Israelite leaders, they confronted Moses, claiming he and Aaron had exalted themselves above the rest of the congregation, since &quot;all the congregation are holy, every one of them, and the LORD is in their midst&quot; (16:2-3). When Moses summoned Dathan and Abiram to account for their accusations, they refused to come, defiantly accusing Moses of having failed to bring Israel into the promised land and of trying to &quot;lord it over&quot; them (16:12-14). Moses, deeply grieved, warned the congregation to separate from the tents of Korah, Dathan, and Abiram, telling the people that if these men died a natural death it would prove Moses had not acted on his own authority, but if the LORD did something unprecedented -- if the earth opened its mouth and swallowed them alive -- the people would know they had &quot;spurned the LORD&quot; (16:28-30). Exactly that happened: the ground split open and swallowed Dathan, Abiram, their households, and their possessions, and they went down alive into Sheol (16:31-33). Scripture later recalls the episode as a lasting warning against rebellion against God-appointed leadership (Deuteronomy 11:6; Psalm 106:16-18).</p>
-  </section>
-  <p class="first-reference">First named in Numbers 16:1-27</p>
   <p class="references-list">References: Numbers 16:1-27; Numbers 26:9; Deuteronomy 11:6; Psalms 106:17</p>
   <section>
     <h3>Genealogy</h3>
@@ -153,6 +170,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

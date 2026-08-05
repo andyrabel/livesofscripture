@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Mattan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Mattan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Kings 11:18</p>
+    </div>
     <div class="person-title">
-      <h2>Mattan</h2>
+      <h2>Mattan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>Priest of Baal in Jerusalem during Athaliah&#x27;s usurpation, killed before his idol&#x27;s altars when Jehoiada the priest led the people to tear down the temple of Baal after the boy-king Joash was enthroned.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Mattan was a priest who served the false god Baal in Jerusalem during a dark period when a wicked queen named Athaliah ruled the land. When Athaliah was finally removed and the rightful young king, Joash, was placed on the throne, a faithful priest named Jehoiada led the people to tear down Baal&#x27;s temple and destroy his altars and idols. Mattan, the priest who had led people away from the true God, was killed as part of this cleanup. His story marks a turning point when Judah returned to worshiping the LORD instead of false gods.</p>
+  <div class="story-tabs-wrapper" data-person-name="Mattan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Mattan served as priest of Baal in Jerusalem during the six-year usurpation of Queen Athaliah, who had seized the throne after murdering the royal family (2 Kings 11:1-3). When the priest Jehoiada engineered the overthrow of Athaliah and crowned the boy-king Joash, the people responded by tearing down the temple built for Baal worship: &#x27;all the people of the land went to the house of Baal and tore it down; they broke his altars and his images in pieces thoroughly, and killed Mattan the priest of Baal before the altars&#x27; (2 Kings 11:18; 2 Chronicles 23:17). Mattan&#x27;s death is recorded without elaboration -- a brief but pointed notice that the same reform which restored Judah&#x27;s Davidic king also purged the temple of Baal&#x27;s idolatrous priesthood from the very altars where he had served. His death parallels the earlier judgment on the prophets of Baal under Elijah on Mount Carmel (1 Kings 18:40), part of Scripture&#x27;s recurring pattern of decisive judgment against organized idolatry when covenant faithfulness to the LORD is restored.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Mattan was a priest who served the false god Baal in Jerusalem during a dark period when a wicked queen named Athaliah ruled the land. When Athaliah was finally removed and the rightful young king, Joash, was placed on the throne, a faithful priest named Jehoiada led the people to tear down Baal&#x27;s temple and destroy his altars and idols. Mattan, the priest who had led people away from the true God, was killed as part of this cleanup. His story marks a turning point when Judah returned to worshiping the LORD instead of false gods.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Mattan served as priest of Baal in Jerusalem during the six-year usurpation of Queen Athaliah, who had seized the throne after murdering the royal family (2 Kings 11:1-3). When the priest Jehoiada engineered the overthrow of Athaliah and crowned the boy-king Joash, the people responded by tearing down the temple built for Baal worship: &#x27;all the people of the land went to the house of Baal and tore it down; they broke his altars and his images in pieces thoroughly, and killed Mattan the priest of Baal before the altars&#x27; (2 Kings 11:18; 2 Chronicles 23:17). Mattan&#x27;s death is recorded without elaboration -- a brief but pointed notice that the same reform which restored Judah&#x27;s Davidic king also purged the temple of Baal&#x27;s idolatrous priesthood from the very altars where he had served. His death parallels the earlier judgment on the prophets of Baal under Elijah on Mount Carmel (1 Kings 18:40), part of Scripture&#x27;s recurring pattern of decisive judgment against organized idolatry when covenant faithfulness to the LORD is restored.</p>
-  </section>
-  <p class="first-reference">First named in 2 Kings 11:18</p>
   <p class="references-list">References: 2 Kings 11:18; 2 Chronicles 23:17</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

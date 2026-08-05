@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ahab — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ahab — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Jeremiah 29:21-22</p>
+    </div>
     <div class="person-title">
-      <h2>Ahab</h2>
+      <h2>Ahab <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A false prophet among the Judean exiles in Babylon, condemned by the LORD through Jeremiah&#x27;s letter for prophesying lies and committing adultery; the LORD declared he would be handed over to Nebuchadnezzar and executed, becoming a byword and curse among the exiles.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ahab son of Kolaiah was one of two men living among the Jewish people who had been taken to Babylon who claimed to speak messages from God, but they were lying -- God had not sent them. Through the prophet Jeremiah, God sent a letter warning the exiles that Ahab and his companion Zedekiah were false prophets who had also done other wrong, sinful things. God said He would hand them over to the king of Babylon to be punished, and that people would use their names as a warning example for a long time afterward.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ahab">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ahab son of Kolaiah is named in Jeremiah&#x27;s letter to the Judean exiles in Babylon as one of two men &quot;prophesying to you falsely&quot; in the LORD&#x27;s name (Jeremiah 29:21). Alongside Zedekiah son of Maaseiah, Ahab claimed to speak for God without having been sent by Him, and the LORD also charged them with committing adultery with their neighbors&#x27; wives (29:23) -- sins the text states plainly rather than excusing. The LORD&#x27;s judgment through Jeremiah was severe and specific: He would deliver both men into the hand of Nebuchadnezzar, who would put them to death before the eyes of the exiles (29:21). Their deaths would become proverbial -- &quot;a curse... used by all the exiles from Judah in Babylon, saying, &#x27;May the LORD make you like Zedekiah and Ahab, whom the king of Babylon roasted in fire&#x27;&quot; (29:22). Ahab&#x27;s brief, grim appearance in Scripture is a warning example of how easily false claims to speak for God can be paired with moral corruption, and how seriously God judges those who put words in His mouth that He never spoke.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ahab son of Kolaiah was one of two men living among the Jewish people who had been taken to Babylon who claimed to speak messages from God, but they were lying -- God had not sent them. Through the prophet Jeremiah, God sent a letter warning the exiles that Ahab and his companion Zedekiah were false prophets who had also done other wrong, sinful things. God said He would hand them over to the king of Babylon to be punished, and that people would use their names as a warning example for a long time afterward.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ahab son of Kolaiah is named in Jeremiah&#x27;s letter to the Judean exiles in Babylon as one of two men &quot;prophesying to you falsely&quot; in the LORD&#x27;s name (Jeremiah 29:21). Alongside Zedekiah son of Maaseiah, Ahab claimed to speak for God without having been sent by Him, and the LORD also charged them with committing adultery with their neighbors&#x27; wives (29:23) -- sins the text states plainly rather than excusing. The LORD&#x27;s judgment through Jeremiah was severe and specific: He would deliver both men into the hand of Nebuchadnezzar, who would put them to death before the eyes of the exiles (29:21). Their deaths would become proverbial -- &quot;a curse... used by all the exiles from Judah in Babylon, saying, &#x27;May the LORD make you like Zedekiah and Ahab, whom the king of Babylon roasted in fire&#x27;&quot; (29:22). Ahab&#x27;s brief, grim appearance in Scripture is a warning example of how easily false claims to speak for God can be paired with moral corruption, and how seriously God judges those who put words in His mouth that He never spoke.</p>
-  </section>
-  <p class="first-reference">First named in Jeremiah 29:21-22</p>
   <p class="references-list">References: Jeremiah 29:21-22</p>
   <section>
     <h3>Genealogy</h3>
@@ -162,6 +179,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Antipas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Antipas — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Revelation 2:13</p>
+    </div>
     <div class="person-title">
-      <h2>Antipas</h2>
+      <h2>Antipas <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A believer in the church at Pergamum -- a city Christ describes as the place &#x27;where Satan&#x27;s throne is&#x27; -- commended by name in Revelation as Christ&#x27;s &#x27;faithful witness,&#x27; who was put to death for his faith.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>In the book of Revelation, Jesus praises a Christian named Antipas by name for staying true to Him, even in a city that was very hostile to believers. Antipas was killed for his faith, but Jesus calls him &quot;My faithful witness.&quot; We aren&#x27;t told any other details about his life. Antipas&#x27;s story is a reminder that Jesus sees every act of faithfulness, even when it costs everything, and even when the world barely notices.</p>
+  <div class="story-tabs-wrapper" data-person-name="Antipas">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>In His letter to the church at Pergamum, one of the seven churches addressed in Revelation, Christ commends believers there for holding fast to His name and not denying their faith &quot;even in the days of Antipas, My witness, My faithful one, who was killed among you, where Satan dwells&quot; (Revelation 2:13). Pergamum was a center of Roman emperor worship and pagan temple life, which likely explains John&#x27;s description of it as the place &quot;where Satan&#x27;s throne is.&quot; Scripture states nothing else about Antipas&#x27;s life or the circumstances of his death beyond this single verse -- only that he was killed there for his faithfulness to Christ in a city openly hostile to that confession. Later church tradition holds that Antipas served as Pergamum&#x27;s bishop and was martyred by being roasted alive inside a bronze bull under the emperor Domitian, but this account comes from writings composed centuries later and should be received as tradition, not as something Revelation itself states. What Scripture does say plainly is Christ&#x27;s own verdict: Antipas is the only individual member of any of the seven churches singled out by name anywhere in Revelation, named specifically as &quot;My witness, My faithful one.&quot;</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>In the book of Revelation, Jesus praises a Christian named Antipas by name for staying true to Him, even in a city that was very hostile to believers. Antipas was killed for his faith, but Jesus calls him &quot;My faithful witness.&quot; We aren&#x27;t told any other details about his life. Antipas&#x27;s story is a reminder that Jesus sees every act of faithfulness, even when it costs everything, and even when the world barely notices.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>In His letter to the church at Pergamum, one of the seven churches addressed in Revelation, Christ commends believers there for holding fast to His name and not denying their faith &quot;even in the days of Antipas, My witness, My faithful one, who was killed among you, where Satan dwells&quot; (Revelation 2:13). Pergamum was a center of Roman emperor worship and pagan temple life, which likely explains John&#x27;s description of it as the place &quot;where Satan&#x27;s throne is.&quot; Scripture states nothing else about Antipas&#x27;s life or the circumstances of his death beyond this single verse -- only that he was killed there for his faithfulness to Christ in a city openly hostile to that confession. Later church tradition holds that Antipas served as Pergamum&#x27;s bishop and was martyred by being roasted alive inside a bronze bull under the emperor Domitian, but this account comes from writings composed centuries later and should be received as tradition, not as something Revelation itself states. What Scripture does say plainly is Christ&#x27;s own verdict: Antipas is the only individual member of any of the seven churches singled out by name anywhere in Revelation, named specifically as &quot;My witness, My faithful one.&quot;</p>
-  </section>
-  <p class="first-reference">First named in Revelation 2:13</p>
   <p class="references-list">References: Revelation 2:13</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

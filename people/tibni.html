@@ -91,9 +91,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Tibni — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Tibni — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Kings 16:21-22</p>
+    </div>
     <div class="person-title">
-      <h2>Tibni</h2>
+      <h2>Tibni <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -101,16 +104,30 @@
       </div>
     </div>
   </div>
-  <p>A rival claimant to Israel&#x27;s throne who split the nation&#x27;s loyalty with Omri for several years after Zimri&#x27;s death, until Omri&#x27;s faction prevailed and Tibni died.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>After Zimri&#x27;s very short reign ended in fire, Israel was left divided over who should be king next. Half the people supported a man named Tibni, while the other half supported Omri, the army commander. For a few years, the kingdom was split by this disagreement, with the two sides in conflict. Eventually, Omri&#x27;s side proved stronger, and Tibni died, leaving Omri as the sole king of Israel. The Bible tells us very little about Tibni himself -- mostly just that he was Omri&#x27;s rival during this unstable period in Israel&#x27;s history.</p>
+  <div class="story-tabs-wrapper" data-person-name="Tibni">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>After Zimri&#x27;s death by self-immolation ended his seven-day reign, Israel&#x27;s people split into two factions over the succession: half followed Tibni son of Ginath, and half followed Omri, the army commander the troops had already proclaimed king at Gibbethon (1 Kings 16:21-22). The text notes simply that &quot;the people who followed Omri prevailed over the people who followed Tibni&quot;; Tibni died, and Omri became king over all Israel without contest (16:22). Nothing else is recorded of Tibni -- no reign length, no acts, no religious verdict -- only that his claim to the throne ultimately failed. His brief mention marks one of the several periods of internal civil conflict that plagued the northern kingdom of Israel, a nation whose throne, unlike Judah&#x27;s Davidic line, changed hands repeatedly through coups, assassinations, and contested successions rather than settled inheritance. Tibni&#x27;s failed bid is a small but telling data point in that pattern of instability.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>After Zimri&#x27;s very short reign ended in fire, Israel was left divided over who should be king next. Half the people supported a man named Tibni, while the other half supported Omri, the army commander. For a few years, the kingdom was split by this disagreement, with the two sides in conflict. Eventually, Omri&#x27;s side proved stronger, and Tibni died, leaving Omri as the sole king of Israel. The Bible tells us very little about Tibni himself -- mostly just that he was Omri&#x27;s rival during this unstable period in Israel&#x27;s history.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>After Zimri&#x27;s death by self-immolation ended his seven-day reign, Israel&#x27;s people split into two factions over the succession: half followed Tibni son of Ginath, and half followed Omri, the army commander the troops had already proclaimed king at Gibbethon (1 Kings 16:21-22). The text notes simply that &quot;the people who followed Omri prevailed over the people who followed Tibni&quot;; Tibni died, and Omri became king over all Israel without contest (16:22). Nothing else is recorded of Tibni -- no reign length, no acts, no religious verdict -- only that his claim to the throne ultimately failed. His brief mention marks one of the several periods of internal civil conflict that plagued the northern kingdom of Israel, a nation whose throne, unlike Judah&#x27;s Davidic line, changed hands repeatedly through coups, assassinations, and contested successions rather than settled inheritance. Tibni&#x27;s failed bid is a small but telling data point in that pattern of instability.</p>
-  </section>
-  <p class="first-reference">First named in 1 Kings 16:21-22</p>
   <p class="references-list">References: 1 Kings 16:21-22</p>
   <section>
     <h3>Genealogy</h3>
@@ -149,6 +166,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Potiphar — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Potiphar — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 37:36</p>
+    </div>
     <div class="person-title">
-      <h2>Potiphar</h2>
+      <h2>Potiphar <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>Egyptian captain of Pharaoh&#x27;s guard who purchased Joseph as a slave, entrusted him with his entire household due to his evident success under God&#x27;s blessing, then imprisoned him unjustly on his wife&#x27;s false accusation.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Potiphar was an important Egyptian official who bought Joseph as a slave after Joseph&#x27;s brothers had sold him. Potiphar noticed that God was clearly blessing everything Joseph did, so he put Joseph in charge of his entire household and trusted him completely. But when Potiphar&#x27;s wife falsely accused Joseph of doing something wrong, Potiphar believed her and had Joseph thrown in prison, even though Joseph had done nothing wrong. Potiphar&#x27;s story is part of Joseph&#x27;s bigger story -- one where Joseph kept honoring God even when he was treated unfairly, and God was preparing him, even through prison, for something much bigger.</p>
+  <div class="story-tabs-wrapper" data-person-name="Potiphar">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Potiphar, an Egyptian official described as captain of Pharaoh&#x27;s bodyguard, purchased Joseph from the Ishmaelite traders who had bought him from his brothers (Genesis 37:36; 39:1). Genesis notes plainly that &#x27;the LORD was with Joseph&#x27; and caused everything he did to succeed, and Potiphar recognized this clearly enough to place Joseph over his entire household, trusting him with everything he owned (39:2-6). That trust was tested when Potiphar&#x27;s wife repeatedly propositioned Joseph, who refused each time on the grounds that such a betrayal would be a sin against God, not only against Potiphar (39:7-10). When she finally seized his garment and, spurned, twisted the incident into a false accusation of assault against Joseph, Potiphar&#x27;s anger burned and he had Joseph thrown into prison without any investigation into his otherwise proven integrity (39:11-20). Scripture does not explore Potiphar&#x27;s inner conflict or whether he suspected the truth; it simply records his decision and its unjust cost to an innocent man. Yet even in Potiphar&#x27;s prison, the narrative repeats its refrain that the LORD was with Joseph, showing favor to him even there (39:21-23) -- Potiphar&#x27;s unjust verdict becoming, in God&#x27;s providence, simply the next stage on the path that would eventually place Joseph second only to Pharaoh in all of Egypt.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Potiphar was an important Egyptian official who bought Joseph as a slave after Joseph&#x27;s brothers had sold him. Potiphar noticed that God was clearly blessing everything Joseph did, so he put Joseph in charge of his entire household and trusted him completely. But when Potiphar&#x27;s wife falsely accused Joseph of doing something wrong, Potiphar believed her and had Joseph thrown in prison, even though Joseph had done nothing wrong. Potiphar&#x27;s story is part of Joseph&#x27;s bigger story -- one where Joseph kept honoring God even when he was treated unfairly, and God was preparing him, even through prison, for something much bigger.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Potiphar, an Egyptian official described as captain of Pharaoh&#x27;s bodyguard, purchased Joseph from the Ishmaelite traders who had bought him from his brothers (Genesis 37:36; 39:1). Genesis notes plainly that &#x27;the LORD was with Joseph&#x27; and caused everything he did to succeed, and Potiphar recognized this clearly enough to place Joseph over his entire household, trusting him with everything he owned (39:2-6). That trust was tested when Potiphar&#x27;s wife repeatedly propositioned Joseph, who refused each time on the grounds that such a betrayal would be a sin against God, not only against Potiphar (39:7-10). When she finally seized his garment and, spurned, twisted the incident into a false accusation of assault against Joseph, Potiphar&#x27;s anger burned and he had Joseph thrown into prison without any investigation into his otherwise proven integrity (39:11-20). Scripture does not explore Potiphar&#x27;s inner conflict or whether he suspected the truth; it simply records his decision and its unjust cost to an innocent man. Yet even in Potiphar&#x27;s prison, the narrative repeats its refrain that the LORD was with Joseph, showing favor to him even there (39:21-23) -- Potiphar&#x27;s unjust verdict becoming, in God&#x27;s providence, simply the next stage on the path that would eventually place Joseph second only to Pharaoh in all of Egypt.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 37:36</p>
   <p class="references-list">References: Genesis 37:36; Genesis 39:1-20</p>
   <section>
     <h3>Genealogy</h3>
@@ -137,6 +154,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

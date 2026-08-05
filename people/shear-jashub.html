@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Shear-jashub — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Shear-jashub — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Isaiah 7:3</p>
+    </div>
     <div class="person-title">
-      <h2>Shear-jashub</h2>
+      <h2>Shear-jashub <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>Isaiah&#x27;s son, whose name means &quot;a remnant will return,&quot; brought by his father as a living prophetic sign to reassure King Ahaz during the Syro-Ephraimite crisis, when Israel and Aram threatened Jerusalem.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shear-jashub was the son of the prophet Isaiah. His name has a special meaning in Hebrew: &quot;a remnant will return.&quot; During a scary time when two enemy kings were threatening to attack Jerusalem, God told Isaiah to bring Shear-jashub along with him to meet King Ahaz. Just having Shear-jashub there was meant to be a living reminder and message from God: even if hard things happened, God would keep His promise to preserve His people, and a remnant of them would always remain and return to Him. Shear-jashub&#x27;s very name was a sign of hope, encouraging Ahaz -- and everyone who has heard the story since -- to trust God instead of being afraid.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shear-jashub">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shear-jashub, whose Hebrew name means &quot;a remnant will return,&quot; was the son of the prophet Isaiah. During the Syro-Ephraimite crisis -- when King Rezin of Aram and King Pekah of Israel allied against Judah and threatened to depose King Ahaz -- the LORD sent Isaiah to meet Ahaz at the end of the conduit of the upper pool, on the highway to the fuller&#x27;s field, and instructed him to bring his son along: &quot;Go out now to meet Ahaz, you and your son Shear-jashub&quot; (Isaiah 7:1-3). The boy is not recorded as saying or doing anything himself; his presence was the message. His name embodied both a warning and a promise built into the same word -- &quot;remnant&quot; implies that judgment was coming and much would be lost, while &quot;will return&quot; promised that God would not let His people be wiped out entirely. Isaiah went on in that meeting to urge the frightened king to trust the LORD rather than seek Assyria&#x27;s help, and offered Ahaz a sign, which Ahaz refused to ask for -- leading to the well-known Immanuel prophecy of Isaiah 7:14. Isaiah later names another son, Maher-shalal-hash-baz, using the same method of turning a child&#x27;s name itself into a public, standing prophetic sign (Isaiah 8:1-4, 18).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shear-jashub was the son of the prophet Isaiah. His name has a special meaning in Hebrew: &quot;a remnant will return.&quot; During a scary time when two enemy kings were threatening to attack Jerusalem, God told Isaiah to bring Shear-jashub along with him to meet King Ahaz. Just having Shear-jashub there was meant to be a living reminder and message from God: even if hard things happened, God would keep His promise to preserve His people, and a remnant of them would always remain and return to Him. Shear-jashub&#x27;s very name was a sign of hope, encouraging Ahaz -- and everyone who has heard the story since -- to trust God instead of being afraid.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shear-jashub, whose Hebrew name means &quot;a remnant will return,&quot; was the son of the prophet Isaiah. During the Syro-Ephraimite crisis -- when King Rezin of Aram and King Pekah of Israel allied against Judah and threatened to depose King Ahaz -- the LORD sent Isaiah to meet Ahaz at the end of the conduit of the upper pool, on the highway to the fuller&#x27;s field, and instructed him to bring his son along: &quot;Go out now to meet Ahaz, you and your son Shear-jashub&quot; (Isaiah 7:1-3). The boy is not recorded as saying or doing anything himself; his presence was the message. His name embodied both a warning and a promise built into the same word -- &quot;remnant&quot; implies that judgment was coming and much would be lost, while &quot;will return&quot; promised that God would not let His people be wiped out entirely. Isaiah went on in that meeting to urge the frightened king to trust the LORD rather than seek Assyria&#x27;s help, and offered Ahaz a sign, which Ahaz refused to ask for -- leading to the well-known Immanuel prophecy of Isaiah 7:14. Isaiah later names another son, Maher-shalal-hash-baz, using the same method of turning a child&#x27;s name itself into a public, standing prophetic sign (Isaiah 8:1-4, 18).</p>
-  </section>
-  <p class="first-reference">First named in Isaiah 7:3</p>
   <p class="references-list">References: Isaiah 7:3</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

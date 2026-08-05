@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Memucan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Memucan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Esther 1:14-21</p>
+    </div>
     <div class="person-title">
-      <h2>Memucan</h2>
+      <h2>Memucan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>One of the seven princes of Persia and Media who had access to King Ahasuerus (Xerxes); when Queen Vashti refused the king&#x27;s summons, Memucan was the one who spoke up, advising that she be deposed and a decree issued establishing husbands&#x27; authority throughout the kingdom.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Memucan was one of seven wise men who advised King Ahasuerus of Persia. When Queen Vashti refused to come when the king called for her during a big feast, the king was embarrassed and turned to his advisors for help deciding what to do. Memucan was the one who spoke up. He suggested that Vashti be removed as queen and that a new law be made so that husbands throughout the kingdom would be respected in their homes. The king followed Memucan&#x27;s advice. This decision set off the chain of events that eventually led to Esther becoming the new queen -- someone God would use to save His people.</p>
+  <div class="story-tabs-wrapper" data-person-name="Memucan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Memucan was one of seven princes of Persia and Media who &#x27;had access to the king&#x27;s presence&#x27; and were skilled in &#x27;law and justice&#x27; (Esther 1:13-14). When King Ahasuerus, in a fit of anger after Queen Vashti refused his summons during a lavish banquet, asked his wise men what should legally be done to her, Memucan was the one who answered. He argued that Vashti&#x27;s defiance was not a private matter but a public danger: &#x27;the queen&#x27;s conduct will become known to all the women, causing them to look with contempt on their husbands&#x27; (1:17), and he urged the king to issue an irrevocable royal decree removing Vashti from her position and giving her royal position to another, &#x27;so that all women will give honor to their husbands, great and small&#x27; (1:20). The king and his princes followed Memucan&#x27;s counsel, and letters were sent throughout the empire in every language, declaring that every man should be master in his own house (1:21-22). Memucan&#x27;s advice, whatever its underlying anxieties about wounded male pride, set in motion the search for a new queen that eventually brought Esther, a Jewish exile, into the palace -- positioning her providentially to intercede for her people when Haman later plotted their destruction.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Memucan was one of seven wise men who advised King Ahasuerus of Persia. When Queen Vashti refused to come when the king called for her during a big feast, the king was embarrassed and turned to his advisors for help deciding what to do. Memucan was the one who spoke up. He suggested that Vashti be removed as queen and that a new law be made so that husbands throughout the kingdom would be respected in their homes. The king followed Memucan&#x27;s advice. This decision set off the chain of events that eventually led to Esther becoming the new queen -- someone God would use to save His people.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Memucan was one of seven princes of Persia and Media who &#x27;had access to the king&#x27;s presence&#x27; and were skilled in &#x27;law and justice&#x27; (Esther 1:13-14). When King Ahasuerus, in a fit of anger after Queen Vashti refused his summons during a lavish banquet, asked his wise men what should legally be done to her, Memucan was the one who answered. He argued that Vashti&#x27;s defiance was not a private matter but a public danger: &#x27;the queen&#x27;s conduct will become known to all the women, causing them to look with contempt on their husbands&#x27; (1:17), and he urged the king to issue an irrevocable royal decree removing Vashti from her position and giving her royal position to another, &#x27;so that all women will give honor to their husbands, great and small&#x27; (1:20). The king and his princes followed Memucan&#x27;s counsel, and letters were sent throughout the empire in every language, declaring that every man should be master in his own house (1:21-22). Memucan&#x27;s advice, whatever its underlying anxieties about wounded male pride, set in motion the search for a new queen that eventually brought Esther, a Jewish exile, into the palace -- positioning her providentially to intercede for her people when Haman later plotted their destruction.</p>
-  </section>
-  <p class="first-reference">First named in Esther 1:14-21</p>
   <p class="references-list">References: Esther 1:14-21</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

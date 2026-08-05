@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Malchus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Malchus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in John 18:10</p>
+    </div>
     <div class="person-title">
-      <h2>Malchus</h2>
+      <h2>Malchus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A servant of the high priest whose ear Peter cut off with a sword during Jesus&#x27;s arrest in Gethsemane, and whom Jesus immediately healed, His last recorded miracle before the crucifixion.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Malchus was a servant of the high priest, present the night Jesus was arrested in the garden of Gethsemane. When the armed crowd came to seize Jesus, Peter reacted impulsively, drawing a sword and cutting off Malchus&#x27;s ear. Instead of allowing or praising the violence, Jesus immediately stopped it, rebuking Peter and reminding him that His arrest was part of God&#x27;s plan. Then Jesus reached out and healed Malchus&#x27;s ear, His very last recorded miracle before His crucifixion, showing mercy even toward someone present to arrest Him. The Gospel of John is the only one that tells us the servant&#x27;s name.</p>
+  <div class="story-tabs-wrapper" data-person-name="Malchus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Malchus, identified by name only in John&#x27;s Gospel, was &quot;a slave of the high priest&quot; present among the armed crowd that came to arrest Jesus in the garden of Gethsemane (John 18:10). As the arrest began, Simon Peter, having a sword, &quot;drew it, and struck the slave of the high priest, and cut off his right ear&quot; -- an impulsive, violent act of resistance (18:10; Luke 22:50 specifies it was the right ear). Jesus immediately intervened, rebuking Peter directly: &quot;put the sword into the sheath; the cup which the Father has given Me, shall I not drink it?&quot; (John 18:11), and in Matthew&#x27;s account adding that those who take up the sword will perish by it, and that He could summon twelve legions of angels if He wished, but His arrest was fulfilling what the Scriptures required (Matthew 26:52-54). Luke alone records that Jesus then touched Malchus&#x27;s ear and healed him on the spot (Luke 22:51) -- remarkably, the last miracle of healing Jesus performs in the Gospels, extended toward a member of the very group arresting Him, at the very moment His own suffering was beginning. Malchus&#x27;s brief appearance captures, in a single incident, both the violent human impulse to resist Jesus&#x27;s arrest by force and Jesus&#x27;s own deliberate, merciful restraint, choosing the Father&#x27;s plan and showing compassion even toward an enemy in the same breath.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Malchus was a servant of the high priest, present the night Jesus was arrested in the garden of Gethsemane. When the armed crowd came to seize Jesus, Peter reacted impulsively, drawing a sword and cutting off Malchus&#x27;s ear. Instead of allowing or praising the violence, Jesus immediately stopped it, rebuking Peter and reminding him that His arrest was part of God&#x27;s plan. Then Jesus reached out and healed Malchus&#x27;s ear, His very last recorded miracle before His crucifixion, showing mercy even toward someone present to arrest Him. The Gospel of John is the only one that tells us the servant&#x27;s name.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Malchus, identified by name only in John&#x27;s Gospel, was &quot;a slave of the high priest&quot; present among the armed crowd that came to arrest Jesus in the garden of Gethsemane (John 18:10). As the arrest began, Simon Peter, having a sword, &quot;drew it, and struck the slave of the high priest, and cut off his right ear&quot; -- an impulsive, violent act of resistance (18:10; Luke 22:50 specifies it was the right ear). Jesus immediately intervened, rebuking Peter directly: &quot;put the sword into the sheath; the cup which the Father has given Me, shall I not drink it?&quot; (John 18:11), and in Matthew&#x27;s account adding that those who take up the sword will perish by it, and that He could summon twelve legions of angels if He wished, but His arrest was fulfilling what the Scriptures required (Matthew 26:52-54). Luke alone records that Jesus then touched Malchus&#x27;s ear and healed him on the spot (Luke 22:51) -- remarkably, the last miracle of healing Jesus performs in the Gospels, extended toward a member of the very group arresting Him, at the very moment His own suffering was beginning. Malchus&#x27;s brief appearance captures, in a single incident, both the violent human impulse to resist Jesus&#x27;s arrest by force and Jesus&#x27;s own deliberate, merciful restraint, choosing the Father&#x27;s plan and showing compassion even toward an enemy in the same breath.</p>
-  </section>
-  <p class="first-reference">First named in John 18:10</p>
   <p class="references-list">References: John 18:10</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

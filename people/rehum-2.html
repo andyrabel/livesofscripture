@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Rehum — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Rehum — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Ezra 4:8-23</p>
+    </div>
     <div class="person-title">
-      <h2>Rehum</h2>
+      <h2>Rehum <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>A Persian official (&#x27;the commander&#x27;) who, together with the scribe Shimshai, wrote a letter to King Artaxerxes accusing the Jews of rebuilding a rebellious city, successfully persuading the king to halt the reconstruction of Jerusalem&#x27;s walls until Darius&#x27;s reign.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Rehum was a government official serving under the Persian king Artaxerxes. When the Jewish people who had returned from exile began trying to rebuild the walls of Jerusalem, Rehum and a scribe named Shimshai did not want them to succeed. They wrote a letter to the king warning him that Jerusalem had a history of rebellion and that if the walls were finished, the Jews might stop paying taxes and cause trouble. King Artaxerxes believed them and sent an order commanding the work to stop. Because of Rehum&#x27;s letter, the rebuilding of Jerusalem was delayed for years, until a later king, Darius, allowed the work to continue.</p>
+  <div class="story-tabs-wrapper" data-person-name="Rehum">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Rehum, called &#x27;the commander,&#x27; along with Shimshai the scribe and other officials, wrote a formal letter of accusation to King Artaxerxes of Persia, opposing the rebuilding efforts underway in Jerusalem (Ezra 4:8-9). The letter warned the king that Jerusalem was historically &#x27;a rebellious and evil city,&#x27; that its people had a record of withholding tribute and revolting against previous kings, and that if the walls were completed, the king would lose control of the entire region west of the Euphrates (4:12-16). Artaxerxes had the royal records searched, confirmed Jerusalem&#x27;s history of rebellion, and issued a decree ordering the work stopped &#x27;by force&#x27; until he gave further orders (4:17-22). Rehum and Shimshai, receiving the king&#x27;s letter, went at once to Jerusalem and compelled the workers to stop, halting reconstruction until the second year of King Darius (4:23-24). Though Rehum&#x27;s letter is presented in Ezra without editorial comment on his motives, his opposition forms a real setback in the post-exilic community&#x27;s efforts to rebuild -- work that would only resume once the prophets Haggai and Zechariah stirred the people to finish the temple, and, later, once Nehemiah secured royal permission to rebuild the walls themselves under a different king&#x27;s favor.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Rehum was a government official serving under the Persian king Artaxerxes. When the Jewish people who had returned from exile began trying to rebuild the walls of Jerusalem, Rehum and a scribe named Shimshai did not want them to succeed. They wrote a letter to the king warning him that Jerusalem had a history of rebellion and that if the walls were finished, the Jews might stop paying taxes and cause trouble. King Artaxerxes believed them and sent an order commanding the work to stop. Because of Rehum&#x27;s letter, the rebuilding of Jerusalem was delayed for years, until a later king, Darius, allowed the work to continue.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Rehum, called &#x27;the commander,&#x27; along with Shimshai the scribe and other officials, wrote a formal letter of accusation to King Artaxerxes of Persia, opposing the rebuilding efforts underway in Jerusalem (Ezra 4:8-9). The letter warned the king that Jerusalem was historically &#x27;a rebellious and evil city,&#x27; that its people had a record of withholding tribute and revolting against previous kings, and that if the walls were completed, the king would lose control of the entire region west of the Euphrates (4:12-16). Artaxerxes had the royal records searched, confirmed Jerusalem&#x27;s history of rebellion, and issued a decree ordering the work stopped &#x27;by force&#x27; until he gave further orders (4:17-22). Rehum and Shimshai, receiving the king&#x27;s letter, went at once to Jerusalem and compelled the workers to stop, halting reconstruction until the second year of King Darius (4:23-24). Though Rehum&#x27;s letter is presented in Ezra without editorial comment on his motives, his opposition forms a real setback in the post-exilic community&#x27;s efforts to rebuild -- work that would only resume once the prophets Haggai and Zechariah stirred the people to finish the temple, and, later, once Nehemiah secured royal permission to rebuild the walls themselves under a different king&#x27;s favor.</p>
-  </section>
-  <p class="first-reference">First named in Ezra 4:8-23</p>
   <p class="references-list">References: Ezra 4:8-23</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

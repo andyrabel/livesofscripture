@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Caesar Augustus — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Caesar Augustus — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Luke 2:1</p>
+    </div>
     <div class="person-title">
-      <h2>Caesar Augustus</h2>
+      <h2>Caesar Augustus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>Rome&#x27;s first emperor, whose empire-wide census decree providentially brought Joseph and the pregnant Mary from Nazareth to Bethlehem, fulfilling the prophecy that Israel&#x27;s Messiah would be born there.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Caesar Augustus was the most powerful ruler in the world when Jesus was born -- he was the emperor of the huge Roman Empire, which included the land where Mary and Joseph lived. The Bible tells us that Augustus sent out an order for everyone in the empire to be counted in a census, which meant everyone had to travel to their family&#x27;s hometown to be registered. Because of this order, Joseph had to travel from Nazareth to Bethlehem, the town of his ancestor King David, taking Mary with him. It was in Bethlehem, because of Caesar&#x27;s decree, that Jesus was born -- fulfilling exactly what an Old Testament prophet had said hundreds of years earlier.</p>
+  <div class="story-tabs-wrapper" data-person-name="Caesar Augustus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Caesar Augustus (born Octavian), grand-nephew and adopted heir of Julius Caesar, became Rome&#x27;s first emperor and ruled the empire during the years of Jesus&#x27;s birth. Luke names him directly at the start of the nativity account: &quot;Now it came about in those days that a decree went out from Caesar Augustus, that a census be taken of all the inhabited earth&quot; (Luke 2:1). This decree required people to register in their ancestral hometowns, which is why Joseph, &quot;of the house and family of David,&quot; traveled from Nazareth in Galilee to Bethlehem in Judea, taking Mary, who was engaged to him and expecting a child (2:3-5). Augustus never appears again in Scripture and never learns what his administrative order accomplished, but Luke frames the most powerful man in the ancient world as an unwitting instrument of God&#x27;s larger plan: it was in Bethlehem, the city of David, that Mary gave birth to Jesus, fulfilling the prophet Micah&#x27;s centuries-old word that Israel&#x27;s ruler would come from that small town (Micah 5:2; Luke 2:6-7). The emperor who counted the world for taxes could not see that his own decree was delivering the King who would truly rule it.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Caesar Augustus was the most powerful ruler in the world when Jesus was born -- he was the emperor of the huge Roman Empire, which included the land where Mary and Joseph lived. The Bible tells us that Augustus sent out an order for everyone in the empire to be counted in a census, which meant everyone had to travel to their family&#x27;s hometown to be registered. Because of this order, Joseph had to travel from Nazareth to Bethlehem, the town of his ancestor King David, taking Mary with him. It was in Bethlehem, because of Caesar&#x27;s decree, that Jesus was born -- fulfilling exactly what an Old Testament prophet had said hundreds of years earlier.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Caesar Augustus (born Octavian), grand-nephew and adopted heir of Julius Caesar, became Rome&#x27;s first emperor and ruled the empire during the years of Jesus&#x27;s birth. Luke names him directly at the start of the nativity account: &quot;Now it came about in those days that a decree went out from Caesar Augustus, that a census be taken of all the inhabited earth&quot; (Luke 2:1). This decree required people to register in their ancestral hometowns, which is why Joseph, &quot;of the house and family of David,&quot; traveled from Nazareth in Galilee to Bethlehem in Judea, taking Mary, who was engaged to him and expecting a child (2:3-5). Augustus never appears again in Scripture and never learns what his administrative order accomplished, but Luke frames the most powerful man in the ancient world as an unwitting instrument of God&#x27;s larger plan: it was in Bethlehem, the city of David, that Mary gave birth to Jesus, fulfilling the prophet Micah&#x27;s centuries-old word that Israel&#x27;s ruler would come from that small town (Micah 5:2; Luke 2:6-7). The emperor who counted the world for taxes could not see that his own decree was delivering the King who would truly rule it.</p>
-  </section>
-  <p class="first-reference">First named in Luke 2:1</p>
   <p class="references-list">References: Luke 2:1</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

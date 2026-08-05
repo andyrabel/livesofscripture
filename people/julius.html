@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Julius — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Julius — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 27:1-3</p>
+    </div>
     <div class="person-title">
-      <h2>Julius</h2>
+      <h2>Julius <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A Roman centurion of the Augustan cohort placed in charge of Paul and other prisoners on the voyage to Rome, who treated Paul with consideration, allowed him to visit friends for care, and later protected his life when soldiers planned to kill the prisoners in a shipwreck.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Julius was a Roman army officer given the job of escorting the apostle Paul, along with other prisoners, on a long sea voyage to Rome. Right from the start, Julius treated Paul kindly, letting him go ashore at one stop to visit friends and be cared for. Later, during the voyage, the ship was caught in a terrible storm and wrecked near the island of Malta. When soldiers wanted to kill all the prisoners so none could escape by swimming away, Julius stepped in and stopped them, because he wanted to save Paul&#x27;s life. Julius&#x27;s kindness shows that even a Roman soldier guarding a prisoner could be an instrument of God&#x27;s care and protection.</p>
+  <div class="story-tabs-wrapper" data-person-name="Julius">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Julius, a centurion of the Augustan cohort, was assigned to escort Paul and other prisoners from Caesarea to Rome for Paul&#x27;s appeal to Caesar (Acts 27:1). From the outset Luke notes his character: at Sidon, &quot;Julius treated Paul with consideration and allowed him to go to his friends and receive care&quot; (27:3) -- an unusual kindness from a guard to a prisoner. The voyage turned dangerous when a violent northeaster struck the ship, and after two weeks adrift the vessel ran aground near Malta and began to break apart (27:14-44). As the ship broke up, the soldiers planned to kill all the prisoners to prevent any from escaping by swimming, since a guard who let a prisoner escape could himself be executed. But Julius, &quot;wanting to bring Paul safely through, kept them from their intention,&quot; ordering instead that all aboard -- prisoners included -- make for shore on planks and debris, and every one of the 276 people on board reached land safely (27:42-44). Julius&#x27;s two brief but decisive acts of kindness -- granting Paul liberty at Sidon and overriding his own soldiers to spare the prisoners&#x27; lives at Malta -- place a Roman officer, without any stated faith of his own, in the role of an instrument preserving God&#x27;s promise that Paul would stand before Caesar and reach Rome (27:24).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Julius was a Roman army officer given the job of escorting the apostle Paul, along with other prisoners, on a long sea voyage to Rome. Right from the start, Julius treated Paul kindly, letting him go ashore at one stop to visit friends and be cared for. Later, during the voyage, the ship was caught in a terrible storm and wrecked near the island of Malta. When soldiers wanted to kill all the prisoners so none could escape by swimming away, Julius stepped in and stopped them, because he wanted to save Paul&#x27;s life. Julius&#x27;s kindness shows that even a Roman soldier guarding a prisoner could be an instrument of God&#x27;s care and protection.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Julius, a centurion of the Augustan cohort, was assigned to escort Paul and other prisoners from Caesarea to Rome for Paul&#x27;s appeal to Caesar (Acts 27:1). From the outset Luke notes his character: at Sidon, &quot;Julius treated Paul with consideration and allowed him to go to his friends and receive care&quot; (27:3) -- an unusual kindness from a guard to a prisoner. The voyage turned dangerous when a violent northeaster struck the ship, and after two weeks adrift the vessel ran aground near Malta and began to break apart (27:14-44). As the ship broke up, the soldiers planned to kill all the prisoners to prevent any from escaping by swimming, since a guard who let a prisoner escape could himself be executed. But Julius, &quot;wanting to bring Paul safely through, kept them from their intention,&quot; ordering instead that all aboard -- prisoners included -- make for shore on planks and debris, and every one of the 276 people on board reached land safely (27:42-44). Julius&#x27;s two brief but decisive acts of kindness -- granting Paul liberty at Sidon and overriding his own soldiers to spare the prisoners&#x27; lives at Malta -- place a Roman officer, without any stated faith of his own, in the role of an instrument preserving God&#x27;s promise that Paul would stand before Caesar and reach Rome (27:24).</p>
-  </section>
-  <p class="first-reference">First named in Acts 27:1-3</p>
   <p class="references-list">References: Acts 27:1-3</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

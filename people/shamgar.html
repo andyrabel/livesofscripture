@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Shamgar — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Shamgar — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Judges 3:31</p>
+    </div>
     <div class="person-title">
-      <h2>Shamgar</h2>
+      <h2>Shamgar <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A judge of Israel who single-handedly killed six hundred Philistines with an ox goad, saving Israel; mentioned only briefly, in a single verse of narrative plus one reference in the Song of Deborah.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shamgar is one of the shortest stories in the whole Bible -- just one verse -- but it&#x27;s a memorable one. He saved Israel from the Philistines by fighting off six hundred of them using nothing but an ox goad, a long stick farmers used to prod their animals while plowing. Shamgar didn&#x27;t have fancy weapons or an army; he simply used what he had at hand, trusted God, and won. His story is a reminder that God doesn&#x27;t need impressive tools to accomplish great things -- He can use ordinary people and ordinary objects to rescue and protect His people.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shamgar">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shamgar receives just one verse of narrative: &quot;after him was Shamgar the son of Anath, who struck down six hundred Philistines with an oxgoad; and he also saved Israel&quot; (Judges 3:31). An oxgoad was a long, sharpened wooden pole farmers used to drive cattle while plowing -- not a weapon of war, which makes the scale of the victory Scripture credits him with all the more striking. He is mentioned again only in the Song of Deborah, where &quot;the days of Shamgar the son of Anath&quot; are recalled as a time so dangerous that travelers avoided the main roads (Judges 5:6), suggesting his deliverance came amid ongoing Philistine harassment of the countryside rather than a single decisive campaign. Nothing is recorded of his tribe, his call, or his death, unlike the fuller accounts given to Ehud, Deborah, or Gideon. Shamgar&#x27;s brief entry in the roll of judges is a reminder that Israel&#x27;s rescues in this period did not depend on rank, equipment, or a lengthy résumé -- an ordinary farmer with a farming tool, willing to stand and fight, was enough in the hand of the God who &quot;saved Israel&quot; through him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shamgar is one of the shortest stories in the whole Bible -- just one verse -- but it&#x27;s a memorable one. He saved Israel from the Philistines by fighting off six hundred of them using nothing but an ox goad, a long stick farmers used to prod their animals while plowing. Shamgar didn&#x27;t have fancy weapons or an army; he simply used what he had at hand, trusted God, and won. His story is a reminder that God doesn&#x27;t need impressive tools to accomplish great things -- He can use ordinary people and ordinary objects to rescue and protect His people.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shamgar receives just one verse of narrative: &quot;after him was Shamgar the son of Anath, who struck down six hundred Philistines with an oxgoad; and he also saved Israel&quot; (Judges 3:31). An oxgoad was a long, sharpened wooden pole farmers used to drive cattle while plowing -- not a weapon of war, which makes the scale of the victory Scripture credits him with all the more striking. He is mentioned again only in the Song of Deborah, where &quot;the days of Shamgar the son of Anath&quot; are recalled as a time so dangerous that travelers avoided the main roads (Judges 5:6), suggesting his deliverance came amid ongoing Philistine harassment of the countryside rather than a single decisive campaign. Nothing is recorded of his tribe, his call, or his death, unlike the fuller accounts given to Ehud, Deborah, or Gideon. Shamgar&#x27;s brief entry in the roll of judges is a reminder that Israel&#x27;s rescues in this period did not depend on rank, equipment, or a lengthy résumé -- an ordinary farmer with a farming tool, willing to stand and fight, was enough in the hand of the God who &quot;saved Israel&quot; through him.</p>
-  </section>
-  <p class="first-reference">First named in Judges 3:31</p>
   <p class="references-list">References: Judges 3:31; Judges 5:6</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

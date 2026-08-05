@@ -101,9 +101,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Methuselah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Methuselah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 5:21-27</p>
+    </div>
     <div class="person-title">
-      <h2>Methuselah</h2>
+      <h2>Methuselah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -111,17 +114,30 @@
       </div>
     </div>
   </div>
-  <p>Son of Enoch and grandfather of Noah, credited with the longest recorded lifespan in Scripture at 969 years; his death, by the widely-used chronology, falls the same year the flood begins.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Methuselah was Enoch&#x27;s son and Noah&#x27;s grandfather, and the Bible tells us one especially memorable fact about him: he lived longer than anyone else in the whole Bible -- 969 years! Methuselah&#x27;s long life spanned the time between his father Enoch, who walked closely with God, and his grandson Noah, who would build the ark. Even though Methuselah&#x27;s story is mostly just his name in a family list, his life is a reminder that God was patiently at work across many, many years in the families that would eventually lead to Noah -- and much later, to Jesus.</p>
+  <div class="story-tabs-wrapper" data-person-name="Methuselah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Methuselah is known to most readers for a single fact: at 969 years, Genesis 5:27 credits him with the longest lifespan recorded in Scripture. He was the son of Enoch, the one man in his genealogical line of whom Scripture says he &#x27;walked with God&#x27; and was taken up without dying (Genesis 5:21-24), and he was the grandfather of Noah, through whom humanity would survive the flood (Genesis 5:25-29). Beyond his age, Genesis records nothing of Methuselah&#x27;s own words or deeds -- he is a name in a chain connecting two of Genesis&#x27;s most significant figures. By the chronology Genesis 5 and 7 supply, Methuselah&#x27;s death and the year the flood begins coincide, though Scripture does not comment on that timing directly. 1 Chronicles 1:3 repeats his place in the line from Adam to Noah, and Luke 3:37 places him in Jesus&#x27; genealogy, tracing the Messiah&#x27;s ancestry back through Seth&#x27;s line to Adam. Methuselah&#x27;s quiet, nearly millennium-long life is Scripture&#x27;s way of showing that God was patiently sustaining a single family line, generation after generation, toward His larger redemptive purposes long before those purposes became visible.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Methuselah was Enoch&#x27;s son and Noah&#x27;s grandfather, and the Bible tells us one especially memorable fact about him: he lived longer than anyone else in the whole Bible -- 969 years! Methuselah&#x27;s long life spanned the time between his father Enoch, who walked closely with God, and his grandson Noah, who would build the ark. Even though Methuselah&#x27;s story is mostly just his name in a family list, his life is a reminder that God was patiently at work across many, many years in the families that would eventually lead to Noah -- and much later, to Jesus.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Whether the extraordinary ages recorded for Genesis 5&#x27;s patriarchs (Methuselah&#x27;s 969 years being the longest of anyone in Scripture) describe literal calendar years, a different ancient counting convention, or figures with symbolic significance is genuinely disputed among evangelical scholars. This site records the number Genesis gives without adjudicating that debate.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Methuselah is known to most readers for a single fact: at 969 years, Genesis 5:27 credits him with the longest lifespan recorded in Scripture. He was the son of Enoch, the one man in his genealogical line of whom Scripture says he &#x27;walked with God&#x27; and was taken up without dying (Genesis 5:21-24), and he was the grandfather of Noah, through whom humanity would survive the flood (Genesis 5:25-29). Beyond his age, Genesis records nothing of Methuselah&#x27;s own words or deeds -- he is a name in a chain connecting two of Genesis&#x27;s most significant figures. By the chronology Genesis 5 and 7 supply, Methuselah&#x27;s death and the year the flood begins coincide, though Scripture does not comment on that timing directly. 1 Chronicles 1:3 repeats his place in the line from Adam to Noah, and Luke 3:37 places him in Jesus&#x27; genealogy, tracing the Messiah&#x27;s ancestry back through Seth&#x27;s line to Adam. Methuselah&#x27;s quiet, nearly millennium-long life is Scripture&#x27;s way of showing that God was patiently sustaining a single family line, generation after generation, toward His larger redemptive purposes long before those purposes became visible.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 5:21-27</p>
   <p class="references-list">References: Genesis 5:21-27; 1 Chronicles 1:3; Luke 3:37</p>
   <section>
     <h3>Genealogy</h3>
@@ -162,6 +178,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

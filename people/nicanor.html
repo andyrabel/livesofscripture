@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Nicanor — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Nicanor — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 6:5</p>
+    </div>
     <div class="person-title">
-      <h2>Nicanor</h2>
+      <h2>Nicanor <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>One of the seven men chosen by the Jerusalem church, full of the Spirit and wisdom, to oversee the daily distribution of food to widows so the apostles could devote themselves to prayer and the ministry of the word.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>In the early church in Jerusalem, some widows were being overlooked when food was shared out each day. To fix this fairly, the apostles asked the church to choose seven trustworthy men, full of God&#x27;s Spirit and wisdom, to take care of this important job. Nicanor was one of the seven chosen. The apostles prayed for him and the others and placed their hands on them, setting them apart for this service. The Bible doesn&#x27;t tell us more about Nicanor individually, but his willingness to serve freed the apostles to focus on teaching and prayer, and it shows that caring for people in need mattered greatly to the early church.</p>
+  <div class="story-tabs-wrapper" data-person-name="Nicanor">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Nicanor appears once in Scripture, named among the seven men chosen in Acts 6 to resolve a dispute in the rapidly growing Jerusalem church. Greek-speaking (Hellenistic) Jewish believers complained that their widows were being overlooked in the daily distribution of food, compared to Hebrew-speaking widows (Acts 6:1). Rather than neglect either prayer and preaching or practical care for the vulnerable, the apostles asked the congregation to select &quot;seven men of good reputation, full of the Spirit and of wisdom&quot; to administer the distribution (6:3). The church chose Stephen, Philip, Prochorus, Nicanor, Timon, Parmenas, and Nicolas, and presented them to the apostles, who prayed and laid hands on them, commissioning them for this service (6:5-6). Nicanor&#x27;s Greek name suggests he, like several of the seven, came from the Hellenistic Jewish community whose concern had prompted the whole episode. Scripture records nothing further about him individually -- unlike Stephen and Philip, whose subsequent ministries Acts narrates at length, Nicanor&#x27;s name appears only in this list. His inclusion still matters: the early church&#x27;s willingness to organize practical, Spirit-filled service to meet a real need, entrusted to capable named men rather than left unaddressed, became a foundation for what later tradition associated with the office of deacon.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>In the early church in Jerusalem, some widows were being overlooked when food was shared out each day. To fix this fairly, the apostles asked the church to choose seven trustworthy men, full of God&#x27;s Spirit and wisdom, to take care of this important job. Nicanor was one of the seven chosen. The apostles prayed for him and the others and placed their hands on them, setting them apart for this service. The Bible doesn&#x27;t tell us more about Nicanor individually, but his willingness to serve freed the apostles to focus on teaching and prayer, and it shows that caring for people in need mattered greatly to the early church.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Nicanor appears once in Scripture, named among the seven men chosen in Acts 6 to resolve a dispute in the rapidly growing Jerusalem church. Greek-speaking (Hellenistic) Jewish believers complained that their widows were being overlooked in the daily distribution of food, compared to Hebrew-speaking widows (Acts 6:1). Rather than neglect either prayer and preaching or practical care for the vulnerable, the apostles asked the congregation to select &quot;seven men of good reputation, full of the Spirit and of wisdom&quot; to administer the distribution (6:3). The church chose Stephen, Philip, Prochorus, Nicanor, Timon, Parmenas, and Nicolas, and presented them to the apostles, who prayed and laid hands on them, commissioning them for this service (6:5-6). Nicanor&#x27;s Greek name suggests he, like several of the seven, came from the Hellenistic Jewish community whose concern had prompted the whole episode. Scripture records nothing further about him individually -- unlike Stephen and Philip, whose subsequent ministries Acts narrates at length, Nicanor&#x27;s name appears only in this list. His inclusion still matters: the early church&#x27;s willingness to organize practical, Spirit-filled service to meet a real need, entrusted to capable named men rather than left unaddressed, became a foundation for what later tradition associated with the office of deacon.</p>
-  </section>
-  <p class="first-reference">First named in Acts 6:5</p>
   <p class="references-list">References: Acts 6:5</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

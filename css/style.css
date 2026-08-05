@@ -351,6 +351,18 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.person-portrait-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.person-portrait-col .first-reference {
+  margin: 0;
+  text-align: center;
+}
+
 .person-header img {
   width: 140px;
   height: 140px;
@@ -393,41 +405,122 @@ main {
   margin-top: 0.4rem;
 }
 
-section.story h3 {
-  font-family: var(--font-serif);
-  border-bottom: 1px solid var(--color-border);
-  padding-bottom: 0.3rem;
-  margin-top: 2rem;
-}
-
-.family-friendly {
+.story-tabs-wrapper {
   background: var(--color-surface);
-  border: 1px solid var(--color-ok);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius);
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.story-tabs-nav {
+  display: flex;
+  background: var(--color-bg);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.story-tab {
+  flex: 1;
   padding: 0.75rem 1rem;
-  margin: 1rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  text-align: center;
 }
 
-.family-friendly-label {
-  display: block;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-ok);
-  margin-bottom: 0.25rem;
+.story-tab:hover {
+  color: var(--color-accent);
 }
 
-.family-friendly p {
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-.interpretive-note {
+.story-tab.active {
+  color: var(--color-accent-strong);
+  border-bottom-color: var(--color-accent-strong);
   background: var(--color-surface);
-  border-left: 3px solid var(--color-warn);
-  padding: 0.75rem 1rem;
-  margin: 1rem 0;
-  font-size: 0.92rem;
+}
+
+.story-panel {
+  padding: 1.1rem 1.25rem;
+}
+
+.story-panel.hidden {
+  display: none;
+}
+
+.story-text p {
+  margin: 0 0 1em;
+  line-height: 1.75;
+}
+
+.story-text p:last-child {
+  margin-bottom: 0;
+}
+
+.story-panel-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.9rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.btn-story {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.85rem;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-accent);
+  background: var(--color-surface);
+  color: var(--color-accent-strong);
+  cursor: pointer;
+}
+
+.btn-story:hover {
+  background: var(--color-bg);
+}
+
+.btn-story.copied {
+  border-color: var(--color-ok);
+  color: var(--color-ok);
+}
+
+.btn-story:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.devotional {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  margin: 1.5rem 0;
+}
+
+.devotional h3 {
+  font-family: var(--font-serif);
+  margin: 0 0 0.6rem;
+}
+
+.devotional p {
+  margin: 0 0 0.7em;
+  font-style: italic;
+}
+
+.devotional p:last-child {
+  margin-bottom: 0;
 }
 
 .references-list {

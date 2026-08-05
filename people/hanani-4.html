@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Hanani — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Hanani — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Nehemiah 1:2</p>
+    </div>
     <div class="person-title">
-      <h2>Hanani</h2>
+      <h2>Hanani <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>Nehemiah&#x27;s brother, whose report on Jerusalem&#x27;s ruined walls and distressed remnant moved Nehemiah to prayer and fasting and set his mission in motion; later appointed by Nehemiah to help oversee Jerusalem because he was faithful and feared God.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Hanani was the brother of Nehemiah, who worked far away in the palace of the king of Persia. One day Hanani traveled from Jerusalem to visit Nehemiah and told him sad news: the walls of Jerusalem were broken down, the gates had been burned, and the people who lived there were in much trouble. When Nehemiah heard this, he sat down and cried, then prayed and fasted for many days, asking God to help him do something. This news from Hanani was the spark that led Nehemiah to ask the king for permission to go rebuild Jerusalem&#x27;s walls. Later, after the walls were finished, Nehemiah trusted Hanani with an important job -- helping to watch over the city -- because Hanani was faithful and loved God.</p>
+  <div class="story-tabs-wrapper" data-person-name="Hanani">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Hanani was Nehemiah&#x27;s brother, and it was his visit to the Persian capital of Susa, along with men from Judah, that set Nehemiah&#x27;s whole mission in motion. Nehemiah asked them about Jerusalem, and Hanani reported: &quot;The remnant there in the province who survived the captivity are in great distress and reproach, and the wall of Jerusalem is broken down and its gates are burned with fire&quot; (Nehemiah 1:2-3). The news devastated Nehemiah -- he sat down, wept, mourned, fasted, and prayed for days before approaching King Artaxerxes for permission to go rebuild the city (1:4-11; 2:1-8). Once Jerusalem&#x27;s wall was completed, Nehemiah placed Hanani in charge of the city alongside Hananiah the commander of the fortress, explicitly &quot;because he was a faithful man and feared God more than many&quot; (7:2) -- a rare, direct commendation of character. A Hanani also appears leading part of the procession of musicians at the wall&#x27;s dedication ceremony, though Scripture does not state whether this is certainly the same man (12:36). Though he speaks only once in the narrative, Hanani&#x27;s honest, grieving account of Jerusalem&#x27;s condition is the hinge on which the entire book of Nehemiah turns, and his trustworthiness under Nehemiah&#x27;s own testimony makes him a quiet model of faithful, God-fearing service.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Hanani was the brother of Nehemiah, who worked far away in the palace of the king of Persia. One day Hanani traveled from Jerusalem to visit Nehemiah and told him sad news: the walls of Jerusalem were broken down, the gates had been burned, and the people who lived there were in much trouble. When Nehemiah heard this, he sat down and cried, then prayed and fasted for many days, asking God to help him do something. This news from Hanani was the spark that led Nehemiah to ask the king for permission to go rebuild Jerusalem&#x27;s walls. Later, after the walls were finished, Nehemiah trusted Hanani with an important job -- helping to watch over the city -- because Hanani was faithful and loved God.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Hanani was Nehemiah&#x27;s brother, and it was his visit to the Persian capital of Susa, along with men from Judah, that set Nehemiah&#x27;s whole mission in motion. Nehemiah asked them about Jerusalem, and Hanani reported: &quot;The remnant there in the province who survived the captivity are in great distress and reproach, and the wall of Jerusalem is broken down and its gates are burned with fire&quot; (Nehemiah 1:2-3). The news devastated Nehemiah -- he sat down, wept, mourned, fasted, and prayed for days before approaching King Artaxerxes for permission to go rebuild the city (1:4-11; 2:1-8). Once Jerusalem&#x27;s wall was completed, Nehemiah placed Hanani in charge of the city alongside Hananiah the commander of the fortress, explicitly &quot;because he was a faithful man and feared God more than many&quot; (7:2) -- a rare, direct commendation of character. A Hanani also appears leading part of the procession of musicians at the wall&#x27;s dedication ceremony, though Scripture does not state whether this is certainly the same man (12:36). Though he speaks only once in the narrative, Hanani&#x27;s honest, grieving account of Jerusalem&#x27;s condition is the hinge on which the entire book of Nehemiah turns, and his trustworthiness under Nehemiah&#x27;s own testimony makes him a quiet model of faithful, God-fearing service.</p>
-  </section>
-  <p class="first-reference">First named in Nehemiah 1:2</p>
   <p class="references-list">References: Nehemiah 1:2; Nehemiah 7:2; Nehemiah 12:36</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +167,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

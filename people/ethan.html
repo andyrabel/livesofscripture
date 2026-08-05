@@ -100,9 +100,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ethan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ethan — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Kings 4:31</p>
+    </div>
     <div class="person-title">
-      <h2>Ethan</h2>
+      <h2>Ethan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -110,17 +113,30 @@
       </div>
     </div>
   </div>
-  <p>A man renowned for his wisdom, named in 1 Kings 4:31 as one of the sages whose wisdom Solomon&#x27;s surpassed; traditionally identified as the &quot;Ethan the Ezrahite&quot; credited with authoring Psalm 89.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ethan was known in Israel as a very wise man. When the Bible describes just how wise King Solomon was, it compares him to the wisest people of the time -- and Ethan is one of the names mentioned, showing that Ethan&#x27;s own wisdom was already famous and highly respected. A psalm in the Bible, Psalm 89, carries the heading &quot;A Maskil of Ethan the Ezrahite,&quot; and many believe this is the same wise Ethan, remembered for putting his understanding of God&#x27;s faithfulness into song.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ethan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ethan the Ezrahite appears by name in a single verse describing Solomon&#x27;s legendary wisdom: &quot;Solomon&#x27;s wisdom surpassed the wisdom of all the sons of the east and all the wisdom of Egypt. For he was wiser than all men, than Ethan the Ezrahite, Heman, Calcol and Darda&quot; (1 Kings 4:30-31). Being used as the benchmark against which Solomon&#x27;s greater wisdom is measured marks Ethan as one of the most celebrated sages of his day, even if no specific saying or deed of his survives in the historical narrative. He is listed among the sons of Zerah in the genealogy of Judah (1 Chronicles 2:6, alongside Heman, Calcol, and Dara -- likely the same men named in 1 Kings 4:31). Psalm 89 carries the superscription &quot;A Maskil of Ethan the Ezrahite,&quot; and is traditionally attributed to this same wise man; the psalm itself is a sweeping meditation on God&#x27;s covenant faithfulness to David&#x27;s line, God&#x27;s unmatched power over creation, and an anguished appeal to God in a time when that covenant seemed threatened. If the attribution is correct, Ethan&#x27;s legacy moves beyond a mere name on a wisdom list to a substantial theological composition wrestling honestly with the tension between God&#x27;s promises and present hardship.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ethan was known in Israel as a very wise man. When the Bible describes just how wise King Solomon was, it compares him to the wisest people of the time -- and Ethan is one of the names mentioned, showing that Ethan&#x27;s own wisdom was already famous and highly respected. A psalm in the Bible, Psalm 89, carries the heading &quot;A Maskil of Ethan the Ezrahite,&quot; and many believe this is the same wise Ethan, remembered for putting his understanding of God&#x27;s faithfulness into song.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: The superscription of Psalm 89 attributes it to &quot;Ethan the Ezrahite,&quot; traditionally identified with this Ethan, though some scholars distinguish the psalmist Ethan from the wise man named alongside Solomon in 1 Kings 4:31, since Scripture does not explicitly equate the two.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ethan the Ezrahite appears by name in a single verse describing Solomon&#x27;s legendary wisdom: &quot;Solomon&#x27;s wisdom surpassed the wisdom of all the sons of the east and all the wisdom of Egypt. For he was wiser than all men, than Ethan the Ezrahite, Heman, Calcol and Darda&quot; (1 Kings 4:30-31). Being used as the benchmark against which Solomon&#x27;s greater wisdom is measured marks Ethan as one of the most celebrated sages of his day, even if no specific saying or deed of his survives in the historical narrative. He is listed among the sons of Zerah in the genealogy of Judah (1 Chronicles 2:6, alongside Heman, Calcol, and Dara -- likely the same men named in 1 Kings 4:31). Psalm 89 carries the superscription &quot;A Maskil of Ethan the Ezrahite,&quot; and is traditionally attributed to this same wise man; the psalm itself is a sweeping meditation on God&#x27;s covenant faithfulness to David&#x27;s line, God&#x27;s unmatched power over creation, and an anguished appeal to God in a time when that covenant seemed threatened. If the attribution is correct, Ethan&#x27;s legacy moves beyond a mere name on a wisdom list to a substantial theological composition wrestling honestly with the tension between God&#x27;s promises and present hardship.</p>
-  </section>
-  <p class="first-reference">First named in 1 Kings 4:31</p>
   <p class="references-list">References: 1 Kings 4:31; 1 Chronicles 2:6-8; Psalms 89:0</p>
   <section>
     <h3>Genealogy</h3>
@@ -173,6 +189,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

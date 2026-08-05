@@ -105,9 +105,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Mahlon — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Mahlon — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Ruth 1:1-5</p>
+    </div>
     <div class="person-title">
-      <h2>Mahlon</h2>
+      <h2>Mahlon <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -115,16 +118,30 @@
       </div>
     </div>
   </div>
-  <p>Son of Elimelech and Naomi of Bethlehem, who married the Moabite Ruth during a famine-driven sojourn in Moab and died there without children; his name and inheritance were later restored through Boaz&#x27;s redemption.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Mahlon was the son of Elimelech and Naomi, a family from Bethlehem. During a famine, the family moved to the country of Moab to find food. There, Mahlon married a Moabite woman named Ruth. Sadly, Mahlon died in Moab, along with his father and brother, leaving Naomi and Ruth as widows. Later, back in Bethlehem, a kind relative named Boaz married Ruth and bought back the family&#x27;s land, keeping Mahlon&#x27;s name and family line alive. Mahlon&#x27;s story is really the beginning of Ruth&#x27;s story -- his death is what leads Ruth to show great love and loyalty to Naomi, which God then blessed in a wonderful way.</p>
+  <div class="story-tabs-wrapper" data-person-name="Mahlon">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Mahlon was one of two sons of Elimelech and Naomi, a family from Bethlehem in Judah who migrated to Moab during a severe famine (Ruth 1:1-2). While there, Mahlon married Ruth, a Moabite woman, and his brother Chilion married Orpah (1:4). After about ten years, Mahlon died in Moab, along with his brother and father, leaving Naomi without husband or sons and both young women widowed (1:3-5). Naomi and Ruth returned to Bethlehem together, where Ruth&#x27;s loyalty to her mother-in-law and her gleaning in the fields brought her into contact with Boaz, a close relative of Elimelech. Boaz agreed to redeem Elimelech&#x27;s property and to marry Ruth &#x27;to raise up the name of the dead on his inheritance, so that the name of the dead may not be cut off&#x27; -- Mahlon&#x27;s name specifically preserved through this act of levirate-style redemption (4:9-10). Mahlon himself speaks no words and performs no recorded deed in the narrative; his significance lies entirely in his marriage, his death, and the inheritance that Boaz redeems in his name. Through Ruth and Boaz&#x27;s son Obed, the family line associated with Mahlon&#x27;s household became part of the ancestry of David -- and ultimately of Christ (4:17-22; Matthew 1:5-6).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Mahlon was the son of Elimelech and Naomi, a family from Bethlehem. During a famine, the family moved to the country of Moab to find food. There, Mahlon married a Moabite woman named Ruth. Sadly, Mahlon died in Moab, along with his father and brother, leaving Naomi and Ruth as widows. Later, back in Bethlehem, a kind relative named Boaz married Ruth and bought back the family&#x27;s land, keeping Mahlon&#x27;s name and family line alive. Mahlon&#x27;s story is really the beginning of Ruth&#x27;s story -- his death is what leads Ruth to show great love and loyalty to Naomi, which God then blessed in a wonderful way.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Mahlon was one of two sons of Elimelech and Naomi, a family from Bethlehem in Judah who migrated to Moab during a severe famine (Ruth 1:1-2). While there, Mahlon married Ruth, a Moabite woman, and his brother Chilion married Orpah (1:4). After about ten years, Mahlon died in Moab, along with his brother and father, leaving Naomi without husband or sons and both young women widowed (1:3-5). Naomi and Ruth returned to Bethlehem together, where Ruth&#x27;s loyalty to her mother-in-law and her gleaning in the fields brought her into contact with Boaz, a close relative of Elimelech. Boaz agreed to redeem Elimelech&#x27;s property and to marry Ruth &#x27;to raise up the name of the dead on his inheritance, so that the name of the dead may not be cut off&#x27; -- Mahlon&#x27;s name specifically preserved through this act of levirate-style redemption (4:9-10). Mahlon himself speaks no words and performs no recorded deed in the narrative; his significance lies entirely in his marriage, his death, and the inheritance that Boaz redeems in his name. Through Ruth and Boaz&#x27;s son Obed, the family line associated with Mahlon&#x27;s household became part of the ancestry of David -- and ultimately of Christ (4:17-22; Matthew 1:5-6).</p>
-  </section>
-  <p class="first-reference">First named in Ruth 1:1-5</p>
   <p class="references-list">References: Ruth 1:1-5; Ruth 4:10</p>
   <section>
     <h3>Genealogy</h3>
@@ -167,6 +184,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Jair — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Jair — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Judges 10:3-5</p>
+    </div>
     <div class="person-title">
-      <h2>Jair</h2>
+      <h2>Jair <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>One of the &#x27;minor judges,&#x27; a Gileadite who judged Israel twenty-two years; his thirty sons rode thirty donkeys and governed thirty towns in Gilead called Havvoth-jair.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Jair was a judge from Gilead who led Israel for twenty-two years. The Bible tells us he had thirty sons, and each of them rode his own donkey and ruled over one of thirty towns in Gilead, which came to be called Havvoth-jair, meaning &quot;the towns of Jair.&quot; Unlike some judges whose stories involve battles or dramatic rescues, Jair&#x27;s account is a quiet one -- the Bible simply tells us he judged faithfully for over two decades and that his family was large and well-respected. His short story sits among a handful of judges the Bible mentions only briefly, between the more dramatic accounts of Gideon and Jephthah.</p>
+  <div class="story-tabs-wrapper" data-person-name="Jair">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jair the Gileadite judged Israel for twenty-two years, one of the so-called &quot;minor judges&quot; whose accounts Scripture gives in only a few verses, sandwiched between the far longer narratives of Tola and Jephthah (Judges 10:1-5). He had thirty sons, and Scripture notes a specific mark of prosperity and standing: each son rode his own donkey, and together they possessed thirty towns in the land of Gilead, which were called Havvoth-jair (&quot;the villages of Jair&quot;) &quot;to this day&quot; (10:4). This name recalls an earlier conquest-era Jair, a descendant of Manasseh, who had captured Gilead&#x27;s villages generations before (Numbers 32:41; Deuteronomy 3:14) -- whether this judge is a descendant reclaiming or simply inheriting that name is not stated. Jair died and was buried in Camon. His brief, uneventful account stands in the book of Judges&#x27; larger pattern: after each cycle of Israel&#x27;s apostasy, oppression, and deliverance, a period of stability follows under a judge, sometimes narrated at length, sometimes -- as with Jair -- reduced to a single note about a peaceful, prosperous tenure. That very silence is its own witness: not every faithful leader&#x27;s story is dramatic, and Scripture still records his name and years among Israel&#x27;s judges.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Jair was a judge from Gilead who led Israel for twenty-two years. The Bible tells us he had thirty sons, and each of them rode his own donkey and ruled over one of thirty towns in Gilead, which came to be called Havvoth-jair, meaning &quot;the towns of Jair.&quot; Unlike some judges whose stories involve battles or dramatic rescues, Jair&#x27;s account is a quiet one -- the Bible simply tells us he judged faithfully for over two decades and that his family was large and well-respected. His short story sits among a handful of judges the Bible mentions only briefly, between the more dramatic accounts of Gideon and Jephthah.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jair the Gileadite judged Israel for twenty-two years, one of the so-called &quot;minor judges&quot; whose accounts Scripture gives in only a few verses, sandwiched between the far longer narratives of Tola and Jephthah (Judges 10:1-5). He had thirty sons, and Scripture notes a specific mark of prosperity and standing: each son rode his own donkey, and together they possessed thirty towns in the land of Gilead, which were called Havvoth-jair (&quot;the villages of Jair&quot;) &quot;to this day&quot; (10:4). This name recalls an earlier conquest-era Jair, a descendant of Manasseh, who had captured Gilead&#x27;s villages generations before (Numbers 32:41; Deuteronomy 3:14) -- whether this judge is a descendant reclaiming or simply inheriting that name is not stated. Jair died and was buried in Camon. His brief, uneventful account stands in the book of Judges&#x27; larger pattern: after each cycle of Israel&#x27;s apostasy, oppression, and deliverance, a period of stability follows under a judge, sometimes narrated at length, sometimes -- as with Jair -- reduced to a single note about a peaceful, prosperous tenure. That very silence is its own witness: not every faithful leader&#x27;s story is dramatic, and Scripture still records his name and years among Israel&#x27;s judges.</p>
-  </section>
-  <p class="first-reference">First named in Judges 10:3-5</p>
   <p class="references-list">References: Judges 10:3-5</p>
   <section>
     <h3>Genealogy</h3>
@@ -148,6 +165,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

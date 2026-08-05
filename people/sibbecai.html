@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Sibbecai — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Sibbecai — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Samuel 21:18</p>
+    </div>
     <div class="person-title">
-      <h2>Sibbecai</h2>
+      <h2>Sibbecai <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Mebunnai</div>
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>One of David&#x27;s mighty men who killed the giant-descended Philistine warrior Saph at Gob, listed among the Thirty and later commander of a division of David&#x27;s standing army.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Sibbecai, also called Mebunnai, was one of King David&#x27;s mighty men -- an elite group of brave warriors famous for their courage in battle. During a war with the Philistines at a place called Gob, Sibbecai fought and killed a huge Philistine warrior named Saph, who was said to be a descendant of the giants. Sibbecai is listed among David&#x27;s thirty mighty men and later commanded a division of 24,000 soldiers who served the king one month each year. His story shows how God used ordinary soldiers with real courage to protect His people and their king.</p>
+  <div class="story-tabs-wrapper" data-person-name="Sibbecai">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Sibbecai the Hushathite, also called Mebunnai, was one of David&#x27;s mighty men, remembered for a specific act of battlefield courage. During a war against the Philistines at Gob, &quot;Sibbecai the Hushathite killed Saph, who was among the descendants of the giant&quot; -- one of several Philistine warriors of unusual size defeated by David&#x27;s men in that campaign (2 Samuel 21:18; 1 Chronicles 20:4). He appears in the roster of David&#x27;s Thirty mighty warriors (2 Samuel 23:27; 1 Chronicles 11:29), and later held a formal command: 1 Chronicles 27:11 lists him as commander of the division of 24,000 troops on duty during the eighth month of David&#x27;s organized rotation of the army. Sibbecai is not given extended narrative beyond these notices, but together they sketch a consistent picture -- a battle-tested warrior whose individual feat against a giant-descended Philistine earned him a lasting place in Israel&#x27;s collective memory of David&#x27;s elite fighting men, and whose reliability was rewarded with ongoing command responsibility in the king&#x27;s standing forces. Like several of David&#x27;s mighty men, Sibbecai&#x27;s single recorded act of valor stands in for a career of loyal service that Scripture otherwise summarizes only in lists.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Sibbecai, also called Mebunnai, was one of King David&#x27;s mighty men -- an elite group of brave warriors famous for their courage in battle. During a war with the Philistines at a place called Gob, Sibbecai fought and killed a huge Philistine warrior named Saph, who was said to be a descendant of the giants. Sibbecai is listed among David&#x27;s thirty mighty men and later commanded a division of 24,000 soldiers who served the king one month each year. His story shows how God used ordinary soldiers with real courage to protect His people and their king.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Sibbecai the Hushathite, also called Mebunnai, was one of David&#x27;s mighty men, remembered for a specific act of battlefield courage. During a war against the Philistines at Gob, &quot;Sibbecai the Hushathite killed Saph, who was among the descendants of the giant&quot; -- one of several Philistine warriors of unusual size defeated by David&#x27;s men in that campaign (2 Samuel 21:18; 1 Chronicles 20:4). He appears in the roster of David&#x27;s Thirty mighty warriors (2 Samuel 23:27; 1 Chronicles 11:29), and later held a formal command: 1 Chronicles 27:11 lists him as commander of the division of 24,000 troops on duty during the eighth month of David&#x27;s organized rotation of the army. Sibbecai is not given extended narrative beyond these notices, but together they sketch a consistent picture -- a battle-tested warrior whose individual feat against a giant-descended Philistine earned him a lasting place in Israel&#x27;s collective memory of David&#x27;s elite fighting men, and whose reliability was rewarded with ongoing command responsibility in the king&#x27;s standing forces. Like several of David&#x27;s mighty men, Sibbecai&#x27;s single recorded act of valor stands in for a career of loyal service that Scripture otherwise summarizes only in lists.</p>
-  </section>
-  <p class="first-reference">First named in 2 Samuel 21:18</p>
   <p class="references-list">References: 2 Samuel 21:18; 2 Samuel 23:27; 1 Chronicles 11:29; 1 Chronicles 20:4; 1 Chronicles 27:11</p>
   <section>
     <h3>Genealogy</h3>
@@ -143,6 +160,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-priest.png" alt="Azariah — Generic line-art icon for priests -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-priest.png" alt="Azariah — Generic line-art icon for priests -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 31:10</p>
+    </div>
     <div class="person-title">
-      <h2>Azariah</h2>
+      <h2>Azariah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>The high priest of the house of Zadok under King Hezekiah who reported to the king that the people&#x27;s tithes and contributions had piled up in abundance, evidence of God&#x27;s blessing on Judah&#x27;s revived temple worship.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>When King Hezekiah led Judah back to worshiping God the right way, he asked the people to bring their tithes and offerings to the temple again. The people gave so generously that huge piles of food and goods built up -- so much that Hezekiah wondered what was happening. He asked the priests about it, and the chief priest, Azariah, told him the wonderful news: there was more than enough for the priests to eat, with plenty left over, because God had blessed His people so much. Hezekiah then had storerooms built to hold it all. Azariah&#x27;s report shows how generously God provides for His people when they honor Him.</p>
+  <div class="story-tabs-wrapper" data-person-name="Azariah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Azariah served as chief priest of the house of Zadok during King Hezekiah&#x27;s reforms, a period when the king worked to restore proper worship in Judah after generations of neglect and idolatry under his father Ahaz (2 Chronicles 29-31). Hezekiah commanded the people of Jerusalem to give the portion due the priests and Levites so they could devote themselves to the law of the LORD, and the people responded with striking generosity, bringing tithes of grain, wine, oil, honey, and produce in such quantity that they piled up in heaps from the third month to the seventh (31:4-7). When Hezekiah saw the heaps, he asked the priests and Levites about them, and Azariah answered him directly: &quot;Since the contributions began to be brought into the house of the LORD, we have had enough to eat with plenty left over, for the LORD has blessed His people, and what is left is this great quantity&quot; (31:10). Hezekiah then ordered storerooms prepared in the temple to hold the surplus, and Levites were appointed to oversee its faithful distribution (31:11-15). Azariah&#x27;s brief, direct report to the king is the only recorded moment of his own words in Scripture, but it captures a rare season of abundance flowing directly from the people&#x27;s obedience -- a high priest testifying, in effect, that God had kept His promise to bless a repentant nation.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>When King Hezekiah led Judah back to worshiping God the right way, he asked the people to bring their tithes and offerings to the temple again. The people gave so generously that huge piles of food and goods built up -- so much that Hezekiah wondered what was happening. He asked the priests about it, and the chief priest, Azariah, told him the wonderful news: there was more than enough for the priests to eat, with plenty left over, because God had blessed His people so much. Hezekiah then had storerooms built to hold it all. Azariah&#x27;s report shows how generously God provides for His people when they honor Him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Azariah served as chief priest of the house of Zadok during King Hezekiah&#x27;s reforms, a period when the king worked to restore proper worship in Judah after generations of neglect and idolatry under his father Ahaz (2 Chronicles 29-31). Hezekiah commanded the people of Jerusalem to give the portion due the priests and Levites so they could devote themselves to the law of the LORD, and the people responded with striking generosity, bringing tithes of grain, wine, oil, honey, and produce in such quantity that they piled up in heaps from the third month to the seventh (31:4-7). When Hezekiah saw the heaps, he asked the priests and Levites about them, and Azariah answered him directly: &quot;Since the contributions began to be brought into the house of the LORD, we have had enough to eat with plenty left over, for the LORD has blessed His people, and what is left is this great quantity&quot; (31:10). Hezekiah then ordered storerooms prepared in the temple to hold the surplus, and Levites were appointed to oversee its faithful distribution (31:11-15). Azariah&#x27;s brief, direct report to the king is the only recorded moment of his own words in Scripture, but it captures a rare season of abundance flowing directly from the people&#x27;s obedience -- a high priest testifying, in effect, that God had kept His promise to bless a repentant nation.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 31:10</p>
   <p class="references-list">References: 2 Chronicles 31:10; Nehemiah 10:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -184,6 +201,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

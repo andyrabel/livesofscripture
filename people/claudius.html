@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Claudius — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Claudius — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 11:28</p>
+    </div>
     <div class="person-title">
-      <h2>Claudius</h2>
+      <h2>Claudius <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>The Roman emperor (reigned AD 41-54) during whose rule a severe famine struck the empire as Agabus had prophesied, and who issued an edict expelling Jews from Rome that sent Aquila and Priscilla to Corinth, where they met Paul.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Claudius was the emperor who ruled the entire Roman Empire while the early church was just getting started, during the time described in the book of Acts. The Bible mentions him in two ways. First, a prophet named Agabus warned that a terrible famine was coming, and Luke tells us that famine really happened while Claudius was emperor. Second, Claudius made a law commanding all Jewish people to leave the city of Rome. Because of that law, a Jewish couple named Aquila and Priscilla had to move to the city of Corinth -- which is exactly where they met the apostle Paul and became his close friends and coworkers in spreading the gospel.</p>
+  <div class="story-tabs-wrapper" data-person-name="Claudius">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Claudius was the fourth Roman emperor (reigned AD 41-54), and Scripture mentions him twice by name as a marker of secular history intersecting the early church&#x27;s story. In Acts 11:28, the prophet Agabus, moved by the Spirit, predicted &quot;that there would certainly be a great famine all over the world. And this took place in the reign of Claudius&quot; -- prompting the Antioch church to send relief to believers in Judea (11:29-30), an early example of cross-regional Christian generosity in response to real hardship. Later, in Acts 18:2, Luke records that Paul met &quot;a Jew named Aquila... and his wife Priscilla, because Claudius had commanded all the Jews to leave Rome.&quot; This expulsion, a documented historical event generally dated to around AD 49, is what brought Aquila and Priscilla to Corinth, where they partnered with Paul in tentmaking and ministry and later became significant coworkers in his mission (18:3, 18, 26; Romans 16:3-4). Claudius himself takes no direct action toward the church in the text -- his famine and his edict are simply the backdrop against which God moved His people, provided for the suffering, and brought key partners into Paul&#x27;s path. Scripture treats even the decisions of a pagan emperor with no awareness of Christ as falling within the reach of God&#x27;s providence for His church.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Claudius was the emperor who ruled the entire Roman Empire while the early church was just getting started, during the time described in the book of Acts. The Bible mentions him in two ways. First, a prophet named Agabus warned that a terrible famine was coming, and Luke tells us that famine really happened while Claudius was emperor. Second, Claudius made a law commanding all Jewish people to leave the city of Rome. Because of that law, a Jewish couple named Aquila and Priscilla had to move to the city of Corinth -- which is exactly where they met the apostle Paul and became his close friends and coworkers in spreading the gospel.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Claudius was the fourth Roman emperor (reigned AD 41-54), and Scripture mentions him twice by name as a marker of secular history intersecting the early church&#x27;s story. In Acts 11:28, the prophet Agabus, moved by the Spirit, predicted &quot;that there would certainly be a great famine all over the world. And this took place in the reign of Claudius&quot; -- prompting the Antioch church to send relief to believers in Judea (11:29-30), an early example of cross-regional Christian generosity in response to real hardship. Later, in Acts 18:2, Luke records that Paul met &quot;a Jew named Aquila... and his wife Priscilla, because Claudius had commanded all the Jews to leave Rome.&quot; This expulsion, a documented historical event generally dated to around AD 49, is what brought Aquila and Priscilla to Corinth, where they partnered with Paul in tentmaking and ministry and later became significant coworkers in his mission (18:3, 18, 26; Romans 16:3-4). Claudius himself takes no direct action toward the church in the text -- his famine and his edict are simply the backdrop against which God moved His people, provided for the suffering, and brought key partners into Paul&#x27;s path. Scripture treats even the decisions of a pagan emperor with no awareness of Christ as falling within the reach of God&#x27;s providence for His church.</p>
-  </section>
-  <p class="first-reference">First named in Acts 11:28</p>
   <p class="references-list">References: Acts 11:28; Acts 17:7; Acts 18:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -137,6 +154,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

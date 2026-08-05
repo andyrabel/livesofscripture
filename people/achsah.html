@@ -100,9 +100,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-woman.png" alt="Achsah — Generic line-art icon for women -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-woman.png" alt="Achsah — Generic line-art icon for women -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Joshua 15:16-19</p>
+    </div>
     <div class="person-title">
-      <h2>Achsah</h2>
+      <h2>Achsah <span class="gender-tag gender-tag--female">(F)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -110,16 +113,30 @@
       </div>
     </div>
   </div>
-  <p>Caleb&#x27;s daughter, offered in marriage as a reward to whoever captured Kiriath-sepher; won by her cousin Othniel, she boldly asked her father for springs of water to go with her dry southern land, and received them.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Achsah was Caleb&#x27;s daughter. Caleb promised her in marriage to whoever could capture the city of Kiriath-sepher, and her cousin Othniel won that challenge and married her. Once married, Achsah noticed that the land she&#x27;d been given was dry, so she boldly went to her father and asked for springs of water too. Caleb gladly gave her both the upper and lower springs. Achsah&#x27;s story is a great example of asking confidently for what&#x27;s genuinely needed, and of a father&#x27;s generous, loving response to his daughter&#x27;s request.</p>
+  <div class="story-tabs-wrapper" data-person-name="Achsah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Achsah was the daughter of Caleb, one of the two faithful spies who had trusted God&#x27;s promise to give Israel the land forty years earlier (Joshua 14:6-14). As Caleb took possession of his inheritance in the hill country around Hebron, he offered Achsah in marriage to whoever would attack and capture Kiriath-sepher (Debir); her cousin Othniel, son of Kenaz, took the city and won her hand (Joshua 15:15-17; Judges 1:12-13). As Achsah went to live with Othniel, she urged him to ask her father for an additional field, and then went further and approached Caleb herself, asking directly, &#x27;Give me also springs of water&#x27; (Joshua 15:18-19; Judges 1:14-15) -- since the Negev land she had received was dry, southern territory poorly suited without a reliable water source. Caleb responded by giving her both the upper and lower springs, a generous and complete answer to her request. Achsah&#x27;s short account, preserved in near-identical detail in both Joshua and Judges, stands out for the directness and confidence of her request and for Caleb&#x27;s immediate, generous provision -- a small domestic scene that nonetheless models the boldness Scripture elsewhere commends in bringing genuine needs before those who have the power and love to meet them, ultimately reflecting the far greater generosity of God toward those who ask Him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Achsah was Caleb&#x27;s daughter. Caleb promised her in marriage to whoever could capture the city of Kiriath-sepher, and her cousin Othniel won that challenge and married her. Once married, Achsah noticed that the land she&#x27;d been given was dry, so she boldly went to her father and asked for springs of water too. Caleb gladly gave her both the upper and lower springs. Achsah&#x27;s story is a great example of asking confidently for what&#x27;s genuinely needed, and of a father&#x27;s generous, loving response to his daughter&#x27;s request.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Achsah was the daughter of Caleb, one of the two faithful spies who had trusted God&#x27;s promise to give Israel the land forty years earlier (Joshua 14:6-14). As Caleb took possession of his inheritance in the hill country around Hebron, he offered Achsah in marriage to whoever would attack and capture Kiriath-sepher (Debir); her cousin Othniel, son of Kenaz, took the city and won her hand (Joshua 15:15-17; Judges 1:12-13). As Achsah went to live with Othniel, she urged him to ask her father for an additional field, and then went further and approached Caleb herself, asking directly, &#x27;Give me also springs of water&#x27; (Joshua 15:18-19; Judges 1:14-15) -- since the Negev land she had received was dry, southern territory poorly suited without a reliable water source. Caleb responded by giving her both the upper and lower springs, a generous and complete answer to her request. Achsah&#x27;s short account, preserved in near-identical detail in both Joshua and Judges, stands out for the directness and confidence of her request and for Caleb&#x27;s immediate, generous provision -- a small domestic scene that nonetheless models the boldness Scripture elsewhere commends in bringing genuine needs before those who have the power and love to meet them, ultimately reflecting the far greater generosity of God toward those who ask Him.</p>
-  </section>
-  <p class="first-reference">First named in Joshua 15:16-19</p>
   <p class="references-list">References: Joshua 15:16-19; Judges 1:12-15</p>
   <section>
     <h3>Genealogy</h3>
@@ -160,6 +177,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

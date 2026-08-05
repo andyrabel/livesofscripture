@@ -87,9 +87,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Gabriel — Generic line-art icon -- symbolic, no claim of likeness or appearance; Scripture gives no physical description of Gabriel">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Gabriel — Generic line-art icon -- symbolic, no claim of likeness or appearance; Scripture gives no physical description of Gabriel">
+      <p class="first-reference">First named in Daniel 8:16</p>
+    </div>
     <div class="person-title">
-      <h2>Gabriel</h2>
+      <h2>Gabriel <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -97,16 +100,30 @@
       </div>
     </div>
   </div>
-  <p>An angel sent by God who explained Daniel&#x27;s visions of the ram and goat and the seventy weeks, and who, centuries later, announced the births of John the Baptist to Zechariah and of Jesus to Mary.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Gabriel is one of the few angels named in the whole Bible. In the Old Testament, Gabriel appeared to the prophet Daniel to help him understand some confusing and frightening visions about the future. Many years later, Gabriel appeared again -- this time to a priest named Zechariah, to tell him that he and his wife would have a son named John, who would prepare the way for the Messiah. Soon after, Gabriel appeared to a young woman named Mary in Nazareth with the most important announcement of all: she would become the mother of Jesus, the Son of God. Gabriel&#x27;s appearances mark some of the most important announcements in the whole Bible.</p>
+  <div class="story-tabs-wrapper" data-person-name="Gabriel">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Gabriel is one of only two angels named in Scripture (the other being Michael), and each of his appearances delivers pivotal revelation. In the book of Daniel, Gabriel is sent to explain Daniel&#x27;s vision of the ram and the goat, interpreting it as a prophecy of coming Persian and Greek empires (Daniel 8:15-26). Later, while Daniel is praying, Gabriel comes again &quot;in swift flight&quot; to give him the prophecy of the seventy weeks, a detailed timetable concerning Jerusalem, the coming of an &quot;Anointed One,&quot; and the end of the age (9:20-27) -- one of the most theologically weighty and debated prophetic passages in the Old Testament. Gabriel&#x27;s role shifts from interpreter to herald in Luke&#x27;s Gospel: he appears to the priest Zechariah in the temple to announce, against all natural expectation, that his elderly and barren wife Elizabeth would bear a son, John, who would go before the Lord &quot;in the spirit and power of Elijah&quot; (Luke 1:11-17). When Zechariah doubts, Gabriel identifies himself directly -- &quot;I am Gabriel, who stands in the presence of God&quot; -- and strikes him mute until the promise is fulfilled (1:19-20). Six months later, Gabriel is sent to Nazareth to deliver Scripture&#x27;s most consequential angelic announcement: to a virgin named Mary, that she would conceive by the Holy Spirit and bear the Son of God, whose kingdom would have no end (1:26-33). Across both testaments, Gabriel functions as God&#x27;s chosen messenger for revelations of the greatest magnitude -- explaining the future shape of empires and announcing the arrival of the Messiah Himself.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Gabriel is one of the few angels named in the whole Bible. In the Old Testament, Gabriel appeared to the prophet Daniel to help him understand some confusing and frightening visions about the future. Many years later, Gabriel appeared again -- this time to a priest named Zechariah, to tell him that he and his wife would have a son named John, who would prepare the way for the Messiah. Soon after, Gabriel appeared to a young woman named Mary in Nazareth with the most important announcement of all: she would become the mother of Jesus, the Son of God. Gabriel&#x27;s appearances mark some of the most important announcements in the whole Bible.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Gabriel is one of only two angels named in Scripture (the other being Michael), and each of his appearances delivers pivotal revelation. In the book of Daniel, Gabriel is sent to explain Daniel&#x27;s vision of the ram and the goat, interpreting it as a prophecy of coming Persian and Greek empires (Daniel 8:15-26). Later, while Daniel is praying, Gabriel comes again &quot;in swift flight&quot; to give him the prophecy of the seventy weeks, a detailed timetable concerning Jerusalem, the coming of an &quot;Anointed One,&quot; and the end of the age (9:20-27) -- one of the most theologically weighty and debated prophetic passages in the Old Testament. Gabriel&#x27;s role shifts from interpreter to herald in Luke&#x27;s Gospel: he appears to the priest Zechariah in the temple to announce, against all natural expectation, that his elderly and barren wife Elizabeth would bear a son, John, who would go before the Lord &quot;in the spirit and power of Elijah&quot; (Luke 1:11-17). When Zechariah doubts, Gabriel identifies himself directly -- &quot;I am Gabriel, who stands in the presence of God&quot; -- and strikes him mute until the promise is fulfilled (1:19-20). Six months later, Gabriel is sent to Nazareth to deliver Scripture&#x27;s most consequential angelic announcement: to a virgin named Mary, that she would conceive by the Holy Spirit and bear the Son of God, whose kingdom would have no end (1:26-33). Across both testaments, Gabriel functions as God&#x27;s chosen messenger for revelations of the greatest magnitude -- explaining the future shape of empires and announcing the arrival of the Messiah Himself.</p>
-  </section>
-  <p class="first-reference">First named in Daniel 8:16</p>
   <p class="references-list">References: Daniel 8:16; Daniel 9:21; Luke 1:19-26</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +155,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

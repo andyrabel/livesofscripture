@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Archippus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Archippus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Colossians 4:17</p>
+    </div>
     <div class="person-title">
-      <h2>Archippus</h2>
+      <h2>Archippus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -96,17 +99,30 @@
       </div>
     </div>
   </div>
-  <p>A member of the church at Colossae, called Paul&#x27;s &#x27;fellow soldier&#x27; in the letter to Philemon, whom Paul publicly charged through the Colossian letter to &#x27;fulfill the ministry&#x27; he had received.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Archippus was a Christian in the city of Colossae. The apostle Paul, writing from prison, sent him a short but direct message through a letter read to the whole church: &quot;Make sure you finish the work God gave you to do.&quot; Paul also called Archippus his &quot;fellow soldier,&quot; someone standing with him in serving Jesus even when it was hard. We don&#x27;t know exactly what Archippus&#x27;s specific job was -- only that Paul wanted him to stay faithful and see it through all the way to the end.</p>
+  <div class="story-tabs-wrapper" data-person-name="Archippus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Archippus was part of the church at Colossae, known from two brief mentions in Paul&#x27;s letters. In the letter to Philemon, addressed jointly to Philemon, Apphia, and Archippus, Paul calls him &quot;our fellow soldier&quot; (Philemon 1:2) -- the same word Paul uses of Epaphroditus (Philippians 2:25), marking Archippus as someone actively laboring in gospel work alongside Paul, not merely a bystander. In Colossians, written from prison, Paul closes with a direct, public charge relayed through the whole congregation: &quot;say to Archippus, &#x27;Take heed to the ministry which you have received in the Lord, that you may fulfill it&#x27;&quot; (Colossians 4:17). Paul does not specify what this ministry was, and later guesses -- that Archippus was Philemon&#x27;s son, or held a pastoral office at Colossae -- go beyond what the text states. What is clear is the exhortation&#x27;s tone: not exactly a rebuke, but a pointed, public reminder, delivered secondhand through the church itself, that a ministry received &quot;in the Lord&quot; must actually be carried through, not merely begun. Paul trusted the congregation to hold Archippus accountable to finish what he&#x27;d been given.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Archippus was a Christian in the city of Colossae. The apostle Paul, writing from prison, sent him a short but direct message through a letter read to the whole church: &quot;Make sure you finish the work God gave you to do.&quot; Paul also called Archippus his &quot;fellow soldier,&quot; someone standing with him in serving Jesus even when it was hard. We don&#x27;t know exactly what Archippus&#x27;s specific job was -- only that Paul wanted him to stay faithful and see it through all the way to the end.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Archippus&#x27;s exact ministry role at Colossae and his relationship to Philemon (a common guess is that he was Philemon&#x27;s son) are not stated by the text; these remain traditional inferences, not confirmed facts.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Archippus was part of the church at Colossae, known from two brief mentions in Paul&#x27;s letters. In the letter to Philemon, addressed jointly to Philemon, Apphia, and Archippus, Paul calls him &quot;our fellow soldier&quot; (Philemon 1:2) -- the same word Paul uses of Epaphroditus (Philippians 2:25), marking Archippus as someone actively laboring in gospel work alongside Paul, not merely a bystander. In Colossians, written from prison, Paul closes with a direct, public charge relayed through the whole congregation: &quot;say to Archippus, &#x27;Take heed to the ministry which you have received in the Lord, that you may fulfill it&#x27;&quot; (Colossians 4:17). Paul does not specify what this ministry was, and later guesses -- that Archippus was Philemon&#x27;s son, or held a pastoral office at Colossae -- go beyond what the text states. What is clear is the exhortation&#x27;s tone: not exactly a rebuke, but a pointed, public reminder, delivered secondhand through the church itself, that a ministry received &quot;in the Lord&quot; must actually be carried through, not merely begun. Paul trusted the congregation to hold Archippus accountable to finish what he&#x27;d been given.</p>
-  </section>
-  <p class="first-reference">First named in Colossians 4:17</p>
   <p class="references-list">References: Colossians 4:17; Philemon 1:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -138,6 +154,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

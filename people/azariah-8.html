@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Azariah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Azariah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 21:2</p>
+    </div>
     <div class="person-title">
-      <h2>Azariah</h2>
+      <h2>Azariah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>One of King Jehoshaphat&#x27;s six sons, given wealth and fortified cities by his father, but killed by his older brother Jehoram along with his other brothers when Jehoram secured the throne of Judah.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Azariah was one of the sons of Jehoshaphat, a good king of Judah. His father loved him and gave him gifts, silver, and cities to live in, along with his brothers. But when Jehoshaphat died, the oldest son, Jehoram, became king instead. Jehoram was afraid his brothers might try to take the throne from him, so instead of trusting God to keep him safe, he had Azariah and his brothers killed. It is a sad story about how the desire for power can lead someone to hurt even their own family, but the Bible tells it honestly rather than hiding it.</p>
+  <div class="story-tabs-wrapper" data-person-name="Azariah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Azariah was one of six sons of King Jehoshaphat of Judah, named alongside his brothers Jehiel, Zechariah, Azaryahu, Michael, and Shephatiah (2 Chronicles 21:2). Jehoshaphat, wanting to provide for all his sons, gave each of them substantial gifts of silver, gold, and valuables, along with fortified cities in Judah -- but he gave the kingdom itself to Jehoram, his firstborn (21:3). When Jehoshaphat died and Jehoram took the throne, Jehoram moved quickly to secure his position: &quot;he killed all his brothers with the sword, and some of the rulers of Israel also&quot; (21:4). Azariah, along with his brothers, was murdered by his own sibling -- an act of naked political self-preservation with no attempt at justification recorded in the text. The Chronicler does not soften this; it is reported as bluntly as Jehoram&#x27;s subsequent unfaithfulness (idolatry, marriage to Ahab&#x27;s daughter Athaliah, and eventual divine judgment through illness, 21:6-19). Azariah&#x27;s death stands as part of Scripture&#x27;s unflinching record that the royal line through which God&#x27;s covenant promises ran was not spared its own violence and sin -- family loyalty gave way to raw ambition even among the sons of a genuinely faithful king.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Azariah was one of the sons of Jehoshaphat, a good king of Judah. His father loved him and gave him gifts, silver, and cities to live in, along with his brothers. But when Jehoshaphat died, the oldest son, Jehoram, became king instead. Jehoram was afraid his brothers might try to take the throne from him, so instead of trusting God to keep him safe, he had Azariah and his brothers killed. It is a sad story about how the desire for power can lead someone to hurt even their own family, but the Bible tells it honestly rather than hiding it.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Azariah was one of six sons of King Jehoshaphat of Judah, named alongside his brothers Jehiel, Zechariah, Azaryahu, Michael, and Shephatiah (2 Chronicles 21:2). Jehoshaphat, wanting to provide for all his sons, gave each of them substantial gifts of silver, gold, and valuables, along with fortified cities in Judah -- but he gave the kingdom itself to Jehoram, his firstborn (21:3). When Jehoshaphat died and Jehoram took the throne, Jehoram moved quickly to secure his position: &quot;he killed all his brothers with the sword, and some of the rulers of Israel also&quot; (21:4). Azariah, along with his brothers, was murdered by his own sibling -- an act of naked political self-preservation with no attempt at justification recorded in the text. The Chronicler does not soften this; it is reported as bluntly as Jehoram&#x27;s subsequent unfaithfulness (idolatry, marriage to Ahab&#x27;s daughter Athaliah, and eventual divine judgment through illness, 21:6-19). Azariah&#x27;s death stands as part of Scripture&#x27;s unflinching record that the royal line through which God&#x27;s covenant promises ran was not spared its own violence and sin -- family loyalty gave way to raw ambition even among the sons of a genuinely faithful king.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 21:2</p>
   <p class="references-list">References: 2 Chronicles 21:2</p>
   <section>
     <h3>Genealogy</h3>
@@ -197,6 +214,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

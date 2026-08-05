@@ -124,9 +124,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Tola — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Tola — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 46:13</p>
+    </div>
     <div class="person-title">
-      <h2>Tola</h2>
+      <h2>Tola <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -134,16 +137,30 @@
       </div>
     </div>
   </div>
-  <p>A judge from the tribe of Issachar who arose after Abimelech&#x27;s violent kingship and judged Israel peacefully for twenty-three years from Shamir.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>After a very troubled time under a harsh ruler named Abimelech, God raised up a man named Tola to lead and judge Israel. Tola lived in the hill country of Ephraim and led the people faithfully for twenty-three years. The Bible doesn&#x27;t record any dramatic battles or miracles from his time as judge -- just steady, faithful leadership over many years. Tola&#x27;s story reminds us that not every leader God uses has a big, dramatic story; sometimes faithfulness over the long haul is exactly what God&#x27;s people need.</p>
+  <div class="story-tabs-wrapper" data-person-name="Tola">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Tola, of the tribe of Issachar, &quot;arose to save Israel&quot; after the violent and short-lived kingship of Abimelech, who had massacred his own brothers and was eventually killed by a millstone dropped from a tower (Judges 9:1-57; 10:1). Tola lived in Shamir in the hill country of Ephraim and judged Israel for twenty-three years before he died and was buried there (10:1-2). No battle, deliverance, or moral failure is recorded of him at all -- his entire account is two verses. Coming directly after Abimelech&#x27;s brutal and self-serving reign, Tola&#x27;s long, unremarkable tenure reads as a deliberate contrast: after chaos and bloodshed, Israel simply had two decades of a judge who is remembered for nothing except that he &quot;saved Israel&quot; and then quietly served out his years. Scripture does not need every faithful life to be dramatic to record it as significant.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>After a very troubled time under a harsh ruler named Abimelech, God raised up a man named Tola to lead and judge Israel. Tola lived in the hill country of Ephraim and led the people faithfully for twenty-three years. The Bible doesn&#x27;t record any dramatic battles or miracles from his time as judge -- just steady, faithful leadership over many years. Tola&#x27;s story reminds us that not every leader God uses has a big, dramatic story; sometimes faithfulness over the long haul is exactly what God&#x27;s people need.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Tola, of the tribe of Issachar, &quot;arose to save Israel&quot; after the violent and short-lived kingship of Abimelech, who had massacred his own brothers and was eventually killed by a millstone dropped from a tower (Judges 9:1-57; 10:1). Tola lived in Shamir in the hill country of Ephraim and judged Israel for twenty-three years before he died and was buried there (10:1-2). No battle, deliverance, or moral failure is recorded of him at all -- his entire account is two verses. Coming directly after Abimelech&#x27;s brutal and self-serving reign, Tola&#x27;s long, unremarkable tenure reads as a deliberate contrast: after chaos and bloodshed, Israel simply had two decades of a judge who is remembered for nothing except that he &quot;saved Israel&quot; and then quietly served out his years. Scripture does not need every faithful life to be dramatic to record it as significant.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 46:13</p>
   <p class="references-list">References: Genesis 46:13; Numbers 26:23; 1 Chronicles 7:1-2</p>
   <section>
     <h3>Genealogy</h3>
@@ -194,6 +211,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

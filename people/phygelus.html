@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Phygelus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Phygelus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Timothy 1:15</p>
+    </div>
     <div class="person-title">
-      <h2>Phygelus</h2>
+      <h2>Phygelus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>Named by Paul, along with Hermogenes, as one of the believers from the Roman province of Asia who turned away from him during his final imprisonment, mentioned immediately before Paul&#x27;s grateful memory of the loyal Onesiphorus.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Phygelus was a believer Paul knew from the region of Asia. Near the end of his life, while Paul was in prison in Rome for preaching about Jesus, he wrote sadly that many believers from Asia, including Phygelus, had turned away from him -- probably because they were afraid of being associated with someone the Roman government had imprisoned. Right after mentioning Phygelus&#x27;s turning away, Paul gladly remembers a different friend, Onesiphorus, who was not ashamed of Paul&#x27;s chains and searched hard to find him in Rome. The contrast reminds readers that following Jesus faithfully sometimes costs real courage.</p>
+  <div class="story-tabs-wrapper" data-person-name="Phygelus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Phygelus appears only once in Scripture, named by Paul in his final letter, written from a Roman prison shortly before his execution. Paul writes to Timothy, &#x27;You are aware of the fact that all who are in Asia turned away from me, among whom are Phygelus and Hermogenes&#x27; (2 Timothy 1:15). This suggests something stronger than casual absence -- these believers, from the same Roman province that included Ephesus, abandoned or repudiated Paul, likely out of fear of being tied to a man now imprisoned as a criminal under Nero. Paul names Phygelus without elaboration, letting the bare fact of his desertion speak for itself. The very next verses draw a deliberate contrast: Onesiphorus, unlike Phygelus, &#x27;was not ashamed of my chains, but when he was in Rome, he eagerly searched for me and found me,&#x27; refreshing Paul often (1:16-17). Phygelus&#x27;s brief, unflattering mention stands permanently in Scripture as a foil to Onesiphorus&#x27;s costly loyalty -- a reminder that association with a suffering, imprisoned gospel witness required real courage, and not everyone who once followed Paul was willing to pay that price when it mattered most.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Phygelus was a believer Paul knew from the region of Asia. Near the end of his life, while Paul was in prison in Rome for preaching about Jesus, he wrote sadly that many believers from Asia, including Phygelus, had turned away from him -- probably because they were afraid of being associated with someone the Roman government had imprisoned. Right after mentioning Phygelus&#x27;s turning away, Paul gladly remembers a different friend, Onesiphorus, who was not ashamed of Paul&#x27;s chains and searched hard to find him in Rome. The contrast reminds readers that following Jesus faithfully sometimes costs real courage.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Phygelus appears only once in Scripture, named by Paul in his final letter, written from a Roman prison shortly before his execution. Paul writes to Timothy, &#x27;You are aware of the fact that all who are in Asia turned away from me, among whom are Phygelus and Hermogenes&#x27; (2 Timothy 1:15). This suggests something stronger than casual absence -- these believers, from the same Roman province that included Ephesus, abandoned or repudiated Paul, likely out of fear of being tied to a man now imprisoned as a criminal under Nero. Paul names Phygelus without elaboration, letting the bare fact of his desertion speak for itself. The very next verses draw a deliberate contrast: Onesiphorus, unlike Phygelus, &#x27;was not ashamed of my chains, but when he was in Rome, he eagerly searched for me and found me,&#x27; refreshing Paul often (1:16-17). Phygelus&#x27;s brief, unflattering mention stands permanently in Scripture as a foil to Onesiphorus&#x27;s costly loyalty -- a reminder that association with a suffering, imprisoned gospel witness required real courage, and not everyone who once followed Paul was willing to pay that price when it mattered most.</p>
-  </section>
-  <p class="first-reference">First named in 2 Timothy 1:15</p>
   <p class="references-list">References: 2 Timothy 1:15</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

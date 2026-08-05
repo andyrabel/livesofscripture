@@ -120,11 +120,11 @@ def references_list(refs):
     return f'<p class="references-list">References: {esc("; ".join(refs))}</p>'
 
 
-def first_reference_line(person):
+def first_reference_line(person, css_class="first-reference"):
     ref = person.get("first_reference")
     if not ref:
         return ""
-    return f'<p class="first-reference">First named in {esc(ref)}</p>'
+    return f'<p class="{css_class}">First named in {esc(ref)}</p>'
 
 
 def connections_graph_link(person_id, base):
@@ -194,6 +194,47 @@ def connections_section(person, index_by_id, gender_by_id, connections, base):
   </section>"""
 
 
+def devotional_section(person):
+    devotionals = person.get("devotionals")
+    if not devotionals:
+        return ""
+    items = "\n    ".join(f"<p>{esc(d)}</p>" for d in devotionals)
+    return f"""<section class="devotional">
+    <h3>Thought for Today</h3>
+    {items}
+  </section>"""
+
+
+def story_panel_html(version, story):
+    paras = [p for p in (story or "").split("\n\n") if p.strip()]
+    if not paras:
+        paras = [story or ""]
+    paragraphs_html = "\n      ".join(f"<p>{esc(p)}</p>" for p in paras)
+    hidden = "" if version == "adult" else " hidden"
+    return f"""<div class="story-panel{hidden}" data-version="{version}" role="tabpanel" aria-labelledby="tab-{version}" id="panel-{version}">
+      <div class="story-text">
+      {paragraphs_html}
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="{version}">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>"""
+
+
+def story_tabs_section(person):
+    adult_panel = story_panel_html("adult", person.get("adult_story"))
+    family_panel = story_panel_html("family", person.get("family_friendly_summary"))
+    return f"""<div class="story-tabs-wrapper" data-person-name="{esc(person['name'])}">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    {adult_panel}
+    {family_panel}
+  </div>"""
+
+
 def disambiguation_section(person_name, same_name, base):
     if not same_name:
         return ""
@@ -223,6 +264,8 @@ def disambiguation_section(person_name, same_name, base):
 def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name=None):
     parts = []
 
+    first_ref = first_reference_line(person)
+
     if portrait_exists:
         img_url = f'{base}images/portraits/{esc(person["image"]["file"])}'
         img_html = f'<img src="{img_url}" alt="{esc(person["name"])} — {esc(person["image"]["caption"])}">'
@@ -237,9 +280,12 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     era_badge = f'<span class="badge">{esc(person["era"])}</span>' if person.get("era") else ""
 
     parts.append(f"""<div class="person-header">
-    {img_html}
+    <div class="person-portrait-col">
+      {img_html}
+      {first_ref}
+    </div>
     <div class="person-title">
-      <h2>{esc(person["name"])}</h2>
+      <h2>{esc(person["name"])}{gender_tag(person.get("gender"))}</h2>
       {alt_html}
       <div class="tags">
         <span class="badge {testament_class}">{esc(person.get("testament", ""))}</span>
@@ -248,26 +294,11 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     </div>
   </div>""")
 
-    if person.get("source_summary"):
-        parts.append(f"<p>{esc(person['source_summary'])}</p>")
+    parts.append(story_tabs_section(person))
 
-    if person.get("family_friendly_summary"):
-        parts.append(f"""<div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>{esc(person["family_friendly_summary"])}</p>
-  </div>""")
-
-    if person.get("interpretive_dispute") and person.get("interpretive_note"):
-        parts.append(f'<div class="interpretive-note">Interpretive note: {esc(person["interpretive_note"])}</div>')
-
-    parts.append(f"""<section class="story">
-    <h3>Life Story</h3>
-    <p>{esc(person.get("adult_story"))}</p>
-  </section>""")
-
-    first_ref = first_reference_line(person)
-    if first_ref:
-        parts.append(first_ref)
+    devotional = devotional_section(person)
+    if devotional:
+        parts.append(devotional)
 
     if person.get("references"):
         parts.append(references_list(person["references"]))
@@ -297,19 +328,19 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
 
 
 def render_stub_person_body(person, index_by_id, gender_by_id, connections, base):
-    parts = [f"<h2>{esc(person['name'])}</h2>"]
+    parts = [f"<h2>{esc(person['name'])}{gender_tag(person.get('gender'))}</h2>"]
 
     if person.get("alt_names"):
         parts.append(f'<div class="alt-names">Also called: {esc(", ".join(person["alt_names"]))}</div>')
+
+    first_ref = first_reference_line(person)
+    if first_ref:
+        parts.append(first_ref)
 
     parts.append(
         '<div class="stub-notice">Named in Scripture, but with no narrative of their own — '
         "kept here for the connections graph.</div>"
     )
-
-    first_ref = first_reference_line(person)
-    if first_ref:
-        parts.append(first_ref)
 
     if person.get("references"):
         parts.append(references_list(person["references"]))
@@ -427,7 +458,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>
 """

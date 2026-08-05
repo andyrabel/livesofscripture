@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ananias — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ananias — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 5:1-5</p>
+    </div>
     <div class="person-title">
-      <h2>Ananias</h2>
+      <h2>Ananias <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>A member of the early Jerusalem church who, with his wife Sapphira, sold property but secretly kept back part of the proceeds while claiming to give the whole amount, and fell dead when Peter exposed the lie.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ananias and his wife Sapphira were part of the early church in Jerusalem, a community where believers were generously selling property and sharing the proceeds to help anyone in need. Ananias and Sapphira sold a piece of property too, but secretly agreed together to keep back part of the money for themselves while telling the apostles they were giving the entire amount. The problem wasn&#x27;t that they kept some money -- it was their own to keep if they wanted. The problem was the lie, pretending to give everything while secretly holding some back. When Ananias brought the money to Peter and lied about it, Peter said he had lied not just to people, but to God Himself, and Ananias immediately fell down dead. This serious, sobering story reminded the early church how seriously God takes hypocrisy and dishonesty before Him.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ananias">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ananias, together with his wife Sapphira, belonged to the early Jerusalem church during a period marked by remarkable generosity, when believers sold property and laid the proceeds at the apostles&#x27; feet to meet the needs of the poor among them (Acts 4:32-37). Ananias and Sapphira sold a piece of property too, but &quot;kept back some of the price for himself, with his wife&#x27;s full knowledge,&quot; while bringing only a portion and presenting it as the whole amount (5:1-2). Peter&#x27;s confrontation makes clear the sin was never the withholding itself -- the property and its price had been entirely theirs to dispose of as they wished even after selling it -- but the deliberate deception involved in claiming full generosity while secretly keeping back part: &quot;why has Satan filled your heart to lie to the Holy Spirit... you have not lied to men, but to God&quot; (5:3-4). At those words, Ananias fell down and died; the young men present wrapped him up and buried him, and &quot;great fear came over all who heard of it&quot; (5:5-6, 11). About three hours later, Sapphira arrived unaware of what had happened, was given the chance to tell the truth, repeated the same lie, and died the same way (5:7-10). The episode stands as an unusually severe and sobering act of divine judgment at the very founding of the church, underscoring how seriously God regards hypocrisy that dresses itself up as devotion.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ananias and his wife Sapphira were part of the early church in Jerusalem, a community where believers were generously selling property and sharing the proceeds to help anyone in need. Ananias and Sapphira sold a piece of property too, but secretly agreed together to keep back part of the money for themselves while telling the apostles they were giving the entire amount. The problem wasn&#x27;t that they kept some money -- it was their own to keep if they wanted. The problem was the lie, pretending to give everything while secretly holding some back. When Ananias brought the money to Peter and lied about it, Peter said he had lied not just to people, but to God Himself, and Ananias immediately fell down dead. This serious, sobering story reminded the early church how seriously God takes hypocrisy and dishonesty before Him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ananias, together with his wife Sapphira, belonged to the early Jerusalem church during a period marked by remarkable generosity, when believers sold property and laid the proceeds at the apostles&#x27; feet to meet the needs of the poor among them (Acts 4:32-37). Ananias and Sapphira sold a piece of property too, but &quot;kept back some of the price for himself, with his wife&#x27;s full knowledge,&quot; while bringing only a portion and presenting it as the whole amount (5:1-2). Peter&#x27;s confrontation makes clear the sin was never the withholding itself -- the property and its price had been entirely theirs to dispose of as they wished even after selling it -- but the deliberate deception involved in claiming full generosity while secretly keeping back part: &quot;why has Satan filled your heart to lie to the Holy Spirit... you have not lied to men, but to God&quot; (5:3-4). At those words, Ananias fell down and died; the young men present wrapped him up and buried him, and &quot;great fear came over all who heard of it&quot; (5:5-6, 11). About three hours later, Sapphira arrived unaware of what had happened, was given the chance to tell the truth, repeated the same lie, and died the same way (5:7-10). The episode stands as an unusually severe and sobering act of divine judgment at the very founding of the church, underscoring how seriously God regards hypocrisy that dresses itself up as devotion.</p>
-  </section>
-  <p class="first-reference">First named in Acts 5:1-5</p>
   <p class="references-list">References: Acts 5:1-5</p>
   <section>
     <h3>Genealogy</h3>
@@ -169,6 +186,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Adoni-bezek — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Adoni-bezek — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Judges 1:5-7</p>
+    </div>
     <div class="person-title">
-      <h2>Adoni-bezek</h2>
+      <h2>Adoni-bezek <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>A Canaanite king captured by Judah and Simeon at Bezek, whose thumbs and big toes were cut off in the same mutilation he had inflicted on seventy defeated kings -- a judgment he himself recognized as God&#x27;s just repayment.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Adoni-bezek was a powerful Canaanite king who had cruelly treated seventy other kings he had defeated, making them suffer under his table for scraps. When the tribes of Judah and Simeon fought against him at Bezek, they caught him and did the very same painful thing to him that he had done to others. Adoni-bezek didn&#x27;t complain -- he admitted that God had simply paid him back fairly for what he had done to so many other kings. He was brought to Jerusalem, where he died. His story teaches that God sees every wrong done, even by the powerful, and that no one escapes His justice forever.</p>
+  <div class="story-tabs-wrapper" data-person-name="Adoni-bezek">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Adoni-bezek -- &quot;lord of Bezek&quot; -- ruled as a Canaanite king when Judah and Simeon attacked his forces at Bezek during Israel&#x27;s conquest of the land (Judges 1:4-5). Defeated in battle, he fled but was captured, and his pursuers cut off his thumbs and big toes (1:6) -- the same mutilation, Adoni-bezek reveals, he had inflicted on seventy kings he had subdued, reducing them to gathering scraps under his table like dogs (1:7). Rather than protest, Adoni-bezek confessed the justice of what had happened to him: &quot;As I have done, so God has repaid me.&quot; His own conscience recognized the LORD&#x27;s hand in his downfall, even though he was a pagan king with no covenant relationship to Israel&#x27;s God. Brought to Jerusalem, he died there. His account is brief but theologically pointed: it opens the book of Judges with a demonstration that God&#x27;s justice reaches even beyond Israel to the nations, repaying cruelty with cruelty&#x27;s own measure. Adoni-bezek&#x27;s willingness to name God as the author of his punishment stands as an unusual moment of pagan testimony to divine justice in a book that otherwise centers on Israel&#x27;s own repeated unfaithfulness.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Adoni-bezek was a powerful Canaanite king who had cruelly treated seventy other kings he had defeated, making them suffer under his table for scraps. When the tribes of Judah and Simeon fought against him at Bezek, they caught him and did the very same painful thing to him that he had done to others. Adoni-bezek didn&#x27;t complain -- he admitted that God had simply paid him back fairly for what he had done to so many other kings. He was brought to Jerusalem, where he died. His story teaches that God sees every wrong done, even by the powerful, and that no one escapes His justice forever.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Adoni-bezek -- &quot;lord of Bezek&quot; -- ruled as a Canaanite king when Judah and Simeon attacked his forces at Bezek during Israel&#x27;s conquest of the land (Judges 1:4-5). Defeated in battle, he fled but was captured, and his pursuers cut off his thumbs and big toes (1:6) -- the same mutilation, Adoni-bezek reveals, he had inflicted on seventy kings he had subdued, reducing them to gathering scraps under his table like dogs (1:7). Rather than protest, Adoni-bezek confessed the justice of what had happened to him: &quot;As I have done, so God has repaid me.&quot; His own conscience recognized the LORD&#x27;s hand in his downfall, even though he was a pagan king with no covenant relationship to Israel&#x27;s God. Brought to Jerusalem, he died there. His account is brief but theologically pointed: it opens the book of Judges with a demonstration that God&#x27;s justice reaches even beyond Israel to the nations, repaying cruelty with cruelty&#x27;s own measure. Adoni-bezek&#x27;s willingness to name God as the author of his punishment stands as an unusual moment of pagan testimony to divine justice in a book that otherwise centers on Israel&#x27;s own repeated unfaithfulness.</p>
-  </section>
-  <p class="first-reference">First named in Judges 1:5-7</p>
   <p class="references-list">References: Judges 1:5-7</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

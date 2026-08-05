@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-woman.png" alt="Rhoda — Generic line-art icon for women -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-woman.png" alt="Rhoda — Generic line-art icon for women -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 12:12-16</p>
+    </div>
     <div class="person-title">
-      <h2>Rhoda</h2>
+      <h2>Rhoda <span class="gender-tag gender-tag--female">(F)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>A servant girl in the household of Mary, mother of John Mark, who recognized Peter&#x27;s voice at the gate after his miraculous release from prison, but was so overjoyed she left him standing outside while she ran to tell the praying believers, who did not believe her at first.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Rhoda was a servant girl in the house where many believers had gathered to pray for Peter, who was in prison awaiting execution. An angel miraculously freed Peter from his chains that very night, and he made his way straight to this house and knocked at the outer gate. Rhoda came to answer, and the moment she recognized Peter&#x27;s voice, she was so overwhelmed with joy that she ran back inside to tell everyone -- completely forgetting to actually open the gate and let Peter in! The people praying inside didn&#x27;t believe her at first, insisting it must be his angel, even while Peter kept knocking outside. Rhoda&#x27;s joyful, forgetful excitement is a charming, very human detail in the story of God&#x27;s dramatic answer to prayer.</p>
+  <div class="story-tabs-wrapper" data-person-name="Rhoda">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Rhoda was a servant girl in the household of Mary, mother of John Mark, where a group of believers had gathered to pray through the night for Peter, imprisoned by Herod Agrippa and facing likely execution (Acts 12:5, 12). After an angel miraculously freed Peter from his chains and led him out past the guards and through the city gate, Peter made his way to this very house and knocked at the door of the gate (12:6-11, 13). Rhoda came to answer, and the moment she recognized Peter&#x27;s voice, she was so overcome with joy that she failed to open the gate at all, running back inside instead to announce that Peter was standing outside (12:14). The believers gathered in prayer, remarkably, did not believe her, telling her she was out of her mind, and when she kept insisting, they concluded it must be Peter&#x27;s angel rather than the man himself -- all while Peter continued knocking, still locked outside the very house whose occupants had been praying all night for exactly this outcome (12:15-16). Only when they finally opened the door and saw him did they realize their prayers had been answered. Rhoda&#x27;s small, very human moment of joy overwhelming caution -- and the disbelief that met her excited report -- adds a memorable, almost humorous human touch to one of Acts&#x27; clearest demonstrations of God answering persistent prayer.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Rhoda was a servant girl in the house where many believers had gathered to pray for Peter, who was in prison awaiting execution. An angel miraculously freed Peter from his chains that very night, and he made his way straight to this house and knocked at the outer gate. Rhoda came to answer, and the moment she recognized Peter&#x27;s voice, she was so overwhelmed with joy that she ran back inside to tell everyone -- completely forgetting to actually open the gate and let Peter in! The people praying inside didn&#x27;t believe her at first, insisting it must be his angel, even while Peter kept knocking outside. Rhoda&#x27;s joyful, forgetful excitement is a charming, very human detail in the story of God&#x27;s dramatic answer to prayer.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Rhoda was a servant girl in the household of Mary, mother of John Mark, where a group of believers had gathered to pray through the night for Peter, imprisoned by Herod Agrippa and facing likely execution (Acts 12:5, 12). After an angel miraculously freed Peter from his chains and led him out past the guards and through the city gate, Peter made his way to this very house and knocked at the door of the gate (12:6-11, 13). Rhoda came to answer, and the moment she recognized Peter&#x27;s voice, she was so overcome with joy that she failed to open the gate at all, running back inside instead to announce that Peter was standing outside (12:14). The believers gathered in prayer, remarkably, did not believe her, telling her she was out of her mind, and when she kept insisting, they concluded it must be Peter&#x27;s angel rather than the man himself -- all while Peter continued knocking, still locked outside the very house whose occupants had been praying all night for exactly this outcome (12:15-16). Only when they finally opened the door and saw him did they realize their prayers had been answered. Rhoda&#x27;s small, very human moment of joy overwhelming caution -- and the disbelief that met her excited report -- adds a memorable, almost humorous human touch to one of Acts&#x27; clearest demonstrations of God answering persistent prayer.</p>
-  </section>
-  <p class="first-reference">First named in Acts 12:12-16</p>
   <p class="references-list">References: Acts 12:12-16</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

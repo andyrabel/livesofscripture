@@ -115,9 +115,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Shimeah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Shimeah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Samuel 16:9</p>
+    </div>
     <div class="person-title">
-      <h2>Shimeah</h2>
+      <h2>Shimeah <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Shammah, Shimei, Shimea</div>
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -125,16 +128,30 @@
       </div>
     </div>
   </div>
-  <p>One of Jesse&#x27;s elder sons and an older brother of David, passed over by Samuel when Israel&#x27;s next king was anointed, later the father of Jonadab (Amnon&#x27;s scheming friend) and Jonathan (who killed a Philistine giant).</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shimeah, also called Shammah, was one of Jesse&#x27;s older sons and one of King David&#x27;s big brothers. When the prophet Samuel came to Jesse&#x27;s house looking for the next king of Israel, Shimeah was one of the sons brought before him -- but God told Samuel this wasn&#x27;t the one He had chosen, just as with his brother Eliab. Shimeah later followed King Saul into battle against the Philistines, the same battle where his youngest brother David famously fought Goliath. Shimeah isn&#x27;t a major character in the Bible, but his family became very important: his sons Jonadab and Jonathan both show up later in David&#x27;s story.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shimeah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shimeah, also called Shammah, was one of Jesse&#x27;s elder sons and an older brother of David. When Samuel came to Bethlehem to anoint Israel&#x27;s next king, Jesse presented his sons to him one by one; Shimeah was made to pass before the prophet just as Eliab had been, and like Eliab he was passed over -- &quot;the LORD has not chosen this one, either&quot; (1 Samuel 16:9-10). He is later named among the three eldest sons of Jesse who followed Saul into the campaign against the Philistines, the same standoff in which their youngest brother David killed Goliath (1 Samuel 17:13-14). Shimeah does not reappear as an actor in his own right, but his sons do: his son Jonadab was the &quot;very shrewd&quot; friend of Amnon who devised the scheme leading to Tamar&#x27;s rape (2 Samuel 13:3-5), and another son, Jonathan, killed a Philistine giant with six fingers and toes at Gath (2 Samuel 21:20-21). Shimeah&#x27;s story is a minor thread in a much larger family drama -- rejected for the throne himself, yet the father of sons who shaped, for better and worse, the reign of the brother God did choose.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shimeah, also called Shammah, was one of Jesse&#x27;s older sons and one of King David&#x27;s big brothers. When the prophet Samuel came to Jesse&#x27;s house looking for the next king of Israel, Shimeah was one of the sons brought before him -- but God told Samuel this wasn&#x27;t the one He had chosen, just as with his brother Eliab. Shimeah later followed King Saul into battle against the Philistines, the same battle where his youngest brother David famously fought Goliath. Shimeah isn&#x27;t a major character in the Bible, but his family became very important: his sons Jonadab and Jonathan both show up later in David&#x27;s story.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shimeah, also called Shammah, was one of Jesse&#x27;s elder sons and an older brother of David. When Samuel came to Bethlehem to anoint Israel&#x27;s next king, Jesse presented his sons to him one by one; Shimeah was made to pass before the prophet just as Eliab had been, and like Eliab he was passed over -- &quot;the LORD has not chosen this one, either&quot; (1 Samuel 16:9-10). He is later named among the three eldest sons of Jesse who followed Saul into the campaign against the Philistines, the same standoff in which their youngest brother David killed Goliath (1 Samuel 17:13-14). Shimeah does not reappear as an actor in his own right, but his sons do: his son Jonadab was the &quot;very shrewd&quot; friend of Amnon who devised the scheme leading to Tamar&#x27;s rape (2 Samuel 13:3-5), and another son, Jonathan, killed a Philistine giant with six fingers and toes at Gath (2 Samuel 21:20-21). Shimeah&#x27;s story is a minor thread in a much larger family drama -- rejected for the throne himself, yet the father of sons who shaped, for better and worse, the reign of the brother God did choose.</p>
-  </section>
-  <p class="first-reference">First named in 1 Samuel 16:9</p>
   <p class="references-list">References: 1 Samuel 16:9; 1 Samuel 17:13; 2 Samuel 13:3-32; 2 Samuel 21:21; 1 Kings 1:8; 1 Chronicles 2:13; 1 Chronicles 20:7</p>
   <section>
     <h3>Genealogy</h3>
@@ -177,6 +194,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

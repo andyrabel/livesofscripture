@@ -106,9 +106,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Er — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Er — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 38:3-7</p>
+    </div>
     <div class="person-title">
-      <h2>Er</h2>
+      <h2>Er <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -116,16 +119,30 @@
       </div>
     </div>
   </div>
-  <p>Judah&#x27;s firstborn son and Tamar&#x27;s first husband, whom Scripture describes as &quot;evil in the sight of the LORD,&quot; and whom the LORD put to death before he had any children, setting in motion the events of Genesis 38.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Er was Judah&#x27;s oldest son. When he grew up, his father arranged for him to marry a woman named Tamar. The Bible tells us that Er did wicked things, so displeasing to God that God took his life while he was still young, before he and Tamar had any children. Er&#x27;s early death set off a chain of events involving his younger brothers and Tamar that the rest of Genesis 38 goes on to tell.</p>
+  <div class="story-tabs-wrapper" data-person-name="Er">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Er was Judah&#x27;s firstborn son, born to Judah and his Canaanite wife, the daughter of Shua (Genesis 38:3; called Bath-shua in 1 Chronicles 2:3). When Er grew up, Judah took a wife for him named Tamar (38:6). Scripture gives no details of any specific deed, only a stark verdict: &quot;Er, Judah&#x27;s firstborn, was evil in the sight of the LORD, so the LORD took his life&quot; (38:7). No explanation of what made him wicked is given -- only the bare fact of divine judgment falling swiftly on him, leaving Tamar a childless widow. Er&#x27;s death sets the entire remainder of Genesis 38 in motion: under the custom of levirate marriage, Judah gave Tamar to his second son Onan to raise up offspring for his dead brother, a duty Onan refused to fulfill and for which he too was struck dead (38:8-10); Judah&#x27;s reluctance to give Tamar his third son afterward led to Tamar&#x27;s desperate deception of Judah himself, and ultimately to the birth of Perez and Zerah, ancestors in the line that leads to David and, in Matthew&#x27;s genealogy, to Christ (38:11-30; Matthew 1:3). Er himself never speaks or acts in the narrative -- his entire recorded life consists of a marriage, an unspecified evil, and a divine judgment -- but his death is the hinge on which one of Genesis&#x27;s most consequential family stories turns.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Er was Judah&#x27;s oldest son. When he grew up, his father arranged for him to marry a woman named Tamar. The Bible tells us that Er did wicked things, so displeasing to God that God took his life while he was still young, before he and Tamar had any children. Er&#x27;s early death set off a chain of events involving his younger brothers and Tamar that the rest of Genesis 38 goes on to tell.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Er was Judah&#x27;s firstborn son, born to Judah and his Canaanite wife, the daughter of Shua (Genesis 38:3; called Bath-shua in 1 Chronicles 2:3). When Er grew up, Judah took a wife for him named Tamar (38:6). Scripture gives no details of any specific deed, only a stark verdict: &quot;Er, Judah&#x27;s firstborn, was evil in the sight of the LORD, so the LORD took his life&quot; (38:7). No explanation of what made him wicked is given -- only the bare fact of divine judgment falling swiftly on him, leaving Tamar a childless widow. Er&#x27;s death sets the entire remainder of Genesis 38 in motion: under the custom of levirate marriage, Judah gave Tamar to his second son Onan to raise up offspring for his dead brother, a duty Onan refused to fulfill and for which he too was struck dead (38:8-10); Judah&#x27;s reluctance to give Tamar his third son afterward led to Tamar&#x27;s desperate deception of Judah himself, and ultimately to the birth of Perez and Zerah, ancestors in the line that leads to David and, in Matthew&#x27;s genealogy, to Christ (38:11-30; Matthew 1:3). Er himself never speaks or acts in the narrative -- his entire recorded life consists of a marriage, an unspecified evil, and a divine judgment -- but his death is the hinge on which one of Genesis&#x27;s most consequential family stories turns.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 38:3-7</p>
   <p class="references-list">References: Genesis 38:3-7; Genesis 46:12; Numbers 26:19; 1 Chronicles 2:3</p>
   <section>
     <h3>Genealogy</h3>
@@ -168,6 +185,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

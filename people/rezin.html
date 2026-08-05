@@ -89,9 +89,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Rezin — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Rezin — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Kings 15:37</p>
+    </div>
     <div class="person-title">
-      <h2>Rezin</h2>
+      <h2>Rezin <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -99,16 +102,30 @@
       </div>
     </div>
   </div>
-  <p>King of Aram (Syria) who allied with Pekah of Israel to attack Jerusalem and pressure King Ahaz of Judah into their anti-Assyrian coalition, prompting Isaiah&#x27;s Immanuel prophecy, before Assyria conquered Damascus and killed him.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Rezin was the king of Aram (also called Syria), a nation north of Israel. He teamed up with King Pekah of Israel to attack Jerusalem and try to force Judah&#x27;s King Ahaz to join their alliance against the powerful Assyrian Empire. Ahaz was terrified, but God sent the prophet Isaiah to tell him not to be afraid -- God would not let this plan succeed. Ahaz still turned to Assyria for help instead of trusting God, and Assyria&#x27;s army destroyed Damascus and killed Rezin. Rezin&#x27;s story shows that human alliances and threats can&#x27;t overturn what God has planned.</p>
+  <div class="story-tabs-wrapper" data-person-name="Rezin">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Rezin ruled as king of Aram (Syria) from Damascus during the reign of Ahaz in Judah. He allied with Pekah, king of Israel, and together they marched against Jerusalem, intending to depose Ahaz and install a puppet king who would join their coalition against the rising Assyrian Empire (2 Kings 16:5; Isaiah 7:1-6). Though they besieged Jerusalem, they could not take it. Rezin also recaptured the port of Elath for Aram, driving out the Jews there (2 Kings 16:6). Terrified, Ahaz refused Isaiah&#x27;s call to trust the LORD rather than foreign powers, and God gave the famous sign that a virgin would conceive and bear Immanuel before Rezin&#x27;s and Pekah&#x27;s threat had passed (Isaiah 7:10-16). Instead of trusting God, Ahaz stripped the temple treasury to buy Assyrian help. Tiglath-pileser III answered by attacking Damascus, capturing it, deporting its people, and killing Rezin (2 Kings 16:9). Isaiah later names Rezin&#x27;s fall alongside Israel&#x27;s as proof that the LORD&#x27;s hand remains stretched out in judgment against those who oppose His people (Isaiah 9:11-12). Rezin&#x27;s brief, violent career supplies the historical crisis behind one of Scripture&#x27;s most quoted Messianic prophecies, even though he never intended any such thing.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Rezin was the king of Aram (also called Syria), a nation north of Israel. He teamed up with King Pekah of Israel to attack Jerusalem and try to force Judah&#x27;s King Ahaz to join their alliance against the powerful Assyrian Empire. Ahaz was terrified, but God sent the prophet Isaiah to tell him not to be afraid -- God would not let this plan succeed. Ahaz still turned to Assyria for help instead of trusting God, and Assyria&#x27;s army destroyed Damascus and killed Rezin. Rezin&#x27;s story shows that human alliances and threats can&#x27;t overturn what God has planned.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Rezin ruled as king of Aram (Syria) from Damascus during the reign of Ahaz in Judah. He allied with Pekah, king of Israel, and together they marched against Jerusalem, intending to depose Ahaz and install a puppet king who would join their coalition against the rising Assyrian Empire (2 Kings 16:5; Isaiah 7:1-6). Though they besieged Jerusalem, they could not take it. Rezin also recaptured the port of Elath for Aram, driving out the Jews there (2 Kings 16:6). Terrified, Ahaz refused Isaiah&#x27;s call to trust the LORD rather than foreign powers, and God gave the famous sign that a virgin would conceive and bear Immanuel before Rezin&#x27;s and Pekah&#x27;s threat had passed (Isaiah 7:10-16). Instead of trusting God, Ahaz stripped the temple treasury to buy Assyrian help. Tiglath-pileser III answered by attacking Damascus, capturing it, deporting its people, and killing Rezin (2 Kings 16:9). Isaiah later names Rezin&#x27;s fall alongside Israel&#x27;s as proof that the LORD&#x27;s hand remains stretched out in judgment against those who oppose His people (Isaiah 9:11-12). Rezin&#x27;s brief, violent career supplies the historical crisis behind one of Scripture&#x27;s most quoted Messianic prophecies, even though he never intended any such thing.</p>
-  </section>
-  <p class="first-reference">First named in 2 Kings 15:37</p>
   <p class="references-list">References: 2 Kings 15:37; 2 Kings 16:5-9; Isaiah 7:1-8; Isaiah 8:6; Isaiah 9:11</p>
   <section>
     <h3>Genealogy</h3>
@@ -140,6 +157,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

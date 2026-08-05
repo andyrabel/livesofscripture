@@ -94,9 +94,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Jair — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Jair — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Numbers 32:41</p>
+    </div>
     <div class="person-title">
-      <h2>Jair</h2>
+      <h2>Jair <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -104,16 +107,30 @@
       </div>
     </div>
   </div>
-  <p>A Gileadite judge who led Israel for twenty-two years; his thirty sons rode thirty donkeys and governed thirty towns known as the Havvoth-jair.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Jair judged Israel for twenty-two years from the region of Gilead. The Bible tells us one memorable detail about his family: he had thirty sons, and each one rode his own donkey and was in charge of one of thirty towns, which came to be called the Havvoth-jair, meaning &quot;the towns of Jair.&quot; This detail shows that Jair&#x27;s family was large, respected, and prosperous, and that Israel had a period of stability and peace during his leadership. Like several of the other judges, no dramatic battle is recorded for Jair -- just years of steady, well-ordered leadership.</p>
+  <div class="story-tabs-wrapper" data-person-name="Jair">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jair the Gileadite judged Israel for twenty-two years after Tola (Judges 10:3). Scripture records one distinguishing detail: he had thirty sons who rode thirty donkeys and possessed thirty towns in the land of Gilead, which were called Havvoth-jair, &quot;the towns of Jair,&quot; down to the time of the book&#x27;s writing (10:4). Owning a donkey to ride, rather than walking, marked a family of some standing in this period, and thirty sons each governing his own town suggests a judge whose household had grown into a small ruling network across the region -- a picture of order, stability, and prosperity rather than crisis. No war or deliverance is attached to his name; like Tola before him, Jair represents one of the quieter interludes of Judges, a reminder that the book&#x27;s repeated cycle of &quot;apostasy, oppression, deliverance&quot; was not ceaseless chaos, but included real stretches of peace under judges who simply governed well.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Jair judged Israel for twenty-two years from the region of Gilead. The Bible tells us one memorable detail about his family: he had thirty sons, and each one rode his own donkey and was in charge of one of thirty towns, which came to be called the Havvoth-jair, meaning &quot;the towns of Jair.&quot; This detail shows that Jair&#x27;s family was large, respected, and prosperous, and that Israel had a period of stability and peace during his leadership. Like several of the other judges, no dramatic battle is recorded for Jair -- just years of steady, well-ordered leadership.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jair the Gileadite judged Israel for twenty-two years after Tola (Judges 10:3). Scripture records one distinguishing detail: he had thirty sons who rode thirty donkeys and possessed thirty towns in the land of Gilead, which were called Havvoth-jair, &quot;the towns of Jair,&quot; down to the time of the book&#x27;s writing (10:4). Owning a donkey to ride, rather than walking, marked a family of some standing in this period, and thirty sons each governing his own town suggests a judge whose household had grown into a small ruling network across the region -- a picture of order, stability, and prosperity rather than crisis. No war or deliverance is attached to his name; like Tola before him, Jair represents one of the quieter interludes of Judges, a reminder that the book&#x27;s repeated cycle of &quot;apostasy, oppression, deliverance&quot; was not ceaseless chaos, but included real stretches of peace under judges who simply governed well.</p>
-  </section>
-  <p class="first-reference">First named in Numbers 32:41</p>
   <p class="references-list">References: Numbers 32:41; Deuteronomy 3:14; 1 Kings 4:13; 1 Chronicles 2:22</p>
   <section>
     <h3>Genealogy</h3>
@@ -164,6 +181,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

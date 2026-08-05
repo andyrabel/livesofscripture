@@ -85,9 +85,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Shemeber — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Shemeber — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 14:2-8</p>
+    </div>
     <div class="person-title">
-      <h2>Shemeber</h2>
+      <h2>Shemeber <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -95,16 +98,30 @@
       </div>
     </div>
   </div>
-  <p>King of Zeboiim, one of five kings of the Jordan plain who rebelled against Chedorlaomer&#x27;s coalition and were defeated in the Valley of Siddim in Genesis 14 -- the battle that led to Lot&#x27;s capture and Abram&#x27;s rescue mission.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Shemeber was the king of a city called Zeboiim, near Sodom, during the time Abram lived in Canaan. Shemeber and four other local kings had been paying tribute to a powerful king from the east named Chedorlaomer. After twelve years, they rebelled and stopped paying, so Chedorlaomer and his allies marched in and defeated Shemeber&#x27;s side in a great battle. During the fighting and looting that followed, Abram&#x27;s nephew Lot was captured, because he was living in Sodom, one of the defeated cities. That capture is what led Abram to chase down the invading kings and rescue his nephew.</p>
+  <div class="story-tabs-wrapper" data-person-name="Shemeber">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Shemeber, king of Zeboiim, was one of five kings of the Jordan plain -- alongside the kings of Sodom, Gomorrah, Admah, and Bela (Zoar) -- named in Genesis 14. These five had served as vassals of Chedorlaomer, king of Elam, for twelve years before rebelling in the thirteenth (14:1-4). In response, Chedorlaomer led a coalition of four eastern kings on a campaign that defeated a series of regional peoples before turning on the rebels. Shemeber and his allies met the invaders in battle in the Valley of Siddim, full of tar pits, and were routed; the text records that the kings of Sodom and Gomorrah fled and fell into the pits, while the rest escaped to the hills (14:8-10). The victors plundered Sodom and Gomorrah&#x27;s goods and provisions and carried off Lot, Abram&#x27;s nephew, who was living in Sodom (14:11-12). Shemeber is never quoted or individually distinguished from his four allied kings; Scripture names him only as a participant and casualty of this coalition&#x27;s defeat. But his defeat is the hinge of the chapter: it is what leads directly to Abram&#x27;s armed pursuit and rescue of Lot, and to Abram&#x27;s subsequent meeting with Melchizedek, king of Salem (14:13-20).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Shemeber was the king of a city called Zeboiim, near Sodom, during the time Abram lived in Canaan. Shemeber and four other local kings had been paying tribute to a powerful king from the east named Chedorlaomer. After twelve years, they rebelled and stopped paying, so Chedorlaomer and his allies marched in and defeated Shemeber&#x27;s side in a great battle. During the fighting and looting that followed, Abram&#x27;s nephew Lot was captured, because he was living in Sodom, one of the defeated cities. That capture is what led Abram to chase down the invading kings and rescue his nephew.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Shemeber, king of Zeboiim, was one of five kings of the Jordan plain -- alongside the kings of Sodom, Gomorrah, Admah, and Bela (Zoar) -- named in Genesis 14. These five had served as vassals of Chedorlaomer, king of Elam, for twelve years before rebelling in the thirteenth (14:1-4). In response, Chedorlaomer led a coalition of four eastern kings on a campaign that defeated a series of regional peoples before turning on the rebels. Shemeber and his allies met the invaders in battle in the Valley of Siddim, full of tar pits, and were routed; the text records that the kings of Sodom and Gomorrah fled and fell into the pits, while the rest escaped to the hills (14:8-10). The victors plundered Sodom and Gomorrah&#x27;s goods and provisions and carried off Lot, Abram&#x27;s nephew, who was living in Sodom (14:11-12). Shemeber is never quoted or individually distinguished from his four allied kings; Scripture names him only as a participant and casualty of this coalition&#x27;s defeat. But his defeat is the hinge of the chapter: it is what leads directly to Abram&#x27;s armed pursuit and rescue of Lot, and to Abram&#x27;s subsequent meeting with Melchizedek, king of Salem (14:13-20).</p>
-  </section>
-  <p class="first-reference">First named in Genesis 14:2-8</p>
   <p class="references-list">References: Genesis 14:2-8</p>
   <section>
     <h3>Genealogy</h3>
@@ -136,6 +153,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

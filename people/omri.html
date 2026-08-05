@@ -95,9 +95,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Omri — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Omri — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Kings 16:16-30</p>
+    </div>
     <div class="person-title">
-      <h2>Omri</h2>
+      <h2>Omri <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -105,16 +108,30 @@
       </div>
     </div>
   </div>
-  <p>A capable army commander who became king of Israel after defeating Zimri and Tibni, founded the city of Samaria as his new capital, and is condemned in Scripture as worse than every king before him despite his political success.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Omri was a successful military commander who became king of Israel after a period of civil conflict, defeating a rival named Tibni for the throne. Omri was a skilled builder and leader in worldly terms -- he founded a brand-new capital city called Samaria, which became important for the rest of Israel&#x27;s history. Politically, Omri was one of the more effective kings of Israel. But the Bible judges kings by their faithfulness to God, not their political skill, and it describes Omri as doing more evil than all the kings who came before him because he led Israel further into idol worship. Omri is also the father of the infamous King Ahab.</p>
+  <div class="story-tabs-wrapper" data-person-name="Omri">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Omri, commander of Israel&#x27;s army, was proclaimed king by the troops after Zimri&#x27;s coup and seven-day reign; he defeated a rival claimant, Tibni, in a civil war that split the kingdom&#x27;s loyalty for several years before Omri secured the throne outright (1 Kings 16:15-22). He proved a capable and consequential ruler in worldly terms: he purchased the hill of Samaria and built it into Israel&#x27;s new capital, a city that would remain the kingdom&#x27;s seat for the rest of its existence, and extra-biblical Assyrian records continued referring to Israel as &quot;the house of Omri&quot; for generations after his dynasty ended (16:23-24). Yet Scripture&#x27;s verdict on him is severe and unambiguous: &quot;Omri did evil in the sight of the LORD, and acted more wickedly than all who were before him&quot; (16:25). His political and building achievements are summarized in a single sentence pointing readers to &quot;the Chronicles of the Kings of Israel&quot; for the details, while his spiritual failure -- walking in Jeroboam&#x27;s idolatrous ways and provoking God &quot;with their idols&quot; -- receives the weight of the account (16:26-27). Omri is remembered above all as the father of Ahab, whose marriage to Jezebel would deepen Israel&#x27;s idolatry even further than his own father had (16:29-33).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Omri was a successful military commander who became king of Israel after a period of civil conflict, defeating a rival named Tibni for the throne. Omri was a skilled builder and leader in worldly terms -- he founded a brand-new capital city called Samaria, which became important for the rest of Israel&#x27;s history. Politically, Omri was one of the more effective kings of Israel. But the Bible judges kings by their faithfulness to God, not their political skill, and it describes Omri as doing more evil than all the kings who came before him because he led Israel further into idol worship. Omri is also the father of the infamous King Ahab.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Omri, commander of Israel&#x27;s army, was proclaimed king by the troops after Zimri&#x27;s coup and seven-day reign; he defeated a rival claimant, Tibni, in a civil war that split the kingdom&#x27;s loyalty for several years before Omri secured the throne outright (1 Kings 16:15-22). He proved a capable and consequential ruler in worldly terms: he purchased the hill of Samaria and built it into Israel&#x27;s new capital, a city that would remain the kingdom&#x27;s seat for the rest of its existence, and extra-biblical Assyrian records continued referring to Israel as &quot;the house of Omri&quot; for generations after his dynasty ended (16:23-24). Yet Scripture&#x27;s verdict on him is severe and unambiguous: &quot;Omri did evil in the sight of the LORD, and acted more wickedly than all who were before him&quot; (16:25). His political and building achievements are summarized in a single sentence pointing readers to &quot;the Chronicles of the Kings of Israel&quot; for the details, while his spiritual failure -- walking in Jeroboam&#x27;s idolatrous ways and provoking God &quot;with their idols&quot; -- receives the weight of the account (16:26-27). Omri is remembered above all as the father of Ahab, whose marriage to Jezebel would deepen Israel&#x27;s idolatry even further than his own father had (16:29-33).</p>
-  </section>
-  <p class="first-reference">First named in 1 Kings 16:16-30</p>
   <p class="references-list">References: 1 Kings 16:16-30; 2 Kings 8:26; 2 Chronicles 22:2; Micah 6:16</p>
   <section>
     <h3>Genealogy</h3>
@@ -153,6 +170,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

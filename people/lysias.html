@@ -89,9 +89,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Lysias — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Lysias — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Acts 23:26</p>
+    </div>
     <div class="person-title">
-      <h2>Lysias</h2>
+      <h2>Lysias <span class="gender-tag gender-tag--male">(M)</span></h2>
       <div class="alt-names">Also called: Claudius Lysias</div>
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -99,16 +102,30 @@
       </div>
     </div>
   </div>
-  <p>The Roman military tribune commanding the garrison at Jerusalem who rescued Paul from a lynch mob in the temple, arrested him, uncovered a plot on his life, and sent him under armed guard to Governor Felix in Caesarea with an official letter explaining the case.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Claudius Lysias was a Roman army officer in charge of soldiers stationed in Jerusalem. When an angry crowd grabbed Paul in the Temple and started beating him, Lysias rushed in with his soldiers and rescued him just in time. At first Lysias thought Paul might be a dangerous criminal, but he soon learned Paul was a Roman citizen who had done nothing wrong. When Lysias found out that a group of men were secretly plotting to kill Paul, he acted quickly: he sent Paul safely out of Jerusalem at night, guarded by hundreds of soldiers, to the governor in Caesarea, along with a letter explaining everything. Lysias&#x27;s quick, fair action saved Paul&#x27;s life and let his trial move forward safely.</p>
+  <div class="story-tabs-wrapper" data-person-name="Lysias">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Claudius Lysias was the Roman tribune commanding the cohort garrisoned at the Antonia Fortress in Jerusalem. When a mob dragged Paul out of the temple and began beating him, supposing he had defiled the sacred courts, Lysias intervened with soldiers and centurions, arrested Paul, and had him bound with two chains, at first assuming he was an Egyptian rebel who had led a recent uprising (Acts 21:31-38). Learning instead that Paul was a Jewish Roman citizen and hearing his defense, Lysias set him before the Jewish council the next day to learn the actual charge (22:24-30). When the council session dissolved into violence and Lysias&#x27;s nephew uncovered a conspiracy of more than forty men who had bound themselves by oath to kill Paul before he could be tried, Lysias acted decisively: he dispatched Paul that same night under heavy guard -- two hundred soldiers, seventy horsemen, and two hundred spearmen -- to Governor Felix in Caesarea (23:12-24). His accompanying letter survives in Acts 23:26-30, candidly summarizing the case and admitting he had rescued Paul specifically because he had learned Paul was a Roman citizen. Though a minor character motivated as much by Roman legal duty as personal conviction, Lysias&#x27;s quick, correct action twice preserved Paul&#x27;s life at pivotal moments, becoming an instrument of God&#x27;s providence in keeping Paul alive to testify in Rome.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Claudius Lysias was a Roman army officer in charge of soldiers stationed in Jerusalem. When an angry crowd grabbed Paul in the Temple and started beating him, Lysias rushed in with his soldiers and rescued him just in time. At first Lysias thought Paul might be a dangerous criminal, but he soon learned Paul was a Roman citizen who had done nothing wrong. When Lysias found out that a group of men were secretly plotting to kill Paul, he acted quickly: he sent Paul safely out of Jerusalem at night, guarded by hundreds of soldiers, to the governor in Caesarea, along with a letter explaining everything. Lysias&#x27;s quick, fair action saved Paul&#x27;s life and let his trial move forward safely.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Claudius Lysias was the Roman tribune commanding the cohort garrisoned at the Antonia Fortress in Jerusalem. When a mob dragged Paul out of the temple and began beating him, supposing he had defiled the sacred courts, Lysias intervened with soldiers and centurions, arrested Paul, and had him bound with two chains, at first assuming he was an Egyptian rebel who had led a recent uprising (Acts 21:31-38). Learning instead that Paul was a Jewish Roman citizen and hearing his defense, Lysias set him before the Jewish council the next day to learn the actual charge (22:24-30). When the council session dissolved into violence and Lysias&#x27;s nephew uncovered a conspiracy of more than forty men who had bound themselves by oath to kill Paul before he could be tried, Lysias acted decisively: he dispatched Paul that same night under heavy guard -- two hundred soldiers, seventy horsemen, and two hundred spearmen -- to Governor Felix in Caesarea (23:12-24). His accompanying letter survives in Acts 23:26-30, candidly summarizing the case and admitting he had rescued Paul specifically because he had learned Paul was a Roman citizen. Though a minor character motivated as much by Roman legal duty as personal conviction, Lysias&#x27;s quick, correct action twice preserved Paul&#x27;s life at pivotal moments, becoming an instrument of God&#x27;s providence in keeping Paul alive to testify in Rome.</p>
-  </section>
-  <p class="first-reference">First named in Acts 23:26</p>
   <p class="references-list">References: Acts 23:26; Acts 24:7-22</p>
   <section>
     <h3>Genealogy</h3>
@@ -140,6 +157,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

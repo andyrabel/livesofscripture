@@ -92,9 +92,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Joah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Joah — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Chronicles 34:8</p>
+    </div>
     <div class="person-title">
-      <h2>Joah</h2>
+      <h2>Joah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -102,16 +105,30 @@
       </div>
     </div>
   </div>
-  <p>Joah son of Joahaz served as royal recorder under King Josiah and was one of three officials sent to deliver funds collected for the temple to Hilkiah the high priest, part of Josiah&#x27;s initiative to repair the house of the LORD.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Joah was an official in the royal court of King Josiah, one of the good kings of Judah. His job title was &quot;recorder,&quot; someone trusted to help run the kingdom&#x27;s business. When Josiah decided the Lord&#x27;s temple in Jerusalem needed to be repaired after years of neglect, he sent Joah, along with two other officials named Shaphan and Maaseiah, to carry the money the people had given for the project to Hilkiah the high priest. Joah&#x27;s small task was part of a much bigger story -- Josiah&#x27;s reforms brought Judah back toward faithful worship of God, including the exciting discovery of a lost copy of God&#x27;s Law hidden in the temple.</p>
+  <div class="story-tabs-wrapper" data-person-name="Joah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Joah son of Joahaz held the office of recorder in the court of King Josiah of Judah, one of the few kings Scripture commends without qualification (2 Kings 22-23; 2 Chronicles 34-35). In the eighteenth year of his reign, after Josiah had already begun purging Judah of idolatry, he turned to the long-neglected house of the LORD. He sent three officials -- Shaphan the son of Azaliah, Maaseiah the governor of the city, and Joah the son of Joahaz the recorder -- to repair the temple (2 Chronicles 34:8). Joah and his colleagues came to Hilkiah the high priest and delivered the silver that the Levite doorkeepers had collected from the people of Israel and Judah for the repair project (34:9). That money was passed on to the workmen and used to buy quarried stone and timber, restoring a temple that generations of unfaithful kings had let fall into ruin (34:10-11). This same initiative soon led to Hilkiah&#x27;s discovery of the Book of the Law in the temple, which Josiah heard read aloud and which sparked the most sweeping covenant renewal and reform of idolatry Judah had seen since David. Joah&#x27;s task was modest and administrative -- he moved money, not mountains -- but his small, faithful errand was one thread in a larger act of national repentance that Scripture treats as one of Judah&#x27;s last bright moments before the exile.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Joah was an official in the royal court of King Josiah, one of the good kings of Judah. His job title was &quot;recorder,&quot; someone trusted to help run the kingdom&#x27;s business. When Josiah decided the Lord&#x27;s temple in Jerusalem needed to be repaired after years of neglect, he sent Joah, along with two other officials named Shaphan and Maaseiah, to carry the money the people had given for the project to Hilkiah the high priest. Joah&#x27;s small task was part of a much bigger story -- Josiah&#x27;s reforms brought Judah back toward faithful worship of God, including the exciting discovery of a lost copy of God&#x27;s Law hidden in the temple.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Joah son of Joahaz held the office of recorder in the court of King Josiah of Judah, one of the few kings Scripture commends without qualification (2 Kings 22-23; 2 Chronicles 34-35). In the eighteenth year of his reign, after Josiah had already begun purging Judah of idolatry, he turned to the long-neglected house of the LORD. He sent three officials -- Shaphan the son of Azaliah, Maaseiah the governor of the city, and Joah the son of Joahaz the recorder -- to repair the temple (2 Chronicles 34:8). Joah and his colleagues came to Hilkiah the high priest and delivered the silver that the Levite doorkeepers had collected from the people of Israel and Judah for the repair project (34:9). That money was passed on to the workmen and used to buy quarried stone and timber, restoring a temple that generations of unfaithful kings had let fall into ruin (34:10-11). This same initiative soon led to Hilkiah&#x27;s discovery of the Book of the Law in the temple, which Josiah heard read aloud and which sparked the most sweeping covenant renewal and reform of idolatry Judah had seen since David. Joah&#x27;s task was modest and administrative -- he moved money, not mountains -- but his small, faithful errand was one thread in a larger act of national repentance that Scripture treats as one of Judah&#x27;s last bright moments before the exile.</p>
-  </section>
-  <p class="first-reference">First named in 2 Chronicles 34:8</p>
   <p class="references-list">References: 2 Chronicles 34:8</p>
   <section>
     <h3>Genealogy</h3>
@@ -169,6 +186,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

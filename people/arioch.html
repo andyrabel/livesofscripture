@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Arioch — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Arioch — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 14:1-9</p>
+    </div>
     <div class="person-title">
-      <h2>Arioch</h2>
+      <h2>Arioch <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>King of Ellasar, one of four eastern kings led by Chedorlaomer who campaigned against five kings of the plain in Genesis 14 -- the war that led to Lot&#x27;s capture and Abram&#x27;s rescue.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Arioch was a king from a place called Ellasar, far to the east. He joined three other kings and their armies to fight against five kings near the Dead Sea, including the king of Sodom, where Abram&#x27;s nephew Lot lived. When Arioch and his allies won the battle, they captured Lot along with the rest of Sodom&#x27;s people and goods. As soon as Abram heard that his nephew had been taken, he gathered his men, chased the kings down, and rescued Lot and everyone who had been captured. Arioch&#x27;s part in the story sets the stage for one of Abram&#x27;s bravest and most loyal acts.</p>
+  <div class="story-tabs-wrapper" data-person-name="Arioch">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Arioch, king of Ellasar, was one of four eastern kings -- alongside Chedorlaomer of Elam, Amraphel of Shinar, and Tidal -- who campaigned together against a coalition of five kings near the Dead Sea, including the king of Sodom (Genesis 14:1-2). After twelve years under Chedorlaomer&#x27;s rule, the five kings rebelled, prompting Arioch and his allies to march west, defeating several peoples along the way before meeting the five kings in battle in the Valley of Siddim (14:5-9). The four kings won decisively; the kings of Sodom and Gomorrah fled, and the victors plundered the cities, taking captives and goods -- including Abram&#x27;s nephew Lot, who was living in Sodom (14:10-12). When word reached Abram, he armed 318 of his own men, pursued the retreating kings as far as Dan and Hobah near Damascus, and recovered Lot, the other captives, and the plundered goods (14:13-16). Arioch has no further individual role in the account beyond his listing among the four victorious kings; his campaign functions in Genesis chiefly as the occasion for displaying Abram&#x27;s courage and decisiveness, and immediately afterward, his encounter with Melchizedek and his refusal to enrich himself from the king of Sodom&#x27;s recovered goods (14:17-24).</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Arioch was a king from a place called Ellasar, far to the east. He joined three other kings and their armies to fight against five kings near the Dead Sea, including the king of Sodom, where Abram&#x27;s nephew Lot lived. When Arioch and his allies won the battle, they captured Lot along with the rest of Sodom&#x27;s people and goods. As soon as Abram heard that his nephew had been taken, he gathered his men, chased the kings down, and rescued Lot and everyone who had been captured. Arioch&#x27;s part in the story sets the stage for one of Abram&#x27;s bravest and most loyal acts.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Arioch, king of Ellasar, was one of four eastern kings -- alongside Chedorlaomer of Elam, Amraphel of Shinar, and Tidal -- who campaigned together against a coalition of five kings near the Dead Sea, including the king of Sodom (Genesis 14:1-2). After twelve years under Chedorlaomer&#x27;s rule, the five kings rebelled, prompting Arioch and his allies to march west, defeating several peoples along the way before meeting the five kings in battle in the Valley of Siddim (14:5-9). The four kings won decisively; the kings of Sodom and Gomorrah fled, and the victors plundered the cities, taking captives and goods -- including Abram&#x27;s nephew Lot, who was living in Sodom (14:10-12). When word reached Abram, he armed 318 of his own men, pursued the retreating kings as far as Dan and Hobah near Damascus, and recovered Lot, the other captives, and the plundered goods (14:13-16). Arioch has no further individual role in the account beyond his listing among the four victorious kings; his campaign functions in Genesis chiefly as the occasion for displaying Abram&#x27;s courage and decisiveness, and immediately afterward, his encounter with Melchizedek and his refusal to enrich himself from the king of Sodom&#x27;s recovered goods (14:17-24).</p>
-  </section>
-  <p class="first-reference">First named in Genesis 14:1-9</p>
   <p class="references-list">References: Genesis 14:1-9</p>
   <section>
     <h3>Genealogy</h3>
@@ -147,6 +164,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

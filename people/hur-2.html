@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Hur — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Hur — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Numbers 31:8</p>
+    </div>
     <div class="person-title">
-      <h2>Hur</h2>
+      <h2>Hur <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>One of the five kings of Midian killed by Israel&#x27;s army in the war of vengeance commanded by God following the Baal-Peor incident, in the same battle in which the prophet Balaam was also killed.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Hur was one of five kings who ruled over the Midianite people during the time Israel was in the wilderness, getting ready to enter the promised land. Earlier, the Midianites had led some of Israel&#x27;s men into worshiping false gods (a story told in Numbers 25). Because of this, God commanded Israel to fight against Midian. Israel&#x27;s army won the battle, and Hur was one of the five Midianite kings killed in the fighting, along with a prophet-for-hire named Balaam who had been advising Midian against Israel. Hur&#x27;s brief story reminds us that Scripture takes seriously the danger of leading God&#x27;s people away from Him.</p>
+  <div class="story-tabs-wrapper" data-person-name="Hur">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Hur is named as one of &quot;the five kings of Midian&quot; -- along with Evi, Rekem, Zur, and Reba -- killed when Israel carried out God&#x27;s command to take vengeance on Midian (Numbers 31:8). The campaign followed the events of Numbers 25, where Midianite women had drawn Israelite men into idolatry and sexual immorality at Baal of Peor, provoking a plague that killed 24,000 Israelites. God told Moses, &quot;Take vengeance for the sons of Israel on the Midianites&quot; (31:1-2), and Israel&#x27;s army killed every Midianite male, including their kings (31:7-8). Hur died alongside Balaam son of Beor, the prophet Midian and Moab had hired earlier to curse Israel, killed in the same battle &quot;with the sword&quot; (31:8). Joshua 13:21 later recalls Hur and the other four as &quot;the chiefs of Midian... the princes of Sihon,&quot; folding this conquered territory into Israel&#x27;s account of the lands taken east of the Jordan. Hur&#x27;s entire biblical presence is a single name in a casualty list, but that list marks a real turning point -- Israel executing God&#x27;s judgment on a nation that had deliberately corrupted His people, just before Moses&#x27; death and Israel&#x27;s entry into Canaan.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Hur was one of five kings who ruled over the Midianite people during the time Israel was in the wilderness, getting ready to enter the promised land. Earlier, the Midianites had led some of Israel&#x27;s men into worshiping false gods (a story told in Numbers 25). Because of this, God commanded Israel to fight against Midian. Israel&#x27;s army won the battle, and Hur was one of the five Midianite kings killed in the fighting, along with a prophet-for-hire named Balaam who had been advising Midian against Israel. Hur&#x27;s brief story reminds us that Scripture takes seriously the danger of leading God&#x27;s people away from Him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Hur is named as one of &quot;the five kings of Midian&quot; -- along with Evi, Rekem, Zur, and Reba -- killed when Israel carried out God&#x27;s command to take vengeance on Midian (Numbers 31:8). The campaign followed the events of Numbers 25, where Midianite women had drawn Israelite men into idolatry and sexual immorality at Baal of Peor, provoking a plague that killed 24,000 Israelites. God told Moses, &quot;Take vengeance for the sons of Israel on the Midianites&quot; (31:1-2), and Israel&#x27;s army killed every Midianite male, including their kings (31:7-8). Hur died alongside Balaam son of Beor, the prophet Midian and Moab had hired earlier to curse Israel, killed in the same battle &quot;with the sword&quot; (31:8). Joshua 13:21 later recalls Hur and the other four as &quot;the chiefs of Midian... the princes of Sihon,&quot; folding this conquered territory into Israel&#x27;s account of the lands taken east of the Jordan. Hur&#x27;s entire biblical presence is a single name in a casualty list, but that list marks a real turning point -- Israel executing God&#x27;s judgment on a nation that had deliberately corrupted His people, just before Moses&#x27; death and Israel&#x27;s entry into Canaan.</p>
-  </section>
-  <p class="first-reference">First named in Numbers 31:8</p>
   <p class="references-list">References: Numbers 31:8; Joshua 13:21</p>
   <section>
     <h3>Genealogy</h3>
@@ -149,6 +166,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Achaicus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Achaicus — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 1 Corinthians 16:17</p>
+    </div>
     <div class="person-title">
-      <h2>Achaicus</h2>
+      <h2>Achaicus <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>A member of the Corinthian church who, with Stephanas and Fortunatus, traveled to visit Paul and was personally commended by him for supplying what the church lacked and refreshing his spirit.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Achaicus was a Christian from the church in Corinth. Along with two other believers named Stephanas and Fortunatus, he traveled to visit the apostle Paul while Paul was away from Corinth. Paul was so encouraged by their visit and their help that he specifically thanked them in his letter back to the Corinthian church, saying they had refreshed his spirit. Achaicus&#x27;s story is a short one, but it shows that even a simple visit to encourage someone can mean a great deal, and that God notices and values this kind of quiet, faithful service.</p>
+  <div class="story-tabs-wrapper" data-person-name="Achaicus">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Achaicus is named only once in Scripture, at the close of Paul&#x27;s first letter to the Corinthians. Paul writes, &quot;I rejoice over the coming of Stephanas and Fortunatus and Achaicus, because they have supplied what was lacking on your part. For they have refreshed my spirit and yours. Therefore acknowledge such men&quot; (1 Corinthians 16:17-18). The three had apparently traveled from Corinth, likely to Ephesus where Paul was writing from, bringing news of the church, perhaps a gift or supplies, and simply their presence -- something Paul says made up for what the Corinthian congregation as a whole had been unable to give him directly. Paul&#x27;s language is warm and specific: these men &quot;refreshed&quot; his spirit, the same word used elsewhere in his letters for the relief a weary traveler feels. He closes by urging the church to recognize and value people like them. Nothing more is recorded of Achaicus -- no other deed, word, or later appearance -- but this single verse credits him with a real, personal act of encouragement toward the apostle at a time when Paul&#x27;s relationship with the Corinthian church was strained and difficult.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Achaicus was a Christian from the church in Corinth. Along with two other believers named Stephanas and Fortunatus, he traveled to visit the apostle Paul while Paul was away from Corinth. Paul was so encouraged by their visit and their help that he specifically thanked them in his letter back to the Corinthian church, saying they had refreshed his spirit. Achaicus&#x27;s story is a short one, but it shows that even a simple visit to encourage someone can mean a great deal, and that God notices and values this kind of quiet, faithful service.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Achaicus is named only once in Scripture, at the close of Paul&#x27;s first letter to the Corinthians. Paul writes, &quot;I rejoice over the coming of Stephanas and Fortunatus and Achaicus, because they have supplied what was lacking on your part. For they have refreshed my spirit and yours. Therefore acknowledge such men&quot; (1 Corinthians 16:17-18). The three had apparently traveled from Corinth, likely to Ephesus where Paul was writing from, bringing news of the church, perhaps a gift or supplies, and simply their presence -- something Paul says made up for what the Corinthian congregation as a whole had been unable to give him directly. Paul&#x27;s language is warm and specific: these men &quot;refreshed&quot; his spirit, the same word used elsewhere in his letters for the relief a weary traveler feels. He closes by urging the church to recognize and value people like them. Nothing more is recorded of Achaicus -- no other deed, word, or later appearance -- but this single verse credits him with a real, personal act of encouragement toward the apostle at a time when Paul&#x27;s relationship with the Corinthian church was strained and difficult.</p>
-  </section>
-  <p class="first-reference">First named in 1 Corinthians 16:17</p>
   <p class="references-list">References: 1 Corinthians 16:17</p>
   <section>
     <h3>Genealogy</h3>
@@ -135,6 +152,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

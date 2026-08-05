@@ -94,9 +94,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Nimrod — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Nimrod — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 10:8-12</p>
+    </div>
     <div class="person-title">
-      <h2>Nimrod</h2>
+      <h2>Nimrod <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -104,17 +107,30 @@
       </div>
     </div>
   </div>
-  <p>A grandson of Ham described as a mighty warrior and hunter who built the first great kingdom, founding Babel, Erech, and Accad in Shinar and later extending into Assyria -- the empire-building context for the tower of Babel narrative that immediately follows in Genesis 11.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Nimrod was a powerful leader described in Genesis as a &#x27;mighty hunter&#x27; and a mighty man on the earth. He built some of the very first great cities and kingdoms, including Babel, in the land of Shinar. Nimrod&#x27;s story comes right before the famous story of the Tower of Babel, where the people of that same region tried to build a tower to make a name for themselves instead of trusting God. Nimrod&#x27;s ambition to build a great human kingdom is a reminder that impressive human power and achievement are never a substitute for depending on God.</p>
+  <div class="story-tabs-wrapper" data-person-name="Nimrod">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Nimrod appears in the Table of Nations as a grandson of Ham through Cush, described as &#x27;a mighty one on the earth&#x27; and &#x27;a mighty hunter before the LORD,&#x27; a phrase whose tone -- honor or irony -- interpreters read differently (Genesis 10:8-9). The beginning of his kingdom was Babel, Erech, Accad, and Calneh in the land of Shinar, from which he went to Assyria and built Nineveh and other cities (10:10-12). Nimrod is Scripture&#x27;s first person described in terms of an empire -- not a family or tribe but consolidated political power across multiple cities and territories. His prominence in Shinar sets the geographical and thematic stage for Genesis 11&#x27;s very next episode, the tower of Babel, where humanity in that same region says &#x27;let us make for ourselves a name&#x27; and attempts to build a tower to the heavens rather than scatter and fill the earth as God had commanded (Genesis 9:1; 11:1-9). Genesis never states that Nimrod personally built the tower, but his kingdom-building ambition in the same place and among the same early post-flood population frames Babel as the natural outgrowth of the drive to self-glorifying power his story represents -- a warning, in the middle of Genesis&#x27;s earliest chapters, that human ambition unmoored from trust in God tends toward pride and eventual judgment.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Nimrod was a powerful leader described in Genesis as a &#x27;mighty hunter&#x27; and a mighty man on the earth. He built some of the very first great cities and kingdoms, including Babel, in the land of Shinar. Nimrod&#x27;s story comes right before the famous story of the Tower of Babel, where the people of that same region tried to build a tower to make a name for themselves instead of trusting God. Nimrod&#x27;s ambition to build a great human kingdom is a reminder that impressive human power and achievement are never a substitute for depending on God.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Genesis 10:9&#x27;s description of Nimrod as &#x27;a mighty hunter before the LORD&#x27; is read two ways by interpreters: as straightforward praise of his prowess, or (given his association with Babel&#x27;s tyranny) as an ironic or critical phrase implying defiance rather than honor. Scripture does not settle which reading is intended.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Nimrod appears in the Table of Nations as a grandson of Ham through Cush, described as &#x27;a mighty one on the earth&#x27; and &#x27;a mighty hunter before the LORD,&#x27; a phrase whose tone -- honor or irony -- interpreters read differently (Genesis 10:8-9). The beginning of his kingdom was Babel, Erech, Accad, and Calneh in the land of Shinar, from which he went to Assyria and built Nineveh and other cities (10:10-12). Nimrod is Scripture&#x27;s first person described in terms of an empire -- not a family or tribe but consolidated political power across multiple cities and territories. His prominence in Shinar sets the geographical and thematic stage for Genesis 11&#x27;s very next episode, the tower of Babel, where humanity in that same region says &#x27;let us make for ourselves a name&#x27; and attempts to build a tower to the heavens rather than scatter and fill the earth as God had commanded (Genesis 9:1; 11:1-9). Genesis never states that Nimrod personally built the tower, but his kingdom-building ambition in the same place and among the same early post-flood population frames Babel as the natural outgrowth of the drive to self-glorifying power his story represents -- a warning, in the middle of Genesis&#x27;s earliest chapters, that human ambition unmoored from trust in God tends toward pride and eventual judgment.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 10:8-12</p>
   <p class="references-list">References: Genesis 10:8-12; 1 Chronicles 1:10; Micah 5:6</p>
   <section>
     <h3>Genealogy</h3>
@@ -153,6 +169,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -84,9 +84,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Iddo — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Iddo — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Ezra 8:17</p>
+    </div>
     <div class="person-title">
-      <h2>Iddo</h2>
+      <h2>Iddo <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -94,16 +97,30 @@
       </div>
     </div>
   </div>
-  <p>The leading man at Casiphia in Babylonia whom Ezra petitioned for Levites and temple servants before leading the second return of exiles to Jerusalem; he supplied the personnel Ezra&#x27;s caravan lacked.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Before Ezra led a group of Jewish exiles back home to Jerusalem from Babylon, he noticed a problem: none of the Levites, the tribe responsible for helping in temple worship, had joined the group yet. So Ezra sent messengers to a leader named Iddo, who lived in a place called Casiphia, asking him to send Levites and temple workers to join the journey. Iddo responded well -- he sent back capable men, including Levites and temple servants, to travel with Ezra to Jerusalem. Because of Iddo&#x27;s help, Ezra&#x27;s caravan had everything it needed to properly serve in God&#x27;s house once they arrived.</p>
+  <div class="story-tabs-wrapper" data-person-name="Iddo">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Iddo appears in Ezra&#x27;s account of organizing the second return of exiles from Babylon to Jerusalem. Reviewing the group gathered at the Ahava canal before departure, Ezra found no Levites among them (Ezra 8:15). To remedy this, he sent a delegation of leading men to &quot;Iddo, the leading man at the place Casiphia,&quot; along with specific instructions about what to say, asking him to send &quot;attendants for the house of our God&quot; (8:16-17). Iddo responded well: &quot;by the good hand of our God upon us they brought us a man of insight... and Levites,&quot; along with 220 temple servants, a class of workers assigned to assist the Levites in temple service (8:18-20). Nothing else is recorded about Iddo -- not his tribe, his exact office, or his life story -- only that he was a recognized leader among the Jewish community remaining in Babylon, with the standing and resources to supply skilled personnel on Ezra&#x27;s request. His brief, cooperative role ensured that when Ezra&#x27;s caravan reached Jerusalem, it arrived properly staffed to resume temple worship, a small but necessary link in the larger story of the exiles&#x27; return and restoration.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Before Ezra led a group of Jewish exiles back home to Jerusalem from Babylon, he noticed a problem: none of the Levites, the tribe responsible for helping in temple worship, had joined the group yet. So Ezra sent messengers to a leader named Iddo, who lived in a place called Casiphia, asking him to send Levites and temple workers to join the journey. Iddo responded well -- he sent back capable men, including Levites and temple servants, to travel with Ezra to Jerusalem. Because of Iddo&#x27;s help, Ezra&#x27;s caravan had everything it needed to properly serve in God&#x27;s house once they arrived.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Iddo appears in Ezra&#x27;s account of organizing the second return of exiles from Babylon to Jerusalem. Reviewing the group gathered at the Ahava canal before departure, Ezra found no Levites among them (Ezra 8:15). To remedy this, he sent a delegation of leading men to &quot;Iddo, the leading man at the place Casiphia,&quot; along with specific instructions about what to say, asking him to send &quot;attendants for the house of our God&quot; (8:16-17). Iddo responded well: &quot;by the good hand of our God upon us they brought us a man of insight... and Levites,&quot; along with 220 temple servants, a class of workers assigned to assist the Levites in temple service (8:18-20). Nothing else is recorded about Iddo -- not his tribe, his exact office, or his life story -- only that he was a recognized leader among the Jewish community remaining in Babylon, with the standing and resources to supply skilled personnel on Ezra&#x27;s request. His brief, cooperative role ensured that when Ezra&#x27;s caravan reached Jerusalem, it arrived properly staffed to resume temple worship, a small but necessary link in the larger story of the exiles&#x27; return and restoration.</p>
-  </section>
-  <p class="first-reference">First named in Ezra 8:17</p>
   <p class="references-list">References: Ezra 8:17</p>
   <section>
     <h3>Genealogy</h3>
@@ -147,6 +164,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

@@ -93,9 +93,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-figure.png" alt="Ahiman — Generic line-art icon for figures -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-figure.png" alt="Ahiman — Generic line-art icon for figures -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Numbers 13:22</p>
+    </div>
     <div class="person-title">
-      <h2>Ahiman</h2>
+      <h2>Ahiman <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -103,16 +106,30 @@
       </div>
     </div>
   </div>
-  <p>One of the three sons of Anak, the intimidating Hebron giants whose presence terrified the ten unbelieving spies, and who was later driven out of Hebron by Caleb in fulfillment of God&#x27;s promise to the man who trusted Him fully.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Ahiman was one of three brothers living in the city of Hebron who were part of a family of very tall, strong people called the Anakim, sometimes described like giants. When Moses sent twelve spies to explore the promised land, most of them saw Ahiman and his brothers and were so scared that they convinced the Israelites not to trust God&#x27;s promise to give them the land. Many years later, though, Caleb, one of the two spies who had trusted God all along, returned to Hebron and drove Ahiman and his brothers out, exactly as God had promised him.</p>
+  <div class="story-tabs-wrapper" data-person-name="Ahiman">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Ahiman was one of three brothers -- with Sheshai and Talmai -- descended from Anak, living in and around Hebron when the twelve spies scouted the land of Canaan (Numbers 13:22). Seeing Ahiman and his brothers among the land&#x27;s imposing inhabitants contributed to the ten spies&#x27; fearful, unbelieving report that convinced Israel the land could not be taken (13:28, 31-33), a rebellion that cost that entire generation forty years of wandering. Caleb alone, along with Joshua, urged Israel to trust God&#x27;s promise despite the Anakim&#x27;s size. Decades later, that faith was vindicated: after Israel entered the land, Caleb specifically requested Hebron as his inheritance because of his wholehearted trust in the LORD years before, and Scripture records that &quot;Caleb drove out from there the three sons of Anak: Sheshai and Ahiman and Talmai, the children of Anak&quot; (Joshua 15:14; compare Judges 1:10). Ahiman&#x27;s presence in the text bookends a larger story about fear versus faith -- the same giant who once made an entire nation shrink back in unbelief was ultimately driven out by one man who had refused to let fear have the last word.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Ahiman was one of three brothers living in the city of Hebron who were part of a family of very tall, strong people called the Anakim, sometimes described like giants. When Moses sent twelve spies to explore the promised land, most of them saw Ahiman and his brothers and were so scared that they convinced the Israelites not to trust God&#x27;s promise to give them the land. Many years later, though, Caleb, one of the two spies who had trusted God all along, returned to Hebron and drove Ahiman and his brothers out, exactly as God had promised him.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Ahiman was one of three brothers -- with Sheshai and Talmai -- descended from Anak, living in and around Hebron when the twelve spies scouted the land of Canaan (Numbers 13:22). Seeing Ahiman and his brothers among the land&#x27;s imposing inhabitants contributed to the ten spies&#x27; fearful, unbelieving report that convinced Israel the land could not be taken (13:28, 31-33), a rebellion that cost that entire generation forty years of wandering. Caleb alone, along with Joshua, urged Israel to trust God&#x27;s promise despite the Anakim&#x27;s size. Decades later, that faith was vindicated: after Israel entered the land, Caleb specifically requested Hebron as his inheritance because of his wholehearted trust in the LORD years before, and Scripture records that &quot;Caleb drove out from there the three sons of Anak: Sheshai and Ahiman and Talmai, the children of Anak&quot; (Joshua 15:14; compare Judges 1:10). Ahiman&#x27;s presence in the text bookends a larger story about fear versus faith -- the same giant who once made an entire nation shrink back in unbelief was ultimately driven out by one man who had refused to let fear have the last word.</p>
-  </section>
-  <p class="first-reference">First named in Numbers 13:22</p>
   <p class="references-list">References: Numbers 13:22; Joshua 15:14</p>
   <section>
     <h3>Genealogy</h3>
@@ -151,6 +168,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

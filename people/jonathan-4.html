@@ -93,9 +93,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-warrior.png" alt="Jonathan — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-warrior.png" alt="Jonathan — Generic line-art icon for warriors -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Samuel 21:21</p>
+    </div>
     <div class="person-title">
-      <h2>Jonathan</h2>
+      <h2>Jonathan <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -103,16 +106,30 @@
       </div>
     </div>
   </div>
-  <p>David&#x27;s nephew, son of his brother Shimeah, Jonathan killed a giant descendant of the Rapha who taunted Israel during the Philistine wars, and later served David as a wise counselor and scribe.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Jonathan was King David&#x27;s nephew, the son of David&#x27;s brother Shimeah. During a period when Israel fought several battles against giant warriors from a family of Philistine giants, one of these giants mocked and challenged Israel -- and Jonathan struck him down. Beyond this moment of bravery, Jonathan is also remembered for a very different kind of strength: the Bible describes him as a wise and understanding counselor who helped advise King David, showing that he served his uncle not only with courage in battle but also with good judgment in giving advice.</p>
+  <div class="story-tabs-wrapper" data-person-name="Jonathan">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Jonathan was the son of Shimeah, David&#x27;s brother, making him David&#x27;s nephew. He appears in the closing notices of 2 Samuel 21, which record four skirmishes against Philistine giants descended from &quot;the giant&quot; (the Rapha) in Gath -- including the giant Goliath&#x27;s kin. In the last of these encounters, &quot;a man of great stature who had six fingers on each hand and six toes on each foot... also had been born to the giant&quot; defied Israel, and &quot;Jonathan the son of Shimeah, David&#x27;s brother, killed him&quot; (2 Samuel 21:20-21; 1 Chronicles 20:6-7). Coming at the close of a chapter listing warriors who struck down these giants when even David himself had grown too weary for combat, Jonathan&#x27;s victory stands alongside the exploits of David&#x27;s mightiest men. Jonathan is also named among David&#x27;s court in 1 Chronicles 27:32, described as &quot;a counselor, a man of understanding, and a scribe&quot; -- a role of trusted wisdom rather than only battlefield strength, distinguishing him from the other listed officials responsible for property and armies. Together the two brief notices present Jonathan as a man valued both for courage against Israel&#x27;s enemies and for sound judgment at his uncle&#x27;s court, a minor but real presence within David&#x27;s inner circle of family and advisors.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Jonathan was King David&#x27;s nephew, the son of David&#x27;s brother Shimeah. During a period when Israel fought several battles against giant warriors from a family of Philistine giants, one of these giants mocked and challenged Israel -- and Jonathan struck him down. Beyond this moment of bravery, Jonathan is also remembered for a very different kind of strength: the Bible describes him as a wise and understanding counselor who helped advise King David, showing that he served his uncle not only with courage in battle but also with good judgment in giving advice.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Jonathan was the son of Shimeah, David&#x27;s brother, making him David&#x27;s nephew. He appears in the closing notices of 2 Samuel 21, which record four skirmishes against Philistine giants descended from &quot;the giant&quot; (the Rapha) in Gath -- including the giant Goliath&#x27;s kin. In the last of these encounters, &quot;a man of great stature who had six fingers on each hand and six toes on each foot... also had been born to the giant&quot; defied Israel, and &quot;Jonathan the son of Shimeah, David&#x27;s brother, killed him&quot; (2 Samuel 21:20-21; 1 Chronicles 20:6-7). Coming at the close of a chapter listing warriors who struck down these giants when even David himself had grown too weary for combat, Jonathan&#x27;s victory stands alongside the exploits of David&#x27;s mightiest men. Jonathan is also named among David&#x27;s court in 1 Chronicles 27:32, described as &quot;a counselor, a man of understanding, and a scribe&quot; -- a role of trusted wisdom rather than only battlefield strength, distinguishing him from the other listed officials responsible for property and armies. Together the two brief notices present Jonathan as a man valued both for courage against Israel&#x27;s enemies and for sound judgment at his uncle&#x27;s court, a minor but real presence within David&#x27;s inner circle of family and advisors.</p>
-  </section>
-  <p class="first-reference">First named in 2 Samuel 21:21</p>
   <p class="references-list">References: 2 Samuel 21:21; 1 Chronicles 20:7; 1 Chronicles 27:32</p>
   <section>
     <h3>Genealogy</h3>
@@ -184,6 +201,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

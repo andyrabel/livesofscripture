@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-king.png" alt="Hoham — Generic line-art icon for kings -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-king.png" alt="Hoham — Generic line-art icon for kings -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Joshua 10:1-23</p>
+    </div>
     <div class="person-title">
-      <h2>Hoham</h2>
+      <h2>Hoham <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -96,16 +99,30 @@
       </div>
     </div>
   </div>
-  <p>The Amorite king of Hebron, one of five Canaanite kings who joined a coalition against Gibeon after it made peace with Israel, defeated by Joshua in the battle where the sun stood still, and captured and executed with his fellow kings at Makkedah.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Hoham was the king of Hebron in the land of Canaan. When the people of Gibeon made a peace agreement with Joshua and the Israelites, Hoham joined four other Canaanite kings to attack Gibeon for switching sides. Gibeon asked Joshua for help, and Joshua&#x27;s army marched all night to defend them. God helped Israel win an amazing victory that day, even making the sun stand still in the sky so there would be enough daylight to finish the battle. Hoham and the other four kings tried to hide in a cave, but they were found, captured, and put to death, ending their resistance to Israel&#x27;s conquest of the land.</p>
+  <div class="story-tabs-wrapper" data-person-name="Hoham">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Hoham, king of Hebron, was one of five Amorite kings -- along with Adoni-zedek of Jerusalem, Piram of Jarmuth, Japhia of Lachish, and Debir of Eglon -- who formed a coalition to attack Gibeon after that city made a peace treaty with Israel (Joshua 10:1-5). Gibeon appealed to Joshua for help, and Joshua&#x27;s forces marched through the night from Gilgal to relieve the siege (10:6-9). The LORD threw the five kings&#x27; armies into confusion, and as Israel pursued them, He sent large hailstones that killed more of the enemy than the sword did, while Joshua called on the sun and moon to stand still until Israel had finished the victory (10:10-14). Hoham and the other four kings fled and hid in a cave at Makkedah; Joshua had the cave sealed until the battle was finished, then had the kings brought out, had his army commanders symbolically put their feet on the kings&#x27; necks, and personally struck them down, hanging their bodies on trees until evening before burying them in the same cave where they had hidden (10:16-27). Hoham&#x27;s city of Hebron was then captured, and his fate is recalled again in Joshua&#x27;s later roll call of thirty-one defeated Canaanite kings (12:10). His account is part of a larger pattern in Joshua of decisive, complete judgment on Canaan&#x27;s resisting kings.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Hoham was the king of Hebron in the land of Canaan. When the people of Gibeon made a peace agreement with Joshua and the Israelites, Hoham joined four other Canaanite kings to attack Gibeon for switching sides. Gibeon asked Joshua for help, and Joshua&#x27;s army marched all night to defend them. God helped Israel win an amazing victory that day, even making the sun stand still in the sky so there would be enough daylight to finish the battle. Hoham and the other four kings tried to hide in a cave, but they were found, captured, and put to death, ending their resistance to Israel&#x27;s conquest of the land.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Hoham, king of Hebron, was one of five Amorite kings -- along with Adoni-zedek of Jerusalem, Piram of Jarmuth, Japhia of Lachish, and Debir of Eglon -- who formed a coalition to attack Gibeon after that city made a peace treaty with Israel (Joshua 10:1-5). Gibeon appealed to Joshua for help, and Joshua&#x27;s forces marched through the night from Gilgal to relieve the siege (10:6-9). The LORD threw the five kings&#x27; armies into confusion, and as Israel pursued them, He sent large hailstones that killed more of the enemy than the sword did, while Joshua called on the sun and moon to stand still until Israel had finished the victory (10:10-14). Hoham and the other four kings fled and hid in a cave at Makkedah; Joshua had the cave sealed until the battle was finished, then had the kings brought out, had his army commanders symbolically put their feet on the kings&#x27; necks, and personally struck them down, hanging their bodies on trees until evening before burying them in the same cave where they had hidden (10:16-27). Hoham&#x27;s city of Hebron was then captured, and his fate is recalled again in Joshua&#x27;s later roll call of thirty-one defeated Canaanite kings (12:10). His account is part of a larger pattern in Joshua of decisive, complete judgment on Canaan&#x27;s resisting kings.</p>
-  </section>
-  <p class="first-reference">First named in Joshua 10:1-23</p>
   <p class="references-list">References: Joshua 10:1-23; Joshua 12:10</p>
   <section>
     <h3>Genealogy</h3>
@@ -137,6 +154,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

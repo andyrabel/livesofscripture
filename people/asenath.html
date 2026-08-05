@@ -113,9 +113,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-woman.png" alt="Asenath — Generic line-art icon for women -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-woman.png" alt="Asenath — Generic line-art icon for women -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Genesis 41:45</p>
+    </div>
     <div class="person-title">
-      <h2>Asenath</h2>
+      <h2>Asenath <span class="gender-tag gender-tag--female">(F)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -123,16 +126,30 @@
       </div>
     </div>
   </div>
-  <p>Egyptian wife given to Joseph by Pharaoh, daughter of Potiphera, priest of On, and mother of Manasseh and Ephraim, whose names Joseph chose to reflect God&#x27;s work turning his hardship into fruitfulness.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Asenath was an Egyptian woman whom Pharaoh gave to Joseph as a wife, after Joseph had correctly interpreted Pharaoh&#x27;s dreams and been placed in charge of preparing Egypt for famine. Asenath and Joseph had two sons together, Manasseh and Ephraim, and the names Joseph gave them tell the story of his own life -- Manasseh means God helped him forget his hardship, and Ephraim means God made him fruitful in the very land where he had suffered. Asenath, an outsider to God&#x27;s covenant family by birth, became the mother of two sons who would each become one of the twelve tribes of Israel.</p>
+  <div class="story-tabs-wrapper" data-person-name="Asenath">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Asenath, daughter of Potiphera, priest of On (Heliopolis), was given to Joseph in marriage by Pharaoh himself after Joseph correctly interpreted Pharaoh&#x27;s dreams and was elevated to rule over all Egypt under Pharaoh (Genesis 41:37-45). As an Egyptian from a priestly family with no prior connection to Abraham&#x27;s covenant line, Asenath&#x27;s marriage to Joseph is Genesis&#x27;s first instance of a patriarch&#x27;s son marrying an Egyptian, a detail the text records without commentary. She bore two sons before the seven years of famine arrived: Manasseh, whose name Joseph explained as &#x27;God has made me forget all my trouble and all my father&#x27;s household,&#x27; and Ephraim, meaning &#x27;God has made me fruitful in the land of my affliction&#x27; (41:50-52) -- names that turn Joseph&#x27;s own painful history of betrayal and slavery into a public testimony of God&#x27;s providence rather than bitterness. Asenath and her sons went down with Joseph&#x27;s household into further security once Jacob&#x27;s family relocated to Egypt during the famine (46:20). Manasseh and Ephraim were later personally adopted and blessed by the aging Jacob as full tribes of Israel in their own right, equal to his own sons (48:1-20), meaning Asenath, an outsider by birth to the covenant family, became through her sons the mother of two of the twelve tribes that would carry forward God&#x27;s promises to Abraham.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Asenath was an Egyptian woman whom Pharaoh gave to Joseph as a wife, after Joseph had correctly interpreted Pharaoh&#x27;s dreams and been placed in charge of preparing Egypt for famine. Asenath and Joseph had two sons together, Manasseh and Ephraim, and the names Joseph gave them tell the story of his own life -- Manasseh means God helped him forget his hardship, and Ephraim means God made him fruitful in the very land where he had suffered. Asenath, an outsider to God&#x27;s covenant family by birth, became the mother of two sons who would each become one of the twelve tribes of Israel.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Asenath, daughter of Potiphera, priest of On (Heliopolis), was given to Joseph in marriage by Pharaoh himself after Joseph correctly interpreted Pharaoh&#x27;s dreams and was elevated to rule over all Egypt under Pharaoh (Genesis 41:37-45). As an Egyptian from a priestly family with no prior connection to Abraham&#x27;s covenant line, Asenath&#x27;s marriage to Joseph is Genesis&#x27;s first instance of a patriarch&#x27;s son marrying an Egyptian, a detail the text records without commentary. She bore two sons before the seven years of famine arrived: Manasseh, whose name Joseph explained as &#x27;God has made me forget all my trouble and all my father&#x27;s household,&#x27; and Ephraim, meaning &#x27;God has made me fruitful in the land of my affliction&#x27; (41:50-52) -- names that turn Joseph&#x27;s own painful history of betrayal and slavery into a public testimony of God&#x27;s providence rather than bitterness. Asenath and her sons went down with Joseph&#x27;s household into further security once Jacob&#x27;s family relocated to Egypt during the famine (46:20). Manasseh and Ephraim were later personally adopted and blessed by the aging Jacob as full tribes of Israel in their own right, equal to his own sons (48:1-20), meaning Asenath, an outsider by birth to the covenant family, became through her sons the mother of two of the twelve tribes that would carry forward God&#x27;s promises to Abraham.</p>
-  </section>
-  <p class="first-reference">First named in Genesis 41:45</p>
   <p class="references-list">References: Genesis 41:45; Genesis 41:50-52; Genesis 46:20</p>
   <section>
     <h3>Genealogy</h3>
@@ -177,6 +194,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

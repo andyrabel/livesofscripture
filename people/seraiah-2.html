@@ -101,9 +101,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-priest.png" alt="Seraiah — Generic line-art icon for priests -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-priest.png" alt="Seraiah — Generic line-art icon for priests -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in 2 Kings 25:18</p>
+    </div>
     <div class="person-title">
-      <h2>Seraiah</h2>
+      <h2>Seraiah <span class="gender-tag gender-tag--male">(M)</span></h2>
       
       <div class="tags">
         <span class="badge ot">OT</span>
@@ -111,16 +114,30 @@
       </div>
     </div>
   </div>
-  <p>The chief priest of Jerusalem at the time of the city&#x27;s fall to Babylon, taken captive along with other leading officials and executed by the king of Babylon at Riblah; father of Jehozadak and ancestor of Ezra.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Seraiah was the chief priest in Jerusalem when the terrible day came that the city fell to the Babylonian army. Along with other important leaders, Seraiah was captured and taken to a place called Riblah, where the king of Babylon had him put to death. It was one of the darkest moments in Israel&#x27;s history, when the consequences of the nation&#x27;s long unfaithfulness finally came. Even in this tragedy, God was not finished with Seraiah&#x27;s family: his descendants, including the priest Ezra, would later return to Jerusalem to help rebuild God&#x27;s people.</p>
+  <div class="story-tabs-wrapper" data-person-name="Seraiah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Seraiah served as chief priest in Jerusalem when the Babylonian army finally breached the city&#x27;s walls after a long siege, bringing the kingdom of Judah to its end. Nebuzaradan, the captain of Nebuchadnezzar&#x27;s guard, seized Seraiah along with Zephaniah the second priest, three keepers of the threshold, a military officer, five royal counselors, a scribe, and sixty other men of standing from the city (2 Kings 25:18-19). All were brought to the king of Babylon at Riblah, where he had them struck down and put to death (25:20-21) -- &quot;so Judah was led away into exile from its land.&quot; Seraiah&#x27;s execution as the city&#x27;s highest religious leader marks the brutal, definitive close of the monarchy and the beginning of exile. Yet his line did not end there: he was the father of Jehozadak, who was carried into exile, and an ancestor of Ezra the priest and scribe (Ezra 7:1), whose return generations later would help restore worship in Jerusalem.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Seraiah was the chief priest in Jerusalem when the terrible day came that the city fell to the Babylonian army. Along with other important leaders, Seraiah was captured and taken to a place called Riblah, where the king of Babylon had him put to death. It was one of the darkest moments in Israel&#x27;s history, when the consequences of the nation&#x27;s long unfaithfulness finally came. Even in this tragedy, God was not finished with Seraiah&#x27;s family: his descendants, including the priest Ezra, would later return to Jerusalem to help rebuild God&#x27;s people.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Seraiah served as chief priest in Jerusalem when the Babylonian army finally breached the city&#x27;s walls after a long siege, bringing the kingdom of Judah to its end. Nebuzaradan, the captain of Nebuchadnezzar&#x27;s guard, seized Seraiah along with Zephaniah the second priest, three keepers of the threshold, a military officer, five royal counselors, a scribe, and sixty other men of standing from the city (2 Kings 25:18-19). All were brought to the king of Babylon at Riblah, where he had them struck down and put to death (25:20-21) -- &quot;so Judah was led away into exile from its land.&quot; Seraiah&#x27;s execution as the city&#x27;s highest religious leader marks the brutal, definitive close of the monarchy and the beginning of exile. Yet his line did not end there: he was the father of Jehozadak, who was carried into exile, and an ancestor of Ezra the priest and scribe (Ezra 7:1), whose return generations later would help restore worship in Jerusalem.</p>
-  </section>
-  <p class="first-reference">First named in 2 Kings 25:18</p>
   <p class="references-list">References: 2 Kings 25:18; Ezra 7:1; Jeremiah 52:24</p>
   <section>
     <h3>Genealogy</h3>
@@ -180,6 +197,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>

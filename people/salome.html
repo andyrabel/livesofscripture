@@ -86,9 +86,12 @@
 
 <main id="person-main">
   <div class="person-header">
-    <img src="../images/portraits/generic-woman.png" alt="Salome — Generic line-art icon for women -- symbolic, no claim of likeness">
+    <div class="person-portrait-col">
+      <img src="../images/portraits/generic-woman.png" alt="Salome — Generic line-art icon for women -- symbolic, no claim of likeness">
+      <p class="first-reference">First named in Mark 15:40</p>
+    </div>
     <div class="person-title">
-      <h2>Salome</h2>
+      <h2>Salome <span class="gender-tag gender-tag--female">(F)</span></h2>
       
       <div class="tags">
         <span class="badge nt">NT</span>
@@ -96,17 +99,30 @@
       </div>
     </div>
   </div>
-  <p>One of the women who followed Jesus and provided for Him in Galilee, watched His crucifixion from a distance, and came to His tomb with spices on the first Easter morning.</p>
-  <div class="family-friendly">
-    <span class="family-friendly-label">For younger readers</span>
-    <p>Salome was one of a group of women who followed Jesus and helped support His ministry. When Jesus was crucified, Salome didn&#x27;t run away -- she stayed nearby, watching from a distance along with other women, even though it must have been terrifying and heartbreaking. Early on the morning after the Sabbath, Salome was one of the women who went to Jesus&#x27;s tomb, carrying spices to anoint His body, only to discover that He had risen from the dead. Salome&#x27;s quiet faithfulness -- staying close to Jesus in His darkest hour and showing up at the tomb -- made her one of the first witnesses to the resurrection.</p>
+  <div class="story-tabs-wrapper" data-person-name="Salome">
+    <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
+      <p>Salome is named twice in Mark&#x27;s Gospel, both times among a small group of women who stayed near Jesus in His final hours. At the crucifixion, Mark records that &quot;there were also women looking on from a distance, among whom were Mary Magdalene, and Mary the mother of James the less and Joses, and Salome&quot; -- women who had followed and ministered to Jesus back in Galilee and had come with Him to Jerusalem (Mark 15:40-41). Unlike the male disciples, who scattered, these women remained visible witnesses to the crucifixion, even from a distance. Very early on the first day of the week, Salome was one of the women who bought spices and went to the tomb to anoint Jesus&#x27;s body, only to find the stone rolled away and to hear the angel&#x27;s announcement that He had risen (Mark 16:1-6). Salome is often identified with the mother of James and John who elsewhere asks Jesus for places of honor for her sons (Matthew 20:20-23) -- if so, her steady presence at the cross and tomb stands in quiet contrast to that earlier request for status, showing a faith that outlasted ambition.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Salome was one of a group of women who followed Jesus and helped support His ministry. When Jesus was crucified, Salome didn&#x27;t run away -- she stayed nearby, watching from a distance along with other women, even though it must have been terrifying and heartbreaking. Early on the morning after the Sabbath, Salome was one of the women who went to Jesus&#x27;s tomb, carrying spices to anoint His body, only to discover that He had risen from the dead. Salome&#x27;s quiet faithfulness -- staying close to Jesus in His darkest hour and showing up at the tomb -- made her one of the first witnesses to the resurrection.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+      </div>
+    </div>
   </div>
-  <div class="interpretive-note">Interpretive note: Salome is widely, though not certainly, identified as the mother of James and John (the sons of Zebedee), by comparing Mark 15:40 with Matthew 27:56&#x27;s parallel list. Some also identify her as the sister of Jesus&#x27;s mother mentioned in John 19:25, which would make her Jesus&#x27;s aunt -- Scripture does not state either identification directly.</div>
-  <section class="story">
-    <h3>Life Story</h3>
-    <p>Salome is named twice in Mark&#x27;s Gospel, both times among a small group of women who stayed near Jesus in His final hours. At the crucifixion, Mark records that &quot;there were also women looking on from a distance, among whom were Mary Magdalene, and Mary the mother of James the less and Joses, and Salome&quot; -- women who had followed and ministered to Jesus back in Galilee and had come with Him to Jerusalem (Mark 15:40-41). Unlike the male disciples, who scattered, these women remained visible witnesses to the crucifixion, even from a distance. Very early on the first day of the week, Salome was one of the women who bought spices and went to the tomb to anoint Jesus&#x27;s body, only to find the stone rolled away and to hear the angel&#x27;s announcement that He had risen (Mark 16:1-6). Salome is often identified with the mother of James and John who elsewhere asks Jesus for places of honor for her sons (Matthew 20:20-23) -- if so, her steady presence at the cross and tomb stands in quiet contrast to that earlier request for status, showing a faith that outlasted ambition.</p>
-  </section>
-  <p class="first-reference">First named in Mark 15:40</p>
   <p class="references-list">References: Mark 15:40; Mark 16:1</p>
   <section>
     <h3>Genealogy</h3>
@@ -150,6 +166,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>
