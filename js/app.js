@@ -2025,17 +2025,26 @@ function assignEraOrdinalSpans(people) {
     }
 
     // Order distinct clusters (not individual people) evenly across the band.
+    // A cluster with no resolved rank -- no first_reference of its own, and no
+    // ranked parent or spouse to inherit a position from after the relaxation
+    // passes above -- has no textual or genealogical basis for a left-to-right
+    // position, so it's left off the timeline entirely rather than dumped at
+    // an arbitrary spot (the previous Infinity/Infinity fallback here produced
+    // NaN from the sort comparator, which is exactly that arbitrary dumping).
     const clusters = new Map();
     for (const p of group) {
       const root = find(p.person_id);
+      if (!clusterRank.has(root)) {
+        p.start = null;
+        p.end = null;
+        continue;
+      }
       if (!clusters.has(root)) clusters.set(root, []);
       clusters.get(root).push(p);
     }
-    const ordered = Array.from(clusters.entries()).sort((a, b) => {
-      const ra = clusterRank.has(a[0]) ? clusterRank.get(a[0]) : Infinity;
-      const rb = clusterRank.has(b[0]) ? clusterRank.get(b[0]) : Infinity;
-      return ra - rb;
-    });
+    const ordered = Array.from(clusters.entries()).sort(
+      (a, b) => clusterRank.get(a[0]) - clusterRank.get(b[0])
+    );
 
     const usableStart = band[0] + bandWidth * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION;
     const usableWidth = bandWidth * (1 - 2 * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION);
@@ -2391,13 +2400,18 @@ async function renderTimelinePage() {
   // per-person fetch is needed for any of the ~3,000 people here.
   const [index, events] = await Promise.all([loadIndex(), loadTimelineEvents()]);
 
-  const people = index
+  const spanned = index
     .map((p) => {
       const span = timelinePersonSpan(p);
       return span ? Object.assign({}, p, span) : null;
     })
     .filter(Boolean);
-  assignEraOrdinalSpans(people);
+  assignEraOrdinalSpans(spanned);
+  // Era-precision people with no first_reference and no ranked parent/spouse
+  // to inherit a position from are left unplaced (start/end nulled out) by
+  // assignEraOrdinalSpans above -- drop them here rather than showing them
+  // at a meaningless position.
+  const people = spanned.filter((p) => p.start != null);
 
   if (!people.length) {
     countEl.textContent = "Showing 0 people";

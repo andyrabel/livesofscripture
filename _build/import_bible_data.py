@@ -316,6 +316,7 @@ def main():
             "alt_names": alt_names[pid],
             "tier": "stub",
             "testament": testament,
+            "first_reference": refs[0] if refs else None,
         }
         created += 1
 

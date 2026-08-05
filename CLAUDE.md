@@ -519,6 +519,29 @@ Consequences for the data model:
   `_build/infer_stub_eras.py` (before `generate_static_site.py`) whenever
   genealogy data or full-tier `era`/`timeline` values change.
 
+**Bug found and fixed 2026-08-05:** the index never actually carried
+`first_reference` despite the paragraph above saying it does — every
+era-precision person's narrative (book/chapter) rank came back `null`, so
+left-to-right order within an era band fell back to a broken
+`Infinity - Infinity` (`NaN`) sort comparator instead of Scripture's own
+order. Visibly, this put Enoch and (Noah's father) Lamech ahead of Cain and
+Abel in Primeval History. Separately, 917 index entries were missing
+`genealogy` their own person file had (also blocked the parent-anchoring
+pass — e.g. Cain's-line Lamech had no `father: methushael` in the index even
+though his person file did). Fixed via two new one-time backfill scripts,
+`_build/backfill_first_reference.py` and `_build/backfill_genealogy.py`
+(both safe to re-run), plus updating `_build/import_bible_data.py` and
+`_build/sync_promoted_tiers.py` so newly-created/promoted index entries
+keep carrying both fields going forward.
+
+**New rule added the same day:** an era-precision person with no
+`first_reference` of their own *and* no ranked parent/spouse to inherit a
+position from after the relaxation passes has no textual or genealogical
+basis for a left-to-right position — `assignEraOrdinalSpans` in `js/app.js`
+now leaves them off the Timeline entirely (explicitly nulling their
+start/end) rather than guessing. Only one person in the current dataset
+(Raphah — no references, no parent, only a child) is excluded by this rule.
+
 - Most Old Testament dates, especially pre-monarchy, are **disputed among
   evangelical scholars themselves** — not just "uncertain" the way an obscure
   missionary's birth year might be uncertain, but genuinely contested by
