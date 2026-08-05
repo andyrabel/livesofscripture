@@ -6,14 +6,22 @@
   "testament": "OT",
   "references": [
     "1 Chronicles 3:17",
-    "Matthew 1:12"
+    "Ezra 3:2-8",
+    "Ezra 5:2",
+    "Nehemiah 12:1",
+    "Haggai 1:1-14",
+    "Haggai 2:2-23",
+    "Matthew 1:12",
+    "Luke 3:27"
   ],
   "first_reference": "1 Chronicles 3:17",
   "genealogy": {
     "father": "jehoiachin",
     "mother": null,
     "spouses": [],
-    "children": []
+    "children": [
+      "zerubbabel"
+    ]
   },
   "gender": "male"
 }

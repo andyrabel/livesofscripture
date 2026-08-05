@@ -84,11 +84,6 @@
       "father": "kohath",
       "spouses": [
         "jochebed"
-      ],
-      "children": [
-        "aaron",
-        "miriam",
-        "moses"
       ]
     },
     "timeline": {
@@ -754,13 +749,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "nahor",
-      "children": [
-        "abraham",
-        "haran",
-        "nahor-2",
-        "sarah"
-      ]
+      "father": "nahor"
     },
     "timeline": {
       "precision": "era"
@@ -889,10 +878,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "cain",
-      "children": [
-        "irad"
-      ]
+      "father": "cain"
     },
     "timeline": {
       "precision": "era"
@@ -960,10 +946,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "enoch-son-of-cain",
-      "children": [
-        "mehujael"
-      ]
+      "father": "enoch-son-of-cain"
     },
     "timeline": {
       "precision": "era"
@@ -979,10 +962,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "irad",
-      "children": [
-        "methushael"
-      ]
+      "father": "irad"
     },
     "timeline": {
       "precision": "era"
@@ -998,10 +978,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "mehujael",
-      "children": [
-        "lamech"
-      ]
+      "father": "mehujael"
     },
     "timeline": {
       "precision": "era"
@@ -1053,10 +1030,6 @@
     "genealogy": {
       "spouses": [
         "lamech"
-      ],
-      "children": [
-        "jabal",
-        "jubal"
       ]
     },
     "timeline": {
@@ -1075,10 +1048,6 @@
     "genealogy": {
       "spouses": [
         "lamech"
-      ],
-      "children": [
-        "naamah",
-        "tubal-cain"
       ]
     },
     "timeline": {
@@ -1165,10 +1134,7 @@
     "era": "Primeval History",
     "genealogy": {
       "father": "adam",
-      "mother": "eve",
-      "children": [
-        "enosh"
-      ]
+      "mother": "eve"
     },
     "timeline": {
       "precision": "era"
@@ -1184,10 +1150,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "seth",
-      "children": [
-        "kenan"
-      ]
+      "father": "seth"
     },
     "timeline": {
       "precision": "era"
@@ -1205,10 +1168,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "enosh",
-      "children": [
-        "mahalalel"
-      ]
+      "father": "enosh"
     },
     "timeline": {
       "precision": "era"
@@ -1224,10 +1184,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "kenan",
-      "children": [
-        "jared"
-      ]
+      "father": "kenan"
     },
     "timeline": {
       "precision": "era"
@@ -1244,10 +1201,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "mahalalel",
-      "children": [
-        "enoch"
-      ]
+      "father": "mahalalel"
     },
     "timeline": {
       "precision": "era"
@@ -1288,10 +1242,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "methuselah",
-      "children": [
-        "noah"
-      ]
+      "father": "methuselah"
     },
     "timeline": {
       "precision": "era"
@@ -1463,12 +1414,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "japheth",
-      "children": [
-        "ashkenaz",
-        "riphath",
-        "togarmah"
-      ]
+      "father": "japheth"
     },
     "timeline": {
       "precision": "era"
@@ -1517,13 +1463,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "japheth",
-      "children": [
-        "dodanim",
-        "elishah",
-        "kittim",
-        "tarshish"
-      ]
+      "father": "japheth"
     },
     "timeline": {
       "precision": "era"
@@ -1705,15 +1645,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "ham",
-      "children": [
-        "havilah",
-        "nimrod",
-        "raamah",
-        "sabtah",
-        "sabteca",
-        "seba"
-      ]
+      "father": "ham"
     },
     "timeline": {
       "precision": "era"
@@ -1730,16 +1662,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "ham",
-      "children": [
-        "anam",
-        "caphtor",
-        "casluh",
-        "lehab",
-        "lud",
-        "naphtuh",
-        "pathrus"
-      ]
+      "father": "ham"
     },
     "timeline": {
       "precision": "era"
@@ -1820,11 +1743,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "cush",
-      "children": [
-        "dedan",
-        "sheba"
-      ]
+      "father": "cush"
     },
     "timeline": {
       "precision": "era"
@@ -2210,11 +2129,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "shelah",
-      "children": [
-        "joktan",
-        "peleg"
-      ]
+      "father": "shelah"
     },
     "timeline": {
       "precision": "era"
@@ -2267,10 +2182,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "shem",
-      "children": [
-        "shelah"
-      ]
+      "father": "shem"
     },
     "timeline": {
       "precision": "era"
@@ -2303,13 +2215,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "shem",
-      "children": [
-        "gether",
-        "hul",
-        "mash",
-        "uz"
-      ]
+      "father": "shem"
     },
     "timeline": {
       "precision": "era"
@@ -2393,10 +2299,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "arpachshad",
-      "children": [
-        "eber"
-      ]
+      "father": "arpachshad"
     },
     "timeline": {
       "precision": "era"
@@ -2414,10 +2317,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "eber",
-      "children": [
-        "reu"
-      ]
+      "father": "eber"
     },
     "timeline": {
       "precision": "era"
@@ -2433,22 +2333,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "eber",
-      "children": [
-        "abimael",
-        "almodad",
-        "diklah",
-        "hadoram",
-        "havilah-2",
-        "hazarmaveth",
-        "jerah",
-        "jobab",
-        "obal",
-        "ophir",
-        "sheba-2",
-        "sheleph",
-        "uzal"
-      ]
+      "father": "eber"
     },
     "timeline": {
       "precision": "era"
@@ -2678,10 +2563,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "peleg",
-      "children": [
-        "serug"
-      ]
+      "father": "peleg"
     },
     "timeline": {
       "precision": "era"
@@ -2698,10 +2580,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "reu",
-      "children": [
-        "nahor"
-      ]
+      "father": "reu"
     },
     "timeline": {
       "precision": "era"
@@ -2718,10 +2597,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "serug",
-      "children": [
-        "terah"
-      ]
+      "father": "serug"
     },
     "timeline": {
       "precision": "era"
@@ -2742,20 +2618,6 @@
       "father": "terah",
       "spouses": [
         "milcah"
-      ],
-      "children": [
-        "bethuel",
-        "buz",
-        "chesed",
-        "gaham",
-        "hazo",
-        "jidlaph",
-        "kemuel",
-        "maacah",
-        "pildash",
-        "tahash",
-        "tebah",
-        "uz-2"
       ]
     },
     "timeline": {
@@ -2774,12 +2636,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "terah",
-      "children": [
-        "iscah",
-        "lot",
-        "milcah"
-      ]
+      "father": "terah"
     },
     "timeline": {
       "precision": "era"
@@ -2828,16 +2685,6 @@
       "father": "haran",
       "spouses": [
         "nahor-2"
-      ],
-      "children": [
-        "bethuel",
-        "buz",
-        "chesed",
-        "hazo",
-        "jidlaph",
-        "kemuel",
-        "pildash",
-        "uz-2"
       ]
     },
     "timeline": {
@@ -3254,10 +3101,7 @@
     "region": "mesopotamia",
     "genealogy": {
       "father": "nahor-2",
-      "mother": "milcah",
-      "children": [
-        "aram-2"
-      ]
+      "mother": "milcah"
     },
     "timeline": {
       "precision": "era"
@@ -3583,14 +3427,6 @@
     "genealogy": {
       "spouses": [
         "abraham"
-      ],
-      "children": [
-        "ishbak",
-        "jokshan",
-        "medan",
-        "midian",
-        "shuah",
-        "zimran"
       ]
     },
     "timeline": {
@@ -3627,11 +3463,7 @@
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
-      "mother": "keturah",
-      "children": [
-        "dedan-2",
-        "sheba-3"
-      ]
+      "mother": "keturah"
     },
     "timeline": {
       "precision": "era"
@@ -3667,14 +3499,7 @@
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
-      "mother": "keturah",
-      "children": [
-        "abida",
-        "eldaah",
-        "ephah",
-        "epher",
-        "hanoch"
-      ]
+      "mother": "keturah"
     },
     "timeline": {
       "precision": "era"
@@ -3745,12 +3570,7 @@
     "era": "Primeval History",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "jokshan",
-      "children": [
-        "asshur-2",
-        "letush",
-        "leum"
-      ]
+      "father": "jokshan"
     },
     "timeline": {
       "precision": "era"
@@ -4151,9 +3971,9 @@
     "name": "Israel",
     "alt_names": [
       "Jacob",
-      "Jesherun"
+      "Jeshurun"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Patriarchal",
     "region": "canaan-israel",
@@ -4161,6 +3981,8 @@
       "father": "isaac",
       "mother": "rebekah",
       "spouses": [
+        "leah",
+        "rachel",
         "bilhah",
         "zilpah"
       ],
@@ -4184,7 +4006,14 @@
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Genesis 25:26-34"
+    "first_reference": "Genesis 25:19-34",
+    "topics": [
+      "deception and its consequences",
+      "God's covenant faithfulness",
+      "wrestling with God",
+      "family conflict and reconciliation"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "ahuzzath",
@@ -4219,11 +4048,6 @@
       "father": "anah",
       "spouses": [
         "esau"
-      ],
-      "children": [
-        "jalam",
-        "jeush",
-        "korah"
       ]
     },
     "timeline": {
@@ -4276,9 +4100,6 @@
       "father": "elon",
       "spouses": [
         "esau"
-      ],
-      "children": [
-        "eliphaz"
       ]
     },
     "timeline": {
@@ -4326,9 +4147,6 @@
       "father": "ishmael",
       "spouses": [
         "esau"
-      ],
-      "children": [
-        "reuel"
       ]
     },
     "timeline": {
@@ -4761,12 +4579,7 @@
     "region": "mesopotamia",
     "genealogy": {
       "father": "israel",
-      "mother": "leah",
-      "children": [
-        "elon-2",
-        "jahleel",
-        "sered"
-      ]
+      "mother": "leah"
     },
     "timeline": {
       "precision": "era"
@@ -4959,16 +4772,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "esau",
-      "mother": "basemath",
-      "children": [
-        "amalek",
-        "gatam",
-        "kenaz",
-        "korah-2",
-        "omar",
-        "teman",
-        "zepho"
-      ]
+      "mother": "basemath"
     },
     "timeline": {
       "precision": "era"
@@ -4987,13 +4791,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "esau",
-      "mother": "basemath-2",
-      "children": [
-        "mizzah",
-        "nahath",
-        "shammah",
-        "zerah"
-      ]
+      "mother": "basemath-2"
     },
     "timeline": {
       "precision": "era"
@@ -5307,11 +5105,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "seir",
-      "children": [
-        "hemam",
-        "hori"
-      ]
+      "father": "seir"
     },
     "timeline": {
       "precision": "era"
@@ -5328,14 +5122,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "seir",
-      "children": [
-        "alvan",
-        "ebal",
-        "manahath",
-        "onam",
-        "shepho"
-      ]
+      "father": "seir"
     },
     "timeline": {
       "precision": "era"
@@ -5353,11 +5140,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "seir",
-      "children": [
-        "aiah",
-        "anah"
-      ]
+      "father": "seir"
     },
     "timeline": {
       "precision": "era"
@@ -5411,13 +5194,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "seir",
-      "children": [
-        "akan",
-        "bilhan",
-        "jucam",
-        "zaavan"
-      ]
+      "father": "seir"
     },
     "timeline": {
       "precision": "era"
@@ -5435,11 +5212,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "seir",
-      "children": [
-        "aran",
-        "uz-3"
-      ]
+      "father": "seir"
     },
     "timeline": {
       "precision": "era"
@@ -5592,13 +5365,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "anah",
-      "children": [
-        "cheran",
-        "eshban",
-        "hemdan",
-        "ithran"
-      ]
+      "father": "anah"
     },
     "timeline": {
       "precision": "era"
@@ -5996,10 +5763,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "mother": "mezahab",
-      "children": [
-        "mehetabel"
-      ]
+      "mother": "mezahab"
     },
     "timeline": {
       "precision": "era"
@@ -6375,14 +6139,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "judah",
-      "mother": "tamar",
-      "children": [
-        "calcol",
-        "darda",
-        "ethan",
-        "heman",
-        "zabdi"
-      ]
+      "mother": "tamar"
     },
     "timeline": {
       "precision": "era"
@@ -6535,10 +6292,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "reuben",
-      "children": [
-        "eliab-2"
-      ]
+      "father": "reuben"
     },
     "timeline": {
       "precision": "era"
@@ -6685,10 +6439,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "simeon",
-      "children": [
-        "shallum-5"
-      ]
+      "father": "simeon"
     },
     "timeline": {
       "precision": "era"
@@ -6708,12 +6459,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "levi",
-      "children": [
-        "jahath-3",
-        "libni",
-        "shimei"
-      ]
+      "father": "levi"
     },
     "timeline": {
       "precision": "era"
@@ -6730,13 +6476,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "levi",
-      "children": [
-        "amram",
-        "hebron",
-        "izhar",
-        "uzziel"
-      ]
+      "father": "levi"
     },
     "timeline": {
       "precision": "era"
@@ -6753,11 +6493,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "levi",
-      "children": [
-        "mahli",
-        "mushi"
-      ]
+      "father": "levi"
     },
     "timeline": {
       "precision": "era"
@@ -6777,13 +6513,6 @@
       "father": "perez",
       "spouses": [
         "abijah-4"
-      ],
-      "children": [
-        "ashhur",
-        "caleb-2",
-        "jerahmeel",
-        "ram",
-        "segub-2"
       ]
     },
     "timeline": {
@@ -7134,11 +6863,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "asher",
-      "children": [
-        "heber",
-        "malchiel"
-      ]
+      "father": "asher"
     },
     "timeline": {
       "precision": "era"
@@ -7173,13 +6898,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "beriah",
-      "children": [
-        "hotham",
-        "japhlet",
-        "shomer-2",
-        "shua-2"
-      ]
+      "father": "beriah"
     },
     "timeline": {
       "precision": "era"
@@ -7197,10 +6916,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "beriah",
-      "children": [
-        "birzaith"
-      ]
+      "father": "beriah"
     },
     "timeline": {
       "precision": "era"
@@ -7217,20 +6933,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "benjamin",
-      "children": [
-        "abihud",
-        "abishua-2",
-        "ahoah",
-        "ard",
-        "ezbon-2",
-        "gera-3",
-        "iri",
-        "jerimoth",
-        "naaman",
-        "uzzi-3",
-        "uzziel-3"
-      ]
+      "father": "benjamin"
     },
     "timeline": {
       "precision": "era"
@@ -7248,18 +6951,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "benjamin",
-      "children": [
-        "abijah-5",
-        "alemeth",
-        "anathoth",
-        "eliezer-3",
-        "elioenai-3",
-        "jeremoth",
-        "joash-6",
-        "omri-2",
-        "zemirah"
-      ]
+      "father": "benjamin"
     },
     "timeline": {
       "precision": "era"
@@ -7279,10 +6971,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "benjamin",
-      "children": [
-        "bilhan-2"
-      ]
+      "father": "benjamin"
     },
     "timeline": {
       "precision": "era"
@@ -7345,10 +7034,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "benjamin",
-      "children": [
-        "hushim-2"
-      ]
+      "father": "benjamin"
     },
     "timeline": {
       "precision": "era"
@@ -7684,11 +7370,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "gershon",
-      "children": [
-        "jahath-2",
-        "jehiel"
-      ]
+      "father": "gershon"
     },
     "timeline": {
       "precision": "era"
@@ -7726,12 +7408,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "kohath",
-      "children": [
-        "korah-3",
-        "nepheg",
-        "zichri"
-      ]
+      "father": "kohath"
     },
     "timeline": {
       "precision": "era"
@@ -7767,12 +7444,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "kohath",
-      "children": [
-        "elzaphan",
-        "mishael",
-        "sithri"
-      ]
+      "father": "kohath"
     },
     "timeline": {
       "precision": "era"
@@ -7790,10 +7462,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "merari",
-      "children": [
-        "libni-2"
-      ]
+      "father": "merari"
     },
     "timeline": {
       "precision": "era"
@@ -7811,10 +7480,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "merari",
-      "children": [
-        "mahli-2"
-      ]
+      "father": "merari"
     },
     "timeline": {
       "precision": "era"
@@ -7964,12 +7630,6 @@
       "father": "amminadab",
       "spouses": [
         "aaron"
-      ],
-      "children": [
-        "abihu",
-        "eleazar",
-        "ithamar",
-        "nadab"
       ]
     },
     "timeline": {
@@ -7987,11 +7647,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "admin",
-      "children": [
-        "elisheba",
-        "nahshon"
-      ]
+      "father": "admin"
     },
     "timeline": {
       "precision": "era"
@@ -8135,10 +7791,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "korah-3",
-      "children": [
-        "elkanah-3"
-      ]
+      "father": "korah-3"
     },
     "timeline": {
       "precision": "era"
@@ -8176,10 +7829,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "korah-3",
-      "children": [
-        "kore"
-      ]
+      "father": "korah-3"
     },
     "timeline": {
       "precision": "era"
@@ -8363,10 +8013,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "hur",
-      "children": [
-        "bezalel"
-      ]
+      "father": "hur"
     },
     "timeline": {
       "precision": "era"
@@ -8643,10 +8290,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ephraim",
-      "children": [
-        "elishama"
-      ]
+      "father": "ephraim"
     },
     "timeline": {
       "precision": "era"
@@ -9490,12 +9134,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "arba",
-      "children": [
-        "ahiman",
-        "sheshai",
-        "talmai"
-      ]
+      "father": "arba"
     },
     "timeline": {
       "precision": "era"
@@ -9559,12 +9198,7 @@
     "era": "Exodus/Wilderness",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "pallu",
-      "children": [
-        "abiram",
-        "dathan",
-        "nemuel"
-      ]
+      "father": "pallu"
     },
     "timeline": {
       "precision": "era"
@@ -9778,10 +9412,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "simeon",
-      "children": [
-        "zimri"
-      ]
+      "father": "simeon"
     },
     "timeline": {
       "precision": "era"
@@ -9856,15 +9487,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "machir",
-      "children": [
-        "abiezer",
-        "asriel",
-        "helek",
-        "hepher",
-        "shechem-2",
-        "shemida"
-      ]
+      "father": "machir"
     },
     "timeline": {
       "precision": "era"
@@ -9955,13 +9578,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "gilead",
-      "children": [
-        "ahian",
-        "aniam",
-        "lihki",
-        "shechem-3"
-      ]
+      "father": "gilead"
     },
     "timeline": {
       "precision": "era"
@@ -9975,13 +9592,10 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Patriarchal",
+    "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "gilead",
-      "children": [
-        "zelophehad"
-      ]
+      "father": "gilead"
     },
     "timeline": {
       "precision": "era"
@@ -9994,7 +9608,7 @@
     "person_id": "zelophehad",
     "name": "Zelophehad",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
@@ -10013,7 +9627,13 @@
     "region": "sinai-wilderness",
     "gender": "male",
     "disambiguation": "son of Hepher (Num 26:33)",
-    "first_reference": "Numbers 26:33"
+    "first_reference": "Numbers 26:33",
+    "topics": [
+      "justice for the overlooked",
+      "inheritance and legacy",
+      "God's responsiveness to earnest requests"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "mahlah",
@@ -10142,10 +9762,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ephraim",
-      "children": [
-        "eran"
-      ]
+      "father": "ephraim"
     },
     "timeline": {
       "precision": "era"
@@ -10701,10 +10318,7 @@
     "era": "Exodus/Wilderness",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zabdi",
-      "children": [
-        "achan"
-      ]
+      "father": "zabdi"
     },
     "timeline": {
       "precision": "era"
@@ -10724,10 +10338,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zerah-3",
-      "children": [
-        "carmi-2"
-      ]
+      "father": "zerah-3"
     },
     "timeline": {
       "precision": "era"
@@ -11156,7 +10767,7 @@
     "person_id": "sisera",
     "name": "Sisera",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "timeline": {
@@ -11164,7 +10775,13 @@
     },
     "gender": "male",
     "disambiguation": "(Judg 4:2-22)",
-    "first_reference": "Judges 4:2-22"
+    "first_reference": "Judges 4:2-22",
+    "topics": [
+      "God's deliverance",
+      "unexpected instruments of judgment",
+      "the folly of relying on human strength"
+    ],
+    "image": "generic-warrior.png"
   },
   {
     "person_id": "deborah-2",
@@ -11417,27 +11034,39 @@
     "person_id": "zebah",
     "name": "Zebah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Judges 8:5-21"
+    "first_reference": "Judges 8:5-21",
+    "topics": [
+      "divine justice",
+      "God's power over human strength",
+      "the cost of cruelty"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "zalmunna",
     "name": "Zalmunna",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Judges",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Judges 8:5-21"
+    "first_reference": "Judges 8:5-21",
+    "topics": [
+      "divine justice",
+      "God's power over human strength",
+      "the cost of cruelty"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "jether",
@@ -11591,10 +11220,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "dodo",
-      "children": [
-        "tola-2"
-      ]
+      "father": "dodo"
     },
     "timeline": {
       "precision": "era"
@@ -11983,10 +11609,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "hezron-2",
-      "children": [
-        "admin"
-      ]
+      "father": "hezron-2"
     },
     "timeline": {
       "precision": "era"
@@ -12006,10 +11629,7 @@
     "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "nahshon",
-      "children": [
-        "boaz"
-      ]
+      "father": "nahshon"
     },
     "timeline": {
       "precision": "era"
@@ -12057,10 +11677,7 @@
     "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "elihu",
-      "children": [
-        "elkanah-2"
-      ]
+      "father": "elihu"
     },
     "timeline": {
       "precision": "era"
@@ -12110,10 +11727,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zophai",
-      "children": [
-        "elihu"
-      ]
+      "father": "zophai"
     },
     "timeline": {
       "precision": "era"
@@ -12132,10 +11746,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "elkanah-5",
-      "children": [
-        "tohu"
-      ]
+      "father": "elkanah-5"
     },
     "timeline": {
       "precision": "era"
@@ -12446,10 +12057,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zeror",
-      "children": [
-        "ner"
-      ]
+      "father": "zeror"
     },
     "timeline": {
       "precision": "era"
@@ -12466,10 +12074,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "becorath",
-      "children": [
-        "abiel"
-      ]
+      "father": "becorath"
     },
     "timeline": {
       "precision": "era"
@@ -12486,10 +12091,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "aphiah",
-      "children": [
-        "zeror"
-      ]
+      "father": "aphiah"
     },
     "timeline": {
       "precision": "era"
@@ -12611,11 +12213,7 @@
     "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "phinehas-2",
-      "children": [
-        "ahijah",
-        "ahimelech"
-      ]
+      "father": "phinehas-2"
     },
     "timeline": {
       "precision": "era"
@@ -12801,11 +12399,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "abiel",
-      "children": [
-        "abner",
-        "kish"
-      ]
+      "father": "abiel"
     },
     "timeline": {
       "precision": "era"
@@ -13445,9 +13039,6 @@
       "father": "talmai-2",
       "spouses": [
         "david"
-      ],
-      "children": [
-        "absalom"
       ]
     },
     "timeline": {
@@ -13466,10 +13057,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ammihud-4",
-      "children": [
-        "maacah-2"
-      ]
+      "father": "ammihud-4"
     },
     "timeline": {
       "precision": "era"
@@ -13514,9 +13102,6 @@
     "genealogy": {
       "spouses": [
         "david"
-      ],
-      "children": [
-        "adonijah"
       ]
     },
     "timeline": {
@@ -13555,9 +13140,6 @@
     "genealogy": {
       "spouses": [
         "david"
-      ],
-      "children": [
-        "shephatiah"
       ]
     },
     "timeline": {
@@ -13595,9 +13177,6 @@
     "genealogy": {
       "spouses": [
         "david"
-      ],
-      "children": [
-        "ithream"
       ]
     },
     "timeline": {
@@ -13823,10 +13402,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "david",
-      "mother": "bathsheba",
-      "children": [
-        "mattatha"
-      ]
+      "mother": "bathsheba"
     },
     "timeline": {
       "precision": "era"
@@ -14203,10 +13779,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "amariah",
-      "children": [
-        "zadok"
-      ]
+      "father": "amariah"
     },
     "timeline": {
       "precision": "era"
@@ -14379,13 +13952,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mephibosheth",
-      "children": [
-        "ahaz-2",
-        "melech",
-        "pithon",
-        "tarea"
-      ]
+      "father": "mephibosheth"
     },
     "timeline": {
       "precision": "era"
@@ -14525,7 +14092,7 @@
     "person_id": "tamar-2",
     "name": "Tamar",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "United Monarchy",
     "region": "canaan-israel",
@@ -14537,7 +14104,13 @@
     },
     "gender": "female",
     "disambiguation": "daughter of David (2 Sam 13:1-32)",
-    "first_reference": "2 Samuel 13:1-32"
+    "first_reference": "2 Samuel 13:1-32",
+    "topics": [
+      "sexual violence and its cost",
+      "family betrayal",
+      "God's justice for the wronged"
+    ],
+    "image": "generic-woman.png"
   },
   {
     "person_id": "jonadab",
@@ -14756,10 +14329,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "bela-2",
-      "children": [
-        "shimei-2"
-      ]
+      "father": "bela-2"
     },
     "timeline": {
       "precision": "era"
@@ -14825,10 +14395,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "mother": "nahash-2",
-      "children": [
-        "amasa"
-      ]
+      "mother": "nahash-2"
     },
     "timeline": {
       "precision": "era"
@@ -17161,10 +16728,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "hezion",
-      "children": [
-        "ben-hadad"
-      ]
+      "father": "hezion"
     },
     "timeline": {
       "precision": "era"
@@ -17937,10 +17501,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "shilhi",
-      "children": [
-        "jehoshaphat-3"
-      ]
+      "father": "shilhi"
     },
     "timeline": {
       "precision": "era"
@@ -18164,10 +17725,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "nimshi",
-      "children": [
-        "jehu-2"
-      ]
+      "father": "nimshi"
     },
     "timeline": {
       "precision": "era"
@@ -18975,14 +18533,20 @@
     "alt_names": [
       "Tilgath-pilneser"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "2 Kings 15:29"
+    "first_reference": "2 Kings 15:29",
+    "topics": [
+      "trusting God vs. human power",
+      "God's sovereignty over nations",
+      "the cost of compromised faith"
+    ],
+    "image": "generic-king.png"
   },
   {
     "person_id": "hoshea",
@@ -19037,10 +18601,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zadok-2",
-      "children": [
-        "jotham-2"
-      ]
+      "father": "zadok-2"
     },
     "timeline": {
       "precision": "era"
@@ -19210,10 +18771,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zechariah-2",
-      "children": [
-        "hezekiah"
-      ]
+      "father": "zechariah-2"
     },
     "timeline": {
       "precision": "era"
@@ -19702,10 +19260,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "haruz",
-      "children": [
-        "amon-2"
-      ]
+      "father": "haruz"
     },
     "timeline": {
       "precision": "era"
@@ -19743,10 +19298,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "adaiah",
-      "children": [
-        "josiah"
-      ]
+      "father": "adaiah"
     },
     "timeline": {
       "precision": "era"
@@ -19813,10 +19365,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "meshullam",
-      "children": [
-        "shaphan"
-      ]
+      "father": "meshullam"
     },
     "timeline": {
       "precision": "era"
@@ -20026,10 +19575,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "harhas",
-      "children": [
-        "shallum-2"
-      ]
+      "father": "harhas"
     },
     "timeline": {
       "precision": "era"
@@ -20146,11 +19692,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jeremiah",
-      "children": [
-        "jehoahaz-2",
-        "zedekiah-2"
-      ]
+      "father": "jeremiah"
     },
     "timeline": {
       "precision": "era"
@@ -20224,10 +19766,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "pedaiah",
-      "children": [
-        "jehoiakim"
-      ]
+      "father": "pedaiah"
     },
     "timeline": {
       "precision": "era"
@@ -20327,10 +19866,7 @@
     "era": "Exile",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "elnathan",
-      "children": [
-        "jehoiachin"
-      ]
+      "father": "elnathan"
     },
     "timeline": {
       "precision": "era"
@@ -20513,10 +20049,7 @@
     "testament": "OT",
     "era": "Exile",
     "genealogy": {
-      "father": "elishama-3",
-      "children": [
-        "ishmael-2"
-      ]
+      "father": "elishama-3"
     },
     "timeline": {
       "precision": "era"
@@ -20715,14 +20248,6 @@
       "father": "hezron-2",
       "spouses": [
         "atarah"
-      ],
-      "children": [
-        "ahijah-4",
-        "bunah",
-        "onam-2",
-        "oren",
-        "ozem-2",
-        "ram-2"
       ]
     },
     "timeline": {
@@ -20748,20 +20273,6 @@
         "azubah-2",
         "ephrath",
         "jerioth"
-      ],
-      "children": [
-        "achsah-2",
-        "gazez",
-        "haran-2",
-        "hur",
-        "jesher",
-        "mesha-2",
-        "moza",
-        "shaaph-2",
-        "sheber",
-        "sheva-2",
-        "shobab-2",
-        "tirhanah"
       ]
     },
     "timeline": {
@@ -20835,11 +20346,6 @@
     "genealogy": {
       "spouses": [
         "caleb-2"
-      ],
-      "children": [
-        "ardon",
-        "jesher",
-        "shobab-2"
       ]
     },
     "timeline": {
@@ -20950,10 +20456,7 @@
     "era": "Judges",
     "region": "moab-transjordan",
     "genealogy": {
-      "father": "hezron-2",
-      "children": [
-        "jair"
-      ]
+      "father": "hezron-2"
     },
     "timeline": {
       "precision": "era"
@@ -20974,9 +20477,6 @@
       "father": "machir",
       "spouses": [
         "hezron-2"
-      ],
-      "children": [
-        "ashhur"
       ]
     },
     "timeline": {
@@ -21000,16 +20500,6 @@
       "spouses": [
         "helah",
         "naarah"
-      ],
-      "children": [
-        "ahuzzam",
-        "ethnan",
-        "haahashtari",
-        "hepher-2",
-        "izhar-2",
-        "tekoa",
-        "temeni",
-        "zereth"
       ]
     },
     "timeline": {
@@ -21044,12 +20534,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jerahmeel",
-      "children": [
-        "eker",
-        "jamin-2",
-        "maaz"
-      ]
+      "father": "jerahmeel"
     },
     "timeline": {
       "precision": "era"
@@ -21139,9 +20624,6 @@
     "genealogy": {
       "spouses": [
         "jerahmeel"
-      ],
-      "children": [
-        "onam-2"
       ]
     },
     "timeline": {
@@ -21160,11 +20642,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "jerahmeel",
-      "mother": "atarah",
-      "children": [
-        "jada",
-        "shammai"
-      ]
+      "mother": "atarah"
     },
     "timeline": {
       "precision": "era"
@@ -21233,11 +20711,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "onam-2",
-      "children": [
-        "abishur",
-        "nadab-3"
-      ]
+      "father": "onam-2"
     },
     "timeline": {
       "precision": "era"
@@ -21255,11 +20729,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "onam-2",
-      "children": [
-        "jether-3",
-        "jonathan-6"
-      ]
+      "father": "onam-2"
     },
     "timeline": {
       "precision": "era"
@@ -21276,11 +20746,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "shammai",
-      "children": [
-        "appaim",
-        "seled"
-      ]
+      "father": "shammai"
     },
     "timeline": {
       "precision": "era"
@@ -21301,10 +20767,6 @@
       "father": "shammai",
       "spouses": [
         "abihail-2"
-      ],
-      "children": [
-        "ahban",
-        "molid"
       ]
     },
     "timeline": {
@@ -21324,10 +20786,6 @@
     "genealogy": {
       "spouses": [
         "abishur"
-      ],
-      "children": [
-        "ahban",
-        "molid"
       ]
     },
     "timeline": {
@@ -21395,10 +20853,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "nadab-3",
-      "children": [
-        "ishi"
-      ]
+      "father": "nadab-3"
     },
     "timeline": {
       "precision": "era"
@@ -21414,10 +20869,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "appaim",
-      "children": [
-        "sheshan"
-      ]
+      "father": "appaim"
     },
     "timeline": {
       "precision": "era"
@@ -21434,10 +20886,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "ishi",
-      "children": [
-        "ahlai"
-      ]
+      "father": "ishi"
     },
     "timeline": {
       "precision": "era"
@@ -21488,11 +20937,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "jada",
-      "children": [
-        "peleth-2",
-        "zaza"
-      ]
+      "father": "jada"
     },
     "timeline": {
       "precision": "era"
@@ -21561,10 +21006,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "jarha",
-      "children": [
-        "nathan-6"
-      ]
+      "father": "jarha"
     },
     "timeline": {
       "precision": "era"
@@ -21581,10 +21023,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "attai",
-      "children": [
-        "zabad"
-      ]
+      "father": "attai"
     },
     "timeline": {
       "precision": "era"
@@ -21601,10 +21040,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "nathan-6",
-      "children": [
-        "ephlal"
-      ]
+      "father": "nathan-6"
     },
     "timeline": {
       "precision": "era"
@@ -21621,10 +21057,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "zabad",
-      "children": [
-        "obed-2"
-      ]
+      "father": "zabad"
     },
     "timeline": {
       "precision": "era"
@@ -21640,10 +21073,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "ephlal",
-      "children": [
-        "jehu-3"
-      ]
+      "father": "ephlal"
     },
     "timeline": {
       "precision": "era"
@@ -21660,10 +21090,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "obed-2",
-      "children": [
-        "azariah-4"
-      ]
+      "father": "obed-2"
     },
     "timeline": {
       "precision": "era"
@@ -21680,10 +21107,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "jehu-3",
-      "children": [
-        "helez-2"
-      ]
+      "father": "jehu-3"
     },
     "timeline": {
       "precision": "era"
@@ -21700,10 +21124,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "azariah-4",
-      "children": [
-        "eleasah"
-      ]
+      "father": "azariah-4"
     },
     "timeline": {
       "precision": "era"
@@ -21720,10 +21141,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "helez-2",
-      "children": [
-        "sismai"
-      ]
+      "father": "helez-2"
     },
     "timeline": {
       "precision": "era"
@@ -21740,10 +21158,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "eleasah",
-      "children": [
-        "shallum-3"
-      ]
+      "father": "eleasah"
     },
     "timeline": {
       "precision": "era"
@@ -21759,10 +21174,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "sismai",
-      "children": [
-        "jekamiah"
-      ]
+      "father": "sismai"
     },
     "timeline": {
       "precision": "era"
@@ -21779,10 +21191,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shallum-3",
-      "children": [
-        "elishama-4"
-      ]
+      "father": "shallum-3"
     },
     "timeline": {
       "precision": "era"
@@ -21817,10 +21226,7 @@
     "era": "Exodus/Wilderness",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "caleb-2",
-      "children": [
-        "ziph"
-      ]
+      "father": "caleb-2"
     },
     "timeline": {
       "precision": "era"
@@ -21837,10 +21243,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "mesha-2",
-      "children": [
-        "mareshah"
-      ]
+      "father": "mesha-2"
     },
     "timeline": {
       "precision": "era"
@@ -21858,10 +21261,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "ziph",
-      "children": [
-        "hebron-2"
-      ]
+      "father": "ziph"
     },
     "timeline": {
       "precision": "era"
@@ -21879,10 +21279,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "mareshah",
-      "children": [
-        "korah-4"
-      ]
+      "father": "mareshah"
     },
     "timeline": {
       "precision": "era"
@@ -21899,12 +21296,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "hebron-2",
-      "children": [
-        "rekem-2",
-        "shema",
-        "tappuah"
-      ]
+      "father": "hebron-2"
     },
     "timeline": {
       "precision": "era"
@@ -21937,10 +21329,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "korah-4",
-      "children": [
-        "shammai-2"
-      ]
+      "father": "korah-4"
     },
     "timeline": {
       "precision": "era"
@@ -21957,10 +21346,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "korah-4",
-      "children": [
-        "raham"
-      ]
+      "father": "korah-4"
     },
     "timeline": {
       "precision": "era"
@@ -21977,10 +21363,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shema",
-      "children": [
-        "jorkeam"
-      ]
+      "father": "shema"
     },
     "timeline": {
       "precision": "era"
@@ -22012,10 +21395,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "rekem-2",
-      "children": [
-        "maon"
-      ]
+      "father": "rekem-2"
     },
     "timeline": {
       "precision": "era"
@@ -22032,10 +21412,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shammai-2",
-      "children": [
-        "bethzur"
-      ]
+      "father": "shammai-2"
     },
     "timeline": {
       "precision": "era"
@@ -22091,10 +21468,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "caleb-2",
-      "mother": "ephah-2",
-      "children": [
-        "gazez-2"
-      ]
+      "mother": "ephah-2"
     },
     "timeline": {
       "precision": "era"
@@ -22351,10 +21725,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "caleb-2",
-      "mother": "maacah-4",
-      "children": [
-        "madmannah"
-      ]
+      "mother": "maacah-4"
     },
     "timeline": {
       "precision": "era"
@@ -22390,11 +21761,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "caleb-2",
-      "mother": "maacah-4",
-      "children": [
-        "gibea",
-        "machbena"
-      ]
+      "mother": "maacah-4"
     },
     "timeline": {
       "precision": "era"
@@ -22463,11 +21830,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "hur",
-      "children": [
-        "haroeh",
-        "reaiah"
-      ]
+      "father": "hur"
     },
     "timeline": {
       "precision": "era"
@@ -22618,7 +21981,6 @@
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "son of Jehoiachin (1 Chr 3:17)",
     "first_reference": "1 Chronicles 3:17"
   },
   {
@@ -22647,11 +22009,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jehoiachin",
-      "children": [
-        "shimei-4",
-        "zerubbabel"
-      ]
+      "father": "jehoiachin"
     },
     "timeline": {
       "precision": "era"
@@ -22755,7 +22113,6 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "disambiguation": "(1 Chr 3:19)",
     "first_reference": "1 Chronicles 3:19"
   },
   {
@@ -22785,14 +22142,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zerubbabel",
-      "children": [
-        "berechiah",
-        "hasadiah",
-        "hashubah",
-        "jushab-hesed",
-        "ohel"
-      ]
+      "father": "zerubbabel"
     },
     "timeline": {
       "precision": "era"
@@ -22810,15 +22160,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zerubbabel",
-      "children": [
-        "arnan",
-        "jeshaiah",
-        "obadiah-2",
-        "pelatiah",
-        "rephaiah",
-        "shecaniah"
-      ]
+      "father": "zerubbabel"
     },
     "timeline": {
       "precision": "era"
@@ -23029,10 +22371,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "hananiah",
-      "children": [
-        "shemaiah-2"
-      ]
+      "father": "hananiah"
     },
     "timeline": {
       "precision": "era"
@@ -23049,14 +22388,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "shecaniah",
-      "children": [
-        "bariah",
-        "hattush",
-        "igal-3",
-        "neariah",
-        "shaphat-3"
-      ]
+      "father": "shecaniah"
     },
     "timeline": {
       "precision": "era"
@@ -23123,12 +22455,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "shemaiah-2",
-      "children": [
-        "azrikam",
-        "elioenai",
-        "hizkiah"
-      ]
+      "father": "shemaiah-2"
     },
     "timeline": {
       "precision": "era"
@@ -23162,16 +22489,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "neariah",
-      "children": [
-        "akkub",
-        "anani",
-        "delaiah",
-        "eliashib",
-        "hodaviah",
-        "johanan-2",
-        "pelaiah"
-      ]
+      "father": "neariah"
     },
     "timeline": {
       "precision": "era"
@@ -23339,10 +22657,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "shobal-2",
-      "children": [
-        "jahath"
-      ]
+      "father": "shobal-2"
     },
     "timeline": {
       "precision": "era"
@@ -23360,11 +22675,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "reaiah",
-      "children": [
-        "ahumai",
-        "lahad"
-      ]
+      "father": "reaiah"
     },
     "timeline": {
       "precision": "era"
@@ -23499,10 +22810,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "hur",
-      "children": [
-        "gedor"
-      ]
+      "father": "hur"
     },
     "timeline": {
       "precision": "era"
@@ -23538,10 +22846,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "hur",
-      "children": [
-        "hushah"
-      ]
+      "father": "hur"
     },
     "timeline": {
       "precision": "era"
@@ -23579,11 +22884,6 @@
     "genealogy": {
       "spouses": [
         "ashhur"
-      ],
-      "children": [
-        "ethnan",
-        "izhar-2",
-        "zereth"
       ]
     },
     "timeline": {
@@ -23603,12 +22903,6 @@
     "genealogy": {
       "spouses": [
         "ashhur"
-      ],
-      "children": [
-        "ahuzzam",
-        "haahashtari",
-        "hepher-2",
-        "temeni"
       ]
     },
     "timeline": {
@@ -23805,10 +23099,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "koz",
-      "children": [
-        "aharhel"
-      ]
+      "father": "koz"
     },
     "timeline": {
       "precision": "era"
@@ -23885,10 +23176,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "chelub",
-      "children": [
-        "eshton"
-      ]
+      "father": "chelub"
     },
     "timeline": {
       "precision": "era"
@@ -23904,12 +23192,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mehir",
-      "children": [
-        "beth-rapha",
-        "paseah",
-        "tehinnah"
-      ]
+      "father": "mehir"
     },
     "timeline": {
       "precision": "era"
@@ -23974,10 +23257,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "kenaz-2",
-      "children": [
-        "joab-2"
-      ]
+      "father": "kenaz-2"
     },
     "timeline": {
       "precision": "era"
@@ -24012,10 +23292,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "othniel",
-      "children": [
-        "ophrah"
-      ]
+      "father": "othniel"
     },
     "timeline": {
       "precision": "era"
@@ -24084,10 +23361,7 @@
     "testament": "OT",
     "era": "Exodus/Wilderness",
     "genealogy": {
-      "father": "caleb",
-      "children": [
-        "kenaz-3"
-      ]
+      "father": "caleb"
     },
     "timeline": {
       "precision": "era"
@@ -24268,14 +23542,6 @@
       "father": "ezrah",
       "spouses": [
         "bithia"
-      ],
-      "children": [
-        "heber-3",
-        "ishbah",
-        "jekuthiel",
-        "jered",
-        "miriam-2",
-        "shammai-3"
       ]
     },
     "timeline": {
@@ -24328,11 +23594,6 @@
       "father": "pharaoh-5",
       "spouses": [
         "mered"
-      ],
-      "children": [
-        "ishbah",
-        "miriam-2",
-        "shammai-3"
       ]
     },
     "timeline": {
@@ -24405,10 +23666,7 @@
     "era": "Divided Monarchy",
     "genealogy": {
       "father": "mered",
-      "mother": "bithia",
-      "children": [
-        "eshtemoa"
-      ]
+      "mother": "bithia"
     },
     "timeline": {
       "precision": "era"
@@ -24441,10 +23699,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "mered",
-      "children": [
-        "gedor-2"
-      ]
+      "father": "mered"
     },
     "timeline": {
       "precision": "era"
@@ -24477,10 +23732,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "mered",
-      "children": [
-        "soco"
-      ]
+      "father": "mered"
     },
     "timeline": {
       "precision": "era"
@@ -24513,10 +23765,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "mered",
-      "children": [
-        "zanoah"
-      ]
+      "father": "mered"
     },
     "timeline": {
       "precision": "era"
@@ -24745,10 +23994,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "shelah-2",
-      "children": [
-        "lecah"
-      ]
+      "father": "shelah-2"
     },
     "timeline": {
       "precision": "era"
@@ -24783,10 +24029,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "shelah-2",
-      "children": [
-        "mareshah-2"
-      ]
+      "father": "shelah-2"
     },
     "timeline": {
       "precision": "era"
@@ -24890,10 +24133,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "shaul-2",
-      "children": [
-        "mibsam-2"
-      ]
+      "father": "shaul-2"
     },
     "timeline": {
       "precision": "era"
@@ -24911,10 +24151,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "shallum-5",
-      "children": [
-        "mishma-2"
-      ]
+      "father": "shallum-5"
     },
     "timeline": {
       "precision": "era"
@@ -24932,10 +24169,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "mibsam-2",
-      "children": [
-        "hammuel"
-      ]
+      "father": "mibsam-2"
     },
     "timeline": {
       "precision": "era"
@@ -24952,10 +24186,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "mishma-2",
-      "children": [
-        "zaccur-2"
-      ]
+      "father": "mishma-2"
     },
     "timeline": {
       "precision": "era"
@@ -24972,10 +24203,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "hammuel",
-      "children": [
-        "shimei-5"
-      ]
+      "father": "hammuel"
     },
     "timeline": {
       "precision": "era"
@@ -25101,10 +24329,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "seraiah-5",
-      "children": [
-        "jehu-4"
-      ]
+      "father": "seraiah-5"
     },
     "timeline": {
       "precision": "era"
@@ -25120,10 +24345,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "asiel",
-      "children": [
-        "joshibiah"
-      ]
+      "father": "asiel"
     },
     "timeline": {
       "precision": "era"
@@ -25270,10 +24492,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "allon",
-      "children": [
-        "ziza"
-      ]
+      "father": "allon"
     },
     "timeline": {
       "precision": "era"
@@ -25289,10 +24508,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "jedaiah",
-      "children": [
-        "shiphi"
-      ]
+      "father": "jedaiah"
     },
     "timeline": {
       "precision": "era"
@@ -25308,10 +24524,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shimri",
-      "children": [
-        "allon"
-      ]
+      "father": "shimri"
     },
     "timeline": {
       "precision": "era"
@@ -25328,10 +24541,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shemaiah-3",
-      "children": [
-        "jedaiah"
-      ]
+      "father": "shemaiah-3"
     },
     "timeline": {
       "precision": "era"
@@ -25455,10 +24665,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "joel-3",
-      "children": [
-        "gog"
-      ]
+      "father": "joel-3"
     },
     "timeline": {
       "precision": "era"
@@ -25475,10 +24682,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shemaiah-4",
-      "children": [
-        "shimei-6"
-      ]
+      "father": "shemaiah-4"
     },
     "timeline": {
       "precision": "era"
@@ -25495,10 +24699,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "gog",
-      "children": [
-        "micah-3"
-      ]
+      "father": "gog"
     },
     "timeline": {
       "precision": "era"
@@ -25515,10 +24716,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shimei-6",
-      "children": [
-        "reaiah-2"
-      ]
+      "father": "shimei-6"
     },
     "timeline": {
       "precision": "era"
@@ -25535,10 +24733,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "micah-3",
-      "children": [
-        "baal"
-      ]
+      "father": "micah-3"
     },
     "timeline": {
       "precision": "era"
@@ -25555,10 +24750,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "reaiah-2",
-      "children": [
-        "beerah"
-      ]
+      "father": "reaiah-2"
     },
     "timeline": {
       "precision": "era"
@@ -25608,10 +24800,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "bela-3",
-      "children": [
-        "jeiel"
-      ]
+      "father": "bela-3"
     },
     "timeline": {
       "precision": "era"
@@ -25628,10 +24817,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "azaz",
-      "children": [
-        "zechariah-3"
-      ]
+      "father": "azaz"
     },
     "timeline": {
       "precision": "era"
@@ -25648,10 +24834,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shema-2",
-      "children": [
-        "bela-3"
-      ]
+      "father": "shema-2"
     },
     "timeline": {
       "precision": "era"
@@ -25667,10 +24850,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "joel-3",
-      "children": [
-        "azaz"
-      ]
+      "father": "joel-3"
     },
     "timeline": {
       "precision": "era"
@@ -25741,10 +24921,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "jeshishai",
-      "children": [
-        "gilead-3"
-      ]
+      "father": "jeshishai"
     },
     "timeline": {
       "precision": "era"
@@ -25861,10 +25038,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "jaroah",
-      "children": [
-        "abihail-3"
-      ]
+      "father": "jaroah"
     },
     "timeline": {
       "precision": "era"
@@ -25881,10 +25055,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "gilead-3",
-      "children": [
-        "huri"
-      ]
+      "father": "gilead-3"
     },
     "timeline": {
       "precision": "era"
@@ -25901,10 +25072,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "michael-2",
-      "children": [
-        "jaroah"
-      ]
+      "father": "michael-2"
     },
     "timeline": {
       "precision": "era"
@@ -25922,10 +25090,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "jahdo",
-      "children": [
-        "michael-2"
-      ]
+      "father": "jahdo"
     },
     "timeline": {
       "precision": "era"
@@ -25942,10 +25107,7 @@
     "testament": "OT",
     "era": "Judges",
     "genealogy": {
-      "father": "buz-2",
-      "children": [
-        "jeshishai"
-      ]
+      "father": "buz-2"
     },
     "timeline": {
       "precision": "era"
@@ -25999,10 +25161,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "guni-2",
-      "children": [
-        "ahi"
-      ]
+      "father": "guni-2"
     },
     "timeline": {
       "precision": "era"
@@ -26135,10 +25294,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "phinehas",
-      "children": [
-        "bukki-2"
-      ]
+      "father": "phinehas"
     },
     "timeline": {
       "precision": "era"
@@ -26156,10 +25312,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "abishua",
-      "children": [
-        "uzzi"
-      ]
+      "father": "abishua"
     },
     "timeline": {
       "precision": "era"
@@ -26177,10 +25330,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "bukki-2",
-      "children": [
-        "zerahiah"
-      ]
+      "father": "bukki-2"
     },
     "timeline": {
       "precision": "era"
@@ -26198,10 +25348,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "uzzi",
-      "children": [
-        "meraioth"
-      ]
+      "father": "uzzi"
     },
     "timeline": {
       "precision": "era"
@@ -26219,10 +25366,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zerahiah",
-      "children": [
-        "amariah"
-      ]
+      "father": "zerahiah"
     },
     "timeline": {
       "precision": "era"
@@ -26240,10 +25384,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "meraioth",
-      "children": [
-        "ahitub-2"
-      ]
+      "father": "meraioth"
     },
     "timeline": {
       "precision": "era"
@@ -26261,10 +25402,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ahimaaz-2",
-      "children": [
-        "johanan-3"
-      ]
+      "father": "ahimaaz-2"
     },
     "timeline": {
       "precision": "era"
@@ -26282,10 +25420,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "azariah-5",
-      "children": [
-        "azariah"
-      ]
+      "father": "azariah-5"
     },
     "timeline": {
       "precision": "era"
@@ -26330,10 +25465,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "amariah-2",
-      "children": [
-        "meraioth-2"
-      ]
+      "father": "amariah-2"
     },
     "timeline": {
       "precision": "era"
@@ -26350,10 +25482,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meraioth-2",
-      "children": [
-        "shallum-6"
-      ]
+      "father": "meraioth-2"
     },
     "timeline": {
       "precision": "era"
@@ -26372,10 +25501,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "zadok-3",
-      "children": [
-        "hilkiah-3"
-      ]
+      "father": "zadok-3"
     },
     "timeline": {
       "precision": "era"
@@ -26392,12 +25518,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shallum-6",
-      "children": [
-        "azariah-6",
-        "gemariah",
-        "hashabiah-8"
-      ]
+      "father": "shallum-6"
     },
     "timeline": {
       "precision": "era"
@@ -26414,10 +25535,7 @@
     "testament": "OT",
     "era": "Exile",
     "genealogy": {
-      "father": "hilkiah-3",
-      "children": [
-        "seraiah-2"
-      ]
+      "father": "hilkiah-3"
     },
     "timeline": {
       "precision": "era"
@@ -26454,10 +25572,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "libni",
-      "children": [
-        "zimmah"
-      ]
+      "father": "libni"
     },
     "timeline": {
       "precision": "era"
@@ -26475,10 +25590,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jahath-2",
-      "children": [
-        "joah-2"
-      ]
+      "father": "jahath-2"
     },
     "timeline": {
       "precision": "era"
@@ -26522,10 +25634,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "joah-2",
-      "children": [
-        "zerah-4"
-      ]
+      "father": "joah-2"
     },
     "timeline": {
       "precision": "era"
@@ -26542,10 +25651,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "iddo-2",
-      "children": [
-        "jeatherai"
-      ]
+      "father": "iddo-2"
     },
     "timeline": {
       "precision": "era"
@@ -26579,12 +25685,7 @@
     "era": "United Monarchy",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "assir",
-      "children": [
-        "ahimoth",
-        "amasai",
-        "ebiasaph-2"
-      ]
+      "father": "assir"
     },
     "timeline": {
       "precision": "era"
@@ -26601,10 +25702,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "elkanah-3",
-      "children": [
-        "assir-2"
-      ]
+      "father": "elkanah-3"
     },
     "timeline": {
       "precision": "era"
@@ -26622,10 +25720,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "ebiasaph-2",
-      "children": [
-        "tahath"
-      ]
+      "father": "ebiasaph-2"
     },
     "timeline": {
       "precision": "era"
@@ -26643,10 +25738,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "assir-2",
-      "children": [
-        "uriel"
-      ]
+      "father": "assir-2"
     },
     "timeline": {
       "precision": "era"
@@ -26665,10 +25757,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "tahath",
-      "children": [
-        "uzziah-2"
-      ]
+      "father": "tahath"
     },
     "timeline": {
       "precision": "era"
@@ -26686,11 +25775,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "uriel",
-      "children": [
-        "jonathan-7",
-        "shaul-3"
-      ]
+      "father": "uriel"
     },
     "timeline": {
       "precision": "era"
@@ -26809,10 +25894,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mahli",
-      "children": [
-        "shimei-7"
-      ]
+      "father": "mahli"
     },
     "timeline": {
       "precision": "era"
@@ -26830,10 +25912,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "libni-2",
-      "children": [
-        "uzzah-2"
-      ]
+      "father": "libni-2"
     },
     "timeline": {
       "precision": "era"
@@ -26850,10 +25929,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "shimei-7",
-      "children": [
-        "shimea"
-      ]
+      "father": "shimei-7"
     },
     "timeline": {
       "precision": "era"
@@ -26871,10 +25947,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "uzzah-2",
-      "children": [
-        "haggiah"
-      ]
+      "father": "uzzah-2"
     },
     "timeline": {
       "precision": "era"
@@ -26892,10 +25965,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shimea",
-      "children": [
-        "asaiah-3"
-      ]
+      "father": "shimea"
     },
     "timeline": {
       "precision": "era"
@@ -26968,10 +26038,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "amasai",
-      "children": [
-        "elkanah-4"
-      ]
+      "father": "amasai"
     },
     "timeline": {
       "precision": "era"
@@ -27018,10 +26085,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "shimea-2",
-      "children": [
-        "asaph-2"
-      ]
+      "father": "shimea-2"
     },
     "timeline": {
       "precision": "era"
@@ -27039,10 +26103,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "michael-3",
-      "children": [
-        "berechiah-2"
-      ]
+      "father": "michael-3"
     },
     "timeline": {
       "precision": "era"
@@ -27060,10 +26121,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "baaseiah",
-      "children": [
-        "shimea-2"
-      ]
+      "father": "baaseiah"
     },
     "timeline": {
       "precision": "era"
@@ -27081,10 +26139,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "malchijah",
-      "children": [
-        "michael-3"
-      ]
+      "father": "malchijah"
     },
     "timeline": {
       "precision": "era"
@@ -27101,10 +26156,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "ethni",
-      "children": [
-        "baaseiah"
-      ]
+      "father": "ethni"
     },
     "timeline": {
       "precision": "era"
@@ -27122,10 +26174,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "zerah-5",
-      "children": [
-        "malchijah"
-      ]
+      "father": "zerah-5"
     },
     "timeline": {
       "precision": "era"
@@ -27142,10 +26191,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "adaiah-2",
-      "children": [
-        "ethni"
-      ]
+      "father": "adaiah-2"
     },
     "timeline": {
       "precision": "era"
@@ -27162,10 +26208,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "ethan-2",
-      "children": [
-        "zerah-5"
-      ]
+      "father": "ethan-2"
     },
     "timeline": {
       "precision": "era"
@@ -27183,10 +26226,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "zimmah-2",
-      "children": [
-        "adaiah-2"
-      ]
+      "father": "zimmah-2"
     },
     "timeline": {
       "precision": "era"
@@ -27205,10 +26245,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "shimei-8",
-      "children": [
-        "ethan-2"
-      ]
+      "father": "shimei-8"
     },
     "timeline": {
       "precision": "era"
@@ -27226,10 +26263,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jahath-3",
-      "children": [
-        "zimmah-2"
-      ]
+      "father": "jahath-3"
     },
     "timeline": {
       "precision": "era"
@@ -27247,10 +26281,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "gershon",
-      "children": [
-        "shimei-8"
-      ]
+      "father": "gershon"
     },
     "timeline": {
       "precision": "era"
@@ -27293,10 +26324,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "abdi",
-      "children": [
-        "ethan-3"
-      ]
+      "father": "abdi"
     },
     "timeline": {
       "precision": "era"
@@ -27312,10 +26340,7 @@
     "testament": "OT",
     "era": "United Monarchy",
     "genealogy": {
-      "father": "malluch",
-      "children": [
-        "kishi"
-      ]
+      "father": "malluch"
     },
     "timeline": {
       "precision": "era"
@@ -27332,10 +26357,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "hashabiah",
-      "children": [
-        "abdi"
-      ]
+      "father": "hashabiah"
     },
     "timeline": {
       "precision": "era"
@@ -27352,10 +26374,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "amaziah-3",
-      "children": [
-        "malluch"
-      ]
+      "father": "amaziah-3"
     },
     "timeline": {
       "precision": "era"
@@ -27398,10 +26417,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "amzi",
-      "children": [
-        "amaziah-3"
-      ]
+      "father": "amzi"
     },
     "timeline": {
       "precision": "era"
@@ -27418,10 +26434,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "bani-2",
-      "children": [
-        "hilkiah-4"
-      ]
+      "father": "bani-2"
     },
     "timeline": {
       "precision": "era"
@@ -27438,10 +26451,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shemer-2",
-      "children": [
-        "amzi"
-      ]
+      "father": "shemer-2"
     },
     "timeline": {
       "precision": "era"
@@ -27460,10 +26470,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mahli-2",
-      "children": [
-        "bani-2"
-      ]
+      "father": "mahli-2"
     },
     "timeline": {
       "precision": "era"
@@ -27481,10 +26488,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mushi",
-      "children": [
-        "shemer-2"
-      ]
+      "father": "mushi"
     },
     "timeline": {
       "precision": "era"
@@ -27502,10 +26506,7 @@
     "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "tola",
-      "children": [
-        "izrahiah"
-      ]
+      "father": "tola"
     },
     "timeline": {
       "precision": "era"
@@ -27610,13 +26611,7 @@
     "era": "Judges",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "uzzi-2",
-      "children": [
-        "isshiah",
-        "joel-5",
-        "michael-4",
-        "obadiah-3"
-      ]
+      "father": "uzzi-2"
     },
     "timeline": {
       "precision": "era"
@@ -27633,10 +26628,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "izrahiah",
-      "children": [
-        "omri-4"
-      ]
+      "father": "izrahiah"
     },
     "timeline": {
       "precision": "era"
@@ -27782,11 +26774,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "bela-2",
-      "children": [
-        "huppim",
-        "shuppim"
-      ]
+      "father": "bela-2"
     },
     "timeline": {
       "precision": "era"
@@ -27964,16 +26952,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "ashbel",
-      "children": [
-        "ahishahar",
-        "benjamin-2",
-        "chenaanah-2",
-        "ehud-2",
-        "jeush-2",
-        "tarshish-2",
-        "zethan"
-      ]
+      "father": "ashbel"
     },
     "timeline": {
       "precision": "era"
@@ -28027,12 +27006,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "bilhan-2",
-      "children": [
-        "ahijah-5",
-        "gera-4",
-        "naaman-3"
-      ]
+      "father": "bilhan-2"
     },
     "timeline": {
       "precision": "era"
@@ -28196,11 +27170,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "machir",
-      "children": [
-        "rakem",
-        "ulam"
-      ]
+      "father": "machir"
     },
     "timeline": {
       "precision": "era"
@@ -28234,10 +27204,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "peresh",
-      "children": [
-        "bedan"
-      ]
+      "father": "peresh"
     },
     "timeline": {
       "precision": "era"
@@ -28423,10 +27390,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ephraim",
-      "children": [
-        "eleadah"
-      ]
+      "father": "ephraim"
     },
     "timeline": {
       "precision": "era"
@@ -28444,10 +27408,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "tahath-2",
-      "children": [
-        "tahath-3"
-      ]
+      "father": "tahath-2"
     },
     "timeline": {
       "precision": "era"
@@ -28482,10 +27443,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ephraim",
-      "children": [
-        "shuthelah-2"
-      ]
+      "father": "ephraim"
     },
     "timeline": {
       "precision": "era"
@@ -28676,12 +27634,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "heber",
-      "children": [
-        "ashvath",
-        "bimhal",
-        "pasach"
-      ]
+      "father": "heber"
     },
     "timeline": {
       "precision": "era"
@@ -28700,13 +27653,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "heber",
-      "children": [
-        "ahi-2",
-        "aram-3",
-        "jehubbah",
-        "rohgah"
-      ]
+      "father": "heber"
     },
     "timeline": {
       "precision": "era"
@@ -28726,13 +27673,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "heber",
-      "children": [
-        "amal",
-        "imna",
-        "shelesh",
-        "zophah"
-      ]
+      "father": "heber"
     },
     "timeline": {
       "precision": "era"
@@ -28889,20 +27830,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "hotham",
-      "children": [
-        "beera",
-        "beri",
-        "bezer",
-        "harnepher",
-        "hod",
-        "imrah",
-        "ithran-2",
-        "shamma",
-        "shilshah",
-        "shual",
-        "suah"
-      ]
+      "father": "hotham"
     },
     "timeline": {
       "precision": "era"
@@ -29124,12 +28052,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "zophah",
-      "children": [
-        "ara",
-        "jephunneh-2",
-        "pispa"
-      ]
+      "father": "zophah"
     },
     "timeline": {
       "precision": "era"
@@ -29166,12 +28089,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "ithran-2",
-      "children": [
-        "arah",
-        "hanniel-2",
-        "rizia"
-      ]
+      "father": "ithran-2"
     },
     "timeline": {
       "precision": "era"
@@ -29380,12 +28298,7 @@
     "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
-      "father": "ehud-2",
-      "children": [
-        "ahihud-2",
-        "shaharaim",
-        "uzzah-3"
-      ]
+      "father": "ehud-2"
     },
     "timeline": {
       "precision": "era"
@@ -29443,17 +28356,6 @@
         "baara",
         "hodesh",
         "hushim-3"
-      ],
-      "children": [
-        "abitub",
-        "elpaal",
-        "jeuz",
-        "jobab-4",
-        "malcam",
-        "mesha-3",
-        "mirmah",
-        "sachia",
-        "zibia"
       ]
     },
     "timeline": {
@@ -29473,10 +28375,6 @@
     "genealogy": {
       "spouses": [
         "shaharaim"
-      ],
-      "children": [
-        "abitub",
-        "elpaal"
       ]
     },
     "timeline": {
@@ -29514,15 +28412,6 @@
     "genealogy": {
       "spouses": [
         "shaharaim"
-      ],
-      "children": [
-        "jeuz",
-        "jobab-4",
-        "malcam",
-        "mesha-3",
-        "mirmah",
-        "sachia",
-        "zibia"
       ]
     },
     "timeline": {
@@ -29676,24 +28565,7 @@
     "testament": "OT",
     "era": "Patriarchal",
     "genealogy": {
-      "father": "shaharaim",
-      "children": [
-        "ahio-2",
-        "beriah-3",
-        "eber-3",
-        "heber-4",
-        "hizki",
-        "ishmerai",
-        "izliah",
-        "jeremoth-2",
-        "jobab-5",
-        "meshullam-4",
-        "misham",
-        "shashak",
-        "shema-3",
-        "shemed",
-        "zebadiah-2"
-      ]
+      "father": "shaharaim"
     },
     "timeline": {
       "precision": "era"
@@ -29758,15 +28630,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "elpaal",
-      "children": [
-        "arad",
-        "eder",
-        "ishpah",
-        "joha",
-        "michael-5",
-        "zebadiah"
-      ]
+      "father": "elpaal"
     },
     "timeline": {
       "precision": "era"
@@ -29785,18 +28649,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "elpaal",
-      "children": [
-        "adaiah-3",
-        "beraiah",
-        "eliel-2",
-        "elienai",
-        "jakim",
-        "shimrath",
-        "zabdi-2",
-        "zichri-2",
-        "zillethai"
-      ]
+      "father": "elpaal"
     },
     "timeline": {
       "precision": "era"
@@ -29830,20 +28683,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "elpaal",
-      "children": [
-        "abdon-2",
-        "anthothijah",
-        "eber-4",
-        "elam-2",
-        "eliel-3",
-        "hanan",
-        "hananiah-2",
-        "iphdeiah",
-        "ishpan",
-        "penuel-2",
-        "zichri-3"
-      ]
+      "father": "elpaal"
     },
     "timeline": {
       "precision": "era"
@@ -29861,15 +28701,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "elpaal",
-      "children": [
-        "athaliah-2",
-        "elijah-2",
-        "jaareshiah",
-        "shamsherai",
-        "shehariah",
-        "zichri-4"
-      ]
+      "father": "elpaal"
     },
     "timeline": {
       "precision": "era"
@@ -30691,10 +29523,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jeiel-2",
-      "children": [
-        "shimeah-2"
-      ]
+      "father": "jeiel-2"
     },
     "timeline": {
       "precision": "era"
@@ -30784,10 +29613,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "micah-2",
-      "children": [
-        "jehoaddah"
-      ]
+      "father": "micah-2"
     },
     "timeline": {
       "precision": "era"
@@ -30807,12 +29633,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "ahaz-2",
-      "children": [
-        "alemeth-2",
-        "azmaveth-2",
-        "zimri-3"
-      ]
+      "father": "ahaz-2"
     },
     "timeline": {
       "precision": "era"
@@ -30847,11 +29668,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jehoaddah",
-      "children": [
-        "jeziel",
-        "pelet-2"
-      ]
+      "father": "jehoaddah"
     },
     "timeline": {
       "precision": "era"
@@ -30869,10 +29686,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "jehoaddah",
-      "children": [
-        "moza-2"
-      ]
+      "father": "jehoaddah"
     },
     "timeline": {
       "precision": "era"
@@ -30890,10 +29704,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zimri-3",
-      "children": [
-        "binea"
-      ]
+      "father": "zimri-3"
     },
     "timeline": {
       "precision": "era"
@@ -30910,10 +29721,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "moza-2",
-      "children": [
-        "raphah-2"
-      ]
+      "father": "moza-2"
     },
     "timeline": {
       "precision": "era"
@@ -30931,10 +29739,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "binea",
-      "children": [
-        "eleasah-2"
-      ]
+      "father": "binea"
     },
     "timeline": {
       "precision": "era"
@@ -30951,10 +29756,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "raphah-2",
-      "children": [
-        "azel"
-      ]
+      "father": "raphah-2"
     },
     "timeline": {
       "precision": "era"
@@ -30971,15 +29773,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "eleasah-2",
-      "children": [
-        "azrikam-2",
-        "bocheru",
-        "hanan-2",
-        "ishmael-3",
-        "obadiah-4",
-        "sheariah"
-      ]
+      "father": "eleasah-2"
     },
     "timeline": {
       "precision": "era"
@@ -31183,10 +29977,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "omri-3",
-      "children": [
-        "uthai"
-      ]
+      "father": "omri-3"
     },
     "timeline": {
       "precision": "era"
@@ -31203,10 +29994,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "imri",
-      "children": [
-        "ammihud-5"
-      ]
+      "father": "imri"
     },
     "timeline": {
       "precision": "era"
@@ -31223,10 +30011,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "bani-3",
-      "children": [
-        "omri-3"
-      ]
+      "father": "bani-3"
     },
     "timeline": {
       "precision": "era"
@@ -31307,10 +30092,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hodaviah-3",
-      "children": [
-        "sallu"
-      ]
+      "father": "hodaviah-3"
     },
     "timeline": {
       "precision": "era"
@@ -31326,10 +30108,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hassenuah",
-      "children": [
-        "meshuallam"
-      ]
+      "father": "hassenuah"
     },
     "timeline": {
       "precision": "era"
@@ -31417,10 +30196,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "michri",
-      "children": [
-        "elah-5"
-      ]
+      "father": "michri"
     },
     "timeline": {
       "precision": "era"
@@ -31472,10 +30248,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "reuel-2",
-      "children": [
-        "meshullam-5"
-      ]
+      "father": "reuel-2"
     },
     "timeline": {
       "precision": "era"
@@ -31492,10 +30265,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ibnijah",
-      "children": [
-        "shephatiah-2"
-      ]
+      "father": "ibnijah"
     },
     "timeline": {
       "precision": "era"
@@ -31577,10 +30347,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ahitub-3",
-      "children": [
-        "zadok-3"
-      ]
+      "father": "ahitub-3"
     },
     "timeline": {
       "precision": "era"
@@ -31614,10 +30381,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "pashhur",
-      "children": [
-        "adaiah-4"
-      ]
+      "father": "pashhur"
     },
     "timeline": {
       "precision": "era"
@@ -31634,11 +30398,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "malchijah-2",
-      "children": [
-        "jeroham-3",
-        "zechariah-21"
-      ]
+      "father": "malchijah-2"
     },
     "timeline": {
       "precision": "era"
@@ -31690,11 +30450,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jahzerah",
-      "children": [
-        "azmaveth-3",
-        "maasai"
-      ]
+      "father": "jahzerah"
     },
     "timeline": {
       "precision": "era"
@@ -31711,10 +30467,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meshullam-6",
-      "children": [
-        "adiel-2"
-      ]
+      "father": "meshullam-6"
     },
     "timeline": {
       "precision": "era"
@@ -31730,10 +30483,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meshillemith",
-      "children": [
-        "jahzerah"
-      ]
+      "father": "meshillemith"
     },
     "timeline": {
       "precision": "era"
@@ -31752,10 +30502,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "immer",
-      "children": [
-        "meshullam-6"
-      ]
+      "father": "immer"
     },
     "timeline": {
       "precision": "era"
@@ -31807,10 +30554,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "azrikam-3",
-      "children": [
-        "shemaiah-5"
-      ]
+      "father": "azrikam-3"
     },
     "timeline": {
       "precision": "era"
@@ -31827,10 +30571,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hashabiah-2",
-      "children": [
-        "hasshub"
-      ]
+      "father": "hashabiah-2"
     },
     "timeline": {
       "precision": "era"
@@ -31873,10 +30614,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jeduthun",
-      "children": [
-        "shemaiah-6"
-      ]
+      "father": "jeduthun"
     },
     "timeline": {
       "precision": "era"
@@ -31892,11 +30630,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mica",
-      "children": [
-        "hashabiah-7",
-        "jeiel-5"
-      ]
+      "father": "mica"
     },
     "timeline": {
       "precision": "era"
@@ -31913,10 +30647,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zichri-5",
-      "children": [
-        "mattaniah"
-      ]
+      "father": "zichri-5"
     },
     "timeline": {
       "precision": "era"
@@ -31934,10 +30665,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "asaph-3",
-      "children": [
-        "mica"
-      ]
+      "father": "asaph-3"
     },
     "timeline": {
       "precision": "era"
@@ -31999,10 +30727,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "galal",
-      "children": [
-        "obadiah-5"
-      ]
+      "father": "galal"
     },
     "timeline": {
       "precision": "era"
@@ -32066,10 +30791,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "elkanah-6",
-      "children": [
-        "berechiah-3"
-      ]
+      "father": "elkanah-6"
     },
     "timeline": {
       "precision": "era"
@@ -32109,18 +30831,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "kore",
-      "children": [
-        "elam-3",
-        "eliehoenai",
-        "jathniel",
-        "jediael-3",
-        "johanan-6",
-        "maaseiah",
-        "mattithiah",
-        "zebadiah-4",
-        "zechariah-4"
-      ]
+      "father": "kore"
     },
     "timeline": {
       "precision": "era"
@@ -32179,10 +30890,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "ebiasaph",
-      "children": [
-        "shallum-7"
-      ]
+      "father": "ebiasaph"
     },
     "timeline": {
       "precision": "era"
@@ -32235,17 +30943,6 @@
     "genealogy": {
       "spouses": [
         "maacah-6"
-      ],
-      "children": [
-        "abdon-3",
-        "ahio-3",
-        "baal-2",
-        "gedor-3",
-        "kish-2",
-        "mikloth",
-        "nadab-4",
-        "zecher",
-        "zur-3"
       ]
     },
     "timeline": {
@@ -33434,11 +32131,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "libni",
-      "children": [
-        "joel-6",
-        "zetham"
-      ]
+      "father": "libni"
     },
     "timeline": {
       "precision": "era"
@@ -34536,10 +33229,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "rehabiah",
-      "children": [
-        "joram-3"
-      ]
+      "father": "rehabiah"
     },
     "timeline": {
       "precision": "era"
@@ -34723,10 +33413,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "asaph-2",
-      "children": [
-        "micaiah-4"
-      ]
+      "father": "asaph-2"
     },
     "timeline": {
       "precision": "era"
@@ -34864,10 +33551,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jeduthun",
-      "children": [
-        "azrikam-3"
-      ]
+      "father": "jeduthun"
     },
     "timeline": {
       "precision": "era"
@@ -35246,15 +33930,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "obed-edom-2",
-      "children": [
-        "elihu-3",
-        "elzabad-2",
-        "obed-4",
-        "othni",
-        "rephael",
-        "semachiah"
-      ]
+      "father": "obed-edom-2"
     },
     "timeline": {
       "precision": "era"
@@ -35568,11 +34244,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "isshiah-4",
-      "children": [
-        "shelomoth-2",
-        "zichri-6"
-      ]
+      "father": "isshiah-4"
     },
     "timeline": {
       "precision": "era"
@@ -36370,11 +35042,6 @@
       "mother": "abihail-4",
       "spouses": [
         "rehoboam"
-      ],
-      "children": [
-        "jeush-5",
-        "shemariah-2",
-        "zaham"
       ]
     },
     "timeline": {
@@ -36393,10 +35060,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "david",
-      "children": [
-        "mahalath"
-      ]
+      "father": "david"
     },
     "timeline": {
       "precision": "era"
@@ -36414,10 +35078,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "eliab-3",
-      "children": [
-        "mahalath"
-      ]
+      "father": "eliab-3"
     },
     "timeline": {
       "precision": "era"
@@ -36990,10 +35651,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "benaiah-5",
-      "children": [
-        "jahaziel-3"
-      ]
+      "father": "benaiah-5"
     },
     "timeline": {
       "precision": "era"
@@ -37010,10 +35668,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "jeiel-5",
-      "children": [
-        "zechariah-10"
-      ]
+      "father": "jeiel-5"
     },
     "timeline": {
       "precision": "era"
@@ -37030,10 +35685,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mattaniah",
-      "children": [
-        "benaiah-5"
-      ]
+      "father": "mattaniah"
     },
     "timeline": {
       "precision": "era"
@@ -37877,10 +36529,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "micaiah-4",
-      "children": [
-        "shemaiah-14"
-      ]
+      "father": "micaiah-4"
     },
     "timeline": {
       "precision": "era"
@@ -38444,26 +37093,6 @@
     "first_reference": "Ezra 1:8-11"
   },
   {
-    "person_id": "zerubbabel-2",
-    "name": "Zerubbabel",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
-    "genealogy": {
-      "father": "shealtiel-2",
-      "children": [
-        "abihud-2"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Ezra 2:2)",
-    "first_reference": "Ezra 2:2"
-  },
-  {
     "person_id": "jeshua-3",
     "name": "Jeshua",
     "alt_names": [],
@@ -38471,10 +37100,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jozadak",
-      "children": [
-        "joiakim-2"
-      ]
+      "father": "jozadak"
     },
     "timeline": {
       "precision": "era"
@@ -39815,25 +38441,6 @@
     }
   },
   {
-    "person_id": "shealtiel-2",
-    "name": "Shealtiel",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "father of Zerubbabel (Ezra 3:2-8)",
-    "first_reference": "Ezra 3:2-8",
-    "genealogy": {
-      "children": [
-        "zerubbabel-2"
-      ]
-    }
-  },
-  {
     "person_id": "darius",
     "name": "Darius",
     "alt_names": [],
@@ -40537,10 +39144,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mattaniah-3",
-      "children": [
-        "jonathan-12"
-      ]
+      "father": "mattaniah-3"
     },
     "timeline": {
       "precision": "era"
@@ -40749,10 +39353,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hakkoz-2",
-      "children": [
-        "meremoth"
-      ]
+      "father": "hakkoz-2"
     },
     "timeline": {
       "precision": "era"
@@ -40866,10 +39467,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "elam-4",
-      "children": [
-        "shecaniah-5"
-      ]
+      "father": "elam-4"
     },
     "timeline": {
       "precision": "era"
@@ -42763,10 +41361,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meshezabel",
-      "children": [
-        "meshullam-11"
-      ]
+      "father": "meshezabel"
     },
     "timeline": {
       "precision": "era"
@@ -43243,11 +41838,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hazaiah",
-      "children": [
-        "baruch-3",
-        "shallum-12"
-      ]
+      "father": "hazaiah"
     },
     "timeline": {
       "precision": "era"
@@ -43507,10 +42098,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ananiah",
-      "children": [
-        "azariah-15"
-      ]
+      "father": "ananiah"
     },
     "timeline": {
       "precision": "era"
@@ -43831,10 +42419,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mehetabel-2",
-      "children": [
-        "shemaiah-18"
-      ]
+      "father": "mehetabel-2"
     },
     "timeline": {
       "precision": "era"
@@ -43890,10 +42475,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "arah-3",
-      "children": [
-        "jehohanan-3"
-      ]
+      "father": "arah-3"
     },
     "timeline": {
       "precision": "era"
@@ -44662,10 +43244,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mattaniah-9",
-      "children": [
-        "hanan-7"
-      ]
+      "father": "mattaniah-9"
     },
     "timeline": {
       "precision": "era"
@@ -44997,10 +43576,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zechariah-19",
-      "children": [
-        "athaiah"
-      ]
+      "father": "zechariah-19"
     },
     "timeline": {
       "precision": "era"
@@ -45017,10 +43593,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "amariah-7",
-      "children": [
-        "uzziah-4"
-      ]
+      "father": "amariah-7"
     },
     "timeline": {
       "precision": "era"
@@ -45037,10 +43610,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "shephatiah-7",
-      "children": [
-        "zechariah-19"
-      ]
+      "father": "shephatiah-7"
     },
     "timeline": {
       "precision": "era"
@@ -45057,10 +43627,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mahalalel-2",
-      "children": [
-        "amariah-7"
-      ]
+      "father": "mahalalel-2"
     },
     "timeline": {
       "precision": "era"
@@ -45113,10 +43680,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "col-hozeh",
-      "children": [
-        "maaseiah-11"
-      ]
+      "father": "col-hozeh"
     },
     "timeline": {
       "precision": "era"
@@ -45133,10 +43697,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "adaiah-8",
-      "children": [
-        "col-hozeh"
-      ]
+      "father": "adaiah-8"
     },
     "timeline": {
       "precision": "era"
@@ -45152,10 +43713,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joiarib-2",
-      "children": [
-        "hazaiah"
-      ]
+      "father": "joiarib-2"
     },
     "timeline": {
       "precision": "era"
@@ -45172,10 +43730,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zechariah-20",
-      "children": [
-        "adaiah-8"
-      ]
+      "father": "zechariah-20"
     },
     "timeline": {
       "precision": "era"
@@ -45228,10 +43783,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joed",
-      "children": [
-        "sallu-2"
-      ]
+      "father": "joed"
     },
     "timeline": {
       "precision": "era"
@@ -45248,10 +43800,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "pedaiah-6",
-      "children": [
-        "meshullam-14"
-      ]
+      "father": "pedaiah-6"
     },
     "timeline": {
       "precision": "era"
@@ -45267,10 +43816,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "kolaiah",
-      "children": [
-        "joed"
-      ]
+      "father": "kolaiah"
     },
     "timeline": {
       "precision": "era"
@@ -45287,10 +43833,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "maaseiah-12",
-      "children": [
-        "pedaiah-6"
-      ]
+      "father": "maaseiah-12"
     },
     "timeline": {
       "precision": "era"
@@ -45307,10 +43850,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ithiel",
-      "children": [
-        "kolaiah"
-      ]
+      "father": "ithiel"
     },
     "timeline": {
       "precision": "era"
@@ -45327,10 +43867,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jeshaiah-5",
-      "children": [
-        "maaseiah-12"
-      ]
+      "father": "jeshaiah-5"
     },
     "timeline": {
       "precision": "era"
@@ -45465,10 +44002,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joiarib-3",
-      "children": [
-        "nethanel-7"
-      ]
+      "father": "joiarib-3"
     },
     "timeline": {
       "precision": "era"
@@ -45536,10 +44070,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meshullam-15",
-      "children": [
-        "seraiah-8"
-      ]
+      "father": "meshullam-15"
     },
     "timeline": {
       "precision": "era"
@@ -45556,10 +44087,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zadok-6",
-      "children": [
-        "hilkiah-6"
-      ]
+      "father": "zadok-6"
     },
     "timeline": {
       "precision": "era"
@@ -45576,10 +44104,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "meraioth-3",
-      "children": [
-        "meshullam-15"
-      ]
+      "father": "meraioth-3"
     },
     "timeline": {
       "precision": "era"
@@ -45596,11 +44121,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ahitub-4",
-      "children": [
-        "helkai",
-        "zadok-6"
-      ]
+      "father": "ahitub-4"
     },
     "timeline": {
       "precision": "era"
@@ -45653,10 +44174,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "pelaliah",
-      "children": [
-        "adaiah-9"
-      ]
+      "father": "pelaliah"
     },
     "timeline": {
       "precision": "era"
@@ -45673,10 +44191,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "amzi-2",
-      "children": [
-        "jeroham-7"
-      ]
+      "father": "amzi-2"
     },
     "timeline": {
       "precision": "era"
@@ -45692,10 +44207,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zechariah-21",
-      "children": [
-        "pelaliah"
-      ]
+      "father": "zechariah-21"
     },
     "timeline": {
       "precision": "era"
@@ -45712,10 +44224,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "pashhur",
-      "children": [
-        "amzi-2"
-      ]
+      "father": "pashhur"
     },
     "timeline": {
       "precision": "era"
@@ -45748,10 +44257,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "ahzai",
-      "children": [
-        "amashsai"
-      ]
+      "father": "ahzai"
     },
     "timeline": {
       "precision": "era"
@@ -45897,10 +44403,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "hashabiah-7",
-      "children": [
-        "uzzi-5"
-      ]
+      "father": "hashabiah-7"
     },
     "timeline": {
       "precision": "era"
@@ -45917,10 +44420,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "mattaniah",
-      "children": [
-        "bani-9"
-      ]
+      "father": "mattaniah"
     },
     "timeline": {
       "precision": "era"
@@ -46075,10 +44575,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "jeshua-7",
-      "children": [
-        "eliashib-8"
-      ]
+      "father": "jeshua-7"
     },
     "timeline": {
       "precision": "era"
@@ -46095,10 +44592,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joiakim",
-      "children": [
-        "joiada-2"
-      ]
+      "father": "joiakim"
     },
     "timeline": {
       "precision": "era"
@@ -46115,10 +44609,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "eliashib-8",
-      "children": [
-        "jonathan-10"
-      ]
+      "father": "eliashib-8"
     },
     "timeline": {
       "precision": "era"
@@ -46137,10 +44628,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joiada-2",
-      "children": [
-        "jaddua-2"
-      ]
+      "father": "joiada-2"
     },
     "timeline": {
       "precision": "era"
@@ -46587,10 +45075,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "shemaiah-14",
-      "children": [
-        "zechariah-22"
-      ]
+      "father": "shemaiah-14"
     },
     "timeline": {
       "precision": "era"
@@ -46607,10 +45092,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zaccur-4",
-      "children": [
-        "mattaniah-3"
-      ]
+      "father": "zaccur-4"
     },
     "timeline": {
       "precision": "era"
@@ -46802,10 +45284,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "levi",
-      "children": [
-        "zaccur-6"
-      ]
+      "father": "levi"
     },
     "timeline": {
       "precision": "era"
@@ -46835,7 +45314,7 @@
     "person_id": "vashti",
     "name": "Vashti",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
@@ -46848,7 +45327,13 @@
     },
     "gender": "female",
     "region": "mesopotamia",
-    "first_reference": "Esther 1:9-19"
+    "first_reference": "Esther 1:9-19",
+    "topics": [
+      "courage and consequence",
+      "providence behind the scenes",
+      "dignity and refusal"
+    ],
+    "image": "generic-queen.png"
   },
   {
     "person_id": "mehuman",
@@ -47100,10 +45585,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "shimei-17",
-      "children": [
-        "mordecai-2"
-      ]
+      "father": "shimei-17"
     },
     "timeline": {
       "precision": "era"
@@ -47121,10 +45603,7 @@
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "kish-4",
-      "children": [
-        "jair-3"
-      ]
+      "father": "kish-4"
     },
     "timeline": {
       "precision": "era"
@@ -48352,11 +46831,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "mahseiah",
-      "children": [
-        "baruch-4",
-        "seraiah-10"
-      ]
+      "father": "mahseiah"
     },
     "timeline": {
       "precision": "era"
@@ -48415,10 +46890,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "habazziniah",
-      "children": [
-        "jaazaniah"
-      ]
+      "father": "habazziniah"
     },
     "timeline": {
       "precision": "era"
@@ -48492,10 +46964,7 @@
     },
     "region": "canaan-israel",
     "genealogy": {
-      "father": "shaphan",
-      "children": [
-        "micaiah-6"
-      ]
+      "father": "shaphan"
     },
     "kingdom": "judah",
     "gender": "male",
@@ -48614,10 +47083,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "shelemiah-5",
-      "children": [
-        "jehudi"
-      ]
+      "father": "shelemiah-5"
     },
     "timeline": {
       "precision": "era"
@@ -48634,10 +47100,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "cushi",
-      "children": [
-        "nethaniah-4"
-      ]
+      "father": "cushi"
     },
     "timeline": {
       "precision": "era"
@@ -48827,10 +47290,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "hananiah-11",
-      "children": [
-        "irijah"
-      ]
+      "father": "hananiah-11"
     },
     "timeline": {
       "precision": "era"
@@ -49022,10 +47482,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "zedekiah-2",
-      "children": [
-        "pashhur-4"
-      ]
+      "father": "zedekiah-2"
     },
     "timeline": {
       "precision": "era"
@@ -50012,10 +48469,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "gedaliah-5",
-      "children": [
-        "zephaniah-3"
-      ]
+      "father": "gedaliah-5"
     },
     "timeline": {
       "precision": "era"
@@ -50034,10 +48488,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "amariah-8",
-      "children": [
-        "cushi-2"
-      ]
+      "father": "amariah-8"
     },
     "timeline": {
       "precision": "era"
@@ -50056,10 +48507,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "hezekiah-3",
-      "children": [
-        "gedaliah-5"
-      ]
+      "father": "hezekiah-3"
     },
     "timeline": {
       "precision": "era"
@@ -50144,10 +48592,7 @@
     "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "iddo-5",
-      "children": [
-        "zechariah-13"
-      ]
+      "father": "iddo-5"
     },
     "timeline": {
       "precision": "era"
@@ -50316,19 +48761,17 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zerubbabel-2",
-      "children": [
-        "eliakim-3"
-      ]
+      "father": "zerubbabel"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
     "disambiguation": "son of Zerubbabel (Matt 1:13)",
-    "first_reference": "Matthew 1:13"
+    "first_reference": "Matthew 1:13",
+    "region": "canaan-israel"
   },
   {
     "person_id": "eliakim-3",
@@ -50336,19 +48779,17 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "abihud-2",
-      "children": [
-        "azor"
-      ]
+      "father": "abihud-2"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
     "disambiguation": "son of Abihud (Matt 1:13)",
-    "first_reference": "Matthew 1:13"
+    "first_reference": "Matthew 1:13",
+    "region": "canaan-israel"
   },
   {
     "person_id": "azor",
@@ -50356,18 +48797,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "eliakim-3",
-      "children": [
-        "zadok-7"
-      ]
+      "father": "eliakim-3"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Matthew 1:13-14"
+    "first_reference": "Matthew 1:13-14",
+    "region": "canaan-israel"
   },
   {
     "person_id": "zadok-7",
@@ -50375,17 +48814,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "azor",
-      "children": [
-        "achim"
-      ]
+      "father": "azor"
     },
     "timeline": {
       "precision": "era"
     },
-    "region": "mesopotamia",
+    "region": "canaan-israel",
     "gender": "male",
     "disambiguation": "son of Azor (Matt 1:14)",
     "first_reference": "Matthew 1:14"
@@ -50396,17 +48832,14 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zadok-7",
-      "children": [
-        "eliud"
-      ]
+      "father": "zadok-7"
     },
     "timeline": {
       "precision": "era"
     },
-    "region": "mesopotamia",
+    "region": "canaan-israel",
     "gender": "male",
     "first_reference": "Matthew 1:14"
   },
@@ -50416,12 +48849,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Gospels",
     "genealogy": {
-      "father": "achim",
-      "children": [
-        "eleazar-9"
-      ]
+      "father": "achim"
     },
     "timeline": {
       "precision": "era"
@@ -50436,12 +48866,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Gospels",
     "genealogy": {
-      "father": "eliud",
-      "children": [
-        "matthan"
-      ]
+      "father": "eliud"
     },
     "timeline": {
       "precision": "era"
@@ -50457,12 +48884,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Gospels",
     "genealogy": {
-      "father": "eleazar-9",
-      "children": [
-        "jacob"
-      ]
+      "father": "eleazar-9"
     },
     "timeline": {
       "precision": "era"
@@ -50477,12 +48901,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Patriarchal",
+    "era": "Gospels",
     "genealogy": {
-      "father": "matthan",
-      "children": [
-        "joseph-6"
-      ]
+      "father": "matthan"
     },
     "timeline": {
       "precision": "era"
@@ -50796,21 +49217,25 @@
     "alt_names": [
       "Didymus"
     ],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Gospels",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Matthew 10:3"
+    "first_reference": "Matthew 10:3",
+    "topics": [
+      "doubt and faith",
+      "the resurrection",
+      "Christ's deity"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "james-2",
     "name": "James",
-    "alt_names": [
-      "Levi"
-    ],
+    "alt_names": [],
     "tier": "stub",
     "testament": "NT",
     "era": "Gospels",
@@ -51595,10 +50020,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "matthat",
-      "children": [
-        "joseph-6"
-      ]
+      "father": "matthat"
     },
     "timeline": {
       "precision": "era"
@@ -51616,10 +50038,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "levi-2",
-      "children": [
-        "eli-2"
-      ]
+      "father": "levi-2"
     },
     "timeline": {
       "precision": "era"
@@ -51637,10 +50056,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "melchi",
-      "children": [
-        "matthat"
-      ]
+      "father": "melchi"
     },
     "timeline": {
       "precision": "era"
@@ -51658,10 +50074,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "jannai",
-      "children": [
-        "levi-2"
-      ]
+      "father": "jannai"
     },
     "timeline": {
       "precision": "era"
@@ -51679,10 +50092,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "joseph-8",
-      "children": [
-        "melchi"
-      ]
+      "father": "joseph-8"
     },
     "timeline": {
       "precision": "era"
@@ -51698,10 +50108,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "mattathias",
-      "children": [
-        "jannai"
-      ]
+      "father": "mattathias"
     },
     "timeline": {
       "precision": "era"
@@ -51718,10 +50125,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "amos-2",
-      "children": [
-        "joseph-8"
-      ]
+      "father": "amos-2"
     },
     "timeline": {
       "precision": "era"
@@ -51738,10 +50142,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "nahum-2",
-      "children": [
-        "mattathias"
-      ]
+      "father": "nahum-2"
     },
     "timeline": {
       "precision": "era"
@@ -51758,10 +50159,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "hesli",
-      "children": [
-        "amos-2"
-      ]
+      "father": "hesli"
     },
     "timeline": {
       "precision": "era"
@@ -51778,10 +50176,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "naggai",
-      "children": [
-        "nahum-2"
-      ]
+      "father": "naggai"
     },
     "timeline": {
       "precision": "era"
@@ -51797,10 +50192,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "maath",
-      "children": [
-        "hesli"
-      ]
+      "father": "maath"
     },
     "timeline": {
       "precision": "era"
@@ -51816,10 +50208,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "mattathias-2",
-      "children": [
-        "naggai"
-      ]
+      "father": "mattathias-2"
     },
     "timeline": {
       "precision": "era"
@@ -51833,19 +50222,17 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "semein",
-      "children": [
-        "maath"
-      ]
+      "father": "semein"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
     "disambiguation": "son of Semein (Luke 3:26)",
-    "first_reference": "Luke 3:26"
+    "first_reference": "Luke 3:26",
+    "region": "canaan-israel"
   },
   {
     "person_id": "semein",
@@ -51853,18 +50240,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "josech",
-      "children": [
-        "mattathias-2"
-      ]
+      "father": "josech"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Luke 3:26"
+    "first_reference": "Luke 3:26",
+    "region": "canaan-israel"
   },
   {
     "person_id": "josech",
@@ -51872,18 +50257,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joda",
-      "children": [
-        "semein"
-      ]
+      "father": "joda"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Luke 3:26"
+    "first_reference": "Luke 3:26",
+    "region": "canaan-israel"
   },
   {
     "person_id": "joda",
@@ -51891,18 +50274,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joanan",
-      "children": [
-        "josech"
-      ]
+      "father": "joanan"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Luke 3:26"
+    "first_reference": "Luke 3:26",
+    "region": "canaan-israel"
   },
   {
     "person_id": "joanan",
@@ -51910,18 +50291,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "rhesa",
-      "children": [
-        "joda"
-      ]
+      "father": "rhesa"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Luke 3:27"
+    "first_reference": "Luke 3:27",
+    "region": "canaan-israel"
   },
   {
     "person_id": "rhesa",
@@ -51929,58 +50308,16 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "zerubbabel-3",
-      "children": [
-        "joanan"
-      ]
+      "father": "zerubbabel"
     },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Luke 3:27"
-  },
-  {
-    "person_id": "zerubbabel-3",
-    "name": "Zerubbabel",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "NT",
-    "era": "Gospels",
-    "genealogy": {
-      "father": "shealtiel-3",
-      "children": [
-        "rhesa"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Luke 3:27)",
-    "first_reference": "Luke 3:27"
-  },
-  {
-    "person_id": "shealtiel-3",
-    "name": "Shealtiel",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "NT",
-    "era": "Gospels",
-    "genealogy": {
-      "father": "neri",
-      "children": [
-        "zerubbabel-3"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "son of Neri (Luke 3:27)",
-    "first_reference": "Luke 3:27"
+    "first_reference": "Luke 3:27",
+    "region": "canaan-israel"
   },
   {
     "person_id": "neri",
@@ -51988,12 +50325,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "melchi-2",
-      "children": [
-        "shealtiel-3"
-      ]
+      "father": "melchi-2"
     },
     "timeline": {
       "precision": "era"
@@ -52007,12 +50341,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "addi",
-      "children": [
-        "neri"
-      ]
+      "father": "addi"
     },
     "timeline": {
       "precision": "era"
@@ -52027,12 +50358,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "cosam",
-      "children": [
-        "melchi-2"
-      ]
+      "father": "cosam"
     },
     "timeline": {
       "precision": "era"
@@ -52046,12 +50374,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "elmadam",
-      "children": [
-        "addi"
-      ]
+      "father": "elmadam"
     },
     "timeline": {
       "precision": "era"
@@ -52065,12 +50390,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "er-3",
-      "children": [
-        "cosam"
-      ]
+      "father": "er-3"
     },
     "timeline": {
       "precision": "era"
@@ -52084,12 +50406,9 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "NT",
-    "era": "Gospels",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "joshua-5",
-      "children": [
-        "elmadam"
-      ]
+      "father": "joshua-5"
     },
     "timeline": {
       "precision": "era"
@@ -52106,10 +50425,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "eliezer-9",
-      "children": [
-        "er-3"
-      ]
+      "father": "eliezer-9"
     },
     "timeline": {
       "precision": "era"
@@ -52126,10 +50442,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "jorim",
-      "children": [
-        "joshua-5"
-      ]
+      "father": "jorim"
     },
     "timeline": {
       "precision": "era"
@@ -52146,10 +50459,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "matthat-2",
-      "children": [
-        "eliezer-9"
-      ]
+      "father": "matthat-2"
     },
     "timeline": {
       "precision": "era"
@@ -52165,10 +50475,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "levi-3",
-      "children": [
-        "jorim"
-      ]
+      "father": "levi-3"
     },
     "timeline": {
       "precision": "era"
@@ -52185,10 +50492,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "simeon-3",
-      "children": [
-        "matthat-2"
-      ]
+      "father": "simeon-3"
     },
     "timeline": {
       "precision": "era"
@@ -52205,10 +50509,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "judah-5",
-      "children": [
-        "levi-3"
-      ]
+      "father": "judah-5"
     },
     "timeline": {
       "precision": "era"
@@ -52225,10 +50526,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "joseph-9",
-      "children": [
-        "simeon-3"
-      ]
+      "father": "joseph-9"
     },
     "timeline": {
       "precision": "era"
@@ -52245,10 +50543,7 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
-      "father": "jonam",
-      "children": [
-        "judah-5"
-      ]
+      "father": "jonam"
     },
     "timeline": {
       "precision": "era"
@@ -52266,10 +50561,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "eliakim-4",
-      "children": [
-        "joseph-9"
-      ]
+      "father": "eliakim-4"
     },
     "timeline": {
       "precision": "era"
@@ -52286,10 +50578,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "melea",
-      "children": [
-        "jonam"
-      ]
+      "father": "melea"
     },
     "timeline": {
       "precision": "era"
@@ -52307,10 +50596,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "menna",
-      "children": [
-        "eliakim-4"
-      ]
+      "father": "menna"
     },
     "timeline": {
       "precision": "era"
@@ -52327,10 +50613,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "mattatha",
-      "children": [
-        "melea"
-      ]
+      "father": "mattatha"
     },
     "timeline": {
       "precision": "era"
@@ -52347,10 +50630,7 @@
     "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "nathan",
-      "children": [
-        "menna"
-      ]
+      "father": "nathan"
     },
     "timeline": {
       "precision": "era"
@@ -52367,10 +50647,7 @@
     "era": "Exodus/Wilderness",
     "region": "sinai-wilderness",
     "genealogy": {
-      "father": "ram",
-      "children": [
-        "amminadab"
-      ]
+      "father": "ram"
     },
     "timeline": {
       "precision": "era"

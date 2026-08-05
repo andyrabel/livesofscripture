@@ -1222,7 +1222,7 @@
     <loc>https://livesofscripture.org/people/israel.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahuzzath.html</loc>
@@ -2908,7 +2908,7 @@
     <loc>https://livesofscripture.org/people/zelophehad.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mahlah.html</loc>
@@ -3268,7 +3268,7 @@
     <loc>https://livesofscripture.org/people/sisera.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/deborah-2.html</loc>
@@ -3340,13 +3340,13 @@
     <loc>https://livesofscripture.org/people/zebah.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zalmunna.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jether.html</loc>
@@ -4174,7 +4174,7 @@
     <loc>https://livesofscripture.org/people/tamar-2.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonadab.html</loc>
@@ -5446,7 +5446,7 @@
     <loc>https://livesofscripture.org/people/tiglath-pileser.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hoshea.html</loc>
@@ -11839,12 +11839,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://livesofscripture.org/people/zerubbabel-2.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://livesofscripture.org/people/jeshua-3.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -12398,12 +12392,6 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jozadak.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://livesofscripture.org/people/shealtiel-2.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -15016,7 +15004,7 @@
     <loc>https://livesofscripture.org/people/vashti.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mehuman.html</loc>
@@ -16222,7 +16210,7 @@
     <loc>https://livesofscripture.org/people/thomas.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/james-2.html</loc>
@@ -16556,18 +16544,6 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rhesa.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://livesofscripture.org/people/zerubbabel-3.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://livesofscripture.org/people/shealtiel-3.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>

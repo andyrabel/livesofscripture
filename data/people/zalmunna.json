@@ -2,18 +2,53 @@
   "person_id": "zalmunna",
   "name": "Zalmunna",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Judges",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Midian",
+    "Succoth",
+    "Penuel",
+    "Karkor"
+  ],
   "references": [
     "Judges 8:5-21",
     "Psalms 83:11"
   ],
   "first_reference": "Judges 8:5-21",
+  "topics": [
+    "divine justice",
+    "God's power over human strength",
+    "the cost of cruelty"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of two kings of Midian, alongside Zebah, whose army was routed by Gideon's three hundred men; captured while fleeing with the remnant of his forces, he was executed by Gideon personally after admitting to killing Gideon's brothers.",
+  "family_friendly_summary": "Zalmunna was one of two kings of Midian, a nation that had been attacking God's people for years. Along with the other king, Zebah, he led an army against Israel, but God helped a leader named Gideon defeat them using just three hundred men. Zalmunna and Zebah ran away with what was left of their army, but Gideon chased them down and caught them. Some towns along the way had refused to help Gideon's tired soldiers, and Gideon later kept his promise to deal with them for it. In the end, Gideon defeated Zalmunna and Zebah because of harm they had caused his own family. Their story is remembered later in the Bible as an example of God bringing justice on Israel's enemies.",
+  "adult_story": "Zalmunna, together with Zebah, was one of two kings of Midian whose army had oppressed Israel until Gideon routed it with just three hundred men (Judges 7:19-25). Zalmunna led the remaining fifteen thousand troops -- survivors of an army once numbering a hundred and twenty thousand -- in flight east of the Jordan, but Gideon caught and captured both kings by surprise at Karkor (8:10-12). Along the chase, the towns of Succoth and Penuel had refused Gideon's exhausted men bread, their leaders mocking the idea that he would ever actually catch Zalmunna and Zebah; Gideon promised to deal with both towns once he returned victorious, and he kept that promise (8:4-9, 13-17). Facing Gideon afterward, Zalmunna and Zebah were asked to describe the men they had killed at Mount Tabor, and their description revealed the victims were Gideon's own brothers -- sealing their fate, since Gideon declared he would have spared them had they spared his brothers (8:18-19). Rather than die at the hand of Gideon's frightened young son Jether, ordered to execute them, Zalmunna and Zebah told Gideon to kill them himself: \"As the man is, so is his strength.\" Gideon did (8:20-21). Centuries later, Psalm 83:11 invokes Zalmunna and Zebah's names as a plea for God to deal as decisively with a later generation of Israel's enemies.",
+  "devotionals": [
+    "Lord Jesus, Zalmunna's whole army couldn't stand against Gideon's three hundred and Your power behind them. No enemy is too strong when You fight for me.",
+    "Zalmunna asked Gideon to kill him himself, not send a boy to do it. Jesus, You alone were strong enough to face my judgment for me."
+  ],
+  "image": {
+    "file": "generic-king.png",
+    "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

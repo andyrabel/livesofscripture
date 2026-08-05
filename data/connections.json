@@ -10080,8 +10080,8 @@
     "mutual": false
   },
   {
-    "from": "shealtiel-2",
-    "to": "zerubbabel-2",
+    "from": "shealtiel",
+    "to": "zerubbabel",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
@@ -11543,7 +11543,7 @@
     "mutual": false
   },
   {
-    "from": "zerubbabel-2",
+    "from": "zerubbabel",
     "to": "abihud-2",
     "label": "begot",
     "type": "parent-child",
@@ -11851,22 +11851,15 @@
     "mutual": false
   },
   {
-    "from": "zerubbabel-3",
+    "from": "zerubbabel",
     "to": "rhesa",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
   },
   {
-    "from": "shealtiel-3",
-    "to": "zerubbabel-3",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
     "from": "neri",
-    "to": "shealtiel-3",
+    "to": "shealtiel",
     "label": "begot",
     "type": "parent-child",
     "mutual": false

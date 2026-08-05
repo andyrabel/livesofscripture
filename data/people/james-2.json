@@ -1,16 +1,12 @@
 {
   "person_id": "james-2",
   "name": "James",
-  "alt_names": [
-    "Levi"
-  ],
+  "alt_names": [],
   "tier": "stub",
   "testament": "NT",
   "references": [
     "Matthew 10:3",
-    "Mark 2:14",
     "Mark 3:18",
-    "Luke 5:27-29",
     "Luke 6:15",
     "Acts 1:13"
   ],
