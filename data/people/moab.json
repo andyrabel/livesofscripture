@@ -38,7 +38,7 @@
   },
   "genealogy": {
     "father": "lot",
-    "mother": "firstborn-of-lot",
+    "mother": null,
     "spouses": [],
     "children": []
   },

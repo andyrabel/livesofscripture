@@ -2812,9 +2812,7 @@
       "father": "haran",
       "children": [
         "ammon",
-        "firstborn-of-lot",
-        "moab",
-        "younger-of-lot"
+        "moab"
       ]
     }
   },
@@ -3121,52 +3119,6 @@
     "first_reference": "Genesis 15:2"
   },
   {
-    "person_id": "firstborn-of-lot",
-    "name": "Firstborn of Lot",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "Patriarchal",
-    "region": "canaan-israel",
-    "genealogy": {
-      "father": "lot",
-      "children": [
-        "moab"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "female",
-    "topics": [
-      "aftermath of Sodom",
-      "family sin",
-      "origins of Moab"
-    ],
-    "image": "generic-woman.png",
-    "first_reference": "Genesis 19:31-37"
-  },
-  {
-    "person_id": "younger-of-lot",
-    "name": "Younger of Lot",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Primeval History",
-    "region": "canaan-israel",
-    "genealogy": {
-      "father": "lot",
-      "children": [
-        "ammon"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "female",
-    "first_reference": "Genesis 19:31-38"
-  },
-  {
     "person_id": "moab",
     "name": "Moab",
     "alt_names": [],
@@ -3176,7 +3128,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "lot",
-      "mother": "firstborn-of-lot"
+      "mother": null
     },
     "timeline": {
       "precision": "era"
@@ -3201,7 +3153,7 @@
     "region": "canaan-israel",
     "genealogy": {
       "father": "lot",
-      "mother": "younger-of-lot"
+      "mother": null
     },
     "timeline": {
       "precision": "era"

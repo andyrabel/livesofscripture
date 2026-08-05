@@ -953,20 +953,6 @@
   },
   {
     "from": "lot",
-    "to": "firstborn-of-lot",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "lot",
-    "to": "younger-of-lot",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "lot",
     "to": "moab",
     "label": "begot",
     "type": "parent-child",
@@ -976,20 +962,6 @@
     "from": "lot",
     "to": "ammon",
     "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "firstborn-of-lot",
-    "to": "moab",
-    "label": "bore",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "younger-of-lot",
-    "to": "ammon",
-    "label": "bore",
     "type": "parent-child",
     "mutual": false
   },
