@@ -882,6 +882,26 @@
     "first_reference": "Genesis 4:1-25"
   },
   {
+    "person_id": "enoch-son-of-cain",
+    "name": "Enoch",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT",
+    "era": "Primeval History",
+    "genealogy": {
+      "father": "cain",
+      "children": [
+        "irad"
+      ]
+    },
+    "timeline": {
+      "precision": "era"
+    },
+    "gender": "male",
+    "first_reference": "Genesis 4:17-18",
+    "disambiguation": "son of Cain (Gen 4:17-18)"
+  },
+  {
     "person_id": "abel",
     "name": "Abel",
     "alt_names": [],
@@ -923,12 +943,11 @@
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "(Gen 5:18-24)",
+    "disambiguation": "son of Jared (Gen 5:18-24)",
     "first_reference": "Genesis 5:18-24",
     "genealogy": {
       "father": "jared",
       "children": [
-        "irad",
         "methuselah"
       ]
     }
@@ -941,7 +960,7 @@
     "testament": "OT",
     "era": "Primeval History",
     "genealogy": {
-      "father": "enoch",
+      "father": "enoch-son-of-cain",
       "children": [
         "mehujael"
       ]
@@ -1227,7 +1246,7 @@
     "genealogy": {
       "father": "mahalalel",
       "children": [
-        "enoch-2"
+        "enoch"
       ]
     },
     "timeline": {
@@ -1235,33 +1254,6 @@
     },
     "gender": "male",
     "first_reference": "Genesis 5:15-20"
-  },
-  {
-    "person_id": "enoch-2",
-    "name": "Enoch",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "Primeval History",
-    "genealogy": {
-      "father": "jared",
-      "children": [
-        "methuselah"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Gen 5:18-24)",
-    "topics": [
-      "walking with God",
-      "faith",
-      "translation without death",
-      "prophecy"
-    ],
-    "image": "generic-figure.png",
-    "first_reference": "Genesis 5:18-24"
   },
   {
     "person_id": "methuselah",

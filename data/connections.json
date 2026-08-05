@@ -225,13 +225,13 @@
   },
   {
     "from": "cain",
-    "to": "enoch",
+    "to": "enoch-son-of-cain",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
   },
   {
-    "from": "enoch",
+    "from": "enoch-son-of-cain",
     "to": "irad",
     "label": "begot",
     "type": "parent-child",
@@ -352,20 +352,6 @@
   {
     "from": "mahalalel",
     "to": "jared",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "jared",
-    "to": "enoch-2",
-    "label": "begot",
-    "type": "parent-child",
-    "mutual": false
-  },
-  {
-    "from": "enoch-2",
-    "to": "methuselah",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
@@ -12650,5 +12636,19 @@
     "references": [
       "1 Kings 1:11-31"
     ]
+  },
+  {
+    "from": "jared",
+    "to": "enoch",
+    "label": "begot",
+    "type": "parent-child",
+    "mutual": false
+  },
+  {
+    "from": "enoch",
+    "to": "methuselah",
+    "label": "begot",
+    "type": "parent-child",
+    "mutual": false
   }
 ]
