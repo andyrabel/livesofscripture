@@ -43,6 +43,36 @@ subject here is a biblical figure, not a post-biblical Christian.
 - Tone is reverent, instructive, and worshipful — never sensational, even when
   the material (Judges, for instance) is dark.
 
+### Doctrinal Position (decided 2026-08-06)
+
+All content — full-entry stories, `christ_connections`, and especially
+`devotionals` — should be written from the perspective of **conservative
+evangelical theology in the Open Brethren (Plymouth Brethren / Gospel Hall)
+tradition**. Key commitments to write consistently with:
+- The authority and sufficiency of Scripture.
+- Salvation by grace through faith in Christ alone.
+- **"Once saved, always saved"** — a believer's security in Christ does not
+  depend on their ongoing performance. Concretely: avoid any phrasing that
+  implies salvation itself is repeatedly lost and re-given (e.g. never write
+  something like "I need You to save me again and again" — that reads as
+  losable salvation). Ongoing sin after conversion should be framed as a
+  believer's continued need of God's **grace**, not a need to be re-saved —
+  e.g. Noah's devotional was corrected 2026-08-06 to "I need Your grace
+  again and again, every day," which is the right pattern to reuse.
+- A plain-reading/dispensational approach to Bible interpretation.
+- Believer's (not infant) baptism by immersion.
+- Weekly congregational Breaking of Bread/Communion.
+- A plurality of local elders rather than a single ordained clergy.
+- Simplicity and lay-led worship — avoid sacramentalism, liturgical
+  formality, and denominational/clergy hierarchy language.
+- Strong emphasis on personal Bible study, missions, evangelism, and
+  discipleship.
+
+Content should stay Christ-centered and accessible to lay readers, including
+ESL audiences and families — same plain-language instinct already governing
+`devotionals` voice/length (see the JSON Schema section and
+`_build/`-adjacent devotional pilot notes for the current house style).
+
 ### Factual Accuracy
 - Primary source is **the biblical text itself** (see Bible Version Handling
   below), not Wikipedia. Wikipedia and standard public-domain Bible
