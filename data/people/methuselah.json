@@ -20,7 +20,8 @@
   },
   "era": "Primeval History",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 969
   },
   "geographic_setting": [
     "Mesopotamia (traditional setting of Genesis 1-11)"

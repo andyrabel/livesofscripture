@@ -7,7 +7,8 @@
   "era": "Patriarchal",
   "region": "sinai-wilderness",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 137
   },
   "geographic_setting": [
     "Canaan",

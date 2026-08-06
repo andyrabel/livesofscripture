@@ -33,7 +33,8 @@
   },
   "era": "Primeval History",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 930
   },
   "geographic_setting": [
     "Garden of Eden (traditional location disputed)"

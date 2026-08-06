@@ -40,7 +40,6 @@
   --region-asia-minor-greece: #008300;
   --region-rome-italy: #4a3aa7;
   --region-other: #898781;
-  --timeline-event: var(--color-accent-strong);
 
   /* Israel (Northern Kingdom) vs Judah (Southern Kingdom), Divided Monarchy
      only -- a political rather than geographic split, so it's a distinct
@@ -88,8 +87,7 @@
     --region-asia-minor-greece: #008300;
     --region-rome-italy: #9085e9;
     --region-other: #898781;
-    --timeline-event: var(--color-accent-strong);
-    --kingdom-israel: #4f8fe0;
+      --kingdom-israel: #4f8fe0;
     --kingdom-judah: #d15aa8;
     --timeline-label-bg: rgba(36, 32, 26, 0.85);
     --gender-male: #6ea8e8;
@@ -127,7 +125,6 @@
   --region-asia-minor-greece: #008300;
   --region-rome-italy: #9085e9;
   --region-other: #898781;
-  --timeline-event: var(--color-accent-strong);
   --kingdom-israel: #4f8fe0;
   --kingdom-judah: #d15aa8;
   --timeline-label-bg: rgba(36, 32, 26, 0.85);
@@ -165,7 +162,6 @@
   --region-asia-minor-greece: #008300;
   --region-rome-italy: #4a3aa7;
   --region-other: #898781;
-  --timeline-event: var(--color-accent-strong);
   --kingdom-israel: #1f6fd6;
   --kingdom-judah: #c0388a;
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
@@ -1154,12 +1150,6 @@ body.connections-fullpage-active {
 .timeline-legend__swatch--rome-italy { background: var(--region-rome-italy); }
 .timeline-legend__swatch--other { background: var(--region-other); }
 
-.timeline-legend__swatch--event {
-  border-radius: 0;
-  width: 3px;
-  background: var(--timeline-event);
-}
-
 .timeline-legend__swatch--kingdom-israel { background: var(--kingdom-israel); }
 .timeline-legend__swatch--kingdom-judah { background: var(--kingdom-judah); }
 
@@ -1292,49 +1282,6 @@ body.connections-fullpage-active {
 
 .timeline-bar--pulse {
   animation: timeline-pulse 0.8s ease-in-out 2;
-}
-
-.timeline-event {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 14px;
-  margin-left: -7px;
-  border: none;
-  background: transparent;
-  padding: 0;
-  cursor: pointer;
-}
-
-.timeline-event__line {
-  position: absolute;
-  left: 6px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: var(--timeline-event);
-  opacity: 0.55;
-}
-
-.timeline-event:hover .timeline-event__line,
-.timeline-event:focus-visible .timeline-event__line {
-  opacity: 1;
-}
-
-.timeline-event__label {
-  position: absolute;
-  left: 11px;
-  top: 4px;
-  max-width: 110px;
-  font-size: 0.68rem;
-  color: var(--color-text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.timeline-canvas--hide-events .timeline-event {
-  display: none;
 }
 
 .timeline-tooltip {

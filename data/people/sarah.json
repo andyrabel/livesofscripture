@@ -9,7 +9,8 @@
   "era": "Patriarchal",
   "region": "mesopotamia",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 127
   },
   "geographic_setting": [
     "Ur of the Chaldeans",

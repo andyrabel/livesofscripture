@@ -26,7 +26,8 @@
   "region": "canaan-israel",
   "timeline": {
     "precision": "era",
-    "note": "1 Samuel 4:18 states Eli was 98 when he died and had judged Israel 40 years, but without a fixed calendar anchor for either point, so no specific date is plotted; conventionally placed in the 11th century BC."
+    "note": "1 Samuel 4:18 states Eli was 98 when he died and had judged Israel 40 years, but without a fixed calendar anchor for either point, so no specific date is plotted; conventionally placed in the 11th century BC.",
+    "lifespan_years": 98
   },
   "geographic_setting": [
     "Shiloh"

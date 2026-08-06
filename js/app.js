@@ -4,7 +4,6 @@ const DATA = {
   places: null,
   whatsNew: null,
   quiz: null,
-  timelineEvents: null,
 };
 
 function dataPath(path) {
@@ -47,14 +46,6 @@ async function loadQuiz() {
     DATA.quiz = (await res.json()).questions;
   }
   return DATA.quiz;
-}
-
-async function loadTimelineEvents() {
-  if (!DATA.timelineEvents) {
-    const res = await fetch(dataPath("timeline-events.json"));
-    DATA.timelineEvents = (await res.json()).events;
-  }
-  return DATA.timelineEvents;
 }
 
 function initNavToggle() {
@@ -2050,12 +2041,28 @@ const BOOK_ORDER = [
   "Revelation",
 ];
 
-// Fraction of an era band's width used as a generic "lifetime" bar length
-// for era-precision figures, and the margin kept clear at each end of the
-// band so the earliest/latest-ranked person's bar isn't flush with the
-// hard edge of the era itself.
-const TIMELINE_ERA_ORDINAL_SPAN_FRACTION = 0.16;
-const TIMELINE_ERA_ORDINAL_MARGIN_FRACTION = 0.08;
+// Generic "lifetime" bar length for era-precision figures, in the same
+// notional years used by ERA_BANDS -- a fixed, human-scale span (roughly
+// what the date-precision figures elsewhere on the timeline actually live)
+// rather than a fraction of the era band's own width. Era bands vary hugely
+// in width (Primeval History alone spans ~3800 notional years vs. Exile's
+// 48), and scaling bar length off that width made bars in the widest bands
+// balloon to hundreds of "years" long -- implying a duration the ordinal
+// placement never claimed. Capped at half of a narrow band's width so a bar
+// still fits inside its own era's segment.
+const TIMELINE_ERA_ORDINAL_LIFESPAN_YEARS = 50;
+
+// Space kept clear at each end of an era band before the first/last
+// person's bar, in the same notional years as ERA_BANDS -- also a fixed
+// amount rather than a fraction of the band's width, for the same reason.
+// A fractional margin compounds badly right at the seam between two very
+// differently-sized eras: 8% of Primeval History's ~3800-year band alone
+// was ~300 notional years of dead space on each side, which read as a
+// large empty gap before Patriarchal's own bars even started, even though
+// the two bands themselves are contiguous with no gap between them.
+// Capped at a fraction of a narrow band's own width so it never eats the
+// whole band.
+const TIMELINE_ERA_ORDINAL_MARGIN_YEARS = 20;
 
 // Where, within a parent's own bar, a child's bar begins -- expressed as a
 // fraction of the parent's span. A child is a known contemporary of their
@@ -2190,15 +2197,61 @@ function assignEraOrdinalSpans(people) {
       (a, b) => clusterRank.get(a[0]) - clusterRank.get(b[0])
     );
 
-    const usableStart = band[0] + bandWidth * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION;
-    const usableWidth = bandWidth * (1 - 2 * TIMELINE_ERA_ORDINAL_MARGIN_FRACTION);
-    const lifespan = Math.max(bandWidth * TIMELINE_ERA_ORDINAL_SPAN_FRACTION, 15);
+    const margin = Math.min(TIMELINE_ERA_ORDINAL_MARGIN_YEARS, bandWidth * 0.2);
+    const usableStart = band[0] + margin;
+    const usableWidth = bandWidth - 2 * margin;
+    const defaultLifespan = Math.min(TIMELINE_ERA_ORDINAL_LIFESPAN_YEARS, Math.max(bandWidth * 0.5, 15));
+
+    // Only full-tier clusters get an evenly-spaced ordinal slot -- they're
+    // the "spine" that stays visible with stub (name-only) entries hidden,
+    // the default view. Stub-only clusters interpolate between their
+    // nearest full-tier neighbors by rank instead of claiming an even share
+    // of the same slots, so hiding them (the default) doesn't leave the
+    // remaining full-tier bars looking artificially far apart -- e.g.
+    // without this, ~100 hidden Genesis 10-11 stub entries left Nimrod
+    // stranded far from Abraham even though the two eras are contiguous.
+    const fullIndexes = [];
     ordered.forEach(([, members], i) => {
-      const t = ordered.length > 1 ? i / (ordered.length - 1) : 0.5;
+      if (members.some((p) => p.tier === "full")) fullIndexes.push(i);
+    });
+    const fullFraction = (orderedIndex) => {
+      const rank = fullIndexes.indexOf(orderedIndex);
+      return fullIndexes.length > 1 ? rank / (fullIndexes.length - 1) : 0.5;
+    };
+    const slotFraction = (i) => {
+      if (fullIndexes.length === 0) {
+        return ordered.length > 1 ? i / (ordered.length - 1) : 0.5;
+      }
+      if (fullIndexes.includes(i)) return fullFraction(i);
+      let lo = null, hi = null;
+      for (const fi of fullIndexes) {
+        if (fi < i) lo = fi;
+        if (fi > i && hi === null) hi = fi;
+      }
+      if (lo == null) return fullFraction(hi);
+      if (hi == null) return fullFraction(lo);
+      const loT = fullFraction(lo), hiT = fullFraction(hi);
+      return loT + ((i - lo) / (hi - lo)) * (hiT - loT);
+    };
+
+    // A person's own Scripture-stated `timeline.lifespan_years` (see the
+    // Timeline section of CLAUDE.md) sets their bar's length directly
+    // instead of the generic estimate -- unlike their left-right position,
+    // that number is a stated fact ("all his days were 969 years, and he
+    // died," Genesis 5:27), not an ordinal guess.
+    const lifespanFor = (p) => {
+      const stated = p.timeline && typeof p.timeline.lifespan_years === "number"
+        ? p.timeline.lifespan_years
+        : null;
+      return stated != null ? stated : defaultLifespan;
+    };
+
+    ordered.forEach(([, members], i) => {
+      const t = slotFraction(i);
       const center = usableStart + t * usableWidth;
       for (const p of members) {
-        p.start = center - lifespan / 2;
-        p.end = center + lifespan / 2;
+        p.start = center;
+        p.end = center + lifespanFor(p);
       }
     });
 
@@ -2210,6 +2263,9 @@ function assignEraOrdinalSpans(people) {
     // ordinal pass or from this same pass acting on a grandparent) by the
     // time each of its children is reached -- this also lets multi-generation
     // chains (e.g. Abraham -> Isaac -> Jacob) resolve correctly in one pass.
+    const orderedIndexByRoot = new Map(ordered.map(([root], i) => [root, i]));
+    const isSpineRoot = (root) => fullIndexes.includes(orderedIndexByRoot.get(root));
+
     const childCountByParentRoot = new Map();
     for (const [root, members] of ordered) {
       let parent = null;
@@ -2225,6 +2281,14 @@ function assignEraOrdinalSpans(people) {
       }
       if (!parent || parent.start == null) continue;
       const parentRoot = find(parent.person_id);
+      // A spine (full-tier) cluster keeps its own evenly-spaced slot unless
+      // its nearest parent is ALSO on the spine -- otherwise a full-tier
+      // person whose immediate parent happens to be a stub (extremely
+      // common; most genealogy links are to stub entries) would get dragged
+      // off the spine entirely, undoing the fix above: e.g. Nimrod
+      // (full-tier) re-anchoring onto his stub father Cush instead of
+      // keeping his own last-in-era spine slot next to Abraham.
+      if (isSpineRoot(root) && !isSpineRoot(parentRoot)) continue;
       const idx = childCountByParentRoot.get(parentRoot) || 0;
       childCountByParentRoot.set(parentRoot, idx + 1);
       const parentWidth = parent.end - parent.start;
@@ -2235,7 +2299,7 @@ function assignEraOrdinalSpans(people) {
       const newStart = parent.start + parentWidth * startFraction;
       for (const p of members) {
         p.start = newStart;
-        p.end = newStart + lifespan;
+        p.end = newStart + lifespanFor(p);
       }
     }
   }
@@ -2305,9 +2369,17 @@ function timelinePersonSpan(person) {
   return null;
 }
 
+function timelineStatedLifespan(p) {
+  return p.timeline && typeof p.timeline.lifespan_years === "number" ? p.timeline.lifespan_years : null;
+}
+
 function timelineLifespanLabel(p) {
   if (p.precision === "era") {
-    return `${p.era} era — position reflects narrative order across Scripture's books and chapters, not a calendar date`;
+    const stated = timelineStatedLifespan(p);
+    const positionNote = "position reflects narrative order across Scripture's books and chapters, not a calendar date";
+    return stated != null
+      ? `${p.era} era — lived ${stated} years (Scripture-stated); ${positionNote}`
+      : `${p.era} era — ${positionNote}`;
   }
   const endLabel = p.alive ? "present" : `c. ${timelineFormatYear(p.end)}`;
   return `c. ${timelineFormatYear(p.start)} – ${endLabel}`;
@@ -2316,6 +2388,10 @@ function timelineLifespanLabel(p) {
 function timelineTooltipNote(p) {
   if (p.timeline && p.timeline.note) return p.timeline.note;
   if (p.precision === "era") {
+    const stated = timelineStatedLifespan(p);
+    if (stated != null) {
+      return `Scripture states this person lived ${stated} years, so that figure sets this bar's length directly. Its left-right position is still only an estimate: this period's chronology is genuinely disputed among evangelical scholars, and reflects where this person falls across Scripture's books and chapters, not a calendar year.`;
+    }
     return "Era estimate — this period's chronology is genuinely disputed among evangelical scholars. This bar's left-right position reflects where this person falls across Scripture's books and chapters, not a calendar year, and its faded edges are a reminder that neither the date nor the exact span is known.";
   }
   return "";
@@ -2384,18 +2460,6 @@ function showTimelinePersonTooltip(evt, p, mode) {
   positionTimelineTooltip(evt, mode);
 }
 
-function showTimelineEventTooltip(evt, ev, mode) {
-  const el = timelineTooltipEl();
-  if (!el) return;
-  el.innerHTML = "";
-  const strong = document.createElement("strong");
-  strong.textContent = `${ev.label} — ${ev.date}`;
-  el.appendChild(strong);
-  el.appendChild(document.createTextNode(ev.description));
-  el.hidden = false;
-  positionTimelineTooltip(evt, mode);
-}
-
 function hideTimelineTooltip() {
   const el = timelineTooltipEl();
   if (el) el.hidden = true;
@@ -2419,13 +2483,6 @@ function timelineBuildLegend(container, presentKeys, onChange) {
     label.appendChild(document.createTextNode(region.label));
     container.appendChild(label);
   }
-  const eventItem = document.createElement("span");
-  eventItem.className = "timeline-legend__item";
-  const eventSwatch = document.createElement("span");
-  eventSwatch.className = "timeline-legend__swatch timeline-legend__swatch--event";
-  eventItem.appendChild(eventSwatch);
-  eventItem.appendChild(document.createTextNode("Historical event"));
-  container.appendChild(eventItem);
 }
 
 // Separate legend for the Israel/Judah split, shown only when at least one
@@ -2521,7 +2578,6 @@ async function renderTimelinePage() {
   const countEl = document.getElementById("timeline-results-count");
   const legendEl = document.getElementById("timeline-legend");
   const kingdomLegendEl = document.getElementById("timeline-kingdom-legend");
-  const eventsToggle = document.getElementById("timeline-events-toggle");
   const stubToggle = document.getElementById("timeline-stub-toggle");
   const jumpSelect = document.getElementById("timeline-jump-era");
 
@@ -2542,7 +2598,7 @@ async function renderTimelinePage() {
   // just full-tier entries -- era/region/genealogy for stub entries is
   // pre-computed into the index by _build/infer_stub_eras.py, so no
   // per-person fetch is needed for any of the ~3,000 people here.
-  const [index, events] = await Promise.all([loadIndex(), loadTimelineEvents()]);
+  const index = await loadIndex();
 
   const spanned = index
     .map((p) => {
@@ -2655,31 +2711,6 @@ async function renderTimelinePage() {
       lanesEl.appendChild(bar);
     }
 
-    if (eventsToggle.checked) {
-      for (const ev of events) {
-        if (ev.year < minYear || ev.year > maxYear) continue;
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "timeline-event";
-        btn.style.left = `${Math.round((ev.year - minYear) * TIMELINE_PX_PER_YEAR)}px`;
-        btn.style.height = `${lanesHeight}px`;
-        btn.setAttribute("aria-label", `${ev.label}, ${ev.date}`);
-        const line = document.createElement("span");
-        line.className = "timeline-event__line";
-        btn.appendChild(line);
-        const evLabel = document.createElement("span");
-        evLabel.className = "timeline-event__label";
-        evLabel.textContent = ev.label;
-        btn.appendChild(evLabel);
-        btn.addEventListener("mousemove", (evt) => showTimelineEventTooltip(evt, ev, "mouse"));
-        btn.addEventListener("mouseenter", (evt) => showTimelineEventTooltip(evt, ev, "mouse"));
-        btn.addEventListener("mouseleave", hideTimelineTooltip);
-        btn.addEventListener("focus", (evt) => showTimelineEventTooltip(evt, ev, "focus"));
-        btn.addEventListener("blur", hideTimelineTooltip);
-        lanesEl.appendChild(btn);
-      }
-    }
-
     canvas.appendChild(lanesEl);
     timelineRenderState = { minYear, maxYear };
     applyTimelineDeepLink();
@@ -2692,7 +2723,6 @@ async function renderTimelinePage() {
     if (jumpSelect.value) timelineScrollToYear(Number(jumpSelect.value));
     jumpSelect.value = "";
   });
-  eventsToggle.addEventListener("change", render);
   stubToggle.addEventListener("change", render);
 
   render();

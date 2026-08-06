@@ -6,7 +6,8 @@
   "testament": "OT",
   "era": "Primeval History",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 600
   },
   "references": [
     "Genesis 5:32",

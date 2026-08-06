@@ -207,8 +207,24 @@ def main():
     # decided -- but still uses them as BFS sources so their neighbors can
     # benefit from a more specific placement than the low-confidence
     # book/chapter guess would give.
-    era_result = dict(known_era)
-    era_result.update(high_conf_era)
+    #
+    # known_era must win when a pid has both: a full-tier person's own
+    # human-authored era is always more trustworthy than a book/chapter
+    # guess derived from their first_reference. Bug found 2026-08-06: this
+    # used to be `dict(known_era); .update(high_conf_era)`, so the guess
+    # silently overwrote the curated era for anyone whose first_reference
+    # happens to trigger a high-confidence book default -- e.g. Abraham's
+    # first_reference "Genesis 11:26-25:11" starts in Genesis ch. 11, so his
+    # curated "Patriarchal" era was overwritten with "Primeval History" in
+    # this internal map (his own index entry was unaffected -- see the
+    # "Full-tier entries keep their ... era ... untouched" comment below --
+    # but any stub whose nearest full-tier anchor was Abraham, Sarah, Lot,
+    # or 12 similar cases got BFS-propagated the wrong era from that
+    # corrupted seed). Affected Bichri (2 Samuel 20, wrongly landing in
+    # Primeval History via a duplicate "sheba" entry with a bad
+    # first_reference) surfaced this while debugging a Timeline gap.
+    era_result = dict(high_conf_era)
+    era_result.update(known_era)
     region_result = dict(known_region)
     visited_hops = {pid: 0 for pid in era_result}
     queue = deque((pid, 0) for pid in era_result)
@@ -270,7 +286,17 @@ def main():
         if not era:
             continue
         entry["era"] = era
-        entry["timeline"] = {"precision": "era"}
+        # Preserve a stub's own `timeline.lifespan_years` (see
+        # _build/backfill_lifespan_years.py) across re-runs instead of
+        # blowing it away -- that field has no source of truth other than
+        # the index for stub entries, so unconditionally replacing the
+        # whole `timeline` object here would silently discard it whenever
+        # this script runs after the lifespan backfill.
+        lifespan_years = (entry.get("timeline") or {}).get("lifespan_years")
+        new_timeline = {"precision": "era"}
+        if lifespan_years is not None:
+            new_timeline["lifespan_years"] = lifespan_years
+        entry["timeline"] = new_timeline
         region = region_result.get(pid)
         if region:
             entry["region"] = region

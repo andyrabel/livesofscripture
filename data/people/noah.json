@@ -7,7 +7,8 @@
   "era": "Primeval History",
   "region": null,
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 950
   },
   "geographic_setting": [
     "Mountains of Ararat (traditional location, exact site disputed)"

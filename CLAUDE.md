@@ -488,6 +488,20 @@ disambiguation script's safety rule (above) just avoids surfacing the
 resulting misleading phrases — but it's worth a dedicated genealogy-data
 cleanup pass against the source BradyStephenson tables.
 
+**Another instance found 2026-08-06:** `sheba` and `sheba-4` are both
+full-tier entries for the same 2 Samuel 20 rebel against David (the
+`adult_story`/`family_friendly_summary` text is essentially the same
+episode) — but `sheba`'s `references`/`first_reference` are wrongly set to
+`Genesis 10:7`/`1 Chronicles 1:9`, which actually belong to a different,
+unrelated Table-of-Nations Sheba (son of Raamah, Genesis 10:7). This wasn't
+just a cosmetic disambiguation glitch: it fed a real bug in
+`_build/infer_stub_eras.py` (see the Timeline section) that silently
+mis-era'd `sheba` as "Primeval History" internally and BFS-propagated that
+to his stub son Bichri. The script bug is fixed and no longer trusts a
+guessed book default over a full-tier person's own curated `era`, but the
+underlying duplicate `sheba`/`sheba-4` entry (and its wrong references) is
+still unmerged — another candidate for the cleanup pass above.
+
 ---
 
 ## Timeline
@@ -541,6 +555,90 @@ basis for a left-to-right position — `assignEraOrdinalSpans` in `js/app.js`
 now leaves them off the Timeline entirely (explicitly nulling their
 start/end) rather than guessing. Only one person in the current dataset
 (Raphah — no references, no parent, only a child) is excluded by this rule.
+
+**Bar length and inter-era spacing reworked 2026-08-06.** Two related fixes:
+
+1. Era-precision bar length used to be a fraction of the era band's own
+   width (16%). Era bands vary hugely (Primeval History spans ~3800
+   notional years vs. Exile's 48), so bars in the widest bands ballooned to
+   hundreds of "years" long, implying a duration the ordinal placement never
+   claimed. Same problem hit the margin kept clear at each band's edges
+   (was 8% of the band's width) — on Primeval History that alone was ~300
+   years of empty space per side, which compounded into a large visible gap
+   before Patriarchal's bars even started, even though the two bands are
+   numerically contiguous. Both are now a fixed number of notional years
+   (`TIMELINE_ERA_ORDINAL_LIFESPAN_YEARS` = 50, `TIMELINE_ERA_ORDINAL_MARGIN_YEARS`
+   = 20 in `js/app.js`), each capped at a fraction of a narrow band's own
+   width so they still fit inside it.
+2. Separately, ordinal spacing was spreading *every* era-precision person —
+   full-tier and stub alike — evenly across the band, but stub entries are
+   hidden by default (the "Show name-only entries" toggle). In eras with
+   many stubs (Genesis 10's Table of Nations, Genesis 11's genealogy — ~100
+   stub entries in Primeval History alone), the handful of visible full-tier
+   people ended up positioned as if all those now-invisible stubs still sat
+   between them, producing large visible gaps between visible bars (e.g.
+   Nimrod stranded far from Abraham). Fixed by spacing only full-tier
+   clusters evenly across the band (the visible "spine"); stub-only clusters
+   interpolate between their nearest full-tier neighbors by narrative rank,
+   so they slot in sensibly when the toggle is switched on without moving
+   the full-tier bars.
+3. That alone didn't fully fix Nimrod/Abraham — the existing parent-overlap
+   re-anchor pass (see `TIMELINE_PARENT_OVERLAP_START_FRACTION` above) was
+   still re-anchoring a full-tier "spine" person onto *any* linked parent
+   regardless of tier, and most genealogy links are to a stub (Nimrod's
+   father is Cush, a stub). That dragged Nimrod off his correct last-in-era
+   spine slot back onto wherever his stub ancestors landed, several thousand
+   notional years earlier. Fixed by only re-anchoring a spine cluster onto
+   an *also-spine* (full-tier) parent; stub clusters still re-anchor onto
+   any parent, full or stub, as before.
+4. Investigating this also surfaced a real bug in `_build/infer_stub_eras.py`
+   unrelated to `js/app.js`: its BFS seed dict let a low-quality
+   book/chapter-guessed era silently overwrite a full-tier person's own
+   curated `era` (`dict(known_era); .update(high_conf_era)` had the two
+   backwards). The corrupted value was never written back for the full-tier
+   person's own index entry (full-tier entries keep their authored `era`
+   untouched — see below), so it was invisible on that person's own page,
+   but it *was* used to BFS-propagate the wrong era to their stub
+   relatives — e.g. Abraham, Sarah, and Lot's internally-computed era
+   flipped to "Primeval History" (their first_reference starts in Genesis
+   11), corrupting era for any stub whose nearest full-tier anchor was one
+   of them. Bichri (2 Samuel 20) was one casualty, reached via a duplicate
+   `sheba`/`sheba-4` entry with a wrong `first_reference` — see the Name
+   Disambiguation section's data-quality note. Fixed by reversing the
+   dict-update order so the curated `known_era` always wins.
+
+**Run order note:** whenever `_build/backfill_lifespan_years.py` and
+`_build/infer_stub_eras.py` are both re-run, run `infer_stub_eras.py`
+*first* — it rebuilds every stub's `timeline` object from scratch and,
+before 2026-08-06, discarded any `lifespan_years` already on it. It now
+preserves an existing `lifespan_years` value when rebuilding that object,
+but running the lifespan backfill last is still the safer order.
+
+**`timeline.lifespan_years` added 2026-08-06.** Genesis (and a few later
+books) states many OT figures' total years lived explicitly — "and all his
+days were 969 years, and he died" for Methuselah (Genesis 5:27) is the
+best-known, but the same pattern covers all of Genesis 5 and 11, several of
+the patriarchs, Moses, Aaron, Joshua, and Eli. Unlike the ordinal
+left-right *position* (always an estimate — see above), this is a directly
+stated fact, so where present it now sets the *length* of an era-precision
+person's bar instead of the generic fixed default — `assignEraOrdinalSpans`
+extends their bar forward from their ordinal slot (treated as an
+approximate birth point) by their actual `lifespan_years`, uncapped, so
+e.g. Methuselah's bar renders roughly 19x longer than someone with no
+stated age. Sourced only from an explicit "lived N years" statement in the
+text (never inferred or estimated) — currently backfilled for Adam, Seth,
+Enosh, Kenan, Mahalalel, Jared, Enoch (age at translation, not death),
+Methuselah, Lamech (Noah's father, `lamech-2`), Noah, Shem, Arpachshad,
+Shelah, Eber, Peleg, Reu, Serug, Nahor (son of Serug), Terah, Sarah,
+Abraham, Ishmael, Isaac, Israel/Jacob, Joseph, Moses, Aaron, Joshua, and
+Eli — see `_build/backfill_lifespan_years.py` for the full sourced list and
+references. Stored on full-tier people's own `timeline` object in
+`data/people/<id>.json`; for stub entries (which carry no curated fields of
+their own — see the Coverage section above) it lives only in the index's
+synthesized `timeline` object, the same "derived index-only aid" precedent
+already established for stub `era`/`genealogy`. Re-run
+`_build/backfill_lifespan_years.py` (before `generate_static_site.py`)
+whenever this list is extended.
 
 - Most Old Testament dates, especially pre-monarchy, are **disputed among
   evangelical scholars themselves** — not just "uncertain" the way an obscure

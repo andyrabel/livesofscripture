@@ -14,7 +14,8 @@
     ],
     "image": "aaron.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 123
     },
     "gender": "male",
     "first_reference": "Exodus 4:14-16",
@@ -49,7 +50,8 @@
     ],
     "image": "abraham.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 175
     },
     "gender": "male",
     "first_reference": "Genesis 11:26-25:11",
@@ -311,7 +313,8 @@
     ],
     "image": "isaac.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 180
     },
     "gender": "male",
     "first_reference": "Genesis 21:1-7",
@@ -338,7 +341,8 @@
     ],
     "image": "ishmael.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 137
     },
     "gender": "male",
     "disambiguation": "son of Abraham (Gen 16)",
@@ -491,7 +495,8 @@
     ],
     "image": "moses.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 120
     },
     "gender": "male",
     "first_reference": "Exodus 2-40",
@@ -695,7 +700,8 @@
     ],
     "image": "sarah.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 127
     },
     "gender": "female",
     "first_reference": "Genesis 11:29-31",
@@ -752,7 +758,8 @@
       "father": "nahor"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 205
     },
     "gender": "male",
     "first_reference": "Genesis 11:24-32"
@@ -804,7 +811,8 @@
       ]
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 930
     },
     "gender": "male",
     "topics": [
@@ -926,7 +934,8 @@
     ],
     "image": "generic-prophet.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 365
     },
     "gender": "male",
     "disambiguation": "son of Jared (Gen 5:18-24)",
@@ -1137,7 +1146,8 @@
       "mother": "eve"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 912
     },
     "gender": "male",
     "first_reference": "Genesis 4:25-26"
@@ -1153,7 +1163,8 @@
       "father": "seth"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 905
     },
     "gender": "male",
     "first_reference": "Genesis 4:26"
@@ -1171,7 +1182,8 @@
       "father": "enosh"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 910
     },
     "gender": "male",
     "first_reference": "Genesis 5:9-14"
@@ -1187,7 +1199,8 @@
       "father": "kenan"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 895
     },
     "gender": "male",
     "disambiguation": "son of Kenan (Gen 5:12-17)",
@@ -1204,7 +1217,8 @@
       "father": "mahalalel"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 962
     },
     "gender": "male",
     "first_reference": "Genesis 5:15-20"
@@ -1223,7 +1237,8 @@
     ],
     "image": "generic-figure.png",
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 969
     },
     "gender": "male",
     "first_reference": "Genesis 5:21-27",
@@ -1245,7 +1260,8 @@
       "father": "methuselah"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 777
     },
     "gender": "male",
     "disambiguation": "son of Methuselah (Gen 5:25-31)",
@@ -1267,7 +1283,8 @@
       ]
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 950
     },
     "gender": "male",
     "disambiguation": "son of Lamech (Gen 5:29-32)",
@@ -1298,7 +1315,8 @@
       ]
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 600
     },
     "gender": "male",
     "topics": [
@@ -2132,7 +2150,8 @@
       "father": "shelah"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 464
     },
     "gender": "male",
     "disambiguation": "son of Shelah (Gen 10:21-25)",
@@ -2185,7 +2204,8 @@
       "father": "shem"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 438
     },
     "gender": "male",
     "first_reference": "Genesis 10:22-24"
@@ -2302,7 +2322,8 @@
       "father": "arpachshad"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 433
     },
     "gender": "male",
     "disambiguation": "son of Arpachshad (Gen 10:24)",
@@ -2320,7 +2341,8 @@
       "father": "eber"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 239
     },
     "gender": "male",
     "first_reference": "Genesis 10:25"
@@ -2566,7 +2588,8 @@
       "father": "peleg"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 239
     },
     "gender": "male",
     "first_reference": "Genesis 11:18-21"
@@ -2583,7 +2606,8 @@
       "father": "reu"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 230
     },
     "gender": "male",
     "first_reference": "Genesis 11:20-23"
@@ -2600,7 +2624,8 @@
       "father": "serug"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 148
     },
     "gender": "male",
     "disambiguation": "son of Serug (Gen 11:22-25)",
@@ -3422,7 +3447,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "spouses": [
@@ -3441,7 +3466,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3459,7 +3484,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3477,7 +3502,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3495,7 +3520,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3513,7 +3538,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3531,7 +3556,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "abraham",
@@ -3549,7 +3574,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "jokshan"
@@ -3567,7 +3592,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "jokshan"
@@ -3585,7 +3610,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "dedan-2"
@@ -3603,7 +3628,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "dedan-2"
@@ -3620,7 +3645,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "dedan-2"
@@ -3637,7 +3662,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "midian"
@@ -3655,7 +3680,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "midian"
@@ -3673,7 +3698,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "midian"
@@ -3691,7 +3716,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "midian"
@@ -3708,7 +3733,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "Patriarchal",
     "region": "mesopotamia",
     "genealogy": {
       "father": "midian"
@@ -4003,7 +4028,8 @@
       ]
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 147
     },
     "gender": "male",
     "first_reference": "Genesis 25:19-34",
@@ -4633,7 +4659,8 @@
       ]
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 110
     },
     "gender": "male",
     "disambiguation": "son of Israel (Gen 30:24-25)",
@@ -7826,7 +7853,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Exodus/Wilderness",
+    "era": "Post-Exile/Intertestamental",
     "region": "sinai-wilderness",
     "genealogy": {
       "father": "korah-3"
@@ -7917,7 +7944,8 @@
       "father": "nun"
     },
     "timeline": {
-      "precision": "era"
+      "precision": "era",
+      "lifespan_years": 110
     },
     "gender": "male",
     "disambiguation": "son of Nun (Exod 17:9-14)",
@@ -11823,7 +11851,8 @@
     "image": "generic-priest.png",
     "timeline": {
       "precision": "era",
-      "note": "1 Samuel 4:18 states Eli was 98 when he died and had judged Israel 40 years, but without a fixed calendar anchor for either point, so no specific date is plotted; conventionally placed in the 11th century BC."
+      "note": "1 Samuel 4:18 states Eli was 98 when he died and had judged Israel 40 years, but without a fixed calendar anchor for either point, so no specific date is plotted; conventionally placed in the 11th century BC.",
+      "lifespan_years": 98
     },
     "gender": "male",
     "disambiguation": "father of Hophni (1 Sam 1:3-25)",
@@ -14516,7 +14545,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Primeval History",
+    "era": "United Monarchy",
     "timeline": {
       "precision": "era"
     },
@@ -25462,7 +25491,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "amariah-2"
@@ -25499,7 +25528,7 @@
     ],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
       "father": "zadok-3"
     },
@@ -25569,7 +25598,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "libni"
@@ -26608,7 +26637,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "uzzi-2"
@@ -26643,7 +26672,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -26661,7 +26690,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -26679,7 +26708,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Post-Exile/Intertestamental",
     "region": "canaan-israel",
     "genealogy": {
       "father": "izrahiah"
@@ -35666,7 +35695,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
       "father": "jeiel-5"
     },

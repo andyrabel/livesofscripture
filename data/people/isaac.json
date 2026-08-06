@@ -7,7 +7,8 @@
   "era": "Patriarchal",
   "region": "canaan-israel",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 180
   },
   "geographic_setting": [
     "Canaan",

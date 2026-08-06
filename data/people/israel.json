@@ -9,7 +9,8 @@
   "testament": "OT",
   "era": "Patriarchal",
   "timeline": {
-    "precision": "era"
+    "precision": "era",
+    "lifespan_years": 147
   },
   "geographic_setting": [
     "Beersheba",
