@@ -2700,7 +2700,8 @@ async function renderTimelinePage() {
       if (w >= TIMELINE_LABEL_MIN_WIDTH) {
         const label = document.createElement("span");
         label.className = "timeline-bar__label";
-        label.textContent = p.name;
+        const stated = timelineStatedLifespan(p);
+        label.textContent = stated != null ? `${p.name} (${stated} yrs)` : p.name;
         bar.appendChild(label);
       }
       bar.addEventListener("mousemove", (evt) => showTimelinePersonTooltip(evt, p, "mouse"));

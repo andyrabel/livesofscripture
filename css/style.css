@@ -1321,17 +1321,16 @@ body.connections-fullpage-active {
 }
 
 .timeline-note {
-  background: var(--color-surface);
-  border-left: 3px solid var(--color-accent);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  padding: 0.9rem 1.1rem;
-  font-size: 0.92rem;
+  margin: 0.6rem 0 0;
+  padding: 0 0 0 1.1rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
   color: var(--color-text-muted);
   max-width: 70ch;
 }
 
-.timeline-note strong {
-  color: var(--color-text);
+.timeline-note li {
+  margin-bottom: 0.2rem;
 }
 
 /* What's new */
