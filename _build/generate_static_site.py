@@ -218,7 +218,7 @@ def story_panel_html(version, story):
       </div>
       <div class="story-panel-footer">
         <button class="btn-story" data-copy-version="{version}">Copy</button>
-        <button class="btn-story" disabled title="Coming soon">&#128266; Read Aloud</button>
+        <button class="btn-story" data-read-version="{version}" disabled>&#128266; Read Aloud</button>
       </div>
     </div>"""
 

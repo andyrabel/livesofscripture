@@ -130,6 +130,72 @@ function initPersonStory() {
       }, 2000);
     });
   });
+
+  wrapper.querySelectorAll("[data-read-version]").forEach((btn) => {
+    btn.disabled = false;
+    btn.addEventListener("click", () => {
+      const panel = wrapper.querySelector(`.story-panel[data-version="${btn.dataset.readVersion}"]`);
+      const storyText = panel ? panel.querySelector(".story-text").innerText : "";
+      const personName = wrapper.dataset.personName || "";
+      readAloud(storyText, personName, btn);
+    });
+  });
+}
+
+// The site stores story text as plain, already-escaped prose (no markdown or
+// wiki-style links), but this guards against any inline markup that sneaks
+// into future content before it reaches the speech synthesizer.
+function stripLinks(text) {
+  return text
+    .replace(/\[\[([^\]|]+)\|[^\]]+\]\]/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
+
+function flashButton(button, message, isError) {
+  const original = button.dataset.originalLabel || button.textContent;
+  button.dataset.originalLabel = original;
+  button.textContent = message;
+  setTimeout(() => {
+    button.textContent = original;
+  }, 2000);
+}
+
+let currentReadButton = null;
+
+function resetReadButton(button) {
+  button.textContent = button.dataset.originalLabel || button.textContent;
+  button.classList.remove("reading");
+  if (currentReadButton === button) currentReadButton = null;
+}
+
+function readAloud(text, label, button) {
+  if (!("speechSynthesis" in window)) {
+    flashButton(button, "Not supported in this browser", true);
+    return;
+  }
+
+  const wasReadingThis = currentReadButton === button;
+
+  if (currentReadButton) resetReadButton(currentReadButton);
+
+  window.speechSynthesis.cancel();
+
+  if (wasReadingThis) return; // second click stops playback
+
+  const spoken = label ? `${label}. ${stripLinks(text)}` : stripLinks(text);
+  const utterance = new SpeechSynthesisUtterance(spoken);
+  utterance.rate = 0.95;
+
+  utterance.onend = () => resetReadButton(button);
+  utterance.onerror = () => resetReadButton(button);
+
+  button.dataset.originalLabel = button.dataset.originalLabel || button.textContent;
+
+  button.textContent = "⏹ Stop Reading";
+  button.classList.add("reading");
+  currentReadButton = button;
+
+  window.speechSynthesis.speak(utterance);
 }
 
 function matchesSearch(entry, query) {

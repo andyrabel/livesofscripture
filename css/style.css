@@ -495,6 +495,12 @@ main {
   cursor: not-allowed;
 }
 
+.btn-story.reading {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
+
 .devotional {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
