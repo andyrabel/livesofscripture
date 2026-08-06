@@ -358,11 +358,6 @@ main {
   gap: 0.4rem;
 }
 
-.person-portrait-col .first-reference {
-  margin: 0;
-  text-align: center;
-}
-
 .person-header img {
   width: 140px;
   height: 140px;
@@ -532,6 +527,7 @@ main {
   font-size: 0.9rem;
   color: var(--color-text-muted);
   font-style: italic;
+  margin: 0 0 0.5rem;
 }
 
 .genealogy-grid {

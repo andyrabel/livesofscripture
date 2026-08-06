@@ -19,6 +19,7 @@ to main and commits the regenerated output.
 """
 import html
 import json
+import random
 import re
 from datetime import date, timezone
 from pathlib import Path
@@ -198,10 +199,10 @@ def devotional_section(person):
     devotionals = person.get("devotionals")
     if not devotionals:
         return ""
-    items = "\n    ".join(f"<p>{esc(d)}</p>" for d in devotionals)
+    chosen = random.choice(devotionals)
     return f"""<section class="devotional">
     <h3>Thought for Today</h3>
-    {items}
+    <p>{esc(chosen)}</p>
   </section>"""
 
 
@@ -282,11 +283,11 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     parts.append(f"""<div class="person-header">
     <div class="person-portrait-col">
       {img_html}
-      {first_ref}
     </div>
     <div class="person-title">
       <h2>{esc(person["name"])}{gender_tag(person.get("gender"))}</h2>
       {alt_html}
+      {first_ref}
       <div class="tags">
         <span class="badge {testament_class}">{esc(person.get("testament", ""))}</span>
         {era_badge}
