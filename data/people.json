@@ -821,7 +821,7 @@
       "federal headship",
       "image of God"
     ],
-    "image": "generic-figure.png",
+    "image": "adam.png",
     "first_reference": "Genesis 2:20"
   },
   {
@@ -851,7 +851,7 @@
       "temptation and deception",
       "motherhood"
     ],
-    "image": "generic-woman.png",
+    "image": "eve.png",
     "first_reference": "Genesis 3:20"
   },
   {
@@ -1294,7 +1294,7 @@
       "covenant",
       "new beginning"
     ],
-    "image": "generic-figure.png",
+    "image": "noah.png",
     "first_reference": "Genesis 5:29-32"
   },
   {
@@ -4670,7 +4670,7 @@
       "family reconciliation",
       "famine relief"
     ],
-    "image": "generic-figure.png",
+    "image": "joseph.png",
     "first_reference": "Genesis 30:24-25"
   },
   {
@@ -11474,7 +11474,7 @@
       "compromised judge",
       "God's use of flawed people"
     ],
-    "image": "generic-warrior.png",
+    "image": "samson.png",
     "first_reference": "Judges 13:24"
   },
   {
@@ -12550,7 +12550,7 @@
       "God's power over human strength",
       "faith over fear"
     ],
-    "image": "generic-warrior.png",
+    "image": "goliath.png",
     "timeline": {
       "precision": "era",
       "note": "Goliath's death occurs early in Saul's reign, before David's own reign began, roughly the 11th century BC by the traditional United Monarchy chronology."
@@ -18248,7 +18248,7 @@
       "God's compassion",
       "reluctant prophet"
     ],
-    "image": "generic-prophet.png",
+    "image": "jonah.png",
     "timeline": {
       "precision": "era",
       "note": "2 Kings 14:25 places Jonah's earlier ministry under Jeroboam II of Israel, roughly the early-to-mid 700s BC, but no personal birth or death year is given, so no specific date is plotted."
@@ -47934,7 +47934,7 @@
       "prophecy",
       "God's protection"
     ],
-    "image": "generic-prophet.png",
+    "image": "daniel-2.png",
     "timeline": {
       "precision": "era",
       "note": "Daniel's story spans from Nebuchadnezzar's first deportation (c. 605 BC) into the reign of Cyrus of Persia (c. 530s BC), but no personal birth or death year is given, so no specific date is plotted."
@@ -49072,7 +49072,7 @@
       "confronting sin in high places",
       "martyrdom"
     ],
-    "image": "generic-prophet.png",
+    "image": "john.png",
     "first_reference": "Matthew 3:1-14"
   },
   {

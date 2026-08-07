@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head, mouth open as if crying out -->
+    <circle cx="100" cy="64" r="18"/>
+    <path d="M96 70 Q100 76 104 70" fill="#6b4a1f" stroke="none"/>
+    <!-- hairy camel-hair garment -->
+    <path d="M78 85 C78 80 122 80 122 85 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 85 L100 182"/>
+    <!-- leather belt -->
+    <path d="M80 125 L120 125"/>
+    <rect x="94" y="121" width="12" height="8" rx="1"/>
+    <!-- shaggy hair texture -->
+    <g stroke-width="2">
+      <path d="M84 96 L80 102 M92 94 L88 100 M100 93 L100 99 M108 94 L112 100 M116 96 L120 102"/>
+      <path d="M80 112 L75 118 M89 110 L84 116 M100 109 L100 115 M111 110 L116 116 M120 112 L125 118"/>
+      <path d="M76 145 L70 151 M87 143 L81 149 M100 142 L100 148 M113 143 L119 149 M124 145 L130 151"/>
+      <path d="M70 168 L63 174 M84 166 L77 172 M100 165 L100 171 M116 166 L123 172 M130 168 L137 174"/>
+    </g>
+    <!-- both arms raised in proclamation -->
+    <path d="M80 92 L58 62"/>
+    <path d="M120 92 L142 62"/>
+  </g>
+</svg>

@@ -56,10 +56,10 @@
     "God's act of clothing Adam and Eve after their sin, at the cost of an animal's life, is Scripture's first picture of atonement covering shame -- anticipating the greater covering Christ's own sacrifice provides."
   ],
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "adam.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding an apple.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon -- symbolic, no claim of likeness"
+    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
   },
   "review": {
     "human_reviewed": false,

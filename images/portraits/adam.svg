@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <circle cx="100" cy="64" r="18"/>
+    <!-- robe -->
+    <path d="M78 85 C78 80 122 80 122 85 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 85 L100 182"/>
+    <path d="M80 125 L120 125"/>
+    <!-- arm holding an apple -->
+    <path d="M122 93 L136 110"/>
+    <circle cx="140" cy="119" r="10"/>
+    <path d="M140 109 L140 103"/>
+    <path d="M140 105 C144 101 148 103 146 107"/>
+    <!-- other arm resting -->
+    <path d="M78 93 L64 116"/>
+  </g>
+</svg>

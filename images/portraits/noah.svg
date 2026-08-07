@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- rainbow -->
+    <g stroke-width="3">
+      <path d="M30 95 A70 70 0 0 1 170 95"/>
+      <path d="M42 95 A58 58 0 0 1 158 95"/>
+      <path d="M54 95 A46 46 0 0 1 146 95"/>
+    </g>
+    <!-- head -->
+    <circle cx="100" cy="70" r="20"/>
+    <!-- robe -->
+    <path d="M76 92 C76 87 124 87 124 92 L142 185 Q100 197 58 185 Z"/>
+    <path d="M100 92 L100 182"/>
+    <path d="M78 130 L122 130"/>
+    <!-- arm holding the ark -->
+    <path d="M120 100 L136 118"/>
+    <!-- ark: curved hull with a cabin and window -->
+    <g transform="translate(140,138)">
+      <path d="M-22 6 C-22 16 22 16 22 6 L18 -8 L-18 -8 Z"/>
+      <path d="M-12 -8 L-12 -18 L12 -18 L12 -8"/>
+      <circle cx="0" cy="-13" r="3"/>
+    </g>
+    <!-- other arm resting -->
+    <path d="M80 100 L66 122"/>
+  </g>
+</svg>

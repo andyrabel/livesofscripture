@@ -48,10 +48,10 @@
     "Even Noah, saved from the flood, still stumbled into sin afterward. Lord Jesus, I need Your grace again and again, every day."
   ],
   "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "file": "noah.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a small ark with a rainbow arcing overhead.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
   },
   "genealogy": {
     "father": "lamech-2",

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head, mouth open as if crying out -->
+    <circle cx="78" cy="62" r="16"/>
+    <path d="M74 68 Q78 72 82 68" fill="#6b4a1f" stroke="none"/>
+    <!-- robe -->
+    <path d="M60 82 C60 78 96 78 96 82 L110 185 Q78 196 46 185 Z"/>
+    <path d="M78 82 L78 182"/>
+    <path d="M62 118 L94 118"/>
+    <!-- both arms raised in proclamation -->
+    <path d="M62 89 L42 60"/>
+    <path d="M94 89 L114 60"/>
+    <!-- lion resting beside him -->
+    <g transform="translate(158,148)" stroke-width="3">
+      <!-- spiky mane -->
+      <path d="M24 0 L10.4 6 L12 20.8 L0 12 L-12 20.8 L-10.4 6 L-24 0 L-10.4 -6 L-12 -20.8 L0 -12 L12 -20.8 L10.4 -6 Z"/>
+      <!-- face -->
+      <circle cx="0" cy="0" r="11"/>
+      <!-- body -->
+      <path d="M-9 13 C-9 26 9 26 9 13"/>
+      <!-- legs -->
+      <path d="M-7 26 L-7 34 M7 26 L7 34"/>
+      <!-- tail with tuft -->
+      <path d="M9 20 C22 18 26 6 18 -2"/>
+      <circle cx="17" cy="-4" r="3" fill="#6b4a1f" stroke="none"/>
+    </g>
+  </g>
+</svg>

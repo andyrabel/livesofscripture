@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- flowing uncut hair -->
+    <path d="M84 50 C76 58 80 72 72 82"/>
+    <path d="M116 50 C124 58 120 72 128 82"/>
+    <!-- head -->
+    <circle cx="100" cy="58" r="17"/>
+    <!-- robe -->
+    <path d="M78 79 C78 74 122 74 122 79 L138 185 Q100 197 62 185 Z"/>
+    <path d="M100 79 L100 182"/>
+    <path d="M80 120 L120 120"/>
+    <!-- arms spread wide, pushing the pillars apart -->
+    <path d="M78 87 L38 82"/>
+    <path d="M122 87 L162 82"/>
+    <!-- left pillar, leaning outward -->
+    <g transform="rotate(-8 27 100)">
+      <path d="M15 40 L39 40"/>
+      <rect x="17" y="40" width="20" height="118"/>
+      <path d="M15 158 L39 158"/>
+      <path d="M23 46 L23 152 M31 46 L31 152"/>
+    </g>
+    <!-- right pillar, leaning outward -->
+    <g transform="rotate(8 173 100)">
+      <path d="M161 40 L185 40"/>
+      <rect x="163" y="40" width="20" height="118"/>
+      <path d="M161 158 L185 158"/>
+      <path d="M169 46 L169 152 M177 46 L177 152"/>
+    </g>
+  </g>
+</svg>

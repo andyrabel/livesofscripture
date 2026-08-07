@@ -49,10 +49,10 @@
     "Even after the fall, Eve trusted God for life, calling her son's birth a gift \"with the help of the LORD\" -- the same trust in God's ongoing goodness that the gospel calls every sinner east of Eden back to."
   ],
   "image": {
-    "file": "generic-woman.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
+    "file": "eve.png",
+    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a veiled robed silhouette figure, no attempted facial likeness, with a serpent coiling up toward her hand.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
   },
   "review": {
     "human_reviewed": false,

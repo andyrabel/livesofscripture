@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="#6b4a1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- veil -->
+    <path d="M76 58 C76 40 124 40 124 58 L130 100 L70 100 Z"/>
+    <!-- head -->
+    <circle cx="100" cy="64" r="18"/>
+    <!-- robe -->
+    <path d="M78 92 C78 87 122 87 122 92 L140 185 Q100 197 60 185 Z"/>
+    <path d="M100 92 L100 182"/>
+    <path d="M80 132 L120 132"/>
+    <!-- arm reaching toward the serpent -->
+    <path d="M122 100 L136 113"/>
+    <!-- serpent coiling upward, triangular head near her hand -->
+    <path d="M148 156 C138 148 152 140 142 132 C132 124 146 116 137 110"/>
+    <path d="M137 110 L130 103 143 102 Z" fill="#6b4a1f" stroke="none"/>
+    <path d="M136 103 L132 97 M136 103 L140 97"/>
+    <!-- other arm resting -->
+    <path d="M78 100 L64 123"/>
+  </g>
+</svg>
