@@ -113,3 +113,4 @@ reasons — references (e.g. "Genesis 12:1–3") only.
 
 Site code: no license file yet. Genealogy data derived from
 BradyStephenson/bible-data is CC BY 4.0 with attribution on the About page.
+
