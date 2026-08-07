@@ -51577,7 +51577,7 @@
   },
   {
     "person_id": "mary-4",
-    "name": "Mary, mother of John Mark",
+    "name": "Mary",
     "alt_names": [],
     "tier": "full",
     "testament": "NT",
@@ -51598,7 +51598,8 @@
       "children": [
         "mark"
       ]
-    }
+    },
+    "disambiguation": "mother of John Mark (Acts 12:12-17)"
   },
   {
     "person_id": "mark",
