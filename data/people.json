@@ -49,6 +49,7 @@
       "sonship"
     ],
     "image": "abraham.png",
+    "image2": "abraham.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 175
@@ -494,6 +495,7 @@
       "leadership"
     ],
     "image": "moses.png",
+    "image2": "moses.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 120
@@ -668,6 +670,7 @@
       "transition to kingship"
     ],
     "image": "samuel.png",
+    "image2": "samuel.png",
     "timeline": {
       "precision": "era"
     },
@@ -822,6 +825,7 @@
       "image of God"
     ],
     "image": "adam.png",
+    "image2": "adam.png",
     "first_reference": "Genesis 2:20"
   },
   {
@@ -852,6 +856,7 @@
       "motherhood"
     ],
     "image": "eve.png",
+    "image2": "eve.png",
     "first_reference": "Genesis 3:20"
   },
   {
@@ -1295,6 +1300,7 @@
       "new beginning"
     ],
     "image": "noah.png",
+    "image2": "noah.png",
     "first_reference": "Genesis 5:29-32"
   },
   {
@@ -4039,7 +4045,8 @@
       "wrestling with God",
       "family conflict and reconciliation"
     ],
-    "image": "generic-figure.png"
+    "image": "generic-figure.png",
+    "image2": "israel.png"
   },
   {
     "person_id": "ahuzzath",
@@ -4293,6 +4300,7 @@
       "family dysfunction"
     ],
     "image": "generic-woman.png",
+    "image2": "bilhah.png",
     "timeline": {
       "precision": "era"
     },
@@ -4498,6 +4506,7 @@
       "Jacob's blessing"
     ],
     "image": "generic-figure.png",
+    "image2": "naphtali.png",
     "first_reference": "Genesis 30:8"
   },
   {
@@ -4671,6 +4680,7 @@
       "famine relief"
     ],
     "image": "joseph.png",
+    "image2": "joseph.png",
     "first_reference": "Genesis 30:24-25"
   },
   {
@@ -7956,6 +7966,7 @@
       "leadership succession"
     ],
     "image": "generic-warrior.png",
+    "image2": "joshua.png",
     "first_reference": "Exodus 17:9-14"
   },
   {
@@ -9215,6 +9226,7 @@
       "divine judgment"
     ],
     "image": "generic-figure.png",
+    "image2": "abiram.png",
     "first_reference": "Numbers 16:1-27"
   },
   {
@@ -9661,7 +9673,8 @@
       "inheritance and legacy",
       "God's responsiveness to earnest requests"
     ],
-    "image": "generic-figure.png"
+    "image": "generic-figure.png",
+    "image2": "zelophehad.png"
   },
   {
     "person_id": "mahlah",
@@ -10809,7 +10822,8 @@
       "unexpected instruments of judgment",
       "the folly of relying on human strength"
     ],
-    "image": "generic-warrior.png"
+    "image": "generic-warrior.png",
+    "image2": "sisera.png"
   },
   {
     "person_id": "deborah-2",
@@ -11075,7 +11089,8 @@
       "God's power over human strength",
       "the cost of cruelty"
     ],
-    "image": "generic-king.png"
+    "image": "generic-king.png",
+    "image2": "zebah.png"
   },
   {
     "person_id": "zalmunna",
@@ -11094,7 +11109,8 @@
       "God's power over human strength",
       "the cost of cruelty"
     ],
-    "image": "generic-king.png"
+    "image": "generic-king.png",
+    "image2": "zalmunna.png"
   },
   {
     "person_id": "jether",
@@ -11475,6 +11491,7 @@
       "God's use of flawed people"
     ],
     "image": "samson.png",
+    "image2": "samson.png",
     "first_reference": "Judges 13:24"
   },
   {
@@ -12551,6 +12568,7 @@
       "faith over fear"
     ],
     "image": "goliath.png",
+    "image2": "goliath.png",
     "timeline": {
       "precision": "era",
       "note": "Goliath's death occurs early in Saul's reign, before David's own reign began, roughly the 11th century BC by the traditional United Monarchy chronology."
@@ -12668,6 +12686,7 @@
       "worship"
     ],
     "image": "generic-prophet.png",
+    "image2": "gad-2.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Gad; his appearances span from David's fugitive years to his old age, roughly the mid-1000s to mid-900s BC."
@@ -14139,7 +14158,8 @@
       "family betrayal",
       "God's justice for the wronged"
     ],
-    "image": "generic-woman.png"
+    "image": "generic-woman.png",
+    "image2": "tamar-2.png"
   },
   {
     "person_id": "jonadab",
@@ -16428,6 +16448,7 @@
       "messianic line"
     ],
     "image": "generic-king.png",
+    "image2": "rehoboam.png",
     "timeline": {
       "precision": "date",
       "born": -972,
@@ -17051,6 +17072,7 @@
       "injustice"
     ],
     "image": "generic-king.png",
+    "image2": "ahab.png",
     "timeline": {
       "precision": "era",
       "note": "Israel's regnal formula (unlike Judah's) gives reign length and synchronism to Judah's king but no accession age, so Ahab's own birth year is not calculable; his reign is conventionally placed c. 874-853 BC."
@@ -17206,6 +17228,7 @@
       "discouragement"
     ],
     "image": "generic-prophet.png",
+    "image2": "elijah.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given — Elijah did not die but was taken up in a whirlwind — so no specific date is plotted; his ministry falls under Ahab through Ahaziah, roughly the mid-800s BC."
@@ -17519,6 +17542,7 @@
       "divine judgment"
     ],
     "image": "generic-king.png",
+    "image2": "ahaziah.png",
     "first_reference": "1 Kings 22:40-51"
   },
   {
@@ -18249,6 +18273,7 @@
       "reluctant prophet"
     ],
     "image": "jonah.png",
+    "image2": "jonah.png",
     "timeline": {
       "precision": "era",
       "note": "2 Kings 14:25 places Jonah's earlier ministry under Jeroboam II of Israel, roughly the early-to-mid 700s BC, but no personal birth or death year is given, so no specific date is plotted."
@@ -18575,7 +18600,8 @@
       "God's sovereignty over nations",
       "the cost of compromised faith"
     ],
-    "image": "generic-king.png"
+    "image": "generic-king.png",
+    "image2": "tiglath-pileser.png"
   },
   {
     "person_id": "hoshea",
@@ -19029,6 +19055,7 @@
       "suffering servant"
     ],
     "image": "generic-prophet.png",
+    "image2": "isaiah.png",
     "timeline": {
       "precision": "era",
       "note": "Isaiah 1:1 dates his ministry across the reigns of Uzziah, Jotham, Ahaz, and Hezekiah (roughly the mid-700s to early 600s BC), but gives no personal birth or death year, so no specific date is plotted."
@@ -22141,6 +22168,7 @@
       "messianic line"
     ],
     "image": "generic-figure.png",
+    "image2": "zerubbabel.png",
     "gender": "male",
     "first_reference": "1 Chronicles 3:19"
   },
@@ -37053,6 +37081,7 @@
       "new covenant"
     ],
     "image": "generic-prophet.png",
+    "image2": "jeremiah-6.png",
     "timeline": {
       "precision": "era",
       "note": "Jeremiah 1:2-3 dates his ministry from Josiah's 13th year to Jerusalem's fall (c. 627-586 BC), an unusually well-fixed ministry span, but no personal birth or death year is given, so no specific date is plotted."
@@ -38643,6 +38672,7 @@
       "messianic hope"
     ],
     "image": "generic-prophet.png",
+    "image2": "haggai.png",
     "timeline": {
       "precision": "era",
       "note": "Haggai's four oracles are each dated to a specific month and day in the second year of Darius I of Persia — August through December 520 BC — an unusually precise ministry window, though his own birth or death year is not recorded, so no specific date is plotted."
@@ -45362,7 +45392,8 @@
       "providence behind the scenes",
       "dignity and refusal"
     ],
-    "image": "generic-queen.png"
+    "image": "generic-queen.png",
+    "image2": "vashti.png"
   },
   {
     "person_id": "mehuman",
@@ -46029,6 +46060,7 @@
       "God's sovereignty in the whirlwind"
     ],
     "image": "generic-figure.png",
+    "image2": "job.png",
     "genealogy": {
       "children": [
         "jemimah",
@@ -47764,6 +47796,7 @@
       "restoration"
     ],
     "image": "generic-prophet.png",
+    "image2": "ezekiel.png",
     "timeline": {
       "precision": "era",
       "note": "Ezekiel 1:1-2 dates his call to the fifth year of King Jehoiachin's exile (c. 593 BC), and his final dated oracle to c. 571 BC, but no personal birth or death year is given, so no specific date is plotted."
@@ -47935,6 +47968,7 @@
       "God's protection"
     ],
     "image": "daniel-2.png",
+    "image2": "daniel-2.png",
     "timeline": {
       "precision": "era",
       "note": "Daniel's story spans from Nebuchadnezzar's first deportation (c. 605 BC) into the reign of Cyrus of Persia (c. 530s BC), but no personal birth or death year is given, so no specific date is plotted."
@@ -48042,6 +48076,7 @@
       "God's deliverance"
     ],
     "image": "generic-figure.png",
+    "image2": "abed-nego.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19"
   },
@@ -48478,6 +48513,7 @@
       "God's joy"
     ],
     "image": "generic-prophet.png",
+    "image2": "zephaniah-3.png",
     "timeline": {
       "precision": "era",
       "note": "Zephaniah 1:1 dates his ministry to the reign of Josiah, likely its earlier years before the 622 BC reforms, but gives no personal birth or death year, so no specific date is plotted."
@@ -48999,6 +49035,7 @@
       "the cross"
     ],
     "image": "generic-woman.png",
+    "image2": "mary.png",
     "first_reference": "Matthew 1:16-24"
   },
   {
@@ -49073,6 +49110,7 @@
       "martyrdom"
     ],
     "image": "john.png",
+    "image2": "john.png",
     "first_reference": "Matthew 3:1-14"
   },
   {
@@ -49163,6 +49201,7 @@
       "apostolic writing"
     ],
     "image": "generic-figure.png",
+    "image2": "john-2.png",
     "first_reference": "Matthew 4:21"
   },
   {
@@ -49259,7 +49298,8 @@
       "the resurrection",
       "Christ's deity"
     ],
-    "image": "generic-figure.png"
+    "image": "generic-figure.png",
+    "image2": "thomas.png"
   },
   {
     "person_id": "james-2",
@@ -49384,6 +49424,7 @@
       "family of Jesus"
     ],
     "image": "generic-figure.png",
+    "image2": "james-3.png",
     "first_reference": "Matthew 13:55"
   },
   {
@@ -49655,6 +49696,7 @@
       "resurrection witness"
     ],
     "image": "generic-woman.png",
+    "image2": "mary-magdalene.png",
     "gender": "female",
     "first_reference": "Matthew 27:56-61"
   },
@@ -49675,6 +49717,7 @@
       "burial of Christ"
     ],
     "image": "generic-figure.png",
+    "image2": "joseph-7.png",
     "gender": "male",
     "disambiguation": "(Matt 27:57-59)",
     "first_reference": "Matthew 27:57-59"
@@ -51622,6 +51665,7 @@
       "usefulness after setback"
     ],
     "image": "generic-figure.png",
+    "image2": "mark.png",
     "gender": "male",
     "first_reference": "Acts 12:12-25"
   },
