@@ -2702,6 +2702,7 @@
       "consequences"
     ],
     "image": "generic-figure.png",
+    "image2": "lot.png",
     "timeline": {
       "precision": "era"
     },
@@ -7953,6 +7954,7 @@
       "worship and song"
     ],
     "image": "generic-woman.png",
+    "image2": "miriam.png",
     "first_reference": "Exodus 15:20-21"
   },
   {
@@ -8785,6 +8787,7 @@
       "wholehearted devotion"
     ],
     "image": "generic-warrior.png",
+    "image2": "caleb.png",
     "gender": "male",
     "disambiguation": "son of Jephunneh (Num 13:6-30)",
     "first_reference": "Numbers 13:6-30"
@@ -17362,6 +17365,7 @@
       "honesty"
     ],
     "image": "generic-prophet.png",
+    "image2": "elisha.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Elisha; his ministry spans several Israelite kings' reigns, roughly the mid-800s to early 700s BC."
