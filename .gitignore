@@ -1,4 +1,5 @@
 _build/
+images/portraits/_drafts/
 .venv/
 .DS_Store
 *.pyc

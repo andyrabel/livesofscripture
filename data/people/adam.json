@@ -65,6 +65,7 @@
     "prompt_image_source": null,
     "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
   },
+  "image2": "adam.png",
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",
