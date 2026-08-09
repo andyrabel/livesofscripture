@@ -793,6 +793,7 @@
       "providence"
     ],
     "image": "zipporah.png",
+    "image2": "zipporah.png",
     "timeline": {
       "precision": "era"
     },
@@ -7768,6 +7769,7 @@
       "consequence for disobedience"
     ],
     "image": "generic-priest.png",
+    "image2": "nadab.png",
     "timeline": {
       "precision": "era"
     },
@@ -8081,6 +8083,7 @@
       "the tabernacle"
     ],
     "image": "generic-figure.png",
+    "image2": "bezalel.png",
     "first_reference": "Exodus 31:2"
   },
   {
@@ -11382,6 +11385,7 @@
       "the cost of sin's ripple effects"
     ],
     "image": "generic-warrior.png",
+    "image2": "jephthah.png",
     "gender": "male",
     "first_reference": "Judges 11:1-40"
   },
