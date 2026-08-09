@@ -24,7 +24,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **02** — `cain` (Cain); `abel` (Abel); `aaron` (Aaron); `esther` (Esther)
 - [x] **03** — `gideon` (Gideon); `saul` (Saul); `isaac` (Isaac); `sarah` (Sarah)
 - [x] **04** — `matthew` (Matthew); `andrew` (Andrew); `elizabeth` (Elizabeth); `esau` (Esau)
-- [ ] **05** — `leah` (Leah); `rachel` (Rachel); `hagar` (Hagar); `ishmael` (Ishmael)
+- [x] **05** — `leah` (Leah); `rachel` (Rachel); `hagar` (Hagar); `ishmael` (Ishmael)
 - [ ] **06** — `lot` (Lot); `caleb` (Caleb); `miriam` (Miriam); `elisha` (Elisha)
 - [ ] **07** — `jezebel` (Jezebel); `bathsheba` (Bathsheba); `jonathan` (Jonathan); `abigail` (Abigail)
 - [ ] **08** — `absalom` (Absalom); `rahab` (Rahab); `timothy` (Timothy); `stephen` (Stephen)

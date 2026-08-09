@@ -287,6 +287,7 @@
       "outsider"
     ],
     "image": "hagar.png",
+    "image2": "hagar.png",
     "timeline": {
       "precision": "era"
     },
@@ -344,6 +345,7 @@
       "outsider blessing"
     ],
     "image": "ishmael.png",
+    "image2": "ishmael.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 137
@@ -4214,6 +4216,7 @@
       "beloved yet barren"
     ],
     "image": "generic-woman.png",
+    "image2": "rachel.png",
     "timeline": {
       "precision": "era"
     },
@@ -4245,6 +4248,7 @@
       "the messianic line"
     ],
     "image": "generic-woman.png",
+    "image2": "leah.png",
     "timeline": {
       "precision": "era"
     },
