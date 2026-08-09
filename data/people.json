@@ -48179,6 +48179,7 @@
       "the announcement of Christ's birth"
     ],
     "image": "generic-figure.png",
+    "image2": "gabriel.png",
     "first_reference": "Daniel 8:16"
   },
   {
@@ -52129,6 +52130,7 @@
       "avoiding factionalism"
     ],
     "image": "generic-figure.png",
+    "image2": "apollos.png",
     "gender": "male",
     "first_reference": "Acts 18:24"
   },
@@ -53121,6 +53123,7 @@
       "trustworthy leadership"
     ],
     "image": "generic-figure.png",
+    "image2": "titus.png",
     "gender": "male",
     "first_reference": "2 Corinthians 2:13"
   },
@@ -53160,6 +53163,7 @@
       "imprisonment for the gospel"
     ],
     "image": "generic-figure.png",
+    "image2": "epaphras.png",
     "first_reference": "Colossians 1:7"
   },
   {
