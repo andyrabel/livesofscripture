@@ -51,6 +51,7 @@
     "prompt_image_source": null,
     "caption": "Generic line-art icon -- symbolic, no claim of likeness"
   },
+  "image2": "cain.png",
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

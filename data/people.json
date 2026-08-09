@@ -13,6 +13,7 @@
       "atonement"
     ],
     "image": "aaron.png",
+    "image2": "aaron.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 123
@@ -885,6 +886,7 @@
       "God's justice and mercy"
     ],
     "image": "generic-figure.png",
+    "image2": "cain.png",
     "first_reference": "Genesis 4:1-25"
   },
   {
@@ -926,6 +928,7 @@
       "blood that cries out"
     ],
     "image": "generic-figure.png",
+    "image2": "abel.png",
     "first_reference": "Genesis 4:2-25"
   },
   {
@@ -45721,6 +45724,7 @@
       "\"for such a time as this\""
     ],
     "image": "generic-queen.png",
+    "image2": "esther.png",
     "first_reference": "Esther 2:7-22"
   },
   {
