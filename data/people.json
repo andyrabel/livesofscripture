@@ -112,6 +112,7 @@
       "restoration"
     ],
     "image": "bathsheba.png",
+    "image2": "bathsheba.png",
     "timeline": {
       "precision": "era"
     },
@@ -446,6 +447,7 @@
       "selflessness"
     ],
     "image": "jonathan.png",
+    "image2": "jonathan.png",
     "timeline": {
       "precision": "era"
     },
@@ -12793,6 +12795,7 @@
       "discernment"
     ],
     "image": "generic-woman.png",
+    "image2": "abigail.png",
     "gender": "female",
     "disambiguation": "wife of David (1 Sam 25:3-42)",
     "first_reference": "1 Samuel 25:3-42"
@@ -17139,6 +17142,7 @@
       "judgment"
     ],
     "image": "generic-queen.png",
+    "image2": "jezebel.png",
     "gender": "female",
     "disambiguation": "daughter of Ethbaal (1 Kings 16:31)",
     "first_reference": "1 Kings 16:31"
