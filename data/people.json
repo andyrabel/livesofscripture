@@ -50882,6 +50882,7 @@
       "priorities"
     ],
     "image": "generic-woman.png",
+    "image2": "martha.png",
     "gender": "female",
     "first_reference": "Luke 10:38-41"
   },
@@ -50902,6 +50903,7 @@
       "sitting at Jesus's feet"
     ],
     "image": "generic-woman.png",
+    "image2": "mary-2.png",
     "gender": "female",
     "disambiguation": "(Luke 10:39-42)",
     "first_reference": "Luke 10:39-42"
@@ -51004,6 +51006,7 @@
       "courage growing over time"
     ],
     "image": "generic-figure.png",
+    "image2": "nicodemus.png",
     "gender": "male",
     "first_reference": "John 3:1-9"
   },
@@ -51191,6 +51194,7 @@
       "second chances"
     ],
     "image": "generic-figure.png",
+    "image2": "barnabas.png",
     "gender": "male",
     "first_reference": "Acts 4:36"
   },
