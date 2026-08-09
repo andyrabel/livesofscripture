@@ -18792,6 +18792,7 @@
       "pride"
     ],
     "image": "generic-king.png",
+    "image2": "hezekiah.png",
     "timeline": {
       "precision": "date",
       "born": -740,
@@ -19897,6 +19898,7 @@
       "pride and humbling"
     ],
     "image": "generic-king.png",
+    "image2": "nebuchadnezzar.png",
     "genealogy": {
       "children": [
         "belshazzar"
@@ -48062,6 +48064,7 @@
       "God's deliverance"
     ],
     "image": "generic-figure.png",
+    "image2": "shadrach.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19"
   },
@@ -48083,6 +48086,7 @@
       "God's deliverance"
     ],
     "image": "generic-figure.png",
+    "image2": "meshach.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19"
   },
