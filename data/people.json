@@ -46601,6 +46601,7 @@
       "messianic prophecy"
     ],
     "image": "generic-prophet.png",
+    "image2": "micah-5.png",
     "timeline": {
       "precision": "era",
       "note": "Micah 1:1 dates his ministry across the reigns of Jotham, Ahaz, and Hezekiah, roughly the mid-to-late 700s BC, but gives no personal birth or death year, so no specific date is plotted."
@@ -48508,6 +48509,7 @@
       "comfort for the oppressed"
     ],
     "image": "generic-prophet.png",
+    "image2": "nahum.png",
     "timeline": {
       "precision": "era",
       "note": "Nahum's reference to Thebes' earlier fall (663 BC) and his announcement of Nineveh's coming destruction (612 BC) place his ministry somewhere in that window, but no personal birth or death year is given, so no specific date is plotted."
@@ -48531,6 +48533,7 @@
       "honest questions"
     ],
     "image": "generic-prophet.png",
+    "image2": "habakkuk.png",
     "timeline": {
       "precision": "era",
       "note": "Habakkuk's description of the Babylonians (Chaldeans) as a rising power points to the late 600s BC, shortly before Judah's fall, but no personal birth or death year is given, so no specific date is plotted."
@@ -48853,6 +48856,7 @@
       "coming messenger"
     ],
     "image": "generic-prophet.png",
+    "image2": "malachi.png",
     "timeline": {
       "precision": "era",
       "note": "Malachi addresses a functioning, already-rebuilt temple and weary post-exilic routine, placing him after Haggai and Zechariah, likely the 5th century BC, but no specific date or personal birth/death year is recorded."

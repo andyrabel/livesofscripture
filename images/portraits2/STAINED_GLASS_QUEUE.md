@@ -33,7 +33,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **11** — `nebuchadnezzar` (Nebuchadnezzar); `shadrach` (Shadrach); `meshach` (Meshach); `hezekiah` (Hezekiah)
 - [x] **12** — `josiah` (Josiah); `ezra` (Ezra); `nehemiah` (Nehemiah); `haman` (Haman)
 - [x] **13** — `mordecai-2` (Mordecai); `ahasuerus` (Ahasuerus); `hosea` (Hosea); `amos` (Amos)
-- [ ] **14** — `micah-5` (Micah); `habakkuk` (Habakkuk); `nahum` (Nahum); `malachi` (Malachi)
+- [x] **14** — `micah-5` (Micah); `habakkuk` (Habakkuk); `nahum` (Nahum); `malachi` (Malachi)
 - [ ] **15** — `joel-11` (Joel); `zechariah-13` (Zechariah); `obadiah-12` (Obadiah); `caiaphas` (Caiaphas)
 - [ ] **16** — `barabbas` (Barabbas); `herod-2` (Herod Antipas); `herodias` (Herodias); `annas` (Annas)
 - [ ] **17** — `jairus` (Jairus); `priscilla` (Priscilla); `aquila` (Aquila); `silas` (Silas)
