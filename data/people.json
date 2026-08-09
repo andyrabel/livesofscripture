@@ -3032,6 +3032,7 @@
       "ancestor of a nation"
     ],
     "image": "generic-figure.png",
+    "image2": "moab.png",
     "first_reference": "Genesis 19:37"
   },
   {
@@ -4288,6 +4289,7 @@
       "the twelve tribes"
     ],
     "image": "generic-woman.png",
+    "image2": "zilpah.png",
     "timeline": {
       "precision": "era"
     },
@@ -4558,6 +4560,7 @@
       "Jacob's blessing"
     ],
     "image": "generic-figure.png",
+    "image2": "gad.png",
     "first_reference": "Genesis 30:11"
   },
   {
@@ -6218,6 +6221,7 @@
       "God's blessing amid displacement"
     ],
     "image": "generic-woman.png",
+    "image2": "asenath.png",
     "timeline": {
       "precision": "era"
     },
