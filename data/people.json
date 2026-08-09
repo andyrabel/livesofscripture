@@ -49555,6 +49555,7 @@
       "mockery of Christ"
     ],
     "image": "generic-king.png",
+    "image2": "herod-2.png",
     "timeline": {
       "precision": "era"
     },
@@ -49576,6 +49577,7 @@
       "complicity in murder"
     ],
     "image": "generic-woman.png",
+    "image2": "herodias.png",
     "timeline": {
       "precision": "era"
     },
@@ -49698,6 +49700,7 @@
       "the innocent for the guilty"
     ],
     "image": "generic-figure.png",
+    "image2": "barabbas.png",
     "gender": "male",
     "first_reference": "Matthew 27:16-26"
   },
@@ -50135,6 +50138,7 @@
       "opposition to the apostles"
     ],
     "image": "generic-priest.png",
+    "image2": "annas.png",
     "first_reference": "Luke 3:2"
   },
   {
