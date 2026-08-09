@@ -50,8 +50,10 @@ subject here is a biblical figure, not a post-biblical Christian.
 
 ### Doctrinal Position (decided 2026-08-06)
 
-All content — full-entry stories, `christ_connections`, and especially
-`devotionals` — should be written from the perspective of **conservative
+All content — full-entry stories and especially `devotionals` (see the
+Coverage and Two-Tier Depth section below; `christ_connections`, formerly
+named here too, was retired 2026-08-09) — should be written from the
+perspective of **conservative
 evangelical theology in the Open Brethren (Plymouth Brethren / Gospel Hall)
 tradition**. Key commitments to write consistently with:
 - The authority and sufficiency of Scripture.
@@ -116,9 +118,10 @@ narrative to tell. Two tiers:
 For narratively-documented figures — enough text in Scripture to support two
 description fields (decided 2026-08-01, superseding the earlier three-field
 draft below): `adult_story` and `family_friendly_summary` — no separate
-`family_story` field. Gets: those two descriptions plus `christ_connections`
-(added 2026-08-03, see below), image, memorials (if any — see note below),
-significant events, connections/genealogy edges, quiz questions.
+`family_story` field. Gets: those two descriptions plus `devotionals`
+(added 2026-08-05, formalized here 2026-08-09, see below), image, memorials
+(if any — see note below), significant events, connections/genealogy edges,
+quiz questions.
 
 **`adult_story`** (target ~200 words, **250 words max**, length revised
 2026-08-03): the full-length treatment, keeping Scripture's own honesty
@@ -135,28 +138,57 @@ back to God") without spelling out adult content (adultery, murder, sexual
 sin, graphic violence) that isn't appropriate to hand an 8-year-old. Full
 entries only — stub entries have no story to summarize.
 
-**`christ_connections`** (added 2026-08-03, voice revised 2026-08-03): an
-array of up to 3 short (1-2 sentence) phrases on how this person points to
-Christ or reminds us of the gospel — per the Theological Requirements'
-testament-aware framing (OT figures point forward per Romans 4 / Hebrews 11,
-NT figures relate to Christ's accomplished work directly). Full-tier only.
-Fewer than 3 entries is fine when that's all the text genuinely supports —
-do not pad to hit the count. This supersedes the earlier "one paragraph per
-person" draft of this idea in favor of several short, discrete phrases.
+**`devotionals`** (added 2026-08-05 as a pilot alongside the older
+`christ_connections` field; formalized as the sole schema field 2026-08-09
+once `christ_connections` was retired — see the retirement note below): an
+array of 1-3 short phrases on how this person points to Christ or reminds
+us of the gospel — per the Theological Requirements' testament-aware
+framing (OT figures point forward per Romans 4 / Hebrews 11, NT figures
+relate to Christ's accomplished work directly). Full-tier only. Fewer than
+3 entries is fine when that's all the text genuinely supports — do not pad
+to hit the count.
 
-**Voice (decided 2026-08-03, superseding the original draft's
-explanatory/analytical tone):** devotional and worshipful, not
-teaching-mode. Written in first-person prayer voice, addressed to Christ
-("Lord Jesus, You are...") rather than describing the connection in the
-third person ("David's throne prefigures..."). Simple, short sentences —
-plain words over theological vocabulary (e.g. "found" not "sought," "win"
-not "victory," "picked" not "chose"). Still text-grounded: each phrase
-should trace to a specific, real detail from the person's `adult_story`
-(an event, a line, a choice), never generic praise that could apply to
-anyone. Example (David):
-- "Lord Jesus, You are David's greater Son, and Your throne will never end. Every earthly king has let me down — You never will."
-- "David had blood on his hands, and You still forgave him. If grace can cover a murderer, Lord, it can cover me."
-- "You didn't pick David for how he looked. You looked at his heart. You look at mine the same way — and You love what You see enough to save it."
+**Eligibility:** only for *major* people, meaning at least one of: 3 or
+more real Bible references (judged by actual narrative substance/verse
+mentions, not literal `references`-array length — that array stores
+citation *ranges*, e.g. `"Ruth 1-4"` is one entry covering four chapters,
+so a literal array-length check structurally undercounts almost everyone
+and should not be used on its own), has a Bible book named after them, or
+is a known writer of a Bible book. Skip anyone who doesn't clear this bar,
+even if they're otherwise full-tier.
+
+**Voice (decided 2026-08-06, superseding an original direct-prayer-address
+draft):** first-person-plural, "we/us/may we" — narrate the person's story
+in third person, then turn it toward the reader ("may we trust like that
+too," "Jesus leads us out of something even bigger"). Do **not** address
+Jesus directly in second person ("Lord Jesus, You are...") — that reads too
+much like putting words in the reader's mouth as an actual prayer. "We/us"
+puts the speaker on equal footing with the reader rather than singling out
+an individual "me." No age-segregating references (nothing that only makes
+sense read aloud to a child) — the same phrase must work for an adult and
+an 8-year-old in the same sitting. Every phrase must name "Jesus" (or
+"God" where the phrase is really about the Father's action) somewhere in
+that same phrase, since phrases may be shown independently and can't rely
+on an earlier phrase in the array for context. Target ~20 words per
+phrase, 28 words max. Still text-grounded: each phrase should trace to a
+specific, real detail from the person's `adult_story` (an event, a line, a
+choice), never generic praise that could apply to anyone. Renders on
+person-detail pages as a "Thought for Today" section; the static
+pre-renderer always uses the array's first phrase for determinism, while
+client-side code may rotate entries for visitors. Example (Noah):
+- "Noah walked with God while the whole world turned away. May we stay faithful too, even when no one else around us is."
+- "God judged the world but saved Noah's family through the ark. Jesus is our ark, the one safe place from judgment."
+- "Even Noah, saved from the flood, still stumbled into sin afterward. We don't need to be saved again — we simply need God's grace again, every day."
+
+**`christ_connections` retired 2026-08-09.** An earlier field with the same
+Christ-pointing purpose but a different voice (first-person direct prayer,
+e.g. "Lord Jesus, You are David's greater Son") and up to 3 phrases per
+person. It was piloted alongside `devotionals` starting 2026-08-05, never
+actually rendered anywhere on the site, and was fully removed from all 420
+person entries that had it on 2026-08-09 in favor of `devotionals`
+covering this role going forward. May be reintroduced later for a
+*different* purpose — if so, treat that as a new field, not a revival of
+this one's old voice/rules.
 
 **Promotion rule** (decided 2026-08-03): a person belongs in the full tier
 whenever Scripture narrates something about them beyond a bare name/parentage
@@ -234,10 +266,10 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
   "source_summary": "Brief factual summary grounded in the biblical text",
   "family_friendly_summary": "Up to 150 words, 8-and-up reading level.",
   "adult_story": "Up to 250 words. Family/relationship context is folded in here, not a separate field.",
-  "christ_connections": [
-    "Up to 3 short (1-2 sentence) phrases on how this person points to Christ or the gospel.",
+  "devotionals": [
+    "1-3 short we/us-voice phrases (~20 words, 28 max) on how this person points to Christ or the gospel.",
     "Old Testament figures point forward per Romans 4 / Hebrews 11 framing; New Testament figures relate to Christ's accomplished work directly.",
-    "Full-tier entries only. Fewer than 3 is fine if that's all the text supports — do not pad."
+    "Full-tier, eligible ('major') entries only. Fewer than 3 is fine if that's all the text supports — do not pad."
   ],
   "image": {
     "file": "elijah.jpg",
