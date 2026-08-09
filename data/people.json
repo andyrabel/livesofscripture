@@ -418,6 +418,7 @@
       "providence"
     ],
     "image": "jochebed.png",
+    "image2": "jochebed.png",
     "timeline": {
       "precision": "era"
     },
@@ -7815,6 +7816,7 @@
       "transition of leadership"
     ],
     "image": "generic-priest.png",
+    "image2": "eleazar.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Eleazar; his ministry spans from the wilderness wandering into the early settlement of Canaan, roughly the 15th-13th centuries BC depending on the framework used for the Exodus date."
@@ -7937,6 +7939,7 @@
       "priesthood"
     ],
     "image": "generic-priest.png",
+    "image2": "phinehas.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Phinehas; his defining act at Baal-peor falls in the wilderness period, with later appearances extending into the early settlement of Canaan."
@@ -10387,6 +10390,7 @@
       "greed"
     ],
     "image": "generic-figure.png",
+    "image2": "achan.png",
     "gender": "male",
     "first_reference": "Joshua 7:1-24"
   },
