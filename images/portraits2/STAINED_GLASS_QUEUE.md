@@ -1,5 +1,10 @@
 # Stained-glass portrait queue
 
+## Scope
+
+This document tracks ordered batches of devotional portraits to generate and
+the completion requirements for each batch.
+
 Canonical fame-first queue for people who have `devotionals` but have no
 stained-glass portrait yet. Eligibility was checked against the individual
 person JSON, `data/people.json`, and existing files in `images/portraits2`.

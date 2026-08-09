@@ -1,5 +1,10 @@
 # Lives of Scripture
 
+## Scope
+
+This README introduces the repository, its local workflow, layout, build
+scripts, deployment model, and data sources.
+
 A static, GitHub Pages-hosted reference profiling every person named in the
 Bible — patriarchs, judges, kings, prophets, apostles, and everyone else
 Scripture names, from Adam to the closing chapters of Revelation. Sibling
@@ -74,8 +79,8 @@ changes.
 - `generate_static_site.py` — the main build: reads `data/people.json` +
   `data/people/*.json` + `data/connections.json` and generates static
   `people/[id].html` pages, `sitemap.xml`, and the static-fallback person
-  grid embedded in `people.html`. **Run this (or push — CI does it) any
-  time person or connections data changes.**
+  grid embedded in `people.html`. **Run this locally any time person or
+  connections data changes, and commit the generated output with the data.**
 - `generate_disambiguation.py` — computes the `disambiguation` field
   (e.g. "son of Zebedee", "1 Chr 3:21") for people who share a name.
 - `infer_stub_eras.py` — propagates `era`/`region`/genealogy onto stub
@@ -92,10 +97,10 @@ Regeneration order when data changes: `infer_stub_eras.py` and
 
 ## Deployment
 
-`.github/workflows/build.yml` runs `generate_static_site.py` on every push
-to `main` and commits the regenerated `people/`, `sitemap.xml`, and
-`people.html` back to the branch. GitHub Pages serves `main` directly — no
-Actions-artifact deployment step.
+GitHub Pages serves `main` directly. Generated `people/`, `sitemap.xml`, and
+`people.html` files are built and committed locally. On every push to `main`,
+`.github/workflows/build.yml` regenerates them only to verify that the committed
+copies are current; it fails on any diff and never commits or pushes.
 
 ## Data sources
 
@@ -113,4 +118,3 @@ reasons — references (e.g. "Genesis 12:1–3") only.
 
 Site code: no license file yet. Genealogy data derived from
 BradyStephenson/bible-data is CC BY 4.0 with attribution on the About page.
-

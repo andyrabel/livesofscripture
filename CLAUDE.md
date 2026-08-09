@@ -1,5 +1,10 @@
 # LivesOfScripture.org — Project Instructions
 
+## Scope
+
+This document is the project-wide source of truth for content, architecture,
+data, build, and contribution conventions across the repository.
+
 ## Project Overview
 
 Build a static GitHub Pages website profiling every person named in the Bible —
@@ -793,16 +798,26 @@ Consequences for the file layout above:
   somewhere; **do not** treat it as the template to extend for new person-page
   features — extend `_build/generate_static_site.py`'s render functions
   instead, mirroring whatever markup/CSS classes are used.
-- `.github/workflows/build.yml` runs the generator on every push to `main`
-  and commits the regenerated `people/`, `sitemap.xml`, and `people.html`
-  output back to the branch GitHub Pages serves — this keeps deployment as
-  plain branch-served Pages (no switch to Actions-artifact deployment).
+- Generated static output is committed locally with its source-data changes.
+  `.github/workflows/build.yml` runs the generator on every push to `main` and
+  fails if `people/`, `sitemap.xml`, or `people.html` differs afterward. It
+  validates only and never commits or pushes. This avoids bot-created remote
+  commits while keeping deployment as plain branch-served GitHub Pages.
+- Static generation must remain deterministic so a clean checkout regenerates
+  byte-for-byte identical output. The pre-renderer uses the first devotional
+  entry, while client-side code may rotate entries for visitors. Sitemap output
+  omits volatile build-date metadata.
 - `robots.txt` explicitly allows `*` plus a belt-and-suspenders explicit
   `Allow: /` for named AI/LLM crawlers, and points to `sitemap.xml`.
 - Whenever `data/people.json`, `data/people/*.json`, or `data/connections.json`
   changes, re-run `python3 _build/generate_static_site.py` before committing
-  (or just push — CI does it) so the static output doesn't drift from the
-  source JSON.
+  and include all resulting `people/`, `sitemap.xml`, and `people.html` changes
+  in the same commit. CI rejects drift from the source JSON.
+
+### Markdown document convention
+
+Every Markdown file must start with a top-level title followed immediately by
+a `## Scope` section explaining what the document governs or describes.
 
 ---
 

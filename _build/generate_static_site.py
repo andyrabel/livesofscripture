@@ -13,22 +13,19 @@ canonical URL, and schema.org Person JSON-LD — so that content is visible
 to any client, JS or not. It also regenerates sitemap.xml and the static
 fallback grid embedded in people.html.
 
-Run after any change under data/. Re-run via `python3 _build/generate_static_site.py`.
-A GitHub Actions workflow (.github/workflows/build.yml) runs it on every push
-to main and commits the regenerated output.
+Run after any change under data/. Re-run via `python3 _build/generate_static_site.py`
+and commit its output with the source-data change. A GitHub Actions workflow
+(.github/workflows/build.yml) runs it on every push to main and fails if the
+committed generated output is stale; the workflow does not commit or push.
 """
 import html
 import json
-import random
 import re
-from datetime import date, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://livesofscripture.org"
 DEFAULT_OG_IMAGE = f"{SITE_URL}/images/social/og-image.png"
-BUILD_DATE = date.today().isoformat()
-
 NAV_PAGES = [
     ("index.html", "Home"),
     ("people.html", "People"),
@@ -199,7 +196,9 @@ def devotional_section(person):
     devotionals = person.get("devotionals")
     if not devotionals:
         return ""
-    chosen = random.choice(devotionals)
+    # Static output must be reproducible so CI can detect genuinely stale files.
+    # The client can still rotate devotionals dynamically; pre-render the first.
+    chosen = devotionals[0]
     return f"""<section class="devotional">
     <h3>Thought for Today</h3>
     <p>{esc(chosen)}</p>
@@ -532,7 +531,7 @@ def build_sitemap(index):
         urls.append((f'{SITE_URL}/people/{entry["person_id"]}.html', "monthly", priority))
 
     entries = "\n".join(
-        f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{BUILD_DATE}</lastmod>\n"
+        f"  <url>\n    <loc>{loc}</loc>\n"
         f"    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>"
         for loc, freq, prio in urls
     )

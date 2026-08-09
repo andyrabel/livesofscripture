@@ -1,5 +1,10 @@
 # Stained-glass portrait master prompt
 
+## Scope
+
+This document defines the canonical generation prompt and acceptance criteria
+for portraits stored in `images/portraits2`.
+
 Use this prompt verbatim for the `images/portraits2` series. Replace only the
 three bracketed values: `[BIBLE CHARACTER]`, `[DISPLAY NAME]`, and
 `[SYMBOLS / SCENE DETAILS]`.
