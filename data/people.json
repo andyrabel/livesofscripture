@@ -7089,6 +7089,7 @@
       "grace for outsiders"
     ],
     "image": "generic-warrior.png",
+    "image2": "naaman.png",
     "gender": "male",
     "disambiguation": "son of Bela (Gen 46:21)",
     "first_reference": "Genesis 46:21"
@@ -10687,6 +10688,7 @@
       "faithfulness"
     ],
     "image": "generic-warrior.png",
+    "image2": "othniel.png",
     "gender": "male",
     "first_reference": "Joshua 15:17"
   },
@@ -10933,6 +10935,7 @@
       "obedience"
     ],
     "image": "generic-warrior.png",
+    "image2": "barak.png",
     "timeline": {
       "precision": "era"
     },
@@ -11915,6 +11918,7 @@
       "mentorship"
     ],
     "image": "generic-priest.png",
+    "image2": "eli.png",
     "timeline": {
       "precision": "era",
       "note": "1 Samuel 4:18 states Eli was 98 when he died and had judged Israel 40 years, but without a fixed calendar anchor for either point, so no specific date is plotted; conventionally placed in the 11th century BC.",
