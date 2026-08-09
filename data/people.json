@@ -4004,6 +4004,7 @@
       "eponymous ancestor of Edom"
     ],
     "image": "generic-warrior.png",
+    "image2": "esau.png",
     "first_reference": "Genesis 25:25-34"
   },
   {
@@ -49146,6 +49147,7 @@
       "apostleship"
     ],
     "image": "generic-figure.png",
+    "image2": "andrew.png",
     "first_reference": "Matthew 4:18"
   },
   {
@@ -49235,6 +49237,7 @@
       "apostleship"
     ],
     "image": "generic-figure.png",
+    "image2": "matthew.png",
     "first_reference": "Matthew 9:9"
   },
   {
@@ -49954,6 +49957,7 @@
       "kinship with Mary"
     ],
     "image": "generic-woman.png",
+    "image2": "elizabeth.png",
     "timeline": {
       "precision": "era"
     },
