@@ -536,6 +536,7 @@
       "loyalty (hesed)"
     ],
     "image": "naomi.png",
+    "image2": "naomi.png",
     "timeline": {
       "precision": "era"
     },
@@ -49306,6 +49307,7 @@
       "apostleship"
     ],
     "image": "generic-figure.png",
+    "image2": "nathanael.png",
     "first_reference": "Matthew 10:3"
   },
   {
@@ -49695,6 +49697,7 @@
       "bearing the cross"
     ],
     "image": "generic-figure.png",
+    "image2": "simon-3.png",
     "gender": "male",
     "disambiguation": "father of Alexander (Matt 27:32)",
     "first_reference": "Matthew 27:32",
@@ -51339,6 +51342,7 @@
       "crossing boundaries"
     ],
     "image": "generic-figure.png",
+    "image2": "philip-3.png",
     "gender": "male",
     "disambiguation": "(Acts 6:5)",
     "first_reference": "Acts 6:5"
