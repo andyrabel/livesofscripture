@@ -49810,6 +49810,7 @@
       "resurrection power"
     ],
     "image": "generic-figure.png",
+    "image2": "jairus.png",
     "timeline": {
       "precision": "era"
     },
@@ -51900,6 +51901,7 @@
       "faithfulness"
     ],
     "image": "generic-figure.png",
+    "image2": "silas.png",
     "gender": "male",
     "first_reference": "Acts 15:22-40"
   },
@@ -52026,6 +52028,7 @@
       "hospitality"
     ],
     "image": "generic-figure.png",
+    "image2": "aquila.png",
     "gender": "male",
     "first_reference": "Acts 18:2-26"
   },
@@ -52053,6 +52056,7 @@
       "hospitality"
     ],
     "image": "generic-woman.png",
+    "image2": "priscilla.png",
     "gender": "female",
     "first_reference": "Acts 18:2-26"
   },
