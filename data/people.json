@@ -315,6 +315,7 @@
       "covenant continuity"
     ],
     "image": "isaac.png",
+    "image2": "isaac.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 180
@@ -706,6 +707,7 @@
       "laughter"
     ],
     "image": "sarah.png",
+    "image2": "sarah.png",
     "timeline": {
       "precision": "era",
       "lifespan_years": 127
@@ -11014,6 +11016,7 @@
       "faith imperfect but real"
     ],
     "image": "generic-warrior.png",
+    "image2": "gideon.png",
     "timeline": {
       "precision": "era"
     },
@@ -12185,6 +12188,7 @@
       "tragic decline"
     ],
     "image": "generic-king.png",
+    "image2": "saul.png",
     "timeline": {
       "precision": "era",
       "note": "1 Samuel 13:1 states Saul's age at accession and length of reign, but the Hebrew numbers are textually corrupt (widely noted as a gap/scribal error in the manuscripts); Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but neither number rests on the same firm footing as the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
