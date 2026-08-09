@@ -16535,6 +16535,7 @@
       "tragic death"
     ],
     "image": "generic-king.png",
+    "image2": "josiah.png",
     "timeline": {
       "precision": "date",
       "born": -648,
@@ -37217,6 +37218,7 @@
       "reform"
     ],
     "image": "generic-figure.png",
+    "image2": "nehemiah.png",
     "first_reference": "Ezra 2:2"
   },
   {
@@ -38774,6 +38776,7 @@
       "covenant renewal"
     ],
     "image": "generic-priest.png",
+    "image2": "ezra.png",
     "timeline": {
       "precision": "era",
       "note": "Ezra 7:8 dates his return to Jerusalem to the seventh year of King Artaxerxes of Persia, but scholars genuinely dispute which Artaxerxes is meant (Artaxerxes I, c. 458 BC, or Artaxerxes II, c. 398 BC), so no specific date is plotted."
@@ -45848,6 +45851,7 @@
       "poetic judgment"
     ],
     "image": "generic-figure.png",
+    "image2": "haman.png",
     "gender": "male",
     "first_reference": "Esther 3:1-15"
   },
