@@ -38571,6 +38571,7 @@
       "reversal of fortune"
     ],
     "image": "generic-king.png",
+    "image2": "ahasuerus.png",
     "first_reference": "Ezra 4:6"
   },
   {
@@ -45667,6 +45668,7 @@
       "reversal of fortune"
     ],
     "image": "generic-figure.png",
+    "image2": "mordecai-2.png",
     "first_reference": "Esther 2:5-22"
   },
   {
@@ -48239,6 +48241,7 @@
       "covenant"
     ],
     "image": "generic-prophet.png",
+    "image2": "hosea.png",
     "timeline": {
       "precision": "era",
       "note": "Hosea 1:1 dates his ministry across several kings of Judah and Jeroboam II of Israel, roughly the mid-700s BC, but gives no personal birth or death year, so no specific date is plotted."
@@ -48462,6 +48465,7 @@
       "accountability"
     ],
     "image": "generic-prophet.png",
+    "image2": "amos.png",
     "timeline": {
       "precision": "era",
       "note": "Amos 1:1 dates his ministry to the reigns of Uzziah of Judah and Jeroboam II of Israel, roughly the mid-700s BC, but gives no personal birth or death year, so no specific date is plotted."
