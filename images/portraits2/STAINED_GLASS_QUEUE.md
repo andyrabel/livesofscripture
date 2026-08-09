@@ -20,7 +20,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 
 ## Queue
 
-- [ ] **01** — `david` (David); `paul` (Paul); `peter` (Peter); `solomon` (Solomon)
+- [x] **01** — `david` (David); `paul` (Paul); `peter` (Peter); `solomon` (Solomon)
 - [ ] **02** — `cain` (Cain); `abel` (Abel); `aaron` (Aaron); `esther` (Esther)
 - [ ] **03** — `gideon` (Gideon); `saul` (Saul); `isaac` (Isaac); `sarah` (Sarah)
 - [ ] **04** — `matthew` (Matthew); `andrew` (Andrew); `elizabeth` (Elizabeth); `esau` (Esau)

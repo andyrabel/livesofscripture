@@ -172,6 +172,7 @@
       "messianic line"
     ],
     "image": "david.png",
+    "image2": "david.png",
     "timeline": {
       "precision": "date",
       "born": -1040,
@@ -589,6 +590,7 @@
       "apostolic suffering"
     ],
     "image": "paul.png",
+    "image2": "paul.png",
     "timeline": {
       "precision": "date",
       "born": 5,
@@ -615,6 +617,7 @@
       "apostolic leadership"
     ],
     "image": "peter.png",
+    "image2": "peter.png",
     "timeline": {
       "precision": "date",
       "born": 1,
@@ -734,6 +737,7 @@
       "temple"
     ],
     "image": "solomon.png",
+    "image2": "solomon.png",
     "timeline": {
       "precision": "era"
     },
