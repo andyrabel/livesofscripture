@@ -4589,6 +4589,7 @@
       "tribal blessing"
     ],
     "image": "generic-figure.png",
+    "image2": "asher.png",
     "first_reference": "Genesis 30:13"
   },
   {
@@ -4801,6 +4802,7 @@
       "tribal ancestor"
     ],
     "image": "generic-figure.png",
+    "image2": "benjamin.png",
     "first_reference": "Genesis 35:18-24"
   },
   {
@@ -6318,6 +6320,7 @@
       "God's providence"
     ],
     "image": "generic-figure.png",
+    "image2": "ephraim.png",
     "first_reference": "Genesis 41:52"
   },
   {
@@ -48214,6 +48217,7 @@
       "angelic conflict"
     ],
     "image": "generic-warrior.png",
+    "image2": "michael-9.png",
     "first_reference": "Daniel 10:13-21"
   },
   {
