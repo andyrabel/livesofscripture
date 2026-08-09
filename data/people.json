@@ -7396,6 +7396,7 @@
       "delegated leadership"
     ],
     "image": "generic-priest.png",
+    "image2": "jethro.png",
     "timeline": {
       "precision": "era"
     },
@@ -7573,6 +7574,7 @@
       "God's mercy amid judgment"
     ],
     "image": "generic-figure.png",
+    "image2": "korah-3.png",
     "timeline": {
       "precision": "era"
     },
@@ -9375,6 +9377,7 @@
       "futility of opposing God's plan"
     ],
     "image": "generic-king.png",
+    "image2": "balak.png",
     "timeline": {
       "precision": "era"
     },
@@ -9417,6 +9420,7 @@
       "a mixed legacy"
     ],
     "image": "generic-prophet.png",
+    "image2": "balaam.png",
     "timeline": {
       "precision": "era"
     },
