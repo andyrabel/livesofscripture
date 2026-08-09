@@ -2989,6 +2989,7 @@
       "mystery"
     ],
     "image": "generic-priest.png",
+    "image2": "melchizedek.png",
     "timeline": {
       "precision": "era"
     },
@@ -3455,6 +3456,7 @@
       "God's protection of Jacob"
     ],
     "image": "generic-figure.png",
+    "image2": "laban.png",
     "timeline": {
       "precision": "era"
     },
@@ -4662,6 +4664,7 @@
       "consequences of compromise"
     ],
     "image": "generic-woman.png",
+    "image2": "dinah.png",
     "timeline": {
       "precision": "era"
     },
@@ -6146,6 +6149,7 @@
       "inclusion in the messianic line"
     ],
     "image": "generic-figure.png",
+    "image2": "tamar.png",
     "timeline": {
       "precision": "era"
     },

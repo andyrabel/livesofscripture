@@ -41,7 +41,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **19** — `michael-9` (Michael); `benjamin` (Benjamin); `ephraim` (Ephraim); `asher` (Asher)
 - [x] **20** — `gad` (Gad); `zilpah` (Zilpah); `asenath` (Asenath); `moab` (Moab)
 - [x] **21** — `ammon` (Ammon); `enoch` (Enoch); `methuselah` (Methuselah); `nimrod` (Nimrod)
-- [ ] **22** — `melchizedek` (Melchizedek); `tamar` (Tamar); `dinah` (Dinah); `laban` (Laban)
+- [x] **22** — `melchizedek` (Melchizedek); `tamar` (Tamar); `dinah` (Dinah); `laban` (Laban)
 - [ ] **23** — `jethro` (Jethro); `balaam` (Balaam); `balak` (Balak); `korah-3` (Korah)
 - [ ] **24** — `achan` (Achan); `phinehas` (Phinehas); `eleazar` (Eleazar); `jochebed` (Jochebed)
 - [ ] **25** — `zipporah` (Zipporah); `bezalel` (Bezalel); `nadab` (Nadab); `jephthah` (Jephthah)
