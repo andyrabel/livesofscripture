@@ -32529,26 +32529,6 @@
     "first_reference": "1 Chronicles 20:5"
   },
   {
-    "person_id": "satan",
-    "name": "Satan",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "United Monarchy",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "topics": [
-      "the accuser",
-      "temptation",
-      "spiritual opposition",
-      "ultimate defeat"
-    ],
-    "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 21:1"
-  },
-  {
     "person_id": "zetham",
     "name": "Zetham",
     "alt_names": [],
