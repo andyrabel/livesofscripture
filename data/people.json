@@ -36180,6 +36180,7 @@
       "restoration"
     ],
     "image": "generic-prophet.png",
+    "image2": "zechariah-13.png",
     "timeline": {
       "precision": "era",
       "note": "Zechariah 1:1 dates the start of his ministry to two months after Haggai's, in the same second year of Darius I (520 BC), but his own birth or death year is not recorded, so no specific date is plotted."
@@ -48421,6 +48422,7 @@
       "outpouring of the Spirit"
     ],
     "image": "generic-prophet.png",
+    "image2": "joel-11.png",
     "timeline": {
       "precision": "era",
       "note": "Joel gives no reference to a reigning king, unusual among the prophetic books, so its date is genuinely disputed among scholars, ranging from the 9th century BC to the post-exilic period; placed here in the earlier of the commonly proposed windows."
@@ -48488,6 +48490,7 @@
       "family betrayal"
     ],
     "image": "generic-prophet.png",
+    "image2": "obadiah-12.png",
     "timeline": {
       "precision": "era",
       "note": "The book's content (judgment on Edom for its role in Jerusalem's fall) points most directly to the years following 586 BC, but almost nothing about Obadiah's own life or dates is recorded."
@@ -49641,6 +49644,7 @@
       "unwitting prophecy"
     ],
     "image": "generic-priest.png",
+    "image2": "caiaphas.png",
     "first_reference": "Matthew 26:3-57"
   },
   {
