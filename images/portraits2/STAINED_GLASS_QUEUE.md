@@ -56,7 +56,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **34** — `manasseh-3` (Manasseh); `zedekiah-2` (Zedekiah); `jehoiakim` (Jehoiakim); `sennacherib` (Sennacherib)
 - [x] **35** — `belshazzar` (Belshazzar); `esarhaddon` (Esarhaddon); `artaxerxes` (Artaxerxes); `gedaliah` (Gedaliah)
 - [x] **36** — `nebuzaradan` (Nebuzaradan); `sanballat` (Sanballat); `baruch-4` (Baruch); `gehazi` (Gehazi)
-- [ ] **37** — `hiram` (Hiram of Tyre); `omri` (Omri); `baasha` (Baasha); `pekah` (Pekah)
+- [x] **37** — `hiram` (Hiram of Tyre); `omri` (Omri); `baasha` (Baasha); `pekah` (Pekah)
 - [ ] **38** — `amaziah` (Amaziah); `jotham` (Jotham); `abijah-3` (Abijah); `amon-2` (Amon)
 - [ ] **39** — `ahaziah-2` (Ahaziah); `abimelech-2` (Abimelech); `abimelech` (Abimelech); `ish-bosheth` (Ish-bosheth)
 - [ ] **40** — `shimei-2` (Shimei); `ziba` (Ziba); `merab` (Merab); `ahinoam-2` (Ahinoam)

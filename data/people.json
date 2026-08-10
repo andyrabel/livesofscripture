@@ -13462,6 +13462,7 @@
       "cooperation across nations"
     ],
     "image": "generic-king.png",
+    "image2": "hiram.png",
     "timeline": {
       "precision": "era"
     },
@@ -16824,6 +16825,7 @@
       "cycle of violence"
     ],
     "image": "generic-king.png",
+    "image2": "baasha.png",
     "first_reference": "1 Kings 15:16-33"
   },
   {
@@ -17068,6 +17070,7 @@
       "political achievement"
     ],
     "image": "generic-king.png",
+    "image2": "omri.png",
     "gender": "male",
     "disambiguation": "father of Ahab (1 Kings 16:16-30)",
     "first_reference": "1 Kings 16:16-30",
@@ -18603,6 +18606,7 @@
       "assassination"
     ],
     "image": "generic-king.png",
+    "image2": "pekah.png",
     "timeline": {
       "precision": "era"
     },
