@@ -51435,6 +51435,7 @@
       "the seriousness of lying to God"
     ],
     "image": "generic-figure.png",
+    "image2": "images/portraits2/ananias.png",
     "gender": "male",
     "disambiguation": "husband of Sapphira (Acts 5:1-5)",
     "first_reference": "Acts 5:1-5"
@@ -51461,6 +51462,7 @@
       "the seriousness of lying to God"
     ],
     "image": "generic-woman.png",
+    "image2": "images/portraits2/sapphira.png",
     "gender": "female",
     "first_reference": "Acts 5:1"
   },
@@ -51723,6 +51725,7 @@
       "God's surprising choices"
     ],
     "image": "generic-figure.png",
+    "image2": "images/portraits2/ananias-2.png",
     "gender": "male",
     "disambiguation": "(Acts 9:10-17)",
     "first_reference": "Acts 9:10-17"
@@ -51819,6 +51822,7 @@
       "God's impartiality"
     ],
     "image": "generic-warrior.png",
+    "image2": "images/portraits2/cornelius.png",
     "gender": "male",
     "first_reference": "Acts 10:1-31"
   },
