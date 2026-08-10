@@ -145,6 +145,7 @@
       "inclusion of outsiders"
     ],
     "image": "boaz.png",
+    "image2": "boaz.png",
     "timeline": {
       "precision": "era"
     },
@@ -654,6 +655,7 @@
       "providence"
     ],
     "image": "ruth.png",
+    "image2": "ruth.png",
     "timeline": {
       "precision": "era"
     },
@@ -11590,6 +11592,7 @@
       "the cost of compromise"
     ],
     "image": "generic-woman.png",
+    "image2": "delilah.png",
     "timeline": {
       "precision": "era"
     },
@@ -51245,6 +51248,7 @@
       "grief and faith"
     ],
     "image": "generic-figure.png",
+    "image2": "lazarus-2.png",
     "first_reference": "John 11:1-43"
   },
   {

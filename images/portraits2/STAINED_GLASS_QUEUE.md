@@ -45,7 +45,7 @@ framing above. Batch numbering restarts at 44 and is contiguous through the
 end of the active queue.
 
 - [x] **44** — `judas-2` (Judas); `pilate` (Pilate); `judah` (Judah); `herod` (Herod)
-- [ ] **45** — `lazarus-2` (Lazarus); `ruth` (Ruth); `boaz` (Boaz); `delilah` (Delilah)
+- [x] **45** — `lazarus-2` (Lazarus); `ruth` (Ruth); `boaz` (Boaz); `delilah` (Delilah)
 - [ ] **46** — `mordecai` (Mordecai); `cyrus` (Cyrus); `zaccheus` (Zaccheus); `joseph-6` (Joseph)
 - [ ] **47** — `james` (James); `levi` (Levi); `reuben` (Reuben); `simon-5` (Simon)
 - [ ] **48** — `luke` (Luke); `herod-3` (Herod); `caesar` (Caesar); `caesar-augustus` (Caesar Augustus)
