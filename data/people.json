@@ -15603,6 +15603,7 @@
       "site of the future temple"
     ],
     "image": "generic-figure.png",
+    "image2": "ornan.png",
     "timeline": {
       "precision": "era"
     },
@@ -16453,6 +16454,7 @@
       "golden calves"
     ],
     "image": "generic-king.png",
+    "image2": "jeroboam.png",
     "timeline": {
       "precision": "era",
       "note": "The biblical regnal formula for Israel's kings (unlike Judah's) does not record an accession age, only reign length and synchronism to Judah's king — enough to fix roughly when Jeroboam reigned (c. 931-910 BC), but not his own birth or death year, so no specific date is plotted here."
@@ -16794,6 +16796,7 @@
       "long reign"
     ],
     "image": "generic-king.png",
+    "image2": "asa.png",
     "first_reference": "1 Kings 15:8-33"
   },
   {
@@ -16896,6 +16899,7 @@
       "answered prayer"
     ],
     "image": "generic-king.png",
+    "image2": "jehoshaphat-3.png",
     "timeline": {
       "precision": "date",
       "born": -907,
