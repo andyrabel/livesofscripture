@@ -12943,6 +12943,7 @@
       "restrained vengeance"
     ],
     "image": "generic-warrior.png",
+    "image2": "abishai.png",
     "first_reference": "1 Samuel 26:6-9"
   },
   {
@@ -13430,6 +13431,7 @@
       "kindness for another's sake"
     ],
     "image": "generic-figure.png",
+    "image2": "mephibosheth.png",
     "timeline": {
       "precision": "era",
       "note": "Mephibosheth is crippled as a child around the time of Saul and Jonathan's deaths and lives through the bulk of David's reign, roughly the 11th-10th centuries BC by the traditional United Monarchy chronology."
@@ -13720,6 +13722,7 @@
       "covenant"
     ],
     "image": "generic-prophet.png",
+    "image2": "nathan-2.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Nathan; his ministry spans David's reign, roughly the late 1000s to mid-900s BC."
@@ -14156,6 +14159,7 @@
       "David's sin"
     ],
     "image": "generic-warrior.png",
+    "image2": "uriah.png",
     "gender": "male",
     "disambiguation": "husband of Bathsheba (2 Sam 11:3-26)",
     "first_reference": "2 Samuel 11:3-26"
