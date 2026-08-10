@@ -19256,6 +19256,7 @@
       "Assyrian empire"
     ],
     "image": "generic-king.png",
+    "image2": "esarhaddon.png",
     "first_reference": "2 Kings 19:37"
   },
   {
@@ -20163,6 +20164,7 @@
       "betrayal"
     ],
     "image": "generic-figure.png",
+    "image2": "gedaliah.png",
     "gender": "male",
     "disambiguation": "son of Ahikam (2 Kings 25:22-25)",
     "first_reference": "2 Kings 25:22-25"
@@ -38634,6 +38636,7 @@
       "rebuilding Jerusalem"
     ],
     "image": "generic-king.png",
+    "image2": "artaxerxes.png",
     "first_reference": "Ezra 4:7-23"
   },
   {
@@ -48202,6 +48205,7 @@
       "the writing on the wall"
     ],
     "image": "generic-king.png",
+    "image2": "belshazzar.png",
     "gender": "male",
     "first_reference": "Daniel 5:1-30"
   },
