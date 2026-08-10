@@ -14718,6 +14718,7 @@
       "violent death"
     ],
     "image": "generic-figure.png",
+    "image2": "adoram.png",
     "first_reference": "2 Samuel 20:24"
   },
   {
@@ -15741,6 +15742,7 @@
       "guarding worship"
     ],
     "image": "generic-priest.png",
+    "image2": "azariah.png",
     "first_reference": "1 Kings 4:2"
   },
   {
@@ -19153,6 +19155,7 @@
       "God's opposition to self-glorification"
     ],
     "image": "generic-figure.png",
+    "image2": "shebna.png",
     "timeline": {
       "precision": "era"
     },
@@ -19702,6 +19705,7 @@
       "royal officials"
     ],
     "image": "generic-figure.png",
+    "image2": "achbor-2.png",
     "first_reference": "2 Kings 22:12-14"
   },
   {
