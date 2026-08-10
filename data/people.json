@@ -11226,6 +11226,7 @@
       "warning of consequences"
     ],
     "image": "generic-figure.png",
+    "image2": "jotham.png",
     "timeline": {
       "precision": "era"
     },
@@ -16713,6 +16714,7 @@
       "mixed legacy"
     ],
     "image": "generic-king.png",
+    "image2": "abijah-3.png",
     "first_reference": "1 Kings 14:31"
   },
   {
@@ -18210,6 +18212,7 @@
       "pride leading to downfall"
     ],
     "image": "generic-king.png",
+    "image2": "amaziah.png",
     "first_reference": "2 Kings 12:21"
   },
   {
@@ -19401,6 +19404,7 @@
       "assassination"
     ],
     "image": "generic-king.png",
+    "image2": "amon-2.png",
     "first_reference": "2 Kings 21:18-25"
   },
   {
