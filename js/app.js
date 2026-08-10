@@ -741,8 +741,9 @@ function renderCollectionSummary(index, fullTier, quiz) {
 async function renderHomePage() {
   const [index, quiz] = await Promise.all([loadIndex(), loadQuiz()]);
   const fullTier = index.filter((p) => p.tier === "full");
+  const spotlightEligible = fullTier.filter((p) => p.image2);
 
-  await renderHomeSpotlight(fullTier);
+  await renderHomeSpotlight(spotlightEligible);
   renderHomeTopic(fullTier);
   initHomeQuiz(quiz, index);
   renderExploreRow(fullTier, index.length);
