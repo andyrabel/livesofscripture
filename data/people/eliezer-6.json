@@ -45,5 +45,7 @@
   "gender": "male",
   "devotionals": [
     "Eliezer warned Jehoshaphat that his alliance with a wicked king would fail, and the ships wrecked exactly as he said. God's warnings are as reliable as His promises."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

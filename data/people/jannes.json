@@ -45,5 +45,7 @@
   "gender": "male",
   "devotionals": [
     "Paul named Jannes first among those who opposed Moses through deception, warning that such folly cannot ultimately succeed. Jesus's truth cannot finally be defeated by any counterfeit."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

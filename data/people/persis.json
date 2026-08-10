@@ -44,5 +44,7 @@
   "gender": "female",
   "devotionals": [
     "Persis is remembered for one thing: she worked hard for the Lord, and Paul called her beloved. Jesus notices and treasures faithful labor others may never see."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

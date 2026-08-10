@@ -49,5 +49,7 @@
   "gender": "male",
   "devotionals": [
     "Joah and his son together helped purify the temple that years of neglect had defiled. Jesus purifies us the same way, cleansing what neglect and sin have defiled."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

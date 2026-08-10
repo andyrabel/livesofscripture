@@ -44,5 +44,7 @@
   "gender": "male",
   "devotionals": [
     "Micaiah heard God's word read aloud and reported it, though the king later burned the scroll. Jesus, the living Word, cannot be silenced no matter who rejects Him."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

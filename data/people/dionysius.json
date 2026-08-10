@@ -47,5 +47,7 @@
   "gender": "male",
   "devotionals": [
     "Dionysius believed in the risen Jesus even though most of Athens's philosophers mocked the idea. God can win over even the most respected skeptic."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

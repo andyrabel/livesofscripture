@@ -42,5 +42,7 @@
   "gender": "male",
   "devotionals": [
     "Jezreel's very name announced coming judgment on Israel's unfaithful royal house. Jesus bore the judgment our sins deserved so we would never have to bear it ourselves."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

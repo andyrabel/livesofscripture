@@ -44,5 +44,7 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "spotlight_eligible": false,
+  "spotlight_note": "symbolic/apocalyptic figure or dynastic title, not a narrated individual"
 }

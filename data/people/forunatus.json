@@ -47,5 +47,7 @@
   "gender": "male",
   "devotionals": [
     "Fortunatus traveled to refresh Paul in person when the wider Corinthian church could not go itself. Jesus notices even small, faithful acts of showing up for others."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

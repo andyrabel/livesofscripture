@@ -45,5 +45,7 @@
   "gender": "female",
   "devotionals": [
     "Drusilla heard Paul explain faith in Christ Jesus firsthand, yet Scripture never tells us her answer. Everyone who hears about Jesus faces that same choice."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

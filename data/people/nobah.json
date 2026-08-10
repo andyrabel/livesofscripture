@@ -47,5 +47,7 @@
   "gender": "male",
   "devotionals": [
     "Nobah conquered a town and made his mark by naming it after himself. May we instead make our mark by pointing others to Jesus's name, not our own."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }

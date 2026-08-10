@@ -272,7 +272,8 @@
       "naming"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 2:22"
+    "first_reference": "Exodus 2:22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "hagar",
@@ -1050,7 +1051,8 @@
         "naamah",
         "tubal-cain"
       ]
-    }
+    },
+    "spotlight_eligible": false
   },
   {
     "person_id": "adah",
@@ -2800,7 +2802,8 @@
       "the rescue of Lot"
     ],
     "image": "generic-king.png",
-    "first_reference": "Genesis 14:1-9"
+    "first_reference": "Genesis 14:1-9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "arioch",
@@ -2819,7 +2822,8 @@
       "Abram's rescue of Lot"
     ],
     "image": "generic-king.png",
-    "first_reference": "Genesis 14:1-9"
+    "first_reference": "Genesis 14:1-9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "chedorlaomer",
@@ -2889,7 +2893,8 @@
       "Lot's captivity"
     ],
     "image": "generic-king.png",
-    "first_reference": "Genesis 14:2-8"
+    "first_reference": "Genesis 14:2-8",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shinab",
@@ -2921,7 +2926,8 @@
       "Abram's era"
     ],
     "image": "generic-king.png",
-    "first_reference": "Genesis 14:2-8"
+    "first_reference": "Genesis 14:2-8",
+    "spotlight_eligible": false
   },
   {
     "person_id": "mamre",
@@ -2939,7 +2945,8 @@
       "rescue of Lot"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 14:13-24"
+    "first_reference": "Genesis 14:13-24",
+    "spotlight_eligible": false
   },
   {
     "person_id": "eshcol",
@@ -4092,7 +4099,8 @@
       "Isaac's blessing"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 26:26"
+    "first_reference": "Genesis 26:26",
+    "spotlight_eligible": false
   },
   {
     "person_id": "oholibamah",
@@ -4191,7 +4199,8 @@
       "children": [
         "basemath"
       ]
-    }
+    },
+    "spotlight_eligible": false
   },
   {
     "person_id": "basemath-2",
@@ -4780,7 +4789,8 @@
       "mourning and memorial"
     ],
     "image": "generic-woman.png",
-    "first_reference": "Genesis 35:8"
+    "first_reference": "Genesis 35:8",
+    "spotlight_eligible": false
   },
   {
     "person_id": "benjamin",
@@ -7652,7 +7662,8 @@
       "priestly duty"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 6:22"
+    "first_reference": "Exodus 6:22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elzaphan",
@@ -8257,7 +8268,8 @@
       "tabernacle dedication offerings"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 1:6"
+    "first_reference": "Numbers 1:6",
+    "spotlight_eligible": false
   },
   {
     "person_id": "zurishaddai",
@@ -8716,7 +8728,8 @@
       "prophecy"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 11:26-27"
+    "first_reference": "Numbers 11:26-27",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shammua",
@@ -9169,7 +9182,8 @@
       "Caleb's faith"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:22"
+    "first_reference": "Numbers 13:22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "sheshai",
@@ -9973,7 +9987,8 @@
       "the Baal-Peor aftermath"
     ],
     "image": "generic-king.png",
-    "first_reference": "Numbers 31:8"
+    "first_reference": "Numbers 31:8",
+    "spotlight_eligible": false
   },
   {
     "person_id": "reba",
@@ -10028,7 +10043,8 @@
       "Manasseh"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "Numbers 32:42"
+    "first_reference": "Numbers 32:42",
+    "spotlight_eligible": false
   },
   {
     "person_id": "samuel-2",
@@ -10563,7 +10579,8 @@
       "judgment on Canaanite kings"
     ],
     "image": "generic-king.png",
-    "first_reference": "Joshua 10:28-33"
+    "first_reference": "Joshua 10:28-33",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jabin",
@@ -10602,7 +10619,8 @@
       "judgment on Canaanite kings"
     ],
     "image": "generic-king.png",
-    "first_reference": "Joshua 11:1"
+    "first_reference": "Joshua 11:1",
+    "spotlight_eligible": false
   },
   {
     "person_id": "arba",
@@ -10732,7 +10750,8 @@
       "poetic retribution"
     ],
     "image": "generic-king.png",
-    "first_reference": "Judges 1:5-7"
+    "first_reference": "Judges 1:5-7",
+    "spotlight_eligible": false
   },
   {
     "person_id": "cushan-rishathaim",
@@ -11187,7 +11206,8 @@
       "family expectations"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Judges 8:20"
+    "first_reference": "Judges 8:20",
+    "spotlight_eligible": false
   },
   {
     "person_id": "abimelech-2",
@@ -11367,7 +11387,8 @@
       "the judges cycle"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Judges 10:3-5"
+    "first_reference": "Judges 10:3-5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jephthah",
@@ -11419,7 +11440,8 @@
         "jephthah"
       ]
     },
-    "first_reference": "Judges 11:1-2"
+    "first_reference": "Judges 11:1-2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ibzan",
@@ -11438,7 +11460,8 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "first_reference": "Judges 12:8-10"
+    "first_reference": "Judges 12:8-10",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elon-3",
@@ -11456,7 +11479,8 @@
       "quiet faithfulness"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Judges 12:11-12"
+    "first_reference": "Judges 12:11-12",
+    "spotlight_eligible": false
   },
   {
     "person_id": "abdon",
@@ -11479,7 +11503,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "son of Hillel (Judg 12:13-15)",
-    "first_reference": "Judges 12:13-15"
+    "first_reference": "Judges 12:13-15",
+    "spotlight_eligible": false
   },
   {
     "person_id": "hillel",
@@ -11675,7 +11700,8 @@
       "family of Naomi"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ruth 1:2-5"
+    "first_reference": "Ruth 1:2-5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "orpah",
@@ -11906,7 +11932,8 @@
       "spouses": [
         "elkanah-2"
       ]
-    }
+    },
+    "spotlight_eligible": false
   },
   {
     "person_id": "eli",
@@ -12373,7 +12400,8 @@
       "death of Saul's dynasty"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "1 Samuel 14:49"
+    "first_reference": "1 Samuel 14:49",
+    "spotlight_eligible": false
   },
   {
     "person_id": "merab",
@@ -12662,7 +12690,8 @@
       "national bloodguilt"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 18:19"
+    "first_reference": "1 Samuel 18:19",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ahimelech",
@@ -12902,7 +12931,8 @@
       "loss"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 25:44"
+    "first_reference": "1 Samuel 25:44",
+    "spotlight_eligible": false
   },
   {
     "person_id": "laish",
@@ -13379,7 +13409,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
-    "first_reference": "2 Samuel 4:2-9"
+    "first_reference": "2 Samuel 4:2-9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "rechab",
@@ -13402,7 +13433,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
-    "first_reference": "2 Samuel 4:2-9"
+    "first_reference": "2 Samuel 4:2-9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "rimmon",
@@ -13830,7 +13862,8 @@
       "David's kingdom"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Samuel 8:10"
+    "first_reference": "2 Samuel 8:10",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jehoshaphat",
@@ -14718,7 +14751,8 @@
       "priesthood outside the Levites"
     ],
     "image": "generic-priest.png",
-    "first_reference": "2 Samuel 20:26"
+    "first_reference": "2 Samuel 20:26",
+    "spotlight_eligible": false
   },
   {
     "person_id": "armoni",
@@ -14808,7 +14842,8 @@
       "the giants of Gath"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 21:16"
+    "first_reference": "2 Samuel 21:16",
+    "spotlight_eligible": false
   },
   {
     "person_id": "raphah",
@@ -14868,7 +14903,8 @@
       "David's warriors"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 21:18"
+    "first_reference": "2 Samuel 21:18",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elhanan",
@@ -14983,7 +15019,8 @@
       "God-given victory"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 23:9"
+    "first_reference": "2 Samuel 23:9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "dodo-3",
@@ -16265,7 +16302,8 @@
       "proverbial wisdom"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 4:31"
+    "first_reference": "1 Kings 4:31",
+    "spotlight_eligible": false
   },
   {
     "person_id": "calcol",
@@ -16287,7 +16325,8 @@
       "genealogy of Judah"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 4:31"
+    "first_reference": "1 Kings 4:31",
+    "spotlight_eligible": false
   },
   {
     "person_id": "darda",
@@ -16311,7 +16350,8 @@
       "genealogy of Judah"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 4:31"
+    "first_reference": "1 Kings 4:31",
+    "spotlight_eligible": false
   },
   {
     "person_id": "hiram-2",
@@ -16431,7 +16471,8 @@
       "rise to kingship"
     ],
     "image": "generic-king.png",
-    "first_reference": "1 Kings 11:23"
+    "first_reference": "1 Kings 11:23",
+    "spotlight_eligible": false
   },
   {
     "person_id": "eliada-2",
@@ -17029,7 +17070,8 @@
     "image": "generic-king.png",
     "gender": "male",
     "disambiguation": "son of Baasha (1 Kings 16:6-14)",
-    "first_reference": "1 Kings 16:6-14"
+    "first_reference": "1 Kings 16:6-14",
+    "spotlight_eligible": false
   },
   {
     "person_id": "zimri-2",
@@ -17113,7 +17155,8 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "first_reference": "1 Kings 16:21-22"
+    "first_reference": "1 Kings 16:21-22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ginath",
@@ -17152,7 +17195,8 @@
       "Omri's reign"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 16:24"
+    "first_reference": "1 Kings 16:24",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ahab",
@@ -17309,7 +17353,8 @@
       "cost of disobedience"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 16:34"
+    "first_reference": "1 Kings 16:34",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elijah",
@@ -17593,7 +17638,8 @@
       "the cost of true prophecy"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 22:26"
+    "first_reference": "1 Kings 22:26",
+    "spotlight_eligible": false
   },
   {
     "person_id": "joash-2",
@@ -17908,7 +17954,8 @@
       "loyalty"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Kings 9:25"
+    "first_reference": "2 Kings 9:25",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jonadab-2",
@@ -18009,7 +18056,8 @@
       "preserving the Davidic line"
     ],
     "image": "generic-woman.png",
-    "first_reference": "2 Kings 11:2"
+    "first_reference": "2 Kings 11:2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "joash-3",
@@ -18091,7 +18139,8 @@
       "religious reform"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 11:18"
+    "first_reference": "2 Kings 11:18",
+    "spotlight_eligible": false
   },
   {
     "person_id": "zibiah",
@@ -18135,7 +18184,8 @@
       "judgment on a king"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 12:21"
+    "first_reference": "2 Kings 12:21",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shimeath",
@@ -18502,7 +18552,8 @@
     "first_reference": "2 Kings 15:10-15",
     "genealogy": {
       "father": "jabesh"
-    }
+    },
+    "spotlight_eligible": false
   },
   {
     "person_id": "jabesh",
@@ -18668,7 +18719,8 @@
       "Israel's unstable throne"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 15:25"
+    "first_reference": "2 Kings 15:25",
+    "spotlight_eligible": false
   },
   {
     "person_id": "arieh",
@@ -18686,7 +18738,8 @@
       "Israel's unstable throne"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 15:25"
+    "first_reference": "2 Kings 15:25",
+    "spotlight_eligible": false
   },
   {
     "person_id": "tiglath-pileser",
@@ -19234,7 +19287,8 @@
       "Assyrian empire"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 19:37"
+    "first_reference": "2 Kings 19:37",
+    "spotlight_eligible": false
   },
   {
     "person_id": "sharezer",
@@ -25802,7 +25856,8 @@
       "revival under Hezekiah"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 6:21"
+    "first_reference": "1 Chronicles 6:21",
+    "spotlight_eligible": false
   },
   {
     "person_id": "iddo-2",
@@ -32507,7 +32562,8 @@
       "administration"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 15:22-27"
+    "first_reference": "1 Chronicles 15:22-27",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jehiah",
@@ -35470,7 +35526,8 @@
       "Jehoshaphat's reign"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 17:7"
+    "first_reference": "2 Chronicles 17:7",
+    "spotlight_eligible": false
   },
   {
     "person_id": "micaiah-3",
@@ -35693,7 +35750,8 @@
       "Jehoshaphat's army"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Chronicles 17:16"
+    "first_reference": "2 Chronicles 17:16",
+    "spotlight_eligible": false
   },
   {
     "person_id": "zichri-8",
@@ -35872,7 +35930,8 @@
       "judgment on compromised alliances"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "2 Chronicles 20:37"
+    "first_reference": "2 Chronicles 20:37",
+    "spotlight_eligible": false
   },
   {
     "person_id": "dodavahu",
@@ -35914,7 +35973,8 @@
       "sibling rivalry"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 21:2"
+    "first_reference": "2 Chronicles 21:2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jehiel-3",
@@ -35937,7 +35997,8 @@
       "sons of Jehoshaphat"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 21:2"
+    "first_reference": "2 Chronicles 21:2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "zechariah-11",
@@ -36002,7 +36063,8 @@
       "consolidation of power"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 21:2"
+    "first_reference": "2 Chronicles 21:2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "sephatiah",
@@ -36024,7 +36086,8 @@
       "cost of power"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 21:2"
+    "first_reference": "2 Chronicles 21:2",
+    "spotlight_eligible": false
   },
   {
     "person_id": "azariah-9",
@@ -36361,7 +36424,8 @@
       "royal household"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:7"
+    "first_reference": "2 Chronicles 28:7",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elkanah-8",
@@ -36381,7 +36445,8 @@
       "judgment on unfaithfulness"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:7"
+    "first_reference": "2 Chronicles 28:7",
+    "spotlight_eligible": false
   },
   {
     "person_id": "azariah-11",
@@ -37231,7 +37296,8 @@
       "restoration of temple vessels"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 1:8"
+    "first_reference": "Ezra 1:8",
+    "spotlight_eligible": false
   },
   {
     "person_id": "sheshbazzar",
@@ -38724,7 +38790,8 @@
       "delayed obedience"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 4:8-23"
+    "first_reference": "Ezra 4:8-23",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shimshai",
@@ -38742,7 +38809,8 @@
       "Persian administration"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 4:8-23"
+    "first_reference": "Ezra 4:8-23",
+    "spotlight_eligible": false
   },
   {
     "person_id": "osnappar",
@@ -38761,7 +38829,8 @@
       "Samaria"
     ],
     "image": "generic-king.png",
-    "first_reference": "Ezra 4:10"
+    "first_reference": "Ezra 4:10",
+    "spotlight_eligible": false
   },
   {
     "person_id": "haggai",
@@ -38834,7 +38903,8 @@
       "Persian administration"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 5:3-6"
+    "first_reference": "Ezra 5:3-6",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ezra",
@@ -39349,7 +39419,8 @@
       "trustworthy leadership"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 8:16"
+    "first_reference": "Ezra 8:16",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elnathan-3",
@@ -39438,7 +39509,8 @@
       "gathering Levites for the temple"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 8:17"
+    "first_reference": "Ezra 8:17",
+    "spotlight_eligible": false
   },
   {
     "person_id": "sherebiah",
@@ -39699,7 +39771,8 @@
       "dissent"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 10:15"
+    "first_reference": "Ezra 10:15",
+    "spotlight_eligible": false
   },
   {
     "person_id": "asahel-4",
@@ -39786,7 +39859,8 @@
       "mixed marriages controversy"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 10:15"
+    "first_reference": "Ezra 10:15",
+    "spotlight_eligible": false
   },
   {
     "person_id": "maaseiah-6",
@@ -41407,7 +41481,8 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "first_reference": "Nehemiah 2:19"
+    "first_reference": "Nehemiah 2:19",
+    "spotlight_eligible": false
   },
   {
     "person_id": "eliashib-7",
@@ -45407,7 +45482,8 @@
       "choral leadership"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Nehemiah 12:42"
+    "first_reference": "Nehemiah 12:42",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shelemiah-4",
@@ -45880,7 +45956,8 @@
       "justice"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "Esther 2:21"
+    "first_reference": "Esther 2:21",
+    "spotlight_eligible": false
   },
   {
     "person_id": "teresh",
@@ -46583,7 +46660,8 @@
       "backdrop to a prophetic sign-act"
     ],
     "image": "generic-king.png",
-    "first_reference": "Isaiah 20:1-6"
+    "first_reference": "Isaiah 20:1-6",
+    "spotlight_eligible": false
   },
   {
     "person_id": "pashhur-2",
@@ -46851,7 +46929,8 @@
       "exile"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 29:21-22"
+    "first_reference": "Jeremiah 29:21-22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "kolaiah-2",
@@ -46949,7 +47028,8 @@
       "kinsman-redeemer"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 32:7-12"
+    "first_reference": "Jeremiah 32:7-12",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shallum-13",
@@ -47164,7 +47244,8 @@
       "royal officials and the prophetic word"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 36:11-13"
+    "first_reference": "Jeremiah 36:11-13",
+    "spotlight_eligible": false
   },
   {
     "person_id": "elishama-6",
@@ -47345,7 +47426,8 @@
       "divine protection"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 36:26"
+    "first_reference": "Jeremiah 36:26",
+    "spotlight_eligible": false
   },
   {
     "person_id": "azriel-3",
@@ -47431,7 +47513,8 @@
       "seeking prophetic intercession"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 37:3"
+    "first_reference": "Jeremiah 37:3",
+    "spotlight_eligible": false
   },
   {
     "person_id": "irijah",
@@ -47453,7 +47536,8 @@
       "Jeremiah's suffering"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "Jeremiah 37:13-14"
+    "first_reference": "Jeremiah 37:13-14",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shelemiah-7",
@@ -47606,7 +47690,8 @@
       "the siege of Jerusalem"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 38:1"
+    "first_reference": "Jeremiah 38:1",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shelemiah-8",
@@ -47892,7 +47977,8 @@
       "quartermaster"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 51:59-61"
+    "first_reference": "Jeremiah 51:59-61",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ezekiel",
@@ -48001,7 +48087,8 @@
       "judgment on Jerusalem's leaders"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezekiel 11:1"
+    "first_reference": "Ezekiel 11:1",
+    "spotlight_eligible": false
   },
   {
     "person_id": "azzur-3",
@@ -48107,7 +48194,8 @@
       "invasion of Israel"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "Ezekiel 38:2-18"
+    "first_reference": "Ezekiel 38:2-18",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ashpenaz",
@@ -48424,7 +48512,8 @@
       "Hosea's family"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Hosea 1:4"
+    "first_reference": "Hosea 1:4",
+    "spotlight_eligible": false
   },
   {
     "person_id": "lo-ruhamah",
@@ -49871,7 +49960,8 @@
       "restoration"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Mark 5:9"
+    "first_reference": "Mark 5:9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jairus",
@@ -51466,7 +51556,8 @@
       "one of the Seven"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 6:5"
+    "first_reference": "Acts 6:5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "nicanor",
@@ -51517,7 +51608,8 @@
       "the Seven"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 6:5"
+    "first_reference": "Acts 6:5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "nicolas",
@@ -51589,7 +51681,8 @@
       "royal court"
     ],
     "image": "generic-queen.png",
-    "first_reference": "Acts 8:27"
+    "first_reference": "Acts 8:27",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ananias-2",
@@ -51846,7 +51939,8 @@
       "divine judgment"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 12:20"
+    "first_reference": "Acts 12:20",
+    "spotlight_eligible": false
   },
   {
     "person_id": "simeon-4",
@@ -51957,7 +52051,8 @@
       "encouragement"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "Acts 15:22-32"
+    "first_reference": "Acts 15:22-32",
+    "spotlight_eligible": false
   },
   {
     "person_id": "silas",
@@ -52063,7 +52158,8 @@
       "response to the gospel"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 17:34"
+    "first_reference": "Acts 17:34",
+    "spotlight_eligible": false
   },
   {
     "person_id": "damaris",
@@ -52253,7 +52349,8 @@
       "Paul's ministry team"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 19:22"
+    "first_reference": "Acts 19:22",
+    "spotlight_eligible": false
   },
   {
     "person_id": "demetrius",
@@ -52470,7 +52567,8 @@
       "early conversion"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Acts 21:16"
+    "first_reference": "Acts 21:16",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ananias-3",
@@ -52567,7 +52665,8 @@
       "power and delay"
     ],
     "image": "generic-woman.png",
-    "first_reference": "Acts 24:24"
+    "first_reference": "Acts 24:24",
+    "spotlight_eligible": false
   },
   {
     "person_id": "festus",
@@ -52720,7 +52819,8 @@
       "early church"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Romans 16:5"
+    "first_reference": "Romans 16:5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "mary-5",
@@ -52739,7 +52839,8 @@
       "women in the early church"
     ],
     "image": "generic-woman.png",
-    "first_reference": "Romans 16:6"
+    "first_reference": "Romans 16:6",
+    "spotlight_eligible": false
   },
   {
     "person_id": "andronicus",
@@ -52916,7 +53017,8 @@
       "women in the early church"
     ],
     "image": "generic-woman.png",
-    "first_reference": "Romans 16:12"
+    "first_reference": "Romans 16:12",
+    "spotlight_eligible": false
   },
   {
     "person_id": "asynchritus",
@@ -53162,7 +53264,8 @@
       "supplying a need"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Corinthians 16:17"
+    "first_reference": "1 Corinthians 16:17",
+    "spotlight_eligible": false
   },
   {
     "person_id": "achaicus",
@@ -53180,7 +53283,8 @@
       "faithful service"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Corinthians 16:17"
+    "first_reference": "1 Corinthians 16:17",
+    "spotlight_eligible": false
   },
   {
     "person_id": "titus",
@@ -53220,7 +53324,8 @@
       "boasting in weakness"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Corinthians 11:32"
+    "first_reference": "2 Corinthians 11:32",
+    "spotlight_eligible": false
   },
   {
     "person_id": "epaphras",
@@ -53401,7 +53506,8 @@
       "perseverance"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Colossians 4:17"
+    "first_reference": "Colossians 4:17",
+    "spotlight_eligible": false
   },
   {
     "person_id": "hymenaeus",
@@ -53458,7 +53564,8 @@
       "family faithfulness"
     ],
     "image": "generic-woman.png",
-    "first_reference": "2 Timothy 1:5"
+    "first_reference": "2 Timothy 1:5",
+    "spotlight_eligible": false
   },
   {
     "person_id": "eunice",
@@ -53483,7 +53590,8 @@
         "timothy"
       ]
     },
-    "first_reference": "2 Timothy 1:6"
+    "first_reference": "2 Timothy 1:6",
+    "spotlight_eligible": false
   },
   {
     "person_id": "phygelus",
@@ -53502,7 +53610,8 @@
       "contrast with faithfulness"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Timothy 1:15"
+    "first_reference": "2 Timothy 1:15",
+    "spotlight_eligible": false
   },
   {
     "person_id": "hermogenes",
@@ -53577,7 +53686,8 @@
       "Egypt's magicians"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Timothy 3:8-9"
+    "first_reference": "2 Timothy 3:8-9",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jambres",
@@ -53777,7 +53887,8 @@
       "faithful witness"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Revelation 2:13"
+    "first_reference": "Revelation 2:13",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jezebel-2",
@@ -53800,25 +53911,6 @@
     "first_reference": "Revelation 2:20"
   },
   {
-    "person_id": "death",
-    "name": "Death",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "NT",
-    "era": "Apostolic",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "topics": [
-      "the four horsemen",
-      "judgment",
-      "the reach and limits of death"
-    ],
-    "image": "generic-figure.png",
-    "first_reference": "Revelation 6:8"
-  },
-  {
     "person_id": "abaddon",
     "name": "Abaddon",
     "alt_names": [
@@ -53837,7 +53929,8 @@
       "destruction"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Revelation 9:11"
+    "first_reference": "Revelation 9:11",
+    "spotlight_eligible": false
   },
   {
     "person_id": "jucam",

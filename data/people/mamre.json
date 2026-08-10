@@ -44,5 +44,7 @@
   "gender": "male",
   "devotionals": [
     "The oaks of Mamre, named for this Amorite ally, became the place where God Himself appeared to Abraham. Jesus is Immanuel, God who comes to dwell among us."
-  ]
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight"
 }
