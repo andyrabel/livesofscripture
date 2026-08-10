@@ -10814,6 +10814,7 @@
       "God using the unexpected"
     ],
     "image": "generic-warrior.png",
+    "image2": "ehud.png",
     "gender": "male",
     "disambiguation": "son of Gera (Judg 3:15-26)",
     "first_reference": "Judges 3:15-26"
@@ -11038,6 +11039,7 @@
       "God using the unexpected"
     ],
     "image": "generic-warrior.png",
+    "image2": "jael.png",
     "gender": "female",
     "first_reference": "Judges 4:17-22"
   },
@@ -11902,6 +11904,7 @@
       "praise after answered prayer"
     ],
     "image": "generic-woman.png",
+    "image2": "hannah.png",
     "timeline": {
       "precision": "era"
     },
@@ -38705,6 +38708,7 @@
       "authorizing the temple's completion"
     ],
     "image": "generic-king.png",
+    "image2": "darius.png",
     "first_reference": "Ezra 4:5-24"
   },
   {
