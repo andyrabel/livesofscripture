@@ -60,7 +60,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **38** — `amaziah` (Amaziah); `jotham` (Jotham); `abijah-3` (Abijah); `amon-2` (Amon)
 - [x] **39** — `ahaziah-2` (Ahaziah); `abimelech-2` (Abimelech); `abimelech` (Abimelech); `ish-bosheth` (Ish-bosheth)
 - [x] **40** — `shimei-2` (Shimei); `ziba` (Ziba); `merab` (Merab); `ahinoam-2` (Ahinoam)
-- [ ] **41** — `ahimaaz-2` (Ahimaaz); `achish` (Achish); `ahijah` (Ahijah); `ahikam` (Ahikam)
+- [x] **41** — `ahimaaz-2` (Ahimaaz); `achish` (Achish); `ahijah` (Ahijah); `ahikam` (Ahikam)
 - [ ] **42** — `hilkiah-2` (Hilkiah); `jehoiada-2` (Jehoiada); `jehoiada` (Jehoiada); `eliakim` (Eliakim)
 - [ ] **43** — `shebna` (Shebna); `adoram` (Adoram); `azariah` (Azariah); `achbor-2` (Achbor)
 - [ ] **44** — `asaph-2` (Asaph); `ethan` (Ethan); `elihu-5` (Elihu); `eliphaz-2` (Eliphaz)
