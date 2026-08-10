@@ -4489,6 +4489,7 @@
       "tribal leadership"
     ],
     "image": "generic-figure.png",
+    "image2": "judah.png",
     "first_reference": "Genesis 29:35"
   },
   {
@@ -49267,6 +49268,7 @@
       "fulfillment of prophecy"
     ],
     "image": "generic-king.png",
+    "image2": "herod.png",
     "genealogy": {
       "children": [
         "archelaus",
@@ -49614,6 +49616,7 @@
       "the twelve apostles"
     ],
     "image": "generic-figure.png",
+    "image2": "judas-2.png",
     "first_reference": "Matthew 10:4"
   },
   {
@@ -49846,6 +49849,7 @@
       "moral compromise"
     ],
     "image": "generic-figure.png",
+    "image2": "pilate.png",
     "first_reference": "Matthew 27:2-65"
   },
   {
