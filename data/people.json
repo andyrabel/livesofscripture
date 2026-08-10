@@ -17765,6 +17765,7 @@
       "judgment"
     ],
     "image": "generic-figure.png",
+    "image2": "gehazi.png",
     "gender": "male",
     "first_reference": "2 Kings 4:12-36"
   },
@@ -20103,6 +20104,7 @@
       "kindness to Jeremiah"
     ],
     "image": "generic-warrior.png",
+    "image2": "nebuzaradan.png",
     "first_reference": "2 Kings 25:8-20"
   },
   {
@@ -41345,6 +41347,7 @@
       "intimidation"
     ],
     "image": "generic-figure.png",
+    "image2": "sanballat.png",
     "gender": "male",
     "first_reference": "Nehemiah 2:10-19"
   },
@@ -46966,6 +46969,7 @@
       "preserving God's word"
     ],
     "image": "generic-figure.png",
+    "image2": "baruch-4.png",
     "first_reference": "Jeremiah 32:12-16"
   },
   {
