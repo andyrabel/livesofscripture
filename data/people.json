@@ -12684,6 +12684,7 @@
       "David's flight from Saul"
     ],
     "image": "generic-priest.png",
+    "image2": "ahimelech.png",
     "first_reference": "1 Samuel 21:1-8"
   },
   {
@@ -12766,6 +12767,7 @@
       "fulfilled prophecy"
     ],
     "image": "generic-priest.png",
+    "image2": "abiathar.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Abiathar; his life spans Saul's reign through the early years of Solomon's, roughly the mid-1000s to mid-900s BC."
@@ -13869,6 +13871,7 @@
       "fulfilled prophecy"
     ],
     "image": "generic-priest.png",
+    "image2": "zadok.png",
     "timeline": {
       "precision": "era",
       "note": "No birth or death year is given for Zadok; his ministry spans David's and Solomon's reigns, roughly the mid-1000s to mid-900s BC."
@@ -13962,6 +13965,7 @@
       "royal justice"
     ],
     "image": "generic-warrior.png",
+    "image2": "benaiah.png",
     "first_reference": "2 Samuel 8:18"
   },
   {

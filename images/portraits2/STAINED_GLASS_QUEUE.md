@@ -49,7 +49,7 @@ it is intentionally stable rather than pretending fame has an exact metric.
 - [x] **27** — `queen-of-sheba` (Queen of Sheba); `jesse` (Jesse); `joab` (Joab); `abner` (Abner)
 - [x] **28** — `abishai` (Abishai); `uriah` (Uriah); `nathan-2` (Nathan); `mephibosheth` (Mephibosheth)
 - [x] **29** — `michal` (Michal); `amnon` (Amnon); `adonijah` (Adonijah); `ahithophel` (Ahithophel)
-- [ ] **30** — `benaiah` (Benaiah); `zadok` (Zadok); `abiathar` (Abiathar); `ahimelech` (Ahimelech)
+- [x] **30** — `benaiah` (Benaiah); `zadok` (Zadok); `abiathar` (Abiathar); `ahimelech` (Ahimelech)
 - [ ] **31** — `nabal` (Nabal); `doeg` (Doeg); `hushai` (Hushai); `barzillai` (Barzillai)
 - [ ] **32** — `ornan` (Araunah); `jeroboam` (Jeroboam); `asa` (Asa); `jehoshaphat-3` (Jehoshaphat)
 - [ ] **33** — `jehu-2` (Jehu); `athaliah` (Athaliah); `uzziah` (Uzziah); `ahaz` (Ahaz)
