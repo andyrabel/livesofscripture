@@ -51137,6 +51137,7 @@
       "the sufficiency of God's word"
     ],
     "image": "generic-figure.png",
+    "image2": "lazarus.png",
     "gender": "male",
     "disambiguation": "(Luke 16:20-25)",
     "first_reference": "Luke 16:20-25"
@@ -51480,6 +51481,7 @@
       "restraint"
     ],
     "image": "generic-figure.png",
+    "image2": "gamaliel-2.png",
     "gender": "male",
     "disambiguation": "(Acts 5:34)",
     "first_reference": "Acts 5:34"
@@ -53432,6 +53434,7 @@
       "the gospel transforming slavery"
     ],
     "image": "generic-figure.png",
+    "image2": "onesimus.png",
     "timeline": {
       "precision": "era",
       "note": "Onesimus's flight and return take place during Paul's imprisonment, most likely his Roman imprisonment of the early AD 60s."
@@ -53844,6 +53847,7 @@
       "forgiveness"
     ],
     "image": "generic-figure.png",
+    "image2": "philemon.png",
     "gender": "male",
     "first_reference": "Philemon 1:1"
   },

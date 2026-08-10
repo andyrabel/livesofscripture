@@ -50,7 +50,7 @@ end of the active queue.
 - [x] **47** — `james` (James); `levi` (Levi); `reuben` (Reuben); `simon-5` (Simon)
 - [x] **48** — `luke` (Luke); `herod-3` (Herod); `caesar` (Caesar); `caesar-augustus` (Caesar Augustus)
 - [x] **49** — `darius` (Darius); `hannah` (Hannah); `jael` (Jael); `ehud` (Ehud)
-- [ ] **50** — `philemon` (Philemon); `onesimus` (Onesimus); `lazarus` (Lazarus); `gamaliel-2` (Gamaliel)
+- [x] **50** — `philemon` (Philemon); `onesimus` (Onesimus); `lazarus` (Lazarus); `gamaliel-2` (Gamaliel)
 - [ ] **51** — `ananias-2` (Ananias); `ananias` (Ananias); `sapphira` (Sapphira); `cornelius` (Cornelius)
 - [ ] **52** — `bartimaeus` (Bartimaeus); `felix` (Felix); `festus` (Festus); `agrippa` (Agrippa)
 - [ ] **53** — `matthias` (Matthias); `eutychus` (Eutychus); `anna` (Anna); `salome-2` (Salome)
