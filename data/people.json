@@ -3082,6 +3082,7 @@
       "covenant with outsiders"
     ],
     "image": "generic-king.png",
+    "image2": "abimelech.png",
     "timeline": {
       "precision": "era"
     },
@@ -11210,6 +11211,7 @@
       "divine justice"
     ],
     "image": "generic-king.png",
+    "image2": "abimelech-2.png",
     "first_reference": "Judges 8:31"
   },
   {
@@ -13039,6 +13041,7 @@
       "weak leadership"
     ],
     "image": "generic-king.png",
+    "image2": "ish-bosheth.png",
     "gender": "male",
     "first_reference": "2 Samuel 2:8-15"
   },
@@ -17824,6 +17827,7 @@
       "Jehu's purge"
     ],
     "image": "generic-king.png",
+    "image2": "ahaziah-2.png",
     "first_reference": "2 Kings 8:24-26"
   },
   {
