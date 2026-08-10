@@ -515,30 +515,6 @@ function truncateExcerpt(text, max) {
   return `${cut.slice(0, lastSpace)}…`;
 }
 
-function renderHomeTopic(fullTier) {
-  const box = document.getElementById("home-topic");
-  const withTopics = fullTier.filter((p) => p.topics && p.topics.length);
-  const pick = dailyPick("topic", withTopics);
-  if (!pick) {
-    box.hidden = true;
-    return;
-  }
-  const topicIdx = seededHash(`topic-index:${todayKey()}`) % pick.topics.length;
-  const topic = pick.topics[topicIdx];
-
-  box.innerHTML = "";
-  const label = document.createElement("span");
-  label.className = "home-topic-box__label";
-  label.textContent = "Today's theme";
-  box.appendChild(label);
-
-  const a = document.createElement("a");
-  a.href = `people/${encodeURIComponent(pick.person_id)}.html`;
-  a.className = "home-topic-box__value";
-  a.textContent = `${topic} — as seen in ${pick.name}'s story`;
-  box.appendChild(a);
-}
-
 const QUIZ_DIFFICULTY_KEY = "preferred-quiz-difficulty";
 
 function getPreferredQuizDifficulty() {
@@ -597,15 +573,15 @@ function renderTextWithNameLinks(el, text, nameEntries) {
 function renderQuizAnswerBlock(container, q, index) {
   container.innerHTML = "";
 
-  const answerText = document.createElement("p");
-  answerText.className = "quiz-answer__text";
-  answerText.textContent = q.answer;
-  container.appendChild(answerText);
+  const strong = document.createElement("strong");
+  strong.textContent = q.answer;
+  container.appendChild(strong);
 
   if (q.reference) {
-    const ref = document.createElement("p");
-    ref.className = "quiz-answer__ref";
-    ref.textContent = q.reference;
+    container.appendChild(document.createTextNode(" "));
+    const ref = document.createElement("span");
+    ref.className = "home-quiz-box__answer-ref";
+    ref.textContent = `(${q.reference})`;
     container.appendChild(ref);
   }
 
@@ -614,14 +590,15 @@ function renderQuizAnswerBlock(container, q, index) {
   // about; for a plain person-topic question it would just repeat the
   // "Learn more" link's own name.
   if (q.subtopic_id) {
-    const attribution = document.createElement("p");
-    attribution.className = "quiz-answer__attribution";
+    container.appendChild(document.createTextNode(" "));
+    const attribution = document.createElement("span");
+    attribution.className = "home-quiz-box__answer-attribution";
     attribution.textContent = `(by ${nameForId(index, q.topic_id)})`;
     container.appendChild(attribution);
   }
 
   const learnMore = document.createElement("a");
-  learnMore.className = "quiz-answer__learn-more";
+  learnMore.className = "home-quiz-box__answer-link";
   learnMore.href = `people/${encodeURIComponent(q.topic_id)}.html`;
   learnMore.textContent = "Learn more →";
   container.appendChild(learnMore);
@@ -636,37 +613,45 @@ function renderQuizPick(quiz, index) {
   const pick = dailyPick("question-of-the-day", pool);
   const nameEntries = quizNameEntries(index);
 
-  const body = document.getElementById("quiz-body");
-  body.innerHTML = "";
+  const box = document.getElementById("home-quiz");
+  box.innerHTML = "";
 
   if (!pick) {
-    const p = document.createElement("p");
-    p.textContent = "No quiz questions available yet.";
-    body.appendChild(p);
+    box.hidden = true;
     return;
   }
+  box.hidden = false;
 
-  const q = document.createElement("p");
-  q.className = "quiz-question";
+  const label = document.createElement("span");
+  label.className = "home-quiz-box__label";
+  label.textContent = "Quiz Question:";
+  box.appendChild(label);
+
+  const q = document.createElement("span");
+  q.className = "home-quiz-box__question";
   renderTextWithNameLinks(q, pick.question, nameEntries);
-  body.appendChild(q);
+  box.appendChild(q);
 
   const btn = document.createElement("button");
   btn.type = "button";
-  btn.className = "quiz-reveal-btn";
+  btn.className = "home-quiz-box__reveal-btn";
   btn.textContent = "Reveal Answer";
-  body.appendChild(btn);
+  box.appendChild(btn);
+
+  const cta = document.createElement("a");
+  cta.className = "home-quiz-box__cta";
+  cta.href = `quiz.html?max=${maxDifficulty}`;
+  cta.textContent = "Take the quiz →";
 
   btn.addEventListener("click", () => {
     btn.remove();
-    const answer = document.createElement("div");
-    answer.className = "quiz-answer";
-    body.appendChild(answer);
+    const answer = document.createElement("span");
+    answer.className = "home-quiz-box__answer";
+    box.insertBefore(answer, cta);
     renderQuizAnswerBlock(answer, pick, index);
   });
 
-  const takeQuizLink = document.getElementById("quiz-take-link");
-  if (takeQuizLink) takeQuizLink.href = `quiz.html?max=${maxDifficulty}`;
+  box.appendChild(cta);
 }
 
 function initHomeQuiz(quiz, index) {
@@ -779,7 +764,6 @@ async function renderHomePage() {
   const spotlightEligible = fullTier.filter((p) => p.image2 && p.spotlight_eligible !== false);
 
   await renderHomeSpotlight(spotlightEligible);
-  renderHomeTopic(fullTier);
   initHomeQuiz(quiz, index);
   renderExploreRow(fullTier, index.length);
   renderCollectionSummary(index, fullTier, quiz);
