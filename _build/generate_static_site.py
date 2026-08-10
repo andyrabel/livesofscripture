@@ -41,17 +41,73 @@ def esc(text):
 
 
 def resolve_portrait_file(person):
-    """Prefer the stained-glass image2 portrait (images/portraits2/) over the
+    """Prefer the lightweight web JPEG (images/portraits2-web/) over the
+    full-resolution stained-glass source (images/portraits2/) over the
     legacy image (images/portraits/), falling back to whichever one actually
-    exists on disk. Returns (dir_name, file_name) or (None, None)."""
+    exists on disk. Returns (dir_name, file_name) or (None, None).
+
+    images/portraits2/*.png are 1024x1024 lossless PNGs (~2MB each) kept
+    around for other uses (see _build/generate_web_portraits.py); nothing
+    on-site ever displays a portrait above 140px, so the site itself should
+    always prefer the resized, branded JPEG when one exists. The web JPEG is
+    looked up by person_id directly rather than trusting the image2 field's
+    filename, since a handful of image2 values carry a full path prefix
+    instead of a bare filename (a known data-quality bug) — resolving by
+    person_id sidesteps that rather than needing it fixed first.
+
+    Tier-agnostic on purpose: stub entries never get a *generated* portrait
+    (see images/portraits2/STAINED_GLASS_QUEUE.md), but if one already
+    carries an image/image2 field (e.g. from before a tier change), it
+    should still resolve and display rather than being silently hidden."""
+    web_file = f'{person["person_id"]}.jpg'
+    if (ROOT / "images" / "portraits2-web" / web_file).exists():
+        return "portraits2-web", web_file
     image2 = person.get("image2")
-    if image2 and (ROOT / "images" / "portraits2" / image2).exists():
-        return "portraits2", image2
+    if image2:
+        image2_file = Path(image2).name
+        if (ROOT / "images" / "portraits2" / image2_file).exists():
+            return "portraits2", image2_file
     image = person.get("image")
     image_file = image.get("file") if isinstance(image, dict) else None
     if image_file and (ROOT / "images" / "portraits" / image_file).exists():
         return "portraits", image_file
     return None, None
+
+
+def resolve_full_portrait_file(person):
+    """The larger (1024px) captioned JPEG generated alongside the inline
+    thumbnail by _build/generate_web_portraits.py, used only as the
+    click-to-enlarge target on a person's own detail page. Returns a bare
+    filename or None — falls back to no link when a person only has a
+    legacy images/portraits/ icon (hand-drawn/generic, nothing larger to
+    show) rather than a portraits2-web thumbnail."""
+    full_file = f'{person["person_id"]}-full.jpg'
+    if (ROOT / "images" / "portraits2-web" / full_file).exists():
+        return full_file
+    return None
+
+
+def portrait_img_html(person, base):
+    """Renders an <img> for whichever portrait resolve_portrait_file finds,
+    wrapped in a link to the full-size version when one exists so clicking
+    the portrait opens it larger (see js/app.js's initPortraitLightbox).
+    Caller must check portrait_exists first. Falls back to a plain alt text
+    when there's no image.caption to draw on (stub entries never carry the
+    full-tier image dict, only a bare image2 filename if one exists)."""
+    portrait_dir, portrait_file = resolve_portrait_file(person)
+    img_url = f'{base}images/{portrait_dir}/{esc(portrait_file)}'
+    image_meta = person.get("image") if isinstance(person.get("image"), dict) else None
+    caption = image_meta.get("caption") if image_meta else None
+    alt = f'{esc(person["name"])} — {esc(caption)}' if caption else esc(person["name"])
+    img_tag = f'<img src="{img_url}" alt="{alt}">'
+    full_file = resolve_full_portrait_file(person)
+    if not full_file:
+        return img_tag
+    full_url = f'{base}images/portraits2-web/{esc(full_file)}'
+    return (
+        f'<a href="{full_url}" class="portrait-lightbox" target="_blank" rel="noopener" '
+        f'aria-label="View full-size image of {esc(person["name"])}">{img_tag}</a>'
+    )
 
 
 def truncate(text, max_len=155):
@@ -281,9 +337,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     first_ref = first_reference_line(person)
 
     if portrait_exists:
-        portrait_dir, portrait_file = resolve_portrait_file(person)
-        img_url = f'{base}images/{portrait_dir}/{esc(portrait_file)}'
-        img_html = f'<img src="{img_url}" alt="{esc(person["name"])} — {esc(person["image"]["caption"])}">'
+        img_html = portrait_img_html(person, base)
     else:
         img_html = '<div class="image-placeholder">Illustration pending</div>'
 
@@ -342,8 +396,19 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     return "\n  ".join(parts)
 
 
-def render_stub_person_body(person, index_by_id, gender_by_id, connections, base):
-    parts = [f"<h2>{esc(person['name'])}{gender_tag(person.get('gender'))}</h2>"]
+def render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists=False):
+    heading = f"<h2>{esc(person['name'])}{gender_tag(person.get('gender'))}</h2>"
+    if portrait_exists:
+        parts = [f"""<div class="person-header">
+    <div class="person-portrait-col">
+      {portrait_img_html(person, base)}
+    </div>
+    <div class="person-title">
+      {heading}
+    </div>
+  </div>"""]
+    else:
+        parts = [heading]
 
     if person.get("alt_names"):
         parts.append(f'<div class="alt-names">Also called: {esc(", ".join(person["alt_names"]))}</div>')
@@ -418,7 +483,10 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
     portrait_dir, portrait_file = resolve_portrait_file(person)
-    portrait_exists = bool(portrait_file) and person["tier"] == "full"
+    # Tier-agnostic: a stub never gets a *generated* portrait (see
+    # images/portraits2/STAINED_GLASS_QUEUE.md), but one that already
+    # carries an image/image2 field still displays it rather than hiding it.
+    portrait_exists = bool(portrait_file)
     og_image = f'{SITE_URL}/images/{portrait_dir}/{portrait_file}' if portrait_exists else DEFAULT_OG_IMAGE
     description = meta_description_for(person)
     title = f'{person["name"]} — Lives of Scripture'
@@ -426,7 +494,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     if person["tier"] == "full":
         body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name)
     else:
-        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base)
+        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists)
 
     json_ld = person_json_ld(person, index_by_id, SITE_URL, canonical, og_image, portrait_exists)
 
@@ -480,7 +548,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();initPersonStory();</script>
+<script>initNavToggle();initPersonStory();initPortraitLightbox();</script>
 </body>
 </html>
 """

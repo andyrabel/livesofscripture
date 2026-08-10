@@ -363,6 +363,30 @@ main {
   background: var(--color-surface);
 }
 
+.portrait-lightbox {
+  display: inline-block;
+  cursor: zoom-in;
+}
+
+.portrait-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+
+.portrait-lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: var(--radius);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
 .person-header .image-placeholder {
   width: 140px;
   height: 140px;

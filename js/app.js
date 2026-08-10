@@ -66,6 +66,41 @@ function initNavToggle() {
   });
 }
 
+function initPortraitLightbox() {
+  const trigger = document.querySelector(".portrait-lightbox");
+  if (!trigger) return;
+
+  function openLightbox(href, alt) {
+    const overlay = document.createElement("div");
+    overlay.className = "portrait-lightbox-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+
+    const img = document.createElement("img");
+    img.src = href;
+    img.alt = alt;
+    overlay.appendChild(img);
+
+    function close() {
+      overlay.remove();
+      document.removeEventListener("keydown", onKeyDown);
+    }
+    function onKeyDown(evt) {
+      if (evt.key === "Escape") close();
+    }
+
+    overlay.addEventListener("click", close);
+    document.addEventListener("keydown", onKeyDown);
+    document.body.appendChild(overlay);
+  }
+
+  trigger.addEventListener("click", (evt) => {
+    evt.preventDefault();
+    const img = trigger.querySelector("img");
+    openLightbox(trigger.href, img ? img.alt : "");
+  });
+}
+
 const STORY_PREF_KEY = "preferred-story-version";
 
 function getStoryVersion() {
@@ -456,7 +491,7 @@ function genderTag(gender) {
 function portraitImg(personId, name, className, imageFile, gender, image2File) {
   const img = document.createElement("img");
   img.src = image2File
-    ? `images/portraits2/${image2File}`
+    ? `images/portraits2-web/${personId}.jpg`
     : `images/portraits/${imageFile || `${personId}.png`}`;
   img.alt = name;
   img.className = className;
