@@ -50041,6 +50041,7 @@
       "healing"
     ],
     "image": "generic-figure.png",
+    "image2": "images/portraits2/bartimaeus.png",
     "gender": "male",
     "first_reference": "Mark 10:46"
   },
@@ -52639,6 +52640,7 @@
       "corruption"
     ],
     "image": "generic-figure.png",
+    "image2": "images/portraits2/felix.png",
     "gender": "male",
     "first_reference": "Acts 23:24-26",
     "genealogy": {
@@ -52719,6 +52721,7 @@
       "fair-minded skepticism"
     ],
     "image": "generic-figure.png",
+    "image2": "images/portraits2/festus.png",
     "gender": "male",
     "first_reference": "Acts 24:27"
   },
@@ -52758,6 +52761,7 @@
       "hearing the gospel and hesitating"
     ],
     "image": "generic-king.png",
+    "image2": "images/portraits2/agrippa.png",
     "gender": "male",
     "first_reference": "Acts 25:13-26"
   },
