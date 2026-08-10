@@ -50266,6 +50266,7 @@
       "proclaiming the Messiah"
     ],
     "image": "generic-prophet.png",
+    "image2": "anna.png",
     "timeline": {
       "precision": "era"
     },
@@ -51357,6 +51358,7 @@
       "faithful witness"
     ],
     "image": "generic-figure.png",
+    "image2": "matthias.png",
     "timeline": {
       "precision": "era"
     },
@@ -52582,6 +52584,7 @@
       "a memorable mishap"
     ],
     "image": "generic-figure.png",
+    "image2": "eutychus.png",
     "gender": "male",
     "first_reference": "Acts 20:9"
   },
@@ -54107,6 +54110,7 @@
       "complicity through obedience"
     ],
     "image": "generic-figure.png",
+    "image2": "salome-2.png",
     "timeline": {
       "precision": "era"
     },

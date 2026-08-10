@@ -53,7 +53,7 @@ end of the active queue.
 - [x] **50** — `philemon` (Philemon); `onesimus` (Onesimus); `lazarus` (Lazarus); `gamaliel-2` (Gamaliel)
 - [x] **51** — `ananias-2` (Ananias); `ananias` (Ananias); `sapphira` (Sapphira); `cornelius` (Cornelius)
 - [x] **52** — `bartimaeus` (Bartimaeus); `felix` (Felix); `festus` (Festus); `agrippa` (Agrippa)
-- [ ] **53** — `matthias` (Matthias); `eutychus` (Eutychus); `anna` (Anna); `salome-2` (Salome)
+- [x] **53** — `matthias` (Matthias); `eutychus` (Eutychus); `anna` (Anna); `salome-2` (Salome)
 - [ ] **54** — `huldah` (Huldah); `simon-4` (Simon); `caesar-2` (Caesar); `manasseh` (Manasseh)
 - [ ] **55** — `pharaoh-4` (Pharaoh); `dan` (Dan); `simeon` (Simeon); `issachar` (Issachar)
 - [ ] **56** — `sihon` (Sihon); `og` (Og); `jehoiachin` (Jehoiachin); `perez` (Perez)
