@@ -54169,5 +54169,44 @@
     },
     "disambiguation": "(3 John 1:1-8)",
     "first_reference": "3 John 1:1-8"
+  },
+  {
+    "person_id": "asyncritus",
+    "name": "Asyncritus",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "NT",
+    "gender": "male",
+    "first_reference": "Romans 16:14",
+    "era": "Apostolic",
+    "timeline": {
+      "precision": "era"
+    }
+  },
+  {
+    "person_id": "herodion",
+    "name": "Herodion",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "NT",
+    "gender": "male",
+    "first_reference": "Romans 16:11",
+    "era": "Apostolic",
+    "timeline": {
+      "precision": "era"
+    }
+  },
+  {
+    "person_id": "tryphena",
+    "name": "Tryphena",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "NT",
+    "gender": "female",
+    "first_reference": "Romans 16:12",
+    "era": "Apostolic",
+    "timeline": {
+      "precision": "era"
+    }
   }
 ]

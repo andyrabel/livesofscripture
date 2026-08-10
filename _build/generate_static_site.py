@@ -31,6 +31,7 @@ NAV_PAGES = [
     ("people.html", "People"),
     ("timeline.html", "Timeline"),
     ("connections.html", "Connections"),
+    ("churches.html", "Churches"),
     ("quiz.html", "Quiz"),
     ("about.html", "About"),
 ]
@@ -262,6 +263,33 @@ def connections_section(person, index_by_id, gender_by_id, connections, base):
   </section>"""
 
 
+def church_membership_section(person_id, membership_by_person, base):
+    """Reverse lookup into data/nt_churches.json: which NT churches (if any)
+    this person is explicitly tied to by name, per the Coverage section's
+    Factual Accuracy rules -- only churches.json's own curated affiliations,
+    never inferred. Renders for full and stub people alike, since most named
+    church members (e.g. the Romans 16 greetings) are stub-tier."""
+    memberships = membership_by_person.get(person_id) if membership_by_person else None
+    if not memberships:
+        return ""
+    items = []
+    for mem in memberships:
+        link = f'<a href="{base}churches/{esc(mem["church_id"])}.html">{esc(mem["church_name"])}</a>'
+        role = f' — {esc(mem["role"])}' if mem.get("role") else ""
+        parts = [f"<li>{link}{role}"]
+        if mem.get("references"):
+            parts.append(f'<p class="connections-list__refs">{esc("; ".join(mem["references"]))}</p>')
+        parts.append("</li>")
+        items.append("\n".join(parts))
+    items_html = "\n    ".join(items)
+    return f"""<section>
+    <h3>NT Church{"es" if len(memberships) != 1 else ""}</h3>
+    <ul class="connections-list">
+    {items_html}
+    </ul>
+  </section>"""
+
+
 def devotional_section(person):
     devotionals = person.get("devotionals")
     if not devotionals:
@@ -331,7 +359,7 @@ def disambiguation_section(person_name, same_name, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name=None):
+def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name=None, church_membership_by_person=None):
     parts = []
 
     first_ref = first_reference_line(person)
@@ -378,6 +406,10 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     if conn_section:
         parts.append(conn_section)
 
+    church_section = church_membership_section(person["person_id"], church_membership_by_person, base)
+    if church_section:
+        parts.append(church_section)
+
     parts.append(connections_graph_link(person["person_id"], base))
 
     if person.get("timeline"):
@@ -396,7 +428,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     return "\n  ".join(parts)
 
 
-def render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists=False):
+def render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists=False, church_membership_by_person=None):
     heading = f"<h2>{esc(person['name'])}{gender_tag(person.get('gender'))}</h2>"
     if portrait_exists:
         parts = [f"""<div class="person-header">
@@ -430,6 +462,10 @@ def render_stub_person_body(person, index_by_id, gender_by_id, connections, base
     conn_section = connections_section(person, index_by_id, gender_by_id, connections, base)
     if conn_section:
         parts.append(conn_section)
+
+    church_section = church_membership_section(person["person_id"], church_membership_by_person, base)
+    if church_section:
+        parts.append(church_section)
 
     parts.append(connections_graph_link(person["person_id"], base))
 
@@ -478,7 +514,7 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name=None):
+def build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name=None, church_membership_by_person=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
@@ -492,9 +528,9 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name)
+        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name, church_membership_by_person)
     else:
-        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists)
+        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person)
 
     json_ld = person_json_ld(person, index_by_id, SITE_URL, canonical, og_image, portrait_exists)
 
@@ -594,22 +630,255 @@ def update_people_grid(index):
 
 
 # ---------------------------------------------------------------------
+# NT Churches — churches.html list page + churches/<id>.html detail pages
+# ---------------------------------------------------------------------
+
+
+def church_card_html(church):
+    member_count = len(church["members"])
+    count_label = f'{member_count} named {"person" if member_count == 1 else "people"}' if member_count else "no named individuals"
+    return f"""<a class="person-card" href="churches/{esc(church['church_id'])}.html">
+      <div class="name"><strong class="name-text">{esc(church["name"])}</strong></div>
+      <div class="meta"><span class="badge nt">NT</span><span class="badge">{esc(church["region"])}</span><span class="badge">{esc(count_label)}</span></div>
+    </a>"""
+
+
+def build_churches_list_page(churches):
+    base = ""
+    canonical = f"{SITE_URL}/churches.html"
+    title = "NT Churches — Lives of Scripture"
+    description = "Every local church named in the New Testament, with the people Scripture explicitly ties to each by name and reference."
+    cards = "\n    ".join(church_card_html(c) for c in sorted(churches, key=lambda c: c["name"]))
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF8K07D6WG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZF8K07D6WG');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "churches.html")}
+
+<main>
+  <h2>NT Churches</h2>
+  <p class="page-intro">Every local church named in the New Testament, from Jerusalem at Pentecost to
+  the seven churches of Revelation. Click a church to see everyone Scripture explicitly ties to it by
+  name — founders, hosts, elders, deacons, and members greeted by name — along with the reference that
+  supports each one. A person who appears under more than one church reflects Scripture recording them
+  at more than one congregation over time.</p>
+
+  <div class="person-grid">
+    {cards}
+  </div>
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle();</script>
+</body>
+</html>
+"""
+
+
+def church_member_line_html(member, index_by_id, gender_by_id, base):
+    pid = member["person_id"]
+    name = index_by_id.get(pid, pid)
+    link = f'<a href="{base}people/{esc(pid)}.html">{esc(name)}</a>{gender_tag(gender_by_id.get(pid))}'
+    role = f' — {esc(member["role"])}' if member.get("role") else ""
+    parts = [f"<li>{link}{role}"]
+    if member.get("note"):
+        parts.append(f'<p class="connections-list__note">{esc(member["note"])}</p>')
+    if member.get("references"):
+        parts.append(f'<p class="connections-list__refs">{esc("; ".join(member["references"]))}</p>')
+    parts.append("</li>")
+    return "\n".join(parts)
+
+
+def church_json_ld(church, index_by_id, canonical):
+    data = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": f'Church at {church["name"]}',
+        "url": canonical,
+        "mainEntityOfPage": canonical,
+        "description": church["description"],
+        "isPartOf": {"@type": "WebSite", "name": "Lives of Scripture", "url": f"{SITE_URL}/"},
+    }
+    if church.get("references"):
+        data["citation"] = church["references"]
+    if church["members"]:
+        data["member"] = [
+            {
+                "@type": "Person",
+                "name": index_by_id.get(m["person_id"], m["person_id"]),
+                "url": f'{SITE_URL}/people/{m["person_id"]}.html',
+            }
+            for m in church["members"]
+        ]
+    return json.dumps(data, indent=2, ensure_ascii=False)
+
+
+def build_church_detail_page(church, index_by_id, gender_by_id):
+    base = "../"
+    church_id = church["church_id"]
+    canonical = f"{SITE_URL}/churches/{church_id}.html"
+    title = f'{church["name"]} — NT Churches — Lives of Scripture'
+    description = truncate(church["description"])
+
+    if church["members"]:
+        items = "\n    ".join(church_member_line_html(m, index_by_id, gender_by_id, base) for m in church["members"])
+        members_html = f"""<section>
+    <h3>Named in Scripture at {esc(church["name"])}</h3>
+    <ul class="connections-list">
+    {items}
+    </ul>
+  </section>"""
+    else:
+        members_html = (
+            '<p class="stub-notice">No individual is named by Scripture in connection with this church — '
+            "it is addressed only as a congregation.</p>"
+        )
+
+    references_html = references_list(church["references"]) if church.get("references") else ""
+    json_ld = church_json_ld(church, index_by_id, canonical)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF8K07D6WG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZF8K07D6WG');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{json_ld}
+</script>
+</head>
+<body>
+{header_html(base, "churches.html")}
+
+<main id="person-main">
+  <p><a href="{base}churches.html" class="back-link">&#8592; Back to all churches</a></p>
+
+  <div class="person-title">
+    <h2>{esc(church["name"])}</h2>
+    <div class="tags">
+      <span class="badge nt">NT</span>
+      <span class="badge">{esc(church["region"])}</span>
+    </div>
+  </div>
+
+  <p>{esc(church["description"])}</p>
+  {references_html}
+
+  {members_html}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle();</script>
+</body>
+</html>
+"""
+
+
+def build_church_membership_index(churches, index_by_id):
+    """person_id -> list of {church_id, church_name, role, references}, the
+    reverse of nt_churches.json's per-church member lists, for the "NT
+    Church(es)" section rendered on a person's own page."""
+    by_person = {}
+    for church in churches:
+        for member in church["members"]:
+            by_person.setdefault(member["person_id"], []).append({
+                "church_id": church["church_id"],
+                "church_name": church["name"],
+                "role": member.get("role"),
+                "references": member.get("references", []),
+            })
+    return by_person
+
+
+# ---------------------------------------------------------------------
 # sitemap.xml
 # ---------------------------------------------------------------------
 
 
-def build_sitemap(index):
+def build_sitemap(index, churches):
     urls = [
         (f"{SITE_URL}/", "weekly", "1.0"),
         (f"{SITE_URL}/people.html", "weekly", "0.9"),
         (f"{SITE_URL}/timeline.html", "monthly", "0.6"),
         (f"{SITE_URL}/connections.html", "monthly", "0.6"),
+        (f"{SITE_URL}/churches.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
     for entry in index:
         priority = "0.8" if entry["tier"] == "full" else "0.3"
         urls.append((f'{SITE_URL}/people/{entry["person_id"]}.html', "monthly", priority))
+    for church in churches:
+        urls.append((f'{SITE_URL}/churches/{church["church_id"]}.html', "monthly", "0.6"))
 
     entries = "\n".join(
         f"  <url>\n    <loc>{loc}</loc>\n"
@@ -653,9 +922,11 @@ def build_full_people_by_name(index):
 def main():
     index = json.loads((ROOT / "data" / "people.json").read_text())
     connections = json.loads((ROOT / "data" / "connections.json").read_text())
+    churches = json.loads((ROOT / "data" / "nt_churches.json").read_text())["churches"]
     index_by_id = {e["person_id"]: e["name"] for e in index}
     gender_by_id = {e["person_id"]: e.get("gender") for e in index}
     full_people_by_name = build_full_people_by_name(index)
+    church_membership_by_person = build_church_membership_index(churches, index_by_id)
 
     people_dir = ROOT / "people"
     people_dir.mkdir(exist_ok=True)
@@ -668,14 +939,22 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name)
+        page = build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name, church_membership_by_person)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 
     update_people_grid(index)
-    build_sitemap(index)
 
-    print(f"Generated {generated} person pages, sitemap.xml, and people.html static grid.")
+    churches_dir = ROOT / "churches"
+    churches_dir.mkdir(exist_ok=True)
+    for church in churches:
+        page = build_church_detail_page(church, index_by_id, gender_by_id)
+        (churches_dir / f'{church["church_id"]}.html').write_text(page)
+    (ROOT / "churches.html").write_text(build_churches_list_page(churches))
+
+    build_sitemap(index, churches)
+
+    print(f"Generated {generated} person pages, {len(churches)} church pages, sitemap.xml, and people.html/churches.html static output.")
 
 
 if __name__ == "__main__":

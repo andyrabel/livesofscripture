@@ -1,0 +1,1317 @@
+{
+  "_note": "Local congregations (and, for Crete, a network of city congregations) named in the New Testament, together with the people Scripture explicitly ties to each by name. This is not claimed as an exhaustive catalog of every incidental mention -- per CLAUDE.md's Factual Accuracy rules, only affiliations the text itself states are included, and unnamed figures (e.g. the Philippian jailer, Philip's four prophesying daughters) are not given invented names. A person appearing under more than one church reflects Scripture recording them at more than one congregation over time. `role` is left null where the text names someone without stating a function or title.",
+  "churches": [
+    {
+      "church_id": "jerusalem",
+      "name": "Jerusalem",
+      "region": "Judea",
+      "references": [
+        "Acts 2:1-47",
+        "Acts 6:1-7",
+        "Acts 12:1-17",
+        "Acts 15:1-29"
+      ],
+      "description": "The first church, born when the Holy Spirit fell on the disciples at Pentecost. It grew rapidly under the apostles' teaching and the believers' shared life, weathered its own early scandal when Ananias and Sapphira lied to the church about a gift, and became the site of the council (Acts 15) that settled how Gentile believers should be received.",
+      "members": [
+        {
+          "person_id": "peter",
+          "role": "apostle / leading spokesman",
+          "references": [
+            "Acts 1:15",
+            "Acts 2:14-41",
+            "Acts 15:7-11",
+            "Galatians 2:9"
+          ]
+        },
+        {
+          "person_id": "john-2",
+          "role": "apostle / pillar of the church",
+          "references": [
+            "Acts 3:1-11",
+            "Acts 8:14",
+            "Galatians 2:9"
+          ]
+        },
+        {
+          "person_id": "james-3",
+          "role": "leader of the Jerusalem church",
+          "references": [
+            "Acts 15:13-21",
+            "Acts 21:18-25",
+            "Galatians 1:19",
+            "Galatians 2:9"
+          ]
+        },
+        {
+          "person_id": "barnabas",
+          "role": "generous early member; later sent out from Antioch",
+          "references": [
+            "Acts 4:36-37"
+          ]
+        },
+        {
+          "person_id": "ananias",
+          "role": "deceived the church about the proceeds of a sale, with his wife Sapphira; both died after Peter confronted them",
+          "references": [
+            "Acts 5:1-10"
+          ]
+        },
+        {
+          "person_id": "sapphira",
+          "role": "deceived the church about the proceeds of a sale, with her husband Ananias; both died after Peter confronted them",
+          "references": [
+            "Acts 5:1-10"
+          ]
+        },
+        {
+          "person_id": "stephen",
+          "role": "one of seven chosen to serve, full of faith and the Spirit; became the church's first martyr",
+          "references": [
+            "Acts 6:5-8:2"
+          ]
+        },
+        {
+          "person_id": "philip-3",
+          "role": "one of seven chosen to serve, before later evangelizing Samaria and the Gaza road",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "prochorus",
+          "role": "one of seven chosen to serve",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "nicanor",
+          "role": "one of seven chosen to serve",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "timon",
+          "role": "one of seven chosen to serve",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "parmenas",
+          "role": "one of seven chosen to serve",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "nicolas",
+          "role": "one of seven chosen to serve",
+          "references": [
+            "Acts 6:5"
+          ]
+        },
+        {
+          "person_id": "mary-4",
+          "role": "hosted a house gathering praying for Peter's release from prison",
+          "references": [
+            "Acts 12:12"
+          ]
+        },
+        {
+          "person_id": "rhoda",
+          "role": "servant girl in Mary's household who recognized Peter's voice at the gate",
+          "references": [
+            "Acts 12:13-16"
+          ]
+        },
+        {
+          "person_id": "judas-5",
+          "role": "leading man among the brethren, prophet; sent to Antioch with the council's letter",
+          "references": [
+            "Acts 15:22-32"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "leading man among the brethren; sent to Antioch with the council's letter, later Paul's missionary companion",
+          "references": [
+            "Acts 15:22-32"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "antioch-syria",
+      "name": "Antioch (Syria)",
+      "region": "Syria",
+      "references": [
+        "Acts 11:19-30",
+        "Acts 13:1-3",
+        "Acts 15:1-2",
+        "Acts 15:30-35"
+      ],
+      "description": "The first church with a large Gentile membership, and the place believers were first called \"Christians.\" It commissioned Paul and Barnabas for what became the first missionary journey, and was later the flashpoint for the debate over circumcising Gentile converts that the Jerusalem council settled -- including a sharp public rebuke Paul gave Peter here over table fellowship with Gentiles.",
+      "members": [
+        {
+          "person_id": "barnabas",
+          "role": "sent by the Jerusalem church to strengthen new believers; brought Paul from Tarsus to teach here",
+          "references": [
+            "Acts 11:22-26"
+          ]
+        },
+        {
+          "person_id": "paul",
+          "role": "taught here for a year before being sent out with Barnabas on the first missionary journey",
+          "references": [
+            "Acts 11:25-26",
+            "Acts 13:1-3"
+          ]
+        },
+        {
+          "person_id": "manaen",
+          "role": "prophet / teacher",
+          "references": [
+            "Acts 13:1"
+          ]
+        },
+        {
+          "person_id": "simeon-4",
+          "role": "prophet / teacher, called Niger",
+          "references": [
+            "Acts 13:1"
+          ]
+        },
+        {
+          "person_id": "lucius-of-cyrene",
+          "role": "prophet / teacher",
+          "references": [
+            "Acts 13:1"
+          ]
+        },
+        {
+          "person_id": "judas-5",
+          "role": "sent from Jerusalem with the council's letter, stayed to encourage the church",
+          "references": [
+            "Acts 15:30-35"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "sent from Jerusalem with the council's letter, stayed to encourage the church",
+          "references": [
+            "Acts 15:30-35"
+          ]
+        },
+        {
+          "person_id": "peter",
+          "role": "publicly rebuked by Paul here for withdrawing from eating with Gentile believers out of fear of the circumcision party",
+          "references": [
+            "Galatians 2:11-14"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "antioch-pisidia",
+      "name": "Antioch (Pisidia)",
+      "region": "Galatia (Roman province)",
+      "references": [
+        "Acts 13:14-52"
+      ],
+      "description": "A synagogue congregation on Paul and Barnabas's first missionary journey where Paul's sermon drew wide interest, provoked jealousy from some of the synagogue leaders, and led the two to turn deliberately toward preaching to the Gentiles.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "preached in the synagogue; expelled from the region by opponents",
+          "references": [
+            "Acts 13:14-51"
+          ]
+        },
+        {
+          "person_id": "barnabas",
+          "role": "preached alongside Paul; expelled from the region by opponents",
+          "references": [
+            "Acts 13:14-51"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "iconium",
+      "name": "Iconium",
+      "region": "Galatia (Roman province)",
+      "references": [
+        "Acts 13:51-14:6",
+        "2 Timothy 3:11"
+      ],
+      "description": "A city where Paul and Barnabas saw a large number of Jews and Greeks believe, but fled after a plot to stone them was uncovered -- one of the persecutions Paul later reminded Timothy he had endured.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "preached with Barnabas; fled a stoning plot",
+          "references": [
+            "Acts 14:1-6",
+            "2 Timothy 3:11"
+          ]
+        },
+        {
+          "person_id": "barnabas",
+          "role": "preached with Paul; fled a stoning plot",
+          "references": [
+            "Acts 14:1-6"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "lystra",
+      "name": "Lystra",
+      "region": "Galatia (Roman province)",
+      "references": [
+        "Acts 14:6-20",
+        "Acts 16:1-3",
+        "2 Timothy 1:5",
+        "2 Timothy 3:11"
+      ],
+      "description": "The city where a crowd first tried to worship Paul and Barnabas as gods, then stoned Paul and left him for dead, and where -- on Paul's return visit -- a young disciple named Timothy joined him as a missionary companion.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "preached with Barnabas; stoned and left for dead, survived and returned",
+          "references": [
+            "Acts 14:8-20",
+            "2 Timothy 3:11"
+          ]
+        },
+        {
+          "person_id": "barnabas",
+          "role": "preached with Paul",
+          "references": [
+            "Acts 14:8-20"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "young disciple recruited here by Paul as a missionary companion",
+          "references": [
+            "Acts 16:1-3"
+          ]
+        },
+        {
+          "person_id": "eunice",
+          "role": "Timothy's mother, commended for her sincere faith",
+          "references": [
+            "2 Timothy 1:5"
+          ]
+        },
+        {
+          "person_id": "lois",
+          "role": "Timothy's grandmother, commended for her sincere faith",
+          "references": [
+            "2 Timothy 1:5"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "derbe",
+      "name": "Derbe",
+      "region": "Galatia (Roman province)",
+      "references": [
+        "Acts 14:20-21",
+        "Acts 16:1",
+        "Acts 20:4"
+      ],
+      "description": "A city Paul and Barnabas reached after Paul's stoning at Lystra, where they made many disciples before retracing their steps to strengthen the churches they had planted.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "preached with Barnabas, making many disciples",
+          "references": [
+            "Acts 14:20-21"
+          ]
+        },
+        {
+          "person_id": "barnabas",
+          "role": "preached with Paul",
+          "references": [
+            "Acts 14:20-21"
+          ]
+        },
+        {
+          "person_id": "gaius-2",
+          "role": "delegate representing Derbe on Paul's collection journey to Jerusalem",
+          "references": [
+            "Acts 20:4"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "philippi",
+      "name": "Philippi",
+      "region": "Macedonia",
+      "references": [
+        "Acts 16:11-40",
+        "Philippians 1:1"
+      ],
+      "description": "The first church Paul planted in Europe, begun with a small group of women praying by a river. Paul and Silas were later beaten and jailed here, and the church that grew from this beginning became one of Paul's most affectionate and financially generous partners in the gospel.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "founding missionary",
+          "references": [
+            "Acts 16:12-40"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "founding missionary, imprisoned alongside Paul",
+          "references": [
+            "Acts 16:19-40"
+          ]
+        },
+        {
+          "person_id": "lydia",
+          "role": "first named convert; hosted the young church in her home",
+          "references": [
+            "Acts 16:14-15",
+            "Acts 16:40"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "co-sender of the letter to this church; later sent back to check on them",
+          "references": [
+            "Philippians 1:1",
+            "Philippians 2:19-23"
+          ]
+        },
+        {
+          "person_id": "epaphroditus",
+          "role": "sent by the church with material support for Paul; nearly died from illness while serving him",
+          "references": [
+            "Philippians 2:25-30",
+            "Philippians 4:18"
+          ]
+        },
+        {
+          "person_id": "euodia",
+          "role": "labored side by side with Paul in the gospel; urged to reconcile with Syntyche",
+          "references": [
+            "Philippians 4:2-3"
+          ]
+        },
+        {
+          "person_id": "syntyche",
+          "role": "labored side by side with Paul in the gospel; urged to reconcile with Euodia",
+          "references": [
+            "Philippians 4:2-3"
+          ]
+        },
+        {
+          "person_id": "clement",
+          "role": "fellow worker whose name Paul says is written in the book of life",
+          "references": [
+            "Philippians 4:3"
+          ]
+        },
+        {
+          "person_id": "demas",
+          "role": null,
+          "references": [
+            "Philippians 1:24"
+          ],
+          "note": "Named with Paul's companions in Colossians and Philemon, both likely written around the same time as Philippians; he later deserted Paul (2 Timothy 4:10)."
+        }
+      ]
+    },
+    {
+      "church_id": "thessalonica",
+      "name": "Thessalonica",
+      "region": "Macedonia",
+      "references": [
+        "Acts 17:1-9",
+        "1 Thessalonians 1:1"
+      ],
+      "description": "A church founded during a brief but fruitful three-week synagogue ministry, whose faith Paul says \"rang out\" well beyond Macedonia -- even though its founding provoked a mob and a formal complaint to the city officials.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "founding missionary",
+          "references": [
+            "Acts 17:1-4",
+            "1 Thessalonians 1:1"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "founding missionary, co-sender of both letters to this church",
+          "references": [
+            "Acts 17:1-4",
+            "1 Thessalonians 1:1"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "co-sender of both letters to this church; sent back to strengthen them",
+          "references": [
+            "1 Thessalonians 1:1",
+            "1 Thessalonians 3:1-6"
+          ]
+        },
+        {
+          "person_id": "jason",
+          "role": "host who was dragged before the city officials for sheltering Paul and Silas",
+          "references": [
+            "Acts 17:5-9"
+          ]
+        },
+        {
+          "person_id": "aristarchus",
+          "role": "Thessalonian believer, later a travel companion of Paul and \"fellow prisoner\"",
+          "references": [
+            "Acts 20:4",
+            "Acts 27:2",
+            "Colossians 4:10"
+          ]
+        },
+        {
+          "person_id": "secundus",
+          "role": "delegate representing Thessalonica on Paul's collection journey to Jerusalem",
+          "references": [
+            "Acts 20:4"
+          ]
+        },
+        {
+          "person_id": "demas",
+          "role": "deserted Paul's ministry, \"having loved this present world,\" and went here",
+          "references": [
+            "2 Timothy 4:10"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "berea",
+      "name": "Berea",
+      "region": "Macedonia",
+      "references": [
+        "Acts 17:10-14"
+      ],
+      "description": "Praised by Luke for examining the Scriptures daily to test Paul's teaching -- \"more noble-minded\" than Thessalonica -- resulting in many believing before agitators arrived from Thessalonica to stir up trouble.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "founding missionary",
+          "references": [
+            "Acts 17:10-14"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "founding missionary",
+          "references": [
+            "Acts 17:10-14"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "founding missionary",
+          "references": [
+            "Acts 17:14"
+          ]
+        },
+        {
+          "person_id": "sopater",
+          "role": "Berean believer, delegate on Paul's collection journey to Jerusalem",
+          "references": [
+            "Acts 20:4"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "athens",
+      "name": "Athens",
+      "region": "Achaia",
+      "references": [
+        "Acts 17:16-34"
+      ],
+      "description": "Not a settled congregation so much as the beginning of one -- Paul's reasoning in the synagogue, the marketplace, and finally before the Areopagus council produced a mixed response, but a small number believed, including a member of that council.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "reasoned in the synagogue and marketplace, then addressed the Areopagus",
+          "references": [
+            "Acts 17:16-34"
+          ]
+        },
+        {
+          "person_id": "dionysius",
+          "role": "Areopagite (council member) who believed",
+          "references": [
+            "Acts 17:34"
+          ]
+        },
+        {
+          "person_id": "damaris",
+          "role": "believed along with Dionysius",
+          "references": [
+            "Acts 17:34"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "corinth",
+      "name": "Corinth",
+      "region": "Achaia",
+      "references": [
+        "Acts 18:1-18",
+        "1 Corinthians 1:1-2"
+      ],
+      "description": "A church Paul planted during an eighteen-month stay, drawn from a cosmopolitan, morally loose port city, and one whose factions, lawsuits, and tolerance of gross sin gave Paul more to correct by letter than almost any other congregation -- while also including believers of real social standing, like its city treasurer.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "founding missionary, stayed eighteen months",
+          "references": [
+            "Acts 18:1-11"
+          ]
+        },
+        {
+          "person_id": "silas",
+          "role": "present with Paul when he devoted himself fully to preaching here",
+          "references": [
+            "Acts 18:5"
+          ]
+        },
+        {
+          "person_id": "aquila",
+          "role": "host and fellow tentmaker; later helped instruct Apollos more accurately",
+          "references": [
+            "Acts 18:1-3",
+            "Acts 18:26"
+          ]
+        },
+        {
+          "person_id": "priscilla",
+          "role": "host and fellow tentmaker; later helped instruct Apollos more accurately",
+          "references": [
+            "Acts 18:1-3",
+            "Acts 18:26"
+          ]
+        },
+        {
+          "person_id": "crispus",
+          "role": "synagogue ruler who believed and was baptized by Paul",
+          "references": [
+            "Acts 18:8",
+            "1 Corinthians 1:14"
+          ]
+        },
+        {
+          "person_id": "titius-justus",
+          "role": "hosted Paul's preaching in a house next to the synagogue",
+          "references": [
+            "Acts 18:7"
+          ]
+        },
+        {
+          "person_id": "sosthenes",
+          "role": "synagogue ruler beaten by the crowd before Gallio's tribunal; later co-sends 1 Corinthians with Paul, suggesting he came to faith",
+          "references": [
+            "Acts 18:17",
+            "1 Corinthians 1:1"
+          ]
+        },
+        {
+          "person_id": "apollos",
+          "role": "eloquent teacher who \"watered\" the church Paul had planted",
+          "references": [
+            "Acts 18:24-28",
+            "1 Corinthians 3:6"
+          ]
+        },
+        {
+          "person_id": "gaius",
+          "role": "hosted Paul and \"the whole church\"; one of the few Paul personally baptized",
+          "references": [
+            "1 Corinthians 1:14",
+            "Romans 16:23"
+          ]
+        },
+        {
+          "person_id": "erastus-2",
+          "role": "the city treasurer",
+          "references": [
+            "Romans 16:23",
+            "2 Timothy 4:20"
+          ]
+        },
+        {
+          "person_id": "stephanas",
+          "role": "his household were the first converts in Achaia, \"the firstfruits\"; devoted themselves to serving the saints",
+          "references": [
+            "1 Corinthians 1:16",
+            "1 Corinthians 16:15-17"
+          ]
+        },
+        {
+          "person_id": "forunatus",
+          "role": "traveled to encourage Paul on the church's behalf",
+          "references": [
+            "1 Corinthians 16:17"
+          ]
+        },
+        {
+          "person_id": "achaicus",
+          "role": "traveled to encourage Paul on the church's behalf",
+          "references": [
+            "1 Corinthians 16:17"
+          ]
+        },
+        {
+          "person_id": "chloe",
+          "role": "her household reported the church's divisions to Paul",
+          "references": [
+            "1 Corinthians 1:11"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "sent by Paul to remind the church of his ways in Christ",
+          "references": [
+            "1 Corinthians 4:17",
+            "1 Corinthians 16:10"
+          ]
+        },
+        {
+          "person_id": "titus",
+          "role": "sent by Paul to organize the church's collection for Jerusalem and to deliver a severe letter",
+          "references": [
+            "2 Corinthians 7:6-16",
+            "2 Corinthians 8:6",
+            "2 Corinthians 8:16-24"
+          ]
+        },
+        {
+          "person_id": "tertius",
+          "role": "wrote down Paul's letter to Rome at his dictation, likely while both were in Corinth",
+          "references": [
+            "Romans 16:22"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "cenchreae",
+      "name": "Cenchreae",
+      "region": "Achaia",
+      "references": [
+        "Romans 16:1-2"
+      ],
+      "description": "Corinth's eastern port church, known from a single verse commending its servant Phoebe as she carried Paul's letter to the Romans.",
+      "members": [
+        {
+          "person_id": "phoebe",
+          "role": "servant (deacon) of the church; carried Paul's letter to Rome",
+          "references": [
+            "Romans 16:1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "ephesus",
+      "name": "Ephesus",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Acts 18:19-21",
+        "Acts 19:1-41",
+        "Ephesians 1:1",
+        "Revelation 2:1-7"
+      ],
+      "description": "Paul's longest single ministry base -- about three years -- growing into a major church later addressed by name in Ephesians, Timothy's two pastoral letters, and the first of the seven letters in Revelation, which commends its perseverance and doctrinal discernment but warns it has \"left its first love.\"",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "founding and long-term missionary, about three years",
+          "references": [
+            "Acts 19:1-41",
+            "Acts 20:17-38"
+          ]
+        },
+        {
+          "person_id": "priscilla",
+          "role": "taught Apollos more accurately here; hosted a church in their house",
+          "references": [
+            "Acts 18:18-26",
+            "1 Corinthians 16:19"
+          ]
+        },
+        {
+          "person_id": "aquila",
+          "role": "taught Apollos more accurately here; hosted a church in their house",
+          "references": [
+            "Acts 18:18-26",
+            "1 Corinthians 16:19"
+          ]
+        },
+        {
+          "person_id": "apollos",
+          "role": "taught more accurately here before going on to Corinth",
+          "references": [
+            "Acts 18:24-26"
+          ]
+        },
+        {
+          "person_id": "timothy",
+          "role": "left here by Paul to correct false teaching, an early apostolic delegate",
+          "references": [
+            "1 Timothy 1:3"
+          ]
+        },
+        {
+          "person_id": "tychicus",
+          "role": "letter-carrier sent to this church",
+          "references": [
+            "Ephesians 6:21-22",
+            "2 Timothy 4:12"
+          ]
+        },
+        {
+          "person_id": "trophimus",
+          "role": "\"Trophimus the Ephesian,\" companion of Paul",
+          "references": [
+            "Acts 21:29"
+          ]
+        },
+        {
+          "person_id": "onesiphorus",
+          "role": "ministered to Paul; his household remained here",
+          "references": [
+            "2 Timothy 1:16-18",
+            "2 Timothy 4:19"
+          ]
+        },
+        {
+          "person_id": "erastus",
+          "role": "sent ahead into Macedonia by Paul while he remained in Asia",
+          "references": [
+            "Acts 19:22"
+          ]
+        },
+        {
+          "person_id": "hymenaeus",
+          "role": "faith \"shipwrecked\"; handed over to Satan for blasphemy, and later taught the resurrection had already occurred",
+          "references": [
+            "1 Timothy 1:18-20",
+            "2 Timothy 2:16-18"
+          ]
+        },
+        {
+          "person_id": "philetus",
+          "role": "taught alongside Hymenaeus that the resurrection had already occurred, upsetting some believers' faith",
+          "references": [
+            "2 Timothy 2:16-18"
+          ],
+          "note": "Named in Paul's second letter to Timothy, written while Timothy served this church; the text does not repeat \"at Ephesus\" in this specific verse the way 1 Timothy 1:3 does."
+        }
+      ]
+    },
+    {
+      "church_id": "colossae",
+      "name": "Colossae",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Colossians 1:1-2"
+      ],
+      "description": "A church Paul never personally visited, planted instead through his co-worker Epaphras, and best known today as the recipient of the letter defending Christ's supremacy against an early mix of philosophy and legalism -- and as the home church of the runaway slave Onesimus and his master Philemon.",
+      "members": [
+        {
+          "person_id": "epaphras",
+          "role": "founder and minister; also labored in prayer for Laodicea and Hierapolis",
+          "references": [
+            "Colossians 1:7-8",
+            "Colossians 4:12-13"
+          ]
+        },
+        {
+          "person_id": "philemon",
+          "role": "hosted a house church here",
+          "references": [
+            "Philemon 1:1-2"
+          ]
+        },
+        {
+          "person_id": "apphia",
+          "role": "member of Philemon's household, addressed directly in Paul's letter",
+          "references": [
+            "Philemon 1:2"
+          ]
+        },
+        {
+          "person_id": "archippus",
+          "role": "\"fellow soldier,\" given a ministry charge to fulfill",
+          "references": [
+            "Philemon 1:2",
+            "Colossians 4:17"
+          ],
+          "note": "The charge in Colossians 4:17 immediately follows a greeting to the Laodicean church, so some read it as directed there instead; Philemon 1:2 places Archippus in Philemon's own household at Colossae."
+        },
+        {
+          "person_id": "onesimus",
+          "role": "a Colossian, formerly Philemon's slave, sent back \"no longer as a slave but... a beloved brother\"",
+          "references": [
+            "Colossians 4:9",
+            "Philemon 1:10-16"
+          ]
+        },
+        {
+          "person_id": "tychicus",
+          "role": "letter-carrier sent to this church",
+          "references": [
+            "Colossians 4:7-9"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "laodicea",
+      "name": "Laodicea",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Colossians 2:1",
+        "Colossians 4:15-16",
+        "Revelation 3:14-22"
+      ],
+      "description": "A wealthy neighboring church to Colossae, told to exchange letters with them, and later addressed by name in the last and sharpest of Revelation's seven letters -- rebuked as \"lukewarm\" and warned that its material wealth had masked spiritual poverty.",
+      "members": [
+        {
+          "person_id": "nympha",
+          "role": "hosted a house church here",
+          "references": [
+            "Colossians 4:15"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "rome",
+      "name": "Rome",
+      "region": "Italy",
+      "references": [
+        "Acts 28:14-31",
+        "Romans 1:1-15",
+        "Romans 16"
+      ],
+      "description": "A church Paul had not founded and had not yet visited when he wrote Romans, already large enough for him to send greetings to over two dozen named believers scattered across several house congregations; he later reached the city himself as a prisoner, and still had fellow believers with him during his second imprisonment there.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "wrote to this church before visiting; later arrived and preached under house arrest",
+          "references": [
+            "Acts 28:14-31",
+            "Romans 1:1-15"
+          ]
+        },
+        {
+          "person_id": "priscilla",
+          "role": "risked their lives for Paul; hosted a church in their house",
+          "references": [
+            "Romans 16:3-5"
+          ]
+        },
+        {
+          "person_id": "aquila",
+          "role": "risked their lives for Paul; hosted a church in their house",
+          "references": [
+            "Romans 16:3-5"
+          ]
+        },
+        {
+          "person_id": "epanetus",
+          "role": "\"first convert to Christ from Asia\"",
+          "references": [
+            "Romans 16:5"
+          ]
+        },
+        {
+          "person_id": "mary-5",
+          "role": "commended for having \"worked hard\" for the congregation",
+          "references": [
+            "Romans 16:6"
+          ]
+        },
+        {
+          "person_id": "andronicus",
+          "role": "\"outstanding among the apostles,\" a fellow prisoner of Paul's, in Christ before him",
+          "references": [
+            "Romans 16:7"
+          ]
+        },
+        {
+          "person_id": "junias",
+          "role": "\"outstanding among the apostles,\" a fellow prisoner of Paul's, in Christ before him",
+          "references": [
+            "Romans 16:7"
+          ]
+        },
+        {
+          "person_id": "ampliatus",
+          "role": null,
+          "references": [
+            "Romans 16:8"
+          ]
+        },
+        {
+          "person_id": "urbanus",
+          "role": "fellow worker in Christ",
+          "references": [
+            "Romans 16:9"
+          ]
+        },
+        {
+          "person_id": "stachys",
+          "role": null,
+          "references": [
+            "Romans 16:9"
+          ]
+        },
+        {
+          "person_id": "apelles",
+          "role": "\"approved in Christ\"",
+          "references": [
+            "Romans 16:10"
+          ]
+        },
+        {
+          "person_id": "aristobulus",
+          "role": null,
+          "references": [
+            "Romans 16:10"
+          ],
+          "note": "Paul greets \"those of the household of Aristobulus,\" not necessarily Aristobulus himself by name as a believer."
+        },
+        {
+          "person_id": "herodion",
+          "role": "Paul's kinsman",
+          "references": [
+            "Romans 16:11"
+          ]
+        },
+        {
+          "person_id": "narcissus",
+          "role": null,
+          "references": [
+            "Romans 16:11"
+          ],
+          "note": "Paul greets \"those of the household of Narcissus who are in the Lord,\" not necessarily Narcissus himself by name as a believer."
+        },
+        {
+          "person_id": "tryphena",
+          "role": "commended for hard work in the Lord",
+          "references": [
+            "Romans 16:12"
+          ]
+        },
+        {
+          "person_id": "tryphosa",
+          "role": "commended for hard work in the Lord",
+          "references": [
+            "Romans 16:12"
+          ]
+        },
+        {
+          "person_id": "persis",
+          "role": "\"the beloved,\" commended for hard work in the Lord",
+          "references": [
+            "Romans 16:12"
+          ]
+        },
+        {
+          "person_id": "rufus",
+          "role": "\"a choice man in the Lord\"; his mother had also been like a mother to Paul",
+          "references": [
+            "Romans 16:13"
+          ]
+        },
+        {
+          "person_id": "asyncritus",
+          "role": null,
+          "references": [
+            "Romans 16:14"
+          ]
+        },
+        {
+          "person_id": "phlegon",
+          "role": null,
+          "references": [
+            "Romans 16:14"
+          ]
+        },
+        {
+          "person_id": "hermes",
+          "role": null,
+          "references": [
+            "Romans 16:14"
+          ]
+        },
+        {
+          "person_id": "patrobas",
+          "role": null,
+          "references": [
+            "Romans 16:14"
+          ]
+        },
+        {
+          "person_id": "hermas",
+          "role": null,
+          "references": [
+            "Romans 16:14"
+          ]
+        },
+        {
+          "person_id": "philologus",
+          "role": null,
+          "references": [
+            "Romans 16:15"
+          ]
+        },
+        {
+          "person_id": "julia",
+          "role": null,
+          "references": [
+            "Romans 16:15"
+          ]
+        },
+        {
+          "person_id": "nereus",
+          "role": null,
+          "references": [
+            "Romans 16:15"
+          ]
+        },
+        {
+          "person_id": "olympas",
+          "role": null,
+          "references": [
+            "Romans 16:15"
+          ]
+        },
+        {
+          "person_id": "eubulus",
+          "role": "with Paul during his (second) Roman imprisonment",
+          "references": [
+            "2 Timothy 4:21"
+          ]
+        },
+        {
+          "person_id": "pudens",
+          "role": "with Paul during his (second) Roman imprisonment",
+          "references": [
+            "2 Timothy 4:21"
+          ]
+        },
+        {
+          "person_id": "linus",
+          "role": "with Paul during his (second) Roman imprisonment",
+          "references": [
+            "2 Timothy 4:21"
+          ]
+        },
+        {
+          "person_id": "claudia",
+          "role": "with Paul during his (second) Roman imprisonment",
+          "references": [
+            "2 Timothy 4:21"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "crete",
+      "name": "Crete",
+      "region": "Crete (Roman province)",
+      "references": [
+        "Titus 1:5-9"
+      ],
+      "description": "Not a single congregation but a network of city churches across the island, left in an unfinished state -- Paul left Titus behind specifically to \"set in order what remains\" and appoint qualified elders in every town.",
+      "members": [
+        {
+          "person_id": "titus",
+          "role": "left here by Paul to complete the work and appoint elders in every city",
+          "references": [
+            "Titus 1:5"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "smyrna",
+      "name": "Smyrna",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Revelation 2:8-11"
+      ],
+      "description": "A persecuted and materially poor church -- \"you are rich\" -- that receives the second of Revelation's seven letters, with no rebuke, only a warning of coming suffering and a promise of the crown of life.",
+      "members": []
+    },
+    {
+      "church_id": "pergamum",
+      "name": "Pergamum",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Revelation 2:12-17"
+      ],
+      "description": "A church commended for holding fast \"even in the days of Antipas, My witness, My faithful one, who was killed among you, where Satan dwells,\" though also rebuked for tolerating false teaching within its ranks.",
+      "members": [
+        {
+          "person_id": "antipas",
+          "role": "\"My faithful witness,\" killed here for his faith",
+          "references": [
+            "Revelation 2:13"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "thyatira",
+      "name": "Thyatira",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Revelation 2:18-29"
+      ],
+      "description": "Commended for growing love, faith, service, and perseverance, but rebuked for tolerating a self-proclaimed prophetess -- called \"Jezebel\" after the Old Testament queen -- who was leading believers into sexual immorality and idolatry.",
+      "members": []
+    },
+    {
+      "church_id": "sardis",
+      "name": "Sardis",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Revelation 3:1-6"
+      ],
+      "description": "Told bluntly that it has \"a name that you are alive, but you are dead\" -- the only one of the seven churches given no commendation at all, though a few there \"have not soiled their garments.\"",
+      "members": []
+    },
+    {
+      "church_id": "philadelphia",
+      "name": "Philadelphia",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Revelation 3:7-13"
+      ],
+      "description": "Along with Smyrna, one of only two of the seven churches to receive no rebuke -- praised for keeping Christ's word despite \"little power,\" and promised an open door no one can shut.",
+      "members": []
+    },
+    {
+      "church_id": "troas",
+      "name": "Troas",
+      "region": "Asia (Roman province)",
+      "references": [
+        "Acts 20:5-12",
+        "2 Corinthians 2:12",
+        "2 Timothy 4:13"
+      ],
+      "description": "A coastal city where believers gathered to break bread on the first day of the week -- the setting for Paul's all-night sermon during which a young man dozed off, fell from a third-story window, and was raised back to life.",
+      "members": [
+        {
+          "person_id": "paul",
+          "role": "preached through the night here on his final journey to Jerusalem",
+          "references": [
+            "Acts 20:6-12"
+          ]
+        },
+        {
+          "person_id": "eutychus",
+          "role": "fell asleep during Paul's long sermon, fell from a window, and was raised up alive",
+          "references": [
+            "Acts 20:9-12"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "samaria",
+      "name": "Samaria",
+      "region": "Samaria",
+      "references": [
+        "Acts 8:4-25"
+      ],
+      "description": "The first church outside Judea proper, planted when persecution scattered believers from Jerusalem -- Philip's preaching and miracles drew large crowds, including a well-known sorcerer whose profession of faith Peter later called into serious doubt.",
+      "members": [
+        {
+          "person_id": "philip-3",
+          "role": "evangelist; preached Christ and performed signs that drew large crowds",
+          "references": [
+            "Acts 8:5-13"
+          ]
+        },
+        {
+          "person_id": "simon-5",
+          "role": "sorcerer who professed belief and was baptized, then rebuked by Peter for trying to buy the Spirit's power with money",
+          "references": [
+            "Acts 8:9-24"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "caesarea",
+      "name": "Caesarea",
+      "region": "Judea",
+      "references": [
+        "Acts 10:1-48",
+        "Acts 21:8-9"
+      ],
+      "description": "Home to the first recorded Gentile convert and his household -- a turning point Peter later cited at the Jerusalem council -- and later the settled base of the evangelist Philip and his household.",
+      "members": [
+        {
+          "person_id": "cornelius",
+          "role": "Roman centurion; first Gentile convert, with his household, in the account that opened the door to Gentile inclusion",
+          "references": [
+            "Acts 10:1-48"
+          ]
+        },
+        {
+          "person_id": "philip-3",
+          "role": "settled here after his evangelistic travels; hosted Paul and his companions",
+          "references": [
+            "Acts 21:8-9"
+          ]
+        }
+      ]
+    },
+    {
+      "church_id": "joppa",
+      "name": "Joppa",
+      "region": "Judea",
+      "references": [
+        "Acts 9:36-43"
+      ],
+      "description": "Home to Tabitha (Dorcas), a disciple whose death and raising by Peter led many in the city to believe, and to Simon the tanner, whose house Peter was staying in when he received the vision that opened the gospel to Gentiles.",
+      "members": [
+        {
+          "person_id": "tabitha",
+          "role": "disciple known for good works and charity; raised from death by Peter",
+          "references": [
+            "Acts 9:36-42"
+          ]
+        },
+        {
+          "person_id": "simon-6",
+          "role": "tanner who hosted Peter",
+          "references": [
+            "Acts 9:43",
+            "Acts 10:6-32"
+          ]
+        }
+      ]
+    }
+  ]
+}
