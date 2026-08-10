@@ -1588,9 +1588,22 @@ header.site-header nav a.nav-cta:hover {
 .home-spotlight__thumb .avatar-placeholder {
   width: 110px;
   height: 110px;
-  border-radius: 50%;
+  border-radius: var(--radius);
   object-fit: cover;
   flex-shrink: 0;
+}
+
+.home-spotlight__thumb-link {
+  flex-shrink: 0;
+}
+
+.home-spotlight__name-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-spotlight__name-link:hover {
+  text-decoration: underline;
 }
 
 .home-spotlight__label {
@@ -1670,6 +1683,61 @@ header.site-header nav a.nav-cta:hover {
   display: inline-block;
   margin-top: 0.85rem;
   font-size: 0.88rem;
+}
+
+#home-carousel.home-carousel {
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-carousel__viewport {
+  overflow: hidden;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+
+.home-carousel__track {
+  display: flex;
+  width: max-content;
+  animation: home-carousel-scroll linear infinite;
+}
+
+.home-carousel__track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes home-carousel-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.home-carousel__item {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  margin: 0.6rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.home-carousel__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-carousel__track {
+    animation: none;
+    overflow-x: auto;
+  }
 }
 
 .sidebar-panel {

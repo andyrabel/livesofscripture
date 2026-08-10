@@ -667,9 +667,20 @@ async function renderHomeSpotlight(fullTier) {
   }
   const person = await loadPerson(pick.person_id);
   box.innerHTML = "";
-  box.appendChild(
-    portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image, undefined, pick.image2)
-  );
+  const thumb = portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image, undefined, pick.image2);
+  const personHref = `people/${encodeURIComponent(pick.person_id)}.html`;
+  if (pick.image2) {
+    const thumbLink = document.createElement("a");
+    thumbLink.className = "home-spotlight__thumb-link portrait-lightbox";
+    thumbLink.href = `images/portraits2-web/${pick.person_id}-full.jpg`;
+    thumbLink.target = "_blank";
+    thumbLink.rel = "noopener";
+    thumbLink.setAttribute("aria-label", `View full-size image of ${pick.name}`);
+    thumbLink.appendChild(thumb);
+    box.appendChild(thumbLink);
+  } else {
+    box.appendChild(thumb);
+  }
 
   const text = document.createElement("div");
   const label = document.createElement("div");
@@ -679,7 +690,11 @@ async function renderHomeSpotlight(fullTier) {
 
   const name = document.createElement("h2");
   name.className = "home-spotlight__name";
-  name.textContent = pick.name;
+  const nameLink = document.createElement("a");
+  nameLink.className = "home-spotlight__name-link";
+  nameLink.href = personHref;
+  nameLink.textContent = pick.name;
+  name.appendChild(nameLink);
   text.appendChild(name);
 
   const meta = document.createElement("div");
@@ -695,11 +710,55 @@ async function renderHomeSpotlight(fullTier) {
   text.appendChild(excerpt);
 
   const a = document.createElement("a");
-  a.href = `people/${encodeURIComponent(pick.person_id)}.html`;
+  a.href = personHref;
   a.textContent = "Read full story →";
   text.appendChild(a);
 
   box.appendChild(text);
+}
+
+// A slow, continuously-scrolling strip of stained-glass portraits above the
+// home quiz box. Capped at CAROUSEL_SIZE and daily-reshuffled (rather than
+// showing all spotlight-eligible portraits, currently 268 and growing per
+// STAINED_GLASS_QUEUE.md) so the loop stays a reasonable length and the page
+// isn't fetching hundreds of images. The item list is duplicated once and
+// the track is animated from translateX(0) to translateX(-50%) so the loop
+// is seamless.
+const HOME_CAROUSEL_SIZE = 40;
+const HOME_CAROUSEL_SECONDS_PER_ITEM = 3.5;
+
+function homeCarouselItem(entry) {
+  const a = document.createElement("a");
+  a.className = "home-carousel__item";
+  a.href = `people/${encodeURIComponent(entry.person_id)}.html`;
+  a.title = entry.name;
+
+  const img = document.createElement("img");
+  img.src = `images/portraits2-web/${entry.person_id}.jpg`;
+  img.alt = entry.name;
+  img.loading = "lazy";
+  a.appendChild(img);
+
+  return a;
+}
+
+function renderHomeCarousel(spotlightEligible) {
+  const section = document.getElementById("home-carousel");
+  const track = document.getElementById("home-carousel-track");
+  const picks = dailySeededShuffle("carousel", spotlightEligible).slice(0, HOME_CAROUSEL_SIZE);
+
+  if (!picks.length) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+
+  track.innerHTML = "";
+  track.style.animationDuration = `${picks.length * HOME_CAROUSEL_SECONDS_PER_ITEM * 2}s`;
+  // Duplicated so the strip can loop from -50% back to 0% with no visible seam.
+  for (const entry of [...picks, ...picks]) {
+    track.appendChild(homeCarouselItem(entry));
+  }
 }
 
 function exploreCard(entry) {
@@ -764,6 +823,8 @@ async function renderHomePage() {
   const spotlightEligible = fullTier.filter((p) => p.image2 && p.spotlight_eligible !== false);
 
   await renderHomeSpotlight(spotlightEligible);
+  initPortraitLightbox();
+  renderHomeCarousel(spotlightEligible);
   initHomeQuiz(quiz, index);
   renderExploreRow(fullTier, index.length);
   renderCollectionSummary(index, fullTier, quiz);
