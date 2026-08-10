@@ -18957,6 +18957,7 @@
       "downfall of a proud empire"
     ],
     "image": "generic-king.png",
+    "image2": "sennacherib.png",
     "timeline": {
       "precision": "era"
     },
@@ -19316,6 +19317,7 @@
       "God's mercy"
     ],
     "image": "generic-king.png",
+    "image2": "manasseh-3.png",
     "timeline": {
       "precision": "date",
       "born": -709,
@@ -19883,6 +19885,7 @@
       "rebellion against Babylon"
     ],
     "image": "generic-king.png",
+    "image2": "jehoiakim.png",
     "timeline": {
       "precision": "date",
       "born": -635,
@@ -20064,6 +20067,7 @@
       "exile"
     ],
     "image": "generic-king.png",
+    "image2": "zedekiah-2.png",
     "timeline": {
       "precision": "date",
       "born": -618,
