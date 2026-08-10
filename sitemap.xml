@@ -4293,7 +4293,7 @@
   <url>
     <loc>https://livesofscripture.org/people/zedekiah.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/chenaanah.html</loc>
@@ -11236,11 +11236,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://livesofscripture.org/people/tobiah-2.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://livesofscripture.org/people/geshem.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -14098,7 +14093,7 @@
   <url>
     <loc>https://livesofscripture.org/people/simon-6.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cornelius.html</loc>

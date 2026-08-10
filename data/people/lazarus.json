@@ -9,23 +9,25 @@
   "timeline": {
     "precision": "era"
   },
-  "geographic_setting": [
-    "Bethany"
-  ],
+  "geographic_setting": [],
   "references": [
     "Luke 16:20-25"
   ],
   "first_reference": "Luke 16:20-25",
   "topics": [
-    "resurrection power",
-    "friendship with Jesus",
-    "faith through grief"
+    "reversal of fortune",
+    "eternal destiny",
+    "the sufficiency of God's word"
   ],
-  "interpretive_dispute": false,
-  "interpretive_note": "",
-  "source_summary": "The brother of Martha and Mary of Bethany, a close friend of Jesus, whose death and four-day entombment Jesus reversed by raising him back to life, the last and greatest of His public signs before His own death.",
-  "family_friendly_summary": "Lazarus lived in the village of Bethany with his two sisters, Martha and Mary, and the family was close friends with Jesus. When Lazarus became seriously ill, his sisters sent word to Jesus, expecting Him to come quickly and heal him. Instead, Jesus waited two extra days before traveling there, and by the time He arrived, Lazarus had already died and been in the tomb four days. Both sisters told Jesus that if He had come sooner, Lazarus would not have died. Jesus wept at the tomb, deeply moved by their grief, even though He already knew what He was about to do. He ordered the stone rolled away, called out, \"Lazarus, come forth!\" and Lazarus walked out of the tomb alive, still wrapped in his grave clothes. This astonishing miracle showed Jesus's power over death itself and pointed forward to His own resurrection.",
-  "adult_story": "Lazarus of Bethany, brother of Martha and Mary, was someone Jesus loved deeply and personally (John 11:3, 5, 36). When Lazarus fell seriously ill, his sisters sent word to Jesus, expecting Him to come at once, but Jesus deliberately stayed two more days where He was, telling His disciples the illness was \"for the glory of God\" (11:1-6). By the time Jesus arrived in Bethany, Lazarus had already been in the tomb four days -- long enough, by Jewish custom of the time, that no doubt remained he was truly dead (11:17, 39). Both Martha and Mary independently told Jesus the same thing: \"if You had been here, my brother would not have died\" -- grief mixed with confused faith (11:21, 32). Jesus, though He already intended to raise Lazarus, was \"deeply moved\" and \"wept\" at the tomb, sharing fully in the family's sorrow even while about to end it (11:33-35). He had the stone rolled away over Martha's objection about the smell, prayed aloud to the Father, and cried out, \"Lazarus, come forth!\" -- and the dead man walked out, still bound in his grave wrappings (11:38-44). The miracle, the last and greatest of Jesus's public signs in John's Gospel, so alarmed the religious leaders that it precipitated their final plot to kill Jesus, and later Lazarus too, since his life was drawing many to believe (11:45-53; 12:9-11). Lazarus's raising previews the resurrection Jesus would accomplish only days later.",
+  "interpretive_dispute": true,
+  "interpretive_note": "Most interpreters read this as a parable, grouped with Jesus's other parables in Luke 15-16, using vivid imagery of Hades rather than literal geography. A minority view notes Jesus never explicitly calls it a parable and it is the only one of His parables to name a character, and reads it as a more literal account of the afterlife. The site does not take a side on this question.",
+  "source_summary": "The beggar in Jesus's parable of the rich man and Lazarus, who lay at a rich man's gate longing for scraps and was carried after death to Abraham's side, while the unnamed rich man suffered torment and was refused a warning sent back to his living brothers.",
+  "family_friendly_summary": "Jesus told a story about a poor, sick man named Lazarus who lay outside the gate of a rich man's house, hoping for scraps of food, while the rich man lived in comfort and ignored him. When both men died, Lazarus was carried by angels to be with Abraham in a place of comfort, but the rich man ended up in a place of suffering. The rich man begged for just a drop of water to cool his tongue, but was told it was too late to change things. He then begged for someone to warn his five brothers, but was told they already had God's word to listen to, and that even someone risen from the dead would not convince them if they refused to listen. Jesus's story reminds us that how we treat the poor matters, and that God's word is enough.",
+  "adult_story": "In one of His parables, Jesus told of two men whose eternal reversal of fortune illustrates the peril of wealth without mercy. A rich man \"habitually dressed in purple and fine linen, joyously living in splendor every day,\" while a poor man named Lazarus lay at his gate, covered with sores, longing to be fed the crumbs that fell from the rich man's table -- even dogs came and licked his sores (Luke 16:19-21). Both men died. Lazarus was carried by angels to Abraham's side, a place of honored rest, while the rich man was buried and found himself in torment in Hades (16:22-23). Seeing Abraham far off with Lazarus, the rich man begged for mercy, asking that Lazarus dip his finger in water to cool his tongue, but Abraham explained that their situations, reversed from life, were now fixed by an uncrossable chasm (16:24-26). The rich man then begged that Lazarus be sent to warn his five living brothers, but Abraham answered that they already had Moses and the Prophets to listen to (16:27-29). When the rich man insisted a messenger from the dead would surely persuade them, Abraham gave the parable's haunting final line: \"If they do not listen to Moses and the Prophets, they will not be persuaded even if someone rises from the dead\" (16:31). Lazarus is the only character Jesus ever names within one of His parables.",
+  "devotionals": [
+    "Jesus's parable carried Lazarus the beggar to Abraham's side after a life this world ignored. Jesus welcomes us, however overlooked, into His lasting comfort.",
+    "The rich man begged for a warning sent from the dead, but Abraham pointed to Moses and the Prophets. May we trust Jesus's word already given to us."
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
@@ -43,9 +45,5 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male",
-  "devotionals": [
-    "Lazarus was dead four days when Jesus called him out of the tomb. Jesus is the resurrection and the life who will call us from our graves too.",
-    "Jesus wept at Lazarus's tomb even though He was about to raise him. He shares fully in our grief, even when He is already planning our comfort."
-  ]
+  "gender": "male"
 }

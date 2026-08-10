@@ -2,18 +2,51 @@
   "person_id": "simon-6",
   "name": "Simon",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "NT",
+  "era": "Apostolic",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Joppa"
+  ],
   "references": [
     "Acts 9:43",
     "Acts 10:6-32"
   ],
   "first_reference": "Acts 9:43",
+  "topics": [
+    "hospitality",
+    "an ordinary trade and an extraordinary vision",
+    "God's plan for the Gentiles"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A tanner in Joppa whose house Peter lodged in after raising Tabitha, and where Peter received the vision of the sheet lowered from heaven that opened the door of the gospel to Gentiles like Cornelius.",
+  "family_friendly_summary": "Simon was a tanner, someone who made leather from animal skins, who lived in the town of Joppa by the sea. After Peter raised Tabitha back to life, he stayed for a while as a guest in Simon's house. It was there, while Peter was praying on the rooftop, that God gave him an amazing vision of a sheet filled with all kinds of animals, teaching Peter that the good news about Jesus was for everyone, not just the Jewish people. Right after that vision, messengers arrived at Simon's house from a Roman officer named Cornelius, and Peter went with them, which led to the very first Gentiles receiving the Holy Spirit. Simon's ordinary home became the setting for a turning point in the story of the church.",
+  "adult_story": "Simon the tanner is named only briefly, but his home in Joppa becomes the setting for one of the most consequential events in Acts. After Peter raised Tabitha from the dead in Joppa, \"he stayed many days in Joppa with a tanner named Simon\" (Acts 9:43) -- a notable detail, since tanning (working with animal hides and carcasses) was considered ceremonially unclean work under Jewish law, making Simon's household an unlikely, boundary-crossing lodging for a leading apostle. It was on the roof of Simon's house that Peter fell into a trance about the sixth hour and saw heaven opened, with a great sheet lowered containing all kinds of animals, and a voice telling him three times, \"What God has cleansed, no longer consider unholy\" (10:9-16). While Peter was still perplexed over the vision's meaning, messengers sent by the Roman centurion Cornelius arrived at Simon's gate asking for him by name -- \"the house of Simon, a tanner, by the sea\" (10:5-6, 17-18, 32) -- and Peter went with them to Caesarea, where Cornelius and his household became among the first Gentiles to receive the Holy Spirit and be baptized (10:44-48). Simon's own house and trade go unremarked upon further, but the specific, repeated address \"by the sea\" anchors one of the gospel's pivotal turning points in a real, ordinary home rather than a temple or synagogue.",
+  "devotionals": [
+    "Peter lodged with Simon, whose trade made his house ceremonially unclean under the old law. God used that house to show Peter that Jesus welcomes all people.",
+    "In an ordinary tanner's home, not a temple, God opened the door of the gospel to the Gentiles. May we trust Jesus to work through humble, everyday places."
+  ],
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }

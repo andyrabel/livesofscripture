@@ -17591,7 +17591,7 @@
     "person_id": "zedekiah",
     "name": "Zedekiah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
@@ -17602,7 +17602,14 @@
     },
     "gender": "male",
     "disambiguation": "son of Chenaanah (1 Kings 22:11-24)",
-    "first_reference": "1 Kings 22:11-24"
+    "first_reference": "1 Kings 22:11-24",
+    "kingdom": "israel",
+    "topics": [
+      "false prophecy",
+      "conflict with a true prophet",
+      "telling people what they want to hear"
+    ],
+    "image": "generic-prophet.png"
   },
   {
     "person_id": "chenaanah",
@@ -17621,7 +17628,9 @@
       "children": [
         "zedekiah"
       ]
-    }
+    },
+    "region": "canaan-israel",
+    "kingdom": "israel"
   },
   {
     "person_id": "amon",
@@ -38621,8 +38630,7 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "disambiguation": "(Ezra 2:60)",
-    "first_reference": "Ezra 2:60"
+    "first_reference": "Nehemiah 2:10-19"
   },
   {
     "person_id": "habaiah",
@@ -41451,20 +41459,6 @@
     "image": "generic-figure.png",
     "image2": "sanballat.png",
     "gender": "male",
-    "first_reference": "Nehemiah 2:10-19"
-  },
-  {
-    "person_id": "tobiah-2",
-    "name": "Tobiah",
-    "alt_names": [],
-    "tier": "stub",
-    "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
-    "timeline": {
-      "precision": "era"
-    },
-    "gender": "male",
-    "disambiguation": "(Neh 2:10-19)",
     "first_reference": "Nehemiah 2:10-19"
   },
   {
@@ -51119,9 +51113,9 @@
     },
     "region": "canaan-israel",
     "topics": [
-      "resurrection power",
-      "friendship with Jesus",
-      "faith through grief"
+      "reversal of fortune",
+      "eternal destiny",
+      "the sufficiency of God's word"
     ],
     "image": "generic-figure.png",
     "gender": "male",
@@ -51768,7 +51762,7 @@
     "person_id": "simon-6",
     "name": "Simon",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "NT",
     "era": "Apostolic",
     "timeline": {
@@ -51776,7 +51770,13 @@
     },
     "gender": "male",
     "disambiguation": "(Acts 9:43)",
-    "first_reference": "Acts 9:43"
+    "first_reference": "Acts 9:43",
+    "topics": [
+      "hospitality",
+      "an ordinary trade and an extraordinary vision",
+      "God's plan for the Gentiles"
+    ],
+    "image": "generic-figure.png"
   },
   {
     "person_id": "cornelius",
@@ -51880,7 +51880,7 @@
         "mark"
       ]
     },
-    "disambiguation": "mother of John Mark (Acts 12:12-17)"
+    "disambiguation": "mother of Mark (Acts 12:12-17)"
   },
   {
     "person_id": "mark",

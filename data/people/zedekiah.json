@@ -2,18 +2,53 @@
   "person_id": "zedekiah",
   "name": "Zedekiah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Divided Monarchy",
+  "kingdom": "israel",
+  "region": "canaan-israel",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Samaria",
+    "Ramoth-gilead"
+  ],
   "references": [
     "1 Kings 22:11-24",
     "2 Chronicles 18:10-23"
   ],
   "first_reference": "1 Kings 22:11-24",
+  "topics": [
+    "false prophecy",
+    "conflict with a true prophet",
+    "telling people what they want to hear"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "One of about four hundred court prophets who assured Ahab of victory at Ramoth-gilead and made himself iron horns to act out the promise, who struck the true prophet Micaiah on the cheek for contradicting him, and whose confident prophecy proved false when Ahab died in the battle exactly as Micaiah had said.",
+  "family_friendly_summary": "Zedekiah was one of many prophets in King Ahab's court. Before Ahab went to fight a battle at Ramoth-gilead, Zedekiah made iron horns and announced that God had promised Ahab victory, and all the other court prophets agreed with him. But another prophet named Micaiah warned that this was not true and that Ahab would actually be defeated. Zedekiah was so sure of himself that he walked up and struck Micaiah on the face for disagreeing with him. Ahab chose to believe the exciting, popular prophecy instead of the true one, and went into battle anyway. He was killed exactly as Micaiah had warned, showing that God's true word stands even when it isn't the message people want to hear.",
+  "adult_story": "Zedekiah son of Chenaanah was one of about four hundred prophets Ahab king of Israel summoned before marching against Ramoth-gilead, all of whom promised him victory (1 Kings 22:6). When Jehoshaphat king of Judah, Ahab's ally in the campaign, pressed for a genuine word from the LORD, Zedekiah made himself iron horns and declared, \"Thus says the LORD, 'With these you shall gore the Arameans until they are consumed'\" (22:11) -- a dramatic acted-out prophecy in the style of Israel's true prophets, but manufactured to tell the king exactly what he wanted to hear. Micaiah, the one prophet Ahab actually despised \"because he never prophesies good concerning me, but always evil\" (22:8), was summoned and described a vision of the LORD's throne room in which a lying spirit volunteered to deceive Ahab's prophets and lure him to his death (22:19-23). Zedekiah stepped forward and struck Micaiah on the cheek, demanding, \"How did the Spirit of the LORD pass from me to speak to you?\" (22:24). Micaiah answered that Zedekiah would learn the truth on the day he tried to hide in an inner room (22:25). Ahab went to battle anyway, disguised to avoid detection, and was killed by a stray arrow -- exactly as Micaiah, not Zedekiah, had said (22:34-37). Zedekiah's confident, popular, and dramatically staged prophecy proved false; the one unwelcome word proved certain.",
+  "devotionals": [
+    "Zedekiah told Ahab exactly what he wanted to hear instead of the truth. May we love Jesus enough to speak what is true, not just what is welcome.",
+    "Zedekiah struck Micaiah for speaking God's true word, yet it still came to pass. May we trust Jesus's word the same way, certain and unstoppable."
+  ],
+  "image": {
+    "file": "generic-prophet.png",
+    "prompt_used": "Generic role icon, not person-specific: a figure with both arms raised, mouth open, crying out a message.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for prophets -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "chenaanah",
     "mother": null,
     "spouses": [],
     "children": []
+  },
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
   },
   "gender": "male"
 }
