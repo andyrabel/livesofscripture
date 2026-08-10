@@ -1493,7 +1493,7 @@ header.site-header nav a.nav-cta:hover {
 
 @media (max-width: 780px) {
   .home-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
