@@ -17379,6 +17379,7 @@
       "incomplete obedience"
     ],
     "image": "generic-king.png",
+    "image2": "jehu-2.png",
     "timeline": {
       "precision": "era",
       "note": "Israel's regnal formula gives reign length and synchronism to Judah's king but no accession age, so Jehu's own birth year is not calculable; his 28-year reign is conventionally placed c. 841-814 BC."
@@ -17848,6 +17849,7 @@
       "judgment"
     ],
     "image": "generic-queen.png",
+    "image2": "athaliah.png",
     "gender": "female",
     "disambiguation": "daughter of Ahab (2 Kings 8:26)",
     "first_reference": "2 Kings 8:26"
@@ -18324,6 +18326,7 @@
       "God's discipline of a king"
     ],
     "image": "generic-king.png",
+    "image2": "uzziah.png",
     "timeline": {
       "precision": "date",
       "born": -793,
@@ -18816,6 +18819,7 @@
       "Assyrian vassalage"
     ],
     "image": "generic-king.png",
+    "image2": "ahaz.png",
     "first_reference": "2 Kings 15:38"
   },
   {
