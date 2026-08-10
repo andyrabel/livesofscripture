@@ -9,6 +9,11 @@ Use this prompt verbatim for the `images/portraits2` series. Replace only the
 three bracketed values: `[BIBLE CHARACTER]`, `[DISPLAY NAME]`, and
 `[SYMBOLS / SCENE DETAILS]`.
 
+When a Tabernacle-period priest is depicted wearing the priestly breastplate,
+the scene details must require exactly twelve distinct gemstones in four
+horizontal rows of three, following Exodus 28:17–20. Treat any other gem count
+or arrangement as a material failure that requires correction.
+
 ```text
 Use case: historical-scene
 Asset type: 1024 × 1024 square website portrait
