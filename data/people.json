@@ -387,6 +387,7 @@
       "messianic lineage"
     ],
     "image": "jesse.png",
+    "image2": "jesse.png",
     "timeline": {
       "precision": "era"
     },
@@ -12487,6 +12488,7 @@
       "vengeance"
     ],
     "image": "generic-warrior.png",
+    "image2": "abner.png",
     "gender": "male",
     "first_reference": "1 Samuel 14:50-51"
   },
@@ -12984,6 +12986,7 @@
       "unresolved blood-guilt"
     ],
     "image": "generic-warrior.png",
+    "image2": "joab.png",
     "gender": "male",
     "disambiguation": "son of Zeruiah (1 Sam 26:6)",
     "first_reference": "1 Samuel 26:6"
@@ -16312,6 +16315,7 @@
       "testing and being satisfied"
     ],
     "image": "generic-queen.png",
+    "image2": "queen-of-sheba.png",
     "timeline": {
       "precision": "era"
     },
