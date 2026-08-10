@@ -2,6 +2,12 @@
   "_note": "Short, factual feed of site features (not routine content additions). Most recent 4 shown on the home page. ISO dates, short title, target page, one-sentence lowercase description.",
   "entries": [
     {
+      "date": "2026-08-10",
+      "title": "Stained-glass portraits",
+      "page": "people.html",
+      "description": "person portraits are switching to a stained-glass illustration style, replacing the earlier line-art icons as the rollout continues."
+    },
+    {
       "date": "2026-07-31",
       "title": "Quiz builder",
       "page": "quiz.html",

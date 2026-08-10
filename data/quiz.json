@@ -2,8 +2,8 @@
   "_note": "Quiz questions for full-tier entries. difficulty: 1=Easy, 2=Medium, 3=Hard. Answers are drawn directly from the referenced verses — no extra-biblical content. topic_id links back to the person's page for 'learn more' links and sheet dedup; subtopic_id is an optional secondary link for a sub-entity with its own detail page (not used yet on this site).",
   "questions": [
     {
-      "question": "God told Abraham to count the stars as a picture of what?",
-      "answer": "How many descendants he would have.",
+      "question": "What did God tell Abraham to count as a picture of his future family?",
+      "answer": "The stars in the sky.",
       "topic_id": "abraham",
       "difficulty": 1,
       "reference": "Genesis 15:5"
@@ -44,8 +44,8 @@
       "reference": "1 Chronicles 21:1"
     },
     {
-      "question": "Whose mother-in-law was Naomi?",
-      "answer": "Ruth's.",
+      "question": "Who was Naomi's daughter-in-law?",
+      "answer": "Ruth.",
       "topic_id": "ruth",
       "difficulty": 1,
       "reference": "Ruth 1:4, 16"
@@ -65,7 +65,7 @@
       "reference": "Ruth 3:7-9"
     },
     {
-      "question": "What was Peter's occupation before he followed Jesus?",
+      "question": "What was Peter's job before he followed Jesus?",
       "answer": "A fisherman.",
       "topic_id": "peter",
       "difficulty": 1,
@@ -86,7 +86,7 @@
       "reference": "Galatians 2:11-14"
     },
     {
-      "question": "On the road to which city did Paul encounter the risen Christ?",
+      "question": "On the road to which city did Paul meet Jesus?",
       "answer": "Damascus.",
       "topic_id": "paul",
       "difficulty": 1,
@@ -107,8 +107,8 @@
       "reference": "2 Corinthians 12:7-9"
     },
     {
-      "question": "What did God use to get Moses' attention in the wilderness of Midian?",
-      "answer": "A bush that burned but was not consumed.",
+      "question": "What did God use to get Moses' attention in the desert?",
+      "answer": "A bush that was on fire but did not burn up.",
       "topic_id": "moses",
       "difficulty": 1,
       "reference": "Exodus 3:2-4"
@@ -128,8 +128,8 @@
       "reference": "Numbers 20:1-13"
     },
     {
-      "question": "What role did God give Aaron because Moses said he was slow of speech?",
-      "answer": "Aaron became Moses' spokesman before Pharaoh and Israel.",
+      "question": "Why did Aaron end up speaking to Pharaoh for Moses?",
+      "answer": "Because Moses said he was not good at speaking.",
       "topic_id": "aaron",
       "difficulty": 1,
       "reference": "Exodus 4:14-16"
@@ -149,7 +149,7 @@
       "reference": "Numbers 17:1-8"
     },
     {
-      "question": "How old was Sarah when she laughed at God's promise that she would have a son?",
+      "question": "How old was Sarah when she laughed at God's promise that she would have a baby?",
       "answer": "Ninety years old.",
       "topic_id": "sarah",
       "difficulty": 1,
@@ -170,8 +170,8 @@
       "reference": "1 Peter 3:5-6"
     },
     {
-      "question": "What did Isaac carry up the mountain for his own sacrifice?",
-      "answer": "The wood for the burnt offering.",
+      "question": "What did Isaac carry up the mountain?",
+      "answer": "Wood for the offering.",
       "topic_id": "isaac",
       "difficulty": 1,
       "reference": "Genesis 22:6"
@@ -191,8 +191,8 @@
       "reference": "Genesis 26:6-11"
     },
     {
-      "question": "What name did Hagar give to God after He met her in the wilderness?",
-      "answer": "El Roi, 'the God who sees me.'",
+      "question": "What name did Hagar give to God after He found her in the desert?",
+      "answer": "El Roi, which means 'the God who sees me.'",
       "topic_id": "hagar",
       "difficulty": 1,
       "reference": "Genesis 16:13"
@@ -212,8 +212,8 @@
       "reference": "Genesis 21:19"
     },
     {
-      "question": "What skill did Ishmael grow up practicing in the wilderness of Paran?",
-      "answer": "He became an archer.",
+      "question": "What skill did Ishmael grow up good at in the desert?",
+      "answer": "Shooting a bow and arrow.",
       "topic_id": "ishmael",
       "difficulty": 1,
       "reference": "Genesis 21:20"
@@ -236,7 +236,7 @@
       "question": "What did Jochebed make to protect baby Moses?",
       "answer": "A papyrus basket coated with tar and pitch.",
       "topic_id": "jochebed",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 2:3"
     },
     {
@@ -257,7 +257,7 @@
       "question": "Where was Zipporah from?",
       "answer": "Midian — she was the daughter of Jethro, a Midianite priest.",
       "topic_id": "zipporah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 2:15-21"
     },
     {
@@ -275,7 +275,7 @@
       "reference": "Exodus 18:1-6"
     },
     {
-      "question": "What did Naomi ask people to call her instead of her own name when she returned to Bethlehem?",
+      "question": "What new name did Naomi want people to call her?",
       "answer": "Mara, meaning 'bitter.'",
       "topic_id": "naomi",
       "difficulty": 1,
@@ -296,8 +296,8 @@
       "reference": "Ruth 3"
     },
     {
-      "question": "What did Boaz tell his workers to do for Ruth while she gleaned?",
-      "answer": "Let extra grain fall on purpose for her to gather.",
+      "question": "What did Boaz tell his workers to do to help Ruth?",
+      "answer": "Drop extra grain on purpose so she could pick it up.",
       "topic_id": "boaz",
       "difficulty": 1,
       "reference": "Ruth 2:16"
@@ -317,8 +317,8 @@
       "reference": "Matthew 1:5"
     },
     {
-      "question": "What did God call the young boy Samuel to do in the night at Shiloh?",
-      "answer": "Listen for God's voice and answer, 'Speak, LORD, for Your servant is listening.'",
+      "question": "What did God ask the boy Samuel to do one night?",
+      "answer": "Listen for God's voice and say, 'Speak, Lord, I am listening.'",
       "topic_id": "samuel",
       "difficulty": 1,
       "reference": "1 Samuel 3:9-10"
@@ -338,8 +338,8 @@
       "reference": "1 Samuel 16:6-7"
     },
     {
-      "question": "What did Jonathan give David as a sign of their covenant friendship?",
-      "answer": "His own robe, armor, sword, bow, and belt.",
+      "question": "What gift did Jonathan give David to show their friendship?",
+      "answer": "His robe, armor, sword, bow, and belt.",
       "topic_id": "jonathan",
       "difficulty": 1,
       "reference": "1 Samuel 18:4"
@@ -359,8 +359,8 @@
       "reference": "2 Samuel 9"
     },
     {
-      "question": "What did David do while Bathsheba's husband Uriah was away at war?",
-      "answer": "He saw her bathing, sent for her, and she conceived a child.",
+      "question": "Which of David's sons became a wise and famous king, born to Bathsheba?",
+      "answer": "Solomon.",
       "topic_id": "bathsheba",
       "difficulty": 1,
       "reference": "2 Samuel 11:2-5"
@@ -380,8 +380,8 @@
       "reference": "Matthew 1:6"
     },
     {
-      "question": "What did Solomon ask God for at Gibeon, instead of riches or long life?",
-      "answer": "An understanding heart to discern between good and evil.",
+      "question": "What did Solomon ask God for, instead of money or a long life?",
+      "answer": "A wise heart to know right from wrong.",
       "topic_id": "solomon",
       "difficulty": 1,
       "reference": "1 Kings 3:9"
@@ -401,8 +401,8 @@
       "reference": "1 Kings 11:1-8"
     },
     {
-      "question": "Whose son was Jesse, and whose father?",
-      "answer": "The grandson of Boaz and Ruth, and the father of David.",
+      "question": "Whose son was Jesse, and whose father was he?",
+      "answer": "He was Boaz and Ruth's grandson, and David's father.",
       "topic_id": "jesse",
       "difficulty": 1,
       "reference": "Ruth 4:17-22"
@@ -422,7 +422,7 @@
       "reference": "Isaiah 11:1, 10"
     },
     {
-      "question": "Who anointed Saul as Israel's first king?",
+      "question": "Who anointed Saul to be Israel's first king?",
       "answer": "The prophet Samuel.",
       "topic_id": "saul",
       "difficulty": 1,
@@ -446,7 +446,7 @@
       "question": "Whose son was King Rehoboam?",
       "answer": "Solomon's.",
       "topic_id": "rehoboam",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 11:43"
     },
     {
@@ -467,7 +467,7 @@
       "question": "Over how many of Israel's tribes did Jeroboam become king?",
       "answer": "Ten (the northern tribes).",
       "topic_id": "jeroboam",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 11:31"
     },
     {
@@ -485,7 +485,7 @@
       "reference": "1 Kings 13:3-6"
     },
     {
-      "question": "Who was Ahab's wife, who introduced Baal worship to Israel?",
+      "question": "Who was Ahab's wife, the queen who brought Baal worship to Israel?",
       "answer": "Jezebel.",
       "topic_id": "ahab",
       "difficulty": 1,
@@ -509,7 +509,7 @@
       "question": "Whose son was King Jehoshaphat of Judah?",
       "answer": "Asa's.",
       "topic_id": "jehoshaphat-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 22:41"
     },
     {
@@ -530,7 +530,7 @@
       "question": "Who anointed Jehu king over Israel?",
       "answer": "A young prophet sent by Elisha.",
       "topic_id": "jehu-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 9:1-6"
     },
     {
@@ -548,8 +548,8 @@
       "reference": "2 Kings 10:29"
     },
     {
-      "question": "What object did Hezekiah destroy because Israel had begun worshiping it as an idol?",
-      "answer": "The bronze serpent Moses had made (Nehushtan).",
+      "question": "What object did Hezekiah destroy because people had started to worship it?",
+      "answer": "The bronze snake that Moses had made.",
       "topic_id": "hezekiah",
       "difficulty": 1,
       "reference": "2 Kings 18:4"
@@ -572,7 +572,7 @@
       "question": "Whose son was King Manasseh of Judah?",
       "answer": "Hezekiah's.",
       "topic_id": "manasseh-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 21:1"
     },
     {
@@ -591,7 +591,7 @@
     },
     {
       "question": "How old was Josiah when he became king?",
-      "answer": "Eight.",
+      "answer": "Eight years old.",
       "topic_id": "josiah",
       "difficulty": 1,
       "reference": "2 Kings 22:1"
@@ -614,7 +614,7 @@
       "question": "What was Zedekiah's original name before Nebuchadnezzar renamed him?",
       "answer": "Mattaniah.",
       "topic_id": "zedekiah-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 24:17"
     },
     {
@@ -653,8 +653,8 @@
       "reference": "2 Kings 2:11"
     },
     {
-      "question": "What did Elisha ask for from Elijah before Elijah was taken up to heaven?",
-      "answer": "A double portion of his spirit.",
+      "question": "What did Elisha ask Elijah for, right before Elijah went up to heaven?",
+      "answer": "A double share of Elijah's power from God.",
       "topic_id": "elisha",
       "difficulty": 1,
       "reference": "2 Kings 2:9"
@@ -674,8 +674,8 @@
       "reference": "2 Kings 5:20-27"
     },
     {
-      "question": "What did a seraph touch to Isaiah's lips in his vision of God's throne?",
-      "answer": "A burning coal.",
+      "question": "What did an angel touch to Isaiah's lips in his vision of God?",
+      "answer": "A hot, glowing coal.",
       "topic_id": "isaiah",
       "difficulty": 1,
       "reference": "Isaiah 6:6-7"
@@ -695,8 +695,8 @@
       "reference": "Isaiah 53:5"
     },
     {
-      "question": "What excuse did Jeremiah give God when first called to be a prophet?",
-      "answer": "That he was only a youth.",
+      "question": "What excuse did Jeremiah give God when God first called him to be a prophet?",
+      "answer": "That he was too young.",
       "topic_id": "jeremiah-6",
       "difficulty": 1,
       "reference": "Jeremiah 1:6"
@@ -716,8 +716,8 @@
       "reference": "Jeremiah 31:31-33"
     },
     {
-      "question": "Where was Ezekiel when he received his prophetic call?",
-      "answer": "Beside the Chebar River, among the Babylonian exiles.",
+      "question": "What far-away country was Ezekiel living in when God first called him to be a prophet?",
+      "answer": "Babylon.",
       "topic_id": "ezekiel",
       "difficulty": 1,
       "reference": "Ezekiel 1:1-3"
@@ -738,7 +738,7 @@
     },
     {
       "question": "What did Daniel and his three friends refuse to eat in Babylon?",
-      "answer": "The king's food (royal delicacies).",
+      "answer": "The king's rich food.",
       "topic_id": "daniel-2",
       "difficulty": 1,
       "reference": "Daniel 1:8"
@@ -761,7 +761,7 @@
       "question": "Whom did God command Hosea to marry as a picture of Israel's unfaithfulness?",
       "answer": "Gomer.",
       "topic_id": "hosea",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Hosea 1:2-3"
     },
     {
@@ -782,7 +782,7 @@
       "question": "What disaster does the book of Joel describe as a picture of the coming day of the LORD?",
       "answer": "A devastating locust plague.",
       "topic_id": "joel-11",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Joel 1:4"
     },
     {
@@ -803,7 +803,7 @@
       "question": "What was Amos's occupation before God called him to prophesy?",
       "answer": "A shepherd (and sycamore-fig farmer).",
       "topic_id": "amos",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Amos 7:14-15"
     },
     {
@@ -824,7 +824,7 @@
       "question": "How many verses long is the book of Obadiah?",
       "answer": "21 — the shortest book in the Old Testament.",
       "topic_id": "obadiah-12",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Obadiah 1"
     },
     {
@@ -842,7 +842,7 @@
       "reference": "Obadiah 1:10-14"
     },
     {
-      "question": "Where was Jonah sent to preach, a mission he tried to flee instead?",
+      "question": "Where did God send Jonah to preach, even though Jonah tried to run away?",
       "answer": "Nineveh.",
       "topic_id": "jonah",
       "difficulty": 1,
@@ -866,7 +866,7 @@
       "question": "What town did Micah prophesy would be the Messiah's birthplace?",
       "answer": "Bethlehem.",
       "topic_id": "micah-5",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Micah 5:2"
     },
     {
@@ -887,7 +887,7 @@
       "question": "What city does the book of Nahum announce judgment against?",
       "answer": "Nineveh.",
       "topic_id": "nahum",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Nahum 1:1"
     },
     {
@@ -908,7 +908,7 @@
       "question": "What does Habakkuk complain to God about at the start of his book?",
       "answer": "Injustice and violence in Judah that seem to go unanswered.",
       "topic_id": "habakkuk",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Habakkuk 1:2-4"
     },
     {
@@ -929,7 +929,7 @@
       "question": "During which king's reign did Zephaniah prophesy?",
       "answer": "Josiah.",
       "topic_id": "zephaniah-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Zephaniah 1:1"
     },
     {
@@ -950,7 +950,7 @@
       "question": "What had the returned exiles built for themselves while leaving the temple unfinished?",
       "answer": "Paneled houses.",
       "topic_id": "haggai",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Haggai 1:4"
     },
     {
@@ -971,7 +971,7 @@
       "question": "Whose grandson was the prophet Zechariah?",
       "answer": "Iddo's.",
       "topic_id": "zechariah-13",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Zechariah 1:1"
     },
     {
@@ -992,7 +992,7 @@
       "question": "What does the name \"Malachi\" mean?",
       "answer": "\"My messenger.\"",
       "topic_id": "malachi",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Malachi 1:1"
     },
     {
@@ -1010,8 +1010,8 @@
       "reference": "Malachi 4:5"
     },
     {
-      "question": "What promise did Nathan deliver to David about his throne?",
-      "answer": "That it would be established forever.",
+      "question": "What promise did the prophet Nathan give David about his throne?",
+      "answer": "That his kingdom would last forever.",
       "topic_id": "nathan-2",
       "difficulty": 1,
       "reference": "2 Samuel 7:16"
@@ -1034,7 +1034,7 @@
       "question": "What did Gad tell David to do early in his years as a fugitive?",
       "answer": "Leave the stronghold and go to Judah.",
       "topic_id": "gad-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 22:5"
     },
     {
@@ -1052,8 +1052,8 @@
       "reference": "2 Samuel 24:18"
     },
     {
-      "question": "What did Eli mistake Hannah's silent prayer for?",
-      "answer": "Drunkenness.",
+      "question": "What did the priest Eli think was wrong with Hannah when she prayed silently?",
+      "answer": "He thought she was drunk.",
       "topic_id": "eli",
       "difficulty": 1,
       "reference": "1 Samuel 1:12-14"
@@ -1076,7 +1076,7 @@
       "question": "Why did Eleazar become next in line for the priesthood instead of his older brothers?",
       "answer": "Nadab and Abihu were struck dead for offering unauthorized fire.",
       "topic_id": "eleazar",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Leviticus 10:1-2"
     },
     {
@@ -1097,7 +1097,7 @@
       "question": "What did Phinehas do at Baal-peor to stop a plague?",
       "answer": "He killed an Israelite man and a Midianite woman with a spear.",
       "topic_id": "phinehas",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 25:6-8"
     },
     {
@@ -1118,7 +1118,7 @@
       "question": "What role did David ask Zadok to play during Absalom's rebellion?",
       "answer": "Keep the ark in Jerusalem and relay intelligence back to David.",
       "topic_id": "zadok",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 15:24-29"
     },
     {
@@ -1139,7 +1139,7 @@
       "question": "How did Abiathar survive when Saul massacred the priests of Nob?",
       "answer": "He escaped and fled to David.",
       "topic_id": "abiathar",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 22:20-23"
     },
     {
@@ -1160,7 +1160,7 @@
       "question": "What did Hilkiah discover during temple repairs under Josiah?",
       "answer": "The Book of the Law.",
       "topic_id": "hilkiah-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 22:8"
     },
     {
@@ -1181,7 +1181,7 @@
       "question": "Whom did Jehoiada and his wife Jehosheba hide in the temple for six years?",
       "answer": "The infant prince Joash.",
       "topic_id": "jehoiada-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 11:2-3"
     },
     {
@@ -1202,7 +1202,7 @@
       "question": "What was Ezra's profession, described as \"skilled in the Law of Moses\"?",
       "answer": "Priest and scribe.",
       "topic_id": "ezra",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Ezra 7:6"
     },
     {
@@ -1220,8 +1220,8 @@
       "reference": "Nehemiah 8:1-3"
     },
     {
-      "question": "What sign did Rahab hang from her window so the Israelites would spare her family?",
-      "answer": "A scarlet (red) cord.",
+      "question": "What did Rahab hang from her window as a sign for the spies?",
+      "answer": "A red rope.",
       "topic_id": "rahab",
       "difficulty": 1,
       "reference": "Joshua 2:18-21"
@@ -1251,21 +1251,21 @@
       "question": "What distinctive physical trait of Ehud's did Scripture note, which helped him surprise King Eglon's guards?",
       "answer": "He was left-handed.",
       "topic_id": "ehud",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 3:15"
     },
     {
       "question": "What unusual weapon did Shamgar use to kill six hundred Philistines?",
       "answer": "An ox goad.",
       "topic_id": "shamgar",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 3:31"
     },
     {
       "question": "What did Jael use to kill Sisera while he slept in her tent?",
       "answer": "A tent peg and a hammer.",
       "topic_id": "jael",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 4:21"
     },
     {
@@ -1349,7 +1349,7 @@
       "question": "What sacred object was captured by the Philistines the same day Hophni and Phinehas died?",
       "answer": "The ark of the covenant.",
       "topic_id": "hophni",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 4:10-11"
     },
     {
@@ -1454,14 +1454,14 @@
       "question": "How long did Zimri reign as king of Israel before his death?",
       "answer": "Seven days.",
       "topic_id": "zimri-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 16:15"
     },
     {
       "question": "What city did Omri found as Israel's new capital?",
       "answer": "Samaria.",
       "topic_id": "omri",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 16:24"
     },
     {
@@ -1489,12 +1489,12 @@
       "question": "What judgment fell on Gehazi after he lied to obtain silver and clothing from Naaman?",
       "answer": "Naaman's leprosy clung to Gehazi and his descendants.",
       "topic_id": "gehazi",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 5:27"
     },
     {
-      "question": "What did Elisha instruct Naaman to do to be healed of leprosy?",
-      "answer": "Wash seven times in the Jordan River.",
+      "question": "What did Elisha tell Naaman to do to be healed of his skin disease?",
+      "answer": "Wash himself seven times in the Jordan River.",
       "topic_id": "naaman",
       "difficulty": 1,
       "reference": "2 Kings 5:10"
@@ -1570,7 +1570,7 @@
       "reference": "Esther 2:21-23"
     },
     {
-      "question": "What ultimately happened to Haman on the gallows he had built for Mordecai?",
+      "question": "Haman built a tall post to kill Mordecai. What happened to Haman on it instead?",
       "answer": "He was hanged on it himself.",
       "topic_id": "haman",
       "difficulty": 1,
@@ -1608,12 +1608,12 @@
       "question": "What did Orpah do when Naomi urged her daughters-in-law to return to their own people?",
       "answer": "She kissed Naomi goodbye and returned to Moab, while Ruth stayed with Naomi.",
       "topic_id": "orpah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Ruth 1:14"
     },
     {
-      "question": "What did Zaccheus pledge to do after Jesus came to his house?",
-      "answer": "Give half his possessions to the poor and repay fourfold anyone he had defrauded.",
+      "question": "What did Zacchaeus promise to do after Jesus visited his house?",
+      "answer": "Give half of everything he owned to the poor, and pay back four times as much to anyone he had cheated.",
       "topic_id": "zaccheus",
       "difficulty": 1,
       "reference": "Luke 19:8"
@@ -1629,32 +1629,32 @@
       "question": "What title did Bartimaeus use to call out to Jesus?",
       "answer": "\"Son of David.\"",
       "topic_id": "bartimaeus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Mark 10:47"
     },
     {
-      "question": "Why was Simon of Cyrene forced to carry Jesus's cross?",
-      "answer": "Roman soldiers compelled him, since Jesus, already badly beaten, could not carry it any further.",
+      "question": "Why did Simon of Cyrene end up carrying Jesus's cross?",
+      "answer": "Roman soldiers made him do it because Jesus was too hurt and tired to carry it any further.",
       "topic_id": "simon-3",
       "difficulty": 1,
       "reference": "Mark 15:21"
     },
     {
-      "question": "What core teaching did Jesus give Nicodemus about entering the kingdom of God?",
-      "answer": "That one must be \"born again\" (born of water and the Spirit).",
+      "question": "What did Jesus tell Nicodemus a person must do to enter God's kingdom?",
+      "answer": "Be 'born again' — born of water and the Spirit.",
       "topic_id": "nicodemus",
       "difficulty": 1,
       "reference": "John 3:3-5"
     },
     {
-      "question": "What did Joseph of Arimathea ask Pilate for after Jesus's death?",
-      "answer": "Permission to take Jesus's body for burial.",
+      "question": "What did Joseph of Arimathea ask Pilate for after Jesus died?",
+      "answer": "Permission to bury Jesus's body.",
       "topic_id": "joseph-7",
       "difficulty": 1,
       "reference": "Mark 15:43"
     },
     {
-      "question": "How many days had Lazarus been in the tomb by the time Jesus arrived?",
+      "question": "How many days had Lazarus been dead when Jesus arrived?",
       "answer": "Four days.",
       "topic_id": "lazarus",
       "difficulty": 1,
@@ -1675,7 +1675,7 @@
       "reference": "John 12:7"
     },
     {
-      "question": "Who was the first person to see the risen Jesus and announce His resurrection to the other disciples?",
+      "question": "Who was the first person to see Jesus after He rose from the dead?",
       "answer": "Mary Magdalene.",
       "topic_id": "mary-magdalene",
       "difficulty": 1,
@@ -1685,12 +1685,12 @@
       "question": "At what moment did Cleopas and his companion finally recognize the risen Jesus?",
       "answer": "When He broke the bread at their meal in Emmaus.",
       "topic_id": "cleopas",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Luke 24:30-31"
     },
     {
-      "question": "What crimes was Barabbas imprisoned for before his release at Jesus's trial?",
-      "answer": "Insurrection and murder.",
+      "question": "Who did the crowd choose to set free instead of Jesus?",
+      "answer": "Barabbas.",
       "topic_id": "barabbas",
       "difficulty": 1,
       "reference": "Mark 15:7"
@@ -1759,8 +1759,8 @@
       "reference": "Acts 15:37-38"
     },
     {
-      "question": "What did Paul and Silas do at midnight in the Philippian prison, right before the earthquake?",
-      "answer": "They were praying and singing hymns of praise to God.",
+      "question": "What were Paul and Silas doing at midnight in jail, right before the earthquake?",
+      "answer": "Praying and singing songs to God.",
       "topic_id": "silas",
       "difficulty": 1,
       "reference": "Acts 16:25"
@@ -1783,7 +1783,7 @@
       "question": "What trade did Lydia work in?",
       "answer": "She was a dealer in purple cloth.",
       "topic_id": "lydia",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 16:14"
     },
     {
@@ -1811,7 +1811,7 @@
       "question": "What happened to Eutychus during Paul's long late-night sermon in Troas?",
       "answer": "He fell asleep, fell from a third-story window, and was picked up dead -- then Paul raised him back to life.",
       "topic_id": "eutychus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 20:9-10"
     },
     {
@@ -1874,11 +1874,11 @@
       "question": "What happened to Elymas (Bar-Jesus) after he opposed Paul and Barnabas before Sergius Paulus?",
       "answer": "Paul declared judgment on him, and he was struck blind for a time.",
       "topic_id": "bar-jesus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 13:11"
     },
     {
-      "question": "What unusual phrase does Genesis use to describe Enoch's life that it uses of almost no one else?",
+      "question": "What special words does the Bible use to describe Enoch's life?",
       "answer": "That he 'walked with God.'",
       "topic_id": "enoch",
       "difficulty": 1,
@@ -1886,7 +1886,7 @@
     },
     {
       "question": "What happened to Enoch instead of dying?",
-      "answer": "God took him.",
+      "answer": "God took him up to heaven.",
       "topic_id": "enoch",
       "difficulty": 1,
       "reference": "Genesis 5:24"
@@ -1899,7 +1899,7 @@
       "reference": "Hebrews 11:5"
     },
     {
-      "question": "How many years did Methuselah live, the longest of anyone recorded in Scripture?",
+      "question": "How many years did Methuselah live — longer than anyone else in the Bible?",
       "answer": "969 years.",
       "topic_id": "methuselah",
       "difficulty": 1,
@@ -1944,7 +1944,7 @@
       "question": "What is Nimrod famously called in Genesis 10?",
       "answer": "A mighty hunter before the LORD.",
       "topic_id": "nimrod",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 10:9"
     },
     {
@@ -1965,14 +1965,14 @@
       "question": "What two roles did Melchizedek hold at once?",
       "answer": "King of Salem and priest of God Most High.",
       "topic_id": "melchizedek",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 14:18"
     },
     {
       "question": "What did Melchizedek bring out to Abram after his victory over the eastern kings?",
       "answer": "Bread and wine.",
       "topic_id": "melchizedek",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 14:18"
     },
     {
@@ -1986,7 +1986,7 @@
       "question": "Before Isaac was born, whom did Abram name as his heir?",
       "answer": "Eliezer of Damascus.",
       "topic_id": "eliezer",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 15:2"
     },
     {
@@ -2004,8 +2004,8 @@
       "reference": "Genesis 24:12-14"
     },
     {
-      "question": "What land did Lot choose for himself when he and Abraham separated?",
-      "answer": "The well-watered Jordan plain, near Sodom.",
+      "question": "What land did Lot choose when he and Abraham split up?",
+      "answer": "The green, well-watered land near Sodom.",
       "topic_id": "lot",
       "difficulty": 1,
       "reference": "Genesis 13:10-11"
@@ -2028,7 +2028,7 @@
       "question": "What did Abraham tell Abimelech Sarah was, out of fear for his life?",
       "answer": "That she was only his sister.",
       "topic_id": "abimelech",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 20:2"
     },
     {
@@ -2046,7 +2046,7 @@
       "reference": "Genesis 26:6-11"
     },
     {
-      "question": "Which of Laban's daughters was substituted for Rachel on Jacob's wedding night?",
+      "question": "Which of Laban's daughters was tricked into marrying Jacob first?",
       "answer": "Leah.",
       "topic_id": "laban",
       "difficulty": 1,
@@ -2067,15 +2067,15 @@
       "reference": "Genesis 31:41"
     },
     {
-      "question": "Which of Jacob's sons did Leah bear that became the ancestor of David and Christ?",
+      "question": "Which of Leah's sons became an ancestor of David and Jesus?",
       "answer": "Judah.",
       "topic_id": "leah",
       "difficulty": 1,
       "reference": "Genesis 29:35"
     },
     {
-      "question": "What did the LORD do when He saw that Leah was unloved?",
-      "answer": "He opened her womb.",
+      "question": "What did God do because Leah was not loved?",
+      "answer": "He gave her children.",
       "topic_id": "leah",
       "difficulty": 1,
       "reference": "Genesis 29:31"
@@ -2089,7 +2089,7 @@
     },
     {
       "question": "How many years did Jacob work to marry Rachel?",
-      "answer": "Fourteen years total (seven, then seven more).",
+      "answer": "Fourteen years in all.",
       "topic_id": "rachel",
       "difficulty": 1,
       "reference": "Genesis 29:27-30"
@@ -2112,7 +2112,7 @@
       "question": "Whose maidservant was Bilhah before she became Jacob's wife?",
       "answer": "Rachel's.",
       "topic_id": "bilhah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 29:29"
     },
     {
@@ -2133,7 +2133,7 @@
       "question": "Whose maidservant was Zilpah before she became Jacob's wife?",
       "answer": "Leah's.",
       "topic_id": "zilpah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 29:24"
     },
     {
@@ -2154,14 +2154,14 @@
       "question": "Whose daughter was Dinah?",
       "answer": "Jacob and Leah's.",
       "topic_id": "dinah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 30:21"
     },
     {
       "question": "Who assaulted Dinah while she visited the women of Shechem?",
       "answer": "Shechem, son of Hamor.",
       "topic_id": "dinah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 34:2"
     },
     {
@@ -2175,7 +2175,7 @@
       "question": "How many of Judah's sons did Tamar marry before both died?",
       "answer": "Two -- Er and Onan.",
       "topic_id": "tamar",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 38:6-10"
     },
     {
@@ -2193,8 +2193,8 @@
       "reference": "Genesis 38:27-30"
     },
     {
-      "question": "What position did Potiphar hold in Pharaoh's court?",
-      "answer": "Captain of the bodyguard.",
+      "question": "What job did Potiphar have in Pharaoh's palace?",
+      "answer": "Captain of the guard.",
       "topic_id": "potiphar",
       "difficulty": 1,
       "reference": "Genesis 39:1"
@@ -2224,7 +2224,7 @@
       "question": "What were the names of Asenath and Joseph's two sons?",
       "answer": "Manasseh and Ephraim.",
       "topic_id": "asenath",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Genesis 41:50-52"
     },
     {
@@ -2238,14 +2238,14 @@
       "question": "What did Pharaoh command Shiphrah and Puah to do to Hebrew baby boys?",
       "answer": "Kill them at birth.",
       "topic_id": "shiphrah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 1:16"
     },
     {
       "question": "Why did Shiphrah and Puah refuse Pharaoh's command?",
       "answer": "Because they feared God.",
       "topic_id": "shiphrah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 1:17"
     },
     {
@@ -2259,7 +2259,7 @@
       "question": "Who was Puah's fellow midwife in defying Pharaoh's order?",
       "answer": "Shiphrah.",
       "topic_id": "puah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 1:15"
     },
     {
@@ -2277,14 +2277,14 @@
       "reference": "Exodus 1:20-21"
     },
     {
-      "question": "What was Jethro's occupation in Midian?",
+      "question": "What was Jethro's job in Midian?",
       "answer": "He was a priest.",
       "topic_id": "jethro",
       "difficulty": 1,
       "reference": "Exodus 3:1"
     },
     {
-      "question": "Which of Jethro's daughters did Moses marry?",
+      "question": "Which of Jethro's daughters married Moses?",
       "answer": "Zipporah.",
       "topic_id": "jethro",
       "difficulty": 1,
@@ -2301,14 +2301,14 @@
       "question": "Whose sons were Nadab and Abihu?",
       "answer": "Aaron's.",
       "topic_id": "nadab",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Exodus 6:23"
     },
     {
       "question": "What did Nadab and Abihu offer that God had not commanded?",
       "answer": "Strange fire.",
       "topic_id": "nadab",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Leviticus 10:1"
     },
     {
@@ -2322,7 +2322,7 @@
       "question": "Which of Aaron's sons was Abihu's brother in the strange fire incident?",
       "answer": "Nadab.",
       "topic_id": "abihu",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Leviticus 10:1"
     },
     {
@@ -2343,14 +2343,14 @@
       "question": "What was Korah's core complaint against Moses and Aaron?",
       "answer": "That the whole congregation was equally holy, so Moses and Aaron had no special right to lead.",
       "topic_id": "korah-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 16:3"
     },
     {
       "question": "What happened to the ground beneath Korah and his household?",
       "answer": "It opened up and swallowed them alive.",
       "topic_id": "korah-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 16:31-33"
     },
     {
@@ -2361,14 +2361,14 @@
       "reference": "Numbers 26:11"
     },
     {
-      "question": "Who hired Balaam to curse Israel?",
-      "answer": "Balak, king of Moab.",
+      "question": "Who paid Balaam to curse Israel?",
+      "answer": "Balak, the king of Moab.",
       "topic_id": "balaam",
       "difficulty": 1,
       "reference": "Numbers 22:5-6"
     },
     {
-      "question": "What animal rebuked Balaam on the road?",
+      "question": "What animal spoke to stop Balaam on the road?",
       "answer": "His donkey.",
       "topic_id": "balaam",
       "difficulty": 1,
@@ -2385,14 +2385,14 @@
       "question": "What kingdom did Balak rule?",
       "answer": "Moab.",
       "topic_id": "balak",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 22:4"
     },
     {
       "question": "Why was Balak afraid of Israel?",
       "answer": "Because they were so numerous.",
       "topic_id": "balak",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 22:3"
     },
     {
@@ -2406,7 +2406,7 @@
       "question": "Why did Zelophehad's daughters petition Moses for an inheritance?",
       "answer": "Because their father died with no sons, and they didn't want his name lost from his clan.",
       "topic_id": "mahlah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Numbers 27:3-4"
     },
     {
@@ -2455,14 +2455,14 @@
       "question": "Whose daughter was Achsah?",
       "answer": "Caleb's.",
       "topic_id": "achsah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Joshua 15:16"
     },
     {
       "question": "What did Caleb promise to whoever captured Kiriath-sepher?",
       "answer": "His daughter Achsah in marriage.",
       "topic_id": "achsah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Joshua 15:16"
     },
     {
@@ -2473,14 +2473,14 @@
       "reference": "Joshua 15:19"
     },
     {
-      "question": "What two roles did Deborah hold in Israel?",
+      "question": "What two jobs did Deborah have in Israel?",
       "answer": "Prophetess and judge.",
       "topic_id": "deborah-2",
       "difficulty": 1,
       "reference": "Judges 4:4"
     },
     {
-      "question": "Whom did Deborah summon to lead Israel's army against Sisera?",
+      "question": "Who did Deborah call to lead Israel's army?",
       "answer": "Barak.",
       "topic_id": "deborah-2",
       "difficulty": 1,
@@ -2497,7 +2497,7 @@
       "question": "Under what condition did Barak agree to lead Israel's army?",
       "answer": "Only if Deborah went with him.",
       "topic_id": "barak",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 4:8"
     },
     {
@@ -2515,14 +2515,14 @@
       "reference": "Hebrews 11:32"
     },
     {
-      "question": "What sign did Gideon test God with twice, using wool?",
+      "question": "What test did Gideon give God twice, using wool?",
       "answer": "The fleece test.",
       "topic_id": "gideon",
       "difficulty": 1,
       "reference": "Judges 6:36-40"
     },
     {
-      "question": "How many men did God leave Gideon with to fight the Midianites?",
+      "question": "How many soldiers did God leave Gideon with to fight the Midianites?",
       "answer": "300.",
       "topic_id": "gideon",
       "difficulty": 1,
@@ -2539,7 +2539,7 @@
       "question": "What parable did Jotham tell the men of Shechem?",
       "answer": "The parable of the trees choosing a king.",
       "topic_id": "jotham",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 9:7-15"
     },
     {
@@ -2560,7 +2560,7 @@
       "question": "To whom did the angel of the LORD first appear to announce Samson's birth?",
       "answer": "Manoah's wife.",
       "topic_id": "manoah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 13:3"
     },
     {
@@ -2585,8 +2585,8 @@
       "reference": "Judges 16:5"
     },
     {
-      "question": "What was the true secret of Samson's strength?",
-      "answer": "His uncut hair, a sign of his Nazirite vow.",
+      "question": "What was the real secret of Samson's strength?",
+      "answer": "His uncut hair, which showed his promise to God.",
       "topic_id": "delilah",
       "difficulty": 1,
       "reference": "Judges 16:17"
@@ -2609,7 +2609,7 @@
       "question": "What summary verse describes the moral chaos of this period in Judges?",
       "answer": "'Everyone did what was right in his own eyes.'",
       "topic_id": "micah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Judges 17:6"
     },
     {
@@ -2623,7 +2623,7 @@
       "question": "How many wives did Elkanah have?",
       "answer": "Two -- Hannah and Peninnah.",
       "topic_id": "elkanah-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 1:2"
     },
     {
@@ -2637,19 +2637,19 @@
       "question": "Where did Elkanah's family travel every year to worship and sacrifice?",
       "answer": "Shiloh.",
       "topic_id": "elkanah-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 1:3"
     },
     {
-      "question": "Why did Eli initially think Hannah was drunk?",
-      "answer": "She was praying silently, only moving her lips.",
+      "question": "Why did Eli think Hannah was drunk?",
+      "answer": "She was praying quietly, only moving her lips.",
       "topic_id": "hannah",
       "difficulty": 1,
       "reference": "1 Samuel 1:13"
     },
     {
-      "question": "What did Hannah vow if God gave her a son?",
-      "answer": "She would dedicate him to the LORD's service for all his life.",
+      "question": "What did Hannah promise God if He gave her a son?",
+      "answer": "She would give him back to serve the Lord for his whole life.",
       "topic_id": "hannah",
       "difficulty": 1,
       "reference": "1 Samuel 1:11"
@@ -2665,14 +2665,14 @@
       "question": "What advantage did Peninnah have over Hannah?",
       "answer": "She had children, while Hannah had none.",
       "topic_id": "peninnah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 1:2"
     },
     {
       "question": "How did Peninnah use this advantage?",
       "answer": "She provoked and irritated Hannah bitterly over her childlessness.",
       "topic_id": "peninnah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 1:6"
     },
     {
@@ -2686,14 +2686,14 @@
       "question": "Whose sons were Joel and Abijah?",
       "answer": "Samuel's.",
       "topic_id": "joel",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 8:2"
     },
     {
       "question": "What corrupt behavior did Joel and Abijah practice as judges?",
       "answer": "They took bribes and perverted justice.",
       "topic_id": "joel",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 8:3"
     },
     {
@@ -2714,7 +2714,7 @@
       "question": "What contrast does 1 Samuel draw between Samuel and his sons?",
       "answer": "His sons did not walk in his ways.",
       "topic_id": "abijah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 8:3"
     },
     {
@@ -2728,7 +2728,7 @@
       "question": "What had Saul promised to whoever defeated Goliath?",
       "answer": "His daughter in marriage.",
       "topic_id": "merab",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Samuel 17:25"
     },
     {
@@ -2749,14 +2749,14 @@
       "question": "Whose concubine was Rizpah?",
       "answer": "Saul's.",
       "topic_id": "rizpah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 3:7"
     },
     {
       "question": "What did Rizpah do to protect her sons' exposed bodies?",
       "answer": "She kept vigil on a rock, guarding them from birds and animals for months.",
       "topic_id": "rizpah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 21:10"
     },
     {
@@ -2770,7 +2770,7 @@
       "question": "What did Barzillai bring David and his men while they fled Absalom?",
       "answer": "Beds, basins, pottery, and food.",
       "topic_id": "barzillai",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 17:27-29"
     },
     {
@@ -2791,14 +2791,14 @@
       "question": "What nationality was Ittai the Gittite?",
       "answer": "Philistine (from Gath).",
       "topic_id": "ittai",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 15:19"
     },
     {
       "question": "What did Ittai declare to David when given the chance to turn back?",
       "answer": "Wherever David went, whether to death or life, Ittai would be there too.",
       "topic_id": "ittai",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 15:21"
     },
     {
@@ -2812,7 +2812,7 @@
       "question": "What did Araunah own that David needed to build an altar?",
       "answer": "A threshing floor.",
       "topic_id": "ornan",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Samuel 24:18"
     },
     {
@@ -2833,7 +2833,7 @@
       "question": "What did Hiram supply for the construction of Solomon's temple?",
       "answer": "Cedar and cypress timber and skilled craftsmen.",
       "topic_id": "hiram",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 5:8-10"
     },
     {
@@ -2875,7 +2875,7 @@
       "question": "What did Ahijah do to his cloak to symbolize the kingdom being torn from Solomon's son?",
       "answer": "He tore it into twelve pieces.",
       "topic_id": "ahijah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 11:30"
     },
     {
@@ -2903,7 +2903,7 @@
       "question": "Why did Ahab admit he hated Micaiah?",
       "answer": "Because Micaiah never prophesied good concerning him, only evil.",
       "topic_id": "micaiah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Kings 22:8"
     },
     {
@@ -2917,14 +2917,14 @@
       "question": "Whom did Shallum assassinate to seize Israel's throne?",
       "answer": "Zechariah.",
       "topic_id": "shallum",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 15:10"
     },
     {
       "question": "How long did Shallum reign before he too was assassinated?",
       "answer": "One month.",
       "topic_id": "shallum",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 15:13"
     },
     {
@@ -2938,7 +2938,7 @@
       "question": "Whom did Menahem kill to seize Israel's throne?",
       "answer": "Shallum.",
       "topic_id": "menahem",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 15:14"
     },
     {
@@ -2959,7 +2959,7 @@
       "question": "Who was Pekahiah's father and predecessor as king?",
       "answer": "Menahem.",
       "topic_id": "pekahiah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 15:23"
     },
     {
@@ -3008,14 +3008,14 @@
       "question": "What unauthorized act did Uzziah commit in the temple?",
       "answer": "He tried to burn incense on the altar, a priestly duty.",
       "topic_id": "uzziah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Chronicles 26:16"
     },
     {
       "question": "What happened to Uzziah when the priests confronted him?",
       "answer": "Leprosy broke out on his forehead.",
       "topic_id": "uzziah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Chronicles 26:19"
     },
     {
@@ -3043,7 +3043,7 @@
       "question": "What had Shebna carved for himself that drew Isaiah's rebuke?",
       "answer": "An elaborate tomb.",
       "topic_id": "shebna",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Isaiah 22:16"
     },
     {
@@ -3064,7 +3064,7 @@
       "question": "What position did Joah hold in Hezekiah's court?",
       "answer": "Recorder.",
       "topic_id": "joah",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 18:18"
     },
     {
@@ -3092,14 +3092,14 @@
       "question": "What did Hezekiah do with Sennacherib's threatening letter?",
       "answer": "He spread it before the LORD in the temple and prayed.",
       "topic_id": "sennacherib",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 19:14"
     },
     {
       "question": "How many men in Sennacherib's camp did the angel of the LORD strike down in one night?",
       "answer": "185,000.",
       "topic_id": "sennacherib",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 19:35"
     },
     {
@@ -3113,7 +3113,7 @@
       "question": "What did Hilkiah give to Shaphan that had been found during temple repairs?",
       "answer": "The Book of the Law.",
       "topic_id": "shaphan",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Kings 22:8"
     },
     {
@@ -3141,7 +3141,7 @@
       "question": "What did Jehoiakim do to Jeremiah's scroll as it was read to him?",
       "answer": "He cut it with a knife and burned it in the fire, section by section.",
       "topic_id": "jehoiakim",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Jeremiah 36:23"
     },
     {
@@ -3159,7 +3159,7 @@
       "reference": "Luke 1:18"
     },
     {
-      "question": "What name did Zacharias confirm in writing for his newborn son?",
+      "question": "What name did Zacharias write down for his new baby son?",
       "answer": "John.",
       "topic_id": "zacharias",
       "difficulty": 1,
@@ -3181,7 +3181,7 @@
     },
     {
       "question": "What happened the moment Mary greeted Elizabeth?",
-      "answer": "The baby (John) leaped in Elizabeth's womb.",
+      "answer": "The baby inside Elizabeth (John) jumped for joy.",
       "topic_id": "elizabeth",
       "difficulty": 1,
       "reference": "Luke 1:41"
@@ -3194,8 +3194,8 @@
       "reference": "Luke 1:43"
     },
     {
-      "question": "What had the Holy Spirit revealed to Simeon before his death?",
-      "answer": "That he would not die before seeing the Lord's Christ.",
+      "question": "What had God promised old Simeon before he died?",
+      "answer": "That he would see Jesus, God's promised King, before he died.",
       "topic_id": "simeon-2",
       "difficulty": 1,
       "reference": "Luke 2:26"
@@ -3223,7 +3223,7 @@
     },
     {
       "question": "How did Anna spend her time at the temple?",
-      "answer": "Worshiping with fasting and prayer night and day.",
+      "answer": "Praying and worshiping God, often going without food.",
       "topic_id": "anna",
       "difficulty": 1,
       "reference": "Luke 2:37"
@@ -3236,8 +3236,8 @@
       "reference": "Luke 2:38"
     },
     {
-      "question": "Why had Herod Antipas imprisoned John the Baptist?",
-      "answer": "Because John condemned his marriage to Herodias, his brother's wife.",
+      "question": "Why did Herod put John the Baptist in prison?",
+      "answer": "Because John said it was wrong for Herod to marry his brother's wife.",
       "topic_id": "herod-2",
       "difficulty": 1,
       "reference": "Mark 6:17-18"
@@ -3267,7 +3267,7 @@
       "question": "What did Herodias instruct her daughter to ask Herod for?",
       "answer": "The head of John the Baptist.",
       "topic_id": "herodias",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Mark 6:24"
     },
     {
@@ -3281,7 +3281,7 @@
       "question": "What did Herod promise his stepdaughter after her dance pleased him?",
       "answer": "Whatever she asked, up to half his kingdom.",
       "topic_id": "salome-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Mark 6:22-23"
     },
     {
@@ -3299,14 +3299,14 @@
       "reference": "Mark 6:25"
     },
     {
-      "question": "What was Jairus's role in the community?",
-      "answer": "A synagogue official.",
+      "question": "What was Jairus's job?",
+      "answer": "He was a leader at the synagogue, the Jewish place of worship.",
       "topic_id": "jairus",
       "difficulty": 1,
       "reference": "Mark 5:22"
     },
     {
-      "question": "What news reached Jairus while Jesus was delayed on the way to his house?",
+      "question": "What sad news reached Jairus while he waited for Jesus?",
       "answer": "That his daughter had already died.",
       "topic_id": "jairus",
       "difficulty": 1,
@@ -3320,7 +3320,7 @@
       "reference": "Mark 5:41"
     },
     {
-      "question": "Whom was Matthias chosen to replace among the twelve apostles?",
+      "question": "Who did Matthias take the place of among Jesus's twelve apostles?",
       "answer": "Judas Iscariot.",
       "topic_id": "matthias",
       "difficulty": 1,
@@ -3334,8 +3334,8 @@
       "reference": "Acts 1:21-22"
     },
     {
-      "question": "How did the apostles decide between Matthias and Joseph called Barsabbas?",
-      "answer": "They prayed and cast lots.",
+      "question": "How did the apostles choose between Matthias and Joseph called Barsabbas?",
+      "answer": "They prayed and drew names (cast lots).",
       "topic_id": "matthias",
       "difficulty": 1,
       "reference": "Acts 1:24-26"
@@ -3351,7 +3351,7 @@
       "question": "Who was chosen instead of Joseph called Barsabbas?",
       "answer": "Matthias.",
       "topic_id": "joseph-10",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 1:26"
     },
     {
@@ -3365,14 +3365,14 @@
       "question": "What was Rhoda's role in the household where believers were praying for Peter?",
       "answer": "A servant girl.",
       "topic_id": "rhoda",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 12:13"
     },
     {
       "question": "What did Rhoda do instead of opening the gate when she recognized Peter's voice?",
       "answer": "She ran back inside to announce it, leaving Peter outside.",
       "topic_id": "rhoda",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 12:14"
     },
     {
@@ -3386,14 +3386,14 @@
       "question": "Whose mother was Mary, in whose house believers gathered to pray?",
       "answer": "John Mark's.",
       "topic_id": "mary-4",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 12:12"
     },
     {
       "question": "What were the believers in Mary's house praying for?",
       "answer": "Peter's release from prison.",
       "topic_id": "mary-4",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 12:5, 12"
     },
     {
@@ -3407,7 +3407,7 @@
       "question": "What does Paul say Alexander the coppersmith did to him?",
       "answer": "Did him much harm.",
       "topic_id": "alexander-4",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Timothy 4:14"
     },
     {
@@ -3428,7 +3428,7 @@
       "question": "What false teaching did Hymenaeus and Philetus spread about the resurrection?",
       "answer": "That the resurrection had already taken place.",
       "topic_id": "hymenaeus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Timothy 2:18"
     },
     {
@@ -3449,7 +3449,7 @@
       "question": "Who is Philetus paired with in spreading a false teaching about the resurrection?",
       "answer": "Hymenaeus.",
       "topic_id": "philetus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Timothy 2:17-18"
     },
     {
@@ -3470,14 +3470,14 @@
       "question": "What position did Crispus hold in Corinth?",
       "answer": "Ruler of the synagogue.",
       "topic_id": "crispus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 18:8"
     },
     {
       "question": "Who believed in the Lord along with Crispus?",
       "answer": "His whole household.",
       "topic_id": "crispus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 18:8"
     },
     {
@@ -3491,7 +3491,7 @@
       "question": "What happened to Sosthenes in front of Gallio's judgment seat?",
       "answer": "He was seized and beaten by the crowd.",
       "topic_id": "sosthenes",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 18:17"
     },
     {
@@ -3512,14 +3512,14 @@
       "question": "What does Paul call Gaius in Romans, describing his hospitality?",
       "answer": "'My host and host of the whole church.'",
       "topic_id": "gaius",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Romans 16:23"
     },
     {
       "question": "Along with Crispus, whom else did Paul personally baptize in Corinth?",
       "answer": "Gaius.",
       "topic_id": "gaius",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "1 Corinthians 1:14"
     },
     {
@@ -3533,7 +3533,7 @@
       "question": "What was Tertius's role in producing Paul's letter to the Romans?",
       "answer": "He was the scribe who physically wrote it as Paul dictated.",
       "topic_id": "tertius",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Romans 16:22"
     },
     {
@@ -3554,7 +3554,7 @@
       "question": "What church was Phoebe a servant (or deacon) of?",
       "answer": "The church at Cenchrea.",
       "topic_id": "phoebe",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Romans 16:1"
     },
     {
@@ -3575,7 +3575,7 @@
       "question": "What relationship does Paul claim with Junia and Andronicus?",
       "answer": "They were his kinsmen and fellow prisoners.",
       "topic_id": "junias",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Romans 16:7"
     },
     {
@@ -3596,7 +3596,7 @@
       "question": "Who is Andronicus paired with in Paul's greeting in Romans 16:7?",
       "answer": "Junia.",
       "topic_id": "andronicus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Romans 16:7"
     },
     {
@@ -3617,14 +3617,14 @@
       "question": "What does Paul say Onesiphorus was not, unlike others, regarding Paul's imprisonment?",
       "answer": "Ashamed of his chains.",
       "topic_id": "onesiphorus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Timothy 1:16"
     },
     {
       "question": "What did Onesiphorus do once he arrived in Rome?",
       "answer": "He eagerly searched for Paul until he found him.",
       "topic_id": "onesiphorus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "2 Timothy 1:17"
     },
     {
@@ -3638,7 +3638,7 @@
       "question": "What false assumption about Trophimus sparked a riot against Paul in Jerusalem?",
       "answer": "That Paul had brought Trophimus, a Gentile, into the restricted area of the temple.",
       "topic_id": "trophimus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 21:28-29"
     },
     {
@@ -3680,14 +3680,14 @@
       "question": "What was Publius's role on the island of Malta?",
       "answer": "He was the leading official (chief man) of the island.",
       "topic_id": "publius",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 28:7"
     },
     {
       "question": "What did Paul do for Publius's father, who was sick with fever and dysentery?",
       "answer": "Prayed, laid hands on him, and healed him.",
       "topic_id": "publius",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 28:8"
     },
     {
@@ -3715,14 +3715,14 @@
       "question": "In which New Testament letter is Demetrius commended?",
       "answer": "3 John.",
       "topic_id": "demetrius-2",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "3 John 1:12"
     },
     {
       "question": "What did Agabus prophesy would spread over the whole world during the reign of Claudius?",
       "answer": "A great famine.",
       "topic_id": "agabus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 11:28"
     },
     {
@@ -3736,21 +3736,21 @@
       "question": "What object did Agabus use to act out his prophecy about Paul's arrest?",
       "answer": "Paul's own belt.",
       "topic_id": "agabus",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "Acts 21:11"
     },
     {
       "question": "To whom is the entire letter of 3 John addressed?",
       "answer": "Gaius.",
       "topic_id": "gaius-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "3 John 1:1"
     },
     {
       "question": "What was Gaius commended for in 3 John?",
       "answer": "His faithful hospitality toward traveling missionaries and strangers.",
       "topic_id": "gaius-3",
-      "difficulty": 1,
+      "difficulty": 2,
       "reference": "3 John 1:5-8"
     },
     {

@@ -1442,19 +1442,19 @@ header.site-header nav a.nav-cta:hover {
   color: var(--color-cta-text);
 }
 
-.header-notice {
-  flex-basis: 100%;
+.footer-notice {
+  margin-top: 0.75rem;
   font-size: 0.78rem;
   color: var(--color-text-muted);
 }
 
-.header-notice summary {
+.footer-notice summary {
   cursor: pointer;
   max-width: var(--max-width);
   margin: 0 auto;
 }
 
-.header-notice p {
+.footer-notice p {
   max-width: var(--max-width);
   margin: 0.4rem auto 0;
 }

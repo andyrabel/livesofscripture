@@ -853,6 +853,63 @@ a `## Scope` section explaining what the document governs or describes.
 
 ---
 
+## Quiz
+
+`data/quiz.json` holds the question bank behind `quiz.html` and the home
+page's "Quiz Question" box (`js/app.js`'s `loadQuiz`/`renderQuizPick`/
+`buildDefaultQuizSheet`). Each question carries a `difficulty` (1=Easy,
+2=Medium, 3=Hard) and a `topic_id` linking back to the person it's about.
+The **default** experience — home page box and the quiz builder's initial
+max-difficulty filter (`getPreferredQuizDifficulty` defaults to 1) — shows
+only difficulty-1 (Easy) questions unless a visitor explicitly raises the
+difficulty, so difficulty-1 quality directly shapes most visitors' first
+impression of the site.
+
+**Rules for difficulty 1 ("Easy") questions (decided 2026-08-10):**
+- **Well-known character only.** An Easy question's `topic_id` must be a
+  Bible figure an average visitor — not just a biblically literate one —
+  would already recognize by name and story: Abraham, Moses, David, Ruth,
+  Peter, Paul, and figures of that same fame tier. Being "major"/full-tier
+  or having 3+ real references (the `devotionals`-eligibility bar — see
+  [[feedback_devotionals_eligibility]]) is not sufficient on its own —
+  that bar still let in many genuinely obscure figures (Barzillai, Ittai
+  the Gittite, Tertius, Onesiphorus, Sosthenes, Hymenaeus and Philetus,
+  minor kings like Pekahiah/Shallum/Zimri) whose *questions* were easy to
+  answer once you already knew the fact, but whose *characters* are not
+  well known — that combination doesn't belong in Easy. A person can be
+  full-tier and still never have an Easy-difficulty question; that's
+  expected, not a gap to fill.
+- **8-year-old reading level.** Question and answer text must use short
+  sentences and plain, concrete vocabulary — no theological jargon
+  (`"discern between good and evil"` → `"know right from wrong"`), no
+  Hebrew/Greek terms left unglossed (`Nehushtan`, `seraph`, `El Roi`
+  without a plain-English gloss), no clinical/legal words a child
+  wouldn't use (`"leprosy"` → `"skin disease"`, `"insurrection"` →
+  describe the crowd's choice instead of naming the charge). The same
+  phrase should read naturally aloud to an adult and a child, the same
+  register already required of `devotionals` phrasing (see
+  [[feedback_devotionals_voice]]) — simplifying for age is not an excuse
+  to write childishly or lose factual precision, just to avoid words a
+  fourth-grader hasn't met yet.
+- **Content, not just vocabulary, must fit the audience.** An Easy
+  question about a well-known figure can still fail this bar if the
+  *fact* itself is adult content the `family_friendly_summary` rules
+  (see Coverage and Two-Tier Depth above) would keep out of a child-aimed
+  telling — e.g. an original Easy question asked what David did while
+  Bathsheba's husband was at war and answered with the affair itself.
+  Replace this kind of question with a different Easy-appropriate fact
+  about the same well-known person rather than softening the wording of
+  the same explicit fact.
+- Medium (2) and Hard (3) questions are not held to either rule — that's
+  where the site's obscure-figure and harder-fact questions belong, and
+  where "well known but hard" questions about famous people (exact verse
+  numbers, minor chronology) should live too.
+- When adding new quiz questions going forward, apply both rules before
+  ever tagging a question `difficulty: 1` — don't add an Easy question
+  for a person and rely on a later audit pass to catch it.
+
+---
+
 ## Human Review System
 
 Same badge system as Lives of Faith, full-tier entries only:

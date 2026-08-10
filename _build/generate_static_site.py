@@ -143,15 +143,6 @@ def header_html(base, active):
     <nav id="site-nav">
       {nav}
     </nav>
-    <details class="header-notice">
-      <summary>Usage &amp; licensing</summary>
-      <p>No Bible verse text is quoted or stored on this site, in any translation —
-      references are chapter:verse only. Genealogy data is seeded from
-      <a href="https://github.com/bradystephenson/bible-data">BibleData</a> by Brady
-      Stephenson (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
-      Portrait illustrations are AI-generated or hand-authored line art — no claim of
-      historical likeness. See <a href="{base}about.html">About</a> for full sourcing.</p>
-    </details>
   </div>
 </header>"""
 
@@ -159,6 +150,15 @@ def header_html(base, active):
 def footer_html(base):
     return f"""<footer class="site-footer">
   <p>Lives of Scripture — a reference for every person named in the Bible. See <a href="{base}about.html">About</a> for sources and translation handling.</p>
+  <details class="footer-notice">
+    <summary>Usage &amp; licensing</summary>
+    <p>No Bible verse text is quoted or stored on this site, in any translation —
+    references are chapter:verse only. Genealogy data is seeded from
+    <a href="https://github.com/bradystephenson/bible-data">BibleData</a> by Brady
+    Stephenson (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+    Portrait illustrations are AI-generated or hand-authored line art — no claim of
+    historical likeness. See <a href="{base}about.html">About</a> for full sourcing.</p>
+  </details>
 </footer>"""
 
 
