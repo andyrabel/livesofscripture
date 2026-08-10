@@ -1,7 +1,6 @@
 const DATA = {
   index: null,
   connections: null,
-  places: null,
   whatsNew: null,
   quiz: null,
 };
@@ -685,7 +684,7 @@ async function renderHomeSpotlight(fullTier) {
   const text = document.createElement("div");
   const label = document.createElement("div");
   label.className = "home-spotlight__label";
-  label.textContent = "Featured Entry";
+  label.textContent = "Today's Featured Person";
   text.appendChild(label);
 
   const name = document.createElement("h2");
@@ -2395,6 +2394,24 @@ function assignEraOrdinalSpans(people) {
         p.start = newStart;
         p.end = newStart + lifespanFor(p);
       }
+    }
+
+    // The re-anchor pass above only guarantees overlap with whichever parent
+    // (father preferred -- see the `candidateId` lookup above) was actually
+    // used to place the child. If a father was used, the mother's own bar
+    // was never touched, and a mother whose lifespan track differs from the
+    // father's (e.g. she has no Scripture-stated lifespan and gets the
+    // generic default, or simply died earlier) can end up not covering her
+    // child's birth position at all -- a mother's bar must always overlap
+    // the birth of every child she's recorded as bearing, so stretch her
+    // span to cover it here rather than leaving that to chance.
+    for (const p of group) {
+      const motherId = p.genealogy && p.genealogy.mother;
+      if (!motherId || !byId.has(motherId) || p.start == null) continue;
+      const mother = byId.get(motherId);
+      if (mother.start == null) continue;
+      if (p.start < mother.start) mother.start = p.start;
+      if (p.start > mother.end) mother.end = p.start;
     }
   }
 }

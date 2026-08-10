@@ -63,7 +63,6 @@ changes.
 │   ├── people.json         # lightweight index, loaded everywhere
 │   ├── people/[id].json     # full per-person entry, fetched on demand
 │   ├── connections.json     # genealogy + narrative relationship edges
-│   ├── places.json          # archaeological/traditional biblical sites
 │   ├── quiz.json
 │   ├── timeline-events.json
 │   └── whats-new.json       # site changelog feed
