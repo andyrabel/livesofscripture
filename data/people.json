@@ -37294,6 +37294,7 @@
       "God's sovereignty over pagan rulers"
     ],
     "image": "generic-king.png",
+    "image2": "cyrus.png",
     "first_reference": "2 Chronicles 36:22-23"
   },
   {
@@ -37429,6 +37430,7 @@
       "faithfulness"
     ],
     "image": "generic-figure.png",
+    "image2": "mordecai.png",
     "gender": "male",
     "disambiguation": "father of Esther (Ezra 2:2)",
     "first_reference": "Ezra 2:2",
@@ -49217,6 +49219,7 @@
       "protection of the Christ child"
     ],
     "image": "generic-figure.png",
+    "image2": "joseph-6.png",
     "first_reference": "Matthew 1:16-24"
   },
   {
@@ -51146,6 +51149,7 @@
       "restitution"
     ],
     "image": "generic-figure.png",
+    "image2": "zaccheus.png",
     "gender": "male",
     "first_reference": "Luke 19:2-8"
   },
