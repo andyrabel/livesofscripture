@@ -9,6 +9,19 @@ Canonical fame-first queue for people who have `devotionals` but have no
 stained-glass portrait yet. Eligibility was checked against the individual
 person JSON, `data/people.json`, and existing files in `images/portraits2`.
 
+**Full-tier only (confirmed 2026-08-10).** `devotionals` is already a
+full-tier-only field per the site's `CLAUDE.md` (Coverage and Two-Tier
+Depth section), so `tier: "stub"` people should never qualify for this
+queue in the first place — a full sweep on 2026-08-10 confirmed zero stub
+entries were present in either the numbered queue or the Paused section
+below. Still, verify `tier: "full"` on each person's own JSON before
+generating a portrait for them (see the orchestration prompt at the bottom
+of this file) rather than trusting queue membership alone, in case a
+person's tier ever changes after they're queued. A stub is never a
+candidate for a *new* generated portrait, even one with unusually strong
+narrative-adjacent heuristics (reference count, book spread, verse span) —
+those heuristics rank fame, not eligibility.
+
 Use the `person_id` in backticks for filenames and data updates. Check a batch
 only after all portraits have been accepted, saved, referenced by `image2` in
 both data locations, and validated by rebuilding the site. If a person becomes
@@ -20,43 +33,29 @@ it is intentionally stable rather than pretending fame has an exact metric.
 
 ## Queue
 
-Batches 01-43 are complete and have been removed from this file to keep it
+Batches 01-56 are complete and have been removed from this file to keep it
 focused on remaining work; the portraits, `image2` references, and commit
 history for those batches remain the record of what was done.
 
-**Resorted 2026-08-10.** The previously-recorded batches 44-154 have not been
-started (no checkbox below was checked, so no portrait or `image2` reference
-exists for anyone in them), so the full remaining queue was re-ranked from
-scratch rather than partially renumbered: the 78 spotlight-ineligible people
-among them (`spotlight_eligible: false` — of the ~113 people site-wide with
-that flag, only these 78 were still in this queue; the rest already have a
+**Resorted 2026-08-10, then cleaned up the same day once batches 44-56
+finished.** The remaining queue below (batches 57 onward) comes from a
+full re-rank done that day: the 78 spotlight-ineligible people then in the
+queue (`spotlight_eligible: false` — of the ~113 people site-wide with that
+flag, only these 78 were still in this queue; the rest already have a
 portrait from batches 01-43 — a single brief episode with minimal narrative
 weight, see `_build/mark_spotlight_eligibility.py`) were moved out to the
-Paused section below, and the remaining 362 people were
-re-ordered by broad recognizability, New Testament preferred over Old
-Testament wherever the two were close enough to call either way. The top of
-the list is a hand-curated set of clearly widely-known figures (Judas
-Iscariot, Pontius Pilate, Judah, Herod, Lazarus of Bethany, Ruth and Boaz,
-and similar); the remainder falls back to the same reproducible heuristic
-already used for the original batch-66-onward ranking (reference count +
-distinct-book spread + total verse span) — an editorial estimate, not a
-claim of exact fame ordering, consistent with this document's existing
-framing above. Batch numbering restarts at 44 and is contiguous through the
-end of the active queue.
+Paused section below, and the remaining people were re-ordered by broad
+recognizability, New Testament preferred over Old Testament wherever the
+two were close enough to call either way. The hand-curated front of that
+resort (clearly widely-known figures — Judas Iscariot, Pontius Pilate,
+Judah, Herod, Lazarus of Bethany, Ruth and Boaz, and similar) has since
+been completed and removed above as batches 44-56; the remainder below
+falls back to a reproducible heuristic (reference count + distinct-book
+spread + total verse span) — an editorial estimate, not a claim of exact
+fame ordering, consistent with this document's framing above. Batch
+numbering is contiguous with the completed/removed batches above (57
+follows 56), so no renumbering was needed in this cleanup pass.
 
-- [x] **44** — `judas-2` (Judas); `pilate` (Pilate); `judah` (Judah); `herod` (Herod)
-- [x] **45** — `lazarus-2` (Lazarus); `ruth` (Ruth); `boaz` (Boaz); `delilah` (Delilah)
-- [x] **46** — `mordecai` (Mordecai); `cyrus` (Cyrus); `zaccheus` (Zaccheus); `joseph-6` (Joseph)
-- [x] **47** — `james` (James); `levi` (Levi); `reuben` (Reuben); `simon-5` (Simon)
-- [x] **48** — `luke` (Luke); `herod-3` (Herod); `caesar` (Caesar); `caesar-augustus` (Caesar Augustus)
-- [x] **49** — `darius` (Darius); `hannah` (Hannah); `jael` (Jael); `ehud` (Ehud)
-- [x] **50** — `philemon` (Philemon); `onesimus` (Onesimus); `lazarus` (Lazarus); `gamaliel-2` (Gamaliel)
-- [x] **51** — `ananias-2` (Ananias); `ananias` (Ananias); `sapphira` (Sapphira); `cornelius` (Cornelius)
-- [x] **52** — `bartimaeus` (Bartimaeus); `felix` (Felix); `festus` (Festus); `agrippa` (Agrippa)
-- [x] **53** — `matthias` (Matthias); `eutychus` (Eutychus); `anna` (Anna); `salome-2` (Salome)
-- [x] **54** — `huldah` (Huldah); `simon-4` (Simon); `caesar-2` (Caesar); `manasseh` (Manasseh)
-- [x] **55** — `pharaoh-4` (Pharaoh); `dan` (Dan); `simeon` (Simeon); `issachar` (Issachar)
-- [x] **56** — `sihon` (Sihon); `og` (Og); `jehoiachin` (Jehoiachin); `perez` (Perez)
 - [ ] **57** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
 - [ ] **58** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
 - [ ] **59** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)
@@ -174,6 +173,11 @@ each person.
 ```text
 Create the next unchecked batch in
 images/portraits2/STAINED_GLASS_QUEUE.md.
+
+Before generating, check each person's own JSON file in data/people/. If
+anyone in the batch has "tier": "stub" (not "full"), stop and flag it rather
+than generating a portrait for them — stub entries never get a generated
+stained-glass portrait, regardless of queue membership or heuristic ranking.
 
 Follow images/portraits2/STAINED_GLASS_PROMPT.md exactly. Generate one distinct
 image call per person. Derive restrained, Scripture-grounded symbols and scene
