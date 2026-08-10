@@ -38,102 +38,127 @@ focused on remaining work; the portraits, `image2` references, and commit
 history for those batches remain the record of what was done.
 
 **Resorted 2026-08-10, then cleaned up the same day once batches 44-56
-finished.** The remaining queue below (batches 57 onward) comes from a
-full re-rank done that day: the 78 spotlight-ineligible people then in the
-queue (`spotlight_eligible: false` — of the ~113 people site-wide with that
-flag, only these 78 were still in this queue; the rest already have a
-portrait from batches 01-43 — a single brief episode with minimal narrative
-weight, see `_build/mark_spotlight_eligibility.py`) were moved out to the
-Paused section below, and the remaining people were re-ordered by broad
+finished.** The queue below (batches 57 onward, before the second resort
+described next) came from a full re-rank done that day: the 78
+spotlight-ineligible people then in the queue (`spotlight_eligible: false`
+— of the ~113 people site-wide with that flag, only these 78 were still
+in this queue; the rest already have a portrait from batches 01-43 — a
+single brief episode with minimal narrative weight, see
+`_build/mark_spotlight_eligibility.py`) were moved out to the Paused
+section below, and the remaining people were re-ordered by broad
 recognizability, New Testament preferred over Old Testament wherever the
 two were close enough to call either way. The hand-curated front of that
 resort (clearly widely-known figures — Judas Iscariot, Pontius Pilate,
 Judah, Herod, Lazarus of Bethany, Ruth and Boaz, and similar) has since
-been completed and removed above as batches 44-56; the remainder below
-falls back to a reproducible heuristic (reference count + distinct-book
-spread + total verse span) — an editorial estimate, not a claim of exact
-fame ordering, consistent with this document's framing above. Batch
-numbering is contiguous with the completed/removed batches above (57
-follows 56), so no renumbering was needed in this cleanup pass.
+been completed and removed above as batches 44-56; the remainder falls
+back to a reproducible heuristic (reference count + distinct-book spread
++ total verse span) — an editorial estimate, not a claim of exact fame
+ordering, consistent with this document's framing above.
 
-- [ ] **57** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
-- [ ] **58** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
-- [ ] **59** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)
-- [ ] **60** — `hazael` (Hazael); `joash-3` (Joash); `ben-hadad` (Ben-hadad); `shem` (Shem)
-- [ ] **61** — `hur` (Hur); `shimeah` (Shimeah); `heman-2` (Heman); `tychicus` (Tychicus)
-- [ ] **62** — `judas` (Judas); `joram-2` (Joram); `ham` (Ham); `joash-4` (Joash)
-- [ ] **63** — `amasa` (Amasa); `jeroboam-2` (Jeroboam); `abihu` (Abihu); `aristarchus` (Aristarchus)
-- [ ] **64** — `shishak` (Shishak); `shalmaneser` (Shalmaneser); `canaan` (Canaan); `japheth` (Japheth)
-- [ ] **65** — `hadadezer` (Hadadezer); `jabin` (Jabin); `shelah-2` (Shelah); `asahel` (Asahel)
-- [ ] **66** — `pharaoh-neco` (Pharaoh Neco); `jehoahaz-2` (Jehoahaz); `nahash` (Nahash); `elzaphan` (Elzaphan)
-- [ ] **67** — `jair` (Jair); `pharaoh-3` (Pharaoh); `dathan` (Dathan); `johanan` (Johanan)
-- [ ] **68** — `eliab-3` (Eliab); `rezin` (Rezin); `onan` (Onan); `er` (Er)
-- [ ] **69** — `abinadab-2` (Abinadab); `sibbecai` (Sibbecai); `demas` (Demas); `gaius` (Gaius)
-- [ ] **70** — `judas-3` (Judas); `obed-edom-2` (Obed-edom); `jehoahaz` (Jehoahaz); `rabshakeh` (Rabshakeh)
-- [ ] **71** — `hoglah` (Hoglah); `joshua-4` (Joshua); `mahlah` (Mahlah); `milcah-2` (Milcah)
-- [ ] **72** — `noah-2` (Noah); `tirzah` (Tirzah); `meremoth` (Meremoth); `hoshea` (Hoshea)
-- [ ] **73** — `maacah-3` (Maacah); `hanani` (Hanani); `eliphaz-2` (Eliphaz); `bildad` (Bildad)
-- [ ] **74** — `ethan` (Ethan); `abinadab` (Abinadab); `elhanan` (Elhanan); `tola` (Tola)
-- [ ] **75** — `obadiah-5` (Obadiah); `seraiah-2` (Seraiah); `trophimus` (Trophimus); `bethuel` (Bethuel)
-- [ ] **76** — `elkanah-2` (Elkanah); `tobiah` (Tobiah); `ishmael-2` (Ishmael); `anah` (Anah)
-- [ ] **77** — `phinehas-2` (Phinehas); `elnathan` (Elnathan); `jonathan-3` (Jonathan); `ephron` (Ephron)
-- [ ] **78** — `jehu` (Jehu); `amasai` (Amasai); `shemaiah` (Shemaiah); `elihu-5` (Elihu)
-- [ ] **79** — `joel` (Joel); `obed-edom` (Obed-edom); `oholiab` (Oholiab); `zophar` (Zophar)
-- [ ] **80** — `abinadab-3` (Abinadab); `jashobeam` (Jashobeam); `jezaniah` (Jezaniah); `jonathan-4` (Jonathan)
-- [ ] **81** — `oreb` (Oreb); `hymenaeus` (Hymenaeus); `jason` (Jason); `alexander-4` (Alexander the Coppersmith)
-- [ ] **82** — `claudius` (Claudius); `crispus` (Crispus); `erastus-2` (Erastus); `rufus` (Rufus)
-- [ ] **83** — `sosthenes` (Sosthenes); `micaiah` (Micaiah); `joash` (Joash); `joah` (Joah)
-- [ ] **84** — `adoni-zedek` (Adoni-zedek); `naaman-2` (Naaman); `zedekiah` (Zedekiah); `shaphan` (Shaphan)
-- [ ] **85** — `naboth` (Naboth); `ben-hadad-2` (Ben-hadad); `jonadab-2` (Jonadab); `jeshua-7` (Jeshua)
-- [ ] **86** — `hophni` (Hophni); `berodach-baladan` (Berodach-baladan); `elihu` (Elihu); `hanun` (Hanun)
-- [ ] **87** — `achsah` (Achsah); `joel-6` (Joel); `abijah` (Abijah); `amaziah-3` (Amaziah)
-- [ ] **88** — `obed` (Obed); `shobach` (Shobach); `evil-merodach` (Evil-merodach); `asaiah` (Asaiah)
-- [ ] **89** — `ahio` (Ahio); `hanani-4` (Hanani); `iddo-4` (Iddo); `jeriah` (Jeriah)
-- [ ] **90** — `amariah-2` (Amariah); `azariah-14` (Azariah); `joash-2` (Joash); `sharezer` (Sharezer)
-- [ ] **91** — `sheba` (Sheba); `sheshai` (Sheshai); `zacharias` (Zacharias); `simon-6` (Simon)
-- [ ] **92** — `lysias` (Lysias); `bernice` (Bernice); `epaphroditus` (Epaphroditus); `agabus` (Agabus)
-- [ ] **93** — `onesiphorus` (Onesiphorus); `ananias-3` (Ananias); `joanna` (Joanna); `salome` (Salome)
-- [ ] **94** — `eliezer` (Eliezer of Damascus); `deborah-2` (Deborah); `eliashib-7` (Eliashib); `micah` (Micah)
-- [ ] **95** — `hoham` (Hoham); `manoah` (Manoah); `debir` (Debir); `japhia` (Japhia)
-- [ ] **96** — `piram` (Piram); `potiphar` (Potiphar); `abishag` (Abishag); `hananiah-10` (Hananiah)
-- [ ] **97** — `gemariah` (Gemariah); `phicol` (Phicol); `ittai` (Ittai the Gittite); `shemaiah-21` (Shemaiah)
-- [ ] **98** — `oded` (Oded); `nadab-2` (Nadab); `ebed-melech` (Ebed-melech); `sheshbazzar` (Sheshbazzar)
-- [ ] **99** — `mahlon` (Mahlon); `rizpah` (Rizpah); `ethan-3` (Ethan); `conaniah` (Conaniah)
-- [ ] **100** — `machir-2` (Machir); `harbona` (Harbona); `ichabod` (Ichabod); `shamgar` (Shamgar)
-- [ ] **101** — `shelemiah-6` (Shelemiah); `lydia` (Lydia); `demetrius` (Demetrius); `simeon-2` (Simeon)
-- [ ] **102** — `gaius-3` (Gaius); `gallio` (Gallio); `mary-4` (Mary); `rhoda` (Rhoda)
-- [ ] **103** — `tabitha` (Tabitha); `joseph-10` (Joseph called Barsabbas); `publius` (Publius); `bar-jesus` (Bar-Jesus)
-- [ ] **104** — `julius` (Julius); `philetus` (Philetus); `aeneas` (Aeneas); `jambres` (Jambres)
-- [ ] **105** — `phoebe` (Phoebe); `alexander-3` (Alexander); `andronicus` (Andronicus); `archelaus` (Archelaus)
-- [ ] **106** — `chloe` (Chloe); `cleopas` (Cleopas); `damaris` (Damaris); `demetrius-2` (Demetrius)
-- [ ] **107** — `diotrephes` (Diotrephes); `euodia` (Euodia); `hermogenes` (Hermogenes); `jezebel-2` (Jezebel)
-- [ ] **108** — `judas-of-galilee` (Judas of Galilee); `junias` (Junia); `malchus` (Malchus); `manaen` (Manaen)
-- [ ] **109** — `nicanor` (Nicanor); `nicolas` (Nicolas); `nympha` (Nympha); `sergius-paulus` (Sergius Paulus)
-- [ ] **110** — `tertius` (Tertius); `hiram-2` (Hiram); `agag-2` (Agag); `mesha` (Mesha)
-- [ ] **111** — `sheba-4` (Sheba); `bera` (Bera); `hirah` (Hirah); `chedorlaomer` (Chedorlaomer)
-- [ ] **112** — `gaal` (Gaal); `delaiah-5` (Delaiah); `obadiah` (Obadiah); `hegai` (Hegai)
-- [ ] **113** — `pelatiah-4` (Pelatiah); `aner` (Aner); `arioch-2` (Arioch); `eshcol` (Eshcol)
-- [ ] **114** — `hadad-4` (Hadad); `zimri-2` (Zimri); `nergal-sar-ezer-2` (Nergal-sar-ezer); `orpah` (Orpah)
-- [ ] **115** — `elishama-6` (Elishama); `jehudi` (Jehudi); `azariah-7` (Azariah); `memucan` (Memucan)
-- [ ] **116** — `puah` (Puah); `sherebiah` (Sherebiah); `shiphrah` (Shiphrah); `eglon` (Eglon)
-- [ ] **117** — `hathach` (Hathach); `pashhur-2` (Pashhur); `pharaoh` (Pharaoh); `heldai-2` (Heldai)
-- [ ] **118** — `jedaiah-6` (Jedaiah); `pekahiah` (Pekahiah); `chimham` (Chimham); `lemuel` (Lemuel)
-- [ ] **119** — `cushan-rishathaim` (Cushan-rishathaim); `eliel-7` (Eliel); `elimelech` (Elimelech); `lo-ruhamah` (Lo-ruhamah)
-- [ ] **120** — `amminadab-2` (Amminadab); `eldad` (Eldad); `purah` (Purah); `abijah-2` (Abijah)
-- [ ] **121** — `abiram-2` (Abiram); `agur` (Agur); `amasa-2` (Amasa); `ammiel` (Ammiel)
-- [ ] **122** — `armoni` (Armoni); `asaph-4` (Asaph); `ashpenaz` (Ashpenaz); `azariah-10` (Azariah)
-- [ ] **123** — `azariah-11` (Azariah); `azariah-16` (Azariah); `azaryahu` (Azaryahu); `baalis` (Baalis)
-- [ ] **124** — `baruch` (Baruch); `berechiah-4` (Berechiah); `elasah-2` (Elasah); `eleazar-2` (Eleazar)
-- [ ] **125** — `elishaphat` (Elishaphat); `ezer-4` (Ezer); `gaddi` (Gaddi); `gaddiel` (Gaddiel)
-- [ ] **126** — `gedaliah-4` (Gedaliah); `geuel` (Geuel); `gomer-2` (Gomer); `hashabneiah-2` (Hashabneiah)
-- [ ] **127** — `hiel` (Hiel); `hobab` (Hobab); `igal` (Igal); `jaazaniah` (Jaazaniah)
-- [ ] **128** — `jaazaniah-2` (Jaazaniah); `jahaziel-3` (Jahaziel); `jehikhiah` (Jehikhiah); `jemimah` (Jemimah)
-- [ ] **129** — `jerahmeel-3` (Jerahmeel); `joah-4` (Joah); `jonathan-2` (Jonathan); `keren-happuch` (Keren-happuch)
-- [ ] **130** — `keziah` (Keziah); `lo-ammi` (Lo-ammi); `maaseiah-4` (Maaseiah); `mephibosheth-2` (Mephibosheth)
-- [ ] **131** — `nebushazban` (Nebushazban); `nethaniah-3` (Nethaniah); `noadiah` (Noadiah); `noadiah-2` (Noadiah)
-- [ ] **132** — `obadiah-6` (Obadiah); `on` (On); `regemmelech` (Regemmelech); `shammah-2` (Shammah)
-- [ ] **133** — `sharezer-2` (Sharezer); `shear-jashub` (Shear-jashub); `shecaniah-5` (Shecaniah); `shemaiah-18` (Shemaiah)
-- [ ] **134** — `shephatiah-8` (Shephatiah); `shobi` (Shobi)
+**Bumped again 2026-08-10 for the "New Testament Church group photo" prototype**
+(see the person-page "New Testament Church" section and
+`data/nt_churches.json`). Andrew wants a composite image tiling every
+member's stained-glass portrait on each church's detail page, so any
+full-tier church member still missing a portrait was moved to the very
+front of the queue regardless of where the broad-recognizability resort
+above had placed them — batches 57-67 below. Order within the bump is by
+first appearance walking `data/nt_churches.json` in file order (church by
+church, member by member), not a fame re-estimate. This pulled 12 people
+out of the Paused — spotlight-ineligible section too (Prochorus, Parmenas,
+Judas [`judas-5`], Eunice, Lois, Dionysius, Forunatus, Achaicus, Archippus,
+Epanetus, Persis, Antipas) — their `spotlight_eligible: false` status is
+unchanged and still governs the home spotlight/FB-IG selection, it just no
+longer blocks them from getting a portrait, since a group photo needs
+every member regardless of spotlight eligibility. Two more full-tier
+church members (`erastus` — the Ephesus/Acts 19:22 Erastus, distinct from
+`erastus-2` — and `mary-5`) are still not queued at all and were *not*
+added here: neither has a `devotionals` entry, which is this queue's own
+base eligibility rule, so adding them would require a separate decision
+about `devotionals` eligibility, not just a reordering. Batches 68 onward
+are the untouched remainder of the prior resort, renumbered contiguously
+after the bump (no other reordering).
+
+- [ ] **57** — `prochorus` (Prochorus); `nicanor` (Nicanor); `parmenas` (Parmenas); `nicolas` (Nicolas)
+- [ ] **58** — `mary-4` (Mary); `rhoda` (Rhoda); `judas-5` (Judas); `manaen` (Manaen)
+- [ ] **59** — `eunice` (Eunice); `lois` (Lois); `lydia` (Lydia); `epaphroditus` (Epaphroditus)
+- [ ] **60** — `euodia` (Euodia); `demas` (Demas); `jason` (Jason); `aristarchus` (Aristarchus)
+- [ ] **61** — `dionysius` (Dionysius); `damaris` (Damaris); `crispus` (Crispus); `sosthenes` (Sosthenes)
+- [ ] **62** — `gaius` (Gaius); `erastus-2` (Erastus); `forunatus` (Forunatus); `achaicus` (Achaicus)
+- [ ] **63** — `chloe` (Chloe); `tertius` (Tertius); `phoebe` (Phoebe); `tychicus` (Tychicus)
+- [ ] **64** — `trophimus` (Trophimus); `onesiphorus` (Onesiphorus); `hymenaeus` (Hymenaeus); `philetus` (Philetus)
+- [ ] **65** — `archippus` (Archippus); `nympha` (Nympha); `epanetus` (Epanetus); `andronicus` (Andronicus)
+- [ ] **66** — `junias` (Junia); `persis` (Persis); `rufus` (Rufus); `antipas` (Antipas)
+- [ ] **67** — `tabitha` (Tabitha); `simon-6` (Simon)
+- [ ] **68** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
+- [ ] **69** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
+- [ ] **70** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)
+- [ ] **71** — `hazael` (Hazael); `joash-3` (Joash); `ben-hadad` (Ben-hadad); `shem` (Shem)
+- [ ] **72** — `hur` (Hur); `shimeah` (Shimeah); `heman-2` (Heman); `judas` (Judas)
+- [ ] **73** — `joram-2` (Joram); `ham` (Ham); `joash-4` (Joash); `amasa` (Amasa)
+- [ ] **74** — `jeroboam-2` (Jeroboam); `abihu` (Abihu); `shishak` (Shishak); `shalmaneser` (Shalmaneser)
+- [ ] **75** — `canaan` (Canaan); `japheth` (Japheth); `hadadezer` (Hadadezer); `jabin` (Jabin)
+- [ ] **76** — `shelah-2` (Shelah); `asahel` (Asahel); `pharaoh-neco` (Pharaoh Neco); `jehoahaz-2` (Jehoahaz)
+- [ ] **77** — `nahash` (Nahash); `elzaphan` (Elzaphan); `jair` (Jair); `pharaoh-3` (Pharaoh)
+- [ ] **78** — `dathan` (Dathan); `johanan` (Johanan); `eliab-3` (Eliab); `rezin` (Rezin)
+- [ ] **79** — `onan` (Onan); `er` (Er); `abinadab-2` (Abinadab); `sibbecai` (Sibbecai)
+- [ ] **80** — `judas-3` (Judas); `obed-edom-2` (Obed-edom); `jehoahaz` (Jehoahaz); `rabshakeh` (Rabshakeh)
+- [ ] **81** — `hoglah` (Hoglah); `joshua-4` (Joshua); `mahlah` (Mahlah); `milcah-2` (Milcah)
+- [ ] **82** — `noah-2` (Noah); `tirzah` (Tirzah); `meremoth` (Meremoth); `hoshea` (Hoshea)
+- [ ] **83** — `maacah-3` (Maacah); `hanani` (Hanani); `eliphaz-2` (Eliphaz); `bildad` (Bildad)
+- [ ] **84** — `ethan` (Ethan); `abinadab` (Abinadab); `elhanan` (Elhanan); `tola` (Tola)
+- [ ] **85** — `obadiah-5` (Obadiah); `seraiah-2` (Seraiah); `bethuel` (Bethuel); `elkanah-2` (Elkanah)
+- [ ] **86** — `tobiah` (Tobiah); `ishmael-2` (Ishmael); `anah` (Anah); `phinehas-2` (Phinehas)
+- [ ] **87** — `elnathan` (Elnathan); `jonathan-3` (Jonathan); `ephron` (Ephron); `jehu` (Jehu)
+- [ ] **88** — `amasai` (Amasai); `shemaiah` (Shemaiah); `elihu-5` (Elihu); `joel` (Joel)
+- [ ] **89** — `obed-edom` (Obed-edom); `oholiab` (Oholiab); `zophar` (Zophar); `abinadab-3` (Abinadab)
+- [ ] **90** — `jashobeam` (Jashobeam); `jezaniah` (Jezaniah); `jonathan-4` (Jonathan); `oreb` (Oreb)
+- [ ] **91** — `alexander-4` (Alexander the Coppersmith); `claudius` (Claudius); `micaiah` (Micaiah); `joash` (Joash)
+- [ ] **92** — `joah` (Joah); `adoni-zedek` (Adoni-zedek); `naaman-2` (Naaman); `zedekiah` (Zedekiah)
+- [ ] **93** — `shaphan` (Shaphan); `naboth` (Naboth); `ben-hadad-2` (Ben-hadad); `jonadab-2` (Jonadab)
+- [ ] **94** — `jeshua-7` (Jeshua); `hophni` (Hophni); `berodach-baladan` (Berodach-baladan); `elihu` (Elihu)
+- [ ] **95** — `hanun` (Hanun); `achsah` (Achsah); `joel-6` (Joel); `abijah` (Abijah)
+- [ ] **96** — `amaziah-3` (Amaziah); `obed` (Obed); `shobach` (Shobach); `evil-merodach` (Evil-merodach)
+- [ ] **97** — `asaiah` (Asaiah); `ahio` (Ahio); `hanani-4` (Hanani); `iddo-4` (Iddo)
+- [ ] **98** — `jeriah` (Jeriah); `amariah-2` (Amariah); `azariah-14` (Azariah); `joash-2` (Joash)
+- [ ] **99** — `sharezer` (Sharezer); `sheba` (Sheba); `sheshai` (Sheshai); `zacharias` (Zacharias)
+- [ ] **100** — `lysias` (Lysias); `bernice` (Bernice); `agabus` (Agabus); `ananias-3` (Ananias)
+- [ ] **101** — `joanna` (Joanna); `salome` (Salome); `eliezer` (Eliezer of Damascus); `deborah-2` (Deborah)
+- [ ] **102** — `eliashib-7` (Eliashib); `micah` (Micah); `hoham` (Hoham); `manoah` (Manoah)
+- [ ] **103** — `debir` (Debir); `japhia` (Japhia); `piram` (Piram); `potiphar` (Potiphar)
+- [ ] **104** — `abishag` (Abishag); `hananiah-10` (Hananiah); `gemariah` (Gemariah); `phicol` (Phicol)
+- [ ] **105** — `ittai` (Ittai the Gittite); `shemaiah-21` (Shemaiah); `oded` (Oded); `nadab-2` (Nadab)
+- [ ] **106** — `ebed-melech` (Ebed-melech); `sheshbazzar` (Sheshbazzar); `mahlon` (Mahlon); `rizpah` (Rizpah)
+- [ ] **107** — `ethan-3` (Ethan); `conaniah` (Conaniah); `machir-2` (Machir); `harbona` (Harbona)
+- [ ] **108** — `ichabod` (Ichabod); `shamgar` (Shamgar); `shelemiah-6` (Shelemiah); `demetrius` (Demetrius)
+- [ ] **109** — `simeon-2` (Simeon); `gaius-3` (Gaius); `gallio` (Gallio); `joseph-10` (Joseph called Barsabbas)
+- [ ] **110** — `publius` (Publius); `bar-jesus` (Bar-Jesus); `julius` (Julius); `aeneas` (Aeneas)
+- [ ] **111** — `jambres` (Jambres); `alexander-3` (Alexander); `archelaus` (Archelaus); `cleopas` (Cleopas)
+- [ ] **112** — `demetrius-2` (Demetrius); `diotrephes` (Diotrephes); `hermogenes` (Hermogenes); `jezebel-2` (Jezebel)
+- [ ] **113** — `judas-of-galilee` (Judas of Galilee); `malchus` (Malchus); `sergius-paulus` (Sergius Paulus); `hiram-2` (Hiram)
+- [ ] **114** — `agag-2` (Agag); `mesha` (Mesha); `sheba-4` (Sheba); `bera` (Bera)
+- [ ] **115** — `hirah` (Hirah); `chedorlaomer` (Chedorlaomer); `gaal` (Gaal); `delaiah-5` (Delaiah)
+- [ ] **116** — `obadiah` (Obadiah); `hegai` (Hegai); `pelatiah-4` (Pelatiah); `aner` (Aner)
+- [ ] **117** — `arioch-2` (Arioch); `eshcol` (Eshcol); `hadad-4` (Hadad); `zimri-2` (Zimri)
+- [ ] **118** — `nergal-sar-ezer-2` (Nergal-sar-ezer); `orpah` (Orpah); `elishama-6` (Elishama); `jehudi` (Jehudi)
+- [ ] **119** — `azariah-7` (Azariah); `memucan` (Memucan); `puah` (Puah); `sherebiah` (Sherebiah)
+- [ ] **120** — `shiphrah` (Shiphrah); `eglon` (Eglon); `hathach` (Hathach); `pashhur-2` (Pashhur)
+- [ ] **121** — `pharaoh` (Pharaoh); `heldai-2` (Heldai); `jedaiah-6` (Jedaiah); `pekahiah` (Pekahiah)
+- [ ] **122** — `chimham` (Chimham); `lemuel` (Lemuel); `cushan-rishathaim` (Cushan-rishathaim); `eliel-7` (Eliel)
+- [ ] **123** — `elimelech` (Elimelech); `lo-ruhamah` (Lo-ruhamah); `amminadab-2` (Amminadab); `eldad` (Eldad)
+- [ ] **124** — `purah` (Purah); `abijah-2` (Abijah); `abiram-2` (Abiram); `agur` (Agur)
+- [ ] **125** — `amasa-2` (Amasa); `ammiel` (Ammiel); `armoni` (Armoni); `asaph-4` (Asaph)
+- [ ] **126** — `ashpenaz` (Ashpenaz); `azariah-10` (Azariah); `azariah-11` (Azariah); `azariah-16` (Azariah)
+- [ ] **127** — `azaryahu` (Azaryahu); `baalis` (Baalis); `baruch` (Baruch); `berechiah-4` (Berechiah)
+- [ ] **128** — `elasah-2` (Elasah); `eleazar-2` (Eleazar); `elishaphat` (Elishaphat); `ezer-4` (Ezer)
+- [ ] **129** — `gaddi` (Gaddi); `gaddiel` (Gaddiel); `gedaliah-4` (Gedaliah); `geuel` (Geuel)
+- [ ] **130** — `gomer-2` (Gomer); `hashabneiah-2` (Hashabneiah); `hiel` (Hiel); `hobab` (Hobab)
+- [ ] **131** — `igal` (Igal); `jaazaniah` (Jaazaniah); `jaazaniah-2` (Jaazaniah); `jahaziel-3` (Jahaziel)
+- [ ] **132** — `jehikhiah` (Jehikhiah); `jemimah` (Jemimah); `jerahmeel-3` (Jerahmeel); `joah-4` (Joah)
+- [ ] **133** — `jonathan-2` (Jonathan); `keren-happuch` (Keren-happuch); `keziah` (Keziah); `lo-ammi` (Lo-ammi)
+- [ ] **134** — `maaseiah-4` (Maaseiah); `mephibosheth-2` (Mephibosheth); `nebushazban` (Nebushazban); `nethaniah-3` (Nethaniah)
+- [ ] **135** — `noadiah` (Noadiah); `noadiah-2` (Noadiah); `obadiah-6` (Obadiah); `on` (On)
+- [ ] **136** — `regemmelech` (Regemmelech); `shammah-2` (Shammah); `sharezer-2` (Sharezer); `shear-jashub` (Shear-jashub)
+- [ ] **137** — `shecaniah-5` (Shecaniah); `shemaiah-18` (Shemaiah); `shephatiah-8` (Shephatiah); `shobi` (Shobi)
 
 ## Paused — spotlight-ineligible
 
@@ -149,17 +174,22 @@ batch-numbered since they are not next in line; move a person back into the
 numbered queue above (in roughly the right fame position, not necessarily at
 the end) if `spotlight_eligible` is ever revisited for them.
 
-- `achaicus` (Achaicus); `adoni-bezek` (Adoni-bezek); `adrammelech` (Adrammelech); `ahab-2` (Ahab); `ahiman` (Ahiman); `amasiah` (Amasiah)
-- `antipas` (Antipas); `archippus` (Archippus); `azariah-8` (Azariah); `baanah` (Baanah); `bidkar` (Bidkar); `bigthan` (Bigthan)
-- `chenaniah` (Chenaniah); `chilion` (Chilion); `deborah` (Deborah); `dionysius` (Dionysius); `drusilla` (Drusilla); `elah-2` (Elah)
-- `eleazar-3` (Eleazar); `eliezer-6` (Eliezer); `elon` (Elon); `elon-3` (Elon); `epanetus` (Epanetus); `eunice` (Eunice)
-- `forunatus` (Forunatus); `geshem` (Geshem); `hanamel` (Hanamel); `ibzan` (Ibzan); `iddo-6` (Iddo); `irijah` (Irijah)
-- `ishbi-benob` (Ishbi-benob); `jaazaniah-3` (Jaazaniah); `jair-2` (Jair); `jannes` (Jannes); `jarib` (Jarib); `jehiel-3` (Jehiel)
-- `jehosheba` (Jehosheba); `jehucal` (Jehucal); `jether` (Jether); `jezrahiah` (Jezrahiah); `jezreel-2` (Jezreel); `joah-2` (Joah)
-- `joram` (Joram); `jozacar` (Jozacar); `jucal` (Jucal); `judas-5` (Judas); `lamech` (Lamech); `lois` (Lois)
-- `mamre` (Mamre); `mattan` (Mattan); `medad` (Medad); `micaiah-6` (Micaiah); `michael-7` (Michael); `mishael` (Mishael)
-- `mithredath` (Mithredath); `mnason` (Mnason); `nethanel-6` (Nethanel); `nobah` (Nobah); `palti-2` (Palti); `parmenas` (Parmenas)
-- `peninnah` (Peninnah); `persis` (Persis); `phygelus` (Phygelus); `prochorus` (Prochorus); `rechab` (Rechab); `rehum-2` (Rehum)
+People who share `spotlight_eligible: false` and were also full-tier
+members of an NT/New Testament church had that status leave them stuck
+here until the 2026-08-10 bump above pulled them into the numbered queue
+(Prochorus, Parmenas, `judas-5`, Eunice, Lois, Dionysius, Forunatus,
+Achaicus, Archippus, Epanetus, Persis, Antipas — see that note). The list
+below is what's left after that pull.
+
+- `adoni-bezek` (Adoni-bezek); `adrammelech` (Adrammelech); `ahab-2` (Ahab); `ahiman` (Ahiman); `amasiah` (Amasiah); `azariah-8` (Azariah)
+- `baanah` (Baanah); `bidkar` (Bidkar); `bigthan` (Bigthan); `chenaniah` (Chenaniah); `chilion` (Chilion); `deborah` (Deborah)
+- `drusilla` (Drusilla); `elah-2` (Elah); `eleazar-3` (Eleazar); `eliezer-6` (Eliezer); `elon` (Elon); `elon-3` (Elon)
+- `geshem` (Geshem); `hanamel` (Hanamel); `ibzan` (Ibzan); `iddo-6` (Iddo); `irijah` (Irijah); `ishbi-benob` (Ishbi-benob)
+- `jaazaniah-3` (Jaazaniah); `jair-2` (Jair); `jannes` (Jannes); `jarib` (Jarib); `jehiel-3` (Jehiel); `jehosheba` (Jehosheba)
+- `jehucal` (Jehucal); `jether` (Jether); `jezrahiah` (Jezrahiah); `jezreel-2` (Jezreel); `joah-2` (Joah); `joram` (Joram)
+- `jozacar` (Jozacar); `jucal` (Jucal); `lamech` (Lamech); `mamre` (Mamre); `mattan` (Mattan); `medad` (Medad)
+- `micaiah-6` (Micaiah); `michael-7` (Michael); `mishael` (Mishael); `mithredath` (Mithredath); `mnason` (Mnason); `nethanel-6` (Nethanel)
+- `nobah` (Nobah); `palti-2` (Palti); `peninnah` (Peninnah); `phygelus` (Phygelus); `rechab` (Rechab); `rehum-2` (Rehum)
 - `rezon` (Rezon); `saph` (Saph); `sargon` (Sargon); `segub` (Segub); `sephatiah` (Sephatiah); `seraiah-10` (Seraiah)
 - `seraiah-9` (Seraiah); `shabbethai` (Shabbethai); `shallum` (Shallum); `shemeber` (Shemeber); `shethar-bozenai` (Shethar-bozenai); `shimshai` (Shimshai)
 

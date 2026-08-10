@@ -264,11 +264,12 @@ def connections_section(person, index_by_id, gender_by_id, connections, base):
 
 
 def church_membership_section(person_id, membership_by_person, base):
-    """Reverse lookup into data/nt_churches.json: which NT churches (if any)
-    this person is explicitly tied to by name, per the Coverage section's
-    Factual Accuracy rules -- only churches.json's own curated affiliations,
-    never inferred. Renders for full and stub people alike, since most named
-    church members (e.g. the Romans 16 greetings) are stub-tier."""
+    """Reverse lookup into data/nt_churches.json: which New Testament
+    churches (if any) this person is explicitly tied to by name, per the
+    Coverage section's Factual Accuracy rules -- only churches.json's own
+    curated affiliations, never inferred. Renders for full and stub people
+    alike, since most named church members (e.g. the Romans 16 greetings)
+    are stub-tier."""
     memberships = membership_by_person.get(person_id) if membership_by_person else None
     if not memberships:
         return ""
@@ -283,7 +284,7 @@ def church_membership_section(person_id, membership_by_person, base):
         items.append("\n".join(parts))
     items_html = "\n    ".join(items)
     return f"""<section>
-    <h3>NT Church{"es" if len(memberships) != 1 else ""}</h3>
+    <h3>New Testament Church{"es" if len(memberships) != 1 else ""}</h3>
     <ul class="connections-list">
     {items_html}
     </ul>
@@ -646,7 +647,7 @@ def church_card_html(church):
 def build_churches_list_page(churches):
     base = ""
     canonical = f"{SITE_URL}/churches.html"
-    title = "NT Churches — Lives of Scripture"
+    title = "New Testament Churches — Lives of Scripture"
     description = "Every local church named in the New Testament, with the people Scripture explicitly ties to each by name and reference."
     cards = "\n    ".join(church_card_html(c) for c in sorted(churches, key=lambda c: c["name"]))
 
@@ -691,7 +692,7 @@ def build_churches_list_page(churches):
 {header_html(base, "churches.html")}
 
 <main>
-  <h2>NT Churches</h2>
+  <h2>New Testament Churches</h2>
   <p class="page-intro">Every local church named in the New Testament, from Jerusalem at Pentecost to
   the seven churches of Revelation. Click a church to see everyone Scripture explicitly ties to it by
   name — founders, hosts, elders, deacons, and members greeted by name — along with the reference that
@@ -754,7 +755,7 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
     base = "../"
     church_id = church["church_id"]
     canonical = f"{SITE_URL}/churches/{church_id}.html"
-    title = f'{church["name"]} — NT Churches — Lives of Scripture'
+    title = f'{church["name"]} — New Testament Churches — Lives of Scripture'
     description = truncate(church["description"])
 
     if church["members"]:
