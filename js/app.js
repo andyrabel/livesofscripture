@@ -453,9 +453,11 @@ function genderTag(gender) {
   return span;
 }
 
-function portraitImg(personId, name, className, imageFile, gender) {
+function portraitImg(personId, name, className, imageFile, gender, image2File) {
   const img = document.createElement("img");
-  img.src = `images/portraits/${imageFile || `${personId}.png`}`;
+  img.src = image2File
+    ? `images/portraits2/${image2File}`
+    : `images/portraits/${imageFile || `${personId}.png`}`;
   img.alt = name;
   img.className = className;
   img.onerror = () => {
@@ -645,7 +647,9 @@ async function renderHomeSpotlight(fullTier) {
   }
   const person = await loadPerson(pick.person_id);
   box.innerHTML = "";
-  box.appendChild(portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image));
+  box.appendChild(
+    portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image, undefined, pick.image2)
+  );
 
   const text = document.createElement("div");
   const label = document.createElement("div");
@@ -682,7 +686,9 @@ function exploreCard(entry) {
   const a = document.createElement("a");
   a.className = "explore-card";
   a.href = `people/${encodeURIComponent(entry.person_id)}.html`;
-  a.appendChild(portraitImg(entry.person_id, entry.name, "explore-card__thumb", entry.image));
+  a.appendChild(
+    portraitImg(entry.person_id, entry.name, "explore-card__thumb", entry.image, undefined, entry.image2)
+  );
   const name = document.createElement("span");
   name.className = "explore-card__name";
   name.textContent = entry.name;
@@ -1683,7 +1689,14 @@ function renderConnectionsSidebar(state) {
   if (!entry) return;
 
   container.appendChild(
-    portraitImg(entry.person_id, entry.name, "connections-sidebar__avatar", entry.image, entry.gender)
+    portraitImg(
+      entry.person_id,
+      entry.name,
+      "connections-sidebar__avatar",
+      entry.image,
+      entry.gender,
+      entry.image2
+    )
   );
 
   const name = document.createElement("h3");

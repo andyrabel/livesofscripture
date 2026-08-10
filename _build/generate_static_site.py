@@ -40,6 +40,20 @@ def esc(text):
     return html.escape(text or "", quote=True)
 
 
+def resolve_portrait_file(person):
+    """Prefer the stained-glass image2 portrait (images/portraits2/) over the
+    legacy image (images/portraits/), falling back to whichever one actually
+    exists on disk. Returns (dir_name, file_name) or (None, None)."""
+    image2 = person.get("image2")
+    if image2 and (ROOT / "images" / "portraits2" / image2).exists():
+        return "portraits2", image2
+    image = person.get("image")
+    image_file = image.get("file") if isinstance(image, dict) else None
+    if image_file and (ROOT / "images" / "portraits" / image_file).exists():
+        return "portraits", image_file
+    return None, None
+
+
 def truncate(text, max_len=155):
     if not text:
         return ""
@@ -241,7 +255,7 @@ def disambiguation_section(person_name, same_name, base):
     cards = []
     for e in same_name:
         if e["portrait_exists"]:
-            img_html = f'<img src="{base}images/portraits/{esc(e["image"]["file"])}" alt="{esc(e["name"])}">'
+            img_html = f'<img src="{base}images/{e["portrait_dir"]}/{esc(e["portrait_file"])}" alt="{esc(e["name"])}">'
         else:
             img_html = '<div class="image-placeholder image-placeholder--thumb">Illustration pending</div>'
         blurb = truncate(e.get("source_summary", ""), 90)
@@ -267,7 +281,8 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     first_ref = first_reference_line(person)
 
     if portrait_exists:
-        img_url = f'{base}images/portraits/{esc(person["image"]["file"])}'
+        portrait_dir, portrait_file = resolve_portrait_file(person)
+        img_url = f'{base}images/{portrait_dir}/{esc(portrait_file)}'
         img_html = f'<img src="{img_url}" alt="{esc(person["name"])} — {esc(person["image"]["caption"])}">'
     else:
         img_html = '<div class="image-placeholder">Illustration pending</div>'
@@ -402,11 +417,9 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
-    portrait_file = person.get("image", {}).get("file")
-    portrait_exists = bool(portrait_file) and person["tier"] == "full" and (
-        ROOT / "images" / "portraits" / portrait_file
-    ).exists()
-    og_image = f'{SITE_URL}/images/portraits/{person["image"]["file"]}' if portrait_exists else DEFAULT_OG_IMAGE
+    portrait_dir, portrait_file = resolve_portrait_file(person)
+    portrait_exists = bool(portrait_file) and person["tier"] == "full"
+    og_image = f'{SITE_URL}/images/{portrait_dir}/{portrait_file}' if portrait_exists else DEFAULT_OG_IMAGE
     description = meta_description_for(person)
     title = f'{person["name"]} — Lives of Scripture'
 
@@ -557,14 +570,14 @@ def build_full_people_by_name(index):
         if not person_path.exists():
             continue
         fp = json.loads(person_path.read_text())
-        portrait_file = fp.get("image", {}).get("file")
-        portrait_exists = bool(portrait_file) and (ROOT / "images" / "portraits" / portrait_file).exists()
+        portrait_dir, portrait_file = resolve_portrait_file(fp)
         by_name.setdefault(fp["name"].strip().lower(), []).append({
             "person_id": pid,
             "name": fp["name"],
             "source_summary": fp.get("source_summary", ""),
-            "image": fp.get("image"),
-            "portrait_exists": portrait_exists,
+            "portrait_dir": portrait_dir,
+            "portrait_file": portrait_file,
+            "portrait_exists": bool(portrait_file),
         })
     return by_name
 
