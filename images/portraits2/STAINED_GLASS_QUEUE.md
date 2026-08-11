@@ -47,7 +47,7 @@ single brief episode with minimal narrative weight, see
 `_build/mark_spotlight_eligibility.py`) were moved out to the Paused
 section below, and the remaining people were re-ordered by broad
 recognizability, New Testament preferred over Old Testament wherever the
-two were close enough to call either way. The hand-curated front of that
+two were close enough to call either way. The curated front of that
 resort (clearly widely-known figures — Judas Iscariot, Pontius Pilate,
 Judah, Herod, Lazarus of Bethany, Ruth and Boaz, and similar) has since
 been completed and removed above as batches 44-56; the remainder falls

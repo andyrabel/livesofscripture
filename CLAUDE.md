@@ -442,7 +442,7 @@ whenever a full-tier person's `image.file` changes.
   graph — this is the site's core differentiator from existing "Bible
   people" reference sites.
 - At ~3,000 people, genealogy edges (parent/child, tribal descent, marriage)
-  cannot be hand-curated one-by-one from prose the way Lives of Faith's
+  cannot be curated one-by-one from prose the way Lives of Faith's
   `connections.json` is today. **Source dataset (decided 2026-07-30):
   [BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data)**
   — CC BY 4.0 (attribution required, commercial use permitted). Use its
@@ -490,7 +490,7 @@ Accuracy above):
 1. Full name / nickname / title, where the dataset already encodes one
    (currently: an `alt_names` entry that extends the base name, e.g. base
    "Judas" + alt_name "Judas Iscariot" → "Iscariot"). Textual epithets like
-   "Sons of Thunder" are **not** hand-curated yet — see gap note below.
+   "Sons of Thunder" are **not** curated yet — see gap note below.
 2. Relationship to a named person: father, else mother, else first spouse,
    else first child, from the person's own `genealogy` edges — worded
    "son of"/"daughter of"/"husband of"/"wife of"/"father of"/"mother of" by

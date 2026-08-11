@@ -2219,7 +2219,7 @@ const TIMELINE_REGIONS_WITH_OTHER = [
 
 // Only meaningful during the Divided Monarchy era (930-586 BC), when the
 // united kingdom split into the Northern Kingdom (Israel) and Southern
-// Kingdom (Judah) -- see data's `kingdom` field, hand-curated for full-tier
+// Kingdom (Judah) -- see data's `kingdom` field, curated for full-tier
 // figures and propagated to stub genealogy relatives by
 // _build/infer_stub_eras.py. People from other eras never carry this field.
 const TIMELINE_KINGDOMS = [

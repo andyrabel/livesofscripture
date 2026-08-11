@@ -230,6 +230,12 @@ header.site-header h1 a {
   color: var(--color-text-muted);
 }
 
+.page-subtitle {
+  margin: -0.5rem 0 1rem;
+  color: var(--color-text-muted);
+  font-size: 0.92rem;
+}
+
 header.site-header nav a {
   margin-left: 1rem;
   text-decoration: none;
