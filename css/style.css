@@ -519,6 +519,7 @@ main {
   border-radius: var(--radius);
   overflow: hidden;
   margin: 1.5rem 0;
+  max-width: 75ch;
 }
 
 .story-tabs-nav {
@@ -621,6 +622,7 @@ main {
   border-radius: var(--radius);
   padding: 0.9rem 1.1rem;
   margin: 1.5rem 0;
+  max-width: 75ch;
 }
 
 .devotional h3 {
