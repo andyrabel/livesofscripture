@@ -28,25 +28,31 @@
   --era-apostolic: #e34948;
   --era-other: #898781;
 
-  /* Categorical region palette for the timeline lifespan chart — reuses the
-     same validated 7-hue subset in the same fixed order (see era palette
-     comment above); a distinct dimension (region vs. era) so it never shares
-     a legend with the connections graph. */
-  --region-mesopotamia: #2a78d6;
-  --region-egypt: #eb6834;
-  --region-sinai-wilderness: #1baf7a;
-  --region-canaan-israel: #eda100;
-  --region-moab-transjordan: #e87ba4;
-  --region-asia-minor-greece: #008300;
-  --region-rome-italy: #4a3aa7;
-  --region-other: #898781;
-
-  /* Israel (Northern Kingdom) vs Judah (Southern Kingdom), Divided Monarchy
-     only -- a political rather than geographic split, so it's a distinct
-     pair from the region palette above rather than reusing one of those
-     hues. Validated via the dataviz skill's validate_palette.js. */
-  --kingdom-israel: #1f6fd6;
-  --kingdom-judah: #c0388a;
+  /* Categorical tribe palette for the timeline lifespan chart -- one of the
+     twelve tribes of Israel (Ephraim/Manasseh standing in for Joseph, per
+     CLAUDE.md's Tribal Affiliation section), plus a catch-all "other" for
+     anyone with no recorded tribe (most full-tier people, and every stub).
+     13 categorical hues is well past the 8-hue cap the dataviz skill's
+     six-checks method can guarantee pairwise-distinct at -- validated here
+     only in this fixed legend order (validate_palette.js, adjacent pairs,
+     both modes) via a greedy reordering that keeps perceptually-similar
+     hues non-adjacent; two tribes' bars can still land next to each other
+     on the packed canvas and look similar, so the tooltip always spells out
+     the tribe name in text as the authoritative identification. */
+  --tribe-reuben: #0094b3;
+  --tribe-simeon: #c6585d;
+  --tribe-levi: #0588cb;
+  --tribe-judah: #908200;
+  --tribe-dan: #bd5888;
+  --tribe-naphtali: #af7100;
+  --tribe-gad: #009a8d;
+  --tribe-asher: #5f7ad3;
+  --tribe-issachar: #009860;
+  --tribe-zebulun: #8a6cc9;
+  --tribe-ephraim: #62902b;
+  --tribe-manasseh: #a960ae;
+  --tribe-benjamin: #c1622a;
+  --tribe-other: #898781;
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
 
   /* Gender marker/graph color-coding (dark blue / dark red), a distinct
@@ -79,16 +85,20 @@
     --era-gospels: #9085e9;
     --era-apostolic: #e66767;
     --era-other: #898781;
-    --region-mesopotamia: #3987e5;
-    --region-egypt: #d95926;
-    --region-sinai-wilderness: #199e70;
-    --region-canaan-israel: #c98500;
-    --region-moab-transjordan: #d55181;
-    --region-asia-minor-greece: #008300;
-    --region-rome-italy: #9085e9;
-    --region-other: #898781;
-      --kingdom-israel: #4f8fe0;
-    --kingdom-judah: #d15aa8;
+    --tribe-reuben: #008daa;
+    --tribe-simeon: #bd5458;
+    --tribe-levi: #0682c2;
+    --tribe-judah: #8a7c00;
+    --tribe-dan: #b55482;
+    --tribe-naphtali: #a76c00;
+    --tribe-gad: #009386;
+    --tribe-asher: #5a74ca;
+    --tribe-issachar: #00925b;
+    --tribe-zebulun: #8367c0;
+    --tribe-ephraim: #5e8a29;
+    --tribe-manasseh: #a15ba6;
+    --tribe-benjamin: #b95d28;
+    --tribe-other: #898781;
     --timeline-label-bg: rgba(36, 32, 26, 0.85);
     --gender-male: #6ea8e8;
     --gender-female: #e8869a;
@@ -117,16 +127,20 @@
   --era-gospels: #9085e9;
   --era-apostolic: #e66767;
   --era-other: #898781;
-  --region-mesopotamia: #3987e5;
-  --region-egypt: #d95926;
-  --region-sinai-wilderness: #199e70;
-  --region-canaan-israel: #c98500;
-  --region-moab-transjordan: #d55181;
-  --region-asia-minor-greece: #008300;
-  --region-rome-italy: #9085e9;
-  --region-other: #898781;
-  --kingdom-israel: #4f8fe0;
-  --kingdom-judah: #d15aa8;
+  --tribe-reuben: #008daa;
+  --tribe-simeon: #bd5458;
+  --tribe-levi: #0682c2;
+  --tribe-judah: #8a7c00;
+  --tribe-dan: #b55482;
+  --tribe-naphtali: #a76c00;
+  --tribe-gad: #009386;
+  --tribe-asher: #5a74ca;
+  --tribe-issachar: #00925b;
+  --tribe-zebulun: #8367c0;
+  --tribe-ephraim: #5e8a29;
+  --tribe-manasseh: #a15ba6;
+  --tribe-benjamin: #b95d28;
+  --tribe-other: #898781;
   --timeline-label-bg: rgba(36, 32, 26, 0.85);
   --gender-male: #6ea8e8;
   --gender-female: #e8869a;
@@ -154,16 +168,20 @@
   --era-gospels: #4a3aa7;
   --era-apostolic: #e34948;
   --era-other: #898781;
-  --region-mesopotamia: #2a78d6;
-  --region-egypt: #eb6834;
-  --region-sinai-wilderness: #1baf7a;
-  --region-canaan-israel: #eda100;
-  --region-moab-transjordan: #e87ba4;
-  --region-asia-minor-greece: #008300;
-  --region-rome-italy: #4a3aa7;
-  --region-other: #898781;
-  --kingdom-israel: #1f6fd6;
-  --kingdom-judah: #c0388a;
+  --tribe-reuben: #0094b3;
+  --tribe-simeon: #c6585d;
+  --tribe-levi: #0588cb;
+  --tribe-judah: #908200;
+  --tribe-dan: #bd5888;
+  --tribe-naphtali: #af7100;
+  --tribe-gad: #009a8d;
+  --tribe-asher: #5f7ad3;
+  --tribe-issachar: #009860;
+  --tribe-zebulun: #8a6cc9;
+  --tribe-ephraim: #62902b;
+  --tribe-manasseh: #a960ae;
+  --tribe-benjamin: #c1622a;
+  --tribe-other: #898781;
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
   --gender-male: #1a4480;
   --gender-female: #8f1d33;
@@ -1186,6 +1204,13 @@ body.connections-fullpage-active {
   margin: 0;
 }
 
+.timeline-legend__item--all {
+  font-weight: 600;
+  color: var(--color-text);
+  padding-right: 1rem;
+  border-right: 1px solid var(--color-border);
+}
+
 .timeline-legend__swatch {
   display: inline-block;
   width: 13px;
@@ -1194,25 +1219,20 @@ body.connections-fullpage-active {
   flex: 0 0 auto;
 }
 
-.timeline-legend__swatch--mesopotamia { background: var(--region-mesopotamia); }
-.timeline-legend__swatch--egypt { background: var(--region-egypt); }
-.timeline-legend__swatch--sinai-wilderness { background: var(--region-sinai-wilderness); }
-.timeline-legend__swatch--canaan-israel { background: var(--region-canaan-israel); }
-.timeline-legend__swatch--moab-transjordan { background: var(--region-moab-transjordan); }
-.timeline-legend__swatch--asia-minor-greece { background: var(--region-asia-minor-greece); }
-.timeline-legend__swatch--rome-italy { background: var(--region-rome-italy); }
-.timeline-legend__swatch--other { background: var(--region-other); }
-
-.timeline-legend__swatch--kingdom-israel { background: var(--kingdom-israel); }
-.timeline-legend__swatch--kingdom-judah { background: var(--kingdom-judah); }
-
-.timeline-legend--kingdom {
-  margin-top: -0.6rem;
-}
-
-.timeline-legend__intro {
-  font-weight: 600;
-}
+.timeline-legend__swatch--reuben { background: var(--tribe-reuben); }
+.timeline-legend__swatch--simeon { background: var(--tribe-simeon); }
+.timeline-legend__swatch--levi { background: var(--tribe-levi); }
+.timeline-legend__swatch--judah { background: var(--tribe-judah); }
+.timeline-legend__swatch--dan { background: var(--tribe-dan); }
+.timeline-legend__swatch--naphtali { background: var(--tribe-naphtali); }
+.timeline-legend__swatch--gad { background: var(--tribe-gad); }
+.timeline-legend__swatch--asher { background: var(--tribe-asher); }
+.timeline-legend__swatch--issachar { background: var(--tribe-issachar); }
+.timeline-legend__swatch--zebulun { background: var(--tribe-zebulun); }
+.timeline-legend__swatch--ephraim { background: var(--tribe-ephraim); }
+.timeline-legend__swatch--manasseh { background: var(--tribe-manasseh); }
+.timeline-legend__swatch--benjamin { background: var(--tribe-benjamin); }
+.timeline-legend__swatch--other { background: var(--tribe-other); }
 
 .timeline-canvas-wrapper {
   position: relative;

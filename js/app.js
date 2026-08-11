@@ -2212,19 +2212,30 @@ const TIMELINE_REGIONS = [
   { key: "asia-minor-greece", label: "Asia Minor & Greece" },
   { key: "rome-italy", label: "Rome & Italy" },
 ];
-const TIMELINE_REGIONS_WITH_OTHER = [
-  ...TIMELINE_REGIONS,
-  { key: "other", label: "Other / unspecified" },
+// The twelve tribes of Israel (Ephraim/Manasseh standing in for Joseph),
+// used for the timeline's checkbox legend and bar color-coding -- see the
+// data's `tribe` field (CLAUDE.md's Tribal Affiliation section), curated
+// for a minority of full-tier people (explicit text or genealogy-chain
+// inference only) and never present on stubs. Fixed order matches the hue
+// order the palette was validated against (see --tribe-* in css/style.css).
+const TIMELINE_TRIBES = [
+  { key: "reuben", label: "Reuben" },
+  { key: "simeon", label: "Simeon" },
+  { key: "levi", label: "Levi" },
+  { key: "judah", label: "Judah" },
+  { key: "dan", label: "Dan" },
+  { key: "naphtali", label: "Naphtali" },
+  { key: "gad", label: "Gad" },
+  { key: "asher", label: "Asher" },
+  { key: "issachar", label: "Issachar" },
+  { key: "zebulun", label: "Zebulun" },
+  { key: "ephraim", label: "Ephraim" },
+  { key: "manasseh", label: "Manasseh" },
+  { key: "benjamin", label: "Benjamin" },
 ];
-
-// Only meaningful during the Divided Monarchy era (930-586 BC), when the
-// united kingdom split into the Northern Kingdom (Israel) and Southern
-// Kingdom (Judah) -- see data's `kingdom` field, curated for full-tier
-// figures and propagated to stub genealogy relatives by
-// _build/infer_stub_eras.py. People from other eras never carry this field.
-const TIMELINE_KINGDOMS = [
-  { key: "israel", label: "Israel (Northern Kingdom)" },
-  { key: "judah", label: "Judah (Southern Kingdom)" },
+const TIMELINE_TRIBES_WITH_OTHER = [
+  ...TIMELINE_TRIBES,
+  { key: "other", label: "No tribe recorded" },
 ];
 
 // Compositional order of the biblical books, used only to give era-precision
@@ -2542,18 +2553,18 @@ const TIMELINE_YEAR_PAD = 5;
 let timelineDeepLinkApplied = false;
 let timelineRenderState = null;
 
-function timelineRegionKey(region) {
-  return TIMELINE_REGIONS.some((r) => r.key === region) ? region : "other";
+// The index stores `tribe` as a display string ("Judah", "Levi", ...) --
+// normalize to the lowercase key the legend/palette use, falling back to
+// "other" for anyone with no recorded tribe or a value that isn't one of
+// the twelve.
+function timelineTribeKey(tribe) {
+  const key = (tribe || "").toLowerCase();
+  return TIMELINE_TRIBES.some((t) => t.key === key) ? key : "other";
 }
 
-function timelineRegionLabel(key) {
-  const found = TIMELINE_REGIONS_WITH_OTHER.find((r) => r.key === key);
-  return found ? found.label : "Region unspecified";
-}
-
-function timelineKingdomLabel(kingdom) {
-  const found = TIMELINE_KINGDOMS.find((k) => k.key === kingdom);
-  return found ? found.label : "";
+function timelineTribeLabel(key) {
+  const found = TIMELINE_TRIBES_WITH_OTHER.find((t) => t.key === key);
+  return found ? found.label : "No tribe recorded";
 }
 
 function timelineFormatYear(year) {
@@ -2678,8 +2689,7 @@ function showTimelinePersonTooltip(evt, p, mode) {
   }
   el.appendChild(document.createTextNode(timelineLifespanLabel(p)));
   const meta = document.createElement("div");
-  const kingdomLabel = timelineKingdomLabel(p.kingdom);
-  meta.textContent = [timelineRegionLabel(timelineRegionKey(p.region)), p.era, kingdomLabel]
+  meta.textContent = [timelineTribeLabel(timelineTribeKey(p.tribe)), p.era]
     .filter(Boolean)
     .join(" · ");
   el.appendChild(meta);
@@ -2700,57 +2710,49 @@ function hideTimelineTooltip() {
 
 function timelineBuildLegend(container, presentKeys, onChange) {
   container.innerHTML = "";
-  for (const region of TIMELINE_REGIONS_WITH_OTHER) {
-    if (!presentKeys.has(region.key)) continue;
-    const label = document.createElement("label");
-    label.className = "timeline-legend__item";
-    const cb = document.createElement("input");
-    cb.type = "checkbox";
-    cb.checked = true;
-    cb.value = region.key;
-    cb.addEventListener("change", onChange);
-    const swatch = document.createElement("span");
-    swatch.className = `timeline-legend__swatch timeline-legend__swatch--${region.key}`;
-    label.appendChild(cb);
-    label.appendChild(swatch);
-    label.appendChild(document.createTextNode(region.label));
-    container.appendChild(label);
-  }
-}
 
-// Separate legend for the Israel/Judah split, shown only when at least one
-// visible person carries a `kingdom` value (i.e. only ever during the
-// Divided Monarchy era -- see TIMELINE_KINGDOMS above). Kept as its own
-// row, distinct from the geographic region legend, since kingdom is a
-// political rather than geographic distinction and both kingdoms share the
-// same "Canaan & Israel" region.
-function timelineBuildKingdomLegend(container, presentKingdoms, onChange) {
-  container.innerHTML = "";
-  if (!presentKingdoms.size) {
-    container.style.display = "none";
-    return;
+  const allLabel = document.createElement("label");
+  allLabel.className = "timeline-legend__item timeline-legend__item--all";
+  const allCb = document.createElement("input");
+  allCb.type = "checkbox";
+  allCb.checked = true;
+  allLabel.appendChild(allCb);
+  allLabel.appendChild(document.createTextNode("All"));
+  container.appendChild(allLabel);
+
+  const tribeCheckboxes = [];
+  function updateAllCheckboxState() {
+    const checkedCount = tribeCheckboxes.filter((cb) => cb.checked).length;
+    allCb.checked = checkedCount === tribeCheckboxes.length;
+    allCb.indeterminate = checkedCount > 0 && checkedCount < tribeCheckboxes.length;
   }
-  container.style.display = "flex";
-  const intro = document.createElement("span");
-  intro.className = "timeline-legend__intro";
-  intro.textContent = "Divided Monarchy:";
-  container.appendChild(intro);
-  for (const kingdom of TIMELINE_KINGDOMS) {
-    if (!presentKingdoms.has(kingdom.key)) continue;
+
+  for (const tribe of TIMELINE_TRIBES_WITH_OTHER) {
+    if (!presentKeys.has(tribe.key)) continue;
     const label = document.createElement("label");
     label.className = "timeline-legend__item";
     const cb = document.createElement("input");
     cb.type = "checkbox";
     cb.checked = true;
-    cb.value = kingdom.key;
-    cb.addEventListener("change", onChange);
+    cb.value = tribe.key;
+    cb.addEventListener("change", () => {
+      updateAllCheckboxState();
+      onChange();
+    });
+    tribeCheckboxes.push(cb);
     const swatch = document.createElement("span");
-    swatch.className = `timeline-legend__swatch timeline-legend__swatch--kingdom-${kingdom.key}`;
+    swatch.className = `timeline-legend__swatch timeline-legend__swatch--${tribe.key}`;
     label.appendChild(cb);
     label.appendChild(swatch);
-    label.appendChild(document.createTextNode(kingdom.label));
+    label.appendChild(document.createTextNode(tribe.label));
     container.appendChild(label);
   }
+
+  allCb.addEventListener("change", () => {
+    for (const cb of tribeCheckboxes) cb.checked = allCb.checked;
+    allCb.indeterminate = false;
+    onChange();
+  });
 }
 
 function timelinePopulateJumpSelect(select) {
@@ -2810,7 +2812,6 @@ async function renderTimelinePage() {
   const canvas = document.getElementById("timeline-canvas");
   const countEl = document.getElementById("timeline-results-count");
   const legendEl = document.getElementById("timeline-legend");
-  const kingdomLegendEl = document.getElementById("timeline-kingdom-legend");
   const stubToggle = document.getElementById("timeline-stub-toggle");
   const jumpSelect = document.getElementById("timeline-jump-era");
 
@@ -2853,20 +2854,15 @@ async function renderTimelinePage() {
     return;
   }
 
-  const presentKeys = new Set(people.map((p) => timelineRegionKey(p.region)));
-  const presentKingdoms = new Set(people.filter((p) => p.kingdom).map((p) => p.kingdom));
+  const presentKeys = new Set(people.map((p) => timelineTribeKey(p.tribe)));
 
   function render() {
-    const activeRegions = new Set(
+    const activeTribes = new Set(
       Array.from(legendEl.querySelectorAll('input[type="checkbox"]:checked')).map((cb) => cb.value)
-    );
-    const activeKingdoms = new Set(
-      Array.from(kingdomLegendEl.querySelectorAll('input[type="checkbox"]:checked')).map((cb) => cb.value)
     );
     const showStubs = stubToggle.checked;
     const visible = people.filter((p) => {
-      if (!activeRegions.has(timelineRegionKey(p.region))) return false;
-      if (p.kingdom && !activeKingdoms.has(p.kingdom)) return false;
+      if (!activeTribes.has(timelineTribeKey(p.tribe))) return false;
       if (!showStubs && p.tier === "stub") return false;
       return true;
     });
@@ -2875,7 +2871,7 @@ async function renderTimelinePage() {
 
     if (!visible.length) {
       canvas.innerHTML = "";
-      setState("No one matches the current region filters.");
+      setState("No one matches the current tribe filters.");
       return;
     }
     setState(null);
@@ -2925,9 +2921,7 @@ async function renderTimelinePage() {
 
       const fill = document.createElement("span");
       fill.className = `timeline-bar__fill timeline-bar__fill--${p.precision}`;
-      fill.style.backgroundColor = p.kingdom
-        ? `var(--kingdom-${p.kingdom})`
-        : `var(--region-${timelineRegionKey(p.region)})`;
+      fill.style.backgroundColor = `var(--tribe-${timelineTribeKey(p.tribe)})`;
       bar.appendChild(fill);
 
       if (w >= TIMELINE_LABEL_MIN_WIDTH) {
@@ -2951,7 +2945,6 @@ async function renderTimelinePage() {
   }
 
   timelineBuildLegend(legendEl, presentKeys, render);
-  timelineBuildKingdomLegend(kingdomLegendEl, presentKingdoms, render);
   timelinePopulateJumpSelect(jumpSelect);
   jumpSelect.addEventListener("change", () => {
     if (jumpSelect.value) timelineScrollToYear(Number(jumpSelect.value));
