@@ -16,7 +16,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "judah",
   "timeline": {
     "precision": "era",
     "note": "Zephaniah 1:1 dates his ministry to the reign of Josiah, likely its earlier years before the 622 BC reforms, but gives no personal birth or death year, so no specific date is plotted."
@@ -56,5 +55,14 @@
   "name_meaning": {
     "meaning": "The Lord is my secret",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Zephaniah 1:1",
+    "note": "Zephaniah 1:1 dates his ministry to the reign of Josiah."
+  },
+  "ministry_period": {
+    "start": -640,
+    "end": -609
   }
 }

@@ -65,5 +65,12 @@
   "tribe": {
     "name": "Issachar",
     "reference": "1 Kings 15:27"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -909,
+    "end": -886,
+    "reference": "1 Kings 15:33",
+    "note": "1 Kings 15:33 states Baasha reigned twenty-four years."
   }
 }

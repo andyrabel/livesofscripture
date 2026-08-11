@@ -53,5 +53,14 @@
   "name_meaning": {
     "meaning": "Grace; mercy; gift of the Lord",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Jeremiah 28:1-17",
+    "note": "A false prophet who publicly contradicted Jeremiah early in Zedekiah's reign; died within the year, per Jeremiah's own word."
+  },
+  "ministry_period": {
+    "start": -594,
+    "end": -593
   }
 }

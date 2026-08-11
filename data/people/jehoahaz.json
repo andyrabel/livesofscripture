@@ -57,5 +57,12 @@
   "name_meaning": {
     "meaning": "Possession of the Lord",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -814,
+    "end": -798,
+    "reference": "2 Kings 13:1",
+    "note": "2 Kings 13:1 states Jehoahaz reigned seventeen years."
   }
 }

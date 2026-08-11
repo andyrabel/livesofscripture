@@ -17,7 +17,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "judah",
   "timeline": {
     "precision": "era",
     "note": "Joel gives no reference to a reigning king, unusual among the prophetic books, so its date is genuinely disputed among scholars, ranging from the 9th century BC to the post-exilic period; placed here in the earlier of the commonly proposed windows."
@@ -55,5 +54,14 @@
   "name_meaning": {
     "meaning": "He that wills or commands",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Joel 1:1",
+    "note": "Joel's own book gives no king's name to anchor a date, and evangelical scholars genuinely disagree, with proposals ranging from the ninth century BC to the post-exilic era -- left unplotted rather than assigning a specific window."
+  },
+  "ministry_period": {
+    "start": null,
+    "end": null
   }
 }

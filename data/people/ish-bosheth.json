@@ -61,5 +61,12 @@
   "tribe": {
     "name": "Benjamin",
     "reference": "2 Samuel 2:8"
+  },
+  "reign": {
+    "kingdom": "united",
+    "start": -1010,
+    "end": -1008,
+    "reference": "2 Samuel 2:8-10",
+    "note": "2 Samuel 2:10 states Ish-bosheth reigned two years over Israel while David reigned separately over Judah from Hebron -- a preview of the later north/south split."
   }
 }

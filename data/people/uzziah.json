@@ -72,5 +72,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:12"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -792,
+    "end": -740,
+    "reference": "2 Kings 15:1-2",
+    "note": "2 Kings 15:2 and 2 Chronicles 26:3 state Uzziah began to reign at 16 and reigned 52 years in Jerusalem; dates follow a widely-used regnal chronology, though evangelical chronologies vary somewhat on the exact overlap of his reign with his son Jotham's co-regency during his years of leprous isolation."
   }
 }

@@ -54,5 +54,14 @@
   "name_meaning": {
     "meaning": "That hears or obeys the Lord",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "1 Kings 12:22-24; 2 Chronicles 12:5-8",
+    "note": "Addressed King Rehoboam of Judah."
+  },
+  "ministry_period": {
+    "start": -931,
+    "end": -913
   }
 }

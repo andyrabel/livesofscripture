@@ -55,5 +55,14 @@
   "name_meaning": {
     "meaning": "My grace; my mercy",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "2 Chronicles 16:7-10",
+    "note": "Rebuked King Asa of Judah late in his reign for relying on Aram rather than the LORD; imprisoned for it."
+  },
+  "ministry_period": {
+    "start": -880,
+    "end": -870
   }
 }

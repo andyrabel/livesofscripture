@@ -17,7 +17,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "judah",
   "timeline": {
     "precision": "era",
     "note": "Micah 1:1 dates his ministry across the reigns of Jotham, Ahaz, and Hezekiah, roughly the mid-to-late 700s BC, but gives no personal birth or death year, so no specific date is plotted."
@@ -67,5 +66,14 @@
   "tribe": {
     "name": "Judah",
     "reference": "Micah 1:1"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Micah 1:1",
+    "note": "Micah 1:1 names Jotham, Ahaz, and Hezekiah, addressing both Samaria and Jerusalem."
+  },
+  "ministry_period": {
+    "start": -750,
+    "end": -686
   }
 }

@@ -52,5 +52,12 @@
   "name_meaning": {
     "meaning": "Perfect; agreeable",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -752,
+    "end": -752,
+    "reference": "2 Kings 15:13",
+    "note": "2 Kings 15:13 states Shallum reigned one month."
   }
 }

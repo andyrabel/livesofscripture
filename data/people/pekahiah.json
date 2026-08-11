@@ -51,5 +51,12 @@
   "name_meaning": {
     "meaning": "It is the Lord that opens",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -742,
+    "end": -740,
+    "reference": "2 Kings 15:23",
+    "note": "2 Kings 15:23 states Pekahiah reigned two years."
   }
 }

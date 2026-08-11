@@ -66,5 +66,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:12"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -796,
+    "end": -767,
+    "reference": "2 Kings 14:1-2",
+    "note": "2 Kings 14:2 states Amaziah reigned twenty-nine years."
   }
 }

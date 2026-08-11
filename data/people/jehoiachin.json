@@ -86,5 +86,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:16"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -598,
+    "end": -597,
+    "reference": "2 Kings 24:8",
+    "note": "2 Kings 24:8 states Jehoiachin reigned three months before his surrender and exile to Babylon."
   }
 }

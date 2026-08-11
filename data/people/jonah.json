@@ -23,7 +23,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "2 Kings 14:25 places Jonah's earlier ministry under Jeroboam II of Israel, roughly the early-to-mid 700s BC, but no personal birth or death year is given, so no specific date is plotted."
@@ -74,5 +73,14 @@
   "tribe": {
     "name": "Zebulun",
     "reference": "2 Kings 14:25"
+  },
+  "prophesied_to": {
+    "nation": "assyria",
+    "reference": "Jonah 1:1-2; 3:1-4; 2 Kings 14:25",
+    "note": "Sent to warn Nineveh, capital of Assyria; 2 Kings 14:25 also records him prophesying Israel's border restoration under Jeroboam II, the only chronological anchor Scripture gives for his ministry."
+  },
+  "ministry_period": {
+    "start": -793,
+    "end": -753
   }
 }

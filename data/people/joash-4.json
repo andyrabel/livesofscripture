@@ -58,5 +58,12 @@
   "name_meaning": {
     "meaning": "Who despairs or burns",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -798,
+    "end": -782,
+    "reference": "2 Kings 13:10",
+    "note": "2 Kings 13:10 states Jehoash reigned sixteen years."
   }
 }

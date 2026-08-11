@@ -89,5 +89,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:10"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -872,
+    "end": -848,
+    "reference": "1 Kings 22:41-42",
+    "note": "1 Kings 22:42 states Jehoshaphat was 35 when he began to reign and reigned 25 years in Jerusalem; dates follow a widely-used regnal chronology, with other evangelical frameworks shifting these figures by a few years."
   }
 }

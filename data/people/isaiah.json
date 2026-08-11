@@ -45,7 +45,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "judah",
   "timeline": {
     "precision": "era",
     "note": "Isaiah 1:1 dates his ministry across the reigns of Uzziah, Jotham, Ahaz, and Hezekiah (roughly the mid-700s to early 600s BC), but gives no personal birth or death year, so no specific date is plotted."
@@ -92,5 +91,14 @@
   "name_meaning": {
     "meaning": "The salvation of the Lord",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Isaiah 1:1; 6:1",
+    "note": "Isaiah 6:1 dates his call to the year King Uzziah died; his book's superscription names Uzziah, Jotham, Ahaz, and Hezekiah."
+  },
+  "ministry_period": {
+    "start": -740,
+    "end": -686
   }
 }

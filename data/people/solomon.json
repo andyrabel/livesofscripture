@@ -78,5 +78,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:5"
+  },
+  "reign": {
+    "kingdom": "united",
+    "start": -970,
+    "end": -931,
+    "reference": "1 Kings 11:42",
+    "note": "1 Kings 11:42 states Solomon reigned forty years in Jerusalem; dates follow a widely-used regnal chronology anchored to 1 Kings 6:1."
   }
 }

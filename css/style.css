@@ -28,6 +28,17 @@
   --era-apostolic: #e34948;
   --era-other: #898781;
 
+  /* Categorical kingdom/nation palette for the Kings & Prophets timeline
+     chart (validated via the dataviz skill's six-checks script). "United"
+     reuses the era-united-monarchy hue family; Israel/Judah/Assyria are new
+     hues, chosen to stay pairwise-distinct from these three and from each
+     other, not from the era or tribe palettes above (never co-displayed on
+     the same chart). */
+  --kp-united: #b8790f;
+  --kp-israel: #2f6fb0;
+  --kp-judah: #a83e3e;
+  --kp-assyria: #6c4fa8;
+
   /* Categorical tribe palette for the timeline lifespan chart -- one of the
      twelve tribes of Israel (Ephraim/Manasseh standing in for Joseph, per
      CLAUDE.md's Tribal Affiliation section), plus a catch-all "other" for
@@ -85,6 +96,10 @@
     --era-gospels: #9085e9;
     --era-apostolic: #e66767;
     --era-other: #898781;
+    --kp-united: #c98500;
+    --kp-israel: #4a86c9;
+    --kp-judah: #c9584f;
+    --kp-assyria: #8a6cc9;
     --tribe-reuben: #008daa;
     --tribe-simeon: #bd5458;
     --tribe-levi: #0682c2;
@@ -127,6 +142,10 @@
   --era-gospels: #9085e9;
   --era-apostolic: #e66767;
   --era-other: #898781;
+  --kp-united: #c98500;
+  --kp-israel: #4a86c9;
+  --kp-judah: #c9584f;
+  --kp-assyria: #8a6cc9;
   --tribe-reuben: #008daa;
   --tribe-simeon: #bd5458;
   --tribe-levi: #0682c2;
@@ -168,6 +187,10 @@
   --era-gospels: #4a3aa7;
   --era-apostolic: #e34948;
   --era-other: #898781;
+  --kp-united: #b8790f;
+  --kp-israel: #2f6fb0;
+  --kp-judah: #a83e3e;
+  --kp-assyria: #6c4fa8;
   --tribe-reuben: #0094b3;
   --tribe-simeon: #c6585d;
   --tribe-levi: #0588cb;
@@ -452,6 +475,13 @@ main {
   color: var(--color-text-muted);
   font-size: 0.95rem;
   font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.person-title .reign-line,
+.person-title .prophesied-to-line {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
   margin-bottom: 0.5rem;
 }
 
@@ -2160,4 +2190,227 @@ header.site-header nav a.nav-cta:hover {
     color: inherit;
     text-decoration: none;
   }
+}
+
+/* Kings & Prophets timeline chart (charts.html, charts/kings-and-prophets.html) */
+
+.chart-card-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.kp-disclaimer {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.kp-legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.kp-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  font-size: 0.85rem;
+}
+
+.kp-chart-expand {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.kp-chart-expand:hover {
+  border-color: var(--color-accent);
+}
+
+.kp-chart-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.kp-chart-lightbox-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.kp-chart-lightbox-toolbar button {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.kp-chart-lightbox-toolbar button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.kp-chart-lightbox-toolbar button:hover:not(:disabled) {
+  border-color: var(--color-accent);
+}
+
+.kp-chart-lightbox-close {
+  margin-left: 0.75rem;
+}
+
+.kp-chart-lightbox-zoom-label {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  min-width: 3.2em;
+  text-align: center;
+}
+
+.kp-chart-lightbox-scroll {
+  flex: 1;
+  overflow: auto;
+  padding: 1.5rem;
+  background: var(--color-bg);
+}
+
+.kp-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.kp-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.kp-chart-scroll {
+  overflow-x: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.kp-chart-svg {
+  display: block;
+  font-family: var(--font-sans);
+}
+
+.kp-gridline {
+  stroke: var(--color-border);
+  stroke-width: 1;
+}
+
+.kp-axis-label {
+  fill: var(--color-text-muted);
+  font-size: 10px;
+}
+
+.kp-row-label {
+  fill: var(--color-text);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.kp-bar {
+  stroke: var(--color-surface);
+  stroke-width: 2;
+  cursor: pointer;
+}
+
+.kp-bar:hover,
+.kp-bar:focus {
+  opacity: 0.82;
+  outline: none;
+}
+
+.kp-bar-label {
+  fill: #ffffff;
+  font-size: 9.5px;
+  pointer-events: none;
+}
+
+.kp-table-details {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.kp-table-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.kp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.kp-table th,
+.kp-table td {
+  text-align: left;
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.kp-unplotted {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.kp-unplotted ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.kp-tooltip {
+  position: fixed;
+  z-index: 50;
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  pointer-events: none;
+  max-width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kp-tooltip strong {
+  display: block;
+  margin-bottom: 0.15rem;
 }

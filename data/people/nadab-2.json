@@ -54,5 +54,12 @@
   "tribe": {
     "name": "Ephraim",
     "reference": "1 Kings 15:25"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -910,
+    "end": -909,
+    "reference": "1 Kings 15:25",
+    "note": "1 Kings 15:25 places Nadab's accession in Asa of Judah's second year, reigning into his own second year."
   }
 }

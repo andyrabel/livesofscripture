@@ -62,5 +62,12 @@
   "name_meaning": {
     "meaning": "To cast; elevated",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -852,
+    "end": -841,
+    "reference": "2 Kings 3:1",
+    "note": "2 Kings 3:1 states Joram reigned twelve years."
   }
 }

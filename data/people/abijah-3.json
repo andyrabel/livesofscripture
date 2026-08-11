@@ -74,5 +74,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:10"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -913,
+    "end": -911,
+    "reference": "1 Kings 15:1-2",
+    "note": "1 Kings 15:1-2 states Abijah reigned three years."
   }
 }

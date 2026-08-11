@@ -26,6 +26,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/charts.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/charts/kings-and-prophets.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/quiz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

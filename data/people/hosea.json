@@ -21,7 +21,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "Hosea 1:1 dates his ministry across several kings of Judah and Jeroboam II of Israel, roughly the mid-700s BC, but gives no personal birth or death year, so no specific date is plotted."
@@ -66,5 +65,14 @@
   "name_meaning": {
     "meaning": "Salvation",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "Hosea 1:1",
+    "note": "Hosea's superscription names kings spanning Uzziah through Hezekiah of Judah and Jeroboam II of Israel; conventionally placed beginning in Jeroboam II's final years."
+  },
+  "ministry_period": {
+    "start": -753,
+    "end": -715
   }
 }

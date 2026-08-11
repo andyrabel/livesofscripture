@@ -56,5 +56,12 @@
   "name_meaning": {
     "meaning": "He that opens; that is at liberty",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -752,
+    "end": -732,
+    "reference": "2 Kings 15:27",
+    "note": "2 Kings 15:27 states Pekah reigned twenty years, a count most chronologies read as including rival years ruling from Gilead concurrent with Menahem's and Pekahiah's reigns in Samaria."
   }
 }

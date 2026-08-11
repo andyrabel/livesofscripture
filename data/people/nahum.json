@@ -54,5 +54,14 @@
   "name_meaning": {
     "meaning": "Comforter; penitent",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "assyria",
+    "reference": "Nahum 1:1; 3:8-10",
+    "note": "Nahum 3:8-10 refers to the fall of Thebes (663 BC) as already past, and the book anticipates Nineveh's fall, which came in 612 BC."
+  },
+  "ministry_period": {
+    "start": -663,
+    "end": -612
   }
 }

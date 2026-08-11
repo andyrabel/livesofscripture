@@ -79,5 +79,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:13"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -697,
+    "end": -642,
+    "reference": "2 Kings 21:1",
+    "note": "2 Kings 21:1 states Manasseh was 12 when he began to reign and reigned 55 years in Jerusalem, the longest of any king of Judah or Israel; dates follow a widely-used regnal chronology."
   }
 }

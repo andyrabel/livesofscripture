@@ -52,5 +52,13 @@
   "name_meaning": {
     "meaning": "An oak; a curse; perjury",
     "language": "Hebrew"
-  }
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -886,
+    "end": -885,
+    "reference": "1 Kings 16:8",
+    "note": "1 Kings 16:8 states Elah reigned two years."
+  },
+  "kingdom": "israel"
 }

@@ -72,5 +72,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:12"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -750,
+    "end": -732,
+    "reference": "2 Kings 15:32-33",
+    "note": "2 Kings 15:33 states Jotham reigned sixteen years, a count most chronologies read as including a co-regency with his father Uzziah during Uzziah's years of leprous isolation."
   }
 }

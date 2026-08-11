@@ -80,5 +80,12 @@
   "name_meaning": {
     "meaning": "Uncle",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -874,
+    "end": -853,
+    "reference": "1 Kings 16:29",
+    "note": "Israel's regnal formula (unlike Judah's) gives reign length and synchronism to Judah's king but no accession age, so Ahab's own birth year is not calculable; his reign is conventionally placed c. 874-853 BC."
   }
 }

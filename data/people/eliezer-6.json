@@ -51,5 +51,14 @@
   "name_meaning": {
     "meaning": "Help",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "2 Chronicles 20:35-37",
+    "note": "Rebuked King Jehoshaphat of Judah for allying with King Ahaziah of Israel in a shipbuilding venture."
+  },
+  "ministry_period": {
+    "start": -870,
+    "end": -848
   }
 }

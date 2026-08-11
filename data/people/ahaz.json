@@ -83,5 +83,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:13"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -735,
+    "end": -715,
+    "reference": "2 Kings 16:1-2",
+    "note": "2 Kings 16:2 states Ahaz reigned sixteen years, overlapping the final years of his father Jotham's reign."
   }
 }

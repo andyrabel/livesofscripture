@@ -55,5 +55,14 @@
   "name_meaning": {
     "meaning": "The world",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "2 Kings 22:14-20",
+    "note": "Consulted by King Josiah's officials after the Book of the Law was found in his eighteenth regnal year."
+  },
+  "ministry_period": {
+    "start": -622,
+    "end": -622
   }
 }

@@ -17,7 +17,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "judah",
   "timeline": {
     "precision": "era",
     "note": "Habakkuk's description of the Babylonians (Chaldeans) as a rising power points to the late 600s BC, shortly before Judah's fall, but no personal birth or death year is given, so no specific date is plotted."
@@ -56,5 +55,14 @@
   "name_meaning": {
     "meaning": "He that embraces; a wrestler",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "Habakkuk 1:6",
+    "note": "Habakkuk 1:6 describes the Babylonians' rise as an imminent threat, placing the book in Jehoiakim's reign."
+  },
+  "ministry_period": {
+    "start": -609,
+    "end": -598
   }
 }

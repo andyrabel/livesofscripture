@@ -61,5 +61,13 @@
   "name_meaning": {
     "meaning": "The time of the Lord",
     "language": "Hebrew"
-  }
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -841,
+    "end": -835,
+    "reference": "2 Kings 11:3",
+    "note": "2 Kings 11:3 states Athaliah reigned six years after seizing the throne."
+  },
+  "kingdom": "judah"
 }

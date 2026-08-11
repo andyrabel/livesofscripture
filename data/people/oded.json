@@ -53,5 +53,14 @@
   "name_meaning": {
     "meaning": "To sustain",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "2 Chronicles 28:9-15",
+    "note": "Confronted the returning army of King Pekah of Israel over their enslavement of captives taken from Judah."
+  },
+  "ministry_period": {
+    "start": -752,
+    "end": -732
   }
 }

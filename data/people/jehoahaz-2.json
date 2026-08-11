@@ -62,5 +62,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:15"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -609,
+    "end": -609,
+    "reference": "2 Kings 23:31",
+    "note": "2 Kings 23:31 states Jehoahaz reigned three months before being deposed by Pharaoh Necho."
   }
 }

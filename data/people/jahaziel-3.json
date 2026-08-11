@@ -55,5 +55,14 @@
   "tribe": {
     "name": "Levi",
     "reference": "2 Chronicles 20:14"
+  },
+  "prophesied_to": {
+    "nation": "judah",
+    "reference": "2 Chronicles 20:14-17",
+    "note": "Assured King Jehoshaphat of Judah of victory over an invading Moabite/Ammonite coalition."
+  },
+  "ministry_period": {
+    "start": -870,
+    "end": -848
   }
 }

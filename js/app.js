@@ -181,6 +181,138 @@ function initNavToggle() {
   });
 }
 
+// Hover/focus tooltip layer for the server-rendered Kings & Prophets SVG
+// chart (charts/kings-and-prophets.html) -- the chart itself is fully
+// legible without this (native <title> tooltips + the table view below it
+// both work with JS off), this only adds the nicer positioned HTML tooltip.
+function initKpChartTooltips() {
+  const bars = document.querySelectorAll(".kp-bar");
+  if (!bars.length) return;
+
+  const tooltip = document.createElement("div");
+  tooltip.className = "kp-tooltip";
+  tooltip.hidden = true;
+  document.body.appendChild(tooltip);
+
+  function show(bar, x, y) {
+    tooltip.textContent = "";
+    const strong = document.createElement("strong");
+    strong.textContent = `${bar.dataset.name} — ${bar.dataset.nation}`;
+    tooltip.appendChild(strong);
+    tooltip.appendChild(document.createTextNode(`${bar.dataset.span} (${bar.dataset.reference})`));
+    tooltip.hidden = false;
+    const pad = 12;
+    tooltip.style.left = `${Math.min(x + pad, window.innerWidth - tooltip.offsetWidth - pad)}px`;
+    tooltip.style.top = `${Math.max(y - tooltip.offsetHeight - pad, pad)}px`;
+  }
+
+  function hide() {
+    tooltip.hidden = true;
+  }
+
+  bars.forEach((bar) => {
+    bar.addEventListener("pointermove", (evt) => show(bar, evt.clientX, evt.clientY));
+    bar.addEventListener("pointerenter", (evt) => show(bar, evt.clientX, evt.clientY));
+    bar.addEventListener("pointerleave", hide);
+    bar.addEventListener("focus", () => {
+      const rect = bar.getBoundingClientRect();
+      show(bar, rect.left, rect.top);
+    });
+    bar.addEventListener("blur", hide);
+  });
+}
+
+// Full-screen zoomable view of the Kings & Prophets SVG chart, for readers
+// who find the inline chart's native size too small -- it's real vector
+// content (not a raster image), so scaling it up via width/height keeps
+// text crisp at any zoom level rather than pixelating like an <img> zoom
+// would.
+function initKpChartLightbox() {
+  const trigger = document.getElementById("kp-chart-expand");
+  const source = document.getElementById("kp-chart-svg");
+  if (!trigger || !source) return;
+
+  const viewBox = source.viewBox.baseVal;
+  const ZOOM_MIN = 1;
+  const ZOOM_MAX = 4;
+  const ZOOM_STEP = 0.25;
+  let scale = 1.75;
+
+  trigger.addEventListener("click", () => {
+    const overlay = document.createElement("div");
+    overlay.className = "kp-chart-lightbox-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.setAttribute("aria-label", "Kings and Prophets chart, enlarged");
+
+    const toolbar = document.createElement("div");
+    toolbar.className = "kp-chart-lightbox-toolbar";
+
+    const zoomOut = document.createElement("button");
+    zoomOut.type = "button";
+    zoomOut.textContent = "−";
+    zoomOut.setAttribute("aria-label", "Zoom out");
+
+    const zoomLabel = document.createElement("span");
+    zoomLabel.className = "kp-chart-lightbox-zoom-label";
+
+    const zoomIn = document.createElement("button");
+    zoomIn.type = "button";
+    zoomIn.textContent = "+";
+    zoomIn.setAttribute("aria-label", "Zoom in");
+
+    const closeBtn = document.createElement("button");
+    closeBtn.type = "button";
+    closeBtn.className = "kp-chart-lightbox-close";
+    closeBtn.textContent = "✕ Close";
+
+    toolbar.append(zoomOut, zoomLabel, zoomIn, closeBtn);
+
+    const scroll = document.createElement("div");
+    scroll.className = "kp-chart-lightbox-scroll";
+    const clone = source.cloneNode(true);
+    clone.removeAttribute("id");
+    scroll.appendChild(clone);
+
+    overlay.append(toolbar, scroll);
+
+    function applyScale() {
+      clone.setAttribute("width", Math.round(viewBox.width * scale));
+      clone.setAttribute("height", Math.round(viewBox.height * scale));
+      zoomLabel.textContent = `${Math.round(scale * 100)}%`;
+      zoomOut.disabled = scale <= ZOOM_MIN;
+      zoomIn.disabled = scale >= ZOOM_MAX;
+    }
+
+    function close() {
+      overlay.remove();
+      document.removeEventListener("keydown", onKeyDown);
+      trigger.focus();
+    }
+    function onKeyDown(evt) {
+      if (evt.key === "Escape") close();
+    }
+
+    zoomOut.addEventListener("click", () => {
+      scale = Math.max(ZOOM_MIN, scale - ZOOM_STEP);
+      applyScale();
+    });
+    zoomIn.addEventListener("click", () => {
+      scale = Math.min(ZOOM_MAX, scale + ZOOM_STEP);
+      applyScale();
+    });
+    closeBtn.addEventListener("click", close);
+    overlay.addEventListener("click", (evt) => {
+      if (evt.target === overlay) close();
+    });
+    document.addEventListener("keydown", onKeyDown);
+
+    document.body.appendChild(overlay);
+    applyScale();
+    closeBtn.focus();
+  });
+}
+
 function initPortraitLightbox() {
   const trigger = document.querySelector(".portrait-lightbox");
   if (!trigger) return;

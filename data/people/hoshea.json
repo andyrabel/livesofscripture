@@ -53,5 +53,12 @@
   "name_meaning": {
     "meaning": "Salvation",
     "language": "Hebrew"
+  },
+  "reign": {
+    "kingdom": "israel",
+    "start": -732,
+    "end": -722,
+    "reference": "2 Kings 17:1",
+    "note": "2 Kings 17:1 states Hoshea reigned nine years, ending with the fall of Samaria to Assyria."
   }
 }

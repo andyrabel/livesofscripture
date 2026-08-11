@@ -70,5 +70,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:15"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -609,
+    "end": -598,
+    "reference": "2 Kings 23:36",
+    "note": "2 Kings 23:36 states Jehoiakim was 25 when he began to reign and reigned 11 years in Jerusalem; dates follow a widely-used regnal chronology."
   }
 }

@@ -5,7 +5,6 @@
   "tier": "full",
   "testament": "OT",
   "era": "Divided Monarchy",
-  "kingdom": "israel",
   "region": "canaan-israel",
   "timeline": {
     "precision": "era"
@@ -54,5 +53,14 @@
   "name_meaning": {
     "meaning": "The Lord is my justice; the justice of the Lord",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "1 Kings 22:11-24",
+    "note": "A false prophet in Ahab's court who opposed Micaiah's true word with a fabricated sign."
+  },
+  "ministry_period": {
+    "start": -853,
+    "end": -853
   }
 }

@@ -93,5 +93,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:13"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -715,
+    "end": -686,
+    "reference": "2 Kings 18:1-2",
+    "note": "2 Kings 18:2 states Hezekiah was 25 when he began to reign and reigned 29 years in Jerusalem; dates follow a widely-used regnal chronology (some frameworks place his accession closer to 729 BC via a co-regency with Ahaz)."
   }
 }

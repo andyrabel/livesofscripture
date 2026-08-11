@@ -55,5 +55,14 @@
   "name_meaning": {
     "meaning": "Brother of the LORD",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "1 Kings 11:29-39; 1 Kings 14:1-18",
+    "note": "Announced the kingdom's division to Jeroboam near Solomon's death, then later pronounced judgment on Jeroboam's own house."
+  },
+  "ministry_period": {
+    "start": -931,
+    "end": -910
   }
 }

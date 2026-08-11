@@ -52,5 +52,14 @@
   "name_meaning": {
     "meaning": "Who is like to God?",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "1 Kings 22:1-28",
+    "note": "Alone among Ahab's prophets foretold Israel's defeat at Ramoth-gilead, shortly before Ahab's death there."
+  },
+  "ministry_period": {
+    "start": -853,
+    "end": -853
   }
 }

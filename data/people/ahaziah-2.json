@@ -73,5 +73,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:11"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -841,
+    "end": -841,
+    "reference": "2 Kings 8:25-26",
+    "note": "2 Kings 8:26 states Ahaziah reigned one year."
   }
 }

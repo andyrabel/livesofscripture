@@ -60,5 +60,14 @@
   "name_meaning": {
     "meaning": "A band; a troop",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "united",
+    "reference": "1 Samuel 22:5; 2 Samuel 24:11-19",
+    "note": "Ministered as David's seer through his reign."
+  },
+  "ministry_period": {
+    "start": -1010,
+    "end": -970
   }
 }

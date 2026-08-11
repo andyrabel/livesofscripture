@@ -18,7 +18,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "Amos 1:1 dates his ministry to the reigns of Uzziah of Judah and Jeroboam II of Israel, roughly the mid-700s BC, but gives no personal birth or death year, so no specific date is plotted."
@@ -62,5 +61,14 @@
   "tribe": {
     "name": "Judah",
     "reference": "Amos 1:1"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "Amos 1:1",
+    "note": "Amos 1:1 places his ministry in the days of Uzziah of Judah and Jeroboam II of Israel, two years before an otherwise-undated earthquake."
+  },
+  "ministry_period": {
+    "start": -760,
+    "end": -750
   }
 }

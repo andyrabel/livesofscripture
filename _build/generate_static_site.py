@@ -32,6 +32,7 @@ NAV_PAGES = [
     ("timeline.html", "Timeline"),
     ("connections.html", "Connections"),
     ("churches.html", "Churches"),
+    ("charts.html", "Charts"),
     ("quiz.html", "Quiz"),
     ("about.html", "About"),
 ]
@@ -202,6 +203,37 @@ def first_reference_line(person, css_class="first-reference"):
     if not ref:
         return ""
     return f'<p class="{css_class}">First named in {esc(ref)}</p>'
+
+
+def format_bc_year(year):
+    return f"{-year} BC" if year < 0 else f"AD {year}"
+
+
+KINGDOM_LABELS = {"united": "the united kingdom", "israel": "Israel", "judah": "Judah"}
+NATION_LABELS = {"united": "the united kingdom", "israel": "Israel", "judah": "Judah", "assyria": "Assyria"}
+
+
+def reign_line(person):
+    reign = person.get("reign")
+    if not reign:
+        return ""
+    kingdom_label = KINGDOM_LABELS.get(reign.get("kingdom"), reign.get("kingdom"))
+    span = f"{format_bc_year(reign['start'])}&ndash;{format_bc_year(reign['end'])}" if isinstance(reign.get("start"), int) else ""
+    return f'<div class="reign-line">Reigned over {esc(kingdom_label)}, c. {span}</div>'
+
+
+def prophesied_to_line(person):
+    prophesied = person.get("prophesied_to")
+    if not prophesied:
+        return ""
+    nation_label = NATION_LABELS.get(prophesied.get("nation"), prophesied.get("nation"))
+    period = person.get("ministry_period") or {}
+    start, end = period.get("start"), period.get("end")
+    if isinstance(start, int) and isinstance(end, int):
+        span = f", c. {format_bc_year(start)}&ndash;{format_bc_year(end)}"
+    else:
+        span = " (date disputed)"
+    return f'<div class="prophesied-to-line">Prophesied to {esc(nation_label)}{span}</div>'
 
 
 def connections_graph_link(person_id, base):
@@ -432,6 +464,8 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
       <h2>{esc(person["name"])}{gender_tag(person.get("gender"))}</h2>
       {alt_html}
       {name_meaning_html}
+      {reign_line(person)}
+      {prophesied_to_line(person)}
       {first_ref}
       <div class="tags">
         <span class="badge {testament_class}">{esc(person.get("testament", ""))}</span>
@@ -882,6 +916,386 @@ def build_church_membership_index(churches, index_by_id):
 
 
 # ---------------------------------------------------------------------
+# Kings & Prophets timeline chart (charts.html hub + charts/kings-and-prophets.html)
+# ---------------------------------------------------------------------
+
+KP_NATION_LABELS = {
+    "united": "United Kingdom",
+    "israel": "Kingdom of Israel",
+    "judah": "Kingdom of Judah",
+    "assyria": "Assyria",
+}
+KP_COLOR_VAR = {
+    "united": "var(--kp-united)",
+    "israel": "var(--kp-israel)",
+    "judah": "var(--kp-judah)",
+    "assyria": "var(--kp-assyria)",
+}
+KP_ROW_ORDER = ["united", "israel", "judah", "prophets"]
+KP_ROW_LABELS = {
+    "united": "United Kingdom (kings)",
+    "israel": "Kingdom of Israel (kings)",
+    "judah": "Kingdom of Judah (kings)",
+    "prophets": "Prophets",
+}
+
+
+def collect_kings_and_prophets():
+    """Scan every full-tier person file for a `reign` (a king) or
+    `prophesied_to` (a prophet) field -- see _build/backfill_reigns.py and
+    _build/backfill_prophets.py for how those fields are curated. Returns
+    (rows, unplotted): `rows` maps each of KP_ROW_ORDER to a list of chart
+    entries; `unplotted` lists prophets whose dating is too disputed to plot
+    (currently just Joel -- see backfill_prophets.py's note)."""
+    rows = {key: [] for key in KP_ROW_ORDER}
+    unplotted = []
+    people_dir = ROOT / "data" / "people"
+    for path in sorted(people_dir.glob("*.json")):
+        person = json.loads(path.read_text())
+        pid = person["person_id"]
+
+        reign = person.get("reign")
+        if reign:
+            rows[reign["kingdom"]].append({
+                "person_id": pid,
+                "name": person["name"],
+                "kind": "king",
+                "nation": reign["kingdom"],
+                "start": reign["start"],
+                "end": reign["end"],
+                "reference": reign["reference"],
+                "note": reign.get("note", ""),
+            })
+            continue
+
+        prophesied = person.get("prophesied_to")
+        if prophesied:
+            period = person.get("ministry_period") or {}
+            entry = {
+                "person_id": pid,
+                "name": person["name"],
+                "kind": "prophet",
+                "nation": prophesied["nation"],
+                "start": period.get("start"),
+                "end": period.get("end"),
+                "reference": prophesied["reference"],
+                "note": prophesied.get("note", ""),
+            }
+            if entry["start"] is None or entry["end"] is None:
+                unplotted.append(entry)
+            else:
+                rows["prophets"].append(entry)
+
+    return rows, unplotted
+
+
+def kp_pack_lanes(entries):
+    """Greedy interval-scheduling packer: sort by start year, place each
+    entry in the first lane whose last entry already ends at or before this
+    one's start -- so a straight succession (Saul's reign ending exactly
+    where Ish-bosheth's begins) shares a lane and reads as one continuous
+    row, while a real overlap (a co-regency like Uzziah and Jotham) forces
+    the later entry into a new stacked lane instead of clipping into the
+    first one -- else open a new lane."""
+    lanes = []
+    for entry in sorted(entries, key=lambda e: (e["start"], e["end"])):
+        for lane in lanes:
+            if lane[-1]["end"] <= entry["start"]:
+                lane.append(entry)
+                break
+        else:
+            lanes.append([entry])
+    return lanes
+
+
+def kp_format_year(year):
+    return f"{-year} BC" if year < 0 else f"AD {year}"
+
+
+def kp_bar_label_fits(text, width_px, font_size=10.5):
+    # Rough average glyph width for the site's sans body font at this size --
+    # good enough to decide inside-bar vs. tooltip-only, not real text
+    # measurement (there's no layout engine at generation time).
+    return len(text) * font_size * 0.56 + 8 <= width_px
+
+
+def render_kings_and_prophets_svg(rows):
+    min_year, max_year = -1060, -580
+    margin_left, margin_right = 16, 16
+    plot_width = 1760
+    bar_h = 20
+    lane_gap = 4
+    row_label_h = 22
+    row_gap = 18
+    tick_step = 50
+
+    def x_of(year):
+        year = max(min_year, min(max_year, year))
+        return margin_left + (year - min_year) / (max_year - min_year) * plot_width
+
+    packed_rows = {key: kp_pack_lanes(rows[key]) for key in KP_ROW_ORDER}
+    row_heights = {
+        key: max(1, len(lanes)) * bar_h + max(0, len(lanes) - 1) * lane_gap + row_label_h
+        for key, lanes in packed_rows.items()
+    }
+
+    axis_h = 24
+    total_h = axis_h + sum(row_heights.values()) + row_gap * (len(KP_ROW_ORDER) - 1) + 12
+    total_w = margin_left + plot_width + margin_right
+
+    parts = [
+        f'<svg id="kp-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
+        f'aria-label="Timeline of the kings of the United and Divided Monarchy and the prophets active in the same period" '
+        f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">'
+    ]
+
+    # Year gridlines + axis labels, spanning the full plot height.
+    first_tick = min_year - (min_year % tick_step)
+    y_axis_top = axis_h
+    y_axis_bottom = total_h - 4
+    tick = first_tick
+    while tick <= max_year:
+        if min_year <= tick <= max_year:
+            tx = x_of(tick)
+            parts.append(
+                f'<line x1="{tx:.1f}" y1="{y_axis_top}" x2="{tx:.1f}" y2="{y_axis_bottom}" class="kp-gridline" />'
+            )
+            parts.append(
+                f'<text x="{tx:.1f}" y="14" class="kp-axis-label" text-anchor="middle">{esc(kp_format_year(tick))}</text>'
+            )
+        tick += tick_step
+
+    y = axis_h
+    for key in KP_ROW_ORDER:
+        lanes = packed_rows[key]
+        parts.append(
+            f'<text x="{margin_left}" y="{y + 14}" class="kp-row-label">{esc(KP_ROW_LABELS[key])}</text>'
+        )
+        lane_y = y + row_label_h
+        for lane in lanes:
+            for entry in lane:
+                bx = x_of(entry["start"])
+                bw = max(2.0, x_of(entry["end"]) - bx)
+                color = KP_COLOR_VAR[entry["nation"]]
+                title = (
+                    f'{entry["name"]} — {KP_NATION_LABELS.get(entry["nation"], entry["nation"])}, '
+                    f'c. {kp_format_year(entry["start"])}–{kp_format_year(entry["end"])} ({entry["reference"]})'
+                )
+                href = f'people/{entry["person_id"]}.html'
+                parts.append(f'<a href="{href}">')
+                parts.append(
+                    f'<rect x="{bx:.1f}" y="{lane_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
+                    f'fill="{color}" class="kp-bar" tabindex="0" '
+                    f'data-name="{esc(entry["name"])}" data-nation="{esc(KP_NATION_LABELS.get(entry["nation"], entry["nation"]))}" '
+                    f'data-span="c. {esc(kp_format_year(entry["start"]))}–{esc(kp_format_year(entry["end"]))}" '
+                    f'data-reference="{esc(entry["reference"])}">'
+                    f'<title>{esc(title)}</title></rect>'
+                )
+                if kp_bar_label_fits(entry["name"], bw):
+                    parts.append(
+                        f'<text x="{bx + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 3.5:.1f}" '
+                        f'class="kp-bar-label" text-anchor="middle">{esc(entry["name"])}</text>'
+                    )
+                parts.append("</a>")
+            lane_y += bar_h + lane_gap
+        y += row_heights[key] + row_gap
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_kings_and_prophets_table(rows, unplotted):
+    all_entries = []
+    for key in KP_ROW_ORDER:
+        all_entries.extend(rows[key])
+    all_entries.sort(key=lambda e: (e["start"], e["name"]))
+
+    def row_html(e, disputed=False):
+        span = "Date disputed" if disputed else f'c. {esc(kp_format_year(e["start"]))}&ndash;{esc(kp_format_year(e["end"]))}'
+        return (
+            f'<tr><td><a href="people/{e["person_id"]}.html">{esc(e["name"])}</a></td>'
+            f'<td>{"King" if e["kind"] == "king" else "Prophet"}</td>'
+            f'<td>{esc(KP_NATION_LABELS.get(e["nation"], e["nation"]))}</td>'
+            f'<td>{span}</td>'
+            f'<td>{esc(e["reference"])}</td></tr>'
+        )
+
+    body_rows = "\n    ".join(row_html(e) for e in all_entries)
+    body_rows += "\n    " + "\n    ".join(row_html(e, disputed=True) for e in unplotted)
+
+    return f"""<details class="kp-table-details">
+    <summary>View as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Name</th><th>Role</th><th>Kingdom / nation</th><th>Dates</th><th>Reference</th></tr></thead>
+      <tbody>
+    {body_rows}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def render_kings_and_prophets_legend():
+    items = "\n    ".join(
+        f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{KP_COLOR_VAR[key]}"></span>{esc(label)}</span>'
+        for key, label in KP_NATION_LABELS.items()
+    )
+    return f'<div class="kp-legend">{items}</div>'
+
+
+def build_charts_list_page():
+    base = ""
+    canonical = f"{SITE_URL}/charts.html"
+    title = "Charts — Lives of Scripture"
+    description = "Visual charts across the whole dataset, starting with the kings of Israel and Judah and the prophets active in their reigns."
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <h2>Charts</h2>
+  <p class="page-intro">Visual charts across the whole dataset. Starting with one: the kings of the
+  United and Divided Monarchy alongside the prophets active in the same period.</p>
+
+  <div class="person-grid">
+    <a class="person-card" href="{base}charts/kings-and-prophets.html">
+      <div class="name"><strong>Kings &amp; Prophets of the Monarchy</strong></div>
+      <p class="chart-card-desc">Every king of the United Kingdom, Israel, and Judah, and every prophet
+      active in that period, laid out on one timeline.</p>
+    </a>
+  </div>
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle();</script>
+</body>
+</html>
+"""
+
+
+def build_kings_and_prophets_chart_page(rows, unplotted):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/kings-and-prophets.html"
+    title = "Kings & Prophets of the Monarchy — Lives of Scripture"
+    description = "The kings of the United Kingdom, Israel, and Judah, and the prophets active in their reigns, on one timeline."
+
+    svg = render_kings_and_prophets_svg(rows)
+    legend = render_kings_and_prophets_legend()
+    table = render_kings_and_prophets_table(rows, unplotted)
+
+    unplotted_html = ""
+    if unplotted:
+        items = "\n      ".join(
+            f'<li><a href="{base}people/{e["person_id"]}.html">{esc(e["name"])}</a> &mdash; {esc(e["note"])}</li>'
+            for e in unplotted
+        )
+        unplotted_html = f"""<div class="kp-unplotted">
+      <p>Not plotted (disputed dating):</p>
+      <ul>
+      {items}
+      </ul>
+    </div>"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>Kings &amp; Prophets of the Monarchy</h2>
+  <p class="page-intro">Every king of the United Kingdom, the Kingdom of Israel, and the Kingdom of
+  Judah, alongside every prophet active in that period and the kingdom or nation each one addressed.
+  Bars are clickable and link to that person's page; hover or focus a bar for exact dates.</p>
+
+  <p class="kp-disclaimer">Reign and ministry years follow a single widely-used evangelical regnal
+  chronology (the Thiele/synchronistic framework already used elsewhere on this site &mdash; see e.g.
+  <a href="{base}people/david.html">David's</a> page), marked &ldquo;c.&rdquo; throughout. Other
+  evangelical chronological frameworks shift several of these dates, especially where a co-regency is
+  involved (Uzziah/Jotham, Amaziah/Uzziah, Hezekiah/Manasseh). Every entry cites the verse stating its
+  reign length or ministry's dating; hover, focus, or open the table below for the reference.</p>
+
+  <div class="kp-legend-row">
+    {legend}
+    <button type="button" class="kp-chart-expand" id="kp-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {table}
+
+  {unplotted_html}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initKpChartTooltips(); initKpChartLightbox();</script>
+</body>
+</html>
+"""
+
+
+# ---------------------------------------------------------------------
 # sitemap.xml
 # ---------------------------------------------------------------------
 
@@ -893,6 +1307,8 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/timeline.html", "monthly", "0.6"),
         (f"{SITE_URL}/connections.html", "monthly", "0.6"),
         (f"{SITE_URL}/churches.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -974,9 +1390,15 @@ def main():
         (churches_dir / f'{church["church_id"]}.html').write_text(page)
     (ROOT / "churches.html").write_text(build_churches_list_page(churches))
 
+    charts_dir = ROOT / "charts"
+    charts_dir.mkdir(exist_ok=True)
+    kp_rows, kp_unplotted = collect_kings_and_prophets()
+    (charts_dir / "kings-and-prophets.html").write_text(build_kings_and_prophets_chart_page(kp_rows, kp_unplotted))
+    (ROOT / "charts.html").write_text(build_charts_list_page())
+
     build_sitemap(index, churches)
 
-    print(f"Generated {generated} person pages, {len(churches)} church pages, sitemap.xml, and people.html/churches.html static output.")
+    print(f"Generated {generated} person pages, {len(churches)} church pages, sitemap.xml, and people.html/churches.html/charts.html static output.")
 
 
 if __name__ == "__main__":

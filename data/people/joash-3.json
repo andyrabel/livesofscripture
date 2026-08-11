@@ -67,5 +67,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:11"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -835,
+    "end": -796,
+    "reference": "2 Kings 12:1",
+    "note": "2 Kings 12:1 states Joash reigned forty years in Jerusalem."
   }
 }

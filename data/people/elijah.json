@@ -40,7 +40,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "No birth or death year is given — Elijah did not die but was taken up in a whirlwind — so no specific date is plotted; his ministry falls under Ahab through Ahaziah, roughly the mid-800s BC."
@@ -89,5 +88,14 @@
   "name_meaning": {
     "meaning": "God the Lord",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "1 Kings 17:1 - 2 Kings 2:11",
+    "note": "Confronted King Ahab and Queen Jezebel's Baal worship through the reigns of Ahab and Ahaziah, taken up at the start of Joram's reign."
+  },
+  "ministry_period": {
+    "start": -874,
+    "end": -852
   }
 }

@@ -69,5 +69,12 @@
   "tribe": {
     "name": "Judah",
     "reference": "1 Chronicles 3:14"
+  },
+  "reign": {
+    "kingdom": "judah",
+    "start": -642,
+    "end": -640,
+    "reference": "2 Kings 21:19",
+    "note": "2 Kings 21:19 states Amon reigned two years."
   }
 }

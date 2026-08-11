@@ -26,7 +26,6 @@
   },
   "era": "Divided Monarchy",
   "region": "canaan-israel",
-  "kingdom": "israel",
   "timeline": {
     "precision": "era",
     "note": "No birth or death year is given for Elisha; his ministry spans several Israelite kings' reigns, roughly the mid-800s to early 700s BC."
@@ -68,5 +67,14 @@
   "name_meaning": {
     "meaning": "Salvation of God",
     "language": "Hebrew"
+  },
+  "prophesied_to": {
+    "nation": "israel",
+    "reference": "2 Kings 2:1 - 13:20",
+    "note": "Succeeded Elijah and ministered through the reigns of Joram, Jehu, and Jehoahaz, and into Jehoash's reign, in which his death is recorded."
+  },
+  "ministry_period": {
+    "start": -852,
+    "end": -796
   }
 }
