@@ -2,8 +2,16 @@
   "person_id": "zebulun",
   "name": "Zebulun",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
+  "era": "Patriarchal",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Paddan-aram",
+    "Canaan"
+  ],
   "references": [
     "Genesis 30:20",
     "Genesis 35:23",
@@ -25,6 +33,22 @@
     "Revelation 7:8"
   ],
   "first_reference": "Genesis 30:20",
+  "topics": [
+    "one of the twelve sons of Jacob",
+    "Jacob's blessing",
+    "founding of a tribe"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The sixth son of Jacob and Leah, born while the family lived in Paddan-aram, whose birth Leah tied to hope of honor from her husband, and whose deathbed blessing from Jacob pictured his tribe settling by the seacoast.",
+  "family_friendly_summary": "Zebulun was one of Jacob's twelve sons, the sixth one born to his mother Leah. When he was born, Leah said God had given her a good gift, and that her husband would now honor her because she had given him six sons. Zebulun grew up to become the father of one of the twelve tribes of Israel. Before Jacob died, he blessed each of his sons, and he told Zebulun that his family would one day live by the seashore, welcoming ships that sailed in and out of busy harbors.",
+  "adult_story": "Zebulun was Jacob's sixth son by Leah, born during the years the family lived in Paddan-aram. Leah named him at his birth, saying, \"God has endowed me with a good gift; now my husband will honor me, because I have borne him six sons\" (Genesis 30:19-20) -- a name likely tied to ideas of honor or dwelling. He is listed among the sons who journeyed with Jacob into Egypt (Genesis 46:14) and became the ancestor of one of the twelve tribes, numbered and positioned among Israel's wilderness camps (Numbers 1-2). On his deathbed, Jacob gave Zebulun a blessing pointing toward the sea: \"Zebulun will dwell at the seashore, and he shall be a haven for ships, and his flank shall be toward Sidon\" (Genesis 49:13) -- language later matched by his tribe's actual territory along the coastal plain near Sidon (Joshua 19:10-16). Scripture records no personal deeds or words of Zebulun himself beyond his birth and this blessing, but his tribe later answered Barak's call to battle against Sisera's army, risking their lives on the field (Judges 4:6; 5:18), and Zebulun's name is preserved among the twelve tribes sealed in Revelation's vision (Revelation 7:8).",
+  "image": {
+    "file": "generic-figure.png",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": "israel",
     "mother": "leah",
@@ -35,5 +59,22 @@
       "sered"
     ]
   },
-  "gender": "male"
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "gender": "male",
+  "devotionals": [
+    "Leah named Zebulun hoping her husband would finally honor her. God can turn even our aching, overlooked longings into part of His larger story.",
+    "Jacob blessed Zebulun with a home by the sea; that tribe later risked everything for Israel in battle. Jesus, too, gave everything to bring us safely home."
+  ],
+  "name_meaning": {
+    "meaning": "Dwelling; habitation",
+    "language": "Hebrew"
+  },
+  "tribe": {
+    "name": "Zebulun",
+    "reference": "Genesis 35:23"
+  }
 }
