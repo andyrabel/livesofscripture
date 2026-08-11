@@ -64,5 +64,9 @@
     "caption": "Generic line-art icon for priests — symbolic, no claim of likeness"
   },
   "image2": "phinehas.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Bold aspect; face of trust or protection",
+    "language": "Hebrew"
+  }
 }

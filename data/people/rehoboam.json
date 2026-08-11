@@ -81,5 +81,9 @@
     "caption": "Generic line-art icon for kings — symbolic, no claim of likeness"
   },
   "image2": "rehoboam.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Who sets the people at liberty",
+    "language": "Hebrew"
+  }
 }

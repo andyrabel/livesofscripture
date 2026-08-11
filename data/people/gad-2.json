@@ -56,5 +56,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "gad-2.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "A band; a troop",
+    "language": "Hebrew"
+  }
 }

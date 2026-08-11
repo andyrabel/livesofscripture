@@ -78,5 +78,9 @@
     "caption": "Generic line-art icon for kings — symbolic, no claim of likeness"
   },
   "image2": "jeroboam.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "He that opposes the people",
+    "language": "Hebrew"
+  }
 }

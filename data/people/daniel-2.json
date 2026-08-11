@@ -72,5 +72,9 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "image2": "daniel-2.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Judgment of God; God my judge",
+    "language": "Hebrew"
+  }
 }

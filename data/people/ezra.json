@@ -56,5 +56,9 @@
     "caption": "Generic line-art icon for priests — symbolic, no claim of likeness"
   },
   "image2": "ezra.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Help; court",
+    "language": "Hebrew"
+  }
 }

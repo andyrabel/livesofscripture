@@ -306,6 +306,10 @@ Patriarchs) that's worth noting as *tradition*, not confirmed fact.
     "Old Testament figures point forward per Romans 4 / Hebrews 11 framing; New Testament figures relate to Christ's accomplished work directly.",
     "Full-tier, eligible ('major') entries only. Fewer than 3 is fine if that's all the text supports — do not pad."
   ],
+  "name_meaning": {
+    "meaning": "The LORD is my God",
+    "language": "Hebrew"
+  },
   "image": {
     "file": "elijah.jpg",
     "prompt_used": "Simple outline/line-art illustration, ancient Near Eastern prophet, minimal detail, low file size...",
@@ -365,6 +369,39 @@ first place. Used to render a `(M)`/`(F)` marker after a person's name on
 person pages' Connections section, the People search page, and the
 connections graph's sidebar card, and to color-code names on the
 connections graph (dark blue for male, dark red for female).
+
+**`name_meaning`** (added 2026-08-10, full-tier only): `{"meaning": ..., "language": ...}`,
+the etymological meaning of the person's own `name` and the language it
+comes from. Rendered on the person-detail page header, under the name (and
+under `alt_names` when present) — see `render_full_person_body()` in
+`_build/generate_static_site.py`. Sourced primarily from **Hitchcock's Bible
+Names Dictionary** (Roswell D. Hitchcock, 1869, public domain — added to the
+Reliable Sources list below), fetched programmatically for all 589 unique
+full-tier names; the ~80 names Hitchcock's page happened to omit (including
+surprisingly common ones like Michael and Matthew) and all ~55 multi-word or
+hyphenated compound names (e.g. "Mary Magdalene," "Ben-hadad") were
+hand-researched and cross-checked instead, since Hitchcock's entries for
+those either didn't exist or only captured one half of the name. `language`
+defaults to Hebrew for OT-tier people and Greek for NT-tier people (the
+language the *text* is written in), but is overridden per-name for anyone
+whose name is actually of different origin — Latin (Paul, Mark, Silas'
+household, most Roman officials), Aramaic (Barnabas, Thomas, Martha, Bar-
+prefixed names), or a foreign king/court name (Persian: Cyrus, Esther,
+Ahasuerus; Akkadian/Babylonian/Assyrian: Nebuchadnezzar, Sennacherib,
+Tiglath-pileser; Egyptian: Pharaoh, Potiphar; and smaller one-off cases like
+Goliath's Philistine origin or Candace, which is actually a Meroitic/Cushite
+royal *title*, not a personal name at all). A meaning of "uncertain" is used
+where scholarship itself doesn't agree (e.g. Methuselah, several minor
+Persian court officials) rather than picking one silently, per the Factual
+Accuracy rules above. Stub entries never get this field, matching every
+other curated full-tier-only field (see Coverage and Two-Tier Depth).
+`_build/backfill_name_meaning.py` holds the full name→meaning/language
+mapping and is safe to re-run (same "exists on disk, documented here, not
+committed since `_build/` is gitignored by default" pattern already used by
+`_build/backfill_lifespan_years.py` — see the Timeline section) — if new
+full-tier people are promoted later, add their name to that script's dict
+the same way (Hitchcock's first, hand-research for gaps/compounds) before
+re-running it.
 
 **`disambiguation`** (added 2026-08-03, index-only): a derived string field
 on `data/people.json` entries for anyone who shares their `name` with
@@ -991,6 +1028,9 @@ exist.
 - **Easton's Bible Dictionary**, **Smith's Bible Dictionary**, **ISBE**
   (International Standard Bible Encyclopedia) — all public domain — for
   historical/cultural background supplementing the text.
+- **Hitchcock's Bible Names Dictionary** (Roswell D. Hitchcock, 1869, public
+  domain) — the primary source for the `name_meaning` field (see the JSON
+  Schema section above).
 - **Wikipedia** — background/context only, never as the source of narrative
   claims the text itself should be supplying.
 - **[BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data)**

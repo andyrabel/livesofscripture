@@ -49,5 +49,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Of his father",
+    "language": "Hebrew"
+  }
 }

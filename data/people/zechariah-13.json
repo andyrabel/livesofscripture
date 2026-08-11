@@ -64,5 +64,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "zechariah-13.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Same as Zachariah",
+    "language": "Hebrew"
+  }
 }

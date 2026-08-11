@@ -52,5 +52,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "habakkuk.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "He that embraces; a wrestler",
+    "language": "Hebrew"
+  }
 }

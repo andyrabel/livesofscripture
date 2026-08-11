@@ -66,5 +66,9 @@
     "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
   },
   "image2": "jonah.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Or Jonas",
+    "language": "Hebrew"
+  }
 }

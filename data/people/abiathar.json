@@ -69,5 +69,9 @@
     "caption": "Generic line-art icon for priests — symbolic, no claim of likeness"
   },
   "image2": "abiathar.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Excellent father; father of the remnant",
+    "language": "Hebrew"
+  }
 }

@@ -85,5 +85,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "elijah.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "God the Lord",
+    "language": "Hebrew"
+  }
 }

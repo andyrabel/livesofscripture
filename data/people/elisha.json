@@ -64,5 +64,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "elisha.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Salvation of God",
+    "language": "Hebrew"
+  }
 }

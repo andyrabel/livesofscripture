@@ -61,5 +61,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "female"
+  "gender": "female",
+  "name_meaning": {
+    "meaning": "God is my oath",
+    "language": "Hebrew"
+  }
 }

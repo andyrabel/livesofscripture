@@ -60,5 +60,9 @@
     "caption": "Generic line-art icon -- symbolic, no claim of likeness"
   },
   "image2": "mephibosheth.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Out of my mouth proceeds reproach",
+    "language": "Hebrew"
+  }
 }

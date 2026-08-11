@@ -99,5 +99,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "jeremiah-6.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Exaltation of the Lord",
+    "language": "Hebrew"
+  }
 }

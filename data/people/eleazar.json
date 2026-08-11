@@ -78,5 +78,9 @@
     "caption": "Generic line-art icon for priests — symbolic, no claim of likeness"
   },
   "image2": "eleazar.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Help of God",
+    "language": "Hebrew"
+  }
 }

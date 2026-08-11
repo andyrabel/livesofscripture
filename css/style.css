@@ -430,6 +430,13 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.person-title .name-meaning {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
 .person-title .tags {
   display: flex;
   gap: 0.4rem;

@@ -85,5 +85,9 @@
     "caption": "Generic line-art icon for kings — symbolic, no claim of likeness"
   },
   "image2": "hezekiah.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Strength of the Lord",
+    "language": "Hebrew"
+  }
 }

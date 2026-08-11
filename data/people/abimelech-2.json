@@ -50,5 +50,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Father of the king",
+    "language": "Hebrew"
+  }
 }

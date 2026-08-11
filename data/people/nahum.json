@@ -50,5 +50,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "nahum.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Comforter; penitent",
+    "language": "Hebrew"
+  }
 }

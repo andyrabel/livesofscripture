@@ -76,5 +76,9 @@
     "caption": "Generic line-art icon for kings — symbolic, no claim of likeness"
   },
   "image2": "ahab.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Uncle",
+    "language": "Hebrew"
+  }
 }

@@ -411,6 +411,16 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     if person.get("alt_names"):
         alt_html = f'<div class="alt-names">Also called: {esc(", ".join(person["alt_names"]))}</div>'
 
+    name_meaning_html = ""
+    name_meaning = person.get("name_meaning")
+    if name_meaning and name_meaning.get("meaning"):
+        language = name_meaning.get("language")
+        language_suffix = f" &mdash; {esc(language)}" if language else ""
+        name_meaning_html = (
+            f'<div class="name-meaning">Name means &ldquo;{esc(name_meaning["meaning"])}&rdquo;'
+            f"{language_suffix}</div>"
+        )
+
     testament_class = "ot" if person.get("testament") == "OT" else "nt"
     era_badge = f'<span class="badge">{esc(person["era"])}</span>' if person.get("era") else ""
 
@@ -421,6 +431,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     <div class="person-title">
       <h2>{esc(person["name"])}{gender_tag(person.get("gender"))}</h2>
       {alt_html}
+      {name_meaning_html}
       {first_ref}
       <div class="tags">
         <span class="badge {testament_class}">{esc(person.get("testament", ""))}</span>

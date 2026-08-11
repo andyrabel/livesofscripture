@@ -75,5 +75,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "One that takes or possesses",
+    "language": "Hebrew"
+  }
 }

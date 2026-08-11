@@ -53,5 +53,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "He that hears the Lord",
+    "language": "Hebrew"
+  }
 }

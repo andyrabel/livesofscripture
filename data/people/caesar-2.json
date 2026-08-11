@@ -53,5 +53,9 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Title of Roman emperors; etymology disputed, traditionally linked to Latin for \\\"hairy\\\" or \\\"cut\\\"",
+    "language": "Latin"
+  }
 }

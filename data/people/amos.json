@@ -54,5 +54,9 @@
     "caption": "Generic line-art icon for prophets — symbolic, no claim of likeness"
   },
   "image2": "amos.png",
-  "gender": "male"
+  "gender": "male",
+  "name_meaning": {
+    "meaning": "Loading; weighty",
+    "language": "Hebrew"
+  }
 }

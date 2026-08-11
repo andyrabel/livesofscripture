@@ -45,5 +45,9 @@
   },
   "gender": "male",
   "spotlight_eligible": false,
-  "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own"
+  "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
+  "name_meaning": {
+    "meaning": "Help",
+    "language": "Hebrew"
+  }
 }
