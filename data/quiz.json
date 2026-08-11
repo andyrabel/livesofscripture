@@ -1292,7 +1292,7 @@
     {
       "question": "How many sons did Jair have, and what did each one ride?",
       "answer": "Thirty sons, each riding his own donkey.",
-      "topic_id": "jair",
+      "topic_id": "jair-2",
       "difficulty": 2,
       "reference": "Judges 10:4"
     },
@@ -1306,7 +1306,7 @@
     {
       "question": "From which tribe did the judge Elon come?",
       "answer": "Zebulun.",
-      "topic_id": "elon",
+      "topic_id": "elon-3",
       "difficulty": 2,
       "reference": "Judges 12:11"
     },
@@ -1439,7 +1439,7 @@
     {
       "question": "How did the city of Abel Beth-maacah avoid destruction from Joab's siege over Sheba's rebellion?",
       "answer": "A wise woman from the city persuaded the people to behead Sheba and throw his head over the wall.",
-      "topic_id": "sheba",
+      "topic_id": "sheba-4",
       "difficulty": 2,
       "reference": "2 Samuel 20:16-22"
     },
@@ -1565,7 +1565,7 @@
     {
       "question": "What did Mordecai discover and report that saved King Ahasuerus's life?",
       "answer": "A plot by two royal officers to assassinate the king.",
-      "topic_id": "mordecai",
+      "topic_id": "mordecai-2",
       "difficulty": 2,
       "reference": "Esther 2:21-23"
     },

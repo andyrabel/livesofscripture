@@ -1834,24 +1834,18 @@
     "person_id": "sheba",
     "name": "Sheba",
     "alt_names": [],
-    "tier": "full",
+    "tier": "stub",
     "testament": "OT",
-    "era": "United Monarchy",
     "genealogy": {
-      "father": "bichri"
+      "father": "raamah"
     },
+    "gender": "male",
+    "disambiguation": "son of Raamah (Gen 10:7)",
+    "first_reference": "Genesis 10:7",
+    "era": "Primeval History",
     "timeline": {
       "precision": "era"
-    },
-    "region": "canaan-israel",
-    "topics": [
-      "rebellion",
-      "tribal division"
-    ],
-    "image": "generic-figure.png",
-    "gender": "male",
-    "disambiguation": "(Gen 10:7)",
-    "first_reference": "Genesis 10:7"
+    }
   },
   {
     "person_id": "dedan",
@@ -4199,17 +4193,8 @@
     "person_id": "elon",
     "name": "Elon",
     "alt_names": [],
-    "tier": "full",
+    "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
-    "region": "canaan-israel",
-    "timeline": {
-      "precision": "era"
-    },
-    "topics": [
-      "quiet faithfulness"
-    ],
-    "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "father of Basemath (Gen 26:34)",
     "first_reference": "Genesis 26:34",
@@ -4218,7 +4203,10 @@
         "basemath"
       ]
     },
-    "spotlight_eligible": false
+    "era": "Patriarchal",
+    "timeline": {
+      "precision": "era"
+    }
   },
   {
     "person_id": "basemath-2",
@@ -10183,7 +10171,7 @@
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Exodus/Wilderness",
     "region": "moab-transjordan",
     "genealogy": {
       "father": "segub-2"
@@ -10192,8 +10180,9 @@
       "precision": "era"
     },
     "topics": [
-      "quiet faithfulness",
-      "prosperity"
+      "conquest of Gilead",
+      "inheritance",
+      "enduring legacy"
     ],
     "image": "generic-figure.png",
     "gender": "male",
@@ -14922,7 +14911,7 @@
     },
     "region": "canaan-israel",
     "gender": "male",
-    "disambiguation": "(2 Sam 20:1-22)",
+    "disambiguation": "son of Bichri (2 Sam 20:1-22)",
     "topics": [
       "rebellion against David",
       "civil strife",
@@ -17270,7 +17259,8 @@
       "children": [
         "baasha"
       ]
-    }
+    },
+    "kingdom": "israel"
   },
   {
     "person_id": "jehu",
@@ -18866,32 +18856,6 @@
     }
   },
   {
-    "person_id": "menachem",
-    "name": "Menachem",
-    "alt_names": [],
-    "tier": "full",
-    "testament": "OT",
-    "era": "Divided Monarchy",
-    "genealogy": {
-      "father": "gadi",
-      "children": [
-        "pekahiah"
-      ]
-    },
-    "timeline": {
-      "precision": "era"
-    },
-    "region": "canaan-israel",
-    "gender": "male",
-    "topics": [
-      "violent usurpation",
-      "idolatry",
-      "foreign tribute"
-    ],
-    "image": "generic-king.png",
-    "first_reference": "2 Kings 15:14-23"
-  },
-  {
     "person_id": "gadi",
     "name": "Gadi",
     "alt_names": [],
@@ -18907,7 +18871,7 @@
     "first_reference": "2 Kings 15:14-17",
     "genealogy": {
       "children": [
-        "menachem"
+        "menahem"
       ]
     }
   },
@@ -20997,7 +20961,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Judges",
+    "era": "Exodus/Wilderness",
     "region": "moab-transjordan",
     "genealogy": {
       "father": "hezron-2"
@@ -38110,28 +38074,15 @@
     "person_id": "mordecai",
     "name": "Mordecai",
     "alt_names": [],
-    "tier": "full",
+    "tier": "stub",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
     },
-    "region": "mesopotamia",
-    "topics": [
-      "providence",
-      "courage",
-      "faithfulness"
-    ],
-    "image": "generic-figure.png",
-    "image2": "mordecai.png",
     "gender": "male",
-    "disambiguation": "father of Esther (Ezra 2:2)",
     "first_reference": "Ezra 2:2",
-    "genealogy": {
-      "children": [
-        "esther"
-      ]
-    }
+    "disambiguation": "(Ezra 2:2)"
   },
   {
     "person_id": "bilshan",

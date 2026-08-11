@@ -2,53 +2,18 @@
   "person_id": "sheba",
   "name": "Sheba",
   "alt_names": [],
-  "tier": "full",
+  "tier": "stub",
   "testament": "OT",
-  "era": "United Monarchy",
-  "region": "canaan-israel",
-  "timeline": {
-    "precision": "era"
-  },
-  "geographic_setting": [
-    "Abel Beth-maacah"
-  ],
   "references": [
     "Genesis 10:7",
     "1 Chronicles 1:9"
   ],
   "first_reference": "Genesis 10:7",
-  "topics": [
-    "rebellion",
-    "tribal division"
-  ],
-  "interpretive_dispute": false,
-  "interpretive_note": "",
-  "source_summary": "A Benjamite who led a short-lived tribal revolt against David's kingship immediately after Absalom's rebellion, ending when the residents of Abel Beth-maacah beheaded him to save their city from Joab's siege.",
-  "family_friendly_summary": "Right after Absalom's rebellion against David finally ended, another man named Sheba stirred up trouble. He convinced many of the northern tribes of Israel to abandon their loyalty to David and follow him instead, taking advantage of tension between the tribes. David sent Joab and his soldiers to track Sheba down. Sheba eventually took refuge inside the walled city of Abel Beth-maacah. Joab's army laid siege to the city, but a wise woman living there spoke with Joab and convinced the city to hand Sheba over instead of being destroyed. The people of the city threw Sheba's head over the wall, ending the rebellion and saving their city.",
-  "adult_story": "Sheba, a Benjamite \"worthless fellow,\" seized on the raw tribal tension left over from Absalom's rebellion -- northern Israel felt David had shown favoritism to Judah in his return -- and blew a trumpet, calling all Israel away from David: \"we have no portion in David... every man to his tents, O Israel!\" (2 Samuel 20:1-2). David, recognizing this new revolt as potentially more dangerous than Absalom's, sent Abishai and Joab in pursuit; Joab, having just murdered Amasa on the road, continued the chase and cornered Sheba inside the fortified city of Abel Beth-maacah, building a siege ramp against its wall (20:6-15). A \"wise woman\" from the city called out to Joab, negotiating on behalf of her people, reminding him that Abel was known as a peaceable, faithful city in Israel and asking why he would \"destroy a city, a mother in Israel\" (20:16-19). Joab clarified he sought only Sheba, not the city's destruction, and the woman went to the people with her wisdom; they cut off Sheba's head and threw it over the wall to Joab, ending the siege immediately and sparing the city (20:20-22). The episode closes David's civil turmoil for a time, and shows how quickly Israel's underlying tribal fractures, only briefly healed after Absalom, could flare again.",
-  "image": {
-    "file": "generic-figure.png",
-    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
-    "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
-  },
   "genealogy": {
-    "father": "bichri",
+    "father": "raamah",
     "mother": null,
     "spouses": [],
     "children": []
   },
-  "review": {
-    "human_reviewed": false,
-    "reviewed_by": "",
-    "reviewed_date": ""
-  },
-  "gender": "male",
-  "devotionals": [
-    "Sheba's rebellion cost him his life so a city could be spared. Jesus, though innocent, died for the guilty -- the opposite trade, and far greater grace."
-  ],
-  "name_meaning": {
-    "meaning": "Captivity; old man; repose; oath",
-    "language": "Hebrew"
-  }
+  "gender": "male"
 }

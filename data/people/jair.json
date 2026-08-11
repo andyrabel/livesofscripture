@@ -4,14 +4,15 @@
   "alt_names": [],
   "tier": "full",
   "testament": "OT",
-  "era": "Judges",
+  "era": "Exodus/Wilderness",
   "region": "moab-transjordan",
   "timeline": {
     "precision": "era"
   },
   "geographic_setting": [
     "Gilead",
-    "the Havvoth-jair"
+    "the Havvoth-jair",
+    "Argob"
   ],
   "references": [
     "Numbers 32:41",
@@ -21,17 +22,18 @@
   ],
   "first_reference": "Numbers 32:41",
   "topics": [
-    "quiet faithfulness",
-    "prosperity"
+    "conquest of Gilead",
+    "inheritance",
+    "enduring legacy"
   ],
-  "interpretive_dispute": false,
-  "interpretive_note": "",
-  "source_summary": "A Gileadite judge who led Israel for twenty-two years; his thirty sons rode thirty donkeys and governed thirty towns known as the Havvoth-jair.",
-  "family_friendly_summary": "Jair judged Israel for twenty-two years from the region of Gilead. The Bible tells us one memorable detail about his family: he had thirty sons, and each one rode his own donkey and was in charge of one of thirty towns, which came to be called the Havvoth-jair, meaning \"the towns of Jair.\" This detail shows that Jair's family was large, respected, and prosperous, and that Israel had a period of stability and peace during his leadership. Like several of the other judges, no dramatic battle is recorded for Jair -- just years of steady, well-ordered leadership.",
-  "adult_story": "Jair the Gileadite judged Israel for twenty-two years after Tola (Judges 10:3). Scripture records one distinguishing detail: he had thirty sons who rode thirty donkeys and possessed thirty towns in the land of Gilead, which were called Havvoth-jair, \"the towns of Jair,\" down to the time of the book's writing (10:4). Owning a donkey to ride, rather than walking, marked a family of some standing in this period, and thirty sons each governing his own town suggests a judge whose household had grown into a small ruling network across the region -- a picture of order, stability, and prosperity rather than crisis. No war or deliverance is attached to his name; like Tola before him, Jair represents one of the quieter interludes of Judges, a reminder that the book's repeated cycle of \"apostasy, oppression, deliverance\" was not ceaseless chaos, but included real stretches of peace under judges who simply governed well.",
+  "interpretive_dispute": true,
+  "interpretive_note": "Whether this conquest-era Jair is the same individual as the similarly-named judge \"Jair the Gileadite,\" who ruled the same region generations later and is likewise credited with towns called Havvoth-jair (Judges 10:3-5), is not stated by the text and is debated among commentators -- some read the judge as this Jair's own descendant reclaiming an inherited name, others as a later, unrelated figure who inherited or echoed an already-established place name.",
+  "source_summary": "A descendant of Manasseh through his mother's line who, during Israel's conquest of the Transjordan, captured towns in Gilead and the region of Argob and renamed them after himself; his territory was still known by his name centuries later, in Solomon's administrative district system.",
+  "family_friendly_summary": "Jair was a leader from the tribe of Manasseh who helped conquer land called Gilead, east of the Jordan River, before Israel crossed into the promised land under Joshua. He captured towns there and named them Havvoth-jair, meaning \"the towns of Jair.\" Jair's family history was a little unusual -- his father's side of the family actually came from the tribe of Judah, but he was counted as part of Manasseh because of his mother's side, showing how much the land itself mattered to how people were identified back then. Jair's towns were still called by his name hundreds of years later, in the time of King Solomon.",
+  "adult_story": "Jair, son of Segub, was descended from Hezron of Judah through his great-grandmother, a daughter of Machir, Manasseh's own son and the recognized \"father of Gilead\" (1 Chronicles 2:21-22). During Israel's conquest of the Transjordan territory, Jair captured a cluster of towns in Gilead and renamed them Havvoth-jair, \"the tent-villages of Jair\" (Numbers 32:41). Deuteronomy 3:14 credits him with a wider conquest still, taking the whole region of Argob as far as the border of the Geshurites and Maacathites and naming that territory after himself as well. Scripture calls him \"the son of Manasseh\" (Numbers 32:41) not by direct patrilineal descent -- his father's line traced to Judah -- but seemingly by maternal inheritance and territorial reckoning through Machir (1 Chronicles 2:21-23). His name endured remarkably: centuries later, one of Solomon's twelve administrative districts, centered on Ramoth-gilead, was still described as \"the towns of Jair the son of Manasseh\" (1 Kings 4:13). A judge who ruled the same region generations afterward also bore the name \"Jair the Gileadite\" and is likewise credited with Havvoth-jair (Judges 10:3-5) -- whether he was this Jair's own descendant reclaiming an ancestral name, or an unrelated man who inherited an already-old place-name, Scripture does not say.",
   "devotionals": [
-    "Jair’s story teaches us about quiet faithfulness; may we look to Jesus, whose grace and truth never fail.",
-    "Through Jair’s experience of prosperity, God teaches us to trust His wisdom and follow Jesus faithfully."
+    "Jair's conquered towns still carried his name centuries later, in Solomon's own records. Jesus's finished work endures forever, never fading with time.",
+    "Jair was counted among Manasseh through his mother's line, not his father's -- inheritance by grace, not bloodline alone. Jesus grafts us into God's family the same way."
   ],
   "image": {
     "file": "generic-figure.png",

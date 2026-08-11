@@ -433,7 +433,7 @@
   <url>
     <loc>https://livesofscripture.org/people/sheba.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/dedan.html</loc>
@@ -1063,7 +1063,7 @@
   <url>
     <loc>https://livesofscripture.org/people/elon.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/basemath-2.html</loc>
@@ -4514,11 +4514,6 @@
     <loc>https://livesofscripture.org/people/jabesh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://livesofscripture.org/people/menachem.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gadi.html</loc>
@@ -9903,7 +9898,7 @@
   <url>
     <loc>https://livesofscripture.org/people/mordecai.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bilshan.html</loc>

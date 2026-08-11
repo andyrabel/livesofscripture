@@ -412,11 +412,17 @@ def disambiguation_section(person_name, same_name, base):
             img_html = f'<img src="{base}images/{e["portrait_dir"]}/{esc(e["portrait_file"])}" alt="{esc(e["name"])}">'
         else:
             img_html = '<div class="image-placeholder image-placeholder--thumb">Illustration pending</div>'
-        blurb = truncate(e.get("source_summary", ""), 90)
+        if e["tier"] == "stub":
+            name_badge = ' <span class="badge stub">name only</span>'
+            blurb = f'Named in Scripture ({e["first_reference"]}) -- no narrative of their own' if e.get("first_reference") else "Named in Scripture -- no narrative of their own"
+        else:
+            name_badge = ""
+            blurb = e.get("source_summary", "")
+        blurb = truncate(blurb, 90)
         cards.append(f"""<a class="disambiguation-card" href="{base}people/{esc(e['person_id'])}.html">
       {img_html}
       <div class="disambiguation-card__text">
-        <div class="disambiguation-card__name">{esc(e['name'])}</div>
+        <div class="disambiguation-card__name">{esc(e['name'])}{name_badge}</div>
         <div class="disambiguation-card__blurb">{esc(blurb)}</div>
       </div>
     </a>""")
@@ -429,7 +435,7 @@ def disambiguation_section(person_name, same_name, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name=None, church_membership_by_person=None):
+def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name=None, church_membership_by_person=None):
     parts = []
 
     first_ref = first_reference_line(person)
@@ -498,10 +504,10 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     if person.get("timeline"):
         parts.append(timeline_link(person["person_id"], base))
 
-    if full_people_by_name:
+    if people_by_name:
         same_name = [
             e
-            for e in full_people_by_name.get(person["name"].strip().lower(), [])
+            for e in people_by_name.get(person["name"].strip().lower(), [])
             if e["person_id"] != person["person_id"]
         ]
         disamb = disambiguation_section(person["name"], same_name, base)
@@ -511,7 +517,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     return "\n  ".join(parts)
 
 
-def render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists=False, church_membership_by_person=None):
+def render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists=False, church_membership_by_person=None, people_by_name=None):
     heading = f"<h2>{esc(person['name'])}{gender_tag(person.get('gender'))}</h2>"
     if portrait_exists:
         parts = [f"""<div class="person-header">
@@ -551,6 +557,16 @@ def render_stub_person_body(person, index_by_id, gender_by_id, connections, base
         parts.append(church_section)
 
     parts.append(connections_graph_link(person["person_id"], base))
+
+    if people_by_name:
+        same_name = [
+            e
+            for e in people_by_name.get(person["name"].strip().lower(), [])
+            if e["person_id"] != person["person_id"]
+        ]
+        disamb = disambiguation_section(person["name"], same_name, base)
+        if disamb:
+            parts.append(disamb)
 
     return "\n  ".join(parts)
 
@@ -597,7 +613,7 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name=None, church_membership_by_person=None):
+def build_person_page(person, index_by_id, gender_by_id, connections, people_by_name=None, church_membership_by_person=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
@@ -611,9 +627,9 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, full_people_by_name, church_membership_by_person)
+        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name, church_membership_by_person)
     else:
-        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person)
+        body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person, people_by_name)
 
     json_ld = person_json_ld(person, index_by_id, SITE_URL, canonical, og_image, portrait_exists)
 
@@ -1815,16 +1831,17 @@ def build_sitemap(index, churches):
 # ---------------------------------------------------------------------
 
 
-def build_full_people_by_name(index):
-    """Full-tier people ("major people... with a description") grouped by
-    exact name match, so a person's page can point to other full entries
-    sharing their name (e.g. the several Jehoshaphats, Jehus, and Zechariahs
-    in the underlying genealogy dataset) instead of leaving the reader to
-    guess which one is meant."""
+def build_people_by_name(index):
+    """Every person (full or stub) grouped by exact name match, so a
+    person's page can point to other entries sharing their name (e.g. the
+    several Jehoshaphats, Jehus, and Zechariahs in the underlying genealogy
+    dataset -- or a full/stub pair like Mordecai/Mordecai the Ezra 2:2
+    returnee) instead of leaving the reader to guess which one is meant.
+    Stub entries carry no source_summary/portrait, so their card falls back
+    to a reference-based blurb and a "name only" badge (see
+    disambiguation_section)."""
     by_name = {}
     for entry in index:
-        if entry["tier"] != "full":
-            continue
         pid = entry["person_id"]
         person_path = ROOT / "data" / "people" / f"{pid}.json"
         if not person_path.exists():
@@ -1834,7 +1851,9 @@ def build_full_people_by_name(index):
         by_name.setdefault(fp["name"].strip().lower(), []).append({
             "person_id": pid,
             "name": fp["name"],
+            "tier": entry["tier"],
             "source_summary": fp.get("source_summary", ""),
+            "first_reference": fp.get("first_reference", ""),
             "portrait_dir": portrait_dir,
             "portrait_file": portrait_file,
             "portrait_exists": bool(portrait_file),
@@ -1849,7 +1868,7 @@ def main():
     index_by_id = {e["person_id"]: e["name"] for e in index}
     ref_by_id = {e["person_id"]: e.get("first_reference", "") for e in index}
     gender_by_id = {e["person_id"]: e.get("gender") for e in index}
-    full_people_by_name = build_full_people_by_name(index)
+    people_by_name = build_people_by_name(index)
     church_membership_by_person = build_church_membership_index(churches, index_by_id)
 
     people_dir = ROOT / "people"
@@ -1863,7 +1882,7 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, gender_by_id, connections, full_people_by_name, church_membership_by_person)
+        page = build_person_page(person, index_by_id, gender_by_id, connections, people_by_name, church_membership_by_person)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 

@@ -4621,13 +4621,13 @@
   },
   {
     "from": "gadi",
-    "to": "menachem",
+    "to": "menahem",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
   },
   {
-    "from": "menachem",
+    "from": "menahem",
     "to": "pekahiah",
     "label": "begot",
     "type": "parent-child",

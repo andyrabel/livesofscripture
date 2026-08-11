@@ -654,12 +654,17 @@ settings transfer directly.
 ## Name Disambiguation (decided 2026-08-03)
 
 Distinct from the "Other people named X" grid already implemented at the
-bottom of full-tier Person Detail pages (`disambiguation_section()` in
-`_build/generate_static_site.py`, full-tier-to-full-tier only, icon + blurb
-+ link). This section covers a second, separate mechanism: a short inline
-qualifier shown next to a person's *name* wherever it appears, for **any**
-person (full or stub) who shares their `name` with another entry in the
-dataset — not just full-tier collisions.
+bottom of every Person Detail page, full or stub (`disambiguation_section()`
+in `_build/generate_static_site.py`, icon + blurb + link — **extended
+2026-08-11 to cover any tier pairing** (full-full, full-stub, stub-stub),
+not just full-tier-to-full-tier as originally built; a stub's card has no
+portrait/`source_summary` to draw on, so it shows a "name only" badge and a
+reference-based blurb instead, built by `build_people_by_name()` reading
+every person's own file rather than only full-tier ones). This section
+covers a second, separate mechanism: a short inline qualifier shown next to
+a person's *name* wherever it appears, for **any** person (full or stub)
+who shares their `name` with another entry in the dataset — not just
+full-tier collisions.
 
 **Rules**, applied to whichever have data (never fabricated — see Factual
 Accuracy above):
