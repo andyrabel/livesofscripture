@@ -1012,11 +1012,49 @@ def kp_format_year(year):
     return f"{-year} BC" if year < 0 else f"AD {year}"
 
 
+def kp_text_width(text, font_size):
+    # Rough average glyph width for the site's sans body font -- good enough
+    # to lay text out at generation time, not real text measurement (there's
+    # no layout engine available then).
+    return len(text) * font_size * 0.56
+
+
 def kp_bar_label_fits(text, width_px, font_size=10.5):
-    # Rough average glyph width for the site's sans body font at this size --
-    # good enough to decide inside-bar vs. tooltip-only, not real text
-    # measurement (there's no layout engine at generation time).
-    return len(text) * font_size * 0.56 + 8 <= width_px
+    return kp_text_width(text, font_size) + 8 <= width_px
+
+
+def kp_place_callouts(entries_with_lane, get_bar_x, min_x, max_x):
+    """Greedy left-to-right label layout for bars too narrow to hold their
+    own name (see kp_bar_label_fits): each callout label wants to sit
+    centered above its bar, but slides right just far enough to clear the
+    previous label when two bars are close together in time, the same
+    technique used for beeswarm/dense scatter labels. A cluster of several
+    narrow bars near either edge of the chart (e.g. the last five kings of
+    Judah) can cascade past that edge -- a second pass shifts the whole run
+    back inside [min_x, max_x] rather than letting labels run off the
+    chart. Returns a list of (lane_idx, entry, label_center_x) in the same
+    order as the input."""
+    font_size = 9.5
+    gap = 4
+    placed = []
+    cursor = float("-inf")
+    for lane_idx, entry in sorted(entries_with_lane, key=lambda le: get_bar_x(le[1])):
+        bar_center = get_bar_x(entry)
+        lw = kp_text_width(entry["name"], font_size)
+        ideal_left = bar_center - lw / 2
+        left = max(ideal_left, cursor + gap)
+        cursor = left + lw
+        placed.append([lane_idx, entry, left, lw])
+
+    if placed:
+        overflow_right = max(0.0, placed[-1][2] + placed[-1][3] - max_x)
+        overflow_left = max(0.0, min_x - placed[0][2])
+        shift = overflow_left - overflow_right
+        if shift:
+            for p in placed:
+                p[2] += shift
+
+    return [(lane_idx, entry, left + lw / 2) for lane_idx, entry, left, lw in placed]
 
 
 def render_kings_and_prophets_svg(rows):
@@ -1026,6 +1064,7 @@ def render_kings_and_prophets_svg(rows):
     bar_h = 20
     lane_gap = 4
     row_label_h = 22
+    callout_h = 20
     row_gap = 18
     tick_step = 50
 
@@ -1034,8 +1073,37 @@ def render_kings_and_prophets_svg(rows):
         return margin_left + (year - min_year) / (max_year - min_year) * plot_width
 
     packed_rows = {key: kp_pack_lanes(rows[key]) for key in KP_ROW_ORDER}
+
+    # Bars too narrow for their own name (see kp_bar_label_fits) get a
+    # callout label in a reserved strip above the row instead, connected to
+    # their bar by a thin leader line -- otherwise a short reign like
+    # Zimri's seven days would be name-less unless a reader hovers it.
+    row_callouts = {}
+    for key in KP_ROW_ORDER:
+        needs_callout = []
+        for lane_idx, lane in enumerate(packed_rows[key]):
+            for entry in lane:
+                bw = x_of(entry["end"]) - x_of(entry["start"])
+                if not kp_bar_label_fits(entry["name"], bw):
+                    needs_callout.append((lane_idx, entry))
+        row_callouts[key] = (
+            kp_place_callouts(
+                needs_callout,
+                lambda e: x_of(e["start"]) + (x_of(e["end"]) - x_of(e["start"])) / 2,
+                margin_left,
+                margin_left + plot_width,
+            )
+            if needs_callout
+            else []
+        )
+
     row_heights = {
-        key: max(1, len(lanes)) * bar_h + max(0, len(lanes) - 1) * lane_gap + row_label_h
+        key: (
+            row_label_h
+            + (callout_h if row_callouts[key] else 0)
+            + max(1, len(lanes)) * bar_h
+            + max(0, len(lanes) - 1) * lane_gap
+        )
         for key, lanes in packed_rows.items()
     }
 
@@ -1068,14 +1136,26 @@ def render_kings_and_prophets_svg(rows):
     y = axis_h
     for key in KP_ROW_ORDER:
         lanes = packed_rows[key]
+        callouts = row_callouts[key]
         parts.append(
             f'<text x="{margin_left}" y="{y + 14}" class="kp-row-label">{esc(KP_ROW_LABELS[key])}</text>'
         )
-        lane_y = y + row_label_h
-        for lane in lanes:
+        lanes_top = y + row_label_h + (callout_h if callouts else 0)
+
+        # Compute each bar's geometry up front so the callout leader lines
+        # (drawn next, reaching down into the lanes) know where to land.
+        bar_geometry = {}
+        lane_y = lanes_top
+        for lane_idx, lane in enumerate(lanes):
             for entry in lane:
                 bx = x_of(entry["start"])
                 bw = max(2.0, x_of(entry["end"]) - bx)
+                bar_geometry[entry["person_id"]] = (bx, bw, lane_y)
+            lane_y += bar_h + lane_gap
+
+        for lane in lanes:
+            for entry in lane:
+                bx, bw, ly = bar_geometry[entry["person_id"]]
                 color = KP_COLOR_VAR[entry["nation"]]
                 title = (
                     f'{entry["name"]} — {KP_NATION_LABELS.get(entry["nation"], entry["nation"])}, '
@@ -1084,7 +1164,7 @@ def render_kings_and_prophets_svg(rows):
                 href = f'people/{entry["person_id"]}.html'
                 parts.append(f'<a href="{href}">')
                 parts.append(
-                    f'<rect x="{bx:.1f}" y="{lane_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
+                    f'<rect x="{bx:.1f}" y="{ly:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
                     f'fill="{color}" class="kp-bar" tabindex="0" '
                     f'data-name="{esc(entry["name"])}" data-nation="{esc(KP_NATION_LABELS.get(entry["nation"], entry["nation"]))}" '
                     f'data-span="c. {esc(kp_format_year(entry["start"]))}–{esc(kp_format_year(entry["end"]))}" '
@@ -1093,11 +1173,22 @@ def render_kings_and_prophets_svg(rows):
                 )
                 if kp_bar_label_fits(entry["name"], bw):
                     parts.append(
-                        f'<text x="{bx + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 3.5:.1f}" '
+                        f'<text x="{bx + bw / 2:.1f}" y="{ly + bar_h / 2 + 3.5:.1f}" '
                         f'class="kp-bar-label" text-anchor="middle">{esc(entry["name"])}</text>'
                     )
                 parts.append("</a>")
-            lane_y += bar_h + lane_gap
+
+        # Callout labels + leader lines, drawn after the bars so they sit on
+        # top and are never hidden behind an adjacent bar.
+        label_y = y + row_label_h + callout_h - 7
+        for lane_idx, entry, label_cx in callouts:
+            bx, bw, ly = bar_geometry[entry["person_id"]]
+            bar_cx = bx + bw / 2
+            parts.append(f'<line x1="{label_cx:.1f}" y1="{label_y + 3:.1f}" x2="{bar_cx:.1f}" y2="{ly:.1f}" class="kp-leader-line" />')
+            parts.append(
+                f'<text x="{label_cx:.1f}" y="{label_y:.1f}" class="kp-callout-label" text-anchor="middle">{esc(entry["name"])}</text>'
+            )
+
         y += row_heights[key] + row_gap
 
     parts.append("</svg>")
