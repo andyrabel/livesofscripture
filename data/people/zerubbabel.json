@@ -42,6 +42,12 @@
     "Both Matthew and Luke trace Jesus's family line through Zerubbabel, the temple-builder. God kept his promise alive through exile and disruption, all the way to Christ.",
     "God told Zerubbabel the temple would rise 'not by might nor by power, but by My Spirit.' May God build in us the same way."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:12-13"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

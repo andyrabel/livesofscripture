@@ -48,6 +48,12 @@
     "Jonah’s story teaches us about obedience; may we look to Jesus, whose grace and truth never fail.",
     "Through Jonah’s experience of mercy, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "type",
+      "reference": "Matthew 12:39-40"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

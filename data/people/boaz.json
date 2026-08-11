@@ -54,5 +54,11 @@
     "Boaz paid the price to bring Ruth, an outsider with nothing, into his family. That's exactly what Jesus did for us, redeeming us with nothing to offer.",
     "Boaz noticed Ruth gleaning before she asked for help, and made sure she had enough. May we notice needs the way Jesus does, before we're asked.",
     "Matthew places Boaz's name in Jesus's family tree — an ordinary act of kindness in a Bethlehem field became part of the story that leads to Christ."
+  ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:5"
+    }
   ]
 }

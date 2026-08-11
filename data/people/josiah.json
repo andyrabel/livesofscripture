@@ -69,6 +69,12 @@
     "Josiah’s story teaches us about kingship; may we look to Jesus, whose grace and truth never fail.",
     "Through Josiah’s experience of reform, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:10-11"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

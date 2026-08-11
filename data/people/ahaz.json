@@ -57,6 +57,12 @@
     "Ahaz’s story warns us about idolatry; may we look to Jesus, whose grace and truth never fail.",
     "Through Ahaz’s experience of unbelief, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:9"
+    }
+  ],
   "image": {
     "file": "generic-king.png",
     "prompt_used": "Generic role icon, not person-specific: robed silhouette figure wearing a crown and holding a royal staff.",

@@ -41,6 +41,12 @@
     "Aaron’s story teaches us about priesthood; may we look to Jesus, whose grace and truth never fail.",
     "Through Aaron’s experience of mediation, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "type",
+      "reference": "Hebrews 5:4-5"
+    }
+  ],
   "image": {
     "file": "aaron.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, wearing a priestly turban and breastplate, holding the budded almond rod of Numbers 17.",

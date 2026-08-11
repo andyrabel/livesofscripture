@@ -47,6 +47,12 @@
     "God judged the world but saved Noah's family through the ark. Jesus is our ark, the one safe place from judgment.",
     "Even Noah, saved from the flood, still stumbled into sin afterward. We don't need to be saved again — we simply need God's grace again, every day."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Luke 3:36"
+    }
+  ],
   "image": {
     "file": "noah.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a small ark with a rainbow arcing overhead.",

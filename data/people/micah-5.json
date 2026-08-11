@@ -41,6 +41,12 @@
     "Micah’s story teaches us about social justice; may we look to Jesus, whose grace and truth never fail.",
     "Through Micah’s experience of prophecy, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "prophecy",
+      "reference": "Matthew 2:5-6"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

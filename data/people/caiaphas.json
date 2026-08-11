@@ -34,6 +34,12 @@
     "Caiaphas’s story teaches us about Jesus's trial; may we look to Jesus, whose grace and truth never fail.",
     "Through Caiaphas’s experience of the high priesthood, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "prophecy",
+      "reference": "John 11:49-52"
+    }
+  ],
   "image": {
     "file": "generic-priest.png",
     "prompt_used": "Generic role icon, not person-specific: figure wearing a turban and the breastplate of judgment.",

@@ -40,6 +40,16 @@
     "David’s story teaches us about kingship; may we look to Jesus, whose grace and truth never fail.",
     "Through David’s experience of repentance, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:6"
+    },
+    {
+      "type": "prophecy",
+      "reference": "Acts 2:29-31"
+    }
+  ],
   "image": {
     "file": "david.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, wearing a simple crown and holding a shepherd's sling — the boy who became king.",

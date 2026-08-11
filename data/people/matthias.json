@@ -47,5 +47,11 @@
   "gender": "male",
   "devotionals": [
     "Matthias had followed Jesus faithfully from the start, though unnamed in the Gospels, before being chosen to complete the twelve. Jesus notices faithful service the world never sees."
+  ],
+  "christ_connections": [
+    {
+      "type": "apostle",
+      "reference": "Acts 1:26"
+    }
   ]
 }

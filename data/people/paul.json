@@ -46,6 +46,16 @@
     "Paul’s story teaches us about justification by faith; may we look to Jesus, whose grace and truth never fail.",
     "Through Paul’s experience of grace, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "apostle",
+      "reference": "Acts 14:14"
+    },
+    {
+      "type": "witness",
+      "reference": "Acts 9:3-6"
+    }
+  ],
   "image": {
     "file": "paul.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a scroll of his letters with a radiating light beside him, evoking the Damascus road.",

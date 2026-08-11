@@ -37,6 +37,16 @@
     "James doubted his own brother Jesus during his earthly ministry. Jesus patiently turned him into a faithful servant — may he turn us too.",
     "James wrote that faith without works is dead. May our trust in Jesus show up in what we actually do."
   ],
+  "christ_connections": [
+    {
+      "type": "family",
+      "reference": "Matthew 13:55"
+    },
+    {
+      "type": "witness",
+      "reference": "1 Corinthians 15:7"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

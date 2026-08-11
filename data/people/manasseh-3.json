@@ -53,6 +53,12 @@
     "Manasseh’s story warns us about idolatry; may we look to Jesus, whose grace and truth never fail.",
     "Through Manasseh’s experience of innocent blood, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:10"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

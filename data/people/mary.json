@@ -45,6 +45,12 @@
     "At Cana, Mary told the servants, 'whatever he says to you, do it.' That's still the best advice anyone could give us about following Jesus.",
     "Mary stood at the cross and watched Jesus die. His love held nothing back for us, even to that moment."
   ],
+  "christ_connections": [
+    {
+      "type": "family",
+      "reference": "Luke 1:30-31"
+    }
+  ],
   "image": {
     "file": "generic-woman.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, no additional prop.",

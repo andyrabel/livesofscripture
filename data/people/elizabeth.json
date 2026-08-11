@@ -43,6 +43,12 @@
     "Elizabeth’s story teaches us about barrenness and reproach removed; may we look to Jesus, whose grace and truth never fail.",
     "Through Elizabeth’s experience of recognizing the Messiah before birth, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "witness",
+      "reference": "Luke 1:41-45"
+    }
+  ],
   "image": {
     "file": "generic-woman.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",

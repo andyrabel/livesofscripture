@@ -40,6 +40,16 @@
     "Abraham believed God's promise before he ever saw it come true. May we trust like that too — believing what God has said even before we can see it happen.",
     "God promised that through Abraham's family, every nation on earth would be blessed. That promise came true in Jesus — may we hold onto God's promises the same way."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:1-2"
+    },
+    {
+      "type": "prophecy",
+      "reference": "Galatians 3:16"
+    }
+  ],
   "image": {
     "file": "abraham.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, gesturing toward stars — evoking Genesis 15:5, God's promise to number Abraham's offspring like the stars.",

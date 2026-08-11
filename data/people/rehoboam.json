@@ -63,6 +63,12 @@
     "Rehoboam's pride split a kingdom, but God's promise to David held anyway. Our mistakes can't break God's plans.",
     "When Rehoboam humbled himself, God showed mercy instead of judgment. May God meet us with that same mercy whenever we humble ourselves too."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:7"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

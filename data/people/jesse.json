@@ -33,6 +33,12 @@
     "Jesse’s story teaches us about ordinary faithfulness; may we look to Jesus, whose grace and truth never fail.",
     "Through Jesse’s experience of God's choice, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:5-6"
+    }
+  ],
   "image": {
     "file": "jesse.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a small sprouting branch low at his side — evoking Isaiah 11:1, 'a shoot will spring from the stem of Jesse.'",

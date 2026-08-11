@@ -34,6 +34,12 @@
     "Joseph of Arimathea gave up his own tomb for Jesus. May we hold nothing back when following Jesus costs us something.",
     "Joseph moved from secret faith to open courage. May God give us that same courage to stand with Jesus openly."
   ],
+  "christ_connections": [
+    {
+      "type": "disciple",
+      "reference": "John 19:38"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

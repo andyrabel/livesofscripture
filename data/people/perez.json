@@ -60,5 +60,11 @@
   "devotionals": [
     "Perez was born into family failure and shame, yet his line led straight to David, and to Jesus. God's grace can trace Christ's line through our worst chapters.",
     "Named 'breakthrough' at birth, Perez became an ancestor of the ultimate breakthrough: Jesus, who breaks every barrier sin puts between us and God."
+  ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:3"
+    }
   ]
 }

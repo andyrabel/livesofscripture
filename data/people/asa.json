@@ -42,6 +42,12 @@
     "Asa’s story teaches us about religious reform; may we look to Jesus, whose grace and truth never fail.",
     "Through Asa’s experience of misplaced trust, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:7-8"
+    }
+  ],
   "image": {
     "file": "generic-king.png",
     "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",

@@ -46,6 +46,12 @@
     "Uzziah’s story teaches us about early faithfulness; may we look to Jesus, whose grace and truth never fail.",
     "Through Uzziah’s experience of pride after success, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:8-9"
+    }
+  ],
   "image": {
     "file": "generic-king.png",
     "prompt_used": "Generic role icon, not person-specific: a figure wearing a crown and holding a royal staff.",

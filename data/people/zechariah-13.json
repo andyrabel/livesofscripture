@@ -46,6 +46,12 @@
     "Zechariah’s story teaches us about prophecy; may we look to Jesus, whose grace and truth never fail.",
     "Through Zechariah’s experience of temple rebuilding, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "prophecy",
+      "reference": "Matthew 21:4-5"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

@@ -43,6 +43,12 @@
     "Barnabas’s story teaches us about encouragement; may we look to Jesus, whose grace and truth never fail.",
     "Through Barnabas’s experience of generosity, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "apostle",
+      "reference": "Acts 14:14"
+    }
+  ],
   "image2": "barnabas.png",
   "image": {
     "file": "generic-figure.png",

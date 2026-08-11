@@ -60,6 +60,12 @@
     "God renamed Jacob 'Israel' after he limped away from that fight. Jesus still takes broken, grasping people and gives them a new name.",
     "Jacob deceived his own father, yet God still carried his promise through him. That's how patient God's grace is, even with us."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:2"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

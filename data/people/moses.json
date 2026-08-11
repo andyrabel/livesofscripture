@@ -38,6 +38,20 @@
     "God promised a prophet greater than Moses would come one day, and that's Jesus. May we listen to Him most of all.",
     "Moses could not bring God's people all the way into the promised land. Jesus can bring us all the way home to God."
   ],
+  "christ_connections": [
+    {
+      "type": "type",
+      "reference": "John 3:14"
+    },
+    {
+      "type": "prophecy",
+      "reference": "John 5:46"
+    },
+    {
+      "type": "witness",
+      "reference": "Luke 9:30-31"
+    }
+  ],
   "image": {
     "file": "moses.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a shepherd's staff and the two stone tablets of the Ten Commandments.",

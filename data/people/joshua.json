@@ -81,6 +81,12 @@
     "Joshua watched Jericho's walls fall after simple obedience. May we trust God even when his plan makes no sense to us.",
     "Joshua said, 'as for me and my house, we will serve the LORD.' May we choose to serve God that way too, today and every day."
   ],
+  "christ_connections": [
+    {
+      "type": "type",
+      "reference": "Hebrews 4:8"
+    }
+  ],
   "image": {
     "file": "generic-warrior.png",
     "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",

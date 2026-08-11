@@ -47,5 +47,11 @@
   "gender": "male",
   "devotionals": [
     "Joseph faithfully followed Jesus from the start, yet the lot fell to Matthias instead of him. May we serve Jesus faithfully even when someone else gets the recognition."
+  ],
+  "christ_connections": [
+    {
+      "type": "disciple",
+      "reference": "Acts 1:21-23"
+    }
   ]
 }

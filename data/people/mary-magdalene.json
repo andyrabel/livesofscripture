@@ -40,6 +40,12 @@
     "Mary Magdalene’s story teaches us about deliverance; may we look to Jesus, whose grace and truth never fail.",
     "Through Mary Magdalene’s experience of faithful presence at the cross, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "disciple",
+      "reference": "Luke 8:2-3"
+    }
+  ],
   "image": {
     "file": "generic-woman.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",

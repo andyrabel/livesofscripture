@@ -40,6 +40,16 @@
     "Isaac’s story teaches us about sacrifice; may we look to Jesus, whose grace and truth never fail.",
     "Through Isaac’s experience of promise, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:2"
+    },
+    {
+      "type": "type",
+      "reference": "Hebrews 11:17-19"
+    }
+  ],
   "image": {
     "file": "isaac.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, carrying a bundle of wood on one shoulder — evoking Genesis 22:6.",

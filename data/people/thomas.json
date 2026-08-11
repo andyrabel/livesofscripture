@@ -40,6 +40,12 @@
     "Thomas needed to see and touch Jesus's wounds before he could believe, and Jesus let him. He's patient with our doubts too.",
     "Thomas called Jesus 'my Lord and my God' the moment he saw him risen. That's exactly who Jesus is for us too."
   ],
+  "christ_connections": [
+    {
+      "type": "apostle",
+      "reference": "Matthew 10:2-4"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

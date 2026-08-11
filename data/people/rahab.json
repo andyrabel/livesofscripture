@@ -34,6 +34,12 @@
     "Rahab’s story teaches us about faith; may we look to Jesus, whose grace and truth never fail.",
     "Through Rahab’s experience of grace for outsiders, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:5"
+    }
+  ],
   "image": {
     "file": "generic-woman.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",

@@ -63,5 +63,11 @@
   "gender": "male",
   "devotionals": [
     "Jehoram secured his throne by murdering his own brothers, and died in agony, unmourned. Jesus secured his throne instead by dying for his enemies."
+  ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:8"
+    }
   ]
 }

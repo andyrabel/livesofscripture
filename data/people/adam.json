@@ -54,6 +54,16 @@
     "Adam’s story teaches us about creation; may we look to Jesus, whose grace and truth never fail.",
     "Through Adam’s experience of the Fall, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Luke 3:38"
+    },
+    {
+      "type": "type",
+      "reference": "Romans 5:14"
+    }
+  ],
   "image": {
     "file": "adam.png",
     "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding an apple.",

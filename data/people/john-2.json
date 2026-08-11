@@ -58,6 +58,12 @@
     "People noticed that John and Peter 'had been with Jesus.' May time spent with Jesus be just as obvious in us.",
     "Exiled on Patmos, John still received God's word and wrote it down. Even in our hardest, loneliest places, Jesus can still meet us."
   ],
+  "christ_connections": [
+    {
+      "type": "apostle",
+      "reference": "Matthew 10:2-4"
+    }
+  ],
   "image": {
     "file": "generic-figure.png",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",

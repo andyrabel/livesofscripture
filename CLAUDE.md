@@ -190,6 +190,41 @@ covering this role going forward. May be reintroduced later for a
 *different* purpose — if so, treat that as a new field, not a revival of
 this one's old voice/rules.
 
+**`christ_connections` reintroduced 2026-08-10, as a genuinely new field
+that happens to reuse the old name — not a revival of the retired
+first-person-prayer field above.** New shape: an array of
+`{"type": ..., "reference": ...}` objects, e.g.
+`{"type": "ancestor", "reference": "Matthew 1:6"}`. Unlike `devotionals`
+(a homiletical reflection, freely composed), this field is a factual
+index: it records only connections the biblical text **itself** explicitly
+states, each anchored to the specific reference that states it — never a
+connection later Christian tradition draws (e.g. common devotional
+typology for Joseph son of Jacob is deliberately excluded — no NT text
+explicitly calls him a type of Christ, unlike Adam in Romans 5:14 or
+Melchizedek in Hebrews 7). Categories in use so far: `ancestor` (named in
+Jesus' genealogy, Matthew 1 or Luke 3), `family` (Jesus' actual mother,
+legal father, or named siblings), `apostle`/`disciple` (explicitly called
+one of the Twelve, or explicitly described as a follower of Jesus),
+`forerunner` (John the Baptist), `type` (an NT text explicitly draws a
+figurative/typological comparison to Christ), `prophecy` (an OT prophecy
+the NT explicitly quotes or applies to Jesus), and `witness` (someone the
+text shows explicitly recognizing or testifying about Christ, e.g. Simeon,
+Anna, or a resurrection appearance). A person can have zero, one, or
+several entries; most full-tier people will have **none**, and that's
+expected, not a gap — this field intentionally does not attempt one
+connection per person the way `devotionals` eventually did. The
+2026-08-10 pass populated 72 of 699 full-tier entries (the Matthew
+1/Luke 3 genealogy line so far as it overlaps full-tier people, the
+Twelve plus Matthias/Barnabas/Paul, a handful of explicit OT
+types/prophecies, and a few explicit eyewitness-testimony cases) as a
+first, deliberately non-exhaustive pass — extending it to more figures
+with a genuinely explicit textual connection is a reasonable follow-up,
+but do not pad entries to "cover everyone." **Data-collection only: not
+yet surfaced in the UI** (no rendering code reads this field) —
+storage-only, same holding pattern the old field spent its whole life in
+before retirement, so revisit whether/how to render it before assuming
+it's inert forever.
+
 **Promotion rule** (decided 2026-08-03): a person belongs in the full tier
 whenever Scripture narrates something about them beyond a bare name/parentage
 listing — an action, words, or a distinguishing episode — even a minor one

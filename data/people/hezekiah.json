@@ -67,6 +67,12 @@
     "Hezekiah’s story teaches us about kingship; may we look to Jesus, whose grace and truth never fail.",
     "Through Hezekiah’s experience of trust in God, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:9-10"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

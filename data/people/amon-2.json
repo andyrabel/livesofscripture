@@ -35,6 +35,12 @@
     "Amon’s story warns us about idolatry; may we look to Jesus, whose grace and truth never fail.",
     "Through Amon’s experience of refusal to repent, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:10"
+    }
+  ],
   "image": {
     "file": "generic-king.png",
     "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",

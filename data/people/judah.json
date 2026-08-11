@@ -127,5 +127,11 @@
   "devotionals": [
     "Judah offered himself in Benjamin's place rather than let their father lose another son. Jesus offered Himself in our place so we would not bear what we deserved.",
     "Jacob's blessing promised the scepter would not depart from Judah until Shiloh comes. Jesus, born of Judah's tribe, is that promised King whose reign never ends."
+  ],
+  "christ_connections": [
+    {
+      "type": "ancestor",
+      "reference": "Matthew 1:2-3"
+    }
   ]
 }

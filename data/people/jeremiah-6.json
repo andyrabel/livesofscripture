@@ -81,6 +81,12 @@
     "Jeremiah promised a New Covenant written on the heart, not stone. Jesus's blood made that promise come true for us.",
     "Jeremiah was hated for telling the truth and thrown into a muddy pit. Jesus was rejected too, for telling the truth about us."
   ],
+  "christ_connections": [
+    {
+      "type": "prophecy",
+      "reference": "Matthew 2:17-18"
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",
