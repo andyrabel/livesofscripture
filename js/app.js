@@ -5,6 +5,122 @@ const DATA = {
   quiz: null,
 };
 
+// ---------------------------------------------------------------------
+// Cookie consent (Google Analytics)
+//
+// UK/EU/EEA visitors (detected via the browser's own timezone, never sent
+// anywhere) see a banner and analytics only loads after they accept.
+// Everywhere else analytics loads automatically, since prior consent isn't
+// legally required there. A stored "declined" choice is honored everywhere,
+// regardless of region, so "Manage cookie preferences" always works.
+// ---------------------------------------------------------------------
+
+const GA_MEASUREMENT_ID = "G-ZF8K07D6WG";
+const COOKIE_CONSENT_KEY = "los_cookie_consent";
+
+function regionRequiresCookieConsent() {
+  try {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    return tz.startsWith("Europe/");
+  } catch (e) {
+    return false;
+  }
+}
+
+function getCookieConsent() {
+  try {
+    return localStorage.getItem(COOKIE_CONSENT_KEY);
+  } catch (e) {
+    return null;
+  }
+}
+
+function setCookieConsent(value) {
+  try {
+    localStorage.setItem(COOKIE_CONSENT_KEY, value);
+  } catch (e) {
+    /* ignore */
+  }
+}
+
+function loadGoogleAnalytics() {
+  if (window.__losGaLoaded) return;
+  window.__losGaLoaded = true;
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  window.gtag = gtag;
+  gtag("js", new Date());
+  gtag("config", GA_MEASUREMENT_ID);
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  document.head.appendChild(script);
+}
+
+function hideCookieBanner() {
+  const banner = document.getElementById("cookie-consent-banner");
+  if (banner) banner.remove();
+}
+
+function showCookieBanner() {
+  if (document.getElementById("cookie-consent-banner")) return;
+  const banner = document.createElement("div");
+  banner.id = "cookie-consent-banner";
+  banner.className = "cookie-consent-banner";
+  banner.setAttribute("role", "dialog");
+  banner.setAttribute("aria-label", "Cookie preferences");
+  banner.innerHTML = `
+    <p>We use Google Analytics to see how many people visit and which pages
+    help worship leaders and families most. This sets analytics cookies. No
+    personal information is collected, sold, or used for advertising. See
+    <a href="https://livesofscripture.org/about.html#cookies-analytics">Cookies &amp; Analytics</a>
+    for details.</p>
+    <div class="cookie-consent-actions">
+      <button type="button" class="cookie-consent-decline">Decline</button>
+      <button type="button" class="cookie-consent-accept">Accept</button>
+    </div>`;
+  document.body.appendChild(banner);
+
+  banner.querySelector(".cookie-consent-accept").addEventListener("click", () => {
+    setCookieConsent("accepted");
+    hideCookieBanner();
+    loadGoogleAnalytics();
+  });
+  banner.querySelector(".cookie-consent-decline").addEventListener("click", () => {
+    setCookieConsent("declined");
+    hideCookieBanner();
+  });
+}
+
+function openCookiePreferences() {
+  showCookieBanner();
+}
+
+function initCookieConsent() {
+  const consent = getCookieConsent();
+  if (consent === "accepted") {
+    loadGoogleAnalytics();
+  } else if (consent === "declined") {
+    // Honor an explicit opt-out everywhere, not just in consent-required regions.
+  } else if (regionRequiresCookieConsent()) {
+    showCookieBanner();
+  } else {
+    loadGoogleAnalytics();
+  }
+
+  const manageLink = document.getElementById("manage-cookie-preferences");
+  if (manageLink) {
+    manageLink.addEventListener("click", (evt) => {
+      evt.preventDefault();
+      openCookiePreferences();
+    });
+  }
+}
+
+initCookieConsent();
+
 function dataPath(path) {
   return `data/${path}`;
 }

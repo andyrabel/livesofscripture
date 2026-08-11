@@ -163,6 +163,7 @@ def footer_html(base):
     Portrait illustrations are AI-generated or hand-authored line art — no claim of
     historical likeness. See <a href="{base}about.html">About</a> for full sourcing.</p>
   </details>
+  <p class="footer-notice"><a href="{base}about.html#cookies-analytics" id="manage-cookie-preferences">Manage cookie preferences</a></p>
 </footer>"""
 
 
@@ -541,15 +542,6 @@ def build_person_page(person, index_by_id, gender_by_id, connections, full_peopl
     html_out = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF8K07D6WG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZF8K07D6WG');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
@@ -657,15 +649,6 @@ def build_churches_list_page(churches):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF8K07D6WG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZF8K07D6WG');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
@@ -781,15 +764,6 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZF8K07D6WG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZF8K07D6WG');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>

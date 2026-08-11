@@ -1453,6 +1453,64 @@ header.site-header nav a.nav-cta:hover {
   color: var(--color-cta-text);
 }
 
+.cookie-consent-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  padding: 0.9rem 1.25rem;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.cookie-consent-banner p {
+  flex: 1 1 320px;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+.cookie-consent-banner a {
+  color: var(--color-accent);
+}
+
+.cookie-consent-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex: 0 0 auto;
+}
+
+.cookie-consent-actions button {
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.cookie-consent-actions .cookie-consent-accept {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-cta-text);
+}
+
+.cookie-consent-actions .cookie-consent-accept:hover {
+  background: var(--color-accent-strong);
+  border-color: var(--color-accent-strong);
+}
+
+.cookie-consent-actions .cookie-consent-decline:hover {
+  border-color: var(--color-accent);
+}
+
 .footer-notice {
   margin-top: 0.75rem;
   font-size: 0.78rem;
