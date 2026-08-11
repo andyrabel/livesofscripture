@@ -32,7 +32,8 @@
         "ithamar",
         "nadab"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "abraham",
@@ -159,7 +160,8 @@
       "children": [
         "obed"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "david",
@@ -219,7 +221,8 @@
         "solomon",
         "tamar-2"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "elimelech",
@@ -248,7 +251,8 @@
       "loss"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ruth 1:1-3"
+    "first_reference": "Ruth 1:1-3",
+    "tribe": "Judah"
   },
   {
     "person_id": "gershom",
@@ -274,7 +278,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Exodus 2:22",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Levi"
   },
   {
     "person_id": "hagar",
@@ -406,7 +411,8 @@
         "raddai",
         "shimeah"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "jochebed",
@@ -436,7 +442,8 @@
         "miriam",
         "moses"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "jonathan",
@@ -463,7 +470,8 @@
       "children": [
         "mephibosheth"
       ]
-    }
+    },
+    "tribe": "Benjamin"
   },
   {
     "person_id": "mahlon",
@@ -490,7 +498,8 @@
       "levirate redemption"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ruth 1:1-5"
+    "first_reference": "Ruth 1:1-5",
+    "tribe": "Judah"
   },
   {
     "person_id": "moses",
@@ -523,7 +532,8 @@
         "eliezer-2",
         "gershom"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "naomi",
@@ -554,7 +564,8 @@
         "chilion",
         "mahlon"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "obed",
@@ -582,7 +593,8 @@
       "ancestor of David"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ruth 4:13-17"
+    "first_reference": "Ruth 4:13-17",
+    "tribe": "Judah"
   },
   {
     "person_id": "paul",
@@ -609,7 +621,8 @@
       "note": "Birth year is estimated from his description as a 'young man' at Stephen's stoning (c. AD 34) and as 'the aged' in Philemon (c. AD 60). The death date rests on early church tradition placing his execution in Rome under Nero, not on Scripture itself."
     },
     "gender": "male",
-    "first_reference": "Acts 9"
+    "first_reference": "Acts 9",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "peter",
@@ -699,7 +712,8 @@
         "abijah",
         "joel"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "sarah",
@@ -764,7 +778,8 @@
         "rehoboam",
         "taphath"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "terah",
@@ -4692,7 +4707,7 @@
     "gender": "female",
     "first_reference": "Genesis 30:21",
     "genealogy": {
-      "father": "jacob",
+      "father": "israel",
       "mother": "leah"
     }
   },
@@ -6096,7 +6111,8 @@
       "the beginning of the Tamar narrative"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 38:3-7"
+    "first_reference": "Genesis 38:3-7",
+    "tribe": "Judah"
   },
   {
     "person_id": "onan",
@@ -6120,7 +6136,8 @@
       "family of Judah"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 38:4-9"
+    "first_reference": "Genesis 38:4-9",
+    "tribe": "Judah"
   },
   {
     "person_id": "shelah-2",
@@ -6153,7 +6170,8 @@
       "family line of Judah"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 38:5-26"
+    "first_reference": "Genesis 38:5-26",
+    "tribe": "Judah"
   },
   {
     "person_id": "tamar",
@@ -6216,7 +6234,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "perez.png",
-    "first_reference": "Genesis 38:29"
+    "first_reference": "Genesis 38:29",
+    "tribe": "Judah"
   },
   {
     "person_id": "zerah-3",
@@ -6661,7 +6680,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "(Gen 46:13)",
-    "first_reference": "Genesis 46:13"
+    "first_reference": "Genesis 46:13",
+    "tribe": "Issachar"
   },
   {
     "person_id": "puvvah",
@@ -7114,7 +7134,8 @@
     "image2": "naaman.png",
     "gender": "male",
     "disambiguation": "son of Bela (Gen 46:21)",
-    "first_reference": "Genesis 46:21"
+    "first_reference": "Genesis 46:21",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "ehi",
@@ -7342,7 +7363,8 @@
       "clan leadership"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "Genesis 50:23"
+    "first_reference": "Genesis 50:23",
+    "tribe": "Manasseh"
   },
   {
     "person_id": "pharaoh-3",
@@ -7614,7 +7636,8 @@
         "ebiasaph",
         "elkanah"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "nepheg",
@@ -7674,7 +7697,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Exodus 6:22",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Levi"
   },
   {
     "person_id": "elzaphan",
@@ -7698,7 +7722,8 @@
       "priestly duty"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 6:22"
+    "first_reference": "Exodus 6:22",
+    "tribe": "Levi"
   },
   {
     "person_id": "sithri",
@@ -7778,7 +7803,8 @@
       "ancestor of David and Christ"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 6:23"
+    "first_reference": "Exodus 6:23",
+    "tribe": "Judah"
   },
   {
     "person_id": "nadab",
@@ -7804,7 +7830,8 @@
     "genealogy": {
       "father": "aaron",
       "mother": "elisheba"
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "abihu",
@@ -7828,7 +7855,8 @@
     "genealogy": {
       "father": "aaron",
       "mother": "elisheba"
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "eleazar",
@@ -7857,7 +7885,8 @@
       "children": [
         "phinehas"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "ithamar",
@@ -7881,7 +7910,8 @@
       "surviving God's judgment"
     ],
     "image": "generic-priest.png",
-    "first_reference": "Exodus 6:23"
+    "first_reference": "Exodus 6:23",
+    "tribe": "Levi"
   },
   {
     "person_id": "assir",
@@ -7979,7 +8009,8 @@
       "children": [
         "abishua"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "miriam",
@@ -8005,7 +8036,8 @@
     ],
     "image": "generic-woman.png",
     "image2": "miriam.png",
-    "first_reference": "Exodus 15:20-21"
+    "first_reference": "Exodus 15:20-21",
+    "tribe": "Levi"
   },
   {
     "person_id": "joshua",
@@ -8033,7 +8065,8 @@
     ],
     "image": "generic-warrior.png",
     "image2": "joshua.png",
-    "first_reference": "Exodus 17:9-14"
+    "first_reference": "Exodus 17:9-14",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "hur",
@@ -8065,7 +8098,8 @@
       "craftsmanship (through his grandson Bezalel)"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 17:10-12"
+    "first_reference": "Exodus 17:10-12",
+    "tribe": "Judah"
   },
   {
     "person_id": "eliezer-2",
@@ -8109,7 +8143,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "bezalel.png",
-    "first_reference": "Exodus 31:2"
+    "first_reference": "Exodus 31:2",
+    "tribe": "Judah"
   },
   {
     "person_id": "uri",
@@ -8149,7 +8184,8 @@
       "tribe of Dan"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Exodus 31:6"
+    "first_reference": "Exodus 31:6",
+    "tribe": "Dan"
   },
   {
     "person_id": "ahisamach",
@@ -8280,7 +8316,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Numbers 1:6",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Simeon"
   },
   {
     "person_id": "zurishaddai",
@@ -8843,7 +8880,8 @@
     "image2": "caleb.png",
     "gender": "male",
     "disambiguation": "son of Jephunneh (Num 13:6-30)",
-    "first_reference": "Numbers 13:6-30"
+    "first_reference": "Numbers 13:6-30",
+    "tribe": "Judah"
   },
   {
     "person_id": "jephunneh",
@@ -8886,7 +8924,8 @@
       "the wilderness generation"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:7"
+    "first_reference": "Numbers 13:7",
+    "tribe": "Issachar"
   },
   {
     "person_id": "joseph-2",
@@ -8962,7 +9001,8 @@
       "wilderness wandering"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:10"
+    "first_reference": "Numbers 13:10",
+    "tribe": "Zebulun"
   },
   {
     "person_id": "sodi",
@@ -9002,7 +9042,8 @@
       "wilderness wandering"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:11"
+    "first_reference": "Numbers 13:11",
+    "tribe": "Manasseh"
   },
   {
     "person_id": "susi",
@@ -9043,7 +9084,8 @@
       "wilderness wandering"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:12"
+    "first_reference": "Numbers 13:12",
+    "tribe": "Dan"
   },
   {
     "person_id": "gemalli",
@@ -9152,7 +9194,8 @@
       "wilderness wandering"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 13:15"
+    "first_reference": "Numbers 13:15",
+    "tribe": "Gad"
   },
   {
     "person_id": "machi",
@@ -9274,7 +9317,8 @@
       "Korah's rebellion"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 16:1-27"
+    "first_reference": "Numbers 16:1-27",
+    "tribe": "Reuben"
   },
   {
     "person_id": "abiram",
@@ -9298,7 +9342,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "abiram.png",
-    "first_reference": "Numbers 16:1-27"
+    "first_reference": "Numbers 16:1-27",
+    "tribe": "Reuben"
   },
   {
     "person_id": "eliab-2",
@@ -9338,7 +9383,8 @@
       "tribe of Reuben"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Numbers 16:1"
+    "first_reference": "Numbers 16:1",
+    "tribe": "Reuben"
   },
   {
     "person_id": "peleth",
@@ -9749,7 +9795,8 @@
       "God's responsiveness to earnest requests"
     ],
     "image": "generic-figure.png",
-    "image2": "zelophehad.png"
+    "image2": "zelophehad.png",
+    "tribe": "Manasseh"
   },
   {
     "person_id": "mahlah",
@@ -9773,7 +9820,8 @@
     "first_reference": "Numbers 26:33",
     "genealogy": {
       "father": "zelophehad"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "noah-2",
@@ -9797,7 +9845,8 @@
     "first_reference": "Numbers 26:33",
     "genealogy": {
       "father": "zelophehad"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "hoglah",
@@ -9820,7 +9869,8 @@
     "first_reference": "Numbers 26:33",
     "genealogy": {
       "father": "zelophehad"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "milcah-2",
@@ -9844,7 +9894,8 @@
     "first_reference": "Numbers 26:33",
     "genealogy": {
       "father": "zelophehad"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "tirzah",
@@ -9867,7 +9918,8 @@
     "first_reference": "Numbers 26:33",
     "genealogy": {
       "father": "zelophehad"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "shuthelah",
@@ -10037,7 +10089,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "son of Segub (Num 32:41)",
-    "first_reference": "Numbers 32:41"
+    "first_reference": "Numbers 32:41",
+    "tribe": "Manasseh"
   },
   {
     "person_id": "nobah",
@@ -10427,7 +10480,8 @@
     "image": "generic-figure.png",
     "image2": "achan.png",
     "gender": "male",
-    "first_reference": "Joshua 7:1-24"
+    "first_reference": "Joshua 7:1-24",
+    "tribe": "Judah"
   },
   {
     "person_id": "carmi-2",
@@ -10692,7 +10746,8 @@
       "spouses": [
         "othniel"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "othniel",
@@ -10723,7 +10778,8 @@
     "image": "generic-warrior.png",
     "image2": "othniel.png",
     "gender": "male",
-    "first_reference": "Joshua 15:17"
+    "first_reference": "Joshua 15:17",
+    "tribe": "Judah"
   },
   {
     "person_id": "kenaz-2",
@@ -10825,7 +10881,8 @@
     "image2": "ehud.png",
     "gender": "male",
     "disambiguation": "son of Gera (Judg 3:15-26)",
-    "first_reference": "Judges 3:15-26"
+    "first_reference": "Judges 3:15-26",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "gera-2",
@@ -10978,7 +11035,8 @@
     "first_reference": "Judges 4:6-24",
     "genealogy": {
       "father": "abinoam"
-    }
+    },
+    "tribe": "Naphtali"
   },
   {
     "person_id": "abinoam",
@@ -11100,13 +11158,14 @@
     "gender": "male",
     "first_reference": "Judges 6:1-40",
     "genealogy": {
-      "father": "joash-3",
+      "father": "joash",
       "children": [
         "abimelech-2",
         "jether",
         "jotham"
       ]
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "purah",
@@ -11222,7 +11281,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Judges 8:20",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Manasseh"
   },
   {
     "person_id": "abimelech-2",
@@ -11247,7 +11307,8 @@
     ],
     "image": "generic-king.png",
     "image2": "abimelech-2.png",
-    "first_reference": "Judges 8:31"
+    "first_reference": "Judges 8:31",
+    "tribe": "Manasseh"
   },
   {
     "person_id": "jotham",
@@ -11272,7 +11333,8 @@
     "first_reference": "Judges 9:5",
     "genealogy": {
       "father": "gideon"
-    }
+    },
+    "tribe": "Manasseh"
   },
   {
     "person_id": "gaal",
@@ -11495,7 +11557,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Judges 12:11-12",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Zebulun"
   },
   {
     "person_id": "abdon",
@@ -11519,7 +11582,8 @@
     "gender": "male",
     "disambiguation": "son of Hillel (Judg 12:13-15)",
     "first_reference": "Judges 12:13-15",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Ephraim"
   },
   {
     "person_id": "hillel",
@@ -11563,7 +11627,8 @@
       "children": [
         "samson"
       ]
-    }
+    },
+    "tribe": "Dan"
   },
   {
     "person_id": "samson",
@@ -11588,7 +11653,8 @@
     ],
     "image": "samson.png",
     "image2": "samson.png",
-    "first_reference": "Judges 13:24"
+    "first_reference": "Judges 13:24",
+    "tribe": "Dan"
   },
   {
     "person_id": "delilah",
@@ -11630,7 +11696,8 @@
     },
     "gender": "male",
     "disambiguation": "(Judg 17:1-13)",
-    "first_reference": "Judges 17:1-13"
+    "first_reference": "Judges 17:1-13",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "jonathan-2",
@@ -11652,7 +11719,8 @@
       "religious compromise in the days of the judges"
     ],
     "image": "generic-priest.png",
-    "first_reference": "Judges 18:30"
+    "first_reference": "Judges 18:30",
+    "tribe": "Levi"
   },
   {
     "person_id": "gershom-2",
@@ -11717,7 +11785,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Ruth 1:2-5",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "orpah",
@@ -11809,7 +11878,8 @@
       "children": [
         "samuel"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "jeroham",
@@ -11980,7 +12050,8 @@
         "hophni",
         "phinehas-2"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "hophni",
@@ -12002,7 +12073,8 @@
     ],
     "image": "generic-priest.png",
     "gender": "male",
-    "first_reference": "1 Samuel 1:3"
+    "first_reference": "1 Samuel 1:3",
+    "tribe": "Levi"
   },
   {
     "person_id": "phinehas-2",
@@ -12030,7 +12102,8 @@
       "loss of the ark"
     ],
     "image": "generic-priest.png",
-    "first_reference": "1 Samuel 1:3"
+    "first_reference": "1 Samuel 1:3",
+    "tribe": "Levi"
   },
   {
     "person_id": "ichabod",
@@ -12053,7 +12126,8 @@
       "the departed glory"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 4:21"
+    "first_reference": "1 Samuel 4:21",
+    "tribe": "Levi"
   },
   {
     "person_id": "joshua-2",
@@ -12142,7 +12216,8 @@
       "children": [
         "heman-2"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "abijah",
@@ -12193,7 +12268,8 @@
       "Saul's rise to kingship"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 9:1-3"
+    "first_reference": "1 Samuel 9:1-3",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "abiel",
@@ -12301,7 +12377,8 @@
         "merab",
         "michal"
       ]
-    }
+    },
+    "tribe": "Benjamin"
   },
   {
     "person_id": "nahash",
@@ -12418,7 +12495,8 @@
     ],
     "image": "generic-warrior.png",
     "first_reference": "1 Samuel 14:49",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Benjamin"
   },
   {
     "person_id": "merab",
@@ -12445,7 +12523,8 @@
       "spouses": [
         "adriel"
       ]
-    }
+    },
+    "tribe": "Benjamin"
   },
   {
     "person_id": "michal",
@@ -12473,7 +12552,8 @@
     "image": "generic-woman.png",
     "image2": "michal.png",
     "gender": "female",
-    "first_reference": "1 Samuel 14:49"
+    "first_reference": "1 Samuel 14:49",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "ahinoam",
@@ -12541,7 +12621,8 @@
     "image": "generic-warrior.png",
     "image2": "abner.png",
     "gender": "male",
-    "first_reference": "1 Samuel 14:50-51"
+    "first_reference": "1 Samuel 14:50-51",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "ner",
@@ -12605,7 +12686,8 @@
       "David's youth"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 16:6"
+    "first_reference": "1 Samuel 16:6",
+    "tribe": "Judah"
   },
   {
     "person_id": "abinadab-3",
@@ -12628,7 +12710,8 @@
       "David's family"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "1 Samuel 16:8"
+    "first_reference": "1 Samuel 16:8",
+    "tribe": "Judah"
   },
   {
     "person_id": "shimeah",
@@ -12660,7 +12743,8 @@
       "father of Jonadab"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Samuel 16:9"
+    "first_reference": "1 Samuel 16:9",
+    "tribe": "Judah"
   },
   {
     "person_id": "goliath",
@@ -12736,7 +12820,8 @@
     ],
     "image": "generic-priest.png",
     "image2": "ahimelech.png",
-    "first_reference": "1 Samuel 21:1-8"
+    "first_reference": "1 Samuel 21:1-8",
+    "tribe": "Levi"
   },
   {
     "person_id": "doeg",
@@ -12833,7 +12918,8 @@
         "ahimelech-3",
         "jonathan-3"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "nabal",
@@ -13003,7 +13089,8 @@
     ],
     "image": "generic-warrior.png",
     "image2": "abishai.png",
-    "first_reference": "1 Samuel 26:6-9"
+    "first_reference": "1 Samuel 26:6-9",
+    "tribe": "Judah"
   },
   {
     "person_id": "zeruiah",
@@ -13049,7 +13136,8 @@
     "image2": "joab.png",
     "gender": "male",
     "disambiguation": "son of Zeruiah (1 Sam 26:6)",
-    "first_reference": "1 Samuel 26:6"
+    "first_reference": "1 Samuel 26:6",
+    "tribe": "Judah"
   },
   {
     "person_id": "maoch",
@@ -13094,7 +13182,8 @@
     "image": "generic-king.png",
     "image2": "ish-bosheth.png",
     "gender": "male",
-    "first_reference": "2 Samuel 2:8-15"
+    "first_reference": "2 Samuel 2:8-15",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "asahel",
@@ -13120,7 +13209,8 @@
       "David's mighty men"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 2:18-32"
+    "first_reference": "2 Samuel 2:18-32",
+    "tribe": "Judah"
   },
   {
     "person_id": "amnon",
@@ -13146,7 +13236,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "amnon.png",
-    "first_reference": "2 Samuel 3:2"
+    "first_reference": "2 Samuel 3:2",
+    "tribe": "Judah"
   },
   {
     "person_id": "chileab",
@@ -13194,7 +13285,8 @@
     "image": "generic-figure.png",
     "image2": "absalom.png",
     "gender": "male",
-    "first_reference": "2 Samuel 3:3"
+    "first_reference": "2 Samuel 3:3",
+    "tribe": "Judah"
   },
   {
     "person_id": "maacah-2",
@@ -13259,7 +13351,8 @@
     "image2": "adonijah.png",
     "gender": "male",
     "disambiguation": "son of David (2 Sam 3:4)",
-    "first_reference": "2 Samuel 3:4"
+    "first_reference": "2 Samuel 3:4",
+    "tribe": "Judah"
   },
   {
     "person_id": "haggith",
@@ -13427,7 +13520,8 @@
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
     "first_reference": "2 Samuel 4:2-9",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Benjamin"
   },
   {
     "person_id": "rechab",
@@ -13451,7 +13545,8 @@
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
     "first_reference": "2 Samuel 4:2-9",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Benjamin"
   },
   {
     "person_id": "rimmon",
@@ -13502,7 +13597,8 @@
     },
     "gender": "male",
     "disambiguation": "son of Jonathan (2 Sam 4:4)",
-    "first_reference": "2 Samuel 4:4"
+    "first_reference": "2 Samuel 4:4",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "hiram",
@@ -13771,7 +13867,8 @@
       "fear and faith"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Samuel 6:10-12"
+    "first_reference": "2 Samuel 6:10-12",
+    "tribe": "Levi"
   },
   {
     "person_id": "nathan-2",
@@ -13945,7 +14042,8 @@
       "children": [
         "ahimaaz-2"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "ahitub-2",
@@ -14057,7 +14155,8 @@
       "children": [
         "benaiah"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "ziba",
@@ -14292,7 +14391,8 @@
       "God's justice for the wronged"
     ],
     "image": "generic-woman.png",
-    "image2": "tamar-2.png"
+    "image2": "tamar-2.png",
+    "tribe": "Judah"
   },
   {
     "person_id": "jonadab",
@@ -14315,7 +14415,8 @@
       "complicity in family tragedy"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Samuel 13:3-35"
+    "first_reference": "2 Samuel 13:3-35",
+    "tribe": "Judah"
   },
   {
     "person_id": "ammihud-4",
@@ -14381,7 +14482,8 @@
         "eliam-2",
         "bathsheba"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "ittai",
@@ -14434,7 +14536,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "ahimaaz-2.png",
-    "first_reference": "2 Samuel 15:27-36"
+    "first_reference": "2 Samuel 15:27-36",
+    "tribe": "Levi"
   },
   {
     "person_id": "jonathan-3",
@@ -14504,7 +14607,8 @@
     "image2": "shimei-2.png",
     "gender": "male",
     "disambiguation": "son of Gera (2 Sam 16:5-13)",
-    "first_reference": "2 Samuel 16:5-13"
+    "first_reference": "2 Samuel 16:5-13",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "gera-3",
@@ -14549,7 +14653,8 @@
     "image": "generic-warrior.png",
     "gender": "male",
     "disambiguation": "son of Jether (2 Sam 17:25)",
-    "first_reference": "2 Samuel 17:25"
+    "first_reference": "2 Samuel 17:25",
+    "tribe": "Judah"
   },
   {
     "person_id": "jether-2",
@@ -14695,7 +14800,8 @@
       "divine and human justice"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 20:1-22"
+    "first_reference": "2 Samuel 20:1-22",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "bichri",
@@ -14794,7 +14900,8 @@
       "grief"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Samuel 21:8"
+    "first_reference": "2 Samuel 21:8",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "mephibosheth-2",
@@ -14989,7 +15096,8 @@
       "royal counselor"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 21:21"
+    "first_reference": "2 Samuel 21:21",
+    "tribe": "Judah"
   },
   {
     "person_id": "jashobeam",
@@ -15081,7 +15189,8 @@
       "trust in the LORD"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 23:11"
+    "first_reference": "2 Samuel 23:11",
+    "tribe": "Judah"
   },
   {
     "person_id": "agee",
@@ -15760,7 +15869,8 @@
     ],
     "image": "generic-priest.png",
     "image2": "azariah.png",
-    "first_reference": "1 Kings 4:2"
+    "first_reference": "1 Kings 4:2",
+    "tribe": "Levi"
   },
   {
     "person_id": "elihoreph",
@@ -16298,7 +16408,8 @@
       "psalm authorship"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 4:31"
+    "first_reference": "1 Kings 4:31",
+    "tribe": "Judah"
   },
   {
     "person_id": "heman",
@@ -16322,7 +16433,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Kings 4:31",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "calcol",
@@ -16345,7 +16457,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Kings 4:31",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "darda",
@@ -16370,7 +16483,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Kings 4:31",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "hiram-2",
@@ -16389,7 +16503,8 @@
       "skilled work for God's house"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Kings 7:13-45"
+    "first_reference": "1 Kings 7:13-45",
+    "tribe": "Naphtali"
   },
   {
     "person_id": "queen-of-sheba",
@@ -16542,7 +16657,8 @@
         "abijah-2",
         "nadab-2"
       ]
-    }
+    },
+    "tribe": "Ephraim"
   },
   {
     "person_id": "nebat",
@@ -16623,7 +16739,8 @@
         "zaham",
         "ziza-2"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "shemaiah",
@@ -16680,7 +16797,8 @@
         "shallum-4",
         "zedekiah-2"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "abijah-2",
@@ -16726,7 +16844,8 @@
       "royal assassination"
     ],
     "image": "generic-king.png",
-    "first_reference": "1 Kings 14:20"
+    "first_reference": "1 Kings 14:20",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "naamah-2",
@@ -16786,7 +16905,8 @@
     ],
     "image": "generic-king.png",
     "image2": "abijah-3.png",
-    "first_reference": "1 Kings 14:31"
+    "first_reference": "1 Kings 14:31",
+    "tribe": "Judah"
   },
   {
     "person_id": "maacah-3",
@@ -16871,7 +16991,8 @@
     ],
     "image": "generic-king.png",
     "image2": "asa.png",
-    "first_reference": "1 Kings 15:8-33"
+    "first_reference": "1 Kings 15:8-33",
+    "tribe": "Judah"
   },
   {
     "person_id": "baasha",
@@ -16899,7 +17020,8 @@
     ],
     "image": "generic-king.png",
     "image2": "baasha.png",
-    "first_reference": "1 Kings 15:16-33"
+    "first_reference": "1 Kings 15:16-33",
+    "tribe": "Issachar"
   },
   {
     "person_id": "ben-hadad",
@@ -16996,7 +17118,8 @@
         "sephatiah",
         "zechariah-11"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "ahijah-3",
@@ -17789,7 +17912,8 @@
       "divine judgment"
     ],
     "image": "generic-king.png",
-    "first_reference": "1 Kings 22:50"
+    "first_reference": "1 Kings 22:50",
+    "tribe": "Judah"
   },
   {
     "person_id": "joram-2",
@@ -17910,7 +18034,8 @@
     ],
     "image": "generic-king.png",
     "image2": "ahaziah-2.png",
-    "first_reference": "2 Kings 8:24-26"
+    "first_reference": "2 Kings 8:24-26",
+    "tribe": "Judah"
   },
   {
     "person_id": "athaliah",
@@ -18085,7 +18210,8 @@
     ],
     "image": "generic-woman.png",
     "first_reference": "2 Kings 11:2",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "joash-3",
@@ -18116,7 +18242,8 @@
       "assassination"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 11:2-21"
+    "first_reference": "2 Kings 11:2-21",
+    "tribe": "Judah"
   },
   {
     "person_id": "jehoiada-2",
@@ -18304,7 +18431,8 @@
     ],
     "image": "generic-king.png",
     "image2": "amaziah.png",
-    "first_reference": "2 Kings 12:21"
+    "first_reference": "2 Kings 12:21",
+    "tribe": "Judah"
   },
   {
     "person_id": "ben-hadad-2",
@@ -18440,7 +18568,8 @@
       "children": [
         "jotham-2"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "jonah",
@@ -18466,7 +18595,8 @@
     "first_reference": "2 Kings 14:25",
     "genealogy": {
       "father": "amittai"
-    }
+    },
+    "tribe": "Zebulun"
   },
   {
     "person_id": "amittai",
@@ -18556,7 +18686,8 @@
       "incomplete reform"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 15:5-38"
+    "first_reference": "2 Kings 15:5-38",
+    "tribe": "Judah"
   },
   {
     "person_id": "shallum",
@@ -18922,7 +19053,8 @@
     ],
     "image": "generic-king.png",
     "image2": "ahaz.png",
-    "first_reference": "2 Kings 15:38"
+    "first_reference": "2 Kings 15:38",
+    "tribe": "Judah"
   },
   {
     "person_id": "urijah",
@@ -18970,7 +19102,8 @@
       "children": [
         "manasseh-3"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "shalmaneser",
@@ -19439,7 +19572,8 @@
       "children": [
         "amon-2"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "hephzibah",
@@ -19502,7 +19636,8 @@
     ],
     "image": "generic-king.png",
     "image2": "amon-2.png",
-    "first_reference": "2 Kings 21:18-25"
+    "first_reference": "2 Kings 21:18-25",
+    "tribe": "Judah"
   },
   {
     "person_id": "meshullemeth",
@@ -19675,7 +19810,8 @@
       "children": [
         "jeremiah-6"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "ahikam",
@@ -19938,7 +20074,8 @@
       "fulfilled prophecy"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 23:30-34"
+    "first_reference": "2 Kings 23:30-34",
+    "tribe": "Judah"
   },
   {
     "person_id": "hamutal",
@@ -20013,7 +20150,8 @@
         "jerahmeel-3",
         "zedekiah-3"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "zebidah",
@@ -20115,7 +20253,8 @@
     ],
     "image": "generic-king.png",
     "image2": "jehoiachin.png",
-    "first_reference": "2 Kings 24:6-15"
+    "first_reference": "2 Kings 24:6-15",
+    "tribe": "Judah"
   },
   {
     "person_id": "nehushta",
@@ -20195,7 +20334,8 @@
       "children": [
         "malchijah-10"
       ]
-    }
+    },
+    "tribe": "Judah"
   },
   {
     "person_id": "nebuzaradan",
@@ -20241,7 +20381,8 @@
       "priestly line"
     ],
     "image": "generic-priest.png",
-    "first_reference": "2 Kings 25:18"
+    "first_reference": "2 Kings 25:18",
+    "tribe": "Levi"
   },
   {
     "person_id": "zephaniah",
@@ -20302,7 +20443,8 @@
       "the fall of Jerusalem's aftermath"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Kings 25:23-25"
+    "first_reference": "2 Kings 25:23-25",
+    "tribe": "Judah"
   },
   {
     "person_id": "nethaniah",
@@ -22377,7 +22519,8 @@
     "image": "generic-figure.png",
     "image2": "zerubbabel.png",
     "gender": "male",
-    "first_reference": "1 Chronicles 3:19"
+    "first_reference": "1 Chronicles 3:19",
+    "tribe": "Judah"
   },
   {
     "person_id": "shimei-4",
@@ -25718,7 +25861,8 @@
       "the fear of the LORD"
     ],
     "image": "generic-priest.png",
-    "first_reference": "1 Chronicles 6:11"
+    "first_reference": "1 Chronicles 6:11",
+    "tribe": "Levi"
   },
   {
     "person_id": "ahitub-3",
@@ -25889,7 +26033,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Chronicles 6:21",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Levi"
   },
   {
     "person_id": "iddo-2",
@@ -26110,7 +26255,8 @@
       "David's mighty men"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "1 Chronicles 6:25-35"
+    "first_reference": "1 Chronicles 6:25-35",
+    "tribe": "Levi"
   },
   {
     "person_id": "ahimoth",
@@ -26293,7 +26439,8 @@
       "Levitical service"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 6:33"
+    "first_reference": "1 Chronicles 6:33",
+    "tribe": "Levi"
   },
   {
     "person_id": "mahath",
@@ -26340,7 +26487,8 @@
       "prophecy"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "1 Chronicles 6:39"
+    "first_reference": "1 Chronicles 6:39",
+    "tribe": "Levi"
   },
   {
     "person_id": "berechiah-2",
@@ -26576,7 +26724,8 @@
       "the ark of the covenant"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 6:44"
+    "first_reference": "1 Chronicles 6:44",
+    "tribe": "Levi"
   },
   {
     "person_id": "kishi",
@@ -26672,7 +26821,8 @@
       "prophetic judgment"
     ],
     "image": "generic-priest.png",
-    "first_reference": "1 Chronicles 6:45"
+    "first_reference": "1 Chronicles 6:45",
+    "tribe": "Levi"
   },
   {
     "person_id": "hilkiah-4",
@@ -31029,7 +31179,8 @@
         "zeri"
       ]
     },
-    "first_reference": "1 Chronicles 9:16"
+    "first_reference": "1 Chronicles 9:16",
+    "tribe": "Levi"
   },
   {
     "person_id": "berechiah-3",
@@ -32008,7 +32159,8 @@
       "courage"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "1 Chronicles 12:9"
+    "first_reference": "1 Chronicles 12:9",
+    "tribe": "Gad"
   },
   {
     "person_id": "obadiah-6",
@@ -32028,7 +32180,8 @@
       "military valor"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "1 Chronicles 12:9"
+    "first_reference": "1 Chronicles 12:9",
+    "tribe": "Gad"
   },
   {
     "person_id": "eliab-4",
@@ -32274,7 +32427,8 @@
       "temple treasuries"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 15:7-11"
+    "first_reference": "1 Chronicles 15:7-11",
+    "tribe": "Levi"
   },
   {
     "person_id": "shemaiah-7",
@@ -32328,7 +32482,8 @@
       "worship on God's terms"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 15:10-11"
+    "first_reference": "1 Chronicles 15:10-11",
+    "tribe": "Levi"
   },
   {
     "person_id": "zechariah-5",
@@ -32534,7 +32689,8 @@
         "shemaiah-9"
       ]
     },
-    "first_reference": "1 Chronicles 15:18-24"
+    "first_reference": "1 Chronicles 15:18-24",
+    "tribe": "Levi"
   },
   {
     "person_id": "jeiel-4",
@@ -32595,7 +32751,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Chronicles 15:22-27",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Levi"
   },
   {
     "person_id": "jehiah",
@@ -32924,7 +33081,8 @@
       "Transjordan tribes"
     ],
     "image": "generic-figure.png",
-    "first_reference": "1 Chronicles 23:19"
+    "first_reference": "1 Chronicles 23:19",
+    "tribe": "Levi"
   },
   {
     "person_id": "amariah-3",
@@ -35607,7 +35765,8 @@
       "revival"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 17:8"
+    "first_reference": "2 Chronicles 17:8",
+    "tribe": "Levi"
   },
   {
     "person_id": "zebadiah-6",
@@ -35889,7 +36048,8 @@
       "deliverance without a fight"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "2 Chronicles 20:14"
+    "first_reference": "2 Chronicles 20:14",
+    "tribe": "Levi"
   },
   {
     "person_id": "zechariah-10",
@@ -36006,7 +36166,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "2 Chronicles 21:2",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "jehiel-3",
@@ -36030,7 +36191,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "2 Chronicles 21:2",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "zechariah-11",
@@ -36072,7 +36234,8 @@
       "sibling rivalry"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 21:2"
+    "first_reference": "2 Chronicles 21:2",
+    "tribe": "Judah"
   },
   {
     "person_id": "michael-7",
@@ -36096,7 +36259,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "2 Chronicles 21:2",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "sephatiah",
@@ -36119,7 +36283,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "2 Chronicles 21:2",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Judah"
   },
   {
     "person_id": "azariah-9",
@@ -36356,7 +36521,8 @@
     "first_reference": "2 Chronicles 26:5",
     "genealogy": {
       "father": "berechiah-6"
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "jeiel-6",
@@ -36436,7 +36602,8 @@
       "royal family"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:7"
+    "first_reference": "2 Chronicles 28:7",
+    "tribe": "Judah"
   },
   {
     "person_id": "azrikam-4",
@@ -36501,7 +36668,8 @@
       "obedience to God's warning"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:12"
+    "first_reference": "2 Chronicles 28:12",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "johanan-9",
@@ -36544,7 +36712,8 @@
       "prophetic rebuke"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:12"
+    "first_reference": "2 Chronicles 28:12",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "meshillemoth",
@@ -36585,7 +36754,8 @@
       "compassion"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:12"
+    "first_reference": "2 Chronicles 28:12",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "shallum-8",
@@ -36627,7 +36797,8 @@
       "heeding a prophet's warning"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 28:12"
+    "first_reference": "2 Chronicles 28:12",
+    "tribe": "Ephraim"
   },
   {
     "person_id": "hadlai",
@@ -36868,7 +37039,8 @@
       "temple reform"
     ],
     "image": "generic-priest.png",
-    "first_reference": "2 Chronicles 31:10"
+    "first_reference": "2 Chronicles 31:10",
+    "tribe": "Levi"
   },
   {
     "person_id": "conaniah",
@@ -36887,7 +37059,8 @@
       "Hezekiah's reform"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Chronicles 31:12-13"
+    "first_reference": "2 Chronicles 31:12-13",
+    "tribe": "Levi"
   },
   {
     "person_id": "shimei-13",
@@ -37290,7 +37463,8 @@
     "first_reference": "2 Chronicles 35:25",
     "genealogy": {
       "father": "hilkiah-2"
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "cyrus",
@@ -37349,7 +37523,8 @@
       "leadership"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 1:8-11"
+    "first_reference": "Ezra 1:8-11",
+    "tribe": "Judah"
   },
   {
     "person_id": "jeshua-3",
@@ -38966,7 +39141,8 @@
       "children": [
         "meshullam-16"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "gershom-3",
@@ -39564,7 +39740,8 @@
       "Levitical service"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 8:18-24"
+    "first_reference": "Ezra 8:18-24",
+    "tribe": "Levi"
   },
   {
     "person_id": "hashabiah-4",
@@ -39685,7 +39862,8 @@
       "faithfulness with resources"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Ezra 8:33"
+    "first_reference": "Ezra 8:33",
+    "tribe": "Levi"
   },
   {
     "person_id": "binnui",
@@ -39894,7 +40072,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Ezra 10:15",
-    "spotlight_eligible": false
+    "spotlight_eligible": false,
+    "tribe": "Levi"
   },
   {
     "person_id": "maaseiah-6",
@@ -41461,7 +41640,8 @@
       "building projects"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Nehemiah 2:8"
+    "first_reference": "Nehemiah 2:8",
+    "tribe": "Levi"
   },
   {
     "person_id": "sanballat",
@@ -41527,7 +41707,8 @@
         "joiada-3"
       ]
     },
-    "first_reference": "Nehemiah 3:1-21"
+    "first_reference": "Nehemiah 3:1-21",
+    "tribe": "Levi"
   },
   {
     "person_id": "zaccur-5",
@@ -42974,7 +43155,8 @@
       "post-exilic renewal"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Nehemiah 8:7"
+    "first_reference": "Nehemiah 8:7",
+    "tribe": "Levi"
   },
   {
     "person_id": "bani-7",
@@ -45839,7 +46021,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "mordecai-2.png",
-    "first_reference": "Esther 2:5-22"
+    "first_reference": "Esther 2:5-22",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "jair-3",
@@ -45922,7 +46105,8 @@
     ],
     "image": "generic-queen.png",
     "image2": "esther.png",
-    "first_reference": "Esther 2:7-22"
+    "first_reference": "Esther 2:7-22",
+    "tribe": "Benjamin"
   },
   {
     "person_id": "shaashgaz",
@@ -46780,7 +46964,8 @@
     },
     "gender": "male",
     "disambiguation": "(Jer 26:18)",
-    "first_reference": "Jeremiah 26:18"
+    "first_reference": "Jeremiah 26:18",
+    "tribe": "Judah"
   },
   {
     "person_id": "uriah-4",
@@ -46926,7 +47111,8 @@
       "attempted intercession for God's word"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 29:3"
+    "first_reference": "Jeremiah 29:3",
+    "tribe": "Levi"
   },
   {
     "person_id": "ahab-2",
@@ -47424,7 +47610,8 @@
       "God's protection of His prophets"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Jeremiah 36:26"
+    "first_reference": "Jeremiah 36:26",
+    "tribe": "Judah"
   },
   {
     "person_id": "seraiah-9",
@@ -48023,7 +48210,8 @@
     "first_reference": "Ezekiel 1:3",
     "genealogy": {
       "father": "buzi"
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "buzi",
@@ -48194,7 +48382,8 @@
     },
     "gender": "male",
     "disambiguation": "(Ezek 14:14-20)",
-    "first_reference": "Ezekiel 14:14-20"
+    "first_reference": "Ezekiel 14:14-20",
+    "tribe": "Judah"
   },
   {
     "person_id": "gog-2",
@@ -48256,7 +48445,8 @@
     "image": "generic-figure.png",
     "image2": "shadrach.png",
     "gender": "male",
-    "first_reference": "Daniel 1:6-19"
+    "first_reference": "Daniel 1:6-19",
+    "tribe": "Judah"
   },
   {
     "person_id": "meshach",
@@ -48278,7 +48468,8 @@
     "image": "generic-figure.png",
     "image2": "meshach.png",
     "gender": "male",
-    "first_reference": "Daniel 1:6-19"
+    "first_reference": "Daniel 1:6-19",
+    "tribe": "Judah"
   },
   {
     "person_id": "abed-nego",
@@ -48300,7 +48491,8 @@
     "image": "generic-figure.png",
     "image2": "abed-nego.png",
     "gender": "male",
-    "first_reference": "Daniel 1:6-19"
+    "first_reference": "Daniel 1:6-19",
+    "tribe": "Judah"
   },
   {
     "person_id": "arioch-2",
@@ -48661,7 +48853,8 @@
     },
     "gender": "male",
     "disambiguation": "(Amos 1:1)",
-    "first_reference": "Amos 1:1"
+    "first_reference": "Amos 1:1",
+    "tribe": "Judah"
   },
   {
     "person_id": "obadiah-12",
@@ -48859,7 +49052,8 @@
       "messianic symbolism"
     ],
     "image": "generic-priest.png",
-    "first_reference": "Haggai 1:1-14"
+    "first_reference": "Haggai 1:1-14",
+    "tribe": "Levi"
   },
   {
     "person_id": "jehozadak-2",
@@ -49236,7 +49430,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "joseph-6.png",
-    "first_reference": "Matthew 1:16-24"
+    "first_reference": "Matthew 1:16-24",
+    "tribe": "Judah"
   },
   {
     "person_id": "mary",
@@ -49270,7 +49465,8 @@
     ],
     "image": "generic-woman.png",
     "image2": "mary.png",
-    "first_reference": "Matthew 1:16-24"
+    "first_reference": "Matthew 1:16-24",
+    "tribe": "Judah"
   },
   {
     "person_id": "herod",
@@ -49346,7 +49542,8 @@
     ],
     "image": "john.png",
     "image2": "john.png",
-    "first_reference": "Matthew 3:1-14"
+    "first_reference": "Matthew 3:1-14",
+    "tribe": "Levi"
   },
   {
     "person_id": "andrew",
@@ -49665,7 +49862,8 @@
     ],
     "image": "generic-figure.png",
     "image2": "james-3.png",
-    "first_reference": "Matthew 13:55"
+    "first_reference": "Matthew 13:55",
+    "tribe": "Judah"
   },
   {
     "person_id": "joses",
@@ -49728,7 +49926,8 @@
       "contending for the faith"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Matthew 13:55"
+    "first_reference": "Matthew 13:55",
+    "tribe": "Judah"
   },
   {
     "person_id": "herod-2",
@@ -50176,7 +50375,8 @@
         "john",
         "john-the-baptist"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "elizabeth",
@@ -50206,7 +50406,8 @@
         "john",
         "john-the-baptist"
       ]
-    }
+    },
+    "tribe": "Levi"
   },
   {
     "person_id": "caesar-augustus",
@@ -50284,7 +50485,8 @@
     "first_reference": "Luke 2:36-38",
     "genealogy": {
       "father": "phanuel"
-    }
+    },
+    "tribe": "Asher"
   },
   {
     "person_id": "phanuel",
@@ -51425,7 +51627,8 @@
     "image": "generic-figure.png",
     "image2": "barnabas.png",
     "gender": "male",
-    "first_reference": "Acts 4:36"
+    "first_reference": "Acts 4:36",
+    "tribe": "Levi"
   },
   {
     "person_id": "ananias",
@@ -53483,7 +53686,8 @@
       "encouragement in ministry"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Colossians 4:11"
+    "first_reference": "Colossians 4:11",
+    "tribe": "Judah"
   },
   {
     "person_id": "luke",

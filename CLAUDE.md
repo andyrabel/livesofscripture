@@ -508,6 +508,110 @@ whenever a full-tier person's `image.file` changes.
 
 ---
 
+## Tribal Affiliation (added 2026-08-10)
+
+A `tribe` field records which of the twelve tribes of Israel a full-tier
+person belongs to, where the text states or clearly implies it. Shape:
+
+```json
+"tribe": {
+  "name": "Levi",
+  "reference": "Exodus 6:20"
+}
+```
+
+Stored on the full-tier person file (`data/people/<id>.json`) and mirrored
+as a flat `tribe` name string on the `data/people.json` index entry (same
+"index carries a flat convenience copy" pattern already used for `image`).
+Computed by `_build/backfill_tribe.py` (gitignored like the site's other
+one-time backfill scripts — see `name_meaning`'s note above — safe to
+re-run; add new person_ids to its `EXPLICIT`/`CHAIN_REFERENCE` dicts and
+re-run rather than hand-editing the JSON output). **Data-collection only:
+not yet surfaced in the UI**, the same holding pattern `christ_connections`
+spent its whole life in before being rendered — revisit whether/how to
+render this once there's a concrete use (e.g. a tribe filter, or grouping
+on the connections graph).
+
+**Deliberately incomplete — 204 of 699 full-tier people (mostly OT).**
+Tribal membership only applies to physical descendants of Jacob/Israel;
+most full-tier people are outside that entirely (pre-Jacob patriarchs,
+Gentiles, foreign kings/officials, Canaanites/Moabites who married in
+without themselves being reckoned to a tribe, and virtually every NT
+figure whose tribe Scripture never states). Even among Israelites, the
+bar for inclusion is deliberately narrow — do not lower it without
+revisiting this section:
+
+1. **Explicit statement** — Scripture directly names the tribe or uses a
+   tribal epithet attached to the person themselves ("of the tribe of
+   Judah," "Ehud... the Benjamite," "Jeroboam... an Ephraimite," "a
+   Levite," "Jair the son of Manasseh"). Highest confidence; the
+   `reference` cited is the verse making the statement.
+2. **Genealogy-chain inference** — the person's own `genealogy.father`
+   chain (walked up through `data/people.json`, which the Timeline section
+   above already established carries genealogy for both tiers) reaches one
+   of the twelve tribal-head person_ids (`reuben`, `simeon`, `levi`,
+   `judah`, `dan`, `naphtali`, `gad`, `asher`, `issachar`, `zebulun`,
+   `ephraim`, `manasseh`, `benjamin`). Covers the Davidic/Judah royal line,
+   the Aaronic/Levitical priestly and musician lines, and a handful of
+   other documented Chronicles genealogies. The `reference` cited is the
+   Scripture genealogy passage (1 Chronicles 2–9, Ruth 4, Ezra 7, Numbers
+   26–27, etc.), not a literal verse-by-verse citation for every link.
+3. **Explicit statement overrides the chain when they conflict.** Jair is
+   the one case found so far: 1 Chronicles 2:21-22 traces him through
+   Hezron (Judah) via his mother, a daughter of Machir of Manasseh, but
+   Numbers 32:41 explicitly calls him "the son of Manasseh" — his own
+   territorial reckoning in Gilead. The field uses Manasseh, per the
+   explicit text, not the patrilineal chain.
+
+**Deliberately excluded even when a tribe might be guessable:** a
+person's *hometown* alone (e.g. Bethlehem, Shiloh, a "hill country of
+Ephraim" residence) is not treated as sufficient basis unless the text
+itself attaches the location to the person as a direct origin statement
+("a man of Bethlehem in Judah," Ruth 1:1-2; "a man of the hill country of
+Ephraim," Judges 17:1) rather than merely describing where they later
+lived, sat in judgment, or held office (Deborah's judgment-seat location,
+Elisha's Abel-meholah, Ahijah "the Shilonite," Ibzan's ambiguous
+Bethlehem) — those were left out as not clearly enough stated, per the
+Factual Accuracy section's "state disputed rather than picking a side"
+rule. Territory shared by more than one tribe (Gilead — Gad, Reuben, and
+half-Manasseh all held ground there) was also left out by default unless,
+as with Jair, an explicit verse resolves it. Genuinely disputed
+identifications (e.g. whether the genealogy in Zephaniah 1:1 names King
+Hezekiah) were left out for the same reason.
+
+**Data bugs found and fixed while building this (2026-08-10):**
+- `data/people.json`'s index entry for **Dinah** had `genealogy.father:
+  "jacob"` (the NT stub for Joseph-the-husband-of-Mary's father, Matthew
+  1:16) instead of `"israel"` (the patriarch) — her own per-person file
+  already had the correct value, so this was an index/file sync bug, not a
+  source-data error. Fixed by copying the correct value into the index.
+- **Gideon**'s `genealogy.father` was `"joash-3"` (King Joash of Judah,
+  2 Kings 11 — son Ahaziah, reigned centuries after the judges) instead of
+  `"joash"` (Joash the Abiezrite of Judges 6:11, whose own `children` field
+  already correctly listed Gideon) — a person_id collision on a common
+  name, the same category of bug as the `matthat`/`levi` and `sheba`/
+  `sheba-4` issues already documented in the Name Disambiguation section.
+  Fixed in both the index and `data/people/gideon.json`; this also
+  corrected Gideon's page, which had been linking to the wrong Joash.
+- **`jair-2`** (Judges 10:3-5, "Jair the Gileadite") was left with no
+  `tribe` — it's a separate person_id from `jair` (the Numbers 32:41 /
+  1 Chronicles 2:21-22 figure most scholars identify as the same person),
+  and Gilead's own multi-tribe territory makes the judge's tribe
+  unresolvable from the text alone under this section's rules. Worth
+  reconsidering together with a possible `jair`/`jair-2` merge in a future
+  genealogy-data cleanup pass, alongside the other open duplicate-id items
+  in the Name Disambiguation section.
+- **`mordecai`** (Ezra 2:2, a returnee leader listed alongside Zerubbabel)
+  carries a `disambiguation` of "father of Esther" that does not match the
+  text — Ezra 2:2's Mordecai returned from exile decades before Esther's
+  story and Ezra 2:2 never calls him her father. This looks like a
+  conflation with `mordecai-2` (Esther's Mordecai, Esther 2:5-22, who
+  correctly got the `tribe: Benjamin` assignment here). Not fixed here —
+  flagged for the same cleanup pass as the item above; `mordecai` was left
+  with no `tribe` rather than assigning one under a muddled identity.
+
+---
+
 ## Genealogy / Connections Graph
 
 - Every person (full or stub) participates in the connections/genealogy

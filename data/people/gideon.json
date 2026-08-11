@@ -14,7 +14,7 @@
   ],
   "first_reference": "Judges 6:1-40",
   "genealogy": {
-    "father": "joash-3",
+    "father": "joash",
     "mother": null,
     "spouses": [],
     "children": [
@@ -64,5 +64,9 @@
   "name_meaning": {
     "meaning": "He that bruises or breaks; a destroyer",
     "language": "Hebrew"
+  },
+  "tribe": {
+    "name": "Manasseh",
+    "reference": "Judges 6:15"
   }
 }
