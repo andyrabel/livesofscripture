@@ -208,6 +208,10 @@ header.site-header h1 a {
   text-decoration: none;
 }
 
+.brand-block {
+  min-width: 0;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -217,6 +221,13 @@ header.site-header h1 a {
 .brand-mark {
   display: block;
   flex-shrink: 0;
+}
+
+.brand-subtitle {
+  margin: 0.15rem 0 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: var(--color-text-muted);
 }
 
 header.site-header nav a {
