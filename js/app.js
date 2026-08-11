@@ -2670,6 +2670,12 @@ function showTimelinePersonTooltip(evt, p, mode) {
   const strong = document.createElement("strong");
   strong.textContent = p.name;
   el.appendChild(strong);
+  if (p.disambiguation) {
+    const disamb = document.createElement("span");
+    disamb.className = "timeline-tooltip__disambig";
+    disamb.textContent = p.disambiguation;
+    el.appendChild(disamb);
+  }
   el.appendChild(document.createTextNode(timelineLifespanLabel(p)));
   const meta = document.createElement("div");
   const kingdomLabel = timelineKingdomLabel(p.kingdom);

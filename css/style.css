@@ -1341,6 +1341,13 @@ body.connections-fullpage-active {
   margin-bottom: 0.15rem;
 }
 
+.timeline-tooltip__disambig {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.76rem;
+  opacity: 0.85;
+}
+
 .timeline-tooltip em {
   display: block;
   margin-top: 0.25rem;
