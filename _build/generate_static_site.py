@@ -1235,11 +1235,400 @@ def render_kings_and_prophets_legend():
     return f'<div class="kp-legend">{items}</div>'
 
 
+# ---------------------------------------------------------------------
+# "Two Genealogies of Jesus" chart (charts.html hub + charts/genealogies-of-jesus.html)
+# ---------------------------------------------------------------------
+
+# Matthew 1:2-16, Abraham to Joseph (husband of Mary) -- the "royal" line
+# through Solomon. Matthew's own text groups this into 3 sets of 14
+# generations (Matthew 1:17); the middle and final sets are stylized --
+# Matthew's text skips Ahaziah, Joash, and Amaziah between Joram and
+# Uzziah, and skips Jehoiakim between Josiah and Jeconiah (all fully
+# attested elsewhere, in 2 Kings) -- a well-known feature of the Hebrew
+# "father of" idiom used to hit a round count of 14, not a data error.
+# See GEN_DISPLAY_NAME_OVERRIDE for two spots where Matthew's own wording
+# (Joram, Jeconiah) differs from this site's canonical `name` field for
+# the same person (Jehoram, Jehoiachin).
+GEN_MATTHEW_LINE = [
+    "abraham", "isaac", "israel", "judah", "perez", "hezron-2", "ram",
+    "amminadab", "nahshon", "salmon", "boaz", "obed", "jesse", "david",
+    "solomon", "rehoboam", "abijah-3", "asa", "jehoshaphat-3", "jehoram",
+    "uzziah", "jotham-2", "ahaz", "hezekiah", "manasseh-3", "amon-2",
+    "josiah", "jehoiachin",
+    "shealtiel", "zerubbabel", "abihud-2", "eliakim-3", "azor", "zadok-7",
+    "achim", "eliud", "eleazar-9", "matthan", "jacob", "joseph-6",
+]
+
+# Luke 3:23-38, Adam to Joseph. Luke's text actually lists these in the
+# opposite direction (son back to father, ending "...the son of Adam, the
+# son of God") -- this list runs oldest-to-youngest instead, to lay out as
+# a family tree in the same direction as Matthew's list above. Luke's
+# Greek text (the reading behind both NASB and KJV) also names a second
+# "Cainan" between Arpachshad and Shelah (Luke 3:36) with no equivalent in
+# the Hebrew genealogies of Genesis 10-11 and so no person entry in this
+# dataset -- see GEN_LUKE_TEXT_ONLY_GAP and the chart page's own
+# disclaimer text, which states this as a textual difference rather than
+# silently resolving it either way (per CLAUDE.md's Factual Accuracy
+# rules).
+GEN_LUKE_LINE = [
+    "adam", "seth", "enosh", "kenan", "mahalalel", "jared", "enoch",
+    "methuselah", "lamech-2", "noah", "shem", "arpachshad", "shelah",
+    "eber", "peleg", "reu", "serug", "nahor", "terah",
+    "abraham", "isaac", "israel", "judah", "perez", "hezron-2", "ram",
+    "amminadab", "nahshon", "salmon", "boaz", "obed", "jesse", "david",
+    "nathan", "mattatha", "menna", "melea", "eliakim-4", "jonam",
+    "joseph-9", "judah-5", "simeon-3", "levi-3", "matthat-2", "jorim",
+    "eliezer-9", "joshua-5", "er-3", "elmadam", "cosam", "addi",
+    "melchi-2", "neri",
+    "shealtiel", "zerubbabel", "rhesa", "joanan", "joda", "josech",
+    "semein", "mattathias-2", "maath", "naggai", "hesli", "nahum-2",
+    "amos-2", "mattathias", "joseph-8", "jannai", "melchi", "levi-2",
+    "matthat", "eli-2", "joseph-6",
+]
+
+GEN_LUKE_TEXT_ONLY_GAP = {
+    "after": "arpachshad",
+    "name": "Cainan",
+    "reference": "Luke 3:36",
+}
+
+GEN_DISPLAY_NAME_OVERRIDE = {
+    "jehoram": "Joram",
+    "jehoiachin": "Jeconiah",
+}
+
+GEN_COLOR_VAR = {
+    "matthew": "var(--gen-matthew)",
+    "luke": "var(--gen-luke)",
+    "shared": "var(--gen-shared)",
+}
+GEN_LEGEND_LABEL = {
+    "matthew": "Named only in Matthew’s genealogy (Matthew 1:1-16)",
+    "luke": "Named only in Luke’s genealogy (Luke 3:23-38)",
+    "shared": "Named in both genealogies",
+}
+
+
+def gen_shared_ids():
+    return set(GEN_MATTHEW_LINE) & set(GEN_LUKE_LINE)
+
+
+def gen_line_for(pid, shared):
+    if pid in shared:
+        return "shared"
+    if pid in GEN_MATTHEW_LINE:
+        return "matthew"
+    return "luke"
+
+
+def gen_slice_between(line, start_id, end_id):
+    """person_ids strictly between two anchors in an ordered genealogy line."""
+    i0 = line.index(start_id)
+    i1 = line.index(end_id)
+    return line[i0 + 1:i1]
+
+
+def gen_display_name(pid, index_by_id):
+    return GEN_DISPLAY_NAME_OVERRIDE.get(pid, index_by_id.get(pid, pid))
+
+
+def render_genealogies_svg(index_by_id, ref_by_id):
+    shared = gen_shared_ids()
+    box_w, box_h, term_h = 170, 36, 46
+    center_cx, left_cx, right_cx = 340, 140, 540
+    total_w = 680
+    parts = []
+    node_pos = {}
+
+    def box(key, pid, cx, top_y, linekey, height=box_h, display=None, linked=True, note=None):
+        name = display or gen_display_name(pid, index_by_id) if pid else display
+        ref = ref_by_id.get(pid, "") if pid else ""
+        color = GEN_COLOR_VAR[linekey]
+        href = f"../people/{pid}.html" if (linked and pid) else None
+        label_class = "gen-node-terminus-label" if height != box_h else "gen-node-label"
+        node_class = "gen-node-terminus" if height != box_h else "gen-node"
+        title = f"{name} — {esc(note or GEN_LEGEND_LABEL[linekey])}" + (f" ({ref})" if ref else "")
+        rect = (
+            f'<rect x="{cx - box_w / 2:.1f}" y="{top_y:.1f}" width="{box_w}" height="{height}" rx="6" '
+            f'fill="{color}" class="{node_class}" tabindex="0" '
+            f'data-name="{esc(name)}" data-note="{esc(note or GEN_LEGEND_LABEL[linekey])}" '
+            f'data-reference="{esc(ref)}">'
+            f'<title>{title}</title></rect>'
+        )
+        text = (
+            f'<text x="{cx:.1f}" y="{top_y + height / 2 + 4:.1f}" class="{label_class}" '
+            f'text-anchor="middle">{esc(name)}</text>'
+        )
+        if href:
+            parts.append(f'<a href="{href}">{rect}{text}</a>')
+        else:
+            parts.append(rect + text)
+        node_pos[key] = {"cx": cx, "top": top_y, "bottom": top_y + height, "mid": top_y + height / 2}
+
+    def vline(x, y1, y2, colorkey="shared", dashed=False):
+        cls = "gen-connector-marriage" if dashed else "gen-connector"
+        stroke = f' stroke="{GEN_COLOR_VAR[colorkey]}"' if colorkey != "shared" else ""
+        parts.append(f'<line x1="{x:.1f}" y1="{y1:.1f}" x2="{x:.1f}" y2="{y2:.1f}" class="{cls}"{stroke} />')
+
+    def dline(x1, y1, x2, y2):
+        parts.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" class="gen-connector" />')
+
+    def collapsed_label(cx, y1, y2, colorkey, count, noun, ref_range):
+        vline(cx, y1, y2, colorkey)
+        mid = (y1 + y2) / 2
+        parts.append(
+            f'<text x="{cx:.1f}" y="{mid - 4:.1f}" class="gen-connector-label" text-anchor="middle">'
+            f'{esc(f"{count} more {noun}")}</text>'
+        )
+        parts.append(
+            f'<text x="{cx:.1f}" y="{mid + 9:.1f}" class="gen-connector-label" text-anchor="middle">'
+            f'{esc(ref_range)}</text>'
+        )
+
+    def column_label(cx, y, colorkey, text):
+        parts.append(
+            f'<text x="{cx:.1f}" y="{y:.1f}" class="gen-column-label" fill="{GEN_COLOR_VAR[colorkey]}" '
+            f'text-anchor="middle">{esc(text)}</text>'
+        )
+
+    y = 20
+
+    # Adam -- Luke-only pre-Abraham trunk
+    box("adam", "adam", center_cx, y, "luke")
+    y1 = node_pos["adam"]["bottom"]
+    mid = gen_slice_between(GEN_LUKE_LINE, "adam", "abraham")
+    collapsed_label(center_cx, y1, y1 + 50, "luke", len(mid), "generations", "Genesis 5, 11 — Luke only")
+    y = y1 + 50
+
+    # Abraham -- shared
+    box("abraham", "abraham", center_cx, y, "shared")
+    y1 = node_pos["abraham"]["bottom"]
+    mid = gen_slice_between(GEN_MATTHEW_LINE, "abraham", "david")
+    collapsed_label(center_cx, y1, y1 + 50, "shared", len(mid), "generations", "Genesis; Ruth — named in both")
+    y = y1 + 50
+
+    # David -- shared, then splits
+    box("david", "david", center_cx, y, "shared")
+    y1 = node_pos["david"]["bottom"]
+    split_y = y1 + 26
+    dline(center_cx, y1, left_cx, split_y)
+    dline(center_cx, y1, right_cx, split_y)
+    column_label(left_cx, split_y - 4, "matthew", "Matthew’s line")
+    column_label(right_cx, split_y - 4, "luke", "Luke’s line")
+    y = split_y
+
+    # Solomon (Matthew) / Nathan (Luke)
+    box("solomon", "solomon", left_cx, y, "matthew")
+    box("nathan", "nathan", right_cx, y, "luke")
+    y1 = node_pos["solomon"]["bottom"]
+    mid_m = gen_slice_between(GEN_MATTHEW_LINE, "solomon", "jehoiachin")
+    mid_l = gen_slice_between(GEN_LUKE_LINE, "nathan", "neri")
+    collapsed_label(left_cx, y1, y1 + 50, "matthew", len(mid_m), "kings", "Matthew 1:7-11 only")
+    collapsed_label(right_cx, y1, y1 + 50, "luke", len(mid_l), "generations", "Luke 3:23-31 only")
+    y = y1 + 50
+
+    # Jeconiah (Matthew) / Neri (Luke) -- both merge into Shealtiel
+    box("jeconiah", "jehoiachin", left_cx, y, "matthew", display="Jeconiah")
+    box("neri", "neri", right_cx, y, "luke")
+    y1 = node_pos["jeconiah"]["bottom"]
+    merge_y = y1 + 26
+    dline(left_cx, y1, center_cx, merge_y)
+    dline(right_cx, y1, center_cx, merge_y)
+    y = merge_y
+
+    # Shealtiel, Zerubbabel -- shared, then split again
+    box("shealtiel", "shealtiel", center_cx, y, "shared")
+    y1 = node_pos["shealtiel"]["bottom"]
+    vline(center_cx, y1, y1 + 22, "shared")
+    y = y1 + 22
+    box("zerubbabel", "zerubbabel", center_cx, y, "shared")
+    y1 = node_pos["zerubbabel"]["bottom"]
+    split_y = y1 + 26
+    dline(center_cx, y1, left_cx, split_y)
+    dline(center_cx, y1, right_cx, split_y)
+    column_label(left_cx, split_y - 4, "matthew", "Matthew’s line")
+    column_label(right_cx, split_y - 4, "luke", "Luke’s line")
+    y = split_y
+
+    # Abihud (Matthew) / Rhesa (Luke)
+    box("abihud", "abihud-2", left_cx, y, "matthew")
+    box("rhesa", "rhesa", right_cx, y, "luke")
+    y1 = node_pos["abihud"]["bottom"]
+    mid_m = gen_slice_between(GEN_MATTHEW_LINE, "abihud-2", "jacob")
+    mid_l = gen_slice_between(GEN_LUKE_LINE, "rhesa", "eli-2")
+    collapsed_label(left_cx, y1, y1 + 50, "matthew", len(mid_m), "generations", "Matthew 1:13-15 only")
+    collapsed_label(right_cx, y1, y1 + 50, "luke", len(mid_l), "generations", "Luke 3:23-27 only")
+    y = y1 + 50
+
+    # Jacob (Matthew) / Eli (Luke) -- both merge into Joseph
+    box("jacob", "jacob", left_cx, y, "matthew")
+    box("eli", "eli-2", right_cx, y, "luke")
+    y1 = node_pos["jacob"]["bottom"]
+    merge_y = y1 + 26
+    dline(left_cx, y1, center_cx, merge_y)
+    dline(right_cx, y1, center_cx, merge_y)
+    y = merge_y
+
+    # Joseph (shared terminus of both male lines) + Mary (named only in
+    # Matthew's genealogy text, Matthew 1:16) as a side node joined by a
+    # dashed marriage line, both flowing down into Jesus.
+    box("joseph", "joseph-6", center_cx, y, "shared",
+        note="Named at the end of both genealogies — Matthew 1:16; Luke 3:23")
+    box("mary", "mary", right_cx, y, "matthew", note="Named only in Matthew’s genealogy — Matthew 1:16")
+    jy = node_pos["joseph"]
+    my = node_pos["mary"]
+    parts.append(
+        f'<line x1="{jy["cx"] + box_w / 2:.1f}" y1="{jy["mid"]:.1f}" x2="{my["cx"] - box_w / 2:.1f}" '
+        f'y2="{my["mid"]:.1f}" class="gen-connector-marriage" />'
+    )
+    y1 = jy["bottom"]
+    merge_y = y1 + 34
+    dline(center_cx, y1, center_cx, merge_y)
+    dline(right_cx, my["bottom"], center_cx, merge_y)
+    y = merge_y
+
+    # Jesus -- both genealogies converge here (Matthew 1:16; Luke 3:23).
+    # No person_id links this node: this dataset's "jesus" entry is a
+    # different New Testament figure ("Jesus who is called Justus",
+    # Colossians 4:11) -- see the chart page's disclaimer.
+    box("jesus", None, center_cx, y, "shared", height=term_h, display="Jesus",
+        linked=False, note="Both genealogies converge here — Matthew 1:16; Luke 3:23")
+
+    total_h = node_pos["jesus"]["bottom"] + 20
+    header = (
+        f'<svg id="gen-chart-svg" viewBox="0 0 {total_w} {total_h:.0f}" width="{total_w}" height="{total_h:.0f}" '
+        f'role="img" aria-label="The two genealogies of Jesus, from Matthew 1 and Luke 3, shown as one '
+        f'joined family tree" xmlns="http://www.w3.org/2000/svg" class="gen-chart-svg">'
+    )
+    return header + "\n" + "\n".join(parts) + "\n</svg>"
+
+
+def render_genealogies_legend():
+    items = "\n    ".join(
+        f'<span class="gen-legend-item"><span class="gen-legend-swatch" style="background:{GEN_COLOR_VAR[key]}"></span>{esc(label)}</span>'
+        for key, label in GEN_LEGEND_LABEL.items()
+    )
+    return f'<div class="gen-legend">{items}</div>'
+
+
+def render_genealogies_table(line, gospel_label, index_by_id, ref_by_id, text_only_gap=None):
+    rows = []
+    for pid in line:
+        if text_only_gap and pid == text_only_gap["after"]:
+            rows.append(
+                f'<tr><td>{esc(text_only_gap["name"])}</td>'
+                f'<td>{esc(text_only_gap["reference"])}</td>'
+                f'<td class="gen-table-note">Named in the Greek text (NASB, KJV) but not in the Hebrew '
+                f'genealogies of Genesis 10–11 — no person entry in this dataset.</td></tr>'
+            )
+        name = gen_display_name(pid, index_by_id)
+        ref = ref_by_id.get(pid, "")
+        rows.append(
+            f'<tr><td><a href="../people/{pid}.html">{esc(name)}</a></td>'
+            f'<td>{esc(ref)}</td><td></td></tr>'
+        )
+    body = "\n    ".join(rows)
+    return f"""<details class="kp-table-details">
+    <summary>View {esc(gospel_label)}'s full list</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Name</th><th>First reference</th><th>Note</th></tr></thead>
+      <tbody>
+    {body}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_genealogies_chart_page(index_by_id, ref_by_id):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/genealogies-of-jesus.html"
+    title = "The Two Genealogies of Jesus — Lives of Scripture"
+    description = "Matthew's and Luke's genealogies of Jesus, compared and joined on one family-tree chart."
+
+    svg = render_genealogies_svg(index_by_id, ref_by_id)
+    legend = render_genealogies_legend()
+    matthew_table = render_genealogies_table(GEN_MATTHEW_LINE, "Matthew", index_by_id, ref_by_id)
+    luke_table = render_genealogies_table(GEN_LUKE_LINE, "Luke", index_by_id, ref_by_id, GEN_LUKE_TEXT_ONLY_GAP)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>The Two Genealogies of Jesus</h2>
+  <p class="page-intro">Matthew 1:1-16 and Luke 3:23-38 both trace Jesus' descent back through David and
+  Abraham, but by different routes. This chart lays both out as one joined family tree: where they run
+  through the same names, where each has its own line, and the two places their lists rejoin.</p>
+
+  <p class="kp-disclaimer">Both genealogies list Joseph, Mary's husband, as their final named generation
+  (Matthew 1:16; Luke 3:23) — but Matthew names Joseph's father as Jacob, while Luke names him as Eli
+  ("as was supposed," Luke 3:23). Scripture never states directly how the two fit together; two
+  harmonizations are traditionally offered — that Jacob and Eli were half-brothers joined by a levirate
+  marriage (so Joseph was Jacob's son by birth and Eli's by law), or that Luke traces Mary's own descent
+  through her father Eli, with Joseph named because a genealogy was reckoned through the husband. Both are
+  traditional harmonizations, not something the text states outright, so neither is asserted here as fact.
+  Two smaller textual points: some Luke manuscripts read a name ("Admin") between Amminadab and Ram in
+  Luke 3:33 that most manuscripts, and this chart, don't include; and Luke 3:36 names a second "Cainan"
+  between Arpachshad and Shelah that has no counterpart in Genesis 10–11's Hebrew text — see the note
+  in Luke's full list below. This dataset does not yet have a dedicated profile page for Jesus himself
+  (the person_id "jesus" belongs to a different New Testament figure, "Jesus who is called Justus,"
+  Colossians 4:11), so the final "Jesus" box below is not a link.</p>
+
+  {legend}
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {matthew_table}
+
+  {luke_table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initGenChartTooltips();</script>
+</body>
+</html>
+"""
+
+
 def build_charts_list_page():
     base = ""
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
-    description = "Visual charts across the whole dataset, starting with the kings of Israel and Judah and the prophets active in their reigns."
+    description = "Visual charts across the whole dataset, including the kings of Israel and Judah and the two genealogies of Jesus."
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1274,14 +1663,18 @@ def build_charts_list_page():
 
 <main>
   <h2>Charts</h2>
-  <p class="page-intro">Visual charts across the whole dataset. Starting with one: the kings of the
-  United and Divided Monarchy alongside the prophets active in the same period.</p>
+  <p class="page-intro">Visual charts across the whole dataset.</p>
 
   <div class="person-grid">
     <a class="person-card" href="{base}charts/kings-and-prophets.html">
       <div class="name"><strong>Kings &amp; Prophets of the Monarchy</strong></div>
       <p class="chart-card-desc">Every king of the United Kingdom, Israel, and Judah, and every prophet
       active in that period, laid out on one timeline.</p>
+    </a>
+    <a class="person-card" href="{base}charts/genealogies-of-jesus.html">
+      <div class="name"><strong>The Two Genealogies of Jesus</strong></div>
+      <p class="chart-card-desc">Matthew's and Luke's genealogies of Jesus, compared and joined on one
+      family-tree chart.</p>
     </a>
   </div>
 </main>
@@ -1400,6 +1793,7 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/churches.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/genealogies-of-jesus.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -1453,6 +1847,7 @@ def main():
     connections = json.loads((ROOT / "data" / "connections.json").read_text())
     churches = json.loads((ROOT / "data" / "nt_churches.json").read_text())["churches"]
     index_by_id = {e["person_id"]: e["name"] for e in index}
+    ref_by_id = {e["person_id"]: e.get("first_reference", "") for e in index}
     gender_by_id = {e["person_id"]: e.get("gender") for e in index}
     full_people_by_name = build_full_people_by_name(index)
     church_membership_by_person = build_church_membership_index(churches, index_by_id)
@@ -1485,6 +1880,7 @@ def main():
     charts_dir.mkdir(exist_ok=True)
     kp_rows, kp_unplotted = collect_kings_and_prophets()
     (charts_dir / "kings-and-prophets.html").write_text(build_kings_and_prophets_chart_page(kp_rows, kp_unplotted))
+    (charts_dir / "genealogies-of-jesus.html").write_text(build_genealogies_chart_page(index_by_id, ref_by_id))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
     build_sitemap(index, churches)

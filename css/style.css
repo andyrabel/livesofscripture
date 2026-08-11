@@ -39,6 +39,18 @@
   --kp-judah: #a83e3e;
   --kp-assyria: #6c4fa8;
 
+  /* Two-slot categorical palette for the "Two Genealogies of Jesus" chart
+     (validated via the dataviz skill's six-checks script, light+dark, this
+     pair only -- a fresh pair rather than reusing --kp-united/--kp-israel,
+     since this chart's legend is orthogonal to the Kings & Prophets one and
+     could in principle render alongside it). --gen-shared is deliberately a
+     low-chroma neutral, not a third categorical hue: it marks "named in
+     both genealogies" rather than a third competing identity, the same
+     role a neutral gray plays as a diverging-palette midpoint. */
+  --gen-matthew: #eb6834;
+  --gen-luke: #2a78d6;
+  --gen-shared: #8a8272;
+
   /* Categorical tribe palette for the timeline lifespan chart -- one of the
      twelve tribes of Israel (Ephraim/Manasseh standing in for Joseph, per
      CLAUDE.md's Tribal Affiliation section), plus a catch-all "other" for
@@ -100,6 +112,9 @@
     --kp-israel: #4a86c9;
     --kp-judah: #c9584f;
     --kp-assyria: #8a6cc9;
+    --gen-matthew: #d95926;
+    --gen-luke: #3987e5;
+    --gen-shared: #a89f8a;
     --tribe-reuben: #008daa;
     --tribe-simeon: #bd5458;
     --tribe-levi: #0682c2;
@@ -146,6 +161,9 @@
   --kp-israel: #4a86c9;
   --kp-judah: #c9584f;
   --kp-assyria: #8a6cc9;
+  --gen-matthew: #d95926;
+  --gen-luke: #3987e5;
+  --gen-shared: #a89f8a;
   --tribe-reuben: #008daa;
   --tribe-simeon: #bd5458;
   --tribe-levi: #0682c2;
@@ -191,6 +209,9 @@
   --kp-israel: #2f6fb0;
   --kp-judah: #a83e3e;
   --kp-assyria: #6c4fa8;
+  --gen-matthew: #eb6834;
+  --gen-luke: #2a78d6;
+  --gen-shared: #8a8272;
   --tribe-reuben: #0094b3;
   --tribe-simeon: #c6585d;
   --tribe-levi: #0588cb;
@@ -2425,4 +2446,94 @@ header.site-header nav a.nav-cta:hover {
 .kp-tooltip strong {
   display: block;
   margin-bottom: 0.15rem;
+}
+
+/* Two Genealogies of Jesus chart (charts.html, charts/genealogies-of-jesus.html) */
+
+.gen-chart-svg {
+  display: block;
+  font-family: var(--font-sans);
+}
+
+.gen-node {
+  stroke: var(--color-surface);
+  stroke-width: 2;
+  cursor: pointer;
+}
+
+.gen-node:hover,
+.gen-node:focus {
+  opacity: 0.82;
+  outline: none;
+}
+
+.gen-node-terminus {
+  stroke: var(--color-surface);
+  stroke-width: 2;
+}
+
+.gen-node-label {
+  fill: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.gen-node-terminus-label {
+  fill: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.gen-connector {
+  stroke: var(--color-text-muted);
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.gen-connector-marriage {
+  stroke: var(--color-text-muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  fill: none;
+}
+
+.gen-connector-label {
+  fill: var(--color-text-muted);
+  font-size: 9.5px;
+  pointer-events: none;
+}
+
+.gen-column-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.gen-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.gen-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gen-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.gen-table-note {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  white-space: normal;
 }

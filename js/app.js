@@ -222,6 +222,50 @@ function initKpChartTooltips() {
   });
 }
 
+// Same pattern as initKpChartTooltips() above, for the server-rendered "Two
+// Genealogies of Jesus" SVG chart (charts/genealogies-of-jesus.html) --
+// native <title> tooltips + the two full-list tables below the chart both
+// work with JS off, this only adds the nicer positioned HTML tooltip.
+function initGenChartTooltips() {
+  const nodes = document.querySelectorAll(".gen-node, .gen-node-terminus");
+  if (!nodes.length) return;
+
+  const tooltip = document.createElement("div");
+  tooltip.className = "kp-tooltip";
+  tooltip.hidden = true;
+  document.body.appendChild(tooltip);
+
+  function show(node, x, y) {
+    tooltip.textContent = "";
+    const strong = document.createElement("strong");
+    strong.textContent = node.dataset.name;
+    tooltip.appendChild(strong);
+    const detail = node.dataset.reference
+      ? `${node.dataset.note} (${node.dataset.reference})`
+      : node.dataset.note;
+    tooltip.appendChild(document.createTextNode(detail));
+    tooltip.hidden = false;
+    const pad = 12;
+    tooltip.style.left = `${Math.min(x + pad, window.innerWidth - tooltip.offsetWidth - pad)}px`;
+    tooltip.style.top = `${Math.max(y - tooltip.offsetHeight - pad, pad)}px`;
+  }
+
+  function hide() {
+    tooltip.hidden = true;
+  }
+
+  nodes.forEach((node) => {
+    node.addEventListener("pointermove", (evt) => show(node, evt.clientX, evt.clientY));
+    node.addEventListener("pointerenter", (evt) => show(node, evt.clientX, evt.clientY));
+    node.addEventListener("pointerleave", hide);
+    node.addEventListener("focus", () => {
+      const rect = node.getBoundingClientRect();
+      show(node, rect.left, rect.top);
+    });
+    node.addEventListener("blur", hide);
+  });
+}
+
 // Full-screen zoomable view of the Kings & Prophets SVG chart, for readers
 // who find the inline chart's native size too small -- it's real vector
 // content (not a raster image), so scaling it up via width/height keeps
