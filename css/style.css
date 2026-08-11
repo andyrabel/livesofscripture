@@ -600,6 +600,11 @@ main {
   font-size: 0.92rem;
 }
 
+.connections-list__christ {
+  font-weight: 600;
+  color: var(--color-accent-strong);
+}
+
 .disambiguation-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

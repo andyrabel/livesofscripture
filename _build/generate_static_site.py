@@ -257,12 +257,41 @@ def genealogy_section(person, index_by_id, base):
   </section>"""
 
 
+CHRIST_CONNECTION_LABELS = {
+    "ancestor": "Ancestor of Christ",
+    "family": "Family of Christ",
+    "apostle": "Apostle of Christ",
+    "disciple": "Disciple of Christ",
+    "forerunner": "Forerunner of Christ",
+    "type": "A type of Christ",
+    "prophecy": "Prophesied of Christ",
+    "witness": "Witness to Christ",
+}
+
+
+def christ_connection_lines(person):
+    """Bible-explicit connections to Christ (see CLAUDE.md's Coverage and
+    Two-Tier Depth section, "christ_connections reintroduced 2026-08-10").
+    Rendered first in the Connections list, ahead of person-to-person edges,
+    since these matter most and there are rarely more than a couple."""
+    conns = person.get("christ_connections") or []
+    lines = []
+    for c in conns:
+        label = CHRIST_CONNECTION_LABELS.get(c.get("type"), esc((c.get("type") or "").capitalize()))
+        ref = c.get("reference", "")
+        lines.append(f'<li class="connections-list__christ">{esc(label)} ({esc(ref)})</li>')
+    return lines
+
+
 def connections_section(person, index_by_id, gender_by_id, connections, base):
     pid = person["person_id"]
     related = [e for e in connections if e["from"] == pid or e["to"] == pid]
-    if not related:
+    christ_lines = christ_connection_lines(person)
+    if not related and not christ_lines:
         return ""
-    items = "\n    ".join(connection_edge_line(e, index_by_id, gender_by_id, base) for e in related)
+    items = "\n    ".join(
+        christ_lines + [connection_edge_line(e, index_by_id, gender_by_id, base) for e in related]
+    )
     return f"""<section>
     <h3>Connections</h3>
     <ul class="connections-list">
