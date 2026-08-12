@@ -20,6 +20,7 @@ committed generated output is stale; the workflow does not commit or push.
 """
 import html
 import json
+import math
 import re
 from pathlib import Path
 
@@ -1640,11 +1641,467 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 """
 
 
+# ---------------------------------------------------------------------
+# "The Twelve Tribes, By Mother" chart (charts.html hub + charts/twelve-tribes.html)
+# ---------------------------------------------------------------------
+
+# Tribe -> (mother key, birth-order index within that mother), used only to
+# group and shade this sunburst -- see CLAUDE.md's Tribal Affiliation
+# section for how the underlying `tribe` field itself is curated. Order
+# within each mother follows Genesis 29-30 (Leah's own sons, then the two
+# handmaids' sons, born while Leah and Rachel were each giving Jacob their
+# maid). Manasseh is listed before Ephraim here to match their actual birth
+# order (Genesis 41:51-52), even though Jacob's blessing later reverses
+# their precedence (Genesis 48:14-20) and TIMELINE_TRIBES in js/app.js
+# lists Ephraim first for that reason -- the two lists are independent.
+TRIBE_MOTHER = {
+    "Reuben": ("leah", 0), "Simeon": ("leah", 1), "Levi": ("leah", 2), "Judah": ("leah", 3),
+    "Issachar": ("leah", 4), "Zebulun": ("leah", 5),
+    "Benjamin": ("rachel", 0), "Manasseh": ("rachel", 1), "Ephraim": ("rachel", 2),
+    "Dan": ("bilhah", 0), "Naphtali": ("bilhah", 1),
+    "Gad": ("zilpah", 0), "Asher": ("zilpah", 1),
+}
+TRIBE_N_IN_MOTHER = {"leah": 6, "rachel": 3, "bilhah": 2, "zilpah": 2}
+
+# Fresh names for this chart's inner ring, reusing the existing era
+# palette's hex values (era-patriarchal/exodus/judges/united-monarchy)
+# rather than the --tribe-* colors one ring further out -- a mother and her
+# own tribes would otherwise fight for the same hue family. Never displayed
+# alongside the era-coded charts that own those hex values, so the reuse is
+# safe (same precedent as --gen-matthew/--gen-luke reusing
+# --era-exodus/--era-patriarchal's hex under this chart's own name).
+TRIBE_MOTHERS = [
+    {"key": "leah", "label": "Leah", "color": "var(--era-patriarchal)",
+     "desc": "Jacob's first wife, Laban's elder daughter (Genesis 29:16-35)"},
+    {"key": "rachel", "label": "Rachel", "color": "var(--era-exodus)",
+     "desc": "Jacob's beloved wife, Laban's younger daughter (Genesis 29:16-30)"},
+    {"key": "bilhah", "label": "Bilhah", "color": "var(--era-judges)",
+     "desc": "Rachel's maid, given to Jacob (Genesis 30:1-8)"},
+    {"key": "zilpah", "label": "Zilpah", "color": "var(--era-united-monarchy)",
+     "desc": "Leah's maid, given to Jacob (Genesis 30:9-13)"},
+]
+
+# Reuses the site's existing per-tribe --tribe-* palette (css/style.css),
+# already validated and already the color key on timeline.html's tribe
+# filter, so a tribe reads the same color on both charts. That palette's
+# fixed adjacency order (see the CSS comment above --tribe-reuben) doesn't
+# match this chart's mother-grouped layout, which puts some non-adjacent
+# tribes next to each other; every arc and leaf here carries its own text
+# label, the same mitigation timeline.html's own comment already relies on
+# for its packed, chronologically-ordered bars.
+TRIBE_COLOR_VAR = {name: f"var(--tribe-{name.lower()})" for name in TRIBE_MOTHER}
+
+TRIBE_MEGA_THRESHOLD = 15  # tribes above this many people become a solid band, not individual spokes
+
+TRIBE_CX = TRIBE_CY = 430
+TRIBE_HUB_R = 82
+TRIBE_MOTHER_R0, TRIBE_MOTHER_R1 = 100, 148
+TRIBE_TRIBE_R0, TRIBE_TRIBE_R1 = 148, 194
+TRIBE_MEGA_R1 = TRIBE_TRIBE_R1 + 78
+TRIBE_LEAF_DOT_R = 320
+TRIBE_LEAF_LABEL_R = 330
+TRIBE_MOTHER_GAP = 2.2
+TRIBE_GAP = 1.0
+
+
+def collect_tribes():
+    """Every full-tier person with a curated `tribe` field (CLAUDE.md's
+    Tribal Affiliation section), grouped by tribe name. Reads the per-person
+    files directly since the lightweight index only mirrors the tribe name,
+    not its reference."""
+    by_tribe = {}
+    people_dir = ROOT / "data" / "people"
+    for path in sorted(people_dir.glob("*.json")):
+        person = json.loads(path.read_text())
+        tribe = person.get("tribe")
+        if not tribe or tribe["name"] not in TRIBE_MOTHER:
+            continue
+        by_tribe.setdefault(tribe["name"], []).append({
+            "person_id": person["person_id"],
+            "name": person["name"],
+            "testament": person["testament"],
+            "reference": tribe["reference"],
+        })
+    for people in by_tribe.values():
+        people.sort(key=lambda p: (p["testament"] != "OT", p["name"]))
+    return by_tribe
+
+
+def tribe_polar(cx, cy, r, deg):
+    rad = math.radians(deg)
+    return cx + r * math.sin(rad), cy - r * math.cos(rad)
+
+
+def tribe_arc_path(cx, cy, r0, r1, start, end):
+    x0a, y0a = tribe_polar(cx, cy, r0, start)
+    x1a, y1a = tribe_polar(cx, cy, r1, start)
+    x1b, y1b = tribe_polar(cx, cy, r1, end)
+    x0b, y0b = tribe_polar(cx, cy, r0, end)
+    large = 1 if (end - start) > 180 else 0
+    return (
+        f"M {x0a:.2f},{y0a:.2f} L {x1a:.2f},{y1a:.2f} "
+        f"A {r1:.2f},{r1:.2f} 0 {large} 1 {x1b:.2f},{y1b:.2f} "
+        f"L {x0b:.2f},{y0b:.2f} "
+        f"A {r0:.2f},{r0:.2f} 0 {large} 0 {x0a:.2f},{y0a:.2f} Z"
+    )
+
+
+def tribe_is_bottom(angle):
+    """For tangential (arc-following) ring labels -- mother/tribe/mega band
+    text runs along the arc at rotation `a`; left unflipped, the bottom
+    half of the circle reads upside-down, so add 180 degrees there."""
+    return 90 < (angle % 360) < 270
+
+
+def tribe_arc_label_fits(text, width_deg, radius, font_size):
+    """Whether a tangential band label fits the arc length available to it
+    -- reuses kp_text_width's rough glyph-width estimate (see the Kings &
+    Prophets chart above) against the arc's chord length at this radius.
+    Small tribes/mothers (e.g. Zilpah's 6 people, Asher's 2) get too narrow
+    an arc for their own name at any reasonable font size; skipping the
+    label there rather than letting it overflow into a neighboring band is
+    the same "selective direct labels" call already made for the mega-tribe
+    bands and the minor-tribe leaves -- the sidebar legend and hover tooltip
+    both still name every tribe."""
+    arc_length = 2 * math.pi * radius * (width_deg / 360)
+    return kp_text_width(text, font_size) + 6 <= arc_length
+
+
+def tribe_is_left(angle):
+    """For radial (outward-pointing) leaf labels -- text runs along the
+    radius at rotation `a - 90`; left unflipped, the left half of the
+    circle (not the bottom half -- a different boundary than
+    tribe_is_bottom above) reads mirrored instead of outward, so add 180
+    degrees (via `a + 90` and text-anchor "end") there."""
+    return 180 < (angle % 360) < 360
+
+
+def build_tribe_layout():
+    """Pure data: mother -> tribe -> person angular layout, proportional to
+    person counts at every level (a true nested sunburst). Tribes above
+    TRIBE_MEGA_THRESHOLD get no individual leaf positions (render_tribe_
+    sunburst_svg draws those as a solid band instead) since their per-leaf
+    angular width would be too thin to label radially at any reasonable
+    chart size."""
+    by_tribe = collect_tribes()
+
+    tribes = []
+    for name, (mother_key, order) in TRIBE_MOTHER.items():
+        people = by_tribe.get(name, [])
+        tribes.append({
+            "name": name, "mother": mother_key, "order": order,
+            "color": TRIBE_COLOR_VAR[name],
+            "is_mega": len(people) > TRIBE_MEGA_THRESHOLD,
+            "people": people, "n": len(people),
+        })
+    mother_order = [m["key"] for m in TRIBE_MOTHERS]
+    tribes.sort(key=lambda t: (mother_order.index(t["mother"]), t["order"]))
+
+    total_people = sum(t["n"] for t in tribes)
+    mother_totals = {m["key"]: 0 for m in TRIBE_MOTHERS}
+    for t in tribes:
+        mother_totals[t["mother"]] += t["n"]
+
+    total_gap = TRIBE_MOTHER_GAP * len(TRIBE_MOTHERS)
+    usable = 360 - total_gap
+    cursor = -90
+    mother_layout = {}
+    for m in TRIBE_MOTHERS:
+        frac = mother_totals[m["key"]] / total_people
+        width = usable * frac
+        mother_layout[m["key"]] = {"start": cursor, "end": cursor + width, "n": mother_totals[m["key"]]}
+        cursor += width + TRIBE_MOTHER_GAP
+
+    layout_tribes = []
+    for m in TRIBE_MOTHERS:
+        mkey = m["key"]
+        mstart, mend = mother_layout[mkey]["start"], mother_layout[mkey]["end"]
+        tribes_here = [t for t in tribes if t["mother"] == mkey]
+        inner_span = (mend - mstart) - TRIBE_GAP * len(tribes_here)
+        tcursor = mstart
+        for t in tribes_here:
+            tfrac = t["n"] / mother_totals[mkey] if mother_totals[mkey] else 0
+            twidth = inner_span * tfrac
+            t_start, t_end = tcursor, tcursor + twidth
+            tcursor += twidth + TRIBE_GAP
+
+            leaves = []
+            if not t["is_mega"] and t["n"] > 0:
+                step = (t_end - t_start) / t["n"]
+                for i, person in enumerate(t["people"]):
+                    leaves.append({**person, "angle": t_start + step * (i + 0.5)})
+
+            layout_tribes.append({**t, "start": t_start, "end": t_end, "leaves": leaves})
+
+    return {
+        "mothers": [{**m, **mother_layout[m["key"]]} for m in TRIBE_MOTHERS],
+        "tribes": layout_tribes,
+        "total_people": total_people,
+    }
+
+
+def render_tribe_sunburst_svg(layout):
+    cx, cy = TRIBE_CX, TRIBE_CY
+    aria = (f'Sunburst of {layout["total_people"]} biblical people grouped by mother '
+            f'(Leah, Rachel, Bilhah, Zilpah) and tribe')
+    parts = [
+        f'<svg id="tribe-chart-svg" viewBox="0 0 {cx*2} {cy*2}" width="{cx*2}" height="{cy*2}" '
+        f'role="img" aria-label="{esc(aria)}" xmlns="http://www.w3.org/2000/svg" class="tsun-chart-svg">'
+    ]
+
+    # mother band
+    parts.append("<g>")
+    for m in layout["mothers"]:
+        d = tribe_arc_path(cx, cy, TRIBE_MOTHER_R0, TRIBE_MOTHER_R1, m["start"], m["end"])
+        parts.append(f'<path class="tsun-mother-arc" d="{d}" fill="{m["color"]}"></path>')
+    parts.append("</g><g>")
+    for m in layout["mothers"]:
+        a = (m["start"] + m["end"]) / 2
+        r = (TRIBE_MOTHER_R0 + TRIBE_MOTHER_R1) / 2
+        width_deg = m["end"] - m["start"]
+        label_text = f'{m["label"]} · {m["n"]}'
+        font_size = 13.5
+        if not tribe_arc_label_fits(label_text, width_deg, r, font_size):
+            label_text = m["label"]
+        if tribe_arc_label_fits(label_text, width_deg, r, font_size):
+            x, y = tribe_polar(cx, cy, r, a)
+            rot = a if not tribe_is_bottom(a) else a + 180
+            parts.append(
+                f'<text class="tsun-mother-label" x="{x:.1f}" y="{y:.1f}" text-anchor="middle" '
+                f'transform="rotate({rot:.2f} {x:.1f} {y:.1f})" dominant-baseline="middle">'
+                f"{esc(label_text)}</text>"
+            )
+    parts.append("</g>")
+
+    # tribe band
+    parts.append("<g>")
+    for t in layout["tribes"]:
+        d = tribe_arc_path(cx, cy, TRIBE_TRIBE_R0, TRIBE_TRIBE_R1, t["start"], t["end"])
+        parts.append(f'<path class="tsun-tribe-arc" d="{d}" fill="{t["color"]}"></path>')
+    parts.append("</g><g>")
+    for t in layout["tribes"]:
+        a = (t["start"] + t["end"]) / 2
+        r = (TRIBE_TRIBE_R0 + TRIBE_TRIBE_R1) / 2
+        width_deg = t["end"] - t["start"]
+        fs = 10.5 if width_deg < 7 else 12.5
+        if tribe_arc_label_fits(t["name"], width_deg, r, fs):
+            x, y = tribe_polar(cx, cy, r, a)
+            rot = a if not tribe_is_bottom(a) else a + 180
+            parts.append(
+                f'<text class="tsun-tribe-label" x="{x:.1f}" y="{y:.1f}" text-anchor="middle" '
+                f'transform="rotate({rot:.2f} {x:.1f} {y:.1f})" dominant-baseline="middle" '
+                f'style="font-size:{fs}px">{esc(t["name"])}</text>'
+            )
+    parts.append("</g>")
+
+    # mega bands (Judah, Levi, Benjamin -- too many people to label radially)
+    parts.append("<g>")
+    for t in layout["tribes"]:
+        if not t["is_mega"]:
+            continue
+        d = tribe_arc_path(cx, cy, TRIBE_TRIBE_R1, TRIBE_MEGA_R1, t["start"], t["end"])
+        title = f'{t["n"]} people of the tribe of {t["name"]} — see the full list below the chart'
+        parts.append(
+            f'<path class="tsun-mega-arc" tabindex="0" data-tribe="{esc(t["name"])}" data-n="{t["n"]}" '
+            f'd="{d}" fill="{t["color"]}">'
+            f"<title>{esc(title)}</title></path>"
+        )
+        a = (t["start"] + t["end"]) / 2
+        r = (TRIBE_TRIBE_R1 + TRIBE_MEGA_R1) / 2
+        x, y = tribe_polar(cx, cy, r, a)
+        rot = a if not tribe_is_bottom(a) else a + 180
+        parts.append(
+            f'<text class="tsun-mega-label" x="{x:.1f}" y="{y:.1f}" text-anchor="middle" '
+            f'transform="rotate({rot:.2f} {x:.1f} {y:.1f})" dominant-baseline="middle">{t["n"]} people</text>'
+        )
+    parts.append("</g>")
+
+    # minor-tribe individual leaves, each linked to its person page
+    parts.append("<g>")
+    for t in layout["tribes"]:
+        if t["is_mega"]:
+            continue
+        for leaf in t["leaves"]:
+            a = leaf["angle"]
+            x0, y0 = tribe_polar(cx, cy, TRIBE_TRIBE_R1, a)
+            x1, y1 = tribe_polar(cx, cy, TRIBE_LEAF_DOT_R, a)
+            title = f'{leaf["name"]} — tribe of {t["name"]}, {leaf["reference"]}'
+            if leaf["testament"] == "NT":
+                dot = f'<circle class="tsun-leaf-dot" cx="{x1:.1f}" cy="{y1:.1f}" r="4" fill="{t["color"]}"></circle>'
+            else:
+                dot = (f'<circle class="tsun-leaf-dot-ot" cx="{x1:.1f}" cy="{y1:.1f}" r="4" '
+                       f'fill="var(--color-surface)" stroke="{t["color"]}"></circle>')
+            parts.append(
+                f'<a href="../people/{leaf["person_id"]}.html">'
+                f'<g class="tsun-leaf" tabindex="0" data-name="{esc(leaf["name"])}" '
+                f'data-tribe="{esc(t["name"])}" data-ref="{esc(leaf["reference"])}" '
+                f'data-testament="{leaf["testament"]}">'
+                f'<line class="tsun-leaf-hit" x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}"></line>'
+                f'<line class="tsun-leaf-spoke" x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" stroke="{t["color"]}"></line>'
+                f"{dot}"
+                f"<title>{esc(title)}</title>"
+                f"</g></a>"
+            )
+    parts.append("</g><g>")
+    for t in layout["tribes"]:
+        if t["is_mega"]:
+            continue
+        for leaf in t["leaves"]:
+            a = leaf["angle"]
+            x, y = tribe_polar(cx, cy, TRIBE_LEAF_LABEL_R, a)
+            left = tribe_is_left(a)
+            rot = a - 90 if not left else a + 90
+            anchor = "start" if not left else "end"
+            parts.append(
+                f'<text class="tsun-leaf-label" x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" '
+                f'transform="rotate({rot:.2f} {x:.1f} {y:.1f})" dominant-baseline="middle">{esc(leaf["name"])}</text>'
+            )
+    parts.append("</g>")
+
+    # hub
+    parts.append(
+        f'<g class="tsun-hub">'
+        f'<circle cx="{cx}" cy="{cy}" r="{TRIBE_HUB_R}"></circle>'
+        f'<text x="{cx}" y="{cy - 6}" text-anchor="middle" class="tsun-hub-title">JACOB</text>'
+        f'<text x="{cx}" y="{cy + 13}" text-anchor="middle" class="tsun-hub-sub">ISRAEL</text>'
+        f"</g>"
+    )
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_tribe_legend(layout):
+    rows = []
+    for m in layout["mothers"]:
+        chips = "\n      ".join(
+            f'<span class="tsun-chip"><span class="tsun-chip-dot" style="background:{t["color"]}"></span>'
+            f'{esc(t["name"])} <span class="tsun-chip-n">{t["n"]}</span></span>'
+            for t in layout["tribes"] if t["mother"] == m["key"]
+        )
+        rows.append(
+            f'<div class="tsun-legend-row">'
+            f'<div class="tsun-legend-head"><span class="tsun-swatch" style="background:{m["color"]}"></span>'
+            f'<span class="tsun-legend-name">{esc(m["label"])} <span class="tsun-legend-count">{m["n"]}</span></span></div>'
+            f'<span class="tsun-legend-desc">{esc(m["desc"])}</span>'
+            f'<div class="tsun-chips">{chips}</div>'
+            f"</div>"
+        )
+    return '<div class="tsun-legend">' + "\n    ".join(rows) + "</div>"
+
+
+def render_tribe_table(layout):
+    rows = []
+    for t in layout["tribes"]:
+        people = t["people"]
+        rows.append(f'<tr><th colspan="3">{esc(t["name"])} <span class="tsun-table-count">({len(people)})</span></th></tr>')
+        for p in people:
+            rows.append(
+                f'<tr><td><a href="../people/{p["person_id"]}.html">{esc(p["name"])}</a></td>'
+                f'<td>{esc(p["testament"])}</td><td>{esc(p["reference"])}</td></tr>'
+            )
+    body = "\n    ".join(rows)
+    return f"""<details class="kp-table-details">
+    <summary>View all {layout["total_people"]} people as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Name</th><th>Testament</th><th>Reference</th></tr></thead>
+      <tbody>
+    {body}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_tribe_sunburst_chart_page(layout):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/twelve-tribes.html"
+    title = "The Twelve Tribes, By Mother — Lives of Scripture"
+    description = (f'{layout["total_people"]} biblical people grouped by which of Jacob\'s four wives they '
+                    f"descend from, then by tribe, in one sunburst chart.")
+
+    svg = render_tribe_sunburst_svg(layout)
+    legend = render_tribe_legend(layout)
+    table = render_tribe_table(layout)
+    mega_names = ", ".join(t["name"] for t in layout["tribes"] if t["is_mega"])
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>The Twelve Tribes, By Mother</h2>
+  <p class="page-intro">{layout["total_people"]} people whose tribal descent Scripture states or the genealogy
+  record traces, grouped first by which of Jacob's four wives they descend from, then by tribe. This is
+  deliberately a minority of the site's full-tier people — see the disclaimer below.</p>
+
+  <p class="kp-disclaimer">Only people whose tribe Scripture states explicitly, or whose genealogy chain
+  traces back to one of the twelve tribal heads, carry this field — most full-tier people (pre-Jacob
+  patriarchs, Gentiles, foreign officials, and virtually every New Testament figure) simply have no tribe
+  the text ever states. {esc(mega_names)} are shown as solid bands rather than individual spokes — too many
+  people to label radially at a readable size — see the full list in the table below the chart. A tribe is
+  an Old Testament concept; the few New Testament figures here (open dots below) are people the NT text
+  itself states descend from that tribe, e.g. Anna of the tribe of Asher (Luke 2:36) and Paul of the tribe
+  of Benjamin (Philippians 3:5).</p>
+
+  {legend}
+
+  <div class="kp-legend-row">
+    <span class="tsun-testament-key"><span class="tsun-tk-dot tsun-tk-ot"></span> Old Testament
+      &nbsp;&nbsp;<span class="tsun-tk-dot tsun-tk-nt"></span> New Testament</span>
+    <button type="button" class="kp-chart-expand" id="tribe-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initTribeChartTooltips(); initChartLightbox("tribe-chart-expand", "tribe-chart-svg", "Twelve Tribes sunburst, enlarged");</script>
+</body>
+</html>
+"""
+
+
 def build_charts_list_page():
     base = ""
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
-    description = "Visual charts across the whole dataset, including the kings of Israel and Judah and the two genealogies of Jesus."
+    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, and the twelve tribes."
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1691,6 +2148,11 @@ def build_charts_list_page():
       <div class="name"><strong>The Two Genealogies of Jesus</strong></div>
       <p class="chart-card-desc">Matthew's and Luke's genealogies of Jesus, compared and joined on one
       family-tree chart.</p>
+    </a>
+    <a class="person-card" href="{base}charts/twelve-tribes.html">
+      <div class="name"><strong>The Twelve Tribes, By Mother</strong></div>
+      <p class="chart-card-desc">Every person whose tribe Scripture records, grouped by which of Jacob's
+      four wives they descend from, then by tribe, in one sunburst chart.</p>
     </a>
   </div>
 </main>
@@ -1810,6 +2272,7 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/charts.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/genealogies-of-jesus.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/twelve-tribes.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -1900,6 +2363,7 @@ def main():
     kp_rows, kp_unplotted = collect_kings_and_prophets()
     (charts_dir / "kings-and-prophets.html").write_text(build_kings_and_prophets_chart_page(kp_rows, kp_unplotted))
     (charts_dir / "genealogies-of-jesus.html").write_text(build_genealogies_chart_page(index_by_id, ref_by_id))
+    (charts_dir / "twelve-tribes.html").write_text(build_tribe_sunburst_chart_page(build_tribe_layout()))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
     build_sitemap(index, churches)

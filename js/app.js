@@ -266,14 +266,67 @@ function initGenChartTooltips() {
   });
 }
 
-// Full-screen zoomable view of the Kings & Prophets SVG chart, for readers
-// who find the inline chart's native size too small -- it's real vector
-// content (not a raster image), so scaling it up via width/height keeps
-// text crisp at any zoom level rather than pixelating like an <img> zoom
-// would.
-function initKpChartLightbox() {
-  const trigger = document.getElementById("kp-chart-expand");
-  const source = document.getElementById("kp-chart-svg");
+// Same pattern as initKpChartTooltips()/initGenChartTooltips() above, for
+// the server-rendered "Twelve Tribes, By Mother" sunburst
+// (charts/twelve-tribes.html) -- native <title> tooltips + the full-list
+// table below the chart both work with JS off, this only adds the nicer
+// positioned HTML tooltip. Only .tsun-leaf (the minor-tribe individual
+// spokes) and .tsun-mega-arc (the Judah/Levi/Benjamin mass bands) carry
+// tooltip data -- the mother/tribe band labels are already always visible
+// as text, so don't need one.
+function initTribeChartTooltips() {
+  const nodes = document.querySelectorAll(".tsun-leaf, .tsun-mega-arc");
+  if (!nodes.length) return;
+
+  const tooltip = document.createElement("div");
+  tooltip.className = "kp-tooltip";
+  tooltip.hidden = true;
+  document.body.appendChild(tooltip);
+
+  function show(node, x, y) {
+    tooltip.textContent = "";
+    const strong = document.createElement("strong");
+    const isMega = node.classList.contains("tsun-mega-arc");
+    strong.textContent = isMega ? `Tribe of ${node.dataset.tribe}` : node.dataset.name;
+    tooltip.appendChild(strong);
+    const detail = isMega
+      ? `${node.dataset.n} people — see the full list below the chart`
+      : `Tribe of ${node.dataset.tribe} — ${node.dataset.testament === "OT" ? "Old Testament" : "New Testament"} — ${node.dataset.ref}`;
+    tooltip.appendChild(document.createTextNode(detail));
+    tooltip.hidden = false;
+    const pad = 12;
+    tooltip.style.left = `${Math.min(x + pad, window.innerWidth - tooltip.offsetWidth - pad)}px`;
+    tooltip.style.top = `${Math.max(y - tooltip.offsetHeight - pad, pad)}px`;
+  }
+
+  function hide() {
+    tooltip.hidden = true;
+  }
+
+  nodes.forEach((node) => {
+    node.addEventListener("pointermove", (evt) => show(node, evt.clientX, evt.clientY));
+    node.addEventListener("pointerenter", (evt) => show(node, evt.clientX, evt.clientY));
+    node.addEventListener("pointerleave", hide);
+    node.addEventListener("focus", () => {
+      const rect = node.getBoundingClientRect();
+      show(node, rect.left, rect.top);
+    });
+    node.addEventListener("blur", hide);
+  });
+}
+
+// Full-screen zoomable view of a server-rendered SVG chart, for readers who
+// find the inline chart's native size too small -- it's real vector content
+// (not a raster image), so scaling it up via width/height keeps text crisp
+// at any zoom level rather than pixelating like an <img> zoom would.
+// Originally written just for the Kings & Prophets chart (hence the
+// "kp-chart-lightbox-*" CSS class names, kept as-is rather than renamed to
+// avoid a pure-rename diff); initKpChartLightbox() below is a thin wrapper
+// kept for that one call site, and charts/twelve-tribes.html calls this
+// directly with its own element ids.
+function initChartLightbox(triggerId, sourceId, dialogLabel) {
+  const trigger = document.getElementById(triggerId);
+  const source = document.getElementById(sourceId);
   if (!trigger || !source) return;
 
   const viewBox = source.viewBox.baseVal;
@@ -287,7 +340,7 @@ function initKpChartLightbox() {
     overlay.className = "kp-chart-lightbox-overlay";
     overlay.setAttribute("role", "dialog");
     overlay.setAttribute("aria-modal", "true");
-    overlay.setAttribute("aria-label", "Kings and Prophets chart, enlarged");
+    overlay.setAttribute("aria-label", dialogLabel);
 
     const toolbar = document.createElement("div");
     toolbar.className = "kp-chart-lightbox-toolbar";
@@ -355,6 +408,10 @@ function initKpChartLightbox() {
     applyScale();
     closeBtn.focus();
   });
+}
+
+function initKpChartLightbox() {
+  initChartLightbox("kp-chart-expand", "kp-chart-svg", "Kings and Prophets chart, enlarged");
 }
 
 function initPortraitLightbox() {

@@ -2539,3 +2539,230 @@ header.site-header nav a.nav-cta:hover {
   font-size: 0.78rem;
   white-space: normal;
 }
+
+/* The Twelve Tribes, By Mother chart (charts.html, charts/twelve-tribes.html).
+   Reuses .kp-chart-scroll/.kp-chart-expand/.kp-table-details/.kp-table/
+   .table-scroll from the Kings & Prophets chart above rather than
+   redefining them -- only the "tsun-" (twelve-tribes-sunburst) prefixed
+   rules below are specific to this chart. Colors come from the --era-*
+   and --tribe-* variables already defined near the top of this file (see
+   TRIBE_MOTHERS/TRIBE_COLOR_VAR in _build/generate_static_site.py), applied
+   as fill/stroke attributes on the generated SVG, not redeclared here. */
+
+.tsun-chart-svg {
+  display: block;
+  font-family: var(--font-sans);
+}
+
+.tsun-mother-arc {
+  opacity: 0.24;
+  stroke: var(--color-surface);
+  stroke-width: 2.5;
+}
+
+.tsun-mother-label {
+  font-size: 13.5px;
+  font-weight: 700;
+  fill: var(--color-text);
+}
+
+.tsun-tribe-arc {
+  opacity: 0.6;
+  stroke: var(--color-surface);
+  stroke-width: 2;
+}
+
+.tsun-tribe-label {
+  font-weight: 600;
+  fill: #ffffff;
+}
+
+.tsun-mega-arc {
+  opacity: 0.85;
+  stroke: var(--color-surface);
+  stroke-width: 2;
+  cursor: default;
+  transition: opacity 0.1s ease;
+}
+
+.tsun-mega-arc:hover,
+.tsun-mega-arc:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.tsun-mega-label {
+  font-size: 11px;
+  font-weight: 600;
+  fill: #ffffff;
+  pointer-events: none;
+}
+
+.tsun-leaf-hit {
+  stroke: transparent;
+  stroke-width: 12;
+}
+
+.tsun-leaf-spoke {
+  stroke-width: 1.4;
+  opacity: 0.6;
+}
+
+.tsun-leaf-dot,
+.tsun-leaf-dot-ot {
+  transition: r 0.1s ease;
+}
+
+.tsun-leaf-dot-ot {
+  stroke-width: 2;
+}
+
+.tsun-leaf {
+  cursor: pointer;
+}
+
+.tsun-leaf:hover .tsun-leaf-spoke,
+.tsun-leaf:focus .tsun-leaf-spoke {
+  opacity: 1;
+}
+
+.tsun-leaf:hover .tsun-leaf-dot,
+.tsun-leaf:focus .tsun-leaf-dot,
+.tsun-leaf:hover .tsun-leaf-dot-ot,
+.tsun-leaf:focus .tsun-leaf-dot-ot {
+  r: 6;
+  outline: none;
+}
+
+.tsun-leaf-label {
+  font-size: 11.5px;
+  fill: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.tsun-hub circle {
+  fill: var(--color-bg);
+  stroke: var(--color-accent);
+  stroke-width: 1.5;
+}
+
+.tsun-hub-title {
+  font-size: 15px;
+  font-weight: 700;
+  fill: var(--color-accent-strong);
+  letter-spacing: 0.05em;
+  font-family: var(--font-serif);
+}
+
+.tsun-hub-sub {
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--color-text-muted);
+  letter-spacing: 0.12em;
+}
+
+.tsun-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.tsun-legend-row {
+  flex: 1 1 220px;
+  min-width: 220px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.tsun-legend-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tsun-legend-name {
+  font-weight: 700;
+}
+
+.tsun-legend-count {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.tsun-legend-desc {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin: 0.25rem 0 0.5rem 1.4rem;
+}
+
+.tsun-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+  flex: none;
+}
+
+.tsun-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-left: 1.4rem;
+}
+
+.tsun-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 0.15rem 0.5rem 0.15rem 0.35rem;
+}
+
+.tsun-chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tsun-chip-n {
+  color: var(--color-text-muted);
+}
+
+.tsun-testament-key {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  display: inline-flex;
+  align-items: center;
+}
+
+.tsun-tk-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+.tsun-tk-ot {
+  background: transparent;
+  border: 2px solid var(--color-text-muted);
+}
+
+.tsun-tk-nt {
+  background: var(--color-text-muted);
+}
+
+.tsun-table-count {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
