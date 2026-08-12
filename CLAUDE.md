@@ -593,22 +593,25 @@ Hezekiah) were left out for the same reason.
   `sheba-4` issues already documented in the Name Disambiguation section.
   Fixed in both the index and `data/people/gideon.json`; this also
   corrected Gideon's page, which had been linking to the wrong Joash.
-- **`jair-2`** (Judges 10:3-5, "Jair the Gileadite") was left with no
-  `tribe` — it's a separate person_id from `jair` (the Numbers 32:41 /
-  1 Chronicles 2:21-22 figure most scholars identify as the same person),
-  and Gilead's own multi-tribe territory makes the judge's tribe
-  unresolvable from the text alone under this section's rules. Worth
-  reconsidering together with a possible `jair`/`jair-2` merge in a future
-  genealogy-data cleanup pass, alongside the other open duplicate-id items
-  in the Name Disambiguation section.
+- **`jair-2`** (Judges 10:3-5, "Jair the Gileadite") has no `tribe` — it's a
+  separate person_id from `jair` (the Numbers 32:41 / 1 Chronicles 2:21-22
+  conquest-era figure some scholars identify as the same person), and
+  Gilead's own multi-tribe territory makes the judge's tribe unresolvable
+  from the text alone under this section's rules. At the time this was
+  written, `jair` had also been found to be a conflation (the judge's
+  story pasted onto the wrong person_id) — **fixed 2026-08-11** by writing
+  `jair` its own accurate content from Numbers 32:41/Deuteronomy 3:14/
+  1 Kings 4:13 rather than merging the two, since the identity question is
+  itself genuinely disputed; see `jair`'s `interpretive_dispute`/
+  `interpretive_note`. `jair-2` staying tribe-less is expected, not a gap.
 - **`mordecai`** (Ezra 2:2, a returnee leader listed alongside Zerubbabel)
-  carries a `disambiguation` of "father of Esther" that does not match the
-  text — Ezra 2:2's Mordecai returned from exile decades before Esther's
-  story and Ezra 2:2 never calls him her father. This looks like a
-  conflation with `mordecai-2` (Esther's Mordecai, Esther 2:5-22, who
-  correctly got the `tribe: Benjamin` assignment here). Not fixed here —
-  flagged for the same cleanup pass as the item above; `mordecai` was left
-  with no `tribe` rather than assigning one under a muddled identity.
+  had been conflated with `mordecai-2` (Esther's Mordecai, Esther 2:5-22) —
+  its `adult_story`/`family_friendly_summary` were actually Esther's
+  Mordecai's content pasted onto the wrong person_id. **Fixed 2026-08-11**
+  (see the duplicate-id cleanup note below): `mordecai` was restored to a
+  bare stub matching what Ezra 2:2 actually says (a name in a returnee
+  list, no narrative), and keeps no `tribe` — correct, since a bare stub
+  has no curated fields per the Coverage section above.
 
 ---
 
@@ -669,9 +672,10 @@ full-tier collisions.
 **Rules**, applied to whichever have data (never fabricated — see Factual
 Accuracy above):
 1. Full name / nickname / title, where the dataset already encodes one
-   (currently: an `alt_names` entry that extends the base name, e.g. base
-   "Judas" + alt_name "Judas Iscariot" → "Iscariot"). Textual epithets like
-   "Sons of Thunder" are **not** curated yet — see gap note below.
+   (an `alt_names` entry that extends the base name, e.g. base "Judas" +
+   alt_name "Judas Iscariot" → "Iscariot"). Hand-curated for a small set of
+   famous collisions so far — see the Known gap note below for the current
+   roster and what's deliberately still left out.
 2. Relationship to a named person: father, else mother, else first spouse,
    else first child, from the person's own `genealogy` edges — worded
    "son of"/"daughter of"/"husband of"/"wife of"/"father of"/"mother of" by
@@ -713,42 +717,68 @@ Detail pages intentionally do not use this yet** — deferred per Andrew
 `disambiguation` index field rather than recomputing it, and decide
 placement (byline under the name vs. inline).
 
-**Known gap:** rule 1 (title/nickname) fires for only 1 of 1692 affected
-people today (`alt_names` rarely carries a fuller epithet) — hand-curating
-Scripture's own epithets (e.g. "Sons of Thunder" for James/John sons of
-Zebedee, "the Baptist", "Magdalene", "the Zealot") for the small set of
-*famous* collisions is a worthwhile follow-up, not attempted in this pass
-to avoid inventing text for the other ~480 collision groups that have no
-comparable textual epithet.
+**Known gap, partially addressed 2026-08-11:** rule 1 (title/nickname)
+originally fired for only 1 of 1692 affected people (`alt_names` rarely
+carried a fuller epithet). Hand-curated two more famous cases by adding an
+extending `alt_names` entry, both textually explicit (never invented, per
+Factual Accuracy): `john` (John the Baptist) got `"John the Baptist"`, and
+`james`/`john-2` (the sons of Zebedee) each got `"{Name} Boanerges"`, since
+Mark 3:17 states Jesus gave *both* brothers that surname jointly (rendered
+per-person as "Boanerges" rather than its English gloss "Sons of Thunder,"
+which only reads naturally as a joint phrase). Three other famous
+epithets from the original list of examples — Mary **Magdalene**, Simon
+the **Zealot**, and Simon **Iscariot** (John 6:71's Judas's father) — turn
+out to already carry their epithet, but baked directly into the person's
+canonical `name` field (e.g. `name: "Mary Magdalene"`) rather than as an
+`alt_names` extension of a bare "Mary"/"Simon". That's a stronger form of
+disambiguation in every context the name renders (not just the People List
+page), but as a side effect these three don't match any collision group by
+exact `name`, so they currently get **no** `disambiguation` value at all —
+not even the reference-only fallback every other collision gets. Left as
+is rather than renamed to "fix" this, since renaming their canonical
+`name` field to reuse the alt_names mechanism would change their displayed
+name site-wide (person page header, connections graph, quiz text, meta
+tags) well beyond the scope of a disambiguation-string fix. The remaining
+~480 collision groups still have no comparable textual epithet and
+shouldn't get one invented for them.
 
-**Data-quality issue discovered while building this (2026-08-03):**
-several name collisions resolve to identical relationship phrases *and*
-overlapping/identical `first_reference` values, which looks like genuine
-duplicate person entries from the BradyStephenson import rather than two
-different biblical individuals — most clearly `enoch`/`enoch-2` (both cite
-Genesis 5:18-24) and likely `zerubbabel`/`zerubbabel-2`/`zerubbabel-3`
-(son of Shealtiel, spanning three person_ids). Separately, `matthat`/
-`matthat-2` (Luke 3:24 and 3:29 — Luke's genealogy genuinely does contain
-two men named Matthat) both resolved to "son of Levi", suggesting the
-import may have collapsed two distinct Levis in that same genealogy list
-into one `levi` person_id. None of this was fixed here — the
-disambiguation script's safety rule (above) just avoids surfacing the
-resulting misleading phrases — but it's worth a dedicated genealogy-data
-cleanup pass against the source BradyStephenson tables.
+**Data-quality issue discovered while building this (2026-08-03), fixed
+2026-08-05 through 2026-08-11:** several name collisions had resolved to
+identical relationship phrases *and* overlapping/identical
+`first_reference` values, which turned out to be genuine duplicate/
+conflated person entries from the BradyStephenson import rather than two
+different biblical individuals. All now resolved: `enoch`/`enoch-2` (both
+originally cited Genesis 5:18-24) were split 2026-08-05, with the Cain-line
+Enoch renamed `enoch-son-of-cain`; `zerubbabel`/`zerubbabel-2`/
+`zerubbabel-3` (son of Shealtiel) were merged 2026-08-05 into a single
+`zerubbabel`; and `matthat`/`matthat-2` (Luke 3:24 and 3:29 — Luke's
+genealogy genuinely contains two men named Matthat) now correctly
+descend from two distinct Levis, `levi-2` and `levi-3`, rather than both
+pointing at the one collapsed `levi` person_id. The disambiguation
+script's safety rule (above) is unaffected by any of this — it still
+exists to catch the *next* case of this bug pattern, not just these ones.
 
-**Another instance found 2026-08-06:** `sheba` and `sheba-4` are both
-full-tier entries for the same 2 Samuel 20 rebel against David (the
-`adult_story`/`family_friendly_summary` text is essentially the same
-episode) — but `sheba`'s `references`/`first_reference` are wrongly set to
-`Genesis 10:7`/`1 Chronicles 1:9`, which actually belong to a different,
-unrelated Table-of-Nations Sheba (son of Raamah, Genesis 10:7). This wasn't
-just a cosmetic disambiguation glitch: it fed a real bug in
-`_build/infer_stub_eras.py` (see the Timeline section) that silently
-mis-era'd `sheba` as "Primeval History" internally and BFS-propagated that
-to his stub son Bichri. The script bug is fixed and no longer trusts a
-guessed book default over a full-tier person's own curated `era`, but the
-underlying duplicate `sheba`/`sheba-4` entry (and its wrong references) is
-still unmerged — another candidate for the cleanup pass above.
+**Another instance found 2026-08-06, fixed 2026-08-11:** `sheba` and
+`sheba-4` had been two full-tier entries for the same 2 Samuel 20 rebel
+against David (the `adult_story`/`family_friendly_summary` text was
+essentially the same episode) — but `sheba`'s `references`/
+`first_reference` were wrongly set to `Genesis 10:7`/`1 Chronicles 1:9`,
+which actually belong to a different, unrelated Table-of-Nations Sheba
+(son of Raamah). This wasn't just a cosmetic disambiguation glitch: it fed
+a real bug in `_build/infer_stub_eras.py` (see the Timeline section) that
+silently mis-era'd `sheba` as "Primeval History" internally and
+BFS-propagated that to his stub son Bichri; that script bug was fixed
+2026-08-06 to no longer trust a guessed book default over a full-tier
+person's own curated `era`. The underlying duplicate itself — along with,
+in the same 2026-08-11 pass, the `mordecai`/`mordecai-2`, `elon`/`elon-3`,
+and `menachem`/`menahem` conflations, and the `jair`/`jair-2` identity
+question discussed under Tribal Affiliation above — was fixed then: `sheba` was
+demoted to a bare stub matching its real Genesis 10:7 Table-of-Nations
+identity (no narrative to tell), its wrong `genealogy.father` corrected
+from `bichri` to `raamah`, and `sheba-4` kept the 2 Samuel 20 rebel's
+story. Each fix also repointed any `quiz.json` question or
+`connections.json` edge that had been mistagged to the wrong half of its
+pair.
 
 ---
 

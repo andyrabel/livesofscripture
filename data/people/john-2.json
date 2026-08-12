@@ -1,7 +1,7 @@
 {
   "person_id": "john-2",
   "name": "John",
-  "alt_names": [],
+  "alt_names": ["John Boanerges"],
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",

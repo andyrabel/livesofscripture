@@ -1,7 +1,7 @@
 {
   "person_id": "john",
   "name": "John",
-  "alt_names": [],
+  "alt_names": ["John the Baptist"],
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",
