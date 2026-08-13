@@ -77,7 +77,7 @@
   "region": "canaan-israel",
   "timeline": {
     "precision": "era",
-    "note": "1 Samuel 13:1 states Saul's age at accession and length of reign, but the Hebrew numbers are textually corrupt (widely noted as a gap/scribal error in the manuscripts); Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but neither number rests on the same firm footing as the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
+    "note": "1 Samuel 13:1 does not supply a complete number for Saul's age at accession or the length of his reign; Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but rests on less firm footing than the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
   },
   "geographic_setting": [
     "Gibeah",
@@ -90,7 +90,7 @@
     "tragic decline"
   ],
   "interpretive_dispute": true,
-  "interpretive_note": "The numeric text of 1 Samuel 13:1 (Saul's age and reign length) is one of the most widely-noted textual difficulties in the Hebrew Bible; translations vary in how they render or footnote it.",
+  "interpretive_note": "1 Samuel 13:1 does not give a complete number for Saul's age at accession or the length of his reign; translations differ in how they render or footnote this verse.",
   "source_summary": "Israel's first king, chosen for his stature and given early military success, whose disobedience to God's explicit commands cost him the kingdom and whose jealousy of David consumed the rest of his reign.",
   "family_friendly_summary": "Saul was chosen to be Israel's very first king, and he started out brave and successful. But instead of always obeying God's clear instructions, Saul sometimes did things his own way, and made excuses instead of saying sorry when he was wrong. Over time he grew jealous and afraid, especially of a young shepherd named David who God had chosen to be the next king. Saul spent years trying to catch David instead of trusting God's plan. Saul's own son Jonathan, though, stayed loyal to his friend David even when it was hard. Saul's story reminds us that it's not enough to look strong or brave on the outside — what matters most to God is a heart that keeps listening and obeying, even after we've made mistakes.",
   "adult_story": "Saul, a Benjamite chosen for his stature, became Israel's first king when the people demanded a king \"like all the nations\" — itself, God told Samuel, a rejection of His own kingship (1 Samuel 8:4-9; 9:1-10:1). Saul won real early victories, rescuing Jabesh-gilead and defeating the Philistines (1 Samuel 11; 14:47-48). But he disobeyed God twice: offering a sacrifice himself instead of waiting for Samuel at Gilgal, then sparing King Agag and the best Amalekite plunder after being told to destroy them completely (1 Samuel 13:8-14; 15:1-23). Confronted, Saul defended himself rather than repenting, and Samuel told him obedience mattered more than sacrifice — the kingdom would be torn from him. From then on Saul spiraled: tormented, he grew jealous of David, the shepherd secretly anointed to replace him, and tried repeatedly to kill him even after David spared him twice (1 Samuel 18-26). With Samuel dead and God silent, Saul consulted a medium at En-dor, the very practice he had banned, and heard only confirmation of his coming defeat (1 Samuel 28). He died by his own sword at Gilboa rather than be captured, his body later recovered by the men of Jabesh-gilead, who remembered his one great rescue of their city (1 Samuel 31). His son Jonathan died beside him, having chosen loyalty to David over his own claim to the throne (1 Samuel 20; 31:2). Saul's story is Scripture's clearest warning that outward qualification for leadership is no substitute for a heart that stays obedient to God.",
@@ -124,6 +124,6 @@
     "start": -1050,
     "end": -1010,
     "reference": "1 Samuel 13:1; Acts 13:21",
-    "note": "1 Samuel 13:1 states Saul's age at accession and length of reign, but the Hebrew numbers are textually corrupt (widely noted as a gap/scribal error in the manuscripts); Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but neither number rests on the same firm footing as the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
+    "note": "1 Samuel 13:1 does not supply a complete number for Saul's age at accession or the length of his reign; Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but rests on less firm footing than the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
   }
 }

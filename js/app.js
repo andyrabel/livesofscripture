@@ -330,7 +330,11 @@ function initChartLightbox(triggerId, sourceId, dialogLabel) {
   if (!trigger || !source) return;
 
   const viewBox = source.viewBox.baseVal;
-  const ZOOM_MIN = 1;
+  // Floor used to be 100% (the lightbox was built to zoom in only), but
+  // wide charts like job-chapters.html's 42-chapter timeline can be wider
+  // than the viewport even at 100%, so readers need to zoom *out* past
+  // that to see the whole thing without scrolling.
+  const ZOOM_MIN = 0.25;
   const ZOOM_MAX = 4;
   const ZOOM_STEP = 0.25;
   let scale = 1.75;

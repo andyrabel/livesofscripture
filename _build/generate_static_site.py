@@ -2107,11 +2107,302 @@ def build_tribe_sunburst_chart_page(layout):
 """
 
 
+# ---------------------------------------------------------------------
+# "Who's Speaking in Job" chart (charts.html hub + charts/job-chapters.html)
+# ---------------------------------------------------------------------
+
+# The book of Job is unusually well suited to a "who's speaking this
+# chapter" chart: apart from the prologue (1-2) and epilogue portion of 42,
+# its chapters are structured as a strict sequence of monologues, each
+# introduced by the text's own "Then X answered and said" formula (e.g.
+# Job 4:1, 8:1, 11:1, 32:6, 38:1) -- the same verses already cited as each
+# speaker's `references` entries on their person pages. This mapping is a
+# direct reading of those speech-introduction formulas, not an inference or
+# extra-biblical tradition -- see CLAUDE.md's Factual Accuracy section.
+#
+# Two spots are genuinely disputed rather than picked silently (see the
+# on-page disclaimer below): Bildad's third speech (ch. 25) is unusually
+# short and Zophar never gets a stated third speech, which some scholars
+# read as a sign of textual displacement in chs. 26-27; and ch. 28's wisdom
+# poem has no new speech-introduction formula of its own, so it's kept as
+# a continuation of Job's discourse (the received-text reading) rather than
+# treated as a separate narratorial interlude, a view some scholars hold.
+JC_SPEAKERS = {
+    "job": {"label": "Job", "person_id": "job", "color_var": "var(--jc-job)"},
+    "eliphaz": {"label": "Eliphaz", "person_id": "eliphaz-2", "color_var": "var(--jc-eliphaz)"},
+    "bildad": {"label": "Bildad", "person_id": "bildad", "color_var": "var(--jc-bildad)"},
+    "zophar": {"label": "Zophar", "person_id": "zophar", "color_var": "var(--jc-zophar)"},
+    "elihu": {"label": "Elihu", "person_id": "elihu-5", "color_var": "var(--jc-elihu)"},
+    "lord": {"label": "The LORD", "person_id": None, "color_var": "var(--jc-lord)"},
+    "prologue": {"label": "Prologue", "person_id": None, "color_var": "var(--gen-shared)"},
+}
+
+JC_CHAPTERS = [
+    {"chapter": 1, "speaker": "prologue", "reference": "Job 1:1-22",
+     "note": "Job's character and prosperity; the LORD and Satan's exchange; Job loses his children and possessions."},
+    {"chapter": 2, "speaker": "prologue", "reference": "Job 2:1-13",
+     "note": "Job's health is struck; his wife's words; Eliphaz, Bildad, and Zophar arrive and sit with him in silence."},
+    {"chapter": 3, "speaker": "job", "reference": "Job 3:1-26", "note": "Job breaks his silence and curses the day of his birth."},
+    {"chapter": 4, "speaker": "eliphaz", "reference": "Job 4:1", "note": "Eliphaz's first speech (chs. 4-5)."},
+    {"chapter": 5, "speaker": "eliphaz", "reference": "Job 4:1", "note": "Eliphaz's first speech continues."},
+    {"chapter": 6, "speaker": "job", "reference": "Job 6:1", "note": "Job's reply (chs. 6-7)."},
+    {"chapter": 7, "speaker": "job", "reference": "Job 6:1", "note": "Job's reply continues."},
+    {"chapter": 8, "speaker": "bildad", "reference": "Job 8:1", "note": "Bildad's first speech."},
+    {"chapter": 9, "speaker": "job", "reference": "Job 9:1", "note": "Job's reply (chs. 9-10)."},
+    {"chapter": 10, "speaker": "job", "reference": "Job 9:1", "note": "Job's reply continues."},
+    {"chapter": 11, "speaker": "zophar", "reference": "Job 11:1", "note": "Zophar's first speech."},
+    {"chapter": 12, "speaker": "job", "reference": "Job 12:1", "note": "Job's reply (chs. 12-14)."},
+    {"chapter": 13, "speaker": "job", "reference": "Job 12:1", "note": "Job's reply continues."},
+    {"chapter": 14, "speaker": "job", "reference": "Job 12:1", "note": "Job's reply continues."},
+    {"chapter": 15, "speaker": "eliphaz", "reference": "Job 15:1", "note": "Eliphaz's second speech."},
+    {"chapter": 16, "speaker": "job", "reference": "Job 16:1", "note": "Job's reply (chs. 16-17)."},
+    {"chapter": 17, "speaker": "job", "reference": "Job 16:1", "note": "Job's reply continues."},
+    {"chapter": 18, "speaker": "bildad", "reference": "Job 18:1", "note": "Bildad's second speech."},
+    {"chapter": 19, "speaker": "job", "reference": "Job 19:1", "note": "Job's reply, including “I know that my Redeemer lives” (19:25)."},
+    {"chapter": 20, "speaker": "zophar", "reference": "Job 20:1", "note": "Zophar's second speech."},
+    {"chapter": 21, "speaker": "job", "reference": "Job 21:1", "note": "Job's reply."},
+    {"chapter": 22, "speaker": "eliphaz", "reference": "Job 22:1", "note": "Eliphaz's third speech."},
+    {"chapter": 23, "speaker": "job", "reference": "Job 23:1", "note": "Job's reply (chs. 23-24)."},
+    {"chapter": 24, "speaker": "job", "reference": "Job 23:1", "note": "Job's reply continues."},
+    {"chapter": 25, "speaker": "bildad", "reference": "Job 25:1",
+     "note": "Bildad's third speech — unusually brief, six verses. Zophar never gives a stated third speech; see the chart disclaimer."},
+    {"chapter": 26, "speaker": "job", "reference": "Job 26:1", "note": "Job's reply, continuing through ch. 31."},
+    {"chapter": 27, "speaker": "job", "reference": "Job 27:1", "note": "Job continues his discourse, maintaining his innocence."},
+    {"chapter": 28, "speaker": "job", "reference": "Job 28:1", "note": "A meditation on where wisdom is found; see the chart disclaimer."},
+    {"chapter": 29, "speaker": "job", "reference": "Job 29:1", "note": "Job recalls his former honor."},
+    {"chapter": 30, "speaker": "job", "reference": "Job 29:1", "note": "Job describes his present humiliation."},
+    {"chapter": 31, "speaker": "job", "reference": "Job 31:1", "note": "Job's closing oath of innocence; “the words of Job are ended” (31:40)."},
+    {"chapter": 32, "speaker": "elihu", "reference": "Job 32:1-6", "note": "Elihu, a younger bystander, speaks after the three friends fall silent."},
+    {"chapter": 33, "speaker": "elihu", "reference": "Job 33:1", "note": "Elihu's first speech continues, addressed directly to Job."},
+    {"chapter": 34, "speaker": "elihu", "reference": "Job 34:1", "note": "Elihu's second speech."},
+    {"chapter": 35, "speaker": "elihu", "reference": "Job 35:1", "note": "Elihu's third speech."},
+    {"chapter": 36, "speaker": "elihu", "reference": "Job 36:1", "note": "Elihu's fourth speech (chs. 36-37)."},
+    {"chapter": 37, "speaker": "elihu", "reference": "Job 36:1", "note": "Elihu's fourth speech continues."},
+    {"chapter": 38, "speaker": "lord", "reference": "Job 38:1", "note": "The LORD answers Job out of the whirlwind (38:1-40:2)."},
+    {"chapter": 39, "speaker": "lord", "reference": "Job 38:1", "note": "The LORD's first speech continues, describing His creation."},
+    {"chapter": 40, "speaker": "lord", "reference": "Job 40:1-6", "note": "The LORD's first speech ends; Job briefly answers (40:3-5); the LORD's second speech begins."},
+    {"chapter": 41, "speaker": "lord", "reference": "Job 40:6", "note": "The LORD's second speech continues, describing Leviathan."},
+    {"chapter": 42, "speaker": "job", "reference": "Job 42:1-17",
+     "note": "Job's final answer to God (42:1-6); the LORD rebukes the three friends and restores Job's fortunes, family, and long life (42:7-17)."},
+]
+
+
+JC_ROW_ORDER = ["prologue", "job", "eliphaz", "bildad", "zophar", "elihu", "lord"]
+
+
+def jc_group_runs(chapters):
+    """Collapse the 42 per-chapter entries into per-speech runs -- e.g.
+    Job's chs. 6-7 reply is one continuous run, not two separate chapters
+    -- by merging consecutive chapters that share a speaker. This is what
+    turns the flat chapter list into timeline bars, one bar per speech."""
+    runs = []
+    for entry in chapters:
+        if runs and runs[-1]["speaker"] == entry["speaker"] and runs[-1]["end"] == entry["chapter"] - 1:
+            runs[-1]["end"] = entry["chapter"]
+        else:
+            runs.append({
+                "speaker": entry["speaker"],
+                "start": entry["chapter"],
+                "end": entry["chapter"],
+                "reference": entry["reference"],
+                "note": entry["note"],
+            })
+    return runs
+
+
+def render_job_chapters_svg(chapters):
+    runs = jc_group_runs(chapters)
+    rows = {key: [r for r in runs if r["speaker"] == key] for key in JC_ROW_ORDER}
+
+    total_chapters = 42
+    margin_left, margin_right = 16, 16
+    plot_width = 1760
+    bar_h = 34
+    row_label_h = 34
+    row_gap = 16
+    axis_h = 34
+    bar_font_size = 19
+    tick_step = 5
+
+    def x_of(boundary):
+        return margin_left + boundary / total_chapters * plot_width
+
+    total_h = axis_h + len(JC_ROW_ORDER) * (row_label_h + bar_h) + (len(JC_ROW_ORDER) - 1) * row_gap + 8
+    total_w = margin_left + plot_width + margin_right
+
+    parts = [
+        f'<svg id="job-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
+        f'aria-label="Timeline of all 42 chapters of Job, one row per speaker, showing which chapters each one speaks in" '
+        f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg jc-timeline-svg">'
+    ]
+
+    # Chapter gridlines + axis labels, spanning the full plot height. Text
+    # sizes here are doubled (see the CSS ".jc-timeline-svg" rules) from the
+    # Kings & Prophets chart this layout is based on, so the geometry below
+    # (bar_h/row_label_h/axis_h/plot_width) is scaled up to match rather
+    # than reusing that chart's constants outright.
+    y_axis_top = axis_h
+    y_axis_bottom = total_h - 4
+    tick_chapters = sorted(set([1] + list(range(tick_step, total_chapters, tick_step)) + [total_chapters]))
+    for tick in tick_chapters:
+        boundary = tick - 1 if tick < total_chapters else total_chapters
+        tx = x_of(boundary)
+        parts.append(f'<line x1="{tx:.1f}" y1="{y_axis_top}" x2="{tx:.1f}" y2="{y_axis_bottom}" class="kp-gridline" />')
+        parts.append(f'<text x="{tx:.1f}" y="24" class="kp-axis-label" text-anchor="middle">{tick}</text>')
+
+    y = axis_h
+    for key in JC_ROW_ORDER:
+        speaker = JC_SPEAKERS[key]
+        parts.append(f'<text x="{margin_left}" y="{y + 24}" class="kp-row-label">{esc(speaker["label"])}</text>')
+        lane_y = y + row_label_h
+
+        for run in rows[key]:
+            x1 = x_of(run["start"] - 1)
+            x2 = x_of(run["end"])
+            bw = max(2.0, x2 - x1)
+            chapter_label = str(run["start"]) if run["start"] == run["end"] else f'{run["start"]}–{run["end"]}'
+            title = f'Job {chapter_label} — {speaker["label"]}. {run["note"]} ({run["reference"]})'
+            rect = (
+                f'<rect x="{x1:.1f}" y="{lane_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
+                f'fill="{speaker["color_var"]}" class="kp-bar" tabindex="0" '
+                f'data-name="{esc(speaker["label"])}" data-nation="Job {esc(chapter_label)}" '
+                f'data-span="{esc(run["note"])}" data-reference="{esc(run["reference"])}">'
+                f'<title>{esc(title)}</title></rect>'
+            )
+            label_el = ""
+            if kp_bar_label_fits(chapter_label, bw, font_size=bar_font_size):
+                label_el = (
+                    f'<text x="{x1 + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 6.5:.1f}" '
+                    f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
+                )
+            if speaker["person_id"]:
+                href = f'people/{speaker["person_id"]}.html'
+                parts.append(f'<a href="{href}">{rect}{label_el}</a>')
+            else:
+                parts.append(rect + label_el)
+
+        y += row_label_h + bar_h + row_gap
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_job_chapters_legend():
+    items = "\n    ".join(
+        f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{s["color_var"]}"></span>{esc(s["label"])}</span>'
+        for s in JC_SPEAKERS.values()
+    )
+    return f'<div class="kp-legend jc-timeline-legend">{items}</div>'
+
+
+def render_job_chapters_table(chapters):
+    def row_html(entry):
+        speaker = JC_SPEAKERS[entry["speaker"]]
+        name_cell = (
+            f'<a href="../people/{speaker["person_id"]}.html">{esc(speaker["label"])}</a>'
+            if speaker["person_id"] else esc(speaker["label"])
+        )
+        return (
+            f'<tr><td>{entry["chapter"]}</td><td>{name_cell}</td>'
+            f'<td>{esc(entry["reference"])}</td><td>{esc(entry["note"])}</td></tr>'
+        )
+
+    body_rows = "\n    ".join(row_html(e) for e in chapters)
+    return f"""<details class="kp-table-details">
+    <summary>View as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Chapter</th><th>Speaker</th><th>Reference</th><th>Note</th></tr></thead>
+      <tbody>
+    {body_rows}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_job_chapters_chart_page(chapters):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/job-chapters.html"
+    title = "Who's Speaking in Job — Lives of Scripture"
+    description = "Every speech in the book of Job, one row per speaker, laid out across all 42 chapters as a timeline."
+
+    svg = render_job_chapters_svg(chapters)
+    legend = render_job_chapters_legend()
+    table = render_job_chapters_table(chapters)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>Who's Speaking in Job</h2>
+  <p class="page-intro">Apart from the prologue and part of the epilogue, the book of Job is a sequence of
+  monologues — Job, his three friends, Elihu, and finally the LORD, each in turn. Each row below is one
+  speaker; each bar is one unbroken speech, laid out across Job's 42 chapters left to right, so you can see
+  at a glance how often — and how briefly — Job's three friends get a turn compared to his own replies.
+  Bars are clickable and link to that person's page. Hover or focus a bar for the verse where that speech
+  begins.</p>
+
+  <p class="kp-disclaimer">Bildad's third speech (ch. 25) is unusually short, and Zophar never gives a
+  stated third speech. This chart follows the received text as printed, which continuously credits
+  chs. 26-31 to Job (see 27:1, &ldquo;Then Job continued his discourse&rdquo;), including the meditation
+  on wisdom in ch. 28.</p>
+
+  <div class="kp-legend-row">
+    {legend}
+    <button type="button" class="kp-chart-expand" id="job-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Who's Speaking in Job, enlarged");</script>
+</body>
+</html>
+"""
+
+
 def build_charts_list_page():
     base = ""
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
-    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, and the twelve tribes."
+    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, and who's speaking in each chapter of Job."
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -2163,6 +2454,11 @@ def build_charts_list_page():
       <div class="name"><strong>The Twelve Tribes, By Mother</strong></div>
       <p class="chart-card-desc">Every person whose tribe Scripture records, grouped by which of Jacob's
       four wives they descend from, then by tribe, in one sunburst chart.</p>
+    </a>
+    <a class="person-card" href="{base}charts/job-chapters.html">
+      <div class="name"><strong>Who's Speaking in Job</strong></div>
+      <p class="chart-card-desc">All 42 chapters of Job, colored by who is speaking in each one — Job,
+      his three friends, Elihu, or the LORD.</p>
     </a>
   </div>
 </main>
@@ -2283,6 +2579,7 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/genealogies-of-jesus.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/twelve-tribes.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/job-chapters.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -2374,6 +2671,7 @@ def main():
     (charts_dir / "kings-and-prophets.html").write_text(build_kings_and_prophets_chart_page(kp_rows, kp_unplotted))
     (charts_dir / "genealogies-of-jesus.html").write_text(build_genealogies_chart_page(index_by_id, ref_by_id))
     (charts_dir / "twelve-tribes.html").write_text(build_tribe_sunburst_chart_page(build_tribe_layout()))
+    (charts_dir / "job-chapters.html").write_text(build_job_chapters_chart_page(JC_CHAPTERS))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
     build_sitemap(index, churches)

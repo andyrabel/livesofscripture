@@ -83,6 +83,20 @@
      --color-bg and --color-surface. */
   --gender-male: #1a4480;
   --gender-female: #8f1d33;
+
+  /* Categorical speaker palette for the "Who's Speaking in Job" chart
+     (validated via the dataviz skill's six-checks script, light+dark,
+     fresh hues not reused elsewhere since this chart never co-displays
+     with era/kp/gen/tribe). Prologue/epilogue (ch. 1-2, mixed narrated
+     cast, no single speaker) deliberately reuses --gen-shared rather than
+     getting its own hue -- same "not a competing identity" role that
+     variable already plays on the genealogies chart. */
+  --jc-job: #a8720f;
+  --jc-eliphaz: #3a7dc9;
+  --jc-bildad: #1f9e6f;
+  --jc-zophar: #c3453f;
+  --jc-elihu: #7a4fb0;
+  --jc-lord: #1892a8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -132,6 +146,12 @@
     --timeline-label-bg: rgba(36, 32, 26, 0.85);
     --gender-male: #6ea8e8;
     --gender-female: #e8869a;
+    --jc-job: #bd8110;
+    --jc-eliphaz: #4a8ed9;
+    --jc-bildad: #1a9968;
+    --jc-zophar: #de6259;
+    --jc-elihu: #8f63c5;
+    --jc-lord: #1ea3bc;
   }
 }
 
@@ -181,6 +201,12 @@
   --timeline-label-bg: rgba(36, 32, 26, 0.85);
   --gender-male: #6ea8e8;
   --gender-female: #e8869a;
+  --jc-job: #bd8110;
+  --jc-eliphaz: #4a8ed9;
+  --jc-bildad: #1a9968;
+  --jc-zophar: #de6259;
+  --jc-elihu: #8f63c5;
+  --jc-lord: #1ea3bc;
 }
 
 :root[data-theme="light"] {
@@ -229,6 +255,12 @@
   --timeline-label-bg: rgba(255, 255, 255, 0.85);
   --gender-male: #1a4480;
   --gender-female: #8f1d33;
+  --jc-job: #a8720f;
+  --jc-eliphaz: #3a7dc9;
+  --jc-bildad: #1f9e6f;
+  --jc-zophar: #c3453f;
+  --jc-elihu: #7a4fb0;
+  --jc-lord: #1892a8;
 }
 
 * { box-sizing: border-box; }
@@ -2793,4 +2825,49 @@ header.site-header nav a.nav-cta:hover {
 
 .tsun-table-row-nt td a {
   color: var(--color-nt);
+}
+
+/* "Who's Speaking in Job" chart (charts.html, charts/job-chapters.html).
+   A one-row-per-speaker timeline of bars across Job's 42 chapters -- close
+   enough in shape to the Kings & Prophets chart above (rows + axis +
+   gridlines + bars) that it reuses .kp-chart-svg/.kp-gridline/.kp-axis-label/
+   .kp-row-label/.kp-bar/.kp-bar-label wholesale, plus the same
+   .kp-legend/.kp-legend-item/.kp-legend-swatch/.kp-chart-scroll/
+   .kp-chart-expand/.kp-disclaimer/
+   .kp-table-details/.kp-table/.table-scroll already reused by the other
+   three charts -- no chart-specific classes of its own. Colors come from
+   the --jc-* variables defined near the top of this file. The one thing
+   that *is* chart-specific is text size: this chart's SVG carries an extra
+   ".jc-timeline-svg" class (kept through the lightbox's clone, unlike its
+   "id", which the lightbox strips -- see initChartLightbox in js/app.js)
+   so these font-size overrides apply without doubling the shared
+   .kp-row-label/.kp-axis-label/.kp-bar-label sizes on the other three
+   charts too. The matching geometry (bar/row heights, plot width) is
+   scaled up in render_job_chapters_svg() in
+   _build/generate_static_site.py so the bigger text still fits. */
+
+.jc-timeline-svg .kp-row-label {
+  font-size: 22px;
+}
+
+.jc-timeline-svg .kp-axis-label {
+  font-size: 20px;
+}
+
+.jc-timeline-svg .kp-bar-label {
+  font-size: 19px;
+}
+
+/* The legend above the chart lists the same speaker names as the SVG row
+   labels -- doubled the same way, via its own ".jc-timeline-legend" class
+   added alongside ".kp-legend" (rather than touching .kp-legend itself,
+   which the other three charts' legends also use). */
+.jc-timeline-legend {
+  font-size: 1.7rem;
+  gap: 1.4rem;
+}
+
+.jc-timeline-legend .kp-legend-swatch {
+  width: 28px;
+  height: 28px;
 }

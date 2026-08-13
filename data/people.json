@@ -12460,7 +12460,7 @@
     "image2": "saul.png",
     "timeline": {
       "precision": "era",
-      "note": "1 Samuel 13:1 states Saul's age at accession and length of reign, but the Hebrew numbers are textually corrupt (widely noted as a gap/scribal error in the manuscripts); Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but neither number rests on the same firm footing as the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
+      "note": "1 Samuel 13:1 does not supply a complete number for Saul's age at accession or the length of his reign; Acts 13:21's round figure of \"forty years\" is the traditional total, commonly placed around 1050-1010 BC, but rests on less firm footing than the explicit accession-age formula used for Judah's later kings, so no specific date is plotted here."
     },
     "gender": "male",
     "first_reference": "1 Samuel 9:2-27",
