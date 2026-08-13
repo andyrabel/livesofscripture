@@ -53112,6 +53112,7 @@
       "supporting the whole church"
     ],
     "image": "generic-figure.png",
+    "image2": "gaius.png",
     "timeline": {
       "precision": "era"
     },
@@ -53931,6 +53932,7 @@
       "using position for the gospel"
     ],
     "image": "generic-figure.png",
+    "image2": "erastus-2.png",
     "gender": "male",
     "disambiguation": "(Rom 16:23)",
     "first_reference": "Romans 16:23"
@@ -53997,6 +53999,7 @@
       "supplying a need"
     ],
     "image": "generic-figure.png",
+    "image2": "forunatus.png",
     "first_reference": "1 Corinthians 16:17",
     "spotlight_eligible": false
   },
@@ -54016,6 +54019,7 @@
       "faithful service"
     ],
     "image": "generic-figure.png",
+    "image2": "achaicus.png",
     "first_reference": "1 Corinthians 16:17",
     "spotlight_eligible": false
   },
