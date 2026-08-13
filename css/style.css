@@ -84,7 +84,7 @@
   --gender-male: #1a4480;
   --gender-female: #8f1d33;
 
-  /* Categorical speaker palette for the "Who's Speaking in Job" chart
+  /* Categorical speaker palette for the "Job — Main Speaker by Chapter" chart
      (validated via the dataviz skill's six-checks script, light+dark,
      fresh hues not reused elsewhere since this chart never co-displays
      with era/kp/gen/tribe). Prologue/epilogue (ch. 1-2, mixed narrated
@@ -2954,7 +2954,7 @@ header.site-header nav a.nav-cta:hover {
   color: var(--color-nt);
 }
 
-/* "Who's Speaking in Job" chart (charts.html, charts/job-chapters.html).
+/* "Job — Main Speaker by Chapter" chart (charts.html, charts/job-chapters.html).
    A one-row-per-speaker timeline of bars across Job's 42 chapters -- close
    enough in shape to the Kings & Prophets chart above (rows + axis +
    gridlines + bars) that it reuses .kp-chart-svg/.kp-gridline/.kp-axis-label/

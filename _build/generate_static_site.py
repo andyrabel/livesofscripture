@@ -2108,7 +2108,7 @@ def build_tribe_sunburst_chart_page(layout):
 
 
 # ---------------------------------------------------------------------
-# "Who's Speaking in Job" chart (charts.html hub + charts/job-chapters.html)
+# "Job — Main Speaker by Chapter" chart (charts.html hub + charts/job-chapters.html)
 # ---------------------------------------------------------------------
 
 # The book of Job is unusually well suited to a "who's speaking this
@@ -2333,7 +2333,7 @@ def render_job_chapters_table(chapters):
 def build_job_chapters_chart_page(chapters):
     base = "../"
     canonical = f"{SITE_URL}/charts/job-chapters.html"
-    title = "Who's Speaking in Job — Lives of Scripture"
+    title = "Job — Main Speaker by Chapter — Lives of Scripture"
     description = "Every speech in the book of Job, one row per speaker, laid out across all 42 chapters as a timeline."
 
     svg = render_job_chapters_svg(chapters)
@@ -2373,7 +2373,7 @@ def build_job_chapters_chart_page(chapters):
 
 <main>
   <p><a href="{base}charts.html">&larr; Charts</a></p>
-  <h2>Who's Speaking in Job</h2>
+  <h2>Job &mdash; Main Speaker by Chapter</h2>
   <p class="page-intro">Apart from the prologue and part of the epilogue, the book of Job is a sequence of
   monologues — Job, his three friends, Elihu, and finally the LORD, each in turn. Each row below is one
   speaker; each bar is one unbroken speech, laid out across Job's 42 chapters left to right, so you can see
@@ -2401,7 +2401,7 @@ def build_job_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Who's Speaking in Job, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Job — Main Speaker by Chapter, enlarged");</script>
 </body>
 </html>
 """
@@ -3224,7 +3224,7 @@ def build_charts_list_page():
       four wives they descend from, then by tribe, in one sunburst chart.</p>
     </a>
     <a class="person-card" href="{base}charts/job-chapters.html">
-      <div class="name"><strong>Who's Speaking in Job</strong></div>
+      <div class="name"><strong>Job &mdash; Main Speaker by Chapter</strong></div>
       <p class="chart-card-desc">All 42 chapters of Job, colored by who is speaking in each one — Job,
       his three friends, Elihu, or the LORD.</p>
     </a>
