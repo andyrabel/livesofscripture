@@ -2410,6 +2410,41 @@ header.site-header nav a.nav-cta:hover {
   border-color: var(--color-accent);
 }
 
+.kp-chart-toolbar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.kp-chart-copy {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.kp-chart-copy:hover:not(:disabled) {
+  border-color: var(--color-accent);
+}
+
+.kp-chart-copy:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+
+.kp-chart-copy.copied {
+  border-color: var(--color-ok);
+  color: var(--color-ok);
+}
+
+.kp-chart-copy.copy-failed {
+  border-color: var(--color-warn);
+  color: var(--color-warn);
+}
+
 .kp-chart-lightbox-overlay {
   position: fixed;
   inset: 0;

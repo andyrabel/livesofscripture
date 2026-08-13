@@ -85,7 +85,10 @@
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-dinah)"></span>Dinah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-joseph)"></span>Joseph</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-judah)"></span>Judah</span></div>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="genesis-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="genesis-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -259,6 +262,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged"); initChartCopyButton("genesis-chart-copy", "genesis-chart-svg");</script>
 </body>
 </html>

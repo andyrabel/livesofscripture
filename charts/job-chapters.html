@@ -73,7 +73,10 @@
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--jc-elihu)"></span>Elihu</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--jc-lord)"></span>The LORD</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gen-shared)"></span>Prologue</span></div>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="job-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="job-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -207,6 +210,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Job — Main Speaker by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Job — Main Speaker by Chapter, enlarged"); initChartCopyButton("job-chart-copy", "job-chart-svg");</script>
 </body>
 </html>

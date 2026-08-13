@@ -79,7 +79,10 @@
   <div class="kp-legend-row">
     <span class="tsun-testament-key"><span class="tsun-tk-dot tsun-tk-ot"></span> Old Testament
       &nbsp;&nbsp;<span class="tsun-tk-dot tsun-tk-nt"></span> New Testament</span>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="tribe-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="tribe-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -503,6 +506,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initTribeChartTooltips(); initChartLightbox("tribe-chart-expand", "tribe-chart-svg", "Twelve Tribes sunburst, enlarged");</script>
+<script>initNavToggle(); initTribeChartTooltips(); initChartLightbox("tribe-chart-expand", "tribe-chart-svg", "Twelve Tribes sunburst, enlarged"); initChartCopyButton("tribe-chart-copy", "tribe-chart-svg");</script>
 </body>
 </html>

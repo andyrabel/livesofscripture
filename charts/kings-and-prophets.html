@@ -67,7 +67,10 @@
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--kp-israel)"></span>Kingdom of Israel</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--kp-judah)"></span>Kingdom of Judah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--kp-assyria)"></span>Assyria</span></div>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="kp-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="kp-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -509,6 +512,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initKpChartLightbox();</script>
+<script>initNavToggle(); initKpChartTooltips(); initKpChartLightbox(); initChartCopyButton("kp-chart-copy", "kp-chart-svg");</script>
 </body>
 </html>

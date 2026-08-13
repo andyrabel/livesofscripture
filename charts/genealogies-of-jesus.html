@@ -66,6 +66,12 @@
     <span class="gen-legend-item"><span class="gen-legend-swatch" style="background:var(--gen-luke)"></span>Named only in Luke’s genealogy (Luke 3:23-38)</span>
     <span class="gen-legend-item"><span class="gen-legend-swatch" style="background:var(--gen-shared)"></span>Named in both genealogies</span></div>
 
+  <div class="kp-legend-row" style="justify-content: flex-end;">
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="gen-chart-copy">&#128203; Copy image</button>
+    </div>
+  </div>
+
   <div class="kp-chart-scroll">
   <svg id="gen-chart-svg" viewBox="0 0 680 806" width="680" height="806" role="img" aria-label="The two genealogies of Jesus, from Matthew 1 and Luke 3, shown as one joined family tree" xmlns="http://www.w3.org/2000/svg" class="gen-chart-svg">
 <a href="../people/adam.html"><rect x="255.0" y="20.0" width="170" height="36" rx="6" fill="var(--gen-luke)" class="gen-node" tabindex="0" data-name="Adam" data-note="Named only in Luke’s genealogy (Luke 3:23-38)" data-reference="Genesis 2:20"><title>Adam — Named only in Luke’s genealogy (Luke 3:23-38) (Genesis 2:20)</title></rect><text x="340.0" y="42.0" class="gen-node-label" text-anchor="middle">Adam</text></a>
@@ -292,6 +298,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initGenChartTooltips();</script>
+<script>initNavToggle(); initGenChartTooltips(); initChartCopyButton("gen-chart-copy", "gen-chart-svg");</script>
 </body>
 </html>

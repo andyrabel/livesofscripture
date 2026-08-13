@@ -418,6 +418,135 @@ function initKpChartLightbox() {
   initChartLightbox("kp-chart-expand", "kp-chart-svg", "Kings and Prophets chart, enlarged");
 }
 
+// "Copy image" button for the server-rendered chart SVGs. Rasterizes the
+// live SVG (at a higher pixel density than its native size, so pasted
+// copies stay crisp) onto an offscreen canvas and writes the PNG to the
+// clipboard. The SVG's own colors/fonts come from CSS custom properties
+// and classes defined in css/style.css, which aren't available inside the
+// standalone SVG document a clipboard/canvas render uses, so the chart's
+// external stylesheet is fetched once and embedded directly in the cloned
+// SVG, with every custom property it declares then re-resolved against the
+// live page and appended last -- this guarantees the export matches
+// whatever theme (system or an explicit light/dark toggle) the visitor is
+// actually looking at, rather than only following prefers-color-scheme.
+const CHART_COPY_RENDER_SCALE = 3;
+let chartStylesheetTextPromise = null;
+
+function fetchChartStylesheetText() {
+  if (!chartStylesheetTextPromise) {
+    const link = document.querySelector('link[rel="stylesheet"]');
+    chartStylesheetTextPromise = fetch(link.href).then((res) => res.text());
+  }
+  return chartStylesheetTextPromise;
+}
+
+async function buildChartExportSvgText(source) {
+  const stylesheetText = await fetchChartStylesheetText();
+  const customPropNames = new Set();
+  for (const m of stylesheetText.matchAll(/--[a-zA-Z0-9-]+(?=\s*:)/g)) {
+    customPropNames.add(m[0]);
+  }
+  const rootStyle = getComputedStyle(document.documentElement);
+  let overrideRule = ":root{";
+  customPropNames.forEach((name) => {
+    overrideRule += `${name}:${rootStyle.getPropertyValue(name).trim()};`;
+  });
+  overrideRule += "}";
+
+  const viewBox = source.viewBox.baseVal;
+  const clone = source.cloneNode(true);
+  clone.removeAttribute("id");
+  clone.setAttribute("width", Math.round(viewBox.width * CHART_COPY_RENDER_SCALE));
+  clone.setAttribute("height", Math.round(viewBox.height * CHART_COPY_RENDER_SCALE));
+
+  const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  bg.setAttribute("x", viewBox.x);
+  bg.setAttribute("y", viewBox.y);
+  bg.setAttribute("width", viewBox.width);
+  bg.setAttribute("height", viewBox.height);
+  bg.setAttribute("fill", rootStyle.getPropertyValue("--color-surface").trim() || "#ffffff");
+  clone.insertBefore(bg, clone.firstChild);
+
+  const styleEl = document.createElementNS("http://www.w3.org/2000/svg", "style");
+  styleEl.textContent = `${stylesheetText}\n${overrideRule}`;
+  clone.insertBefore(styleEl, clone.firstChild);
+
+  return new XMLSerializer().serializeToString(clone);
+}
+
+function chartExportFilename(source) {
+  const label = source.getAttribute("aria-label") || source.id || "chart";
+  const slug = label
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+  return `${slug || "chart"}.png`;
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function initChartCopyButton(triggerId, sourceId) {
+  const trigger = document.getElementById(triggerId);
+  const source = document.getElementById(sourceId);
+  if (!trigger || !source) return;
+
+  const originalLabel = trigger.textContent;
+
+  trigger.addEventListener("click", async () => {
+    trigger.disabled = true;
+    trigger.classList.remove("copied", "copy-failed");
+    trigger.textContent = "Copying…";
+    try {
+      const svgText = await buildChartExportSvgText(source);
+      const svgBlob = new Blob([svgText], { type: "image/svg+xml;charset=utf-8" });
+      const svgUrl = URL.createObjectURL(svgBlob);
+      const img = new Image();
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+        img.src = svgUrl;
+      });
+
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      canvas.getContext("2d").drawImage(img, 0, 0);
+      URL.revokeObjectURL(svgUrl);
+
+      const pngBlob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
+      if (!pngBlob) throw new Error("canvas.toBlob returned no data");
+
+      if (navigator.clipboard && window.ClipboardItem) {
+        await navigator.clipboard.write([new ClipboardItem({ "image/png": pngBlob })]);
+        trigger.textContent = "✓ Copied!";
+        trigger.classList.add("copied");
+      } else {
+        downloadBlob(pngBlob, chartExportFilename(source));
+        trigger.textContent = "Downloaded";
+        trigger.classList.add("copied");
+      }
+    } catch (err) {
+      trigger.textContent = "Copy failed";
+      trigger.classList.add("copy-failed");
+    }
+    setTimeout(() => {
+      trigger.disabled = false;
+      trigger.textContent = originalLabel;
+      trigger.classList.remove("copied", "copy-failed");
+    }, 2000);
+  });
+}
+
 function initPortraitLightbox() {
   const trigger = document.querySelector(".portrait-lightbox");
   if (!trigger) return;

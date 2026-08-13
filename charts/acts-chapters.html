@@ -76,7 +76,10 @@
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--acc-paul)"></span>Paul</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--acc-barnabas)"></span>Barnabas</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gen-shared)"></span>Jerusalem Council</span></div>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="acts-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="acts-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -184,6 +187,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Acts — Main Characters by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Acts — Main Characters by Chapter, enlarged"); initChartCopyButton("acts-chart-copy", "acts-chart-svg");</script>
 </body>
 </html>
