@@ -37,6 +37,7 @@
     "prompt_image_source": null,
     "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
   },
+  "image2": "tertius.png",
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",

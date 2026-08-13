@@ -53235,6 +53235,7 @@
       "encouraging the churches"
     ],
     "image": "generic-figure.png",
+    "image2": "tychicus.png",
     "timeline": {
       "precision": "era"
     },
@@ -53531,6 +53532,7 @@
       "commended leadership"
     ],
     "image": "generic-woman.png",
+    "image2": "phoebe.png",
     "timeline": {
       "precision": "era"
     },
@@ -53910,6 +53912,7 @@
       "scribal ministry"
     ],
     "image": "generic-figure.png",
+    "image2": "tertius.png",
     "timeline": {
       "precision": "era"
     },
@@ -53966,6 +53969,7 @@
       "a woman of standing in the early church"
     ],
     "image": "generic-woman.png",
+    "image2": "chloe.png",
     "first_reference": "1 Corinthians 1:11"
   },
   {
