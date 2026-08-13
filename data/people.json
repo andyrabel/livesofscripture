@@ -52861,6 +52861,7 @@
       "false accusation"
     ],
     "image": "generic-figure.png",
+    "image2": "jason.png",
     "first_reference": "Acts 17:5-9"
   },
   {
@@ -53131,6 +53132,7 @@
       "suffering with Paul"
     ],
     "image": "generic-figure.png",
+    "image2": "aristarchus.png",
     "first_reference": "Acts 19:29"
   },
   {
@@ -54092,6 +54094,7 @@
       "women in ministry"
     ],
     "image": "generic-woman.png",
+    "image2": "euodia.png",
     "first_reference": "Philippians 4:2"
   },
   {
@@ -54197,6 +54200,7 @@
       "love of the world"
     ],
     "image": "generic-figure.png",
+    "image2": "demas.png",
     "gender": "male",
     "first_reference": "Colossians 4:14"
   },
