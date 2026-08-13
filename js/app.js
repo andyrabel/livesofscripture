@@ -1307,7 +1307,7 @@ async function renderHomePage() {
   initPortraitLightbox();
   renderHomeCarousel(spotlightEligible);
   initHomeQuiz(quiz, index);
-  renderExploreRow(fullTier, index.length);
+  renderExploreRow(fullTier.filter((p) => p.image2), index.length);
   renderCollectionSummary(index, fullTier, quiz);
 }
 
