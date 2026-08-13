@@ -2859,15 +2859,16 @@ header.site-header nav a.nav-cta:hover {
 }
 
 /* The legend above the chart lists the same speaker names as the SVG row
-   labels -- doubled the same way, via its own ".jc-timeline-legend" class
-   added alongside ".kp-legend" (rather than touching .kp-legend itself,
-   which the other three charts' legends also use). */
+   labels -- enlarged (though not doubled -- too big at 2x, dialed back
+   2026-08-13) the same way, via its own ".jc-timeline-legend" class added
+   alongside ".kp-legend" (rather than touching .kp-legend itself, which
+   the other three charts' legends also use). */
 .jc-timeline-legend {
-  font-size: 1.7rem;
-  gap: 1.4rem;
+  font-size: 1.1rem;
+  gap: 1rem;
 }
 
 .jc-timeline-legend .kp-legend-swatch {
-  width: 28px;
-  height: 28px;
+  width: 18px;
+  height: 18px;
 }
