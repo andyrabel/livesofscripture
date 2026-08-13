@@ -138,7 +138,7 @@ def header_html(base, active):
         <img src="{base}favicon.svg" class="brand-mark" alt="" width="28" height="28">
         Lives of Scripture
       </a></h1>
-      <p class="brand-subtitle">Every person named in the Bible</p>
+      <p class="brand-subtitle">A reference for every person named in the Bible</p>
     </div>
     <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
       <span class="sr-only">Menu</span>
@@ -3239,6 +3239,10 @@ def build_charts_list_page():
       pivot from Peter's ministry to Paul's, with Stephen and Philip between.</p>
     </a>
   </div>
+
+  <p class="page-intro">Have an idea for another chart? Email
+  <a href="mailto:andyabel+livesofscripture@gmail.com">andyabel+livesofscripture@gmail.com</a>
+  with your suggestion.</p>
 </main>
 
 {footer_html(base)}
