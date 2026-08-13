@@ -52584,6 +52584,7 @@
       "faithful behind the scenes"
     ],
     "image": "generic-woman.png",
+    "image2": "mary-4.png",
     "timeline": {
       "precision": "era"
     },
@@ -52635,6 +52636,7 @@
       "a servant's memorable moment"
     ],
     "image": "generic-woman.png",
+    "image2": "rhoda.png",
     "timeline": {
       "precision": "era"
     },
@@ -52707,6 +52709,7 @@
       "prophets and teachers"
     ],
     "image": "generic-figure.png",
+    "image2": "manaen.png",
     "first_reference": "Acts 13:1"
   },
   {
@@ -52769,6 +52772,7 @@
       "encouragement"
     ],
     "image": "generic-prophet.png",
+    "image2": "judas-5.png",
     "first_reference": "Acts 15:22-32",
     "spotlight_eligible": false
   },
