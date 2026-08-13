@@ -1178,7 +1178,7 @@ def render_kings_and_prophets_svg(rows):
                     f'{entry["name"]} — {KP_NATION_LABELS.get(entry["nation"], entry["nation"])}, '
                     f'c. {kp_format_year(entry["start"])}–{kp_format_year(entry["end"])} ({entry["reference"]})'
                 )
-                href = f'people/{entry["person_id"]}.html'
+                href = f'../people/{entry["person_id"]}.html'
                 parts.append(f'<a href="{href}">')
                 parts.append(
                     f'<rect x="{bx:.1f}" y="{ly:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
@@ -1221,7 +1221,7 @@ def render_kings_and_prophets_table(rows, unplotted):
     def row_html(e, disputed=False):
         span = "Date disputed" if disputed else f'c. {esc(kp_format_year(e["start"]))}&ndash;{esc(kp_format_year(e["end"]))}'
         return (
-            f'<tr><td><a href="people/{e["person_id"]}.html">{esc(e["name"])}</a></td>'
+            f'<tr><td><a href="../people/{e["person_id"]}.html">{esc(e["name"])}</a></td>'
             f'<td>{"King" if e["kind"] == "king" else "Prophet"}</td>'
             f'<td>{esc(KP_NATION_LABELS.get(e["nation"], e["nation"]))}</td>'
             f'<td>{span}</td>'
@@ -2285,7 +2285,7 @@ def render_job_chapters_svg(chapters):
                     f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
                 )
             if speaker["person_id"]:
-                href = f'people/{speaker["person_id"]}.html'
+                href = f'../people/{speaker["person_id"]}.html'
                 parts.append(f'<a href="{href}">{rect}{label_el}</a>')
             else:
                 parts.append(rect + label_el)
@@ -2672,7 +2672,7 @@ def render_genesis_chapters_svg(chapters):
                     f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
                 )
             if speaker["person_id"]:
-                href = f'people/{speaker["person_id"]}.html'
+                href = f'../people/{speaker["person_id"]}.html'
                 parts.append(f'<a href="{href}">{rect}{label_el}</a>')
             else:
                 parts.append(rect + label_el)
@@ -3013,7 +3013,7 @@ def render_acts_chapters_svg(chapters):
                     f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
                 )
             if speaker["person_id"]:
-                href = f'people/{speaker["person_id"]}.html'
+                href = f'../people/{speaker["person_id"]}.html'
                 parts.append(f'<a href="{href}">{rect}{label_el}</a>')
             else:
                 parts.append(rect + label_el)
