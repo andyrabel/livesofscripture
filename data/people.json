@@ -53256,6 +53256,7 @@
       "left in sickness"
     ],
     "image": "generic-figure.png",
+    "image2": "trophimus.png",
     "timeline": {
       "precision": "era"
     },
@@ -54267,6 +54268,7 @@
       "danger of doctrinal drift"
     ],
     "image": "generic-figure.png",
+    "image2": "hymenaeus.png",
     "timeline": {
       "precision": "era"
     },
@@ -54392,6 +54394,7 @@
       "diligent searching"
     ],
     "image": "generic-figure.png",
+    "image2": "onesiphorus.png",
     "timeline": {
       "precision": "era"
     },
@@ -54410,6 +54413,7 @@
       "danger of doctrinal drift"
     ],
     "image": "generic-figure.png",
+    "image2": "philetus.png",
     "timeline": {
       "precision": "era"
     },
