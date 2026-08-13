@@ -2836,26 +2836,53 @@ header.site-header nav a.nav-cta:hover {
    .kp-chart-expand/.kp-disclaimer/
    .kp-table-details/.kp-table/.table-scroll already reused by the other
    three charts -- no chart-specific classes of its own. Colors come from
-   the --jc-* variables defined near the top of this file. The one thing
-   that *is* chart-specific is text size: this chart's SVG carries an extra
-   ".jc-timeline-svg" class (kept through the lightbox's clone, unlike its
-   "id", which the lightbox strips -- see initChartLightbox in js/app.js)
-   so these font-size overrides apply without doubling the shared
-   .kp-row-label/.kp-axis-label/.kp-bar-label sizes on the other three
-   charts too. The matching geometry (bar/row heights, plot width) is
-   scaled up in render_job_chapters_svg() in
-   _build/generate_static_site.py so the bigger text still fits. */
+   the --jc-* variables defined near the top of this file. This chart's SVG
+   carries an extra ".jc-timeline-svg" class (kept through the lightbox's
+   clone, unlike its "id", which the lightbox strips -- see
+   initChartLightbox in js/app.js) so these overrides apply without
+   touching the shared .kp-row-label/.kp-axis-label/.kp-bar-label sizes
+   used by the other three charts.
+
+   Unlike those three (which render at native pixel size and rely on
+   .kp-chart-scroll's horizontal scrollbar for anything wider than the
+   page), this chart's default view is scaled to *fit* .kp-chart-scroll's
+   width instead (added 2026-08-13, after the fixed-size 42-chapter-wide
+   chart was found to always overflow the page's 960px main column,
+   forcing a scrollbar just to see the whole timeline) -- see the
+   ".kp-chart-scroll .jc-timeline-svg" rule below. That rule is scoped to
+   the inline page's own wrapper class, not the shared ".jc-timeline-svg"
+   selector, specifically so it does NOT apply to the lightbox's clone of
+   this same SVG (dropped into ".kp-chart-lightbox-scroll" instead) --
+   the lightbox's own zoom controls set the clone's width/height attributes
+   directly in JS, and a CSS width:100% on the clone would silently
+   override those and break zooming.
+
+   Because the default view is scaled down to fit rather than shown at
+   1:1, the SVG's own font-size units below read larger on screen than
+   their raw numbers suggest once that scale-down is applied -- chosen so
+   the *displayed* row/axis text ends up bigger than the other three
+   charts' native size (they sit in open space, unconstrained by bar
+   width) while the bar-label size stays close to the other charts' native
+   size, since that one right up against the physical limit of how much
+   text a single 42nd-of-the-chart-wide bar can hold at any display size
+   (see the geometry comment in render_job_chapters_svg() in
+   _build/generate_static_site.py for the fit-margin math). */
+
+.kp-chart-scroll .jc-timeline-svg {
+  width: 100%;
+  height: auto;
+}
 
 .jc-timeline-svg .kp-row-label {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .jc-timeline-svg .kp-axis-label {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .jc-timeline-svg .kp-bar-label {
-  font-size: 19px;
+  font-size: 22px;
 }
 
 /* The legend above the chart lists the same speaker names as the SVG row

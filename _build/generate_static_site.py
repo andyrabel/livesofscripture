@@ -2218,10 +2218,10 @@ def render_job_chapters_svg(chapters):
     margin_left, margin_right = 16, 16
     plot_width = 1760
     bar_h = 34
-    row_label_h = 34
+    row_label_h = 38
     row_gap = 16
     axis_h = 34
-    bar_font_size = 19
+    bar_font_size = 22
     tick_step = 5
 
     def x_of(boundary):
@@ -2237,10 +2237,19 @@ def render_job_chapters_svg(chapters):
     ]
 
     # Chapter gridlines + axis labels, spanning the full plot height. Text
-    # sizes here are doubled (see the CSS ".jc-timeline-svg" rules) from the
-    # Kings & Prophets chart this layout is based on, so the geometry below
-    # (bar_h/row_label_h/axis_h/plot_width) is scaled up to match rather
-    # than reusing that chart's constants outright.
+    # sizes here (see the CSS ".jc-timeline-svg" rules) are bumped up from
+    # the Kings & Prophets chart this layout is based on -- not to render
+    # bigger natively (this chart is scaled responsively to fit its
+    # container width, see ".kp-chart-scroll .jc-timeline-svg" in the CSS,
+    # so it never needs the horizontal scrolling the other three charts
+    # rely on), but so the *displayed* text, after that scale-down, reads
+    # larger than the other charts' native size rather than smaller. Row
+    # labels and axis ticks sit in open space and can run large; bar_font_size
+    # stays more modest because it's the one genuinely space-constrained
+    # element -- some two-chapter runs (e.g. "16–17") are only just wide
+    # enough to hold their own label inline at this size, verified against
+    # kp_bar_label_fits's width estimate with a safety margin, and the
+    # geometry below (bar_h/row_label_h/axis_h/plot_width) matches.
     y_axis_top = axis_h
     y_axis_bottom = total_h - 4
     tick_chapters = sorted(set([1] + list(range(tick_step, total_chapters, tick_step)) + [total_chapters]))
@@ -2248,12 +2257,12 @@ def render_job_chapters_svg(chapters):
         boundary = tick - 1 if tick < total_chapters else total_chapters
         tx = x_of(boundary)
         parts.append(f'<line x1="{tx:.1f}" y1="{y_axis_top}" x2="{tx:.1f}" y2="{y_axis_bottom}" class="kp-gridline" />')
-        parts.append(f'<text x="{tx:.1f}" y="24" class="kp-axis-label" text-anchor="middle">{tick}</text>')
+        parts.append(f'<text x="{tx:.1f}" y="26" class="kp-axis-label" text-anchor="middle">{tick}</text>')
 
     y = axis_h
     for key in JC_ROW_ORDER:
         speaker = JC_SPEAKERS[key]
-        parts.append(f'<text x="{margin_left}" y="{y + 24}" class="kp-row-label">{esc(speaker["label"])}</text>')
+        parts.append(f'<text x="{margin_left}" y="{y + 30}" class="kp-row-label">{esc(speaker["label"])}</text>')
         lane_y = y + row_label_h
 
         for run in rows[key]:
@@ -2272,7 +2281,7 @@ def render_job_chapters_svg(chapters):
             label_el = ""
             if kp_bar_label_fits(chapter_label, bw, font_size=bar_font_size):
                 label_el = (
-                    f'<text x="{x1 + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 6.5:.1f}" '
+                    f'<text x="{x1 + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 7.5:.1f}" '
                     f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
                 )
             if speaker["person_id"]:
