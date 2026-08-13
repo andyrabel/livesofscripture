@@ -98,19 +98,26 @@
   --jc-elihu: #7a4fb0;
   --jc-lord: #1892a8;
 
-  /* Categorical protagonist palette for the "Whose Story Is It? — Genesis
-     by Chapter" chart (validated via the dataviz skill's six-checks script,
+  /* Categorical protagonist palette for the "Genesis — Main Characters by
+     Chapter" chart (validated via the dataviz skill's six-checks script,
      light+dark, fresh hues not reused elsewhere). Chapters with no single
      human protagonist (the creation week, the "begat" genealogies) reuse
      --gen-shared, same "not a competing identity" role as on the Job and
-     genealogies charts. */
+     genealogies charts. --gnc-sarah/-rebekah/-rachel (added 2026-08-12) are
+     secondary-worker rows, same overlapping-bar role as --acc-barnabas on
+     the Acts chart: their bars sit alongside Abraham's/Isaac's/Jacob's on
+     shared chapters rather than repainting any chapter's primary color, so
+     each only needs to stay distinct from its own row's neighbors. */
   --gnc-adam-eve: #2fbc75;
   --gnc-cain: #bc422f;
   --gnc-noah: #2f6abc;
   --gnc-abraham: #bc912f;
+  --gnc-sarah: #b03a5a;
   --gnc-lot: #882fbc;
   --gnc-isaac: #bc2f71;
+  --gnc-rebekah: #1f7aa8;
   --gnc-jacob: #5ebc2f;
+  --gnc-rachel: #9e2f6b;
   --gnc-dinah: #2fa4bc;
   --gnc-joseph: #592fbc;
   --gnc-judah: #bc2f91;
@@ -119,11 +126,16 @@
      Chapter" chart (validated via the dataviz skill's six-checks script,
      light+dark, fresh hues not reused elsewhere). Acts 15's Jerusalem
      Council -- no single figure driving the chapter -- reuses --gen-shared,
-     same role as above. */
+     same role as above. --acc-barnabas is a secondary-worker row: Barnabas's
+     bars overlap Paul's and the Council's on the same chapters (Acts 9,
+     11-15) rather than competing for a chapter's single "whose story"
+     slot, so its hue only needs to stay distinct from its row neighbors,
+     not repaint any existing chapter's color. */
   --acc-peter: #2960ae;
   --acc-stephen: #b38519;
   --acc-philip: #088f9b;
   --acc-paul: #ae2934;
+  --acc-barnabas: #6b3fa0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -183,9 +195,12 @@
     --gnc-cain: #b86614;
     --gnc-noah: #4280d7;
     --gnc-abraham: #b18725;
+    --gnc-sarah: #d1546e;
     --gnc-lot: #8742d7;
     --gnc-isaac: #d74267;
+    --gnc-rebekah: #3a8fc0;
     --gnc-jacob: #4ca022;
+    --gnc-rachel: #b83a75;
     --gnc-dinah: #259ab1;
     --gnc-joseph: #6e42d7;
     --gnc-judah: #d742aa;
@@ -193,6 +208,7 @@
     --acc-stephen: #ae8013;
     --acc-philip: #1299a5;
     --acc-paul: #d6515d;
+    --acc-barnabas: #9f6fd8;
   }
 }
 
@@ -252,9 +268,12 @@
   --gnc-cain: #b86614;
   --gnc-noah: #4280d7;
   --gnc-abraham: #b18725;
+  --gnc-sarah: #d1546e;
   --gnc-lot: #8742d7;
   --gnc-isaac: #d74267;
+  --gnc-rebekah: #3a8fc0;
   --gnc-jacob: #4ca022;
+  --gnc-rachel: #b83a75;
   --gnc-dinah: #259ab1;
   --gnc-joseph: #6e42d7;
   --gnc-judah: #d742aa;
@@ -262,6 +281,7 @@
   --acc-stephen: #ae8013;
   --acc-philip: #1299a5;
   --acc-paul: #d6515d;
+  --acc-barnabas: #9f6fd8;
 }
 
 :root[data-theme="light"] {
@@ -317,19 +337,26 @@
   --jc-elihu: #7a4fb0;
   --jc-lord: #1892a8;
 
-  /* Categorical protagonist palette for the "Whose Story Is It? — Genesis
-     by Chapter" chart (validated via the dataviz skill's six-checks script,
+  /* Categorical protagonist palette for the "Genesis — Main Characters by
+     Chapter" chart (validated via the dataviz skill's six-checks script,
      light+dark, fresh hues not reused elsewhere). Chapters with no single
      human protagonist (the creation week, the "begat" genealogies) reuse
      --gen-shared, same "not a competing identity" role as on the Job and
-     genealogies charts. */
+     genealogies charts. --gnc-sarah/-rebekah/-rachel (added 2026-08-12) are
+     secondary-worker rows, same overlapping-bar role as --acc-barnabas on
+     the Acts chart: their bars sit alongside Abraham's/Isaac's/Jacob's on
+     shared chapters rather than repainting any chapter's primary color, so
+     each only needs to stay distinct from its own row's neighbors. */
   --gnc-adam-eve: #2fbc75;
   --gnc-cain: #bc422f;
   --gnc-noah: #2f6abc;
   --gnc-abraham: #bc912f;
+  --gnc-sarah: #b03a5a;
   --gnc-lot: #882fbc;
   --gnc-isaac: #bc2f71;
+  --gnc-rebekah: #1f7aa8;
   --gnc-jacob: #5ebc2f;
+  --gnc-rachel: #9e2f6b;
   --gnc-dinah: #2fa4bc;
   --gnc-joseph: #592fbc;
   --gnc-judah: #bc2f91;
@@ -338,11 +365,16 @@
      Chapter" chart (validated via the dataviz skill's six-checks script,
      light+dark, fresh hues not reused elsewhere). Acts 15's Jerusalem
      Council -- no single figure driving the chapter -- reuses --gen-shared,
-     same role as above. */
+     same role as above. --acc-barnabas is a secondary-worker row: Barnabas's
+     bars overlap Paul's and the Council's on the same chapters (Acts 9,
+     11-15) rather than competing for a chapter's single "whose story"
+     slot, so its hue only needs to stay distinct from its row neighbors,
+     not repaint any existing chapter's color. */
   --acc-peter: #2960ae;
   --acc-stephen: #b38519;
   --acc-philip: #088f9b;
   --acc-paul: #ae2934;
+  --acc-barnabas: #6b3fa0;
 }
 
 * { box-sizing: border-box; }
@@ -2534,6 +2566,19 @@ header.site-header nav a.nav-cta:hover {
   padding: 0.35rem 0.6rem;
   border-bottom: 1px solid var(--color-border);
   white-space: nowrap;
+}
+
+/* Overlapping secondary-worker row (e.g. Barnabas on the Acts chart) --
+   interleaved after the chapter it starts in, styled muted/italic so it
+   reads as "also present" rather than a competing primary assignment for
+   that chapter. */
+.kp-table-secondary {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.kp-table-secondary a {
+  color: inherit;
 }
 
 .kp-unplotted {

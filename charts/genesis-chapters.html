@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Whose Story Is It? — Genesis by Chapter — Lives of Scripture</title>
+<title>Genesis — Main Characters by Chapter — Lives of Scripture</title>
 <meta name="description" content="Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph.">
 <link rel="canonical" href="https://livesofscripture.org/charts/genesis-chapters.html">
 
@@ -15,12 +15,12 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
-<meta property="og:title" content="Whose Story Is It? — Genesis by Chapter — Lives of Scripture">
+<meta property="og:title" content="Genesis — Main Characters by Chapter — Lives of Scripture">
 <meta property="og:description" content="Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph.">
 <meta property="og:url" content="https://livesofscripture.org/charts/genesis-chapters.html">
 <meta property="og:image" content="https://livesofscripture.org/images/social/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Whose Story Is It? — Genesis by Chapter — Lives of Scripture">
+<meta name="twitter:title" content="Genesis — Main Characters by Chapter — Lives of Scripture">
 <meta name="twitter:description" content="Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph.">
 <meta name="twitter:image" content="https://livesofscripture.org/images/social/og-image.png">
 
@@ -57,14 +57,17 @@
 
 <main>
   <p><a href="../charts.html">&larr; Charts</a></p>
-  <h2>Whose Story Is It? &mdash; Genesis by Chapter</h2>
+  <h2>Genesis &mdash; Main Characters by Chapter</h2>
   <p class="page-intro">Genesis moves through several overlapping generations rather than one continuous
   drama. Each row below is a person; each bar is a chapter, colored by whoever the text's own narrative
   centers on in that chapter &mdash; Adam and Eve in Eden, Cain after the first murder, Noah and the flood,
   Abraham's call and covenant, his nephew Lot at Sodom, Isaac's generation, Jacob's flight and return, his
   daughter Dinah, and finally Joseph and his brother Judah in Egypt. Chapters with no single human
   protagonist &mdash; the creation week and the book's genealogical &ldquo;these are the generations of...&rdquo;
-  lists &mdash; are grouped under Creation &amp; Genealogies. Bars are clickable and link to that person's
+  lists &mdash; are grouped under Creation &amp; Genealogies. Sarah, Rebekah, and Rachel each get their own
+  row too, overlapping the chapters they share with Abraham, Isaac, and Jacob &mdash; each is a major
+  secondary worker with her own decisive scenes, not the chapter's primary storyteller, so her bars sit
+  alongside those rows' colors rather than replacing them. Bars are clickable and link to that person's
   page; hover or focus a bar for a chapter summary.</p>
 
   <p class="kp-disclaimer">A few chapters split across two people and required a judgment call rather than
@@ -73,7 +76,11 @@
   cup is grouped under Judah rather than Joseph, since the chapter's back half is Judah's own pivotal plea
   to take Benjamin's place as a slave. Jacob is renamed Israel partway through the book (32:22-32); the row
   is labeled &ldquo;Jacob&rdquo; throughout for consistency, but links to his person page under that later
-  name.</p>
+  name. Sarah's row spans Genesis 16-18, 20-21, and 23; Rebekah's spans 24 and 27; Rachel's spans 30-31 and
+  35 &mdash; chapter-granularity spans covering each woman's own decisive scenes (Sarah's laughter and
+  death, Rebekah's part in Jacob's blessing, Rachel's stolen idols and death in childbirth), not every verse
+  she's mentioned in. Esau, Leah, Hagar, and Tamar (ch. 38, folded into Judah's row) were considered for
+  their own rows too but left out &mdash; a scope decision, not a claim their roles were minor.</p>
 
   <div class="kp-legend-row">
     <div class="kp-legend gnc-timeline-legend"><span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gen-shared)"></span>Creation &amp; Genealogies</span>
@@ -81,9 +88,12 @@
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-cain)"></span>Cain</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-noah)"></span>Noah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-abraham)"></span>Abraham</span>
+    <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-sarah)"></span>Sarah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-lot)"></span>Lot</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-isaac)"></span>Isaac</span>
+    <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-rebekah)"></span>Rebekah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-jacob)"></span>Jacob</span>
+    <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-rachel)"></span>Rachel</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-dinah)"></span>Dinah</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-joseph)"></span>Joseph</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--gnc-judah)"></span>Judah</span></div>
@@ -91,28 +101,28 @@
   </div>
 
   <div class="kp-chart-scroll">
-  <svg id="genesis-chart-svg" viewBox="0 0 1932 886" width="1932" height="886" role="img" aria-label="Timeline of all 50 chapters of Genesis, one row per protagonist, showing which chapters each one's story is told in" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg gnc-timeline-svg">
-<line x1="16.0" y1="34" x2="16.0" y2="882" class="kp-gridline" />
+  <svg id="genesis-chart-svg" viewBox="0 0 1932 1120" width="1932" height="1120" role="img" aria-label="Timeline of all 50 chapters of Genesis, one row per protagonist plus Sarah, Rebekah, and Rachel rows for the chapters each shares as a major secondary worker, showing which chapters each one's story is told in" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg gnc-timeline-svg">
+<line x1="16.0" y1="34" x2="16.0" y2="1116" class="kp-gridline" />
 <text x="16.0" y="26" class="kp-axis-label" text-anchor="middle">1</text>
-<line x1="168.0" y1="34" x2="168.0" y2="882" class="kp-gridline" />
+<line x1="168.0" y1="34" x2="168.0" y2="1116" class="kp-gridline" />
 <text x="168.0" y="26" class="kp-axis-label" text-anchor="middle">5</text>
-<line x1="358.0" y1="34" x2="358.0" y2="882" class="kp-gridline" />
+<line x1="358.0" y1="34" x2="358.0" y2="1116" class="kp-gridline" />
 <text x="358.0" y="26" class="kp-axis-label" text-anchor="middle">10</text>
-<line x1="548.0" y1="34" x2="548.0" y2="882" class="kp-gridline" />
+<line x1="548.0" y1="34" x2="548.0" y2="1116" class="kp-gridline" />
 <text x="548.0" y="26" class="kp-axis-label" text-anchor="middle">15</text>
-<line x1="738.0" y1="34" x2="738.0" y2="882" class="kp-gridline" />
+<line x1="738.0" y1="34" x2="738.0" y2="1116" class="kp-gridline" />
 <text x="738.0" y="26" class="kp-axis-label" text-anchor="middle">20</text>
-<line x1="928.0" y1="34" x2="928.0" y2="882" class="kp-gridline" />
+<line x1="928.0" y1="34" x2="928.0" y2="1116" class="kp-gridline" />
 <text x="928.0" y="26" class="kp-axis-label" text-anchor="middle">25</text>
-<line x1="1118.0" y1="34" x2="1118.0" y2="882" class="kp-gridline" />
+<line x1="1118.0" y1="34" x2="1118.0" y2="1116" class="kp-gridline" />
 <text x="1118.0" y="26" class="kp-axis-label" text-anchor="middle">30</text>
-<line x1="1308.0" y1="34" x2="1308.0" y2="882" class="kp-gridline" />
+<line x1="1308.0" y1="34" x2="1308.0" y2="1116" class="kp-gridline" />
 <text x="1308.0" y="26" class="kp-axis-label" text-anchor="middle">35</text>
-<line x1="1498.0" y1="34" x2="1498.0" y2="882" class="kp-gridline" />
+<line x1="1498.0" y1="34" x2="1498.0" y2="1116" class="kp-gridline" />
 <text x="1498.0" y="26" class="kp-axis-label" text-anchor="middle">40</text>
-<line x1="1688.0" y1="34" x2="1688.0" y2="882" class="kp-gridline" />
+<line x1="1688.0" y1="34" x2="1688.0" y2="1116" class="kp-gridline" />
 <text x="1688.0" y="26" class="kp-axis-label" text-anchor="middle">45</text>
-<line x1="1916.0" y1="34" x2="1916.0" y2="882" class="kp-gridline" />
+<line x1="1916.0" y1="34" x2="1916.0" y2="1116" class="kp-gridline" />
 <text x="1916.0" y="26" class="kp-axis-label" text-anchor="middle">50</text>
 <text x="16" y="60" class="kp-row-label">Creation &amp; Genealogies</text>
 <rect x="16.0" y="68.0" width="38.0" height="30" rx="4" fill="var(--gen-shared)" class="kp-bar" tabindex="0" data-name="Creation &amp; Genealogies" data-nation="Genesis 1" data-span="The six days of creation, culminating in mankind, male and female, made in God&#x27;s image." data-reference="Genesis 1"><title>Genesis 1 — Creation &amp; Genealogies. The six days of creation, culminating in mankind, male and female, made in God&#x27;s image. (Genesis 1)</title></rect><text x="35.0" y="89.5" class="kp-bar-label" text-anchor="middle">1</text>
@@ -128,26 +138,36 @@
 <text x="16" y="372" class="kp-row-label">Abraham</text>
 <a href="people/abraham.html"><rect x="434.0" y="380.0" width="266.0" height="30" rx="4" fill="var(--gnc-abraham)" class="kp-bar" tabindex="0" data-name="Abraham" data-nation="Genesis 12–18" data-span="The LORD calls Abram to Canaan with a promise of blessing; famine drives him to Egypt, where he deceives Pharaoh about Sarai." data-reference="Genesis 12"><title>Genesis 12–18 — Abraham. The LORD calls Abram to Canaan with a promise of blessing; famine drives him to Egypt, where he deceives Pharaoh about Sarai. (Genesis 12)</title></rect><text x="567.0" y="401.5" class="kp-bar-label" text-anchor="middle">12–18</text></a>
 <a href="people/abraham.html"><rect x="738.0" y="380.0" width="152.0" height="30" rx="4" fill="var(--gnc-abraham)" class="kp-bar" tabindex="0" data-name="Abraham" data-nation="Genesis 20–23" data-span="Abraham again passes Sarah off as his sister, this time to Abimelech, king of Gerar." data-reference="Genesis 20"><title>Genesis 20–23 — Abraham. Abraham again passes Sarah off as his sister, this time to Abimelech, king of Gerar. (Genesis 20)</title></rect><text x="814.0" y="401.5" class="kp-bar-label" text-anchor="middle">20–23</text></a>
-<text x="16" y="450" class="kp-row-label">Lot</text>
-<a href="people/lot.html"><rect x="700.0" y="458.0" width="38.0" height="30" rx="4" fill="var(--gnc-lot)" class="kp-bar" tabindex="0" data-name="Lot" data-nation="Genesis 19" data-span="Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt." data-reference="Genesis 19"><title>Genesis 19 — Lot. Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt. (Genesis 19)</title></rect><text x="719.0" y="479.5" class="kp-bar-label" text-anchor="middle">19</text></a>
-<text x="16" y="528" class="kp-row-label">Isaac</text>
-<a href="people/isaac.html"><rect x="890.0" y="536.0" width="38.0" height="30" rx="4" fill="var(--gnc-isaac)" class="kp-bar" tabindex="0" data-name="Isaac" data-nation="Genesis 24" data-span="Abraham&#x27;s servant travels to Abraham&#x27;s homeland and returns with Rebekah as a bride for Isaac." data-reference="Genesis 24"><title>Genesis 24 — Isaac. Abraham&#x27;s servant travels to Abraham&#x27;s homeland and returns with Rebekah as a bride for Isaac. (Genesis 24)</title></rect><text x="909.0" y="557.5" class="kp-bar-label" text-anchor="middle">24</text></a>
-<a href="people/isaac.html"><rect x="966.0" y="536.0" width="38.0" height="30" rx="4" fill="var(--gnc-isaac)" class="kp-bar" tabindex="0" data-name="Isaac" data-nation="Genesis 26" data-span="Isaac repeats his father&#x27;s deception about his wife, re-digs Abraham&#x27;s wells, and makes a treaty with Abimelech." data-reference="Genesis 26"><title>Genesis 26 — Isaac. Isaac repeats his father&#x27;s deception about his wife, re-digs Abraham&#x27;s wells, and makes a treaty with Abimelech. (Genesis 26)</title></rect><text x="985.0" y="557.5" class="kp-bar-label" text-anchor="middle">26</text></a>
-<text x="16" y="606" class="kp-row-label">Jacob</text>
-<a href="people/israel.html"><rect x="928.0" y="614.0" width="38.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 25" data-span="Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew." data-reference="Genesis 25"><title>Genesis 25 — Jacob. Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew. (Genesis 25)</title></rect><text x="947.0" y="635.5" class="kp-bar-label" text-anchor="middle">25</text></a>
-<a href="people/israel.html"><rect x="1004.0" y="614.0" width="266.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 27–33" data-span="With his mother Rebekah&#x27;s help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau&#x27;s blessing." data-reference="Genesis 27"><title>Genesis 27–33 — Jacob. With his mother Rebekah&#x27;s help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau&#x27;s blessing. (Genesis 27)</title></rect><text x="1137.0" y="635.5" class="kp-bar-label" text-anchor="middle">27–33</text></a>
-<a href="people/israel.html"><rect x="1308.0" y="614.0" width="38.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 35" data-span="Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron." data-reference="Genesis 35"><title>Genesis 35 — Jacob. Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron. (Genesis 35)</title></rect><text x="1327.0" y="635.5" class="kp-bar-label" text-anchor="middle">35</text></a>
-<a href="people/israel.html"><rect x="1726.0" y="614.0" width="152.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 46–49" data-span="God reassures Jacob (Israel) at Beersheba; his family — seventy in all — journeys to Egypt and is reunited with Joseph." data-reference="Genesis 46"><title>Genesis 46–49 — Jacob. God reassures Jacob (Israel) at Beersheba; his family — seventy in all — journeys to Egypt and is reunited with Joseph. (Genesis 46)</title></rect><text x="1802.0" y="635.5" class="kp-bar-label" text-anchor="middle">46–49</text></a>
-<text x="16" y="684" class="kp-row-label">Dinah</text>
-<a href="people/dinah.html"><rect x="1270.0" y="692.0" width="38.0" height="30" rx="4" fill="var(--gnc-dinah)" class="kp-bar" tabindex="0" data-name="Dinah" data-nation="Genesis 34" data-span="Shechem violates Jacob&#x27;s daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city." data-reference="Genesis 34"><title>Genesis 34 — Dinah. Shechem violates Jacob&#x27;s daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city. (Genesis 34)</title></rect><text x="1289.0" y="713.5" class="kp-bar-label" text-anchor="middle">34</text></a>
-<text x="16" y="762" class="kp-row-label">Joseph</text>
-<a href="people/joseph.html"><rect x="1384.0" y="770.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 37" data-span="Joseph&#x27;s dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt." data-reference="Genesis 37"><title>Genesis 37 — Joseph. Joseph&#x27;s dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt. (Genesis 37)</title></rect><text x="1403.0" y="791.5" class="kp-bar-label" text-anchor="middle">37</text></a>
-<a href="people/joseph.html"><rect x="1460.0" y="770.0" width="190.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 39–43" data-span="Joseph rises to oversee Potiphar&#x27;s house, then is falsely accused and imprisoned after refusing Potiphar&#x27;s wife." data-reference="Genesis 39"><title>Genesis 39–43 — Joseph. Joseph rises to oversee Potiphar&#x27;s house, then is falsely accused and imprisoned after refusing Potiphar&#x27;s wife. (Genesis 39)</title></rect><text x="1555.0" y="791.5" class="kp-bar-label" text-anchor="middle">39–43</text></a>
-<a href="people/joseph.html"><rect x="1688.0" y="770.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 45" data-span="Joseph reveals his identity to his brothers and sends for his father Jacob to come to Egypt." data-reference="Genesis 45"><title>Genesis 45 — Joseph. Joseph reveals his identity to his brothers and sends for his father Jacob to come to Egypt. (Genesis 45)</title></rect><text x="1707.0" y="791.5" class="kp-bar-label" text-anchor="middle">45</text></a>
-<a href="people/joseph.html"><rect x="1878.0" y="770.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 50" data-span="Joseph buries Jacob in Canaan, reassures his fearful brothers (“you meant evil... God meant it for good”), and dies in Egypt at 110." data-reference="Genesis 50"><title>Genesis 50 — Joseph. Joseph buries Jacob in Canaan, reassures his fearful brothers (“you meant evil... God meant it for good”), and dies in Egypt at 110. (Genesis 50)</title></rect><text x="1897.0" y="791.5" class="kp-bar-label" text-anchor="middle">50</text></a>
-<text x="16" y="840" class="kp-row-label">Judah</text>
-<a href="people/judah.html"><rect x="1422.0" y="848.0" width="38.0" height="30" rx="4" fill="var(--gnc-judah)" class="kp-bar" tabindex="0" data-name="Judah" data-nation="Genesis 38" data-span="Judah&#x27;s daughter-in-law Tamar disguises herself to secure an heir after his sons&#x27; deaths; Judah admits, “she is more righteous than I.”" data-reference="Genesis 38"><title>Genesis 38 — Judah. Judah&#x27;s daughter-in-law Tamar disguises herself to secure an heir after his sons&#x27; deaths; Judah admits, “she is more righteous than I.” (Genesis 38)</title></rect><text x="1441.0" y="869.5" class="kp-bar-label" text-anchor="middle">38</text></a>
-<a href="people/judah.html"><rect x="1650.0" y="848.0" width="38.0" height="30" rx="4" fill="var(--gnc-judah)" class="kp-bar" tabindex="0" data-name="Judah" data-nation="Genesis 44" data-span="Joseph&#x27;s silver cup is planted in Benjamin&#x27;s sack; Judah offers himself as a slave in Benjamin&#x27;s place rather than let their father lose him." data-reference="Genesis 44"><title>Genesis 44 — Judah. Joseph&#x27;s silver cup is planted in Benjamin&#x27;s sack; Judah offers himself as a slave in Benjamin&#x27;s place rather than let their father lose him. (Genesis 44)</title></rect><text x="1669.0" y="869.5" class="kp-bar-label" text-anchor="middle">44</text></a>
+<text x="16" y="450" class="kp-row-label">Sarah</text>
+<a href="people/sarah.html"><rect x="586.0" y="458.0" width="114.0" height="30" rx="4" fill="var(--gnc-sarah)" class="kp-bar" tabindex="0" data-name="Sarah" data-nation="Genesis 16–18" data-span="Sarai gives her servant Hagar to Abram, then deals harshly with her after Hagar conceives; renamed Sarah, she laughs to herself when the LORD&#x27;s visitors promise her a son within the year." data-reference="Genesis 16"><title>Genesis 16–18 — Sarah. Sarai gives her servant Hagar to Abram, then deals harshly with her after Hagar conceives; renamed Sarah, she laughs to herself when the LORD&#x27;s visitors promise her a son within the year. (Genesis 16)</title></rect><text x="643.0" y="479.5" class="kp-bar-label" text-anchor="middle">16–18</text></a>
+<a href="people/sarah.html"><rect x="738.0" y="458.0" width="76.0" height="30" rx="4" fill="var(--gnc-sarah)" class="kp-bar" tabindex="0" data-name="Sarah" data-nation="Genesis 20–21" data-span="Abraham again passes Sarah off as his sister, this time to Abimelech; after Isaac is born to her, Sarah insists that Hagar and Ishmael be sent away." data-reference="Genesis 20"><title>Genesis 20–21 — Sarah. Abraham again passes Sarah off as his sister, this time to Abimelech; after Isaac is born to her, Sarah insists that Hagar and Ishmael be sent away. (Genesis 20)</title></rect><text x="776.0" y="479.5" class="kp-bar-label" text-anchor="middle">20–21</text></a>
+<a href="people/sarah.html"><rect x="852.0" y="458.0" width="38.0" height="30" rx="4" fill="var(--gnc-sarah)" class="kp-bar" tabindex="0" data-name="Sarah" data-nation="Genesis 23" data-span="Sarah dies at Kiriath-arba, and Abraham buys the cave of Machpelah from the Hittites as her burial site." data-reference="Genesis 23"><title>Genesis 23 — Sarah. Sarah dies at Kiriath-arba, and Abraham buys the cave of Machpelah from the Hittites as her burial site. (Genesis 23)</title></rect><text x="871.0" y="479.5" class="kp-bar-label" text-anchor="middle">23</text></a>
+<text x="16" y="528" class="kp-row-label">Lot</text>
+<a href="people/lot.html"><rect x="700.0" y="536.0" width="38.0" height="30" rx="4" fill="var(--gnc-lot)" class="kp-bar" tabindex="0" data-name="Lot" data-nation="Genesis 19" data-span="Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt." data-reference="Genesis 19"><title>Genesis 19 — Lot. Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt. (Genesis 19)</title></rect><text x="719.0" y="557.5" class="kp-bar-label" text-anchor="middle">19</text></a>
+<text x="16" y="606" class="kp-row-label">Isaac</text>
+<a href="people/isaac.html"><rect x="890.0" y="614.0" width="38.0" height="30" rx="4" fill="var(--gnc-isaac)" class="kp-bar" tabindex="0" data-name="Isaac" data-nation="Genesis 24" data-span="Abraham&#x27;s servant travels to Abraham&#x27;s homeland and returns with Rebekah as a bride for Isaac." data-reference="Genesis 24"><title>Genesis 24 — Isaac. Abraham&#x27;s servant travels to Abraham&#x27;s homeland and returns with Rebekah as a bride for Isaac. (Genesis 24)</title></rect><text x="909.0" y="635.5" class="kp-bar-label" text-anchor="middle">24</text></a>
+<a href="people/isaac.html"><rect x="966.0" y="614.0" width="38.0" height="30" rx="4" fill="var(--gnc-isaac)" class="kp-bar" tabindex="0" data-name="Isaac" data-nation="Genesis 26" data-span="Isaac repeats his father&#x27;s deception about his wife, re-digs Abraham&#x27;s wells, and makes a treaty with Abimelech." data-reference="Genesis 26"><title>Genesis 26 — Isaac. Isaac repeats his father&#x27;s deception about his wife, re-digs Abraham&#x27;s wells, and makes a treaty with Abimelech. (Genesis 26)</title></rect><text x="985.0" y="635.5" class="kp-bar-label" text-anchor="middle">26</text></a>
+<text x="16" y="684" class="kp-row-label">Rebekah</text>
+<a href="people/rebekah.html"><rect x="890.0" y="692.0" width="38.0" height="30" rx="4" fill="var(--gnc-rebekah)" class="kp-bar" tabindex="0" data-name="Rebekah" data-nation="Genesis 24" data-span="Abraham&#x27;s servant meets Rebekah at the well and asks her family for her hand; she agrees to leave home at once and marries Isaac." data-reference="Genesis 24"><title>Genesis 24 — Rebekah. Abraham&#x27;s servant meets Rebekah at the well and asks her family for her hand; she agrees to leave home at once and marries Isaac. (Genesis 24)</title></rect><text x="909.0" y="713.5" class="kp-bar-label" text-anchor="middle">24</text></a>
+<a href="people/rebekah.html"><rect x="1004.0" y="692.0" width="38.0" height="30" rx="4" fill="var(--gnc-rebekah)" class="kp-bar" tabindex="0" data-name="Rebekah" data-nation="Genesis 27" data-span="Overhearing Isaac&#x27;s plan to bless Esau, Rebekah orchestrates Jacob&#x27;s deception, dressing him in Esau&#x27;s clothes and preparing his father&#x27;s favorite food." data-reference="Genesis 27"><title>Genesis 27 — Rebekah. Overhearing Isaac&#x27;s plan to bless Esau, Rebekah orchestrates Jacob&#x27;s deception, dressing him in Esau&#x27;s clothes and preparing his father&#x27;s favorite food. (Genesis 27)</title></rect><text x="1023.0" y="713.5" class="kp-bar-label" text-anchor="middle">27</text></a>
+<text x="16" y="762" class="kp-row-label">Jacob</text>
+<a href="people/israel.html"><rect x="928.0" y="770.0" width="38.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 25" data-span="Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew." data-reference="Genesis 25"><title>Genesis 25 — Jacob. Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew. (Genesis 25)</title></rect><text x="947.0" y="791.5" class="kp-bar-label" text-anchor="middle">25</text></a>
+<a href="people/israel.html"><rect x="1004.0" y="770.0" width="266.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 27–33" data-span="With his mother Rebekah&#x27;s help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau&#x27;s blessing." data-reference="Genesis 27"><title>Genesis 27–33 — Jacob. With his mother Rebekah&#x27;s help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau&#x27;s blessing. (Genesis 27)</title></rect><text x="1137.0" y="791.5" class="kp-bar-label" text-anchor="middle">27–33</text></a>
+<a href="people/israel.html"><rect x="1308.0" y="770.0" width="38.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 35" data-span="Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron." data-reference="Genesis 35"><title>Genesis 35 — Jacob. Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron. (Genesis 35)</title></rect><text x="1327.0" y="791.5" class="kp-bar-label" text-anchor="middle">35</text></a>
+<a href="people/israel.html"><rect x="1726.0" y="770.0" width="152.0" height="30" rx="4" fill="var(--gnc-jacob)" class="kp-bar" tabindex="0" data-name="Jacob" data-nation="Genesis 46–49" data-span="God reassures Jacob (Israel) at Beersheba; his family — seventy in all — journeys to Egypt and is reunited with Joseph." data-reference="Genesis 46"><title>Genesis 46–49 — Jacob. God reassures Jacob (Israel) at Beersheba; his family — seventy in all — journeys to Egypt and is reunited with Joseph. (Genesis 46)</title></rect><text x="1802.0" y="791.5" class="kp-bar-label" text-anchor="middle">46–49</text></a>
+<text x="16" y="840" class="kp-row-label">Rachel</text>
+<a href="people/rachel.html"><rect x="1118.0" y="848.0" width="76.0" height="30" rx="4" fill="var(--gnc-rachel)" class="kp-bar" tabindex="0" data-name="Rachel" data-nation="Genesis 30–31" data-span="Rachel demands children from Jacob and gives him her servant Bilhah; fleeing with Jacob from Laban, she secretly steals her father&#x27;s household idols and lies about it." data-reference="Genesis 30"><title>Genesis 30–31 — Rachel. Rachel demands children from Jacob and gives him her servant Bilhah; fleeing with Jacob from Laban, she secretly steals her father&#x27;s household idols and lies about it. (Genesis 30)</title></rect><text x="1156.0" y="869.5" class="kp-bar-label" text-anchor="middle">30–31</text></a>
+<a href="people/rachel.html"><rect x="1308.0" y="848.0" width="38.0" height="30" rx="4" fill="var(--gnc-rachel)" class="kp-bar" tabindex="0" data-name="Rachel" data-nation="Genesis 35" data-span="Rachel dies giving birth to Benjamin on the road to Ephrath, naming him with her dying breath before Jacob buries her there." data-reference="Genesis 35"><title>Genesis 35 — Rachel. Rachel dies giving birth to Benjamin on the road to Ephrath, naming him with her dying breath before Jacob buries her there. (Genesis 35)</title></rect><text x="1327.0" y="869.5" class="kp-bar-label" text-anchor="middle">35</text></a>
+<text x="16" y="918" class="kp-row-label">Dinah</text>
+<a href="people/dinah.html"><rect x="1270.0" y="926.0" width="38.0" height="30" rx="4" fill="var(--gnc-dinah)" class="kp-bar" tabindex="0" data-name="Dinah" data-nation="Genesis 34" data-span="Shechem violates Jacob&#x27;s daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city." data-reference="Genesis 34"><title>Genesis 34 — Dinah. Shechem violates Jacob&#x27;s daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city. (Genesis 34)</title></rect><text x="1289.0" y="947.5" class="kp-bar-label" text-anchor="middle">34</text></a>
+<text x="16" y="996" class="kp-row-label">Joseph</text>
+<a href="people/joseph.html"><rect x="1384.0" y="1004.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 37" data-span="Joseph&#x27;s dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt." data-reference="Genesis 37"><title>Genesis 37 — Joseph. Joseph&#x27;s dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt. (Genesis 37)</title></rect><text x="1403.0" y="1025.5" class="kp-bar-label" text-anchor="middle">37</text></a>
+<a href="people/joseph.html"><rect x="1460.0" y="1004.0" width="190.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 39–43" data-span="Joseph rises to oversee Potiphar&#x27;s house, then is falsely accused and imprisoned after refusing Potiphar&#x27;s wife." data-reference="Genesis 39"><title>Genesis 39–43 — Joseph. Joseph rises to oversee Potiphar&#x27;s house, then is falsely accused and imprisoned after refusing Potiphar&#x27;s wife. (Genesis 39)</title></rect><text x="1555.0" y="1025.5" class="kp-bar-label" text-anchor="middle">39–43</text></a>
+<a href="people/joseph.html"><rect x="1688.0" y="1004.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 45" data-span="Joseph reveals his identity to his brothers and sends for his father Jacob to come to Egypt." data-reference="Genesis 45"><title>Genesis 45 — Joseph. Joseph reveals his identity to his brothers and sends for his father Jacob to come to Egypt. (Genesis 45)</title></rect><text x="1707.0" y="1025.5" class="kp-bar-label" text-anchor="middle">45</text></a>
+<a href="people/joseph.html"><rect x="1878.0" y="1004.0" width="38.0" height="30" rx="4" fill="var(--gnc-joseph)" class="kp-bar" tabindex="0" data-name="Joseph" data-nation="Genesis 50" data-span="Joseph buries Jacob in Canaan, reassures his fearful brothers (“you meant evil... God meant it for good”), and dies in Egypt at 110." data-reference="Genesis 50"><title>Genesis 50 — Joseph. Joseph buries Jacob in Canaan, reassures his fearful brothers (“you meant evil... God meant it for good”), and dies in Egypt at 110. (Genesis 50)</title></rect><text x="1897.0" y="1025.5" class="kp-bar-label" text-anchor="middle">50</text></a>
+<text x="16" y="1074" class="kp-row-label">Judah</text>
+<a href="people/judah.html"><rect x="1422.0" y="1082.0" width="38.0" height="30" rx="4" fill="var(--gnc-judah)" class="kp-bar" tabindex="0" data-name="Judah" data-nation="Genesis 38" data-span="Judah&#x27;s daughter-in-law Tamar disguises herself to secure an heir after his sons&#x27; deaths; Judah admits, “she is more righteous than I.”" data-reference="Genesis 38"><title>Genesis 38 — Judah. Judah&#x27;s daughter-in-law Tamar disguises herself to secure an heir after his sons&#x27; deaths; Judah admits, “she is more righteous than I.” (Genesis 38)</title></rect><text x="1441.0" y="1103.5" class="kp-bar-label" text-anchor="middle">38</text></a>
+<a href="people/judah.html"><rect x="1650.0" y="1082.0" width="38.0" height="30" rx="4" fill="var(--gnc-judah)" class="kp-bar" tabindex="0" data-name="Judah" data-nation="Genesis 44" data-span="Joseph&#x27;s silver cup is planted in Benjamin&#x27;s sack; Judah offers himself as a slave in Benjamin&#x27;s place rather than let their father lose him." data-reference="Genesis 44"><title>Genesis 44 — Judah. Joseph&#x27;s silver cup is planted in Benjamin&#x27;s sack; Judah offers himself as a slave in Benjamin&#x27;s place rather than let their father lose him. (Genesis 44)</title></rect><text x="1669.0" y="1103.5" class="kp-bar-label" text-anchor="middle">44</text></a>
 </svg>
   </div>
 
@@ -173,25 +193,32 @@
     <tr><td>14</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 14</td><td>Abram rescues Lot from four invading kings and is blessed by Melchizedek, king of Salem and priest of God Most High.</td></tr>
     <tr><td>15</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 15</td><td>The LORD makes a covenant with Abram; his faith “was credited to him as righteousness.”</td></tr>
     <tr><td>16</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 16</td><td>Sarai gives her servant Hagar to Abram; Hagar bears Ishmael after fleeing into the wilderness.</td></tr>
+    <tr class="kp-table-secondary"><td>16–18</td><td><a href="../people/sarah.html">Sarah</a> (also)</td><td>Genesis 16</td><td>Sarai gives her servant Hagar to Abram, then deals harshly with her after Hagar conceives; renamed Sarah, she laughs to herself when the LORD&#x27;s visitors promise her a son within the year.</td></tr>
     <tr><td>17</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 17</td><td>God establishes circumcision as the covenant sign and renames Abram and Sarai as Abraham and Sarah.</td></tr>
     <tr><td>18</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 18</td><td>Three visitors promise Sarah a son within the year; Abraham intercedes with the LORD over Sodom.</td></tr>
     <tr><td>19</td><td><a href="../people/lot.html">Lot</a></td><td>Genesis 19</td><td>Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt.</td></tr>
     <tr><td>20</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 20</td><td>Abraham again passes Sarah off as his sister, this time to Abimelech, king of Gerar.</td></tr>
+    <tr class="kp-table-secondary"><td>20–21</td><td><a href="../people/sarah.html">Sarah</a> (also)</td><td>Genesis 20</td><td>Abraham again passes Sarah off as his sister, this time to Abimelech; after Isaac is born to her, Sarah insists that Hagar and Ishmael be sent away.</td></tr>
     <tr><td>21</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 21</td><td>Isaac is born; Hagar and Ishmael are sent away; Abraham makes a treaty with Abimelech at Beersheba.</td></tr>
     <tr><td>22</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 22</td><td>God tests Abraham by commanding him to sacrifice Isaac; the LORD provides a ram in his place.</td></tr>
     <tr><td>23</td><td><a href="../people/abraham.html">Abraham</a></td><td>Genesis 23</td><td>Sarah dies, and Abraham buys the cave of Machpelah from the Hittites as a family burial site.</td></tr>
+    <tr class="kp-table-secondary"><td>23</td><td><a href="../people/sarah.html">Sarah</a> (also)</td><td>Genesis 23</td><td>Sarah dies at Kiriath-arba, and Abraham buys the cave of Machpelah from the Hittites as her burial site.</td></tr>
     <tr><td>24</td><td><a href="../people/isaac.html">Isaac</a></td><td>Genesis 24</td><td>Abraham&#x27;s servant travels to Abraham&#x27;s homeland and returns with Rebekah as a bride for Isaac.</td></tr>
+    <tr class="kp-table-secondary"><td>24</td><td><a href="../people/rebekah.html">Rebekah</a> (also)</td><td>Genesis 24</td><td>Abraham&#x27;s servant meets Rebekah at the well and asks her family for her hand; she agrees to leave home at once and marries Isaac.</td></tr>
     <tr><td>25</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 25</td><td>Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew.</td></tr>
     <tr><td>26</td><td><a href="../people/isaac.html">Isaac</a></td><td>Genesis 26</td><td>Isaac repeats his father&#x27;s deception about his wife, re-digs Abraham&#x27;s wells, and makes a treaty with Abimelech.</td></tr>
     <tr><td>27</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 27</td><td>With his mother Rebekah&#x27;s help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau&#x27;s blessing.</td></tr>
+    <tr class="kp-table-secondary"><td>27</td><td><a href="../people/rebekah.html">Rebekah</a> (also)</td><td>Genesis 27</td><td>Overhearing Isaac&#x27;s plan to bless Esau, Rebekah orchestrates Jacob&#x27;s deception, dressing him in Esau&#x27;s clothes and preparing his father&#x27;s favorite food.</td></tr>
     <tr><td>28</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 28</td><td>Fleeing Esau&#x27;s anger, Jacob dreams of a stairway to heaven at Bethel, and the LORD renews the covenant promise to him.</td></tr>
     <tr><td>29</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 29</td><td>Jacob arrives at his uncle Laban&#x27;s household, is tricked into marrying Leah, then marries Rachel as well.</td></tr>
     <tr><td>30</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 30</td><td>Jacob&#x27;s sons are born to Leah, Rachel, and their servants; Jacob grows wealthy through selective breeding of Laban&#x27;s flocks.</td></tr>
+    <tr class="kp-table-secondary"><td>30–31</td><td><a href="../people/rachel.html">Rachel</a> (also)</td><td>Genesis 30</td><td>Rachel demands children from Jacob and gives him her servant Bilhah; fleeing with Jacob from Laban, she secretly steals her father&#x27;s household idols and lies about it.</td></tr>
     <tr><td>31</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 31</td><td>Jacob flees from Laban with his family and flocks; the two make a covenant of peace at Mizpah.</td></tr>
     <tr><td>32</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 32</td><td>Jacob sends gifts ahead to appease Esau and wrestles with God at Peniel, receiving the name Israel.</td></tr>
     <tr><td>33</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 33</td><td>Jacob and Esau are reconciled; Jacob settles near Shechem.</td></tr>
     <tr><td>34</td><td><a href="../people/dinah.html">Dinah</a></td><td>Genesis 34</td><td>Shechem violates Jacob&#x27;s daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city.</td></tr>
     <tr><td>35</td><td><a href="../people/israel.html">Jacob</a></td><td>Genesis 35</td><td>Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron.</td></tr>
+    <tr class="kp-table-secondary"><td>35</td><td><a href="../people/rachel.html">Rachel</a> (also)</td><td>Genesis 35</td><td>Rachel dies giving birth to Benjamin on the road to Ephrath, naming him with her dying breath before Jacob buries her there.</td></tr>
     <tr><td>36</td><td>Creation &amp; Genealogies</td><td>Genesis 36</td><td>The genealogy of Esau, ancestor of the Edomites.</td></tr>
     <tr><td>37</td><td><a href="../people/joseph.html">Joseph</a></td><td>Genesis 37</td><td>Joseph&#x27;s dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt.</td></tr>
     <tr><td>38</td><td><a href="../people/judah.html">Judah</a></td><td>Genesis 38</td><td>Judah&#x27;s daughter-in-law Tamar disguises herself to secure an heir after his sons&#x27; deaths; Judah admits, “she is more righteous than I.”</td></tr>
@@ -232,6 +259,6 @@
 </footer>
 
 <script src="../js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Whose Story Is It? — Genesis by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged");</script>
 </body>
 </html>

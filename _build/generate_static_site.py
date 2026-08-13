@@ -2408,7 +2408,7 @@ def build_job_chapters_chart_page(chapters):
 
 
 # ---------------------------------------------------------------------
-# "Whose Story Is It? — Genesis by Chapter" chart (charts.html hub +
+# "Genesis — Main Characters by Chapter" chart (charts.html hub +
 # charts/genesis-chapters.html)
 # ---------------------------------------------------------------------
 
@@ -2441,21 +2441,70 @@ def build_job_chapters_chart_page(chapters):
 #     chapters) but links to the person page at "israel", the site's
 #     full-tier person_id for him -- see CLAUDE.md's Name Disambiguation
 #     section on the same "jacob" stub / "israel" full-tier split.
+#
+# Sarah, Rebekah, and Rachel each get their own overlapping secondary-worker
+# row (added 2026-08-12, same pattern as --acc-barnabas on the Acts chart --
+# see GC_SECONDARY_SPANS below): each is a major figure with sustained,
+# independently-narrated agency across chapters already colored for the
+# patriarch whose row they share, not a competing "whose story" assignment
+# for those chapters. Esau, Leah, and Hagar were considered and left out --
+# a scope decision, not a claim their roles were minor -- since none has as
+# many chapters of *independent* narrated agency (dialogue, decisive action)
+# as the three included; Tamar's ch. 38 role is folded into Judah's row
+# without a secondary bar for the same reason (a single chapter, already the
+# kind of single-chapter judgment call this page flags via disclaimer rather
+# than a dedicated row, matching how Acts ch. 9's Peter/Paul split was
+# handled).
 GC_SPEAKERS = {
     "narrator": {"label": "Creation & Genealogies", "person_id": None, "color_var": "var(--gen-shared)"},
     "adam_eve": {"label": "Adam & Eve", "person_id": "adam", "color_var": "var(--gnc-adam-eve)"},
     "cain": {"label": "Cain", "person_id": "cain", "color_var": "var(--gnc-cain)"},
     "noah": {"label": "Noah", "person_id": "noah", "color_var": "var(--gnc-noah)"},
     "abraham": {"label": "Abraham", "person_id": "abraham", "color_var": "var(--gnc-abraham)"},
+    "sarah": {"label": "Sarah", "person_id": "sarah", "color_var": "var(--gnc-sarah)"},
     "lot": {"label": "Lot", "person_id": "lot", "color_var": "var(--gnc-lot)"},
     "isaac": {"label": "Isaac", "person_id": "isaac", "color_var": "var(--gnc-isaac)"},
+    "rebekah": {"label": "Rebekah", "person_id": "rebekah", "color_var": "var(--gnc-rebekah)"},
     "jacob": {"label": "Jacob", "person_id": "israel", "color_var": "var(--gnc-jacob)"},
+    "rachel": {"label": "Rachel", "person_id": "rachel", "color_var": "var(--gnc-rachel)"},
     "dinah": {"label": "Dinah", "person_id": "dinah", "color_var": "var(--gnc-dinah)"},
     "joseph": {"label": "Joseph", "person_id": "joseph", "color_var": "var(--gnc-joseph)"},
     "judah": {"label": "Judah", "person_id": "judah", "color_var": "var(--gnc-judah)"},
 }
 
-GC_ROW_ORDER = ["narrator", "adam_eve", "cain", "noah", "abraham", "lot", "isaac", "jacob", "dinah", "joseph", "judah"]
+GC_ROW_ORDER = [
+    "narrator", "adam_eve", "cain", "noah", "abraham", "sarah", "lot", "isaac",
+    "rebekah", "jacob", "rachel", "dinah", "joseph", "judah",
+]
+
+GC_SECONDARY_ROWS = ("sarah", "rebekah", "rachel")
+
+# Secondary-worker presence spans -- independent of GC_CHAPTERS/jc_group_runs,
+# since that mechanism assigns exactly one "whose story" speaker per chapter
+# and these three rows are deliberately overlapping, not a replacement for
+# an existing chapter's speaker (same approach as ACC_BARNABAS_SPANS above).
+GC_SECONDARY_SPANS = {
+    "sarah": [
+        {"start": 16, "end": 18, "reference": "Genesis 16",
+         "note": "Sarai gives her servant Hagar to Abram, then deals harshly with her after Hagar conceives; renamed Sarah, she laughs to herself when the LORD's visitors promise her a son within the year."},
+        {"start": 20, "end": 21, "reference": "Genesis 20",
+         "note": "Abraham again passes Sarah off as his sister, this time to Abimelech; after Isaac is born to her, Sarah insists that Hagar and Ishmael be sent away."},
+        {"start": 23, "end": 23, "reference": "Genesis 23",
+         "note": "Sarah dies at Kiriath-arba, and Abraham buys the cave of Machpelah from the Hittites as her burial site."},
+    ],
+    "rebekah": [
+        {"start": 24, "end": 24, "reference": "Genesis 24",
+         "note": "Abraham's servant meets Rebekah at the well and asks her family for her hand; she agrees to leave home at once and marries Isaac."},
+        {"start": 27, "end": 27, "reference": "Genesis 27",
+         "note": "Overhearing Isaac's plan to bless Esau, Rebekah orchestrates Jacob's deception, dressing him in Esau's clothes and preparing his father's favorite food."},
+    ],
+    "rachel": [
+        {"start": 30, "end": 31, "reference": "Genesis 30",
+         "note": "Rachel demands children from Jacob and gives him her servant Bilhah; fleeing with Jacob from Laban, she secretly steals her father's household idols and lies about it."},
+        {"start": 35, "end": 35, "reference": "Genesis 35",
+         "note": "Rachel dies giving birth to Benjamin on the road to Ephrath, naming him with her dying breath before Jacob buries her there."},
+    ],
+}
 
 GC_CHAPTERS = [
     {"chapter": 1, "speaker": "narrator", "reference": "Genesis 1",
@@ -2563,7 +2612,8 @@ GC_CHAPTERS = [
 
 def render_genesis_chapters_svg(chapters):
     runs = jc_group_runs(chapters)
-    rows = {key: [r for r in runs if r["speaker"] == key] for key in GC_ROW_ORDER}
+    rows = {key: [r for r in runs if r["speaker"] == key] for key in GC_ROW_ORDER if key not in GC_SECONDARY_ROWS}
+    rows.update(GC_SECONDARY_SPANS)
 
     total_chapters = 50
     margin_left, margin_right = 16, 16
@@ -2583,7 +2633,7 @@ def render_genesis_chapters_svg(chapters):
 
     parts = [
         f'<svg id="genesis-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
-        f'aria-label="Timeline of all 50 chapters of Genesis, one row per protagonist, showing which chapters each one\'s story is told in" '
+        f'aria-label="Timeline of all 50 chapters of Genesis, one row per protagonist plus Sarah, Rebekah, and Rachel rows for the chapters each shares as a major secondary worker, showing which chapters each one\'s story is told in" '
         f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg gnc-timeline-svg">'
     ]
 
@@ -2642,6 +2692,15 @@ def render_genesis_chapters_legend():
 
 
 def render_genesis_chapters_table(chapters):
+    # Sarah/Rebekah/Rachel's spans aren't in `chapters` (see GC_SECONDARY_SPANS
+    # above -- overlapping secondary rows, not any chapter's primary speaker),
+    # so they're interleaved into the table by their own start chapter rather
+    # than iterated alongside the primary per-chapter rows.
+    secondary_by_start = {}
+    for key in GC_SECONDARY_ROWS:
+        for span in GC_SECONDARY_SPANS[key]:
+            secondary_by_start.setdefault(span["start"], []).append((key, span))
+
     def row_html(entry):
         speaker = GC_SPEAKERS[entry["speaker"]]
         name_cell = (
@@ -2653,7 +2712,22 @@ def render_genesis_chapters_table(chapters):
             f'<td>{esc(entry["reference"])}</td><td>{esc(entry["note"])}</td></tr>'
         )
 
-    body_rows = "\n    ".join(row_html(e) for e in chapters)
+    def secondary_row_html(key, span):
+        speaker = GC_SPEAKERS[key]
+        chapter_label = str(span["start"]) if span["start"] == span["end"] else f'{span["start"]}–{span["end"]}'
+        name_cell = f'<a href="../people/{speaker["person_id"]}.html">{esc(speaker["label"])}</a> (also)'
+        return (
+            f'<tr class="kp-table-secondary"><td>{chapter_label}</td><td>{name_cell}</td>'
+            f'<td>{esc(span["reference"])}</td><td>{esc(span["note"])}</td></tr>'
+        )
+
+    rows = []
+    for entry in chapters:
+        rows.append(row_html(entry))
+        for key, span in secondary_by_start.get(entry["chapter"], []):
+            rows.append(secondary_row_html(key, span))
+
+    body_rows = "\n    ".join(rows)
     return f"""<details class="kp-table-details">
     <summary>View as a table</summary>
     <div class="table-scroll">
@@ -2670,7 +2744,7 @@ def render_genesis_chapters_table(chapters):
 def build_genesis_chapters_chart_page(chapters):
     base = "../"
     canonical = f"{SITE_URL}/charts/genesis-chapters.html"
-    title = "Whose Story Is It? — Genesis by Chapter — Lives of Scripture"
+    title = "Genesis — Main Characters by Chapter — Lives of Scripture"
     description = "Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph."
 
     svg = render_genesis_chapters_svg(chapters)
@@ -2710,14 +2784,17 @@ def build_genesis_chapters_chart_page(chapters):
 
 <main>
   <p><a href="{base}charts.html">&larr; Charts</a></p>
-  <h2>Whose Story Is It? &mdash; Genesis by Chapter</h2>
+  <h2>Genesis &mdash; Main Characters by Chapter</h2>
   <p class="page-intro">Genesis moves through several overlapping generations rather than one continuous
   drama. Each row below is a person; each bar is a chapter, colored by whoever the text's own narrative
   centers on in that chapter &mdash; Adam and Eve in Eden, Cain after the first murder, Noah and the flood,
   Abraham's call and covenant, his nephew Lot at Sodom, Isaac's generation, Jacob's flight and return, his
   daughter Dinah, and finally Joseph and his brother Judah in Egypt. Chapters with no single human
   protagonist &mdash; the creation week and the book's genealogical &ldquo;these are the generations of...&rdquo;
-  lists &mdash; are grouped under Creation &amp; Genealogies. Bars are clickable and link to that person's
+  lists &mdash; are grouped under Creation &amp; Genealogies. Sarah, Rebekah, and Rachel each get their own
+  row too, overlapping the chapters they share with Abraham, Isaac, and Jacob &mdash; each is a major
+  secondary worker with her own decisive scenes, not the chapter's primary storyteller, so her bars sit
+  alongside those rows' colors rather than replacing them. Bars are clickable and link to that person's
   page; hover or focus a bar for a chapter summary.</p>
 
   <p class="kp-disclaimer">A few chapters split across two people and required a judgment call rather than
@@ -2726,7 +2803,11 @@ def build_genesis_chapters_chart_page(chapters):
   cup is grouped under Judah rather than Joseph, since the chapter's back half is Judah's own pivotal plea
   to take Benjamin's place as a slave. Jacob is renamed Israel partway through the book (32:22-32); the row
   is labeled &ldquo;Jacob&rdquo; throughout for consistency, but links to his person page under that later
-  name.</p>
+  name. Sarah's row spans Genesis 16-18, 20-21, and 23; Rebekah's spans 24 and 27; Rachel's spans 30-31 and
+  35 &mdash; chapter-granularity spans covering each woman's own decisive scenes (Sarah's laughter and
+  death, Rebekah's part in Jacob's blessing, Rachel's stolen idols and death in childbirth), not every verse
+  she's mentioned in. Esau, Leah, Hagar, and Tamar (ch. 38, folded into Judah's row) were considered for
+  their own rows too but left out &mdash; a scope decision, not a claim their roles were minor.</p>
 
   <div class="kp-legend-row">
     {legend}
@@ -2743,14 +2824,14 @@ def build_genesis_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Whose Story Is It? — Genesis by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged");</script>
 </body>
 </html>
 """
 
 
 # ---------------------------------------------------------------------
-# "Whose Story Is It? — Acts by Chapter" chart (charts.html hub +
+# "Acts — Main Characters by Chapter" chart (charts.html hub +
 # charts/acts-chapters.html)
 # ---------------------------------------------------------------------
 
@@ -2770,20 +2851,45 @@ def build_genesis_chapters_chart_page(chapters):
 # the note says so. Saul is renamed Paul partway through the book (13:9);
 # the row is labeled "Paul" throughout for a single consistent label,
 # matching the site's own person_id and page title -- see paul.json's
-# alt_names, which already lists "Saul"/"Saul of Tarsus". Barnabas travels
-# with Paul through most of chs. 13-15 but is not broken out as his own
-# row -- the text consistently makes Paul the one who acts and speaks (e.g.
-# 13:9, 14:8-10) -- a scope decision, not a claim that Barnabas was a minor
-# figure.
+# alt_names, which already lists "Saul"/"Saul of Tarsus".
+#
+# Barnabas gets his own row (added 2026-08-12) rather than folding into
+# Paul's -- but as an overlapping *secondary-worker* row, not a competing
+# "whose story" chapter assignment: ACC_BARNABAS_SPANS below is a second,
+# independent presence list (Acts 9, 11-15) that renders alongside the
+# primary per-chapter speaker assignment rather than replacing any chapter's
+# color, so Barnabas's bars can legitimately span the same chapters already
+# colored for Peter (11-12) or Paul/the Council (13-15). Text basis: he
+# vouches for the newly converted Saul in Jerusalem (9:26-28); is sent to
+# found/encourage the Antioch church, fetches Saul from Tarsus to teach
+# there, and carries relief funds to Judea during the famine (11:22-30,
+# 12:25); is set apart with Saul/Paul for the first missionary journey and
+# named first, suggesting initial seniority (13:1-3); stands with Paul at
+# the Jerusalem Council; and splits from Paul afterward over whether to
+# bring John Mark again (15:36-41). His single-verse introduction in 4:36-37
+# (selling a field) isn't included as its own span -- it's a backstory
+# mention, not an active role in that chapter's narrative.
 ACC_SPEAKERS = {
     "peter": {"label": "Peter", "person_id": "peter", "color_var": "var(--acc-peter)"},
     "stephen": {"label": "Stephen", "person_id": "stephen", "color_var": "var(--acc-stephen)"},
     "philip": {"label": "Philip", "person_id": "philip-3", "color_var": "var(--acc-philip)"},
     "paul": {"label": "Paul", "person_id": "paul", "color_var": "var(--acc-paul)"},
+    "barnabas": {"label": "Barnabas", "person_id": "barnabas", "color_var": "var(--acc-barnabas)"},
     "council": {"label": "Jerusalem Council", "person_id": None, "color_var": "var(--gen-shared)"},
 }
 
-ACC_ROW_ORDER = ["peter", "stephen", "philip", "paul", "council"]
+ACC_ROW_ORDER = ["peter", "stephen", "philip", "paul", "barnabas", "council"]
+
+# Barnabas's presence spans -- independent of ACC_CHAPTERS/jc_group_runs,
+# since that mechanism assigns exactly one "whose story" speaker per
+# chapter and Barnabas is deliberately a second, overlapping row rather
+# than a replacement for Peter's/Paul's/the Council's chapter assignment.
+ACC_BARNABAS_SPANS = [
+    {"start": 9, "end": 9, "reference": "Acts 9",
+     "note": "Barnabas vouches for the newly converted Saul before Jerusalem's suspicious believers, describing his encounter with the Lord and his bold preaching in Damascus."},
+    {"start": 11, "end": 15, "reference": "Acts 11",
+     "note": "Sent to the new church at Antioch, Barnabas fetches Saul from Tarsus to teach there, carries relief funds to Judea, and is set apart with Saul (now Paul) for their first missionary journey; after the Jerusalem Council, the two part ways over whether to bring John Mark again."},
+]
 
 ACC_CHAPTERS = [
     {"chapter": 1, "speaker": "peter", "reference": "Acts 1",
@@ -2847,7 +2953,8 @@ ACC_CHAPTERS = [
 
 def render_acts_chapters_svg(chapters):
     runs = jc_group_runs(chapters)
-    rows = {key: [r for r in runs if r["speaker"] == key] for key in ACC_ROW_ORDER}
+    rows = {key: [r for r in runs if r["speaker"] == key] for key in ACC_ROW_ORDER if key != "barnabas"}
+    rows["barnabas"] = ACC_BARNABAS_SPANS
 
     total_chapters = 28
     margin_left, margin_right = 16, 16
@@ -2867,7 +2974,7 @@ def render_acts_chapters_svg(chapters):
 
     parts = [
         f'<svg id="acts-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
-        f'aria-label="Timeline of all 28 chapters of Acts, one row per protagonist, showing which chapters each one\'s story is told in" '
+        f'aria-label="Timeline of all 28 chapters of Acts, one row per protagonist plus a Barnabas row for the chapters he shares as a major secondary worker, showing which chapters each one\'s story is told in" '
         f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg acc-timeline-svg">'
     ]
 
@@ -2926,6 +3033,15 @@ def render_acts_chapters_legend():
 
 
 def render_acts_chapters_table(chapters):
+    barnabas = ACC_SPEAKERS["barnabas"]
+    # Barnabas's spans aren't in `chapters` (see ACC_BARNABAS_SPANS above --
+    # an overlapping secondary row, not a chapter's primary speaker), so
+    # they're interleaved into the table by their own start chapter rather
+    # than iterated alongside the primary per-chapter rows.
+    secondary_by_start = {}
+    for span in ACC_BARNABAS_SPANS:
+        secondary_by_start.setdefault(span["start"], []).append(span)
+
     def row_html(entry):
         speaker = ACC_SPEAKERS[entry["speaker"]]
         name_cell = (
@@ -2937,7 +3053,21 @@ def render_acts_chapters_table(chapters):
             f'<td>{esc(entry["reference"])}</td><td>{esc(entry["note"])}</td></tr>'
         )
 
-    body_rows = "\n    ".join(row_html(e) for e in chapters)
+    def secondary_row_html(span):
+        chapter_label = str(span["start"]) if span["start"] == span["end"] else f'{span["start"]}–{span["end"]}'
+        name_cell = f'<a href="../people/{barnabas["person_id"]}.html">{esc(barnabas["label"])}</a> (also)'
+        return (
+            f'<tr class="kp-table-secondary"><td>{chapter_label}</td><td>{name_cell}</td>'
+            f'<td>{esc(span["reference"])}</td><td>{esc(span["note"])}</td></tr>'
+        )
+
+    rows = []
+    for entry in chapters:
+        rows.append(row_html(entry))
+        for span in secondary_by_start.get(entry["chapter"], []):
+            rows.append(secondary_row_html(span))
+
+    body_rows = "\n    ".join(rows)
     return f"""<details class="kp-table-details">
     <summary>View as a table</summary>
     <div class="table-scroll">
@@ -2954,7 +3084,7 @@ def render_acts_chapters_table(chapters):
 def build_acts_chapters_chart_page(chapters):
     base = "../"
     canonical = f"{SITE_URL}/charts/acts-chapters.html"
-    title = "Whose Story Is It? — Acts by Chapter — Lives of Scripture"
+    title = "Acts — Main Characters by Chapter — Lives of Scripture"
     description = "Every chapter of Acts, colored by whose story it tells — the book's pivot from Peter's ministry to Paul's, with Stephen and Philip between."
 
     svg = render_acts_chapters_svg(chapters)
@@ -2994,20 +3124,26 @@ def build_acts_chapters_chart_page(chapters):
 
 <main>
   <p><a href="{base}charts.html">&larr; Charts</a></p>
-  <h2>Whose Story Is It? &mdash; Acts by Chapter</h2>
+  <h2>Acts &mdash; Main Characters by Chapter</h2>
   <p class="page-intro">Acts famously pivots partway through from a Peter-centered church to a
   Paul-centered mission. Each row below is a person; each bar is a chapter, colored by whoever the text's
   own narrative centers on in that chapter &mdash; Peter's early ministry in Jerusalem, Stephen's speech and
   martyrdom, Philip's mission to Samaria and the Ethiopian official, and then Paul's conversion and
   missionary journeys, which dominate the second half of the book. Acts 15's Jerusalem Council, where
-  several voices speak and no single figure drives the chapter, is grouped under Jerusalem Council. Bars
-  are clickable and link to that person's page; hover or focus a bar for a chapter summary.</p>
+  several voices speak and no single figure drives the chapter, is grouped under Jerusalem Council.
+  Barnabas gets his own row too, overlapping the chapters he shares with Peter, Paul, and the Council
+  &mdash; he's a major secondary worker throughout, not the chapter's primary storyteller, so his bars sit
+  alongside those rows' colors rather than replacing them. Bars are clickable and link to that person's
+  page; hover or focus a bar for a chapter summary.</p>
 
   <p class="kp-disclaimer">Ch. 9 splits between Saul's conversion (9:1-31, the larger and more significant
   portion) and Peter's healing of Aeneas and raising of Dorcas (9:32-43); the whole chapter is grouped
   under Paul. Saul is renamed Paul partway through the book (13:9); the row is labeled &ldquo;Paul&rdquo;
-  throughout for consistency. Barnabas travels with Paul through most of chs. 13-15 but is not broken out
-  as his own row here &mdash; a scope decision, not a claim that his role was minor.</p>
+  throughout for consistency. Barnabas's own row spans Acts 9 (vouching for Saul in Jerusalem) and Acts
+  11-15 (the Antioch mission, the first missionary journey, and the Jerusalem Council, ending with his and
+  Paul's split over John Mark) &mdash; chapter-granularity spans, so his bar doesn't imply he's foregrounded
+  in every verse of that range (e.g. most of ch. 12 is Peter's escape from prison; Barnabas reappears only
+  at 12:25).</p>
 
   <div class="kp-legend-row">
     {legend}
@@ -3024,7 +3160,7 @@ def build_acts_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Whose Story Is It? — Acts by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Acts — Main Characters by Chapter, enlarged");</script>
 </body>
 </html>
 """
@@ -3093,12 +3229,12 @@ def build_charts_list_page():
       his three friends, Elihu, or the LORD.</p>
     </a>
     <a class="person-card" href="{base}charts/genesis-chapters.html">
-      <div class="name"><strong>Whose Story Is It? &mdash; Genesis by Chapter</strong></div>
+      <div class="name"><strong>Genesis &mdash; Main Characters by Chapter</strong></div>
       <p class="chart-card-desc">All 50 chapters of Genesis, colored by whose story it tells — Adam and
       Eve, Cain, Noah, Abraham, Isaac, Jacob, or Joseph.</p>
     </a>
     <a class="person-card" href="{base}charts/acts-chapters.html">
-      <div class="name"><strong>Whose Story Is It? &mdash; Acts by Chapter</strong></div>
+      <div class="name"><strong>Acts &mdash; Main Characters by Chapter</strong></div>
       <p class="chart-card-desc">All 28 chapters of Acts, colored by whose story it tells — the book's
       pivot from Peter's ministry to Paul's, with Stephen and Philip between.</p>
     </a>
