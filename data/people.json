@@ -53556,6 +53556,7 @@
       "early church"
     ],
     "image": "generic-figure.png",
+    "image2": "epanetus.png",
     "first_reference": "Romans 16:5",
     "spotlight_eligible": false
   },
@@ -53593,6 +53594,7 @@
       "recognition among the apostles"
     ],
     "image": "generic-figure.png",
+    "image2": "andronicus.png",
     "timeline": {
       "precision": "era"
     },
@@ -54233,6 +54235,7 @@
       "early church in the Lycus Valley"
     ],
     "image": "generic-woman.png",
+    "image2": "nympha.png",
     "first_reference": "Colossians 4:15"
   },
   {
@@ -54252,6 +54255,7 @@
       "perseverance"
     ],
     "image": "generic-figure.png",
+    "image2": "archippus.png",
     "first_reference": "Colossians 4:17",
     "spotlight_eligible": false
   },

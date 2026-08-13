@@ -86,7 +86,7 @@ after the bump (no other reordering).
 - [x] **62** — `gaius` (Gaius); `erastus-2` (Erastus); `forunatus` (Forunatus); `achaicus` (Achaicus)
 - [x] **63** — `chloe` (Chloe); `tertius` (Tertius); `phoebe` (Phoebe); `tychicus` (Tychicus)
 - [x] **64** — `trophimus` (Trophimus); `onesiphorus` (Onesiphorus); `hymenaeus` (Hymenaeus); `philetus` (Philetus)
-- [ ] **65** — `archippus` (Archippus); `nympha` (Nympha); `epanetus` (Epanetus); `andronicus` (Andronicus)
+- [x] **65** — `archippus` (Archippus); `nympha` (Nympha); `epanetus` (Epanetus); `andronicus` (Andronicus)
 - [ ] **66** — `junias` (Junia); `persis` (Persis); `rufus` (Rufus); `antipas` (Antipas)
 - [ ] **67** — `tabitha` (Tabitha); `simon-6` (Simon)
 - [ ] **68** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
