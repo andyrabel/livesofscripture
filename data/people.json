@@ -52840,6 +52840,7 @@
       "the gospel opening hearts"
     ],
     "image": "generic-woman.png",
+    "image2": "lydia.png",
     "gender": "female",
     "first_reference": "Acts 16:14-40"
   },
@@ -54293,6 +54294,7 @@
       "family faithfulness"
     ],
     "image": "generic-woman.png",
+    "image2": "lois.png",
     "first_reference": "2 Timothy 1:5",
     "spotlight_eligible": false
   },
@@ -54314,6 +54316,7 @@
       "motherhood"
     ],
     "image": "generic-woman.png",
+    "image2": "eunice.png",
     "genealogy": {
       "children": [
         "timothy"
@@ -54757,6 +54760,7 @@
       "risking one's life for the gospel"
     ],
     "image": "generic-figure.png",
+    "image2": "epaphroditus.png",
     "first_reference": "Philippians 2:25-30"
   },
   {
