@@ -82,7 +82,7 @@ after the bump (no other reordering).
 - [x] **58** — `mary-4` (Mary); `rhoda` (Rhoda); `judas-5` (Judas); `manaen` (Manaen)
 - [x] **59** — `eunice` (Eunice); `lois` (Lois); `lydia` (Lydia); `epaphroditus` (Epaphroditus)
 - [x] **60** — `euodia` (Euodia); `demas` (Demas); `jason` (Jason); `aristarchus` (Aristarchus)
-- [ ] **61** — `dionysius` (Dionysius); `damaris` (Damaris); `crispus` (Crispus); `sosthenes` (Sosthenes)
+- [x] **61** — `dionysius` (Dionysius); `damaris` (Damaris); `crispus` (Crispus); `sosthenes` (Sosthenes)
 - [ ] **62** — `gaius` (Gaius); `erastus-2` (Erastus); `forunatus` (Forunatus); `achaicus` (Achaicus)
 - [ ] **63** — `chloe` (Chloe); `tertius` (Tertius); `phoebe` (Phoebe); `tychicus` (Tychicus)
 - [ ] **64** — `trophimus` (Trophimus); `onesiphorus` (Onesiphorus); `hymenaeus` (Hymenaeus); `philetus` (Philetus)

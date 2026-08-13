@@ -52882,6 +52882,7 @@
       "response to the gospel"
     ],
     "image": "generic-figure.png",
+    "image2": "dionysius.png",
     "first_reference": "Acts 17:34",
     "spotlight_eligible": false
   },
@@ -52901,6 +52902,7 @@
       "response to the gospel in Athens"
     ],
     "image": "generic-woman.png",
+    "image2": "damaris.png",
     "first_reference": "Acts 17:34"
   },
   {
@@ -52984,6 +52986,7 @@
       "baptism"
     ],
     "image": "generic-figure.png",
+    "image2": "crispus.png",
     "timeline": {
       "precision": "era"
     },
@@ -54829,6 +54832,7 @@
       "co-laboring with Paul"
     ],
     "image": "generic-figure.png",
+    "image2": "sosthenes.png",
     "timeline": {
       "precision": "era"
     },
