@@ -50775,6 +50775,7 @@
       "family faithfulness"
     ],
     "image": "generic-figure.png",
+    "image2": "rufus.png",
     "first_reference": "Mark 15:21"
   },
   {
@@ -53617,6 +53618,7 @@
       "recognition among the apostles"
     ],
     "image": "generic-figure.png",
+    "image2": "junias.png",
     "timeline": {
       "precision": "era"
     },
@@ -53756,6 +53758,7 @@
       "women in the early church"
     ],
     "image": "generic-woman.png",
+    "image2": "persis.png",
     "first_reference": "Romans 16:12",
     "spotlight_eligible": false
   },
@@ -54643,6 +54646,7 @@
       "faithful witness"
     ],
     "image": "generic-figure.png",
+    "image2": "antipas.png",
     "first_reference": "Revelation 2:13",
     "spotlight_eligible": false
   },
