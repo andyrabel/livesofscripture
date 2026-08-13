@@ -2608,13 +2608,26 @@ header.site-header nav a.nav-cta:hover {
   opacity: 0.6;
 }
 
-.tsun-leaf-dot,
+.tsun-leaf-dot-nt,
 .tsun-leaf-dot-ot {
   transition: r 0.1s ease;
 }
 
+/* New Testament leaves use the site's own OT/NT marker colors (same
+   --color-ot/--color-nt tokens as the .badge.ot/.badge.nt pills on person
+   pages) instead of the tribe's hue, so a NT tie to an OT tribe -- the
+   surprising fact this chart exists to surface -- reads as "New Testament"
+   at a glance rather than blending into its tribe's color. */
 .tsun-leaf-dot-ot {
+  fill: var(--color-surface);
+  stroke: var(--color-ot);
   stroke-width: 2;
+}
+
+.tsun-leaf-dot-nt {
+  fill: var(--color-nt);
+  stroke: var(--color-surface);
+  stroke-width: 1.5;
 }
 
 .tsun-leaf {
@@ -2626,11 +2639,11 @@ header.site-header nav a.nav-cta:hover {
   opacity: 1;
 }
 
-.tsun-leaf:hover .tsun-leaf-dot,
-.tsun-leaf:focus .tsun-leaf-dot,
+.tsun-leaf:hover .tsun-leaf-dot-nt,
+.tsun-leaf:focus .tsun-leaf-dot-nt,
 .tsun-leaf:hover .tsun-leaf-dot-ot,
 .tsun-leaf:focus .tsun-leaf-dot-ot {
-  r: 6;
+  r: 7.5;
   outline: none;
 }
 
@@ -2638,6 +2651,11 @@ header.site-header nav a.nav-cta:hover {
   font-size: 11.5px;
   fill: var(--color-text-muted);
   pointer-events: none;
+}
+
+.tsun-leaf-label-nt {
+  font-weight: 700;
+  fill: var(--color-nt);
 }
 
 .tsun-hub circle {
@@ -2754,15 +2772,25 @@ header.site-header nav a.nav-cta:hover {
 }
 
 .tsun-tk-ot {
-  background: transparent;
-  border: 2px solid var(--color-text-muted);
+  background: var(--color-surface);
+  border: 2px solid var(--color-ot);
 }
 
 .tsun-tk-nt {
-  background: var(--color-text-muted);
+  background: var(--color-nt);
+  border: 2px solid var(--color-nt);
 }
 
 .tsun-table-count {
   color: var(--color-text-muted);
   font-weight: 400;
+}
+
+.tsun-table-row-nt td {
+  color: var(--color-nt);
+  font-weight: 600;
+}
+
+.tsun-table-row-nt td a {
+  color: var(--color-nt);
 }

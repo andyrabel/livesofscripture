@@ -1927,10 +1927,16 @@ def render_tribe_sunburst_svg(layout):
             x1, y1 = tribe_polar(cx, cy, TRIBE_LEAF_DOT_R, a)
             title = f'{leaf["name"]} — tribe of {t["name"]}, {leaf["reference"]}'
             if leaf["testament"] == "NT":
-                dot = f'<circle class="tsun-leaf-dot" cx="{x1:.1f}" cy="{y1:.1f}" r="4" fill="{t["color"]}"></circle>'
+                # A New Testament tie to an Old Testament tribe is the
+                # surprising fact this chart is built to surface (e.g. Anna
+                # the prophetess, tribe of Asher, Luke 2:36) -- colored with
+                # the site's existing --color-nt token (same one the "NT"
+                # badge on person pages uses) rather than the tribe's own
+                # hue, so it reads as "New Testament" at a glance instead of
+                # blending into whichever tribe it happens to be under.
+                dot = f'<circle class="tsun-leaf-dot-nt" cx="{x1:.1f}" cy="{y1:.1f}" r="5.5"></circle>'
             else:
-                dot = (f'<circle class="tsun-leaf-dot-ot" cx="{x1:.1f}" cy="{y1:.1f}" r="4" '
-                       f'fill="var(--color-surface)" stroke="{t["color"]}"></circle>')
+                dot = f'<circle class="tsun-leaf-dot-ot" cx="{x1:.1f}" cy="{y1:.1f}" r="4"></circle>'
             parts.append(
                 f'<a href="../people/{leaf["person_id"]}.html">'
                 f'<g class="tsun-leaf" tabindex="0" data-name="{esc(leaf["name"])}" '
@@ -1952,8 +1958,9 @@ def render_tribe_sunburst_svg(layout):
             left = tribe_is_left(a)
             rot = a - 90 if not left else a + 90
             anchor = "start" if not left else "end"
+            label_cls = "tsun-leaf-label tsun-leaf-label-nt" if leaf["testament"] == "NT" else "tsun-leaf-label"
             parts.append(
-                f'<text class="tsun-leaf-label" x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" '
+                f'<text class="{label_cls}" x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" '
                 f'transform="rotate({rot:.2f} {x:.1f} {y:.1f})" dominant-baseline="middle">{esc(leaf["name"])}</text>'
             )
     parts.append("</g>")
@@ -1996,8 +2003,9 @@ def render_tribe_table(layout):
         people = t["people"]
         rows.append(f'<tr><th colspan="3">{esc(t["name"])} <span class="tsun-table-count">({len(people)})</span></th></tr>')
         for p in people:
+            row_cls = ' class="tsun-table-row-nt"' if p["testament"] == "NT" else ""
             rows.append(
-                f'<tr><td><a href="../people/{p["person_id"]}.html">{esc(p["name"])}</a></td>'
+                f'<tr{row_cls}><td><a href="../people/{p["person_id"]}.html">{esc(p["name"])}</a></td>'
                 f'<td>{esc(p["testament"])}</td><td>{esc(p["reference"])}</td></tr>'
             )
     body = "\n    ".join(rows)
@@ -2069,9 +2077,11 @@ def build_tribe_sunburst_chart_page(layout):
   patriarchs, Gentiles, foreign officials, and virtually every New Testament figure) simply have no tribe
   the text ever states. {esc(mega_names)} are shown as solid bands rather than individual spokes — too many
   people to label radially at a readable size — see the full list in the table below the chart. A tribe is
-  an Old Testament concept; the few New Testament figures here (open dots below) are people the NT text
-  itself states descend from that tribe, e.g. Anna of the tribe of Asher (Luke 2:36) and Paul of the tribe
-  of Benjamin (Philippians 3:5).</p>
+  an Old Testament concept; the few New Testament figures here (filled purple dots and bold names below) are
+  people the NT text itself states descend from that tribe — Anna the prophetess, tribe of Asher
+  (Luke 2:36), is the only one small enough a tribe to show up as her own spoke; Jesus' own family (Judah),
+  Zacharias, Elizabeth, John the Baptist, and Barnabas (Levi), and Paul (Benjamin) are all folded into
+  those tribes' solid bands and named in the table instead.</p>
 
   {legend}
 
