@@ -1607,6 +1607,12 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
   Abraham, but by different routes. This chart lays both out as one joined family tree: where they run
   through the same names, where each has its own line, and the two places their lists rejoin.</p>
 
+  {legend}
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
   <p class="kp-disclaimer">Both genealogies list Joseph, Mary's husband, as their final named generation
   (Matthew 1:16; Luke 3:23) — but Matthew names Joseph's father as Jacob, while Luke names him as Eli
   ("as was supposed," Luke 3:23). Scripture never states directly how the two fit together; two
@@ -1620,12 +1626,6 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
   in Luke's full list below. This dataset does not yet have a dedicated profile page for Jesus himself
   (the person_id "jesus" belongs to a different New Testament figure, "Jesus who is called Justus,"
   Colossians 4:11), so the final "Jesus" box below is not a link.</p>
-
-  {legend}
-
-  <div class="kp-chart-scroll">
-  {svg}
-  </div>
 
   {matthew_table}
 
@@ -2072,17 +2072,6 @@ def build_tribe_sunburst_chart_page(layout):
   record traces, grouped first by which of Jacob's four wives they descend from, then by tribe. This is
   deliberately a minority of the site's full-tier people — see the disclaimer below.</p>
 
-  <p class="kp-disclaimer">Only people whose tribe Scripture states explicitly, or whose genealogy chain
-  traces back to one of the twelve tribal heads, carry this field — most full-tier people (pre-Jacob
-  patriarchs, Gentiles, foreign officials, and virtually every New Testament figure) simply have no tribe
-  the text ever states. {esc(mega_names)} are shown as solid bands rather than individual spokes — too many
-  people to label radially at a readable size — see the full list in the table below the chart. A tribe is
-  an Old Testament concept; the few New Testament figures here (filled purple dots and bold names below) are
-  people the NT text itself states descend from that tribe — Anna the prophetess, tribe of Asher
-  (Luke 2:36), is the only one small enough a tribe to show up as her own spoke; Jesus' own family (Judah),
-  Zacharias, Elizabeth, John the Baptist, and Barnabas (Levi), and Paul (Benjamin) are all folded into
-  those tribes' solid bands and named in the table instead.</p>
-
   {legend}
 
   <div class="kp-legend-row">
@@ -2094,6 +2083,17 @@ def build_tribe_sunburst_chart_page(layout):
   <div class="kp-chart-scroll">
   {svg}
   </div>
+
+  <p class="kp-disclaimer">Only people whose tribe Scripture states explicitly, or whose genealogy chain
+  traces back to one of the twelve tribal heads, carry this field — most full-tier people (pre-Jacob
+  patriarchs, Gentiles, foreign officials, and virtually every New Testament figure) simply have no tribe
+  the text ever states. {esc(mega_names)} are shown as solid bands rather than individual spokes — too many
+  people to label radially at a readable size — see the full list in the table below the chart. A tribe is
+  an Old Testament concept; the few New Testament figures here (filled purple dots and bold names below) are
+  people the NT text itself states descend from that tribe — Anna the prophetess, tribe of Asher
+  (Luke 2:36), is the only one small enough a tribe to show up as her own spoke; Jesus' own family (Judah),
+  Zacharias, Elizabeth, John the Baptist, and Barnabas (Levi), and Paul (Benjamin) are all folded into
+  those tribes' solid bands and named in the table instead.</p>
 
   {table}
 </main>
@@ -2381,11 +2381,6 @@ def build_job_chapters_chart_page(chapters):
   Bars are clickable and link to that person's page. Hover or focus a bar for the verse where that speech
   begins.</p>
 
-  <p class="kp-disclaimer">Bildad's third speech (ch. 25) is unusually short, and Zophar never gives a
-  stated third speech. This chart follows the received text as printed, which continuously credits
-  chs. 26-31 to Job (see 27:1, &ldquo;Then Job continued his discourse&rdquo;), including the meditation
-  on wisdom in ch. 28.</p>
-
   <div class="kp-legend-row">
     {legend}
     <button type="button" class="kp-chart-expand" id="job-chart-expand">&#128269; View larger</button>
@@ -2394,6 +2389,11 @@ def build_job_chapters_chart_page(chapters):
   <div class="kp-chart-scroll">
   {svg}
   </div>
+
+  <p class="kp-disclaimer">Bildad's third speech (ch. 25) is unusually short, and Zophar never gives a
+  stated third speech. This chart follows the received text as printed, which continuously credits
+  chs. 26-31 to Job (see 27:1, &ldquo;Then Job continued his discourse&rdquo;), including the meditation
+  on wisdom in ch. 28.</p>
 
   {table}
 </main>
@@ -2797,6 +2797,15 @@ def build_genesis_chapters_chart_page(chapters):
   alongside those rows' colors rather than replacing them. Bars are clickable and link to that person's
   page; hover or focus a bar for a chapter summary.</p>
 
+  <div class="kp-legend-row">
+    {legend}
+    <button type="button" class="kp-chart-expand" id="genesis-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
   <p class="kp-disclaimer">A few chapters split across two people and required a judgment call rather than
   a single clean answer: ch. 25 covers both Abraham's death and the birth/birthright sale of Esau and Jacob
   (grouped under Jacob, since that event sets the course of the rest of the book); ch. 44's planted silver
@@ -2808,15 +2817,6 @@ def build_genesis_chapters_chart_page(chapters):
   death, Rebekah's part in Jacob's blessing, Rachel's stolen idols and death in childbirth), not every verse
   she's mentioned in. Esau, Leah, Hagar, and Tamar (ch. 38, folded into Judah's row) were considered for
   their own rows too but left out &mdash; a scope decision, not a claim their roles were minor.</p>
-
-  <div class="kp-legend-row">
-    {legend}
-    <button type="button" class="kp-chart-expand" id="genesis-chart-expand">&#128269; View larger</button>
-  </div>
-
-  <div class="kp-chart-scroll">
-  {svg}
-  </div>
 
   {table}
 </main>
@@ -3136,15 +3136,6 @@ def build_acts_chapters_chart_page(chapters):
   alongside those rows' colors rather than replacing them. Bars are clickable and link to that person's
   page; hover or focus a bar for a chapter summary.</p>
 
-  <p class="kp-disclaimer">Ch. 9 splits between Saul's conversion (9:1-31, the larger and more significant
-  portion) and Peter's healing of Aeneas and raising of Dorcas (9:32-43); the whole chapter is grouped
-  under Paul. Saul is renamed Paul partway through the book (13:9); the row is labeled &ldquo;Paul&rdquo;
-  throughout for consistency. Barnabas's own row spans Acts 9 (vouching for Saul in Jerusalem) and Acts
-  11-15 (the Antioch mission, the first missionary journey, and the Jerusalem Council, ending with his and
-  Paul's split over John Mark) &mdash; chapter-granularity spans, so his bar doesn't imply he's foregrounded
-  in every verse of that range (e.g. most of ch. 12 is Peter's escape from prison; Barnabas reappears only
-  at 12:25).</p>
-
   <div class="kp-legend-row">
     {legend}
     <button type="button" class="kp-chart-expand" id="acts-chart-expand">&#128269; View larger</button>
@@ -3153,6 +3144,15 @@ def build_acts_chapters_chart_page(chapters):
   <div class="kp-chart-scroll">
   {svg}
   </div>
+
+  <p class="kp-disclaimer">Ch. 9 splits between Saul's conversion (9:1-31, the larger and more significant
+  portion) and Peter's healing of Aeneas and raising of Dorcas (9:32-43); the whole chapter is grouped
+  under Paul. Saul is renamed Paul partway through the book (13:9); the row is labeled &ldquo;Paul&rdquo;
+  throughout for consistency. Barnabas's own row spans Acts 9 (vouching for Saul in Jerusalem) and Acts
+  11-15 (the Antioch mission, the first missionary journey, and the Jerusalem Council, ending with his and
+  Paul's split over John Mark) &mdash; chapter-granularity spans, so his bar doesn't imply he's foregrounded
+  in every verse of that range (e.g. most of ch. 12 is Peter's escape from prison; Barnabas reappears only
+  at 12:25).</p>
 
   {table}
 </main>
@@ -3311,13 +3311,6 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
   Judah, alongside every prophet active in that period and the kingdom or nation each one addressed.
   Bars are clickable and link to that person's page; hover or focus a bar for exact dates.</p>
 
-  <p class="kp-disclaimer">Reign and ministry years follow a single widely-used evangelical regnal
-  chronology (the Thiele/synchronistic framework already used elsewhere on this site &mdash; see e.g.
-  <a href="{base}people/david.html">David's</a> page), marked &ldquo;c.&rdquo; throughout. Other
-  evangelical chronological frameworks shift several of these dates, especially where a co-regency is
-  involved (Uzziah/Jotham, Amaziah/Uzziah, Hezekiah/Manasseh). Every entry cites the verse stating its
-  reign length or ministry's dating; hover, focus, or open the table below for the reference.</p>
-
   <div class="kp-legend-row">
     {legend}
     <button type="button" class="kp-chart-expand" id="kp-chart-expand">&#128269; View larger</button>
@@ -3326,6 +3319,13 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
   <div class="kp-chart-scroll">
   {svg}
   </div>
+
+  <p class="kp-disclaimer">Reign and ministry years follow a single widely-used evangelical regnal
+  chronology (the Thiele/synchronistic framework already used elsewhere on this site &mdash; see e.g.
+  <a href="{base}people/david.html">David's</a> page), marked &ldquo;c.&rdquo; throughout. Other
+  evangelical chronological frameworks shift several of these dates, especially where a co-regency is
+  involved (Uzziah/Jotham, Amaziah/Uzziah, Hezekiah/Manasseh). Every entry cites the verse stating its
+  reign length or ministry's dating; hover, focus, or open the table below for the reference.</p>
 
   {table}
 
