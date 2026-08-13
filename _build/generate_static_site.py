@@ -1609,6 +1609,12 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 
   {legend}
 
+  <div class="kp-legend-row" style="justify-content: flex-end;">
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="gen-chart-copy">&#128203; Copy image</button>
+    </div>
+  </div>
+
   <div class="kp-chart-scroll">
   {svg}
   </div>
@@ -1635,7 +1641,7 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initGenChartTooltips();</script>
+<script>initNavToggle(); initGenChartTooltips(); initChartCopyButton("gen-chart-copy", "gen-chart-svg");</script>
 </body>
 </html>
 """
@@ -2077,7 +2083,10 @@ def build_tribe_sunburst_chart_page(layout):
   <div class="kp-legend-row">
     <span class="tsun-testament-key"><span class="tsun-tk-dot tsun-tk-ot"></span> Old Testament
       &nbsp;&nbsp;<span class="tsun-tk-dot tsun-tk-nt"></span> New Testament</span>
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="tribe-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="tribe-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -2101,7 +2110,7 @@ def build_tribe_sunburst_chart_page(layout):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initTribeChartTooltips(); initChartLightbox("tribe-chart-expand", "tribe-chart-svg", "Twelve Tribes sunburst, enlarged");</script>
+<script>initNavToggle(); initTribeChartTooltips(); initChartLightbox("tribe-chart-expand", "tribe-chart-svg", "Twelve Tribes sunburst, enlarged"); initChartCopyButton("tribe-chart-copy", "tribe-chart-svg");</script>
 </body>
 </html>
 """
@@ -2383,7 +2392,10 @@ def build_job_chapters_chart_page(chapters):
 
   <div class="kp-legend-row">
     {legend}
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="job-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="job-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -2401,7 +2413,7 @@ def build_job_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Job — Main Speaker by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("job-chart-expand", "job-chart-svg", "Job — Main Speaker by Chapter, enlarged"); initChartCopyButton("job-chart-copy", "job-chart-svg");</script>
 </body>
 </html>
 """
@@ -2799,7 +2811,10 @@ def build_genesis_chapters_chart_page(chapters):
 
   <div class="kp-legend-row">
     {legend}
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="genesis-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="genesis-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -2824,7 +2839,7 @@ def build_genesis_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Genesis — Main Characters by Chapter, enlarged"); initChartCopyButton("genesis-chart-copy", "genesis-chart-svg");</script>
 </body>
 </html>
 """
@@ -3138,7 +3153,10 @@ def build_acts_chapters_chart_page(chapters):
 
   <div class="kp-legend-row">
     {legend}
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="acts-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="acts-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -3160,7 +3178,7 @@ def build_acts_chapters_chart_page(chapters):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Acts — Main Characters by Chapter, enlarged");</script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Acts — Main Characters by Chapter, enlarged"); initChartCopyButton("acts-chart-copy", "acts-chart-svg");</script>
 </body>
 </html>
 """
@@ -3317,7 +3335,10 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 
   <div class="kp-legend-row">
     {legend}
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="kp-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="kp-chart-expand">&#128269; View larger</button>
+    </div>
   </div>
 
   <div class="kp-chart-scroll">
@@ -3339,7 +3360,7 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle(); initKpChartTooltips(); initKpChartLightbox();</script>
+<script>initNavToggle(); initKpChartTooltips(); initKpChartLightbox(); initChartCopyButton("kp-chart-copy", "kp-chart-svg");</script>
 </body>
 </html>
 """
