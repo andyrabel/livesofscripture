@@ -2909,6 +2909,48 @@ function assignEraOrdinalSpans(people) {
   }
 }
 
+// Minimum overlap (in the same notional years used elsewhere on the
+// Timeline) forced onto a documented narrative pair -- enough to read as a
+// real overlap once rendered, not a one-pixel sliver.
+const TIMELINE_NARRATIVE_OVERLAP_YEARS = 15;
+
+// The passes above guarantee a child's bar overlaps its *parent's* bar, and
+// spouses already collapse to one identical slot -- but nothing makes two
+// siblings, or any other documented pair, overlap *each other*. That's a
+// real gap: Cain and Abel are both anchored to Adam's span but staggered
+// apart (so they don't render as one identical bar), which left their bars
+// not overlapping at all even though Genesis 4 requires them to have been
+// alive at the same moment for Cain to kill Abel. Any `connections.json`
+// edge that isn't `parent-child`/`married` (both already guaranteed above)
+// describes a documented interaction -- mentorship, collaboration, rivalry,
+// or a future type -- that by definition required both people to be alive
+// together, so force it here: whichever era-precision bar starts later gets
+// pulled back to overlap the earlier one's bar, keeping its own length.
+// Only applied within the same era band; cross-era or date-precision pairs
+// are left alone; already-overlapping pairs are untouched.
+function assignNarrativeOverlaps(people, edges) {
+  const byId = new Map(people.map((p) => [p.person_id, p]));
+  for (const edge of edges || []) {
+    if (edge.type === "parent-child" || edge.type === "married") continue;
+    const a = byId.get(edge.from);
+    const b = byId.get(edge.to);
+    if (!a || !b) continue;
+    if (a.precision !== "era" || b.precision !== "era") continue;
+    if (a.start == null || b.start == null) continue;
+    if (a.era !== b.era) continue;
+    const [earlier, later] = a.start <= b.start ? [a, b] : [b, a];
+    if (later.start < earlier.end) continue;
+    const band = ERA_BANDS[earlier.era];
+    const lifespan = later.end - later.start;
+    const newStart = Math.max(
+      band ? band[0] : -Infinity,
+      earlier.end - TIMELINE_NARRATIVE_OVERLAP_YEARS
+    );
+    later.start = newStart;
+    later.end = newStart + lifespan;
+  }
+}
+
 const TIMELINE_PX_PER_YEAR = 4;
 const TIMELINE_LANE_HEIGHT = 28;
 const TIMELINE_LANE_GAP = 8;
@@ -3198,7 +3240,7 @@ async function renderTimelinePage() {
   // just full-tier entries -- era/region/genealogy for stub entries is
   // pre-computed into the index by _build/infer_stub_eras.py, so no
   // per-person fetch is needed for any of the ~3,000 people here.
-  const index = await loadIndex();
+  const [index, edges] = await Promise.all([loadIndex(), loadConnections()]);
 
   const spanned = index
     .map((p) => {
@@ -3207,6 +3249,7 @@ async function renderTimelinePage() {
     })
     .filter(Boolean);
   assignEraOrdinalSpans(spanned);
+  assignNarrativeOverlaps(spanned, edges);
   // Era-precision people with no first_reference and no ranked parent/spouse
   // to inherit a position from are left unplaced (start/end nulled out) by
   // assignEraOrdinalSpans above -- drop them here rather than showing them

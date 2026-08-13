@@ -12603,6 +12603,17 @@
     ]
   },
   {
+    "from": "cain",
+    "to": "abel",
+    "label": "murdered",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Cain grew angry when the LORD had regard for Abel's offering but not his own, then killed Abel in the field despite God's warning that sin was crouching at his door.",
+    "references": [
+      "Genesis 4:3-8"
+    ]
+  },
+  {
     "from": "jared",
     "to": "enoch",
     "label": "begot",
