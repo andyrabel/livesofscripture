@@ -2407,11 +2407,634 @@ def build_job_chapters_chart_page(chapters):
 """
 
 
+# ---------------------------------------------------------------------
+# "Whose Story Is It? — Genesis by Chapter" chart (charts.html hub +
+# charts/genesis-chapters.html)
+# ---------------------------------------------------------------------
+
+# Genesis follows several overlapping generations rather than one continuous
+# drama, so unlike Job's "who is speaking" question, this chart asks "whose
+# story is the text following" in each chapter -- the person whose actions
+# or words drive that chapter's narrative. Chapters with no single human
+# protagonist (the creation week; the "these are the generations of..."
+# genealogical lists in chs. 5, 10, 11, and 36) are grouped under
+# "Creation & Genealogies" and reuse --gen-shared, the same "not a
+# competing identity" role that variable plays on the Job and genealogies
+# charts (see CLAUDE.md's Genealogy / Connections Graph section on why
+# these lists matter to the site even without narrative content).
+#
+# A handful of chapters required a judgment call rather than a clean single
+# answer -- flagged on the page itself rather than picked silently, per
+# CLAUDE.md's Factual Accuracy section:
+#   - Ch. 25 covers both Abraham's death (25:1-11) and the birth of Esau
+#     and Jacob plus the birthright sale (25:19-34); it's grouped under
+#     Jacob since that event sets up the rest of the book, but the chapter
+#     note says so explicitly.
+#   - Ch. 44 (the planted silver cup) is grouped under Judah, not Joseph --
+#     Joseph's steward sets up the test in the first half, but the
+#     chapter's back half is Judah's extended, pivotal plea to take
+#     Benjamin's place as a slave (44:18-34), usually read as the turning
+#     point of his own character arc.
+#   - Jacob is renamed Israel partway through the book (32:22-32); the row
+#     is labeled "Jacob" throughout for a single consistent label (as
+#     Genesis itself keeps calling him through most of the following
+#     chapters) but links to the person page at "israel", the site's
+#     full-tier person_id for him -- see CLAUDE.md's Name Disambiguation
+#     section on the same "jacob" stub / "israel" full-tier split.
+GC_SPEAKERS = {
+    "narrator": {"label": "Creation & Genealogies", "person_id": None, "color_var": "var(--gen-shared)"},
+    "adam_eve": {"label": "Adam & Eve", "person_id": "adam", "color_var": "var(--gnc-adam-eve)"},
+    "cain": {"label": "Cain", "person_id": "cain", "color_var": "var(--gnc-cain)"},
+    "noah": {"label": "Noah", "person_id": "noah", "color_var": "var(--gnc-noah)"},
+    "abraham": {"label": "Abraham", "person_id": "abraham", "color_var": "var(--gnc-abraham)"},
+    "lot": {"label": "Lot", "person_id": "lot", "color_var": "var(--gnc-lot)"},
+    "isaac": {"label": "Isaac", "person_id": "isaac", "color_var": "var(--gnc-isaac)"},
+    "jacob": {"label": "Jacob", "person_id": "israel", "color_var": "var(--gnc-jacob)"},
+    "dinah": {"label": "Dinah", "person_id": "dinah", "color_var": "var(--gnc-dinah)"},
+    "joseph": {"label": "Joseph", "person_id": "joseph", "color_var": "var(--gnc-joseph)"},
+    "judah": {"label": "Judah", "person_id": "judah", "color_var": "var(--gnc-judah)"},
+}
+
+GC_ROW_ORDER = ["narrator", "adam_eve", "cain", "noah", "abraham", "lot", "isaac", "jacob", "dinah", "joseph", "judah"]
+
+GC_CHAPTERS = [
+    {"chapter": 1, "speaker": "narrator", "reference": "Genesis 1",
+     "note": "The six days of creation, culminating in mankind, male and female, made in God's image."},
+    {"chapter": 2, "speaker": "adam_eve", "reference": "Genesis 2",
+     "note": "The LORD God forms the man from the dust, plants the garden of Eden, and forms the woman from the man's side."},
+    {"chapter": 3, "speaker": "adam_eve", "reference": "Genesis 3",
+     "note": "The serpent tempts the woman and the man to eat the forbidden fruit; God pronounces judgment and they are driven from Eden."},
+    {"chapter": 4, "speaker": "cain", "reference": "Genesis 4",
+     "note": "Cain murders his brother Abel over their offerings and is exiled; his line and the birth of Seth follow."},
+    {"chapter": 5, "speaker": "narrator", "reference": "Genesis 5",
+     "note": "The genealogy from Adam to Noah, including Enoch, who “walked with God,” and Methuselah's 969 years."},
+    {"chapter": 6, "speaker": "noah", "reference": "Genesis 6",
+     "note": "Human wickedness fills the earth; God resolves to send a flood but instructs righteous Noah to build an ark."},
+    {"chapter": 7, "speaker": "noah", "reference": "Genesis 7",
+     "note": "Noah, his family, and the animals enter the ark; the flood covers the earth."},
+    {"chapter": 8, "speaker": "noah", "reference": "Genesis 8",
+     "note": "The floodwaters recede; Noah leaves the ark and offers a sacrifice to the LORD."},
+    {"chapter": 9, "speaker": "noah", "reference": "Genesis 9",
+     "note": "God's covenant with Noah, sealed by the rainbow; Noah's drunkenness and the curse on Canaan."},
+    {"chapter": 10, "speaker": "narrator", "reference": "Genesis 10",
+     "note": "The Table of Nations — the descendants of Noah's three sons, Shem, Ham, and Japheth, spread across the earth."},
+    {"chapter": 11, "speaker": "narrator", "reference": "Genesis 11",
+     "note": "Mankind builds the tower of Babel and God confuses their language; the genealogy from Shem to Terah, Abram's father."},
+    {"chapter": 12, "speaker": "abraham", "reference": "Genesis 12",
+     "note": "The LORD calls Abram to Canaan with a promise of blessing; famine drives him to Egypt, where he deceives Pharaoh about Sarai."},
+    {"chapter": 13, "speaker": "abraham", "reference": "Genesis 13",
+     "note": "Abram and his nephew Lot separate over their growing herds; Lot chooses the well-watered plain near Sodom."},
+    {"chapter": 14, "speaker": "abraham", "reference": "Genesis 14",
+     "note": "Abram rescues Lot from four invading kings and is blessed by Melchizedek, king of Salem and priest of God Most High."},
+    {"chapter": 15, "speaker": "abraham", "reference": "Genesis 15",
+     "note": "The LORD makes a covenant with Abram; his faith “was credited to him as righteousness.”"},
+    {"chapter": 16, "speaker": "abraham", "reference": "Genesis 16",
+     "note": "Sarai gives her servant Hagar to Abram; Hagar bears Ishmael after fleeing into the wilderness."},
+    {"chapter": 17, "speaker": "abraham", "reference": "Genesis 17",
+     "note": "God establishes circumcision as the covenant sign and renames Abram and Sarai as Abraham and Sarah."},
+    {"chapter": 18, "speaker": "abraham", "reference": "Genesis 18",
+     "note": "Three visitors promise Sarah a son within the year; Abraham intercedes with the LORD over Sodom."},
+    {"chapter": 19, "speaker": "lot", "reference": "Genesis 19",
+     "note": "Two angels rescue Lot from Sodom before its destruction; his wife looks back and becomes a pillar of salt."},
+    {"chapter": 20, "speaker": "abraham", "reference": "Genesis 20",
+     "note": "Abraham again passes Sarah off as his sister, this time to Abimelech, king of Gerar."},
+    {"chapter": 21, "speaker": "abraham", "reference": "Genesis 21",
+     "note": "Isaac is born; Hagar and Ishmael are sent away; Abraham makes a treaty with Abimelech at Beersheba."},
+    {"chapter": 22, "speaker": "abraham", "reference": "Genesis 22",
+     "note": "God tests Abraham by commanding him to sacrifice Isaac; the LORD provides a ram in his place."},
+    {"chapter": 23, "speaker": "abraham", "reference": "Genesis 23",
+     "note": "Sarah dies, and Abraham buys the cave of Machpelah from the Hittites as a family burial site."},
+    {"chapter": 24, "speaker": "isaac", "reference": "Genesis 24",
+     "note": "Abraham's servant travels to Abraham's homeland and returns with Rebekah as a bride for Isaac."},
+    {"chapter": 25, "speaker": "jacob", "reference": "Genesis 25",
+     "note": "Abraham dies and is buried beside Sarah (25:1-11); Rebekah bears twins, and Esau sells his birthright to Jacob for a bowl of stew."},
+    {"chapter": 26, "speaker": "isaac", "reference": "Genesis 26",
+     "note": "Isaac repeats his father's deception about his wife, re-digs Abraham's wells, and makes a treaty with Abimelech."},
+    {"chapter": 27, "speaker": "jacob", "reference": "Genesis 27",
+     "note": "With his mother Rebekah's help, Jacob deceives his aging, nearly blind father Isaac into giving him Esau's blessing."},
+    {"chapter": 28, "speaker": "jacob", "reference": "Genesis 28",
+     "note": "Fleeing Esau's anger, Jacob dreams of a stairway to heaven at Bethel, and the LORD renews the covenant promise to him."},
+    {"chapter": 29, "speaker": "jacob", "reference": "Genesis 29",
+     "note": "Jacob arrives at his uncle Laban's household, is tricked into marrying Leah, then marries Rachel as well."},
+    {"chapter": 30, "speaker": "jacob", "reference": "Genesis 30",
+     "note": "Jacob's sons are born to Leah, Rachel, and their servants; Jacob grows wealthy through selective breeding of Laban's flocks."},
+    {"chapter": 31, "speaker": "jacob", "reference": "Genesis 31",
+     "note": "Jacob flees from Laban with his family and flocks; the two make a covenant of peace at Mizpah."},
+    {"chapter": 32, "speaker": "jacob", "reference": "Genesis 32",
+     "note": "Jacob sends gifts ahead to appease Esau and wrestles with God at Peniel, receiving the name Israel."},
+    {"chapter": 33, "speaker": "jacob", "reference": "Genesis 33",
+     "note": "Jacob and Esau are reconciled; Jacob settles near Shechem."},
+    {"chapter": 34, "speaker": "dinah", "reference": "Genesis 34",
+     "note": "Shechem violates Jacob's daughter Dinah; her brothers Simeon and Levi avenge her by deceiving and slaughtering the men of his city."},
+    {"chapter": 35, "speaker": "jacob", "reference": "Genesis 35",
+     "note": "Jacob returns to Bethel; Rachel dies giving birth to Benjamin; Isaac dies at Hebron."},
+    {"chapter": 36, "speaker": "narrator", "reference": "Genesis 36",
+     "note": "The genealogy of Esau, ancestor of the Edomites."},
+    {"chapter": 37, "speaker": "joseph", "reference": "Genesis 37",
+     "note": "Joseph's dreams of ruling over his family provoke his brothers, who sell him into slavery in Egypt."},
+    {"chapter": 38, "speaker": "judah", "reference": "Genesis 38",
+     "note": "Judah's daughter-in-law Tamar disguises herself to secure an heir after his sons' deaths; Judah admits, “she is more righteous than I.”"},
+    {"chapter": 39, "speaker": "joseph", "reference": "Genesis 39",
+     "note": "Joseph rises to oversee Potiphar's house, then is falsely accused and imprisoned after refusing Potiphar's wife."},
+    {"chapter": 40, "speaker": "joseph", "reference": "Genesis 40",
+     "note": "In prison, Joseph correctly interprets the dreams of Pharaoh's cupbearer and baker."},
+    {"chapter": 41, "speaker": "joseph", "reference": "Genesis 41",
+     "note": "Joseph interprets Pharaoh's dreams of coming famine and is made ruler over all Egypt."},
+    {"chapter": 42, "speaker": "joseph", "reference": "Genesis 42",
+     "note": "Joseph's brothers come to Egypt for grain and do not recognize him; he accuses them of spying and keeps Simeon."},
+    {"chapter": 43, "speaker": "joseph", "reference": "Genesis 43",
+     "note": "The brothers return with Benjamin as Joseph required; Joseph weeps privately and hosts them at a feast."},
+    {"chapter": 44, "speaker": "judah", "reference": "Genesis 44",
+     "note": "Joseph's silver cup is planted in Benjamin's sack; Judah offers himself as a slave in Benjamin's place rather than let their father lose him."},
+    {"chapter": 45, "speaker": "joseph", "reference": "Genesis 45",
+     "note": "Joseph reveals his identity to his brothers and sends for his father Jacob to come to Egypt."},
+    {"chapter": 46, "speaker": "jacob", "reference": "Genesis 46",
+     "note": "God reassures Jacob (Israel) at Beersheba; his family — seventy in all — journeys to Egypt and is reunited with Joseph."},
+    {"chapter": 47, "speaker": "jacob", "reference": "Genesis 47",
+     "note": "Jacob is presented to Pharaoh and settles in Goshen; Joseph administers Egypt's grain through the famine."},
+    {"chapter": 48, "speaker": "jacob", "reference": "Genesis 48",
+     "note": "The dying Jacob blesses Joseph's two sons, Ephraim and Manasseh, giving the younger the greater blessing."},
+    {"chapter": 49, "speaker": "jacob", "reference": "Genesis 49",
+     "note": "Jacob blesses each of his twelve sons in turn, then dies."},
+    {"chapter": 50, "speaker": "joseph", "reference": "Genesis 50",
+     "note": "Joseph buries Jacob in Canaan, reassures his fearful brothers (“you meant evil... God meant it for good”), and dies in Egypt at 110."},
+]
+
+
+def render_genesis_chapters_svg(chapters):
+    runs = jc_group_runs(chapters)
+    rows = {key: [r for r in runs if r["speaker"] == key] for key in GC_ROW_ORDER}
+
+    total_chapters = 50
+    margin_left, margin_right = 16, 16
+    plot_width = 1900
+    bar_h = 30
+    row_label_h = 34
+    row_gap = 14
+    axis_h = 34
+    bar_font_size = 18
+    tick_step = 5
+
+    def x_of(boundary):
+        return margin_left + boundary / total_chapters * plot_width
+
+    total_h = axis_h + len(GC_ROW_ORDER) * (row_label_h + bar_h) + (len(GC_ROW_ORDER) - 1) * row_gap + 8
+    total_w = margin_left + plot_width + margin_right
+
+    parts = [
+        f'<svg id="genesis-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
+        f'aria-label="Timeline of all 50 chapters of Genesis, one row per protagonist, showing which chapters each one\'s story is told in" '
+        f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg gnc-timeline-svg">'
+    ]
+
+    y_axis_top = axis_h
+    y_axis_bottom = total_h - 4
+    tick_chapters = sorted(set([1] + list(range(tick_step, total_chapters, tick_step)) + [total_chapters]))
+    for tick in tick_chapters:
+        boundary = tick - 1 if tick < total_chapters else total_chapters
+        tx = x_of(boundary)
+        parts.append(f'<line x1="{tx:.1f}" y1="{y_axis_top}" x2="{tx:.1f}" y2="{y_axis_bottom}" class="kp-gridline" />')
+        parts.append(f'<text x="{tx:.1f}" y="26" class="kp-axis-label" text-anchor="middle">{tick}</text>')
+
+    y = axis_h
+    for key in GC_ROW_ORDER:
+        speaker = GC_SPEAKERS[key]
+        parts.append(f'<text x="{margin_left}" y="{y + 26}" class="kp-row-label">{esc(speaker["label"])}</text>')
+        lane_y = y + row_label_h
+
+        for run in rows[key]:
+            x1 = x_of(run["start"] - 1)
+            x2 = x_of(run["end"])
+            bw = max(2.0, x2 - x1)
+            chapter_label = str(run["start"]) if run["start"] == run["end"] else f'{run["start"]}–{run["end"]}'
+            title = f'Genesis {chapter_label} — {speaker["label"]}. {run["note"]} ({run["reference"]})'
+            rect = (
+                f'<rect x="{x1:.1f}" y="{lane_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
+                f'fill="{speaker["color_var"]}" class="kp-bar" tabindex="0" '
+                f'data-name="{esc(speaker["label"])}" data-nation="Genesis {esc(chapter_label)}" '
+                f'data-span="{esc(run["note"])}" data-reference="{esc(run["reference"])}">'
+                f'<title>{esc(title)}</title></rect>'
+            )
+            label_el = ""
+            if kp_bar_label_fits(chapter_label, bw, font_size=bar_font_size):
+                label_el = (
+                    f'<text x="{x1 + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 6.5:.1f}" '
+                    f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
+                )
+            if speaker["person_id"]:
+                href = f'people/{speaker["person_id"]}.html'
+                parts.append(f'<a href="{href}">{rect}{label_el}</a>')
+            else:
+                parts.append(rect + label_el)
+
+        y += row_label_h + bar_h + row_gap
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_genesis_chapters_legend():
+    items = "\n    ".join(
+        f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{s["color_var"]}"></span>{esc(s["label"])}</span>'
+        for s in GC_SPEAKERS.values()
+    )
+    return f'<div class="kp-legend gnc-timeline-legend">{items}</div>'
+
+
+def render_genesis_chapters_table(chapters):
+    def row_html(entry):
+        speaker = GC_SPEAKERS[entry["speaker"]]
+        name_cell = (
+            f'<a href="../people/{speaker["person_id"]}.html">{esc(speaker["label"])}</a>'
+            if speaker["person_id"] else esc(speaker["label"])
+        )
+        return (
+            f'<tr><td>{entry["chapter"]}</td><td>{name_cell}</td>'
+            f'<td>{esc(entry["reference"])}</td><td>{esc(entry["note"])}</td></tr>'
+        )
+
+    body_rows = "\n    ".join(row_html(e) for e in chapters)
+    return f"""<details class="kp-table-details">
+    <summary>View as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Chapter</th><th>Protagonist</th><th>Reference</th><th>Note</th></tr></thead>
+      <tbody>
+    {body_rows}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_genesis_chapters_chart_page(chapters):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/genesis-chapters.html"
+    title = "Whose Story Is It? — Genesis by Chapter — Lives of Scripture"
+    description = "Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph."
+
+    svg = render_genesis_chapters_svg(chapters)
+    legend = render_genesis_chapters_legend()
+    table = render_genesis_chapters_table(chapters)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>Whose Story Is It? &mdash; Genesis by Chapter</h2>
+  <p class="page-intro">Genesis moves through several overlapping generations rather than one continuous
+  drama. Each row below is a person; each bar is a chapter, colored by whoever the text's own narrative
+  centers on in that chapter &mdash; Adam and Eve in Eden, Cain after the first murder, Noah and the flood,
+  Abraham's call and covenant, his nephew Lot at Sodom, Isaac's generation, Jacob's flight and return, his
+  daughter Dinah, and finally Joseph and his brother Judah in Egypt. Chapters with no single human
+  protagonist &mdash; the creation week and the book's genealogical &ldquo;these are the generations of...&rdquo;
+  lists &mdash; are grouped under Creation &amp; Genealogies. Bars are clickable and link to that person's
+  page; hover or focus a bar for a chapter summary.</p>
+
+  <p class="kp-disclaimer">A few chapters split across two people and required a judgment call rather than
+  a single clean answer: ch. 25 covers both Abraham's death and the birth/birthright sale of Esau and Jacob
+  (grouped under Jacob, since that event sets the course of the rest of the book); ch. 44's planted silver
+  cup is grouped under Judah rather than Joseph, since the chapter's back half is Judah's own pivotal plea
+  to take Benjamin's place as a slave. Jacob is renamed Israel partway through the book (32:22-32); the row
+  is labeled &ldquo;Jacob&rdquo; throughout for consistency, but links to his person page under that later
+  name.</p>
+
+  <div class="kp-legend-row">
+    {legend}
+    <button type="button" class="kp-chart-expand" id="genesis-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("genesis-chart-expand", "genesis-chart-svg", "Whose Story Is It? — Genesis by Chapter, enlarged");</script>
+</body>
+</html>
+"""
+
+
+# ---------------------------------------------------------------------
+# "Whose Story Is It? — Acts by Chapter" chart (charts.html hub +
+# charts/acts-chapters.html)
+# ---------------------------------------------------------------------
+
+# Same "whose story is the text following" framing as the Genesis chart
+# above, applied to Acts -- a book that famously pivots from a
+# Peter-centered first half to a Paul-centered second half. Peter, Stephen,
+# and Philip's ministries are grouped by the person they're centered on;
+# Acts 15's Jerusalem Council, where Peter, Paul, Barnabas, and James all
+# speak with no single figure driving the chapter, reuses --gen-shared, the
+# same "not a competing identity" role it plays on the Job and Genesis
+# charts.
+#
+# One judgment call, flagged on the page itself rather than picked
+# silently: ch. 9 splits between Saul's conversion (9:1-31, the majority of
+# the chapter and the more significant event) and Peter's healings of
+# Aeneas and Dorcas (9:32-43); the whole chapter is grouped under Paul, but
+# the note says so. Saul is renamed Paul partway through the book (13:9);
+# the row is labeled "Paul" throughout for a single consistent label,
+# matching the site's own person_id and page title -- see paul.json's
+# alt_names, which already lists "Saul"/"Saul of Tarsus". Barnabas travels
+# with Paul through most of chs. 13-15 but is not broken out as his own
+# row -- the text consistently makes Paul the one who acts and speaks (e.g.
+# 13:9, 14:8-10) -- a scope decision, not a claim that Barnabas was a minor
+# figure.
+ACC_SPEAKERS = {
+    "peter": {"label": "Peter", "person_id": "peter", "color_var": "var(--acc-peter)"},
+    "stephen": {"label": "Stephen", "person_id": "stephen", "color_var": "var(--acc-stephen)"},
+    "philip": {"label": "Philip", "person_id": "philip-3", "color_var": "var(--acc-philip)"},
+    "paul": {"label": "Paul", "person_id": "paul", "color_var": "var(--acc-paul)"},
+    "council": {"label": "Jerusalem Council", "person_id": None, "color_var": "var(--gen-shared)"},
+}
+
+ACC_ROW_ORDER = ["peter", "stephen", "philip", "paul", "council"]
+
+ACC_CHAPTERS = [
+    {"chapter": 1, "speaker": "peter", "reference": "Acts 1",
+     "note": "Jesus ascends to heaven after commissioning the apostles; awaiting the Spirit, Peter leads the choosing of Matthias to replace Judas."},
+    {"chapter": 2, "speaker": "peter", "reference": "Acts 2",
+     "note": "The Holy Spirit falls on the gathered believers at Pentecost; Peter preaches, and about three thousand are added to the church."},
+    {"chapter": 3, "speaker": "peter", "reference": "Acts 3",
+     "note": "Peter heals a man lame from birth at the temple gate and preaches to the crowd that gathers."},
+    {"chapter": 4, "speaker": "peter", "reference": "Acts 4",
+     "note": "Peter and John are arrested and testify before the Sanhedrin; the believers share their possessions in common."},
+    {"chapter": 5, "speaker": "peter", "reference": "Acts 5",
+     "note": "Ananias and Sapphira die after lying to the Holy Spirit; the apostles are arrested, freed by an angel, and defended by Gamaliel."},
+    {"chapter": 6, "speaker": "stephen", "reference": "Acts 6",
+     "note": "The Twelve appoint seven men, including Stephen and Philip, to serve the Grecian widows; Stephen, “full of grace and power,” is opposed and arrested."},
+    {"chapter": 7, "speaker": "stephen", "reference": "Acts 7",
+     "note": "Stephen's speech before the Sanhedrin retells Israel's history; he is stoned to death, the first Christian martyr."},
+    {"chapter": 8, "speaker": "philip", "reference": "Acts 8",
+     "note": "Persecution scatters the believers; Philip preaches in Samaria, confronts Simon the sorcerer, and leads an Ethiopian official to Christ."},
+    {"chapter": 9, "speaker": "paul", "reference": "Acts 9",
+     "note": "Saul is converted on the road to Damascus and begins preaching Christ (9:1-31); the chapter closes with Peter healing Aeneas and raising Dorcas (9:32-43)."},
+    {"chapter": 10, "speaker": "peter", "reference": "Acts 10",
+     "note": "Peter, guided by a vision, brings the gospel to Cornelius, a Gentile centurion, whose household receives the Holy Spirit."},
+    {"chapter": 11, "speaker": "peter", "reference": "Acts 11",
+     "note": "Peter defends his visit to Cornelius before the Jerusalem church; the Antioch church is founded, and Barnabas brings Saul there to teach."},
+    {"chapter": 12, "speaker": "peter", "reference": "Acts 12",
+     "note": "Herod kills James, the brother of John, and imprisons Peter, who is freed by an angel; Herod is struck down and dies."},
+    {"chapter": 13, "speaker": "paul", "reference": "Acts 13",
+     "note": "Barnabas and Saul are sent out from Antioch; on Cyprus, Saul (now called Paul) blinds the sorcerer Elymas and preaches in Pisidian Antioch."},
+    {"chapter": 14, "speaker": "paul", "reference": "Acts 14",
+     "note": "Paul and Barnabas preach in Iconium and Lystra, where Paul heals a lame man, is stoned and left for dead, then continues on."},
+    {"chapter": 15, "speaker": "council", "reference": "Acts 15",
+     "note": "The Jerusalem Council debates whether Gentile believers must be circumcised; Peter, Paul, Barnabas, and James all speak, and a decision is sent out."},
+    {"chapter": 16, "speaker": "paul", "reference": "Acts 16",
+     "note": "Paul recruits Timothy, is called in a vision to Macedonia, converts Lydia at Philippi, and is imprisoned with Silas before an earthquake frees them."},
+    {"chapter": 17, "speaker": "paul", "reference": "Acts 17",
+     "note": "Paul preaches in Thessalonica and Berea, then reasons with the philosophers at the Areopagus in Athens."},
+    {"chapter": 18, "speaker": "paul", "reference": "Acts 18",
+     "note": "Paul ministers in Corinth alongside Priscilla and Aquila and is brought before the proconsul Gallio."},
+    {"chapter": 19, "speaker": "paul", "reference": "Acts 19",
+     "note": "In Ephesus, Paul baptizes disciples of John, works miracles, and a riot breaks out among the silversmiths over Artemis worship."},
+    {"chapter": 20, "speaker": "paul", "reference": "Acts 20",
+     "note": "Paul raises Eutychus, who fell asleep and dropped from a window, at Troas, then gives a farewell address to the Ephesian elders at Miletus."},
+    {"chapter": 21, "speaker": "paul", "reference": "Acts 21",
+     "note": "Paul is warned by the prophet Agabus, arrives in Jerusalem, and is seized in the temple by an angry crowd."},
+    {"chapter": 22, "speaker": "paul", "reference": "Acts 22",
+     "note": "Paul addresses the crowd from the barracks steps, recounting his conversion, until he claims his Roman citizenship."},
+    {"chapter": 23, "speaker": "paul", "reference": "Acts 23",
+     "note": "Paul divides the Sanhedrin over the resurrection; warned of a plot to kill him, he is sent under guard to Felix in Caesarea."},
+    {"chapter": 24, "speaker": "paul", "reference": "Acts 24",
+     "note": "Paul is accused before governor Felix and gives his defense; Felix leaves him in custody for two years, hoping for a bribe."},
+    {"chapter": 25, "speaker": "paul", "reference": "Acts 25",
+     "note": "The new governor Festus hears Paul's case; Paul appeals to Caesar and is presented before King Agrippa."},
+    {"chapter": 26, "speaker": "paul", "reference": "Acts 26",
+     "note": "Paul gives his defense before Agrippa, again recounting his conversion; Agrippa says he is “almost persuaded” to become a Christian."},
+    {"chapter": 27, "speaker": "paul", "reference": "Acts 27",
+     "note": "Paul sails for Rome as a prisoner; the ship is caught in a storm and wrecked off the island of Malta."},
+    {"chapter": 28, "speaker": "paul", "reference": "Acts 28",
+     "note": "On Malta, Paul survives a viper's bite and heals the sick; he arrives in Rome and preaches the kingdom of God under house arrest."},
+]
+
+
+def render_acts_chapters_svg(chapters):
+    runs = jc_group_runs(chapters)
+    rows = {key: [r for r in runs if r["speaker"] == key] for key in ACC_ROW_ORDER}
+
+    total_chapters = 28
+    margin_left, margin_right = 16, 16
+    plot_width = 1400
+    bar_h = 34
+    row_label_h = 38
+    row_gap = 16
+    axis_h = 34
+    bar_font_size = 22
+    tick_step = 5
+
+    def x_of(boundary):
+        return margin_left + boundary / total_chapters * plot_width
+
+    total_h = axis_h + len(ACC_ROW_ORDER) * (row_label_h + bar_h) + (len(ACC_ROW_ORDER) - 1) * row_gap + 8
+    total_w = margin_left + plot_width + margin_right
+
+    parts = [
+        f'<svg id="acts-chart-svg" viewBox="0 0 {total_w} {total_h}" width="{total_w}" height="{total_h}" role="img" '
+        f'aria-label="Timeline of all 28 chapters of Acts, one row per protagonist, showing which chapters each one\'s story is told in" '
+        f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg acc-timeline-svg">'
+    ]
+
+    y_axis_top = axis_h
+    y_axis_bottom = total_h - 4
+    tick_chapters = sorted(set([1] + list(range(tick_step, total_chapters, tick_step)) + [total_chapters]))
+    for tick in tick_chapters:
+        boundary = tick - 1 if tick < total_chapters else total_chapters
+        tx = x_of(boundary)
+        parts.append(f'<line x1="{tx:.1f}" y1="{y_axis_top}" x2="{tx:.1f}" y2="{y_axis_bottom}" class="kp-gridline" />')
+        parts.append(f'<text x="{tx:.1f}" y="26" class="kp-axis-label" text-anchor="middle">{tick}</text>')
+
+    y = axis_h
+    for key in ACC_ROW_ORDER:
+        speaker = ACC_SPEAKERS[key]
+        parts.append(f'<text x="{margin_left}" y="{y + 30}" class="kp-row-label">{esc(speaker["label"])}</text>')
+        lane_y = y + row_label_h
+
+        for run in rows[key]:
+            x1 = x_of(run["start"] - 1)
+            x2 = x_of(run["end"])
+            bw = max(2.0, x2 - x1)
+            chapter_label = str(run["start"]) if run["start"] == run["end"] else f'{run["start"]}–{run["end"]}'
+            title = f'Acts {chapter_label} — {speaker["label"]}. {run["note"]} ({run["reference"]})'
+            rect = (
+                f'<rect x="{x1:.1f}" y="{lane_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" '
+                f'fill="{speaker["color_var"]}" class="kp-bar" tabindex="0" '
+                f'data-name="{esc(speaker["label"])}" data-nation="Acts {esc(chapter_label)}" '
+                f'data-span="{esc(run["note"])}" data-reference="{esc(run["reference"])}">'
+                f'<title>{esc(title)}</title></rect>'
+            )
+            label_el = ""
+            if kp_bar_label_fits(chapter_label, bw, font_size=bar_font_size):
+                label_el = (
+                    f'<text x="{x1 + bw / 2:.1f}" y="{lane_y + bar_h / 2 + 7.5:.1f}" '
+                    f'class="kp-bar-label" text-anchor="middle">{esc(chapter_label)}</text>'
+                )
+            if speaker["person_id"]:
+                href = f'people/{speaker["person_id"]}.html'
+                parts.append(f'<a href="{href}">{rect}{label_el}</a>')
+            else:
+                parts.append(rect + label_el)
+
+        y += row_label_h + bar_h + row_gap
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_acts_chapters_legend():
+    items = "\n    ".join(
+        f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{s["color_var"]}"></span>{esc(s["label"])}</span>'
+        for s in ACC_SPEAKERS.values()
+    )
+    return f'<div class="kp-legend acc-timeline-legend">{items}</div>'
+
+
+def render_acts_chapters_table(chapters):
+    def row_html(entry):
+        speaker = ACC_SPEAKERS[entry["speaker"]]
+        name_cell = (
+            f'<a href="../people/{speaker["person_id"]}.html">{esc(speaker["label"])}</a>'
+            if speaker["person_id"] else esc(speaker["label"])
+        )
+        return (
+            f'<tr><td>{entry["chapter"]}</td><td>{name_cell}</td>'
+            f'<td>{esc(entry["reference"])}</td><td>{esc(entry["note"])}</td></tr>'
+        )
+
+    body_rows = "\n    ".join(row_html(e) for e in chapters)
+    return f"""<details class="kp-table-details">
+    <summary>View as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Chapter</th><th>Protagonist</th><th>Reference</th><th>Note</th></tr></thead>
+      <tbody>
+    {body_rows}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_acts_chapters_chart_page(chapters):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/acts-chapters.html"
+    title = "Whose Story Is It? — Acts by Chapter — Lives of Scripture"
+    description = "Every chapter of Acts, colored by whose story it tells — the book's pivot from Peter's ministry to Paul's, with Stephen and Philip between."
+
+    svg = render_acts_chapters_svg(chapters)
+    legend = render_acts_chapters_legend()
+    table = render_acts_chapters_table(chapters)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>Whose Story Is It? &mdash; Acts by Chapter</h2>
+  <p class="page-intro">Acts famously pivots partway through from a Peter-centered church to a
+  Paul-centered mission. Each row below is a person; each bar is a chapter, colored by whoever the text's
+  own narrative centers on in that chapter &mdash; Peter's early ministry in Jerusalem, Stephen's speech and
+  martyrdom, Philip's mission to Samaria and the Ethiopian official, and then Paul's conversion and
+  missionary journeys, which dominate the second half of the book. Acts 15's Jerusalem Council, where
+  several voices speak and no single figure drives the chapter, is grouped under Jerusalem Council. Bars
+  are clickable and link to that person's page; hover or focus a bar for a chapter summary.</p>
+
+  <p class="kp-disclaimer">Ch. 9 splits between Saul's conversion (9:1-31, the larger and more significant
+  portion) and Peter's healing of Aeneas and raising of Dorcas (9:32-43); the whole chapter is grouped
+  under Paul. Saul is renamed Paul partway through the book (13:9); the row is labeled &ldquo;Paul&rdquo;
+  throughout for consistency. Barnabas travels with Paul through most of chs. 13-15 but is not broken out
+  as his own row here &mdash; a scope decision, not a claim that his role was minor.</p>
+
+  <div class="kp-legend-row">
+    {legend}
+    <button type="button" class="kp-chart-expand" id="acts-chart-expand">&#128269; View larger</button>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  {table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("acts-chart-expand", "acts-chart-svg", "Whose Story Is It? — Acts by Chapter, enlarged");</script>
+</body>
+</html>
+"""
+
+
 def build_charts_list_page():
     base = ""
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
-    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, and who's speaking in each chapter of Job."
+    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, who's speaking in each chapter of Job, and whose story each chapter of Genesis and Acts tells."
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -2468,6 +3091,16 @@ def build_charts_list_page():
       <div class="name"><strong>Who's Speaking in Job</strong></div>
       <p class="chart-card-desc">All 42 chapters of Job, colored by who is speaking in each one — Job,
       his three friends, Elihu, or the LORD.</p>
+    </a>
+    <a class="person-card" href="{base}charts/genesis-chapters.html">
+      <div class="name"><strong>Whose Story Is It? &mdash; Genesis by Chapter</strong></div>
+      <p class="chart-card-desc">All 50 chapters of Genesis, colored by whose story it tells — Adam and
+      Eve, Cain, Noah, Abraham, Isaac, Jacob, or Joseph.</p>
+    </a>
+    <a class="person-card" href="{base}charts/acts-chapters.html">
+      <div class="name"><strong>Whose Story Is It? &mdash; Acts by Chapter</strong></div>
+      <p class="chart-card-desc">All 28 chapters of Acts, colored by whose story it tells — the book's
+      pivot from Peter's ministry to Paul's, with Stephen and Philip between.</p>
     </a>
   </div>
 </main>
@@ -2589,6 +3222,8 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/charts/genealogies-of-jesus.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/twelve-tribes.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/job-chapters.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/genesis-chapters.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/acts-chapters.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -2681,6 +3316,8 @@ def main():
     (charts_dir / "genealogies-of-jesus.html").write_text(build_genealogies_chart_page(index_by_id, ref_by_id))
     (charts_dir / "twelve-tribes.html").write_text(build_tribe_sunburst_chart_page(build_tribe_layout()))
     (charts_dir / "job-chapters.html").write_text(build_job_chapters_chart_page(JC_CHAPTERS))
+    (charts_dir / "genesis-chapters.html").write_text(build_genesis_chapters_chart_page(GC_CHAPTERS))
+    (charts_dir / "acts-chapters.html").write_text(build_acts_chapters_chart_page(ACC_CHAPTERS))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
     build_sitemap(index, churches)

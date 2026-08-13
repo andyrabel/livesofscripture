@@ -51,6 +51,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/charts/genesis-chapters.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/charts/acts-chapters.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/quiz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

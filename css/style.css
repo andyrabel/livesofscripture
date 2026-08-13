@@ -97,6 +97,33 @@
   --jc-zophar: #c3453f;
   --jc-elihu: #7a4fb0;
   --jc-lord: #1892a8;
+
+  /* Categorical protagonist palette for the "Whose Story Is It? — Genesis
+     by Chapter" chart (validated via the dataviz skill's six-checks script,
+     light+dark, fresh hues not reused elsewhere). Chapters with no single
+     human protagonist (the creation week, the "begat" genealogies) reuse
+     --gen-shared, same "not a competing identity" role as on the Job and
+     genealogies charts. */
+  --gnc-adam-eve: #2fbc75;
+  --gnc-cain: #bc422f;
+  --gnc-noah: #2f6abc;
+  --gnc-abraham: #bc912f;
+  --gnc-lot: #882fbc;
+  --gnc-isaac: #bc2f71;
+  --gnc-jacob: #5ebc2f;
+  --gnc-dinah: #2fa4bc;
+  --gnc-joseph: #592fbc;
+  --gnc-judah: #bc2f91;
+
+  /* Categorical protagonist palette for the "Whose Story Is It? — Acts by
+     Chapter" chart (validated via the dataviz skill's six-checks script,
+     light+dark, fresh hues not reused elsewhere). Acts 15's Jerusalem
+     Council -- no single figure driving the chapter -- reuses --gen-shared,
+     same role as above. */
+  --acc-peter: #2960ae;
+  --acc-stephen: #b38519;
+  --acc-philip: #088f9b;
+  --acc-paul: #ae2934;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -152,6 +179,20 @@
     --jc-zophar: #de6259;
     --jc-elihu: #8f63c5;
     --jc-lord: #1ea3bc;
+    --gnc-adam-eve: #0b8e4d;
+    --gnc-cain: #b86614;
+    --gnc-noah: #4280d7;
+    --gnc-abraham: #b18725;
+    --gnc-lot: #8742d7;
+    --gnc-isaac: #d74267;
+    --gnc-jacob: #4ca022;
+    --gnc-dinah: #259ab1;
+    --gnc-joseph: #6e42d7;
+    --gnc-judah: #d742aa;
+    --acc-peter: #5189d6;
+    --acc-stephen: #ae8013;
+    --acc-philip: #1299a5;
+    --acc-paul: #d6515d;
   }
 }
 
@@ -207,6 +248,20 @@
   --jc-zophar: #de6259;
   --jc-elihu: #8f63c5;
   --jc-lord: #1ea3bc;
+  --gnc-adam-eve: #0b8e4d;
+  --gnc-cain: #b86614;
+  --gnc-noah: #4280d7;
+  --gnc-abraham: #b18725;
+  --gnc-lot: #8742d7;
+  --gnc-isaac: #d74267;
+  --gnc-jacob: #4ca022;
+  --gnc-dinah: #259ab1;
+  --gnc-joseph: #6e42d7;
+  --gnc-judah: #d742aa;
+  --acc-peter: #5189d6;
+  --acc-stephen: #ae8013;
+  --acc-philip: #1299a5;
+  --acc-paul: #d6515d;
 }
 
 :root[data-theme="light"] {
@@ -261,6 +316,33 @@
   --jc-zophar: #c3453f;
   --jc-elihu: #7a4fb0;
   --jc-lord: #1892a8;
+
+  /* Categorical protagonist palette for the "Whose Story Is It? — Genesis
+     by Chapter" chart (validated via the dataviz skill's six-checks script,
+     light+dark, fresh hues not reused elsewhere). Chapters with no single
+     human protagonist (the creation week, the "begat" genealogies) reuse
+     --gen-shared, same "not a competing identity" role as on the Job and
+     genealogies charts. */
+  --gnc-adam-eve: #2fbc75;
+  --gnc-cain: #bc422f;
+  --gnc-noah: #2f6abc;
+  --gnc-abraham: #bc912f;
+  --gnc-lot: #882fbc;
+  --gnc-isaac: #bc2f71;
+  --gnc-jacob: #5ebc2f;
+  --gnc-dinah: #2fa4bc;
+  --gnc-joseph: #592fbc;
+  --gnc-judah: #bc2f91;
+
+  /* Categorical protagonist palette for the "Whose Story Is It? — Acts by
+     Chapter" chart (validated via the dataviz skill's six-checks script,
+     light+dark, fresh hues not reused elsewhere). Acts 15's Jerusalem
+     Council -- no single figure driving the chapter -- reuses --gen-shared,
+     same role as above. */
+  --acc-peter: #2960ae;
+  --acc-stephen: #b38519;
+  --acc-philip: #088f9b;
+  --acc-paul: #ae2934;
 }
 
 * { box-sizing: border-box; }
@@ -2896,6 +2978,47 @@ header.site-header nav a.nav-cta:hover {
 }
 
 .jc-timeline-legend .kp-legend-swatch {
+  width: 18px;
+  height: 18px;
+}
+
+/* "Whose Story Is It? — Genesis by Chapter" and "...Acts by Chapter" charts
+   (charts.html, charts/genesis-chapters.html, charts/acts-chapters.html).
+   Same one-row-per-protagonist timeline shape as the Job chart above, so
+   these reuse every shared kp- and jc-timeline-svg-pattern class the same
+   way -- scaled-to-fit sizing via .kp-chart-scroll, enlarged row, axis,
+   and bar-label text via a chart-specific wrapper class so the scale-up
+   doesn't leak into the other charts. Colors come from the gnc- and acc-
+   prefixed variables defined near the top of this file. */
+.kp-chart-scroll .gnc-timeline-svg,
+.kp-chart-scroll .acc-timeline-svg {
+  width: 100%;
+  height: auto;
+}
+
+.gnc-timeline-svg .kp-row-label,
+.acc-timeline-svg .kp-row-label {
+  font-size: 28px;
+}
+
+.gnc-timeline-svg .kp-axis-label,
+.acc-timeline-svg .kp-axis-label {
+  font-size: 24px;
+}
+
+.gnc-timeline-svg .kp-bar-label,
+.acc-timeline-svg .kp-bar-label {
+  font-size: 20px;
+}
+
+.gnc-timeline-legend,
+.acc-timeline-legend {
+  font-size: 1.1rem;
+  gap: 1rem;
+}
+
+.gnc-timeline-legend .kp-legend-swatch,
+.acc-timeline-legend .kp-legend-swatch {
   width: 18px;
   height: 18px;
 }
