@@ -88,7 +88,7 @@ after the bump (no other reordering).
 - [x] **64** — `trophimus` (Trophimus); `onesiphorus` (Onesiphorus); `hymenaeus` (Hymenaeus); `philetus` (Philetus)
 - [x] **65** — `archippus` (Archippus); `nympha` (Nympha); `epanetus` (Epanetus); `andronicus` (Andronicus)
 - [x] **66** — `junias` (Junia); `persis` (Persis); `rufus` (Rufus); `antipas` (Antipas)
-- [ ] **67** — `tabitha` (Tabitha); `simon-6` (Simon)
+- [x] **67** — `tabitha` (Tabitha); `simon-6` (Simon)
 - [ ] **68** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
 - [ ] **69** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
 - [ ] **70** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)

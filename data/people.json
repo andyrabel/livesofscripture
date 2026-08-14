@@ -52468,6 +52468,7 @@
       "a life devoted to good works"
     ],
     "image": "generic-woman.png",
+    "image2": "tabitha.png",
     "gender": "female",
     "first_reference": "Acts 9:36-40"
   },
@@ -52489,7 +52490,8 @@
       "an ordinary trade and an extraordinary vision",
       "God's plan for the Gentiles"
     ],
-    "image": "generic-figure.png"
+    "image": "generic-figure.png",
+    "image2": "simon-6.png"
   },
   {
     "person_id": "cornelius",
