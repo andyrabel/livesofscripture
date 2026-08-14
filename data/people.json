@@ -7426,6 +7426,7 @@
       "clan leadership"
     ],
     "image": "generic-warrior.png",
+    "image2": "machir.png",
     "first_reference": "Genesis 50:23",
     "tribe": "Manasseh"
   },
@@ -7985,6 +7986,7 @@
       "surviving God's judgment"
     ],
     "image": "generic-priest.png",
+    "image2": "ithamar.png",
     "first_reference": "Exodus 6:23",
     "tribe": "Levi"
   },
@@ -18033,6 +18035,7 @@
       "divine judgment"
     ],
     "image": "generic-king.png",
+    "image2": "jehoram.png",
     "first_reference": "1 Kings 22:50",
     "tribe": "Judah"
   },
@@ -18807,6 +18810,7 @@
       "incomplete reform"
     ],
     "image": "generic-king.png",
+    "image2": "jotham-2.png",
     "first_reference": "2 Kings 15:5-38",
     "tribe": "Judah"
   },
