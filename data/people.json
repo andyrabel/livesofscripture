@@ -14380,6 +14380,7 @@
       "loyalty"
     ],
     "image": "generic-figure.png",
+    "image2": "machir-2.png",
     "first_reference": "2 Samuel 9:4-5"
   },
   {
@@ -27120,6 +27121,7 @@
       "the ark of the covenant"
     ],
     "image": "generic-figure.png",
+    "image2": "ethan-3.png",
     "first_reference": "1 Chronicles 6:44",
     "tribe": "Levi"
   },
@@ -37649,6 +37651,7 @@
       "Hezekiah's reform"
     ],
     "image": "generic-figure.png",
+    "image2": "conaniah.png",
     "first_reference": "2 Chronicles 31:12-13",
     "tribe": "Levi"
   },
@@ -46421,6 +46424,7 @@
       "royal court"
     ],
     "image": "generic-figure.png",
+    "image2": "harbona.png",
     "first_reference": "Esther 1:10"
   },
   {
