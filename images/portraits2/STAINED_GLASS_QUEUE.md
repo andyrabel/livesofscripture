@@ -120,7 +120,7 @@ after the bump (no other reordering).
 - [x] **96** — `amaziah-3` (Amaziah); `obed` (Obed); `shobach` (Shobach); `evil-merodach` (Evil-merodach)
 - [x] **97** — `asaiah` (Asaiah); `ahio` (Ahio); `hanani-4` (Hanani); `iddo-4` (Iddo)
 - [x] **98** — `jeriah` (Jeriah); `amariah-2` (Amariah); `azariah-14` (Azariah); `joash-2` (Joash)
-- [ ] **99** — `sharezer` (Sharezer); `sheba` (Sheba); `sheshai` (Sheshai); `zacharias` (Zacharias)
+- [x] **99** — `sharezer` (Sharezer); `sheba` (Sheba); `sheshai` (Sheshai); `zacharias` (Zacharias)
 - [ ] **100** — `lysias` (Lysias); `bernice` (Bernice); `agabus` (Agabus); `ananias-3` (Ananias)
 - [ ] **101** — `joanna` (Joanna); `salome` (Salome); `eliezer` (Eliezer of Damascus); `deborah-2` (Deborah)
 - [ ] **102** — `eliashib-7` (Eliashib); `micah` (Micah); `hoham` (Hoham); `manoah` (Manoah)

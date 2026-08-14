@@ -1846,6 +1846,7 @@
     },
     "gender": "male",
     "disambiguation": "son of Raamah (Gen 10:7)",
+    "image2": "sheba.png",
     "first_reference": "Genesis 10:7",
     "era": "Primeval History",
     "timeline": {
@@ -9363,6 +9364,7 @@
       "Caleb's conquest of Hebron"
     ],
     "image": "generic-warrior.png",
+    "image2": "sheshai.png",
     "first_reference": "Numbers 13:22"
   },
   {
@@ -19654,6 +19656,7 @@
       "fulfilled prophecy"
     ],
     "image": "generic-figure.png",
+    "image2": "sharezer.png",
     "first_reference": "2 Kings 19:37"
   },
   {
@@ -50949,6 +50952,7 @@
       "praise after silence"
     ],
     "image": "generic-priest.png",
+    "image2": "zacharias.png",
     "timeline": {
       "precision": "era"
     },
