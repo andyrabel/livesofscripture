@@ -1401,7 +1401,8 @@
       "table of nations"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 5:32"
+    "first_reference": "Genesis 5:32",
+    "image2": "images/portraits2/ham.png"
   },
   {
     "person_id": "japheth",
@@ -14781,7 +14782,8 @@
     "gender": "male",
     "disambiguation": "son of Jether (2 Sam 17:25)",
     "first_reference": "2 Samuel 17:25",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/amasa.png"
   },
   {
     "person_id": "jether-2",
@@ -18073,7 +18075,8 @@
       "war with Aram"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 1:17"
+    "first_reference": "2 Kings 1:17",
+    "image2": "images/portraits2/joram-2.png"
   },
   {
     "person_id": "mesha",
@@ -18618,7 +18621,8 @@
       "war with Judah"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 13:9-25"
+    "first_reference": "2 Kings 13:9-25",
+    "image2": "images/portraits2/joash-4.png"
   },
   {
     "person_id": "jeroboam-2",
