@@ -127,7 +127,7 @@ after the bump (no other reordering).
 - [x] **103** — `debir` (Debir); `japhia` (Japhia); `piram` (Piram); `potiphar` (Potiphar)
 - [x] **104** — `abishag` (Abishag); `hananiah-10` (Hananiah); `gemariah` (Gemariah); `phicol` (Phicol)
 - [x] **105** — `ittai` (Ittai the Gittite); `shemaiah-21` (Shemaiah); `oded` (Oded); `nadab-2` (Nadab)
-- [ ] **106** — `ebed-melech` (Ebed-melech); `sheshbazzar` (Sheshbazzar); `mahlon` (Mahlon); `rizpah` (Rizpah)
+- [x] **106** — `ebed-melech` (Ebed-melech); `sheshbazzar` (Sheshbazzar); `mahlon` (Mahlon); `rizpah` (Rizpah)
 - [ ] **107** — `ethan-3` (Ethan); `conaniah` (Conaniah); `machir-2` (Machir); `harbona` (Harbona)
 - [ ] **108** — `ichabod` (Ichabod); `shamgar` (Shamgar); `shelemiah-6` (Shelemiah); `demetrius` (Demetrius)
 - [ ] **109** — `simeon-2` (Simeon); `gaius-3` (Gaius); `gallio` (Gallio); `joseph-10` (Joseph called Barsabbas)

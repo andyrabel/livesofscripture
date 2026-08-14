@@ -499,6 +499,7 @@
       "levirate redemption"
     ],
     "image": "generic-figure.png",
+    "image2": "mahlon.png",
     "first_reference": "Ruth 1:1-5",
     "tribe": "Judah"
   },
@@ -13627,6 +13628,7 @@
       "moving a king to act"
     ],
     "image": "generic-woman.png",
+    "image2": "rizpah.png",
     "timeline": {
       "precision": "era"
     },
@@ -38116,6 +38118,7 @@
       "leadership"
     ],
     "image": "generic-figure.png",
+    "image2": "sheshbazzar.png",
     "first_reference": "Ezra 1:8-11",
     "tribe": "Judah"
   },
@@ -48577,6 +48580,7 @@
       "reward for faith"
     ],
     "image": "generic-figure.png",
+    "image2": "ebed-melech.png",
     "gender": "male",
     "first_reference": "Jeremiah 38:7-12"
   },
