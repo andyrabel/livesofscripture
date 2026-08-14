@@ -404,6 +404,21 @@ def story_tabs_section(person):
   </div>"""
 
 
+_NAME_QUALIFIER_RE = re.compile(r"^(.*?)\s+of\s+.+$", re.IGNORECASE)
+
+
+def name_grouping_key(name):
+    """Base name used to group namesakes for disambiguation, stripping a
+    trailing " of <Place>" epithet (e.g. "Hiram of Tyre" -> "Hiram") so a
+    person whose canonical name bakes in that epithet still groups with a
+    bare-named namesake (e.g. Eliezer/Eliezer of Damascus, Judas/Judas of
+    Galilee, Lucius/Lucius of Cyrene) instead of the exact-name match
+    silently missing them, per the "Known gap" pattern in CLAUDE.md."""
+    stripped = name.strip()
+    m = _NAME_QUALIFIER_RE.match(stripped)
+    return m.group(1).strip() if m else stripped
+
+
 def disambiguation_section(person_name, same_name, base):
     if not same_name:
         return ""
@@ -506,12 +521,13 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
         parts.append(timeline_link(person["person_id"], base))
 
     if people_by_name:
+        group_key = name_grouping_key(person["name"])
         same_name = [
             e
-            for e in people_by_name.get(person["name"].strip().lower(), [])
+            for e in people_by_name.get(group_key.lower(), [])
             if e["person_id"] != person["person_id"]
         ]
-        disamb = disambiguation_section(person["name"], same_name, base)
+        disamb = disambiguation_section(group_key, same_name, base)
         if disamb:
             parts.append(disamb)
 
@@ -560,12 +576,13 @@ def render_stub_person_body(person, index_by_id, gender_by_id, connections, base
     parts.append(connections_graph_link(person["person_id"], base))
 
     if people_by_name:
+        group_key = name_grouping_key(person["name"])
         same_name = [
             e
-            for e in people_by_name.get(person["name"].strip().lower(), [])
+            for e in people_by_name.get(group_key.lower(), [])
             if e["person_id"] != person["person_id"]
         ]
-        disamb = disambiguation_section(person["name"], same_name, base)
+        disamb = disambiguation_section(group_key, same_name, base)
         if disamb:
             parts.append(disamb)
 
@@ -3407,13 +3424,17 @@ def build_sitemap(index, churches):
 
 
 def build_people_by_name(index):
-    """Every person (full or stub) grouped by exact name match, so a
-    person's page can point to other entries sharing their name (e.g. the
-    several Jehoshaphats, Jehus, and Zechariahs in the underlying genealogy
-    dataset -- or a full/stub pair like Mordecai/Mordecai the Ezra 2:2
-    returnee) instead of leaving the reader to guess which one is meant.
-    Stub entries carry no source_summary/portrait, so their card falls back
-    to a reference-based blurb and a "name only" badge (see
+    """Every person (full or stub) grouped by name match, so a person's page
+    can point to other entries sharing their name (e.g. the several
+    Jehoshaphats, Jehus, and Zechariahs in the underlying genealogy dataset
+    -- or a full/stub pair like Mordecai/Mordecai the Ezra 2:2 returnee)
+    instead of leaving the reader to guess which one is meant. Grouping uses
+    name_grouping_key rather than the raw name, so a bare name (e.g.
+    "Hiram") still groups with a namesake whose canonical name bakes in a
+    trailing " of <Place>" epithet (e.g. "Hiram of Tyre", "Eliezer of
+    Damascus", "Judas of Galilee", "Lucius of Cyrene"). Stub entries carry
+    no source_summary/portrait, so their card falls back to a
+    reference-based blurb and a "name only" badge (see
     disambiguation_section)."""
     by_name = {}
     for entry in index:
@@ -3423,7 +3444,7 @@ def build_people_by_name(index):
             continue
         fp = json.loads(person_path.read_text())
         portrait_dir, portrait_file = resolve_portrait_file(fp)
-        by_name.setdefault(fp["name"].strip().lower(), []).append({
+        by_name.setdefault(name_grouping_key(fp["name"]).lower(), []).append({
             "person_id": pid,
             "name": fp["name"],
             "tier": entry["tier"],
