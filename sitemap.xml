@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://livesofscripture.org/</loc>
     <changefreq>weekly</changefreq>
@@ -74,11 +74,19 @@
     <loc>https://livesofscripture.org/people/aaron.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/aaron-full.jpg</image:loc>
+      <image:caption>Aaron — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abraham.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abraham-full.jpg</image:loc>
+      <image:caption>Abraham — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/amram.html</loc>
@@ -89,16 +97,28 @@
     <loc>https://livesofscripture.org/people/bathsheba.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bathsheba-full.jpg</image:loc>
+      <image:caption>Bathsheba — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/boaz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/boaz-full.jpg</image:loc>
+      <image:caption>Boaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/david.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/david-full.jpg</image:loc>
+      <image:caption>David — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elimelech.html</loc>
@@ -114,81 +134,145 @@
     <loc>https://livesofscripture.org/people/hagar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hagar-full.jpg</image:loc>
+      <image:caption>Hagar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/isaac.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/isaac-full.jpg</image:loc>
+      <image:caption>Isaac — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ishmael.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ishmael-full.jpg</image:loc>
+      <image:caption>Ishmael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jesse.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jesse-full.jpg</image:loc>
+      <image:caption>Jesse — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jochebed.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jochebed-full.jpg</image:loc>
+      <image:caption>Jochebed — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonathan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jonathan-full.jpg</image:loc>
+      <image:caption>Jonathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mahlon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mahlon-full.jpg</image:loc>
+      <image:caption>Mahlon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/moses.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/moses-full.jpg</image:loc>
+      <image:caption>Moses — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/naomi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/naomi-full.jpg</image:loc>
+      <image:caption>Naomi — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/obed.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/obed-full.jpg</image:loc>
+      <image:caption>Obed — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/paul.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/paul-full.jpg</image:loc>
+      <image:caption>Paul — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/peter.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/peter-full.jpg</image:loc>
+      <image:caption>Peter — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ruth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ruth-full.jpg</image:loc>
+      <image:caption>Ruth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/samuel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/samuel-full.jpg</image:loc>
+      <image:caption>Samuel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/sarah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sarah-full.jpg</image:loc>
+      <image:caption>Sarah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/solomon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/solomon-full.jpg</image:loc>
+      <image:caption>Solomon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/terah.html</loc>
@@ -199,21 +283,37 @@
     <loc>https://livesofscripture.org/people/zipporah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zipporah-full.jpg</image:loc>
+      <image:caption>Zipporah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/adam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/adam-full.jpg</image:loc>
+      <image:caption>Adam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eve.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eve-full.jpg</image:loc>
+      <image:caption>Eve — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cain.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/cain-full.jpg</image:loc>
+      <image:caption>Cain — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/enoch-son-of-cain.html</loc>
@@ -224,11 +324,19 @@
     <loc>https://livesofscripture.org/people/abel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abel-full.jpg</image:loc>
+      <image:caption>Abel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/enoch.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/enoch-full.jpg</image:loc>
+      <image:caption>Enoch — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/irad.html</loc>
@@ -309,6 +417,10 @@
     <loc>https://livesofscripture.org/people/methuselah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/methuselah-full.jpg</image:loc>
+      <image:caption>Methuselah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lamech-2.html</loc>
@@ -319,26 +431,46 @@
     <loc>https://livesofscripture.org/people/noah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/noah-full.jpg</image:loc>
+      <image:caption>Noah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shem.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shem-full.jpg</image:loc>
+      <image:caption>Shem — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ham.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ham-full.jpg</image:loc>
+      <image:caption>Ham — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/japheth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/japheth-full.jpg</image:loc>
+      <image:caption>Japheth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/canaan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/canaan-full.jpg</image:loc>
+      <image:caption>Canaan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gomer.html</loc>
@@ -454,6 +586,10 @@
     <loc>https://livesofscripture.org/people/sheba.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sheba-full.jpg</image:loc>
+      <image:caption>Sheba — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/dedan.html</loc>
@@ -464,6 +600,10 @@
     <loc>https://livesofscripture.org/people/nimrod.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nimrod-full.jpg</image:loc>
+      <image:caption>Nimrod — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lud.html</loc>
@@ -714,6 +854,10 @@
     <loc>https://livesofscripture.org/people/lot.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lot-full.jpg</image:loc>
+      <image:caption>Lot — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/milcah.html</loc>
@@ -789,31 +933,55 @@
     <loc>https://livesofscripture.org/people/melchizedek.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/melchizedek-full.jpg</image:loc>
+      <image:caption>Melchizedek — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliezer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eliezer-full.jpg</image:loc>
+      <image:caption>Eliezer of Damascus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/moab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/moab-full.jpg</image:loc>
+      <image:caption>Moab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ammon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ammon-full.jpg</image:loc>
+      <image:caption>Ammon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abimelech.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abimelech-full.jpg</image:loc>
+      <image:caption>Abimelech — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/phicol.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/phicol-full.jpg</image:loc>
+      <image:caption>Phicol — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/uz-2.html</loc>
@@ -859,11 +1027,19 @@
     <loc>https://livesofscripture.org/people/bethuel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bethuel-full.jpg</image:loc>
+      <image:caption>Bethuel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rebekah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rebekah-full.jpg</image:loc>
+      <image:caption>Rebekah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/reumah.html</loc>
@@ -899,11 +1075,19 @@
     <loc>https://livesofscripture.org/people/ephron.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ephron-full.jpg</image:loc>
+      <image:caption>Ephron — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/laban.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/laban-full.jpg</image:loc>
+      <image:caption>Laban — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/keturah.html</loc>
@@ -1054,11 +1238,19 @@
     <loc>https://livesofscripture.org/people/esau.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/esau-full.jpg</image:loc>
+      <image:caption>Esau — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/israel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/israel-full.jpg</image:loc>
+      <image:caption>Israel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahuzzath.html</loc>
@@ -1074,6 +1266,10 @@
     <loc>https://livesofscripture.org/people/anah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/anah-full.jpg</image:loc>
+      <image:caption>Anah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/basemath.html</loc>
@@ -1094,66 +1290,118 @@
     <loc>https://livesofscripture.org/people/rachel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rachel-full.jpg</image:loc>
+      <image:caption>Rachel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/leah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/leah-full.jpg</image:loc>
+      <image:caption>Leah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zilpah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zilpah-full.jpg</image:loc>
+      <image:caption>Zilpah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bilhah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bilhah-full.jpg</image:loc>
+      <image:caption>Bilhah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/reuben.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/reuben-full.jpg</image:loc>
+      <image:caption>Reuben — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simeon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simeon-full.jpg</image:loc>
+      <image:caption>Simeon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/levi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/levi-full.jpg</image:loc>
+      <image:caption>Levi — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/judah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/judah-full.jpg</image:loc>
+      <image:caption>Judah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/dan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/dan-full.jpg</image:loc>
+      <image:caption>Dan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/naphtali.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/naphtali-full.jpg</image:loc>
+      <image:caption>Naphtali — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gad.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gad-full.jpg</image:loc>
+      <image:caption>Gad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asher.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asher-full.jpg</image:loc>
+      <image:caption>Asher — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/issachar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/issachar-full.jpg</image:loc>
+      <image:caption>Issachar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zebulun.html</loc>
@@ -1164,11 +1412,19 @@
     <loc>https://livesofscripture.org/people/dinah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/dinah-full.jpg</image:loc>
+      <image:caption>Dinah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joseph.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joseph-full.jpg</image:loc>
+      <image:caption>Joseph — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hamor.html</loc>
@@ -1189,6 +1445,10 @@
     <loc>https://livesofscripture.org/people/benjamin.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/benjamin-full.jpg</image:loc>
+      <image:caption>Benjamin — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zibeon.html</loc>
@@ -1534,11 +1794,19 @@
     <loc>https://livesofscripture.org/people/potiphar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/potiphar-full.jpg</image:loc>
+      <image:caption>Potiphar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/pharaoh-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-2-full.jpg</image:loc>
+      <image:caption>Pharaoh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hirah.html</loc>
@@ -1554,26 +1822,46 @@
     <loc>https://livesofscripture.org/people/er.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/er-full.jpg</image:loc>
+      <image:caption>Er — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/onan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/onan-full.jpg</image:loc>
+      <image:caption>Onan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shelah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shelah-2-full.jpg</image:loc>
+      <image:caption>Shelah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tamar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tamar-full.jpg</image:loc>
+      <image:caption>Tamar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/perez.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/perez-full.jpg</image:loc>
+      <image:caption>Perez — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zerah-3.html</loc>
@@ -1584,6 +1872,10 @@
     <loc>https://livesofscripture.org/people/asenath.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asenath-full.jpg</image:loc>
+      <image:caption>Asenath — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/potiphera.html</loc>
@@ -1594,11 +1886,19 @@
     <loc>https://livesofscripture.org/people/manasseh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/manasseh-full.jpg</image:loc>
+      <image:caption>Manasseh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ephraim.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ephraim-full.jpg</image:loc>
+      <image:caption>Ephraim — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hanoch-2.html</loc>
@@ -1679,6 +1979,10 @@
     <loc>https://livesofscripture.org/people/tola.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tola-full.jpg</image:loc>
+      <image:caption>Tola — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/puvvah.html</loc>
@@ -1804,6 +2108,10 @@
     <loc>https://livesofscripture.org/people/naaman.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/naaman-full.jpg</image:loc>
+      <image:caption>Naaman — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ehi.html</loc>
@@ -1859,11 +2167,19 @@
     <loc>https://livesofscripture.org/people/machir.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/machir-full.jpg</image:loc>
+      <image:caption>Machir — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/pharaoh-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-3-full.jpg</image:loc>
+      <image:caption>Pharaoh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shiphrah.html</loc>
@@ -1879,11 +2195,19 @@
     <loc>https://livesofscripture.org/people/jethro.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jethro-full.jpg</image:loc>
+      <image:caption>Jethro — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/pharaoh-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-4-full.jpg</image:loc>
+      <image:caption>Pharaoh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/libni.html</loc>
@@ -1924,6 +2248,10 @@
     <loc>https://livesofscripture.org/people/korah-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/korah-3-full.jpg</image:loc>
+      <image:caption>Korah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nepheg.html</loc>
@@ -1944,6 +2272,10 @@
     <loc>https://livesofscripture.org/people/elzaphan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elzaphan-full.jpg</image:loc>
+      <image:caption>Elzaphan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/sithri.html</loc>
@@ -1964,26 +2296,46 @@
     <loc>https://livesofscripture.org/people/nahshon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nahshon-full.jpg</image:loc>
+      <image:caption>Nahshon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nadab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nadab-full.jpg</image:loc>
+      <image:caption>Nadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abihu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abihu-full.jpg</image:loc>
+      <image:caption>Abihu — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eleazar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eleazar-full.jpg</image:loc>
+      <image:caption>Eleazar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ithamar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ithamar-full.jpg</image:loc>
+      <image:caption>Ithamar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/assir.html</loc>
@@ -2009,21 +2361,37 @@
     <loc>https://livesofscripture.org/people/phinehas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/phinehas-full.jpg</image:loc>
+      <image:caption>Phinehas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/miriam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/miriam-full.jpg</image:loc>
+      <image:caption>Miriam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joshua.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joshua-full.jpg</image:loc>
+      <image:caption>Joshua — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hur.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hur-full.jpg</image:loc>
+      <image:caption>Hur — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliezer-2.html</loc>
@@ -2034,6 +2402,10 @@
     <loc>https://livesofscripture.org/people/bezalel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bezalel-full.jpg</image:loc>
+      <image:caption>Bezalel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/uri.html</loc>
@@ -2044,6 +2416,10 @@
     <loc>https://livesofscripture.org/people/oholiab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/oholiab-full.jpg</image:loc>
+      <image:caption>Oholiab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahisamach.html</loc>
@@ -2234,6 +2610,10 @@
     <loc>https://livesofscripture.org/people/caleb.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/caleb-full.jpg</image:loc>
+      <image:caption>Caleb — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jephunneh.html</loc>
@@ -2329,6 +2709,10 @@
     <loc>https://livesofscripture.org/people/sheshai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sheshai-full.jpg</image:loc>
+      <image:caption>Sheshai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/talmai.html</loc>
@@ -2344,11 +2728,19 @@
     <loc>https://livesofscripture.org/people/dathan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/dathan-full.jpg</image:loc>
+      <image:caption>Dathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abiram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abiram-full.jpg</image:loc>
+      <image:caption>Abiram — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliab-2.html</loc>
@@ -2369,16 +2761,28 @@
     <loc>https://livesofscripture.org/people/sihon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sihon-full.jpg</image:loc>
+      <image:caption>Sihon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/og.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/og-full.jpg</image:loc>
+      <image:caption>Og — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/balak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/balak-full.jpg</image:loc>
+      <image:caption>Balak — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zippor.html</loc>
@@ -2389,6 +2793,10 @@
     <loc>https://livesofscripture.org/people/balaam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/balaam-full.jpg</image:loc>
+      <image:caption>Balaam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/beor-2.html</loc>
@@ -2464,31 +2872,55 @@
     <loc>https://livesofscripture.org/people/zelophehad.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zelophehad-full.jpg</image:loc>
+      <image:caption>Zelophehad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mahlah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mahlah-full.jpg</image:loc>
+      <image:caption>Mahlah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/noah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/noah-2-full.jpg</image:loc>
+      <image:caption>Noah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hoglah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hoglah-full.jpg</image:loc>
+      <image:caption>Hoglah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/milcah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/milcah-2-full.jpg</image:loc>
+      <image:caption>Milcah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tirzah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tirzah-full.jpg</image:loc>
+      <image:caption>Tirzah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shuthelah.html</loc>
@@ -2539,6 +2971,10 @@
     <loc>https://livesofscripture.org/people/jair.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jair-full.jpg</image:loc>
+      <image:caption>Jair — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nobah.html</loc>
@@ -2639,11 +3075,19 @@
     <loc>https://livesofscripture.org/people/rahab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rahab-full.jpg</image:loc>
+      <image:caption>Rahab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/achan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/achan-full.jpg</image:loc>
+      <image:caption>Achan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/carmi-2.html</loc>
@@ -2659,26 +3103,46 @@
     <loc>https://livesofscripture.org/people/adoni-zedek.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/adoni-zedek-full.jpg</image:loc>
+      <image:caption>Adoni-zedek — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hoham.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hoham-full.jpg</image:loc>
+      <image:caption>Hoham — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/piram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/piram-full.jpg</image:loc>
+      <image:caption>Piram — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/japhia.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/japhia-full.jpg</image:loc>
+      <image:caption>Japhia — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/debir.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/debir-full.jpg</image:loc>
+      <image:caption>Debir — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jashar.html</loc>
@@ -2694,6 +3158,10 @@
     <loc>https://livesofscripture.org/people/jabin.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jabin-full.jpg</image:loc>
+      <image:caption>Jabin — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jobab-3.html</loc>
@@ -2714,11 +3182,19 @@
     <loc>https://livesofscripture.org/people/achsah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/achsah-full.jpg</image:loc>
+      <image:caption>Achsah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/othniel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/othniel-full.jpg</image:loc>
+      <image:caption>Othniel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/kenaz-2.html</loc>
@@ -2744,6 +3220,10 @@
     <loc>https://livesofscripture.org/people/ehud.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ehud-full.jpg</image:loc>
+      <image:caption>Ehud — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gera-2.html</loc>
@@ -2754,6 +3234,10 @@
     <loc>https://livesofscripture.org/people/shamgar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shamgar-full.jpg</image:loc>
+      <image:caption>Shamgar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/anath.html</loc>
@@ -2764,11 +3248,19 @@
     <loc>https://livesofscripture.org/people/sisera.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sisera-full.jpg</image:loc>
+      <image:caption>Sisera — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/deborah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/deborah-2-full.jpg</image:loc>
+      <image:caption>Deborah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lappidoth.html</loc>
@@ -2779,6 +3271,10 @@
     <loc>https://livesofscripture.org/people/barak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/barak-full.jpg</image:loc>
+      <image:caption>Barak — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abinoam.html</loc>
@@ -2794,16 +3290,28 @@
     <loc>https://livesofscripture.org/people/jael.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jael-full.jpg</image:loc>
+      <image:caption>Jael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joash.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joash-full.jpg</image:loc>
+      <image:caption>Joash — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gideon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gideon-full.jpg</image:loc>
+      <image:caption>Gideon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/purah.html</loc>
@@ -2814,6 +3322,10 @@
     <loc>https://livesofscripture.org/people/oreb.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/oreb-full.jpg</image:loc>
+      <image:caption>Oreb — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zeeb.html</loc>
@@ -2824,11 +3336,19 @@
     <loc>https://livesofscripture.org/people/zebah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zebah-full.jpg</image:loc>
+      <image:caption>Zebah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zalmunna.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zalmunna-full.jpg</image:loc>
+      <image:caption>Zalmunna — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jether.html</loc>
@@ -2839,11 +3359,19 @@
     <loc>https://livesofscripture.org/people/abimelech-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abimelech-2-full.jpg</image:loc>
+      <image:caption>Abimelech — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jotham.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jotham-full.jpg</image:loc>
+      <image:caption>Jotham — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gaal.html</loc>
@@ -2884,6 +3412,10 @@
     <loc>https://livesofscripture.org/people/jephthah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jephthah-full.jpg</image:loc>
+      <image:caption>Jephthah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gilead-2.html</loc>
@@ -2914,21 +3446,37 @@
     <loc>https://livesofscripture.org/people/manoah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/manoah-full.jpg</image:loc>
+      <image:caption>Manoah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/samson.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/samson-full.jpg</image:loc>
+      <image:caption>Samson — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/delilah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/delilah-full.jpg</image:loc>
+      <image:caption>Delilah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/micah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/micah-full.jpg</image:loc>
+      <image:caption>Micah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonathan-2.html</loc>
@@ -2969,6 +3517,10 @@
     <loc>https://livesofscripture.org/people/elkanah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elkanah-2-full.jpg</image:loc>
+      <image:caption>Elkanah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jeroham.html</loc>
@@ -2979,6 +3531,10 @@
     <loc>https://livesofscripture.org/people/elihu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elihu-full.jpg</image:loc>
+      <image:caption>Elihu — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tohu.html</loc>
@@ -2994,6 +3550,10 @@
     <loc>https://livesofscripture.org/people/hannah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hannah-full.jpg</image:loc>
+      <image:caption>Hannah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/peninnah.html</loc>
@@ -3004,21 +3564,37 @@
     <loc>https://livesofscripture.org/people/eli.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eli-full.jpg</image:loc>
+      <image:caption>Eli — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hophni.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hophni-full.jpg</image:loc>
+      <image:caption>Hophni — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/phinehas-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/phinehas-2-full.jpg</image:loc>
+      <image:caption>Phinehas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ichabod.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ichabod-full.jpg</image:loc>
+      <image:caption>Ichabod — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joshua-2.html</loc>
@@ -3029,6 +3605,10 @@
     <loc>https://livesofscripture.org/people/abinadab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abinadab-full.jpg</image:loc>
+      <image:caption>Abinadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eleazar-2.html</loc>
@@ -3039,16 +3619,28 @@
     <loc>https://livesofscripture.org/people/joel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joel-full.jpg</image:loc>
+      <image:caption>Joel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abijah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abijah-full.jpg</image:loc>
+      <image:caption>Abijah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/kish.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/kish-full.jpg</image:loc>
+      <image:caption>Kish — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abiel.html</loc>
@@ -3074,16 +3666,28 @@
     <loc>https://livesofscripture.org/people/saul.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/saul-full.jpg</image:loc>
+      <image:caption>Saul — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nahash.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nahash-full.jpg</image:loc>
+      <image:caption>Nahash — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahijah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahijah-full.jpg</image:loc>
+      <image:caption>Ahijah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahitub.html</loc>
@@ -3094,6 +3698,10 @@
     <loc>https://livesofscripture.org/people/abinadab-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abinadab-2-full.jpg</image:loc>
+      <image:caption>Abinadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/malchi-shua.html</loc>
@@ -3104,11 +3712,19 @@
     <loc>https://livesofscripture.org/people/merab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/merab-full.jpg</image:loc>
+      <image:caption>Merab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/michal.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/michal-full.jpg</image:loc>
+      <image:caption>Michal — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahinoam.html</loc>
@@ -3124,6 +3740,10 @@
     <loc>https://livesofscripture.org/people/abner.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abner-full.jpg</image:loc>
+      <image:caption>Abner — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ner.html</loc>
@@ -3139,21 +3759,37 @@
     <loc>https://livesofscripture.org/people/eliab-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eliab-3-full.jpg</image:loc>
+      <image:caption>Eliab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abinadab-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abinadab-3-full.jpg</image:loc>
+      <image:caption>Abinadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shimeah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shimeah-full.jpg</image:loc>
+      <image:caption>Shimeah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/goliath.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/goliath-full.jpg</image:loc>
+      <image:caption>Goliath — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/adriel.html</loc>
@@ -3164,41 +3800,73 @@
     <loc>https://livesofscripture.org/people/ahimelech.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahimelech-full.jpg</image:loc>
+      <image:caption>Ahimelech — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/doeg.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/doeg-full.jpg</image:loc>
+      <image:caption>Doeg — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/achish.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/achish-full.jpg</image:loc>
+      <image:caption>Achish — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gad-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gad-2-full.jpg</image:loc>
+      <image:caption>Gad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abiathar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abiathar-full.jpg</image:loc>
+      <image:caption>Abiathar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nabal.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nabal-full.jpg</image:loc>
+      <image:caption>Nabal — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abigail.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abigail-full.jpg</image:loc>
+      <image:caption>Abigail — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahinoam-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahinoam-2-full.jpg</image:loc>
+      <image:caption>Ahinoam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/palti-2.html</loc>
@@ -3219,6 +3887,10 @@
     <loc>https://livesofscripture.org/people/abishai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abishai-full.jpg</image:loc>
+      <image:caption>Abishai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zeruiah.html</loc>
@@ -3229,6 +3901,10 @@
     <loc>https://livesofscripture.org/people/joab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joab-full.jpg</image:loc>
+      <image:caption>Joab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/maoch.html</loc>
@@ -3239,16 +3915,28 @@
     <loc>https://livesofscripture.org/people/ish-bosheth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ish-bosheth-full.jpg</image:loc>
+      <image:caption>Ish-bosheth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asahel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asahel-full.jpg</image:loc>
+      <image:caption>Asahel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/amnon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amnon-full.jpg</image:loc>
+      <image:caption>Amnon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/chileab.html</loc>
@@ -3259,6 +3947,10 @@
     <loc>https://livesofscripture.org/people/absalom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/absalom-full.jpg</image:loc>
+      <image:caption>Absalom — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/maacah-2.html</loc>
@@ -3274,6 +3966,10 @@
     <loc>https://livesofscripture.org/people/adonijah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/adonijah-full.jpg</image:loc>
+      <image:caption>Adonijah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/haggith.html</loc>
@@ -3304,6 +4000,10 @@
     <loc>https://livesofscripture.org/people/rizpah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rizpah-full.jpg</image:loc>
+      <image:caption>Rizpah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/aiah-2.html</loc>
@@ -3329,11 +4029,19 @@
     <loc>https://livesofscripture.org/people/mephibosheth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mephibosheth-full.jpg</image:loc>
+      <image:caption>Mephibosheth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hiram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hiram-full.jpg</image:loc>
+      <image:caption>Hiram of Tyre — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shammua-2.html</loc>
@@ -3394,21 +4102,37 @@
     <loc>https://livesofscripture.org/people/ahio.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahio-full.jpg</image:loc>
+      <image:caption>Ahio — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/obed-edom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/obed-edom-full.jpg</image:loc>
+      <image:caption>Obed-edom — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nathan-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nathan-2-full.jpg</image:loc>
+      <image:caption>Nathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hadadezer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hadadezer-full.jpg</image:loc>
+      <image:caption>Hadadezer — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rehob.html</loc>
@@ -3439,6 +4163,10 @@
     <loc>https://livesofscripture.org/people/zadok.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zadok-full.jpg</image:loc>
+      <image:caption>Zadok — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahitub-2.html</loc>
@@ -3459,21 +4187,37 @@
     <loc>https://livesofscripture.org/people/benaiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/benaiah-full.jpg</image:loc>
+      <image:caption>Benaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoiada.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoiada-full.jpg</image:loc>
+      <image:caption>Jehoiada — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ziba.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ziba-full.jpg</image:loc>
+      <image:caption>Ziba — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/machir-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/machir-2-full.jpg</image:loc>
+      <image:caption>Machir — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ammiel-2.html</loc>
@@ -3489,11 +4233,19 @@
     <loc>https://livesofscripture.org/people/hanun.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hanun-full.jpg</image:loc>
+      <image:caption>Hanun — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shobach.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shobach-full.jpg</image:loc>
+      <image:caption>Shobach — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliam.html</loc>
@@ -3504,6 +4256,10 @@
     <loc>https://livesofscripture.org/people/uriah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/uriah-full.jpg</image:loc>
+      <image:caption>Uriah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abimelech-3.html</loc>
@@ -3519,6 +4275,10 @@
     <loc>https://livesofscripture.org/people/tamar-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tamar-2-full.jpg</image:loc>
+      <image:caption>Tamar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonadab.html</loc>
@@ -3539,31 +4299,55 @@
     <loc>https://livesofscripture.org/people/ahithophel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahithophel-full.jpg</image:loc>
+      <image:caption>Ahithophel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ittai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ittai-full.jpg</image:loc>
+      <image:caption>Ittai the Gittite — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahimaaz-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahimaaz-2-full.jpg</image:loc>
+      <image:caption>Ahimaaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonathan-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jonathan-3-full.jpg</image:loc>
+      <image:caption>Jonathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hushai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hushai-full.jpg</image:loc>
+      <image:caption>Hushai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shimei-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shimei-2-full.jpg</image:loc>
+      <image:caption>Shimei — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gera-3.html</loc>
@@ -3574,6 +4358,10 @@
     <loc>https://livesofscripture.org/people/amasa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amasa-full.jpg</image:loc>
+      <image:caption>Amasa — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jether-2.html</loc>
@@ -3599,6 +4387,10 @@
     <loc>https://livesofscripture.org/people/barzillai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/barzillai-full.jpg</image:loc>
+      <image:caption>Barzillai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/chimham.html</loc>
@@ -3619,6 +4411,10 @@
     <loc>https://livesofscripture.org/people/adoram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/adoram-full.jpg</image:loc>
+      <image:caption>Adoram — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/sheva.html</loc>
@@ -3659,6 +4455,10 @@
     <loc>https://livesofscripture.org/people/sibbecai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sibbecai-full.jpg</image:loc>
+      <image:caption>Sibbecai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/saph.html</loc>
@@ -3669,6 +4469,10 @@
     <loc>https://livesofscripture.org/people/elhanan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elhanan-full.jpg</image:loc>
+      <image:caption>Elhanan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/dodo-2.html</loc>
@@ -3679,11 +4483,19 @@
     <loc>https://livesofscripture.org/people/jonathan-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jonathan-4-full.jpg</image:loc>
+      <image:caption>Jonathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jashobeam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jashobeam-full.jpg</image:loc>
+      <image:caption>Jashobeam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eleazar-3.html</loc>
@@ -3879,11 +4691,19 @@
     <loc>https://livesofscripture.org/people/ornan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ornan-full.jpg</image:loc>
+      <image:caption>Araunah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abishag.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abishag-full.jpg</image:loc>
+      <image:caption>Abishag — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rei.html</loc>
@@ -3894,11 +4714,19 @@
     <loc>https://livesofscripture.org/people/shishak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shishak-full.jpg</image:loc>
+      <image:caption>Shishak — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/azariah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/azariah-full.jpg</image:loc>
+      <image:caption>Azariah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elihoreph.html</loc>
@@ -4054,6 +4882,10 @@
     <loc>https://livesofscripture.org/people/ethan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ethan-full.jpg</image:loc>
+      <image:caption>Ethan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/heman.html</loc>
@@ -4079,6 +4911,10 @@
     <loc>https://livesofscripture.org/people/queen-of-sheba.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/queen-of-sheba-full.jpg</image:loc>
+      <image:caption>Queen of Sheba — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hadad-4.html</loc>
@@ -4109,6 +4945,10 @@
     <loc>https://livesofscripture.org/people/jeroboam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeroboam-full.jpg</image:loc>
+      <image:caption>Jeroboam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nebat.html</loc>
@@ -4124,16 +4964,28 @@
     <loc>https://livesofscripture.org/people/rehoboam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rehoboam-full.jpg</image:loc>
+      <image:caption>Rehoboam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shemaiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shemaiah-full.jpg</image:loc>
+      <image:caption>Shemaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/josiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/josiah-full.jpg</image:loc>
+      <image:caption>Josiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abijah-2.html</loc>
@@ -4144,6 +4996,10 @@
     <loc>https://livesofscripture.org/people/nadab-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nadab-2-full.jpg</image:loc>
+      <image:caption>Nadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/naamah-2.html</loc>
@@ -4159,11 +5015,19 @@
     <loc>https://livesofscripture.org/people/abijah-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abijah-3-full.jpg</image:loc>
+      <image:caption>Abijah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/maacah-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/maacah-3-full.jpg</image:loc>
+      <image:caption>Maacah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abishalom.html</loc>
@@ -4174,16 +5038,28 @@
     <loc>https://livesofscripture.org/people/asa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asa-full.jpg</image:loc>
+      <image:caption>Asa — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/baasha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/baasha-full.jpg</image:loc>
+      <image:caption>Baasha — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ben-hadad.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ben-hadad-full.jpg</image:loc>
+      <image:caption>Ben-hadad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tabrimmon.html</loc>
@@ -4199,6 +5075,10 @@
     <loc>https://livesofscripture.org/people/jehoshaphat-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoshaphat-3-full.jpg</image:loc>
+      <image:caption>Jehoshaphat — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahijah-3.html</loc>
@@ -4209,11 +5089,19 @@
     <loc>https://livesofscripture.org/people/jehu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehu-full.jpg</image:loc>
+      <image:caption>Jehu — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hanani.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hanani-full.jpg</image:loc>
+      <image:caption>Hanani — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elah-2.html</loc>
@@ -4234,6 +5122,10 @@
     <loc>https://livesofscripture.org/people/omri.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/omri-full.jpg</image:loc>
+      <image:caption>Omri — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tibni.html</loc>
@@ -4254,11 +5146,19 @@
     <loc>https://livesofscripture.org/people/ahab.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahab-full.jpg</image:loc>
+      <image:caption>Ahab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jezebel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jezebel-full.jpg</image:loc>
+      <image:caption>Jezebel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ethbaal.html</loc>
@@ -4284,6 +5184,10 @@
     <loc>https://livesofscripture.org/people/elijah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elijah-full.jpg</image:loc>
+      <image:caption>Elijah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/obadiah.html</loc>
@@ -4294,11 +5198,19 @@
     <loc>https://livesofscripture.org/people/hazael.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hazael-full.jpg</image:loc>
+      <image:caption>Hazael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehu-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehu-2-full.jpg</image:loc>
+      <image:caption>Jehu — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nimshi.html</loc>
@@ -4309,6 +5221,10 @@
     <loc>https://livesofscripture.org/people/elisha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elisha-full.jpg</image:loc>
+      <image:caption>Elisha — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shaphat-2.html</loc>
@@ -4319,11 +5235,19 @@
     <loc>https://livesofscripture.org/people/naboth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/naboth-full.jpg</image:loc>
+      <image:caption>Naboth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/micaiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/micaiah-full.jpg</image:loc>
+      <image:caption>Micaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/imlah.html</loc>
@@ -4334,6 +5258,10 @@
     <loc>https://livesofscripture.org/people/zedekiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zedekiah-full.jpg</image:loc>
+      <image:caption>Zedekiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/chenaanah.html</loc>
@@ -4349,11 +5277,19 @@
     <loc>https://livesofscripture.org/people/joash-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joash-2-full.jpg</image:loc>
+      <image:caption>Joash — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahaziah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahaziah-full.jpg</image:loc>
+      <image:caption>Ahaziah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/azubah.html</loc>
@@ -4369,11 +5305,19 @@
     <loc>https://livesofscripture.org/people/jehoram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoram-full.jpg</image:loc>
+      <image:caption>Jehoram — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joram-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joram-2-full.jpg</image:loc>
+      <image:caption>Joram — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mesha.html</loc>
@@ -4384,21 +5328,37 @@
     <loc>https://livesofscripture.org/people/gehazi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gehazi-full.jpg</image:loc>
+      <image:caption>Gehazi — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/naaman-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/naaman-2-full.jpg</image:loc>
+      <image:caption>Naaman — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahaziah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahaziah-2-full.jpg</image:loc>
+      <image:caption>Ahaziah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/athaliah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/athaliah-full.jpg</image:loc>
+      <image:caption>Athaliah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoshaphat-4.html</loc>
@@ -4414,6 +5374,10 @@
     <loc>https://livesofscripture.org/people/jonadab-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jonadab-2-full.jpg</image:loc>
+      <image:caption>Jonadab — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rechab-2.html</loc>
@@ -4424,6 +5388,10 @@
     <loc>https://livesofscripture.org/people/jehoahaz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoahaz-full.jpg</image:loc>
+      <image:caption>Jehoahaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehosheba.html</loc>
@@ -4434,11 +5402,19 @@
     <loc>https://livesofscripture.org/people/joash-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joash-3-full.jpg</image:loc>
+      <image:caption>Joash — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoiada-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoiada-2-full.jpg</image:loc>
+      <image:caption>Jehoiada — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mattan.html</loc>
@@ -4474,21 +5450,37 @@
     <loc>https://livesofscripture.org/people/amaziah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amaziah-full.jpg</image:loc>
+      <image:caption>Amaziah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ben-hadad-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ben-hadad-2-full.jpg</image:loc>
+      <image:caption>Ben-hadad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joash-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joash-4-full.jpg</image:loc>
+      <image:caption>Joash — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jeroboam-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeroboam-2-full.jpg</image:loc>
+      <image:caption>Jeroboam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoaddin.html</loc>
@@ -4499,11 +5491,19 @@
     <loc>https://livesofscripture.org/people/uzziah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/uzziah-full.jpg</image:loc>
+      <image:caption>Uzziah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jonah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jonah-full.jpg</image:loc>
+      <image:caption>Jonah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/amittai.html</loc>
@@ -4524,6 +5524,10 @@
     <loc>https://livesofscripture.org/people/jotham-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jotham-2-full.jpg</image:loc>
+      <image:caption>Jotham — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shallum.html</loc>
@@ -4554,6 +5558,10 @@
     <loc>https://livesofscripture.org/people/pekah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pekah-full.jpg</image:loc>
+      <image:caption>Pekah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/remaliah.html</loc>
@@ -4574,11 +5582,19 @@
     <loc>https://livesofscripture.org/people/tiglath-pileser.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tiglath-pileser-full.jpg</image:loc>
+      <image:caption>Tiglath-pileser — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hoshea.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hoshea-full.jpg</image:loc>
+      <image:caption>Hoshea — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elah-3.html</loc>
@@ -4599,11 +5615,19 @@
     <loc>https://livesofscripture.org/people/rezin.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rezin-full.jpg</image:loc>
+      <image:caption>Rezin — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahaz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahaz-full.jpg</image:loc>
+      <image:caption>Ahaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/urijah.html</loc>
@@ -4614,11 +5638,19 @@
     <loc>https://livesofscripture.org/people/hezekiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hezekiah-full.jpg</image:loc>
+      <image:caption>Hezekiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shalmaneser.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shalmaneser-full.jpg</image:loc>
+      <image:caption>Shalmaneser — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/so.html</loc>
@@ -4639,6 +5671,10 @@
     <loc>https://livesofscripture.org/people/sennacherib.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sennacherib-full.jpg</image:loc>
+      <image:caption>Sennacherib — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tartan.html</loc>
@@ -4654,11 +5690,19 @@
     <loc>https://livesofscripture.org/people/rabshakeh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rabshakeh-full.jpg</image:loc>
+      <image:caption>Rabshakeh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliakim.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eliakim-full.jpg</image:loc>
+      <image:caption>Eliakim — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hilkiah.html</loc>
@@ -4669,11 +5713,19 @@
     <loc>https://livesofscripture.org/people/shebna.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shebna-full.jpg</image:loc>
+      <image:caption>Shebna — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joah-full.jpg</image:loc>
+      <image:caption>Joah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asaph.html</loc>
@@ -4684,6 +5736,10 @@
     <loc>https://livesofscripture.org/people/isaiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/isaiah-full.jpg</image:loc>
+      <image:caption>Isaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/amoz.html</loc>
@@ -4704,16 +5760,28 @@
     <loc>https://livesofscripture.org/people/sharezer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sharezer-full.jpg</image:loc>
+      <image:caption>Sharezer — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/esarhaddon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/esarhaddon-full.jpg</image:loc>
+      <image:caption>Esarhaddon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/berodach-baladan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/berodach-baladan-full.jpg</image:loc>
+      <image:caption>Berodach-baladan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/baladan.html</loc>
@@ -4724,6 +5792,10 @@
     <loc>https://livesofscripture.org/people/manasseh-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/manasseh-3-full.jpg</image:loc>
+      <image:caption>Manasseh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hephzibah.html</loc>
@@ -4739,6 +5811,10 @@
     <loc>https://livesofscripture.org/people/amon-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amon-2-full.jpg</image:loc>
+      <image:caption>Amon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/meshullemeth.html</loc>
@@ -4764,6 +5840,10 @@
     <loc>https://livesofscripture.org/people/shaphan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shaphan-full.jpg</image:loc>
+      <image:caption>Shaphan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/azaliah.html</loc>
@@ -4779,16 +5859,28 @@
     <loc>https://livesofscripture.org/people/hilkiah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hilkiah-2-full.jpg</image:loc>
+      <image:caption>Hilkiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahikam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahikam-full.jpg</image:loc>
+      <image:caption>Ahikam — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/achbor-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/achbor-2-full.jpg</image:loc>
+      <image:caption>Achbor — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/micaiah-2.html</loc>
@@ -4799,11 +5891,19 @@
     <loc>https://livesofscripture.org/people/asaiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asaiah-full.jpg</image:loc>
+      <image:caption>Asaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/huldah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/huldah-full.jpg</image:loc>
+      <image:caption>Huldah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shallum-2.html</loc>
@@ -4834,11 +5934,19 @@
     <loc>https://livesofscripture.org/people/pharaoh-neco.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-neco-full.jpg</image:loc>
+      <image:caption>Pharaoh Neco — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoahaz-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoahaz-2-full.jpg</image:loc>
+      <image:caption>Jehoahaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hamutal.html</loc>
@@ -4854,6 +5962,10 @@
     <loc>https://livesofscripture.org/people/jehoiakim.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoiakim-full.jpg</image:loc>
+      <image:caption>Jehoiakim — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zebidah.html</loc>
@@ -4869,11 +5981,19 @@
     <loc>https://livesofscripture.org/people/nebuchadnezzar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nebuchadnezzar-full.jpg</image:loc>
+      <image:caption>Nebuchadnezzar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoiachin.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jehoiachin-full.jpg</image:loc>
+      <image:caption>Jehoiachin — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nehushta.html</loc>
@@ -4884,21 +6004,37 @@
     <loc>https://livesofscripture.org/people/elnathan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elnathan-full.jpg</image:loc>
+      <image:caption>Elnathan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zedekiah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zedekiah-2-full.jpg</image:loc>
+      <image:caption>Zedekiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nebuzaradan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nebuzaradan-full.jpg</image:loc>
+      <image:caption>Nebuzaradan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/seraiah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/seraiah-2-full.jpg</image:loc>
+      <image:caption>Seraiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zephaniah.html</loc>
@@ -4909,11 +6045,19 @@
     <loc>https://livesofscripture.org/people/gedaliah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gedaliah-full.jpg</image:loc>
+      <image:caption>Gedaliah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ishmael-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ishmael-2-full.jpg</image:loc>
+      <image:caption>Ishmael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nethaniah.html</loc>
@@ -4924,6 +6068,10 @@
     <loc>https://livesofscripture.org/people/johanan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/johanan-full.jpg</image:loc>
+      <image:caption>Johanan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/kareah.html</loc>
@@ -4944,6 +6092,10 @@
     <loc>https://livesofscripture.org/people/jezaniah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jezaniah-full.jpg</image:loc>
+      <image:caption>Jezaniah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elishama-3.html</loc>
@@ -4954,6 +6106,10 @@
     <loc>https://livesofscripture.org/people/evil-merodach.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/evil-merodach-full.jpg</image:loc>
+      <image:caption>Evil-merodach — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bath-shua.html</loc>
@@ -5489,6 +6645,10 @@
     <loc>https://livesofscripture.org/people/zerubbabel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zerubbabel-full.jpg</image:loc>
+      <image:caption>Zerubbabel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shimei-4.html</loc>
@@ -6484,6 +7644,10 @@
     <loc>https://livesofscripture.org/people/amariah-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amariah-2-full.jpg</image:loc>
+      <image:caption>Amariah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahitub-3.html</loc>
@@ -6589,6 +7753,10 @@
     <loc>https://livesofscripture.org/people/amasai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amasai-full.jpg</image:loc>
+      <image:caption>Amasai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahimoth.html</loc>
@@ -6634,6 +7802,10 @@
     <loc>https://livesofscripture.org/people/heman-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/heman-2-full.jpg</image:loc>
+      <image:caption>Heman — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mahath.html</loc>
@@ -6644,6 +7816,10 @@
     <loc>https://livesofscripture.org/people/asaph-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/asaph-2-full.jpg</image:loc>
+      <image:caption>Asaph — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/berechiah-2.html</loc>
@@ -6709,6 +7885,10 @@
     <loc>https://livesofscripture.org/people/ethan-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ethan-3-full.jpg</image:loc>
+      <image:caption>Ethan — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/kishi.html</loc>
@@ -6734,6 +7914,10 @@
     <loc>https://livesofscripture.org/people/amaziah-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amaziah-3-full.jpg</image:loc>
+      <image:caption>Amaziah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hilkiah-4.html</loc>
@@ -7979,6 +9163,10 @@
     <loc>https://livesofscripture.org/people/obadiah-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/obadiah-5-full.jpg</image:loc>
+      <image:caption>Obadiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shemaiah-6.html</loc>
@@ -7989,6 +9177,10 @@
     <loc>https://livesofscripture.org/people/jeduthun.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeduthun-full.jpg</image:loc>
+      <image:caption>Jeduthun — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/berechiah-3.html</loc>
@@ -8384,6 +9576,10 @@
     <loc>https://livesofscripture.org/people/joel-6.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joel-6-full.jpg</image:loc>
+      <image:caption>Joel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shemaiah-7.html</loc>
@@ -8464,6 +9660,10 @@
     <loc>https://livesofscripture.org/people/obed-edom-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/obed-edom-2-full.jpg</image:loc>
+      <image:caption>Obed-edom — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jeiel-4.html</loc>
@@ -8584,6 +9784,10 @@
     <loc>https://livesofscripture.org/people/jeriah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeriah-full.jpg</image:loc>
+      <image:caption>Jeriah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/amariah-3.html</loc>
@@ -9309,6 +10513,10 @@
     <loc>https://livesofscripture.org/people/iddo-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/iddo-4-full.jpg</image:loc>
+      <image:caption>Iddo — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mahalath.html</loc>
@@ -9369,6 +10577,10 @@
     <loc>https://livesofscripture.org/people/oded.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/oded-full.jpg</image:loc>
+      <image:caption>Oded — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ben-hail.html</loc>
@@ -9604,6 +10816,10 @@
     <loc>https://livesofscripture.org/people/zechariah-13.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zechariah-13-full.jpg</image:loc>
+      <image:caption>Zechariah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jeiel-6.html</loc>
@@ -9749,11 +10965,19 @@
     <loc>https://livesofscripture.org/people/azariah-14.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/azariah-14-full.jpg</image:loc>
+      <image:caption>Azariah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/conaniah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/conaniah-full.jpg</image:loc>
+      <image:caption>Conaniah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shimei-13.html</loc>
@@ -9879,11 +11103,19 @@
     <loc>https://livesofscripture.org/people/jeremiah-6.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeremiah-6-full.jpg</image:loc>
+      <image:caption>Jeremiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cyrus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/cyrus-full.jpg</image:loc>
+      <image:caption>Cyrus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mithredath.html</loc>
@@ -9894,6 +11126,10 @@
     <loc>https://livesofscripture.org/people/sheshbazzar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sheshbazzar-full.jpg</image:loc>
+      <image:caption>Sheshbazzar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jeshua-3.html</loc>
@@ -9904,6 +11140,10 @@
     <loc>https://livesofscripture.org/people/nehemiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nehemiah-full.jpg</image:loc>
+      <image:caption>Nehemiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/seraiah-6.html</loc>
@@ -10344,6 +11584,10 @@
     <loc>https://livesofscripture.org/people/tobiah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tobiah-full.jpg</image:loc>
+      <image:caption>Tobiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/habaiah.html</loc>
@@ -10364,16 +11608,28 @@
     <loc>https://livesofscripture.org/people/darius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/darius-full.jpg</image:loc>
+      <image:caption>Darius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahasuerus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ahasuerus-full.jpg</image:loc>
+      <image:caption>Ahasuerus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/artaxerxes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/artaxerxes-full.jpg</image:loc>
+      <image:caption>Artaxerxes — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bishlam.html</loc>
@@ -10409,6 +11665,10 @@
     <loc>https://livesofscripture.org/people/haggai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/haggai-full.jpg</image:loc>
+      <image:caption>Haggai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/iddo-5.html</loc>
@@ -10429,6 +11689,10 @@
     <loc>https://livesofscripture.org/people/ezra.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ezra-full.jpg</image:loc>
+      <image:caption>Ezra — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gershom-3.html</loc>
@@ -10629,6 +11893,10 @@
     <loc>https://livesofscripture.org/people/meremoth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/meremoth-full.jpg</image:loc>
+      <image:caption>Meremoth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/uriah-2.html</loc>
@@ -11259,6 +12527,10 @@
     <loc>https://livesofscripture.org/people/hanani-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hanani-4-full.jpg</image:loc>
+      <image:caption>Hanani — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asaph-4.html</loc>
@@ -11269,6 +12541,10 @@
     <loc>https://livesofscripture.org/people/sanballat.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sanballat-full.jpg</image:loc>
+      <image:caption>Sanballat — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/geshem.html</loc>
@@ -11279,6 +12555,10 @@
     <loc>https://livesofscripture.org/people/eliashib-7.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eliashib-7-full.jpg</image:loc>
+      <image:caption>Eliashib — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zaccur-5.html</loc>
@@ -11704,6 +12984,10 @@
     <loc>https://livesofscripture.org/people/jeshua-7.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jeshua-7-full.jpg</image:loc>
+      <image:caption>Jeshua — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bani-7.html</loc>
@@ -12529,6 +13813,10 @@
     <loc>https://livesofscripture.org/people/vashti.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/vashti-full.jpg</image:loc>
+      <image:caption>Vashti — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mehuman.html</loc>
@@ -12544,6 +13832,10 @@
     <loc>https://livesofscripture.org/people/harbona.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/harbona-full.jpg</image:loc>
+      <image:caption>Harbona — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bigtha.html</loc>
@@ -12609,6 +13901,10 @@
     <loc>https://livesofscripture.org/people/mordecai-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mordecai-2-full.jpg</image:loc>
+      <image:caption>Mordecai — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jair-3.html</loc>
@@ -12629,6 +13925,10 @@
     <loc>https://livesofscripture.org/people/esther.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/esther-full.jpg</image:loc>
+      <image:caption>Esther — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/shaashgaz.html</loc>
@@ -12654,6 +13954,10 @@
     <loc>https://livesofscripture.org/people/haman.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/haman-full.jpg</image:loc>
+      <image:caption>Haman — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hammedatha.html</loc>
@@ -12724,26 +14028,46 @@
     <loc>https://livesofscripture.org/people/job.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/job-full.jpg</image:loc>
+      <image:caption>Job — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eliphaz-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eliphaz-2-full.jpg</image:loc>
+      <image:caption>Eliphaz — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bildad.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bildad-full.jpg</image:loc>
+      <image:caption>Bildad — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zophar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zophar-full.jpg</image:loc>
+      <image:caption>Zophar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elihu-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elihu-5-full.jpg</image:loc>
+      <image:caption>Elihu — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/barachel.html</loc>
@@ -12854,11 +14178,19 @@
     <loc>https://livesofscripture.org/people/pharaoh-7.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-7-full.jpg</image:loc>
+      <image:caption>Pharaoh — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/micah-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/micah-5-full.jpg</image:loc>
+      <image:caption>Micah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/uriah-4.html</loc>
@@ -12874,6 +14206,10 @@
     <loc>https://livesofscripture.org/people/hananiah-10.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hananiah-10-full.jpg</image:loc>
+      <image:caption>Hananiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/azzur-2.html</loc>
@@ -12894,6 +14230,10 @@
     <loc>https://livesofscripture.org/people/gemariah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gemariah-full.jpg</image:loc>
+      <image:caption>Gemariah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahab-2.html</loc>
@@ -12914,6 +14254,10 @@
     <loc>https://livesofscripture.org/people/shemaiah-21.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shemaiah-21-full.jpg</image:loc>
+      <image:caption>Shemaiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehoiada-3.html</loc>
@@ -12934,6 +14278,10 @@
     <loc>https://livesofscripture.org/people/baruch-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/baruch-4-full.jpg</image:loc>
+      <image:caption>Baruch — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/neriah.html</loc>
@@ -13034,6 +14382,10 @@
     <loc>https://livesofscripture.org/people/shelemiah-6.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shelemiah-6-full.jpg</image:loc>
+      <image:caption>Shelemiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abdeel.html</loc>
@@ -13109,6 +14461,10 @@
     <loc>https://livesofscripture.org/people/ebed-melech.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ebed-melech-full.jpg</image:loc>
+      <image:caption>Ebed-melech — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nergal-sar-ezer.html</loc>
@@ -13174,6 +14530,10 @@
     <loc>https://livesofscripture.org/people/ezekiel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ezekiel-full.jpg</image:loc>
+      <image:caption>Ezekiel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/buzi.html</loc>
@@ -13214,6 +14574,10 @@
     <loc>https://livesofscripture.org/people/daniel-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/daniel-2-full.jpg</image:loc>
+      <image:caption>Daniel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gog-2.html</loc>
@@ -13229,16 +14593,28 @@
     <loc>https://livesofscripture.org/people/shadrach.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/shadrach-full.jpg</image:loc>
+      <image:caption>Shadrach — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/meshach.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/meshach-full.jpg</image:loc>
+      <image:caption>Meshach — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abed-nego.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/abed-nego-full.jpg</image:loc>
+      <image:caption>Abed-nego — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/arioch-2.html</loc>
@@ -13249,11 +14625,19 @@
     <loc>https://livesofscripture.org/people/belshazzar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/belshazzar-full.jpg</image:loc>
+      <image:caption>Belshazzar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gabriel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gabriel-full.jpg</image:loc>
+      <image:caption>Gabriel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/darius-2.html</loc>
@@ -13264,6 +14648,10 @@
     <loc>https://livesofscripture.org/people/michael-9.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/michael-9-full.jpg</image:loc>
+      <image:caption>Michael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/prince-of-greece.html</loc>
@@ -13274,6 +14662,10 @@
     <loc>https://livesofscripture.org/people/hosea.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hosea-full.jpg</image:loc>
+      <image:caption>Hosea — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/beeri.html</loc>
@@ -13314,6 +14706,10 @@
     <loc>https://livesofscripture.org/people/joel-11.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joel-11-full.jpg</image:loc>
+      <image:caption>Joel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/pethuel.html</loc>
@@ -13324,26 +14720,46 @@
     <loc>https://livesofscripture.org/people/amos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/amos-full.jpg</image:loc>
+      <image:caption>Amos — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/obadiah-12.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/obadiah-12-full.jpg</image:loc>
+      <image:caption>Obadiah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nahum.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nahum-full.jpg</image:loc>
+      <image:caption>Nahum — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/habakkuk.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/habakkuk-full.jpg</image:loc>
+      <image:caption>Habakkuk — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zephaniah-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zephaniah-3-full.jpg</image:loc>
+      <image:caption>Zephaniah — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cushi-2.html</loc>
@@ -13369,6 +14785,10 @@
     <loc>https://livesofscripture.org/people/joshua-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joshua-4-full.jpg</image:loc>
+      <image:caption>Joshua — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jehozadak-2.html</loc>
@@ -13419,6 +14839,10 @@
     <loc>https://livesofscripture.org/people/malachi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/malachi-full.jpg</image:loc>
+      <image:caption>Malachi — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/abihud-2.html</loc>
@@ -13469,16 +14893,28 @@
     <loc>https://livesofscripture.org/people/joseph-6.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joseph-6-full.jpg</image:loc>
+      <image:caption>Joseph — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mary.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mary-full.jpg</image:loc>
+      <image:caption>Mary — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/herod.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/herod-full.jpg</image:loc>
+      <image:caption>Herod — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/archelaus.html</loc>
@@ -13489,16 +14925,28 @@
     <loc>https://livesofscripture.org/people/john.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/john-full.jpg</image:loc>
+      <image:caption>John — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/andrew.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/andrew-full.jpg</image:loc>
+      <image:caption>Andrew — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/james.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/james-full.jpg</image:loc>
+      <image:caption>James — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zebedee.html</loc>
@@ -13509,11 +14957,19 @@
     <loc>https://livesofscripture.org/people/john-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/john-2-full.jpg</image:loc>
+      <image:caption>John — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/matthew.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/matthew-full.jpg</image:loc>
+      <image:caption>Matthew — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/daughter.html</loc>
@@ -13524,16 +14980,28 @@
     <loc>https://livesofscripture.org/people/philip.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/philip-full.jpg</image:loc>
+      <image:caption>Philip — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nathanael.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nathanael-full.jpg</image:loc>
+      <image:caption>Nathanael — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/thomas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/thomas-full.jpg</image:loc>
+      <image:caption>Thomas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/james-2.html</loc>
@@ -13549,6 +15017,10 @@
     <loc>https://livesofscripture.org/people/judas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/judas-full.jpg</image:loc>
+      <image:caption>Judas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-the-zealot.html</loc>
@@ -13559,11 +15031,19 @@
     <loc>https://livesofscripture.org/people/judas-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/judas-2-full.jpg</image:loc>
+      <image:caption>Judas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/james-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/james-3-full.jpg</image:loc>
+      <image:caption>James — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joses.html</loc>
@@ -13579,16 +15059,28 @@
     <loc>https://livesofscripture.org/people/judas-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/judas-3-full.jpg</image:loc>
+      <image:caption>Judas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/herod-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/herod-2-full.jpg</image:loc>
+      <image:caption>Herod Antipas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/herodias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/herodias-full.jpg</image:loc>
+      <image:caption>Herodias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/philip-2.html</loc>
@@ -13599,11 +15091,19 @@
     <loc>https://livesofscripture.org/people/caesar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/caesar-full.jpg</image:loc>
+      <image:caption>Caesar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/caiaphas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/caiaphas-full.jpg</image:loc>
+      <image:caption>Caiaphas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-2.html</loc>
@@ -13614,26 +15114,46 @@
     <loc>https://livesofscripture.org/people/pilate.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/pilate-full.jpg</image:loc>
+      <image:caption>Pilate — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/barabbas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/barabbas-full.jpg</image:loc>
+      <image:caption>Barabbas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simon-3-full.jpg</image:loc>
+      <image:caption>Simon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mary-magdalene.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mary-magdalene-full.jpg</image:loc>
+      <image:caption>Mary Magdalene — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joseph-7.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joseph-7-full.jpg</image:loc>
+      <image:caption>Joseph — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/legion.html</loc>
@@ -13644,6 +15164,10 @@
     <loc>https://livesofscripture.org/people/jairus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jairus-full.jpg</image:loc>
+      <image:caption>Jairus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/talitha.html</loc>
@@ -13654,6 +15178,10 @@
     <loc>https://livesofscripture.org/people/bartimaeus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bartimaeus-full.jpg</image:loc>
+      <image:caption>Bartimaeus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/timaeus.html</loc>
@@ -13669,11 +15197,19 @@
     <loc>https://livesofscripture.org/people/rufus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rufus-full.jpg</image:loc>
+      <image:caption>Rufus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/salome.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/salome-full.jpg</image:loc>
+      <image:caption>Salome — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/theophilus.html</loc>
@@ -13684,16 +15220,28 @@
     <loc>https://livesofscripture.org/people/zacharias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zacharias-full.jpg</image:loc>
+      <image:caption>Zacharias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/elizabeth.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/elizabeth-full.jpg</image:loc>
+      <image:caption>Elizabeth — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/caesar-augustus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/caesar-augustus-full.jpg</image:loc>
+      <image:caption>Caesar Augustus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/quirinius.html</loc>
@@ -13704,11 +15252,19 @@
     <loc>https://livesofscripture.org/people/simeon-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simeon-2-full.jpg</image:loc>
+      <image:caption>Simeon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/anna.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/anna-full.jpg</image:loc>
+      <image:caption>Anna — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/phanuel.html</loc>
@@ -13724,6 +15280,10 @@
     <loc>https://livesofscripture.org/people/annas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/annas-full.jpg</image:loc>
+      <image:caption>Annas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eli-2.html</loc>
@@ -13929,11 +15489,19 @@
     <loc>https://livesofscripture.org/people/simon-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simon-4-full.jpg</image:loc>
+      <image:caption>Simon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/joanna.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joanna-full.jpg</image:loc>
+      <image:caption>Joanna — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/chuza.html</loc>
@@ -13949,21 +15517,37 @@
     <loc>https://livesofscripture.org/people/martha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/martha-full.jpg</image:loc>
+      <image:caption>Martha — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mary-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mary-2-full.jpg</image:loc>
+      <image:caption>Mary — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lazarus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lazarus-full.jpg</image:loc>
+      <image:caption>Lazarus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/zaccheus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/zaccheus-full.jpg</image:loc>
+      <image:caption>Zaccheus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cleopas.html</loc>
@@ -13979,6 +15563,10 @@
     <loc>https://livesofscripture.org/people/nicodemus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nicodemus-full.jpg</image:loc>
+      <image:caption>Nicodemus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-iscariot.html</loc>
@@ -13989,6 +15577,10 @@
     <loc>https://livesofscripture.org/people/lazarus-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lazarus-2-full.jpg</image:loc>
+      <image:caption>Lazarus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/malchus.html</loc>
@@ -14009,11 +15601,19 @@
     <loc>https://livesofscripture.org/people/joseph-10.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/joseph-10-full.jpg</image:loc>
+      <image:caption>Joseph called Barsabbas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/matthias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/matthias-full.jpg</image:loc>
+      <image:caption>Matthias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/john-4.html</loc>
@@ -14029,21 +15629,37 @@
     <loc>https://livesofscripture.org/people/barnabas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/barnabas-full.jpg</image:loc>
+      <image:caption>Barnabas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ananias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ananias-full.jpg</image:loc>
+      <image:caption>Ananias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/sapphira.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sapphira-full.jpg</image:loc>
+      <image:caption>Sapphira — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gamaliel-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gamaliel-2-full.jpg</image:loc>
+      <image:caption>Gamaliel — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/theudas.html</loc>
@@ -14059,21 +15675,37 @@
     <loc>https://livesofscripture.org/people/stephen.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/stephen-full.jpg</image:loc>
+      <image:caption>Stephen — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/philip-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/philip-3-full.jpg</image:loc>
+      <image:caption>Philip — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/prochorus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/prochorus-full.jpg</image:loc>
+      <image:caption>Prochorus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nicanor.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nicanor-full.jpg</image:loc>
+      <image:caption>Nicanor — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/timon.html</loc>
@@ -14084,16 +15716,28 @@
     <loc>https://livesofscripture.org/people/parmenas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/parmenas-full.jpg</image:loc>
+      <image:caption>Parmenas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nicolas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nicolas-full.jpg</image:loc>
+      <image:caption>Nicolas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simon-5-full.jpg</image:loc>
+      <image:caption>Simon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/the-ethiopian-eunuch.html</loc>
@@ -14109,6 +15753,10 @@
     <loc>https://livesofscripture.org/people/ananias-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ananias-2-full.jpg</image:loc>
+      <image:caption>Ananias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/judas-4.html</loc>
@@ -14124,46 +15772,82 @@
     <loc>https://livesofscripture.org/people/tabitha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tabitha-full.jpg</image:loc>
+      <image:caption>Tabitha — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/simon-6.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/simon-6-full.jpg</image:loc>
+      <image:caption>Simon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/cornelius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/cornelius-full.jpg</image:loc>
+      <image:caption>Cornelius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/agabus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/agabus-full.jpg</image:loc>
+      <image:caption>Agabus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/claudius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/claudius-full.jpg</image:loc>
+      <image:caption>Claudius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/herod-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/herod-3-full.jpg</image:loc>
+      <image:caption>Herod — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mary-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mary-4-full.jpg</image:loc>
+      <image:caption>Mary — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mark.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/mark-full.jpg</image:loc>
+      <image:caption>Mark — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/rhoda.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/rhoda-full.jpg</image:loc>
+      <image:caption>Rhoda — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/blastus.html</loc>
@@ -14184,6 +15868,10 @@
     <loc>https://livesofscripture.org/people/manaen.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/manaen-full.jpg</image:loc>
+      <image:caption>Manaen — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bar-jesus.html</loc>
@@ -14199,46 +15887,82 @@
     <loc>https://livesofscripture.org/people/judas-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/judas-5-full.jpg</image:loc>
+      <image:caption>Judas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/silas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/silas-full.jpg</image:loc>
+      <image:caption>Silas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/timothy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/timothy-full.jpg</image:loc>
+      <image:caption>Timothy — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lydia.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lydia-full.jpg</image:loc>
+      <image:caption>Lydia — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jason.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/jason-full.jpg</image:loc>
+      <image:caption>Jason — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/dionysius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/dionysius-full.jpg</image:loc>
+      <image:caption>Dionysius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/damaris.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/damaris-full.jpg</image:loc>
+      <image:caption>Damaris — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/aquila.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/aquila-full.jpg</image:loc>
+      <image:caption>Aquila — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/priscilla.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/priscilla-full.jpg</image:loc>
+      <image:caption>Priscilla — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/titius-justus.html</loc>
@@ -14249,16 +15973,28 @@
     <loc>https://livesofscripture.org/people/crispus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/crispus-full.jpg</image:loc>
+      <image:caption>Crispus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gallio.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gallio-full.jpg</image:loc>
+      <image:caption>Gallio — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/apollos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/apollos-full.jpg</image:loc>
+      <image:caption>Apollos — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tyrannus.html</loc>
@@ -14279,16 +16015,28 @@
     <loc>https://livesofscripture.org/people/demetrius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/demetrius-full.jpg</image:loc>
+      <image:caption>Demetrius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gaius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gaius-full.jpg</image:loc>
+      <image:caption>Gaius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/aristarchus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/aristarchus-full.jpg</image:loc>
+      <image:caption>Aristarchus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/alexander-3.html</loc>
@@ -14319,16 +16067,28 @@
     <loc>https://livesofscripture.org/people/tychicus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tychicus-full.jpg</image:loc>
+      <image:caption>Tychicus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/trophimus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/trophimus-full.jpg</image:loc>
+      <image:caption>Trophimus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eutychus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eutychus-full.jpg</image:loc>
+      <image:caption>Eutychus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mnason.html</loc>
@@ -14339,16 +16099,28 @@
     <loc>https://livesofscripture.org/people/ananias-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/ananias-3-full.jpg</image:loc>
+      <image:caption>Ananias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/felix.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/felix-full.jpg</image:loc>
+      <image:caption>Felix — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lysias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lysias-full.jpg</image:loc>
+      <image:caption>Lysias — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/tertullus.html</loc>
@@ -14364,21 +16136,37 @@
     <loc>https://livesofscripture.org/people/festus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/festus-full.jpg</image:loc>
+      <image:caption>Festus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/caesar-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/caesar-2-full.jpg</image:loc>
+      <image:caption>Caesar — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/agrippa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/agrippa-full.jpg</image:loc>
+      <image:caption>Agrippa — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/bernice.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/bernice-full.jpg</image:loc>
+      <image:caption>Bernice — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/julius.html</loc>
@@ -14394,11 +16182,19 @@
     <loc>https://livesofscripture.org/people/phoebe.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/phoebe-full.jpg</image:loc>
+      <image:caption>Phoebe — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/epanetus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/epanetus-full.jpg</image:loc>
+      <image:caption>Epanetus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/mary-5.html</loc>
@@ -14409,11 +16205,19 @@
     <loc>https://livesofscripture.org/people/andronicus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/andronicus-full.jpg</image:loc>
+      <image:caption>Andronicus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/junias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/junias-full.jpg</image:loc>
+      <image:caption>Junia — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ampliatus.html</loc>
@@ -14464,6 +16268,10 @@
     <loc>https://livesofscripture.org/people/persis.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/persis-full.jpg</image:loc>
+      <image:caption>Persis — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asynchritus.html</loc>
@@ -14524,11 +16332,19 @@
     <loc>https://livesofscripture.org/people/tertius.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tertius-full.jpg</image:loc>
+      <image:caption>Tertius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/erastus-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/erastus-2-full.jpg</image:loc>
+      <image:caption>Erastus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/quartus.html</loc>
@@ -14539,6 +16355,10 @@
     <loc>https://livesofscripture.org/people/chloe.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/chloe-full.jpg</image:loc>
+      <image:caption>Chloe — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/stephanas.html</loc>
@@ -14549,16 +16369,28 @@
     <loc>https://livesofscripture.org/people/forunatus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/forunatus-full.jpg</image:loc>
+      <image:caption>Forunatus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/achaicus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/achaicus-full.jpg</image:loc>
+      <image:caption>Achaicus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/titus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/titus-full.jpg</image:loc>
+      <image:caption>Titus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/aretas.html</loc>
@@ -14569,11 +16401,19 @@
     <loc>https://livesofscripture.org/people/epaphras.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/epaphras-full.jpg</image:loc>
+      <image:caption>Epaphras — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/euodia.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/euodia-full.jpg</image:loc>
+      <image:caption>Euodia — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/syntyche.html</loc>
@@ -14589,6 +16429,10 @@
     <loc>https://livesofscripture.org/people/onesimus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/onesimus-full.jpg</image:loc>
+      <image:caption>Onesimus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jesus.html</loc>
@@ -14599,41 +16443,73 @@
     <loc>https://livesofscripture.org/people/luke.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/luke-full.jpg</image:loc>
+      <image:caption>Luke — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/demas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/demas-full.jpg</image:loc>
+      <image:caption>Demas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/nympha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/nympha-full.jpg</image:loc>
+      <image:caption>Nympha — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/archippus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/archippus-full.jpg</image:loc>
+      <image:caption>Archippus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/hymenaeus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/hymenaeus-full.jpg</image:loc>
+      <image:caption>Hymenaeus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/alexander-4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/alexander-4-full.jpg</image:loc>
+      <image:caption>Alexander the Coppersmith — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/lois.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/lois-full.jpg</image:loc>
+      <image:caption>Lois — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/eunice.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/eunice-full.jpg</image:loc>
+      <image:caption>Eunice — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/phygelus.html</loc>
@@ -14649,11 +16525,19 @@
     <loc>https://livesofscripture.org/people/onesiphorus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/onesiphorus-full.jpg</image:loc>
+      <image:caption>Onesiphorus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/philetus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/philetus-full.jpg</image:loc>
+      <image:caption>Philetus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jannes.html</loc>
@@ -14704,6 +16588,10 @@
     <loc>https://livesofscripture.org/people/philemon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/philemon-full.jpg</image:loc>
+      <image:caption>Philemon — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/apphia.html</loc>
@@ -14724,6 +16612,10 @@
     <loc>https://livesofscripture.org/people/antipas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/antipas-full.jpg</image:loc>
+      <image:caption>Antipas — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/jezebel-2.html</loc>
@@ -14779,6 +16671,10 @@
     <loc>https://livesofscripture.org/people/epaphroditus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/epaphroditus-full.jpg</image:loc>
+      <image:caption>Epaphroditus — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/menahem.html</loc>
@@ -14789,16 +16685,28 @@
     <loc>https://livesofscripture.org/people/salome-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/salome-2-full.jpg</image:loc>
+      <image:caption>Salome — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/sosthenes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/sosthenes-full.jpg</image:loc>
+      <image:caption>Sosthenes — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/gaius-3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gaius-3-full.jpg</image:loc>
+      <image:caption>Gaius — stained-glass style portrait</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/asyncritus.html</loc>

@@ -94,23 +94,39 @@ def portrait_img_html(person, base):
     """Renders an <img> for whichever portrait resolve_portrait_file finds,
     wrapped in a link to the full-size version when one exists so clicking
     the portrait opens it larger (see js/app.js's initPortraitLightbox).
-    Caller must check portrait_exists first. Falls back to a plain alt text
-    when there's no image.caption to draw on (stub entries never carry the
-    full-tier image dict, only a bare image2 filename if one exists)."""
+    Caller must check portrait_exists first.
+
+    A person with a unique stained-glass portrait (portraits2-web) gets a
+    name-specific alt text and a visible caption under the image — both
+    built from the person's name rather than the stored image.caption
+    field, which for anyone who moved from a shared generic icon to a
+    stained-glass portrait still holds the old generic-icon wording (e.g.
+    "Generic line-art icon for figures..."). That stale text would
+    misdescribe the actual displayed image and give Google Images no
+    person-specific signal for this page. Anyone still on a shared
+    generic/legacy icon keeps the old image.caption-based alt text and no
+    visible caption, since that image genuinely isn't unique to them."""
     portrait_dir, portrait_file = resolve_portrait_file(person)
     img_url = f'{base}images/{portrait_dir}/{esc(portrait_file)}'
-    image_meta = person.get("image") if isinstance(person.get("image"), dict) else None
-    caption = image_meta.get("caption") if image_meta else None
-    alt = f'{esc(person["name"])} — {esc(caption)}' if caption else esc(person["name"])
-    img_tag = f'<img src="{img_url}" alt="{alt}">'
     full_file = resolve_full_portrait_file(person)
+    if full_file:
+        caption_text = f'{person["name"]} — stained-glass style portrait'
+        alt = esc(caption_text)
+        caption_html = f'<p class="portrait-caption">{esc(caption_text)}</p>'
+    else:
+        image_meta = person.get("image") if isinstance(person.get("image"), dict) else None
+        caption = image_meta.get("caption") if image_meta else None
+        alt = f'{esc(person["name"])} — {esc(caption)}' if caption else esc(person["name"])
+        caption_html = ""
+    img_tag = f'<img src="{img_url}" alt="{alt}">'
     if not full_file:
         return img_tag
     full_url = f'{base}images/portraits2-web/{esc(full_file)}'
-    return (
+    linked_img = (
         f'<a href="{full_url}" class="portrait-lightbox" target="_blank" rel="noopener" '
         f'aria-label="View full-size image of {esc(person["name"])}">{img_tag}</a>'
     )
+    return linked_img + caption_html
 
 
 def truncate(text, max_len=155):
@@ -610,7 +626,20 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     if person.get("alt_names"):
         data["alternateName"] = person["alt_names"]
     if portrait_exists:
-        data["image"] = og_image
+        # Structured ImageObject (contentUrl + caption) only for the unique
+        # stained-glass portrait — Google's image-SEO guidance uses this
+        # metadata to attribute an image to a specific page. A shared
+        # generic/legacy icon isn't unique to this person, so it keeps the
+        # plain image-URL form instead of a person-specific caption claim.
+        if resolve_full_portrait_file(person):
+            data["image"] = {
+                "@type": "ImageObject",
+                "contentUrl": og_image,
+                "url": og_image,
+                "caption": f'{person["name"]} — stained-glass style portrait',
+            }
+        else:
+            data["image"] = og_image
     if person.get("references"):
         data["citation"] = person["references"]
     if person.get("topics"):
@@ -640,7 +669,17 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
     # images/portraits2/STAINED_GLASS_QUEUE.md), but one that already
     # carries an image/image2 field still displays it rather than hiding it.
     portrait_exists = bool(portrait_file)
-    og_image = f'{SITE_URL}/images/{portrait_dir}/{portrait_file}' if portrait_exists else DEFAULT_OG_IMAGE
+    # Prefer the larger 1024x1024 stained-glass version for og:image/JSON-LD
+    # over the 500x500 on-page thumbnail — Google Images and social-card
+    # unfurls both favor a higher-resolution source, and this file already
+    # exists solely for the click-to-enlarge lightbox, so this is free.
+    full_file = resolve_full_portrait_file(person)
+    if full_file:
+        og_image = f'{SITE_URL}/images/portraits2-web/{full_file}'
+    elif portrait_exists:
+        og_image = f'{SITE_URL}/images/{portrait_dir}/{portrait_file}'
+    else:
+        og_image = DEFAULT_OG_IMAGE
     description = meta_description_for(person)
     title = f'{person["name"]} — Lives of Scripture'
 
@@ -3405,18 +3444,46 @@ def build_sitemap(index, churches):
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
-    for entry in index:
-        priority = "0.8" if entry["tier"] == "full" else "0.3"
-        urls.append((f'{SITE_URL}/people/{entry["person_id"]}.html', "monthly", priority))
-    for church in churches:
-        urls.append((f'{SITE_URL}/churches/{church["church_id"]}.html', "monthly", "0.6"))
-
-    entries = "\n".join(
+    lines = [
         f"  <url>\n    <loc>{loc}</loc>\n"
         f"    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>"
         for loc, freq, prio in urls
+    ]
+    for entry in index:
+        priority = "0.8" if entry["tier"] == "full" else "0.3"
+        loc = f'{SITE_URL}/people/{entry["person_id"]}.html'
+        # Image sitemap extension, restricted to the unique stained-glass
+        # portrait (portraits2-web) — the shared generic/legacy icons are
+        # reused across dozens of people, so listing those would just tell
+        # Google many different pages share one image rather than helping
+        # any single person's name rank in Image Search.
+        full_file = resolve_full_portrait_file(entry)
+        image_xml = ""
+        if full_file:
+            img_url = f'{SITE_URL}/images/portraits2-web/{full_file}'
+            caption = esc(f'{entry["name"]} — stained-glass style portrait')
+            image_xml = (
+                f"\n    <image:image>\n      <image:loc>{esc(img_url)}</image:loc>\n"
+                f"      <image:caption>{caption}</image:caption>\n    </image:image>"
+            )
+        lines.append(
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <changefreq>monthly</changefreq>\n    <priority>{priority}</priority>{image_xml}\n  </url>"
+        )
+    for church in churches:
+        loc = f'{SITE_URL}/churches/{church["church_id"]}.html'
+        lines.append(
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>"
+        )
+
+    entries = "\n".join(lines)
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+        f"{entries}\n</urlset>\n"
     )
-    sitemap = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entries}\n</urlset>\n'
     (ROOT / "sitemap.xml").write_text(sitemap)
 
 
