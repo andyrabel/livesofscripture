@@ -18335,7 +18335,8 @@
       "idolatry"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 10:35"
+    "first_reference": "2 Kings 10:35",
+    "image2": "images/portraits2/jehoahaz.png"
   },
   {
     "person_id": "jehosheba",
@@ -19383,7 +19384,8 @@
       "blasphemy against the LORD"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Kings 18:17-37"
+    "first_reference": "2 Kings 18:17-37",
+    "image2": "images/portraits2/rabshakeh.png"
   },
   {
     "person_id": "eliakim",
@@ -33173,7 +33175,8 @@
       ]
     },
     "first_reference": "1 Chronicles 15:18-24",
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "image2": "images/portraits2/obed-edom-2.png"
   },
   {
     "person_id": "jeiel-4",
@@ -50439,7 +50442,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Matthew 13:55",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/judas-3.png"
   },
   {
     "person_id": "herod-2",
