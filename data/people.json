@@ -12344,6 +12344,7 @@
     "gender": "male",
     "disambiguation": "son of Samuel (1 Sam 8:1-5)",
     "first_reference": "1 Samuel 8:1-5",
+    "image2": "images/portraits2/joel.png",
     "genealogy": {
       "father": "samuel",
       "children": [
@@ -16925,7 +16926,8 @@
       "repentance"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "1 Kings 12:22"
+    "first_reference": "1 Kings 12:22",
+    "image2": "images/portraits2/shemaiah.png"
   },
   {
     "person_id": "josiah",
@@ -26579,6 +26581,7 @@
     ],
     "image": "generic-warrior.png",
     "first_reference": "1 Chronicles 6:25-35",
+    "image2": "images/portraits2/amasai.png",
     "tribe": "Levi"
   },
   {
@@ -47078,7 +47081,8 @@
       "youthful zeal"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Job 32:2-6"
+    "first_reference": "Job 32:2-6",
+    "image2": "images/portraits2/elihu-5.png"
   },
   {
     "person_id": "barachel",
