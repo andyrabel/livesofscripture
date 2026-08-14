@@ -17862,7 +17862,8 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "first_reference": "1 Kings 21:1-19"
+    "first_reference": "1 Kings 21:1-19",
+    "image2": "images/portraits2/naboth.png"
   },
   {
     "person_id": "micaiah",
@@ -18318,7 +18319,8 @@
       "abstaining from idolatry's culture"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 10:15-23"
+    "first_reference": "2 Kings 10:15-23",
+    "image2": "images/portraits2/jonadab-2.png"
   },
   {
     "person_id": "rechab-2",
@@ -18642,7 +18644,8 @@
       "war with Israel"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 13:3-25"
+    "first_reference": "2 Kings 13:3-25",
+    "image2": "images/portraits2/ben-hadad-2.png"
   },
   {
     "person_id": "joash-4",
@@ -19906,6 +19909,7 @@
     "gender": "male",
     "disambiguation": "son of Azaliah (2 Kings 22:3-14)",
     "first_reference": "2 Kings 22:3-14",
+    "image2": "images/portraits2/shaphan.png",
     "genealogy": {
       "father": "azaliah",
       "children": [
