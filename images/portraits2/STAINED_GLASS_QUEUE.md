@@ -111,7 +111,7 @@ after the bump (no other reordering).
 - [x] **87** — `elnathan` (Elnathan); `jonathan-3` (Jonathan); `ephron` (Ephron); `jehu` (Jehu)
 - [x] **88** — `amasai` (Amasai); `shemaiah` (Shemaiah); `elihu-5` (Elihu); `joel` (Joel)
 - [x] **89** — `obed-edom` (Obed-edom); `oholiab` (Oholiab); `zophar` (Zophar); `abinadab-3` (Abinadab)
-- [ ] **90** — `jashobeam` (Jashobeam); `jezaniah` (Jezaniah); `jonathan-4` (Jonathan); `oreb` (Oreb)
+- [x] **90** — `jashobeam` (Jashobeam); `jezaniah` (Jezaniah); `jonathan-4` (Jonathan); `oreb` (Oreb)
 - [ ] **91** — `alexander-4` (Alexander the Coppersmith); `claudius` (Claudius); `micaiah` (Micaiah); `joash` (Joash)
 - [ ] **92** — `joah` (Joah); `adoni-zedek` (Adoni-zedek); `naaman-2` (Naaman); `zedekiah` (Zedekiah)
 - [ ] **93** — `shaphan` (Shaphan); `naboth` (Naboth); `ben-hadad-2` (Ben-hadad); `jonadab-2` (Jonadab)
