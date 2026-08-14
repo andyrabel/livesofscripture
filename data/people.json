@@ -11261,7 +11261,8 @@
         "gideon"
       ]
     },
-    "first_reference": "Judges 6:11-31"
+    "first_reference": "Judges 6:11-31",
+    "image2": "images/portraits2/joash.png"
   },
   {
     "person_id": "gideon",
@@ -17882,6 +17883,7 @@
     "gender": "male",
     "disambiguation": "son of Imlah (1 Kings 22:1-28)",
     "first_reference": "1 Kings 22:1-28",
+    "image2": "images/portraits2/micaiah.png",
     "genealogy": {
       "father": "imlah"
     }
@@ -52642,7 +52644,8 @@
       "background to the early church"
     ],
     "image": "generic-king.png",
-    "first_reference": "Acts 11:28"
+    "first_reference": "Acts 11:28",
+    "image2": "images/portraits2/claudius.png"
   },
   {
     "person_id": "herod-3",
@@ -54393,7 +54396,8 @@
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "1 Timothy 1:19-20"
+    "first_reference": "1 Timothy 1:19-20",
+    "image2": "images/portraits2/alexander-4.png"
   },
   {
     "person_id": "lois",
