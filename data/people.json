@@ -6063,6 +6063,7 @@
       "God's providence in famine"
     ],
     "image": "generic-king.png",
+    "image2": "pharaoh-2.png",
     "first_reference": "Genesis 37:36"
   },
   {
@@ -7879,6 +7880,7 @@
       "ancestor of David and Christ"
     ],
     "image": "generic-figure.png",
+    "image2": "nahshon.png",
     "first_reference": "Exodus 6:23",
     "tribe": "Judah"
   },
@@ -31604,6 +31606,7 @@
       "faithful service across generations"
     ],
     "image": "generic-prophet.png",
+    "image2": "jeduthun.png",
     "genealogy": {
       "children": [
         "galal",
@@ -50159,6 +50162,7 @@
       "slow-to-understand faith"
     ],
     "image": "generic-figure.png",
+    "image2": "philip.png",
     "first_reference": "Matthew 10:3"
   },
   {
