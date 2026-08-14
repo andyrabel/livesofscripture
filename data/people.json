@@ -6188,7 +6188,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Genesis 38:5-26",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/shelah-2.png"
   },
   {
     "person_id": "tamar",
@@ -13326,7 +13327,8 @@
     ],
     "image": "generic-warrior.png",
     "first_reference": "2 Samuel 2:18-32",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/asahel.png"
   },
   {
     "person_id": "amnon",
@@ -20166,7 +20168,8 @@
       "downfall to Babylon"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 23:29-35"
+    "first_reference": "2 Kings 23:29-35",
+    "image2": "images/portraits2/pharaoh-neco.png"
   },
   {
     "person_id": "jehoahaz-2",
@@ -20196,7 +20199,8 @@
     ],
     "image": "generic-king.png",
     "first_reference": "2 Kings 23:30-34",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/jehoahaz-2.png"
   },
   {
     "person_id": "hamutal",
