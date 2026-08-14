@@ -9931,7 +9931,8 @@
     "genealogy": {
       "father": "zelophehad"
     },
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/mahlah.png"
   },
   {
     "person_id": "noah-2",
@@ -9980,7 +9981,8 @@
     "genealogy": {
       "father": "zelophehad"
     },
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/hoglah.png"
   },
   {
     "person_id": "milcah-2",
@@ -10005,7 +10007,8 @@
     "genealogy": {
       "father": "zelophehad"
     },
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/milcah-2.png"
   },
   {
     "person_id": "tirzah",
@@ -49566,7 +49569,8 @@
     ],
     "image": "generic-priest.png",
     "first_reference": "Haggai 1:1-14",
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "image2": "images/portraits2/joshua-4.png"
   },
   {
     "person_id": "jehozadak-2",
