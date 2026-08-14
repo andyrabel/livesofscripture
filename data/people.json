@@ -10865,6 +10865,7 @@
       "provision"
     ],
     "image": "generic-woman.png",
+    "image2": "achsah.png",
     "timeline": {
       "precision": "era"
     },
@@ -12373,6 +12374,7 @@
       "consequences for the nation"
     ],
     "image": "generic-figure.png",
+    "image2": "abijah.png",
     "timeline": {
       "precision": "era"
     },
@@ -14424,6 +14426,7 @@
       "war with Israel"
     ],
     "image": "generic-king.png",
+    "image2": "hanun.png",
     "first_reference": "2 Samuel 10:1-4"
   },
   {
@@ -32956,6 +32959,7 @@
       "temple treasuries"
     ],
     "image": "generic-figure.png",
+    "image2": "joel-6.png",
     "first_reference": "1 Chronicles 15:7-11",
     "tribe": "Levi"
   },
