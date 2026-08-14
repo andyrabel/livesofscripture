@@ -14683,6 +14683,7 @@
       "trusted leadership"
     ],
     "image": "generic-warrior.png",
+    "image2": "ittai.png",
     "timeline": {
       "precision": "era"
     },
@@ -17039,6 +17040,7 @@
       "royal assassination"
     ],
     "image": "generic-king.png",
+    "image2": "nadab-2.png",
     "first_reference": "1 Kings 14:20",
     "tribe": "Ephraim"
   },
@@ -36245,6 +36247,7 @@
       "obedience to God's word"
     ],
     "image": "generic-prophet.png",
+    "image2": "oded.png",
     "genealogy": {
       "children": [
         "azariah-7"
@@ -47790,6 +47793,7 @@
       "judgment on false prophets"
     ],
     "image": "generic-prophet.png",
+    "image2": "shemaiah-21.png",
     "genealogy": {
       "children": [
         "delaiah-5"
