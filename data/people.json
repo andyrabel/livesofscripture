@@ -6719,7 +6719,8 @@
     "gender": "male",
     "disambiguation": "(Gen 46:13)",
     "first_reference": "Genesis 46:13",
-    "tribe": "Issachar"
+    "tribe": "Issachar",
+    "image2": "images/portraits2/tola.png"
   },
   {
     "person_id": "puvvah",
@@ -12293,7 +12294,8 @@
         "uzzah"
       ]
     },
-    "first_reference": "1 Samuel 7:1"
+    "first_reference": "1 Samuel 7:1",
+    "image2": "images/portraits2/abinadab.png"
   },
   {
     "person_id": "eleazar-2",
@@ -15201,7 +15203,8 @@
       "David's mighty men"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Samuel 21:19"
+    "first_reference": "2 Samuel 21:19",
+    "image2": "images/portraits2/elhanan.png"
   },
   {
     "person_id": "dodo-2",
@@ -16563,7 +16566,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Kings 4:31",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/ethan.png"
   },
   {
     "person_id": "heman",

@@ -105,7 +105,7 @@ after the bump (no other reordering).
 - [x] **81** — `hoglah` (Hoglah); `joshua-4` (Joshua); `mahlah` (Mahlah); `milcah-2` (Milcah)
 - [x] **82** — `noah-2` (Noah); `tirzah` (Tirzah); `meremoth` (Meremoth); `hoshea` (Hoshea)
 - [x] **83** — `maacah-3` (Maacah); `hanani` (Hanani); `eliphaz-2` (Eliphaz); `bildad` (Bildad)
-- [ ] **84** — `ethan` (Ethan); `abinadab` (Abinadab); `elhanan` (Elhanan); `tola` (Tola)
+- [x] **84** — `ethan` (Ethan); `abinadab` (Abinadab); `elhanan` (Elhanan); `tola` (Tola)
 - [ ] **85** — `obadiah-5` (Obadiah); `seraiah-2` (Seraiah); `bethuel` (Bethuel); `elkanah-2` (Elkanah)
 - [ ] **86** — `tobiah` (Tobiah); `ishmael-2` (Ishmael); `anah` (Anah); `phinehas-2` (Phinehas)
 - [ ] **87** — `elnathan` (Elnathan); `jonathan-3` (Jonathan); `ephron` (Ephron); `jehu` (Jehu)
