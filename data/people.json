@@ -9957,7 +9957,8 @@
     "genealogy": {
       "father": "zelophehad"
     },
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/noah-2.png"
   },
   {
     "person_id": "hoglah",
@@ -10032,7 +10033,8 @@
     "genealogy": {
       "father": "zelophehad"
     },
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/tirzah.png"
   },
   {
     "person_id": "shuthelah",
@@ -19079,7 +19081,8 @@
       "exile"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 15:30"
+    "first_reference": "2 Kings 15:30",
+    "image2": "images/portraits2/hoshea.png"
   },
   {
     "person_id": "elah-3",
@@ -40297,7 +40300,8 @@
       "wall rebuilding"
     ],
     "image": "generic-priest.png",
-    "first_reference": "Ezra 8:33"
+    "first_reference": "Ezra 8:33",
+    "image2": "images/portraits2/meremoth.png"
   },
   {
     "person_id": "uriah-2",
