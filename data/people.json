@@ -7937,7 +7937,8 @@
       "father": "aaron",
       "mother": "elisheba"
     },
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "image2": "images/portraits2/abihu.png"
   },
   {
     "person_id": "eleazar",
@@ -15970,7 +15971,8 @@
       "judgment on unfaithfulness"
     ],
     "image": "generic-king.png",
-    "first_reference": "1 Kings 3:1"
+    "first_reference": "1 Kings 3:1",
+    "image2": "images/portraits2/shishak.png"
   },
   {
     "person_id": "azariah",
@@ -18649,7 +18651,8 @@
       "idolatry"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 13:13"
+    "first_reference": "2 Kings 13:13",
+    "image2": "images/portraits2/jeroboam-2.png"
   },
   {
     "person_id": "jehoaddin",
@@ -19236,7 +19239,8 @@
       "divine judgment"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 17:3-27"
+    "first_reference": "2 Kings 17:3-27",
+    "image2": "images/portraits2/shalmaneser.png"
   },
   {
     "person_id": "so",
