@@ -11065,6 +11065,7 @@
       "unlikely weapons"
     ],
     "image": "generic-warrior.png",
+    "image2": "shamgar.png",
     "gender": "male",
     "first_reference": "Judges 3:31"
   },
@@ -12279,6 +12280,7 @@
       "the departed glory"
     ],
     "image": "generic-figure.png",
+    "image2": "ichabod.png",
     "first_reference": "1 Samuel 4:21",
     "tribe": "Levi"
   },
@@ -48288,6 +48290,7 @@
       "the royal court"
     ],
     "image": "generic-figure.png",
+    "image2": "shelemiah-6.png",
     "first_reference": "Jeremiah 36:26"
   },
   {
@@ -53255,6 +53258,7 @@
       "idolatry and profit"
     ],
     "image": "generic-figure.png",
+    "image2": "demetrius.png",
     "first_reference": "Acts 19:24-38"
   },
   {
