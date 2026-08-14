@@ -1434,7 +1434,8 @@
       "table of nations"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 5:32"
+    "first_reference": "Genesis 5:32",
+    "image2": "images/portraits2/japheth.png"
   },
   {
     "person_id": "canaan",
@@ -1469,7 +1470,8 @@
       "consequences of sin"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 9:18-27"
+    "first_reference": "Genesis 9:18-27",
+    "image2": "images/portraits2/canaan.png"
   },
   {
     "person_id": "gomer",
@@ -10775,7 +10777,8 @@
       "God's deliverance through Deborah and Barak"
     ],
     "image": "generic-king.png",
-    "first_reference": "Joshua 10:33"
+    "first_reference": "Joshua 10:33",
+    "image2": "images/portraits2/jabin.png"
   },
   {
     "person_id": "jobab-3",
@@ -14039,7 +14042,8 @@
       "expansion of Israel's borders"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Samuel 8:3-12"
+    "first_reference": "2 Samuel 8:3-12",
+    "image2": "images/portraits2/hadadezer.png"
   },
   {
     "person_id": "rehob",
