@@ -9414,7 +9414,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Numbers 16:1-27",
-    "tribe": "Reuben"
+    "tribe": "Reuben",
+    "image2": "images/portraits2/dathan.png"
   },
   {
     "person_id": "abiram",
@@ -12807,7 +12808,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Samuel 16:6",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/eliab-3.png"
   },
   {
     "person_id": "abinadab-3",
@@ -19149,7 +19151,8 @@
       "divine judgment on nations"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 15:37"
+    "first_reference": "2 Kings 15:37",
+    "image2": "images/portraits2/rezin.png"
   },
   {
     "person_id": "ahaz",
@@ -20614,7 +20617,8 @@
       "defying a prophet's word"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Kings 25:23"
+    "first_reference": "2 Kings 25:23",
+    "image2": "images/portraits2/johanan.png"
   },
   {
     "person_id": "kareah",
