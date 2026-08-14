@@ -17093,7 +17093,8 @@
       "royal family"
     ],
     "image": "generic-queen.png",
-    "first_reference": "1 Kings 15:2-13"
+    "first_reference": "1 Kings 15:2-13",
+    "image2": "images/portraits2/maacah-3.png"
   },
   {
     "person_id": "abishalom",
@@ -17343,7 +17344,8 @@
         "jehu"
       ]
     },
-    "first_reference": "1 Kings 16:1-7"
+    "first_reference": "1 Kings 16:1-7",
+    "image2": "images/portraits2/hanani.png"
   },
   {
     "person_id": "elah-2",
@@ -46996,7 +46998,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "(Job 2:11)",
-    "first_reference": "Job 2:11"
+    "first_reference": "Job 2:11",
+    "image2": "images/portraits2/eliphaz-2.png"
   },
   {
     "person_id": "bildad",
@@ -47015,7 +47018,8 @@
     ],
     "image": "generic-figure.png",
     "gender": "male",
-    "first_reference": "Job 2:11"
+    "first_reference": "Job 2:11",
+    "image2": "images/portraits2/bildad.png"
   },
   {
     "person_id": "zophar",
