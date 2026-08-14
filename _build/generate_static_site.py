@@ -97,27 +97,23 @@ def portrait_img_html(person, base):
     Caller must check portrait_exists first.
 
     A person with a unique stained-glass portrait (portraits2-web) gets a
-    name-specific alt text and a visible caption under the image — both
-    built from the person's name rather than the stored image.caption
-    field, which for anyone who moved from a shared generic icon to a
-    stained-glass portrait still holds the old generic-icon wording (e.g.
-    "Generic line-art icon for figures..."). That stale text would
-    misdescribe the actual displayed image and give Google Images no
-    person-specific signal for this page. Anyone still on a shared
-    generic/legacy icon keeps the old image.caption-based alt text and no
-    visible caption, since that image genuinely isn't unique to them."""
+    name-specific alt text — built from the person's name rather than the
+    stored image.caption field, which for anyone who moved from a shared
+    generic icon to a stained-glass portrait still holds the old
+    generic-icon wording (e.g. "Generic line-art icon for figures...").
+    That stale text would misdescribe the actual displayed image and give
+    Google Images no person-specific signal for this page. Anyone still on
+    a shared generic/legacy icon keeps the old image.caption-based alt
+    text, since that image genuinely isn't unique to them."""
     portrait_dir, portrait_file = resolve_portrait_file(person)
     img_url = f'{base}images/{portrait_dir}/{esc(portrait_file)}'
     full_file = resolve_full_portrait_file(person)
     if full_file:
-        caption_text = f'{person["name"]} — stained-glass style portrait'
-        alt = esc(caption_text)
-        caption_html = f'<p class="portrait-caption">{esc(caption_text)}</p>'
+        alt = esc(f'{person["name"]} — stained-glass style portrait')
     else:
         image_meta = person.get("image") if isinstance(person.get("image"), dict) else None
         caption = image_meta.get("caption") if image_meta else None
         alt = f'{esc(person["name"])} — {esc(caption)}' if caption else esc(person["name"])
-        caption_html = ""
     img_tag = f'<img src="{img_url}" alt="{alt}">'
     if not full_file:
         return img_tag
@@ -126,7 +122,7 @@ def portrait_img_html(person, base):
         f'<a href="{full_url}" class="portrait-lightbox" target="_blank" rel="noopener" '
         f'aria-label="View full-size image of {esc(person["name"])}">{img_tag}</a>'
     )
-    return linked_img + caption_html
+    return linked_img
 
 
 def truncate(text, max_len=155):

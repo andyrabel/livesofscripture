@@ -612,14 +612,6 @@ main {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
-.person-portrait-col .portrait-caption {
-  color: var(--color-text-muted);
-  font-size: 0.75rem;
-  text-align: center;
-  max-width: 140px;
-  margin: 0;
-}
-
 .person-header .image-placeholder {
   width: 140px;
   height: 140px;
