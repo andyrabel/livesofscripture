@@ -3037,6 +3037,7 @@
       "prayer"
     ],
     "image": "generic-figure.png",
+    "image2": "eliezer.png",
     "timeline": {
       "precision": "era"
     },
@@ -11114,6 +11115,7 @@
       "worship through song"
     ],
     "image": "generic-prophet.png",
+    "image2": "deborah-2.png",
     "timeline": {
       "precision": "era"
     },
@@ -50921,6 +50923,7 @@
       "quiet faithfulness"
     ],
     "image": "generic-woman.png",
+    "image2": "salome.png",
     "first_reference": "Mark 15:40"
   },
   {
@@ -51850,6 +51853,7 @@
       "women disciples"
     ],
     "image": "generic-woman.png",
+    "image2": "joanna.png",
     "first_reference": "Luke 8:3"
   },
   {
