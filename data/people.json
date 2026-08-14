@@ -3469,7 +3469,8 @@
       "the promised land"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 23:8-17"
+    "first_reference": "Genesis 23:8-17",
+    "image2": "images/portraits2/ephron.png"
   },
   {
     "person_id": "laban",
@@ -14715,7 +14716,8 @@
       "narrow escape"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Samuel 15:27-36"
+    "first_reference": "2 Samuel 15:27-36",
+    "image2": "images/portraits2/jonathan-3.png"
   },
   {
     "person_id": "hushai",
@@ -17327,7 +17329,8 @@
       "rebuke of kings"
     ],
     "image": "generic-prophet.png",
-    "first_reference": "1 Kings 16:1-12"
+    "first_reference": "1 Kings 16:1-12",
+    "image2": "images/portraits2/jehu.png"
   },
   {
     "person_id": "hanani",
@@ -20453,7 +20456,8 @@
       "compromise"
     ],
     "image": "generic-figure.png",
-    "first_reference": "2 Kings 24:8"
+    "first_reference": "2 Kings 24:8",
+    "image2": "images/portraits2/elnathan.png"
   },
   {
     "person_id": "zedekiah-2",
