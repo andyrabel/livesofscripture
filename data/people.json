@@ -6050,6 +6050,7 @@
       "God's presence in hardship"
     ],
     "image": "generic-figure.png",
+    "image2": "potiphar.png",
     "timeline": {
       "precision": "era"
     },
@@ -10710,6 +10711,7 @@
       "divine judgment on Canaanite kings"
     ],
     "image": "generic-king.png",
+    "image2": "piram.png",
     "first_reference": "Joshua 10:3-23"
   },
   {
@@ -10730,6 +10732,7 @@
       "Joshua's conquest"
     ],
     "image": "generic-king.png",
+    "image2": "japhia.png",
     "first_reference": "Joshua 10:3-23"
   },
   {
@@ -10749,6 +10752,7 @@
       "judgment on Canaanite kings"
     ],
     "image": "generic-king.png",
+    "image2": "debir.png",
     "first_reference": "Joshua 10:3-23"
   },
   {
