@@ -52658,6 +52658,7 @@
       "precision": "era"
     },
     "gender": "male",
+    "image2": "agabus.png",
     "first_reference": "Acts 11:27-28"
   },
   {
@@ -53449,6 +53450,7 @@
       "Paul's trials"
     ],
     "image": "generic-priest.png",
+    "image2": "ananias-3.png",
     "first_reference": "Acts 23:2"
   },
   {
@@ -53496,6 +53498,7 @@
       "providence"
     ],
     "image": "generic-warrior.png",
+    "image2": "lysias.png",
     "first_reference": "Acts 23:26"
   },
   {
@@ -53610,6 +53613,7 @@
       "royal spectacle"
     ],
     "image": "generic-woman.png",
+    "image2": "bernice.png",
     "gender": "female",
     "first_reference": "Acts 25:13-23"
   },
