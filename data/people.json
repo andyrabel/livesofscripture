@@ -8183,7 +8183,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Exodus 17:10-12",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/hur.png"
   },
   {
     "person_id": "eliezer-2",
@@ -12853,7 +12854,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Samuel 16:9",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/shimeah.png"
   },
   {
     "person_id": "goliath",
@@ -26716,7 +26718,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "1 Chronicles 6:33",
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "image2": "images/portraits2/heman-2.png"
   },
   {
     "person_id": "mahath",
@@ -50275,7 +50278,8 @@
       "God's self-revelation"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Matthew 10:3"
+    "first_reference": "Matthew 10:3",
+    "image2": "images/portraits2/judas.png"
   },
   {
     "person_id": "simon-the-zealot",

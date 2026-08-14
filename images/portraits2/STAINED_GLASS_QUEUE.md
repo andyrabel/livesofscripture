@@ -93,7 +93,7 @@ after the bump (no other reordering).
 - [x] **69** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
 - [x] **70** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)
 - [x] **71** — `hazael` (Hazael); `joash-3` (Joash); `ben-hadad` (Ben-hadad); `shem` (Shem)
-- [ ] **72** — `hur` (Hur); `shimeah` (Shimeah); `heman-2` (Heman); `judas` (Judas)
+- [x] **72** — `hur` (Hur); `shimeah` (Shimeah); `heman-2` (Heman); `judas` (Judas)
 - [ ] **73** — `joram-2` (Joram); `ham` (Ham); `joash-4` (Joash); `amasa` (Amasa)
 - [ ] **74** — `jeroboam-2` (Jeroboam); `abihu` (Abihu); `shishak` (Shishak); `shalmaneser` (Shalmaneser)
 - [ ] **75** — `canaan` (Canaan); `japheth` (Japheth); `hadadezer` (Hadadezer); `jabin` (Jabin)
