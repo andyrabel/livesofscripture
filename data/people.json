@@ -10690,6 +10690,7 @@
       "judgment on Canaanite kings"
     ],
     "image": "generic-king.png",
+    "image2": "hoham.png",
     "first_reference": "Joshua 10:1-23"
   },
   {
@@ -11760,6 +11761,7 @@
       "precision": "era"
     },
     "gender": "male",
+    "image2": "manoah.png",
     "first_reference": "Judges 13:2-23",
     "genealogy": {
       "children": [
@@ -11833,6 +11835,7 @@
       "precision": "era"
     },
     "gender": "male",
+    "image2": "micah.png",
     "disambiguation": "(Judg 17:1-13)",
     "first_reference": "Judges 17:1-13",
     "tribe": "Ephraim"
@@ -42274,6 +42277,7 @@
       "reform"
     ],
     "image": "generic-priest.png",
+    "image2": "eliashib-7.png",
     "genealogy": {
       "children": [
         "joiada-3"
