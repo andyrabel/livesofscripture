@@ -12061,7 +12061,8 @@
     "image": "generic-figure.png",
     "gender": "male",
     "disambiguation": "(1 Sam 1:1)",
-    "first_reference": "1 Samuel 1:1"
+    "first_reference": "1 Samuel 1:1",
+    "image2": "images/portraits2/elihu.png"
   },
   {
     "person_id": "tohu",
@@ -12209,6 +12210,7 @@
     "image": "generic-priest.png",
     "gender": "male",
     "first_reference": "1 Samuel 1:3",
+    "image2": "images/portraits2/hophni.png",
     "tribe": "Levi"
   },
   {
@@ -19692,7 +19694,8 @@
       "exile foretold"
     ],
     "image": "generic-king.png",
-    "first_reference": "2 Kings 20:12-18"
+    "first_reference": "2 Kings 20:12-18",
+    "image2": "images/portraits2/berodach-baladan.png"
   },
   {
     "person_id": "baladan",
@@ -43704,6 +43707,7 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Nehemiah 8:7",
+    "image2": "images/portraits2/jeshua-7.png",
     "tribe": "Levi"
   },
   {
