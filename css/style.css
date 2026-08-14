@@ -1944,8 +1944,31 @@ header.site-header nav a.nav-cta:hover {
   flex-shrink: 0;
 }
 
+.home-spotlight__media {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  width: 110px;
+}
+
 .home-spotlight__thumb-link {
   flex-shrink: 0;
+}
+
+.home-spotlight__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.home-spotlight__action {
+  width: 100%;
+  justify-content: center;
+  padding: 0.35rem 0.4rem;
+  font-size: 0.72rem;
+  line-height: 1.2;
 }
 
 .home-spotlight__name-link {

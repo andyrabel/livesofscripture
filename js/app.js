@@ -1150,6 +1150,9 @@ async function renderHomeSpotlight(fullTier) {
   box.innerHTML = "";
   const thumb = portraitImg(pick.person_id, pick.name, "home-spotlight__thumb", pick.image, undefined, pick.image2);
   const personHref = `people/${encodeURIComponent(pick.person_id)}.html`;
+
+  const media = document.createElement("div");
+  media.className = "home-spotlight__media";
   if (pick.image2) {
     const thumbLink = document.createElement("a");
     thumbLink.className = "home-spotlight__thumb-link portrait-lightbox";
@@ -1158,10 +1161,45 @@ async function renderHomeSpotlight(fullTier) {
     thumbLink.rel = "noopener";
     thumbLink.setAttribute("aria-label", `View full-size image of ${pick.name}`);
     thumbLink.appendChild(thumb);
-    box.appendChild(thumbLink);
+    media.appendChild(thumbLink);
   } else {
-    box.appendChild(thumb);
+    media.appendChild(thumb);
   }
+
+  const excerptText = truncateExcerpt(person?.source_summary, 280);
+
+  const actions = document.createElement("div");
+  actions.className = "home-spotlight__actions";
+
+  const readBtn = document.createElement("button");
+  readBtn.type = "button";
+  readBtn.className = "btn-story home-spotlight__action";
+  readBtn.textContent = "\u{1F50A} Read Aloud";
+  readBtn.addEventListener("click", () => readAloud(excerptText, pick.name, readBtn));
+  actions.appendChild(readBtn);
+
+  const copyBtn = document.createElement("button");
+  copyBtn.type = "button";
+  copyBtn.className = "btn-story home-spotlight__action";
+  copyBtn.textContent = "Copy";
+  copyBtn.addEventListener("click", async () => {
+    const text = `${pick.name}\n\n${excerptText}`;
+    try {
+      await navigator.clipboard.writeText(text);
+      copyBtn.textContent = "Copied!";
+      copyBtn.classList.add("copied");
+    } catch (err) {
+      copyBtn.textContent = "Copy failed";
+    }
+    setTimeout(() => {
+      copyBtn.textContent = "Copy";
+      copyBtn.classList.remove("copied");
+    }, 2000);
+  });
+  actions.appendChild(copyBtn);
+
+  media.appendChild(actions);
+  box.appendChild(media);
 
   const text = document.createElement("div");
   const label = document.createElement("div");
@@ -1187,7 +1225,7 @@ async function renderHomeSpotlight(fullTier) {
 
   const excerpt = document.createElement("p");
   excerpt.className = "home-spotlight__excerpt";
-  excerpt.textContent = truncateExcerpt(person?.source_summary, 280);
+  excerpt.textContent = excerptText;
   text.appendChild(excerpt);
 
   const a = document.createElement("a");
