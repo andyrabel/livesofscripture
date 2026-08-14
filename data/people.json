@@ -10666,7 +10666,8 @@
       "coalition against Israel"
     ],
     "image": "generic-king.png",
-    "first_reference": "Joshua 8:1-29"
+    "first_reference": "Joshua 8:1-29",
+    "image2": "images/portraits2/adoni-zedek.png"
   },
   {
     "person_id": "hoham",
@@ -17923,6 +17924,7 @@
     "gender": "male",
     "disambiguation": "son of Chenaanah (1 Kings 22:11-24)",
     "first_reference": "1 Kings 22:11-24",
+    "image2": "images/portraits2/zedekiah.png",
     "kingdom": "israel",
     "topics": [
       "false prophecy",
@@ -18183,7 +18185,8 @@
       "faith of an outsider"
     ],
     "image": "generic-warrior.png",
-    "first_reference": "2 Kings 5:1-27"
+    "first_reference": "2 Kings 5:1-27",
+    "image2": "images/portraits2/naaman-2.png"
   },
   {
     "person_id": "ahaziah-2",
@@ -19506,6 +19509,7 @@
     "gender": "male",
     "disambiguation": "son of Asaph (2 Kings 18:18-37)",
     "first_reference": "2 Kings 18:18-37",
+    "image2": "images/portraits2/joah.png",
     "genealogy": {
       "father": "asaph"
     }
