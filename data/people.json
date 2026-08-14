@@ -3133,6 +3133,7 @@
       "Abimelech's court"
     ],
     "image": "generic-warrior.png",
+    "image2": "phicol.png",
     "first_reference": "Genesis 21:22-32"
   },
   {
@@ -15991,6 +15992,7 @@
       "David's final days"
     ],
     "image": "generic-woman.png",
+    "image2": "abishag.png",
     "first_reference": "1 Kings 1:3-15"
   },
   {
@@ -47620,6 +47622,7 @@
       "judgment on false witness"
     ],
     "image": "generic-prophet.png",
+    "image2": "hananiah-10.png",
     "first_reference": "Jeremiah 28:1-17"
   },
   {
@@ -47704,6 +47707,7 @@
       "attempted intercession for God's word"
     ],
     "image": "generic-figure.png",
+    "image2": "gemariah.png",
     "first_reference": "Jeremiah 29:3",
     "tribe": "Levi"
   },
