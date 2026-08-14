@@ -1371,7 +1371,8 @@
       "the line to Abraham"
     ],
     "image": "generic-figure.png",
-    "first_reference": "Genesis 5:32"
+    "first_reference": "Genesis 5:32",
+    "image2": "images/portraits2/shem.png"
   },
   {
     "person_id": "ham",
@@ -17171,7 +17172,8 @@
       "divine deliverance"
     ],
     "image": "generic-king.png",
-    "first_reference": "1 Kings 15:18-20"
+    "first_reference": "1 Kings 15:18-20",
+    "image2": "images/portraits2/ben-hadad.png"
   },
   {
     "person_id": "tabrimmon",
@@ -17691,7 +17693,8 @@
         "ben-hadad-2"
       ]
     },
-    "first_reference": "1 Kings 19:15-17"
+    "first_reference": "1 Kings 19:15-17",
+    "image2": "images/portraits2/hazael.png"
   },
   {
     "person_id": "jehu-2",
@@ -18371,7 +18374,8 @@
     ],
     "image": "generic-king.png",
     "first_reference": "2 Kings 11:2-21",
-    "tribe": "Judah"
+    "tribe": "Judah",
+    "image2": "images/portraits2/joash-3.png"
   },
   {
     "person_id": "jehoiada-2",
