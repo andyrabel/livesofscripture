@@ -7455,7 +7455,8 @@
       "Moses' early life"
     ],
     "image": "generic-king.png",
-    "first_reference": "Exodus 1:11-22"
+    "first_reference": "Exodus 1:11-22",
+    "image2": "images/portraits2/pharaoh-3.png"
   },
   {
     "person_id": "shiphrah",
@@ -7803,7 +7804,8 @@
     ],
     "image": "generic-figure.png",
     "first_reference": "Exodus 6:22",
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "image2": "images/portraits2/elzaphan.png"
   },
   {
     "person_id": "sithri",
@@ -10200,7 +10202,8 @@
     "gender": "male",
     "disambiguation": "son of Segub (Num 32:41)",
     "first_reference": "Numbers 32:41",
-    "tribe": "Manasseh"
+    "tribe": "Manasseh",
+    "image2": "images/portraits2/jair.png"
   },
   {
     "person_id": "nobah",
@@ -12519,7 +12522,8 @@
         "shobi"
       ]
     },
-    "first_reference": "1 Samuel 11:1-2"
+    "first_reference": "1 Samuel 11:1-2",
+    "image2": "images/portraits2/nahash.png"
   },
   {
     "person_id": "ahijah",
