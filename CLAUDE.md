@@ -1057,6 +1057,36 @@ Consequences for the file layout above:
   and include all resulting `people/`, `sitemap.xml`, and `people.html` changes
   in the same commit. CI rejects drift from the source JSON.
 
+**SEO/AI-crawlability additions (2026-08-16):**
+- **`llms.txt`** at the site root — a plain-Markdown summary + key-page index
+  for LLM crawlers, following the emerging (non-standardized) `llms.txt`
+  convention. Hand-maintained, not generated; update it when top-level pages
+  are added/removed or the content model changes.
+- **Stub person pages are `noindex, follow`** (`build_person_page` in
+  `_build/generate_static_site.py`) and excluded from `sitemap.xml` — 2,253
+  single-reference genealogy-listing pages with no narrative content, kept
+  crawlable (so the genealogy graph stays reachable/linkable) but not asked
+  of Google to index as standalone search results. Full-tier pages are
+  unaffected (still indexed, still in the sitemap). This follows Google's
+  own guidance of not listing noindexed URLs in a sitemap.
+- **`BreadcrumbList` JSON-LD** added site-wide: person pages (Home > People >
+  {Name}), church pages (Home > Churches [> {Church}]), chart pages (Home >
+  Charts [> {Chart}]), and the other hand-authored top-level pages (People,
+  Timeline, Connections, Quiz, About — each a two-crumb Home > {Page}). Person
+  pages carry the breadcrumb as a second `<script type="application/ld+json">`
+  block alongside the existing `Person` block rather than merged into one
+  `@graph`, matching the site's existing one-block-per-concept JSON-LD
+  pattern. New chart-page builders should follow the same
+  `breadcrumb_json_ld()` helper.
+- Confirmed (not changed): the live site already exclusively serves
+  `images/portraits2-web/` (resized, branded JPEGs) for anyone with a
+  stained-glass portrait — `resolve_portrait_file()` in the generator and
+  `portraitImg()` in `js/app.js` both prefer it over the 1024px lossless
+  `images/portraits2/` source, and nothing in `*.html`/`*.js`/`*.css`
+  references `images/portraits2/` directly. The full-resolution PNGs remain
+  on disk solely for the private Facebook/Instagram posting pipeline
+  (`_build/fb/`, gitignored) — not for the website itself.
+
 ### Markdown document convention
 
 Every Markdown file must start with a top-level title followed immediately by

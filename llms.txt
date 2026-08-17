@@ -1,0 +1,40 @@
+# Lives of Scripture
+
+> A reference for every person named in the Bible — who they were, how they
+> connect by genealogy and relationship, and what their story reveals about
+> God's redemptive plan. Content is grounded in the biblical text itself
+> (NASB as the base translation, KJV name-spelling selectable), not
+> Wikipedia, and is written from a conservative evangelical (Open Brethren /
+> Plymouth Brethren) theological perspective. No verse text is quoted
+> anywhere on the site for copyright reasons — citations are
+> book/chapter/verse references only.
+
+## Content model
+
+- Two tiers: "full" entries (~700 narratively-documented figures) carry a
+  story, a devotional reflection, genealogy, and an image. "Stub" entries
+  (~2,250 names) are single-reference genealogy/list mentions with no
+  narrative to tell — they exist to keep the genealogy graph complete, not
+  as standalone articles, and are marked `noindex` accordingly.
+- Every person page states its sources as Scripture references
+  (book:chapter:verse), never inventing narrative content beyond what the
+  text states. Disputed identifications, dating, and authorship questions
+  are labeled as disputed rather than resolved silently.
+
+## Key pages
+
+- [Home](https://livesofscripture.org/): overview, featured person, and quiz question.
+- [People](https://livesofscripture.org/people.html): searchable/filterable index of every named person.
+- [Timeline](https://livesofscripture.org/timeline.html): chronological view across biblical eras.
+- [Connections](https://livesofscripture.org/connections.html): genealogy and narrative-relationship graph.
+- [Churches](https://livesofscripture.org/churches.html): every New Testament church and the people Scripture ties to it by name.
+- [Charts](https://livesofscripture.org/charts.html): kings & prophets timeline, the two genealogies of Jesus, the twelve tribes, and chapter-by-chapter charts of Genesis, Job, and Acts.
+- [Quiz](https://livesofscripture.org/quiz.html): a printable Bible-knowledge quiz builder.
+- [About](https://livesofscripture.org/about.html): sourcing, translation handling, and methodology.
+- [Sitemap](https://livesofscripture.org/sitemap.xml): full URL list (full-tier person pages, church pages, and site pages; stub person pages are intentionally excluded — see Content model above).
+
+## Sourcing
+
+- Primary source: the biblical text itself (NASB).
+- Background/context: Easton's Bible Dictionary, Smith's Bible Dictionary, ISBE, Hitchcock's Bible Names Dictionary (all public domain).
+- Genealogy data: [BradyStephenson/bible-data](https://github.com/bradystephenson/bible-data) (CC BY 4.0).

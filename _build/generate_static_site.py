@@ -609,6 +609,25 @@ def meta_description_for(person):
     return truncate(text)
 
 
+def breadcrumb_json_ld(items):
+    """items: list of (name, url_or_None) tuples, in order from the site
+    root to the current page. The current (last) page's url is normally
+    None — Google's breadcrumb guidance doesn't require an item URL for the
+    final crumb since it's the page the breadcrumb is already on."""
+    element_list = []
+    for position, (name, url) in enumerate(items, start=1):
+        entry = {"@type": "ListItem", "position": position, "name": name}
+        if url:
+            entry["item"] = url
+        element_list.append(entry)
+    data = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": element_list,
+    }
+    return json.dumps(data, indent=2, ensure_ascii=False)
+
+
 def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_exists):
     data = {
         "@context": "https://schema.org",
@@ -685,6 +704,19 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
         body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person, people_by_name)
 
     json_ld = person_json_ld(person, index_by_id, SITE_URL, canonical, og_image, portrait_exists)
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"),
+        ("People", f"{SITE_URL}/people.html"),
+        (person["name"], None),
+    ])
+    # Stub entries are single-reference genealogy listings with no
+    # narrative — real content for the connections graph, but too thin to
+    # ask Google to index 2,000+ of as standalone search results. Keeping
+    # them "follow" (not "nofollow") still lets crawlers reach every page
+    # through the genealogy links, just without indexing each one.
+    robots_meta = (
+        '<meta name="robots" content="noindex, follow">\n' if person["tier"] != "full" else ""
+    )
 
     html_out = f"""<!DOCTYPE html>
 <html lang="en">
@@ -694,7 +726,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{canonical}">
-
+{robots_meta}
 <link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="{base}favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
@@ -715,6 +747,9 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
 <link rel="stylesheet" href="{base}css/style.css">
 <script type="application/ld+json">
 {json_ld}
+</script>
+<script type="application/ld+json">
+{breadcrumb_ld}
 </script>
 </head>
 <body>
@@ -792,6 +827,7 @@ def build_churches_list_page(churches):
     title = "New Testament Churches — Lives of Scripture"
     description = "Every local church named in the New Testament, with the people Scripture explicitly ties to each by name and reference."
     cards = "\n    ".join(church_card_html(c) for c in sorted(churches, key=lambda c: c["name"]))
+    breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Churches", None)])
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -820,6 +856,9 @@ def build_churches_list_page(churches):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "churches.html")}
@@ -907,6 +946,11 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 
     references_html = references_list(church["references"]) if church.get("references") else ""
     json_ld = church_json_ld(church, index_by_id, canonical)
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"),
+        ("Churches", f"{SITE_URL}/churches.html"),
+        (church["name"], None),
+    ])
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -937,6 +981,9 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 <link rel="stylesheet" href="{base}css/style.css">
 <script type="application/ld+json">
 {json_ld}
+</script>
+<script type="application/ld+json">
+{breadcrumb_ld}
 </script>
 </head>
 <body>
@@ -1615,6 +1662,10 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
     canonical = f"{SITE_URL}/charts/genealogies-of-jesus.html"
     title = "The Two Genealogies of Jesus — Lives of Scripture"
     description = "Matthew's and Luke's genealogies of Jesus, compared and joined on one family-tree chart."
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_genealogies_svg(index_by_id, ref_by_id)
     legend = render_genealogies_legend()
@@ -1648,6 +1699,9 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -2086,6 +2140,10 @@ def build_tribe_sunburst_chart_page(layout):
     title = "The Twelve Tribes, By Mother — Lives of Scripture"
     description = (f'{layout["total_people"]} biblical people grouped by which of Jacob\'s four wives they '
                     f"descend from, then by tribe, in one sunburst chart.")
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_tribe_sunburst_svg(layout)
     legend = render_tribe_legend(layout)
@@ -2119,6 +2177,9 @@ def build_tribe_sunburst_chart_page(layout):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -2396,6 +2457,10 @@ def build_job_chapters_chart_page(chapters):
     canonical = f"{SITE_URL}/charts/job-chapters.html"
     title = "Job — Main Speaker by Chapter — Lives of Scripture"
     description = "Every speech in the book of Job, one row per speaker, laid out across all 42 chapters as a timeline."
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_job_chapters_svg(chapters)
     legend = render_job_chapters_legend()
@@ -2428,6 +2493,9 @@ def build_job_chapters_chart_page(chapters):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -2810,6 +2878,10 @@ def build_genesis_chapters_chart_page(chapters):
     canonical = f"{SITE_URL}/charts/genesis-chapters.html"
     title = "Genesis — Main Characters by Chapter — Lives of Scripture"
     description = "Every chapter of Genesis, colored by whose story it tells — from Adam and Eve to Noah, Abraham, Jacob, and Joseph."
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_genesis_chapters_svg(chapters)
     legend = render_genesis_chapters_legend()
@@ -2842,6 +2914,9 @@ def build_genesis_chapters_chart_page(chapters):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -3153,6 +3228,10 @@ def build_acts_chapters_chart_page(chapters):
     canonical = f"{SITE_URL}/charts/acts-chapters.html"
     title = "Acts — Main Characters by Chapter — Lives of Scripture"
     description = "Every chapter of Acts, colored by whose story it tells — the book's pivot from Peter's ministry to Paul's, with Stephen and Philip between."
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_acts_chapters_svg(chapters)
     legend = render_acts_chapters_legend()
@@ -3185,6 +3264,9 @@ def build_acts_chapters_chart_page(chapters):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -3241,6 +3323,7 @@ def build_charts_list_page():
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
     description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, who's speaking in each chapter of Job, and whose story each chapter of Genesis and Acts tells."
+    breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Charts", None)])
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -3269,6 +3352,9 @@ def build_charts_list_page():
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -3329,6 +3415,10 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
     canonical = f"{SITE_URL}/charts/kings-and-prophets.html"
     title = "Kings & Prophets of the Monarchy — Lives of Scripture"
     description = "The kings of the United Kingdom, Israel, and Judah, and the prophets active in their reigns, on one timeline."
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
 
     svg = render_kings_and_prophets_svg(rows)
     legend = render_kings_and_prophets_legend()
@@ -3374,6 +3464,9 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
 
 <link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
 </head>
 <body>
 {header_html(base, "charts.html")}
@@ -3446,7 +3539,14 @@ def build_sitemap(index, churches):
         for loc, freq, prio in urls
     ]
     for entry in index:
-        priority = "0.8" if entry["tier"] == "full" else "0.3"
+        # Stub person pages are noindex (see build_person_page) — thin,
+        # single-reference genealogy listings, not something to ask Google
+        # to crawl-and-index via the sitemap. Leaving them out of the
+        # sitemap entirely follows Google's own guidance for noindexed URLs;
+        # they're still reachable (and crawlable) via genealogy links.
+        if entry["tier"] != "full":
+            continue
+        priority = "0.8"
         loc = f'{SITE_URL}/people/{entry["person_id"]}.html'
         # Image sitemap extension, restricted to the unique stained-glass
         # portrait (portraits2-web) — the shared generic/legacy icons are
