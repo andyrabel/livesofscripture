@@ -33,132 +33,64 @@ it is intentionally stable rather than pretending fame has an exact metric.
 
 ## Queue
 
-Batches 01-56 are complete and have been removed from this file to keep it
-focused on remaining work; the portraits, `image2` references, and commit
-history for those batches remain the record of what was done.
+Completed batches are removed from this file to keep it focused on
+remaining work; the portraits, `image2` references, and commit history
+remain the record of what was done. Remaining people are ordered by a
+reproducible heuristic (reference count + distinct-book spread + total
+verse span) — an editorial estimate, not a claim of exact fame ordering,
+consistent with this document's framing above.
 
-**Resorted 2026-08-10, then cleaned up the same day once batches 44-56
-finished.** The queue below (batches 57 onward, before the second resort
-described next) came from a full re-rank done that day: the 78
-spotlight-ineligible people then in the queue (`spotlight_eligible: false`
-— of the ~113 people site-wide with that flag, only these 78 were still
-in this queue; the rest already have a portrait from batches 01-43 — a
-single brief episode with minimal narrative weight, see
-`_build/mark_spotlight_eligibility.py`) were moved out to the Paused
-section below, and the remaining people were re-ordered by broad
-recognizability, New Testament preferred over Old Testament wherever the
-two were close enough to call either way. The curated front of that
-resort (clearly widely-known figures — Judas Iscariot, Pontius Pilate,
-Judah, Herod, Lazarus of Bethany, Ruth and Boaz, and similar) has since
-been completed and removed above as batches 44-56; the remainder falls
-back to a reproducible heuristic (reference count + distinct-book spread
-+ total verse span) — an editorial estimate, not a claim of exact fame
-ordering, consistent with this document's framing above.
+`erastus` (the Ephesus/Acts 19:22 Erastus, distinct from `erastus-2`) and
+`mary-5` are queued at the front below as an exception to this queue's
+normal `devotionals`-based eligibility rule — both are full-tier but have
+no `devotionals` entry. They are queued for a portrait only, because both
+are needed for their church's group photo (Ephesus and Rome respectively);
+do not add `devotionals` or any other full-tier content for them as part
+of completing this batch — they otherwise stay exactly as they are.
 
-**Bumped again 2026-08-10 for the "New Testament Church group photo" prototype**
-(see the person-page "New Testament Church" section and
-`data/nt_churches.json`). Andrew wants a composite image tiling every
-member's stained-glass portrait on each church's detail page, so any
-full-tier church member still missing a portrait was moved to the very
-front of the queue regardless of where the broad-recognizability resort
-above had placed them — batches 57-67 below. Order within the bump is by
-first appearance walking `data/nt_churches.json` in file order (church by
-church, member by member), not a fame re-estimate. This pulled 12 people
-out of the Paused — spotlight-ineligible section too (Prochorus, Parmenas,
-Judas [`judas-5`], Eunice, Lois, Dionysius, Forunatus, Achaicus, Archippus,
-Epanetus, Persis, Antipas) — their `spotlight_eligible: false` status is
-unchanged and still governs the home spotlight/FB-IG selection, it just no
-longer blocks them from getting a portrait, since a group photo needs
-every member regardless of spotlight eligibility. Two more full-tier
-church members (`erastus` — the Ephesus/Acts 19:22 Erastus, distinct from
-`erastus-2` — and `mary-5`) are still not queued at all and were *not*
-added here: neither has a `devotionals` entry, which is this queue's own
-base eligibility rule, so adding them would require a separate decision
-about `devotionals` eligibility, not just a reordering. Batches 68 onward
-are the untouched remainder of the prior resort, renumbered contiguously
-after the bump (no other reordering).
+Each New Testament Church's group photo (see the person-page "New
+Testament Church" section and `data/nt_churches.json`) is a single, newly
+generated stained-glass image showing the members standing together side
+by side in one continuous scene, the way a real group photograph is
+composed, even though the resulting image obviously contains multiple
+people. Every member appears as their own recognizable figure with a
+small, restrained, Scripture-grounded identifying prop drawn from their
+own JSON (same no-invented-detail rule as the individual series), sharing
+one unified window rather than being assembled from separately-generated
+portrait files. This is separate from the individual-portrait queue above
+— those single-person portraits are still needed for each person's own
+page regardless. See "Prompt for New Testament Church group photos" below
+for the generation instructions; no group photo has been generated yet.
 
-- [x] **57** — `prochorus` (Prochorus); `nicanor` (Nicanor); `parmenas` (Parmenas); `nicolas` (Nicolas)
-- [x] **58** — `mary-4` (Mary); `rhoda` (Rhoda); `judas-5` (Judas); `manaen` (Manaen)
-- [x] **59** — `eunice` (Eunice); `lois` (Lois); `lydia` (Lydia); `epaphroditus` (Epaphroditus)
-- [x] **60** — `euodia` (Euodia); `demas` (Demas); `jason` (Jason); `aristarchus` (Aristarchus)
-- [x] **61** — `dionysius` (Dionysius); `damaris` (Damaris); `crispus` (Crispus); `sosthenes` (Sosthenes)
-- [x] **62** — `gaius` (Gaius); `erastus-2` (Erastus); `forunatus` (Forunatus); `achaicus` (Achaicus)
-- [x] **63** — `chloe` (Chloe); `tertius` (Tertius); `phoebe` (Phoebe); `tychicus` (Tychicus)
-- [x] **64** — `trophimus` (Trophimus); `onesiphorus` (Onesiphorus); `hymenaeus` (Hymenaeus); `philetus` (Philetus)
-- [x] **65** — `archippus` (Archippus); `nympha` (Nympha); `epanetus` (Epanetus); `andronicus` (Andronicus)
-- [x] **66** — `junias` (Junia); `persis` (Persis); `rufus` (Rufus); `antipas` (Antipas)
-- [x] **67** — `tabitha` (Tabitha); `simon-6` (Simon)
-- [x] **68** — `jotham-2` (Jotham); `jehoram` (Jehoram); `ithamar` (Ithamar); `machir` (Machir)
-- [x] **69** — `nahshon` (Nahshon); `jeduthun` (Jeduthun); `philip` (Philip); `pharaoh-2` (Pharaoh)
-- [x] **70** — `pharaoh-7` (Pharaoh); `kish` (Kish); `rebekah` (Rebekah); `asaph-2` (Asaph)
-- [x] **71** — `hazael` (Hazael); `joash-3` (Joash); `ben-hadad` (Ben-hadad); `shem` (Shem)
-- [x] **72** — `hur` (Hur); `shimeah` (Shimeah); `heman-2` (Heman); `judas` (Judas)
-- [x] **73** — `joram-2` (Joram); `ham` (Ham); `joash-4` (Joash); `amasa` (Amasa)
-- [x] **74** — `jeroboam-2` (Jeroboam); `abihu` (Abihu); `shishak` (Shishak); `shalmaneser` (Shalmaneser)
-- [x] **75** — `canaan` (Canaan); `japheth` (Japheth); `hadadezer` (Hadadezer); `jabin` (Jabin)
-- [x] **76** — `shelah-2` (Shelah); `asahel` (Asahel); `pharaoh-neco` (Pharaoh Neco); `jehoahaz-2` (Jehoahaz)
-- [x] **77** — `nahash` (Nahash); `elzaphan` (Elzaphan); `jair` (Jair); `pharaoh-3` (Pharaoh)
-- [x] **78** — `dathan` (Dathan); `johanan` (Johanan); `eliab-3` (Eliab); `rezin` (Rezin)
-- [x] **79** — `onan` (Onan); `er` (Er); `abinadab-2` (Abinadab); `sibbecai` (Sibbecai)
-- [x] **80** — `judas-3` (Judas); `obed-edom-2` (Obed-edom); `jehoahaz` (Jehoahaz); `rabshakeh` (Rabshakeh)
-- [x] **81** — `hoglah` (Hoglah); `joshua-4` (Joshua); `mahlah` (Mahlah); `milcah-2` (Milcah)
-- [x] **82** — `noah-2` (Noah); `tirzah` (Tirzah); `meremoth` (Meremoth); `hoshea` (Hoshea)
-- [x] **83** — `maacah-3` (Maacah); `hanani` (Hanani); `eliphaz-2` (Eliphaz); `bildad` (Bildad)
-- [x] **84** — `ethan` (Ethan); `abinadab` (Abinadab); `elhanan` (Elhanan); `tola` (Tola)
-- [x] **85** — `obadiah-5` (Obadiah); `seraiah-2` (Seraiah); `bethuel` (Bethuel); `elkanah-2` (Elkanah)
-- [x] **86** — `tobiah` (Tobiah); `ishmael-2` (Ishmael); `anah` (Anah); `phinehas-2` (Phinehas)
-- [x] **87** — `elnathan` (Elnathan); `jonathan-3` (Jonathan); `ephron` (Ephron); `jehu` (Jehu)
-- [x] **88** — `amasai` (Amasai); `shemaiah` (Shemaiah); `elihu-5` (Elihu); `joel` (Joel)
-- [x] **89** — `obed-edom` (Obed-edom); `oholiab` (Oholiab); `zophar` (Zophar); `abinadab-3` (Abinadab)
-- [x] **90** — `jashobeam` (Jashobeam); `jezaniah` (Jezaniah); `jonathan-4` (Jonathan); `oreb` (Oreb)
-- [x] **91** — `alexander-4` (Alexander the Coppersmith); `claudius` (Claudius); `micaiah` (Micaiah); `joash` (Joash)
-- [x] **92** — `joah` (Joah); `adoni-zedek` (Adoni-zedek); `naaman-2` (Naaman); `zedekiah` (Zedekiah)
-- [x] **93** — `shaphan` (Shaphan); `naboth` (Naboth); `ben-hadad-2` (Ben-hadad); `jonadab-2` (Jonadab)
-- [x] **94** — `jeshua-7` (Jeshua); `hophni` (Hophni); `berodach-baladan` (Berodach-baladan); `elihu` (Elihu)
-- [x] **95** — `hanun` (Hanun); `achsah` (Achsah); `joel-6` (Joel); `abijah` (Abijah)
-- [x] **96** — `amaziah-3` (Amaziah); `obed` (Obed); `shobach` (Shobach); `evil-merodach` (Evil-merodach)
-- [x] **97** — `asaiah` (Asaiah); `ahio` (Ahio); `hanani-4` (Hanani); `iddo-4` (Iddo)
-- [x] **98** — `jeriah` (Jeriah); `amariah-2` (Amariah); `azariah-14` (Azariah); `joash-2` (Joash)
-- [x] **99** — `sharezer` (Sharezer); `sheba` (Sheba); `sheshai` (Sheshai); `zacharias` (Zacharias)
-- [x] **100** — `lysias` (Lysias); `bernice` (Bernice); `agabus` (Agabus); `ananias-3` (Ananias)
-- [x] **101** — `joanna` (Joanna); `salome` (Salome); `eliezer` (Eliezer of Damascus); `deborah-2` (Deborah)
-- [x] **102** — `eliashib-7` (Eliashib); `micah` (Micah); `hoham` (Hoham); `manoah` (Manoah)
-- [x] **103** — `debir` (Debir); `japhia` (Japhia); `piram` (Piram); `potiphar` (Potiphar)
-- [x] **104** — `abishag` (Abishag); `hananiah-10` (Hananiah); `gemariah` (Gemariah); `phicol` (Phicol)
-- [x] **105** — `ittai` (Ittai the Gittite); `shemaiah-21` (Shemaiah); `oded` (Oded); `nadab-2` (Nadab)
-- [x] **106** — `ebed-melech` (Ebed-melech); `sheshbazzar` (Sheshbazzar); `mahlon` (Mahlon); `rizpah` (Rizpah)
-- [x] **107** — `ethan-3` (Ethan); `conaniah` (Conaniah); `machir-2` (Machir); `harbona` (Harbona)
-- [x] **108** — `ichabod` (Ichabod); `shamgar` (Shamgar); `shelemiah-6` (Shelemiah); `demetrius` (Demetrius)
-- [x] **109** — `simeon-2` (Simeon); `gaius-3` (Gaius); `gallio` (Gallio); `joseph-10` (Joseph called Barsabbas)
-- [ ] **110** — `publius` (Publius); `bar-jesus` (Bar-Jesus); `julius` (Julius); `aeneas` (Aeneas)
-- [ ] **111** — `jambres` (Jambres); `alexander-3` (Alexander); `archelaus` (Archelaus); `cleopas` (Cleopas)
-- [ ] **112** — `demetrius-2` (Demetrius); `diotrephes` (Diotrephes); `hermogenes` (Hermogenes); `jezebel-2` (Jezebel)
-- [ ] **113** — `judas-of-galilee` (Judas of Galilee); `malchus` (Malchus); `sergius-paulus` (Sergius Paulus); `hiram-2` (Hiram)
-- [ ] **114** — `agag-2` (Agag); `mesha` (Mesha); `sheba-4` (Sheba); `bera` (Bera)
-- [ ] **115** — `hirah` (Hirah); `chedorlaomer` (Chedorlaomer); `gaal` (Gaal); `delaiah-5` (Delaiah)
-- [ ] **116** — `obadiah` (Obadiah); `hegai` (Hegai); `pelatiah-4` (Pelatiah); `aner` (Aner)
-- [ ] **117** — `arioch-2` (Arioch); `eshcol` (Eshcol); `hadad-4` (Hadad); `zimri-2` (Zimri)
-- [ ] **118** — `nergal-sar-ezer-2` (Nergal-sar-ezer); `orpah` (Orpah); `elishama-6` (Elishama); `jehudi` (Jehudi)
-- [ ] **119** — `azariah-7` (Azariah); `memucan` (Memucan); `puah` (Puah); `sherebiah` (Sherebiah)
-- [ ] **120** — `shiphrah` (Shiphrah); `eglon` (Eglon); `hathach` (Hathach); `pashhur-2` (Pashhur)
-- [ ] **121** — `pharaoh` (Pharaoh); `heldai-2` (Heldai); `jedaiah-6` (Jedaiah); `pekahiah` (Pekahiah)
-- [ ] **122** — `chimham` (Chimham); `lemuel` (Lemuel); `cushan-rishathaim` (Cushan-rishathaim); `eliel-7` (Eliel)
-- [ ] **123** — `elimelech` (Elimelech); `lo-ruhamah` (Lo-ruhamah); `amminadab-2` (Amminadab); `eldad` (Eldad)
-- [ ] **124** — `purah` (Purah); `abijah-2` (Abijah); `abiram-2` (Abiram); `agur` (Agur)
-- [ ] **125** — `amasa-2` (Amasa); `ammiel` (Ammiel); `armoni` (Armoni); `asaph-4` (Asaph)
-- [ ] **126** — `ashpenaz` (Ashpenaz); `azariah-10` (Azariah); `azariah-11` (Azariah); `azariah-16` (Azariah)
-- [ ] **127** — `azaryahu` (Azaryahu); `baalis` (Baalis); `baruch` (Baruch); `berechiah-4` (Berechiah)
-- [ ] **128** — `elasah-2` (Elasah); `eleazar-2` (Eleazar); `elishaphat` (Elishaphat); `ezer-4` (Ezer)
-- [ ] **129** — `gaddi` (Gaddi); `gaddiel` (Gaddiel); `gedaliah-4` (Gedaliah); `geuel` (Geuel)
-- [ ] **130** — `gomer-2` (Gomer); `hashabneiah-2` (Hashabneiah); `hiel` (Hiel); `hobab` (Hobab)
-- [ ] **131** — `igal` (Igal); `jaazaniah` (Jaazaniah); `jaazaniah-2` (Jaazaniah); `jahaziel-3` (Jahaziel)
-- [ ] **132** — `jehikhiah` (Jehikhiah); `jemimah` (Jemimah); `jerahmeel-3` (Jerahmeel); `joah-4` (Joah)
-- [ ] **133** — `jonathan-2` (Jonathan); `keren-happuch` (Keren-happuch); `keziah` (Keziah); `lo-ammi` (Lo-ammi)
-- [ ] **134** — `maaseiah-4` (Maaseiah); `mephibosheth-2` (Mephibosheth); `nebushazban` (Nebushazban); `nethaniah-3` (Nethaniah)
-- [ ] **135** — `noadiah` (Noadiah); `noadiah-2` (Noadiah); `obadiah-6` (Obadiah); `on` (On)
-- [ ] **136** — `regemmelech` (Regemmelech); `shammah-2` (Shammah); `sharezer-2` (Sharezer); `shear-jashub` (Shear-jashub)
-- [ ] **137** — `shecaniah-5` (Shecaniah); `shemaiah-18` (Shemaiah); `shephatiah-8` (Shephatiah); `shobi` (Shobi)
+- [ ] **110** — `erastus` (Erastus); `mary-5` (Mary)
+- [ ] **111** — `publius` (Publius); `bar-jesus` (Bar-Jesus); `julius` (Julius); `aeneas` (Aeneas)
+- [ ] **112** — `jambres` (Jambres); `alexander-3` (Alexander); `archelaus` (Archelaus); `cleopas` (Cleopas)
+- [ ] **113** — `demetrius-2` (Demetrius); `diotrephes` (Diotrephes); `hermogenes` (Hermogenes); `jezebel-2` (Jezebel)
+- [ ] **114** — `judas-of-galilee` (Judas of Galilee); `malchus` (Malchus); `sergius-paulus` (Sergius Paulus); `hiram-2` (Hiram)
+- [ ] **115** — `agag-2` (Agag); `mesha` (Mesha); `sheba-4` (Sheba); `bera` (Bera)
+- [ ] **116** — `hirah` (Hirah); `chedorlaomer` (Chedorlaomer); `gaal` (Gaal); `delaiah-5` (Delaiah)
+- [ ] **117** — `obadiah` (Obadiah); `hegai` (Hegai); `pelatiah-4` (Pelatiah); `aner` (Aner)
+- [ ] **118** — `arioch-2` (Arioch); `eshcol` (Eshcol); `hadad-4` (Hadad); `zimri-2` (Zimri)
+- [ ] **119** — `nergal-sar-ezer-2` (Nergal-sar-ezer); `orpah` (Orpah); `elishama-6` (Elishama); `jehudi` (Jehudi)
+- [ ] **120** — `azariah-7` (Azariah); `memucan` (Memucan); `puah` (Puah); `sherebiah` (Sherebiah)
+- [ ] **121** — `shiphrah` (Shiphrah); `eglon` (Eglon); `hathach` (Hathach); `pashhur-2` (Pashhur)
+- [ ] **122** — `pharaoh` (Pharaoh); `heldai-2` (Heldai); `jedaiah-6` (Jedaiah); `pekahiah` (Pekahiah)
+- [ ] **123** — `chimham` (Chimham); `lemuel` (Lemuel); `cushan-rishathaim` (Cushan-rishathaim); `eliel-7` (Eliel)
+- [ ] **124** — `elimelech` (Elimelech); `lo-ruhamah` (Lo-ruhamah); `amminadab-2` (Amminadab); `eldad` (Eldad)
+- [ ] **125** — `purah` (Purah); `abijah-2` (Abijah); `abiram-2` (Abiram); `agur` (Agur)
+- [ ] **126** — `amasa-2` (Amasa); `ammiel` (Ammiel); `armoni` (Armoni); `asaph-4` (Asaph)
+- [ ] **127** — `ashpenaz` (Ashpenaz); `azariah-10` (Azariah); `azariah-11` (Azariah); `azariah-16` (Azariah)
+- [ ] **128** — `azaryahu` (Azaryahu); `baalis` (Baalis); `baruch` (Baruch); `berechiah-4` (Berechiah)
+- [ ] **129** — `elasah-2` (Elasah); `eleazar-2` (Eleazar); `elishaphat` (Elishaphat); `ezer-4` (Ezer)
+- [ ] **130** — `gaddi` (Gaddi); `gaddiel` (Gaddiel); `gedaliah-4` (Gedaliah); `geuel` (Geuel)
+- [ ] **131** — `gomer-2` (Gomer); `hashabneiah-2` (Hashabneiah); `hiel` (Hiel); `hobab` (Hobab)
+- [ ] **132** — `igal` (Igal); `jaazaniah` (Jaazaniah); `jaazaniah-2` (Jaazaniah); `jahaziel-3` (Jahaziel)
+- [ ] **133** — `jehikhiah` (Jehikhiah); `jemimah` (Jemimah); `jerahmeel-3` (Jerahmeel); `joah-4` (Joah)
+- [ ] **134** — `jonathan-2` (Jonathan); `keren-happuch` (Keren-happuch); `keziah` (Keziah); `lo-ammi` (Lo-ammi)
+- [ ] **135** — `maaseiah-4` (Maaseiah); `mephibosheth-2` (Mephibosheth); `nebushazban` (Nebushazban); `nethaniah-3` (Nethaniah)
+- [ ] **136** — `noadiah` (Noadiah); `noadiah-2` (Noadiah); `obadiah-6` (Obadiah); `on` (On)
+- [ ] **137** — `regemmelech` (Regemmelech); `shammah-2` (Shammah); `sharezer-2` (Sharezer); `shear-jashub` (Shear-jashub)
+- [ ] **138** — `shecaniah-5` (Shecaniah); `shemaiah-18` (Shemaiah); `shephatiah-8` (Shephatiah); `shobi` (Shobi)
 
 ## Paused — spotlight-ineligible
 
@@ -173,13 +105,6 @@ FB/IG daily post, which is what drove this queue's priority order. Not
 batch-numbered since they are not next in line; move a person back into the
 numbered queue above (in roughly the right fame position, not necessarily at
 the end) if `spotlight_eligible` is ever revisited for them.
-
-People who share `spotlight_eligible: false` and were also full-tier
-members of an NT/New Testament church had that status leave them stuck
-here until the 2026-08-10 bump above pulled them into the numbered queue
-(Prochorus, Parmenas, `judas-5`, Eunice, Lois, Dionysius, Forunatus,
-Achaicus, Archippus, Epanetus, Persis, Antipas — see that note). The list
-below is what's left after that pull.
 
 - `adoni-bezek` (Adoni-bezek); `adrammelech` (Adrammelech); `ahab-2` (Ahab); `ahiman` (Ahiman); `amasiah` (Amasiah); `azariah-8` (Azariah)
 - `baanah` (Baanah); `bidkar` (Bidkar); `bigthan` (Bigthan); `chenaniah` (Chenaniah); `chilion` (Chilion); `deborah` (Deborah)
@@ -226,3 +151,89 @@ data/people.json, rebuild and run the relevant validation, then check off only
 that batch in the queue. Preserve unrelated working-tree changes. Report saved
 paths, prompts used, validation results, and any retries.
 ```
+
+## Prompt for New Testament Church group photos
+
+Separate from the individual-portrait batches above. One group photo per
+New Testament Church with **2 or more** full-tier members (a single-member
+church has nothing to group — its one member's individual portrait already
+serves that purpose). Not queue-numbered like the individual batches since
+there are only a handful of churches (see `data/nt_churches.json`); work
+through them in file order and note completions directly in this section
+once any are generated.
+
+This produces one **merged, single-generation** stained-glass image per
+church — every named member appears together in one continuous scene, side
+by side, the way a group photograph is composed. It is **not** a tiled
+composite of separately-generated individual portrait files, and does not
+depend on any member's individual `images/portraits2/<person_id>.png`
+already existing.
+
+**Do not start generating any group photo until the individual-portrait
+queue above is fully cleared** — including `erastus` and `mary-5` at
+batch 110. Church group photos come after every full-tier NT church
+member has their own individual portrait, not before.
+
+Output, per church:
+- **Hi-res master**: 1920 × 1080 (16:9 landscape), PNG, saved to
+  `images/nt_churches/<church_id>.png`.
+- **Web-optimized copy**: 1200 × 675 (same 16:9 ratio, scaled down), saved
+  to `images/nt_churches/<church_id>-web.jpg`, compressed for fast page
+  load. This is the size suitable for direct Facebook photo posting
+  (landscape display ratio Facebook renders natively in-feed, well under
+  its upload size limits) — follow the existing overlay/branding
+  conventions already used for the daily social-post images where
+  applicable (white background if the source has transparency, logo mark
+  placement) per the FB/IG poster pipeline's established format.
+
+Prompt template — adapt per church, following the same fielded structure as
+`STAINED_GLASS_PROMPT.md`'s single-portrait prompt for visual family
+resemblance, but landscape and multi-figure:
+
+```text
+Use case: historical-scene, multi-figure group
+Asset type: 1920 × 1080 (16:9) landscape "group photo" website image
+Primary request: Create a convincingly authentic late-19th-century or early-20th-century Victorian Gothic Revival church stained-glass window depicting the members of the church at [CHURCH NAME] standing together in one group, the way a group photograph is composed.
+Subject and figures: [MEMBER LIST — each person's DISPLAY NAME], standing shoulder to shoulder in a single row (or, for larger rosters, two gently staggered rows so every face stays visible), all facing outward toward the viewer as in a group photograph, each individually recognizable with historically appropriate ancient Near Eastern clothing, appearance, hair, and accessories. [PER-PERSON SYMBOLS — one small, restrained, Scripture-grounded identifying prop or detail per person, derived only from that person's own JSON; do not invent extra-biblical detail.] No figure cropped, turned away, or rendered smaller/less prominent than the others — every named member shares equal visual weight. No unnamed extra figures.
+Style/medium: A real handcrafted stained-glass window photographed installed in an old church, not a digital painting or a stained-glass filter. Construct the entire scene from individually shaped pieces of colored glass separated by prominent dark lead came lines. Include irregular glass shapes, subtle variations in glass thickness and translucency, tiny imperfections, fine painted details on each serious, dignified, expressive face and hands, and realistic light glowing through the glass.
+Framing: One continuous wide arch or rectangular window frame spanning the full 16:9 canvas — not a grid of separate tiled panes, not individual arches per person, no internal borders or seams splitting the group into separate windows. A single shared architectural frame with decorative floral and geometric border pieces around all four edges, matching the individual-portrait series' framing language.
+Palette: Rich traditional ecclesiastical colors—deep cobalt and sapphire blue, ruby and burgundy red, amber, antique gold, cream, muted green, brown, and occasional turquoise—luminous but slightly aged, never neon.
+Text (verbatim): "THE CHURCH AT [CHURCH NAME]" as a title banner, with [PRIMARY REFERENCE, e.g. "ACTS 19"] in smaller lettering beneath it.
+Text placement: Bottom-center, an elegant antique cream-colored stained-glass name panel framed in gold and dark lead, sized to fit the wider canvas. Write only the church title and reference in large, clear, traditional black serif capitals.
+Constraints: exact 16:9 landscape composition; every named member present, distinguishable, and individually recognizable; strong black leading; intricate handcrafted glasswork; realistic transmitted light; elaborate Victorian and Gothic Revival craftsmanship; dignified biblical realism; historically evocative.
+Avoid: tiling or grid seams, any figure rendered as a separate framed inset "portrait chip," any other text, misspelling, missing or extra names in the banner, modern illustration, cartoon style, anime, glossy 3D rendering, photorealistic human photography, smooth digital gradients, plastic-looking glass, modern clothing, modern objects, excessive halos unless traditionally appropriate, illegible lettering, or watermark.
+```
+
+Generation mode: same tool used for the individual series (Codex built-in
+image generation, or the OpenAI Images API directly via the environment's
+`OPENAI_API_KEY` — see [[task_nt_church_group_photo]] for the direct-API
+path already tested), one call per church.
+
+Notes:
+- **Large rosters are a real generation risk**, not just a layout
+  preference — Ephesus has 11 full-tier members and Rome's roster runs far
+  larger. Treat the first attempt at any church with more than ~6-8
+  members as a trial: if members toward the back/edges lose individual
+  distinctiveness or the model drops a name, that's a material failure
+  worth a retry with a more explicit per-person layout instruction (e.g.
+  naming row/position), not a cosmetic one — don't accept a group photo
+  where a named member is missing or unrecognizable.
+- **Rome is an open question, not yet decided — do not generate Rome's
+  group photo until this is resolved.** Rome has 31 members but only 9 are
+  full-tier; the other 22 are `tier: "stub"` (bare names from Paul's
+  Romans 16 greetings, several with no distinguishing detail at all —
+  e.g. "Asyncritus, Phlegon, Hermes, Patrobas, Hermas"), and stubs never
+  get a generated portrait under this queue's own eligibility rule, so a
+  literal all-31-members photo isn't achievable as things stand. Ask
+  Andrew how he wants Rome handled (full-tier-only subset, exclude Rome
+  entirely, or some other approach) before touching it — every other
+  church's roster is small enough that this doesn't apply.
+- No requirement that a member's likeness in the group photo match their
+  existing individual `images/portraits2/<person_id>.png`, if one exists —
+  this is a separate generation, and the project's images have never
+  claimed likeness accuracy in the first place (see CLAUDE.md's Images
+  section). Same overall stained-glass style family is sufficient.
+- Once a church's group photo is accepted, this is still a prototype
+  feature (per [[task_nt_church_group_photo]]) — do not wire `image2`-style
+  fields into `data/nt_churches.json` or the site generator until Andrew
+  reviews the actual output and confirms the feature should go live.
