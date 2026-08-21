@@ -228,6 +228,7 @@
   {
     "person_id": "elimelech",
     "name": "Elimelech",
+    "image2": "elimelech.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -2787,6 +2788,7 @@
   {
     "person_id": "pharaoh",
     "name": "Pharaoh",
+    "image2": "pharaoh.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -2846,6 +2848,7 @@
   },
   {
     "person_id": "chedorlaomer",
+    "image2": "chedorlaomer.png",
     "name": "Chedorlaomer",
     "alt_names": [],
     "tier": "full",
@@ -2878,6 +2881,7 @@
   },
   {
     "person_id": "bera",
+    "image2": "bera.png",
     "name": "Bera",
     "alt_names": [],
     "tier": "full",
@@ -2969,6 +2973,7 @@
   },
   {
     "person_id": "eshcol",
+    "image2": "eshcol.png",
     "name": "Eshcol",
     "alt_names": [],
     "tier": "full",
@@ -2988,6 +2993,7 @@
   },
   {
     "person_id": "aner",
+    "image2": "aner.png",
     "name": "Aner",
     "alt_names": [],
     "tier": "full",
@@ -6082,6 +6088,7 @@
   },
   {
     "person_id": "hirah",
+    "image2": "hirah.png",
     "name": "Hirah",
     "alt_names": [],
     "tier": "full",
@@ -7473,6 +7480,7 @@
   {
     "person_id": "shiphrah",
     "name": "Shiphrah",
+    "image2": "shiphrah.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -7493,6 +7501,7 @@
   {
     "person_id": "puah",
     "name": "Puah",
+    "image2": "puah.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -8854,6 +8863,7 @@
   {
     "person_id": "eldad",
     "name": "Eldad",
+    "image2": "eldad.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -10967,6 +10977,7 @@
   {
     "person_id": "cushan-rishathaim",
     "name": "Cushan-rishathaim",
+    "image2": "cushan-rishathaim.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -10986,6 +10997,7 @@
   {
     "person_id": "eglon",
     "name": "Eglon",
+    "image2": "eglon.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -11484,6 +11496,7 @@
   },
   {
     "person_id": "gaal",
+    "image2": "gaal.png",
     "name": "Gaal",
     "alt_names": [],
     "tier": "full",
@@ -11938,6 +11951,7 @@
   },
   {
     "person_id": "orpah",
+    "image2": "orpah.png",
     "name": "Orpah",
     "alt_names": [],
     "tier": "full",
@@ -12804,6 +12818,7 @@
   },
   {
     "person_id": "agag-2",
+    "image2": "agag-2.png",
     "name": "Agag",
     "alt_names": [],
     "tier": "full",
@@ -14954,6 +14969,7 @@
   {
     "person_id": "chimham",
     "name": "Chimham",
+    "image2": "chimham.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -14971,6 +14987,7 @@
   },
   {
     "person_id": "sheba-4",
+    "image2": "sheba-4.png",
     "name": "Sheba",
     "alt_names": [],
     "tier": "full",
@@ -16688,6 +16705,7 @@
   },
   {
     "person_id": "hiram-2",
+    "image2": "hiram-2.png",
     "name": "Hiram",
     "alt_names": [],
     "tier": "full",
@@ -16728,6 +16746,7 @@
   },
   {
     "person_id": "hadad-4",
+    "image2": "hadad-4.png",
     "name": "Hadad",
     "alt_names": [],
     "tier": "full",
@@ -17424,6 +17443,7 @@
   },
   {
     "person_id": "zimri-2",
+    "image2": "zimri-2.png",
     "name": "Zimri",
     "alt_names": [],
     "tier": "full",
@@ -17731,6 +17751,7 @@
   },
   {
     "person_id": "obadiah",
+    "image2": "obadiah.png",
     "name": "Obadiah",
     "alt_names": [],
     "tier": "full",
@@ -18158,6 +18179,7 @@
   },
   {
     "person_id": "mesha",
+    "image2": "mesha.png",
     "name": "Mesha",
     "alt_names": [],
     "tier": "full",
@@ -18992,6 +19014,7 @@
   {
     "person_id": "pekahiah",
     "name": "Pekahiah",
+    "image2": "pekahiah.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -33010,6 +33033,7 @@
   {
     "person_id": "eliel-7",
     "name": "Eliel",
+    "image2": "eliel-7.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -33030,6 +33054,7 @@
   {
     "person_id": "amminadab-2",
     "name": "Amminadab",
+    "image2": "amminadab-2.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -36216,6 +36241,7 @@
   {
     "person_id": "azariah-7",
     "name": "Azariah",
+    "image2": "azariah-7.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -40315,6 +40341,7 @@
   {
     "person_id": "sherebiah",
     "name": "Sherebiah",
+    "image2": "sherebiah.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -46563,6 +46590,7 @@
   {
     "person_id": "memucan",
     "name": "Memucan",
+    "image2": "memucan.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -46580,6 +46608,7 @@
   },
   {
     "person_id": "hegai",
+    "image2": "hegai.png",
     "name": "Hegai",
     "alt_names": [],
     "tier": "full",
@@ -46836,6 +46865,7 @@
   {
     "person_id": "hathach",
     "name": "Hathach",
+    "image2": "hathach.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -47332,6 +47362,7 @@
   {
     "person_id": "lemuel",
     "name": "Lemuel",
+    "image2": "lemuel.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -47476,6 +47507,7 @@
   {
     "person_id": "pashhur-2",
     "name": "Pashhur",
+    "image2": "pashhur-2.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -48065,6 +48097,7 @@
   },
   {
     "person_id": "elishama-6",
+    "image2": "elishama-6.png",
     "name": "Elishama",
     "alt_names": [],
     "tier": "full",
@@ -48085,6 +48118,7 @@
   },
   {
     "person_id": "delaiah-5",
+    "image2": "delaiah-5.png",
     "name": "Delaiah",
     "alt_names": [],
     "tier": "full",
@@ -48125,6 +48159,7 @@
   },
   {
     "person_id": "jehudi",
+    "image2": "jehudi.png",
     "name": "Jehudi",
     "alt_names": [],
     "tier": "full",
@@ -48633,6 +48668,7 @@
   },
   {
     "person_id": "nergal-sar-ezer-2",
+    "image2": "nergal-sar-ezer-2.png",
     "name": "Nergal-sar-ezer",
     "alt_names": [],
     "tier": "full",
@@ -48933,6 +48969,7 @@
   },
   {
     "person_id": "pelatiah-4",
+    "image2": "pelatiah-4.png",
     "name": "Pelatiah",
     "alt_names": [],
     "tier": "full",
@@ -49110,6 +49147,7 @@
   },
   {
     "person_id": "arioch-2",
+    "image2": "arioch-2.png",
     "name": "Arioch",
     "alt_names": [],
     "tier": "full",
@@ -49344,6 +49382,7 @@
   {
     "person_id": "lo-ruhamah",
     "name": "Lo-ruhamah",
+    "image2": "lo-ruhamah.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -49710,6 +49749,7 @@
   {
     "person_id": "heldai-2",
     "name": "Heldai",
+    "image2": "heldai-2.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -49744,6 +49784,7 @@
   {
     "person_id": "jedaiah-6",
     "name": "Jedaiah",
+    "image2": "jedaiah-6.png",
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
@@ -50112,6 +50153,7 @@
   },
   {
     "person_id": "archelaus",
+    "image2": "archelaus.png",
     "name": "Archelaus",
     "alt_names": [],
     "tier": "full",
@@ -52003,6 +52045,7 @@
   },
   {
     "person_id": "cleopas",
+    "image2": "cleopas.png",
     "name": "Cleopas",
     "alt_names": [],
     "tier": "full",
@@ -52105,6 +52148,7 @@
   },
   {
     "person_id": "malchus",
+    "image2": "malchus.png",
     "name": "Malchus",
     "alt_names": [],
     "tier": "full",
@@ -52344,6 +52388,7 @@
   },
   {
     "person_id": "judas-of-galilee",
+    "image2": "judas-of-galilee.png",
     "name": "Judas of Galilee",
     "alt_names": [],
     "tier": "full",
@@ -52591,6 +52636,7 @@
   },
   {
     "person_id": "aeneas",
+    "image2": "aeneas.png",
     "name": "Aeneas",
     "alt_names": [],
     "tier": "full",
@@ -52878,6 +52924,7 @@
   },
   {
     "person_id": "bar-jesus",
+    "image2": "bar-jesus.png",
     "name": "Bar-Jesus",
     "alt_names": [
       "Elymas"
@@ -52899,6 +52946,7 @@
   },
   {
     "person_id": "sergius-paulus",
+    "image2": "sergius-paulus.png",
     "name": "Sergius Paulus",
     "alt_names": [],
     "tier": "full",
@@ -53241,6 +53289,7 @@
       "Paul's ministry team"
     ],
     "image": "generic-figure.png",
+    "image2": "erastus.png",
     "first_reference": "Acts 19:22",
     "spotlight_eligible": false
   },
@@ -53307,6 +53356,7 @@
   },
   {
     "person_id": "alexander-3",
+    "image2": "alexander-3.png",
     "name": "Alexander",
     "alt_names": [],
     "tier": "full",
@@ -53654,6 +53704,7 @@
   },
   {
     "person_id": "julius",
+    "image2": "julius.png",
     "name": "Julius",
     "alt_names": [],
     "tier": "full",
@@ -53672,6 +53723,7 @@
   },
   {
     "person_id": "publius",
+    "image2": "publius.png",
     "name": "Publius",
     "alt_names": [],
     "tier": "full",
@@ -53746,6 +53798,7 @@
       "women in the early church"
     ],
     "image": "generic-woman.png",
+    "image2": "mary-5.png",
     "first_reference": "Romans 16:6",
     "spotlight_eligible": false
   },
@@ -54540,6 +54593,7 @@
   },
   {
     "person_id": "hermogenes",
+    "image2": "hermogenes.png",
     "name": "Hermogenes",
     "alt_names": [],
     "tier": "full",
@@ -54618,6 +54672,7 @@
   },
   {
     "person_id": "jambres",
+    "image2": "jambres.png",
     "name": "Jambres",
     "alt_names": [],
     "tier": "full",
@@ -54762,6 +54817,7 @@
   },
   {
     "person_id": "diotrephes",
+    "image2": "diotrephes.png",
     "name": "Diotrephes",
     "alt_names": [],
     "tier": "full",
@@ -54782,6 +54838,7 @@
   },
   {
     "person_id": "demetrius-2",
+    "image2": "demetrius-2.png",
     "name": "Demetrius",
     "alt_names": [],
     "tier": "full",
@@ -54821,6 +54878,7 @@
   },
   {
     "person_id": "jezebel-2",
+    "image2": "jezebel-2.png",
     "name": "Jezebel",
     "alt_names": [],
     "tier": "full",
