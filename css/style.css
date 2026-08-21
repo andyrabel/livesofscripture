@@ -593,6 +593,23 @@ main {
   cursor: zoom-in;
 }
 
+.church-photo-wrap {
+  margin-bottom: 1.5rem;
+}
+
+.church-photo-link {
+  display: block;
+}
+
+.church-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
 .portrait-lightbox-overlay {
   position: fixed;
   inset: 0;

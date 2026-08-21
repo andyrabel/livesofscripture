@@ -125,6 +125,31 @@ def portrait_img_html(person, base):
     return linked_img
 
 
+def resolve_church_photo(church_id):
+    """True when a web-optimized NT church group photo exists (see
+    _build/generate_church_web_images.py, images/nt_churches-web/), which
+    mirrors resolve_full_portrait_file's "not every entry has generated
+    art yet" tolerance for churches whose group photo hasn't been
+    generated."""
+    return (ROOT / "images" / "nt_churches-web" / f"{church_id}.jpg").exists()
+
+
+def church_photo_html(church, base):
+    """Renders the church's group photo linked to its full-size version,
+    same click-to-enlarge lightbox pattern as portrait_img_html (see
+    js/app.js's initPortraitLightbox)."""
+    church_id = church["church_id"]
+    name = church["name"]
+    thumb_url = f'{base}images/nt_churches-web/{esc(church_id)}.jpg'
+    full_url = f'{base}images/nt_churches-web/{esc(church_id)}-full.jpg'
+    alt = esc(f'The church in {name} — stained-glass style group portrait')
+    img_tag = f'<img src="{thumb_url}" alt="{alt}" class="church-photo">'
+    return (
+        f'<a href="{full_url}" class="portrait-lightbox church-photo-link" target="_blank" rel="noopener" '
+        f'aria-label="View full-size image of the church in {esc(name)}">{img_tag}</a>'
+    )
+
+
 def truncate(text, max_len=155):
     if not text:
         return ""
@@ -952,6 +977,11 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
         (church["name"], None),
     ])
 
+    photo_exists = resolve_church_photo(church_id)
+    photo_html = f'<div class="church-photo-wrap">{church_photo_html(church, base)}</div>' if photo_exists else ""
+    og_image = f'{SITE_URL}/images/nt_churches-web/{church_id}-full.jpg' if photo_exists else DEFAULT_OG_IMAGE
+    lightbox_script = "initPortraitLightbox();" if photo_exists else ""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -972,11 +1002,11 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(description)}">
-<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:image" content="{og_image}">
 
 <link rel="stylesheet" href="{base}css/style.css">
 <script type="application/ld+json">
@@ -1000,6 +1030,8 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
     </div>
   </div>
 
+  {photo_html}
+
   <p>{esc(church["description"])}</p>
   {references_html}
 
@@ -1009,7 +1041,7 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();{lightbox_script}</script>
 </body>
 </html>
 """
