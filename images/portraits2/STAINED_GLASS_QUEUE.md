@@ -50,47 +50,33 @@ of completing this batch — they otherwise stay exactly as they are.
 
 Each New Testament Church's group photo (see the person-page "New
 Testament Church" section and `data/nt_churches.json`) is a single, newly
-generated stained-glass image showing the members standing together side
-by side in one continuous scene, the way a real group photograph is
-composed, even though the resulting image obviously contains multiple
-people. Every member appears as their own recognizable figure with a
-small, restrained, Scripture-grounded identifying prop drawn from their
-own JSON (same no-invented-detail rule as the individual series), sharing
-one unified window rather than being assembled from separately-generated
-portrait files. This is separate from the individual-portrait queue above
-— those single-person portraits are still needed for each person's own
-page regardless. See "Prompt for New Testament Church group photos" below
-for the generation instructions; no group photo has been generated yet.
+generated stained-glass image showing a representative congregation together
+in one continuous scene, the way a real group photograph is composed. At least
+the five best-known full-tier people, when that many are available (and more
+when the composition comfortably supports them), should be recognizable from
+their existing stained-glass portraits and discreetly identified by name. Additional unnamed
+figures fill out a believable congregation without claiming that Scripture
+names them individually. Identifying props are optional rather than required.
+The group shares one unified window rather than being assembled from
+separately generated portrait files. This is separate from the
+individual-portrait queue above — those single-person portraits are still
+needed for each person's own page regardless. See "Prompt for New Testament
+Church group photos" below for the generation instructions; no group photo has
+been generated yet.
 
-- [x] **110** — `erastus` (Erastus); `mary-5` (Mary)
-- [x] **111** — `publius` (Publius); `bar-jesus` (Bar-Jesus); `julius` (Julius); `aeneas` (Aeneas)
-- [x] **112** — `jambres` (Jambres); `alexander-3` (Alexander); `archelaus` (Archelaus); `cleopas` (Cleopas)
-- [x] **113** — `demetrius-2` (Demetrius); `diotrephes` (Diotrephes); `hermogenes` (Hermogenes); `jezebel-2` (Jezebel)
-- [x] **114** — `judas-of-galilee` (Judas of Galilee); `malchus` (Malchus); `sergius-paulus` (Sergius Paulus); `hiram-2` (Hiram)
-- [x] **115** — `agag-2` (Agag); `mesha` (Mesha); `sheba-4` (Sheba); `bera` (Bera)
-- [x] **116** — `hirah` (Hirah); `chedorlaomer` (Chedorlaomer); `gaal` (Gaal); `delaiah-5` (Delaiah)
-- [x] **117** — `obadiah` (Obadiah); `hegai` (Hegai); `pelatiah-4` (Pelatiah); `aner` (Aner)
-- [x] **118** — `arioch-2` (Arioch); `eshcol` (Eshcol); `hadad-4` (Hadad); `zimri-2` (Zimri)
-- [x] **119** — `nergal-sar-ezer-2` (Nergal-sar-ezer); `orpah` (Orpah); `elishama-6` (Elishama); `jehudi` (Jehudi)
-- [x] **120** — `azariah-7` (Azariah); `memucan` (Memucan); `puah` (Puah); `sherebiah` (Sherebiah)
-- [x] **121** — `shiphrah` (Shiphrah); `eglon` (Eglon); `hathach` (Hathach); `pashhur-2` (Pashhur)
-- [x] **122** — `pharaoh` (Pharaoh); `heldai-2` (Heldai); `jedaiah-6` (Jedaiah); `pekahiah` (Pekahiah)
-- [x] **123** — `chimham` (Chimham); `lemuel` (Lemuel); `cushan-rishathaim` (Cushan-rishathaim); `eliel-7` (Eliel)
-- [x] **124** — `elimelech` (Elimelech); `lo-ruhamah` (Lo-ruhamah); `amminadab-2` (Amminadab); `eldad` (Eldad)
-- [x] **125** — `purah` (Purah); `abijah-2` (Abijah); `abiram-2` (Abiram); `agur` (Agur)
-- [x] **126** — `amasa-2` (Amasa); `ammiel` (Ammiel); `armoni` (Armoni); `asaph-4` (Asaph)
-- [x] **127** — `ashpenaz` (Ashpenaz); `azariah-10` (Azariah); `azariah-11` (Azariah); `azariah-16` (Azariah)
-- [x] **128** — `azaryahu` (Azaryahu); `baalis` (Baalis); `baruch` (Baruch); `berechiah-4` (Berechiah)
-- [x] **129** — `elasah-2` (Elasah); `eleazar-2` (Eleazar); `elishaphat` (Elishaphat); `ezer-4` (Ezer)
-- [x] **130** — `gaddi` (Gaddi); `gaddiel` (Gaddiel); `gedaliah-4` (Gedaliah); `geuel` (Geuel)
-- [x] **131** — `gomer-2` (Gomer); `hashabneiah-2` (Hashabneiah); `hiel` (Hiel); `hobab` (Hobab)
-- [x] **132** — `igal` (Igal); `jaazaniah` (Jaazaniah); `jaazaniah-2` (Jaazaniah); `jahaziel-3` (Jahaziel)
-- [x] **133** — `jehikhiah` (Jehikhiah); `jemimah` (Jemimah); `jerahmeel-3` (Jerahmeel); `joah-4` (Joah)
-- [x] **134** — `jonathan-2` (Jonathan); `keren-happuch` (Keren-happuch); `keziah` (Keziah); `lo-ammi` (Lo-ammi)
-- [x] **135** — `maaseiah-4` (Maaseiah); `mephibosheth-2` (Mephibosheth); `nebushazban` (Nebushazban); `nethaniah-3` (Nethaniah)
-- [x] **136** — `noadiah` (Noadiah); `noadiah-2` (Noadiah); `obadiah-6` (Obadiah); `on` (On)
-- [x] **137** — `regemmelech` (Regemmelech); `shammah-2` (Shammah); `sharezer-2` (Sharezer); `shear-jashub` (Shear-jashub)
-- [x] **138** — `shecaniah-5` (Shecaniah); `shemaiah-18` (Shemaiah); `shephatiah-8` (Shephatiah); `shobi` (Shobi)
+**Individual-portrait queue complete as of 2026-08-20.** Batches 110-138
+(110 people) were the last remaining fame-ranked entries and all have been
+generated, saved to `images/portraits2/`, referenced via `image2` in both
+the person's own JSON and `data/people.json`, and validated by rebuilding
+the site. Completed batches are removed from this file per the convention
+above; the portraits, `image2` references, and commit history are the
+record of what was done. Nothing remains in the numbered queue — the next
+new full-tier person with `devotionals` and no portrait would start a new
+batch 139.
+
+The Paused section below is **not** part of this completion — those people
+were deliberately held back (spotlight-ineligible) rather than generated,
+and still need portraits if reactivated.
 
 ## Paused — spotlight-ineligible
 
@@ -154,25 +140,27 @@ paths, prompts used, validation results, and any retries.
 
 ## Prompt for New Testament Church group photos
 
-Separate from the individual-portrait batches above. One group photo per
-New Testament Church with **2 or more** full-tier members (a single-member
-church has nothing to group — its one member's individual portrait already
-serves that purpose). Not queue-numbered like the individual batches since
-there are only a handful of churches (see `data/nt_churches.json`); work
-through them in file order and note completions directly in this section
-once any are generated.
+Separate from the individual-portrait batches above. One representative group
+photo per New Testament Church, including churches with few or no named
+full-tier members: unnamed congregants may establish a reasonable group size.
+Not queue-numbered like the individual batches since there are only a handful
+of churches (see `data/nt_churches.json`); work through them in file order and
+note completions directly in this section once any are generated.
 
-This produces one **merged, single-generation** stained-glass image per
-church — every named member appears together in one continuous scene, side
-by side, the way a group photograph is composed. It is **not** a tiled
-composite of separately-generated individual portrait files, and does not
-depend on any member's individual `images/portraits2/<person_id>.png`
-already existing.
+This produces one **merged, single-generation** stained-glass image per church:
+a representative selection of named people and additional unnamed congregants
+appear together in one continuous scene, the way a group photograph is
+composed. It is **not** a tiled composite of separately-generated individual
+portrait files. Existing `images/portraits2/<person_id>.png` portraits should
+be supplied as visual references for the selected named people so their face,
+hair, clothing colors, and overall visual identity remain recognizably
+consistent with the individual portrait series.
 
-**Do not start generating any group photo until the individual-portrait
-queue above is fully cleared** — including `erastus` and `mary-5` at
-batch 110. Church group photos come after every full-tier NT church
-member has their own individual portrait, not before.
+**Gating condition met as of 2026-08-20:** the individual-portrait queue
+above (including `erastus` and `mary-5`, formerly batch 110) is fully
+cleared, so church group photos are no longer blocked on that front. Rome
+is still an open question (see below) and pending further direction from
+Andrew before any group photo generation begins.
 
 Output, per church:
 - **Hi-res master**: 1920 × 1080 (16:9 landscape), PNG, saved to
@@ -193,15 +181,18 @@ resemblance, but landscape and multi-figure:
 ```text
 Use case: historical-scene, multi-figure group
 Asset type: 1920 × 1080 (16:9) landscape "group photo" website image
-Primary request: Create a convincingly authentic late-19th-century or early-20th-century Victorian Gothic Revival church stained-glass window depicting the members of the church at [CHURCH NAME] standing together in one group, the way a group photograph is composed.
-Subject and figures: [MEMBER LIST — each person's DISPLAY NAME], standing shoulder to shoulder in a single row (or, for larger rosters, two gently staggered rows so every face stays visible), all facing outward toward the viewer as in a group photograph, each individually recognizable with historically appropriate ancient Near Eastern clothing, appearance, hair, and accessories. [PER-PERSON SYMBOLS — one small, restrained, Scripture-grounded identifying prop or detail per person, derived only from that person's own JSON; do not invent extra-biblical detail.] No figure cropped, turned away, or rendered smaller/less prominent than the others — every named member shares equal visual weight. No unnamed extra figures.
+Primary request: Create a convincingly authentic late-19th-century or early-20th-century Victorian Gothic Revival church stained-glass window depicting a representative congregation from the church in [CHURCH NAME] standing together in one group, the way a group photograph is composed.
+Named figures: Feature [SELECTED FULL-TIER MEMBER LIST — normally the five best-known full-tier people, or every available full-tier person when fewer than five are associated with the church]. Use each selected person's existing stained-glass portrait as a visual reference. Preserve the recognizable face, hair, clothing colors, and overall visual identity of that portrait while adapting the person naturally into the shared scene. Give these named figures clear but natural placement in the front or middle of the group; they need not all have equal prominence.
+Name labels: Discreetly identify each selected named figure with their display name in small, restrained, legible antique serif lettering placed immediately beneath or beside that person. Treat these as subtle identifiers integrated into the stained glass, not large banners, modern captions, floating UI labels, or separate portrait frames. Do not label the additional congregants.
+Additional congregation: Add enough unnamed men and women in historically appropriate first-century clothing to make the gathering feel like a reasonable local church rather than a lineup of only the named figures. Vary ages and appearances naturally. These background congregants are representative, not claims that Scripture names additional individuals. Arrange the whole gathering in one or two gently staggered rows with faces visible and the selected named figures still easy to find.
+Props and story details: It is not essential for anyone to carry an object connected with their story. Include a restrained Scripture-grounded identifying prop only when it improves recognition or composition; do not force one per person and do not invent extra-biblical details.
 Style/medium: A real handcrafted stained-glass window photographed installed in an old church, not a digital painting or a stained-glass filter. Construct the entire scene from individually shaped pieces of colored glass separated by prominent dark lead came lines. Include irregular glass shapes, subtle variations in glass thickness and translucency, tiny imperfections, fine painted details on each serious, dignified, expressive face and hands, and realistic light glowing through the glass.
 Framing: One continuous wide arch or rectangular window frame spanning the full 16:9 canvas — not a grid of separate tiled panes, not individual arches per person, no internal borders or seams splitting the group into separate windows. A single shared architectural frame with decorative floral and geometric border pieces around all four edges, matching the individual-portrait series' framing language.
 Palette: Rich traditional ecclesiastical colors—deep cobalt and sapphire blue, ruby and burgundy red, amber, antique gold, cream, muted green, brown, and occasional turquoise—luminous but slightly aged, never neon.
-Text (verbatim): "THE CHURCH AT [CHURCH NAME]" as a title banner, with [PRIMARY REFERENCE, e.g. "ACTS 19"] in smaller lettering beneath it.
-Text placement: Bottom-center, an elegant antique cream-colored stained-glass name panel framed in gold and dark lead, sized to fit the wider canvas. Write only the church title and reference in large, clear, traditional black serif capitals.
-Constraints: exact 16:9 landscape composition; every named member present, distinguishable, and individually recognizable; strong black leading; intricate handcrafted glasswork; realistic transmitted light; elaborate Victorian and Gothic Revival craftsmanship; dignified biblical realism; historically evocative.
-Avoid: tiling or grid seams, any figure rendered as a separate framed inset "portrait chip," any other text, misspelling, missing or extra names in the banner, modern illustration, cartoon style, anime, glossy 3D rendering, photorealistic human photography, smooth digital gradients, plastic-looking glass, modern clothing, modern objects, excessive halos unless traditionally appropriate, illegible lettering, or watermark.
+Text (verbatim): "THE CHURCH IN [CHURCH NAME]" as a title banner, with [PRIMARY REFERENCE, e.g. "ACTS 19"] in smaller lettering beneath it.
+Text placement: Bottom-center, an elegant antique cream-colored stained-glass nameplate framed in gold and dark lead, sized to fit the wider canvas. Write the church title in large, clear, traditional black serif capitals and the reference in smaller lettering. The discreet individual name labels belong near their figures, not in this main nameplate.
+Constraints: exact 16:9 landscape composition; every selected named figure present, distinguishable, recognizably consistent with their supplied portrait, and correctly labeled; a believable larger congregation; strong black leading; intricate handcrafted glasswork; realistic transmitted light; elaborate Victorian and Gothic Revival craftsmanship; dignified biblical realism; historically evocative.
+Avoid: tiling or grid seams, any figure rendered as a separate framed inset "portrait chip," labels on unnamed congregants, misspelling, missing selected named figures, incorrect labels, missing or extra names in the main banner, modern illustration, cartoon style, anime, glossy 3D rendering, photorealistic human photography, smooth digital gradients, plastic-looking glass, modern clothing, modern objects, excessive halos unless traditionally appropriate, illegible lettering, or watermark.
 ```
 
 Generation mode: same tool used for the individual series (Codex built-in
@@ -210,29 +201,20 @@ image generation, or the OpenAI Images API directly via the environment's
 path already tested), one call per church.
 
 Notes:
-- **Large rosters are a real generation risk**, not just a layout
-  preference — Ephesus has 11 full-tier members and Rome's roster runs far
-  larger. Treat the first attempt at any church with more than ~6-8
-  members as a trial: if members toward the back/edges lose individual
-  distinctiveness or the model drops a name, that's a material failure
-  worth a retry with a more explicit per-person layout instruction (e.g.
-  naming row/position), not a cosmetic one — don't accept a group photo
-  where a named member is missing or unrecognizable.
-- **Rome is an open question, not yet decided — do not generate Rome's
-  group photo until this is resolved.** Rome has 31 members but only 9 are
-  full-tier; the other 22 are `tier: "stub"` (bare names from Paul's
-  Romans 16 greetings, several with no distinguishing detail at all —
-  e.g. "Asyncritus, Phlegon, Hermes, Patrobas, Hermas"), and stubs never
-  get a generated portrait under this queue's own eligibility rule, so a
-  literal all-31-members photo isn't achievable as things stand. Ask
-  Andrew how he wants Rome handled (full-tier-only subset, exclude Rome
-  entirely, or some other approach) before touching it — every other
-  church's roster is small enough that this doesn't apply.
-- No requirement that a member's likeness in the group photo match their
-  existing individual `images/portraits2/<person_id>.png`, if one exists —
-  this is a separate generation, and the project's images have never
-  claimed likeness accuracy in the first place (see CLAUDE.md's Images
-  section). Same overall stained-glass style family is sufficient.
+- Select the normally five featured full-tier people by broad biblical and
+  cultural recognition, using the same editorial fame judgment as the portrait
+  queue. When fewer than five full-tier people are associated with a church,
+  feature all available full-tier people and use unnamed congregants for the
+  rest of the group. Name-only (`tier: "stub"`) people are not individually
+  portrayed or labeled.
+- **Large rosters no longer require literal coverage.** For churches such as
+  Ephesus and Rome, feature the best-known five full-tier people by default and
+  represent the wider congregation with unnamed faces. If the model loses the
+  likeness or label of a selected named person, that is a material failure worth
+  a retry with explicit row and position assignments.
+- For churches with no named full-tier people, create a representative unnamed
+  congregation and omit individual name labels. The church nameplate provides
+  the identity of the scene.
 - Once a church's group photo is accepted, this is still a prototype
   feature (per [[task_nt_church_group_photo]]) — do not wire `image2`-style
   fields into `data/nt_churches.json` or the site generator until Andrew
