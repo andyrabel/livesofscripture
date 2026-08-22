@@ -182,7 +182,7 @@ resemblance, but landscape and multi-figure:
 Use case: historical-scene, multi-figure group
 Asset type: 1920 × 1080 (16:9) landscape "group photo" website image
 Primary request: Create a convincingly authentic late-19th-century or early-20th-century Victorian Gothic Revival church stained-glass window depicting a representative congregation from the church in [CHURCH NAME] standing together in one group, the way a group photograph is composed.
-Named figures: Feature [SELECTED FULL-TIER MEMBER LIST — normally the five best-known full-tier people, or every available full-tier person when fewer than five are associated with the church]. Use each selected person's existing stained-glass portrait as a visual reference. Preserve the recognizable face, hair, clothing colors, and overall visual identity of that portrait while adapting the person naturally into the shared scene. Give these named figures clear but natural placement in the front or middle of the group; they need not all have equal prominence.
+Named figures: Feature [ALL FULL-TIER MEMBER LIST]. Use each selected person's existing stained-glass portrait as a visual reference where the generation tool's reference-input limit permits. Preserve the recognizable face, hair, clothing colors, and overall visual identity of referenced portraits while adapting each person naturally into the shared scene. Give these named figures clear placement in one or two orderly rows; they need not all have equal prominence.
 Name labels: Discreetly identify each selected named figure with their display name in small, restrained, legible antique serif lettering placed immediately beneath or beside that person. Treat these as subtle identifiers integrated into the stained glass, not large banners, modern captions, floating UI labels, or separate portrait frames. Do not label the additional congregants.
 Additional congregation: Add enough unnamed men and women in historically appropriate first-century clothing to make the gathering feel like a reasonable local church rather than a lineup of only the named figures. Make these additional unnamed congregants visually distinct rather than repeating or slightly modifying the same face: vary facial structure, apparent age, hair texture and style, complexion, build, clothing colors and details, and expression naturally while remaining historically and regionally appropriate. Apply this diversity instruction only to the additional unnamed congregants; do not alter a selected named figure away from their supplied portrait likeness in order to increase variation. These background congregants are representative, not claims that Scripture names additional individuals. Arrange the whole gathering in one or two gently staggered rows with faces visible and the selected named figures still easy to find. Compose the group as a welcoming formal portrait: most people should look directly forward toward the viewer, and a clear majority should have warm, natural, restrained smiles. Preserve a few varied or neutral expressions for authenticity, but avoid a crowd dominated by sideways glances, solemn faces, or exaggerated grins.
 Props and story details: It is not essential for anyone to carry an object connected with their story. Include a restrained Scripture-grounded identifying prop only when it improves recognition or composition; do not force one per person and do not invent extra-biblical details.
@@ -201,21 +201,14 @@ image generation, or the OpenAI Images API directly via the environment's
 path already tested), one call per church.
 
 Notes:
-- Select the normally five featured full-tier people by broad biblical and
-  cultural recognition, using the same editorial fame judgment as the portrait
-  queue. When fewer than five full-tier people are associated with a church,
-  feature all available full-tier people and use unnamed congregants for the
-  rest of the group. Name-only (`tier: "stub"`) people are not individually
-  portrayed or labeled.
-- **Large rosters no longer require literal coverage.** For churches such as
-  Ephesus and Rome, feature the best-known five full-tier people by default and
-  represent the wider congregation with unnamed faces. If the model loses the
-  likeness or label of a selected named person, that is a material failure worth
-  a retry with explicit row and position assignments.
+- Feature and label every associated full-tier person. Name-only (`tier:
+  "stub"`) people are not individually portrayed or labeled. For large rosters,
+  use two orderly featured rows and reduce the number of unnamed congregants as
+  needed to keep every name legible. A missing, duplicated, or misspelled name
+  is a material failure worth a targeted retry.
 - For churches with no named full-tier people, create a representative unnamed
   congregation and omit individual name labels. The church nameplate provides
   the identity of the scene.
-- Once a church's group photo is accepted, this is still a prototype
-  feature (per [[task_nt_church_group_photo]]) — do not wire `image2`-style
-  fields into `data/nt_churches.json` or the site generator until Andrew
-  reviews the actual output and confirms the feature should go live.
+- Accepted church group photos are live through the convention-based
+  `images/nt_churches-web/<church_id>.jpg` lookup; no `image2`-style field is
+  needed in `data/nt_churches.json`.
