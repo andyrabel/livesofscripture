@@ -1087,6 +1087,55 @@ Consequences for the file layout above:
   on disk solely for the private Facebook/Instagram posting pipeline
   (`_build/fb/`, gitignored) — not for the website itself.
 
+### In-prose person cross-links (added 2026-09-01)
+
+Person names mentioned inside `adult_story` / `family_friendly_summary` are
+linked to the mentioned person's page (`people/<id>.html`) by
+`_build/link_person_mentions.py`, imported by `generate_static_site.py` and
+threaded through `story_panel_html`. This is separate from, and additional
+to, the Connections section and the "Other people named X" grid — it lets a
+reader move through Scripture's web of people from the narrative itself.
+
+Deliberately conservative, because a wrong cross-link on a Bible-reference
+site is worse than no link (see Factual Accuracy above). A mention is
+linked only when it is unambiguous:
+- Parenthetical Scripture citations (`(1 Samuel 16:1-13)`, `(Luke
+  1:32-33)`) are masked out first, so a book name that is also a person
+  name (Luke, Samuel, John) is never linked from inside a citation.
+- A name belonging to exactly one **full-tier** person links to them.
+- A name shared by several people links only when exactly one namesake is
+  **both** a `connections.json` graph neighbour of the subject **and**
+  full-tier (this keeps "Nathan" in David's story off David's infant son
+  Nathan, a stub).
+- A word that is one of the subject's own `name`/`alt_names` is left plain
+  (e.g. "Saul" in Paul's story, "Abram" in Abraham's).
+- **Stub pages are never auto-linked** — many stubs carry a place/nation
+  name (Gibeon, Sidon, Put, "Ark") that collides with ordinary prose. A
+  genuinely wanted stub link goes in the overrides file by name.
+- Only the first mention of each person per story panel is linked.
+- A stopword list drops the divine names, common theological nouns,
+  nations/peoples, and titular names used generically (`pharaoh`,
+  `caesar`, `aram`, `baal`, `immanuel`).
+
+`_build/link_overrides.json` maps a lowercased name to a specific
+`person_id` (or to `null` to force it to stay plain text) for names whose
+famous holder overwhelmingly dominates running prose and whose
+alternatives are minor/stub (currently: jeremiah, jacob, daniel, samuel,
+joab, absalom, elijah, ezra, nehemiah, nathan, uriah, miriam). Genuinely
+contested names (John, Mary, Joseph, Joshua, Herod, Zechariah) are left
+unlinked rather than guessed. Only add a mapping when one holder is
+clearly dominant — verify each against the actual entries first.
+
+`_build/audit_person_links.py` (gitignored-dir but force-committed, like
+`generate_disambiguation.py`) dumps every link decision plus the
+still-ambiguous mentions to TSV in `_build/` for review — re-run it after
+editing the overrides. Rendered as `<a class="story-link">` (dotted
+underline; `js/app.js`'s Copy / Read-Aloud handlers use `.innerText` so
+they still yield clean prose). Deterministic, so CI stays reproducible.
+Current pass: ~2,900 links across 658 full-tier pages. Re-run
+`generate_static_site.py` after any change to the linker, the overrides,
+or the story text of a full-tier person.
+
 ### Markdown document convention
 
 Every Markdown file must start with a top-level title followed immediately by
