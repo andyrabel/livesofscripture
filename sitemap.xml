@@ -3887,15 +3887,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://livesofscripture.org/people/baruch.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://livesofscripture.org/images/portraits2-web/baruch-full.jpg</image:loc>
-      <image:caption>Baruch — stained-glass style portrait</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://livesofscripture.org/people/shemaiah-18.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

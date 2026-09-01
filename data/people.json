@@ -3060,8 +3060,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "lot",
-      "mother": null
+      "father": "lot"
     },
     "timeline": {
       "precision": "era"
@@ -3086,8 +3085,7 @@
     "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "lot",
-      "mother": null
+      "father": "lot"
     },
     "timeline": {
       "precision": "era"
@@ -4274,7 +4272,7 @@
     "genealogy": {
       "father": "laban",
       "spouses": [
-        "jacob"
+        "israel"
       ],
       "children": [
         "benjamin",
@@ -4306,7 +4304,7 @@
     "genealogy": {
       "father": "laban",
       "spouses": [
-        "jacob"
+        "israel"
       ],
       "children": [
         "dinah",
@@ -4341,8 +4339,7 @@
     "first_reference": "Genesis 29:24",
     "genealogy": {
       "spouses": [
-        "israel",
-        "jacob"
+        "israel"
       ],
       "children": [
         "asher",
@@ -4372,8 +4369,7 @@
     "first_reference": "Genesis 29:29",
     "genealogy": {
       "spouses": [
-        "israel",
-        "jacob"
+        "israel"
       ],
       "children": [
         "dan",
@@ -22834,7 +22830,9 @@
       "children": [
         "hananiah",
         "meshullam-2",
-        "shelomith-2"
+        "shelomith-2",
+        "abihud-2",
+        "rhesa"
       ]
     },
     "timeline": {
@@ -43100,25 +43098,18 @@
   {
     "person_id": "baruch",
     "name": "Baruch",
-    "image2": "baruch.png",
     "alt_names": [],
-    "tier": "full",
+    "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "genealogy": {
-      "father": "neriah"
+      "father": "zabbai-2"
     },
     "timeline": {
       "precision": "era"
     },
-    "region": "canaan-israel",
-    "topics": [
-      "faithful service",
-      "suffering with a prophet"
-    ],
-    "image": "generic-figure.png",
     "gender": "male",
-    "disambiguation": "(Neh 3:20)",
+    "disambiguation": "son of Zabbai (Neh 3:20)",
     "first_reference": "Nehemiah 3:20"
   },
   {
@@ -43127,7 +43118,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
     },
@@ -47957,7 +47948,7 @@
     },
     "region": "canaan-israel",
     "gender": "male",
-    "disambiguation": "(Jer 32:12-16)",
+    "disambiguation": "son of Neriah (Jer 32:12-16)",
     "topics": [
       "faithful scribe",
       "suffering with the prophet",
@@ -47973,7 +47964,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "genealogy": {
       "father": "mahseiah"
     },
@@ -47990,7 +47981,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Exile",
     "timeline": {
       "precision": "era"
     },
