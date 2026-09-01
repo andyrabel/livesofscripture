@@ -1253,7 +1253,8 @@ def place_card_html(entry):
     name_html = f'<strong class="name-text">{esc(entry["name"])}</strong>' if entry["tier"] == "full" else f'<span class="name-text">{esc(entry["name"])}</span>'
     disamb_html = f'\n      <div class="disambiguation">{esc(entry["disambiguation"])}</div>' if entry.get("disambiguation") else ""
     stub_badge = ' <span class="badge stub">name only</span>' if entry["tier"] == "stub" else ""
-    return f"""<a class="person-card" href="places/{esc(entry['place_id'])}.html">
+    stub_cls = " place-card--stub" if entry["tier"] == "stub" else ""
+    return f"""<a class="person-card{stub_cls}" href="places/{esc(entry['place_id'])}.html">
       <div class="name">{name_html}{stub_badge}</div>{disamb_html}
       <div class="meta"><span class="badge">{esc(place_type_label(entry["type"]))}</span><span class="badge">{esc(count_label)}</span></div>
     </a>"""
@@ -1265,7 +1266,13 @@ def build_places_list_page(places_index):
     title = "Places — Lives of Scripture"
     description = "Every named place in Scripture with a documented connection to a person's story — cities, regions, mountains, and more — cross-linked to the people found there."
     full = [e for e in places_index if e["tier"] == "full"]
-    cards = "\n    ".join(place_card_html(e) for e in sorted(full, key=lambda e: e["name"]))
+    stub = [e for e in places_index if e["tier"] == "stub"]
+    # All places render into the grid, sorted alphabetically; the name-only
+    # (stub) cards carry .place-card--stub and are hidden by CSS until the
+    # "Include name-only places" checkbox toggles .show-stub-places on the grid.
+    cards = "\n    ".join(
+        place_card_html(e) for e in sorted(places_index, key=lambda e: (e["name"], e["place_id"]))
+    )
     breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Places", None)])
 
     return f"""<!DOCTYPE html>
@@ -1309,11 +1316,19 @@ def build_places_list_page(places_index):
   <p class="page-intro">Every named place in Scripture with a documented connection to a person's
   story — cities, regions, mountains, wildernesses, and more. Click a place to see who Scripture
   ties to it, the reference where it's first named, and (where relevant) how confidently it can be
-  identified with a location on today's map. Places named only in genealogy or list passages, with
-  no one tied to them narratively, aren't shown here but remain reachable from person pages.
+  identified with a location on today's map. By default this list shows the {len(full)} places
+  with a narrative of their own; tick the box below to also fold in the {len(stub)} name-only
+  places (mentioned in Scripture but with no story here, kept for the connections graph).
   Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>.</p>
 
-  <div class="person-grid">
+  <div class="controls">
+    <label class="controls__checkbox">
+      <input type="checkbox" id="places-include-stubs">
+      Include name-only places ({len(stub)})
+    </label>
+  </div>
+
+  <div id="place-grid" class="person-grid">
     {cards}
   </div>
 </main>
@@ -1321,7 +1336,7 @@ def build_places_list_page(places_index):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPlacesToggle();</script>
 </body>
 </html>
 """

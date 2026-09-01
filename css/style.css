@@ -510,6 +510,12 @@ main {
   gap: 0.75rem;
 }
 
+/* Places list: name-only (stub) place cards stay hidden until the
+   "Include name-only places" checkbox adds .show-stub-places to the grid. */
+.person-grid:not(.show-stub-places) .place-card--stub {
+  display: none;
+}
+
 .person-card {
   display: block;
   background: var(--color-surface);

@@ -231,6 +231,20 @@ function initNavToggle() {
   });
 }
 
+// Places list page (places.html): the grid is server-rendered with every
+// place in it, but the name-only (stub) cards are hidden by CSS until the
+// visitor ticks "Include name-only places", which toggles .show-stub-places
+// on the grid. Purely presentational -- no data fetch, works with JS off
+// (the box just does nothing and the default full-place list stays shown).
+function initPlacesToggle() {
+  const checkbox = document.getElementById("places-include-stubs");
+  const grid = document.getElementById("place-grid");
+  if (!checkbox || !grid) return;
+  const apply = () => grid.classList.toggle("show-stub-places", checkbox.checked);
+  checkbox.addEventListener("change", apply);
+  apply();
+}
+
 // Hover/focus tooltip layer for the server-rendered Kings & Prophets SVG
 // chart (charts/kings-and-prophets.html) -- the chart itself is fully
 // legible without this (native <title> tooltips + the table view below it

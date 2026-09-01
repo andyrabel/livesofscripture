@@ -82,30 +82,82 @@
   <p class="page-intro">Every named place in Scripture with a documented connection to a person's
   story — cities, regions, mountains, wildernesses, and more. Click a place to see who Scripture
   ties to it, the reference where it's first named, and (where relevant) how confidently it can be
-  identified with a location on today's map. Places named only in genealogy or list passages, with
-  no one tied to them narratively, aren't shown here but remain reachable from person pages.
+  identified with a location on today's map. By default this list shows the 120 places
+  with a narrative of their own; tick the box below to also fold in the 100 name-only
+  places (mentioned in Scripture but with no story here, kept for the connections graph).
   Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>.</p>
 
-  <div class="person-grid">
+  <div class="controls">
+    <label class="controls__checkbox">
+      <input type="checkbox" id="places-include-stubs">
+      Include name-only places (100)
+    </label>
+  </div>
+
+  <div id="place-grid" class="person-grid">
+    <a class="person-card place-card--stub" href="places/abel-beth-maacah.html">
+      <div class="name"><span class="name-text">Abel Beth-maacah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/abel-meholah.html">
+      <div class="name"><span class="name-text">Abel-meholah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/adullam.html">
+      <div class="name"><span class="name-text">Adullam</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/ai.html">
       <div class="name"><strong class="name-text">Ai</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/aijalon-of-zebulun.html">
+      <div class="name"><span class="name-text">Aijalon (of Zebulun)</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/alexandria.html">
+      <div class="name"><span class="name-text">Alexandria</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/amalek.html">
+      <div class="name"><span class="name-text">Amalek</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/ammon.html">
       <div class="name"><strong class="name-text">Ammon</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">5 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/anathoth.html">
+      <div class="name"><span class="name-text">Anathoth</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/antioch.html">
       <div class="name"><strong class="name-text">Antioch</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">7 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/aphek.html">
+      <div class="name"><span class="name-text">Aphek</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/arabia.html">
+      <div class="name"><span class="name-text">Arabia</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/aram.html">
       <div class="name"><strong class="name-text">Aram</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">6 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/aram-naharaim.html">
+      <div class="name"><span class="name-text">Aram-naharaim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/ararat.html">
       <div class="name"><strong class="name-text">Ararat</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/argob.html">
+      <div class="name"><span class="name-text">Argob</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/arimathea.html">
       <div class="name"><strong class="name-text">Arimathea</strong></div>
@@ -114,6 +166,10 @@
     <a class="person-card" href="places/ashdod.html">
       <div class="name"><strong class="name-text">Ashdod</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/asia-roman-province.html">
+      <div class="name"><span class="name-text">Asia (Roman Province)</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/asia-minor.html">
       <div class="name"><strong class="name-text">Asia Minor</strong></div>
@@ -139,9 +195,17 @@
       <div class="name"><strong class="name-text">Bahurim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/bashan.html">
+      <div class="name"><span class="name-text">Bashan</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/beersheba.html">
       <div class="name"><strong class="name-text">Beersheba</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/benjamin.html">
+      <div class="name"><span class="name-text">Benjamin</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/bethany.html">
       <div class="name"><strong class="name-text">Bethany</strong></div>
@@ -154,6 +218,18 @@
     <a class="person-card" href="places/bethlehem.html">
       <div class="name"><strong class="name-text">Bethlehem</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">20 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/bethsaida.html">
+      <div class="name"><span class="name-text">Bethsaida</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/bezek.html">
+      <div class="name"><span class="name-text">Bezek</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/buz.html">
+      <div class="name"><span class="name-text">Buz</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/caesarea.html">
       <div class="name"><strong class="name-text">Caesarea</strong></div>
@@ -171,9 +247,25 @@
       <div class="name"><strong class="name-text">Capernaum</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">4 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/carmel-of-judah.html">
+      <div class="name"><span class="name-text">Carmel (of Judah)</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/casiphia.html">
+      <div class="name"><span class="name-text">Casiphia</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/cave-of-machpelah.html">
       <div class="name"><strong class="name-text">Cave of Machpelah</strong></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/cenchrea.html">
+      <div class="name"><span class="name-text">Cenchrea</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/chebar-river.html">
+      <div class="name"><span class="name-text">Chebar River</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/colossae.html">
       <div class="name"><strong class="name-text">Colossae</strong></div>
@@ -187,9 +279,17 @@
       <div class="name"><strong class="name-text">Crete</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/cush.html">
+      <div class="name"><span class="name-text">Cush</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/cyprus.html">
       <div class="name"><strong class="name-text">Cyprus</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">5 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/cyrene.html">
+      <div class="name"><span class="name-text">Cyrene</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/damascus.html">
       <div class="name"><strong class="name-text">Damascus</strong></div>
@@ -199,13 +299,33 @@
       <div class="name"><strong class="name-text">Dan</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/debir.html">
+      <div class="name"><span class="name-text">Debir</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/edom.html">
       <div class="name"><strong class="name-text">Edom</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">5 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/eglon.html">
+      <div class="name"><span class="name-text">Eglon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/egypt.html">
       <div class="name"><strong class="name-text">Egypt</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">38 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/elam.html">
+      <div class="name"><span class="name-text">Elam</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/elkosh.html">
+      <div class="name"><span class="name-text">Elkosh</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/ellasar.html">
+      <div class="name"><span class="name-text">Ellasar</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/emmaus.html">
       <div class="name"><strong class="name-text">Emmaus</strong></div>
@@ -215,9 +335,25 @@
       <div class="name"><strong class="name-text">Ephesus</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">16 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/ephraim.html">
+      <div class="name"><span class="name-text">Ephraim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/ephraim-forest.html">
+      <div class="name"><span class="name-text">Ephraim Forest</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/ezion-geber.html">
+      <div class="name"><span class="name-text">Ezion-geber</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/galilee.html">
       <div class="name"><strong class="name-text">Galilee</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">15 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/gallim.html">
+      <div class="name"><span class="name-text">Gallim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/garden-of-eden.html">
       <div class="name"><strong class="name-text">Garden of Eden</strong></div>
@@ -227,17 +363,37 @@
       <div class="name"><strong class="name-text">Gath</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/gath-hepher.html">
+      <div class="name"><span class="name-text">Gath-hepher</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/gaza.html">
       <div class="name"><strong class="name-text">Gaza</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/gaza-road.html">
+      <div class="name"><span class="name-text">Gaza Road</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/gerar.html">
       <div class="name"><strong class="name-text">Gerar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/geshur.html">
+      <div class="name"><span class="name-text">Geshur</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/gethsemane.html">
       <div class="name"><strong class="name-text">Gethsemane</strong></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/gezer.html">
+      <div class="name"><span class="name-text">Gezer</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/gibbethon.html">
+      <div class="name"><span class="name-text">Gibbethon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/gibeah.html">
       <div class="name"><strong class="name-text">Gibeah</strong></div>
@@ -255,6 +411,10 @@
       <div class="name"><strong class="name-text">Gilgal</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/giloh.html">
+      <div class="name"><span class="name-text">Giloh</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/gob.html">
       <div class="name"><strong class="name-text">Gob</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">4 named people</span></div>
@@ -263,9 +423,25 @@
       <div class="name"><strong class="name-text">Gomorrah</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/greece.html">
+      <div class="name"><span class="name-text">Greece</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/hamath.html">
+      <div class="name"><span class="name-text">Hamath</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/haran.html">
       <div class="name"><strong class="name-text">Haran</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/harosheth-hagoyim.html">
+      <div class="name"><span class="name-text">Harosheth-hagoyim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/havvoth-jair.html">
+      <div class="name"><span class="name-text">Havvoth-jair</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/hazor.html">
       <div class="name"><strong class="name-text">Hazor</strong></div>
@@ -275,12 +451,32 @@
       <div class="name"><strong class="name-text">Hebron</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">15 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/helam.html">
+      <div class="name"><span class="name-text">Helam</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/heshbon.html">
+      <div class="name"><span class="name-text">Heshbon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/hill-country-of-ephraim.html">
       <div class="name"><strong class="name-text">Hill Country of Ephraim</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">4 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/hill-country-of-judea.html">
+      <div class="name"><span class="name-text">Hill Country of Judea</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/jabesh-gilead.html">
       <div class="name"><strong class="name-text">Jabesh-gilead</strong></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/jarmuth.html">
+      <div class="name"><span class="name-text">Jarmuth</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/jazer.html">
+      <div class="name"><span class="name-text">Jazer</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/jericho.html">
@@ -295,6 +491,10 @@
       <div class="name"><strong class="name-text">Jezreel</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/jezreel-valley.html">
+      <div class="name"><span class="name-text">Jezreel Valley</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Valley</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/joppa.html">
       <div class="name"><strong class="name-text">Joppa</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
@@ -307,6 +507,10 @@
       <div class="name"><strong class="name-text">Judea</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">5 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/kabzeel.html">
+      <div class="name"><span class="name-text">Kabzeel</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/kadesh-barnea.html">
       <div class="name"><strong class="name-text">Kadesh-barnea</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
@@ -314,6 +518,14 @@
     <a class="person-card" href="places/karkor.html">
       <div class="name"><strong class="name-text">Karkor</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/kedesh.html">
+      <div class="name"><span class="name-text">Kedesh</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/kenath.html">
+      <div class="name"><span class="name-text">Kenath</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/kingdom-of-israel.html">
       <div class="name"><strong class="name-text">Kingdom of Israel</strong></div>
@@ -331,6 +543,10 @@
       <div class="name"><strong class="name-text">Kiriath-jearim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/kishon-river.html">
+      <div class="name"><span class="name-text">Kishon River</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/lachish.html">
       <div class="name"><strong class="name-text">Lachish</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">5 named people</span></div>
@@ -347,13 +563,29 @@
       <div class="name"><strong class="name-text">Lo-debar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/lydda.html">
+      <div class="name"><span class="name-text">Lydda</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/lystra.html">
       <div class="name"><strong class="name-text">Lystra</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/macedonia.html">
+      <div class="name"><span class="name-text">Macedonia</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/madon.html">
+      <div class="name"><span class="name-text">Madon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/magdala.html">
       <div class="name"><strong class="name-text">Magdala</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/magog.html">
+      <div class="name"><span class="name-text">Magog</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/mahanaim.html">
       <div class="name"><strong class="name-text">Mahanaim</strong></div>
@@ -367,17 +599,45 @@
       <div class="name"><strong class="name-text">Malta</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/mamre.html">
+      <div class="name"><span class="name-text">Mamre</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/maon.html">
+      <div class="name"><span class="name-text">Maon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/mareshah.html">
+      <div class="name"><span class="name-text">Mareshah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/mediterranean-sea.html">
+      <div class="name"><span class="name-text">Mediterranean Sea</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Body of Water</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/megiddo.html">
       <div class="name"><strong class="name-text">Megiddo</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/meshech-and-tubal.html">
+      <div class="name"><span class="name-text">Meshech and Tubal</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/mesopotamia.html">
       <div class="name"><strong class="name-text">Mesopotamia</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">4 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/michmash.html">
+      <div class="name"><span class="name-text">Michmash</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/midian.html">
       <div class="name"><strong class="name-text">Midian</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">7 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/miletus.html">
+      <div class="name"><span class="name-text">Miletus</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/mizpah.html">
       <div class="name"><strong class="name-text">Mizpah</strong></div>
@@ -386,6 +646,10 @@
     <a class="person-card" href="places/moab.html">
       <div class="name"><strong class="name-text">Moab</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">11 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/moresheth.html">
+      <div class="name"><span class="name-text">Moresheth</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/mount-carmel.html">
       <div class="name"><strong class="name-text">Mount Carmel</strong></div>
@@ -399,6 +663,10 @@
       <div class="name"><strong class="name-text">Mount Gilboa</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/mount-hor.html">
+      <div class="name"><span class="name-text">Mount Hor</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/mount-sinai.html">
       <div class="name"><strong class="name-text">Mount Sinai</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">6 named people</span></div>
@@ -407,9 +675,21 @@
       <div class="name"><strong class="name-text">Mount Tabor</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/mount-zemaraim.html">
+      <div class="name"><span class="name-text">Mount Zemaraim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/naamah.html">
+      <div class="name"><span class="name-text">Naamah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/nazareth.html">
       <div class="name"><strong class="name-text">Nazareth</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/negev.html">
+      <div class="name"><span class="name-text">Negev</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/nineveh.html">
       <div class="name"><strong class="name-text">Nineveh</strong></div>
@@ -427,6 +707,14 @@
       <div class="name"><strong class="name-text">Paddan-aram</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">15 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/paphos.html">
+      <div class="name"><span class="name-text">Paphos</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/pas-dammim.html">
+      <div class="name"><span class="name-text">Pas-dammim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/patmos.html">
       <div class="name"><strong class="name-text">Patmos</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
@@ -434,6 +722,10 @@
     <a class="person-card" href="places/penuel.html">
       <div class="name"><strong class="name-text">Penuel</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/perea.html">
+      <div class="name"><span class="name-text">Perea</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/pergamum.html">
       <div class="name"><strong class="name-text">Pergamum</strong></div>
@@ -443,33 +735,69 @@
       <div class="name"><strong class="name-text">Persia</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">4 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/pethor.html">
+      <div class="name"><span class="name-text">Pethor</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/philippi.html">
       <div class="name"><strong class="name-text">Philippi</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">4 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/philistia.html">
+      <div class="name"><span class="name-text">Philistia</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/philistine-territory.html">
       <div class="name"><strong class="name-text">Philistine Territory</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">3 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/pirathon.html">
+      <div class="name"><span class="name-text">Pirathon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/plains-of-moab.html">
       <div class="name"><strong class="name-text">Plains of Moab</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">9 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/pontus.html">
+      <div class="name"><span class="name-text">Pontus</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/rabbah.html">
       <div class="name"><strong class="name-text">Rabbah</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">4 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/ramah.html">
+      <div class="name"><span class="name-text">Ramah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/ramathaim-zophim.html">
       <div class="name"><strong class="name-text">Ramathaim-zophim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/ramoth-gilead.html">
+      <div class="name"><span class="name-text">Ramoth-gilead</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/region-of-the-gerasenes.html">
       <div class="name"><strong class="name-text">Region of the Gerasenes</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/rephidim.html">
+      <div class="name"><span class="name-text">Rephidim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/riblah.html">
       <div class="name"><strong class="name-text">Riblah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/rock-of-oreb.html">
+      <div class="name"><span class="name-text">Rock of Oreb</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/rogelim.html">
+      <div class="name"><span class="name-text">Rogelim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/rome.html">
       <div class="name"><strong class="name-text">Rome</strong></div>
@@ -483,6 +811,18 @@
       <div class="name"><strong class="name-text">Samaria</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">40 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/seir.html">
+      <div class="name"><span class="name-text">Seir</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/shamir.html">
+      <div class="name"><span class="name-text">Shamir</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/sheba.html">
+      <div class="name"><span class="name-text">Sheba</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/shechem.html">
       <div class="name"><strong class="name-text">Shechem</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">11 named people</span></div>
@@ -491,9 +831,25 @@
       <div class="name"><strong class="name-text">Shiloh</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">9 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/shinar.html">
+      <div class="name"><span class="name-text">Shinar</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/shittim.html">
       <div class="name"><strong class="name-text">Shittim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/shuah.html">
+      <div class="name"><span class="name-text">Shuah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/shunem.html">
+      <div class="name"><span class="name-text">Shunem</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/sidon.html">
+      <div class="name"><span class="name-text">Sidon</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/sinai.html">
       <div class="name"><strong class="name-text">Sinai</strong></div>
@@ -503,13 +859,33 @@
       <div class="name"><strong class="name-text">Sodom</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/succoth.html">
+      <div class="name"><span class="name-text">Succoth</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/susa.html">
       <div class="name"><strong class="name-text">Susa</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">14 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/tarsus.html">
+      <div class="name"><span class="name-text">Tarsus</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/tekoa.html">
+      <div class="name"><span class="name-text">Tekoa</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/teman.html">
+      <div class="name"><span class="name-text">Teman</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/thebez.html">
       <div class="name"><strong class="name-text">Thebez</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/thessalonica.html">
+      <div class="name"><span class="name-text">Thessalonica</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
     <a class="person-card" href="places/thyatira.html">
       <div class="name"><strong class="name-text">Thyatira</strong></div>
@@ -526,6 +902,10 @@
     <a class="person-card" href="places/transjordan.html">
       <div class="name"><strong class="name-text">Transjordan</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/troas.html">
+      <div class="name"><span class="name-text">Troas</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
     <a class="person-card" href="places/tyre.html">
       <div class="name"><strong class="name-text">Tyre</strong></div>
@@ -555,6 +935,10 @@
       <div class="name"><strong class="name-text">Valley of Sorek</strong></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">1 named person</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/waters-of-merom.html">
+      <div class="name"><span class="name-text">Waters of Merom</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
+    </a>
     <a class="person-card" href="places/wilderness-of-judea.html">
       <div class="name"><strong class="name-text">Wilderness of Judea</strong></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">1 named person</span></div>
@@ -563,9 +947,33 @@
       <div class="name"><strong class="name-text">Wilderness of Paran</strong></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">7 named people</span></div>
     </a>
+    <a class="person-card place-card--stub" href="places/wilderness-of-shur.html">
+      <div class="name"><span class="name-text">Wilderness of Shur</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Wilderness</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/zaanannim.html">
+      <div class="name"><span class="name-text">Zaanannim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/zeboiim.html">
+      <div class="name"><span class="name-text">Zeboiim</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/ziklag.html">
+      <div class="name"><span class="name-text">Ziklag</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
+    </a>
     <a class="person-card" href="places/zoar.html">
       <div class="name"><strong class="name-text">Zoar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/zobah.html">
+      <div class="name"><span class="name-text">Zobah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Nation</span><span class="badge">2 named people</span></div>
+    </a>
+    <a class="person-card place-card--stub" href="places/zorah.html">
+      <div class="name"><span class="name-text">Zorah</span> <span class="badge stub">name only</span></div>
+      <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
   </div>
 </main>
@@ -589,6 +997,6 @@
 </footer>
 
 <script src="js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPlacesToggle();</script>
 </body>
 </html>
