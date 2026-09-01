@@ -1,0 +1,35 @@
+{
+  "place_id": "havvoth-jair",
+  "name": "Havvoth-jair",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness",
+    "United Monarchy"
+  ],
+  "first_reference": "Numbers 32:41",
+  "references": [
+    "Numbers 32:41"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "ira",
+      "name": "Ira",
+      "gender": "male"
+    },
+    {
+      "person_id": "jair",
+      "name": "Jair",
+      "gender": "male"
+    }
+  ],
+  "description": "A group of villages in Gilead named for Jair, a descendant of Manasseh who captured them (Numbers 32:41; Deuteronomy 3:14)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "elam",
+  "name": "Elam",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "mesopotamia",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 10:22",
+  "references": [
+    "Genesis 10:22"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "chedorlaomer",
+      "name": "Chedorlaomer",
+      "gender": "male"
+    }
+  ],
+  "description": "A kingdom east of Babylon whose king Chedorlaomer led the coalition that raided Sodom and Gomorrah and carried off Lot, prompting Abraham's rescue (Genesis 14:1-16)."
+}

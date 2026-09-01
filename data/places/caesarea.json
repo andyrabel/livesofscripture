@@ -1,0 +1,158 @@
+{
+  "place_id": "caesarea",
+  "name": "Caesarea",
+  "alt_names": [
+    "Caesarea Maritima"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 8:40",
+  "references": [
+    "Acts 8:40",
+    "Acts 10",
+    "Acts 23:23-24",
+    "Acts 25-26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Distinct from Caesarea Philippi, a separate inland city near Mount Hermon where Peter confessed Jesus as the Christ (Matthew 16:13-20) \u2014 no person in this dataset is specifically tied to that second Caesarea."
+  },
+  "modern_name": "Caesarea, Israel",
+  "n_people": 14,
+  "related_people": [
+    {
+      "person_id": "agabus",
+      "name": "Agabus",
+      "gender": "male",
+      "role": "warned Paul here that he would be bound in Jerusalem",
+      "references": [
+        "Acts 21:10-11"
+      ]
+    },
+    {
+      "person_id": "agrippa",
+      "name": "Agrippa",
+      "gender": "male",
+      "role": "the king who heard Paul's defense here",
+      "references": [
+        "Acts 25:23",
+        "Acts 26:1"
+      ]
+    },
+    {
+      "person_id": "ananias-3",
+      "name": "Ananias",
+      "gender": "male",
+      "role": "the high priest who came here to accuse Paul before Felix",
+      "references": [
+        "Acts 24:1"
+      ]
+    },
+    {
+      "person_id": "bernice",
+      "name": "Bernice",
+      "gender": "female",
+      "role": "attended Paul's hearing here with her brother King Agrippa",
+      "references": [
+        "Acts 25:23"
+      ]
+    },
+    {
+      "person_id": "blastus",
+      "name": "Blastus",
+      "gender": "male",
+      "role": "Herod Agrippa I's chamberlain, at this city where Herod was struck down",
+      "references": [
+        "Acts 12:20-23"
+      ]
+    },
+    {
+      "person_id": "caesar-2",
+      "name": "Caesar",
+      "gender": "male",
+      "role": "the emperor to whom Paul appealed from this city",
+      "references": [
+        "Acts 25:11-12"
+      ]
+    },
+    {
+      "person_id": "cornelius",
+      "name": "Cornelius",
+      "gender": "male",
+      "role": "the centurion of this city, first Gentile convert, baptized by Peter",
+      "references": [
+        "Acts 10:1",
+        "Acts 10:44-48"
+      ]
+    },
+    {
+      "person_id": "drusilla",
+      "name": "Drusilla",
+      "gender": "female",
+      "role": "Felix's wife, who heard Paul speak of faith in Christ here",
+      "references": [
+        "Acts 24:24"
+      ]
+    },
+    {
+      "person_id": "felix",
+      "name": "Felix",
+      "gender": "male",
+      "role": "the governor who held Paul prisoner here for two years",
+      "references": [
+        "Acts 24:27"
+      ]
+    },
+    {
+      "person_id": "festus",
+      "name": "Festus",
+      "gender": "male",
+      "role": "the governor who heard Paul here and sent him to Rome",
+      "references": [
+        "Acts 25:1-12"
+      ]
+    },
+    {
+      "person_id": "herod-3",
+      "name": "Herod",
+      "gender": "male",
+      "role": "struck down at this city after accepting the crowd's worship",
+      "references": [
+        "Acts 12:19-23"
+      ]
+    },
+    {
+      "person_id": "julius",
+      "name": "Julius",
+      "gender": "male",
+      "role": "the centurion who took charge of Paul here for the voyage to Rome",
+      "references": [
+        "Acts 27:1"
+      ]
+    },
+    {
+      "person_id": "lysias",
+      "name": "Lysias",
+      "gender": "male",
+      "role": "the tribune who sent Paul here under armed guard from Jerusalem",
+      "references": [
+        "Acts 23:23-33"
+      ]
+    },
+    {
+      "person_id": "philip-3",
+      "name": "Philip",
+      "gender": "male",
+      "role": "the evangelist whose home here hosted Paul and his companions",
+      "references": [
+        "Acts 21:8-9"
+      ]
+    }
+  ],
+  "description": "A Roman port city built by Herod the Great and named for Caesar Augustus, Caesarea served as the Roman governor's residence and administrative capital of Judea. Philip the evangelist settled there (Acts 8:40; 21:8), and it was in Caesarea that Cornelius, a Roman centurion, received a vision leading to Peter's visit and the first recorded Gentile conversion apart from circumcision (Acts 10). Paul was later held under guard in Caesarea for two years, tried before governors Felix and Festus and King Agrippa, and it was from there that he appealed to Caesar and sailed for Rome (Acts 23-26).",
+  "family_friendly_summary": "Caesarea was a busy port city built by Herod the Great, where the Roman governor lived. It's where a Roman soldier named Cornelius became one of the first non-Jewish believers, after Peter visited him. Later, Paul was kept as a prisoner in Caesarea for two years and had to defend himself in front of several important rulers there."
+}

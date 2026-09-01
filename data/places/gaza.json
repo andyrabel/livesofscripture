@@ -1,0 +1,34 @@
+{
+  "place_id": "gaza",
+  "name": "Gaza",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Genesis 10:19",
+  "references": [
+    "Genesis 10:19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Gaza City",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "samson",
+      "name": "Samson",
+      "gender": "male",
+      "role": "carried off the city gates by night, and later died pulling down its temple",
+      "references": [
+        "Judges 16:3",
+        "Judges 16:29-30"
+      ]
+    }
+  ],
+  "description": "A major Philistine city where Samson, blinded and enslaved after Delilah's betrayal, pulled down the temple of Dagon on himself and thousands of Philistines gathered there (Judges 16:21-30)."
+}

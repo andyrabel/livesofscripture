@@ -1,0 +1,42 @@
+{
+  "place_id": "crete",
+  "name": "Crete",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 27:7",
+  "references": [
+    "Acts 27:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Crete, Greece",
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "titus",
+      "name": "Titus",
+      "gender": "male",
+      "role": "left here by Paul to appoint elders in every town",
+      "references": [
+        "Titus 1:5"
+      ]
+    },
+    {
+      "person_id": "tychicus",
+      "name": "Tychicus",
+      "gender": "male",
+      "role": "one of two men Paul considered sending to relieve Titus here",
+      "references": [
+        "Titus 3:12"
+      ]
+    }
+  ],
+  "description": "A large Mediterranean island Paul's ship sailed along on the voyage to Rome (Acts 27:7-13), and where Titus was later left to appoint elders and organize the churches (Titus 1:5)."
+}

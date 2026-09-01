@@ -1,0 +1,66 @@
+{
+  "place_id": "garden-of-eden",
+  "name": "Garden of Eden",
+  "alt_names": [
+    "Eden"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Primeval History"
+  ],
+  "first_reference": "Genesis 2:8",
+  "references": [
+    "Genesis 2:8",
+    "Genesis 2:8-3:24"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Genesis 2:10-14 names four rivers, two of which (Tigris and Euphrates) are known today, suggesting a location in or near Mesopotamia \u2014 but the other two rivers cannot be securely identified, and no modern site is confidently proposed. Treated here as the location Scripture describes, not a claim about a discoverable spot on today's map."
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "abel",
+      "name": "Abel",
+      "gender": "male",
+      "role": "second son of Adam and Eve, born after the expulsion from the garden",
+      "references": [
+        "Genesis 4:2"
+      ]
+    },
+    {
+      "person_id": "adam",
+      "name": "Adam",
+      "gender": "male",
+      "role": "formed by God and placed here to work and keep the garden",
+      "references": [
+        "Genesis 2:8",
+        "Genesis 2:15"
+      ]
+    },
+    {
+      "person_id": "cain",
+      "name": "Cain",
+      "gender": "male",
+      "role": "born to Adam and Eve after their expulsion from the garden",
+      "references": [
+        "Genesis 3:24",
+        "Genesis 4:1"
+      ]
+    },
+    {
+      "person_id": "eve",
+      "name": "Eve",
+      "gender": "female",
+      "role": "formed from Adam's side here and deceived by the serpent",
+      "references": [
+        "Genesis 2:22",
+        "Genesis 3:1-6"
+      ]
+    }
+  ],
+  "description": "The garden God planted and placed the first man in, containing the tree of life and the tree of the knowledge of good and evil (Genesis 2:8-17). Adam and Eve lived there until their disobedience led to their expulsion, with cherubim and a flaming sword set to guard the way back (Genesis 3)."
+}

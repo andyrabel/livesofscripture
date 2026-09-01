@@ -1,0 +1,29 @@
+{
+  "place_id": "heshbon",
+  "name": "Heshbon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 21:25",
+  "references": [
+    "Numbers 21:25"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "sihon",
+      "name": "Sihon",
+      "gender": "male"
+    }
+  ],
+  "description": "Capital of Sihon, the Amorite king who refused Israel passage and was defeated in battle, giving Israel its first Transjordan territory (Numbers 21:21-30)."
+}

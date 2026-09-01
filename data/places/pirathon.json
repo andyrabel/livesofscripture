@@ -1,0 +1,29 @@
+{
+  "place_id": "pirathon",
+  "name": "Pirathon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 12:15",
+  "references": [
+    "Judges 12:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "abdon",
+      "name": "Abdon",
+      "gender": "male"
+    }
+  ],
+  "description": "The hometown, in Ephraim's hill country, of Abdon, a minor judge who had forty sons and thirty grandsons who rode on donkeys (Judges 12:13-15)."
+}

@@ -1,0 +1,52 @@
+{
+  "place_id": "gath",
+  "name": "Gath",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 11:22",
+  "references": [
+    "Joshua 11:22",
+    "1 Samuel 17:4",
+    "1 Samuel 21:10-15",
+    "1 Samuel 27:1-4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "achish",
+      "name": "Achish",
+      "gender": "male",
+      "role": "its Philistine king, who twice sheltered the fugitive David",
+      "references": [
+        "1 Samuel 21:10-14",
+        "1 Samuel 27:2-6"
+      ]
+    },
+    {
+      "person_id": "doeg",
+      "name": "Doeg",
+      "gender": "male"
+    },
+    {
+      "person_id": "goliath",
+      "name": "Goliath",
+      "gender": "male",
+      "role": "the Philistine champion from this city, killed by David in the Valley of Elah",
+      "references": [
+        "1 Samuel 17:4",
+        "1 Samuel 17:23"
+      ]
+    }
+  ],
+  "description": "One of the five main Philistine cities and the hometown of Goliath (1 Samuel 17:4). David later fled to Gath's king Achish twice \u2014 once feigning madness to escape (1 Samuel 21:10-15), and later living there openly with his men as a vassal to escape Saul (1 Samuel 27:1-4)."
+}

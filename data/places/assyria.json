@@ -1,0 +1,82 @@
+{
+  "place_id": "assyria",
+  "name": "Assyria",
+  "alt_names": [],
+  "tier": "full",
+  "type": "nation",
+  "region": "mesopotamia",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Genesis 10:11",
+  "references": [
+    "Genesis 10:11",
+    "2 Kings 15:19-20",
+    "2 Kings 17:1-6",
+    "2 Kings 18-19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "esarhaddon",
+      "name": "Esarhaddon",
+      "gender": "male",
+      "role": "its king, who resettled foreign peoples in Samaria",
+      "references": [
+        "Ezra 4:2"
+      ]
+    },
+    {
+      "person_id": "osnappar",
+      "name": "Osnappar",
+      "gender": "male",
+      "role": "its king, credited with deporting peoples and resettling them in Samaria",
+      "references": [
+        "Ezra 4:10"
+      ]
+    },
+    {
+      "person_id": "sargon",
+      "name": "Sargon",
+      "gender": "male",
+      "role": "its king, whose commander captured Ashdod",
+      "references": [
+        "Isaiah 20:1"
+      ]
+    },
+    {
+      "person_id": "sennacherib",
+      "name": "Sennacherib",
+      "gender": "male",
+      "role": "its king, who besieged Jerusalem and lost 185,000 troops in a night",
+      "references": [
+        "2 Kings 19:35-36"
+      ]
+    },
+    {
+      "person_id": "shalmaneser",
+      "name": "Shalmaneser",
+      "gender": "male",
+      "role": "its king, who besieged Samaria and exiled the northern tribes",
+      "references": [
+        "2 Kings 17:3-6"
+      ]
+    },
+    {
+      "person_id": "tiglath-pileser",
+      "name": "Tiglath-pileser",
+      "gender": "male",
+      "role": "its king, who deported northern Israel and was bribed by Ahaz",
+      "references": [
+        "2 Kings 15:29",
+        "2 Kings 16:7-9"
+      ]
+    }
+  ],
+  "description": "A powerful Mesopotamian empire that became the northern kingdom of Israel's chief threat, exacting tribute under kings like Tiglath-pileser and Shalmaneser before finally conquering and deporting Israel's population in 722 BC under Sargon (2 Kings 15:19-20; 17:1-6). Assyria under Sennacherib also besieged Jerusalem in Hezekiah's reign, only to withdraw after God struck down the Assyrian army (2 Kings 18-19). Jonah was sent to preach repentance to Assyria's capital, Nineveh (Jonah 1:1-2)."
+}

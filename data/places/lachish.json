@@ -1,0 +1,75 @@
+{
+  "place_id": "lachish",
+  "name": "Lachish",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 10:3",
+  "references": [
+    "Joshua 10:3",
+    "Joshua 10:31-32",
+    "2 Kings 18:13-17",
+    "2 Kings 19:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "amaziah",
+      "name": "Amaziah",
+      "gender": "male",
+      "role": "Judah's king, killed by conspirators after fleeing to this city",
+      "references": [
+        "2 Kings 14:19"
+      ]
+    },
+    {
+      "person_id": "horam",
+      "name": "Horam",
+      "gender": "male",
+      "role": "king of Gezer, who came to help this city and was destroyed by Joshua",
+      "references": [
+        "Joshua 10:33"
+      ]
+    },
+    {
+      "person_id": "japhia",
+      "name": "Japhia",
+      "gender": "male",
+      "role": "this city's king, one of the five executed by Joshua at Makkedah",
+      "references": [
+        "Joshua 10:3",
+        "Joshua 10:23-26"
+      ]
+    },
+    {
+      "person_id": "rabshakeh",
+      "name": "Rabshakeh",
+      "gender": "male",
+      "role": "Sennacherib's officer, sent from this city to demand Jerusalem's surrender",
+      "references": [
+        "2 Kings 18:17"
+      ]
+    },
+    {
+      "person_id": "sennacherib",
+      "name": "Sennacherib",
+      "gender": "male",
+      "role": "besieged this fortified city on his campaign against Judah",
+      "references": [
+        "2 Kings 18:14",
+        "2 Kings 18:17"
+      ]
+    }
+  ],
+  "description": "A fortified Canaanite city Joshua conquered during his southern campaign (Joshua 10:31-32), later one of Judah's most important fortress cities. Sennacherib of Assyria besieged and captured Lachish and used it as his base while negotiating (and threatening) with Hezekiah's officials over Jerusalem (2 Kings 18:13-17; 19:8)."
+}

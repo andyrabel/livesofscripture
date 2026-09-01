@@ -1,0 +1,55 @@
+{
+  "place_id": "ararat",
+  "name": "Ararat",
+  "alt_names": [
+    "Mountains of Ararat"
+  ],
+  "tier": "full",
+  "type": "mountain",
+  "region": "mesopotamia",
+  "eras": [
+    "Primeval History",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Genesis 8:4",
+  "references": [
+    "Genesis 8:4",
+    "2 Kings 19:37"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Traditionally associated with the mountains of modern eastern Turkey, but the text names a mountain range, not a single peak, and no exact site is fixed."
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "adrammelech",
+      "name": "Adrammelech",
+      "gender": "male",
+      "role": "fled to this land after murdering his father Sennacherib",
+      "references": [
+        "2 Kings 19:37"
+      ]
+    },
+    {
+      "person_id": "noah",
+      "name": "Noah",
+      "gender": "male",
+      "role": "the ark came to rest on these mountains as the flood receded",
+      "references": [
+        "Genesis 8:4"
+      ]
+    },
+    {
+      "person_id": "sharezer",
+      "name": "Sharezer",
+      "gender": "male",
+      "role": "fled here with his brother after murdering their father Sennacherib",
+      "references": [
+        "2 Kings 19:37"
+      ]
+    }
+  ],
+  "description": "The mountains where Noah's ark came to rest as the floodwaters receded (Genesis 8:4). Sennacherib's sons later fled there after murdering him (2 Kings 19:37)."
+}

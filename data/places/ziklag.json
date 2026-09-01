@@ -1,0 +1,34 @@
+{
+  "place_id": "ziklag",
+  "name": "Ziklag",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 15:31",
+  "references": [
+    "Joshua 15:31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "achish",
+      "name": "Achish",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahinoam-2",
+      "name": "Ahinoam",
+      "gender": "female"
+    }
+  ],
+  "description": "A town the Philistine king Achish gave David as a base while he served as his vassal; Amalekites later raided and burned it while David's men were away, taking their families captive before David pursued and recovered everyone (1 Samuel 27:6; 30:1-20)."
+}

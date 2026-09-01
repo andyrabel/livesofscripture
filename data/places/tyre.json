@@ -1,0 +1,55 @@
+{
+  "place_id": "tyre",
+  "name": "Tyre",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "United Monarchy",
+    "Apostolic"
+  ],
+  "first_reference": "Joshua 19:29",
+  "references": [
+    "Joshua 19:29",
+    "2 Samuel 5:11",
+    "1 Kings 5:1-12",
+    "Acts 21:3-6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Tyre, Lebanon",
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "blastus",
+      "name": "Blastus",
+      "gender": "male",
+      "role": "Herod's chamberlain, whose favor the people of this city sought for peace",
+      "references": [
+        "Acts 12:20"
+      ]
+    },
+    {
+      "person_id": "hiram-2",
+      "name": "Hiram",
+      "gender": "male",
+      "role": "the bronze craftsman of this city brought to cast the temple's pillars",
+      "references": [
+        "1 Kings 7:13-14"
+      ]
+    },
+    {
+      "person_id": "hiram",
+      "name": "Hiram of Tyre",
+      "gender": "male",
+      "role": "its king, who supplied cedar and craftsmen for David's and Solomon's building",
+      "references": [
+        "1 Kings 5:1-10"
+      ]
+    }
+  ],
+  "description": "A wealthy Phoenician port city whose king Hiram supplied cedar, craftsmen, and materials to David and Solomon for their building projects, including the temple, in a long friendly alliance (2 Samuel 5:11; 1 Kings 5:1-12). Paul's ship stopped there and he spent a week with Tyre's disciples on his final journey to Jerusalem (Acts 21:3-6)."
+}

@@ -1,0 +1,54 @@
+{
+  "place_id": "mount-tabor",
+  "name": "Mount Tabor",
+  "alt_names": [],
+  "tier": "full",
+  "type": "mountain",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 4:6",
+  "references": [
+    "Judges 4:6",
+    "Judges 4:12-16"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "barak",
+      "name": "Barak",
+      "gender": "male",
+      "role": "mustered ten thousand men on this mountain before routing Sisera",
+      "references": [
+        "Judges 4:6",
+        "Judges 4:14"
+      ]
+    },
+    {
+      "person_id": "deborah-2",
+      "name": "Deborah",
+      "gender": "female",
+      "role": "sent Barak down from this mountain against Sisera's army",
+      "references": [
+        "Judges 4:6",
+        "Judges 4:14"
+      ]
+    },
+    {
+      "person_id": "sisera",
+      "name": "Sisera",
+      "gender": "male",
+      "role": "his chariots were drawn to the Kishon below this mountain and destroyed",
+      "references": [
+        "Judges 4:14-15"
+      ]
+    }
+  ],
+  "description": "A prominent, isolated hill in the Jezreel Valley where Deborah directed Barak to gather Israel's forces before their victory over Sisera's chariot army (Judges 4:6, 12-16)."
+}

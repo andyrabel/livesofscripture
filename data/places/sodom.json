@@ -1,0 +1,44 @@
+{
+  "place_id": "sodom",
+  "name": "Sodom",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 10:19",
+  "references": [
+    "Genesis 10:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Likely located near the Dead Sea, possibly beneath its southern basin, but no site is confidently confirmed."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "bera",
+      "name": "Bera",
+      "gender": "male",
+      "role": "king of this city, defeated in the war of the four kings and met by Abram afterward",
+      "references": [
+        "Genesis 14:2",
+        "Genesis 14:17-21"
+      ]
+    },
+    {
+      "person_id": "lot",
+      "name": "Lot",
+      "gender": "male",
+      "role": "chose to settle in this city, and was dragged out by angels the night it was destroyed",
+      "references": [
+        "Genesis 13:12",
+        "Genesis 19:15-16"
+      ]
+    }
+  ],
+  "description": "A city of the plain notorious for wickedness, destroyed by fire and sulfur from heaven after Abraham's intercession failed to find even ten righteous people there; Lot and his daughters escaped, though his wife looked back and was turned to a pillar of salt (Genesis 18:16-19:29)."
+}

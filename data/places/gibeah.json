@@ -1,0 +1,85 @@
+{
+  "place_id": "gibeah",
+  "name": "Gibeah",
+  "alt_names": [
+    "Gibeah of Saul"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Judges 19:12",
+  "references": [
+    "Judges 19:12",
+    "Judges 19-20",
+    "1 Samuel 10:26",
+    "1 Samuel 11:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "jonathan",
+      "name": "Jonathan",
+      "gender": "male",
+      "role": "Saul's son, who struck the Philistine garrison from his father's town here",
+      "references": [
+        "1 Samuel 13:2-3"
+      ]
+    },
+    {
+      "person_id": "kish",
+      "name": "Kish",
+      "gender": "male",
+      "role": "Saul's father, whose lost donkeys sent Saul from this town to Samuel",
+      "references": [
+        "1 Samuel 9:1-3"
+      ]
+    },
+    {
+      "person_id": "mephibosheth-2",
+      "name": "Mephibosheth",
+      "gender": "male",
+      "role": "a son of Saul, handed to the Gibeonites and hanged at this town",
+      "references": [
+        "2 Samuel 21:6",
+        "2 Samuel 21:8-9"
+      ]
+    },
+    {
+      "person_id": "michal",
+      "name": "Michal",
+      "gender": "female",
+      "role": "Saul's daughter of this town, who lowered David from a window to escape",
+      "references": [
+        "1 Samuel 19:11-17"
+      ]
+    },
+    {
+      "person_id": "rizpah",
+      "name": "Rizpah",
+      "gender": "female",
+      "role": "Saul's concubine, who kept vigil over her hanged sons at this town",
+      "references": [
+        "2 Samuel 21:8-10"
+      ]
+    },
+    {
+      "person_id": "saul",
+      "name": "Saul",
+      "gender": "male",
+      "role": "Israel's first king, who ruled from this, his hometown",
+      "references": [
+        "1 Samuel 10:26",
+        "1 Samuel 15:34"
+      ]
+    }
+  ],
+  "description": "A Benjaminite town whose men's horrific crime against a Levite's concubine triggered a civil war that nearly wiped out the tribe of Benjamin (Judges 19-20). It later became the hometown and capital of Israel's first king, Saul, whose family \u2014 including Jonathan and Michal \u2014 is repeatedly identified with the place (1 Samuel 10:26; 11:4)."
+}

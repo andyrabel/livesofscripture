@@ -1,0 +1,29 @@
+{
+  "place_id": "sidon",
+  "name": "Sidon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Genesis 10:15",
+  "references": [
+    "Genesis 10:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Sidon, Lebanon",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "blastus",
+      "name": "Blastus",
+      "gender": "male"
+    }
+  ],
+  "description": "An ancient Phoenician port city; Jezebel, Ahab's notorious queen, was the daughter of Sidon's king Ethbaal, bringing Baal worship with her into Israel (1 Kings 16:31)."
+}

@@ -1,0 +1,221 @@
+{
+  "place_id": "rome",
+  "name": "Rome",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "italy",
+  "eras": [
+    "Gospels",
+    "Apostolic"
+  ],
+  "first_reference": "Acts 2:10",
+  "references": [
+    "Acts 2:10",
+    "Acts 18:2",
+    "Acts 28:14-16",
+    "Romans 1:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Rome, Italy",
+  "n_people": 22,
+  "related_people": [
+    {
+      "person_id": "andronicus",
+      "name": "Andronicus",
+      "gender": "male",
+      "role": "a kinsman of Paul, imprisoned with him, greeted in the letter to this city",
+      "references": [
+        "Romans 16:7"
+      ]
+    },
+    {
+      "person_id": "aquila",
+      "name": "Aquila",
+      "gender": "male",
+      "role": "hosted a church in this city, greeted by Paul in Romans",
+      "references": [
+        "Romans 16:3-5"
+      ]
+    },
+    {
+      "person_id": "aristarchus",
+      "name": "Aristarchus",
+      "gender": "male",
+      "role": "accompanied Paul on the voyage that brought him a prisoner to this city",
+      "references": [
+        "Acts 27:2"
+      ]
+    },
+    {
+      "person_id": "caesar",
+      "name": "Caesar",
+      "gender": "male",
+      "role": "the emperor whose image was on the tribute coin in Jesus's teaching",
+      "references": [
+        "Mark 12:16-17"
+      ]
+    },
+    {
+      "person_id": "caesar-2",
+      "name": "Caesar",
+      "gender": "male",
+      "role": "the emperor to whom Paul appealed, carrying his case to this city",
+      "references": [
+        "Acts 28:19"
+      ]
+    },
+    {
+      "person_id": "caesar-augustus",
+      "name": "Caesar Augustus",
+      "gender": "male",
+      "role": "this empire's first emperor, whose census decree reached Judea",
+      "references": [
+        "Luke 2:1"
+      ]
+    },
+    {
+      "person_id": "claudius",
+      "name": "Claudius",
+      "gender": "male",
+      "role": "emperor here, whose edict expelling Jews sent Aquila and Priscilla away",
+      "references": [
+        "Acts 18:2"
+      ]
+    },
+    {
+      "person_id": "demas",
+      "name": "Demas",
+      "gender": "male",
+      "role": "a fellow worker who deserted Paul here, having loved this present world",
+      "references": [
+        "2 Timothy 4:10"
+      ]
+    },
+    {
+      "person_id": "epanetus",
+      "name": "Epanetus",
+      "gender": "male",
+      "role": "greeted by Paul in this city as the first convert to Christ from Asia",
+      "references": [
+        "Romans 16:5"
+      ]
+    },
+    {
+      "person_id": "epaphras",
+      "name": "Epaphras",
+      "gender": "male",
+      "role": "of Colossae, Paul's fellow prisoner in this city",
+      "references": [
+        "Philemon 1:23",
+        "Colossians 4:12"
+      ]
+    },
+    {
+      "person_id": "epaphroditus",
+      "name": "Epaphroditus",
+      "gender": null,
+      "role": "sent by Philippi with a gift to Paul in this city, where he fell ill",
+      "references": [
+        "Philippians 2:25-27"
+      ]
+    },
+    {
+      "person_id": "junias",
+      "name": "Junia",
+      "gender": "male",
+      "role": "a kinsman of Paul, imprisoned with him, greeted in the letter to this city",
+      "references": [
+        "Romans 16:7"
+      ]
+    },
+    {
+      "person_id": "mark",
+      "name": "Mark",
+      "gender": "male",
+      "role": "with Paul during his imprisonment in this city",
+      "references": [
+        "Colossians 4:10",
+        "2 Timothy 4:11"
+      ]
+    },
+    {
+      "person_id": "mary-5",
+      "name": "Mary",
+      "gender": "female",
+      "role": "a hard worker in this church, greeted by name by Paul",
+      "references": [
+        "Romans 16:6"
+      ]
+    },
+    {
+      "person_id": "onesimus",
+      "name": "Onesimus",
+      "gender": "male",
+      "role": "the runaway slave converted by Paul during his imprisonment in this city",
+      "references": [
+        "Philemon 1:10"
+      ]
+    },
+    {
+      "person_id": "onesiphorus",
+      "name": "Onesiphorus",
+      "gender": "male",
+      "role": "searched hard for Paul in this city until he found him",
+      "references": [
+        "2 Timothy 1:17"
+      ]
+    },
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male",
+      "role": "brought here as a prisoner, and preached the kingdom under guard",
+      "references": [
+        "Acts 28:16",
+        "Acts 28:30-31"
+      ]
+    },
+    {
+      "person_id": "persis",
+      "name": "Persis",
+      "gender": "female",
+      "role": "a woman of this church who worked hard in the Lord",
+      "references": [
+        "Romans 16:12"
+      ]
+    },
+    {
+      "person_id": "priscilla",
+      "name": "Priscilla",
+      "gender": "female",
+      "role": "hosted a church in this city with her husband Aquila",
+      "references": [
+        "Romans 16:3-5"
+      ]
+    },
+    {
+      "person_id": "rufus",
+      "name": "Rufus",
+      "gender": "male",
+      "role": "greeted in this church as choice in the Lord",
+      "references": [
+        "Romans 16:13"
+      ]
+    },
+    {
+      "person_id": "tychicus",
+      "name": "Tychicus",
+      "gender": "male",
+      "role": "a courier of the letters Paul wrote from his imprisonment here",
+      "references": [
+        "Colossians 4:7-8"
+      ]
+    }
+  ],
+  "description": "Capital of the empire that ruled the whole New Testament world, Rome itself is mentioned less often in Scripture than the emperors and officials who governed in its name, but it is the city Paul had long wanted to visit (Romans 1:10-13; 15:22-24) and the destination of his letter to the Romans, written to a church already established there before he ever arrived. Aquila and Priscilla had been expelled from Rome under Claudius's edict against Jews (Acts 18:2) before later returning. Paul finally reached the city as a prisoner appealing his case to Caesar, and spent two years there under guard, still preaching (Acts 28:14-31) \u2014 the point at which Acts's narrative ends, with the gospel having reached the empire's center.",
+  "family_friendly_summary": "Rome was the capital city of the huge Roman Empire that ruled over Israel in New Testament times. Paul wrote his letter to the Romans to Christians already living there, and he always wanted to visit them. Eventually Paul did travel to Rome \u2014 but as a prisoner, appealing to have his case heard by Caesar. Even under guard, Paul kept telling people about Jesus there."
+}

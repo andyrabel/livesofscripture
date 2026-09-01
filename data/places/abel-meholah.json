@@ -1,0 +1,29 @@
+{
+  "place_id": "abel-meholah",
+  "name": "Abel-meholah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Judges 7:22",
+  "references": [
+    "Judges 7:22"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "adriel",
+      "name": "Adriel",
+      "gender": "male"
+    }
+  ],
+  "description": "A town toward which the routed Midianites fled from Gideon (Judges 7:22); it was also Elisha's hometown, where Elijah found him plowing and called him as his successor (1 Kings 19:16)."
+}

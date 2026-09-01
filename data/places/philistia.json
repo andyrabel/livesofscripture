@@ -1,0 +1,34 @@
+{
+  "place_id": "philistia",
+  "name": "Philistia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Exodus 15:14",
+  "references": [
+    "Exodus 15:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "See also Philistine Territory, the broader coastal region of the same people."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "goliath",
+      "name": "Goliath",
+      "gender": "male"
+    },
+    {
+      "person_id": "ishbi-benob",
+      "name": "Ishbi-benob",
+      "gender": "male"
+    }
+  ],
+  "description": "The coastal homeland of the Philistines; a descendant of their giants, Ishbi-benob, nearly killed David in battle before Abishai intervened (2 Samuel 21:15-17)."
+}

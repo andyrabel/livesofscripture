@@ -1,0 +1,29 @@
+{
+  "place_id": "ezion-geber",
+  "name": "Ezion-geber",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "egypt",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Numbers 33:35",
+  "references": [
+    "Numbers 33:35"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eliezer-6",
+      "name": "Eliezer",
+      "gender": "male"
+    }
+  ],
+  "description": "A port on the Red Sea's Gulf of Aqaba where Solomon built a fleet of trading ships (1 Kings 9:26); a similar fleet, built later by Jehoshaphat with Ahaziah of Israel, was wrecked there (1 Kings 22:48)."
+}

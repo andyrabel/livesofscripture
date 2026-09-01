@@ -1,0 +1,29 @@
+{
+  "place_id": "teman",
+  "name": "Teman",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 36:11",
+  "references": [
+    "Genesis 36:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "A district of Edom named for a grandson of Esau."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eliphaz-2",
+      "name": "Eliphaz",
+      "gender": "male"
+    }
+  ],
+  "description": "The homeland of Eliphaz \"the Temanite,\" the first and most prominent of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 4:1-5:27)."
+}

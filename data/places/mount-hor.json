@@ -1,0 +1,29 @@
+{
+  "place_id": "mount-hor",
+  "name": "Mount Hor",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 20:22",
+  "references": [
+    "Numbers 20:22"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Exact peak not confidently identified."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eleazar",
+      "name": "Eleazar",
+      "gender": "male"
+    }
+  ],
+  "description": "The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29)."
+}

@@ -1,0 +1,174 @@
+{
+  "place_id": "ephesus",
+  "name": "Ephesus",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Gospels",
+    "Apostolic"
+  ],
+  "first_reference": "Acts 18:19",
+  "references": [
+    "Acts 18:19",
+    "Acts 18:19-21",
+    "Acts 19",
+    "Ephesians 1:1",
+    "Revelation 2:1-7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "near Sel\u00e7uk, Turkey",
+  "n_people": 16,
+  "related_people": [
+    {
+      "person_id": "achaicus",
+      "name": "Achaicus",
+      "gender": "male",
+      "role": "of Corinth, who visited Paul during his long stay in this city",
+      "references": [
+        "1 Corinthians 16:8",
+        "1 Corinthians 16:17"
+      ]
+    },
+    {
+      "person_id": "alexander-3",
+      "name": "Alexander",
+      "gender": "male",
+      "role": "the Jew pushed forward by the crowd during the silversmiths' riot here",
+      "references": [
+        "Acts 19:33"
+      ]
+    },
+    {
+      "person_id": "alexander-4",
+      "name": "Alexander the Coppersmith",
+      "gender": "male",
+      "role": "the coppersmith who did Paul great harm and strongly opposed his message",
+      "references": [
+        "2 Timothy 4:14-15"
+      ]
+    },
+    {
+      "person_id": "apollos",
+      "name": "Apollos",
+      "gender": "male",
+      "role": "taught boldly in the synagogue here before Priscilla and Aquila corrected him",
+      "references": [
+        "Acts 18:24-26"
+      ]
+    },
+    {
+      "person_id": "aquila",
+      "name": "Aquila",
+      "gender": "male",
+      "role": "settled here with Paul and instructed Apollos more accurately",
+      "references": [
+        "Acts 18:19",
+        "Acts 18:26"
+      ]
+    },
+    {
+      "person_id": "aristarchus",
+      "name": "Aristarchus",
+      "gender": "male",
+      "role": "seized by the mob and dragged into the theater here during the riot",
+      "references": [
+        "Acts 19:29"
+      ]
+    },
+    {
+      "person_id": "demetrius",
+      "name": "Demetrius",
+      "gender": "male",
+      "role": "the silversmith who stirred this city to riot against Paul",
+      "references": [
+        "Acts 19:24-29"
+      ]
+    },
+    {
+      "person_id": "erastus",
+      "name": "Erastus",
+      "gender": "male",
+      "role": "sent ahead from here to Macedonia while Paul stayed on in Asia",
+      "references": [
+        "Acts 19:22"
+      ]
+    },
+    {
+      "person_id": "forunatus",
+      "name": "Forunatus",
+      "gender": "male",
+      "role": "of Corinth, who visited Paul during his stay in this city",
+      "references": [
+        "1 Corinthians 16:8",
+        "1 Corinthians 16:17"
+      ]
+    },
+    {
+      "person_id": "hymenaeus",
+      "name": "Hymenaeus",
+      "gender": "male",
+      "role": "handed over to Satan for the ruin of his faith, and later denied here",
+      "references": [
+        "1 Timothy 1:19-20"
+      ]
+    },
+    {
+      "person_id": "john-2",
+      "name": "John",
+      "gender": "male"
+    },
+    {
+      "person_id": "onesiphorus",
+      "name": "Onesiphorus",
+      "gender": "male",
+      "role": "of this city, who often refreshed Paul and searched him out in Rome",
+      "references": [
+        "2 Timothy 1:16-18"
+      ]
+    },
+    {
+      "person_id": "philetus",
+      "name": "Philetus",
+      "gender": "male",
+      "role": "who taught here that the resurrection had already happened",
+      "references": [
+        "2 Timothy 2:17-18"
+      ]
+    },
+    {
+      "person_id": "priscilla",
+      "name": "Priscilla",
+      "gender": "female",
+      "role": "settled here with Aquila and instructed Apollos more accurately",
+      "references": [
+        "Acts 18:19",
+        "Acts 18:26"
+      ]
+    },
+    {
+      "person_id": "timothy",
+      "name": "Timothy",
+      "gender": "male",
+      "role": "left here by Paul to correct the false teaching spreading in the church",
+      "references": [
+        "1 Timothy 1:3"
+      ]
+    },
+    {
+      "person_id": "trophimus",
+      "name": "Trophimus",
+      "gender": "male",
+      "role": "of this city, whose presence with Paul in Jerusalem sparked the temple riot",
+      "references": [
+        "Acts 21:29"
+      ]
+    }
+  ],
+  "description": "A major port city in the Roman province of Asia, home to the temple of Artemis, one of the ancient world's Seven Wonders. Paul first visited briefly (Acts 18:19-21) then returned and spent about three years establishing a church there, teaching daily in the hall of Tyrannus (Acts 19:8-10) \u2014 long enough that a riot broke out among silversmiths whose idol-making trade his preaching threatened (Acts 19:23-41). He later wrote Ephesians, likely a circular letter to churches in the region, and gave Timothy responsibility for the Ephesian church (1 Timothy 1:3). It is also the first of the seven churches addressed in Revelation, commended for perseverance but warned for having \"left your first love\" (Revelation 2:1-7).",
+  "family_friendly_summary": "Ephesus was a big city with a huge temple to a false goddess called Artemis. Paul spent about three years there teaching people about Jesus, and so many people believed that it hurt the business of men who made idols \u2014 they even started a riot! Paul later wrote a letter to the Christians in Ephesus, and it's also one of the seven churches Jesus speaks to in Revelation."
+}

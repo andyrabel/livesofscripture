@@ -1,0 +1,72 @@
+{
+  "place_id": "cyprus",
+  "name": "Cyprus",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 4:36",
+  "references": [
+    "Acts 4:36",
+    "Acts 11:19-20",
+    "Acts 13:4-12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Cyprus",
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "bar-jesus",
+      "name": "Bar-Jesus",
+      "gender": "male",
+      "role": "the sorcerer of this island struck blind for opposing Paul",
+      "references": [
+        "Acts 13:6-11"
+      ]
+    },
+    {
+      "person_id": "barnabas",
+      "name": "Barnabas",
+      "gender": "male",
+      "role": "a Levite of this island, who led the first mission through it",
+      "references": [
+        "Acts 4:36",
+        "Acts 13:4-5"
+      ]
+    },
+    {
+      "person_id": "mark",
+      "name": "Mark",
+      "gender": "male",
+      "role": "assisted Paul and Barnabas as they crossed this island",
+      "references": [
+        "Acts 13:5"
+      ]
+    },
+    {
+      "person_id": "mnason",
+      "name": "Mnason",
+      "gender": "male",
+      "role": "a disciple of this island of long standing, who hosted Paul",
+      "references": [
+        "Acts 21:16"
+      ]
+    },
+    {
+      "person_id": "sergius-paulus",
+      "name": "Sergius Paulus",
+      "gender": "male",
+      "role": "the island's proconsul, who believed after Elymas was struck blind",
+      "references": [
+        "Acts 13:7-12"
+      ]
+    }
+  ],
+  "description": "A Mediterranean island, Barnabas's homeland (Acts 4:36), where some believers scattered by persecution first preached to Greeks as well as Jews (Acts 11:19-20). Barnabas and Saul made it the first stop of their missionary journey, confronting the sorcerer Bar-Jesus and seeing the Roman proconsul Sergius Paulus believe (Acts 13:4-12); Barnabas and his cousin Mark later returned there together after parting ways with Paul (Acts 15:39)."
+}

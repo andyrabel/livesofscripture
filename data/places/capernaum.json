@@ -1,0 +1,65 @@
+{
+  "place_id": "capernaum",
+  "name": "Capernaum",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 4:13",
+  "references": [
+    "Matthew 4:13",
+    "Mark 1:21-29",
+    "Matthew 9:9",
+    "Mark 5:21-24"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Kfar Nahum, Israel",
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "andrew",
+      "name": "Andrew",
+      "gender": "male",
+      "role": "Peter's brother, a fisherman whose home was in this town",
+      "references": [
+        "Mark 1:29"
+      ]
+    },
+    {
+      "person_id": "jairus",
+      "name": "Jairus",
+      "gender": "male",
+      "role": "a synagogue official of this town whose dying daughter Jesus raised",
+      "references": [
+        "Mark 5:22-42"
+      ]
+    },
+    {
+      "person_id": "matthew",
+      "name": "Matthew",
+      "gender": "male",
+      "role": "sat at the tax booth here until Jesus called him to follow",
+      "references": [
+        "Mark 2:14",
+        "Matthew 9:9"
+      ]
+    },
+    {
+      "person_id": "peter",
+      "name": "Peter",
+      "gender": "male",
+      "role": "the fisherman whose house here Jesus made a base for His Galilean ministry",
+      "references": [
+        "Mark 1:21",
+        "Mark 1:29"
+      ]
+    }
+  ],
+  "description": "A fishing town on the Sea of Galilee's north shore that Jesus made the base of much of His Galilean ministry after leaving Nazareth (Matthew 4:13). It was Peter's hometown, the site of Jesus's synagogue teaching and many healings \u2014 including Peter's mother-in-law and a paralyzed man lowered through the roof \u2014 and where Matthew was called from his tax booth (Mark 1:21-29; 2:1-14; Matthew 9:9)."
+}

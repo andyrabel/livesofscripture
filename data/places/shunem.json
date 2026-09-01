@@ -1,0 +1,29 @@
+{
+  "place_id": "shunem",
+  "name": "Shunem",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 19:18",
+  "references": [
+    "Joshua 19:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "abishag",
+      "name": "Abishag",
+      "gender": "female"
+    }
+  ],
+  "description": "Home of the Shunammite woman who provided a room for Elisha and was later given a son through his prophecy, whom Elisha raised from death (2 Kings 4:8-37); Abishag, brought to comfort the elderly David, was also from Shunem (1 Kings 1:3)."
+}

@@ -1,0 +1,35 @@
+{
+  "place_id": "shinar",
+  "name": "Shinar",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Primeval History",
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 10:10",
+  "references": [
+    "Genesis 10:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "The broader Mesopotamian plain containing Babylon; Genesis uses the name for both the region and, in Genesis 11, the specific site of the tower of Babel."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "amraphel",
+      "name": "Amraphel",
+      "gender": "male"
+    },
+    {
+      "person_id": "nimrod",
+      "name": "Nimrod",
+      "gender": "male"
+    }
+  ],
+  "description": "The plain where humanity built the tower of Babel before God confused their language and scattered them (Genesis 11:1-9), and, later, where the invading king Amraphel of Shinar came from in Abraham's day (Genesis 14:1)."
+}

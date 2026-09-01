@@ -1,0 +1,33 @@
+{
+  "place_id": "ai",
+  "name": "Ai",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 7:2",
+  "references": [
+    "Joshua 7:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "achan",
+      "name": "Achan",
+      "gender": "male",
+      "role": "kept plunder devoted to destruction from Jericho, bringing Israel's rout here",
+      "references": [
+        "Joshua 7:1-5"
+      ]
+    }
+  ],
+  "description": "A city Israel first failed to capture because of Achan's hidden sin, then destroyed by ambush once the sin was dealt with (Joshua 7-8)."
+}

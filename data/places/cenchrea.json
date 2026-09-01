@@ -1,0 +1,29 @@
+{
+  "place_id": "cenchrea",
+  "name": "Cenchrea",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 18:18",
+  "references": [
+    "Acts 18:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "phoebe",
+      "name": "Phoebe",
+      "gender": "female"
+    }
+  ],
+  "description": "Corinth's eastern port, home of Phoebe, a deacon of its church whom Paul commended to the Romans and who likely carried his letter to them (Romans 16:1-2)."
+}

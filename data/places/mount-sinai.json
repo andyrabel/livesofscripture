@@ -1,0 +1,85 @@
+{
+  "place_id": "mount-sinai",
+  "name": "Mount Sinai",
+  "alt_names": [
+    "Horeb"
+  ],
+  "tier": "full",
+  "type": "mountain",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Exodus/Wilderness",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Exodus 19:1",
+  "references": [
+    "Exodus 19:1",
+    "Exodus 19-20",
+    "Exodus 24",
+    "1 Kings 19:8"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "Traditionally identified with Jebel Musa in the southern Sinai Peninsula, though the exact peak is disputed and not stated by the text."
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "bezalel",
+      "name": "Bezalel",
+      "gender": "male",
+      "role": "filled with God's Spirit here to design and build the tabernacle",
+      "references": [
+        "Exodus 31:2-5"
+      ]
+    },
+    {
+      "person_id": "elijah",
+      "name": "Elijah",
+      "gender": "male",
+      "role": "fled to this mountain and heard God in a low whisper",
+      "references": [
+        "1 Kings 19:8-12"
+      ]
+    },
+    {
+      "person_id": "elzaphan",
+      "name": "Elzaphan",
+      "gender": "male",
+      "role": "carried the bodies of Nadab and Abihu out of the camp here",
+      "references": [
+        "Leviticus 10:4"
+      ]
+    },
+    {
+      "person_id": "hobab",
+      "name": "Hobab",
+      "gender": "male",
+      "role": "asked by Moses to guide Israel onward from this mountain",
+      "references": [
+        "Numbers 10:29-31"
+      ]
+    },
+    {
+      "person_id": "hur",
+      "name": "Hur",
+      "gender": "male",
+      "role": "held up Moses's hands, and was left in charge while Moses climbed the mountain",
+      "references": [
+        "Exodus 17:12",
+        "Exodus 24:14"
+      ]
+    },
+    {
+      "person_id": "oholiab",
+      "name": "Oholiab",
+      "gender": "male",
+      "role": "appointed with Bezalel to build the tabernacle here",
+      "references": [
+        "Exodus 31:6"
+      ]
+    }
+  ],
+  "description": "The mountain where God gave Moses the Ten Commandments amid thunder, smoke, and fire, and where Moses and Israel's elders later confirmed the covenant (Exodus 19-20; 24). Also called Horeb, it is where Moses first encountered God at the burning bush (Exodus 3:1) and where, generations later, Elijah fled and heard God speak in a gentle whisper rather than the wind, earthquake, or fire (1 Kings 19:8-13)."
+}

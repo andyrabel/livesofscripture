@@ -1,0 +1,33 @@
+{
+  "place_id": "wilderness-of-judea",
+  "name": "Wilderness of Judea",
+  "alt_names": [],
+  "tier": "full",
+  "type": "wilderness",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 3:1",
+  "references": [
+    "Matthew 3:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "john",
+      "name": "John",
+      "gender": "male",
+      "role": "preached repentance and baptized here, preparing the way for Jesus",
+      "references": [
+        "Matthew 3:1-6"
+      ]
+    }
+  ],
+  "description": "The rugged desert region near the Dead Sea where John the Baptist lived and preached, calling people to repentance and baptizing them in the Jordan (Matthew 3:1-6)."
+}

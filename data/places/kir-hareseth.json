@@ -1,0 +1,33 @@
+{
+  "place_id": "kir-hareseth",
+  "name": "Kir-hareseth",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "moab-transjordan",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "2 Kings 3:25",
+  "references": [
+    "2 Kings 3:25"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "mesha",
+      "name": "Mesha",
+      "gender": "male",
+      "role": "Moab's king, besieged here, who sacrificed his own firstborn son on the wall",
+      "references": [
+        "2 Kings 3:26-27"
+      ]
+    }
+  ],
+  "description": "The Moabite capital besieged by Israel, Judah, and Edom's combined armies; Moab's king Mesha, facing defeat, sacrificed his own firstborn son on the city wall (2 Kings 3:25-27)."
+}

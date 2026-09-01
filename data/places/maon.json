@@ -1,0 +1,34 @@
+{
+  "place_id": "maon",
+  "name": "Maon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 15:55",
+  "references": [
+    "Joshua 15:55"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "abigail",
+      "name": "Abigail",
+      "gender": "female"
+    },
+    {
+      "person_id": "nabal",
+      "name": "Nabal",
+      "gender": "male"
+    }
+  ],
+  "description": "A town in Judah's wilderness near where the wealthy Nabal grazed his flocks and where David had earlier hidden from Saul's pursuit (1 Samuel 23:24-25; 25:2)."
+}

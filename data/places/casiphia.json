@@ -1,0 +1,34 @@
+{
+  "place_id": "casiphia",
+  "name": "Casiphia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "mesopotamia",
+  "eras": [
+    "Post-Exile/Intertestamental"
+  ],
+  "first_reference": "Ezra 8:17",
+  "references": [
+    "Ezra 8:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "iddo-6",
+      "name": "Iddo",
+      "gender": "male"
+    },
+    {
+      "person_id": "jarib",
+      "name": "Jarib",
+      "gender": "male"
+    }
+  ],
+  "description": "A settlement in Babylonia where Ezra sent for Levites to accompany the returning exiles to Jerusalem, since none had yet joined his group (Ezra 8:15-20)."
+}

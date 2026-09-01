@@ -1,0 +1,169 @@
+{
+  "place_id": "sinai",
+  "name": "Sinai",
+  "alt_names": [
+    "Wilderness of Sinai",
+    "Sinai Peninsula"
+  ],
+  "tier": "full",
+  "type": "wilderness",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Exodus 16:1",
+  "references": [
+    "Exodus 16:1",
+    "Exodus 19",
+    "Numbers 10:11-12"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "The traditional location in the southern Sinai Peninsula (near modern Jebel Musa) is the most widely held identification, but several other sites in the peninsula and even in northwest Arabia have been proposed; Scripture itself gives no coordinates."
+  },
+  "modern_name": null,
+  "n_people": 15,
+  "related_people": [
+    {
+      "person_id": "aaron",
+      "name": "Aaron",
+      "gender": "male",
+      "role": "consecrated Israel's first high priest here, and made the golden calf",
+      "references": [
+        "Exodus 28:1",
+        "Exodus 32:2-4"
+      ]
+    },
+    {
+      "person_id": "abihu",
+      "name": "Abihu",
+      "gender": "male",
+      "role": "an ordained priest here, struck down for offering unauthorized fire",
+      "references": [
+        "Leviticus 10:1-2"
+      ]
+    },
+    {
+      "person_id": "hoglah",
+      "name": "Hoglah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad, numbered among Israel here",
+      "references": [
+        "Numbers 26:33"
+      ]
+    },
+    {
+      "person_id": "ithamar",
+      "name": "Ithamar",
+      "gender": "male",
+      "role": "Aaron's youngest son, ordained priest here, who oversaw the Levites' work",
+      "references": [
+        "Exodus 38:21"
+      ]
+    },
+    {
+      "person_id": "jethro",
+      "name": "Jethro",
+      "gender": "male",
+      "role": "came to Moses here and advised appointing capable men as judges over Israel",
+      "references": [
+        "Exodus 18:5",
+        "Exodus 18:13-24"
+      ]
+    },
+    {
+      "person_id": "joshua",
+      "name": "Joshua",
+      "gender": "male",
+      "role": "Moses's aide, who guarded the tent of meeting here and went partway up the mountain",
+      "references": [
+        "Exodus 24:13",
+        "Exodus 33:11"
+      ]
+    },
+    {
+      "person_id": "korah-3",
+      "name": "Korah",
+      "gender": "male",
+      "role": "a Levite who led a rebellion against Moses and Aaron here and was swallowed by the earth",
+      "references": [
+        "Numbers 16:1-33"
+      ]
+    },
+    {
+      "person_id": "mahlah",
+      "name": "Mahlah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad, numbered among Israel here",
+      "references": [
+        "Numbers 26:33"
+      ]
+    },
+    {
+      "person_id": "milcah-2",
+      "name": "Milcah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad, numbered among Israel here",
+      "references": [
+        "Numbers 26:33"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "received the Law and the covenant from God here",
+      "references": [
+        "Exodus 19:20",
+        "Exodus 24:12"
+      ]
+    },
+    {
+      "person_id": "nadab",
+      "name": "Nadab",
+      "gender": "male",
+      "role": "an ordained priest here, struck down for offering unauthorized fire",
+      "references": [
+        "Leviticus 10:1-2"
+      ]
+    },
+    {
+      "person_id": "noah-2",
+      "name": "Noah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad, numbered among Israel here",
+      "references": [
+        "Numbers 26:33"
+      ]
+    },
+    {
+      "person_id": "shelumiel",
+      "name": "Shelumiel",
+      "gender": "male",
+      "role": "leader of the tribe of Simeon, who helped Moses number the people here",
+      "references": [
+        "Numbers 1:6"
+      ]
+    },
+    {
+      "person_id": "tirzah",
+      "name": "Tirzah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad, numbered among Israel here",
+      "references": [
+        "Numbers 26:33"
+      ]
+    },
+    {
+      "person_id": "zipporah",
+      "name": "Zipporah",
+      "gender": "female",
+      "role": "Moses's wife, brought to him here by her father Jethro",
+      "references": [
+        "Exodus 18:2-5"
+      ]
+    }
+  ],
+  "description": "The wilderness region Israel reached about three months after leaving Egypt, where they camped for roughly a year at the foot of Mount Sinai (Exodus 19:1-2; Numbers 10:11-12). It was here that God gave Moses the Ten Commandments and the rest of the Law, established the covenant with Israel as a nation, and gave detailed instructions for the tabernacle, priesthood, and sacrificial system (Exodus 19-40; Leviticus). Aaron's golden calf, Nadab and Abihu's unauthorized fire, and the tabernacle's construction and dedication all take place here \u2014 making Sinai the setting for most of Exodus's second half and all of Leviticus.",
+  "family_friendly_summary": "Sinai was the wild, mountain-filled desert where God's people camped for about a year after leaving Egypt. There God gave Moses the Ten Commandments and many other laws, and the people built a special worship tent called the tabernacle. It was an important time when God showed His people how He wanted them to live and worship Him."
+}

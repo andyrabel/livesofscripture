@@ -1,0 +1,56 @@
+{
+  "place_id": "philistine-territory",
+  "name": "Philistine Territory",
+  "alt_names": [
+    "Philistia"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges",
+    "United Monarchy"
+  ],
+  "first_reference": "Genesis 21:32",
+  "references": [
+    "Genesis 21:32",
+    "Judges 13-16",
+    "1 Samuel 4-6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "samson",
+      "name": "Samson",
+      "gender": "male",
+      "role": "raided and judged among the Philistines for twenty years",
+      "references": [
+        "Judges 15:20"
+      ]
+    },
+    {
+      "person_id": "saph",
+      "name": "Saph",
+      "gender": "male",
+      "role": "a Philistine giant killed by David's man Sibbecai",
+      "references": [
+        "2 Samuel 21:18"
+      ]
+    },
+    {
+      "person_id": "shamgar",
+      "name": "Shamgar",
+      "gender": "male",
+      "role": "struck down six hundred Philistines with an ox goad",
+      "references": [
+        "Judges 3:31"
+      ]
+    }
+  ],
+  "description": "The coastal region of five allied Philistine cities (Gaza, Ashkelon, Ashdod, Gath, and Ekron) that repeatedly warred with Israel, especially during the judges period through Samson's conflicts with them (Judges 13-16) and their capture and forced return of the ark of the covenant (1 Samuel 4-6)."
+}

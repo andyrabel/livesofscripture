@@ -141,6 +141,56 @@ async function loadConnections() {
   return DATA.connections;
 }
 
+async function loadPlacesIndex() {
+  if (!DATA.placesIndex) {
+    const res = await fetch(dataPath("places-index.json"));
+    DATA.placesIndex = await res.json();
+  }
+  return DATA.placesIndex;
+}
+
+async function loadPlaceConnections() {
+  if (!DATA.placeConnections) {
+    const res = await fetch(dataPath("place-connections.json"));
+    DATA.placeConnections = await res.json();
+  }
+  return DATA.placeConnections;
+}
+
+async function loadPlace(id) {
+  const res = await fetch(dataPath(`places/${id}.json`));
+  if (!res.ok) return null;
+  return res.json();
+}
+
+// A place node in the connections graph is given the id "place:<place_id>"
+// so it can share the same person_id-keyed adjacency/index machinery as a
+// person node (see renderConnectionsPage). This turns a places-index.json
+// entry into that shape.
+function placeToGraphEntry(place) {
+  return {
+    person_id: `place:${place.place_id}`,
+    name: place.name,
+    alt_names: place.alt_names || [],
+    kind: "place",
+    place_type: place.type,
+    era: place.eras && place.eras[0],
+    eras: place.eras || [],
+    tier: place.tier,
+  };
+}
+
+function isPlaceNodeId(id) {
+  return typeof id === "string" && id.startsWith("place:");
+}
+
+function graphNodeHref(entry, id) {
+  if (isPlaceNodeId(id)) {
+    return `places/${encodeURIComponent(id.slice("place:".length))}.html`;
+  }
+  return `people/${encodeURIComponent(id)}.html`;
+}
+
 async function loadPerson(id) {
   const res = await fetch(dataPath(`people/${id}.json`));
   if (!res.ok) return null;
@@ -1709,7 +1759,14 @@ const ERA_BUCKETS = [
   { key: "apostolic", eras: ["Apostolic"], label: "Apostolic" },
 ];
 
+const PLACE_TYPE_LABELS = {
+  nation: "Nation", region: "Region", city: "City", town: "Town",
+  village: "Village", mountain: "Mountain", wilderness: "Wilderness",
+  valley: "Valley", "body-of-water": "Body of Water", site: "Site",
+};
+
 function eraBucketKey(entry) {
+  if (entry && entry.kind === "place") return "place";
   if (entry && entry.era) {
     const bucket = ERA_BUCKETS.find((b) => b.eras.includes(entry.era));
     if (bucket) return bucket.key;
@@ -1717,9 +1774,10 @@ function eraBucketKey(entry) {
   return "other";
 }
 
-function renderConnectionsLegend(container) {
+function renderConnectionsLegend(container, showPlace = true) {
   container.innerHTML = "";
   const items = [...ERA_BUCKETS.map((b) => [b.key, b.label]), ["other", "Era not placed"]];
+  if (showPlace) items.push(["place", "Place"]);
   for (const [key, label] of items) {
     const span = document.createElement("span");
     span.className = "connections-legend__item";
@@ -1734,9 +1792,10 @@ function renderConnectionsLegend(container) {
 // ---- data helpers ----
 
 function comboboxLabel(entry) {
-  return entry.alt_names && entry.alt_names.length
+  const base = entry.alt_names && entry.alt_names.length
     ? `${entry.name} (${entry.alt_names.join(", ")})`
     : entry.name;
+  return entry.kind === "place" ? `${base} — place` : base;
 }
 
 function resolveBestMatch(query, index) {
@@ -2014,8 +2073,14 @@ function positionConnectionsTooltip(evt) {
 function showNodeTooltip(evt, entry) {
   const el = connectionsTooltipEl();
   if (!el || !entry) return;
-  const bits = [entry.testament === "OT" ? "Old Testament" : "New Testament"];
-  if (entry.era) bits.push(entry.era);
+  let bits;
+  if (entry.kind === "place") {
+    bits = [PLACE_TYPE_LABELS[entry.place_type] || entry.place_type];
+    if (entry.eras && entry.eras.length) bits.push(entry.eras.join(", "));
+  } else {
+    bits = [entry.testament === "OT" ? "Old Testament" : "New Testament"];
+    if (entry.era) bits.push(entry.era);
+  }
   el.textContent = `${entry.name} — ${bits.join(" · ")}`;
   el.hidden = false;
   positionConnectionsTooltip(evt);
@@ -2158,17 +2223,34 @@ function renderConnectionsSvg(canvas, state) {
       role: "button",
       "aria-label": `Center graph on ${entry ? entry.name : node.id}`,
     });
-    g.appendChild(
-      svgEl("circle", {
-        cx: node.x,
-        cy: node.y,
-        r: radius,
-        class: `connections-node__circle connections-node__circle--${bucket}`,
-      })
-    );
+    if (entry && entry.kind === "place") {
+      // Places render as a rotated square ("diamond") rather than a
+      // circle, so they read as a different kind of node at a glance
+      // rather than just another era color.
+      const side = radius * 1.5;
+      g.appendChild(
+        svgEl("rect", {
+          x: node.x - side / 2,
+          y: node.y - side / 2,
+          width: side,
+          height: side,
+          transform: `rotate(45 ${node.x} ${node.y})`,
+          class: `connections-node__circle connections-node__circle--${bucket}`,
+        })
+      );
+    } else {
+      g.appendChild(
+        svgEl("circle", {
+          cx: node.x,
+          cy: node.y,
+          r: radius,
+          class: `connections-node__circle connections-node__circle--${bucket}`,
+        })
+      );
+    }
 
     const labelLink = svgEl("a", {
-      href: `people/${encodeURIComponent(node.id)}.html`,
+      href: graphNodeHref(entry, node.id),
       class: "connections-node__label-link",
     });
     labelLink.addEventListener("click", (evt) => evt.stopPropagation());
@@ -2288,46 +2370,65 @@ function renderConnectionsSidebar(state) {
   const entry = state.index.find((e) => e.person_id === state.centerId);
   if (!entry) return;
 
-  container.appendChild(
-    portraitImg(
-      entry.person_id,
-      entry.name,
-      "connections-sidebar__avatar",
-      entry.image,
-      entry.gender,
-      entry.image2
-    )
-  );
+  const isPlace = entry.kind === "place";
+
+  if (isPlace) {
+    const placeholder = document.createElement("div");
+    placeholder.className = "connections-sidebar__avatar connections-sidebar__avatar--place";
+    placeholder.textContent = "📍";
+    container.appendChild(placeholder);
+  } else {
+    container.appendChild(
+      portraitImg(
+        entry.person_id,
+        entry.name,
+        "connections-sidebar__avatar",
+        entry.image,
+        entry.gender,
+        entry.image2
+      )
+    );
+  }
 
   const name = document.createElement("h3");
   name.textContent = entry.name;
-  const tag = genderTag(entry.gender);
-  if (tag) {
-    name.appendChild(document.createTextNode(" "));
-    name.appendChild(tag);
+  if (!isPlace) {
+    const tag = genderTag(entry.gender);
+    if (tag) {
+      name.appendChild(document.createTextNode(" "));
+      name.appendChild(tag);
+    }
   }
   container.appendChild(name);
 
   const meta = document.createElement("p");
   meta.className = "connections-sidebar__meta";
-  const bits = [entry.testament === "OT" ? "Old Testament" : "New Testament"];
-  if (entry.era) bits.push(entry.era);
-  meta.textContent = bits.join(" · ");
+  if (isPlace) {
+    const bits = [PLACE_TYPE_LABELS[entry.place_type] || entry.place_type];
+    if (entry.eras && entry.eras.length) bits.push(entry.eras.join(", "));
+    meta.textContent = bits.join(" · ");
+  } else {
+    const bits = [entry.testament === "OT" ? "Old Testament" : "New Testament"];
+    if (entry.era) bits.push(entry.era);
+    meta.textContent = bits.join(" · ");
+  }
   container.appendChild(meta);
 
-  // Total edges touching this person, not unique neighbors — two people can
+  // Total edges touching this node, not unique neighbors — two people can
   // be linked by more than one documented relationship (e.g. Paul and Peter
   // both clashed and collaborated), and each counts separately here.
   const degree = (state.adjacency.get(state.centerId) || []).length;
   const count = document.createElement("p");
   count.className = "connections-stats";
-  count.textContent = `${degree} documented connection${degree === 1 ? "" : "s"}`;
+  count.textContent = isPlace
+    ? `${degree} named ${degree === 1 ? "person" : "people"}`
+    : `${degree} documented connection${degree === 1 ? "" : "s"}`;
   container.appendChild(count);
 
   const link = document.createElement("a");
-  link.href = `people/${encodeURIComponent(entry.person_id)}.html`;
+  link.href = graphNodeHref(entry, state.centerId);
   link.className = "connections-sidebar__profile-link";
-  link.textContent = "View full profile →";
+  link.textContent = isPlace ? "View place page →" : "View full profile →";
   container.appendChild(link);
 }
 
@@ -2519,8 +2620,41 @@ function setConnectionsCenter(id) {
   renderConnectionsGraph(state);
 }
 
-async function renderConnectionsPage() {
-  const [index, edges] = await Promise.all([loadIndex(), loadConnections()]);
+// mode: "people" (connections.html) — genealogy + narrative edges between
+// people only. "places" (place-connections.html) — a bipartite people<->place
+// graph built from place-connections.json alone; person-to-person edges are
+// deliberately left to the people graph so the two views stay distinct.
+async function renderConnectionsPage(mode = "people") {
+  const placesMode = mode === "places";
+  const [peopleIndex, peopleEdges] = await Promise.all([
+    loadIndex(),
+    loadConnections(),
+  ]);
+
+  let index, edges;
+  if (placesMode) {
+    const [placesIndex, placeEdges] = await Promise.all([
+      loadPlacesIndex(),
+      loadPlaceConnections(),
+    ]);
+    // Only the people Scripture actually ties to a place appear here, plus
+    // every place. Place nodes reuse the same person_id-keyed index/edge
+    // machinery via placeToGraphEntry, so every traversal/render function
+    // works unchanged. loadIndex()'s cached DATA.index is never mutated.
+    const linkedPeople = new Set();
+    for (const e of placeEdges) {
+      if (!isPlaceNodeId(e.from)) linkedPeople.add(e.from);
+      if (!isPlaceNodeId(e.to)) linkedPeople.add(e.to);
+    }
+    index = [
+      ...peopleIndex.filter((e) => linkedPeople.has(e.person_id)),
+      ...placesIndex.map(placeToGraphEntry),
+    ];
+    edges = placeEdges;
+  } else {
+    index = [...peopleIndex];
+    edges = peopleEdges;
+  }
   const adjacency = buildAdjacency(index, edges);
 
   const params = new URLSearchParams(window.location.search);
@@ -2541,7 +2675,7 @@ async function renderConnectionsPage() {
     centerId: null,
   };
 
-  renderConnectionsLegend(document.getElementById("connections-legend"));
+  renderConnectionsLegend(document.getElementById("connections-legend"), placesMode);
   initConnectionsPicker(connectionsState);
   initConnectionsControls(connectionsState);
   initConnectionsZoom(connectionsState);

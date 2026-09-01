@@ -1,0 +1,172 @@
+{
+  "place_id": "hebron",
+  "name": "Hebron",
+  "alt_names": [
+    "Kiriath-arba",
+    "Mamre"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "Exodus/Wilderness",
+    "Judges",
+    "United Monarchy"
+  ],
+  "first_reference": "Genesis 13:18",
+  "references": [
+    "Genesis 13:18",
+    "Genesis 23",
+    "Numbers 13:22",
+    "2 Samuel 2:1-4",
+    "2 Samuel 5:1-5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Hebron, West Bank",
+  "n_people": 15,
+  "related_people": [
+    {
+      "person_id": "abigail",
+      "name": "Abigail",
+      "gender": "female",
+      "role": "became David's wife and came with him when he was made king here",
+      "references": [
+        "1 Samuel 25:42",
+        "2 Samuel 2:1-3"
+      ]
+    },
+    {
+      "person_id": "abner",
+      "name": "Abner",
+      "gender": "male",
+      "role": "defected to David here, and was murdered by Joab at the city gate",
+      "references": [
+        "2 Samuel 3:20-27"
+      ]
+    },
+    {
+      "person_id": "ahiman",
+      "name": "Ahiman",
+      "gender": "male",
+      "role": "one of the giant sons of Anak dwelling in this city",
+      "references": [
+        "Numbers 13:22"
+      ]
+    },
+    {
+      "person_id": "ahinoam-2",
+      "name": "Ahinoam",
+      "gender": "female",
+      "role": "a wife of David, who came with him when he was crowned here",
+      "references": [
+        "2 Samuel 2:2-3"
+      ]
+    },
+    {
+      "person_id": "aner",
+      "name": "Aner",
+      "gender": "male",
+      "role": "an Amorite ally of Abram near this city",
+      "references": [
+        "Genesis 14:13",
+        "Genesis 14:24"
+      ]
+    },
+    {
+      "person_id": "caleb",
+      "name": "Caleb",
+      "gender": "male",
+      "role": "given this city as his inheritance, and drove out its giants at eighty-five",
+      "references": [
+        "Joshua 14:12-14"
+      ]
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "anointed king of Judah here and reigned seven years before taking Jerusalem",
+      "references": [
+        "2 Samuel 2:4",
+        "2 Samuel 2:11"
+      ]
+    },
+    {
+      "person_id": "eliezer",
+      "name": "Eliezer of Damascus",
+      "gender": "male"
+    },
+    {
+      "person_id": "ephron",
+      "name": "Ephron",
+      "gender": "male",
+      "role": "the Hittite of this city who sold Abraham the cave of Machpelah",
+      "references": [
+        "Genesis 23:8-18"
+      ]
+    },
+    {
+      "person_id": "eshcol",
+      "name": "Eshcol",
+      "gender": "male",
+      "role": "an Amorite ally of Abram near this city",
+      "references": [
+        "Genesis 14:13",
+        "Genesis 14:24"
+      ]
+    },
+    {
+      "person_id": "hoham",
+      "name": "Hoham",
+      "gender": "male",
+      "role": "king of this city, executed by Joshua at Makkedah",
+      "references": [
+        "Joshua 10:3",
+        "Joshua 10:23-26"
+      ]
+    },
+    {
+      "person_id": "mamre",
+      "name": "Mamre",
+      "gender": "male",
+      "role": "the Amorite by whose oaks near this city Abram lived",
+      "references": [
+        "Genesis 13:18",
+        "Genesis 14:13"
+      ]
+    },
+    {
+      "person_id": "othniel",
+      "name": "Othniel",
+      "gender": "male",
+      "role": "Caleb's nephew, who took nearby Kiriath-sepher to win Achsah in marriage",
+      "references": [
+        "Joshua 15:16-17"
+      ]
+    },
+    {
+      "person_id": "rebekah",
+      "name": "Rebekah",
+      "gender": "female",
+      "role": "buried in the cave of Machpelah near this city",
+      "references": [
+        "Genesis 49:31"
+      ]
+    },
+    {
+      "person_id": "sheshai",
+      "name": "Sheshai",
+      "gender": "male",
+      "role": "one of the giant sons of Anak dwelling in this city",
+      "references": [
+        "Numbers 13:22"
+      ]
+    }
+  ],
+  "description": "One of the oldest continuously inhabited cities in the region, Hebron is where Abraham settled near the oaks of Mamre and later bought the cave of Machpelah to bury Sarah \u2014 the family's eventual burial place too, for Abraham, Isaac, Rebekah, Jacob, and Leah (Genesis 23; 49:29-31). Caleb received Hebron as his inheritance after driving out its giant Anakim inhabitants (Joshua 14:6-15). It became David's first capital: he reigned there over Judah alone for seven and a half years before all Israel's elders came and anointed him king over the whole nation (2 Samuel 2:1-4; 5:1-5), only afterward moving the capital to Jerusalem. Absalom later launched his rebellion from Hebron under the pretext of a vow (2 Samuel 15:7-10).",
+  "family_friendly_summary": "Hebron is a very old city where Abraham once lived and bought a burial cave for his wife Sarah. Many years later, David became king there first, ruling just over the tribe of Judah for a while before the rest of Israel's leaders came to make him king over everyone. Only after that did David move his capital to Jerusalem."
+}

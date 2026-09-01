@@ -1,0 +1,33 @@
+{
+  "place_id": "patmos",
+  "name": "Patmos",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Revelation 1:9",
+  "references": [
+    "Revelation 1:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "john-2",
+      "name": "John",
+      "gender": "male",
+      "role": "exiled to this island, where he received the visions of Revelation",
+      "references": [
+        "Revelation 1:9"
+      ]
+    }
+  ],
+  "description": "A small Aegean island where the apostle John was exiled \"because of the word of God\" and where he received the visions recorded in the book of Revelation (Revelation 1:9-11)."
+}

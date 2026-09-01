@@ -1,0 +1,53 @@
+{
+  "place_id": "nob",
+  "name": "Nob",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 21:1",
+  "references": [
+    "1 Samuel 21:1",
+    "1 Samuel 21:1-9",
+    "1 Samuel 22:9-19"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "abiathar",
+      "name": "Abiathar",
+      "gender": "male",
+      "role": "the sole priest of this town to escape Saul's massacre, fleeing to David",
+      "references": [
+        "1 Samuel 22:20"
+      ]
+    },
+    {
+      "person_id": "ahimelech",
+      "name": "Ahimelech",
+      "gender": "male",
+      "role": "the priest here who fed the fugitive David and gave him Goliath's sword",
+      "references": [
+        "1 Samuel 21:1-9"
+      ]
+    },
+    {
+      "person_id": "doeg",
+      "name": "Doeg",
+      "gender": "male",
+      "role": "reported the priests of this town to Saul, then carried out their massacre",
+      "references": [
+        "1 Samuel 22:9-18"
+      ]
+    }
+  ],
+  "description": "A priestly town where the fugitive David received bread and Goliath's sword from the priest Ahimelech (1 Samuel 21:1-9), an act of unwitting help that led Saul, informed by Doeg the Edomite, to order the massacre of Nob's priests and townspeople (1 Samuel 22:9-19)."
+}

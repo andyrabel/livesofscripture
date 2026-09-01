@@ -1,0 +1,34 @@
+{
+  "place_id": "hill-country-of-judea",
+  "name": "Hill Country of Judea",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Luke 1:39",
+  "references": [
+    "Luke 1:39"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "elizabeth",
+      "name": "Elizabeth",
+      "gender": "female"
+    },
+    {
+      "person_id": "zacharias",
+      "name": "Zacharias",
+      "gender": "male"
+    }
+  ],
+  "description": "The highland region where Zechariah and Elizabeth lived and where Mary visited her relative Elizabeth while both were pregnant, prompting Elizabeth's Spirit-filled greeting (Luke 1:39-45)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "shamir",
+  "name": "Shamir",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 10:1",
+  "references": [
+    "Judges 10:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "tola",
+      "name": "Tola",
+      "gender": "male"
+    }
+  ],
+  "description": "The hometown, in Ephraim's hill country, of the judge Tola, who judged Israel twenty-three years and was buried there (Judges 10:1-2)."
+}

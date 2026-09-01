@@ -1,0 +1,33 @@
+{
+  "place_id": "cave-of-machpelah",
+  "name": "Cave of Machpelah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 23:9",
+  "references": [
+    "Genesis 23:9"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "Traditionally identified with a site beneath the Ibrahimi Mosque/Tomb of the Patriarchs in Hebron, though the cave itself has not been excavated."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "ephron",
+      "name": "Ephron",
+      "gender": "male",
+      "role": "the Hittite who sold Abraham this cave as a burial place for Sarah",
+      "references": [
+        "Genesis 23:8-17"
+      ]
+    }
+  ],
+  "description": "The burial cave Abraham purchased from Ephron the Hittite for Sarah, which became the family tomb for Abraham, Isaac, Rebekah, Jacob, and Leah as well (Genesis 23; 49:29-32)."
+}

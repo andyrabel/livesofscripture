@@ -1,0 +1,85 @@
+{
+  "place_id": "asia-minor",
+  "name": "Asia Minor",
+  "alt_names": [
+    "Anatolia"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 16:6",
+  "references": [
+    "Acts 16:6",
+    "Acts 16:6-10",
+    "Acts 19",
+    "1 Peter 1:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Turkey",
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "demetrius-2",
+      "name": "Demetrius",
+      "gender": "male",
+      "role": "a believer of this region, well spoken of by everyone",
+      "references": [
+        "3 John 1:12"
+      ]
+    },
+    {
+      "person_id": "diotrephes",
+      "name": "Diotrephes",
+      "gender": "male",
+      "role": "a church leader of this region who rejected the apostle John's authority",
+      "references": [
+        "3 John 1:9-10"
+      ]
+    },
+    {
+      "person_id": "gaius-3",
+      "name": "Gaius",
+      "gender": null,
+      "role": "the believer of this region John commended for his hospitality",
+      "references": [
+        "3 John 1:1-8"
+      ]
+    },
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male",
+      "role": "evangelized much of this region on his missionary journeys",
+      "references": [
+        "Acts 16:6",
+        "Acts 19:10"
+      ]
+    },
+    {
+      "person_id": "phygelus",
+      "name": "Phygelus",
+      "gender": "male",
+      "role": "one of the believers of this region who turned away from Paul",
+      "references": [
+        "2 Timothy 1:15"
+      ]
+    },
+    {
+      "person_id": "tychicus",
+      "name": "Tychicus",
+      "gender": "male",
+      "role": "of this region, a trusted courier of Paul's letters to its churches",
+      "references": [
+        "Colossians 4:7",
+        "Ephesians 6:21"
+      ]
+    }
+  ],
+  "description": "The peninsula (modern Turkey) that hosted much of Paul's missionary work and many of the churches addressed in the New Testament epistles \u2014 Ephesus, Colossae, Laodicea, Iconium, Lystra, and Derbe among them. Paul's team was at one point supernaturally redirected away from the province of Asia and toward Macedonia instead (Acts 16:6-10), and Peter's first letter is addressed to believers scattered across several of the region's provinces (1 Peter 1:1)."
+}

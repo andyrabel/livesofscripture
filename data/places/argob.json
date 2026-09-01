@@ -1,0 +1,29 @@
+{
+  "place_id": "argob",
+  "name": "Argob",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Deuteronomy 3:4",
+  "references": [
+    "Deuteronomy 3:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jair",
+      "name": "Jair",
+      "gender": "male"
+    }
+  ],
+  "description": "A district of Bashan with sixty fortified cities that Israel captured under Moses, later included in the territory allotted to Jair of Manasseh (Deuteronomy 3:4-14)."
+}

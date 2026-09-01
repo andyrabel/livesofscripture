@@ -1,0 +1,34 @@
+{
+  "place_id": "kedesh",
+  "name": "Kedesh",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Joshua 12:22",
+  "references": [
+    "Joshua 12:22"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "This Kedesh, in Naphtali, is distinct from Kadesh-barnea in the southern wilderness."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "barak",
+      "name": "Barak",
+      "gender": "male"
+    },
+    {
+      "person_id": "jael",
+      "name": "Jael",
+      "gender": "female"
+    }
+  ],
+  "description": "Barak's hometown, from which he gathered Israel's forces at Deborah's summons before their victory over Sisera; the fleeing Sisera was later killed nearby by Jael (Judges 4:6, 10-21)."
+}

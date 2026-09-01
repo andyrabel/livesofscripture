@@ -1,0 +1,29 @@
+{
+  "place_id": "gezer",
+  "name": "Gezer",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 10:33",
+  "references": [
+    "Joshua 10:33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "horam",
+      "name": "Horam",
+      "gender": "male"
+    }
+  ],
+  "description": "A Canaanite royal city whose king Horam came to Lachish's aid and was defeated by Joshua along with his people (Joshua 10:33); later given to Solomon by an Egyptian pharaoh as a wedding gift for his daughter (1 Kings 9:16)."
+}

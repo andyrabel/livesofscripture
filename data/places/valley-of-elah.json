@@ -1,0 +1,53 @@
+{
+  "place_id": "valley-of-elah",
+  "name": "Valley of Elah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "valley",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 17:2",
+  "references": [
+    "1 Samuel 17:2",
+    "1 Samuel 17:1-54"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "abinadab-3",
+      "name": "Abinadab",
+      "gender": "male",
+      "role": "David's brother, serving in Saul's army here during the standoff with Goliath",
+      "references": [
+        "1 Samuel 17:13"
+      ]
+    },
+    {
+      "person_id": "eliab-3",
+      "name": "Eliab",
+      "gender": "male",
+      "role": "David's eldest brother, who rebuked him for coming to the battle line here",
+      "references": [
+        "1 Samuel 17:28"
+      ]
+    },
+    {
+      "person_id": "goliath",
+      "name": "Goliath",
+      "gender": "male",
+      "role": "defied Israel's army in this valley for forty days until David killed him",
+      "references": [
+        "1 Samuel 17:2-4",
+        "1 Samuel 17:49"
+      ]
+    }
+  ],
+  "description": "The valley where the Israelite and Philistine armies camped on opposite hillsides while Goliath issued his daily challenge, and where the shepherd boy David killed him with a sling and stone (1 Samuel 17)."
+}

@@ -1,0 +1,56 @@
+{
+  "place_id": "ramathaim-zophim",
+  "name": "Ramathaim-zophim",
+  "alt_names": [
+    "Ramah"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "1 Samuel 1:1",
+  "references": [
+    "1 Samuel 1:1",
+    "1 Samuel 1:19-20",
+    "1 Samuel 2:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "elkanah-2",
+      "name": "Elkanah",
+      "gender": "male",
+      "role": "the Ephraimite of this town, husband of Hannah and Peninnah",
+      "references": [
+        "1 Samuel 1:1"
+      ]
+    },
+    {
+      "person_id": "hannah",
+      "name": "Hannah",
+      "gender": "female",
+      "role": "of this town, whose vow at Shiloh brought the birth of Samuel",
+      "references": [
+        "1 Samuel 1:1-2",
+        "1 Samuel 1:19-20"
+      ]
+    },
+    {
+      "person_id": "peninnah",
+      "name": "Peninnah",
+      "gender": "female",
+      "role": "Elkanah's other wife of this town, who provoked the barren Hannah",
+      "references": [
+        "1 Samuel 1:2-7"
+      ]
+    }
+  ],
+  "description": "The home of Elkanah and his wives Hannah and Peninnah in the hill country of Ephraim, where Hannah's prayers for a child were answered with the birth of Samuel, whom she later brought to Shiloh to serve the Lord as she had vowed (1 Samuel 1:1-2:11)."
+}

@@ -564,6 +564,17 @@ main {
 .badge.nt { color: var(--color-nt); border-color: var(--color-nt); }
 .badge.stub { color: var(--color-text-muted); }
 
+a.badge-link {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a.badge-link:hover,
+a.badge-link:focus-visible {
+  border-color: var(--color-accent);
+  text-decoration: underline;
+}
+
 .person-header {
   display: flex;
   gap: 1.25rem;
@@ -921,6 +932,34 @@ main {
   color: var(--color-text-muted);
 }
 
+.identification-note {
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-warn);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  margin: 0.75rem 0;
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+}
+
+.identification-note strong {
+  color: var(--color-text);
+}
+
+details.family-friendly {
+  margin: 0.75rem 0;
+}
+
+details.family-friendly summary {
+  cursor: pointer;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+details.family-friendly p {
+  margin-top: 0.5rem;
+}
+
 footer.site-footer {
   border-top: 1px solid var(--color-border);
   padding: 1.5rem 1rem;
@@ -1149,6 +1188,7 @@ body.connections-fullpage-active {
 .connections-legend__swatch--gospels { background: var(--era-gospels); }
 .connections-legend__swatch--apostolic { background: var(--era-apostolic); }
 .connections-legend__swatch--other { background: var(--era-other); }
+.connections-legend__swatch--place { background: var(--color-accent); border-radius: 2px; transform: rotate(45deg); }
 
 .conn-icon-btn {
   padding: 0.35rem 0.7rem;
@@ -1234,6 +1274,7 @@ body.connections-fullpage-active {
 .connections-node__circle--gospels { fill: var(--era-gospels); }
 .connections-node__circle--apostolic { fill: var(--era-apostolic); }
 .connections-node__circle--other { fill: var(--era-other); }
+.connections-node__circle--place { fill: var(--color-accent); stroke: var(--color-accent-strong); stroke-width: 1.5; }
 
 .connections-node {
   cursor: pointer;
@@ -1303,6 +1344,15 @@ body.connections-fullpage-active {
   font-weight: 600;
 }
 
+.connections-sidebar__avatar--place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  border-radius: 12px;
+  font-size: 2.2rem;
+}
+
 /* Connections-page avatar fallback: the site's existing generic line-art
    figure (images/portraits/generic-figure.svg), recolored per gender via
    CSS mask instead of the plain-letter placeholder used elsewhere. */
@@ -1354,6 +1404,13 @@ body.connections-fullpage-active {
 
 .connections-list__refs {
   font-size: 0.8rem;
+}
+
+.place-people-more {
+  margin: 0.9rem 0 0;
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
 }
 
 .connections-tooltip {

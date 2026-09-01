@@ -26,12 +26,14 @@
 - [Home](https://livesofscripture.org/): overview, featured person, and quiz question.
 - [People](https://livesofscripture.org/people.html): searchable/filterable index of every named person.
 - [Timeline](https://livesofscripture.org/timeline.html): chronological view across biblical eras.
-- [Connections](https://livesofscripture.org/connections.html): genealogy and narrative-relationship graph.
+- [Connections](https://livesofscripture.org/connections.html): genealogy and narrative-relationship graph between people.
+- [Place Connections](https://livesofscripture.org/place-connections.html): graph pairing each named place with the people Scripture ties to it.
 - [Churches](https://livesofscripture.org/churches.html): every New Testament church and the people Scripture ties to it by name.
+- [Places](https://livesofscripture.org/places.html): every named biblical place with a documented connection to a person's story, cross-linked to the people found there and, where relevant, noting whether its modern-day identification is confirmed, traditional, or disputed.
 - [Charts](https://livesofscripture.org/charts.html): kings & prophets timeline, the two genealogies of Jesus, the twelve tribes, and chapter-by-chapter charts of Genesis, Job, and Acts.
 - [Quiz](https://livesofscripture.org/quiz.html): a printable Bible-knowledge quiz builder.
 - [About](https://livesofscripture.org/about.html): sourcing, translation handling, and methodology.
-- [Sitemap](https://livesofscripture.org/sitemap.xml): full URL list (full-tier person pages, church pages, and site pages; stub person pages are intentionally excluded — see Content model above).
+- [Sitemap](https://livesofscripture.org/sitemap.xml): full URL list (full-tier person pages, church pages, full-tier place pages, and site pages; stub person/place pages are intentionally excluded — see Content model above).
 
 ## Sourcing
 

@@ -1,0 +1,54 @@
+{
+  "place_id": "riblah",
+  "name": "Riblah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy",
+    "Exile"
+  ],
+  "first_reference": "2 Kings 23:33",
+  "references": [
+    "2 Kings 23:33",
+    "2 Kings 25:6-7",
+    "2 Kings 25:18-21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "jehoahaz-2",
+      "name": "Jehoahaz",
+      "gender": "male",
+      "role": "Judah's king, put in chains here by Pharaoh Neco",
+      "references": [
+        "2 Kings 23:33"
+      ]
+    },
+    {
+      "person_id": "seraiah-2",
+      "name": "Seraiah",
+      "gender": "male",
+      "role": "Jerusalem's chief priest, executed here by the king of Babylon",
+      "references": [
+        "2 Kings 25:18-21"
+      ]
+    },
+    {
+      "person_id": "zedekiah-2",
+      "name": "Zedekiah",
+      "gender": "male",
+      "role": "Judah's last king, blinded here after his sons were killed before him",
+      "references": [
+        "2 Kings 25:6-7"
+      ]
+    }
+  ],
+  "description": "A town in Syria used as a military headquarters by Egyptian and Babylonian kings. It was at Riblah that Nebuchadnezzar had King Zedekiah's sons killed before his eyes, then blinded him (2 Kings 25:6-7), and later executed a group of Judah's remaining leaders and priests, including Seraiah, brought there from captured Jerusalem (2 Kings 25:18-21)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "tarsus",
+  "name": "Tarsus",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 9:11",
+  "references": [
+    "Acts 9:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male"
+    }
+  ],
+  "description": "Paul's hometown in the Roman province of Cilicia, a city he proudly noted was \"no insignificant city\" (Acts 21:39), and where Barnabas went to find him and bring him to Antioch (Acts 11:25-26)."
+}

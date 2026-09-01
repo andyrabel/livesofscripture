@@ -1,0 +1,29 @@
+{
+  "place_id": "rephidim",
+  "name": "Rephidim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Exodus 17:1",
+  "references": [
+    "Exodus 17:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "hur",
+      "name": "Hur",
+      "gender": "male"
+    }
+  ],
+  "description": "A wilderness campsite where Moses struck a rock to bring forth water for the thirsty people, with Aaron and Hur holding up his arms during Israel's battle victory over Amalek there (Exodus 17:1-13)."
+}

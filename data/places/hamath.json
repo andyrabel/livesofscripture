@@ -1,0 +1,29 @@
+{
+  "place_id": "hamath",
+  "name": "Hamath",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Numbers 13:21",
+  "references": [
+    "Numbers 13:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "joram",
+      "name": "Joram",
+      "gender": "male"
+    }
+  ],
+  "description": "A Syrian city whose king Toi sent his son Joram to congratulate David on defeating their mutual enemy Hadadezer, bringing gifts of silver, gold, and bronze (2 Samuel 8:9-10)."
+}

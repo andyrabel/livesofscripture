@@ -1,0 +1,54 @@
+{
+  "place_id": "lystra",
+  "name": "Lystra",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 14:6",
+  "references": [
+    "Acts 14:6",
+    "Acts 14:8-20",
+    "2 Timothy 1:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "eunice",
+      "name": "Eunice",
+      "gender": "female",
+      "role": "Timothy's mother, a believing woman of this town",
+      "references": [
+        "Acts 16:1",
+        "2 Timothy 1:5"
+      ]
+    },
+    {
+      "person_id": "lois",
+      "name": "Lois",
+      "gender": "female",
+      "role": "Timothy's grandmother, in whose household sincere faith took root",
+      "references": [
+        "2 Timothy 1:5"
+      ]
+    },
+    {
+      "person_id": "timothy",
+      "name": "Timothy",
+      "gender": "male",
+      "role": "the disciple of this town, well spoken of, whom Paul took as a companion",
+      "references": [
+        "Acts 16:1-3"
+      ]
+    }
+  ],
+  "description": "A city in Asia Minor where Paul healed a man lame from birth, prompting the crowd to try to worship him and Barnabas as gods before the same crowd, incited by opponents, stoned Paul and left him for dead (Acts 14:8-20). Timothy, whose grandmother Lois and mother Eunice had genuine faith, was from Lystra (2 Timothy 1:5)."
+}

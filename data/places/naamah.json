@@ -1,0 +1,29 @@
+{
+  "place_id": "naamah",
+  "name": "Naamah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Joshua 15:41",
+  "references": [
+    "Joshua 15:41"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "A town of this name is listed in Judah's lowlands, but whether it is the homeland implied by Zophar \"the Naamathite\" is not certain."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "zophar",
+      "name": "Zophar",
+      "gender": "male"
+    }
+  ],
+  "description": "The homeland implied by Zophar \"the Naamathite,\" one of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 11:1-20)."
+}

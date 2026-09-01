@@ -1,0 +1,29 @@
+{
+  "place_id": "geshur",
+  "name": "Geshur",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Deuteronomy 3:14",
+  "references": [
+    "Deuteronomy 3:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "absalom",
+      "name": "Absalom",
+      "gender": "male"
+    }
+  ],
+  "description": "A small Aramean kingdom northeast of Israel where David's son Absalom, whose mother Maacah was a Geshurite princess, fled for three years after murdering his half-brother Amnon (2 Samuel 13:37-38)."
+}

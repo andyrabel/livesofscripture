@@ -1,0 +1,29 @@
+{
+  "place_id": "pethor",
+  "name": "Pethor",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "mesopotamia",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 22:5",
+  "references": [
+    "Numbers 22:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "balaam",
+      "name": "Balaam",
+      "gender": "male"
+    }
+  ],
+  "description": "The Mesopotamian hometown of Balaam, the seer Balak of Moab hired to curse Israel \u2014 a curse God repeatedly turned into blessing instead (Numbers 22-24)."
+}

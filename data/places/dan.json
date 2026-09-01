@@ -1,0 +1,42 @@
+{
+  "place_id": "dan",
+  "name": "Dan",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Genesis 14:14",
+  "references": [
+    "Genesis 14:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Originally called Laish before the tribe of Dan conquered and renamed it (Judges 18:29)."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "jonathan-2",
+      "name": "Jonathan",
+      "gender": "male",
+      "role": "the wandering Levite who became priest for the tribe's idol here",
+      "references": [
+        "Judges 18:30"
+      ]
+    },
+    {
+      "person_id": "micah",
+      "name": "Micah",
+      "gender": "male",
+      "role": "the Ephraimite whose stolen idol and hired priest the Danites carried off and set up here",
+      "references": [
+        "Judges 18:27-31"
+      ]
+    }
+  ],
+  "description": "The northernmost town of Israel's territory, giving rise to the phrase \"from Dan to Beersheba\" for the land's full extent; Jeroboam later set up one of his two idolatrous golden calves there (1 Kings 12:29-30)."
+}

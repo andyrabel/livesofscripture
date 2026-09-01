@@ -1,0 +1,29 @@
+{
+  "place_id": "gath-hepher",
+  "name": "Gath-hepher",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 19:13",
+  "references": [
+    "Joshua 19:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jonah",
+      "name": "Jonah",
+      "gender": "male"
+    }
+  ],
+  "description": "The hometown of the prophet Jonah, in Zebulun's territory (2 Kings 14:25)."
+}

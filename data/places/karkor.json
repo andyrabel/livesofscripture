@@ -1,0 +1,54 @@
+{
+  "place_id": "karkor",
+  "name": "Karkor",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 8:10",
+  "references": [
+    "Judges 8:10",
+    "Judges 8:10-12"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "jether",
+      "name": "Jether",
+      "gender": "male",
+      "role": "Gideon's firstborn, too afraid to execute the captured Midianite kings",
+      "references": [
+        "Judges 8:20"
+      ]
+    },
+    {
+      "person_id": "zalmunna",
+      "name": "Zalmunna",
+      "gender": "male",
+      "role": "a Midianite king captured by Gideon after the rout of his army near here",
+      "references": [
+        "Judges 8:10-12",
+        "Judges 8:21"
+      ]
+    },
+    {
+      "person_id": "zebah",
+      "name": "Zebah",
+      "gender": "male",
+      "role": "a Midianite king captured by Gideon after the rout of his army near here",
+      "references": [
+        "Judges 8:10-12",
+        "Judges 8:21"
+      ]
+    }
+  ],
+  "description": "A place in Transjordan where the Midianite kings Zebah and Zalmunna made their camp with their surviving forces after fleeing Gideon, before Gideon overtook and captured them there (Judges 8:10-12)."
+}

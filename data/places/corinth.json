@@ -1,0 +1,148 @@
+{
+  "place_id": "corinth",
+  "name": "Corinth",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 18:1",
+  "references": [
+    "Acts 18:1",
+    "Acts 18:1-18",
+    "1 Corinthians 1:1-2",
+    "2 Corinthians 1:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Corinth, Greece",
+  "n_people": 13,
+  "related_people": [
+    {
+      "person_id": "achaicus",
+      "name": "Achaicus",
+      "gender": "male",
+      "role": "of this church, who visited Paul and refreshed his spirit",
+      "references": [
+        "1 Corinthians 16:17-18"
+      ]
+    },
+    {
+      "person_id": "apollos",
+      "name": "Apollos",
+      "gender": "male",
+      "role": "watered here what Paul had planted, and some formed a faction for him",
+      "references": [
+        "1 Corinthians 3:6",
+        "1 Corinthians 1:12"
+      ]
+    },
+    {
+      "person_id": "aquila",
+      "name": "Aquila",
+      "gender": "male",
+      "role": "made tents here with Paul and hosted the church",
+      "references": [
+        "Acts 18:2-3"
+      ]
+    },
+    {
+      "person_id": "crispus",
+      "name": "Crispus",
+      "gender": "male",
+      "role": "the synagogue ruler here who believed with all his household",
+      "references": [
+        "Acts 18:8"
+      ]
+    },
+    {
+      "person_id": "erastus-2",
+      "name": "Erastus",
+      "gender": "male",
+      "role": "the city treasurer here, one of Paul's helpers",
+      "references": [
+        "Romans 16:23"
+      ]
+    },
+    {
+      "person_id": "forunatus",
+      "name": "Forunatus",
+      "gender": "male",
+      "role": "of this church, who visited Paul and refreshed his spirit",
+      "references": [
+        "1 Corinthians 16:17-18"
+      ]
+    },
+    {
+      "person_id": "gaius",
+      "name": "Gaius",
+      "gender": "male",
+      "role": "Paul's host here, and host to the whole church",
+      "references": [
+        "Romans 16:23",
+        "1 Corinthians 1:14"
+      ]
+    },
+    {
+      "person_id": "gallio",
+      "name": "Gallio",
+      "gender": "male",
+      "role": "the proconsul who dismissed the Jews' charges against Paul here",
+      "references": [
+        "Acts 18:12-16"
+      ]
+    },
+    {
+      "person_id": "priscilla",
+      "name": "Priscilla",
+      "gender": "female",
+      "role": "made tents here with Paul and hosted the church",
+      "references": [
+        "Acts 18:2-3"
+      ]
+    },
+    {
+      "person_id": "silas",
+      "name": "Silas",
+      "gender": "male",
+      "role": "joined Paul here from Macedonia as he preached",
+      "references": [
+        "Acts 18:5"
+      ]
+    },
+    {
+      "person_id": "sosthenes",
+      "name": "Sosthenes",
+      "gender": null,
+      "role": "the synagogue ruler beaten before Gallio's judgment seat here",
+      "references": [
+        "Acts 18:17"
+      ]
+    },
+    {
+      "person_id": "tertius",
+      "name": "Tertius",
+      "gender": "male",
+      "role": "wrote down Paul's letter to the Romans while at this city",
+      "references": [
+        "Romans 16:22-23"
+      ]
+    },
+    {
+      "person_id": "titus",
+      "name": "Titus",
+      "gender": "male",
+      "role": "sent to this church over the painful letter, and returned with good news",
+      "references": [
+        "2 Corinthians 7:6-7",
+        "2 Corinthians 7:13"
+      ]
+    }
+  ],
+  "description": "A major, wealthy Roman commercial city on the isthmus connecting mainland Greece to the Peloponnese, known for its sea trade and, notoriously, its immorality. Paul arrived there on his second missionary journey, met Aquila and Priscilla, and spent eighteen months establishing a church, appearing before the proconsul Gallio when opponents brought charges against him (Acts 18:1-18). The church he planted proved troubled \u2014 factions, lawsuits between believers, and tolerated sexual immorality among them \u2014 prompting his two New Testament letters to Corinth, which address these problems along with foundational teaching on love, spiritual gifts, and the resurrection (1 Corinthians; 2 Corinthians).",
+  "family_friendly_summary": "Corinth was a busy trading city in Greece where Paul lived and worked for about a year and a half, teaching people about Jesus and starting a church. The Christians there sometimes struggled to get along or live the way Jesus wanted, so Paul wrote them two long letters to help guide and encourage them."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "aram-naharaim",
+  "name": "Aram-naharaim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Genesis 24:10",
+  "references": [
+    "Genesis 24:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "\"Aram of the two rivers,\" a district of upper Mesopotamia distinct from the Aram (Damascus) of the divided-monarchy period."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "cushan-rishathaim",
+      "name": "Cushan-rishathaim",
+      "gender": "male"
+    }
+  ],
+  "description": "The region a king named Cushan-rishathaim came from to oppress Israel for eight years before the judge Othniel delivered them (Judges 3:8-10)."
+}

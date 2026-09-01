@@ -1,0 +1,127 @@
+{
+  "place_id": "damascus",
+  "name": "Damascus",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "United Monarchy",
+    "Divided Monarchy",
+    "Apostolic"
+  ],
+  "first_reference": "Genesis 14:15",
+  "references": [
+    "Genesis 14:15",
+    "Genesis 15:2",
+    "2 Samuel 8:5-6",
+    "1 Kings 19:15",
+    "Acts 9:1-19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Damascus, Syria",
+  "n_people": 11,
+  "related_people": [
+    {
+      "person_id": "ananias-2",
+      "name": "Ananias",
+      "gender": "male",
+      "role": "the disciple of this city who restored Saul's sight",
+      "references": [
+        "Acts 9:10-18"
+      ]
+    },
+    {
+      "person_id": "aretas",
+      "name": "Aretas",
+      "gender": "male",
+      "role": "the king whose governor here guarded the gates to seize Paul",
+      "references": [
+        "2 Corinthians 11:32"
+      ]
+    },
+    {
+      "person_id": "ben-hadad",
+      "name": "Ben-hadad",
+      "gender": "male",
+      "role": "a king of this city, who besieged Samaria",
+      "references": [
+        "1 Kings 20:1"
+      ]
+    },
+    {
+      "person_id": "ben-hadad-2",
+      "name": "Ben-hadad",
+      "gender": "male",
+      "role": "a king of this city, Hazael's son",
+      "references": [
+        "2 Kings 13:24"
+      ]
+    },
+    {
+      "person_id": "eliezer",
+      "name": "Eliezer of Damascus",
+      "gender": "male",
+      "role": "Abram's steward, \u201cof Damascus,\u201d his heir before Isaac was born",
+      "references": [
+        "Genesis 15:2"
+      ]
+    },
+    {
+      "person_id": "hazael",
+      "name": "Hazael",
+      "gender": "male",
+      "role": "seized this city's throne by smothering Ben-hadad",
+      "references": [
+        "2 Kings 8:15"
+      ]
+    },
+    {
+      "person_id": "naaman",
+      "name": "Naaman",
+      "gender": "male"
+    },
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male",
+      "role": "blinded on the road to this city and baptized here",
+      "references": [
+        "Acts 9:3-19"
+      ]
+    },
+    {
+      "person_id": "rezin",
+      "name": "Rezin",
+      "gender": "male",
+      "role": "its king, killed when Assyria captured the city",
+      "references": [
+        "2 Kings 16:9"
+      ]
+    },
+    {
+      "person_id": "rezon",
+      "name": "Rezon",
+      "gender": "male",
+      "role": "seized this city and reigned there as an adversary to Solomon",
+      "references": [
+        "1 Kings 11:23-25"
+      ]
+    },
+    {
+      "person_id": "tiglath-pileser",
+      "name": "Tiglath-pileser",
+      "gender": "male",
+      "role": "captured this city and deported its people for King Ahaz",
+      "references": [
+        "2 Kings 16:9"
+      ]
+    }
+  ],
+  "description": "One of the oldest continuously inhabited cities in the world, Damascus was Abraham's servant Eliezer's hometown (Genesis 15:2) and later the capital of Aram (Syria), a persistent rival and sometime enemy of Israel through the united and divided monarchies (2 Samuel 8:5-6; 1 Kings 19:15; 2 Kings 8; 16:9). Its greatest New Testament significance is as the destination of Saul of Tarsus's fateful journey: he was blinded by a vision of the risen Christ on the Damascus road, healed and baptized there by Ananias, and preached in its synagogues before enemies plotted to kill him and disciples lowered him over the city wall in a basket to escape (Acts 9:1-25).",
+  "family_friendly_summary": "Damascus is one of the oldest cities in the world, and was the capital of ancient Syria, a country that was often Israel's enemy. Damascus is most famous in the New Testament as the place Saul (later called Paul) was traveling to when Jesus appeared to him in a bright light. Saul was blinded, then healed and changed forever in Damascus."
+}

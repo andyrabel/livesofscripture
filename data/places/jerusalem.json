@@ -1,0 +1,1226 @@
+{
+  "place_id": "jerusalem",
+  "name": "Jerusalem",
+  "alt_names": [
+    "Zion",
+    "Salem",
+    "City of David",
+    "Jebus"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness",
+    "Judges",
+    "United Monarchy",
+    "Divided Monarchy",
+    "Exile",
+    "Post-Exile/Intertestamental",
+    "Gospels",
+    "Apostolic"
+  ],
+  "first_reference": "Genesis 14:18",
+  "references": [
+    "Genesis 14:18",
+    "Joshua 10:1",
+    "2 Samuel 5:6-9",
+    "1 Kings 6",
+    "2 Kings 25",
+    "Matthew 21:1-11",
+    "Acts 2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Jerusalem, Israel",
+  "n_people": 221,
+  "related_people": [
+    {
+      "person_id": "abiathar",
+      "name": "Abiathar",
+      "gender": "male"
+    },
+    {
+      "person_id": "abijah-3",
+      "name": "Abijah",
+      "gender": "male"
+    },
+    {
+      "person_id": "abishag",
+      "name": "Abishag",
+      "gender": "female"
+    },
+    {
+      "person_id": "absalom",
+      "name": "Absalom",
+      "gender": "male",
+      "role": "seized his father David's throne in this city",
+      "references": [
+        "2 Samuel 15:10-14",
+        "2 Samuel 16:15"
+      ]
+    },
+    {
+      "person_id": "achbor-2",
+      "name": "Achbor",
+      "gender": "male"
+    },
+    {
+      "person_id": "adoni-bezek",
+      "name": "Adoni-bezek",
+      "gender": "male"
+    },
+    {
+      "person_id": "adoni-zedek",
+      "name": "Adoni-zedek",
+      "gender": "male"
+    },
+    {
+      "person_id": "adonijah",
+      "name": "Adonijah",
+      "gender": "male"
+    },
+    {
+      "person_id": "agabus",
+      "name": "Agabus",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahaz",
+      "name": "Ahaz",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahaziah-2",
+      "name": "Ahaziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahikam",
+      "name": "Ahikam",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahimaaz-2",
+      "name": "Ahimaaz",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahithophel",
+      "name": "Ahithophel",
+      "gender": "male"
+    },
+    {
+      "person_id": "amariah-2",
+      "name": "Amariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "amasa",
+      "name": "Amasa",
+      "gender": "male"
+    },
+    {
+      "person_id": "amaziah",
+      "name": "Amaziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "amminadab-2",
+      "name": "Amminadab",
+      "gender": "male"
+    },
+    {
+      "person_id": "amnon",
+      "name": "Amnon",
+      "gender": "male"
+    },
+    {
+      "person_id": "amon-2",
+      "name": "Amon",
+      "gender": "male"
+    },
+    {
+      "person_id": "ananias",
+      "name": "Ananias",
+      "gender": "male"
+    },
+    {
+      "person_id": "ananias-3",
+      "name": "Ananias",
+      "gender": "male"
+    },
+    {
+      "person_id": "anna",
+      "name": "Anna",
+      "gender": "female"
+    },
+    {
+      "person_id": "annas",
+      "name": "Annas",
+      "gender": "male",
+      "role": "a former high priest here, before whom Jesus was first brought",
+      "references": [
+        "John 18:13",
+        "John 18:24"
+      ]
+    },
+    {
+      "person_id": "ornan",
+      "name": "Araunah",
+      "gender": "male"
+    },
+    {
+      "person_id": "asa",
+      "name": "Asa",
+      "gender": "male"
+    },
+    {
+      "person_id": "asaiah",
+      "name": "Asaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "asaph-2",
+      "name": "Asaph",
+      "gender": "male"
+    },
+    {
+      "person_id": "asaph-4",
+      "name": "Asaph",
+      "gender": "male"
+    },
+    {
+      "person_id": "athaliah",
+      "name": "Athaliah",
+      "gender": "female",
+      "role": "seized this city's throne, and was put to death at the temple gate",
+      "references": [
+        "2 Kings 11:1-16"
+      ]
+    },
+    {
+      "person_id": "azariah",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azariah-10",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azariah-14",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azrikam-4",
+      "name": "Azrikam",
+      "gender": "male"
+    },
+    {
+      "person_id": "barabbas",
+      "name": "Barabbas",
+      "gender": "male"
+    },
+    {
+      "person_id": "barnabas",
+      "name": "Barnabas",
+      "gender": "male"
+    },
+    {
+      "person_id": "baruch-4",
+      "name": "Baruch",
+      "gender": "male"
+    },
+    {
+      "person_id": "bathsheba",
+      "name": "Bathsheba",
+      "gender": "female"
+    },
+    {
+      "person_id": "benaiah",
+      "name": "Benaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "berodach-baladan",
+      "name": "Berodach-baladan",
+      "gender": "male"
+    },
+    {
+      "person_id": "caiaphas",
+      "name": "Caiaphas",
+      "gender": "male",
+      "role": "the high priest here who declared Jesus deserving of death",
+      "references": [
+        "Matthew 26:57-66"
+      ]
+    },
+    {
+      "person_id": "chenaniah",
+      "name": "Chenaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "conaniah",
+      "name": "Conaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "cyrus",
+      "name": "Cyrus",
+      "gender": "male"
+    },
+    {
+      "person_id": "darius",
+      "name": "Darius",
+      "gender": "male"
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "captured this city from the Jebusites and made it his capital",
+      "references": [
+        "2 Samuel 5:6-9"
+      ]
+    },
+    {
+      "person_id": "delaiah-5",
+      "name": "Delaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "ebed-melech",
+      "name": "Ebed-melech",
+      "gender": "male"
+    },
+    {
+      "person_id": "elasah-2",
+      "name": "Elasah",
+      "gender": "male"
+    },
+    {
+      "person_id": "eliakim",
+      "name": "Eliakim",
+      "gender": "male"
+    },
+    {
+      "person_id": "eliashib-7",
+      "name": "Eliashib",
+      "gender": "male"
+    },
+    {
+      "person_id": "eliel-7",
+      "name": "Eliel",
+      "gender": "male"
+    },
+    {
+      "person_id": "elishama-6",
+      "name": "Elishama",
+      "gender": "male"
+    },
+    {
+      "person_id": "elishaphat",
+      "name": "Elishaphat",
+      "gender": "male"
+    },
+    {
+      "person_id": "elkanah-8",
+      "name": "Elkanah",
+      "gender": "male"
+    },
+    {
+      "person_id": "elnathan",
+      "name": "Elnathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "ethan-3",
+      "name": "Ethan",
+      "gender": "male"
+    },
+    {
+      "person_id": "ezra",
+      "name": "Ezra",
+      "gender": "male",
+      "role": "taught the Law to the people gathered in the square of this city",
+      "references": [
+        "Nehemiah 8:1-8"
+      ]
+    },
+    {
+      "person_id": "gabriel",
+      "name": "Gabriel",
+      "gender": "male"
+    },
+    {
+      "person_id": "gad-2",
+      "name": "Gad",
+      "gender": "male"
+    },
+    {
+      "person_id": "gamaliel-2",
+      "name": "Gamaliel",
+      "gender": "male"
+    },
+    {
+      "person_id": "gedaliah-4",
+      "name": "Gedaliah",
+      "gender": "male"
+    },
+    {
+      "person_id": "gemariah",
+      "name": "Gemariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "haggai",
+      "name": "Haggai",
+      "gender": "male"
+    },
+    {
+      "person_id": "hanamel",
+      "name": "Hanamel",
+      "gender": "male"
+    },
+    {
+      "person_id": "hanani-4",
+      "name": "Hanani",
+      "gender": "male"
+    },
+    {
+      "person_id": "hananiah-10",
+      "name": "Hananiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "hashabneiah-2",
+      "name": "Hashabneiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "heldai-2",
+      "name": "Heldai",
+      "gender": "male"
+    },
+    {
+      "person_id": "heman-2",
+      "name": "Heman",
+      "gender": "male"
+    },
+    {
+      "person_id": "herod",
+      "name": "Herod",
+      "gender": "male"
+    },
+    {
+      "person_id": "herod-3",
+      "name": "Herod",
+      "gender": "male"
+    },
+    {
+      "person_id": "herod-2",
+      "name": "Herod Antipas",
+      "gender": "male"
+    },
+    {
+      "person_id": "hezekiah",
+      "name": "Hezekiah",
+      "gender": "male",
+      "role": "its king, who trusted God when Assyria's army besieged the city",
+      "references": [
+        "2 Kings 18:13",
+        "2 Kings 19:32-36"
+      ]
+    },
+    {
+      "person_id": "hilkiah-2",
+      "name": "Hilkiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "hiram-2",
+      "name": "Hiram",
+      "gender": "male"
+    },
+    {
+      "person_id": "huldah",
+      "name": "Huldah",
+      "gender": "female",
+      "role": "the prophetess in this city consulted about the newly found Book of the Law",
+      "references": [
+        "2 Kings 22:14-20"
+      ]
+    },
+    {
+      "person_id": "hushai",
+      "name": "Hushai",
+      "gender": "male"
+    },
+    {
+      "person_id": "irijah",
+      "name": "Irijah",
+      "gender": "male"
+    },
+    {
+      "person_id": "isaiah",
+      "name": "Isaiah",
+      "gender": "male",
+      "role": "prophesied in this city through the Assyrian crisis",
+      "references": [
+        "Isaiah 1:1",
+        "Isaiah 37:1-7"
+      ]
+    },
+    {
+      "person_id": "ittai",
+      "name": "Ittai the Gittite",
+      "gender": "male"
+    },
+    {
+      "person_id": "jaazaniah",
+      "name": "Jaazaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jaazaniah-2",
+      "name": "Jaazaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jaazaniah-3",
+      "name": "Jaazaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jahaziel-3",
+      "name": "Jahaziel",
+      "gender": "male"
+    },
+    {
+      "person_id": "james",
+      "name": "James",
+      "gender": "male",
+      "role": "the apostle executed in this city by Herod Agrippa I",
+      "references": [
+        "Acts 12:1-2"
+      ]
+    },
+    {
+      "person_id": "james-3",
+      "name": "James",
+      "gender": "male"
+    },
+    {
+      "person_id": "jarib",
+      "name": "Jarib",
+      "gender": "male"
+    },
+    {
+      "person_id": "jedaiah-6",
+      "name": "Jedaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jeduthun",
+      "name": "Jeduthun",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehiel-3",
+      "name": "Jehiel",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoahaz-2",
+      "name": "Jehoahaz",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoiachin",
+      "name": "Jehoiachin",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoiada",
+      "name": "Jehoiada",
+      "gender": "male",
+      "role": "the priest here who overthrew Athaliah and crowned the boy Joash",
+      "references": [
+        "2 Kings 11:4-12"
+      ]
+    },
+    {
+      "person_id": "jehoiada-2",
+      "name": "Jehoiada",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoiakim",
+      "name": "Jehoiakim",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoram",
+      "name": "Jehoram",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoshaphat-3",
+      "name": "Jehoshaphat",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehosheba",
+      "name": "Jehosheba",
+      "gender": "female"
+    },
+    {
+      "person_id": "jehozabad",
+      "name": "Jehozabad",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehucal",
+      "name": "Jehucal",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehudi",
+      "name": "Jehudi",
+      "gender": "male"
+    },
+    {
+      "person_id": "jerahmeel-3",
+      "name": "Jerahmeel",
+      "gender": "male"
+    },
+    {
+      "person_id": "jeremiah-6",
+      "name": "Jeremiah",
+      "gender": "male",
+      "role": "prophesied in this city until its fall, and was imprisoned in it",
+      "references": [
+        "Jeremiah 32:2",
+        "Jeremiah 38:6"
+      ]
+    },
+    {
+      "person_id": "jeshua-7",
+      "name": "Jeshua",
+      "gender": "male"
+    },
+    {
+      "person_id": "jezrahiah",
+      "name": "Jezrahiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "joab",
+      "name": "Joab",
+      "gender": "male"
+    },
+    {
+      "person_id": "joah",
+      "name": "Joah",
+      "gender": "male"
+    },
+    {
+      "person_id": "joah-2",
+      "name": "Joah",
+      "gender": "male"
+    },
+    {
+      "person_id": "joah-4",
+      "name": "Joah",
+      "gender": "male"
+    },
+    {
+      "person_id": "joanna",
+      "name": "Joanna",
+      "gender": "female"
+    },
+    {
+      "person_id": "joash-3",
+      "name": "Joash",
+      "gender": "male"
+    },
+    {
+      "person_id": "joel-6",
+      "name": "Joel",
+      "gender": "male"
+    },
+    {
+      "person_id": "john-2",
+      "name": "John",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonadab",
+      "name": "Jonadab",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonathan-3",
+      "name": "Jonathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonathan-4",
+      "name": "Jonathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonathan-9",
+      "name": "Jonathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "joseph-7",
+      "name": "Joseph",
+      "gender": "male"
+    },
+    {
+      "person_id": "joseph-10",
+      "name": "Joseph called Barsabbas",
+      "gender": "male"
+    },
+    {
+      "person_id": "joshua-4",
+      "name": "Joshua",
+      "gender": "male"
+    },
+    {
+      "person_id": "josiah",
+      "name": "Josiah",
+      "gender": "male",
+      "role": "its king, who purged the city's idols after the Book of the Law was found",
+      "references": [
+        "2 Kings 23:1-14"
+      ]
+    },
+    {
+      "person_id": "jotham-2",
+      "name": "Jotham",
+      "gender": "male"
+    },
+    {
+      "person_id": "jozacar",
+      "name": "Jozacar",
+      "gender": "male"
+    },
+    {
+      "person_id": "jucal",
+      "name": "Jucal",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas",
+      "name": "Judas",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas-2",
+      "name": "Judas",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas-3",
+      "name": "Judas",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas-5",
+      "name": "Judas",
+      "gender": "male"
+    },
+    {
+      "person_id": "lysias",
+      "name": "Lysias",
+      "gender": "male"
+    },
+    {
+      "person_id": "maacah-3",
+      "name": "Maacah",
+      "gender": "female"
+    },
+    {
+      "person_id": "malachi",
+      "name": "Malachi",
+      "gender": "male"
+    },
+    {
+      "person_id": "manasseh-3",
+      "name": "Manasseh",
+      "gender": "male"
+    },
+    {
+      "person_id": "mark",
+      "name": "Mark",
+      "gender": "male"
+    },
+    {
+      "person_id": "mary",
+      "name": "Mary",
+      "gender": "female"
+    },
+    {
+      "person_id": "mary-4",
+      "name": "Mary",
+      "gender": "female"
+    },
+    {
+      "person_id": "mary-magdalene",
+      "name": "Mary Magdalene",
+      "gender": "female"
+    },
+    {
+      "person_id": "mattan",
+      "name": "Mattan",
+      "gender": "male"
+    },
+    {
+      "person_id": "matthias",
+      "name": "Matthias",
+      "gender": "male"
+    },
+    {
+      "person_id": "mephibosheth",
+      "name": "Mephibosheth",
+      "gender": "male"
+    },
+    {
+      "person_id": "meremoth",
+      "name": "Meremoth",
+      "gender": "male"
+    },
+    {
+      "person_id": "micah-5",
+      "name": "Micah",
+      "gender": "male"
+    },
+    {
+      "person_id": "micaiah-6",
+      "name": "Micaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "michal",
+      "name": "Michal",
+      "gender": "female"
+    },
+    {
+      "person_id": "mnason",
+      "name": "Mnason",
+      "gender": "male"
+    },
+    {
+      "person_id": "nathan-2",
+      "name": "Nathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "nebuchadnezzar",
+      "name": "Nebuchadnezzar",
+      "gender": "male",
+      "role": "the Babylonian king whose army destroyed this city and its temple",
+      "references": [
+        "2 Kings 25:8-10"
+      ]
+    },
+    {
+      "person_id": "nebushazban",
+      "name": "Nebushazban",
+      "gender": "male"
+    },
+    {
+      "person_id": "nebuzaradan",
+      "name": "Nebuzaradan",
+      "gender": "male"
+    },
+    {
+      "person_id": "nehemiah",
+      "name": "Nehemiah",
+      "gender": "male",
+      "role": "rebuilt this city's ruined walls in fifty-two days despite opposition",
+      "references": [
+        "Nehemiah 2:11-18",
+        "Nehemiah 6:15"
+      ]
+    },
+    {
+      "person_id": "nergal-sar-ezer-2",
+      "name": "Nergal-sar-ezer",
+      "gender": "male"
+    },
+    {
+      "person_id": "nicanor",
+      "name": "Nicanor",
+      "gender": "male"
+    },
+    {
+      "person_id": "nicodemus",
+      "name": "Nicodemus",
+      "gender": "male",
+      "role": "a ruler of the Jews here who came to Jesus by night",
+      "references": [
+        "John 3:1-2"
+      ]
+    },
+    {
+      "person_id": "nicolas",
+      "name": "Nicolas",
+      "gender": "male"
+    },
+    {
+      "person_id": "noadiah",
+      "name": "Noadiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "noadiah-2",
+      "name": "Noadiah",
+      "gender": "female"
+    },
+    {
+      "person_id": "obadiah-12",
+      "name": "Obadiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "obed-edom-2",
+      "name": "Obed-edom",
+      "gender": "male"
+    },
+    {
+      "person_id": "parmenas",
+      "name": "Parmenas",
+      "gender": "male"
+    },
+    {
+      "person_id": "pashhur-2",
+      "name": "Pashhur",
+      "gender": "male"
+    },
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male",
+      "role": "seized in the temple here and arrested by the Roman guard",
+      "references": [
+        "Acts 21:27-33"
+      ]
+    },
+    {
+      "person_id": "pelatiah-4",
+      "name": "Pelatiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "peter",
+      "name": "Peter",
+      "gender": "male",
+      "role": "preached at Pentecost in this city and led its first church",
+      "references": [
+        "Acts 2:14-41"
+      ]
+    },
+    {
+      "person_id": "philip",
+      "name": "Philip",
+      "gender": "male"
+    },
+    {
+      "person_id": "philip-3",
+      "name": "Philip",
+      "gender": "male"
+    },
+    {
+      "person_id": "pilate",
+      "name": "Pilate",
+      "gender": "male",
+      "role": "Rome's governor who sentenced Jesus to death in this city",
+      "references": [
+        "John 19:13-16"
+      ]
+    },
+    {
+      "person_id": "prochorus",
+      "name": "Prochorus",
+      "gender": "male"
+    },
+    {
+      "person_id": "queen-of-sheba",
+      "name": "Queen of Sheba",
+      "gender": "female",
+      "role": "came to this city to test Solomon's wisdom with hard questions",
+      "references": [
+        "1 Kings 10:1-7"
+      ]
+    },
+    {
+      "person_id": "rabshakeh",
+      "name": "Rabshakeh",
+      "gender": "male"
+    },
+    {
+      "person_id": "regemmelech",
+      "name": "Regemmelech",
+      "gender": "male"
+    },
+    {
+      "person_id": "rehoboam",
+      "name": "Rehoboam",
+      "gender": "male"
+    },
+    {
+      "person_id": "rehum-2",
+      "name": "Rehum",
+      "gender": "male"
+    },
+    {
+      "person_id": "rezin",
+      "name": "Rezin",
+      "gender": "male"
+    },
+    {
+      "person_id": "rhoda",
+      "name": "Rhoda",
+      "gender": "female"
+    },
+    {
+      "person_id": "rufus",
+      "name": "Rufus",
+      "gender": "male"
+    },
+    {
+      "person_id": "salome",
+      "name": "Salome",
+      "gender": "female"
+    },
+    {
+      "person_id": "sanballat",
+      "name": "Sanballat",
+      "gender": "male"
+    },
+    {
+      "person_id": "sapphira",
+      "name": "Sapphira",
+      "gender": "female"
+    },
+    {
+      "person_id": "sennacherib",
+      "name": "Sennacherib",
+      "gender": "male"
+    },
+    {
+      "person_id": "sephatiah",
+      "name": "Sephatiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "seraiah-10",
+      "name": "Seraiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "seraiah-2",
+      "name": "Seraiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "seraiah-9",
+      "name": "Seraiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shabbethai",
+      "name": "Shabbethai",
+      "gender": "male"
+    },
+    {
+      "person_id": "shaphan",
+      "name": "Shaphan",
+      "gender": "male"
+    },
+    {
+      "person_id": "sharezer-2",
+      "name": "Sharezer",
+      "gender": "male"
+    },
+    {
+      "person_id": "shear-jashub",
+      "name": "Shear-jashub",
+      "gender": "male"
+    },
+    {
+      "person_id": "shebna",
+      "name": "Shebna",
+      "gender": "male"
+    },
+    {
+      "person_id": "shecaniah-5",
+      "name": "Shecaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shelemiah-6",
+      "name": "Shelemiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shemaiah",
+      "name": "Shemaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shemaiah-18",
+      "name": "Shemaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shephatiah-8",
+      "name": "Shephatiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "sherebiah",
+      "name": "Sherebiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "sheshbazzar",
+      "name": "Sheshbazzar",
+      "gender": "male"
+    },
+    {
+      "person_id": "shethar-bozenai",
+      "name": "Shethar-bozenai",
+      "gender": "male"
+    },
+    {
+      "person_id": "shimei-2",
+      "name": "Shimei",
+      "gender": "male"
+    },
+    {
+      "person_id": "shimshai",
+      "name": "Shimshai",
+      "gender": "male"
+    },
+    {
+      "person_id": "shishak",
+      "name": "Shishak",
+      "gender": "male"
+    },
+    {
+      "person_id": "silas",
+      "name": "Silas",
+      "gender": "male"
+    },
+    {
+      "person_id": "simeon-2",
+      "name": "Simeon",
+      "gender": "male"
+    },
+    {
+      "person_id": "simon-3",
+      "name": "Simon",
+      "gender": "male"
+    },
+    {
+      "person_id": "solomon",
+      "name": "Solomon",
+      "gender": "male",
+      "role": "built the temple and his own palace in this city",
+      "references": [
+        "1 Kings 6:1",
+        "1 Kings 7:1"
+      ]
+    },
+    {
+      "person_id": "stephen",
+      "name": "Stephen",
+      "gender": "male",
+      "role": "the first martyr, stoned to death outside this city's walls",
+      "references": [
+        "Acts 7:58-60"
+      ]
+    },
+    {
+      "person_id": "tamar-2",
+      "name": "Tamar",
+      "gender": "female"
+    },
+    {
+      "person_id": "thomas",
+      "name": "Thomas",
+      "gender": "male"
+    },
+    {
+      "person_id": "tobiah",
+      "name": "Tobiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "trophimus",
+      "name": "Trophimus",
+      "gender": "male"
+    },
+    {
+      "person_id": "uriah",
+      "name": "Uriah",
+      "gender": "male"
+    },
+    {
+      "person_id": "uzziah",
+      "name": "Uzziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "zadok",
+      "name": "Zadok",
+      "gender": "male"
+    },
+    {
+      "person_id": "zechariah-13",
+      "name": "Zechariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "zedekiah-2",
+      "name": "Zedekiah",
+      "gender": "male",
+      "role": "its last king, captured when Babylon breached the walls",
+      "references": [
+        "2 Kings 25:1-7"
+      ]
+    },
+    {
+      "person_id": "zephaniah-3",
+      "name": "Zephaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "zerubbabel",
+      "name": "Zerubbabel",
+      "gender": "male",
+      "role": "led the rebuilding of the temple in this city after the exile",
+      "references": [
+        "Ezra 3:8-10"
+      ]
+    },
+    {
+      "person_id": "ziba",
+      "name": "Ziba",
+      "gender": "male"
+    }
+  ],
+  "description": "Called Salem in Abraham's day and Jebus while still held by the Jebusites, Jerusalem became Israel's capital only when David captured its fortress and made it his own city (2 Samuel 5:6-9). Solomon built the temple there, giving the city a religious as well as political centrality it never lost (1 Kings 6; 8). It was the site of a divided kingdom's southern capital, of Isaiah's, Jeremiah's, and Ezekiel's ministries, and of its own destruction by Babylon in 586 BC \u2014 then of a rebuilt temple under Ezra and Nehemiah after the exile. In the Gospels it is where Jesus was presented as an infant, taught in the temple courts, was crucified outside its walls, and rose again; in Acts it is where the church was born at Pentecost. No other place in Scripture carries this much continuous narrative weight across both Testaments.",
+  "family_friendly_summary": "Jerusalem is the most important city in the whole Bible. King David made it his capital, and his son Solomon built God's temple there. Many kings, prophets, and important Bible events happened in Jerusalem \u2014 and it's the city where Jesus was put on the cross and where He rose from the dead. Jerusalem is still an important city today."
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "arimathea",
+  "name": "Arimathea",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 27:57",
+  "references": [
+    "Matthew 27:57"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "joseph-7",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "the council member of this town who gave Jesus his own new tomb",
+      "references": [
+        "Matthew 27:57-60"
+      ]
+    }
+  ],
+  "description": "Hometown of Joseph, a wealthy member of the Jewish council and secret disciple of Jesus who asked Pilate for Jesus's body and buried it in his own new tomb (Matthew 27:57-60; John 19:38-42)."
+}

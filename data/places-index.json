@@ -1,0 +1,3024 @@
+[
+  {
+    "place_id": "abel-beth-maacah",
+    "name": "Abel Beth-maacah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "abel-meholah",
+    "name": "Abel-meholah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "adullam",
+    "name": "Adullam",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ai",
+    "name": "Ai",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "aijalon-of-zebulun",
+    "name": "Aijalon (of Zebulun)",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "alexandria",
+    "name": "Alexandria",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "egypt",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "amalek",
+    "name": "Amalek",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "sinai-wilderness",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ammon",
+    "name": "Ammon",
+    "alt_names": [],
+    "tier": "full",
+    "type": "nation",
+    "region": "moab-transjordan",
+    "eras": [
+      "Judges",
+      "United Monarchy",
+      "Exile",
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "anathoth",
+    "name": "Anathoth",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "antioch",
+    "name": "Antioch",
+    "alt_names": [
+      "Antioch of Syria"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Gospels",
+      "Apostolic"
+    ],
+    "n_people": 7,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "aphek",
+    "name": "Aphek",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "arabia",
+    "name": "Arabia",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "egypt",
+    "eras": [
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "aram",
+    "name": "Aram",
+    "alt_names": [
+      "Syria"
+    ],
+    "tier": "full",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy",
+      "Divided Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "aram-naharaim",
+    "name": "Aram-naharaim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ararat",
+    "name": "Ararat",
+    "alt_names": [
+      "Mountains of Ararat"
+    ],
+    "tier": "full",
+    "type": "mountain",
+    "region": "mesopotamia",
+    "eras": [
+      "Primeval History",
+      "Divided Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "argob",
+    "name": "Argob",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "arimathea",
+    "name": "Arimathea",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ashdod",
+    "name": "Ashdod",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "asia-roman-province",
+    "name": "Asia (Roman Province)",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "asia-minor",
+    "name": "Asia Minor",
+    "alt_names": [
+      "Anatolia"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "assyria",
+    "name": "Assyria",
+    "alt_names": [],
+    "tier": "full",
+    "type": "nation",
+    "region": "mesopotamia",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "athens",
+    "name": "Athens",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "baal-peor",
+    "name": "Baal-peor",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "babylon",
+    "name": "Babylon",
+    "alt_names": [
+      "Shinar",
+      "Chaldea"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Divided Monarchy",
+      "Exile",
+      "Post-Exile/Intertestamental",
+      "Gospels"
+    ],
+    "n_people": 29,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bahurim",
+    "name": "Bahurim",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bashan",
+    "name": "Bashan",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Patriarchal",
+      "Exodus/Wilderness"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "beersheba",
+    "name": "Beersheba",
+    "alt_names": [
+      "Well of the Oath"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "United Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "benjamin",
+    "name": "Benjamin",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bethany",
+    "name": "Bethany",
+    "alt_names": [],
+    "tier": "full",
+    "type": "village",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bethel",
+    "name": "Bethel",
+    "alt_names": [
+      "Luz"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "Judges",
+      "Divided Monarchy",
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 10,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bethlehem",
+    "name": "Bethlehem",
+    "alt_names": [
+      "Ephrath",
+      "Bethlehem-judah",
+      "City of David"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "Judges",
+      "United Monarchy",
+      "Gospels"
+    ],
+    "n_people": 20,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bethsaida",
+    "name": "Bethsaida",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "bezek",
+    "name": "Bezek",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "buz",
+    "name": "Buz",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "caesarea",
+    "name": "Caesarea",
+    "alt_names": [
+      "Caesarea Maritima"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 14,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cana",
+    "name": "Cana",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "canaan",
+    "name": "Canaan",
+    "alt_names": [
+      "The Promised Land"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Primeval History",
+      "Patriarchal",
+      "Exodus/Wilderness"
+    ],
+    "n_people": 37,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "capernaum",
+    "name": "Capernaum",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "carmel-of-judah",
+    "name": "Carmel (of Judah)",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "casiphia",
+    "name": "Casiphia",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "mesopotamia",
+    "eras": [
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cave-of-machpelah",
+    "name": "Cave of Machpelah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cenchrea",
+    "name": "Cenchrea",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "chebar-river",
+    "name": "Chebar River",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "body-of-water",
+    "region": "mesopotamia",
+    "eras": [
+      "Exile"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "colossae",
+    "name": "Colossae",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "corinth",
+    "name": "Corinth",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 13,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "crete",
+    "name": "Crete",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cush",
+    "name": "Cush",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "egypt",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cyprus",
+    "name": "Cyprus",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "cyrene",
+    "name": "Cyrene",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "egypt",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "damascus",
+    "name": "Damascus",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "United Monarchy",
+      "Divided Monarchy",
+      "Apostolic"
+    ],
+    "n_people": 11,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "dan",
+    "name": "Dan",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "debir",
+    "name": "Debir",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "edom",
+    "name": "Edom",
+    "alt_names": [
+      "Seir"
+    ],
+    "tier": "full",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "United Monarchy",
+      "Divided Monarchy",
+      "Exile"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "eglon",
+    "name": "Eglon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "egypt",
+    "name": "Egypt",
+    "alt_names": [],
+    "tier": "full",
+    "type": "nation",
+    "region": "egypt",
+    "eras": [
+      "Patriarchal",
+      "Exodus/Wilderness",
+      "United Monarchy",
+      "Divided Monarchy",
+      "Exile",
+      "Gospels"
+    ],
+    "n_people": 38,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "elam",
+    "name": "Elam",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "mesopotamia",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "elkosh",
+    "name": "Elkosh",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ellasar",
+    "name": "Ellasar",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "emmaus",
+    "name": "Emmaus",
+    "alt_names": [],
+    "tier": "full",
+    "type": "village",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ephesus",
+    "name": "Ephesus",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Gospels",
+      "Apostolic"
+    ],
+    "n_people": 16,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ephraim",
+    "name": "Ephraim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ephraim-forest",
+    "name": "Ephraim Forest",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ezion-geber",
+    "name": "Ezion-geber",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "egypt",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "galilee",
+    "name": "Galilee",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 15,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gallim",
+    "name": "Gallim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "garden-of-eden",
+    "name": "Garden of Eden",
+    "alt_names": [
+      "Eden"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Primeval History"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gath",
+    "name": "Gath",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gath-hepher",
+    "name": "Gath-hepher",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gaza",
+    "name": "Gaza",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gaza-road",
+    "name": "Gaza Road",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gerar",
+    "name": "Gerar",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "geshur",
+    "name": "Geshur",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gethsemane",
+    "name": "Gethsemane",
+    "alt_names": [],
+    "tier": "full",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gezer",
+    "name": "Gezer",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gibbethon",
+    "name": "Gibbethon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gibeah",
+    "name": "Gibeah",
+    "alt_names": [
+      "Gibeah of Saul"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gibeon",
+    "name": "Gibeon",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness",
+      "United Monarchy"
+    ],
+    "n_people": 7,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gilead",
+    "name": "Gilead",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Patriarchal",
+      "Exodus/Wilderness",
+      "Judges",
+      "United Monarchy",
+      "Divided Monarchy"
+    ],
+    "n_people": 8,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gilgal",
+    "name": "Gilgal",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "United Monarchy",
+      "Divided Monarchy"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "giloh",
+    "name": "Giloh",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gob",
+    "name": "Gob",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "gomorrah",
+    "name": "Gomorrah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "greece",
+    "name": "Greece",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "hamath",
+    "name": "Hamath",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "haran",
+    "name": "Haran",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "harosheth-hagoyim",
+    "name": "Harosheth-hagoyim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "havvoth-jair",
+    "name": "Havvoth-jair",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness",
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "hazor",
+    "name": "Hazor",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "hebron",
+    "name": "Hebron",
+    "alt_names": [
+      "Kiriath-arba",
+      "Mamre"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "Exodus/Wilderness",
+      "Judges",
+      "United Monarchy"
+    ],
+    "n_people": 15,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "helam",
+    "name": "Helam",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "heshbon",
+    "name": "Heshbon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "hill-country-of-ephraim",
+    "name": "Hill Country of Ephraim",
+    "alt_names": [
+      "Mount Ephraim"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "hill-country-of-judea",
+    "name": "Hill Country of Judea",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jabesh-gilead",
+    "name": "Jabesh-gilead",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jarmuth",
+    "name": "Jarmuth",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jazer",
+    "name": "Jazer",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jericho",
+    "name": "Jericho",
+    "alt_names": [
+      "City of Palms"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness",
+      "Judges",
+      "Divided Monarchy",
+      "Gospels"
+    ],
+    "n_people": 9,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jerusalem",
+    "name": "Jerusalem",
+    "alt_names": [
+      "Zion",
+      "Salem",
+      "City of David",
+      "Jebus"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness",
+      "Judges",
+      "United Monarchy",
+      "Divided Monarchy",
+      "Exile",
+      "Post-Exile/Intertestamental",
+      "Gospels",
+      "Apostolic"
+    ],
+    "n_people": 221,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jezreel",
+    "name": "Jezreel",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy",
+      "Divided Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jezreel-valley",
+    "name": "Jezreel Valley",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "valley",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "joppa",
+    "name": "Joppa",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "jordan-river",
+    "name": "Jordan River",
+    "alt_names": [],
+    "tier": "full",
+    "type": "body-of-water",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy",
+      "Divided Monarchy",
+      "Gospels"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "judea",
+    "name": "Judea",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kabzeel",
+    "name": "Kabzeel",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kadesh-barnea",
+    "name": "Kadesh-barnea",
+    "alt_names": [
+      "Kadesh"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "karkor",
+    "name": "Karkor",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kedesh",
+    "name": "Kedesh",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kenath",
+    "name": "Kenath",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kingdom-of-israel",
+    "name": "Kingdom of Israel",
+    "alt_names": [
+      "Northern Kingdom"
+    ],
+    "tier": "full",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "United Monarchy",
+      "Divided Monarchy"
+    ],
+    "n_people": 35,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kingdom-of-judah",
+    "name": "Kingdom of Judah",
+    "alt_names": [
+      "Judah"
+    ],
+    "tier": "full",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy",
+      "Divided Monarchy",
+      "Exile"
+    ],
+    "n_people": 39,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kir-hareseth",
+    "name": "Kir-hareseth",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "moab-transjordan",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kiriath-jearim",
+    "name": "Kiriath-jearim",
+    "alt_names": [
+      "Baale-judah"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "kishon-river",
+    "name": "Kishon River",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "body-of-water",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "lachish",
+    "name": "Lachish",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness",
+      "Divided Monarchy"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "land-of-nod",
+    "name": "Land of Nod",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Primeval History"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "laodicea",
+    "name": "Laodicea",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "lo-debar",
+    "name": "Lo-debar",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "lydda",
+    "name": "Lydda",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "lystra",
+    "name": "Lystra",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "macedonia",
+    "name": "Macedonia",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "madon",
+    "name": "Madon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "magdala",
+    "name": "Magdala",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "magog",
+    "name": "Magog",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "mesopotamia",
+    "eras": [
+      "Exile"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mahanaim",
+    "name": "Mahanaim",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "makkedah",
+    "name": "Makkedah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "malta",
+    "name": "Malta",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "italy",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mamre",
+    "name": "Mamre",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "maon",
+    "name": "Maon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mareshah",
+    "name": "Mareshah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mediterranean-sea",
+    "name": "Mediterranean Sea",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "body-of-water",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Divided Monarchy",
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "megiddo",
+    "name": "Megiddo",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "meshech-and-tubal",
+    "name": "Meshech and Tubal",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Exile"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mesopotamia",
+    "name": "Mesopotamia",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Primeval History"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "michmash",
+    "name": "Michmash",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "midian",
+    "name": "Midian",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "midian",
+    "eras": [
+      "Exodus/Wilderness",
+      "Judges"
+    ],
+    "n_people": 7,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "miletus",
+    "name": "Miletus",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mizpah",
+    "name": "Mizpah",
+    "alt_names": [
+      "Mizpeh"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "Exile"
+    ],
+    "n_people": 7,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "moab",
+    "name": "Moab",
+    "alt_names": [],
+    "tier": "full",
+    "type": "nation",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness",
+      "Judges",
+      "Divided Monarchy"
+    ],
+    "n_people": 11,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "moresheth",
+    "name": "Moresheth",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-carmel",
+    "name": "Mount Carmel",
+    "alt_names": [],
+    "tier": "full",
+    "type": "mountain",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-gerizim",
+    "name": "Mount Gerizim",
+    "alt_names": [],
+    "tier": "full",
+    "type": "mountain",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-gilboa",
+    "name": "Mount Gilboa",
+    "alt_names": [],
+    "tier": "full",
+    "type": "mountain",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-hor",
+    "name": "Mount Hor",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "mountain",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-sinai",
+    "name": "Mount Sinai",
+    "alt_names": [
+      "Horeb"
+    ],
+    "tier": "full",
+    "type": "mountain",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Exodus/Wilderness",
+      "Divided Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-tabor",
+    "name": "Mount Tabor",
+    "alt_names": [],
+    "tier": "full",
+    "type": "mountain",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "mount-zemaraim",
+    "name": "Mount Zemaraim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "mountain",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "naamah",
+    "name": "Naamah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "nazareth",
+    "name": "Nazareth",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels",
+      "Apostolic"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "negev",
+    "name": "Negev",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "nineveh",
+    "name": "Nineveh",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "nob",
+    "name": "Nob",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ophrah",
+    "name": "Ophrah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "paddan-aram",
+    "name": "Paddan-aram",
+    "alt_names": [
+      "Aram-naharaim (in some contexts)"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 15,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "paphos",
+    "name": "Paphos",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "pas-dammim",
+    "name": "Pas-dammim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "patmos",
+    "name": "Patmos",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "penuel",
+    "name": "Penuel",
+    "alt_names": [
+      "Peniel"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Patriarchal",
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "perea",
+    "name": "Perea",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "pergamum",
+    "name": "Pergamum",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "persia",
+    "name": "Persia",
+    "alt_names": [],
+    "tier": "full",
+    "type": "nation",
+    "region": "mesopotamia",
+    "eras": [
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "pethor",
+    "name": "Pethor",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "mesopotamia",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "philippi",
+    "name": "Philippi",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "philistia",
+    "name": "Philistia",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "philistine-territory",
+    "name": "Philistine Territory",
+    "alt_names": [
+      "Philistia"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "pirathon",
+    "name": "Pirathon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "plains-of-moab",
+    "name": "Plains of Moab",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 9,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "pontus",
+    "name": "Pontus",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "rabbah",
+    "name": "Rabbah",
+    "alt_names": [
+      "Rabbah of the Ammonites"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 4,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ramah",
+    "name": "Ramah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ramathaim-zophim",
+    "name": "Ramathaim-zophim",
+    "alt_names": [
+      "Ramah"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ramoth-gilead",
+    "name": "Ramoth-gilead",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "region-of-the-gerasenes",
+    "name": "Region of the Gerasenes",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "rephidim",
+    "name": "Rephidim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "site",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "riblah",
+    "name": "Riblah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy",
+      "Exile"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "rock-of-oreb",
+    "name": "Rock of Oreb",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "rogelim",
+    "name": "Rogelim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "rome",
+    "name": "Rome",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "italy",
+    "eras": [
+      "Gospels",
+      "Apostolic"
+    ],
+    "n_people": 22,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "salem",
+    "name": "Salem",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "samaria",
+    "name": "Samaria",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy",
+      "Post-Exile/Intertestamental",
+      "Apostolic"
+    ],
+    "n_people": 40,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "seir",
+    "name": "Seir",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shamir",
+    "name": "Shamir",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "sheba",
+    "name": "Sheba",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "egypt",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shechem",
+    "name": "Shechem",
+    "alt_names": [
+      "Sychar"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "Judges",
+      "Divided Monarchy"
+    ],
+    "n_people": 11,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shiloh",
+    "name": "Shiloh",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges",
+      "Divided Monarchy"
+    ],
+    "n_people": 9,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shinar",
+    "name": "Shinar",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "mesopotamia",
+    "eras": [
+      "Primeval History",
+      "Patriarchal"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shittim",
+    "name": "Shittim",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shuah",
+    "name": "Shuah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "shunem",
+    "name": "Shunem",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "sidon",
+    "name": "Sidon",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "sinai",
+    "name": "Sinai",
+    "alt_names": [
+      "Wilderness of Sinai",
+      "Sinai Peninsula"
+    ],
+    "tier": "full",
+    "type": "wilderness",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 15,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "sodom",
+    "name": "Sodom",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "succoth",
+    "name": "Succoth",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "moab-transjordan",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "susa",
+    "name": "Susa",
+    "alt_names": [
+      "Shushan"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Exile",
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 14,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "tarsus",
+    "name": "Tarsus",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "tekoa",
+    "name": "Tekoa",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "teman",
+    "name": "Teman",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "thebez",
+    "name": "Thebez",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "thessalonica",
+    "name": "Thessalonica",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "thyatira",
+    "name": "Thyatira",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "timnah",
+    "name": "Timnah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal",
+      "Judges"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "tirzah",
+    "name": "Tirzah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 6,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "transjordan",
+    "name": "Transjordan",
+    "alt_names": [
+      "East of the Jordan"
+    ],
+    "tier": "full",
+    "type": "region",
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness",
+      "Judges",
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "troas",
+    "name": "Troas",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "tyre",
+    "name": "Tyre",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [
+      "United Monarchy",
+      "Apostolic"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ur-of-the-chaldeans",
+    "name": "Ur of the Chaldeans",
+    "alt_names": [
+      "Ur"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "mesopotamia",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "uz",
+    "name": "Uz",
+    "alt_names": [],
+    "tier": "full",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "valley-of-achor",
+    "name": "Valley of Achor",
+    "alt_names": [],
+    "tier": "full",
+    "type": "valley",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "valley-of-elah",
+    "name": "Valley of Elah",
+    "alt_names": [],
+    "tier": "full",
+    "type": "valley",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "valley-of-siddim",
+    "name": "Valley of Siddim",
+    "alt_names": [
+      "Vale of Siddim"
+    ],
+    "tier": "full",
+    "type": "valley",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 5,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "valley-of-sorek",
+    "name": "Valley of Sorek",
+    "alt_names": [],
+    "tier": "full",
+    "type": "valley",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "waters-of-merom",
+    "name": "Waters of Merom",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "body-of-water",
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "wilderness-of-judea",
+    "name": "Wilderness of Judea",
+    "alt_names": [],
+    "tier": "full",
+    "type": "wilderness",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "wilderness-of-paran",
+    "name": "Wilderness of Paran",
+    "alt_names": [],
+    "tier": "full",
+    "type": "wilderness",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Patriarchal",
+      "Exodus/Wilderness"
+    ],
+    "n_people": 7,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "wilderness-of-shur",
+    "name": "Wilderness of Shur",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "wilderness",
+    "region": "sinai-wilderness",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "zaanannim",
+    "name": "Zaanannim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "zeboiim",
+    "name": "Zeboiim",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "city",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "ziklag",
+    "name": "Ziklag",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "zoar",
+    "name": "Zoar",
+    "alt_names": [
+      "Bela"
+    ],
+    "tier": "full",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 3,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "zobah",
+    "name": "Zobah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "nation",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  },
+  {
+    "place_id": "zorah",
+    "name": "Zorah",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "town",
+    "region": "canaan-israel",
+    "eras": [
+      "Judges"
+    ],
+    "n_people": 2,
+    "disambiguation": ""
+  }
+]

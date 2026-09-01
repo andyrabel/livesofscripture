@@ -1,0 +1,33 @@
+{
+  "place_id": "thebez",
+  "name": "Thebez",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 9:50",
+  "references": [
+    "Judges 9:50"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "abimelech-2",
+      "name": "Abimelech",
+      "gender": "male",
+      "role": "died besieging this town when a woman dropped a millstone on his head",
+      "references": [
+        "Judges 9:50-54"
+      ]
+    }
+  ],
+  "description": "A town where Abimelech, besieging its tower, was fatally struck on the head by a millstone dropped by a woman, then had his armor-bearer kill him so he wouldn't be remembered as slain by a woman (Judges 9:50-54)."
+}

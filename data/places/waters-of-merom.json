@@ -1,0 +1,29 @@
+{
+  "place_id": "waters-of-merom",
+  "name": "Waters of Merom",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 11:5",
+  "references": [
+    "Joshua 11:5"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Generally located in upper Galilee, though the exact site is not confirmed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jobab-3",
+      "name": "Jobab",
+      "gender": "male"
+    }
+  ],
+  "description": "Where a northern Canaanite coalition led by Jabin of Hazor, including king Jobab of Madon, gathered against Israel and was decisively defeated by Joshua (Joshua 11:1-9)."
+}

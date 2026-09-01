@@ -1,0 +1,57 @@
+{
+  "place_id": "kadesh-barnea",
+  "name": "Kadesh-barnea",
+  "alt_names": [
+    "Kadesh"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Genesis 14:7",
+  "references": [
+    "Genesis 14:7",
+    "Numbers 13:26",
+    "Numbers 20:1-13",
+    "Deuteronomy 1:19-46"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "Usually identified with the oasis of Ain el-Qudeirat in the northern Sinai/Negev border area."
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "ammiel",
+      "name": "Ammiel",
+      "gender": "male",
+      "role": "the spy from the tribe of Dan who brought back a fearful report of Canaan",
+      "references": [
+        "Numbers 13:12"
+      ]
+    },
+    {
+      "person_id": "caleb",
+      "name": "Caleb",
+      "gender": "male",
+      "role": "urged Israel from here to go up and take the land, and was promised Hebron",
+      "references": [
+        "Numbers 13:30",
+        "Numbers 14:24"
+      ]
+    },
+    {
+      "person_id": "igal",
+      "name": "Igal",
+      "gender": "male",
+      "role": "the spy from the tribe of Issachar who joined the fearful report of the land",
+      "references": [
+        "Numbers 13:7"
+      ]
+    }
+  ],
+  "description": "A wilderness oasis that served as Israel's main base during much of the forty years of wandering. The twelve spies returned there with their report of Canaan (Numbers 13:26), and it was at Kadesh that Moses, in frustration, struck the rock instead of speaking to it as commanded \u2014 an act of disobedience that cost him entry into the promised land (Numbers 20:1-13)."
+}

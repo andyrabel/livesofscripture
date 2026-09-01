@@ -1,0 +1,29 @@
+{
+  "place_id": "lydda",
+  "name": "Lydda",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 9:32",
+  "references": [
+    "Acts 9:32"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Lod, Israel",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "aeneas",
+      "name": "Aeneas",
+      "gender": "male"
+    }
+  ],
+  "description": "A town where Peter healed a paralyzed man named Aeneas, a miracle that led many in the surrounding area to believe (Acts 9:32-35)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "cush",
+  "name": "Cush",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "egypt",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Genesis 2:13",
+  "references": [
+    "Genesis 2:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Generally identified with the ancient kingdom of Nubia/Meroe, south of Egypt along the Nile."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "candace",
+      "name": "Candace",
+      "gender": "female"
+    }
+  ],
+  "description": "A kingdom south of Egypt; its queen, known by the royal title Candace, sent a court official who was reading Isaiah and was baptized by Philip on the road to Gaza (Acts 8:26-39)."
+}

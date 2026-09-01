@@ -1,0 +1,55 @@
+{
+  "place_id": "penuel",
+  "name": "Penuel",
+  "alt_names": [
+    "Peniel"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "Patriarchal",
+    "Judges"
+  ],
+  "first_reference": "Genesis 32:30",
+  "references": [
+    "Genesis 32:30",
+    "Judges 8:8-17"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "israel",
+      "name": "Israel",
+      "gender": "male",
+      "role": "wrestled with God through the night here and was renamed Israel",
+      "references": [
+        "Genesis 32:24-31"
+      ]
+    },
+    {
+      "person_id": "zalmunna",
+      "name": "Zalmunna",
+      "gender": "male",
+      "role": "a Midianite king whom Gideon pursued past this town",
+      "references": [
+        "Judges 8:8-12"
+      ]
+    },
+    {
+      "person_id": "zebah",
+      "name": "Zebah",
+      "gender": "male",
+      "role": "a Midianite king whom Gideon pursued past this town",
+      "references": [
+        "Judges 8:8-12"
+      ]
+    }
+  ],
+  "description": "The place where Jacob wrestled all night with a divine visitor, was given the name Israel, and named the site \"the face of God\" (Genesis 32:24-30). Gideon later destroyed its tower after its men refused to help his pursuit of the Midianite kings (Judges 8:8-9, 17)."
+}

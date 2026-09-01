@@ -1,0 +1,64 @@
+{
+  "place_id": "colossae",
+  "name": "Colossae",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Colossians 1:2",
+  "references": [
+    "Colossians 1:2",
+    "Colossians 4:12-17",
+    "Philemon 1:1-2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "archippus",
+      "name": "Archippus",
+      "gender": "male",
+      "role": "charged through the church here to complete the ministry he had received",
+      "references": [
+        "Colossians 4:17"
+      ]
+    },
+    {
+      "person_id": "epaphras",
+      "name": "Epaphras",
+      "gender": "male",
+      "role": "a native of this city, who first brought it the gospel and prayed hard for it",
+      "references": [
+        "Colossians 1:7",
+        "Colossians 4:12"
+      ]
+    },
+    {
+      "person_id": "onesimus",
+      "name": "Onesimus",
+      "gender": "male",
+      "role": "the runaway slave of this city, sent back with Paul's letter to Philemon",
+      "references": [
+        "Colossians 4:9",
+        "Philemon 1:10"
+      ]
+    },
+    {
+      "person_id": "philemon",
+      "name": "Philemon",
+      "gender": "male",
+      "role": "a believer of this city to whom Paul wrote about his slave Onesimus",
+      "references": [
+        "Philemon 1:1-2"
+      ]
+    }
+  ],
+  "description": "A city in the Lycus Valley of Asia Minor, home to a church Paul had not personally founded or visited but wrote to (via Epaphras's report) to combat false teaching that diminished Christ's supremacy (Colossians 1:2, 7; 2:8-23). Philemon and the runaway slave Onesimus, addressed in Paul's shortest letter, were also from Colossae."
+}

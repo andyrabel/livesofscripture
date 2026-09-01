@@ -1,0 +1,29 @@
+{
+  "place_id": "macedonia",
+  "name": "Macedonia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 16:9",
+  "references": [
+    "Acts 16:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "erastus",
+      "name": "Erastus",
+      "gender": "male"
+    }
+  ],
+  "description": "The northern Greek region Paul was called to in a vision (\"come over and help us\"), beginning his ministry in Europe (Acts 16:9-10); Erastus is named among those Paul sent ahead there (Acts 19:22)."
+}

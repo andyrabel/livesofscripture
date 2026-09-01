@@ -1,0 +1,35 @@
+{
+  "place_id": "bashan",
+  "name": "Bashan",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Patriarchal",
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Genesis 14:5",
+  "references": [
+    "Genesis 14:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "machir",
+      "name": "Machir",
+      "gender": "male"
+    },
+    {
+      "person_id": "og",
+      "name": "Og",
+      "gender": "male"
+    }
+  ],
+  "description": "A fertile region east of the Jordan ruled by Og, a king of the remnant of the Rephaim giants, whom Israel defeated on the way to Canaan (Numbers 21:33-35; Deuteronomy 3:1-11)."
+}

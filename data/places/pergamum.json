@@ -1,0 +1,33 @@
+{
+  "place_id": "pergamum",
+  "name": "Pergamum",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Revelation 1:11",
+  "references": [
+    "Revelation 1:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "antipas",
+      "name": "Antipas",
+      "gender": "male",
+      "role": "Christ's \u201cfaithful witness,\u201d put to death in this city",
+      "references": [
+        "Revelation 2:13"
+      ]
+    }
+  ],
+  "description": "A city addressed in Revelation as the location of \"Satan's throne,\" where a believer named Antipas was martyred; the church there is commended for faithfulness but rebuked for tolerating false teaching (Revelation 2:12-17)."
+}

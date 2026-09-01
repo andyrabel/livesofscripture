@@ -1,0 +1,64 @@
+{
+  "place_id": "rabbah",
+  "name": "Rabbah",
+  "alt_names": [
+    "Rabbah of the Ammonites"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "moab-transjordan",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Deuteronomy 3:11",
+  "references": [
+    "Deuteronomy 3:11",
+    "2 Samuel 11:1",
+    "2 Samuel 12:26-31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Amman, Jordan",
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "hanun",
+      "name": "Hanun",
+      "gender": "male",
+      "role": "Ammon's king, who humiliated David's envoys and drew Israel to besiege this city",
+      "references": [
+        "2 Samuel 10:1-4"
+      ]
+    },
+    {
+      "person_id": "joab",
+      "name": "Joab",
+      "gender": "male",
+      "role": "led the siege of this city and summoned David for its capture",
+      "references": [
+        "2 Samuel 12:26-28"
+      ]
+    },
+    {
+      "person_id": "shobi",
+      "name": "Shobi",
+      "gender": "male",
+      "role": "an Ammonite of this royal city who later brought supplies to David",
+      "references": [
+        "2 Samuel 17:27-29"
+      ]
+    },
+    {
+      "person_id": "uriah",
+      "name": "Uriah",
+      "gender": "male",
+      "role": "set at the fiercest point of the fighting at this city and killed",
+      "references": [
+        "2 Samuel 11:16-17"
+      ]
+    }
+  ],
+  "description": "Capital of Ammon, besieged by Joab's army in the campaign during which David arranged Uriah's death while Uriah's own unit fought at its walls (2 Samuel 11:1, 14-17). Joab later called David to finish the siege personally, and David took the city and its crown (2 Samuel 12:26-31)."
+}

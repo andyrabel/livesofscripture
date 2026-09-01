@@ -1,0 +1,84 @@
+{
+  "place_id": "beersheba",
+  "name": "Beersheba",
+  "alt_names": [
+    "Well of the Oath"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "United Monarchy"
+  ],
+  "first_reference": "Genesis 21:14",
+  "references": [
+    "Genesis 21:14",
+    "Genesis 21:22-34",
+    "Genesis 26:23-33",
+    "1 Kings 19:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Beersheba, Israel",
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "abijah",
+      "name": "Abijah",
+      "gender": "male",
+      "role": "Samuel's son, a corrupt judge stationed at this town",
+      "references": [
+        "1 Samuel 8:1-3"
+      ]
+    },
+    {
+      "person_id": "isaac",
+      "name": "Isaac",
+      "gender": "male",
+      "role": "dug a well and met the LORD here, who confirmed the covenant promise",
+      "references": [
+        "Genesis 26:23-25"
+      ]
+    },
+    {
+      "person_id": "israel",
+      "name": "Israel",
+      "gender": "male",
+      "role": "offered sacrifices here on his way down to Egypt, and God spoke to him",
+      "references": [
+        "Genesis 46:1-4"
+      ]
+    },
+    {
+      "person_id": "joel",
+      "name": "Joel",
+      "gender": "male",
+      "role": "Samuel's firstborn, a corrupt judge stationed at this town",
+      "references": [
+        "1 Samuel 8:1-3"
+      ]
+    },
+    {
+      "person_id": "phicol",
+      "name": "Phicol",
+      "gender": "male",
+      "role": "Abimelech's commander, who made a covenant with Abraham at this well",
+      "references": [
+        "Genesis 21:31-32"
+      ]
+    },
+    {
+      "person_id": "rebekah",
+      "name": "Rebekah",
+      "gender": "female",
+      "role": "wife of Isaac, living here when Jacob deceived Isaac and fled",
+      "references": [
+        "Genesis 28:10"
+      ]
+    }
+  ],
+  "description": "A well and settlement in Canaan's southern edge where Abraham made a covenant with Abimelech and named the site for their oath (Genesis 21:22-34), and where Isaac later dug his own well and renewed the same covenant (Genesis 26:23-33). \"From Dan to Beersheba\" became a standard phrase for the whole extent of Israel's territory (Judges 20:1). Elijah fled there, exhausted, after fleeing Jezebel's threat (1 Kings 19:3)."
+}

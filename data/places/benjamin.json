@@ -1,0 +1,29 @@
+{
+  "place_id": "benjamin",
+  "name": "Benjamin",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 18:11",
+  "references": [
+    "Joshua 18:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "The tribal territory of Benjamin, distinct from the patriarch Benjamin himself."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "kish",
+      "name": "Kish",
+      "gender": "male"
+    }
+  ],
+  "description": "The territory of the tribe of Benjamin, between Judah and Ephraim, birthplace and home territory of Israel's first king, Saul's father Kish among them (1 Samuel 9:1-2)."
+}

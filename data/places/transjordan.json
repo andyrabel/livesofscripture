@@ -1,0 +1,57 @@
+{
+  "place_id": "transjordan",
+  "name": "Transjordan",
+  "alt_names": [
+    "East of the Jordan"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness",
+    "Judges",
+    "United Monarchy"
+  ],
+  "first_reference": "Numbers 32:1",
+  "references": [
+    "Numbers 32:1",
+    "Numbers 32",
+    "Joshua 22"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "gideon",
+      "name": "Gideon",
+      "gender": "male",
+      "role": "pursued the fleeing Midianite kings across the Jordan into this region",
+      "references": [
+        "Judges 8:4-12"
+      ]
+    },
+    {
+      "person_id": "jeriah",
+      "name": "Jeriah",
+      "gender": "male",
+      "role": "set by David over the Reubenites, Gadites, and half-Manasseh east of the Jordan",
+      "references": [
+        "1 Chronicles 26:31-32"
+      ]
+    },
+    {
+      "person_id": "sihon",
+      "name": "Sihon",
+      "gender": "male",
+      "role": "the Amorite king whose land east of the Jordan Israel took after he attacked them",
+      "references": [
+        "Numbers 21:21-31"
+      ]
+    }
+  ],
+  "description": "The territory east of the Jordan River that the tribes of Reuben, Gad, and half of Manasseh requested and received as their inheritance because of its suitability for their large herds, on condition that their fighting men first help conquer Canaan proper (Numbers 32; Joshua 22)."
+}

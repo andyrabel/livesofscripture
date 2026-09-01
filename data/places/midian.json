@@ -1,0 +1,92 @@
+{
+  "place_id": "midian",
+  "name": "Midian",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "midian",
+  "eras": [
+    "Exodus/Wilderness",
+    "Judges"
+  ],
+  "first_reference": "Exodus 2:15",
+  "references": [
+    "Exodus 2:15",
+    "Exodus 2-4",
+    "Numbers 25",
+    "Judges 6-8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 7,
+  "related_people": [
+    {
+      "person_id": "gershom",
+      "name": "Gershom",
+      "gender": "male",
+      "role": "Moses's elder son, born during his father's exile in this land",
+      "references": [
+        "Exodus 2:22"
+      ]
+    },
+    {
+      "person_id": "hur-2",
+      "name": "Hur",
+      "gender": "male",
+      "role": "one of the five kings of this land killed by Israel",
+      "references": [
+        "Numbers 31:8"
+      ]
+    },
+    {
+      "person_id": "jethro",
+      "name": "Jethro",
+      "gender": "male",
+      "role": "priest of this land and Moses's father-in-law",
+      "references": [
+        "Exodus 3:1",
+        "Exodus 18:1"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "fled here from Egypt and kept Jethro's flock for forty years",
+      "references": [
+        "Exodus 2:15-21"
+      ]
+    },
+    {
+      "person_id": "zalmunna",
+      "name": "Zalmunna",
+      "gender": "male",
+      "role": "a king of this people, captured and killed by Gideon",
+      "references": [
+        "Judges 8:21"
+      ]
+    },
+    {
+      "person_id": "zebah",
+      "name": "Zebah",
+      "gender": "male",
+      "role": "a king of this people, captured and killed by Gideon",
+      "references": [
+        "Judges 8:21"
+      ]
+    },
+    {
+      "person_id": "zipporah",
+      "name": "Zipporah",
+      "gender": "female",
+      "role": "the priest of Midian's daughter, who became Moses's wife",
+      "references": [
+        "Exodus 2:21"
+      ]
+    }
+  ],
+  "description": "A region and people east of the Gulf of Aqaba, descended from Abraham through Keturah (Genesis 25:1-2). Moses fled to Midian after killing an Egyptian, married Jethro's daughter Zipporah, and received his call from the burning bush while shepherding there (Exodus 2-4). Midianite women later helped lead Israel into idolatry at Baal-peor (Numbers 25), and generations later Midianite raiders oppressed Israel until Gideon, with a vastly outnumbered force, routed them (Judges 6-8)."
+}

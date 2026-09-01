@@ -1,0 +1,34 @@
+{
+  "place_id": "zobah",
+  "name": "Zobah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 14:47",
+  "references": [
+    "1 Samuel 14:47"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "hadadezer",
+      "name": "Hadadezer",
+      "gender": "male"
+    },
+    {
+      "person_id": "rezon",
+      "name": "Rezon",
+      "gender": "male"
+    }
+  ],
+  "description": "An Aramean kingdom north of Israel that David defeated in battle, taking substantial plunder (2 Samuel 8:3-8); its king Hadadezer's general Rezon later fled to found a rival power base in Damascus (1 Kings 11:23-24)."
+}

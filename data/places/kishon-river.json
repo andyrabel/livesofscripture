@@ -1,0 +1,29 @@
+{
+  "place_id": "kishon-river",
+  "name": "Kishon River",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 4:7",
+  "references": [
+    "Judges 4:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "sisera",
+      "name": "Sisera",
+      "gender": "male"
+    }
+  ],
+  "description": "The river near which Barak's forces overwhelmed Sisera's chariot army, which became mired in the flooded ground (Judges 4:7, 13; 5:21)."
+}

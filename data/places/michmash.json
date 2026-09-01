@@ -1,0 +1,29 @@
+{
+  "place_id": "michmash",
+  "name": "Michmash",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 13:2",
+  "references": [
+    "1 Samuel 13:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jonathan",
+      "name": "Jonathan",
+      "gender": "male"
+    }
+  ],
+  "description": "The site of a Philistine garrison that Jonathan and his armor-bearer boldly attacked alone, triggering a panic that turned into an Israelite rout of the Philistines (1 Samuel 14:1-15)."
+}

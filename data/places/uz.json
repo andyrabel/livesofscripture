@@ -1,0 +1,71 @@
+{
+  "place_id": "uz",
+  "name": "Uz",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Job 1:1",
+  "references": [
+    "Job 1:1",
+    "Lamentations 4:21"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Scholars propose locations in Edom or the Arabian desert east of Canaan, but the text does not fix a precise location."
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "elihu-5",
+      "name": "Elihu",
+      "gender": "male",
+      "role": "the young man who rebuked Job and his three friends before the LORD spoke",
+      "references": [
+        "Job 32:2-6"
+      ]
+    },
+    {
+      "person_id": "jemimah",
+      "name": "Jemimah",
+      "gender": "female",
+      "role": "the eldest of Job's daughters, born after the LORD restored him here",
+      "references": [
+        "Job 42:14"
+      ]
+    },
+    {
+      "person_id": "job",
+      "name": "Job",
+      "gender": "male",
+      "role": "the blameless man of this land who lost everything and was restored twofold",
+      "references": [
+        "Job 1:1-3",
+        "Job 42:10-12"
+      ]
+    },
+    {
+      "person_id": "keren-happuch",
+      "name": "Keren-happuch",
+      "gender": "female",
+      "role": "the youngest of Job's daughters, born after the LORD restored him here",
+      "references": [
+        "Job 42:14"
+      ]
+    },
+    {
+      "person_id": "keziah",
+      "name": "Keziah",
+      "gender": "female",
+      "role": "the second of Job's daughters, born after the LORD restored him here",
+      "references": [
+        "Job 42:14"
+      ]
+    }
+  ],
+  "description": "The homeland of Job, described as \"the greatest of all the men of the east\" before his sudden loss of family, wealth, and health became the subject of the book that bears his name (Job 1:1-3). Its location is not certain, though Lamentations 4:21 associates the name loosely with Edom."
+}

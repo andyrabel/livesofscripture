@@ -1,0 +1,42 @@
+{
+  "place_id": "malta",
+  "name": "Malta",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "italy",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 28:1",
+  "references": [
+    "Acts 28:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "julius",
+      "name": "Julius",
+      "gender": "male",
+      "role": "the centurion who spared the prisoners after the shipwreck on this island",
+      "references": [
+        "Acts 27:42-44"
+      ]
+    },
+    {
+      "person_id": "publius",
+      "name": "Publius",
+      "gender": "male",
+      "role": "the island's chief man, whose father Paul healed of fever and dysentery",
+      "references": [
+        "Acts 28:7-8"
+      ]
+    }
+  ],
+  "description": "The island where Paul's ship ran aground during the storm-tossed voyage to Rome; Paul was unharmed by a viper's bite there and healed the island's chief official, Publius's, sick father (Acts 28:1-10)."
+}

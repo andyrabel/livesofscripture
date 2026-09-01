@@ -1,0 +1,29 @@
+{
+  "place_id": "cyrene",
+  "name": "Cyrene",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "egypt",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 27:32",
+  "references": [
+    "Matthew 27:32"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "simon-3",
+      "name": "Simon",
+      "gender": "male"
+    }
+  ],
+  "description": "A North African city; Simon of Cyrene was passing by when Roman soldiers forced him to carry Jesus's cross to Golgotha (Matthew 27:32; Mark 15:21)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "arabia",
+  "name": "Arabia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "egypt",
+  "eras": [
+    "Post-Exile/Intertestamental"
+  ],
+  "first_reference": "Genesis 25:6",
+  "references": [
+    "Genesis 25:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "geshem",
+      "name": "Geshem",
+      "gender": "male"
+    }
+  ],
+  "description": "The desert region south and east of Canaan; Nehemiah's opponent Geshem the Arab came from this broader region and opposed the rebuilding of Jerusalem's walls (Nehemiah 2:19; 6:1-2)."
+}

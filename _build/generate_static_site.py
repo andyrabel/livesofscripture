@@ -35,6 +35,7 @@ NAV_PAGES = [
     ("timeline.html", "Timeline"),
     ("connections.html", "Connections"),
     ("churches.html", "Churches"),
+    ("places.html", "Places"),
     ("charts.html", "Charts"),
     ("quiz.html", "Quiz"),
     ("about.html", "About"),
@@ -496,7 +497,7 @@ def disambiguation_section(person_name, same_name, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name=None, church_membership_by_person=None, link_ctx=None):
+def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name=None, church_membership_by_person=None, link_ctx=None, place_membership_by_person=None):
     parts = []
 
     first_ref = first_reference_line(person)
@@ -559,6 +560,10 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     church_section = church_membership_section(person["person_id"], church_membership_by_person, base)
     if church_section:
         parts.append(church_section)
+
+    places_sec = places_section(person["person_id"], place_membership_by_person, base)
+    if places_sec:
+        parts.append(places_sec)
 
     parts.append(connections_graph_link(person["person_id"], base))
 
@@ -708,7 +713,7 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, gender_by_id, connections, people_by_name=None, church_membership_by_person=None, link_ctx=None):
+def build_person_page(person, index_by_id, gender_by_id, connections, people_by_name=None, church_membership_by_person=None, link_ctx=None, place_membership_by_person=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
@@ -732,7 +737,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name, church_membership_by_person, link_ctx)
+        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name, church_membership_by_person, link_ctx, place_membership_by_person)
     else:
         body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person, people_by_name)
 
@@ -1069,6 +1074,389 @@ def build_church_membership_index(churches, index_by_id):
                 "references": member.get("references", []),
             })
     return by_person
+
+
+# ---------------------------------------------------------------------
+# Places — places.html list page + places/<id>.html detail pages
+#
+# Data comes from data/places-index.json + data/places/<id>.json, both
+# built by _build/generate_places.py from data/people/*.json's curated
+# geographic_setting field plus _build/places_data.py's hand-curated
+# content. Re-run generate_places.py (before this script) whenever either
+# input changes. See CLAUDE.md's Places section.
+# ---------------------------------------------------------------------
+
+PLACE_TYPE_LABELS = {
+    "nation": "Nation", "region": "Region", "city": "City", "town": "Town",
+    "village": "Village", "mountain": "Mountain", "wilderness": "Wilderness",
+    "valley": "Valley", "body-of-water": "Body of Water", "site": "Site",
+}
+
+
+def place_type_label(place_type):
+    return PLACE_TYPE_LABELS.get(place_type, place_type.replace("-", " ").title())
+
+
+def place_region_label(region):
+    return region.replace("-", " ").title()
+
+
+def build_place_membership_index(places_index):
+    """person_id -> list of {place_id, place_name}, the reverse of each
+    place's related_people list, for the "Places" section rendered on a
+    person's own page. Sourced from data/places/<id>.json rather than
+    data/place-connections.json so it stays in lockstep with each place's
+    own curated related_people list (identical data, this just avoids a
+    second file read per person)."""
+    by_person = {}
+    for entry in places_index:
+        place_path = ROOT / "data" / "places" / f"{entry['place_id']}.json"
+        if not place_path.exists():
+            continue
+        place = json.loads(place_path.read_text())
+        for rp in place.get("related_people", []):
+            by_person.setdefault(rp["person_id"], []).append({
+                "place_id": place["place_id"],
+                "place_name": place["name"],
+            })
+    return by_person
+
+
+def places_section(person_id, place_membership_by_person, base):
+    memberships = place_membership_by_person.get(person_id) if place_membership_by_person else None
+    if not memberships:
+        return ""
+    items = "\n    ".join(
+        f'<li><a href="{base}places/{esc(m["place_id"])}.html">{esc(m["place_name"])}</a></li>'
+        for m in memberships
+    )
+    return f"""<section>
+    <h3>Places</h3>
+    <ul class="connections-list">
+    {items}
+    </ul>
+    <p><a href="{base}place-connections.html?id={esc(person_id)}">View on the place connections graph &#8594;</a></p>
+  </section>"""
+
+
+def build_places_by_name(places_index):
+    """Every place grouped by exact name match, for the "Other places named
+    X" grid -- mirrors build_people_by_name. Expected to rarely produce a
+    group of 2+ today: the geographic_setting normalization pass in
+    generate_places.py already resolved every known same-name collision
+    (Bethlehem, Mizpah, Gilgal, Antioch, Caesarea, Carmel, Kadesh/Kedesh)
+    into one canonical entry with an identification-note caveat, rather
+    than split entries. Kept so the mechanism is ready if that changes."""
+    by_name = {}
+    for entry in places_index:
+        by_name.setdefault(entry["name"].strip().lower(), []).append(entry)
+    return by_name
+
+
+def place_disambiguation_section(place_name, same_name, base):
+    if not same_name:
+        return ""
+    cards = []
+    for e in same_name:
+        blurb = f"{place_type_label(e['type'])} — {place_region_label(e['region'])}"
+        cards.append(f"""<a class="disambiguation-card" href="{base}places/{esc(e['place_id'])}.html">
+      <div class="image-placeholder image-placeholder--thumb">{esc(place_type_label(e["type"])[:1])}</div>
+      <div class="disambiguation-card__text">
+        <div class="disambiguation-card__name">{esc(e['name'])}</div>
+        <div class="disambiguation-card__blurb">{esc(blurb)}</div>
+      </div>
+    </a>""")
+    cards_html = "\n    ".join(cards)
+    return f"""<section class="disambiguation">
+    <h3>Other places named {esc(place_name)}</h3>
+    <div class="disambiguation-grid">
+    {cards_html}
+    </div>
+  </section>"""
+
+
+def _place_person_link(p, base):
+    return (f'<a href="{base}people/{esc(p["person_id"])}.html">{esc(p["name"])}</a>'
+            f'{gender_tag(p.get("gender"))}')
+
+
+def place_related_people_html(place, gender_by_id, base):
+    people = place.get("related_people", [])
+    if not people:
+        return '<p class="stub-notice">No full-tier person is named in Scripture at this place — kept here for the connections graph.</p>'
+
+    # People with a curated place-specific blurb (see _build/place_people_roles.py)
+    # render like church members — name, a short note on what Scripture ties them
+    # to this place, and the reference. The rest (and, on the largest places,
+    # everyone past the most significant figures) fall to a plain name list.
+    with_role = [p for p in people if p.get("role")]
+    without_role = [p for p in people if not p.get("role")]
+
+    if not with_role:
+        items = "\n    ".join(f'<li>{_place_person_link(p, base)}</li>' for p in people)
+        return f'<ul class="connections-list">\n    {items}\n    </ul>'
+
+    lis = []
+    for p in with_role:
+        li = [f'<li>{_place_person_link(p, base)} — {esc(p["role"])}']
+        if p.get("references"):
+            li.append(f'<p class="connections-list__refs">{esc("; ".join(p["references"]))}</p>')
+        li.append("</li>")
+        lis.append("\n".join(li))
+    html_out = '<ul class="connections-list">\n    ' + "\n    ".join(lis) + "\n    </ul>"
+
+    if without_role:
+        links = ", ".join(_place_person_link(p, base) for p in without_role)
+        html_out += (f'\n  <p class="place-people-more">Also named in Scripture at '
+                     f'{esc(place["name"])}: {links}.</p>')
+    return html_out
+
+
+def place_identification_html(place):
+    ident = place.get("identification") or {}
+    status = ident.get("status", "secure")
+    note = ident.get("note", "")
+    if status == "secure" or not note:
+        return ""
+    status_labels = {
+        "traditional": "Traditional identification",
+        "disputed": "Disputed identification",
+        "unknown": "Location uncertain",
+    }
+    label = status_labels.get(status, "Identification note")
+    return f'<div class="identification-note"><strong>{esc(label)}:</strong> {esc(note)}</div>'
+
+
+def place_json_ld(place, canonical):
+    data = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": place["name"],
+        "url": canonical,
+        "description": place.get("description", "")[:300],
+    }
+    if place.get("alt_names"):
+        data["alternateName"] = place["alt_names"]
+    return json.dumps(data, indent=2)
+
+
+def place_card_html(entry):
+    count_label = f'{entry["n_people"]} named {"person" if entry["n_people"] == 1 else "people"}' if entry["n_people"] else "no named people"
+    name_html = f'<strong class="name-text">{esc(entry["name"])}</strong>' if entry["tier"] == "full" else f'<span class="name-text">{esc(entry["name"])}</span>'
+    disamb_html = f'\n      <div class="disambiguation">{esc(entry["disambiguation"])}</div>' if entry.get("disambiguation") else ""
+    stub_badge = ' <span class="badge stub">name only</span>' if entry["tier"] == "stub" else ""
+    return f"""<a class="person-card" href="places/{esc(entry['place_id'])}.html">
+      <div class="name">{name_html}{stub_badge}</div>{disamb_html}
+      <div class="meta"><span class="badge">{esc(place_type_label(entry["type"]))}</span><span class="badge">{esc(count_label)}</span></div>
+    </a>"""
+
+
+def build_places_list_page(places_index):
+    base = ""
+    canonical = f"{SITE_URL}/places.html"
+    title = "Places — Lives of Scripture"
+    description = "Every named place in Scripture with a documented connection to a person's story — cities, regions, mountains, and more — cross-linked to the people found there."
+    full = [e for e in places_index if e["tier"] == "full"]
+    cards = "\n    ".join(place_card_html(e) for e in sorted(full, key=lambda e: e["name"]))
+    breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Places", None)])
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
+</head>
+<body>
+{header_html(base, "places.html")}
+
+<main>
+  <p><a href="people.html" class="back-link">&#8592; Back to all people</a></p>
+
+  <h2>Places</h2>
+  <p class="page-intro">Every named place in Scripture with a documented connection to a person's
+  story — cities, regions, mountains, wildernesses, and more. Click a place to see who Scripture
+  ties to it, the reference where it's first named, and (where relevant) how confidently it can be
+  identified with a location on today's map. Places named only in genealogy or list passages, with
+  no one tied to them narratively, aren't shown here but remain reachable from person pages.
+  Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>.</p>
+
+  <div class="person-grid">
+    {cards}
+  </div>
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle();</script>
+</body>
+</html>
+"""
+
+
+def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None):
+    base = "../"
+    place_id = place["place_id"]
+    canonical = f"{SITE_URL}/places/{place_id}.html"
+    title = f'{place["name"]} — Places — Lives of Scripture'
+    description = truncate(place.get("description") or f'{place["name"]} is named in Scripture ({place["first_reference"]}).')
+
+    alt_html = ""
+    if place.get("alt_names"):
+        alt_html = f'<div class="alt-names">Also called: {esc(", ".join(place["alt_names"]))}</div>'
+
+    modern_html = ""
+    if place.get("modern_name"):
+        modern_html = f'<div class="name-meaning">Modern location: {esc(place["modern_name"])}</div>'
+
+    first_ref = f'<div class="first-reference">First named: {esc(place["first_reference"])}</div>'
+
+    era_badges = "".join(
+        f'<a href="{base}timeline.html" class="badge badge-link">{esc(era)}</a>'
+        for era in place.get("eras", [])
+    )
+    tags = f"""<div class="tags">
+        <span class="badge">{esc(place_type_label(place["type"]))}</span>
+        <span class="badge">{esc(place_region_label(place["region"]))}</span>
+        {era_badges}
+      </div>"""
+
+    if place["tier"] == "full":
+        desc_text = place.get("description", "")
+        if link_ctx is not None and desc_text:
+            linked_pids = set()
+            desc_html = f'<p>{link_person_mentions.link_paragraph(desc_text, place_id, link_ctx, base, linked_pids)}</p>'
+        else:
+            desc_html = f"<p>{esc(desc_text)}</p>"
+        ff = place.get("family_friendly_summary")
+        ff_html = ""
+        if ff:
+            ff_html = f"""<details class="family-friendly">
+    <summary>Family-friendly summary</summary>
+    <p>{esc(ff)}</p>
+  </details>"""
+        story_html = desc_html + ("\n  " + ff_html if ff_html else "")
+    else:
+        story_html = (
+            '<div class="stub-notice">Named in Scripture, but with no story of its own here — '
+            "kept for the connections graph.</div>"
+        )
+
+    ident_html = place_identification_html(place)
+
+    people_html = place_related_people_html(place, gender_by_id, base)
+
+    group_key = place["name"].strip().lower()
+    same_name = [e for e in places_by_name.get(group_key, []) if e["place_id"] != place_id]
+    disamb = place_disambiguation_section(place["name"], same_name, base)
+
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"),
+        ("Places", f"{SITE_URL}/places.html"),
+        (place["name"], None),
+    ])
+    json_ld = place_json_ld(place, canonical)
+    references_html = references_list(place.get("references", []))
+    robots = "" if place["tier"] == "full" else '\n<meta name="robots" content="noindex, follow">'
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">{robots}
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{json_ld}
+</script>
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
+</head>
+<body>
+{header_html(base, "places.html")}
+
+<main id="person-main">
+  <p><a href="{base}places.html" class="back-link">&#8592; Back to all places</a></p>
+
+  <div class="person-title">
+    <h2>{esc(place["name"])}</h2>
+    {alt_html}
+    {modern_html}
+    {first_ref}
+    {tags}
+  </div>
+
+  {ident_html}
+
+  <section>
+    {story_html}
+  </section>
+
+  {references_html}
+
+  <section>
+    <h3>People connected to {esc(place["name"])}</h3>
+    {people_html}
+  </section>
+
+  <p><a href="{base}place-connections.html?id=place:{esc(place_id)}" class="back-link">View on the place connections graph &#8594;</a></p>
+
+  {disamb}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle();</script>
+</body>
+</html>
+"""
 
 
 # ---------------------------------------------------------------------
@@ -3556,13 +3944,15 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 # ---------------------------------------------------------------------
 
 
-def build_sitemap(index, churches):
+def build_sitemap(index, churches, places_index):
     urls = [
         (f"{SITE_URL}/", "weekly", "1.0"),
         (f"{SITE_URL}/people.html", "weekly", "0.9"),
         (f"{SITE_URL}/timeline.html", "monthly", "0.6"),
         (f"{SITE_URL}/connections.html", "monthly", "0.6"),
         (f"{SITE_URL}/churches.html", "monthly", "0.6"),
+        (f"{SITE_URL}/places.html", "monthly", "0.6"),
+        (f"{SITE_URL}/place-connections.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/genealogies-of-jesus.html", "monthly", "0.6"),
@@ -3611,6 +4001,16 @@ def build_sitemap(index, churches):
         lines.append(
             f"  <url>\n    <loc>{loc}</loc>\n"
             f"    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>"
+        )
+    for place in places_index:
+        # Stub place pages are noindex, same rationale as stub person pages
+        # (see build_place_detail_page) — left out of the sitemap entirely.
+        if place["tier"] != "full":
+            continue
+        loc = f'{SITE_URL}/places/{place["place_id"]}.html'
+        lines.append(
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>"
         )
 
     entries = "\n".join(lines)
@@ -3671,6 +4071,10 @@ def main():
     church_membership_by_person = build_church_membership_index(churches, index_by_id)
     link_ctx = link_person_mentions.build_context(index, connections)
 
+    places_index = json.loads((ROOT / "data" / "places-index.json").read_text())
+    places_by_name = build_places_by_name(places_index)
+    place_membership_by_person = build_place_membership_index(places_index)
+
     people_dir = ROOT / "people"
     people_dir.mkdir(exist_ok=True)
 
@@ -3682,7 +4086,7 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, gender_by_id, connections, people_by_name, church_membership_by_person, link_ctx)
+        page = build_person_page(person, index_by_id, gender_by_id, connections, people_by_name, church_membership_by_person, link_ctx, place_membership_by_person)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 
@@ -3695,6 +4099,18 @@ def main():
         (churches_dir / f'{church["church_id"]}.html').write_text(page)
     (ROOT / "churches.html").write_text(build_churches_list_page(churches))
 
+    places_dir = ROOT / "places"
+    places_dir.mkdir(exist_ok=True)
+    for place_entry in places_index:
+        place_path = ROOT / "data" / "places" / f'{place_entry["place_id"]}.json'
+        if not place_path.exists():
+            print(f"warning: no data/places/{place_entry['place_id']}.json, skipping")
+            continue
+        place = json.loads(place_path.read_text())
+        page = build_place_detail_page(place, gender_by_id, places_by_name, link_ctx)
+        (places_dir / f'{place["place_id"]}.html').write_text(page)
+    (ROOT / "places.html").write_text(build_places_list_page(places_index))
+
     charts_dir = ROOT / "charts"
     charts_dir.mkdir(exist_ok=True)
     kp_rows, kp_unplotted = collect_kings_and_prophets()
@@ -3706,9 +4122,10 @@ def main():
     (charts_dir / "acts-chapters.html").write_text(build_acts_chapters_chart_page(ACC_CHAPTERS))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
-    build_sitemap(index, churches)
+    build_sitemap(index, churches, places_index)
 
-    print(f"Generated {generated} person pages, {len(churches)} church pages, sitemap.xml, and people.html/churches.html/charts.html static output.")
+    print(f"Generated {generated} person pages, {len(churches)} church pages, {len(places_index)} place pages, "
+          f"sitemap.xml, and people.html/churches.html/places.html/charts.html static output.")
 
 
 if __name__ == "__main__":

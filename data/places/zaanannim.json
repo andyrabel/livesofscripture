@@ -1,0 +1,29 @@
+{
+  "place_id": "zaanannim",
+  "name": "Zaanannim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 4:11",
+  "references": [
+    "Judges 4:11"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "heber-2",
+      "name": "Heber",
+      "gender": "male"
+    }
+  ],
+  "description": "Near where Heber the Kenite had pitched his tent, apart from his own people, at the time his wife Jael killed the fleeing Canaanite commander Sisera (Judges 4:11, 17-21)."
+}

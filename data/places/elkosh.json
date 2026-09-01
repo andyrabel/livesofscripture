@@ -1,0 +1,29 @@
+{
+  "place_id": "elkosh",
+  "name": "Elkosh",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Nahum 1:1",
+  "references": [
+    "Nahum 1:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Its exact location is not identified; several sites have been proposed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "nahum",
+      "name": "Nahum",
+      "gender": "male"
+    }
+  ],
+  "description": "The otherwise-unspecified hometown of the prophet Nahum, whose short book pronounces judgment on Nineveh (Nahum 1:1)."
+}

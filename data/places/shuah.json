@@ -1,0 +1,29 @@
+{
+  "place_id": "shuah",
+  "name": "Shuah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 25:2",
+  "references": [
+    "Genesis 25:2"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Named for a son of Abraham and Keturah (Genesis 25:1-2); its exact location is not fixed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "bildad",
+      "name": "Bildad",
+      "gender": "male"
+    }
+  ],
+  "description": "The homeland implied by Bildad \"the Shuhite,\" one of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 8:1-22)."
+}

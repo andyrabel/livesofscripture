@@ -1,0 +1,29 @@
+{
+  "place_id": "pontus",
+  "name": "Pontus",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 2:9",
+  "references": [
+    "Acts 2:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "aquila",
+      "name": "Aquila",
+      "gender": "male"
+    }
+  ],
+  "description": "A region on the Black Sea's southern coast; Aquila, later Paul's coworker and host, was a native of Pontus (Acts 18:2), and believers there are among those addressed in 1 Peter 1:1."
+}

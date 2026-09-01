@@ -1,0 +1,33 @@
+{
+  "place_id": "mount-gerizim",
+  "name": "Mount Gerizim",
+  "alt_names": [],
+  "tier": "full",
+  "type": "mountain",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Deuteronomy 11:29",
+  "references": [
+    "Deuteronomy 11:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jotham",
+      "name": "Jotham",
+      "gender": "male",
+      "role": "shouted his parable of the trees from this mountain over Shechem",
+      "references": [
+        "Judges 9:7"
+      ]
+    }
+  ],
+  "description": "One of two mountains flanking Shechem from which Israel was to pronounce blessings (Gerizim) and curses (Ebal) upon entering Canaan (Deuteronomy 27:11-13); Jotham later shouted his fable warning against Abimelech's kingship from its slope (Judges 9:7)."
+}

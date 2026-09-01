@@ -1,0 +1,33 @@
+{
+  "place_id": "land-of-nod",
+  "name": "Land of Nod",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Primeval History"
+  ],
+  "first_reference": "Genesis 4:16",
+  "references": [
+    "Genesis 4:16"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "\"Nod\" (meaning \"wandering\") is not identified with any known location; it names Cain's condition as much as a place."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "cain",
+      "name": "Cain",
+      "gender": "male",
+      "role": "settled here as a restless wanderer after murdering his brother Abel",
+      "references": [
+        "Genesis 4:16"
+      ]
+    }
+  ],
+  "description": "The place east of Eden where Cain settled after God banished him for murdering his brother Abel (Genesis 4:16)."
+}

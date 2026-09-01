@@ -1,0 +1,285 @@
+{
+  "place_id": "samaria",
+  "name": "Samaria",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy",
+    "Post-Exile/Intertestamental",
+    "Apostolic"
+  ],
+  "first_reference": "1 Kings 16:24",
+  "references": [
+    "1 Kings 16:24",
+    "2 Kings 17:5-6",
+    "John 4:4-42",
+    "Acts 8:5-8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Sebastia, West Bank",
+  "n_people": 40,
+  "related_people": [
+    {
+      "person_id": "ahab",
+      "name": "Ahab",
+      "gender": "male",
+      "role": "built a temple of Baal in this city",
+      "references": [
+        "1 Kings 16:32"
+      ]
+    },
+    {
+      "person_id": "ahaziah",
+      "name": "Ahaziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "amasa-2",
+      "name": "Amasa",
+      "gender": "male"
+    },
+    {
+      "person_id": "amon",
+      "name": "Amon",
+      "gender": "male"
+    },
+    {
+      "person_id": "argob",
+      "name": "Argob",
+      "gender": "male"
+    },
+    {
+      "person_id": "arieh",
+      "name": "Arieh",
+      "gender": "male"
+    },
+    {
+      "person_id": "azariah-11",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "ben-hadad",
+      "name": "Ben-hadad",
+      "gender": "male",
+      "role": "the Aramean king who besieged this city twice",
+      "references": [
+        "1 Kings 20:1",
+        "2 Kings 6:24"
+      ]
+    },
+    {
+      "person_id": "berechiah-4",
+      "name": "Berechiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "elisha",
+      "name": "Elisha",
+      "gender": "male",
+      "role": "lived in this city and guided its kings",
+      "references": [
+        "2 Kings 5:3",
+        "2 Kings 6:32"
+      ]
+    },
+    {
+      "person_id": "esarhaddon",
+      "name": "Esarhaddon",
+      "gender": "male"
+    },
+    {
+      "person_id": "gehazi",
+      "name": "Gehazi",
+      "gender": "male",
+      "role": "Elisha's servant here, struck with leprosy for his greed",
+      "references": [
+        "2 Kings 5:20-27"
+      ]
+    },
+    {
+      "person_id": "hoshea",
+      "name": "Hoshea",
+      "gender": "male",
+      "role": "its last king, imprisoned when the city fell to Assyria",
+      "references": [
+        "2 Kings 17:1-6"
+      ]
+    },
+    {
+      "person_id": "jehikhiah",
+      "name": "Jehikhiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoahaz",
+      "name": "Jehoahaz",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehu-2",
+      "name": "Jehu",
+      "gender": "male",
+      "role": "wiped out Ahab's family and Baal worship in this city",
+      "references": [
+        "2 Kings 10:11",
+        "2 Kings 10:17-28"
+      ]
+    },
+    {
+      "person_id": "jeroboam-2",
+      "name": "Jeroboam",
+      "gender": "male"
+    },
+    {
+      "person_id": "jezebel",
+      "name": "Jezebel",
+      "gender": "female",
+      "role": "queen in this city, who promoted Baal and killed the LORD's prophets",
+      "references": [
+        "1 Kings 18:4"
+      ]
+    },
+    {
+      "person_id": "joash-2",
+      "name": "Joash",
+      "gender": "male"
+    },
+    {
+      "person_id": "joash-4",
+      "name": "Joash",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonadab-2",
+      "name": "Jonadab",
+      "gender": "male"
+    },
+    {
+      "person_id": "joram-2",
+      "name": "Joram",
+      "gender": "male"
+    },
+    {
+      "person_id": "menahem",
+      "name": "Menahem",
+      "gender": null,
+      "role": "seized the throne of this city and paid heavy tribute to Assyria",
+      "references": [
+        "2 Kings 15:14-19"
+      ]
+    },
+    {
+      "person_id": "micaiah",
+      "name": "Micaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "naaman",
+      "name": "Naaman",
+      "gender": "male"
+    },
+    {
+      "person_id": "obadiah",
+      "name": "Obadiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "oded",
+      "name": "Oded",
+      "gender": "male",
+      "role": "the prophet here who turned back Israel's army with its Judean captives",
+      "references": [
+        "2 Chronicles 28:9-11"
+      ]
+    },
+    {
+      "person_id": "omri",
+      "name": "Omri",
+      "gender": "male",
+      "role": "founded this city as the capital of the northern kingdom",
+      "references": [
+        "1 Kings 16:23-24"
+      ]
+    },
+    {
+      "person_id": "osnappar",
+      "name": "Osnappar",
+      "gender": "male"
+    },
+    {
+      "person_id": "pekah",
+      "name": "Pekah",
+      "gender": "male"
+    },
+    {
+      "person_id": "pekahiah",
+      "name": "Pekahiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "philip-3",
+      "name": "Philip",
+      "gender": "male",
+      "role": "the evangelist who preached Christ in this city with great effect",
+      "references": [
+        "Acts 8:5-8"
+      ]
+    },
+    {
+      "person_id": "rehum-2",
+      "name": "Rehum",
+      "gender": "male"
+    },
+    {
+      "person_id": "sanballat",
+      "name": "Sanballat",
+      "gender": "male"
+    },
+    {
+      "person_id": "shallum",
+      "name": "Shallum",
+      "gender": "male"
+    },
+    {
+      "person_id": "shalmaneser",
+      "name": "Shalmaneser",
+      "gender": "male",
+      "role": "the Assyrian king who besieged this city for three years and took it",
+      "references": [
+        "2 Kings 17:5-6"
+      ]
+    },
+    {
+      "person_id": "shemer",
+      "name": "Shemer",
+      "gender": "male",
+      "role": "the man from whom Omri bought the hill and after whom he named this city",
+      "references": [
+        "1 Kings 16:24"
+      ]
+    },
+    {
+      "person_id": "shimshai",
+      "name": "Shimshai",
+      "gender": "male"
+    },
+    {
+      "person_id": "simon-5",
+      "name": "Simon",
+      "gender": "male"
+    },
+    {
+      "person_id": "zedekiah",
+      "name": "Zedekiah",
+      "gender": "male"
+    }
+  ],
+  "description": "Built by King Omri as the new capital of the northern kingdom of Israel and named for Shemer, the hill's previous owner (1 Kings 16:24), Samaria became the seat of Ahab and Jezebel's Baal worship and the target of Elijah's and Elisha's confrontations with the royal house. Assyria besieged and finally destroyed it in 722 BC, deporting its population and resettling the region with foreigners \u2014 the origin of the later Jewish-Samaritan divide (2 Kings 17:5-6, 24). By the New Testament, Samaria (now naming the whole region, not just the city) was the setting for Jesus's conversation with a Samaritan woman at Jacob's well (John 4) and for Philip's preaching and the Spirit's coming there in Acts 8 \u2014 an early, deliberate crossing of Jewish-Samaritan hostility that Acts 1:8 had already marked out as part of the gospel's spread.",
+  "family_friendly_summary": "Samaria was the capital city of the northern kingdom of Israel, built by King Omri. Wicked King Ahab and Queen Jezebel ruled from there, and the prophets Elijah and Elisha spoke out against them. Later, an enemy nation called Assyria conquered Samaria. Long after that, Jesus talked with a Samaritan woman at a well, and after Jesus rose from the dead, people in Samaria heard the good news about Him too."
+}

@@ -1,0 +1,34 @@
+{
+  "place_id": "hazor",
+  "name": "Hazor",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Joshua 11:1",
+  "references": [
+    "Joshua 11:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jabin",
+      "name": "Jabin",
+      "gender": "male",
+      "role": "a king of this city, defeated by Joshua and, later, under Deborah and Barak",
+      "references": [
+        "Joshua 11:1",
+        "Judges 4:2"
+      ]
+    }
+  ],
+  "description": "A major Canaanite city whose king Jabin led a northern coalition against Joshua and was defeated, with Hazor itself burned (Joshua 11:1-13); a later King Jabin of Hazor oppressed Israel until Deborah and Barak defeated his general Sisera (Judges 4)."
+}

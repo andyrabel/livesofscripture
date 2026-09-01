@@ -1,0 +1,29 @@
+{
+  "place_id": "moresheth",
+  "name": "Moresheth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Micah 1:1",
+  "references": [
+    "Micah 1:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "micah-5",
+      "name": "Micah",
+      "gender": "male"
+    }
+  ],
+  "description": "The hometown of the prophet Micah, near Gath in Judah's lowlands (Micah 1:1, 14)."
+}

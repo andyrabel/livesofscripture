@@ -1,0 +1,29 @@
+{
+  "place_id": "ephraim",
+  "name": "Ephraim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "John 11:54",
+  "references": [
+    "John 11:54"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Distinct from the tribal territory of Ephraim; this town's exact site near the wilderness is not confidently identified."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jehikhiah",
+      "name": "Jehikhiah",
+      "gender": "male"
+    }
+  ],
+  "description": "A town near the wilderness where Jesus withdrew with His disciples after raising Lazarus, once the religious leaders began plotting to kill Him (John 11:53-54)."
+}

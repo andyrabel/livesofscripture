@@ -1,0 +1,62 @@
+{
+  "place_id": "philippi",
+  "name": "Philippi",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 16:12",
+  "references": [
+    "Acts 16:12",
+    "Acts 16:12-40",
+    "Philippians 1:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "epaphroditus",
+      "name": "Epaphroditus",
+      "gender": null,
+      "role": "sent by this church with a gift to Paul, and fell dangerously ill in the service",
+      "references": [
+        "Philippians 2:25-30"
+      ]
+    },
+    {
+      "person_id": "euodia",
+      "name": "Euodia",
+      "gender": "female",
+      "role": "a woman who labored with Paul in this church, urged to be reconciled with Syntyche",
+      "references": [
+        "Philippians 4:2-3"
+      ]
+    },
+    {
+      "person_id": "lydia",
+      "name": "Lydia",
+      "gender": "female",
+      "role": "the seller of purple whose household was the first baptized here",
+      "references": [
+        "Acts 16:14-15"
+      ]
+    },
+    {
+      "person_id": "silas",
+      "name": "Silas",
+      "gender": "male",
+      "role": "beaten and jailed with Paul here, then freed by an earthquake",
+      "references": [
+        "Acts 16:19-26"
+      ]
+    }
+  ],
+  "description": "A Roman colony in Macedonia and the first place in Europe where Paul preached, following a vision calling him there (Acts 16:9-12). Lydia was converted and hosted the missionaries; Paul and Silas were later imprisoned and miraculously freed after an earthquake, leading to the jailer's conversion (Acts 16:13-40). Paul's warm letter to the Philippians was written to the church founded there."
+}

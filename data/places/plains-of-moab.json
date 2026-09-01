@@ -1,0 +1,110 @@
+{
+  "place_id": "plains-of-moab",
+  "name": "Plains of Moab",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 22:1",
+  "references": [
+    "Numbers 22:1",
+    "Numbers 25",
+    "Numbers 33:48-50",
+    "Deuteronomy 34:1-8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 9,
+  "related_people": [
+    {
+      "person_id": "balaam",
+      "name": "Balaam",
+      "gender": "male",
+      "role": "hired by Balak here to curse Israel, but able only to bless",
+      "references": [
+        "Numbers 22:1",
+        "Numbers 23:11-12"
+      ]
+    },
+    {
+      "person_id": "cozbi",
+      "name": "Cozbi",
+      "gender": "female",
+      "role": "the Midianite woman struck down with Zimri during Israel's sin here",
+      "references": [
+        "Numbers 25:1-8"
+      ]
+    },
+    {
+      "person_id": "hoglah",
+      "name": "Hoglah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad who sought her father's inheritance here",
+      "references": [
+        "Numbers 27:1-7"
+      ]
+    },
+    {
+      "person_id": "hur-2",
+      "name": "Hur",
+      "gender": "male",
+      "role": "a Midianite king killed in the war of vengeance fought from here",
+      "references": [
+        "Numbers 31:8"
+      ]
+    },
+    {
+      "person_id": "mahlah",
+      "name": "Mahlah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad who sought her father's inheritance here",
+      "references": [
+        "Numbers 27:1-7"
+      ]
+    },
+    {
+      "person_id": "milcah-2",
+      "name": "Milcah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad who sought her father's inheritance here",
+      "references": [
+        "Numbers 27:1-7"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "gave the addresses of Deuteronomy here and viewed the promised land",
+      "references": [
+        "Deuteronomy 1:5",
+        "Deuteronomy 34:1"
+      ]
+    },
+    {
+      "person_id": "noah-2",
+      "name": "Noah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad who sought her father's inheritance here",
+      "references": [
+        "Numbers 27:1-7"
+      ]
+    },
+    {
+      "person_id": "tirzah",
+      "name": "Tirzah",
+      "gender": "female",
+      "role": "a daughter of Zelophehad who sought her father's inheritance here",
+      "references": [
+        "Numbers 27:1-7"
+      ]
+    }
+  ],
+  "description": "Israel's final wilderness encampment, on the plains east of the Jordan opposite Jericho, where Balaam was hired to curse Israel and failed (Numbers 22-24), where Israelite men were drawn into idolatry and immorality with Moabite women at Baal-peor (Numbers 25), and where Moses delivered the sermons recorded in Deuteronomy before climbing Mount Nebo to view the promised land and die there (Deuteronomy 34:1-8)."
+}

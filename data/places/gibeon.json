@@ -1,0 +1,91 @@
+{
+  "place_id": "gibeon",
+  "name": "Gibeon",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness",
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 9:3",
+  "references": [
+    "Joshua 9:3",
+    "Joshua 10:1-14",
+    "2 Samuel 2:12-17",
+    "1 Kings 3:4-15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 7,
+  "related_people": [
+    {
+      "person_id": "abner",
+      "name": "Abner",
+      "gender": "male",
+      "role": "fought David's men by the pool here and killed Asahel in the retreat",
+      "references": [
+        "2 Samuel 2:12-23"
+      ]
+    },
+    {
+      "person_id": "adoni-zedek",
+      "name": "Adoni-zedek",
+      "gender": "male",
+      "role": "king of Jerusalem, who led the coalition that attacked this city for allying with Israel",
+      "references": [
+        "Joshua 10:1-5"
+      ]
+    },
+    {
+      "person_id": "amasa",
+      "name": "Amasa",
+      "gender": "male",
+      "role": "struck down by Joab at the great stone in this town",
+      "references": [
+        "2 Samuel 20:8-10"
+      ]
+    },
+    {
+      "person_id": "armoni",
+      "name": "Armoni",
+      "gender": "male",
+      "role": "a son of Saul, hanged before the LORD at this town",
+      "references": [
+        "2 Samuel 21:8-9"
+      ]
+    },
+    {
+      "person_id": "asahel",
+      "name": "Asahel",
+      "gender": "male",
+      "role": "killed by Abner while chasing him from the battle here",
+      "references": [
+        "2 Samuel 2:18-23"
+      ]
+    },
+    {
+      "person_id": "piram",
+      "name": "Piram",
+      "gender": "male",
+      "role": "king of Jarmuth, in the coalition against this city",
+      "references": [
+        "Joshua 10:3-5"
+      ]
+    },
+    {
+      "person_id": "solomon",
+      "name": "Solomon",
+      "gender": "male",
+      "role": "sacrificed at the great high place here, where God gave him wisdom in a dream",
+      "references": [
+        "1 Kings 3:4-12"
+      ]
+    }
+  ],
+  "description": "A Canaanite city whose people tricked Joshua into a treaty by disguising themselves as distant travelers (Joshua 9), which Israel honored even after discovering the deception \u2014 later defending Gibeon from an Amorite coalition in the battle where the sun stood still (Joshua 10:1-14). A deadly contest between Abner's and Joab's men at Gibeon's pool helped ignite civil war between the houses of Saul and David (2 Samuel 2:12-17), and it was at Gibeon's high place that Solomon offered sacrifices and God appeared to him in a dream, granting his request for wisdom (1 Kings 3:4-15)."
+}

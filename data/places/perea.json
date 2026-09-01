@@ -1,0 +1,29 @@
+{
+  "place_id": "perea",
+  "name": "Perea",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 19:1",
+  "references": [
+    "Matthew 19:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "The New Testament-era name for the Transjordan territory Jesus passed through; Herod Antipas, tetrarch of Galilee and Perea, imprisoned and beheaded John the Baptist there (Matthew 14:1-12)."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "herod-2",
+      "name": "Herod Antipas",
+      "gender": "male"
+    }
+  ],
+  "description": "The region east of the Jordan Jesus traveled through on His final journey toward Jerusalem (Matthew 19:1; Mark 10:1)."
+}

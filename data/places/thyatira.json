@@ -1,0 +1,42 @@
+{
+  "place_id": "thyatira",
+  "name": "Thyatira",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 16:14",
+  "references": [
+    "Acts 16:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "jezebel-2",
+      "name": "Jezebel",
+      "gender": "female",
+      "role": "Christ's name for the false prophetess tolerated in the church here",
+      "references": [
+        "Revelation 2:20"
+      ]
+    },
+    {
+      "person_id": "lydia",
+      "name": "Lydia",
+      "gender": "female",
+      "role": "a dealer in this city's purple cloth, converted under Paul's preaching at Philippi",
+      "references": [
+        "Acts 16:14"
+      ]
+    }
+  ],
+  "description": "Lydia, the dealer in purple cloth converted at Philippi, was originally from Thyatira (Acts 16:14); the city's own church is later addressed in Revelation and rebuked for tolerating a false prophetess (Revelation 2:18-29)."
+}

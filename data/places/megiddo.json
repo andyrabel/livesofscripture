@@ -1,0 +1,42 @@
+{
+  "place_id": "megiddo",
+  "name": "Megiddo",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 12:21",
+  "references": [
+    "Joshua 12:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Tel Megiddo, Israel",
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "josiah",
+      "name": "Josiah",
+      "gender": "male",
+      "role": "Judah's reforming king, mortally wounded in battle against Pharaoh Neco here",
+      "references": [
+        "2 Kings 23:29-30"
+      ]
+    },
+    {
+      "person_id": "pharaoh-neco",
+      "name": "Pharaoh Neco",
+      "gender": "male",
+      "role": "Egypt's king, who killed King Josiah in battle here",
+      "references": [
+        "2 Chronicles 35:20-24"
+      ]
+    }
+  ],
+  "description": "A strategic fortress city controlling the Jezreel Valley where King Josiah was fatally wounded confronting Pharaoh Neco's army (2 Kings 23:29-30), and the source of the name \"Armageddon\" (Har Megiddo) in Revelation 16:16."
+}

@@ -1,0 +1,77 @@
+{
+  "place_id": "ammon",
+  "name": "Ammon",
+  "alt_names": [],
+  "tier": "full",
+  "type": "nation",
+  "region": "moab-transjordan",
+  "eras": [
+    "Judges",
+    "United Monarchy",
+    "Exile",
+    "Post-Exile/Intertestamental"
+  ],
+  "first_reference": "Genesis 19:38",
+  "references": [
+    "Genesis 19:38",
+    "Judges 10-11",
+    "2 Samuel 10",
+    "Nehemiah 2:19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "baalis",
+      "name": "Baalis",
+      "gender": "male",
+      "role": "its king, who sent Ishmael to assassinate the governor Gedaliah",
+      "references": [
+        "Jeremiah 40:14"
+      ]
+    },
+    {
+      "person_id": "ishmael-2",
+      "name": "Ishmael",
+      "gender": "male",
+      "role": "took refuge with this people after killing Gedaliah",
+      "references": [
+        "Jeremiah 41:10",
+        "Jeremiah 41:15"
+      ]
+    },
+    {
+      "person_id": "jephthah",
+      "name": "Jephthah",
+      "gender": "male",
+      "role": "delivered Israel from this nation's oppression",
+      "references": [
+        "Judges 11:32-33"
+      ]
+    },
+    {
+      "person_id": "nahash",
+      "name": "Nahash",
+      "gender": "male",
+      "role": "its king, whose siege of Jabesh-gilead roused Saul",
+      "references": [
+        "1 Samuel 11:1-2"
+      ]
+    },
+    {
+      "person_id": "tobiah",
+      "name": "Tobiah",
+      "gender": "male",
+      "role": "an official of this people who mocked and schemed against Nehemiah's wall",
+      "references": [
+        "Nehemiah 2:10",
+        "Nehemiah 2:19"
+      ]
+    }
+  ],
+  "description": "A nation east of the Jordan descended from Lot's younger son Ben-ammi (Genesis 19:36-38), frequently hostile to Israel. Jephthah defeated Ammonite forces oppressing Israel (Judges 10-11), and Ammon's king Hanun's humiliation of David's envoys sparked a war (2 Samuel 10). Ammonite officials like Tobiah later opposed Nehemiah's rebuilding of Jerusalem's walls (Nehemiah 2:19; 4:3)."
+}

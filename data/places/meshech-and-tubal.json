@@ -1,0 +1,29 @@
+{
+  "place_id": "meshech-and-tubal",
+  "name": "Meshech and Tubal",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Exile"
+  ],
+  "first_reference": "Genesis 10:2",
+  "references": [
+    "Genesis 10:2"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Generally associated with peoples of Asia Minor; named alongside Magog in Ezekiel's prophecy against Gog."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "gog-2",
+      "name": "Gog",
+      "gender": "male"
+    }
+  ],
+  "description": "Nations named among Japheth's descendants (Genesis 10:2), later listed as part of Gog's coalition in Ezekiel's prophecy against Magog (Ezekiel 38:2-3; 39:1)."
+}

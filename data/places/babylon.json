@@ -1,0 +1,240 @@
+{
+  "place_id": "babylon",
+  "name": "Babylon",
+  "alt_names": [
+    "Shinar",
+    "Chaldea"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "mesopotamia",
+  "eras": [
+    "Divided Monarchy",
+    "Exile",
+    "Post-Exile/Intertestamental",
+    "Gospels"
+  ],
+  "first_reference": "Genesis 10:10",
+  "references": [
+    "Genesis 10:10",
+    "Genesis 11:1-9",
+    "2 Kings 25:1-21",
+    "Daniel 1-5",
+    "Revelation 18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Hillah, Iraq",
+  "n_people": 29,
+  "related_people": [
+    {
+      "person_id": "abed-nego",
+      "name": "Abed-nego",
+      "gender": "male",
+      "role": "one of the three preserved unharmed in the fiery furnace in this city",
+      "references": [
+        "Daniel 3:19-27"
+      ]
+    },
+    {
+      "person_id": "ahab-2",
+      "name": "Ahab",
+      "gender": "male"
+    },
+    {
+      "person_id": "arioch-2",
+      "name": "Arioch",
+      "gender": "male"
+    },
+    {
+      "person_id": "ashpenaz",
+      "name": "Ashpenaz",
+      "gender": "male"
+    },
+    {
+      "person_id": "belshazzar",
+      "name": "Belshazzar",
+      "gender": "male",
+      "role": "its last king, who saw the writing on the wall the night the city fell",
+      "references": [
+        "Daniel 5:1",
+        "Daniel 5:30"
+      ]
+    },
+    {
+      "person_id": "berodach-baladan",
+      "name": "Berodach-baladan",
+      "gender": "male"
+    },
+    {
+      "person_id": "cyrus",
+      "name": "Cyrus",
+      "gender": "male",
+      "role": "conqueror of this city, who freed the exiles to return home",
+      "references": [
+        "Ezra 1:1-2"
+      ]
+    },
+    {
+      "person_id": "daniel-2",
+      "name": "Daniel",
+      "gender": "male",
+      "role": "an exile here who rose to high office and was saved from the lions' den",
+      "references": [
+        "Daniel 2:48",
+        "Daniel 6:16-23"
+      ]
+    },
+    {
+      "person_id": "darius",
+      "name": "Darius",
+      "gender": "male"
+    },
+    {
+      "person_id": "elasah-2",
+      "name": "Elasah",
+      "gender": "male"
+    },
+    {
+      "person_id": "evil-merodach",
+      "name": "Evil-merodach",
+      "gender": "male",
+      "role": "its king, who freed the exiled Jehoiachin from prison here",
+      "references": [
+        "2 Kings 25:27-30"
+      ]
+    },
+    {
+      "person_id": "ezekiel",
+      "name": "Ezekiel",
+      "gender": "male",
+      "role": "prophesied among the exiles by the Chebar canal near this city",
+      "references": [
+        "Ezekiel 1:1-3"
+      ]
+    },
+    {
+      "person_id": "ezra",
+      "name": "Ezra",
+      "gender": "male",
+      "role": "the scribe who came up from this city to teach the Law in Jerusalem",
+      "references": [
+        "Ezra 7:6"
+      ]
+    },
+    {
+      "person_id": "gabriel",
+      "name": "Gabriel",
+      "gender": "male"
+    },
+    {
+      "person_id": "gemariah",
+      "name": "Gemariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoiachin",
+      "name": "Jehoiachin",
+      "gender": "male",
+      "role": "Judah's exiled king, held prisoner in this city for thirty-seven years",
+      "references": [
+        "2 Kings 24:15",
+        "2 Kings 25:27"
+      ]
+    },
+    {
+      "person_id": "manasseh-3",
+      "name": "Manasseh",
+      "gender": "male"
+    },
+    {
+      "person_id": "meshach",
+      "name": "Meshach",
+      "gender": "male",
+      "role": "one of the three preserved unharmed in the fiery furnace in this city",
+      "references": [
+        "Daniel 3:19-27"
+      ]
+    },
+    {
+      "person_id": "nebuchadnezzar",
+      "name": "Nebuchadnezzar",
+      "gender": "male",
+      "role": "its king, who deported Judah here and was himself humbled by God",
+      "references": [
+        "Daniel 1:1",
+        "Daniel 4:28-33"
+      ]
+    },
+    {
+      "person_id": "nebushazban",
+      "name": "Nebushazban",
+      "gender": "male"
+    },
+    {
+      "person_id": "nebuzaradan",
+      "name": "Nebuzaradan",
+      "gender": "male",
+      "role": "the guard commander who burned Jerusalem and deported its people here",
+      "references": [
+        "2 Kings 25:8-11"
+      ]
+    },
+    {
+      "person_id": "nergal-sar-ezer-2",
+      "name": "Nergal-sar-ezer",
+      "gender": "male"
+    },
+    {
+      "person_id": "seraiah-10",
+      "name": "Seraiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shadrach",
+      "name": "Shadrach",
+      "gender": "male",
+      "role": "one of the three preserved unharmed in the fiery furnace in this city",
+      "references": [
+        "Daniel 3:19-27"
+      ]
+    },
+    {
+      "person_id": "shemaiah-21",
+      "name": "Shemaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "sherebiah",
+      "name": "Sherebiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "sheshbazzar",
+      "name": "Sheshbazzar",
+      "gender": "male"
+    },
+    {
+      "person_id": "zedekiah-2",
+      "name": "Zedekiah",
+      "gender": "male",
+      "role": "Judah's last king, brought here blinded and in chains",
+      "references": [
+        "2 Kings 25:7"
+      ]
+    },
+    {
+      "person_id": "zerubbabel",
+      "name": "Zerubbabel",
+      "gender": "male",
+      "role": "of the royal line, who led the first exiles back from this city",
+      "references": [
+        "Ezra 2:2"
+      ]
+    }
+  ],
+  "description": "Founded, Genesis says, by Nimrod (Genesis 10:10), Babylon is also the setting of the tower of Babel, where God confused humanity's language (Genesis 11:1-9) \u2014 the city's first appearance already marking it as a symbol of human pride set against God. Centuries later it became the capital of the empire that destroyed Jerusalem and its temple in 586 BC and deported Judah's population there (2 Kings 25). Daniel and his three friends served in Nebuchadnezzar's court during that exile, and the book of Daniel records God's repeated humbling of Babylon's rulers (Daniel 1-5). Cyrus of Persia conquered Babylon in 539 BC and let the exiles return. Revelation later uses \"Babylon\" as a symbolic name for a final, doomed world power opposed to God (Revelation 17-18) \u2014 a use of the name, not a claim about the literal city's end-times future.",
+  "family_friendly_summary": "Babylon was a great and powerful city, and later the capital of a mighty empire. Long before that, it's also where people built a huge tower to make a name for themselves, so God gave them different languages so they couldn't understand each other anymore. Later, the Babylonian army conquered Jerusalem, and God's people had to live in Babylon for many years. Daniel and his friends stayed faithful to God even while living there."
+}

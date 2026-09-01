@@ -1,0 +1,34 @@
+{
+  "place_id": "carmel-of-judah",
+  "name": "Carmel (of Judah)",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 15:12",
+  "references": [
+    "1 Samuel 15:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Distinct from Mount Carmel, the mountain in the north associated with Elijah \u2014 this Carmel is a town in Judah's hill country."
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "abigail",
+      "name": "Abigail",
+      "gender": "female"
+    },
+    {
+      "person_id": "nabal",
+      "name": "Nabal",
+      "gender": "male"
+    }
+  ],
+  "description": "A town in Judah's hill country where the wealthy but foolish Nabal kept his flocks; his wife Abigail's wise intervention there kept David from bloodshed after Nabal insulted him (1 Samuel 25)."
+}

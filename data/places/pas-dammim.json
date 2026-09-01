@@ -1,0 +1,29 @@
+{
+  "place_id": "pas-dammim",
+  "name": "Pas-dammim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Chronicles 11:13",
+  "references": [
+    "1 Chronicles 11:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Also called Ephes-dammim (1 Samuel 17:1); near the Valley of Elah where David fought Goliath."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eleazar-3",
+      "name": "Eleazar",
+      "gender": "male"
+    }
+  ],
+  "description": "The site of a battle where David's mighty man Eleazar stood his ground against the Philistines until his hand froze to his sword, securing a great victory (1 Chronicles 11:12-14)."
+}

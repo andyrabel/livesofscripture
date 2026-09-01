@@ -1,0 +1,29 @@
+{
+  "place_id": "greece",
+  "name": "Greece",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 20:2",
+  "references": [
+    "Acts 20:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male"
+    }
+  ],
+  "description": "The broader Greek mainland Paul traveled through and spent three months in near the end of his third missionary journey (Acts 20:1-3)."
+}

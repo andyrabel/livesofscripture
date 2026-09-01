@@ -1,0 +1,82 @@
+{
+  "place_id": "jezreel",
+  "name": "Jezreel",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 19:18",
+  "references": [
+    "Joshua 19:18",
+    "1 Kings 21",
+    "2 Kings 9:30-37"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "ahab",
+      "name": "Ahab",
+      "gender": "male",
+      "role": "kept a palace here, beside Naboth's vineyard",
+      "references": [
+        "1 Kings 21:1"
+      ]
+    },
+    {
+      "person_id": "ahinoam-2",
+      "name": "Ahinoam",
+      "gender": "female",
+      "role": "a wife of David, from this town",
+      "references": [
+        "1 Samuel 25:43"
+      ]
+    },
+    {
+      "person_id": "bidkar",
+      "name": "Bidkar",
+      "gender": "male",
+      "role": "Jehu's officer, who threw King Joram's body onto Naboth's plot here",
+      "references": [
+        "2 Kings 9:25-26"
+      ]
+    },
+    {
+      "person_id": "jehu-2",
+      "name": "Jehu",
+      "gender": "male",
+      "role": "killed King Joram here and had Jezebel thrown from a window in this town",
+      "references": [
+        "2 Kings 9:24",
+        "2 Kings 9:30-33"
+      ]
+    },
+    {
+      "person_id": "jezebel",
+      "name": "Jezebel",
+      "gender": "female",
+      "role": "thrown from a window and trampled in this town, as prophesied",
+      "references": [
+        "2 Kings 9:30-37"
+      ]
+    },
+    {
+      "person_id": "naboth",
+      "name": "Naboth",
+      "gender": "male",
+      "role": "the man of this town killed for refusing to sell King Ahab his vineyard",
+      "references": [
+        "1 Kings 21:1-13"
+      ]
+    }
+  ],
+  "description": "A town in the fertile valley of the same name, site of Ahab and Jezebel's royal residence and of Naboth's vineyard, which Jezebel seized after arranging Naboth's murder \u2014 provoking Elijah's denunciation of the royal house (1 Kings 21). Jezebel later met her violent, prophesied death there when Jehu came to seize the throne (2 Kings 9:30-37)."
+}

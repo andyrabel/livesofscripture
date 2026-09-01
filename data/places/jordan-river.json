@@ -1,0 +1,66 @@
+{
+  "place_id": "jordan-river",
+  "name": "Jordan River",
+  "alt_names": [],
+  "tier": "full",
+  "type": "body-of-water",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy",
+    "Divided Monarchy",
+    "Gospels"
+  ],
+  "first_reference": "Genesis 13:10",
+  "references": [
+    "Genesis 13:10",
+    "Joshua 3",
+    "2 Kings 5:1-14",
+    "Matthew 3:13-17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "chimham",
+      "name": "Chimham",
+      "gender": "male",
+      "role": "Barzillai's son, whom David took across this river with him",
+      "references": [
+        "2 Samuel 19:37-40"
+      ]
+    },
+    {
+      "person_id": "elisha",
+      "name": "Elisha",
+      "gender": "male",
+      "role": "took up Elijah's fallen mantle and parted this river to cross back",
+      "references": [
+        "2 Kings 2:13-14"
+      ]
+    },
+    {
+      "person_id": "john",
+      "name": "John",
+      "gender": "male",
+      "role": "baptized in this river, including the baptism of Jesus",
+      "references": [
+        "Matthew 3:6",
+        "Matthew 3:13"
+      ]
+    },
+    {
+      "person_id": "naaman",
+      "name": "Naaman",
+      "gender": "male",
+      "role": "washed seven times in this river at Elisha's word and was healed",
+      "references": [
+        "2 Kings 5:14"
+      ]
+    }
+  ],
+  "description": "Israel's principal river, flowing from the Sea of Galilee to the Dead Sea and forming much of the eastern boundary of the promised land. Israel crossed it on dry ground entering Canaan (Joshua 3), Naaman was healed of leprosy after washing in it seven times at Elisha's instruction (2 Kings 5:1-14), and John the Baptist baptized Jesus in its waters (Matthew 3:13-17)."
+}

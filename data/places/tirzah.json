@@ -1,0 +1,81 @@
+{
+  "place_id": "tirzah",
+  "name": "Tirzah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 12:24",
+  "references": [
+    "Joshua 12:24",
+    "1 Kings 15:33",
+    "1 Kings 16:8-24"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "abijah-2",
+      "name": "Abijah",
+      "gender": "male",
+      "role": "Jeroboam's son, whose death at this capital the prophet Ahijah foretold",
+      "references": [
+        "1 Kings 14:12",
+        "1 Kings 14:17"
+      ]
+    },
+    {
+      "person_id": "baasha",
+      "name": "Baasha",
+      "gender": "male",
+      "role": "reigned over Israel from this city for twenty-four years",
+      "references": [
+        "1 Kings 15:33"
+      ]
+    },
+    {
+      "person_id": "elah-2",
+      "name": "Elah",
+      "gender": "male",
+      "role": "Baasha's son, killed while drunk at this city by Zimri",
+      "references": [
+        "1 Kings 16:8-10"
+      ]
+    },
+    {
+      "person_id": "menahem",
+      "name": "Menahem",
+      "gender": null,
+      "role": "marched up from this city to seize Israel's throne",
+      "references": [
+        "2 Kings 15:14"
+      ]
+    },
+    {
+      "person_id": "omri",
+      "name": "Omri",
+      "gender": "male",
+      "role": "besieged this city until Zimri burned the palace, then built Samaria as his capital",
+      "references": [
+        "1 Kings 16:17-24"
+      ]
+    },
+    {
+      "person_id": "zimri-2",
+      "name": "Zimri",
+      "gender": "male",
+      "role": "burned the palace of this city over himself after seven days as king",
+      "references": [
+        "1 Kings 16:15-18"
+      ]
+    }
+  ],
+  "description": "An early capital of the northern kingdom of Israel before Omri built Samaria, serving as the royal seat under kings including Baasha, Elah, and Zimri. Zimri's seven-day reign ended when he burned the palace down over himself there rather than face Omri's siege (1 Kings 16:8-18), after which Omri eventually relocated the capital to Samaria."
+}

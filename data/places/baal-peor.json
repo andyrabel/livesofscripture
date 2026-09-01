@@ -1,0 +1,33 @@
+{
+  "place_id": "baal-peor",
+  "name": "Baal-peor",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 25:3",
+  "references": [
+    "Numbers 25:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "phinehas",
+      "name": "Phinehas",
+      "gender": "male",
+      "role": "struck down Zimri and Cozbi at the height of Israel's idolatry here, stopping the plague",
+      "references": [
+        "Numbers 25:7-8"
+      ]
+    }
+  ],
+  "description": "The site of a local Baal shrine where Israelite men were drawn into idolatry and sexual immorality with Moabite women, a plague-provoking sin that Phinehas's decisive action helped end (Numbers 25)."
+}

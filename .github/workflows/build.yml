@@ -14,8 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Run places data generator
+        run: python3 _build/generate_places.py
+
       - name: Run static site generator
         run: python3 _build/generate_static_site.py
 
       - name: Verify generated output is committed
-        run: git diff --exit-code -- people/ churches/ sitemap.xml people.html churches.html
+        run: git diff --exit-code -- people/ churches/ places/ sitemap.xml people.html churches.html places.html data/places-index.json data/place-connections.json data/places/

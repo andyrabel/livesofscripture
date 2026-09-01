@@ -1,0 +1,297 @@
+{
+  "place_id": "egypt",
+  "name": "Egypt",
+  "alt_names": [],
+  "tier": "full",
+  "type": "nation",
+  "region": "egypt",
+  "eras": [
+    "Patriarchal",
+    "Exodus/Wilderness",
+    "United Monarchy",
+    "Divided Monarchy",
+    "Exile",
+    "Gospels"
+  ],
+  "first_reference": "Genesis 12:10",
+  "references": [
+    "Genesis 12:10",
+    "Genesis 37-50",
+    "Exodus 1-14",
+    "Matthew 2:13-15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Egypt",
+  "n_people": 38,
+  "related_people": [
+    {
+      "person_id": "aaron",
+      "name": "Aaron",
+      "gender": "male",
+      "role": "sent back here to be Moses's spokesman before Pharaoh",
+      "references": [
+        "Exodus 4:27-31"
+      ]
+    },
+    {
+      "person_id": "abraham",
+      "name": "Abraham",
+      "gender": "male",
+      "role": "went down to this land in a famine and passed Sarah off as his sister",
+      "references": [
+        "Genesis 12:10-13"
+      ]
+    },
+    {
+      "person_id": "asenath",
+      "name": "Asenath",
+      "gender": "female",
+      "role": "the Egyptian priest's daughter given to Joseph as his wife here",
+      "references": [
+        "Genesis 41:45"
+      ]
+    },
+    {
+      "person_id": "azariah-16",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "baruch-4",
+      "name": "Baruch",
+      "gender": "male"
+    },
+    {
+      "person_id": "benjamin",
+      "name": "Benjamin",
+      "gender": "male"
+    },
+    {
+      "person_id": "elnathan",
+      "name": "Elnathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "ephraim",
+      "name": "Ephraim",
+      "gender": "male"
+    },
+    {
+      "person_id": "hadad-4",
+      "name": "Hadad",
+      "gender": "male"
+    },
+    {
+      "person_id": "hagar",
+      "name": "Hagar",
+      "gender": "female",
+      "role": "an Egyptian, Sarah's servant and the mother of Ishmael",
+      "references": [
+        "Genesis 16:1"
+      ]
+    },
+    {
+      "person_id": "israel",
+      "name": "Israel",
+      "gender": "male",
+      "role": "came down here with his household and died here after seeing Joseph again",
+      "references": [
+        "Genesis 46:5-7",
+        "Genesis 49:33"
+      ]
+    },
+    {
+      "person_id": "jambres",
+      "name": "Jambres",
+      "gender": "male"
+    },
+    {
+      "person_id": "jannes",
+      "name": "Jannes",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoahaz-2",
+      "name": "Jehoahaz",
+      "gender": "male",
+      "role": "Judah's king, deposed by Neco and taken to die in this land",
+      "references": [
+        "2 Kings 23:33-34"
+      ]
+    },
+    {
+      "person_id": "jeremiah-6",
+      "name": "Jeremiah",
+      "gender": "male",
+      "role": "carried down into this land by the fleeing remnant against his word",
+      "references": [
+        "Jeremiah 43:6-7"
+      ]
+    },
+    {
+      "person_id": "jeroboam",
+      "name": "Jeroboam",
+      "gender": "male"
+    },
+    {
+      "person_id": "jochebed",
+      "name": "Jochebed",
+      "gender": "female",
+      "role": "hid her son Moses here for three months, then set him afloat on the Nile",
+      "references": [
+        "Exodus 2:1-3"
+      ]
+    },
+    {
+      "person_id": "johanan",
+      "name": "Johanan",
+      "gender": "male"
+    },
+    {
+      "person_id": "joseph",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "sold here as a slave, then raised to govern the land and save it from famine",
+      "references": [
+        "Genesis 41:39-43"
+      ]
+    },
+    {
+      "person_id": "joseph-6",
+      "name": "Joseph",
+      "gender": "male"
+    },
+    {
+      "person_id": "judah",
+      "name": "Judah",
+      "gender": "male"
+    },
+    {
+      "person_id": "machir",
+      "name": "Machir",
+      "gender": "male"
+    },
+    {
+      "person_id": "manasseh",
+      "name": "Manasseh",
+      "gender": "male"
+    },
+    {
+      "person_id": "miriam",
+      "name": "Miriam",
+      "gender": "female",
+      "role": "watched over the infant Moses here, and led Israel's song after the sea",
+      "references": [
+        "Exodus 2:4-8",
+        "Exodus 15:20"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "born here under Pharaoh's death decree, and later led Israel out",
+      "references": [
+        "Exodus 2:1-10",
+        "Exodus 12:31"
+      ]
+    },
+    {
+      "person_id": "pharaoh",
+      "name": "Pharaoh",
+      "gender": "male",
+      "role": "a king of this land whose hardened heart brought on the ten plagues",
+      "references": [
+        "Exodus 7:13",
+        "Exodus 12:29"
+      ]
+    },
+    {
+      "person_id": "pharaoh-2",
+      "name": "Pharaoh",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-3",
+      "name": "Pharaoh",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-4",
+      "name": "Pharaoh",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-7",
+      "name": "Pharaoh",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-neco",
+      "name": "Pharaoh Neco",
+      "gender": "male",
+      "role": "its king, who killed Josiah and made Judah a tribute-paying vassal",
+      "references": [
+        "2 Kings 23:29",
+        "2 Kings 23:34"
+      ]
+    },
+    {
+      "person_id": "potiphar",
+      "name": "Potiphar",
+      "gender": "male",
+      "role": "the officer of this land who bought Joseph and then had him jailed",
+      "references": [
+        "Genesis 39:1",
+        "Genesis 39:20"
+      ]
+    },
+    {
+      "person_id": "puah",
+      "name": "Puah",
+      "gender": "female",
+      "role": "a midwife here who feared God and spared the Hebrew baby boys",
+      "references": [
+        "Exodus 1:15-17"
+      ]
+    },
+    {
+      "person_id": "sarah",
+      "name": "Sarah",
+      "gender": "female"
+    },
+    {
+      "person_id": "shiphrah",
+      "name": "Shiphrah",
+      "gender": "female",
+      "role": "a midwife here who feared God and spared the Hebrew baby boys",
+      "references": [
+        "Exodus 1:15-17"
+      ]
+    },
+    {
+      "person_id": "shishak",
+      "name": "Shishak",
+      "gender": "male",
+      "role": "its king, who plundered the temple in Jerusalem in Rehoboam's reign",
+      "references": [
+        "1 Kings 14:25-26"
+      ]
+    },
+    {
+      "person_id": "simeon",
+      "name": "Simeon",
+      "gender": "male"
+    },
+    {
+      "person_id": "zipporah",
+      "name": "Zipporah",
+      "gender": "female"
+    }
+  ],
+  "description": "The great river-valley civilization to Canaan's southwest, Egypt appears across the whole span of Scripture: Abraham took refuge there in a famine (Genesis 12:10), Joseph rose from slave to vizier there and later settled his family in Goshen (Genesis 37-50), and their descendants were later enslaved there for centuries until the exodus under Moses (Exodus 1-14) \u2014 the founding redemption narrative the rest of the Old Testament keeps returning to. Solomon married a pharaoh's daughter; later kings sought (and were warned against) Egyptian military alliances; and in the New Testament, Joseph and Mary fled there with the infant Jesus to escape Herod, so that Matthew could say \"Out of Egypt I called My Son\" (Matthew 2:13-15, quoting Hosea 11:1).",
+  "family_friendly_summary": "Egypt was a powerful country south of Israel, next to the Nile River. Joseph was sold as a slave there but later became a great leader, second only to Pharaoh. Later, Joseph's family grew into a huge nation of slaves in Egypt, until God sent Moses to lead them out in the exodus. Much later, baby Jesus and His parents hid safely in Egypt for a while too."
+}

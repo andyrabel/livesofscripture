@@ -1,0 +1,52 @@
+{
+  "place_id": "mount-gilboa",
+  "name": "Mount Gilboa",
+  "alt_names": [],
+  "tier": "full",
+  "type": "mountain",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 28:4",
+  "references": [
+    "1 Samuel 28:4",
+    "1 Samuel 31:1-6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "abinadab-2",
+      "name": "Abinadab",
+      "gender": "male",
+      "role": "one of Saul's sons, killed with him in the battle on this mountain",
+      "references": [
+        "1 Samuel 31:2"
+      ]
+    },
+    {
+      "person_id": "jonathan",
+      "name": "Jonathan",
+      "gender": "male",
+      "role": "Saul's son and David's friend, killed alongside his father here",
+      "references": [
+        "1 Samuel 31:2"
+      ]
+    },
+    {
+      "person_id": "malchi-shua",
+      "name": "Malchi-shua",
+      "gender": "male",
+      "role": "one of Saul's sons, killed with him in the battle on this mountain",
+      "references": [
+        "1 Samuel 31:2"
+      ]
+    }
+  ],
+  "description": "The mountain range where Saul's final battle against the Philistines took place, ending with the deaths of Saul and three of his sons, including Jonathan, and Saul's own suicide rather than capture (1 Samuel 31:1-6)."
+}

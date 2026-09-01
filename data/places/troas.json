@@ -1,0 +1,29 @@
+{
+  "place_id": "troas",
+  "name": "Troas",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 16:8",
+  "references": [
+    "Acts 16:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eutychus",
+      "name": "Eutychus",
+      "gender": "male"
+    }
+  ],
+  "description": "A port city where Paul received his vision of a Macedonian man calling him to Europe (Acts 16:8-10), and where, on a later visit, young Eutychus fell asleep during Paul's long sermon, fell from a third-story window, and was raised back to life (Acts 20:6-12)."
+}

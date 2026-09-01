@@ -1,0 +1,29 @@
+{
+  "place_id": "ramah",
+  "name": "Ramah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Joshua 18:25",
+  "references": [
+    "Joshua 18:25"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "A Benjaminite town, distinct from Ramathaim-zophim (Samuel's hometown, also sometimes called Ramah) and from Ramah of Naphtali (Joshua 19:36)."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "samuel",
+      "name": "Samuel",
+      "gender": "male"
+    }
+  ],
+  "description": "A town near which Samuel made his home for part of his judging circuit (1 Samuel 7:17), fortified by King Baasha of Israel against Judah before Asa had it dismantled (1 Kings 15:17-22)."
+}

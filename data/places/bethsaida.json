@@ -1,0 +1,34 @@
+{
+  "place_id": "bethsaida",
+  "name": "Bethsaida",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 11:21",
+  "references": [
+    "Matthew 11:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "andrew",
+      "name": "Andrew",
+      "gender": "male"
+    },
+    {
+      "person_id": "philip",
+      "name": "Philip",
+      "gender": "male"
+    }
+  ],
+  "description": "A fishing town on the Sea of Galilee, home of Philip and Andrew (John 1:44), that Jesus rebuked for failing to repent despite witnessing His miracles (Matthew 11:21)."
+}

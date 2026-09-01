@@ -1,0 +1,29 @@
+{
+  "place_id": "gibbethon",
+  "name": "Gibbethon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 19:44",
+  "references": [
+    "Joshua 19:44"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "nadab-2",
+      "name": "Nadab",
+      "gender": "male"
+    }
+  ],
+  "description": "A Philistine border town Israel's army was besieging when King Nadab of Israel was assassinated by Baasha, who then seized the throne (1 Kings 15:27-28)."
+}

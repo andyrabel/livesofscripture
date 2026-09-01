@@ -1,0 +1,29 @@
+{
+  "place_id": "seir",
+  "name": "Seir",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 14:6",
+  "references": [
+    "Genesis 14:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "The mountainous territory Esau's descendants (Edom) settled, often used interchangeably with \"Edom.\""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "anah",
+      "name": "Anah",
+      "gender": "male"
+    }
+  ],
+  "description": "The hill country south of the Dead Sea originally inhabited by the Horites, including a chief named Anah, before Esau's descendants displaced them (Genesis 36:20-21)."
+}

@@ -1,0 +1,75 @@
+{
+  "place_id": "nazareth",
+  "name": "Nazareth",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels",
+    "Apostolic"
+  ],
+  "first_reference": "Matthew 2:23",
+  "references": [
+    "Matthew 2:23",
+    "Luke 1:26-38",
+    "Luke 2:39-40",
+    "Luke 4:16-30"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Nazareth, Israel",
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "gabriel",
+      "name": "Gabriel",
+      "gender": "male",
+      "role": "sent to this town to announce to Mary the birth of Jesus",
+      "references": [
+        "Luke 1:26-33"
+      ]
+    },
+    {
+      "person_id": "james-3",
+      "name": "James",
+      "gender": "male",
+      "role": "a brother of Jesus, raised in this town",
+      "references": [
+        "Matthew 13:55",
+        "Mark 6:3"
+      ]
+    },
+    {
+      "person_id": "joseph-6",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "the carpenter of this town, betrothed to Mary",
+      "references": [
+        "Matthew 13:55",
+        "Luke 2:4"
+      ]
+    },
+    {
+      "person_id": "judas-3",
+      "name": "Judas",
+      "gender": "male",
+      "role": "a brother of Jesus, raised in this town",
+      "references": [
+        "Mark 6:3"
+      ]
+    },
+    {
+      "person_id": "mary",
+      "name": "Mary",
+      "gender": "female",
+      "role": "the young woman of this town who conceived Jesus by the Holy Spirit",
+      "references": [
+        "Luke 1:26-31"
+      ]
+    }
+  ],
+  "description": "A small, unremarkable Galilean town \u2014 Nathanael's skeptical \"can any good thing come out of Nazareth?\" (John 1:46) reflects its reputation \u2014 where the angel Gabriel announced Jesus's birth to Mary (Luke 1:26-38) and where Jesus grew up after His family's return from Egypt (Matthew 2:23; Luke 2:39-40). When Jesus later preached there and identified Himself as the fulfillment of Isaiah's prophecy, His own townspeople tried to throw Him off a cliff (Luke 4:16-30)."
+}

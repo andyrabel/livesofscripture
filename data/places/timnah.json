@@ -1,0 +1,53 @@
+{
+  "place_id": "timnah",
+  "name": "Timnah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "Judges"
+  ],
+  "first_reference": "Genesis 38:12",
+  "references": [
+    "Genesis 38:12",
+    "Judges 14:1-5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "hirah",
+      "name": "Hirah",
+      "gender": "male",
+      "role": "Judah's Adullamite friend, who went with him to the sheepshearing near here",
+      "references": [
+        "Genesis 38:12"
+      ]
+    },
+    {
+      "person_id": "samson",
+      "name": "Samson",
+      "gender": "male",
+      "role": "went down to this town for a Philistine wife and killed a lion on the way",
+      "references": [
+        "Judges 14:1-6"
+      ]
+    },
+    {
+      "person_id": "tamar",
+      "name": "Tamar",
+      "gender": "male",
+      "role": "sat veiled by the road to this town and conceived twins by Judah",
+      "references": [
+        "Genesis 38:14"
+      ]
+    }
+  ],
+  "description": "A town where Judah went for sheep-shearing and was met, and deceived, by his widowed daughter-in-law Tamar disguised as a prostitute (Genesis 38:12-19). Generations later it was home to the Philistine woman Samson wanted to marry, setting off his riddle contest and conflict with the Philistines (Judges 14)."
+}

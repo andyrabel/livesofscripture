@@ -1,0 +1,42 @@
+{
+  "place_id": "athens",
+  "name": "Athens",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 17:15",
+  "references": [
+    "Acts 17:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Athens, Greece",
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "damaris",
+      "name": "Damaris",
+      "gender": "female",
+      "role": "a woman who believed after Paul's address at the Areopagus",
+      "references": [
+        "Acts 17:34"
+      ]
+    },
+    {
+      "person_id": "dionysius",
+      "name": "Dionysius",
+      "gender": "male",
+      "role": "a member of the Areopagus council who believed Paul's message",
+      "references": [
+        "Acts 17:34"
+      ]
+    }
+  ],
+  "description": "The center of Greek philosophy and culture, where Paul reasoned in the synagogue and marketplace and addressed the Areopagus council on \"the unknown god,\" with Dionysius and Damaris among those who believed (Acts 17:16-34)."
+}

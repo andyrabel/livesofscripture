@@ -1,0 +1,29 @@
+{
+  "place_id": "alexandria",
+  "name": "Alexandria",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "egypt",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 18:24",
+  "references": [
+    "Acts 18:24"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Alexandria, Egypt",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "apollos",
+      "name": "Apollos",
+      "gender": "male"
+    }
+  ],
+  "description": "A major Egyptian city and center of learning, the hometown of Apollos, an eloquent believer skilled in the Scriptures who was further instructed by Priscilla and Aquila before his effective ministry (Acts 18:24-28)."
+}

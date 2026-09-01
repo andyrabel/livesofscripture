@@ -1,0 +1,29 @@
+{
+  "place_id": "mareshah",
+  "name": "Mareshah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 15:44",
+  "references": [
+    "Joshua 15:44"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "eliezer-6",
+      "name": "Eliezer",
+      "gender": "male"
+    }
+  ],
+  "description": "A fortified town of Judah where the prophet Eliezer confronted King Jehoshaphat over an ill-advised alliance (2 Chronicles 20:37); also the site of King Asa's earlier victory over a massive Cushite army (2 Chronicles 14:9-10)."
+}

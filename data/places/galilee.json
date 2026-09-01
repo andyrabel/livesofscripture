@@ -1,0 +1,161 @@
+{
+  "place_id": "galilee",
+  "name": "Galilee",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Joshua 20:7",
+  "references": [
+    "Joshua 20:7",
+    "Matthew 4:12-17",
+    "Luke 1:26",
+    "John 1:46"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 15,
+  "related_people": [
+    {
+      "person_id": "andrew",
+      "name": "Andrew",
+      "gender": "male",
+      "role": "a fisherman of this region, among the first Jesus called",
+      "references": [
+        "Matthew 4:18-20"
+      ]
+    },
+    {
+      "person_id": "herod-2",
+      "name": "Herod Antipas",
+      "gender": "male",
+      "role": "tetrarch of this region, who imprisoned and beheaded John the Baptist",
+      "references": [
+        "Luke 3:1",
+        "Mark 6:14-27"
+      ]
+    },
+    {
+      "person_id": "herodias",
+      "name": "Herodias",
+      "gender": "female",
+      "role": "married to the tetrarch of this region, whose rebuke by John she resented",
+      "references": [
+        "Mark 6:17-19"
+      ]
+    },
+    {
+      "person_id": "james",
+      "name": "James",
+      "gender": "male",
+      "role": "a fisherman of this region, called by Jesus with his brother John",
+      "references": [
+        "Matthew 4:21-22"
+      ]
+    },
+    {
+      "person_id": "joanna",
+      "name": "Joanna",
+      "gender": "female",
+      "role": "a woman of Herod's household here, who supported Jesus's ministry from her means",
+      "references": [
+        "Luke 8:3"
+      ]
+    },
+    {
+      "person_id": "john-2",
+      "name": "John",
+      "gender": "male",
+      "role": "a fisherman of this region, called by Jesus with his brother James",
+      "references": [
+        "Matthew 4:21-22"
+      ]
+    },
+    {
+      "person_id": "judas",
+      "name": "Judas",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas-of-galilee",
+      "name": "Judas of Galilee",
+      "gender": "male",
+      "role": "the rebel of this region recalled by Gamaliel before the council",
+      "references": [
+        "Acts 5:37"
+      ]
+    },
+    {
+      "person_id": "matthew",
+      "name": "Matthew",
+      "gender": "male",
+      "role": "a tax collector of this region, called by Jesus to follow",
+      "references": [
+        "Mark 2:14"
+      ]
+    },
+    {
+      "person_id": "nathanael",
+      "name": "Nathanael",
+      "gender": "male",
+      "role": "of Cana in this region, called to Jesus through his friend Philip",
+      "references": [
+        "John 1:45-49",
+        "John 21:2"
+      ]
+    },
+    {
+      "person_id": "peter",
+      "name": "Peter",
+      "gender": "male",
+      "role": "a fisherman of this region, leader among the Twelve",
+      "references": [
+        "Matthew 4:18"
+      ]
+    },
+    {
+      "person_id": "philip",
+      "name": "Philip",
+      "gender": "male",
+      "role": "of Bethsaida in this region, one of the Twelve",
+      "references": [
+        "John 1:43-44"
+      ]
+    },
+    {
+      "person_id": "salome",
+      "name": "Salome",
+      "gender": "female",
+      "role": "a woman who followed and provided for Jesus in this region",
+      "references": [
+        "Mark 15:40-41"
+      ]
+    },
+    {
+      "person_id": "salome-2",
+      "name": "Salome",
+      "gender": null,
+      "role": "Herodias's daughter, whose dance in this region cost John the Baptist his head",
+      "references": [
+        "Mark 6:22-28"
+      ]
+    },
+    {
+      "person_id": "thomas",
+      "name": "Thomas",
+      "gender": "male",
+      "role": "one of the Twelve, called during Jesus's ministry in this region",
+      "references": [
+        "John 21:2"
+      ]
+    }
+  ],
+  "description": "The hilly northern region of Israel around the Sea of Galilee, home to Nazareth, Capernaum, Cana, and Bethsaida. Though set apart by Joshua as a place of refuge (Joshua 20:7) and later the territory of Zebulun and Naphtali, by New Testament times \"Galilee of the Gentiles\" was viewed by some in Judea as culturally provincial \u2014 Nathanael's \"can any good thing come out of Nazareth?\" reflects the attitude (John 1:46). It was nonetheless where Jesus grew up, was baptized in the nearby Jordan, called His first disciples (mostly Galilean fishermen), and conducted the bulk of His public ministry \u2014 teaching, healing, and performing most of His recorded miracles around its lake before His final journey to Jerusalem (Matthew 4:12-17; Isaiah 9:1-2).",
+  "family_friendly_summary": "Galilee was the region in the north of Israel where Jesus grew up and did most of His teaching and miracles. Its biggest lake, the Sea of Galilee, is where Jesus called His first disciples, who were fishermen there. Even though some people looked down on Galilee, Jesus spent most of His time on earth right there among its towns and villages."
+}

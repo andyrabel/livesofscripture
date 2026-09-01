@@ -1,0 +1,62 @@
+{
+  "place_id": "mesopotamia",
+  "name": "Mesopotamia",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Primeval History"
+  ],
+  "first_reference": "Genesis 24:10",
+  "references": [
+    "Genesis 24:10",
+    "Acts 2:9",
+    "Acts 7:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "enoch",
+      "name": "Enoch",
+      "gender": "male",
+      "role": "in the line of Seth, who walked with God and was taken without dying",
+      "references": [
+        "Genesis 5:22-24"
+      ]
+    },
+    {
+      "person_id": "ham",
+      "name": "Ham",
+      "gender": "male",
+      "role": "a son of Noah who came through the flood",
+      "references": [
+        "Genesis 7:13"
+      ]
+    },
+    {
+      "person_id": "lamech",
+      "name": "Lamech",
+      "gender": "male",
+      "role": "in the line of Cain, who boasted of sevenfold vengeance",
+      "references": [
+        "Genesis 4:23-24"
+      ]
+    },
+    {
+      "person_id": "methuselah",
+      "name": "Methuselah",
+      "gender": "male",
+      "role": "grandfather of Noah and the longest-lived man in Scripture",
+      "references": [
+        "Genesis 5:27"
+      ]
+    }
+  ],
+  "description": "The land \"between the rivers\" Tigris and Euphrates, home to the earliest post-flood civilizations of Genesis 10-11 and, in a broader sense, the wider region Abraham's family originally came from before settling in Haran (Acts 7:2)."
+}

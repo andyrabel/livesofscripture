@@ -1,0 +1,33 @@
+{
+  "place_id": "salem",
+  "name": "Salem",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 14:18",
+  "references": [
+    "Genesis 14:18"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "Widely identified with the later Jerusalem (compare Psalm 76:2), though the text of Genesis does not state this explicitly."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "melchizedek",
+      "name": "Melchizedek",
+      "gender": "male",
+      "role": "its king and priest of God Most High, who blessed Abram and received his tithe",
+      "references": [
+        "Genesis 14:18-20"
+      ]
+    }
+  ],
+  "description": "The city of Melchizedek, priest-king who blessed Abraham and to whom Abraham gave a tenth of his spoils after rescuing Lot \u2014 an episode Hebrews later draws on to explain Christ's priesthood (Genesis 14:18-20; Hebrews 7:1-10)."
+}

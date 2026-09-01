@@ -1,0 +1,64 @@
+{
+  "place_id": "persia",
+  "name": "Persia",
+  "alt_names": [],
+  "tier": "full",
+  "type": "nation",
+  "region": "mesopotamia",
+  "eras": [
+    "Post-Exile/Intertestamental"
+  ],
+  "first_reference": "2 Chronicles 36:20",
+  "references": [
+    "2 Chronicles 36:20",
+    "Ezra 1:1-4",
+    "Esther 1:1",
+    "Daniel 6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Iran",
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "artaxerxes",
+      "name": "Artaxerxes",
+      "gender": "male",
+      "role": "its king, who sent Ezra and later Nehemiah to Jerusalem",
+      "references": [
+        "Ezra 7:11-13",
+        "Nehemiah 2:1-8"
+      ]
+    },
+    {
+      "person_id": "cyrus",
+      "name": "Cyrus",
+      "gender": "male",
+      "role": "its king, who decreed the exiles' return to rebuild the temple",
+      "references": [
+        "Ezra 1:1-4"
+      ]
+    },
+    {
+      "person_id": "darius",
+      "name": "Darius",
+      "gender": "male",
+      "role": "its king, who confirmed Cyrus's decree and funded the temple's completion",
+      "references": [
+        "Ezra 6:1-12"
+      ]
+    },
+    {
+      "person_id": "mithredath",
+      "name": "Mithredath",
+      "gender": "male",
+      "role": "Cyrus's treasurer, who counted out the temple vessels for the return",
+      "references": [
+        "Ezra 1:8"
+      ]
+    }
+  ],
+  "description": "The empire that conquered Babylon and, under Cyrus, issued the decree allowing exiled Jews to return and rebuild Jerusalem's temple (Ezra 1:1-4; 2 Chronicles 36:20-23). Esther became queen of Persia under Ahasuerus, and Daniel served in its administration under Darius, surviving the lions' den (Daniel 6)."
+}

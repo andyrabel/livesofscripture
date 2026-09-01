@@ -1,0 +1,33 @@
+{
+  "place_id": "gethsemane",
+  "name": "Gethsemane",
+  "alt_names": [],
+  "tier": "full",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Matthew 26:36",
+  "references": [
+    "Matthew 26:36"
+  ],
+  "identification": {
+    "status": "traditional",
+    "note": "A garden on the Mount of Olives; several nearby sites are traditionally proposed as the exact location, none confirmed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "malchus",
+      "name": "Malchus",
+      "gender": "male",
+      "role": "the high priest's servant whose severed ear Jesus healed at the arrest here",
+      "references": [
+        "John 18:10"
+      ]
+    }
+  ],
+  "description": "The garden where Jesus prayed in anguish the night before His crucifixion, was betrayed by Judas with a kiss, and where Peter cut off the ear of the high priest's servant Malchus before Jesus healed it (Matthew 26:36-56; John 18:1-11)."
+}

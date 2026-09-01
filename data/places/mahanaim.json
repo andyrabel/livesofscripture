@@ -1,0 +1,80 @@
+{
+  "place_id": "mahanaim",
+  "name": "Mahanaim",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Genesis 32:2",
+  "references": [
+    "Genesis 32:2",
+    "2 Samuel 2:8-9",
+    "2 Samuel 17:24-27"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "abner",
+      "name": "Abner",
+      "gender": "male",
+      "role": "set up Ish-bosheth as king here after Saul's death",
+      "references": [
+        "2 Samuel 2:8-9"
+      ]
+    },
+    {
+      "person_id": "ahimaaz-2",
+      "name": "Ahimaaz",
+      "gender": "male",
+      "role": "ran from here to bring David the news of the battle with Absalom",
+      "references": [
+        "2 Samuel 18:19-23"
+      ]
+    },
+    {
+      "person_id": "baanah",
+      "name": "Baanah",
+      "gender": "male",
+      "role": "one of Ish-bosheth's captains, based here, who murdered his own king",
+      "references": [
+        "2 Samuel 4:5-7"
+      ]
+    },
+    {
+      "person_id": "ish-bosheth",
+      "name": "Ish-bosheth",
+      "gender": "male",
+      "role": "Saul's son, made rival king over Israel from this town",
+      "references": [
+        "2 Samuel 2:8-10"
+      ]
+    },
+    {
+      "person_id": "machir-2",
+      "name": "Machir",
+      "gender": "male",
+      "role": "of Lo-debar, who brought David supplies here during Absalom's revolt",
+      "references": [
+        "2 Samuel 17:27-29"
+      ]
+    },
+    {
+      "person_id": "rechab",
+      "name": "Rechab",
+      "gender": "male",
+      "role": "one of Ish-bosheth's captains, based here, who murdered his own king",
+      "references": [
+        "2 Samuel 4:5-7"
+      ]
+    }
+  ],
+  "description": "A place east of the Jordan where Jacob, returning to Canaan, was met by angels and named the site \"two camps\" (Genesis 32:1-2). It later became Ish-bosheth's capital when Abner made him king over Israel against David (2 Samuel 2:8-9), and still later the refuge David fled to during Absalom's rebellion, where he received support from Machir and Barzillai (2 Samuel 17:24-27)."
+}

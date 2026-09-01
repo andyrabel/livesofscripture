@@ -1,0 +1,29 @@
+{
+  "place_id": "eglon",
+  "name": "Eglon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 10:3",
+  "references": [
+    "Joshua 10:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "A Canaanite city, distinct from Eglon the king of Moab (Judges 3)."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "debir",
+      "name": "Debir",
+      "gender": "male"
+    }
+  ],
+  "description": "One of five Amorite cities whose king joined an alliance against Gibeon and was defeated by Joshua in the battle where the sun stood still (Joshua 10:1-27)."
+}

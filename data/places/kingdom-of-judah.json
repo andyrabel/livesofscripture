@@ -1,0 +1,283 @@
+{
+  "place_id": "kingdom-of-judah",
+  "name": "Kingdom of Judah",
+  "alt_names": [
+    "Judah"
+  ],
+  "tier": "full",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy",
+    "Divided Monarchy",
+    "Exile"
+  ],
+  "first_reference": "1 Kings 12:17",
+  "references": [
+    "1 Kings 12:17",
+    "2 Kings 25"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 39,
+  "related_people": [
+    {
+      "person_id": "abijah-3",
+      "name": "Abijah",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahaz",
+      "name": "Ahaz",
+      "gender": "male",
+      "role": "its king, who shut the temple and sacrificed to other gods",
+      "references": [
+        "2 Chronicles 28:24-25"
+      ]
+    },
+    {
+      "person_id": "ahaziah-2",
+      "name": "Ahaziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "amasiah",
+      "name": "Amasiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "asa",
+      "name": "Asa",
+      "gender": "male",
+      "role": "its king, who removed idols and trusted the LORD against a vast army",
+      "references": [
+        "2 Chronicles 14:2-12"
+      ]
+    },
+    {
+      "person_id": "azariah-10",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azariah-7",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azariah-8",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "azaryahu",
+      "name": "Azaryahu",
+      "gender": "male"
+    },
+    {
+      "person_id": "gad-2",
+      "name": "Gad",
+      "gender": "male"
+    },
+    {
+      "person_id": "habakkuk",
+      "name": "Habakkuk",
+      "gender": "male",
+      "role": "prophesied to this kingdom of the coming Babylonian judgment",
+      "references": [
+        "Habakkuk 1:1-6"
+      ]
+    },
+    {
+      "person_id": "hanani",
+      "name": "Hanani",
+      "gender": "male"
+    },
+    {
+      "person_id": "hezekiah",
+      "name": "Hezekiah",
+      "gender": "male",
+      "role": "its king, who cleansed the temple and was spared when Assyria besieged Jerusalem",
+      "references": [
+        "2 Chronicles 29:3",
+        "2 Kings 19:35"
+      ]
+    },
+    {
+      "person_id": "isaiah",
+      "name": "Isaiah",
+      "gender": "male",
+      "role": "prophesied to its kings from Uzziah through Hezekiah",
+      "references": [
+        "Isaiah 1:1"
+      ]
+    },
+    {
+      "person_id": "jehiel-3",
+      "name": "Jehiel",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehoram",
+      "name": "Jehoram",
+      "gender": "male",
+      "role": "its king, who murdered his own brothers and followed the house of Ahab",
+      "references": [
+        "2 Chronicles 21:4-6"
+      ]
+    },
+    {
+      "person_id": "jehoshaphat-3",
+      "name": "Jehoshaphat",
+      "gender": "male",
+      "role": "its king, who sought the LORD and sent teachers of the Law through its towns",
+      "references": [
+        "2 Chronicles 17:3-9"
+      ]
+    },
+    {
+      "person_id": "jehu",
+      "name": "Jehu",
+      "gender": "male"
+    },
+    {
+      "person_id": "jeremiah-6",
+      "name": "Jeremiah",
+      "gender": "male",
+      "role": "prophesied through its final decades and its fall",
+      "references": [
+        "Jeremiah 1:1-3"
+      ]
+    },
+    {
+      "person_id": "joash-3",
+      "name": "Joash",
+      "gender": "male"
+    },
+    {
+      "person_id": "joel-11",
+      "name": "Joel",
+      "gender": "male"
+    },
+    {
+      "person_id": "josiah",
+      "name": "Josiah",
+      "gender": "male",
+      "role": "its king, who found the Book of the Law and renewed the covenant",
+      "references": [
+        "2 Kings 22:8-13",
+        "2 Kings 23:1-3"
+      ]
+    },
+    {
+      "person_id": "jotham-2",
+      "name": "Jotham",
+      "gender": "male",
+      "role": "its king, who did right but did not remove the high places",
+      "references": [
+        "2 Kings 15:32-35"
+      ]
+    },
+    {
+      "person_id": "maacah-3",
+      "name": "Maacah",
+      "gender": "female"
+    },
+    {
+      "person_id": "maaseiah-4",
+      "name": "Maaseiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "manasseh-3",
+      "name": "Manasseh",
+      "gender": "male",
+      "role": "its most idolatrous king, who repented in Babylonian captivity",
+      "references": [
+        "2 Chronicles 33:1-13"
+      ]
+    },
+    {
+      "person_id": "micah-5",
+      "name": "Micah",
+      "gender": "male"
+    },
+    {
+      "person_id": "michael-7",
+      "name": "Michael",
+      "gender": "male"
+    },
+    {
+      "person_id": "nethanel-6",
+      "name": "Nethanel",
+      "gender": "male"
+    },
+    {
+      "person_id": "nethaniah-3",
+      "name": "Nethaniah",
+      "gender": "male"
+    },
+    {
+      "person_id": "obadiah-5",
+      "name": "Obadiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-7",
+      "name": "Pharaoh",
+      "gender": "male"
+    },
+    {
+      "person_id": "pharaoh-neco",
+      "name": "Pharaoh Neco",
+      "gender": "male"
+    },
+    {
+      "person_id": "rehoboam",
+      "name": "Rehoboam",
+      "gender": "male",
+      "role": "its first king, in whose reign the kingdom split from Israel",
+      "references": [
+        "1 Kings 12:17-19"
+      ]
+    },
+    {
+      "person_id": "sephatiah",
+      "name": "Sephatiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "shemaiah",
+      "name": "Shemaiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "tiglath-pileser",
+      "name": "Tiglath-pileser",
+      "gender": "male"
+    },
+    {
+      "person_id": "zedekiah-2",
+      "name": "Zedekiah",
+      "gender": "male",
+      "role": "its last king, in whose reign Jerusalem fell to Babylon",
+      "references": [
+        "2 Kings 25:1-7"
+      ]
+    },
+    {
+      "person_id": "zephaniah-3",
+      "name": "Zephaniah",
+      "gender": "male",
+      "role": "prophesied to this kingdom during Josiah's reign",
+      "references": [
+        "Zephaniah 1:1"
+      ]
+    }
+  ],
+  "description": "The southern of the two kingdoms Israel split into after Solomon's death, made up of the tribes of Judah and Benjamin and ruled continuously by David's descendants from Jerusalem (1 Kings 12; 2 Chronicles 11:1). Judah outlasted the northern kingdom by over a century, surviving Assyria's 722 BC conquest of Israel but eventually falling to Babylon, whose armies destroyed Jerusalem and its temple in 586 BC and deported much of the population (2 Kings 25). Most of the writing prophets \u2014 Isaiah, Jeremiah, Micah, Zephaniah, Habakkuk \u2014 ministered to Judah's kings and people in this period, warning of coming judgment and, beyond it, of restoration. The kingdom's name outlived its independence, giving later Scripture the term \"Jew.\"",
+  "family_friendly_summary": "After wise King Solomon died, God's people split into two kingdoms. Judah was the kingdom in the south, ruled by kings from David's own family, with Jerusalem as its capital. Some of Judah's kings loved God and some did not. Many prophets, like Isaiah and Jeremiah, warned Judah's kings to turn back to God. Eventually, Judah was conquered by Babylon."
+}

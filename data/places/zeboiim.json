@@ -1,0 +1,29 @@
+{
+  "place_id": "zeboiim",
+  "name": "Zeboiim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 10:19",
+  "references": [
+    "Genesis 10:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Like Sodom and Gomorrah, likely near the Dead Sea, but no site is confidently confirmed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "shemeber",
+      "name": "Shemeber",
+      "gender": "male"
+    }
+  ],
+  "description": "One of the cities of the plain, allied with Sodom under its king Shemeber, destroyed alongside it (Genesis 14:2; Deuteronomy 29:23)."
+}

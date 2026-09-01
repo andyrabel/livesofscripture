@@ -1,0 +1,33 @@
+{
+  "place_id": "valley-of-sorek",
+  "name": "Valley of Sorek",
+  "alt_names": [],
+  "tier": "full",
+  "type": "valley",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 16:4",
+  "references": [
+    "Judges 16:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "delilah",
+      "name": "Delilah",
+      "gender": "female",
+      "role": "the woman Samson loved here, bribed to pry out the secret of his strength",
+      "references": [
+        "Judges 16:4-5"
+      ]
+    }
+  ],
+  "description": "Home of Delilah, the woman Samson loved who was bribed by Philistine rulers to discover and betray the secret of his strength (Judges 16:4-20)."
+}

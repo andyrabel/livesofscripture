@@ -1,0 +1,29 @@
+{
+  "place_id": "ellasar",
+  "name": "Ellasar",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "mesopotamia",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 14:1",
+  "references": [
+    "Genesis 14:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "arioch",
+      "name": "Arioch",
+      "gender": "male"
+    }
+  ],
+  "description": "The kingdom of Arioch, one of four kings who joined Chedorlaomer's coalition against Sodom and Gomorrah (Genesis 14:1-9)."
+}

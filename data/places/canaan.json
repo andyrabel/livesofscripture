@@ -1,0 +1,263 @@
+{
+  "place_id": "canaan",
+  "name": "Canaan",
+  "alt_names": [
+    "The Promised Land"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Primeval History",
+    "Patriarchal",
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Genesis 9:18",
+  "references": [
+    "Genesis 9:18",
+    "Genesis 12:5",
+    "Genesis 15:18-21",
+    "Joshua 1-12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 37,
+  "related_people": [
+    {
+      "person_id": "abraham",
+      "name": "Abraham",
+      "gender": "male",
+      "role": "called to this land and given it by covenant for his offspring",
+      "references": [
+        "Genesis 12:5-7"
+      ]
+    },
+    {
+      "person_id": "asher",
+      "name": "Asher",
+      "gender": "male"
+    },
+    {
+      "person_id": "benjamin",
+      "name": "Benjamin",
+      "gender": "male"
+    },
+    {
+      "person_id": "bilhah",
+      "name": "Bilhah",
+      "gender": "female"
+    },
+    {
+      "person_id": "canaan",
+      "name": "Canaan",
+      "gender": "male"
+    },
+    {
+      "person_id": "dan",
+      "name": "Dan",
+      "gender": "male"
+    },
+    {
+      "person_id": "eleazar",
+      "name": "Eleazar",
+      "gender": "male"
+    },
+    {
+      "person_id": "ephraim",
+      "name": "Ephraim",
+      "gender": "male"
+    },
+    {
+      "person_id": "er",
+      "name": "Er",
+      "gender": "male"
+    },
+    {
+      "person_id": "esau",
+      "name": "Esau",
+      "gender": "male",
+      "role": "Isaac's elder son, who moved out of this land to settle in Seir",
+      "references": [
+        "Genesis 36:6-8"
+      ]
+    },
+    {
+      "person_id": "gad",
+      "name": "Gad",
+      "gender": "male"
+    },
+    {
+      "person_id": "gaddi",
+      "name": "Gaddi",
+      "gender": "male"
+    },
+    {
+      "person_id": "gaddiel",
+      "name": "Gaddiel",
+      "gender": "male"
+    },
+    {
+      "person_id": "geuel",
+      "name": "Geuel",
+      "gender": "male"
+    },
+    {
+      "person_id": "hagar",
+      "name": "Hagar",
+      "gender": "female",
+      "role": "Sarah's servant, given to Abram in this land to bear a son",
+      "references": [
+        "Genesis 16:3"
+      ]
+    },
+    {
+      "person_id": "isaac",
+      "name": "Isaac",
+      "gender": "male",
+      "role": "born and lived his whole life in this land",
+      "references": [
+        "Genesis 26:1-6"
+      ]
+    },
+    {
+      "person_id": "ishmael",
+      "name": "Ishmael",
+      "gender": "male",
+      "role": "Abram's son by Hagar, born in this land",
+      "references": [
+        "Genesis 16:15-16"
+      ]
+    },
+    {
+      "person_id": "issachar",
+      "name": "Issachar",
+      "gender": "male"
+    },
+    {
+      "person_id": "joseph",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "sold by his brothers out of this land into slavery in Egypt",
+      "references": [
+        "Genesis 37:12-28"
+      ]
+    },
+    {
+      "person_id": "joshua",
+      "name": "Joshua",
+      "gender": "male",
+      "role": "led Israel across the Jordan to conquer and divide this land",
+      "references": [
+        "Joshua 1:2-6",
+        "Joshua 11:23"
+      ]
+    },
+    {
+      "person_id": "judah",
+      "name": "Judah",
+      "gender": "male",
+      "role": "Jacob's fourth son, who married and raised sons in this land",
+      "references": [
+        "Genesis 38:1-5"
+      ]
+    },
+    {
+      "person_id": "leah",
+      "name": "Leah",
+      "gender": "female"
+    },
+    {
+      "person_id": "levi",
+      "name": "Levi",
+      "gender": "male"
+    },
+    {
+      "person_id": "lot",
+      "name": "Lot",
+      "gender": "male",
+      "role": "came to this land with Abram, then chose the Jordan plain",
+      "references": [
+        "Genesis 13:11-12"
+      ]
+    },
+    {
+      "person_id": "naphtali",
+      "name": "Naphtali",
+      "gender": "male"
+    },
+    {
+      "person_id": "onan",
+      "name": "Onan",
+      "gender": "male"
+    },
+    {
+      "person_id": "perez",
+      "name": "Perez",
+      "gender": "male",
+      "role": "son of Judah, born in this land, an ancestor of David",
+      "references": [
+        "Genesis 38:29"
+      ]
+    },
+    {
+      "person_id": "phinehas",
+      "name": "Phinehas",
+      "gender": "male"
+    },
+    {
+      "person_id": "rachel",
+      "name": "Rachel",
+      "gender": "female"
+    },
+    {
+      "person_id": "reuben",
+      "name": "Reuben",
+      "gender": "male"
+    },
+    {
+      "person_id": "sarah",
+      "name": "Sarah",
+      "gender": "female",
+      "role": "came to this land with Abraham and was buried at Machpelah",
+      "references": [
+        "Genesis 23:2",
+        "Genesis 23:19"
+      ]
+    },
+    {
+      "person_id": "shelah-2",
+      "name": "Shelah",
+      "gender": "male"
+    },
+    {
+      "person_id": "simeon",
+      "name": "Simeon",
+      "gender": "male"
+    },
+    {
+      "person_id": "tamar",
+      "name": "Tamar",
+      "gender": "male"
+    },
+    {
+      "person_id": "zebulun",
+      "name": "Zebulun",
+      "gender": "male"
+    },
+    {
+      "person_id": "zelophehad",
+      "name": "Zelophehad",
+      "gender": "male"
+    },
+    {
+      "person_id": "zilpah",
+      "name": "Zilpah",
+      "gender": "female"
+    }
+  ],
+  "description": "The land between the Mediterranean and the Jordan promised to Abraham's descendants (Genesis 12:5-7; 15:18-21), named for Noah's grandson whose descendants settled it (Genesis 9:18; 10:15-19). Abraham, Isaac, and Jacob lived there as resident foreigners without owning it outright, apart from the burial cave at Machpelah. After the exodus, Joshua led Israel's conquest and settlement of Canaan, dividing it among the twelve tribes (Joshua 1-12; 13-21) \u2014 a land whose Canaanite population's idolatry and practices Israel was repeatedly warned not to adopt. \"Canaan\" as a name for the land largely gives way to \"Israel\" once the tribes are settled, though it remains the standard term for the pre-conquest and patriarchal-era territory throughout Genesis.",
+  "family_friendly_summary": "Canaan was the land God promised to give to Abraham and his family, long before they lived there. Abraham, Isaac, and Jacob traveled through Canaan but didn't fully own it yet. Many years later, after the exodus from Egypt, Joshua led the people of Israel into Canaan and they finally settled there, dividing the land among the twelve tribes."
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "region-of-the-gerasenes",
+  "name": "Region of the Gerasenes",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Mark 5:1",
+  "references": [
+    "Mark 5:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "The exact town this region is named for (Gerasa, Gadara, or Gergesa, per differing ancient manuscripts) is debated, though the general area east of the Sea of Galilee is agreed on."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "legion",
+      "name": "Legion",
+      "gender": "male",
+      "role": "the name of the demons Jesus cast out of a man here and sent into the pigs",
+      "references": [
+        "Mark 5:9-13"
+      ]
+    }
+  ],
+  "description": "The territory east of the Sea of Galilee where Jesus cast a legion of demons out of a tormented man and into a herd of pigs, which then rushed into the lake (Mark 5:1-20)."
+}

@@ -1,0 +1,69 @@
+{
+  "place_id": "judea",
+  "name": "Judea",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
+  "first_reference": "Ezra 5:8",
+  "references": [
+    "Ezra 5:8",
+    "Matthew 2:1",
+    "Luke 3:1",
+    "John 4:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "archelaus",
+      "name": "Archelaus",
+      "gender": "male",
+      "role": "the harsh ruler of this region whom Joseph avoided, settling in Nazareth instead",
+      "references": [
+        "Matthew 2:22"
+      ]
+    },
+    {
+      "person_id": "caesar",
+      "name": "Caesar",
+      "gender": "male"
+    },
+    {
+      "person_id": "judas-2",
+      "name": "Judas",
+      "gender": "male",
+      "role": "betrayed Jesus to the authorities of this region for thirty pieces of silver",
+      "references": [
+        "Matthew 26:14-16"
+      ]
+    },
+    {
+      "person_id": "pilate",
+      "name": "Pilate",
+      "gender": "male",
+      "role": "Rome's governor of this region, who sentenced Jesus to death",
+      "references": [
+        "Luke 3:1",
+        "Luke 23:24"
+      ]
+    },
+    {
+      "person_id": "thomas",
+      "name": "Thomas",
+      "gender": "male",
+      "role": "urged the disciples to go with Jesus back into this region despite the danger",
+      "references": [
+        "John 11:7-16"
+      ]
+    }
+  ],
+  "description": "The Roman-era name for the southern portion of the former kingdom of Judah, including Jerusalem, governed at different times by Herod the Great, his son Archelaus, and Roman prefects including Pontius Pilate (Matthew 2:1; Luke 3:1). Jesus's public ministry moved between Judea and Galilee, and it was in Judea's wilderness that John the Baptist preached (Matthew 3:1)."
+}

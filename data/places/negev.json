@@ -1,0 +1,29 @@
+{
+  "place_id": "negev",
+  "name": "Negev",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Genesis 12:9",
+  "references": [
+    "Genesis 12:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "\"Negev\" (meaning \"south\" or \"dry land\") names the arid southern region of Canaan generally, not one specific site."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "achsah",
+      "name": "Achsah",
+      "gender": "female"
+    }
+  ],
+  "description": "The dry southern region of Canaan through which Abraham traveled (Genesis 12:9), later part of Judah's inheritance including the town given to Achsah with springs of water (Joshua 15:19)."
+}

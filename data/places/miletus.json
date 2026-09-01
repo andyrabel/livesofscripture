@@ -1,0 +1,29 @@
+{
+  "place_id": "miletus",
+  "name": "Miletus",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 20:15",
+  "references": [
+    "Acts 20:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "trophimus",
+      "name": "Trophimus",
+      "gender": "male"
+    }
+  ],
+  "description": "A port city where Paul, sailing past Ephesus to save time, called for that church's elders to meet him and gave them his farewell address, warning of coming false teachers (Acts 20:15-38); Trophimus was later left there sick (2 Timothy 4:20)."
+}

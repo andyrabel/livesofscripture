@@ -1,0 +1,29 @@
+{
+  "place_id": "bezek",
+  "name": "Bezek",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 1:4",
+  "references": [
+    "Judges 1:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "adoni-bezek",
+      "name": "Adoni-bezek",
+      "gender": "male"
+    }
+  ],
+  "description": "The site of an early Israelite victory over Canaanite and Perizzite forces, where the defeated king Adoni-bezek was captured and had his thumbs and big toes cut off, as he himself said he had done to seventy other kings (Judges 1:4-7)."
+}

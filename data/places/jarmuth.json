@@ -1,0 +1,29 @@
+{
+  "place_id": "jarmuth",
+  "name": "Jarmuth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 10:3",
+  "references": [
+    "Joshua 10:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "piram",
+      "name": "Piram",
+      "gender": "male"
+    }
+  ],
+  "description": "One of five Amorite cities whose king Piram allied against Gibeon and was defeated by Joshua (Joshua 10:3-27)."
+}

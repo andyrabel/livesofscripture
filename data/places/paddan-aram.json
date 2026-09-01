@@ -1,0 +1,165 @@
+{
+  "place_id": "paddan-aram",
+  "name": "Paddan-aram",
+  "alt_names": [
+    "Aram-naharaim (in some contexts)"
+  ],
+  "tier": "full",
+  "type": "region",
+  "region": "mesopotamia",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 25:20",
+  "references": [
+    "Genesis 25:20",
+    "Genesis 28:2-5",
+    "Genesis 29-31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 15,
+  "related_people": [
+    {
+      "person_id": "asher",
+      "name": "Asher",
+      "gender": "male",
+      "role": "born here to Jacob and Leah's servant Zilpah",
+      "references": [
+        "Genesis 30:12-13"
+      ]
+    },
+    {
+      "person_id": "bethuel",
+      "name": "Bethuel",
+      "gender": "male",
+      "role": "the Aramean of this region, father of Rebekah and Laban",
+      "references": [
+        "Genesis 25:20"
+      ]
+    },
+    {
+      "person_id": "bilhah",
+      "name": "Bilhah",
+      "gender": "female",
+      "role": "Rachel's servant here, who bore Dan and Naphtali to Jacob",
+      "references": [
+        "Genesis 30:3-8"
+      ]
+    },
+    {
+      "person_id": "dan",
+      "name": "Dan",
+      "gender": "male",
+      "role": "born here to Jacob and Bilhah",
+      "references": [
+        "Genesis 30:5-6"
+      ]
+    },
+    {
+      "person_id": "gad",
+      "name": "Gad",
+      "gender": "male",
+      "role": "born here to Jacob and Zilpah",
+      "references": [
+        "Genesis 30:10-11"
+      ]
+    },
+    {
+      "person_id": "israel",
+      "name": "Israel",
+      "gender": "male",
+      "role": "served Laban here twenty years and gained his wives, children, and flocks",
+      "references": [
+        "Genesis 28:2",
+        "Genesis 31:38"
+      ]
+    },
+    {
+      "person_id": "issachar",
+      "name": "Issachar",
+      "gender": "male",
+      "role": "born here to Jacob and Leah",
+      "references": [
+        "Genesis 30:17-18"
+      ]
+    },
+    {
+      "person_id": "laban",
+      "name": "Laban",
+      "gender": "male",
+      "role": "Jacob's uncle here, who tricked him into marrying Leah first",
+      "references": [
+        "Genesis 29:15-27"
+      ]
+    },
+    {
+      "person_id": "leah",
+      "name": "Leah",
+      "gender": "female",
+      "role": "Laban's elder daughter here, given to Jacob by her father's trick",
+      "references": [
+        "Genesis 29:23-25"
+      ]
+    },
+    {
+      "person_id": "naphtali",
+      "name": "Naphtali",
+      "gender": "male",
+      "role": "born here to Jacob and Bilhah",
+      "references": [
+        "Genesis 30:7-8"
+      ]
+    },
+    {
+      "person_id": "rachel",
+      "name": "Rachel",
+      "gender": "female",
+      "role": "Laban's younger daughter here, for whom Jacob served fourteen years",
+      "references": [
+        "Genesis 29:18-28"
+      ]
+    },
+    {
+      "person_id": "rebekah",
+      "name": "Rebekah",
+      "gender": "female",
+      "role": "sought from this region as a wife for Isaac",
+      "references": [
+        "Genesis 25:20"
+      ]
+    },
+    {
+      "person_id": "reuben",
+      "name": "Reuben",
+      "gender": "male",
+      "role": "Jacob's firstborn, born here to Leah",
+      "references": [
+        "Genesis 29:31-32"
+      ]
+    },
+    {
+      "person_id": "zebulun",
+      "name": "Zebulun",
+      "gender": "male",
+      "role": "born here to Jacob and Leah",
+      "references": [
+        "Genesis 30:19-20"
+      ]
+    },
+    {
+      "person_id": "zilpah",
+      "name": "Zilpah",
+      "gender": "female",
+      "role": "Leah's servant here, who bore Gad and Asher to Jacob",
+      "references": [
+        "Genesis 30:9-13"
+      ]
+    }
+  ],
+  "description": "The upper-Mesopotamian region around Haran where Abraham's brother Nahor's family settled after leaving Ur, and where Isaac sent his servant to find Rebekah (Genesis 24) and later sent Jacob himself to find a wife and escape Esau's anger (Genesis 28:2-5). Jacob spent twenty years there working for his uncle Laban, marrying Leah and Rachel, and fathering most of his children before fleeing back to Canaan (Genesis 29-31). The name distinguishes this specific district from the broader term \"Aram\" used elsewhere for Syrian territory further west and north.",
+  "family_friendly_summary": "Paddan-aram was the faraway land where Abraham's relatives lived. Isaac's servant traveled there to find Rebekah to be Isaac's wife, and later Jacob himself went there to escape his angry brother Esau. Jacob lived there for twenty years, working for his uncle Laban and marrying Leah and Rachel, before finally returning home to Canaan."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "aijalon-of-zebulun",
+  "name": "Aijalon (of Zebulun)",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 12:12",
+  "references": [
+    "Judges 12:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Distinct from the better-known Valley of Aijalon in Dan (Joshua 10:12)."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "elon-3",
+      "name": "Elon",
+      "gender": "male"
+    }
+  ],
+  "description": "A town in Zebulun's territory where the judge Elon was buried after judging Israel ten years (Judges 12:11-12)."
+}

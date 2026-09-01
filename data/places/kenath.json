@@ -1,0 +1,29 @@
+{
+  "place_id": "kenath",
+  "name": "Kenath",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Numbers 32:42",
+  "references": [
+    "Numbers 32:42"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "nobah",
+      "name": "Nobah",
+      "gender": "male"
+    }
+  ],
+  "description": "A town in Bashan captured and renamed by Nobah, a Manassite leader, after himself (Numbers 32:42)."
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "chebar-river",
+  "name": "Chebar River",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "mesopotamia",
+  "eras": [
+    "Exile"
+  ],
+  "first_reference": "Ezekiel 1:1",
+  "references": [
+    "Ezekiel 1:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Likely an irrigation canal off the Euphrates near Babylon, but not confidently identified with a specific modern waterway."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "ezekiel",
+      "name": "Ezekiel",
+      "gender": "male"
+    }
+  ],
+  "description": "The river in Babylonia beside which the exiled priest Ezekiel received his opening vision of God's glory and his call as a prophet (Ezekiel 1:1-3)."
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "laodicea",
+  "name": "Laodicea",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Colossians 2:1",
+  "references": [
+    "Colossians 2:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "nympha",
+      "name": "Nympha",
+      "gender": "female",
+      "role": "hosted a house church that Paul greets in the letter to the Colossians",
+      "references": [
+        "Colossians 4:15"
+      ]
+    }
+  ],
+  "description": "A wealthy city in the Lycus Valley near Colossae, home to Nympha's house church (Colossians 4:15-16), later addressed in Revelation and rebuked for being lukewarm \u2014 \"neither cold nor hot\" (Revelation 3:14-22)."
+}

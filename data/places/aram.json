@@ -1,0 +1,85 @@
+{
+  "place_id": "aram",
+  "name": "Aram",
+  "alt_names": [
+    "Syria"
+  ],
+  "tier": "full",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy",
+    "Divided Monarchy"
+  ],
+  "first_reference": "2 Samuel 8:5",
+  "references": [
+    "2 Samuel 8:5",
+    "1 Kings 20",
+    "2 Kings 5",
+    "2 Kings 8:7-15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "ben-hadad",
+      "name": "Ben-hadad",
+      "gender": "male",
+      "role": "a king of this land, who warred with and besieged Israel",
+      "references": [
+        "1 Kings 20:1"
+      ]
+    },
+    {
+      "person_id": "ben-hadad-2",
+      "name": "Ben-hadad",
+      "gender": "male",
+      "role": "Hazael's son and its king, from whom Israel recovered lost towns",
+      "references": [
+        "2 Kings 13:24-25"
+      ]
+    },
+    {
+      "person_id": "hadadezer",
+      "name": "Hadadezer",
+      "gender": "male",
+      "role": "king of Zobah in this region, defeated by David toward the Euphrates",
+      "references": [
+        "2 Samuel 8:3"
+      ]
+    },
+    {
+      "person_id": "hazael",
+      "name": "Hazael",
+      "gender": "male",
+      "role": "anointed at God's word to be its king, and a long oppressor of Israel",
+      "references": [
+        "1 Kings 19:15",
+        "2 Kings 8:12-15"
+      ]
+    },
+    {
+      "person_id": "naaman-2",
+      "name": "Naaman",
+      "gender": "male",
+      "role": "commander of this land's army, healed of leprosy by Elisha in Israel",
+      "references": [
+        "2 Kings 5:1-14"
+      ]
+    },
+    {
+      "person_id": "rezin",
+      "name": "Rezin",
+      "gender": "male",
+      "role": "its king, who allied with Israel against Judah before Assyria killed him",
+      "references": [
+        "2 Kings 16:5-9"
+      ]
+    }
+  ],
+  "description": "The Aramean kingdom centered on Damascus, a recurring military rival of Israel and Judah throughout the monarchy period. David subdued Aramean forces allied against him (2 Samuel 8:5-6; 10), and later kings like Ben-hadad and Hazael repeatedly warred with Israel \u2014 Naaman, an Aramean army commander healed of leprosy through Elisha, being a notable exception to the hostility (2 Kings 5)."
+}

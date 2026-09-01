@@ -1,0 +1,56 @@
+{
+  "place_id": "haran",
+  "name": "Haran",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "mesopotamia",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 11:31",
+  "references": [
+    "Genesis 11:31",
+    "Genesis 12:4-5",
+    "Genesis 27:43",
+    "Genesis 29:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Harran, Turkey",
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "abraham",
+      "name": "Abraham",
+      "gender": "male",
+      "role": "settled here with Terah, then left at God's call for Canaan",
+      "references": [
+        "Genesis 11:31",
+        "Genesis 12:4"
+      ]
+    },
+    {
+      "person_id": "bethuel",
+      "name": "Bethuel",
+      "gender": "male",
+      "role": "an Aramean of this region who consented to Rebekah's marriage to Isaac",
+      "references": [
+        "Genesis 24:50"
+      ]
+    },
+    {
+      "person_id": "sarah",
+      "name": "Sarah",
+      "gender": "female",
+      "role": "left this city with Abraham for the land God promised",
+      "references": [
+        "Genesis 11:31",
+        "Genesis 12:5"
+      ]
+    }
+  ],
+  "description": "A city in upper Mesopotamia where Abraham's family settled on their way from Ur, and where Abraham's father Terah died before Abraham continued on to Canaan at God's call (Genesis 11:31-12:5). Both Isaac's servant and, later, Jacob traveled back to Haran's vicinity to find wives among Abraham's extended family there (Genesis 24; 27:43-29:4)."
+}

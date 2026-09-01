@@ -1,0 +1,33 @@
+{
+  "place_id": "jabesh-gilead",
+  "name": "Jabesh-gilead",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Judges 21:8",
+  "references": [
+    "Judges 21:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "nahash",
+      "name": "Nahash",
+      "gender": "male",
+      "role": "the Ammonite king whose siege of this town roused Saul to his first victory",
+      "references": [
+        "1 Samuel 11:1-11"
+      ]
+    }
+  ],
+  "description": "A town Ammon's king Nahash threatened to besiege on the humiliating condition of gouging out every resident's right eye, until the newly chosen King Saul rallied Israel to rescue it (1 Samuel 11:1-11)."
+}

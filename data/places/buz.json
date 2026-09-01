@@ -1,0 +1,29 @@
+{
+  "place_id": "buz",
+  "name": "Buz",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 22:21",
+  "references": [
+    "Genesis 22:21"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Named for a son of Abraham's brother Nahor (Genesis 22:20-21); its exact location is not fixed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "elihu",
+      "name": "Elihu",
+      "gender": "male"
+    }
+  ],
+  "description": "The homeland implied by Elihu \"the Buzite,\" the youngest of Job's friends, who speaks in Job 32-37."
+}

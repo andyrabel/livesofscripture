@@ -1,0 +1,74 @@
+{
+  "place_id": "gilgal",
+  "name": "Gilgal",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges",
+    "United Monarchy",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Joshua 4:19",
+  "references": [
+    "Joshua 4:19",
+    "Joshua 5:2-12",
+    "1 Samuel 11:14-15",
+    "1 Samuel 15:10-33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "This is the Gilgal near Jericho where Israel first camped after crossing the Jordan. A second Gilgal in the hill country near Bethel is where Elijah and Elisha's prophetic circuit passed (2 Kings 2:1; 4:38) and may be the place meant for Elisha here \u2014 the two sites are sometimes conflated, but this entry follows the better-attested Gilgal of Joshua and Samuel."
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "agag-2",
+      "name": "Agag",
+      "gender": "male",
+      "role": "the Amalekite king whom Samuel executed before the LORD here",
+      "references": [
+        "1 Samuel 15:33"
+      ]
+    },
+    {
+      "person_id": "chimham",
+      "name": "Chimham",
+      "gender": "male",
+      "role": "escorted King David from here after Absalom's revolt",
+      "references": [
+        "2 Samuel 19:40"
+      ]
+    },
+    {
+      "person_id": "ehud",
+      "name": "Ehud",
+      "gender": "male",
+      "role": "turned back from the carved images near here to kill Eglon",
+      "references": [
+        "Judges 3:19"
+      ]
+    },
+    {
+      "person_id": "elisha",
+      "name": "Elisha",
+      "gender": "male",
+      "role": "at the prophets' community here, purified the poisoned stew",
+      "references": [
+        "2 Kings 4:38-41"
+      ]
+    },
+    {
+      "person_id": "samuel",
+      "name": "Samuel",
+      "gender": "male",
+      "role": "judged Israel on the yearly circuit that included this town",
+      "references": [
+        "1 Samuel 7:16"
+      ]
+    }
+  ],
+  "description": "Israel's first camp in Canaan after crossing the Jordan, where the twelve memorial stones were set up and the nation was circumcised and kept its first Passover in the land (Joshua 4:19-5:12). Saul was confirmed as king there (1 Samuel 11:14-15), and it was at Gilgal that Samuel confronted Saul for disobeying God's instructions regarding Amalek and announced that his kingdom would be torn from him (1 Samuel 15:10-33)."
+}

@@ -1,0 +1,73 @@
+{
+  "place_id": "nineveh",
+  "name": "Nineveh",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "mesopotamia",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "Genesis 10:11",
+  "references": [
+    "Genesis 10:11",
+    "Jonah 1:2",
+    "Jonah 3",
+    "Nahum 1:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "near Mosul, Iraq",
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "adrammelech",
+      "name": "Adrammelech",
+      "gender": "male",
+      "role": "murdered his father Sennacherib in this city and fled",
+      "references": [
+        "2 Kings 19:36-37"
+      ]
+    },
+    {
+      "person_id": "jonah",
+      "name": "Jonah",
+      "gender": "male",
+      "role": "sent to preach to this city, which repented at his message",
+      "references": [
+        "Jonah 3:3-5"
+      ]
+    },
+    {
+      "person_id": "nahum",
+      "name": "Nahum",
+      "gender": "male",
+      "role": "prophesied the fall of this city",
+      "references": [
+        "Nahum 1:1",
+        "Nahum 3:7"
+      ]
+    },
+    {
+      "person_id": "sennacherib",
+      "name": "Sennacherib",
+      "gender": "male",
+      "role": "Assyria's king, who withdrew to this city and was murdered there by his sons",
+      "references": [
+        "2 Kings 19:36-37"
+      ]
+    },
+    {
+      "person_id": "sharezer",
+      "name": "Sharezer",
+      "gender": "male",
+      "role": "murdered his father Sennacherib in this city and fled",
+      "references": [
+        "2 Kings 19:37"
+      ]
+    }
+  ],
+  "description": "Capital of the Assyrian Empire, the city God sent Jonah to warn of coming judgment (Jonah 1:2). Jonah initially fled the assignment, but when he finally preached there the entire city \u2014 from the king down \u2014 repented, and God relented from destroying it (Jonah 3). A century or so later, the prophet Nahum announced Nineveh's coming, and final, destruction, which came at the hands of Babylon and its allies in 612 BC (Nahum 1:1; 3:1-19)."
+}

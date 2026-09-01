@@ -1,0 +1,29 @@
+{
+  "place_id": "harosheth-hagoyim",
+  "name": "Harosheth-hagoyim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 4:2",
+  "references": [
+    "Judges 4:2"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "sisera",
+      "name": "Sisera",
+      "gender": "male"
+    }
+  ],
+  "description": "The base of Sisera, commander of Canaanite king Jabin's army, before his defeat by Barak and Deborah's forces (Judges 4:2, 13-16)."
+}

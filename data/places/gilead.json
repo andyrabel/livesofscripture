@@ -1,0 +1,103 @@
+{
+  "place_id": "gilead",
+  "name": "Gilead",
+  "alt_names": [],
+  "tier": "full",
+  "type": "region",
+  "region": "moab-transjordan",
+  "eras": [
+    "Patriarchal",
+    "Exodus/Wilderness",
+    "Judges",
+    "United Monarchy",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Genesis 31:21",
+  "references": [
+    "Genesis 31:21",
+    "Judges 10-12",
+    "1 Kings 17:1",
+    "2 Kings 10:32-33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 8,
+  "related_people": [
+    {
+      "person_id": "chimham",
+      "name": "Chimham",
+      "gender": "male",
+      "role": "Barzillai's son from this region, taken into David's care",
+      "references": [
+        "2 Samuel 19:37-40"
+      ]
+    },
+    {
+      "person_id": "elijah",
+      "name": "Elijah",
+      "gender": "male",
+      "role": "a Tishbite of this region, who announced the drought to Ahab",
+      "references": [
+        "1 Kings 17:1"
+      ]
+    },
+    {
+      "person_id": "gilead-2",
+      "name": "Gilead",
+      "gender": "male",
+      "role": "father of the judge Jephthah, of this region",
+      "references": [
+        "Judges 11:1"
+      ]
+    },
+    {
+      "person_id": "jair",
+      "name": "Jair",
+      "gender": "male",
+      "role": "captured towns in this region and named them after himself",
+      "references": [
+        "Numbers 32:41"
+      ]
+    },
+    {
+      "person_id": "jair-2",
+      "name": "Jair",
+      "gender": "male",
+      "role": "a judge of this region, whose thirty sons ruled thirty of its towns",
+      "references": [
+        "Judges 10:3-4"
+      ]
+    },
+    {
+      "person_id": "jephthah",
+      "name": "Jephthah",
+      "gender": "male",
+      "role": "the outcast of this region, called back to lead it against Ammon",
+      "references": [
+        "Judges 11:4-11"
+      ]
+    },
+    {
+      "person_id": "machir",
+      "name": "Machir",
+      "gender": "male",
+      "role": "of Manasseh, whose descendants conquered and settled this region",
+      "references": [
+        "Numbers 32:39-40"
+      ]
+    },
+    {
+      "person_id": "nobah",
+      "name": "Nobah",
+      "gender": "male",
+      "role": "of Manasseh, who took Kenath in this region and renamed it for himself",
+      "references": [
+        "Numbers 32:42"
+      ]
+    }
+  ],
+  "description": "A hilly, forested region east of the Jordan settled by the tribes of Gad, Reuben, and half of Manasseh, whose territory it shared \u2014 which is why Scripture attaches individuals to Gilead without always specifying a single tribe. Jephthah led Gilead's fighting men against Ammon (Judges 10-12), and Elijah was \"of the settlers of Gilead\" (1 Kings 17:1). It was known for its balm, a valuable healing resin (Genesis 37:25; Jeremiah 8:22)."
+}

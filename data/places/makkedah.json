@@ -1,0 +1,64 @@
+{
+  "place_id": "makkedah",
+  "name": "Makkedah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
+  "first_reference": "Joshua 10:10",
+  "references": [
+    "Joshua 10:10",
+    "Joshua 10:16-28"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Site not confidently identified with a modern location."
+  },
+  "modern_name": null,
+  "n_people": 4,
+  "related_people": [
+    {
+      "person_id": "adoni-zedek",
+      "name": "Adoni-zedek",
+      "gender": "male",
+      "role": "king of Jerusalem, caught in a cave here and executed by Joshua",
+      "references": [
+        "Joshua 10:16-26"
+      ]
+    },
+    {
+      "person_id": "debir",
+      "name": "Debir",
+      "gender": "male",
+      "role": "king of Eglon, executed with the coalition kings at this town",
+      "references": [
+        "Joshua 10:3",
+        "Joshua 10:23-26"
+      ]
+    },
+    {
+      "person_id": "hoham",
+      "name": "Hoham",
+      "gender": "male",
+      "role": "king of Hebron, executed with the coalition kings at this town",
+      "references": [
+        "Joshua 10:3",
+        "Joshua 10:23-26"
+      ]
+    },
+    {
+      "person_id": "piram",
+      "name": "Piram",
+      "gender": "male",
+      "role": "king of Jarmuth, executed with the coalition kings at this town",
+      "references": [
+        "Joshua 10:3",
+        "Joshua 10:23-26"
+      ]
+    }
+  ],
+  "description": "A town near which five Amorite kings, defeated in Joshua's southern campaign, hid in a cave and were captured, executed, and buried by Joshua (Joshua 10:16-28)."
+}

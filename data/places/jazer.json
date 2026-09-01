@@ -1,0 +1,29 @@
+{
+  "place_id": "jazer",
+  "name": "Jazer",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Numbers 21:32",
+  "references": [
+    "Numbers 21:32"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "jeriah",
+      "name": "Jeriah",
+      "gender": "male"
+    }
+  ],
+  "description": "A Transjordan town in Gilead's territory whose capture is briefly noted during Israel's approach to Canaan (Numbers 21:32); later assigned within Gad's inheritance (Joshua 21:39)."
+}

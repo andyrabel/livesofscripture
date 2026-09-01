@@ -1,0 +1,34 @@
+{
+  "place_id": "gallim",
+  "name": "Gallim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "1 Samuel 25:44",
+  "references": [
+    "1 Samuel 25:44"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "michal",
+      "name": "Michal",
+      "gender": "female"
+    },
+    {
+      "person_id": "palti-2",
+      "name": "Palti",
+      "gender": "male"
+    }
+  ],
+  "description": "The town Saul gave his daughter Michal to in marriage to Palti after taking her from David (1 Samuel 25:44)."
+}

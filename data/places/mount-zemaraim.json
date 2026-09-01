@@ -1,0 +1,29 @@
+{
+  "place_id": "mount-zemaraim",
+  "name": "Mount Zemaraim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "2 Chronicles 13:4",
+  "references": [
+    "2 Chronicles 13:4"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "abijah-3",
+      "name": "Abijah",
+      "gender": "male"
+    }
+  ],
+  "description": "A hill in Ephraim's territory from which King Abijah of Judah addressed Jeroboam's army before a decisive battle (2 Chronicles 13:4-20)."
+}

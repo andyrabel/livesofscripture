@@ -1,0 +1,219 @@
+{
+  "place_id": "bethlehem",
+  "name": "Bethlehem",
+  "alt_names": [
+    "Ephrath",
+    "Bethlehem-judah",
+    "City of David"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "Judges",
+    "United Monarchy",
+    "Gospels"
+  ],
+  "first_reference": "Genesis 35:19",
+  "references": [
+    "Genesis 35:19",
+    "Ruth 1:19-22",
+    "1 Samuel 16:1-13",
+    "Micah 5:2",
+    "Luke 2:1-7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "A separate town also called Bethlehem existed in the territory of Zebulun (Joshua 19:15). Judges 12:8-10 places the judge Ibzan at \"Bethlehem\" without naming which one, and which town is meant is genuinely disputed among interpreters; this entry treats the far better-attested Bethlehem of Judah, where Ruth, David, and Jesus's stories are set."
+  },
+  "modern_name": "Bethlehem, West Bank",
+  "n_people": 20,
+  "related_people": [
+    {
+      "person_id": "abinadab-3",
+      "name": "Abinadab",
+      "gender": "male",
+      "role": "Jesse's son of this town, passed over when Samuel anointed David",
+      "references": [
+        "1 Samuel 16:8"
+      ]
+    },
+    {
+      "person_id": "benjamin",
+      "name": "Benjamin",
+      "gender": "male",
+      "role": "Jacob's youngest son, born as Rachel died on the road to this town",
+      "references": [
+        "Genesis 35:16-19"
+      ]
+    },
+    {
+      "person_id": "boaz",
+      "name": "Boaz",
+      "gender": "male",
+      "role": "the landowner of this town who redeemed and married Ruth",
+      "references": [
+        "Ruth 2:1",
+        "Ruth 4:9-13"
+      ]
+    },
+    {
+      "person_id": "caesar-augustus",
+      "name": "Caesar Augustus",
+      "gender": "male",
+      "role": "whose census decree brought Joseph and Mary to this town",
+      "references": [
+        "Luke 2:1-5"
+      ]
+    },
+    {
+      "person_id": "chilion",
+      "name": "Chilion",
+      "gender": "male",
+      "role": "a son of Elimelech and Naomi of this town",
+      "references": [
+        "Ruth 1:1-2"
+      ]
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "the shepherd boy of this town, anointed king here by Samuel",
+      "references": [
+        "1 Samuel 16:1",
+        "1 Samuel 16:13"
+      ]
+    },
+    {
+      "person_id": "elhanan",
+      "name": "Elhanan",
+      "gender": "male",
+      "role": "one of David's mighty men, from this town",
+      "references": [
+        "2 Samuel 23:24"
+      ]
+    },
+    {
+      "person_id": "eliab-3",
+      "name": "Eliab",
+      "gender": "male",
+      "role": "Jesse's eldest son of this town, passed over by Samuel",
+      "references": [
+        "1 Samuel 16:6"
+      ]
+    },
+    {
+      "person_id": "elimelech",
+      "name": "Elimelech",
+      "gender": "male",
+      "role": "left this town for Moab during a famine",
+      "references": [
+        "Ruth 1:1-2"
+      ]
+    },
+    {
+      "person_id": "herod",
+      "name": "Herod",
+      "gender": "male",
+      "role": "ordered the killing of this town's baby boys after the magi outwitted him",
+      "references": [
+        "Matthew 2:16"
+      ]
+    },
+    {
+      "person_id": "ibzan",
+      "name": "Ibzan",
+      "gender": "male",
+      "role": "a judge of Israel from this town",
+      "references": [
+        "Judges 12:8-10"
+      ]
+    },
+    {
+      "person_id": "jesse",
+      "name": "Jesse",
+      "gender": "male",
+      "role": "the Bethlehemite whose youngest son David was anointed king here",
+      "references": [
+        "1 Samuel 16:1"
+      ]
+    },
+    {
+      "person_id": "joseph-6",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "of David's line, who came to this town for the census with Mary",
+      "references": [
+        "Luke 2:4"
+      ]
+    },
+    {
+      "person_id": "mahlon",
+      "name": "Mahlon",
+      "gender": "male",
+      "role": "a son of Elimelech and Naomi of this town, who married Ruth",
+      "references": [
+        "Ruth 1:1-5"
+      ]
+    },
+    {
+      "person_id": "mary",
+      "name": "Mary",
+      "gender": "female",
+      "role": "who gave birth to Jesus in this town",
+      "references": [
+        "Luke 2:4-7"
+      ]
+    },
+    {
+      "person_id": "naomi",
+      "name": "Naomi",
+      "gender": "female",
+      "role": "returned to this town from Moab, widowed and empty",
+      "references": [
+        "Ruth 1:19-21"
+      ]
+    },
+    {
+      "person_id": "obed",
+      "name": "Obed",
+      "gender": "male",
+      "role": "son of Boaz and Ruth, born in this town, grandfather of King David",
+      "references": [
+        "Ruth 4:17"
+      ]
+    },
+    {
+      "person_id": "rachel",
+      "name": "Rachel",
+      "gender": "female",
+      "role": "died near this town giving birth to Benjamin, and was buried there",
+      "references": [
+        "Genesis 35:19"
+      ]
+    },
+    {
+      "person_id": "ruth",
+      "name": "Ruth",
+      "gender": "female",
+      "role": "gleaned in the fields of this town and married Boaz here",
+      "references": [
+        "Ruth 2:2-3",
+        "Ruth 4:13"
+      ]
+    },
+    {
+      "person_id": "shimeah",
+      "name": "Shimeah",
+      "gender": "male",
+      "role": "one of Jesse's sons of this town, an elder brother of David",
+      "references": [
+        "1 Samuel 16:9"
+      ]
+    }
+  ],
+  "description": "A small town a few miles south of Jerusalem, Bethlehem is where Rachel died and was buried (Genesis 35:19), where Naomi's family lived before famine sent them to Moab and where Ruth later gleaned in Boaz's fields (Ruth 1-4), and where Samuel anointed the shepherd boy David as king over his older brothers (1 Samuel 16:1-13) \u2014 giving the town its lasting title \"the city of David\" even after David made Jerusalem his capital. Micah named Bethlehem centuries in advance as the birthplace of Israel's promised ruler, \"from the days of eternity\" (Micah 5:2), which Matthew explicitly cites as fulfilled when Jesus was born there during a Roman census (Matthew 2:1-6; Luke 2:1-7) \u2014 one of Scripture's clearest advance-and-fulfillment pairs.",
+  "family_friendly_summary": "Bethlehem was a small town near Jerusalem. Ruth moved there with Naomi and later married Boaz. Bethlehem was also the hometown of young David, the shepherd boy God chose to become king. Long before Jesus was born, a prophet named Micah said the promised Savior would come from Bethlehem \u2014 and hundreds of years later, that's exactly where Jesus was born!"
+}

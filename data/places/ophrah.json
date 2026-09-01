@@ -1,0 +1,55 @@
+{
+  "place_id": "ophrah",
+  "name": "Ophrah",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Judges 6:11",
+  "references": [
+    "Judges 6:11",
+    "Judges 6:11-32",
+    "Judges 8:27-32",
+    "Judges 9:5"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "gideon",
+      "name": "Gideon",
+      "gender": "male",
+      "role": "called by the angel of the LORD at this town, where he tore down Baal's altar",
+      "references": [
+        "Judges 6:11",
+        "Judges 6:25-27"
+      ]
+    },
+    {
+      "person_id": "joash",
+      "name": "Joash",
+      "gender": "male",
+      "role": "owned the altar of Baal here and defended his son Gideon before the townsmen",
+      "references": [
+        "Judges 6:25-31"
+      ]
+    },
+    {
+      "person_id": "jotham",
+      "name": "Jotham",
+      "gender": "male",
+      "role": "Gideon's youngest son, the lone survivor of Abimelech's massacre here",
+      "references": [
+        "Judges 9:5"
+      ]
+    }
+  ],
+  "description": "Gideon's hometown, where the angel of the Lord commissioned him and where he tore down his father's altar to Baal (Judges 6:11-32). Gideon later made an idolatrous ephod there that became a snare to Israel (Judges 8:27), and it was there that Abimelech murdered nearly all of his seventy half-brothers (Judges 9:5)."
+}

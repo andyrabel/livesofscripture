@@ -1,0 +1,54 @@
+{
+  "place_id": "zoar",
+  "name": "Zoar",
+  "alt_names": [
+    "Bela"
+  ],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 13:10",
+  "references": [
+    "Genesis 13:10",
+    "Genesis 19:20-23"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "Traditionally placed near the Dead Sea's southeastern shore, but not confidently located."
+  },
+  "modern_name": null,
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "ammon",
+      "name": "Ammon",
+      "gender": "male",
+      "role": "conceived by Lot's younger daughter in the hills above this town",
+      "references": [
+        "Genesis 19:30-38"
+      ]
+    },
+    {
+      "person_id": "lot",
+      "name": "Lot",
+      "gender": "male",
+      "role": "fled here from Sodom, then went up in fear to the hills nearby",
+      "references": [
+        "Genesis 19:20-30"
+      ]
+    },
+    {
+      "person_id": "moab",
+      "name": "Moab",
+      "gender": "male",
+      "role": "conceived by Lot's older daughter in the hills above this town",
+      "references": [
+        "Genesis 19:30-37"
+      ]
+    }
+  ],
+  "description": "The small town Lot fled to for refuge when Sodom and Gomorrah were destroyed, spared at his request because of its smallness (Genesis 19:20-23) \u2014 before Lot left it too, fearful, for a cave in the nearby hills."
+}

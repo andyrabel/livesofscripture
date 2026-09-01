@@ -1,0 +1,34 @@
+{
+  "place_id": "succoth",
+  "name": "Succoth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "moab-transjordan",
+  "eras": [
+    "Judges"
+  ],
+  "first_reference": "Genesis 33:17",
+  "references": [
+    "Genesis 33:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "zalmunna",
+      "name": "Zalmunna",
+      "gender": "male"
+    },
+    {
+      "person_id": "zebah",
+      "name": "Zebah",
+      "gender": "male"
+    }
+  ],
+  "description": "A town east of the Jordan whose leaders refused to feed Gideon's exhausted men during his pursuit of the Midianite kings Zebah and Zalmunna, for which Gideon punished them on his return (Judges 8:4-16)."
+}

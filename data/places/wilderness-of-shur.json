@@ -1,0 +1,29 @@
+{
+  "place_id": "wilderness-of-shur",
+  "name": "Wilderness of Shur",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "wilderness",
+  "region": "sinai-wilderness",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 16:7",
+  "references": [
+    "Genesis 16:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "hagar",
+      "name": "Hagar",
+      "gender": "female"
+    }
+  ],
+  "description": "A wilderness region on Egypt's border where the angel of the Lord found Hagar, fleeing from Sarah's harsh treatment, by a spring, and spoke a promise over her son Ishmael (Genesis 16:1-14)."
+}

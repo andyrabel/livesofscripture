@@ -1,0 +1,29 @@
+{
+  "place_id": "giloh",
+  "name": "Giloh",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 15:51",
+  "references": [
+    "Joshua 15:51"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "ahithophel",
+      "name": "Ahithophel",
+      "gender": "male"
+    }
+  ],
+  "description": "The hometown of Ahithophel, David's trusted counselor who later defected to Absalom's rebellion and, when his advice was rejected, went home and hanged himself (2 Samuel 15:12; 17:23)."
+}

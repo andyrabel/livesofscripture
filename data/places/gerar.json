@@ -1,0 +1,72 @@
+{
+  "place_id": "gerar",
+  "name": "Gerar",
+  "alt_names": [],
+  "tier": "full",
+  "type": "town",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal"
+  ],
+  "first_reference": "Genesis 20:1",
+  "references": [
+    "Genesis 20:1",
+    "Genesis 26:1-33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "abimelech",
+      "name": "Abimelech",
+      "gender": "male",
+      "role": "the city's king, who took Sarah and later made a covenant of peace with Abraham",
+      "references": [
+        "Genesis 20:2-15",
+        "Genesis 21:22-32"
+      ]
+    },
+    {
+      "person_id": "ahuzzath",
+      "name": "Ahuzzath",
+      "gender": "male",
+      "role": "the king's adviser, who came to make a covenant with Isaac here",
+      "references": [
+        "Genesis 26:26"
+      ]
+    },
+    {
+      "person_id": "isaac",
+      "name": "Isaac",
+      "gender": "male",
+      "role": "settled here in a famine, prospered, and reopened his father's wells",
+      "references": [
+        "Genesis 26:1-22"
+      ]
+    },
+    {
+      "person_id": "phicol",
+      "name": "Phicol",
+      "gender": "male",
+      "role": "the king's army commander, who made covenants here with Abraham and Isaac",
+      "references": [
+        "Genesis 21:22",
+        "Genesis 26:26"
+      ]
+    },
+    {
+      "person_id": "rebekah",
+      "name": "Rebekah",
+      "gender": "female",
+      "role": "whom Isaac called his sister here for fear of the men of the place",
+      "references": [
+        "Genesis 26:7"
+      ]
+    }
+  ],
+  "description": "A Philistine town in Canaan's south where both Abraham and, later, Isaac sojourned during famines and each, in turn, told local king Abimelech his wife was his sister out of fear \u2014 deceptions God intervened to expose both times (Genesis 20; 26:1-11). Isaac also dug and redug wells there amid disputes with Gerar's herdsmen (Genesis 26:12-33)."
+}

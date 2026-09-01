@@ -1,0 +1,29 @@
+{
+  "place_id": "sheba",
+  "name": "Sheba",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "egypt",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Genesis 10:7",
+  "references": [
+    "Genesis 10:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Most often placed in southern Arabia (modern Yemen), though an East African location has also been proposed."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "queen-of-sheba",
+      "name": "Queen of Sheba",
+      "gender": "female"
+    }
+  ],
+  "description": "A distant kingdom whose queen, hearing of Solomon's wisdom, traveled to test him with hard questions and came away amazed, praising the God of Israel (1 Kings 10:1-13)."
+}

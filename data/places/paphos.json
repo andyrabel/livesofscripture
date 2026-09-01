@@ -1,0 +1,29 @@
+{
+  "place_id": "paphos",
+  "name": "Paphos",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 13:6",
+  "references": [
+    "Acts 13:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "sergius-paulus",
+      "name": "Sergius Paulus",
+      "gender": "male"
+    }
+  ],
+  "description": "A city on Cyprus where Paul and Barnabas confronted the sorcerer Bar-Jesus (Elymas), striking him blind, after which the Roman proconsul Sergius Paulus believed (Acts 13:6-12)."
+}

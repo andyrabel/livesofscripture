@@ -1,0 +1,133 @@
+{
+  "place_id": "shechem",
+  "name": "Shechem",
+  "alt_names": [
+    "Sychar"
+  ],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "Judges",
+    "Divided Monarchy"
+  ],
+  "first_reference": "Genesis 12:6",
+  "references": [
+    "Genesis 12:6",
+    "Genesis 34",
+    "Joshua 24:1",
+    "Judges 9",
+    "1 Kings 12:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Nablus, West Bank",
+  "n_people": 11,
+  "related_people": [
+    {
+      "person_id": "abimelech-2",
+      "name": "Abimelech",
+      "gender": "male",
+      "role": "made himself king here after murdering his brothers, then destroyed the city",
+      "references": [
+        "Judges 9:1-6",
+        "Judges 9:45"
+      ]
+    },
+    {
+      "person_id": "adoram",
+      "name": "Adoram",
+      "gender": "male",
+      "role": "Rehoboam's labor officer, stoned to death by Israel at this town",
+      "references": [
+        "1 Kings 12:18"
+      ]
+    },
+    {
+      "person_id": "dinah",
+      "name": "Dinah",
+      "gender": "female",
+      "role": "Jacob's daughter, violated by the prince of this city",
+      "references": [
+        "Genesis 34:1-2"
+      ]
+    },
+    {
+      "person_id": "gaal",
+      "name": "Gaal",
+      "gender": "male",
+      "role": "stirred this city's leaders to revolt against Abimelech",
+      "references": [
+        "Judges 9:26-29"
+      ]
+    },
+    {
+      "person_id": "hamor",
+      "name": "Hamor",
+      "gender": "male",
+      "role": "the Hivite ruler of this city who negotiated with Jacob's sons",
+      "references": [
+        "Genesis 34:6-24"
+      ]
+    },
+    {
+      "person_id": "jeroboam",
+      "name": "Jeroboam",
+      "gender": "male",
+      "role": "rebuilt this town and first reigned from it",
+      "references": [
+        "1 Kings 12:25"
+      ]
+    },
+    {
+      "person_id": "jotham",
+      "name": "Jotham",
+      "gender": "male",
+      "role": "shouted his parable over this city from Mount Gerizim",
+      "references": [
+        "Judges 9:7"
+      ]
+    },
+    {
+      "person_id": "levi",
+      "name": "Levi",
+      "gender": "male",
+      "role": "with Simeon, massacred the men of this city after Dinah's violation",
+      "references": [
+        "Genesis 34:25-26"
+      ]
+    },
+    {
+      "person_id": "rehoboam",
+      "name": "Rehoboam",
+      "gender": "male",
+      "role": "came here to be made king, and lost the ten northern tribes",
+      "references": [
+        "1 Kings 12:1-16"
+      ]
+    },
+    {
+      "person_id": "shechem",
+      "name": "Shechem",
+      "gender": "male",
+      "role": "the prince of this city who violated Dinah",
+      "references": [
+        "Genesis 34:2"
+      ]
+    },
+    {
+      "person_id": "simeon",
+      "name": "Simeon",
+      "gender": "male",
+      "role": "with Levi, massacred the men of this city after Dinah's violation",
+      "references": [
+        "Genesis 34:25-26"
+      ]
+    }
+  ],
+  "description": "A city in the hill country of Ephraim where Abraham first camped and built an altar upon entering Canaan (Genesis 12:6-7), and where Jacob later bought land, pitched his tent, and saw his daughter Dinah violated by the city's prince \u2014 provoking Simeon and Levi's brutal revenge (Genesis 33:18-19; 34). Joshua gathered Israel at Shechem near the end of his life to renew the covenant (Joshua 24), and it was there that Abimelech, Gideon's son, murdered his brothers and briefly seized power before the city's own people turned on him (Judges 9). Rehoboam went to Shechem to be crowned king, only for the northern tribes to reject him there and split the kingdom under Jeroboam instead (1 Kings 12:1-19).",
+  "family_friendly_summary": "Shechem was a city where Abraham built one of his first altars after arriving in Canaan. Jacob later camped there too. Many years after that, Joshua gathered all of Israel at Shechem to renew their promise to follow God. It's also the city where the kingdom of Israel split in two, after the northern tribes refused to accept Solomon's son as their king."
+}

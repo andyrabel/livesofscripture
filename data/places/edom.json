@@ -1,0 +1,77 @@
+{
+  "place_id": "edom",
+  "name": "Edom",
+  "alt_names": [
+    "Seir"
+  ],
+  "tier": "full",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "Patriarchal",
+    "United Monarchy",
+    "Divided Monarchy",
+    "Exile"
+  ],
+  "first_reference": "Genesis 36:1",
+  "references": [
+    "Genesis 36:1",
+    "Numbers 20:14-21",
+    "2 Kings 8:20-22",
+    "Obadiah"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 5,
+  "related_people": [
+    {
+      "person_id": "amaziah",
+      "name": "Amaziah",
+      "gender": "male",
+      "role": "Judah's king, who defeated this nation and then took up its gods",
+      "references": [
+        "2 Chronicles 25:11-14"
+      ]
+    },
+    {
+      "person_id": "esau",
+      "name": "Esau",
+      "gender": "male",
+      "role": "Isaac's elder son, who settled in Seir and fathered this nation",
+      "references": [
+        "Genesis 36:8-9"
+      ]
+    },
+    {
+      "person_id": "hadad-4",
+      "name": "Hadad",
+      "gender": "male",
+      "role": "a prince of this nation, raised up as an adversary against Solomon",
+      "references": [
+        "1 Kings 11:14"
+      ]
+    },
+    {
+      "person_id": "jehoram",
+      "name": "Jehoram",
+      "gender": "male",
+      "role": "Judah's king, in whose reign this nation revolted from Judah's rule",
+      "references": [
+        "2 Kings 8:20-22"
+      ]
+    },
+    {
+      "person_id": "obadiah-12",
+      "name": "Obadiah",
+      "gender": "male",
+      "role": "prophesied this nation's downfall for gloating over Jerusalem's fall",
+      "references": [
+        "Obadiah 1:10-15"
+      ]
+    }
+  ],
+  "description": "The nation descended from Esau (also called Edom), settled in the mountainous region of Seir south of the Dead Sea. Edom refused Israel passage during the wilderness years (Numbers 20:14-21) and remained a persistent, often bitter rival through the monarchy \u2014 rebelling against Judah's control under Jehoram (2 Kings 8:20-22) and later gloating over Jerusalem's fall, which the book of Obadiah condemns at length."
+}

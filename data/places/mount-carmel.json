@@ -1,0 +1,33 @@
+{
+  "place_id": "mount-carmel",
+  "name": "Mount Carmel",
+  "alt_names": [],
+  "tier": "full",
+  "type": "mountain",
+  "region": "canaan-israel",
+  "eras": [
+    "Divided Monarchy"
+  ],
+  "first_reference": "1 Kings 18:19",
+  "references": [
+    "1 Kings 18:19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "Distinct from the town of Carmel in Judah's hill country, associated instead with Nabal and Abigail."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "elijah",
+      "name": "Elijah",
+      "gender": "male",
+      "role": "called down fire from heaven and defeated the 450 prophets of Baal on this mountain",
+      "references": [
+        "1 Kings 18:19-40"
+      ]
+    }
+  ],
+  "description": "The mountain where Elijah confronted 450 prophets of Baal in a public contest to prove who the true God was, calling down fire from heaven when Baal's prophets' pleas went unanswered (1 Kings 18:16-40)."
+}

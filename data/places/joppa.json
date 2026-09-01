@@ -1,0 +1,43 @@
+{
+  "place_id": "joppa",
+  "name": "Joppa",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "canaan-israel",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Joshua 19:46",
+  "references": [
+    "Joshua 19:46"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Jaffa, Israel",
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "simon-6",
+      "name": "Simon",
+      "gender": "male",
+      "role": "the tanner in whose house by the sea Peter lodged and saw the vision of the sheet",
+      "references": [
+        "Acts 10:6",
+        "Acts 10:9-16"
+      ]
+    },
+    {
+      "person_id": "tabitha",
+      "name": "Tabitha",
+      "gender": "female",
+      "role": "a disciple full of good works whom Peter raised from the dead here",
+      "references": [
+        "Acts 9:36-41"
+      ]
+    }
+  ],
+  "description": "A coastal port town where Peter raised the disciple Tabitha (Dorcas) from the dead and later, staying with Simon the tanner, received the rooftop vision opening the gospel to Gentiles (Acts 9:36-43; 10:9-23)."
+}

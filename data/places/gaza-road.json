@@ -1,0 +1,29 @@
+{
+  "place_id": "gaza-road",
+  "name": "Gaza Road",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "Apostolic"
+  ],
+  "first_reference": "Acts 8:26",
+  "references": [
+    "Acts 8:26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": "A specific desert road rather than a settlement; grouped with, but distinct from, the city of Gaza itself."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "philip-3",
+      "name": "Philip",
+      "gender": "male"
+    }
+  ],
+  "description": "The desert road on which Philip encountered and baptized the Ethiopian court official reading Isaiah, at an angel's direction (Acts 8:26-39)."
+}

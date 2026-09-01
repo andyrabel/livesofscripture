@@ -1,0 +1,263 @@
+{
+  "place_id": "kingdom-of-israel",
+  "name": "Kingdom of Israel",
+  "alt_names": [
+    "Northern Kingdom"
+  ],
+  "tier": "full",
+  "type": "nation",
+  "region": "canaan-israel",
+  "eras": [
+    "Judges",
+    "United Monarchy",
+    "Divided Monarchy"
+  ],
+  "first_reference": "1 Kings 12:20",
+  "references": [
+    "1 Kings 12:20",
+    "2 Kings 17:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 35,
+  "related_people": [
+    {
+      "person_id": "abishai",
+      "name": "Abishai",
+      "gender": "male"
+    },
+    {
+      "person_id": "ahab",
+      "name": "Ahab",
+      "gender": "male",
+      "role": "its king, who married Jezebel and made Baal worship official",
+      "references": [
+        "1 Kings 16:29-33"
+      ]
+    },
+    {
+      "person_id": "ahaziah",
+      "name": "Ahaziah",
+      "gender": "male"
+    },
+    {
+      "person_id": "amos",
+      "name": "Amos",
+      "gender": "male",
+      "role": "a shepherd sent from Judah to prophesy against this kingdom",
+      "references": [
+        "Amos 7:14-15"
+      ]
+    },
+    {
+      "person_id": "azariah-11",
+      "name": "Azariah",
+      "gender": "male"
+    },
+    {
+      "person_id": "baasha",
+      "name": "Baasha",
+      "gender": "male",
+      "role": "its king, who wiped out the house of Jeroboam",
+      "references": [
+        "1 Kings 15:27-29"
+      ]
+    },
+    {
+      "person_id": "ben-hadad-2",
+      "name": "Ben-hadad",
+      "gender": "male"
+    },
+    {
+      "person_id": "berechiah-4",
+      "name": "Berechiah",
+      "gender": "male"
+    },
+    {
+      "person_id": "cushan-rishathaim",
+      "name": "Cushan-rishathaim",
+      "gender": "male"
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "reigned over all Israel from Hebron and then Jerusalem",
+      "references": [
+        "2 Samuel 5:3-5"
+      ]
+    },
+    {
+      "person_id": "elijah",
+      "name": "Elijah",
+      "gender": "male",
+      "role": "its prophet in the days of Ahab and Ahaziah",
+      "references": [
+        "1 Kings 17:1"
+      ]
+    },
+    {
+      "person_id": "elisha",
+      "name": "Elisha",
+      "gender": "male",
+      "role": "its prophet after Elijah, through the reigns of several kings",
+      "references": [
+        "2 Kings 2:15",
+        "2 Kings 3:11"
+      ]
+    },
+    {
+      "person_id": "gad-2",
+      "name": "Gad",
+      "gender": "male"
+    },
+    {
+      "person_id": "gomer-2",
+      "name": "Gomer",
+      "gender": "female"
+    },
+    {
+      "person_id": "hosea",
+      "name": "Hosea",
+      "gender": "male",
+      "role": "prophesied to this kingdom of its coming judgment and of God's love",
+      "references": [
+        "Hosea 1:1-2"
+      ]
+    },
+    {
+      "person_id": "hoshea",
+      "name": "Hoshea",
+      "gender": "male",
+      "role": "its last king, in whose reign Assyria ended the kingdom",
+      "references": [
+        "2 Kings 17:1-6"
+      ]
+    },
+    {
+      "person_id": "jehoahaz",
+      "name": "Jehoahaz",
+      "gender": "male",
+      "role": "its king, oppressed by Aram until God sent a deliverer",
+      "references": [
+        "2 Kings 13:1-5"
+      ]
+    },
+    {
+      "person_id": "jehu",
+      "name": "Jehu",
+      "gender": "male"
+    },
+    {
+      "person_id": "jehu-2",
+      "name": "Jehu",
+      "gender": "male",
+      "role": "anointed its king to destroy the house of Ahab",
+      "references": [
+        "2 Kings 9:1-13"
+      ]
+    },
+    {
+      "person_id": "jeroboam",
+      "name": "Jeroboam",
+      "gender": "male",
+      "role": "its first king, who set up the golden calves at Bethel and Dan",
+      "references": [
+        "1 Kings 12:20",
+        "1 Kings 12:28"
+      ]
+    },
+    {
+      "person_id": "jeroboam-2",
+      "name": "Jeroboam",
+      "gender": "male",
+      "role": "its king, who restored its borders as the prophet Jonah had foretold",
+      "references": [
+        "2 Kings 14:23-27"
+      ]
+    },
+    {
+      "person_id": "joash-4",
+      "name": "Joash",
+      "gender": "male"
+    },
+    {
+      "person_id": "jonadab-2",
+      "name": "Jonadab",
+      "gender": "male"
+    },
+    {
+      "person_id": "joram-2",
+      "name": "Joram",
+      "gender": "male",
+      "role": "its king, killed by Jehu at Jezreel",
+      "references": [
+        "2 Kings 9:24"
+      ]
+    },
+    {
+      "person_id": "lo-ammi",
+      "name": "Lo-ammi",
+      "gender": "male"
+    },
+    {
+      "person_id": "lo-ruhamah",
+      "name": "Lo-ruhamah",
+      "gender": "female"
+    },
+    {
+      "person_id": "merab",
+      "name": "Merab",
+      "gender": "female"
+    },
+    {
+      "person_id": "naaman-2",
+      "name": "Naaman",
+      "gender": "male"
+    },
+    {
+      "person_id": "nadab-2",
+      "name": "Nadab",
+      "gender": "male"
+    },
+    {
+      "person_id": "nathan-2",
+      "name": "Nathan",
+      "gender": "male"
+    },
+    {
+      "person_id": "saul",
+      "name": "Saul",
+      "gender": "male",
+      "role": "Israel's first king, over the tribes before the kingdom divided",
+      "references": [
+        "1 Samuel 15:26"
+      ]
+    },
+    {
+      "person_id": "shalmaneser",
+      "name": "Shalmaneser",
+      "gender": "male"
+    },
+    {
+      "person_id": "sheba-4",
+      "name": "Sheba",
+      "gender": "male"
+    },
+    {
+      "person_id": "tibni",
+      "name": "Tibni",
+      "gender": "male"
+    },
+    {
+      "person_id": "tiglath-pileser",
+      "name": "Tiglath-pileser",
+      "gender": "male"
+    }
+  ],
+  "description": "The northern of the two kingdoms formed when ten tribes broke away from Rehoboam, Solomon's son, and made Jeroboam king instead (1 Kings 12:16-20). Jeroboam set up rival golden-calf shrines at Bethel and Dan so his people would not go worship at Jerusalem's temple \u2014 a founding act of idolatry every one of the kingdom's nineteen kings, across several dynasties, is measured against and none escaped. Elijah and Elisha ministered almost entirely within its borders, confronting Ahab's and Jezebel's Baal worship. Assyria finally conquered the kingdom in 722 BC and deported its population, ending it after roughly two centuries \u2014 the disaster the prophet Hosea and Amos had specifically warned of (2 Kings 17:6-23).",
+  "family_friendly_summary": "After Solomon's son became king, ten of the twelve tribes rebelled and formed their own kingdom in the north, called Israel. Their first king, Jeroboam, led the people into idol worship right from the start. None of Israel's kings that followed turned the nation back to God, even though prophets like Elijah, Elisha, and Amos warned them. Eventually, Assyria conquered the kingdom."
+}
