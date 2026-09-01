@@ -1118,6 +1118,8 @@ def build_place_membership_index(places_index):
             by_person.setdefault(rp["person_id"], []).append({
                 "place_id": place["place_id"],
                 "place_name": place["name"],
+                "role": rp.get("role"),
+                "references": rp.get("references") or [],
             })
     return by_person
 
@@ -1126,10 +1128,16 @@ def places_section(person_id, place_membership_by_person, base):
     memberships = place_membership_by_person.get(person_id) if place_membership_by_person else None
     if not memberships:
         return ""
-    items = "\n    ".join(
-        f'<li><a href="{base}places/{esc(m["place_id"])}.html">{esc(m["place_name"])}</a></li>'
-        for m in memberships
-    )
+    lis = []
+    for m in memberships:
+        li = [f'<li><a href="{base}places/{esc(m["place_id"])}.html">{esc(m["place_name"])}</a>']
+        if m.get("role"):
+            li.append(f' — {esc(m["role"])}')
+        if m.get("references"):
+            li.append(f'<p class="connections-list__refs">{esc("; ".join(m["references"]))}</p>')
+        li.append("</li>")
+        lis.append("".join(li))
+    items = "\n    ".join(lis)
     return f"""<section>
     <h3>Places</h3>
     <ul class="connections-list">
