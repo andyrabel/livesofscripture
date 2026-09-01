@@ -1,0 +1,16 @@
+{
+  "_comment": "Lowercased name -> person_id to force an in-prose story link, or null to force the name to stay plain text. Read by _build/link_person_mentions.py. Keys starting with _ are ignored. Re-run generate_static_site.py after editing. Only add a mapping here when one holder of the name is overwhelmingly dominant in running prose and the alternatives are minor/stub entries; leave genuinely contested names (John, Mary, Joseph, Joshua, Herod, Zechariah) unlinked.",
+
+  "jeremiah": "jeremiah-6",
+  "jacob": "israel",
+  "daniel": "daniel-2",
+  "samuel": "samuel",
+  "joab": "joab",
+  "absalom": "absalom",
+  "elijah": "elijah",
+  "ezra": "ezra",
+  "nehemiah": "nehemiah",
+  "nathan": "nathan-2",
+  "uriah": "uriah",
+  "miriam": "miriam"
+}

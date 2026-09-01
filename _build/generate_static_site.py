@@ -24,6 +24,8 @@ import math
 import re
 from pathlib import Path
 
+import link_person_mentions
+
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://livesofscripture.org"
 DEFAULT_OG_IMAGE = f"{SITE_URL}/images/social/og-image.png"
@@ -411,11 +413,16 @@ def devotional_section(person):
   </section>"""
 
 
-def story_panel_html(version, story):
+def story_panel_html(version, story, link_ctx=None, subject_id=None, base=""):
     paras = [p for p in (story or "").split("\n\n") if p.strip()]
     if not paras:
         paras = [story or ""]
-    paragraphs_html = "\n      ".join(f"<p>{esc(p)}</p>" for p in paras)
+    # First mention of a given person is linked once per panel.
+    linked_pids = set()
+    paragraphs_html = "\n      ".join(
+        f"<p>{link_person_mentions.link_paragraph(p, subject_id, link_ctx, base, linked_pids)}</p>"
+        for p in paras
+    )
     hidden = "" if version == "adult" else " hidden"
     return f"""<div class="story-panel{hidden}" data-version="{version}" role="tabpanel" aria-labelledby="tab-{version}" id="panel-{version}">
       <div class="story-text">
@@ -428,9 +435,10 @@ def story_panel_html(version, story):
     </div>"""
 
 
-def story_tabs_section(person):
-    adult_panel = story_panel_html("adult", person.get("adult_story"))
-    family_panel = story_panel_html("family", person.get("family_friendly_summary"))
+def story_tabs_section(person, link_ctx=None, base=""):
+    subject_id = person["person_id"]
+    adult_panel = story_panel_html("adult", person.get("adult_story"), link_ctx, subject_id, base)
+    family_panel = story_panel_html("family", person.get("family_friendly_summary"), link_ctx, subject_id, base)
     return f"""<div class="story-tabs-wrapper" data-person-name="{esc(person['name'])}">
     <div class="story-tabs-nav" role="tablist" aria-label="Story version">
       <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">For Worship &amp; Teaching</button>
@@ -488,7 +496,7 @@ def disambiguation_section(person_name, same_name, base):
   </section>"""
 
 
-def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name=None, church_membership_by_person=None):
+def render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name=None, church_membership_by_person=None, link_ctx=None):
     parts = []
 
     first_ref = first_reference_line(person)
@@ -533,7 +541,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     </div>
   </div>""")
 
-    parts.append(story_tabs_section(person))
+    parts.append(story_tabs_section(person, link_ctx, base))
 
     devotional = devotional_section(person)
     if devotional:
@@ -700,7 +708,7 @@ def person_json_ld(person, index_by_id, base_url, canonical, og_image, portrait_
     return json.dumps(data, indent=2, ensure_ascii=False)
 
 
-def build_person_page(person, index_by_id, gender_by_id, connections, people_by_name=None, church_membership_by_person=None):
+def build_person_page(person, index_by_id, gender_by_id, connections, people_by_name=None, church_membership_by_person=None, link_ctx=None):
     pid = person["person_id"]
     base = "../"
     canonical = f"{SITE_URL}/people/{pid}.html"
@@ -724,7 +732,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
     title = f'{person["name"]} — Lives of Scripture'
 
     if person["tier"] == "full":
-        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name, church_membership_by_person)
+        body = render_full_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, people_by_name, church_membership_by_person, link_ctx)
     else:
         body = render_stub_person_body(person, index_by_id, gender_by_id, connections, base, portrait_exists, church_membership_by_person, people_by_name)
 
@@ -3661,6 +3669,7 @@ def main():
     gender_by_id = {e["person_id"]: e.get("gender") for e in index}
     people_by_name = build_people_by_name(index)
     church_membership_by_person = build_church_membership_index(churches, index_by_id)
+    link_ctx = link_person_mentions.build_context(index, connections)
 
     people_dir = ROOT / "people"
     people_dir.mkdir(exist_ok=True)
@@ -3673,7 +3682,7 @@ def main():
             print(f"warning: no data/people/{pid}.json, skipping")
             continue
         person = json.loads(person_path.read_text())
-        page = build_person_page(person, index_by_id, gender_by_id, connections, people_by_name, church_membership_by_person)
+        page = build_person_page(person, index_by_id, gender_by_id, connections, people_by_name, church_membership_by_person, link_ctx)
         (people_dir / f"{pid}.html").write_text(page)
         generated += 1
 

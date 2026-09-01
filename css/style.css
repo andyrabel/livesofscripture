@@ -733,6 +733,19 @@ main {
   margin-bottom: 0;
 }
 
+.story-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
+}
+
+.story-link:hover {
+  color: var(--color-accent-strong);
+  text-decoration-style: solid;
+}
+
 .story-panel-footer {
   display: flex;
   justify-content: flex-end;
