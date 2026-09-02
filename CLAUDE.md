@@ -492,9 +492,9 @@ across many people rather than duplicated per person:
 **Art style (updated 2026-09-01):** the generic icons were originally
 hand-drawn outline/line-art SVGs. They were replaced 2026-09-01 with
 AI-generated stained-glass-style illustrations matching the per-person
-`images/portraits2-web/` portraits, each with a role label ("BIBLICAL
-KING") and the standard `"AI-generated image — no copyright claimed"`
-provenance line burned in. Layout on disk:
+`images/portraits2-web/` portraits. Unlike the named portraits, these shared
+fallbacks have no nameplate, role label, caption, or other text burned into
+the artwork. Layout on disk:
 - `images/portraits/generic-<role>.jpg` — the served file (512px, ~95KB),
   what every `image.file` / index `image` value points at. Resolved
   straight from `images/portraits/` by `resolve_portrait_file()` (no
