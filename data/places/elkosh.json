@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "The otherwise-unspecified hometown of the prophet Nahum, whose short book pronounces judgment on Nineveh (Nahum 1:1)."
+  "description": "The otherwise-unspecified hometown of the prophet Nahum, whose short book pronounces judgment on Nineveh (Nahum 1:1).",
+  "geo": {
+    "lat": 33.12139,
+    "lng": 35.33833,
+    "confidence": 233,
+    "kind": "point",
+    "openbible": "Elkosh",
+    "candidates": [
+      [
+        35.33833,
+        33.12139,
+        233
+      ],
+      [
+        35.575,
+        32.88111,
+        206
+      ],
+      [
+        34.89824,
+        31.59296,
+        195
+      ],
+      [
+        43.09583,
+        36.73833,
+        128
+      ]
+    ]
+  }
 }

@@ -29,5 +29,24 @@
       ]
     }
   ],
-  "description": "A town where Abimelech, besieging its tower, was fatally struck on the head by a millstone dropped by a woman, then had his armor-bearer kill him so he wouldn't be remembered as slain by a woman (Judges 9:50-54)."
+  "description": "A town where Abimelech, besieging its tower, was fatally struck on the head by a millstone dropped by a woman, then had his armor-bearer kill him so he wouldn't be remembered as slain by a woman (Judges 9:50-54).",
+  "geo": {
+    "lat": 32.32222,
+    "lng": 35.36861,
+    "confidence": 611,
+    "kind": "point",
+    "openbible": "Thebez",
+    "candidates": [
+      [
+        35.36861,
+        32.32222,
+        611
+      ],
+      [
+        35.3378,
+        32.2874,
+        15
+      ]
+    ]
+  }
 }

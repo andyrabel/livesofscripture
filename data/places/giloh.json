@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown of Ahithophel, David's trusted counselor who later defected to Absalom's rebellion and, when his advice was rejected, went home and hanged himself (2 Samuel 15:12; 17:23)."
+  "description": "The hometown of Ahithophel, David's trusted counselor who later defected to Absalom's rebellion and, when his advice was rejected, went home and hanged himself (2 Samuel 15:12; 17:23).",
+  "geo": {
+    "lat": 31.43209,
+    "lng": 35.01485,
+    "confidence": 427,
+    "kind": "representative",
+    "openbible": "Giloh",
+    "candidates": [
+      [
+        35.01485,
+        31.43209,
+        427
+      ],
+      [
+        34.9723,
+        31.40762,
+        60
+      ]
+    ]
+  }
 }

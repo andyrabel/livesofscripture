@@ -30,5 +30,24 @@
       "gender": "male"
     }
   ],
-  "description": "A town east of the Jordan whose leaders refused to feed Gideon's exhausted men during his pursuit of the Midianite kings Zebah and Zalmunna, for which Gideon punished them on his return (Judges 8:4-16)."
+  "description": "A town east of the Jordan whose leaders refused to feed Gideon's exhausted men during his pursuit of the Midianite kings Zebah and Zalmunna, for which Gideon punished them on his return (Judges 8:4-16).",
+  "geo": {
+    "lat": 32.1966,
+    "lng": 35.62118,
+    "confidence": 600,
+    "kind": "point",
+    "openbible": "Succoth 1",
+    "candidates": [
+      [
+        35.62118,
+        32.1966,
+        600
+      ],
+      [
+        35.59396,
+        32.19321,
+        129
+      ]
+    ]
+  }
 }

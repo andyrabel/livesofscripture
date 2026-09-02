@@ -168,5 +168,12 @@
     }
   ],
   "description": "One of the oldest continuously inhabited cities in the region, Hebron is where Abraham settled near the oaks of Mamre and later bought the cave of Machpelah to bury Sarah \u2014 the family's eventual burial place too, for Abraham, Isaac, Rebekah, Jacob, and Leah (Genesis 23; 49:29-31). Caleb received Hebron as his inheritance after driving out its giant Anakim inhabitants (Joshua 14:6-15). It became David's first capital: he reigned there over Judah alone for seven and a half years before all Israel's elders came and anointed him king over the whole nation (2 Samuel 2:1-4; 5:1-5), only afterward moving the capital to Jerusalem. Absalom later launched his rebellion from Hebron under the pretext of a vow (2 Samuel 15:7-10).",
-  "family_friendly_summary": "Hebron is a very old city where Abraham once lived and bought a burial cave for his wife Sarah. Many years later, David became king there first, ruling just over the tribe of Judah for a while before the rest of Israel's leaders came to make him king over everyone. Only after that did David move his capital to Jerusalem."
+  "family_friendly_summary": "Hebron is a very old city where Abraham once lived and bought a burial cave for his wife Sarah. Many years later, David became king there first, ruling just over the tribe of Judah for a while before the rest of Israel's leaders came to make him king over everyone. Only after that did David move his capital to Jerusalem.",
+  "geo": {
+    "lat": 31.52509,
+    "lng": 35.10222,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Hebron"
+  }
 }

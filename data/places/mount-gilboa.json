@@ -48,5 +48,12 @@
       ]
     }
   ],
-  "description": "The mountain range where Saul's final battle against the Philistines took place, ending with the deaths of Saul and three of his sons, including Jonathan, and Saul's own suicide rather than capture (1 Samuel 31:1-6)."
+  "description": "The mountain range where Saul's final battle against the Philistines took place, ending with the deaths of Saul and three of his sons, including Jonathan, and Saul's own suicide rather than capture (1 Samuel 31:1-6).",
+  "geo": {
+    "lat": 32.43389,
+    "lng": 35.41444,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount Gilboa"
+  }
 }

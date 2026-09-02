@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The territory of the tribe of Benjamin, between Judah and Ephraim, birthplace and home territory of Israel's first king, Saul's father Kish among them (1 Samuel 9:1-2)."
+  "description": "The territory of the tribe of Benjamin, between Judah and Ephraim, birthplace and home territory of Israel's first king, Saul's father Kish among them (1 Samuel 9:1-2).",
+  "geo": {
+    "lat": 31.85,
+    "lng": 35.22,
+    "confidence": 0,
+    "kind": "representative",
+    "note": "Approximate: the tribal territory north of Jerusalem."
+  }
 }

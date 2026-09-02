@@ -62,5 +62,12 @@
       ]
     }
   ],
-  "description": "The garden God planted and placed the first man in, containing the tree of life and the tree of the knowledge of good and evil (Genesis 2:8-17). Adam and Eve lived there until their disobedience led to their expulsion, with cherubim and a flaming sword set to guard the way back (Genesis 3)."
+  "description": "The garden God planted and placed the first man in, containing the tree of life and the tree of the knowledge of good and evil (Genesis 2:8-17). Adam and Eve lived there until their disobedience led to their expulsion, with cherubim and a flaming sword set to guard the way back (Genesis 3).",
+  "geo": {
+    "lat": 36.7014,
+    "lng": 38.0865,
+    "confidence": 944,
+    "kind": "representative",
+    "openbible": "Eden 2"
+  }
 }

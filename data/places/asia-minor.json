@@ -81,5 +81,12 @@
       ]
     }
   ],
-  "description": "The peninsula (modern Turkey) that hosted much of Paul's missionary work and many of the churches addressed in the New Testament epistles \u2014 Ephesus, Colossae, Laodicea, Iconium, Lystra, and Derbe among them. Paul's team was at one point supernaturally redirected away from the province of Asia and toward Macedonia instead (Acts 16:6-10), and Peter's first letter is addressed to believers scattered across several of the region's provinces (1 Peter 1:1)."
+  "description": "The peninsula (modern Turkey) that hosted much of Paul's missionary work and many of the churches addressed in the New Testament epistles \u2014 Ephesus, Colossae, Laodicea, Iconium, Lystra, and Derbe among them. Paul's team was at one point supernaturally redirected away from the province of Asia and toward Macedonia instead (Acts 16:6-10), and Peter's first letter is addressed to believers scattered across several of the region's provinces (1 Peter 1:1).",
+  "geo": {
+    "lat": 38.4,
+    "lng": 28.3,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Asia"
+  }
 }

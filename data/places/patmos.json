@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "A small Aegean island where the apostle John was exiled \"because of the word of God\" and where he received the visions recorded in the book of Revelation (Revelation 1:9-11)."
+  "description": "A small Aegean island where the apostle John was exiled \"because of the word of God\" and where he received the visions recorded in the book of Revelation (Revelation 1:9-11).",
+  "geo": {
+    "lat": 37.325,
+    "lng": 26.54167,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Patmos"
+  }
 }

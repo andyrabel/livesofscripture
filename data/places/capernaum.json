@@ -61,5 +61,12 @@
       ]
     }
   ],
-  "description": "A fishing town on the Sea of Galilee's north shore that Jesus made the base of much of His Galilean ministry after leaving Nazareth (Matthew 4:13). It was Peter's hometown, the site of Jesus's synagogue teaching and many healings \u2014 including Peter's mother-in-law and a paralyzed man lowered through the roof \u2014 and where Matthew was called from his tax booth (Mark 1:21-29; 2:1-14; Matthew 9:9)."
+  "description": "A fishing town on the Sea of Galilee's north shore that Jesus made the base of much of His Galilean ministry after leaving Nazareth (Matthew 4:13). It was Peter's hometown, the site of Jesus's synagogue teaching and many healings \u2014 including Peter's mother-in-law and a paralyzed man lowered through the roof \u2014 and where Matthew was called from his tax booth (Mark 1:21-29; 2:1-14; Matthew 9:9).",
+  "geo": {
+    "lat": 32.88111,
+    "lng": 35.575,
+    "confidence": 842,
+    "kind": "point",
+    "openbible": "Capernaum"
+  }
 }

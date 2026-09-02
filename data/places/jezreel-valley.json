@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "The broad valley where the Midianite camp lay before Gideon's night raid with three hundred men routed them (Judges 7)."
+  "description": "The broad valley where the Midianite camp lay before Gideon's night raid with three hundred men routed them (Judges 7).",
+  "geo": {
+    "lat": 32.59639,
+    "lng": 35.24194,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Valley of Jezreel"
+  }
 }

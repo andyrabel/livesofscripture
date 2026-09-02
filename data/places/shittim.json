@@ -30,5 +30,24 @@
       ]
     }
   ],
-  "description": "Israel's camp in the plains of Moab where men were drawn into idolatry and immorality with Moabite women, including Cozbi, a Midianite woman whom Phinehas killed along with her Israelite partner to stop a plague (Numbers 25)."
+  "description": "Israel's camp in the plains of Moab where men were drawn into idolatry and immorality with Moabite women, including Cozbi, a Midianite woman whom Phinehas killed along with her Israelite partner to stop a plague (Numbers 25).",
+  "geo": {
+    "lat": 31.84018,
+    "lng": 35.67368,
+    "confidence": 671,
+    "kind": "point",
+    "openbible": "Shittim",
+    "candidates": [
+      [
+        35.67368,
+        31.84018,
+        671
+      ],
+      [
+        35.65296,
+        31.85055,
+        147
+      ]
+    ]
+  }
 }

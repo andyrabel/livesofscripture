@@ -52,5 +52,12 @@
       ]
     }
   ],
-  "description": "The coastal region of five allied Philistine cities (Gaza, Ashkelon, Ashdod, Gath, and Ekron) that repeatedly warred with Israel, especially during the judges period through Samson's conflicts with them (Judges 13-16) and their capture and forced return of the ark of the covenant (1 Samuel 4-6)."
+  "description": "The coastal region of five allied Philistine cities (Gaza, Ashkelon, Ashdod, Gath, and Ekron) that repeatedly warred with Israel, especially during the judges period through Samson's conflicts with them (Judges 13-16) and their capture and forced return of the ark of the covenant (1 Samuel 4-6).",
+  "geo": {
+    "lat": 31.66389,
+    "lng": 34.54583,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Philistia"
+  }
 }

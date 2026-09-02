@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A Canaanite royal city whose king Horam came to Lachish's aid and was defeated by Joshua along with his people (Joshua 10:33); later given to Solomon by an Egyptian pharaoh as a wedding gift for his daughter (1 Kings 9:16)."
+  "description": "A Canaanite royal city whose king Horam came to Lachish's aid and was defeated by Joshua along with his people (Joshua 10:33); later given to Solomon by an Egyptian pharaoh as a wedding gift for his daughter (1 Kings 9:16).",
+  "geo": {
+    "lat": 31.85917,
+    "lng": 34.91917,
+    "confidence": 942,
+    "kind": "point",
+    "openbible": "Gezer"
+  }
 }

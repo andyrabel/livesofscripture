@@ -30,5 +30,12 @@
       ]
     }
   ],
-  "description": "A major Canaanite city whose king Jabin led a northern coalition against Joshua and was defeated, with Hazor itself burned (Joshua 11:1-13); a later King Jabin of Hazor oppressed Israel until Deborah and Barak defeated his general Sisera (Judges 4)."
+  "description": "A major Canaanite city whose king Jabin led a northern coalition against Joshua and was defeated, with Hazor itself burned (Joshua 11:1-13); a later King Jabin of Hazor oppressed Israel until Deborah and Barak defeated his general Sisera (Judges 4).",
+  "geo": {
+    "lat": 33.01833,
+    "lng": 35.56917,
+    "confidence": 928,
+    "kind": "point",
+    "openbible": "Hazor 1"
+  }
 }

@@ -38,5 +38,12 @@
       ]
     }
   ],
-  "description": "A large Mediterranean island Paul's ship sailed along on the voyage to Rome (Acts 27:7-13), and where Titus was later left to appoint elders and organize the churches (Titus 1:5)."
+  "description": "A large Mediterranean island Paul's ship sailed along on the voyage to Rome (Acts 27:7-13), and where Titus was later left to appoint elders and organize the churches (Titus 1:5).",
+  "geo": {
+    "lat": 35.30972,
+    "lng": 24.89333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Crete"
+  }
 }

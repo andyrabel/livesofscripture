@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "A city addressed in Revelation as the location of \"Satan's throne,\" where a believer named Antipas was martyred; the church there is commended for faithfulness but rebuked for tolerating false teaching (Revelation 2:12-17)."
+  "description": "A city addressed in Revelation as the location of \"Satan's throne,\" where a believer named Antipas was martyred; the church there is commended for faithfulness but rebuked for tolerating false teaching (Revelation 2:12-17).",
+  "geo": {
+    "lat": 39.13216,
+    "lng": 27.18421,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Pergamum"
+  }
 }

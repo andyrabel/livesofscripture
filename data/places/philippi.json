@@ -58,5 +58,12 @@
       ]
     }
   ],
-  "description": "A Roman colony in Macedonia and the first place in Europe where Paul preached, following a vision calling him there (Acts 16:9-12). Lydia was converted and hosted the missionaries; Paul and Silas were later imprisoned and miraculously freed after an earthquake, leading to the jailer's conversion (Acts 16:13-40). Paul's warm letter to the Philippians was written to the church founded there."
+  "description": "A Roman colony in Macedonia and the first place in Europe where Paul preached, following a vision calling him there (Acts 16:9-12). Lydia was converted and hosted the missionaries; Paul and Silas were later imprisoned and miraculously freed after an earthquake, leading to the jailer's conversion (Acts 16:13-40). Paul's warm letter to the Philippians was written to the church founded there.",
+  "geo": {
+    "lat": 41.01207,
+    "lng": 24.28458,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Philippi"
+  }
 }

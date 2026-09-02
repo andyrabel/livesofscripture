@@ -58,5 +58,34 @@
       ]
     }
   ],
-  "description": "The site of battles between David's men and Philistine giants descended from the Rapha, including Elhanan's killing of Goliath's brother Lahmi (2 Samuel 21:18-22)."
+  "description": "The site of battles between David's men and Philistine giants descended from the Rapha, including Elhanan's killing of Goliath's brother Lahmi (2 Samuel 21:18-22).",
+  "geo": {
+    "lat": 31.85917,
+    "lng": 34.91917,
+    "confidence": 318,
+    "kind": "point",
+    "openbible": "Gob",
+    "candidates": [
+      [
+        34.91917,
+        31.85917,
+        318
+      ],
+      [
+        34.86556,
+        31.85639,
+        170
+      ],
+      [
+        35.24417,
+        31.7925,
+        110
+      ],
+      [
+        34.9575,
+        31.6963,
+        52
+      ]
+    ]
+  }
 }

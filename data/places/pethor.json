@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The Mesopotamian hometown of Balaam, the seer Balak of Moab hired to curse Israel \u2014 a curse God repeatedly turned into blessing instead (Numbers 22-24)."
+  "description": "The Mesopotamian hometown of Balaam, the seer Balak of Moab hired to curse Israel \u2014 a curse God repeatedly turned into blessing instead (Numbers 22-24).",
+  "geo": {
+    "lat": 36.7014,
+    "lng": 38.0865,
+    "confidence": 998,
+    "kind": "point",
+    "openbible": "Pethor"
+  }
 }

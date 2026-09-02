@@ -29,5 +29,29 @@
       ]
     }
   ],
-  "description": "A town Ammon's king Nahash threatened to besiege on the humiliating condition of gouging out every resident's right eye, until the newly chosen King Saul rallied Israel to rescue it (1 Samuel 11:1-11)."
+  "description": "A town Ammon's king Nahash threatened to besiege on the humiliating condition of gouging out every resident's right eye, until the newly chosen King Saul rallied Israel to rescue it (1 Samuel 11:1-11).",
+  "geo": {
+    "lat": 32.40237,
+    "lng": 35.6823,
+    "confidence": 698,
+    "kind": "point",
+    "openbible": "Jabesh-gilead",
+    "candidates": [
+      [
+        35.6823,
+        32.40237,
+        698
+      ],
+      [
+        35.59511,
+        32.39898,
+        158
+      ],
+      [
+        35.5905,
+        32.4002,
+        5
+      ]
+    ]
+  }
 }

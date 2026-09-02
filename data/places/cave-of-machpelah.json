@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The burial cave Abraham purchased from Ephron the Hittite for Sarah, which became the family tomb for Abraham, Isaac, Rebekah, Jacob, and Leah as well (Genesis 23; 49:29-32)."
+  "description": "The burial cave Abraham purchased from Ephron the Hittite for Sarah, which became the family tomb for Abraham, Isaac, Rebekah, Jacob, and Leah as well (Genesis 23; 49:29-32).",
+  "geo": {
+    "lat": 31.52467,
+    "lng": 35.11076,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Machpelah"
+  }
 }

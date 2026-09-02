@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The Moabite capital besieged by Israel, Judah, and Edom's combined armies; Moab's king Mesha, facing defeat, sacrificed his own firstborn son on the city wall (2 Kings 3:25-27)."
+  "description": "The Moabite capital besieged by Israel, Judah, and Edom's combined armies; Moab's king Mesha, facing defeat, sacrificed his own firstborn son on the city wall (2 Kings 3:25-27).",
+  "geo": {
+    "lat": 31.18056,
+    "lng": 35.70139,
+    "confidence": 805,
+    "kind": "point",
+    "openbible": "Kir-hareseth"
+  }
 }

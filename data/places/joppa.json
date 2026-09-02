@@ -39,5 +39,12 @@
       ]
     }
   ],
-  "description": "A coastal port town where Peter raised the disciple Tabitha (Dorcas) from the dead and later, staying with Simon the tanner, received the rooftop vision opening the gospel to Gentiles (Acts 9:36-43; 10:9-23)."
+  "description": "A coastal port town where Peter raised the disciple Tabitha (Dorcas) from the dead and later, staying with Simon the tanner, received the rooftop vision opening the gospel to Gentiles (Acts 9:36-43; 10:9-23).",
+  "geo": {
+    "lat": 32.05448,
+    "lng": 34.75304,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Joppa"
+  }
 }

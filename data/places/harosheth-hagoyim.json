@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "The base of Sisera, commander of Canaanite king Jabin's army, before his defeat by Barak and Deborah's forces (Judges 4:2, 13-16)."
+  "description": "The base of Sisera, commander of Canaanite king Jabin's army, before his defeat by Barak and Deborah's forces (Judges 4:2, 13-16).",
+  "geo": {
+    "lat": 32.75885,
+    "lng": 35.09027,
+    "confidence": 104,
+    "kind": "point",
+    "openbible": "Harosheth-hagoyim",
+    "candidates": [
+      [
+        35.09027,
+        32.75885,
+        104
+      ],
+      [
+        35.09381,
+        32.48715,
+        76
+      ],
+      [
+        35.28917,
+        32.50306,
+        54
+      ],
+      [
+        35.21603,
+        32.55949,
+        31
+      ]
+    ]
+  }
 }

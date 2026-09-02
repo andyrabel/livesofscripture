@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "A Canaanite city whose king Jobab joined Hazor's northern coalition against Joshua and was defeated (Joshua 11:1; 12:19)."
+  "description": "A Canaanite city whose king Jobab joined Hazor's northern coalition against Joshua and was defeated (Joshua 11:1; 12:19).",
+  "geo": {
+    "lat": 33.07678,
+    "lng": 35.43235,
+    "confidence": 370,
+    "kind": "point",
+    "openbible": "Madon",
+    "candidates": [
+      [
+        35.43235,
+        33.07678,
+        370
+      ],
+      [
+        35.46114,
+        32.79944,
+        121
+      ],
+      [
+        35.45972,
+        32.79972,
+        11
+      ],
+      [
+        35.43235,
+        33.07678,
+        8
+      ]
+    ]
+  }
 }

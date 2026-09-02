@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "The site of a battle where David's mighty man Eleazar stood his ground against the Philistines until his hand froze to his sword, securing a great victory (1 Chronicles 11:12-14)."
+  "description": "The site of a battle where David's mighty man Eleazar stood his ground against the Philistines until his hand froze to his sword, securing a great victory (1 Chronicles 11:12-14).",
+  "geo": {
+    "lat": 31.68449,
+    "lng": 35.05224,
+    "confidence": 577,
+    "kind": "point",
+    "openbible": "Ephes-dammim",
+    "candidates": [
+      [
+        35.05224,
+        31.68449,
+        577
+      ],
+      [
+        34.99327,
+        31.66791,
+        241
+      ],
+      [
+        34.9575,
+        31.6963,
+        45
+      ]
+    ]
+  }
 }

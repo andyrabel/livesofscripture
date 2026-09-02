@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A city on Cyprus where Paul and Barnabas confronted the sorcerer Bar-Jesus (Elymas), striking him blind, after which the Roman proconsul Sergius Paulus believed (Acts 13:6-12)."
+  "description": "A city on Cyprus where Paul and Barnabas confronted the sorcerer Bar-Jesus (Elymas), striking him blind, after which the Roman proconsul Sergius Paulus believed (Acts 13:6-12).",
+  "geo": {
+    "lat": 34.75567,
+    "lng": 32.40417,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Paphos"
+  }
 }

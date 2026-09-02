@@ -281,5 +281,12 @@
     }
   ],
   "description": "Built by King Omri as the new capital of the northern kingdom of Israel and named for Shemer, the hill's previous owner (1 Kings 16:24), Samaria became the seat of Ahab and Jezebel's Baal worship and the target of Elijah's and Elisha's confrontations with the royal house. Assyria besieged and finally destroyed it in 722 BC, deporting its population and resettling the region with foreigners \u2014 the origin of the later Jewish-Samaritan divide (2 Kings 17:5-6, 24). By the New Testament, Samaria (now naming the whole region, not just the city) was the setting for Jesus's conversation with a Samaritan woman at Jacob's well (John 4) and for Philip's preaching and the Spirit's coming there in Acts 8 \u2014 an early, deliberate crossing of Jewish-Samaritan hostility that Acts 1:8 had already marked out as part of the gospel's spread.",
-  "family_friendly_summary": "Samaria was the capital city of the northern kingdom of Israel, built by King Omri. Wicked King Ahab and Queen Jezebel ruled from there, and the prophets Elijah and Elisha spoke out against them. Later, an enemy nation called Assyria conquered Samaria. Long after that, Jesus talked with a Samaritan woman at a well, and after Jesus rose from the dead, people in Samaria heard the good news about Him too."
+  "family_friendly_summary": "Samaria was the capital city of the northern kingdom of Israel, built by King Omri. Wicked King Ahab and Queen Jezebel ruled from there, and the prophets Elijah and Elisha spoke out against them. Later, an enemy nation called Assyria conquered Samaria. Long after that, Jesus talked with a Samaritan woman at a well, and after Jesus rose from the dead, people in Samaria heard the good news about Him too.",
+  "geo": {
+    "lat": 32.27611,
+    "lng": 35.195,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Samaria 1"
+  }
 }

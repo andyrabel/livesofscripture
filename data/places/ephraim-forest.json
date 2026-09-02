@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The wooded battleground east of the Jordan where David's forces defeated Absalom's rebellion, and where Absalom, caught by his hair in a tree, was killed by Joab against David's explicit order to spare him (2 Samuel 18:6-15)."
+  "description": "The wooded battleground east of the Jordan where David's forces defeated Absalom's rebellion, and where Absalom, caught by his hair in a tree, was killed by Joab against David's explicit order to spare him (2 Samuel 18:6-15).",
+  "geo": {
+    "lat": 32.2,
+    "lng": 35.7,
+    "confidence": 0,
+    "kind": "representative",
+    "note": "Approximate: a wood in Gilead, east of the Jordan (2 Samuel 18:6)."
+  }
 }

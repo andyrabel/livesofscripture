@@ -120,5 +120,29 @@
     }
   ],
   "description": "Originally called Luz, Bethel (\"house of God\") is where Jacob, fleeing Esau, dreamed of a stairway to heaven, renamed the site, and vowed to serve God there (Genesis 28:10-22) \u2014 a vow he returned to fulfill years later (Genesis 35:1-15). It later became a center of unauthorized worship when Jeroboam set up one of his two golden calves there to keep the northern kingdom from worshiping at Jerusalem (1 Kings 12:26-33), a corruption the prophets Amos and Hosea both condemned by name; Amos was told outright to leave Bethel's royal sanctuary (Amos 7:10-13). Deborah judged Israel near there, and Samuel visited Bethel on his judging circuit.",
-  "family_friendly_summary": "Bethel means \"house of God.\" It's the place where Jacob had a dream about a stairway reaching up to heaven, and he promised to serve God there. Sadly, years later, King Jeroboam set up a golden calf for people to worship at Bethel instead of going to God's temple in Jerusalem \u2014 something the prophets spoke out strongly against."
+  "family_friendly_summary": "Bethel means \"house of God.\" It's the place where Jacob had a dream about a stairway reaching up to heaven, and he promised to serve God there. Sadly, years later, King Jeroboam set up a golden calf for people to worship at Bethel instead of going to God's temple in Jerusalem \u2014 something the prophets spoke out strongly against.",
+  "geo": {
+    "lat": 31.92278,
+    "lng": 35.24139,
+    "confidence": 716,
+    "kind": "point",
+    "openbible": "Bethel 1",
+    "candidates": [
+      [
+        35.24139,
+        31.92278,
+        716
+      ],
+      [
+        35.21496,
+        31.90514,
+        99
+      ],
+      [
+        35.24548,
+        31.92187,
+        5
+      ]
+    ]
+  }
 }

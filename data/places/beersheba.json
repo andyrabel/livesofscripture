@@ -80,5 +80,24 @@
       ]
     }
   ],
-  "description": "A well and settlement in Canaan's southern edge where Abraham made a covenant with Abimelech and named the site for their oath (Genesis 21:22-34), and where Isaac later dug his own well and renewed the same covenant (Genesis 26:23-33). \"From Dan to Beersheba\" became a standard phrase for the whole extent of Israel's territory (Judges 20:1). Elijah fled there, exhausted, after fleeing Jezebel's threat (1 Kings 19:3)."
+  "description": "A well and settlement in Canaan's southern edge where Abraham made a covenant with Abimelech and named the site for their oath (Genesis 21:22-34), and where Isaac later dug his own well and renewed the same covenant (Genesis 26:23-33). \"From Dan to Beersheba\" became a standard phrase for the whole extent of Israel's territory (Judges 20:1). Elijah fled there, exhausted, after fleeing Jezebel's threat (1 Kings 19:3).",
+  "geo": {
+    "lat": 31.24472,
+    "lng": 34.84083,
+    "confidence": 823,
+    "kind": "point",
+    "openbible": "Beersheba 1",
+    "candidates": [
+      [
+        34.84083,
+        31.24472,
+        823
+      ],
+      [
+        34.79308,
+        31.23722,
+        16
+      ]
+    ]
+  }
 }

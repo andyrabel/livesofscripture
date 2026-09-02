@@ -76,5 +76,29 @@
       ]
     }
   ],
-  "description": "A place east of the Jordan where Jacob, returning to Canaan, was met by angels and named the site \"two camps\" (Genesis 32:1-2). It later became Ish-bosheth's capital when Abner made him king over Israel against David (2 Samuel 2:8-9), and still later the refuge David fled to during Absalom's rebellion, where he received support from Machir and Barzillai (2 Samuel 17:24-27)."
+  "description": "A place east of the Jordan where Jacob, returning to Canaan, was met by angels and named the site \"two camps\" (Genesis 32:1-2). It later became Ish-bosheth's capital when Abner made him king over Israel against David (2 Samuel 2:8-9), and still later the refuge David fled to during Absalom's rebellion, where he received support from Machir and Barzillai (2 Samuel 17:24-27).",
+  "geo": {
+    "lat": 32.18575,
+    "lng": 35.68667,
+    "confidence": 654,
+    "kind": "point",
+    "openbible": "Mahanaim",
+    "candidates": [
+      [
+        35.68667,
+        32.18575,
+        654
+      ],
+      [
+        35.69241,
+        32.14952,
+        63
+      ],
+      [
+        35.69211,
+        32.18702,
+        29
+      ]
+    ]
+  }
 }

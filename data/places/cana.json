@@ -30,5 +30,29 @@
       ]
     }
   ],
-  "description": "A Galilean town where Jesus performed His first public miracle, turning water into wine at a wedding (John 2:1-11); Nathanael was from Cana (John 21:2)."
+  "description": "A Galilean town where Jesus performed His first public miracle, turning water into wine at a wedding (John 2:1-11); Nathanael was from Cana (John 21:2).",
+  "geo": {
+    "lat": 32.8222,
+    "lng": 35.30269,
+    "confidence": 690,
+    "kind": "point",
+    "openbible": "Cana",
+    "candidates": [
+      [
+        35.30269,
+        32.8222,
+        690
+      ],
+      [
+        35.33921,
+        32.74647,
+        80
+      ],
+      [
+        35.31996,
+        32.71313,
+        6
+      ]
+    ]
+  }
 }

@@ -69,5 +69,12 @@
       ]
     }
   ],
-  "description": "Capital of the Assyrian Empire, the city God sent Jonah to warn of coming judgment (Jonah 1:2). Jonah initially fled the assignment, but when he finally preached there the entire city \u2014 from the king down \u2014 repented, and God relented from destroying it (Jonah 3). A century or so later, the prophet Nahum announced Nineveh's coming, and final, destruction, which came at the hands of Babylon and its allies in 612 BC (Nahum 1:1; 3:1-19)."
+  "description": "Capital of the Assyrian Empire, the city God sent Jonah to warn of coming judgment (Jonah 1:2). Jonah initially fled the assignment, but when he finally preached there the entire city \u2014 from the king down \u2014 repented, and God relented from destroying it (Jonah 3). A century or so later, the prophet Nahum announced Nineveh's coming, and final, destruction, which came at the hands of Babylon and its allies in 612 BC (Nahum 1:1; 3:1-19).",
+  "geo": {
+    "lat": 36.3594,
+    "lng": 43.1528,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Nineveh"
+  }
 }

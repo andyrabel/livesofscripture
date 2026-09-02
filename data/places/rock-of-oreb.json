@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "Where Ephraimite forces, joining Gideon's pursuit of the fleeing Midianites, captured and killed the Midianite prince Oreb (Judges 7:24-25)."
+  "description": "Where Ephraimite forces, joining Gideon's pursuit of the fleeing Midianites, captured and killed the Midianite prince Oreb (Judges 7:24-25).",
+  "geo": {
+    "lat": 32.0,
+    "lng": 35.55,
+    "confidence": 0,
+    "kind": "representative",
+    "note": "Approximate: a crossing near the Jordan where Oreb was killed (Judges 7:25)."
+  }
 }

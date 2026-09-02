@@ -165,5 +165,12 @@
     }
   ],
   "description": "The wilderness region Israel reached about three months after leaving Egypt, where they camped for roughly a year at the foot of Mount Sinai (Exodus 19:1-2; Numbers 10:11-12). It was here that God gave Moses the Ten Commandments and the rest of the Law, established the covenant with Israel as a nation, and gave detailed instructions for the tabernacle, priesthood, and sacrificial system (Exodus 19-40; Leviticus). Aaron's golden calf, Nadab and Abihu's unauthorized fire, and the tabernacle's construction and dedication all take place here \u2014 making Sinai the setting for most of Exodus's second half and all of Leviticus.",
-  "family_friendly_summary": "Sinai was the wild, mountain-filled desert where God's people camped for about a year after leaving Egypt. There God gave Moses the Ten Commandments and many other laws, and the people built a special worship tent called the tabernacle. It was an important time when God showed His people how He wanted them to live and worship Him."
+  "family_friendly_summary": "Sinai was the wild, mountain-filled desert where God's people camped for about a year after leaving Egypt. There God gave Moses the Ten Commandments and many other laws, and the people built a special worship tent called the tabernacle. It was an important time when God showed His people how He wanted them to live and worship Him.",
+  "geo": {
+    "lat": 28.53972,
+    "lng": 33.97333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Wilderness of Sinai"
+  }
 }

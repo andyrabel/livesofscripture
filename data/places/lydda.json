@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A town where Peter healed a paralyzed man named Aeneas, a miracle that led many in the surrounding area to believe (Acts 9:32-35)."
+  "description": "A town where Peter healed a paralyzed man named Aeneas, a miracle that led many in the surrounding area to believe (Acts 9:32-35).",
+  "geo": {
+    "lat": 31.95,
+    "lng": 34.9,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Lod"
+  }
 }

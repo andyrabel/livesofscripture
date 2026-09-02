@@ -53,5 +53,12 @@
       ]
     }
   ],
-  "description": "The territory east of the Jordan River that the tribes of Reuben, Gad, and half of Manasseh requested and received as their inheritance because of its suitability for their large herds, on condition that their fighting men first help conquer Canaan proper (Numbers 32; Joshua 22)."
+  "description": "The territory east of the Jordan River that the tribes of Reuben, Gad, and half of Manasseh requested and received as their inheritance because of its suitability for their large herds, on condition that their fighting men first help conquer Canaan proper (Numbers 32; Joshua 22).",
+  "geo": {
+    "lat": 31.76139,
+    "lng": 35.55833,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Jordan"
+  }
 }

@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown, in Gilead, of Barzillai, an elderly and wealthy man who generously supplied David's fleeing party during Absalom's rebellion (2 Samuel 17:27-29; 19:31-39)."
+  "description": "The hometown, in Gilead, of Barzillai, an elderly and wealthy man who generously supplied David's fleeing party during Absalom's rebellion (2 Samuel 17:27-29; 19:31-39).",
+  "geo": {
+    "lat": 32.52789,
+    "lng": 35.78063,
+    "confidence": 313,
+    "kind": "point",
+    "openbible": "Rogelim",
+    "candidates": [
+      [
+        35.78063,
+        32.52789,
+        313
+      ],
+      [
+        35.7723,
+        32.53276,
+        90
+      ]
+    ]
+  }
 }

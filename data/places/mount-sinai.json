@@ -81,5 +81,39 @@
       ]
     }
   ],
-  "description": "The mountain where God gave Moses the Ten Commandments amid thunder, smoke, and fire, and where Moses and Israel's elders later confirmed the covenant (Exodus 19-20; 24). Also called Horeb, it is where Moses first encountered God at the burning bush (Exodus 3:1) and where, generations later, Elijah fled and heard God speak in a gentle whisper rather than the wind, earthquake, or fire (1 Kings 19:8-13)."
+  "description": "The mountain where God gave Moses the Ten Commandments amid thunder, smoke, and fire, and where Moses and Israel's elders later confirmed the covenant (Exodus 19-20; 24). Also called Horeb, it is where Moses first encountered God at the burning bush (Exodus 3:1) and where, generations later, Elijah fled and heard God speak in a gentle whisper rather than the wind, earthquake, or fire (1 Kings 19:8-13).",
+  "geo": {
+    "lat": 28.53972,
+    "lng": 33.97333,
+    "confidence": 465,
+    "kind": "point",
+    "openbible": "Mount Sinai",
+    "candidates": [
+      [
+        33.97333,
+        28.53972,
+        465
+      ],
+      [
+        34.75,
+        30.28333,
+        103
+      ],
+      [
+        32.961,
+        29.671,
+        89
+      ],
+      [
+        33.96722,
+        28.55556,
+        55
+      ],
+      [
+        33.65167,
+        28.64639,
+        54
+      ]
+    ]
+  }
 }

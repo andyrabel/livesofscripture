@@ -215,5 +215,12 @@
     }
   ],
   "description": "A small town a few miles south of Jerusalem, Bethlehem is where Rachel died and was buried (Genesis 35:19), where Naomi's family lived before famine sent them to Moab and where Ruth later gleaned in Boaz's fields (Ruth 1-4), and where Samuel anointed the shepherd boy David as king over his older brothers (1 Samuel 16:1-13) \u2014 giving the town its lasting title \"the city of David\" even after David made Jerusalem his capital. Micah named Bethlehem centuries in advance as the birthplace of Israel's promised ruler, \"from the days of eternity\" (Micah 5:2), which Matthew explicitly cites as fulfilled when Jesus was born there during a Roman census (Matthew 2:1-6; Luke 2:1-7) \u2014 one of Scripture's clearest advance-and-fulfillment pairs.",
-  "family_friendly_summary": "Bethlehem was a small town near Jerusalem. Ruth moved there with Naomi and later married Boaz. Bethlehem was also the hometown of young David, the shepherd boy God chose to become king. Long before Jesus was born, a prophet named Micah said the promised Savior would come from Bethlehem \u2014 and hundreds of years later, that's exactly where Jesus was born!"
+  "family_friendly_summary": "Bethlehem was a small town near Jerusalem. Ruth moved there with Naomi and later married Boaz. Bethlehem was also the hometown of young David, the shepherd boy God chose to become king. Long before Jesus was born, a prophet named Micah said the promised Savior would come from Bethlehem \u2014 and hundreds of years later, that's exactly where Jesus was born!",
+  "geo": {
+    "lat": 31.70431,
+    "lng": 35.20764,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Bethlehem 1"
+  }
 }

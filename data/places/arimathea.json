@@ -29,5 +29,39 @@
       ]
     }
   ],
-  "description": "Hometown of Joseph, a wealthy member of the Jewish council and secret disciple of Jesus who asked Pilate for Jesus's body and buried it in his own new tomb (Matthew 27:57-60; John 19:38-42)."
+  "description": "Hometown of Joseph, a wealthy member of the Jewish council and secret disciple of Jesus who asked Pilate for Jesus's body and buried it in his own new tomb (Matthew 27:57-60; John 19:38-42).",
+  "geo": {
+    "lat": 32.02806,
+    "lng": 35.01944,
+    "confidence": 228,
+    "kind": "point",
+    "openbible": "Arimathea",
+    "candidates": [
+      [
+        35.01944,
+        32.02806,
+        228
+      ],
+      [
+        35.23161,
+        31.85434,
+        141
+      ],
+      [
+        35.1025,
+        32.03286,
+        131
+      ],
+      [
+        35.23161,
+        31.85434,
+        59
+      ],
+      [
+        35.21496,
+        31.90514,
+        37
+      ]
+    ]
+  }
 }

@@ -25,5 +25,39 @@
       "gender": "male"
     }
   ],
-  "description": "A wilderness campsite where Moses struck a rock to bring forth water for the thirsty people, with Aaron and Hur holding up his arms during Israel's battle victory over Amalek there (Exodus 17:1-13)."
+  "description": "A wilderness campsite where Moses struck a rock to bring forth water for the thirsty people, with Aaron and Hur holding up his arms during Israel's battle victory over Amalek there (Exodus 17:1-13).",
+  "geo": {
+    "lat": 28.62306,
+    "lng": 33.88028,
+    "confidence": 379,
+    "kind": "representative",
+    "openbible": "Rephidim",
+    "candidates": [
+      [
+        33.88028,
+        28.62306,
+        379
+      ],
+      [
+        33.61194,
+        28.7125,
+        194
+      ],
+      [
+        33.68167,
+        28.69944,
+        62
+      ],
+      [
+        33.86139,
+        28.62167,
+        14
+      ],
+      [
+        32.80587,
+        29.63625,
+        14
+      ]
+    ]
+  }
 }

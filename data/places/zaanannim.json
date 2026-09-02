@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "Near where Heber the Kenite had pitched his tent, apart from his own people, at the time his wife Jael killed the fleeing Canaanite commander Sisera (Judges 4:11, 17-21)."
+  "description": "Near where Heber the Kenite had pitched his tent, apart from his own people, at the time his wife Jael killed the fleeing Canaanite commander Sisera (Judges 4:11, 17-21).",
+  "geo": {
+    "lat": 32.72113,
+    "lng": 35.41064,
+    "confidence": 408,
+    "kind": "point",
+    "openbible": "Zaanannim",
+    "candidates": [
+      [
+        35.41064,
+        32.72113,
+        408
+      ],
+      [
+        35.48123,
+        32.73448,
+        170
+      ],
+      [
+        35.17778,
+        32.57472,
+        115
+      ],
+      [
+        35.5311,
+        32.6848,
+        98
+      ]
+    ]
+  }
 }

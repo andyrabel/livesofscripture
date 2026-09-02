@@ -21,4 +21,4 @@ jobs:
         run: python3 _build/generate_static_site.py
 
       - name: Verify generated output is committed
-        run: git diff --exit-code -- people/ churches/ places/ sitemap.xml people.html churches.html places.html data/places-index.json data/place-connections.json data/places/
+        run: git diff --exit-code -- people/ churches/ places/ sitemap.xml people.html churches.html places.html map.html data/places-index.json data/place-connections.json data/places/

@@ -68,5 +68,29 @@
       ]
     }
   ],
-  "description": "A Philistine town in Canaan's south where both Abraham and, later, Isaac sojourned during famines and each, in turn, told local king Abimelech his wife was his sister out of fear \u2014 deceptions God intervened to expose both times (Genesis 20; 26:1-11). Isaac also dug and redug wells there amid disputes with Gerar's herdsmen (Genesis 26:12-33)."
+  "description": "A Philistine town in Canaan's south where both Abraham and, later, Isaac sojourned during famines and each, in turn, told local king Abimelech his wife was his sister out of fear \u2014 deceptions God intervened to expose both times (Genesis 20; 26:1-11). Isaac also dug and redug wells there amid disputes with Gerar's herdsmen (Genesis 26:12-33).",
+  "geo": {
+    "lat": 31.3821,
+    "lng": 34.6065,
+    "confidence": 694,
+    "kind": "point",
+    "openbible": "Gerar",
+    "candidates": [
+      [
+        34.6065,
+        31.3821,
+        694
+      ],
+      [
+        34.6816,
+        31.3912,
+        35
+      ],
+      [
+        34.56705,
+        31.18386,
+        12
+      ]
+    ]
+  }
 }

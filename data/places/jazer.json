@@ -25,5 +25,39 @@
       "gender": "male"
     }
   ],
-  "description": "A Transjordan town in Gilead's territory whose capture is briefly noted during Israel's approach to Canaan (Numbers 21:32); later assigned within Gad's inheritance (Joshua 21:39)."
+  "description": "A Transjordan town in Gilead's territory whose capture is briefly noted during Israel's approach to Canaan (Numbers 21:32); later assigned within Gad's inheritance (Joshua 21:39).",
+  "geo": {
+    "lat": 31.94447,
+    "lng": 35.83008,
+    "confidence": 281,
+    "kind": "point",
+    "openbible": "Jazer",
+    "candidates": [
+      [
+        35.83008,
+        31.94447,
+        281
+      ],
+      [
+        35.73498,
+        32.0064,
+        248
+      ],
+      [
+        35.81472,
+        31.95694,
+        16
+      ],
+      [
+        35.79588,
+        31.90559,
+        14
+      ],
+      [
+        35.91726,
+        32.03043,
+        2
+      ]
+    ]
+  }
 }

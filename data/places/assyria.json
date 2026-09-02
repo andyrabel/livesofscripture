@@ -78,5 +78,12 @@
       ]
     }
   ],
-  "description": "A powerful Mesopotamian empire that became the northern kingdom of Israel's chief threat, exacting tribute under kings like Tiglath-pileser and Shalmaneser before finally conquering and deporting Israel's population in 722 BC under Sargon (2 Kings 15:19-20; 17:1-6). Assyria under Sennacherib also besieged Jerusalem in Hezekiah's reign, only to withdraw after God struck down the Assyrian army (2 Kings 18-19). Jonah was sent to preach repentance to Assyria's capital, Nineveh (Jonah 1:1-2)."
+  "description": "A powerful Mesopotamian empire that became the northern kingdom of Israel's chief threat, exacting tribute under kings like Tiglath-pileser and Shalmaneser before finally conquering and deporting Israel's population in 722 BC under Sargon (2 Kings 15:19-20; 17:1-6). Assyria under Sennacherib also besieged Jerusalem in Hezekiah's reign, only to withdraw after God struck down the Assyrian army (2 Kings 18-19). Jonah was sent to preach repentance to Assyria's capital, Nineveh (Jonah 1:1-2).",
+  "geo": {
+    "lat": 36.3594,
+    "lng": 43.1528,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Assyria"
+  }
 }

@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The site of a Philistine garrison that Jonathan and his armor-bearer boldly attacked alone, triggering a panic that turned into an Israelite rout of the Philistines (1 Samuel 14:1-15)."
+  "description": "The site of a Philistine garrison that Jonathan and his armor-bearer boldly attacked alone, triggering a panic that turned into an Israelite rout of the Philistines (1 Samuel 14:1-15).",
+  "geo": {
+    "lat": 31.87282,
+    "lng": 35.27686,
+    "confidence": 601,
+    "kind": "point",
+    "openbible": "Michmash",
+    "candidates": [
+      [
+        35.27686,
+        31.87282,
+        601
+      ],
+      [
+        35.2751,
+        31.87971,
+        298
+      ]
+    ]
+  }
 }

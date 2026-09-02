@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The region a king named Cushan-rishathaim came from to oppress Israel for eight years before the judge Othniel delivered them (Judges 3:8-10)."
+  "description": "The region a king named Cushan-rishathaim came from to oppress Israel for eight years before the judge Othniel delivered them (Judges 3:8-10).",
+  "geo": {
+    "lat": 36.86444,
+    "lng": 39.03278,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Aram-naharaim"
+  }
 }

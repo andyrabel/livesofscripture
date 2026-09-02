@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "Capital of Sihon, the Amorite king who refused Israel passage and was defeated in battle, giving Israel its first Transjordan territory (Numbers 21:21-30)."
+  "description": "Capital of Sihon, the Amorite king who refused Israel passage and was defeated in battle, giving Israel its first Transjordan territory (Numbers 21:21-30).",
+  "geo": {
+    "lat": 31.80081,
+    "lng": 35.80906,
+    "confidence": 433,
+    "kind": "point",
+    "openbible": "Heshbon",
+    "candidates": [
+      [
+        35.80906,
+        31.80081,
+        433
+      ],
+      [
+        35.85684,
+        31.71663,
+        134
+      ],
+      [
+        35.8881,
+        31.8686,
+        41
+      ]
+    ]
+  }
 }

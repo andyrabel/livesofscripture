@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "The site where David's army defeated a coalition of Arameans under Hadadezer's commander Shobach, who was killed in the battle (2 Samuel 10:15-18)."
+  "description": "The site where David's army defeated a coalition of Arameans under Hadadezer's commander Shobach, who was killed in the battle (2 Samuel 10:15-18).",
+  "geo": {
+    "lat": 32.75,
+    "lng": 36.24083,
+    "confidence": 335,
+    "kind": "point",
+    "openbible": "Helam",
+    "candidates": [
+      [
+        36.24083,
+        32.75,
+        335
+      ],
+      [
+        36.63636,
+        34.40107,
+        128
+      ],
+      [
+        37.1625,
+        36.19917,
+        84
+      ]
+    ]
+  }
 }

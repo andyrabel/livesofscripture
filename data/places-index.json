@@ -10,7 +10,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.25805,
+    "lng": 35.58101
   },
   {
     "place_id": "abel-meholah",
@@ -23,7 +25,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.3743,
+    "lng": 35.56089
   },
   {
     "place_id": "adullam",
@@ -36,7 +40,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.65167,
+    "lng": 35.00167
   },
   {
     "place_id": "ai",
@@ -49,7 +55,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.91694,
+    "lng": 35.26111
   },
   {
     "place_id": "aijalon-of-zebulun",
@@ -62,7 +70,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.84111,
+    "lng": 35.02361
   },
   {
     "place_id": "alexandria",
@@ -75,7 +85,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.1825,
+    "lng": 29.8965
   },
   {
     "place_id": "amalek",
@@ -88,7 +100,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.64833,
+    "lng": 34.42222
   },
   {
     "place_id": "ammon",
@@ -104,7 +118,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.9547,
+    "lng": 35.9343
   },
   {
     "place_id": "anathoth",
@@ -117,7 +133,9 @@
       "Divided Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.80752,
+    "lng": 35.25758
   },
   {
     "place_id": "antioch",
@@ -133,7 +151,9 @@
       "Apostolic"
     ],
     "n_people": 7,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.22669,
+    "lng": 36.17174
   },
   {
     "place_id": "aphek",
@@ -146,7 +166,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.105,
+    "lng": 34.93042
   },
   {
     "place_id": "arabia",
@@ -159,7 +181,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 23.0,
+    "lng": 46.0
   },
   {
     "place_id": "aram",
@@ -175,7 +199,9 @@
       "Divided Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.51111,
+    "lng": 36.30639
   },
   {
     "place_id": "aram-naharaim",
@@ -188,7 +214,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.86444,
+    "lng": 39.03278
   },
   {
     "place_id": "ararat",
@@ -204,7 +232,9 @@
       "Divided Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 39.70276,
+    "lng": 44.30038
   },
   {
     "place_id": "argob",
@@ -217,7 +247,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.9695,
+    "lng": 36.45538
   },
   {
     "place_id": "arimathea",
@@ -230,7 +262,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.02806,
+    "lng": 35.01944
   },
   {
     "place_id": "ashdod",
@@ -243,7 +277,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.7572,
+    "lng": 34.6578
   },
   {
     "place_id": "asia-roman-province",
@@ -256,7 +292,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 38.4,
+    "lng": 28.3
   },
   {
     "place_id": "asia-minor",
@@ -271,7 +309,9 @@
       "Apostolic"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 38.4,
+    "lng": 28.3
   },
   {
     "place_id": "assyria",
@@ -284,7 +324,9 @@
       "Divided Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.3594,
+    "lng": 43.1528
   },
   {
     "place_id": "athens",
@@ -297,7 +339,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.97185,
+    "lng": 23.72674
   },
   {
     "place_id": "baal-peor",
@@ -310,7 +354,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77702,
+    "lng": 35.7385
   },
   {
     "place_id": "babylon",
@@ -329,7 +375,9 @@
       "Gospels"
     ],
     "n_people": 29,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.54333,
+    "lng": 44.42222
   },
   {
     "place_id": "bahurim",
@@ -342,7 +390,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.7912,
+    "lng": 35.25694
   },
   {
     "place_id": "bashan",
@@ -356,7 +406,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.78111,
+    "lng": 35.93472
   },
   {
     "place_id": "beersheba",
@@ -372,7 +424,9 @@
       "United Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.24472,
+    "lng": 34.84083
   },
   {
     "place_id": "benjamin",
@@ -385,7 +439,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85,
+    "lng": 35.22
   },
   {
     "place_id": "bethany",
@@ -398,7 +454,9 @@
       "Gospels"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77166,
+    "lng": 35.2559
   },
   {
     "place_id": "bethel",
@@ -416,7 +474,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 10,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.92278,
+    "lng": 35.24139
   },
   {
     "place_id": "bethlehem",
@@ -436,7 +496,9 @@
       "Gospels"
     ],
     "n_people": 20,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.70431,
+    "lng": 35.20764
   },
   {
     "place_id": "bethsaida",
@@ -449,7 +511,9 @@
       "Gospels"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.91038,
+    "lng": 35.63096
   },
   {
     "place_id": "bezek",
@@ -462,7 +526,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.36884,
+    "lng": 35.39736
   },
   {
     "place_id": "buz",
@@ -475,7 +541,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 28.35661,
+    "lng": 38.98797
   },
   {
     "place_id": "caesarea",
@@ -490,7 +558,9 @@
       "Apostolic"
     ],
     "n_people": 14,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.5,
+    "lng": 34.89167
   },
   {
     "place_id": "cana",
@@ -503,7 +573,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.8222,
+    "lng": 35.30269
   },
   {
     "place_id": "canaan",
@@ -520,7 +592,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 37,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.76667,
+    "lng": 35.33333
   },
   {
     "place_id": "capernaum",
@@ -533,7 +607,9 @@
       "Gospels"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.88111,
+    "lng": 35.575
   },
   {
     "place_id": "carmel-of-judah",
@@ -546,7 +622,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.42288,
+    "lng": 35.13295
   },
   {
     "place_id": "casiphia",
@@ -559,7 +637,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.54333,
+    "lng": 44.42222
   },
   {
     "place_id": "cave-of-machpelah",
@@ -572,7 +652,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.52467,
+    "lng": 35.11076
   },
   {
     "place_id": "cenchrea",
@@ -585,7 +667,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.88434,
+    "lng": 22.99682
   },
   {
     "place_id": "chebar-river",
@@ -598,7 +682,9 @@
       "Exile"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.12694,
+    "lng": 45.23083
   },
   {
     "place_id": "colossae",
@@ -611,7 +697,9 @@
       "Apostolic"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.78664,
+    "lng": 29.25994
   },
   {
     "place_id": "corinth",
@@ -624,7 +712,9 @@
       "Apostolic"
     ],
     "n_people": 13,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.90579,
+    "lng": 22.87874
   },
   {
     "place_id": "crete",
@@ -637,7 +727,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 35.30972,
+    "lng": 24.89333
   },
   {
     "place_id": "cush",
@@ -650,7 +742,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 16.93514,
+    "lng": 33.75075
   },
   {
     "place_id": "cyprus",
@@ -663,7 +757,9 @@
       "Apostolic"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 35.0,
+    "lng": 33.0
   },
   {
     "place_id": "cyrene",
@@ -676,7 +772,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.82095,
+    "lng": 21.85123
   },
   {
     "place_id": "damascus",
@@ -692,7 +790,9 @@
       "Apostolic"
     ],
     "n_people": 11,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.51111,
+    "lng": 36.30639
   },
   {
     "place_id": "dan",
@@ -705,7 +805,9 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.249,
+    "lng": 35.652
   },
   {
     "place_id": "debir",
@@ -718,7 +820,9 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.43209,
+    "lng": 35.01485
   },
   {
     "place_id": "edom",
@@ -736,7 +840,9 @@
       "Exile"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.74584,
+    "lng": 35.60392
   },
   {
     "place_id": "eglon",
@@ -749,7 +855,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.49181,
+    "lng": 34.92806
   },
   {
     "place_id": "egypt",
@@ -767,7 +875,9 @@
       "Gospels"
     ],
     "n_people": 38,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.12944,
+    "lng": 31.3075
   },
   {
     "place_id": "elam",
@@ -780,7 +890,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.18922,
+    "lng": 48.25778
   },
   {
     "place_id": "elkosh",
@@ -793,7 +905,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.12139,
+    "lng": 35.33833
   },
   {
     "place_id": "ellasar",
@@ -806,7 +920,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 35.45667,
+    "lng": 43.2625
   },
   {
     "place_id": "emmaus",
@@ -819,7 +935,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.79289,
+    "lng": 35.16419
   },
   {
     "place_id": "ephesus",
@@ -833,7 +951,9 @@
       "Apostolic"
     ],
     "n_people": 16,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.93912,
+    "lng": 27.3407
   },
   {
     "place_id": "ephraim",
@@ -846,7 +966,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.38111,
+    "lng": 35.76472
   },
   {
     "place_id": "ephraim-forest",
@@ -859,7 +981,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.2,
+    "lng": 35.7
   },
   {
     "place_id": "ezion-geber",
@@ -872,7 +996,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 29.46284,
+    "lng": 34.86005
   },
   {
     "place_id": "galilee",
@@ -885,7 +1011,9 @@
       "Gospels"
     ],
     "n_people": 15,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.76,
+    "lng": 35.527
   },
   {
     "place_id": "gallim",
@@ -898,7 +1026,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.81544,
+    "lng": 35.25078
   },
   {
     "place_id": "garden-of-eden",
@@ -913,7 +1043,9 @@
       "Primeval History"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.7014,
+    "lng": 38.0865
   },
   {
     "place_id": "gath",
@@ -926,7 +1058,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.69972,
+    "lng": 34.84694
   },
   {
     "place_id": "gath-hepher",
@@ -939,7 +1073,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.73806,
+    "lng": 35.31972
   },
   {
     "place_id": "gaza",
@@ -952,7 +1088,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.504,
+    "lng": 34.4644
   },
   {
     "place_id": "gaza-road",
@@ -978,7 +1116,9 @@
       "Patriarchal"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.3821,
+    "lng": 34.6065
   },
   {
     "place_id": "geshur",
@@ -991,7 +1131,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.76667,
+    "lng": 35.7
   },
   {
     "place_id": "gethsemane",
@@ -1004,7 +1146,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77942,
+    "lng": 35.23942
   },
   {
     "place_id": "gezer",
@@ -1017,7 +1161,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85917,
+    "lng": 34.91917
   },
   {
     "place_id": "gibbethon",
@@ -1030,7 +1176,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85639,
+    "lng": 34.86556
   },
   {
     "place_id": "gibeah",
@@ -1045,7 +1193,9 @@
       "United Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.82311,
+    "lng": 35.23072
   },
   {
     "place_id": "gibeon",
@@ -1059,7 +1209,9 @@
       "United Monarchy"
     ],
     "n_people": 7,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.84745,
+    "lng": 35.18335
   },
   {
     "place_id": "gilead",
@@ -1076,7 +1228,9 @@
       "Divided Monarchy"
     ],
     "n_people": 8,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.18702,
+    "lng": 35.69211
   },
   {
     "place_id": "gilgal",
@@ -1091,7 +1245,9 @@
       "Divided Monarchy"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.88188,
+    "lng": 35.45997
   },
   {
     "place_id": "giloh",
@@ -1104,7 +1260,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.43209,
+    "lng": 35.01485
   },
   {
     "place_id": "gob",
@@ -1117,7 +1275,9 @@
       "United Monarchy"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85917,
+    "lng": 34.91917
   },
   {
     "place_id": "gomorrah",
@@ -1130,7 +1290,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.20849,
+    "lng": 35.44922
   },
   {
     "place_id": "greece",
@@ -1143,7 +1305,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.97185,
+    "lng": 23.72674
   },
   {
     "place_id": "hamath",
@@ -1156,7 +1320,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 35.1365,
+    "lng": 36.75
   },
   {
     "place_id": "haran",
@@ -1169,7 +1335,9 @@
       "Patriarchal"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.86444,
+    "lng": 39.03278
   },
   {
     "place_id": "harosheth-hagoyim",
@@ -1182,7 +1350,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.75885,
+    "lng": 35.09027
   },
   {
     "place_id": "havvoth-jair",
@@ -1196,7 +1366,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.5876,
+    "lng": 35.7256
   },
   {
     "place_id": "hazor",
@@ -1209,7 +1381,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.01833,
+    "lng": 35.56917
   },
   {
     "place_id": "hebron",
@@ -1228,7 +1402,9 @@
       "United Monarchy"
     ],
     "n_people": 15,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.52509,
+    "lng": 35.10222
   },
   {
     "place_id": "helam",
@@ -1241,7 +1417,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.75,
+    "lng": 36.24083
   },
   {
     "place_id": "heshbon",
@@ -1254,7 +1432,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.80081,
+    "lng": 35.80906
   },
   {
     "place_id": "hill-country-of-ephraim",
@@ -1269,7 +1449,9 @@
       "Judges"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.92278,
+    "lng": 35.24139
   },
   {
     "place_id": "hill-country-of-judea",
@@ -1282,7 +1464,9 @@
       "Gospels"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77667,
+    "lng": 35.23417
   },
   {
     "place_id": "jabesh-gilead",
@@ -1295,7 +1479,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.40237,
+    "lng": 35.6823
   },
   {
     "place_id": "jarmuth",
@@ -1308,7 +1494,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.7083,
+    "lng": 34.975
   },
   {
     "place_id": "jazer",
@@ -1321,7 +1509,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.94447,
+    "lng": 35.83008
   },
   {
     "place_id": "jericho",
@@ -1339,7 +1529,9 @@
       "Gospels"
     ],
     "n_people": 9,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.87172,
+    "lng": 35.44456
   },
   {
     "place_id": "jerusalem",
@@ -1364,7 +1556,9 @@
       "Apostolic"
     ],
     "n_people": 221,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77667,
+    "lng": 35.23417
   },
   {
     "place_id": "jezreel",
@@ -1378,7 +1572,9 @@
       "Divided Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.55785,
+    "lng": 35.32795
   },
   {
     "place_id": "jezreel-valley",
@@ -1391,7 +1587,9 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.59639,
+    "lng": 35.24194
   },
   {
     "place_id": "joppa",
@@ -1404,7 +1602,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.05448,
+    "lng": 34.75304
   },
   {
     "place_id": "jordan-river",
@@ -1419,7 +1619,9 @@
       "Gospels"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.76139,
+    "lng": 35.55833
   },
   {
     "place_id": "judea",
@@ -1432,7 +1634,9 @@
       "Gospels"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77667,
+    "lng": 35.23417
   },
   {
     "place_id": "kabzeel",
@@ -1445,7 +1649,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.28619,
+    "lng": 34.93235
   },
   {
     "place_id": "kadesh-barnea",
@@ -1460,7 +1666,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.64833,
+    "lng": 34.42222
   },
   {
     "place_id": "karkor",
@@ -1473,7 +1681,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.36306,
+    "lng": 37.54278
   },
   {
     "place_id": "kedesh",
@@ -1486,7 +1696,9 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.11164,
+    "lng": 35.52952
   },
   {
     "place_id": "kenath",
@@ -1499,7 +1711,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.75616,
+    "lng": 36.61899
   },
   {
     "place_id": "kingdom-of-israel",
@@ -1516,7 +1730,9 @@
       "Divided Monarchy"
     ],
     "n_people": 35,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.27611,
+    "lng": 35.195
   },
   {
     "place_id": "kingdom-of-judah",
@@ -1533,7 +1749,9 @@
       "Exile"
     ],
     "n_people": 39,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77667,
+    "lng": 35.23417
   },
   {
     "place_id": "kir-hareseth",
@@ -1546,7 +1764,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.18056,
+    "lng": 35.70139
   },
   {
     "place_id": "kiriath-jearim",
@@ -1562,7 +1782,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.80896,
+    "lng": 35.10378
   },
   {
     "place_id": "kishon-river",
@@ -1575,7 +1797,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.81667,
+    "lng": 35.03333
   },
   {
     "place_id": "lachish",
@@ -1589,7 +1813,9 @@
       "Divided Monarchy"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.56528,
+    "lng": 34.84917
   },
   {
     "place_id": "land-of-nod",
@@ -1615,7 +1841,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.83583,
+    "lng": 29.1075
   },
   {
     "place_id": "lo-debar",
@@ -1628,7 +1856,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.68393,
+    "lng": 35.62992
   },
   {
     "place_id": "lydda",
@@ -1641,7 +1871,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.95,
+    "lng": 34.9
   },
   {
     "place_id": "lystra",
@@ -1654,7 +1886,9 @@
       "Apostolic"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.6017,
+    "lng": 32.3384
   },
   {
     "place_id": "macedonia",
@@ -1667,7 +1901,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 41.6,
+    "lng": 22.54
   },
   {
     "place_id": "madon",
@@ -1680,7 +1916,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.07678,
+    "lng": 35.43235
   },
   {
     "place_id": "magdala",
@@ -1693,7 +1931,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.82707,
+    "lng": 35.51355
   },
   {
     "place_id": "magog",
@@ -1706,7 +1946,9 @@
       "Exile"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 38.48833,
+    "lng": 28.04028
   },
   {
     "place_id": "mahanaim",
@@ -1719,7 +1961,9 @@
       "United Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.18575,
+    "lng": 35.68667
   },
   {
     "place_id": "makkedah",
@@ -1732,7 +1976,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.53472,
+    "lng": 34.96656
   },
   {
     "place_id": "malta",
@@ -1745,7 +1991,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 35.93346,
+    "lng": 14.41173
   },
   {
     "place_id": "mamre",
@@ -1758,7 +2006,9 @@
       "Patriarchal"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.55654,
+    "lng": 35.10534
   },
   {
     "place_id": "maon",
@@ -1771,7 +2021,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.40945,
+    "lng": 35.13384
   },
   {
     "place_id": "mareshah",
@@ -1784,7 +2036,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.59296,
+    "lng": 34.89824
   },
   {
     "place_id": "mediterranean-sea",
@@ -1798,7 +2052,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.80482,
+    "lng": 34.17035
   },
   {
     "place_id": "megiddo",
@@ -1811,7 +2067,9 @@
       "Divided Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.58528,
+    "lng": 35.18444
   },
   {
     "place_id": "meshech-and-tubal",
@@ -1824,7 +2082,9 @@
       "Exile"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 39.655,
+    "lng": 31.99417
   },
   {
     "place_id": "mesopotamia",
@@ -1837,7 +2097,9 @@
       "Primeval History"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.86444,
+    "lng": 39.03278
   },
   {
     "place_id": "michmash",
@@ -1850,7 +2112,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.87282,
+    "lng": 35.27686
   },
   {
     "place_id": "midian",
@@ -1864,7 +2128,9 @@
       "Judges"
     ],
     "n_people": 7,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 28.4947,
+    "lng": 35.0122
   },
   {
     "place_id": "miletus",
@@ -1877,7 +2143,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.53111,
+    "lng": 27.27556
   },
   {
     "place_id": "mizpah",
@@ -1893,7 +2161,9 @@
       "Exile"
     ],
     "n_people": 7,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.88514,
+    "lng": 35.21642
   },
   {
     "place_id": "moab",
@@ -1908,7 +2178,9 @@
       "Divided Monarchy"
     ],
     "n_people": 11,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.18056,
+    "lng": 35.70139
   },
   {
     "place_id": "moresheth",
@@ -1921,7 +2193,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.63336,
+    "lng": 34.91661
   },
   {
     "place_id": "mount-carmel",
@@ -1934,7 +2208,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.6725,
+    "lng": 35.02333
   },
   {
     "place_id": "mount-gerizim",
@@ -1947,7 +2223,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.19944,
+    "lng": 35.27278
   },
   {
     "place_id": "mount-gilboa",
@@ -1960,7 +2238,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.43389,
+    "lng": 35.41444
   },
   {
     "place_id": "mount-hor",
@@ -1973,7 +2253,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.83206,
+    "lng": 35.05687
   },
   {
     "place_id": "mount-sinai",
@@ -1989,7 +2271,9 @@
       "Divided Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 28.53972,
+    "lng": 33.97333
   },
   {
     "place_id": "mount-tabor",
@@ -2002,7 +2286,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.68625,
+    "lng": 35.39292
   },
   {
     "place_id": "mount-zemaraim",
@@ -2015,7 +2301,9 @@
       "Divided Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.90879,
+    "lng": 35.2117
   },
   {
     "place_id": "naamah",
@@ -2028,7 +2316,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.56528,
+    "lng": 34.84917
   },
   {
     "place_id": "nazareth",
@@ -2042,7 +2332,9 @@
       "Apostolic"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.70214,
+    "lng": 35.29769
   },
   {
     "place_id": "negev",
@@ -2055,7 +2347,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.24472,
+    "lng": 34.84083
   },
   {
     "place_id": "nineveh",
@@ -2068,7 +2362,9 @@
       "Divided Monarchy"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.3594,
+    "lng": 43.1528
   },
   {
     "place_id": "nob",
@@ -2081,7 +2377,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.7925,
+    "lng": 35.24417
   },
   {
     "place_id": "ophrah",
@@ -2094,7 +2392,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.95444,
+    "lng": 35.30028
   },
   {
     "place_id": "paddan-aram",
@@ -2109,7 +2409,9 @@
       "Patriarchal"
     ],
     "n_people": 15,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.86444,
+    "lng": 39.03278
   },
   {
     "place_id": "paphos",
@@ -2122,7 +2424,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 34.75567,
+    "lng": 32.40417
   },
   {
     "place_id": "pas-dammim",
@@ -2135,7 +2439,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.68449,
+    "lng": 35.05224
   },
   {
     "place_id": "patmos",
@@ -2148,7 +2454,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 37.325,
+    "lng": 26.54167
   },
   {
     "place_id": "penuel",
@@ -2164,7 +2472,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.18702,
+    "lng": 35.69211
   },
   {
     "place_id": "perea",
@@ -2177,7 +2487,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.95,
+    "lng": 35.7
   },
   {
     "place_id": "pergamum",
@@ -2190,7 +2502,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 39.13216,
+    "lng": 27.18421
   },
   {
     "place_id": "persia",
@@ -2203,7 +2517,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 34.8065,
+    "lng": 48.51625
   },
   {
     "place_id": "pethor",
@@ -2216,7 +2532,22 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.7014,
+    "lng": 38.0865
+  },
+  {
+    "place_id": "philadelphia",
+    "name": "Philadelphia",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.35,
+    "lng": 28.51667
   },
   {
     "place_id": "philippi",
@@ -2229,7 +2560,9 @@
       "Apostolic"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 41.01207,
+    "lng": 24.28458
   },
   {
     "place_id": "philistia",
@@ -2242,7 +2575,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.66389,
+    "lng": 34.54583
   },
   {
     "place_id": "philistine-territory",
@@ -2258,7 +2593,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.66389,
+    "lng": 34.54583
   },
   {
     "place_id": "pirathon",
@@ -2271,7 +2608,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.19056,
+    "lng": 35.16583
   },
   {
     "place_id": "plains-of-moab",
@@ -2284,7 +2623,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 9,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.84018,
+    "lng": 35.67368
   },
   {
     "place_id": "pontus",
@@ -2297,7 +2638,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 40.68,
+    "lng": 37.83
   },
   {
     "place_id": "rabbah",
@@ -2312,7 +2655,9 @@
       "United Monarchy"
     ],
     "n_people": 4,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.9547,
+    "lng": 35.9343
   },
   {
     "place_id": "ramah",
@@ -2325,7 +2670,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85434,
+    "lng": 35.23161
   },
   {
     "place_id": "ramathaim-zophim",
@@ -2340,7 +2687,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.85434,
+    "lng": 35.23161
   },
   {
     "place_id": "ramoth-gilead",
@@ -2353,7 +2702,9 @@
       "Divided Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.49985,
+    "lng": 36.01499
   },
   {
     "place_id": "region-of-the-gerasenes",
@@ -2366,7 +2717,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.27228,
+    "lng": 35.8914
   },
   {
     "place_id": "rephidim",
@@ -2379,7 +2732,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 28.62306,
+    "lng": 33.88028
   },
   {
     "place_id": "riblah",
@@ -2393,7 +2748,9 @@
       "Exile"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 34.45955,
+    "lng": 36.57262
   },
   {
     "place_id": "rock-of-oreb",
@@ -2406,7 +2763,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.0,
+    "lng": 35.55
   },
   {
     "place_id": "rogelim",
@@ -2419,7 +2778,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.52789,
+    "lng": 35.78063
   },
   {
     "place_id": "rome",
@@ -2433,7 +2794,9 @@
       "Apostolic"
     ],
     "n_people": 22,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 41.8922,
+    "lng": 12.4852
   },
   {
     "place_id": "salem",
@@ -2446,7 +2809,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77667,
+    "lng": 35.23417
   },
   {
     "place_id": "samaria",
@@ -2461,7 +2826,22 @@
       "Apostolic"
     ],
     "n_people": 40,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.27611,
+    "lng": 35.195
+  },
+  {
+    "place_id": "sardis",
+    "name": "Sardis",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.48833,
+    "lng": 28.04028
   },
   {
     "place_id": "seir",
@@ -2474,7 +2854,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.1843,
+    "lng": 35.3166
   },
   {
     "place_id": "shamir",
@@ -2487,7 +2869,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.4184,
+    "lng": 34.9318
   },
   {
     "place_id": "sheba",
@@ -2500,7 +2884,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 15.34833,
+    "lng": 44.20639
   },
   {
     "place_id": "shechem",
@@ -2517,7 +2903,9 @@
       "Divided Monarchy"
     ],
     "n_people": 11,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.21361,
+    "lng": 35.28194
   },
   {
     "place_id": "shiloh",
@@ -2531,7 +2919,9 @@
       "Divided Monarchy"
     ],
     "n_people": 9,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.0557,
+    "lng": 35.28954
   },
   {
     "place_id": "shinar",
@@ -2545,7 +2935,9 @@
       "Patriarchal"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.54333,
+    "lng": 44.42222
   },
   {
     "place_id": "shittim",
@@ -2558,7 +2950,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.84018,
+    "lng": 35.67368
   },
   {
     "place_id": "shuah",
@@ -2584,7 +2978,9 @@
       "United Monarchy"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.60563,
+    "lng": 35.33431
   },
   {
     "place_id": "sidon",
@@ -2597,7 +2993,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.56099,
+    "lng": 35.37194
   },
   {
     "place_id": "sinai",
@@ -2613,7 +3011,22 @@
       "Exodus/Wilderness"
     ],
     "n_people": 15,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 28.53972,
+    "lng": 33.97333
+  },
+  {
+    "place_id": "smyrna",
+    "name": "Smyrna",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.41889,
+    "lng": 27.13778
   },
   {
     "place_id": "sodom",
@@ -2626,7 +3039,9 @@
       "Patriarchal"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.20849,
+    "lng": 35.44922
   },
   {
     "place_id": "succoth",
@@ -2639,7 +3054,9 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.1966,
+    "lng": 35.62118
   },
   {
     "place_id": "susa",
@@ -2655,7 +3072,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 14,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.18922,
+    "lng": 48.25778
   },
   {
     "place_id": "tarsus",
@@ -2668,7 +3087,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 36.91303,
+    "lng": 34.89206
   },
   {
     "place_id": "tekoa",
@@ -2681,7 +3102,9 @@
       "Divided Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.63247,
+    "lng": 35.21048
   },
   {
     "place_id": "teman",
@@ -2694,7 +3117,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.74584,
+    "lng": 35.60392
   },
   {
     "place_id": "thebez",
@@ -2707,7 +3132,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.32222,
+    "lng": 35.36861
   },
   {
     "place_id": "thessalonica",
@@ -2720,7 +3147,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 40.63777,
+    "lng": 22.94577
   },
   {
     "place_id": "thyatira",
@@ -2733,7 +3162,9 @@
       "Apostolic"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 38.92021,
+    "lng": 27.83655
   },
   {
     "place_id": "timnah",
@@ -2747,7 +3178,9 @@
       "Judges"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.78483,
+    "lng": 34.9103
   },
   {
     "place_id": "tirzah",
@@ -2760,7 +3193,9 @@
       "Divided Monarchy"
     ],
     "n_people": 6,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.2874,
+    "lng": 35.3378
   },
   {
     "place_id": "transjordan",
@@ -2777,7 +3212,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.76139,
+    "lng": 35.55833
   },
   {
     "place_id": "troas",
@@ -2790,7 +3227,9 @@
       "Apostolic"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 39.75194,
+    "lng": 26.15861
   },
   {
     "place_id": "tyre",
@@ -2804,7 +3243,9 @@
       "Apostolic"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.27083,
+    "lng": 35.19611
   },
   {
     "place_id": "ur-of-the-chaldeans",
@@ -2819,7 +3260,9 @@
       "Patriarchal"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.96222,
+    "lng": 46.10444
   },
   {
     "place_id": "uz",
@@ -2832,7 +3275,9 @@
       "Patriarchal"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.74584,
+    "lng": 35.60392
   },
   {
     "place_id": "valley-of-achor",
@@ -2845,7 +3290,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.71667,
+    "lng": 35.38333
   },
   {
     "place_id": "valley-of-elah",
@@ -2858,7 +3305,9 @@
       "United Monarchy"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.67542,
+    "lng": 34.99802
   },
   {
     "place_id": "valley-of-siddim",
@@ -2873,7 +3322,9 @@
       "Patriarchal"
     ],
     "n_people": 5,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.20849,
+    "lng": 35.44922
   },
   {
     "place_id": "valley-of-sorek",
@@ -2886,7 +3337,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.75583,
+    "lng": 35.05
   },
   {
     "place_id": "waters-of-merom",
@@ -2899,7 +3352,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.97889,
+    "lng": 35.43778
   },
   {
     "place_id": "wilderness-of-judea",
@@ -2912,7 +3367,9 @@
       "Gospels"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.6,
+    "lng": 35.35
   },
   {
     "place_id": "wilderness-of-paran",
@@ -2926,7 +3383,9 @@
       "Exodus/Wilderness"
     ],
     "n_people": 7,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.30322,
+    "lng": 34.77667
   },
   {
     "place_id": "wilderness-of-shur",
@@ -2939,7 +3398,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 30.49333,
+    "lng": 32.95667
   },
   {
     "place_id": "zaanannim",
@@ -2952,7 +3413,9 @@
       "Judges"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 32.72113,
+    "lng": 35.41064
   },
   {
     "place_id": "zeboiim",
@@ -2965,7 +3428,9 @@
       "Patriarchal"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.20849,
+    "lng": 35.44922
   },
   {
     "place_id": "ziklag",
@@ -2978,7 +3443,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.3912,
+    "lng": 34.6816
   },
   {
     "place_id": "zoar",
@@ -2993,7 +3460,9 @@
       "Patriarchal"
     ],
     "n_people": 3,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.0369,
+    "lng": 35.48766
   },
   {
     "place_id": "zobah",
@@ -3006,7 +3475,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 33.93528,
+    "lng": 36.15083
   },
   {
     "place_id": "zorah",
@@ -3019,6 +3490,8 @@
       "Judges"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77399,
+    "lng": 34.98529
   }
 ]

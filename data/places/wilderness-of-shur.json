@@ -25,5 +25,29 @@
       "gender": "female"
     }
   ],
-  "description": "A wilderness region on Egypt's border where the angel of the Lord found Hagar, fleeing from Sarah's harsh treatment, by a spring, and spoke a promise over her son Ishmael (Genesis 16:1-14)."
+  "description": "A wilderness region on Egypt's border where the angel of the Lord found Hagar, fleeing from Sarah's harsh treatment, by a spring, and spoke a promise over her son Ishmael (Genesis 16:1-14).",
+  "geo": {
+    "lat": 30.49333,
+    "lng": 32.95667,
+    "confidence": 554,
+    "kind": "representative",
+    "openbible": "Shur",
+    "candidates": [
+      [
+        32.95667,
+        30.49333,
+        554
+      ],
+      [
+        32.8725,
+        29.95583,
+        92
+      ],
+      [
+        34.4825,
+        31.28194,
+        59
+      ]
+    ]
+  }
 }

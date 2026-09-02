@@ -40,5 +40,34 @@
       ]
     }
   ],
-  "description": "A city of the plain notorious for wickedness, destroyed by fire and sulfur from heaven after Abraham's intercession failed to find even ten righteous people there; Lot and his daughters escaped, though his wife looked back and was turned to a pillar of salt (Genesis 18:16-19:29)."
+  "description": "A city of the plain notorious for wickedness, destroyed by fire and sulfur from heaven after Abraham's intercession failed to find even ten righteous people there; Lot and his daughters escaped, though his wife looked back and was turned to a pillar of salt (Genesis 18:16-19:29).",
+  "geo": {
+    "lat": 31.20849,
+    "lng": 35.44922,
+    "confidence": 386,
+    "kind": "representative",
+    "openbible": "Sodom",
+    "candidates": [
+      [
+        35.44922,
+        31.20849,
+        386
+      ],
+      [
+        35.523,
+        31.24873,
+        135
+      ],
+      [
+        35.59528,
+        31.795,
+        115
+      ],
+      [
+        35.67368,
+        31.84018,
+        30
+      ]
+    ]
+  }
 }

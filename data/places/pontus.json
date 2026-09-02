@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A region on the Black Sea's southern coast; Aquila, later Paul's coworker and host, was a native of Pontus (Acts 18:2), and believers there are among those addressed in 1 Peter 1:1."
+  "description": "A region on the Black Sea's southern coast; Aquila, later Paul's coworker and host, was a native of Pontus (Acts 18:2), and believers there are among those addressed in 1 Peter 1:1.",
+  "geo": {
+    "lat": 40.68,
+    "lng": 37.83,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Pontus"
+  }
 }

@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hill country south of the Dead Sea originally inhabited by the Horites, including a chief named Anah, before Esau's descendants displaced them (Genesis 36:20-21)."
+  "description": "The hill country south of the Dead Sea originally inhabited by the Horites, including a chief named Anah, before Esau's descendants displaced them (Genesis 36:20-21).",
+  "geo": {
+    "lat": 30.1843,
+    "lng": 35.3166,
+    "confidence": 775,
+    "kind": "representative",
+    "openbible": "Mount Seir 1",
+    "candidates": [
+      [
+        35.3166,
+        30.1843,
+        775
+      ],
+      [
+        35.13472,
+        30.885,
+        73
+      ]
+    ]
+  }
 }

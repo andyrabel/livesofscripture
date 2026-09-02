@@ -30,5 +30,39 @@
       ]
     }
   ],
-  "description": "A city of the plain, allied with Sodom under its king Birsha, destroyed alongside it by fire and sulfur from heaven for its wickedness (Genesis 14:2; 19:24-28)."
+  "description": "A city of the plain, allied with Sodom under its king Birsha, destroyed alongside it by fire and sulfur from heaven for its wickedness (Genesis 14:2; 19:24-28).",
+  "geo": {
+    "lat": 31.20849,
+    "lng": 35.44922,
+    "confidence": 364,
+    "kind": "representative",
+    "openbible": "Gomorrah",
+    "candidates": [
+      [
+        35.44922,
+        31.20849,
+        364
+      ],
+      [
+        35.52937,
+        31.12976,
+        129
+      ],
+      [
+        35.59528,
+        31.795,
+        108
+      ],
+      [
+        35.67188,
+        31.81926,
+        18
+      ],
+      [
+        35.65296,
+        31.85055,
+        18
+      ]
+    ]
+  }
 }

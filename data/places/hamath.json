@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "A Syrian city whose king Toi sent his son Joram to congratulate David on defeating their mutual enemy Hadadezer, bringing gifts of silver, gold, and bronze (2 Samuel 8:9-10)."
+  "description": "A Syrian city whose king Toi sent his son Joram to congratulate David on defeating their mutual enemy Hadadezer, bringing gifts of silver, gold, and bronze (2 Samuel 8:9-10).",
+  "geo": {
+    "lat": 35.1365,
+    "lng": 36.75,
+    "confidence": 1125,
+    "kind": "point",
+    "openbible": "Hamath 2",
+    "candidates": [
+      [
+        36.75,
+        35.1365,
+        1125
+      ],
+      [
+        47.8694,
+        31.7823,
+        31
+      ]
+    ]
+  }
 }

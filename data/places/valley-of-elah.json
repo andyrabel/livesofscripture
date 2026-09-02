@@ -49,5 +49,12 @@
       ]
     }
   ],
-  "description": "The valley where the Israelite and Philistine armies camped on opposite hillsides while Goliath issued his daily challenge, and where the shepherd boy David killed him with a sling and stone (1 Samuel 17)."
+  "description": "The valley where the Israelite and Philistine armies camped on opposite hillsides while Goliath issued his daily challenge, and where the shepherd boy David killed him with a sling and stone (1 Samuel 17).",
+  "geo": {
+    "lat": 31.67542,
+    "lng": 34.99802,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Valley of Elah"
+  }
 }

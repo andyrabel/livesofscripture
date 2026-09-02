@@ -25,5 +25,12 @@
       "gender": "female"
     }
   ],
-  "description": "The dry southern region of Canaan through which Abraham traveled (Genesis 12:9), later part of Judah's inheritance including the town given to Achsah with springs of water (Joshua 15:19)."
+  "description": "The dry southern region of Canaan through which Abraham traveled (Genesis 12:9), later part of Judah's inheritance including the town given to Achsah with springs of water (Joshua 15:19).",
+  "geo": {
+    "lat": 31.24472,
+    "lng": 34.84083,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Negeb"
+  }
 }

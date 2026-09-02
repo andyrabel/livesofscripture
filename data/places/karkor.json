@@ -50,5 +50,39 @@
       ]
     }
   ],
-  "description": "A place in Transjordan where the Midianite kings Zebah and Zalmunna made their camp with their surviving forces after fleeing Gideon, before Gideon overtook and captured them there (Judges 8:10-12)."
+  "description": "A place in Transjordan where the Midianite kings Zebah and Zalmunna made their camp with their surviving forces after fleeing Gideon, before Gideon overtook and captured them there (Judges 8:10-12).",
+  "geo": {
+    "lat": 31.36306,
+    "lng": 37.54278,
+    "confidence": 298,
+    "kind": "point",
+    "openbible": "Karkor",
+    "candidates": [
+      [
+        37.54278,
+        31.36306,
+        298
+      ],
+      [
+        35.84866,
+        31.99954,
+        134
+      ],
+      [
+        35.56083,
+        30.53139,
+        104
+      ],
+      [
+        35.84306,
+        32.07361,
+        76
+      ],
+      [
+        37.75,
+        31.0,
+        69
+      ]
+    ]
+  }
 }

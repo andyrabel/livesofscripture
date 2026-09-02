@@ -29,5 +29,24 @@
       ]
     }
   ],
-  "description": "A city Israel first failed to capture because of Achan's hidden sin, then destroyed by ambush once the sin was dealt with (Joshua 7-8)."
+  "description": "A city Israel first failed to capture because of Achan's hidden sin, then destroyed by ambush once the sin was dealt with (Joshua 7-8).",
+  "geo": {
+    "lat": 31.91694,
+    "lng": 35.26111,
+    "confidence": 628,
+    "kind": "point",
+    "openbible": "Ai 3",
+    "candidates": [
+      [
+        35.26111,
+        31.91694,
+        628
+      ],
+      [
+        35.27038,
+        31.90517,
+        100
+      ]
+    ]
+  }
 }

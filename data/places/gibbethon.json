@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "A Philistine border town Israel's army was besieging when King Nadab of Israel was assassinated by Baasha, who then seized the throne (1 Kings 15:27-28)."
+  "description": "A Philistine border town Israel's army was besieging when King Nadab of Israel was assassinated by Baasha, who then seized the throne (1 Kings 15:27-28).",
+  "geo": {
+    "lat": 31.85639,
+    "lng": 34.86556,
+    "confidence": 530,
+    "kind": "point",
+    "openbible": "Gibbethon",
+    "candidates": [
+      [
+        34.86556,
+        31.85639,
+        530
+      ],
+      [
+        34.88994,
+        31.90302,
+        179
+      ],
+      [
+        34.8193,
+        31.85773,
+        14
+      ]
+    ]
+  }
 }

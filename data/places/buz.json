@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The homeland implied by Elihu \"the Buzite,\" the youngest of Job's friends, who speaks in Job 32-37."
+  "description": "The homeland implied by Elihu \"the Buzite,\" the youngest of Job's friends, who speaks in Job 32-37.",
+  "geo": {
+    "lat": 28.35661,
+    "lng": 38.98797,
+    "confidence": 363,
+    "kind": "representative",
+    "openbible": "Buz",
+    "candidates": [
+      [
+        38.98797,
+        28.35661,
+        363
+      ],
+      [
+        36.82743,
+        31.87996,
+        60
+      ]
+    ]
+  }
 }

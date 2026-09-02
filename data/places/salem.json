@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The city of Melchizedek, priest-king who blessed Abraham and to whom Abraham gave a tenth of his spoils after rescuing Lot \u2014 an episode Hebrews later draws on to explain Christ's priesthood (Genesis 14:18-20; Hebrews 7:1-10)."
+  "description": "The city of Melchizedek, priest-king who blessed Abraham and to whom Abraham gave a tenth of his spoils after rescuing Lot \u2014 an episode Hebrews later draws on to explain Christ's priesthood (Genesis 14:18-20; Hebrews 7:1-10).",
+  "geo": {
+    "lat": 31.77667,
+    "lng": 35.23417,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Salem"
+  }
 }

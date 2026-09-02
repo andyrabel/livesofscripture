@@ -53,5 +53,12 @@
       ]
     }
   ],
-  "description": "A wilderness oasis that served as Israel's main base during much of the forty years of wandering. The twelve spies returned there with their report of Canaan (Numbers 13:26), and it was at Kadesh that Moses, in frustration, struck the rock instead of speaking to it as commanded \u2014 an act of disobedience that cost him entry into the promised land (Numbers 20:1-13)."
+  "description": "A wilderness oasis that served as Israel's main base during much of the forty years of wandering. The twelve spies returned there with their report of Canaan (Numbers 13:26), and it was at Kadesh that Moses, in frustration, struck the rock instead of speaking to it as commanded \u2014 an act of disobedience that cost him entry into the promised land (Numbers 20:1-13).",
+  "geo": {
+    "lat": 30.64833,
+    "lng": 34.42222,
+    "confidence": 864,
+    "kind": "point",
+    "openbible": "Kadesh-barnea"
+  }
 }

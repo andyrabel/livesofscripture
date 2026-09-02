@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown of Samson's parents Manoah and his wife, where the angel of the Lord announced Samson's coming birth and calling as a Nazirite (Judges 13:2-25)."
+  "description": "The hometown of Samson's parents Manoah and his wife, where the angel of the Lord announced Samson's coming birth and calling as a Nazirite (Judges 13:2-25).",
+  "geo": {
+    "lat": 31.77399,
+    "lng": 34.98529,
+    "confidence": 832,
+    "kind": "point",
+    "openbible": "Zorah"
+  }
 }

@@ -38,5 +38,12 @@
       ]
     }
   ],
-  "description": "The island where Paul's ship ran aground during the storm-tossed voyage to Rome; Paul was unharmed by a viper's bite there and healed the island's chief official, Publius's, sick father (Acts 28:1-10)."
+  "description": "The island where Paul's ship ran aground during the storm-tossed voyage to Rome; Paul was unharmed by a viper's bite there and healed the island's chief official, Publius's, sick father (Acts 28:1-10).",
+  "geo": {
+    "lat": 35.93346,
+    "lng": 14.41173,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Malta"
+  }
 }

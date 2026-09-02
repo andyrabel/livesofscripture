@@ -60,5 +60,12 @@
       ]
     }
   ],
-  "description": "The empire that conquered Babylon and, under Cyrus, issued the decree allowing exiled Jews to return and rebuild Jerusalem's temple (Ezra 1:1-4; 2 Chronicles 36:20-23). Esther became queen of Persia under Ahasuerus, and Daniel served in its administration under Darius, surviving the lions' den (Daniel 6)."
+  "description": "The empire that conquered Babylon and, under Cyrus, issued the decree allowing exiled Jews to return and rebuild Jerusalem's temple (Ezra 1:1-4; 2 Chronicles 36:20-23). Esther became queen of Persia under Ahasuerus, and Daniel served in its administration under Darius, surviving the lions' den (Daniel 6).",
+  "geo": {
+    "lat": 34.8065,
+    "lng": 48.51625,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Persia"
+  }
 }

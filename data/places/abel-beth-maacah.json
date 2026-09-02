@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A northern city where the rebel Sheba fled from Joab's pursuit and was under siege until a wise local woman had the townspeople throw Sheba's severed head over the wall to save the city (2 Samuel 20:14-22)."
+  "description": "A northern city where the rebel Sheba fled from Joab's pursuit and was under siege until a wise local woman had the townspeople throw Sheba's severed head over the wall to save the city (2 Samuel 20:14-22).",
+  "geo": {
+    "lat": 33.25805,
+    "lng": 35.58101,
+    "confidence": 756,
+    "kind": "point",
+    "openbible": "Abel-beth-maacah"
+  }
 }

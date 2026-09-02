@@ -30,5 +30,12 @@
       ]
     }
   ],
-  "description": "A major Philistine city where Samson, blinded and enslaved after Delilah's betrayal, pulled down the temple of Dagon on himself and thousands of Philistines gathered there (Judges 16:21-30)."
+  "description": "A major Philistine city where Samson, blinded and enslaved after Delilah's betrayal, pulled down the temple of Dagon on himself and thousands of Philistines gathered there (Judges 16:21-30).",
+  "geo": {
+    "lat": 31.504,
+    "lng": 34.4644,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Gaza"
+  }
 }

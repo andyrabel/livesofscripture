@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The territory east of the Sea of Galilee where Jesus cast a legion of demons out of a tormented man and into a herd of pigs, which then rushed into the lake (Mark 5:1-20)."
+  "description": "The territory east of the Sea of Galilee where Jesus cast a legion of demons out of a tormented man and into a herd of pigs, which then rushed into the lake (Mark 5:1-20).",
+  "geo": {
+    "lat": 32.27228,
+    "lng": 35.8914,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Gerasa"
+  }
 }

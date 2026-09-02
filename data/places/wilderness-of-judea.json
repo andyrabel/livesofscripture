@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The rugged desert region near the Dead Sea where John the Baptist lived and preached, calling people to repentance and baptizing them in the Jordan (Matthew 3:1-6)."
+  "description": "The rugged desert region near the Dead Sea where John the Baptist lived and preached, calling people to repentance and baptizing them in the Jordan (Matthew 3:1-6).",
+  "geo": {
+    "lat": 31.6,
+    "lng": 35.35,
+    "confidence": 0,
+    "kind": "representative",
+    "note": "Approximate: the arid country between the Judean hills and the Dead Sea."
+  }
 }

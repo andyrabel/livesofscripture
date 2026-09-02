@@ -30,5 +30,24 @@
       "gender": "male"
     }
   ],
-  "description": "A town Caleb offered his daughter Achsah in marriage to whoever captured it; his nephew Othniel took it and won her hand (Joshua 15:15-17; Judges 1:11-13)."
+  "description": "A town Caleb offered his daughter Achsah in marriage to whoever captured it; his nephew Othniel took it and won her hand (Joshua 15:15-17; Judges 1:11-13).",
+  "geo": {
+    "lat": 31.43209,
+    "lng": 35.01485,
+    "confidence": 775,
+    "kind": "point",
+    "openbible": "Debir 1",
+    "candidates": [
+      [
+        35.01485,
+        31.43209,
+        775
+      ],
+      [
+        35.03264,
+        31.47857,
+        15
+      ]
+    ]
+  }
 }

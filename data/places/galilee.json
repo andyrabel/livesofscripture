@@ -157,5 +157,12 @@
     }
   ],
   "description": "The hilly northern region of Israel around the Sea of Galilee, home to Nazareth, Capernaum, Cana, and Bethsaida. Though set apart by Joshua as a place of refuge (Joshua 20:7) and later the territory of Zebulun and Naphtali, by New Testament times \"Galilee of the Gentiles\" was viewed by some in Judea as culturally provincial \u2014 Nathanael's \"can any good thing come out of Nazareth?\" reflects the attitude (John 1:46). It was nonetheless where Jesus grew up, was baptized in the nearby Jordan, called His first disciples (mostly Galilean fishermen), and conducted the bulk of His public ministry \u2014 teaching, healing, and performing most of His recorded miracles around its lake before His final journey to Jerusalem (Matthew 4:12-17; Isaiah 9:1-2).",
-  "family_friendly_summary": "Galilee was the region in the north of Israel where Jesus grew up and did most of His teaching and miracles. Its biggest lake, the Sea of Galilee, is where Jesus called His first disciples, who were fishermen there. Even though some people looked down on Galilee, Jesus spent most of His time on earth right there among its towns and villages."
+  "family_friendly_summary": "Galilee was the region in the north of Israel where Jesus grew up and did most of His teaching and miracles. Its biggest lake, the Sea of Galilee, is where Jesus called His first disciples, who were fishermen there. Even though some people looked down on Galilee, Jesus spent most of His time on earth right there among its towns and villages.",
+  "geo": {
+    "lat": 32.76,
+    "lng": 35.527,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Galilee 1"
+  }
 }

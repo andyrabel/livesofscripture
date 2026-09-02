@@ -217,5 +217,12 @@
     }
   ],
   "description": "Capital of the empire that ruled the whole New Testament world, Rome itself is mentioned less often in Scripture than the emperors and officials who governed in its name, but it is the city Paul had long wanted to visit (Romans 1:10-13; 15:22-24) and the destination of his letter to the Romans, written to a church already established there before he ever arrived. Aquila and Priscilla had been expelled from Rome under Claudius's edict against Jews (Acts 18:2) before later returning. Paul finally reached the city as a prisoner appealing his case to Caesar, and spent two years there under guard, still preaching (Acts 28:14-31) \u2014 the point at which Acts's narrative ends, with the gospel having reached the empire's center.",
-  "family_friendly_summary": "Rome was the capital city of the huge Roman Empire that ruled over Israel in New Testament times. Paul wrote his letter to the Romans to Christians already living there, and he always wanted to visit them. Eventually Paul did travel to Rome \u2014 but as a prisoner, appealing to have his case heard by Caesar. Even under guard, Paul kept telling people about Jesus there."
+  "family_friendly_summary": "Rome was the capital city of the huge Roman Empire that ruled over Israel in New Testament times. Paul wrote his letter to the Romans to Christians already living there, and he always wanted to visit them. Eventually Paul did travel to Rome \u2014 but as a prisoner, appealing to have his case heard by Caesar. Even under guard, Paul kept telling people about Jesus there.",
+  "geo": {
+    "lat": 41.8922,
+    "lng": 12.4852,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Rome"
+  }
 }

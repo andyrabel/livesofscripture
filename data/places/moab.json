@@ -127,5 +127,12 @@
     }
   ],
   "description": "A nation east of the Dead Sea descended from Lot's son Moab (Genesis 19:36-38), often hostile toward Israel. Balak, king of Moab, hired Balaam to curse Israel as they camped nearby (Numbers 22-24), and Moabite women later drew Israelite men into idolatry at Baal-peor (Numbers 25). Ruth was a Moabite who married into an Israelite family, and after being widowed chose to follow her mother-in-law Naomi back to Bethlehem and to Naomi's God, later becoming David's great-grandmother (Ruth 1-4) \u2014 striking given that the law of Moses barred Moabites from Israel's assembly for ten generations (Deuteronomy 23:3-6). Moab remained a recurring military opponent through the monarchy period and drew judgment oracles from several prophets.",
-  "family_friendly_summary": "Moab was a nation east of the Dead Sea, and its people were often enemies of Israel. But Moab is also where Ruth came from \u2014 a Moabite woman who chose to leave her home and follow her mother-in-law Naomi back to Israel, and to trust in Naomi's God. Ruth became the great-grandmother of King David."
+  "family_friendly_summary": "Moab was a nation east of the Dead Sea, and its people were often enemies of Israel. But Moab is also where Ruth came from \u2014 a Moabite woman who chose to leave her home and follow her mother-in-law Naomi back to Israel, and to trust in Naomi's God. Ruth became the great-grandmother of King David.",
+  "geo": {
+    "lat": 31.18056,
+    "lng": 35.70139,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Moab 1"
+  }
 }

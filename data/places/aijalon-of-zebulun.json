@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "A town in Zebulun's territory where the judge Elon was buried after judging Israel ten years (Judges 12:11-12)."
+  "description": "A town in Zebulun's territory where the judge Elon was buried after judging Israel ten years (Judges 12:11-12).",
+  "geo": {
+    "lat": 31.84111,
+    "lng": 35.02361,
+    "confidence": 665,
+    "kind": "point",
+    "openbible": "Aijalon 1",
+    "candidates": [
+      [
+        35.02361,
+        31.84111,
+        665
+      ],
+      [
+        35.0263,
+        31.8401,
+        170
+      ]
+    ]
+  }
 }

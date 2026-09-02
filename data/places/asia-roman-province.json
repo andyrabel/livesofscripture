@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "The Roman province covering western Asia Minor; Paul's letter to the Romans greets Epaenetus as its first convert there (Romans 16:5)."
+  "description": "The Roman province covering western Asia Minor; Paul's letter to the Romans greets Epaenetus as its first convert there (Romans 16:5).",
+  "geo": {
+    "lat": 38.4,
+    "lng": 28.3,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Asia"
+  }
 }

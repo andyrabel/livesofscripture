@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A port city where Paul, sailing past Ephesus to save time, called for that church's elders to meet him and gave them his farewell address, warning of coming false teachers (Acts 20:15-38); Trophimus was later left there sick (2 Timothy 4:20)."
+  "description": "A port city where Paul, sailing past Ephesus to save time, called for that church's elders to meet him and gave them his farewell address, warning of coming false teachers (Acts 20:15-38); Trophimus was later left there sick (2 Timothy 4:20).",
+  "geo": {
+    "lat": 37.53111,
+    "lng": 27.27556,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Miletus"
+  }
 }

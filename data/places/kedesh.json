@@ -30,5 +30,29 @@
       "gender": "female"
     }
   ],
-  "description": "Barak's hometown, from which he gathered Israel's forces at Deborah's summons before their victory over Sisera; the fleeing Sisera was later killed nearby by Jael (Judges 4:6, 10-21)."
+  "description": "Barak's hometown, from which he gathered Israel's forces at Deborah's summons before their victory over Sisera; the fleeing Sisera was later killed nearby by Jael (Judges 4:6, 10-21).",
+  "geo": {
+    "lat": 33.11164,
+    "lng": 35.52952,
+    "confidence": 959,
+    "kind": "point",
+    "openbible": "Kedesh 5",
+    "candidates": [
+      [
+        35.52952,
+        33.11164,
+        959
+      ],
+      [
+        35.52952,
+        33.11164,
+        107
+      ],
+      [
+        35.55555,
+        32.735,
+        63
+      ]
+    ]
+  }
 }

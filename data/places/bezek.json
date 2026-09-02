@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The site of an early Israelite victory over Canaanite and Perizzite forces, where the defeated king Adoni-bezek was captured and had his thumbs and big toes cut off, as he himself said he had done to seventy other kings (Judges 1:4-7)."
+  "description": "The site of an early Israelite victory over Canaanite and Perizzite forces, where the defeated king Adoni-bezek was captured and had his thumbs and big toes cut off, as he himself said he had done to seventy other kings (Judges 1:4-7).",
+  "geo": {
+    "lat": 32.36884,
+    "lng": 35.39736,
+    "confidence": 753,
+    "kind": "point",
+    "openbible": "Bezek 2",
+    "candidates": [
+      [
+        35.39736,
+        32.36884,
+        753
+      ],
+      [
+        35.3725,
+        32.35417,
+        82
+      ]
+    ]
+  }
 }

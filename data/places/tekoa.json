@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "A town south of Bethlehem, home of both a wise woman Joab enlisted to persuade David to recall the exiled Absalom (2 Samuel 14:1-20) and, later, the prophet Amos, a shepherd there before his call (Amos 1:1)."
+  "description": "A town south of Bethlehem, home of both a wise woman Joab enlisted to persuade David to recall the exiled Absalom (2 Samuel 14:1-20) and, later, the prophet Amos, a shepherd there before his call (Amos 1:1).",
+  "geo": {
+    "lat": 31.63247,
+    "lng": 35.21048,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Tekoa"
+  }
 }

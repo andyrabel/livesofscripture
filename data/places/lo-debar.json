@@ -49,5 +49,29 @@
       ]
     }
   ],
-  "description": "A town in Transjordan where Saul's grandson Mephibosheth, lame in both feet, was living in hiding when David sought him out to show him kindness for Jonathan's sake, restoring Saul's land to him and inviting him to eat at the king's table (2 Samuel 9)."
+  "description": "A town in Transjordan where Saul's grandson Mephibosheth, lame in both feet, was living in hiding when David sought him out to show him kindness for Jonathan's sake, restoring Saul's land to him and inviting him to eat at the king's table (2 Samuel 9).",
+  "geo": {
+    "lat": 32.68393,
+    "lng": 35.62992,
+    "confidence": 172,
+    "kind": "point",
+    "openbible": "Lo-debar",
+    "candidates": [
+      [
+        35.62992,
+        32.68393,
+        172
+      ],
+      [
+        35.61221,
+        32.56576,
+        164
+      ],
+      [
+        35.5994,
+        32.4718,
+        45
+      ]
+    ]
+  }
 }

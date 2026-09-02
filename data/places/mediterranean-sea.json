@@ -31,5 +31,12 @@
       "gender": "male"
     }
   ],
-  "description": "The sea from which Jonah fled by ship before being cast overboard and swallowed by a great fish (Jonah 1:3-17), and across which Paul's final voyage to Rome as a prisoner passed (Acts 27)."
+  "description": "The sea from which Jonah fled by ship before being cast overboard and swallowed by a great fish (Jonah 1:3-17), and across which Paul's final voyage to Rome as a prisoner passed (Acts 27).",
+  "geo": {
+    "lat": 31.80482,
+    "lng": 34.17035,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Great Sea"
+  }
 }

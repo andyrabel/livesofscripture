@@ -123,5 +123,12 @@
     }
   ],
   "description": "One of the oldest continuously inhabited cities in the world, Damascus was Abraham's servant Eliezer's hometown (Genesis 15:2) and later the capital of Aram (Syria), a persistent rival and sometime enemy of Israel through the united and divided monarchies (2 Samuel 8:5-6; 1 Kings 19:15; 2 Kings 8; 16:9). Its greatest New Testament significance is as the destination of Saul of Tarsus's fateful journey: he was blinded by a vision of the risen Christ on the Damascus road, healed and baptized there by Ananias, and preached in its synagogues before enemies plotted to kill him and disciples lowered him over the city wall in a basket to escape (Acts 9:1-25).",
-  "family_friendly_summary": "Damascus is one of the oldest cities in the world, and was the capital of ancient Syria, a country that was often Israel's enemy. Damascus is most famous in the New Testament as the place Saul (later called Paul) was traveling to when Jesus appeared to him in a bright light. Saul was blinded, then healed and changed forever in Damascus."
+  "family_friendly_summary": "Damascus is one of the oldest cities in the world, and was the capital of ancient Syria, a country that was often Israel's enemy. Damascus is most famous in the New Testament as the place Saul (later called Paul) was traveling to when Jesus appeared to him in a bright light. Saul was blinded, then healed and changed forever in Damascus.",
+  "geo": {
+    "lat": 33.51111,
+    "lng": 36.30639,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Damascus"
+  }
 }

@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "A hill in Ephraim's territory from which King Abijah of Judah addressed Jeroboam's army before a decisive battle (2 Chronicles 13:4-20)."
+  "description": "A hill in Ephraim's territory from which King Abijah of Judah addressed Jeroboam's army before a decisive battle (2 Chronicles 13:4-20).",
+  "geo": {
+    "lat": 31.90879,
+    "lng": 35.2117,
+    "confidence": 569,
+    "kind": "representative",
+    "openbible": "Mount Zemaraim",
+    "candidates": [
+      [
+        35.2117,
+        31.90879,
+        569
+      ],
+      [
+        35.2117,
+        31.90879,
+        106
+      ]
+    ]
+  }
 }

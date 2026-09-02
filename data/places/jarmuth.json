@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "One of five Amorite cities whose king Piram allied against Gibeon and was defeated by Joshua (Joshua 10:3-27)."
+  "description": "One of five Amorite cities whose king Piram allied against Gibeon and was defeated by Joshua (Joshua 10:3-27).",
+  "geo": {
+    "lat": 31.7083,
+    "lng": 34.975,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Jarmuth 1"
+  }
 }

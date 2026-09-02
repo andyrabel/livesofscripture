@@ -93,5 +93,24 @@
       ]
     }
   ],
-  "description": "A town in Benjamin's territory where Samuel gathered Israel to renew their commitment to God and won a decisive victory over the Philistines (1 Samuel 7:5-13), and where Saul was later chosen and presented to the nation as its first king by lot (1 Samuel 10:17-24). After Jerusalem's fall to Babylon, Mizpah became the seat of Gedaliah, the governor Babylon appointed over the remaining Judeans \u2014 an arrangement that collapsed when Ishmael assassinated Gedaliah there, prompting the frightened remnant to flee to Egypt against Jeremiah's warning (2 Kings 25:22-25; Jeremiah 40-41)."
+  "description": "A town in Benjamin's territory where Samuel gathered Israel to renew their commitment to God and won a decisive victory over the Philistines (1 Samuel 7:5-13), and where Saul was later chosen and presented to the nation as its first king by lot (1 Samuel 10:17-24). After Jerusalem's fall to Babylon, Mizpah became the seat of Gedaliah, the governor Babylon appointed over the remaining Judeans \u2014 an arrangement that collapsed when Ishmael assassinated Gedaliah there, prompting the frightened remnant to flee to Egypt against Jeremiah's warning (2 Kings 25:22-25; Jeremiah 40-41).",
+  "geo": {
+    "lat": 31.88514,
+    "lng": 35.21642,
+    "confidence": 781,
+    "kind": "point",
+    "openbible": "Mizpah 3",
+    "candidates": [
+      [
+        35.21642,
+        31.88514,
+        781
+      ],
+      [
+        35.18015,
+        31.83273,
+        51
+      ]
+    ]
+  }
 }

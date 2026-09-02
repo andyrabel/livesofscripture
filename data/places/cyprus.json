@@ -68,5 +68,12 @@
       ]
     }
   ],
-  "description": "A Mediterranean island, Barnabas's homeland (Acts 4:36), where some believers scattered by persecution first preached to Greeks as well as Jews (Acts 11:19-20). Barnabas and Saul made it the first stop of their missionary journey, confronting the sorcerer Bar-Jesus and seeing the Roman proconsul Sergius Paulus believe (Acts 13:4-12); Barnabas and his cousin Mark later returned there together after parting ways with Paul (Acts 15:39)."
+  "description": "A Mediterranean island, Barnabas's homeland (Acts 4:36), where some believers scattered by persecution first preached to Greeks as well as Jews (Acts 11:19-20). Barnabas and Saul made it the first stop of their missionary journey, confronting the sorcerer Bar-Jesus and seeing the Roman proconsul Sergius Paulus believe (Acts 13:4-12); Barnabas and his cousin Mark later returned there together after parting ways with Paul (Acts 15:39).",
+  "geo": {
+    "lat": 35.0,
+    "lng": 33.0,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Cyprus"
+  }
 }
