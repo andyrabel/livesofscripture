@@ -252,7 +252,7 @@
       "leaving the promised land",
       "loss"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ruth 1:1-3",
     "tribe": "Judah"
   },
@@ -278,7 +278,7 @@
       "exile",
       "naming"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Exodus 2:22",
     "spotlight_eligible": false,
     "tribe": "Levi"
@@ -499,7 +499,7 @@
       "loss",
       "levirate redemption"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "mahlon.png",
     "first_reference": "Ruth 1:1-5",
     "tribe": "Judah"
@@ -595,7 +595,7 @@
       "Ruth's family",
       "ancestor of David"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "obed.png",
     "first_reference": "Ruth 4:13-17",
     "tribe": "Judah"
@@ -917,7 +917,7 @@
       "sin's mastery",
       "God's justice and mercy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "cain.png",
     "first_reference": "Genesis 4:1-25"
   },
@@ -959,7 +959,7 @@
       "the first martyr",
       "blood that cries out"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "abel.png",
     "first_reference": "Genesis 4:2-25"
   },
@@ -976,7 +976,7 @@
       "taken up without dying",
       "prophecy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "enoch.png",
     "timeline": {
       "precision": "era",
@@ -1053,7 +1053,7 @@
       "sin's spread",
       "contrast with Cain"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -1281,7 +1281,7 @@
       "genealogy",
       "God's patience"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "methuselah.png",
     "timeline": {
       "precision": "era",
@@ -1373,7 +1373,7 @@
       "ancestor of the Semitic peoples",
       "the line to Abraham"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 5:32",
     "image2": "images/portraits2/shem.png"
   },
@@ -1403,7 +1403,7 @@
       "the curse of Canaan",
       "table of nations"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 5:32",
     "image2": "images/portraits2/ham.png"
   },
@@ -1436,7 +1436,7 @@
       "honoring a father",
       "table of nations"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 5:32",
     "image2": "images/portraits2/japheth.png"
   },
@@ -1472,7 +1472,7 @@
       "ancestry of nations",
       "consequences of sin"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 9:18-27",
     "image2": "images/portraits2/canaan.png"
   },
@@ -1884,7 +1884,7 @@
       "empire-building",
       "Babel"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "nimrod.png",
     "timeline": {
       "precision": "era"
@@ -2732,7 +2732,7 @@
       "rescue by grace",
       "consequences"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "lot.png",
     "timeline": {
       "precision": "era"
@@ -2803,7 +2803,7 @@
       "deception exposed",
       "God's providence"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 12:15-20"
   },
   {
@@ -2822,7 +2822,7 @@
       "Abram's era",
       "the rescue of Lot"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:1-9",
     "spotlight_eligible": false
   },
@@ -2842,7 +2842,7 @@
       "ancient warfare",
       "Abram's rescue of Lot"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:1-9",
     "spotlight_eligible": false
   },
@@ -2863,7 +2863,7 @@
       "Lot's captivity",
       "Abraham's rescue"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:1-17"
   },
   {
@@ -2896,7 +2896,7 @@
       "kingship",
       "worldly wealth"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:2-22"
   },
   {
@@ -2915,7 +2915,7 @@
       "rebellion",
       "Lot's captivity"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:2-8",
     "spotlight_eligible": false
   },
@@ -2948,7 +2948,7 @@
       "the war of the kings",
       "Abram's era"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Genesis 14:2-8",
     "spotlight_eligible": false
   },
@@ -2967,7 +2967,7 @@
       "covenant alliance",
       "rescue of Lot"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 14:13-24",
     "spotlight_eligible": false
   },
@@ -2988,7 +2988,7 @@
       "covenant alliance",
       "integrity"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 14:13-24"
   },
   {
@@ -3007,7 +3007,7 @@
       "Abram's allies",
       "the rescue of Lot"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Genesis 14:13-24"
   },
   {
@@ -3023,7 +3023,7 @@
       "type of Christ",
       "mystery"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "melchizedek.png",
     "timeline": {
       "precision": "era"
@@ -3043,7 +3043,7 @@
       "trust",
       "prayer"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "eliezer.png",
     "timeline": {
       "precision": "era"
@@ -3070,7 +3070,7 @@
       "shameful origins",
       "ancestor of a nation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "moab.png",
     "first_reference": "Genesis 19:37"
   },
@@ -3096,7 +3096,7 @@
       "family crisis after judgment",
       "Lot's daughters"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ammon.png",
     "first_reference": "Genesis 19:38"
   },
@@ -3112,7 +3112,7 @@
       "integrity",
       "covenant with outsiders"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "abimelech.png",
     "timeline": {
       "precision": "era"
@@ -3137,7 +3137,7 @@
       "peacemaking",
       "Abimelech's court"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "phicol.png",
     "first_reference": "Genesis 21:22-32"
   },
@@ -3312,7 +3312,7 @@
       "family",
       "God's providence"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 22:22-23",
     "image2": "images/portraits2/bethuel.png"
   },
@@ -3340,7 +3340,7 @@
       "favoritism",
       "deception to secure God's promise"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "rebekah.png",
     "first_reference": "Genesis 22:23"
   },
@@ -3477,7 +3477,7 @@
       "negotiation",
       "the promised land"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 23:8-17",
     "image2": "images/portraits2/ephron.png"
   },
@@ -3494,7 +3494,7 @@
       "family conflict",
       "God's protection of Jacob"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "laban.png",
     "timeline": {
       "precision": "era"
@@ -4055,7 +4055,7 @@
       "reconciliation",
       "eponymous ancestor of Edom"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "esau.png",
     "first_reference": "Genesis 25:25-34"
   },
@@ -4107,7 +4107,7 @@
       "wrestling with God",
       "family conflict and reconciliation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "israel.png"
   },
   {
@@ -4126,7 +4126,7 @@
       "peace with the Philistines",
       "Isaac's blessing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 26:26",
     "spotlight_eligible": false
   },
@@ -4179,7 +4179,7 @@
       "Esau's family",
       "Edomite genealogy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 26:34",
     "image2": "images/portraits2/anah.png"
   },
@@ -4262,7 +4262,7 @@
       "grief",
       "beloved yet barren"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "rachel.png",
     "timeline": {
       "precision": "era"
@@ -4294,7 +4294,7 @@
       "rivalry",
       "the messianic line"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "leah.png",
     "timeline": {
       "precision": "era"
@@ -4330,7 +4330,7 @@
       "servanthood",
       "the twelve tribes"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "zilpah.png",
     "timeline": {
       "precision": "era"
@@ -4360,7 +4360,7 @@
       "servanthood",
       "family dysfunction"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "bilhah.png",
     "timeline": {
       "precision": "era"
@@ -4404,7 +4404,7 @@
       "family loyalty",
       "failure and consequence"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "reuben.png",
     "first_reference": "Genesis 29:32",
     "tribe": "Reuben"
@@ -4441,7 +4441,7 @@
       "tribal ancestor",
       "hostage in Egypt"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simeon.png",
     "first_reference": "Genesis 29:33",
     "tribe": "Simeon"
@@ -4480,7 +4480,7 @@
       "tribal ancestor",
       "Jacob's blessing and rebuke"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "levi.png",
     "first_reference": "Genesis 29:34",
     "tribe": "Levi"
@@ -4515,7 +4515,7 @@
       "messianic line",
       "tribal leadership"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "judah.png",
     "first_reference": "Genesis 29:35",
     "tribe": "Judah"
@@ -4544,7 +4544,7 @@
       "tribal blessing",
       "founding of a tribe"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "dan.png",
     "first_reference": "Genesis 30:6",
     "tribe": "Dan"
@@ -4575,7 +4575,7 @@
       "tribal patriarch",
       "Jacob's blessing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "naphtali.png",
     "first_reference": "Genesis 30:8",
     "tribe": "Naphtali"
@@ -4610,7 +4610,7 @@
       "eponymous tribal ancestor",
       "Jacob's blessing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gad.png",
     "first_reference": "Genesis 30:11",
     "tribe": "Gad"
@@ -4643,7 +4643,7 @@
       "family rivalry",
       "tribal blessing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "asher.png",
     "first_reference": "Genesis 30:13",
     "tribe": "Asher"
@@ -4676,7 +4676,7 @@
       "tribal blessing",
       "founding of a tribe"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "issachar.png",
     "first_reference": "Genesis 30:18",
     "tribe": "Issachar"
@@ -4703,7 +4703,7 @@
     },
     "gender": "male",
     "first_reference": "Genesis 30:20",
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "topics": [
       "one of the twelve sons of Jacob",
       "Jacob's blessing",
@@ -4724,7 +4724,7 @@
       "family vengeance",
       "consequences of compromise"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "dinah.png",
     "timeline": {
       "precision": "era"
@@ -4789,7 +4789,7 @@
       "deceptive negotiation",
       "family vengeance"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "genealogy": {
       "children": [
         "shechem"
@@ -4817,7 +4817,7 @@
       "family vengeance",
       "consequences of sin"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 33:19"
   },
   {
@@ -4836,7 +4836,7 @@
       "faithful service",
       "mourning and memorial"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Genesis 35:8",
     "spotlight_eligible": false
   },
@@ -4873,7 +4873,7 @@
       "family reconciliation",
       "tribal ancestor"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "benjamin.png",
     "first_reference": "Genesis 35:18-24",
     "tribe": "Benjamin"
@@ -6053,7 +6053,7 @@
       "false accusation",
       "God's presence in hardship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "potiphar.png",
     "timeline": {
       "precision": "era"
@@ -6078,7 +6078,7 @@
       "dream interpretation",
       "God's providence in famine"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "pharaoh-2.png",
     "first_reference": "Genesis 37:36"
   },
@@ -6098,7 +6098,7 @@
       "friendship",
       "the account of Judah and Tamar"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 38:1-20"
   },
   {
@@ -6139,7 +6139,7 @@
       "divine judgment",
       "the beginning of the Tamar narrative"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 38:3-7",
     "tribe": "Judah",
     "image2": "images/portraits2/er.png"
@@ -6165,7 +6165,7 @@
       "sin and judgment",
       "family of Judah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 38:4-9",
     "tribe": "Judah",
     "image2": "images/portraits2/onan.png"
@@ -6200,7 +6200,7 @@
       "Judah and Tamar",
       "family line of Judah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Genesis 38:5-26",
     "tribe": "Judah",
     "image2": "images/portraits2/shelah-2.png"
@@ -6220,7 +6220,7 @@
       "deception",
       "inclusion in the messianic line"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "tamar.png",
     "timeline": {
       "precision": "era"
@@ -6264,7 +6264,7 @@
       "genealogy of Christ",
       "God's providence amid family brokenness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "perez.png",
     "first_reference": "Genesis 38:29",
     "tribe": "Judah"
@@ -6303,7 +6303,7 @@
       "unlikely inclusion",
       "God's blessing amid displacement"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "asenath.png",
     "timeline": {
       "precision": "era"
@@ -6366,7 +6366,7 @@
       "adoption into Israel",
       "tribal inheritance"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "manasseh.png",
     "first_reference": "Genesis 41:51",
     "tribe": "Manasseh"
@@ -6408,7 +6408,7 @@
       "eponymous tribal ancestor",
       "God's providence"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ephraim.png",
     "first_reference": "Genesis 41:52",
     "tribe": "Ephraim"
@@ -6727,7 +6727,7 @@
     "topics": [
       "quiet faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(Gen 46:13)",
     "first_reference": "Genesis 46:13",
@@ -7205,7 +7205,7 @@
       "humility",
       "grace for outsiders"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "naaman.png",
     "gender": "male",
     "disambiguation": "son of Bela (Gen 46:21)",
@@ -7447,7 +7447,7 @@
       "inheritance",
       "clan leadership"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "machir.png",
     "first_reference": "Genesis 50:23",
     "tribe": "Manasseh"
@@ -7469,7 +7469,7 @@
       "infanticide",
       "Moses' early life"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Exodus 1:11-22",
     "image2": "images/portraits2/pharaoh-3.png"
   },
@@ -7487,7 +7487,7 @@
       "fear of God",
       "courage of the powerless"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -7508,7 +7508,7 @@
       "fear of God",
       "courage of the powerless"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -7531,7 +7531,7 @@
       "hospitality to an outsider",
       "delegated leadership"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "jethro.png",
     "timeline": {
       "precision": "era"
@@ -7563,7 +7563,7 @@
       "the Exodus",
       "Red Sea"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "pharaoh-4.png",
     "first_reference": "Exodus 3:10-19"
   },
@@ -7717,7 +7717,7 @@
       "judgment",
       "God's mercy amid judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "korah-3.png",
     "timeline": {
       "precision": "era"
@@ -7793,7 +7793,7 @@
       "consequences of unauthorized worship",
       "priestly duty"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Exodus 6:22",
     "spotlight_eligible": false,
     "tribe": "Levi"
@@ -7819,7 +7819,7 @@
       "the holiness of God",
       "priestly duty"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Exodus 6:22",
     "tribe": "Levi",
     "image2": "images/portraits2/elzaphan.png"
@@ -7904,7 +7904,7 @@
       "tribal leadership",
       "ancestor of David and Christ"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nahshon.png",
     "first_reference": "Exodus 6:23",
     "tribe": "Judah"
@@ -7922,7 +7922,7 @@
       "holiness of God",
       "consequence for disobedience"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "nadab.png",
     "timeline": {
       "precision": "era"
@@ -7949,7 +7949,7 @@
       "holiness of God",
       "consequence for disobedience"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -7974,7 +7974,7 @@
       "faithful service",
       "transition of leadership"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "eleazar.png",
     "timeline": {
       "precision": "era",
@@ -8013,7 +8013,7 @@
       "the tabernacle",
       "surviving God's judgment"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "ithamar.png",
     "first_reference": "Exodus 6:23",
     "tribe": "Levi"
@@ -8103,7 +8103,7 @@
       "wisdom",
       "priesthood"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "phinehas.png",
     "timeline": {
       "precision": "era",
@@ -8142,7 +8142,7 @@
       "the danger of envy",
       "worship and song"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "miriam.png",
     "first_reference": "Exodus 15:20-21",
     "tribe": "Levi"
@@ -8171,7 +8171,7 @@
       "covenant renewal",
       "leadership succession"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "joshua.png",
     "first_reference": "Exodus 17:9-14",
     "tribe": "Ephraim"
@@ -8205,7 +8205,7 @@
       "leadership in Moses' absence",
       "craftsmanship (through his grandson Bezalel)"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Exodus 17:10-12",
     "tribe": "Judah",
     "image2": "images/portraits2/hur.png"
@@ -8251,7 +8251,7 @@
       "Spirit-filled work",
       "the tabernacle"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "bezalel.png",
     "first_reference": "Exodus 31:2",
     "tribe": "Judah"
@@ -8294,7 +8294,7 @@
       "Spirit-given craftsmanship",
       "tribe of Dan"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Exodus 31:6",
     "image2": "images/portraits2/oholiab.png",
     "tribe": "Dan"
@@ -8426,7 +8426,7 @@
       "the wilderness census",
       "tabernacle dedication offerings"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 1:6",
     "spotlight_eligible": false,
     "tribe": "Simeon"
@@ -8854,7 +8854,7 @@
       "guidance in the wilderness",
       "kinship with Israel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 10:29"
   },
   {
@@ -8873,7 +8873,7 @@
       "the Spirit's freedom",
       "prophecy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "Numbers 11:26-27"
   },
   {
@@ -8891,7 +8891,7 @@
       "the Spirit's freedom",
       "prophecy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 11:26-27",
     "spotlight_eligible": false
   },
@@ -8992,7 +8992,7 @@
       "perseverance",
       "wholehearted devotion"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "caleb.png",
     "gender": "male",
     "disambiguation": "son of Jephunneh (Num 13:6-30)",
@@ -9040,7 +9040,7 @@
       "unbelief in the wilderness",
       "the wilderness generation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:7",
     "tribe": "Issachar"
   },
@@ -9118,7 +9118,7 @@
       "unbelief",
       "wilderness wandering"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:10",
     "tribe": "Zebulun"
   },
@@ -9160,7 +9160,7 @@
       "unbelief",
       "wilderness wandering"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:11",
     "tribe": "Manasseh"
   },
@@ -9203,7 +9203,7 @@
       "unbelief",
       "wilderness wandering"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:12",
     "tribe": "Dan"
   },
@@ -9314,7 +9314,7 @@
       "unbelief",
       "wilderness wandering"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:15",
     "tribe": "Gad"
   },
@@ -9356,7 +9356,7 @@
       "conquest of Hebron",
       "Caleb's faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 13:22",
     "spotlight_eligible": false
   },
@@ -9379,7 +9379,7 @@
       "the Anakim",
       "Caleb's conquest of Hebron"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "sheshai.png",
     "first_reference": "Numbers 13:22"
   },
@@ -9438,7 +9438,7 @@
       "judgment",
       "Korah's rebellion"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 16:1-27",
     "tribe": "Reuben",
     "image2": "images/portraits2/dathan.png"
@@ -9463,7 +9463,7 @@
       "rebellion against God's chosen leaders",
       "divine judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "abiram.png",
     "first_reference": "Numbers 16:1-27",
     "tribe": "Reuben"
@@ -9507,7 +9507,7 @@
       "envy and pride",
       "tribe of Reuben"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Numbers 16:1",
     "tribe": "Reuben"
   },
@@ -9547,7 +9547,7 @@
       "conquest",
       "military defeat"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "sihon.png",
     "first_reference": "Numbers 21:21-34"
   },
@@ -9567,7 +9567,7 @@
       "the Rephaim/giants",
       "God's power over enemies"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "og.png",
     "first_reference": "Numbers 21:33"
   },
@@ -9583,7 +9583,7 @@
       "fear of God's people",
       "futility of opposing God's plan"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "balak.png",
     "timeline": {
       "precision": "era"
@@ -9626,7 +9626,7 @@
       "God's sovereignty over pagan prophecy",
       "a mixed legacy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "balaam.png",
     "timeline": {
       "precision": "era"
@@ -9727,7 +9727,7 @@
       "judgment on idolatry",
       "Phinehas's zeal"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Numbers 25:15-18"
   },
   {
@@ -9929,7 +9929,7 @@
       "inheritance and legacy",
       "God's responsiveness to earnest requests"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "zelophehad.png",
     "tribe": "Manasseh"
   },
@@ -9946,7 +9946,7 @@
       "inheritance",
       "faith to petition God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -9972,7 +9972,7 @@
       "inheritance",
       "faith to petition God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -9998,7 +9998,7 @@
       "inheritance",
       "faith to petition God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -10023,7 +10023,7 @@
       "inheritance",
       "faith to petition God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -10049,7 +10049,7 @@
       "inheritance",
       "faith to petition God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -10195,7 +10195,7 @@
       "divine judgment",
       "the Baal-Peor aftermath"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Numbers 31:8",
     "spotlight_eligible": false
   },
@@ -10231,7 +10231,7 @@
       "inheritance",
       "enduring legacy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "son of Segub (Num 32:41)",
     "first_reference": "Numbers 32:41",
@@ -10254,7 +10254,7 @@
       "tribal inheritance",
       "Manasseh"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Numbers 32:42",
     "spotlight_eligible": false
   },
@@ -10589,7 +10589,7 @@
       "grace for outsiders",
       "hospitality"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "rahab.png",
     "gender": "female",
     "first_reference": "Joshua 2:1-3",
@@ -10623,7 +10623,7 @@
       "corporate accountability",
       "greed"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "achan.png",
     "gender": "male",
     "first_reference": "Joshua 7:1-24",
@@ -10685,7 +10685,7 @@
       "divine judgment",
       "coalition against Israel"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Joshua 8:1-29",
     "image2": "images/portraits2/adoni-zedek.png"
   },
@@ -10705,7 +10705,7 @@
       "coalition against Gibeon",
       "judgment on Canaanite kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "hoham.png",
     "first_reference": "Joshua 10:1-23"
   },
@@ -10725,7 +10725,7 @@
       "coalition against Gibeon",
       "divine judgment on Canaanite kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "piram.png",
     "first_reference": "Joshua 10:3-23"
   },
@@ -10746,7 +10746,7 @@
       "divine judgment",
       "Joshua's conquest"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "japhia.png",
     "first_reference": "Joshua 10:3-23"
   },
@@ -10766,7 +10766,7 @@
       "coalition against Gibeon",
       "judgment on Canaanite kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "debir.png",
     "first_reference": "Joshua 10:3-23"
   },
@@ -10798,7 +10798,7 @@
       "the conquest of Canaan",
       "judgment on Canaanite kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Joshua 10:28-33",
     "spotlight_eligible": false
   },
@@ -10818,7 +10818,7 @@
       "military defeat",
       "God's deliverance through Deborah and Barak"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Joshua 10:33",
     "image2": "images/portraits2/jabin.png"
   },
@@ -10839,7 +10839,7 @@
       "coalition against Israel",
       "judgment on Canaanite kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Joshua 11:1",
     "spotlight_eligible": false
   },
@@ -10888,7 +10888,7 @@
       "boldness in asking",
       "provision"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "achsah.png",
     "timeline": {
       "precision": "era"
@@ -10930,7 +10930,7 @@
       "the Spirit's empowering",
       "faithfulness"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "othniel.png",
     "gender": "male",
     "first_reference": "Joshua 15:17",
@@ -10973,7 +10973,7 @@
       "conquest of Canaan",
       "poetic retribution"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Judges 1:5-7",
     "spotlight_eligible": false
   },
@@ -10994,7 +10994,7 @@
       "God raises a deliverer",
       "the judges cycle"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Judges 3:8-10"
   },
   {
@@ -11013,7 +11013,7 @@
       "oppression of Israel",
       "judgment on Israel's enemies"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Judges 3:12-17"
   },
   {
@@ -11034,7 +11034,7 @@
       "deliverance",
       "God using the unexpected"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "ehud.png",
     "gender": "male",
     "disambiguation": "son of Gera (Judg 3:15-26)",
@@ -11079,7 +11079,7 @@
       "deliverance",
       "unlikely weapons"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "shamgar.png",
     "gender": "male",
     "first_reference": "Judges 3:31"
@@ -11121,7 +11121,7 @@
       "unexpected instruments of judgment",
       "the folly of relying on human strength"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "sisera.png"
   },
   {
@@ -11137,7 +11137,7 @@
       "faith under oppression",
       "worship through song"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "deborah-2.png",
     "timeline": {
       "precision": "era"
@@ -11185,7 +11185,7 @@
       "shared leadership",
       "obedience"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "barak.png",
     "timeline": {
       "precision": "era"
@@ -11239,7 +11239,7 @@
       "the Kenites",
       "Deborah and Barak narrative"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 4:11-21"
   },
   {
@@ -11263,7 +11263,7 @@
       "courage",
       "God using the unexpected"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "jael.png",
     "gender": "female",
     "first_reference": "Judges 4:17-22"
@@ -11285,7 +11285,7 @@
       "defending a son from a mob",
       "confronting idolatry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "genealogy": {
       "children": [
         "gideon"
@@ -11310,7 +11310,7 @@
       "idolatry's return",
       "faith imperfect but real"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "gideon.png",
     "timeline": {
       "precision": "era"
@@ -11344,7 +11344,7 @@
       "encouragement before battle",
       "God's confirming signs"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 7:10-11"
   },
   {
@@ -11363,7 +11363,7 @@
       "divine deliverance",
       "Ephraim"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Judges 7:25",
     "image2": "images/portraits2/oreb.png"
   },
@@ -11397,7 +11397,7 @@
       "God's power over human strength",
       "the cost of cruelty"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "zebah.png"
   },
   {
@@ -11417,7 +11417,7 @@
       "God's power over human strength",
       "the cost of cruelty"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "zalmunna.png"
   },
   {
@@ -11441,7 +11441,7 @@
       "coming of age",
       "family expectations"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 8:20",
     "spotlight_eligible": false,
     "tribe": "Manasseh"
@@ -11467,7 +11467,7 @@
       "self-made kingship",
       "divine justice"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "abimelech-2.png",
     "first_reference": "Judges 8:31",
     "tribe": "Manasseh"
@@ -11485,7 +11485,7 @@
       "prophetic parable",
       "warning of consequences"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "jotham.png",
     "timeline": {
       "precision": "era"
@@ -11518,7 +11518,7 @@
       "pride and downfall",
       "political intrigue"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 9:26-41"
   },
   {
@@ -11626,7 +11626,7 @@
       "prosperity",
       "the judges cycle"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 10:3-5",
     "spotlight_eligible": false
   },
@@ -11652,7 +11652,7 @@
       "deliverance",
       "the cost of sin's ripple effects"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "jephthah.png",
     "gender": "male",
     "first_reference": "Judges 11:1-40"
@@ -11674,7 +11674,7 @@
       "family rejection",
       "the origin of Jephthah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "genealogy": {
       "children": [
         "jephthah"
@@ -11698,7 +11698,7 @@
       "quiet faithfulness",
       "family"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Judges 12:8-10",
     "spotlight_eligible": false
@@ -11718,7 +11718,7 @@
     "topics": [
       "quiet faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Judges 12:11-12",
     "spotlight_eligible": false,
     "tribe": "Zebulun"
@@ -11741,7 +11741,7 @@
       "quiet faithfulness",
       "prosperity"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "son of Hillel (Judg 12:13-15)",
     "first_reference": "Judges 12:13-15",
@@ -11780,7 +11780,7 @@
       "reverent fear",
       "faith alongside his wife"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -11833,7 +11833,7 @@
       "manipulation",
       "the cost of compromise"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "delilah.png",
     "timeline": {
       "precision": "era"
@@ -11854,7 +11854,7 @@
       "spiritual chaos without a king",
       "idolatry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -11884,7 +11884,7 @@
       "hired idolatrous priest",
       "religious compromise in the days of the judges"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "Judges 18:30",
     "tribe": "Levi"
   },
@@ -11949,7 +11949,7 @@
       "death in a foreign land",
       "family of Naomi"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ruth 1:2-5",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -11975,7 +11975,7 @@
       "a road not taken",
       "loyalty vs. loss"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "gender": "female",
     "first_reference": "Ruth 1:4-14"
   },
@@ -12031,7 +12031,7 @@
       "faithful worship",
       "answered prayer"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -12093,7 +12093,7 @@
       "God's sovereignty",
       "the purpose of suffering"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(1 Sam 1:1)",
     "first_reference": "1 Samuel 1:1",
@@ -12152,7 +12152,7 @@
       "vowed dedication",
       "praise after answered prayer"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "hannah.png",
     "timeline": {
       "precision": "era"
@@ -12180,7 +12180,7 @@
       "cruelty toward another's pain",
       "family rivalry"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -12206,7 +12206,7 @@
       "consequences",
       "mentorship"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "eli.png",
     "timeline": {
       "precision": "era",
@@ -12242,7 +12242,7 @@
       "priestly corruption",
       "judgment"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "gender": "male",
     "first_reference": "1 Samuel 1:3",
     "image2": "images/portraits2/hophni.png",
@@ -12273,7 +12273,7 @@
       "divine judgment",
       "loss of the ark"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "1 Samuel 1:3",
     "tribe": "Levi",
     "image2": "images/portraits2/phinehas-2.png"
@@ -12298,7 +12298,7 @@
       "the fall of Eli's house",
       "the departed glory"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ichabod.png",
     "first_reference": "1 Samuel 4:21",
     "tribe": "Levi"
@@ -12333,7 +12333,7 @@
       "the ark of the covenant",
       "reverence for holy things"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "genealogy": {
       "children": [
         "ahio",
@@ -12364,7 +12364,7 @@
       "guarding what is holy",
       "quiet faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Samuel 7:1"
   },
   {
@@ -12380,7 +12380,7 @@
       "failure to walk in a father's ways",
       "consequences for the nation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -12409,7 +12409,7 @@
       "failure to walk in a father's ways",
       "consequences for the nation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "abijah.png",
     "timeline": {
       "precision": "era"
@@ -12445,7 +12445,7 @@
       "providence",
       "Saul's rise to kingship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "kish.png",
     "first_reference": "1 Samuel 9:1-3",
     "tribe": "Benjamin"
@@ -12533,7 +12533,7 @@
       "jealousy",
       "tragic decline"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "saul.png",
     "timeline": {
       "precision": "era",
@@ -12575,7 +12575,7 @@
       "cruelty and threat",
       "Saul's first act as king"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "genealogy": {
       "children": [
         "hanun",
@@ -12598,7 +12598,7 @@
       "torn kingdom",
       "consequences of idolatry"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "ahijah.png",
     "timeline": {
       "precision": "era"
@@ -12650,7 +12650,7 @@
       "the fall of Saul's house",
       "battle"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Samuel 14:49",
     "image2": "images/portraits2/abinadab-2.png"
   },
@@ -12674,7 +12674,7 @@
       "royal family",
       "death of Saul's dynasty"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Samuel 14:49",
     "spotlight_eligible": false,
     "tribe": "Benjamin"
@@ -12692,7 +12692,7 @@
       "political marriage",
       "collateral cost of family feuds"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "merab.png",
     "timeline": {
       "precision": "era"
@@ -12730,7 +12730,7 @@
       "love turned bitter",
       "family torn by politics"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "michal.png",
     "gender": "female",
     "first_reference": "1 Samuel 14:49",
@@ -12799,7 +12799,7 @@
       "shifting loyalty",
       "vengeance"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "abner.png",
     "gender": "male",
     "first_reference": "1 Samuel 14:50-51",
@@ -12840,7 +12840,7 @@
       "divine judgment",
       "Amalekite king"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "1 Samuel 15:8-33"
   },
   {
@@ -12867,7 +12867,7 @@
       "pride",
       "David's youth"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Samuel 16:6",
     "tribe": "Judah",
     "image2": "images/portraits2/eliab-3.png"
@@ -12892,7 +12892,7 @@
       "God's choice over human appearance",
       "David's family"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Samuel 16:8",
     "image2": "images/portraits2/abinadab-3.png",
     "tribe": "Judah"
@@ -12926,7 +12926,7 @@
       "rejected for kingship",
       "father of Jonadab"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Samuel 16:9",
     "tribe": "Judah",
     "image2": "images/portraits2/shimeah.png"
@@ -12975,7 +12975,7 @@
       "royal marriage",
       "national bloodguilt"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Samuel 18:19",
     "spotlight_eligible": false
   },
@@ -13003,7 +13003,7 @@
       "massacre",
       "David's flight from Saul"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "ahimelech.png",
     "first_reference": "1 Samuel 21:1-8",
     "tribe": "Levi"
@@ -13024,7 +13024,7 @@
       "informing",
       "massacre"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "doeg.png",
     "gender": "male",
     "first_reference": "1 Samuel 21:7"
@@ -13049,7 +13049,7 @@
       "David's years as a fugitive",
       "God's protection among foreign kings"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "achish.png",
     "first_reference": "1 Samuel 21:10-14"
   },
@@ -13066,7 +13066,7 @@
       "consequences",
       "worship"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "gad-2.png",
     "timeline": {
       "precision": "era",
@@ -13089,7 +13089,7 @@
       "consequences",
       "fulfilled prophecy"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "abiathar.png",
     "timeline": {
       "precision": "era",
@@ -13127,7 +13127,7 @@
       "ingratitude",
       "God's judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nabal.png",
     "gender": "male",
     "first_reference": "1 Samuel 25:3-39"
@@ -13157,7 +13157,7 @@
       "peacemaking",
       "discernment"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "abigail.png",
     "gender": "female",
     "disambiguation": "wife of David (1 Sam 25:3-42)",
@@ -13189,7 +13189,7 @@
       "Ziklag raid",
       "mother of Amnon"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "ahinoam-2.png",
     "first_reference": "1 Samuel 25:43"
   },
@@ -13218,7 +13218,7 @@
       "royal politics",
       "loss"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Samuel 25:44",
     "spotlight_eligible": false
   },
@@ -13272,7 +13272,7 @@
       "military command",
       "restrained vengeance"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "abishai.png",
     "first_reference": "1 Samuel 26:6-9",
     "tribe": "Judah"
@@ -13317,7 +13317,7 @@
       "military loyalty",
       "unresolved blood-guilt"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "joab.png",
     "gender": "male",
     "disambiguation": "son of Zeruiah (1 Sam 26:6)",
@@ -13364,7 +13364,7 @@
       "civil war",
       "weak leadership"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ish-bosheth.png",
     "gender": "male",
     "first_reference": "2 Samuel 2:8-15",
@@ -13393,7 +13393,7 @@
       "blood vengeance",
       "David's mighty men"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 2:18-32",
     "tribe": "Judah",
     "image2": "images/portraits2/asahel.png"
@@ -13420,7 +13420,7 @@
       "family breakdown",
       "consequences of unchecked desire"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "amnon.png",
     "first_reference": "2 Samuel 3:2",
     "tribe": "Judah"
@@ -13469,7 +13469,7 @@
       "pride",
       "a father's grief"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "absalom.png",
     "gender": "male",
     "first_reference": "2 Samuel 3:3",
@@ -13534,7 +13534,7 @@
       "succession",
       "fear"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "adonijah.png",
     "gender": "male",
     "disambiguation": "son of David (2 Sam 3:4)",
@@ -13650,7 +13650,7 @@
       "dignity for the dead",
       "moving a king to act"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "rizpah.png",
     "timeline": {
       "precision": "era"
@@ -13706,7 +13706,7 @@
       "betrayal",
       "misplaced ambition"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
     "first_reference": "2 Samuel 4:2-9",
@@ -13731,7 +13731,7 @@
       "betrayal",
       "misplaced ambition"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(2 Sam 4:2-9)",
     "first_reference": "2 Samuel 4:2-9",
@@ -13779,7 +13779,7 @@
       "grace despite brokenness",
       "kindness for another's sake"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "mephibosheth.png",
     "timeline": {
       "precision": "era",
@@ -13804,7 +13804,7 @@
       "provision for the temple",
       "cooperation across nations"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "hiram.png",
     "timeline": {
       "precision": "era"
@@ -14046,7 +14046,7 @@
       "worship on God's terms",
       "David's reign"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ahio.png",
     "first_reference": "2 Samuel 6:3-4"
   },
@@ -14067,7 +14067,7 @@
       "blessing",
       "fear and faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 6:10-12",
     "image2": "images/portraits2/obed-edom.png",
     "tribe": "Levi"
@@ -14085,7 +14085,7 @@
       "confrontation",
       "covenant"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "nathan-2.png",
     "timeline": {
       "precision": "era",
@@ -14114,7 +14114,7 @@
       "Aram",
       "expansion of Israel's borders"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Samuel 8:3-12",
     "image2": "images/portraits2/hadadezer.png"
   },
@@ -14178,7 +14178,7 @@
       "diplomacy",
       "David's kingdom"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 8:10",
     "spotlight_eligible": false
   },
@@ -14231,7 +14231,7 @@
       "faithfulness",
       "fulfilled prophecy"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "zadok.png",
     "timeline": {
       "precision": "era",
@@ -14327,7 +14327,7 @@
       "military courage",
       "royal justice"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "benaiah.png",
     "first_reference": "2 Samuel 8:18"
   },
@@ -14347,7 +14347,7 @@
       "covenant restoration",
       "faithful mentorship"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "jehoiada.png",
     "gender": "male",
     "disambiguation": "(2 Sam 8:18)",
@@ -14377,7 +14377,7 @@
       "ambiguous loyalty",
       "opportunism"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ziba.png",
     "gender": "male",
     "first_reference": "2 Samuel 9:2-12"
@@ -14402,7 +14402,7 @@
       "kindness",
       "loyalty"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "machir-2.png",
     "first_reference": "2 Samuel 9:4-5"
   },
@@ -14465,7 +14465,7 @@
       "national humiliation",
       "war with Israel"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "hanun.png",
     "first_reference": "2 Samuel 10:1-4"
   },
@@ -14487,7 +14487,7 @@
       "war against David",
       "defeat in battle"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "shobach.png",
     "first_reference": "2 Samuel 10:16-18"
   },
@@ -14534,7 +14534,7 @@
       "injustice",
       "David's sin"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "uriah.png",
     "gender": "male",
     "disambiguation": "husband of Bathsheba (2 Sam 11:3-26)",
@@ -14597,7 +14597,7 @@
       "family betrayal",
       "God's justice for the wronged"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "tamar-2.png",
     "tribe": "Judah"
   },
@@ -14621,7 +14621,7 @@
       "shrewd but destructive counsel",
       "complicity in family tragedy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 13:3-35",
     "tribe": "Judah"
   },
@@ -14680,7 +14680,7 @@
       "wisdom turned to ruin",
       "despair"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "2 Samuel 15:12-34",
     "image2": "ahithophel.png",
@@ -14708,7 +14708,7 @@
       "steadfast commitment",
       "trusted leadership"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "ittai.png",
     "timeline": {
       "precision": "era"
@@ -14743,7 +14743,7 @@
       "Absalom's rebellion",
       "loyalty to David"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ahimaaz-2.png",
     "first_reference": "2 Samuel 15:27-36",
     "tribe": "Levi"
@@ -14769,7 +14769,7 @@
       "loyalty to David",
       "narrow escape"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 15:27-36",
     "image2": "images/portraits2/jonathan-3.png"
   },
@@ -14788,7 +14788,7 @@
       "loyalty",
       "God using human strategy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "hushai.png",
     "gender": "male",
     "disambiguation": "(2 Sam 15:32-37)",
@@ -14813,7 +14813,7 @@
       "unresolved grudges",
       "judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "shimei-2.png",
     "gender": "male",
     "disambiguation": "son of Gera (2 Sam 16:5-13)",
@@ -14861,7 +14861,7 @@
       "betrayal",
       "rivalry"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "gender": "male",
     "disambiguation": "son of Jether (2 Sam 17:25)",
     "first_reference": "2 Samuel 17:25",
@@ -14948,7 +14948,7 @@
       "provision in exile",
       "Ammonite ally"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 17:27"
   },
   {
@@ -14964,7 +14964,7 @@
       "generosity",
       "humility in old age"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "barzillai.png",
     "timeline": {
       "precision": "era"
@@ -14989,7 +14989,7 @@
       "loyalty to David",
       "inheriting a father's faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 19:37-40"
   },
   {
@@ -15014,7 +15014,7 @@
       "civil strife",
       "divine and human justice"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 20:1-22",
     "tribe": "Benjamin"
   },
@@ -15055,7 +15055,7 @@
       "national rebellion",
       "violent death"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "adoram.png",
     "first_reference": "2 Samuel 20:24"
   },
@@ -15089,7 +15089,7 @@
       "David's court officials",
       "priesthood outside the Levites"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "2 Samuel 20:26",
     "spotlight_eligible": false
   },
@@ -15115,7 +15115,7 @@
       "atonement",
       "grief"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 21:8",
     "tribe": "Benjamin"
   },
@@ -15141,7 +15141,7 @@
       "bloodguilt and atonement",
       "consequences of Saul's sin"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Samuel 21:8"
   },
   {
@@ -15183,7 +15183,7 @@
       "David's vulnerability",
       "the giants of Gath"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 21:16",
     "spotlight_eligible": false
   },
@@ -15223,7 +15223,7 @@
       "warrior",
       "victory over giants"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 21:18",
     "image2": "images/portraits2/sibbecai.png"
   },
@@ -15245,7 +15245,7 @@
       "descendant of the Rephaim",
       "David's warriors"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 21:18",
     "spotlight_eligible": false
   },
@@ -15267,7 +15267,7 @@
       "victory over Philistine giants",
       "David's mighty men"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 21:19",
     "image2": "images/portraits2/elhanan.png"
   },
@@ -15314,7 +15314,7 @@
       "defeating a giant",
       "royal counselor"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 21:21",
     "image2": "images/portraits2/jonathan-4.png",
     "tribe": "Judah"
@@ -15342,7 +15342,7 @@
       "loyalty to David",
       "military leadership"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 23:8",
     "image2": "images/portraits2/jashobeam.png"
   },
@@ -15365,7 +15365,7 @@
       "courage in battle",
       "God-given victory"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 23:9",
     "spotlight_eligible": false
   },
@@ -15410,7 +15410,7 @@
       "David's mighty men",
       "trust in the LORD"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Samuel 23:11",
     "tribe": "Judah"
   },
@@ -16001,7 +16001,7 @@
       "the cost of true worship",
       "site of the future temple"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ornan.png",
     "timeline": {
       "precision": "era"
@@ -16024,7 +16024,7 @@
       "royal court intrigue",
       "David's final days"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "abishag.png",
     "first_reference": "1 Kings 1:3-15"
   },
@@ -16063,7 +16063,7 @@
       "Egyptian invasion",
       "judgment on unfaithfulness"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "1 Kings 3:1",
     "image2": "images/portraits2/shishak.png"
   },
@@ -16091,7 +16091,7 @@
       "confronting a king",
       "guarding worship"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "azariah.png",
     "first_reference": "1 Kings 4:2",
     "tribe": "Levi"
@@ -16633,7 +16633,7 @@
       "wisdom",
       "psalm authorship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 4:31",
     "tribe": "Judah",
     "image2": "images/portraits2/ethan.png"
@@ -16658,7 +16658,7 @@
       "wisdom literature",
       "proverbial wisdom"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 4:31",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -16682,7 +16682,7 @@
       "wisdom",
       "genealogy of Judah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 4:31",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -16708,7 +16708,7 @@
       "wisdom",
       "genealogy of Judah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 4:31",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -16730,7 +16730,7 @@
       "temple construction",
       "skilled work for God's house"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 7:13-45",
     "tribe": "Naphtali"
   },
@@ -16746,7 +16746,7 @@
       "recognition of God's blessing",
       "testing and being satisfied"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "image2": "queen-of-sheba.png",
     "timeline": {
       "precision": "era"
@@ -16772,7 +16772,7 @@
       "exile and return",
       "God's judgment on Solomon"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "genealogy": {
       "children": [
         "genubath"
@@ -16833,7 +16833,7 @@
       "opposition to Solomon",
       "rise to kingship"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "1 Kings 11:23",
     "spotlight_eligible": false
   },
@@ -16870,7 +16870,7 @@
       "divided kingdom",
       "golden calves"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jeroboam.png",
     "timeline": {
       "precision": "era",
@@ -16943,7 +16943,7 @@
       "divided kingdom",
       "messianic line"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "rehoboam.png",
     "timeline": {
       "precision": "date",
@@ -16989,7 +16989,7 @@
       "the Shishak invasion",
       "repentance"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "1 Kings 12:22",
     "image2": "images/portraits2/shemaiah.png"
   },
@@ -17007,7 +17007,7 @@
       "covenant renewal",
       "tragic death"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "josiah.png",
     "timeline": {
       "precision": "date",
@@ -17051,7 +17051,7 @@
       "prophecy and judgment",
       "faith amid a corrupt household"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 14:1"
   },
   {
@@ -17074,7 +17074,7 @@
       "prophetic fulfillment",
       "royal assassination"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "nadab-2.png",
     "first_reference": "1 Kings 14:20",
     "tribe": "Ephraim"
@@ -17135,7 +17135,7 @@
       "war between Israel and Judah",
       "mixed legacy"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "abijah-3.png",
     "first_reference": "1 Kings 14:31",
     "tribe": "Judah"
@@ -17170,7 +17170,7 @@
       "reform",
       "royal family"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "first_reference": "1 Kings 15:2-13",
     "image2": "images/portraits2/maacah-3.png"
   },
@@ -17222,7 +17222,7 @@
       "misplaced trust",
       "long reign"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "asa.png",
     "first_reference": "1 Kings 15:8-33",
     "tribe": "Judah"
@@ -17251,7 +17251,7 @@
       "prophetic judgment",
       "cycle of violence"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "baasha.png",
     "first_reference": "1 Kings 15:16-33",
     "tribe": "Issachar"
@@ -17277,7 +17277,7 @@
       "Elisha's prophecies",
       "divine deliverance"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "1 Kings 15:18-20",
     "image2": "images/portraits2/ben-hadad.png"
   },
@@ -17329,7 +17329,7 @@
       "compromised alliances",
       "answered prayer"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jehoshaphat-3.png",
     "timeline": {
       "precision": "date",
@@ -17396,7 +17396,7 @@
       "judgment",
       "rebuke of kings"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "1 Kings 16:1-12",
     "image2": "images/portraits2/jehu.png"
   },
@@ -17417,7 +17417,7 @@
       "trusting God over political alliances",
       "persecution of a prophet"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "genealogy": {
       "children": [
         "jehu"
@@ -17446,7 +17446,7 @@
       "drunkenness",
       "judgment"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "gender": "male",
     "disambiguation": "son of Baasha (1 Kings 16:6-14)",
     "first_reference": "1 Kings 16:6-14",
@@ -17469,7 +17469,7 @@
       "short-lived ambition",
       "self-destruction"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "gender": "male",
     "disambiguation": "(1 Kings 16:9-20)",
     "first_reference": "1 Kings 16:9-20"
@@ -17504,7 +17504,7 @@
       "idolatry",
       "political achievement"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "omri.png",
     "gender": "male",
     "disambiguation": "father of Ahab (1 Kings 16:16-30)",
@@ -17533,7 +17533,7 @@
       "civil war",
       "failed ambition"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "1 Kings 16:21-22",
     "spotlight_eligible": false
@@ -17574,7 +17574,7 @@
       "the founding of Samaria",
       "Omri's reign"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 16:24",
     "spotlight_eligible": false
   },
@@ -17592,7 +17592,7 @@
       "false repentance",
       "injustice"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ahab.png",
     "timeline": {
       "precision": "era",
@@ -17640,7 +17640,7 @@
       "persecution",
       "judgment"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "image2": "jezebel.png",
     "gender": "female",
     "disambiguation": "daughter of Ethbaal (1 Kings 16:31)",
@@ -17683,7 +17683,7 @@
       "consequences of disobedience",
       "the cost of defying God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "genealogy": {
       "children": [
         "abiram-2",
@@ -17712,7 +17712,7 @@
       "fulfilled prophecy",
       "cost of disobedience"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 16:34"
   },
   {
@@ -17734,7 +17734,7 @@
       "fulfilled prophecy",
       "cost of disobedience"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 16:34",
     "spotlight_eligible": false
   },
@@ -17752,7 +17752,7 @@
       "God's provision",
       "discouragement"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "elijah.png",
     "timeline": {
       "precision": "era",
@@ -17778,7 +17778,7 @@
       "quiet faithfulness under persecution",
       "courage"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(1 Kings 18:3-16)",
     "first_reference": "1 Kings 18:3-16"
@@ -17799,7 +17799,7 @@
       "judgment on Israel",
       "prophetic fulfillment"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "genealogy": {
       "children": [
         "ben-hadad-2"
@@ -17823,7 +17823,7 @@
       "zealous judgment",
       "incomplete obedience"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jehu-2.png",
     "timeline": {
       "precision": "era",
@@ -17873,7 +17873,7 @@
       "God's provision",
       "honesty"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "elisha.png",
     "timeline": {
       "precision": "era",
@@ -17922,7 +17922,7 @@
       "covenant faithfulness",
       "martyrdom"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "1 Kings 21:1-19",
     "image2": "images/portraits2/naboth.png"
@@ -17940,7 +17940,7 @@
       "courage before kings",
       "cost of honesty"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -17994,7 +17994,7 @@
       "conflict with a true prophet",
       "telling people what they want to hear"
     ],
-    "image": "generic-prophet.png"
+    "image": "generic-prophet.jpg"
   },
   {
     "person_id": "chenaanah",
@@ -18033,7 +18033,7 @@
       "royal officials",
       "the cost of true prophecy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Kings 22:26",
     "spotlight_eligible": false
   },
@@ -18058,7 +18058,7 @@
       "royal power",
       "suppressing God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "joash-2.png",
     "first_reference": "1 Kings 22:26"
   },
@@ -18084,7 +18084,7 @@
       "prophetic confrontation",
       "divine judgment"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ahaziah.png",
     "first_reference": "1 Kings 22:40-51"
   },
@@ -18157,7 +18157,7 @@
       "fratricide",
       "divine judgment"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jehoram.png",
     "first_reference": "1 Kings 22:50",
     "tribe": "Judah"
@@ -18186,7 +18186,7 @@
       "divine judgment",
       "war with Aram"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 1:17",
     "image2": "images/portraits2/joram-2.png"
   },
@@ -18208,7 +18208,7 @@
       "human sacrifice",
       "coalition warfare"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 3:4-26"
   },
   {
@@ -18227,7 +18227,7 @@
       "deceit",
       "judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gehazi.png",
     "gender": "male",
     "first_reference": "2 Kings 4:12-36"
@@ -18249,7 +18249,7 @@
       "humility versus pride",
       "faith of an outsider"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 5:1-27",
     "image2": "images/portraits2/naaman-2.png"
   },
@@ -18282,7 +18282,7 @@
       "royal downfall",
       "Jehu's purge"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ahaziah-2.png",
     "first_reference": "2 Kings 8:24-26",
     "tribe": "Judah"
@@ -18315,7 +18315,7 @@
       "idolatry",
       "judgment"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "image2": "athaliah.png",
     "gender": "female",
     "disambiguation": "daughter of Ahab (2 Kings 8:26)",
@@ -18356,7 +18356,7 @@
       "divine judgment",
       "loyalty"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 9:25",
     "spotlight_eligible": false
   },
@@ -18382,7 +18382,7 @@
       "generational faithfulness",
       "abstaining from idolatry's culture"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 10:15-23",
     "image2": "images/portraits2/jonadab-2.png"
   },
@@ -18431,7 +18431,7 @@
       "seeking the Lord",
       "idolatry"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 10:35",
     "image2": "images/portraits2/jehoahaz.png"
   },
@@ -18460,7 +18460,7 @@
       "rescue",
       "preserving the Davidic line"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "2 Kings 11:2",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -18493,7 +18493,7 @@
       "decline after a mentor's death",
       "assassination"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 11:2-21",
     "tribe": "Judah",
     "image2": "images/portraits2/joash-3.png"
@@ -18512,7 +18512,7 @@
       "mentorship",
       "covenant renewal"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "jehoiada-2.png",
     "timeline": {
       "precision": "era",
@@ -18546,7 +18546,7 @@
       "idolatry judged",
       "religious reform"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 11:18",
     "spotlight_eligible": false
   },
@@ -18591,7 +18591,7 @@
       "regicide",
       "judgment on a king"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 12:21",
     "spotlight_eligible": false
   },
@@ -18633,7 +18633,7 @@
       "regicide",
       "consequence of sin"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 12:21"
   },
   {
@@ -18682,7 +18682,7 @@
       "idolatry after victory",
       "pride leading to downfall"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "amaziah.png",
     "first_reference": "2 Kings 12:21",
     "tribe": "Judah"
@@ -18707,7 +18707,7 @@
       "Elisha's final prophecy",
       "war with Israel"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 13:3-25",
     "image2": "images/portraits2/ben-hadad-2.png"
   },
@@ -18737,7 +18737,7 @@
       "military victory over Aram",
       "war with Judah"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 13:9-25",
     "image2": "images/portraits2/joash-4.png"
   },
@@ -18765,7 +18765,7 @@
       "prophetic warning",
       "idolatry"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 13:13",
     "image2": "images/portraits2/jeroboam-2.png"
   },
@@ -18807,7 +18807,7 @@
       "pride after success",
       "God's discipline of a king"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "uzziah.png",
     "timeline": {
       "precision": "date",
@@ -18941,7 +18941,7 @@
       "building projects",
       "incomplete reform"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jotham-2.png",
     "first_reference": "2 Kings 15:5-38",
     "tribe": "Judah"
@@ -18959,7 +18959,7 @@
       "assassination and instability",
       "short-lived usurpation"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -19039,7 +19039,7 @@
       "assassination",
       "continued idolatry"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -19063,7 +19063,7 @@
       "Assyrian conquest beginning",
       "assassination"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "pekah.png",
     "timeline": {
       "precision": "era"
@@ -19109,7 +19109,7 @@
       "political violence",
       "Israel's unstable throne"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 15:25",
     "spotlight_eligible": false
   },
@@ -19128,7 +19128,7 @@
       "political violence",
       "Israel's unstable throne"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 15:25",
     "spotlight_eligible": false
   },
@@ -19151,7 +19151,7 @@
       "God's sovereignty over nations",
       "the cost of compromised faith"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "tiglath-pileser.png"
   },
   {
@@ -19174,7 +19174,7 @@
       "rebellion against Assyria",
       "exile"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 15:30",
     "image2": "images/portraits2/hoshea.png"
   },
@@ -19255,7 +19255,7 @@
       "opposition to Judah",
       "divine judgment on nations"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 15:37",
     "image2": "images/portraits2/rezin.png"
   },
@@ -19285,7 +19285,7 @@
       "unbelief",
       "Assyrian vassalage"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ahaz.png",
     "first_reference": "2 Kings 15:38",
     "tribe": "Judah"
@@ -19319,7 +19319,7 @@
       "answered prayer",
       "pride"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "hezekiah.png",
     "timeline": {
       "precision": "date",
@@ -19356,7 +19356,7 @@
       "exile",
       "divine judgment"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 17:3-27",
     "image2": "images/portraits2/shalmaneser.png"
   },
@@ -19426,7 +19426,7 @@
       "God's deliverance of Jerusalem",
       "downfall of a proud empire"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "sennacherib.png",
     "timeline": {
       "precision": "era"
@@ -19483,7 +19483,7 @@
       "psychological warfare",
       "blasphemy against the LORD"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 18:17-37",
     "image2": "images/portraits2/rabshakeh.png"
   },
@@ -19500,7 +19500,7 @@
       "faithful administration",
       "steady leadership in crisis"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "eliakim.png",
     "timeline": {
       "precision": "era"
@@ -19549,7 +19549,7 @@
       "demotion",
       "God's opposition to self-glorification"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "shebna.png",
     "timeline": {
       "precision": "era"
@@ -19570,7 +19570,7 @@
       "faithful record-keeping",
       "steady service in crisis"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -19617,7 +19617,7 @@
       "messianic prophecy",
       "suffering servant"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "isaiah.png",
     "timeline": {
       "precision": "era",
@@ -19685,7 +19685,7 @@
       "fulfilled prophecy",
       "Assyrian empire"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 19:37",
     "spotlight_eligible": false
   },
@@ -19709,7 +19709,7 @@
       "fall of Assyria",
       "fulfilled prophecy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "sharezer.png",
     "first_reference": "2 Kings 19:37"
   },
@@ -19731,7 +19731,7 @@
       "foreign kings",
       "Assyrian empire"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "esarhaddon.png",
     "first_reference": "2 Kings 19:37"
   },
@@ -19757,7 +19757,7 @@
       "prophetic warning",
       "exile foretold"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 20:12-18",
     "image2": "images/portraits2/berodach-baladan.png"
   },
@@ -19794,7 +19794,7 @@
       "repentance",
       "God's mercy"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "manasseh-3.png",
     "timeline": {
       "precision": "date",
@@ -19873,7 +19873,7 @@
       "refusal to repent",
       "assassination"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "amon-2.png",
     "first_reference": "2 Kings 21:18-25",
     "tribe": "Judah"
@@ -19969,7 +19969,7 @@
       "rediscovering God's word",
       "reform"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -20037,7 +20037,7 @@
       "rediscovery of Scripture",
       "reform"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "hilkiah-2.png",
     "timeline": {
       "precision": "era",
@@ -20077,7 +20077,7 @@
       "protecting a prophet",
       "Josiah's reforms"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ahikam.png",
     "first_reference": "2 Kings 22:12-14"
   },
@@ -20106,7 +20106,7 @@
       "seeking God's word",
       "royal officials"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "achbor-2.png",
     "first_reference": "2 Kings 22:12-14"
   },
@@ -20148,7 +20148,7 @@
       "seeking God's word",
       "royal service"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "asaiah.png",
     "first_reference": "2 Kings 22:12-14"
   },
@@ -20173,7 +20173,7 @@
       "revival",
       "God's word confirmed"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "huldah.png",
     "gender": "female",
     "first_reference": "2 Kings 22:14"
@@ -20285,7 +20285,7 @@
       "vassal kingship over Judah",
       "downfall to Babylon"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 23:29-35",
     "image2": "images/portraits2/pharaoh-neco.png"
   },
@@ -20315,7 +20315,7 @@
       "royal downfall",
       "fulfilled prophecy"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Kings 23:30-34",
     "tribe": "Judah",
     "image2": "images/portraits2/jehoahaz-2.png"
@@ -20375,7 +20375,7 @@
       "oppression of the poor",
       "rebellion against Babylon"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jehoiakim.png",
     "timeline": {
       "precision": "date",
@@ -20452,7 +20452,7 @@
       "judgment on Judah",
       "pride and humbling"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "nebuchadnezzar.png",
     "genealogy": {
       "children": [
@@ -20494,7 +20494,7 @@
       "captivity",
       "royal lineage of Christ"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "jehoiachin.png",
     "first_reference": "2 Kings 24:6-15",
     "tribe": "Judah"
@@ -20541,7 +20541,7 @@
       "persecution of prophets",
       "compromise"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Kings 24:8",
     "image2": "images/portraits2/elnathan.png"
   },
@@ -20561,7 +20561,7 @@
       "fall of Jerusalem",
       "exile"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "zedekiah-2.png",
     "timeline": {
       "precision": "date",
@@ -20597,7 +20597,7 @@
       "exile",
       "kindness to Jeremiah"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "nebuzaradan.png",
     "first_reference": "2 Kings 25:8-20"
   },
@@ -20624,7 +20624,7 @@
       "execution of leadership",
       "priestly line"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "2 Kings 25:18",
     "tribe": "Levi",
     "image2": "images/portraits2/seraiah-2.png"
@@ -20661,7 +20661,7 @@
       "leadership amid ruin",
       "betrayal"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gedaliah.png",
     "gender": "male",
     "disambiguation": "son of Ahikam (2 Kings 25:22-25)",
@@ -20687,7 +20687,7 @@
       "treachery",
       "the fall of Jerusalem's aftermath"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 25:23-25",
     "tribe": "Judah",
     "image2": "images/portraits2/ishmael-2.png"
@@ -20730,7 +20730,7 @@
       "rescuing captives",
       "defying a prophet's word"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 25:23",
     "image2": "images/portraits2/johanan.png"
   },
@@ -20809,7 +20809,7 @@
       "national crisis",
       "submission to authority"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 25:23",
     "image2": "images/portraits2/jezaniah.png"
   },
@@ -20847,7 +20847,7 @@
       "unexpected kindness",
       "the end of exile hope"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "evil-merodach.png",
     "first_reference": "2 Kings 25:27"
   },
@@ -22843,7 +22843,7 @@
       "leadership amid opposition",
       "messianic line"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "zerubbabel.png",
     "gender": "male",
     "first_reference": "1 Chronicles 3:19",
@@ -26254,7 +26254,7 @@
       "priestly leadership",
       "the fear of the LORD"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "amariah-2.png",
     "first_reference": "1 Chronicles 6:11",
     "tribe": "Levi"
@@ -26434,7 +26434,7 @@
       "consecration",
       "revival under Hezekiah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 6:21",
     "spotlight_eligible": false,
     "tribe": "Levi"
@@ -26668,7 +26668,7 @@
       "loyalty to David",
       "David's mighty men"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Chronicles 6:25-35",
     "image2": "images/portraits2/amasai.png",
     "tribe": "Levi"
@@ -26860,7 +26860,7 @@
       "music and psalmody",
       "Levitical service"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 6:33",
     "tribe": "Levi",
     "image2": "images/portraits2/heman-2.png"
@@ -26910,7 +26910,7 @@
       "music and psalms",
       "prophecy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "asaph-2.png",
     "first_reference": "1 Chronicles 6:39",
     "tribe": "Levi"
@@ -27160,7 +27160,7 @@
       "music",
       "the ark of the covenant"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ethan-3.png",
     "first_reference": "1 Chronicles 6:44",
     "tribe": "Levi"
@@ -27262,7 +27262,7 @@
       "false worship",
       "prophetic judgment"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "amaziah-3.png",
     "first_reference": "1 Chronicles 6:45",
     "tribe": "Levi"
@@ -31723,7 +31723,7 @@
       "teaching the Law",
       "Jehoshaphat's reforms"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 9:16",
     "image2": "images/portraits2/obadiah-5.png"
   },
@@ -31762,7 +31762,7 @@
       "prophesying through song",
       "faithful service across generations"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "jeduthun.png",
     "genealogy": {
       "children": [
@@ -32759,7 +32759,7 @@
       "loyalty to David",
       "courage"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Chronicles 12:9",
     "tribe": "Gad"
   },
@@ -32781,7 +32781,7 @@
       "loyalty before the throne",
       "military valor"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "1 Chronicles 12:9",
     "tribe": "Gad"
   },
@@ -33028,7 +33028,7 @@
       "levitical service",
       "temple treasuries"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "joel-6.png",
     "first_reference": "1 Chronicles 15:7-11",
     "tribe": "Levi"
@@ -33065,7 +33065,7 @@
       "obedience to God's instructions",
       "the ark of the covenant"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 15:9-11"
   },
   {
@@ -33086,7 +33086,7 @@
       "Levitical service",
       "worship on God's terms"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 15:10-11",
     "tribe": "Levi"
   },
@@ -33283,7 +33283,7 @@
       "faithful service",
       "God's blessing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "genealogy": {
       "children": [
         "ammiel-3",
@@ -33357,7 +33357,7 @@
       "music",
       "administration"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "1 Chronicles 15:22-27",
     "spotlight_eligible": false,
     "tribe": "Levi"
@@ -33689,7 +33689,7 @@
       "David's administration",
       "Transjordan tribes"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "jeriah.png",
     "first_reference": "1 Chronicles 23:19",
     "tribe": "Levi"
@@ -36051,7 +36051,7 @@
       "prophetic record-keeping",
       "royal chronicles"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "iddo-4.png",
     "first_reference": "2 Chronicles 9:29"
   },
@@ -36276,7 +36276,7 @@
       "national revival",
       "seeking the LORD"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "2 Chronicles 15:1-8"
   },
   {
@@ -36295,7 +36295,7 @@
       "compassion for captives",
       "obedience to God's word"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "oded.png",
     "genealogy": {
       "children": [
@@ -36348,7 +36348,7 @@
       "religious reform",
       "Jehoshaphat's reign"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 17:7",
     "spotlight_eligible": false
   },
@@ -36398,7 +36398,7 @@
       "Jehoshaphat's reforms",
       "revival"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 17:8",
     "tribe": "Levi"
   },
@@ -36574,7 +36574,7 @@
       "personal devotion to God",
       "Jehoshaphat's army"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Chronicles 17:16",
     "spotlight_eligible": false
   },
@@ -36682,7 +36682,7 @@
       "trusting God in crisis",
       "deliverance without a fight"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "2 Chronicles 20:14",
     "tribe": "Levi"
   },
@@ -36756,7 +36756,7 @@
       "prophecy",
       "judgment on compromised alliances"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "2 Chronicles 20:37",
     "spotlight_eligible": false
   },
@@ -36799,7 +36799,7 @@
       "royal succession",
       "sibling rivalry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 21:2",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -36824,7 +36824,7 @@
       "royal fratricide",
       "sons of Jehoshaphat"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 21:2",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -36870,7 +36870,7 @@
       "royal succession",
       "sibling rivalry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 21:2",
     "tribe": "Judah"
   },
@@ -36894,7 +36894,7 @@
       "fratricide",
       "consolidation of power"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 21:2",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -36918,7 +36918,7 @@
       "royal fratricide",
       "cost of power"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 21:2",
     "spotlight_eligible": false,
     "tribe": "Judah"
@@ -37016,7 +37016,7 @@
       "covenant loyalty",
       "courage under risk"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Chronicles 23:1"
   },
   {
@@ -37095,7 +37095,7 @@
       "covenant loyalty",
       "courage"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "2 Chronicles 23:1"
   },
   {
@@ -37149,7 +37149,7 @@
       "messianic prophecy",
       "restoration"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "zechariah-13.png",
     "timeline": {
       "precision": "era",
@@ -37241,7 +37241,7 @@
       "judgment",
       "royal family"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:7",
     "tribe": "Judah"
   },
@@ -37262,7 +37262,7 @@
       "war casualties",
       "royal household"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:7",
     "spotlight_eligible": false
   },
@@ -37283,7 +37283,7 @@
       "war casualties",
       "judgment on unfaithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:7",
     "spotlight_eligible": false
   },
@@ -37308,7 +37308,7 @@
       "opposing injustice",
       "obedience to God's warning"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:12",
     "tribe": "Ephraim"
   },
@@ -37353,7 +37353,7 @@
       "opposing injustice",
       "prophetic rebuke"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:12",
     "tribe": "Ephraim"
   },
@@ -37396,7 +37396,7 @@
       "prophetic rebuke",
       "compassion"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:12",
     "tribe": "Ephraim"
   },
@@ -37440,7 +37440,7 @@
       "opposing injustice",
       "heeding a prophet's warning"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 28:12",
     "tribe": "Ephraim"
   },
@@ -37684,7 +37684,7 @@
       "God's provision",
       "temple reform"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "azariah-14.png",
     "first_reference": "2 Chronicles 31:10",
     "tribe": "Levi"
@@ -37705,7 +37705,7 @@
       "faithful stewardship",
       "Hezekiah's reform"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "conaniah.png",
     "first_reference": "2 Chronicles 31:12-13",
     "tribe": "Levi"
@@ -38015,7 +38015,7 @@
       "faithful administration",
       "Josiah's reforms"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Chronicles 34:8"
   },
   {
@@ -38106,7 +38106,7 @@
       "lament",
       "new covenant"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "jeremiah-6.png",
     "timeline": {
       "precision": "era",
@@ -38136,7 +38136,7 @@
       "rebuilding the temple",
       "God's sovereignty over pagan rulers"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "cyrus.png",
     "first_reference": "2 Chronicles 36:22-23"
   },
@@ -38156,7 +38156,7 @@
       "return from exile",
       "restoration of temple vessels"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 1:8",
     "spotlight_eligible": false
   },
@@ -38176,7 +38176,7 @@
       "temple rebuilding",
       "leadership"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "sheshbazzar.png",
     "first_reference": "Ezra 1:8-11",
     "tribe": "Judah"
@@ -38218,7 +38218,7 @@
       "rebuilding under opposition",
       "reform"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nehemiah.png",
     "first_reference": "Ezra 2:2"
   },
@@ -39466,7 +39466,7 @@
       "opposition to God's work",
       "compromise"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Nehemiah 2:10-19",
     "image2": "images/portraits2/tobiah.png"
@@ -39535,7 +39535,7 @@
       "integrity under pressure",
       "authorizing the temple's completion"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "darius.png",
     "first_reference": "Ezra 4:5-24"
   },
@@ -39560,7 +39560,7 @@
       "providence",
       "reversal of fortune"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "ahasuerus.png",
     "first_reference": "Ezra 4:6"
   },
@@ -39579,7 +39579,7 @@
       "God's providence through pagan rulers",
       "rebuilding Jerusalem"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "artaxerxes.png",
     "first_reference": "Ezra 4:7-23"
   },
@@ -39641,7 +39641,7 @@
       "political intrigue",
       "delayed obedience"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 4:8-23",
     "spotlight_eligible": false
   },
@@ -39660,7 +39660,7 @@
       "opposition to rebuilding",
       "Persian administration"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 4:8-23",
     "spotlight_eligible": false
   },
@@ -39680,7 +39680,7 @@
       "opposition to Jerusalem's rebuilding",
       "Samaria"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Ezra 4:10",
     "spotlight_eligible": false
   },
@@ -39697,7 +39697,7 @@
       "encouragement",
       "messianic hope"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "haggai.png",
     "timeline": {
       "precision": "era",
@@ -39754,7 +39754,7 @@
       "opposition to rebuilding",
       "Persian administration"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 5:3-6",
     "spotlight_eligible": false
   },
@@ -39771,7 +39771,7 @@
       "trust in God",
       "covenant renewal"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "ezra.png",
     "timeline": {
       "precision": "era",
@@ -40272,7 +40272,7 @@
       "return from exile",
       "trustworthy leadership"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 8:16",
     "spotlight_eligible": false
   },
@@ -40362,7 +40362,7 @@
       "the return from exile",
       "gathering Levites for the temple"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 8:17",
     "spotlight_eligible": false
   },
@@ -40384,7 +40384,7 @@
       "trustworthiness",
       "Levitical service"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 8:18-24",
     "tribe": "Levi"
   },
@@ -40435,7 +40435,7 @@
       "faithful stewardship",
       "wall rebuilding"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "Ezra 8:33",
     "image2": "images/portraits2/meremoth.png"
   },
@@ -40508,7 +40508,7 @@
       "temple treasure",
       "faithfulness with resources"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 8:33",
     "tribe": "Levi"
   },
@@ -40553,7 +40553,7 @@
       "covenant renewal",
       "courage to confront sin"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 10:2"
   },
   {
@@ -40630,7 +40630,7 @@
       "the foreign-wives crisis",
       "dissent"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 10:15",
     "spotlight_eligible": false
   },
@@ -40718,7 +40718,7 @@
       "post-exilic reform",
       "mixed marriages controversy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezra 10:15",
     "spotlight_eligible": false,
     "tribe": "Levi"
@@ -42267,7 +42267,7 @@
       "trustworthy leadership",
       "answered prayer"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "hanani-4.png",
     "first_reference": "Nehemiah 1:2"
   },
@@ -42289,7 +42289,7 @@
       "God's providence",
       "building projects"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Nehemiah 2:8",
     "tribe": "Levi"
   },
@@ -42308,7 +42308,7 @@
       "opposition to God's work",
       "intimidation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "sanballat.png",
     "gender": "male",
     "first_reference": "Nehemiah 2:10-19"
@@ -42329,7 +42329,7 @@
     "topics": [
       "opposition to God's work"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Nehemiah 2:19",
     "spotlight_eligible": false
@@ -42351,7 +42351,7 @@
       "compromised leadership",
       "reform"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "eliashib-7.png",
     "genealogy": {
       "children": [
@@ -43496,7 +43496,7 @@
       "opposition to Nehemiah",
       "integrity under pressure"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "Nehemiah 6:10"
   },
   {
@@ -43553,7 +43553,7 @@
       "opposition to Nehemiah",
       "fear tactics"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "first_reference": "Nehemiah 6:14"
   },
   {
@@ -43801,7 +43801,7 @@
       "corporate worship",
       "post-exilic renewal"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Nehemiah 8:7",
     "image2": "images/portraits2/jeshua-7.png",
     "tribe": "Levi"
@@ -44004,7 +44004,7 @@
       "corporate confession",
       "covenant renewal"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Nehemiah 9:5"
   },
   {
@@ -46337,7 +46337,7 @@
       "dedication of Jerusalem's wall",
       "choral leadership"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Nehemiah 12:42",
     "spotlight_eligible": false
   },
@@ -46433,7 +46433,7 @@
       "providence behind the scenes",
       "dignity and refusal"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "image2": "vashti.png"
   },
   {
@@ -46480,7 +46480,7 @@
       "reversal of Haman's plot",
       "royal court"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "harbona.png",
     "first_reference": "Esther 1:10"
   },
@@ -46631,7 +46631,7 @@
       "royal counsel",
       "consequences of pride"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Esther 1:14-21"
   },
   {
@@ -46651,7 +46651,7 @@
       "court life",
       "behind-the-scenes favor"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Esther 2:3-15"
   },
   {
@@ -46678,7 +46678,7 @@
       "courage under threat",
       "reversal of fortune"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "mordecai-2.png",
     "first_reference": "Esther 2:5-22",
     "tribe": "Benjamin"
@@ -46762,7 +46762,7 @@
       "deliverance of God's people",
       "\"for such a time as this\""
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "image2": "esther.png",
     "first_reference": "Esther 2:7-22",
     "tribe": "Benjamin"
@@ -46818,7 +46818,7 @@
       "hidden providence",
       "justice"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Esther 2:21",
     "spotlight_eligible": false
   },
@@ -46866,7 +46866,7 @@
       "genocide plotted",
       "poetic judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "haman.png",
     "gender": "male",
     "first_reference": "Esther 3:1-15"
@@ -46907,7 +46907,7 @@
       "behind-the-scenes obedience",
       "courage by proxy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Esther 4:5-10"
   },
   {
@@ -47110,7 +47110,7 @@
       "perseverance",
       "God's sovereignty in the whirlwind"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "job.png",
     "genealogy": {
       "children": [
@@ -47136,7 +47136,7 @@
       "suffering and false counsel",
       "retributive theology"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "disambiguation": "(Job 2:11)",
     "first_reference": "Job 2:11",
@@ -47157,7 +47157,7 @@
       "suffering and false counsel",
       "retributive theology"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Job 2:11",
     "image2": "images/portraits2/bildad.png"
@@ -47177,7 +47177,7 @@
       "suffering and false counsel",
       "retributive theology"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Job 2:11",
     "image2": "images/portraits2/zophar.png"
@@ -47203,7 +47203,7 @@
       "suffering",
       "youthful zeal"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Job 32:2-6",
     "image2": "images/portraits2/elihu-5.png"
   },
@@ -47260,7 +47260,7 @@
       "inheritance",
       "God's blessing after suffering"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Job 42:14"
   },
   {
@@ -47283,7 +47283,7 @@
       "inheritance",
       "God's blessing after suffering"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Job 42:14"
   },
   {
@@ -47306,7 +47306,7 @@
       "inheritance",
       "God's blessing after suffering"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Job 42:14"
   },
   {
@@ -47343,7 +47343,7 @@
       "humility before God",
       "proverbs"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Proverbs 30:1"
   },
   {
@@ -47408,7 +47408,7 @@
       "a mother's instruction",
       "righteous kingship"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Proverbs 31:1-4"
   },
   {
@@ -47432,7 +47432,7 @@
       "the remnant",
       "trust in God amid crisis"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Isaiah 7:3"
   },
   {
@@ -47533,7 +47533,7 @@
       "Assyrian imperial power",
       "backdrop to a prophetic sign-act"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Isaiah 20:1-6",
     "spotlight_eligible": false
   },
@@ -47555,7 +47555,7 @@
       "false security",
       "God's judgment"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "Jeremiah 20:1-6"
   },
   {
@@ -47611,7 +47611,7 @@
       "Egypt's downfall",
       "false alliances"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "pharaoh-7.png",
     "first_reference": "Jeremiah 25:19"
   },
@@ -47628,7 +47628,7 @@
       "prophecy",
       "messianic prophecy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "micah-5.png",
     "timeline": {
       "precision": "era",
@@ -47698,7 +47698,7 @@
       "confrontation with Jeremiah",
       "judgment on false witness"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "hananiah-10.png",
     "first_reference": "Jeremiah 28:1-17"
   },
@@ -47742,7 +47742,7 @@
       "delivering God's word",
       "exile"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 29:3"
   },
   {
@@ -47784,7 +47784,7 @@
       "royal officials",
       "attempted intercession for God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gemariah.png",
     "first_reference": "Jeremiah 29:3",
     "tribe": "Levi"
@@ -47809,7 +47809,7 @@
       "judgment",
       "exile"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 29:21-22",
     "spotlight_eligible": false
   },
@@ -47867,7 +47867,7 @@
       "opposition to Jeremiah",
       "judgment on false prophets"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "shemaiah-21.png",
     "genealogy": {
       "children": [
@@ -47909,7 +47909,7 @@
       "field of Anathoth",
       "kinsman-redeemer"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 32:7-12",
     "spotlight_eligible": false
   },
@@ -47954,7 +47954,7 @@
       "suffering with the prophet",
       "preserving God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "baruch-4.png",
     "first_reference": "Jeremiah 32:12-16"
   },
@@ -48015,7 +48015,7 @@
       "the Rechabites",
       "a living example to Judah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 35:3"
   },
   {
@@ -48126,7 +48126,7 @@
       "the word of God relayed",
       "royal officials and the prophetic word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:11-13",
     "spotlight_eligible": false
   },
@@ -48148,7 +48148,7 @@
       "Jeremiah's scroll",
       "royal opposition to the prophets"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:12-21"
   },
   {
@@ -48171,7 +48171,7 @@
       "courage before power",
       "the word of God resisted"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:12-25"
   },
   {
@@ -48212,7 +48212,7 @@
       "royal defiance",
       "prophetic scroll"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:14-23"
   },
   {
@@ -48290,7 +48290,7 @@
       "royal command",
       "God's protection of His prophets"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:26",
     "tribe": "Judah"
   },
@@ -48313,7 +48313,7 @@
       "royal opposition to prophecy",
       "divine protection"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 36:26",
     "spotlight_eligible": false
   },
@@ -48360,7 +48360,7 @@
       "God's protection of His prophet",
       "the royal court"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "shelemiah-6.png",
     "first_reference": "Jeremiah 36:26"
   },
@@ -48401,7 +48401,7 @@
       "royal messenger",
       "seeking prophetic intercession"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 37:3",
     "spotlight_eligible": false
   },
@@ -48424,7 +48424,7 @@
       "the siege of Jerusalem",
       "Jeremiah's suffering"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Jeremiah 37:13-14",
     "spotlight_eligible": false
   },
@@ -48498,7 +48498,7 @@
       "opposition to Jeremiah",
       "the siege of Jerusalem"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 38:1"
   },
   {
@@ -48540,7 +48540,7 @@
       "persecution of Jeremiah",
       "opposition to God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 38:1"
   },
   {
@@ -48580,7 +48580,7 @@
       "opposition to a prophet",
       "the siege of Jerusalem"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 38:1",
     "spotlight_eligible": false
   },
@@ -48659,7 +48659,7 @@
       "compassion",
       "reward for faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "ebed-melech.png",
     "gender": "male",
     "first_reference": "Jeremiah 38:7-12"
@@ -48722,7 +48722,7 @@
       "Babylonian officials",
       "release of Jeremiah"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 39:3-13"
   },
   {
@@ -48742,7 +48742,7 @@
       "release of Jeremiah",
       "Babylonian officials"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 39:13"
   },
   {
@@ -48792,7 +48792,7 @@
       "opposition to God's remnant",
       "assassination plot"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Jeremiah 40:14"
   },
   {
@@ -48836,7 +48836,7 @@
       "unbelief",
       "forced exile to Egypt"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 43:2"
   },
   {
@@ -48874,7 +48874,7 @@
       "judgment on Babylon",
       "quartermaster"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Jeremiah 51:59-61",
     "spotlight_eligible": false
   },
@@ -48891,7 +48891,7 @@
       "symbolic acts",
       "restoration"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "ezekiel.png",
     "timeline": {
       "precision": "era",
@@ -48944,7 +48944,7 @@
       "Ezekiel's temple vision",
       "judgment on Jerusalem's leaders"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezekiel 8:11"
   },
   {
@@ -48986,7 +48986,7 @@
       "Ezekiel's temple vision",
       "judgment on Jerusalem's leaders"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezekiel 11:1",
     "spotlight_eligible": false
   },
@@ -49030,7 +49030,7 @@
       "divine judgment",
       "leadership failure"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Ezekiel 11:1-13"
   },
   {
@@ -49095,7 +49095,7 @@
       "God's judgment",
       "invasion of Israel"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Ezekiel 38:2-18",
     "spotlight_eligible": false
   },
@@ -49115,7 +49115,7 @@
       "providence",
       "conviction under pressure"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Daniel 1:3"
   },
@@ -49136,7 +49136,7 @@
       "faithfulness under pressure",
       "God's deliverance"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "shadrach.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19",
@@ -49159,7 +49159,7 @@
       "faithfulness under pressure",
       "God's deliverance"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "meshach.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19",
@@ -49182,7 +49182,7 @@
       "faithfulness under pressure",
       "God's deliverance"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "abed-nego.png",
     "gender": "male",
     "first_reference": "Daniel 1:6-19",
@@ -49205,7 +49205,7 @@
       "wisdom under pressure",
       "divine revelation"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Daniel 2:14-25"
   },
   {
@@ -49227,7 +49227,7 @@
       "judgment",
       "the writing on the wall"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "belshazzar.png",
     "gender": "male",
     "first_reference": "Daniel 5:1-30"
@@ -49248,7 +49248,7 @@
       "prophecy explained",
       "the announcement of Christ's birth"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gabriel.png",
     "first_reference": "Daniel 8:16"
   },
@@ -49283,7 +49283,7 @@
       "protection of God's people",
       "angelic conflict"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "michael-9.png",
     "first_reference": "Daniel 10:13-21"
   },
@@ -49314,7 +49314,7 @@
       "redeeming love",
       "covenant"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "hosea.png",
     "timeline": {
       "precision": "era",
@@ -49381,7 +49381,7 @@
       "unfaithfulness and redemption",
       "marriage"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Hosea 1:3"
   },
   {
@@ -49419,7 +49419,7 @@
       "judgment on Israel",
       "Hosea's family"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Hosea 1:4",
     "spotlight_eligible": false
   },
@@ -49444,7 +49444,7 @@
       "withheld compassion",
       "symbolic naming"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Hosea 1:6-8"
   },
   {
@@ -49468,7 +49468,7 @@
       "covenant rejection",
       "symbolic naming"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Hosea 1:9"
   },
   {
@@ -49497,7 +49497,7 @@
       "repentance",
       "outpouring of the Spirit"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "joel-11.png",
     "timeline": {
       "precision": "era",
@@ -49543,7 +49543,7 @@
       "prophecy",
       "accountability"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "amos.png",
     "timeline": {
       "precision": "era",
@@ -49566,7 +49566,7 @@
       "justice",
       "family betrayal"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "obadiah-12.png",
     "timeline": {
       "precision": "era",
@@ -49588,7 +49588,7 @@
       "God's justice",
       "comfort for the oppressed"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "nahum.png",
     "timeline": {
       "precision": "era",
@@ -49612,7 +49612,7 @@
       "trust in God",
       "honest questions"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "habakkuk.png",
     "timeline": {
       "precision": "era",
@@ -49635,7 +49635,7 @@
       "restoration",
       "God's joy"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "zephaniah-3.png",
     "timeline": {
       "precision": "era",
@@ -49749,7 +49749,7 @@
       "forgiveness and restoration",
       "messianic symbolism"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "first_reference": "Haggai 1:1-14",
     "tribe": "Levi",
     "image2": "images/portraits2/joshua-4.png"
@@ -49809,7 +49809,7 @@
       "the Branch",
       "returning exiles' generosity"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Zechariah 6:10-14"
   },
   {
@@ -49844,7 +49844,7 @@
       "post-exile temple",
       "gifts for God's house"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Zechariah 6:10-14"
   },
   {
@@ -49903,7 +49903,7 @@
       "seeking the LORD's favor",
       "post-exilic community"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Zechariah 7:2"
   },
   {
@@ -49925,7 +49925,7 @@
       "fasting",
       "post-exilic community"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Zechariah 7:2"
   },
   {
@@ -49941,7 +49941,7 @@
       "tithing",
       "coming messenger"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "malachi.png",
     "timeline": {
       "precision": "era",
@@ -50131,7 +50131,7 @@
       "quiet righteousness",
       "protection of the Christ child"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "joseph-6.png",
     "first_reference": "Matthew 1:16-24",
     "tribe": "Judah"
@@ -50166,7 +50166,7 @@
       "motherhood",
       "the cross"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "mary.png",
     "first_reference": "Matthew 1:16-24",
     "tribe": "Judah"
@@ -50188,7 +50188,7 @@
       "political power and fear",
       "fulfillment of prophecy"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "herod.png",
     "genealogy": {
       "children": [
@@ -50218,7 +50218,7 @@
       "God's providence",
       "Herodian rule"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Matthew 2:22"
   },
   {
@@ -50269,7 +50269,7 @@
       "bringing others to Jesus",
       "apostleship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "andrew.png",
     "first_reference": "Matthew 4:18"
   },
@@ -50294,7 +50294,7 @@
       "martyrdom",
       "costly discipleship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "james.png",
     "first_reference": "Matthew 4:21"
   },
@@ -50338,7 +50338,7 @@
       "early church leadership",
       "apostolic writing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "john-2.png",
     "first_reference": "Matthew 4:21"
   },
@@ -50360,7 +50360,7 @@
       "repentance",
       "apostleship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "matthew.png",
     "first_reference": "Matthew 9:9"
   },
@@ -50394,7 +50394,7 @@
       "bringing others to Jesus",
       "slow-to-understand faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "philip.png",
     "first_reference": "Matthew 10:3"
   },
@@ -50416,7 +50416,7 @@
       "recognition of the Messiah",
       "apostleship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nathanael.png",
     "first_reference": "Matthew 10:3"
   },
@@ -50439,7 +50439,7 @@
       "the resurrection",
       "Christ's deity"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "thomas.png"
   },
   {
@@ -50499,7 +50499,7 @@
       "question at the last supper",
       "God's self-revelation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Matthew 10:3",
     "image2": "images/portraits2/judas.png"
   },
@@ -50541,7 +50541,7 @@
       "remorse without repentance",
       "the twelve apostles"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "judas-2.png",
     "first_reference": "Matthew 10:4"
   },
@@ -50566,7 +50566,7 @@
       "epistle author",
       "family of Jesus"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "james-3.png",
     "first_reference": "Matthew 13:55",
     "tribe": "Judah"
@@ -50631,7 +50631,7 @@
       "epistle author",
       "contending for the faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Matthew 13:55",
     "tribe": "Judah",
     "image2": "images/portraits2/judas-3.png"
@@ -50650,7 +50650,7 @@
       "moral weakness under pressure",
       "mockery of Christ"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "herod-2.png",
     "timeline": {
       "precision": "era"
@@ -50672,7 +50672,7 @@
       "manipulation for revenge",
       "complicity in murder"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "herodias.png",
     "timeline": {
       "precision": "era"
@@ -50722,7 +50722,7 @@
       "taxation",
       "Jesus's trial"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "caesar.png",
     "first_reference": "Matthew 22:17-21"
   },
@@ -50742,7 +50742,7 @@
       "the high priesthood",
       "unwitting prophecy"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "caiaphas.png",
     "first_reference": "Matthew 26:3-57"
   },
@@ -50778,7 +50778,7 @@
       "political expediency",
       "moral compromise"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "pilate.png",
     "first_reference": "Matthew 27:2-65"
   },
@@ -50797,7 +50797,7 @@
       "substitution",
       "the innocent for the guilty"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "barabbas.png",
     "gender": "male",
     "first_reference": "Matthew 27:16-26"
@@ -50817,7 +50817,7 @@
       "unexpected calling",
       "bearing the cross"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simon-3.png",
     "gender": "male",
     "disambiguation": "father of Alexander (Matt 27:32)",
@@ -50848,7 +50848,7 @@
       "faithful presence at the cross",
       "resurrection witness"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "mary-magdalene.png",
     "gender": "female",
     "first_reference": "Matthew 27:56-61"
@@ -50869,7 +50869,7 @@
       "quiet discipleship",
       "burial of Christ"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "joseph-7.png",
     "gender": "male",
     "disambiguation": "(Matt 27:57-59)",
@@ -50891,7 +50891,7 @@
       "Jesus' authority over evil",
       "restoration"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Mark 5:9",
     "spotlight_eligible": false
   },
@@ -50908,7 +50908,7 @@
       "persistence despite delay",
       "resurrection power"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "jairus.png",
     "timeline": {
       "precision": "era"
@@ -50956,7 +50956,7 @@
       "persistent faith",
       "healing"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "images/portraits2/bartimaeus.png",
     "gender": "male",
     "first_reference": "Mark 10:46"
@@ -51017,7 +51017,7 @@
       "personal commendation",
       "family faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "rufus.png",
     "first_reference": "Mark 15:21"
   },
@@ -51038,7 +51038,7 @@
       "witness to the empty tomb",
       "quiet faithfulness"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "salome.png",
     "first_reference": "Mark 15:40"
   },
@@ -51070,7 +51070,7 @@
       "doubt met with discipline",
       "praise after silence"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "zacharias.png",
     "timeline": {
       "precision": "era"
@@ -51101,7 +51101,7 @@
       "recognizing the Messiah before birth",
       "kinship with Mary"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "elizabeth.png",
     "timeline": {
       "precision": "era"
@@ -51135,7 +51135,7 @@
       "providence",
       "fulfilled prophecy"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "caesar-augustus.png",
     "first_reference": "Luke 2:1"
   },
@@ -51165,7 +51165,7 @@
       "recognizing the Messiah",
       "prophecy of sorrow and salvation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simeon-2.png",
     "timeline": {
       "precision": "era"
@@ -51187,7 +51187,7 @@
       "prayer and fasting",
       "proclaiming the Messiah"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "anna.png",
     "timeline": {
       "precision": "era"
@@ -51247,7 +51247,7 @@
       "religious authority",
       "opposition to the apostles"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "annas.png",
     "first_reference": "Luke 3:2"
   },
@@ -51944,7 +51944,7 @@
       "forgiveness",
       "parable of two debtors"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simon-4.png",
     "first_reference": "Luke 7:40-44"
   },
@@ -51969,7 +51969,7 @@
       "witness to the resurrection",
       "women disciples"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "joanna.png",
     "first_reference": "Luke 8:3"
   },
@@ -52020,7 +52020,7 @@
       "faith in grief",
       "priorities"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "martha.png",
     "gender": "female",
     "first_reference": "Luke 10:38-41"
@@ -52041,7 +52041,7 @@
       "worship",
       "sitting at Jesus's feet"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "mary-2.png",
     "gender": "female",
     "disambiguation": "(Luke 10:39-42)",
@@ -52063,7 +52063,7 @@
       "eternal destiny",
       "the sufficiency of God's word"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "lazarus.png",
     "gender": "male",
     "disambiguation": "(Luke 16:20-25)",
@@ -52085,7 +52085,7 @@
       "grace for outsiders",
       "restitution"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "zaccheus.png",
     "gender": "male",
     "first_reference": "Luke 19:2-8"
@@ -52106,7 +52106,7 @@
       "recognizing Christ",
       "resurrection appearances"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Luke 24:18"
   },
@@ -52147,7 +52147,7 @@
       "gradual faith",
       "courage growing over time"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nicodemus.png",
     "gender": "male",
     "first_reference": "John 3:1-9"
@@ -52189,7 +52189,7 @@
       "friendship with Jesus",
       "grief and faith"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "lazarus-2.png",
     "first_reference": "John 11:1-43"
   },
@@ -52209,7 +52209,7 @@
       "Jesus's restraint",
       "mercy toward an enemy"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "John 18:10"
   },
@@ -52264,7 +52264,7 @@
       "willingness to serve without being chosen",
       "faithful discipleship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "joseph-10.png",
     "timeline": {
       "precision": "era"
@@ -52285,7 +52285,7 @@
       "God's choice by lot",
       "faithful witness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "matthias.png",
     "timeline": {
       "precision": "era"
@@ -52339,7 +52339,7 @@
       "generosity",
       "second chances"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "barnabas.png",
     "gender": "male",
     "first_reference": "Acts 4:36",
@@ -52366,7 +52366,7 @@
       "judgment",
       "the seriousness of lying to God"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "images/portraits2/ananias.png",
     "gender": "male",
     "disambiguation": "husband of Sapphira (Acts 5:1-5)",
@@ -52393,7 +52393,7 @@
       "judgment",
       "the seriousness of lying to God"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "images/portraits2/sapphira.png",
     "gender": "female",
     "first_reference": "Acts 5:1"
@@ -52414,7 +52414,7 @@
       "discernment",
       "restraint"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gamaliel-2.png",
     "gender": "male",
     "disambiguation": "(Acts 5:34)",
@@ -52449,7 +52449,7 @@
       "failed rebellion",
       "God's sovereignty over movements"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 5:37"
   },
   {
@@ -52468,7 +52468,7 @@
       "courage",
       "forgiveness of enemies"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "stephen.png",
     "gender": "male",
     "first_reference": "Acts 6:5-9"
@@ -52489,7 +52489,7 @@
       "obedience to the Spirit's leading",
       "crossing boundaries"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "philip-3.png",
     "gender": "male",
     "disambiguation": "(Acts 6:5)",
@@ -52511,7 +52511,7 @@
       "meeting practical needs",
       "one of the Seven"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "prochorus.png",
     "first_reference": "Acts 6:5",
     "spotlight_eligible": false
@@ -52532,7 +52532,7 @@
       "care for widows",
       "Hellenistic Jews"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nicanor.png",
     "first_reference": "Acts 6:5"
   },
@@ -52565,7 +52565,7 @@
       "ministry to widows",
       "the Seven"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "parmenas.png",
     "first_reference": "Acts 6:5",
     "spotlight_eligible": false
@@ -52586,7 +52586,7 @@
       "Gentile convert",
       "care for widows"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "nicolas.png",
     "first_reference": "Acts 6:5"
   },
@@ -52606,7 +52606,7 @@
       "money and spiritual power",
       "false conversion"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simon-5.png",
     "gender": "male",
     "disambiguation": "(Acts 8:9-24)",
@@ -52641,7 +52641,7 @@
       "Ethiopian eunuch's conversion",
       "royal court"
     ],
-    "image": "generic-queen.png",
+    "image": "generic-queen.jpg",
     "first_reference": "Acts 8:27",
     "spotlight_eligible": false
   },
@@ -52661,7 +52661,7 @@
       "restoration",
       "God's surprising choices"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "images/portraits2/ananias-2.png",
     "gender": "male",
     "disambiguation": "(Acts 9:10-17)",
@@ -52698,7 +52698,7 @@
       "early church",
       "Peter's ministry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 9:33-34"
   },
   {
@@ -52719,7 +52719,7 @@
       "resurrection power",
       "a life devoted to good works"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "tabitha.png",
     "gender": "female",
     "first_reference": "Acts 9:36-40"
@@ -52742,7 +52742,7 @@
       "an ordinary trade and an extraordinary vision",
       "God's plan for the Gentiles"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "simon-6.png"
   },
   {
@@ -52761,7 +52761,7 @@
       "devout seeking",
       "God's impartiality"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "images/portraits2/cornelius.png",
     "gender": "male",
     "first_reference": "Acts 10:1-31"
@@ -52779,7 +52779,7 @@
       "acted-out prophecy",
       "preparing believers for hardship"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -52802,7 +52802,7 @@
       "Roman imperial history",
       "background to the early church"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "Acts 11:28",
     "image2": "images/portraits2/claudius.png"
   },
@@ -52823,7 +52823,7 @@
       "divine judgment",
       "God's sovereignty over rulers"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "herod-3.png",
     "first_reference": "Acts 12:1-21"
   },
@@ -52840,7 +52840,7 @@
       "a house of prayer",
       "faithful behind the scenes"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "mary-4.png",
     "timeline": {
       "precision": "era"
@@ -52874,7 +52874,7 @@
       "failure and restoration",
       "usefulness after setback"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "mark.png",
     "gender": "male",
     "first_reference": "Acts 12:12-25"
@@ -52892,7 +52892,7 @@
       "answered prayer",
       "a servant's memorable moment"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "rhoda.png",
     "timeline": {
       "precision": "era"
@@ -52915,7 +52915,7 @@
       "court politics",
       "divine judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 12:20",
     "spotlight_eligible": false
   },
@@ -52965,7 +52965,7 @@
       "early church leadership",
       "prophets and teachers"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "manaen.png",
     "first_reference": "Acts 13:1"
   },
@@ -52987,7 +52987,7 @@
       "opposition to the gospel",
       "spiritual blindness as judgment"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "Acts 13:6-8"
   },
@@ -53008,7 +53008,7 @@
       "opposition from a sorcerer",
       "power encounter"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 13:7"
   },
   {
@@ -53030,7 +53030,7 @@
       "prophetic ministry",
       "encouragement"
     ],
-    "image": "generic-prophet.png",
+    "image": "generic-prophet.jpg",
     "image2": "judas-5.png",
     "first_reference": "Acts 15:22-32",
     "spotlight_eligible": false
@@ -53053,7 +53053,7 @@
       "suffering for the gospel",
       "faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "silas.png",
     "gender": "male",
     "first_reference": "Acts 15:22-40"
@@ -53077,7 +53077,7 @@
       "youthful ministry",
       "faithful example"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "timothy.png",
     "gender": "male",
     "first_reference": "Acts 16:1"
@@ -53098,7 +53098,7 @@
       "hospitality",
       "the gospel opening hearts"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "lydia.png",
     "gender": "female",
     "first_reference": "Acts 16:14-40"
@@ -53119,7 +53119,7 @@
       "costly hospitality",
       "false accusation"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "jason.png",
     "first_reference": "Acts 17:5-9"
   },
@@ -53140,7 +53140,7 @@
       "conversion",
       "response to the gospel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "dionysius.png",
     "first_reference": "Acts 17:34",
     "spotlight_eligible": false
@@ -53160,7 +53160,7 @@
       "conversion",
       "response to the gospel in Athens"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "damaris.png",
     "first_reference": "Acts 17:34"
   },
@@ -53185,7 +53185,7 @@
       "teaching",
       "hospitality"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "aquila.png",
     "gender": "male",
     "first_reference": "Acts 18:2-26"
@@ -53213,7 +53213,7 @@
       "teaching",
       "hospitality"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "priscilla.png",
     "gender": "female",
     "first_reference": "Acts 18:2-26"
@@ -53244,7 +53244,7 @@
       "influence on a household",
       "baptism"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "crispus.png",
     "timeline": {
       "precision": "era"
@@ -53268,7 +53268,7 @@
       "Paul's trials",
       "protection through indifference"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gallio.png",
     "first_reference": "Acts 18:12-17"
   },
@@ -53288,7 +53288,7 @@
       "teachability",
       "avoiding factionalism"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "apollos.png",
     "gender": "male",
     "first_reference": "Acts 18:24"
@@ -53335,7 +53335,7 @@
       "missionary support",
       "Paul's ministry team"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "erastus.png",
     "first_reference": "Acts 19:22",
     "spotlight_eligible": false
@@ -53356,7 +53356,7 @@
       "opposition to the gospel",
       "idolatry and profit"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "demetrius.png",
     "first_reference": "Acts 19:24-38"
   },
@@ -53373,7 +53373,7 @@
       "baptism",
       "supporting the whole church"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gaius.png",
     "timeline": {
       "precision": "era"
@@ -53397,7 +53397,7 @@
       "companionship in ministry",
       "suffering with Paul"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "aristarchus.png",
     "first_reference": "Acts 19:29"
   },
@@ -53420,7 +53420,7 @@
       "early church controversy",
       "the riot at Ephesus"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 19:33"
   },
   {
@@ -53497,7 +53497,7 @@
       "faithful service",
       "encouraging the churches"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "tychicus.png",
     "timeline": {
       "precision": "era"
@@ -53518,7 +53518,7 @@
       "unjust accusation",
       "left in sickness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "trophimus.png",
     "timeline": {
       "precision": "era"
@@ -53541,7 +53541,7 @@
       "God's power over death",
       "a memorable mishap"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "eutychus.png",
     "gender": "male",
     "first_reference": "Acts 20:9"
@@ -53561,7 +53561,7 @@
       "hospitality",
       "early conversion"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Acts 21:16",
     "spotlight_eligible": false
   },
@@ -53581,7 +53581,7 @@
       "abuse of religious authority",
       "Paul's trials"
     ],
-    "image": "generic-priest.png",
+    "image": "generic-priest.jpg",
     "image2": "ananias-3.png",
     "first_reference": "Acts 23:2"
   },
@@ -53601,7 +53601,7 @@
       "delayed decision",
       "corruption"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "images/portraits2/felix.png",
     "gender": "male",
     "first_reference": "Acts 23:24-26",
@@ -53629,7 +53629,7 @@
       "protecting the innocent",
       "providence"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "image2": "lysias.png",
     "first_reference": "Acts 23:26"
   },
@@ -53662,7 +53662,7 @@
       "hearing the gospel",
       "power and delay"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Acts 24:24",
     "spotlight_eligible": false
   },
@@ -53683,7 +53683,7 @@
       "political expediency",
       "fair-minded skepticism"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "images/portraits2/festus.png",
     "gender": "male",
     "first_reference": "Acts 24:27"
@@ -53705,7 +53705,7 @@
       "Paul's appeal",
       "gospel reaching Rome"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "caesar-2.png",
     "first_reference": "Acts 25:8-25"
   },
@@ -53724,7 +53724,7 @@
       "near-persuasion",
       "hearing the gospel and hesitating"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "image2": "images/portraits2/agrippa.png",
     "gender": "male",
     "first_reference": "Acts 25:13-26"
@@ -53744,7 +53744,7 @@
       "proximity to the gospel",
       "royal spectacle"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "bernice.png",
     "gender": "female",
     "first_reference": "Acts 25:13-23"
@@ -53765,7 +53765,7 @@
       "kindness to a prisoner",
       "Paul's voyage to Rome"
     ],
-    "image": "generic-warrior.png",
+    "image": "generic-warrior.jpg",
     "first_reference": "Acts 27:1-3"
   },
   {
@@ -53780,7 +53780,7 @@
       "hospitality to the shipwrecked",
       "healing power extended through kindness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -53800,7 +53800,7 @@
       "carrying Scripture to the church",
       "commended leadership"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "phoebe.png",
     "timeline": {
       "precision": "era"
@@ -53823,7 +53823,7 @@
       "first convert",
       "early church"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "epanetus.png",
     "first_reference": "Romans 16:5",
     "spotlight_eligible": false
@@ -53844,7 +53844,7 @@
       "hard work for the church",
       "women in the early church"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "mary-5.png",
     "first_reference": "Romans 16:6",
     "spotlight_eligible": false
@@ -53862,7 +53862,7 @@
       "kinship with Paul",
       "recognition among the apostles"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "andronicus.png",
     "timeline": {
       "precision": "era"
@@ -53885,7 +53885,7 @@
       "kinship with Paul",
       "recognition among the apostles"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "junias.png",
     "timeline": {
       "precision": "era"
@@ -54025,7 +54025,7 @@
       "faithful service",
       "women in the early church"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "persis.png",
     "first_reference": "Romans 16:12",
     "spotlight_eligible": false
@@ -54185,7 +54185,7 @@
       "faithful behind-the-scenes service",
       "scribal ministry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "tertius.png",
     "timeline": {
       "precision": "era"
@@ -54208,7 +54208,7 @@
       "faithful service",
       "using position for the gospel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "erastus-2.png",
     "gender": "male",
     "disambiguation": "(Rom 16:23)",
@@ -54242,7 +54242,7 @@
       "reporting church conflict",
       "a woman of standing in the early church"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "chloe.png",
     "first_reference": "1 Corinthians 1:11"
   },
@@ -54276,7 +54276,7 @@
       "encouragement",
       "supplying a need"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "forunatus.png",
     "first_reference": "1 Corinthians 16:17",
     "spotlight_eligible": false
@@ -54296,7 +54296,7 @@
       "refreshing fellow believers",
       "faithful service"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "achaicus.png",
     "first_reference": "1 Corinthians 16:17",
     "spotlight_eligible": false
@@ -54317,7 +54317,7 @@
       "church organization",
       "trustworthy leadership"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "titus.png",
     "gender": "male",
     "first_reference": "2 Corinthians 2:13"
@@ -54338,7 +54338,7 @@
       "deliverance",
       "boasting in weakness"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "first_reference": "2 Corinthians 11:32",
     "spotlight_eligible": false
   },
@@ -54358,7 +54358,7 @@
       "intercessory prayer",
       "imprisonment for the gospel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "epaphras.png",
     "first_reference": "Colossians 1:7"
   },
@@ -54378,7 +54378,7 @@
       "unity",
       "women in ministry"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "euodia.png",
     "first_reference": "Philippians 4:2"
   },
@@ -54420,7 +54420,7 @@
       "reconciliation",
       "the gospel transforming slavery"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "onesimus.png",
     "timeline": {
       "precision": "era",
@@ -54446,7 +54446,7 @@
       "faithful companionship",
       "encouragement in ministry"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Colossians 4:11"
   },
   {
@@ -54465,7 +54465,7 @@
       "physician",
       "gospel authorship"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "luke.png",
     "first_reference": "Colossians 4:14"
   },
@@ -54484,7 +54484,7 @@
       "falling away",
       "love of the world"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "demas.png",
     "gender": "male",
     "first_reference": "Colossians 4:14"
@@ -54505,7 +54505,7 @@
       "hospitality",
       "early church in the Lycus Valley"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "nympha.png",
     "first_reference": "Colossians 4:15"
   },
@@ -54525,7 +54525,7 @@
       "exhortation",
       "perseverance"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "archippus.png",
     "first_reference": "Colossians 4:17",
     "spotlight_eligible": false
@@ -54542,7 +54542,7 @@
       "shipwrecked faith",
       "danger of doctrinal drift"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "hymenaeus.png",
     "timeline": {
       "precision": "era"
@@ -54562,7 +54562,7 @@
       "personal harm done to a minister",
       "God as the ultimate judge"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -54586,7 +54586,7 @@
       "spiritual legacy",
       "family faithfulness"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "lois.png",
     "first_reference": "2 Timothy 1:5",
     "spotlight_eligible": false
@@ -54608,7 +54608,7 @@
       "spiritual legacy",
       "motherhood"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "image2": "eunice.png",
     "genealogy": {
       "children": [
@@ -54634,7 +54634,7 @@
       "fear of association with a prisoner",
       "contrast with faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Timothy 1:15",
     "spotlight_eligible": false
   },
@@ -54655,7 +54655,7 @@
       "abandonment of Paul",
       "cost of association with the gospel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Timothy 1:15"
   },
   {
@@ -54670,7 +54670,7 @@
       "unashamed loyalty",
       "diligent searching"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "onesiphorus.png",
     "timeline": {
       "precision": "era"
@@ -54689,7 +54689,7 @@
       "false teaching",
       "danger of doctrinal drift"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "philetus.png",
     "timeline": {
       "precision": "era"
@@ -54713,7 +54713,7 @@
       "false wisdom exposed",
       "Egypt's magicians"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Timothy 3:8-9",
     "spotlight_eligible": false
   },
@@ -54734,7 +54734,7 @@
       "false wisdom exposed",
       "Egypt's magicians"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "2 Timothy 3:8-9"
   },
   {
@@ -54844,7 +54844,7 @@
       "Christian brotherhood",
       "forgiveness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "philemon.png",
     "gender": "male",
     "first_reference": "Philemon 1:1"
@@ -54879,7 +54879,7 @@
       "pride",
       "rejecting godly correction"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "gender": "male",
     "first_reference": "3 John 1:9"
   },
@@ -54895,7 +54895,7 @@
       "good testimony",
       "commended character"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -54918,7 +54918,7 @@
       "martyrdom",
       "faithful witness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "antipas.png",
     "first_reference": "Revelation 2:13",
     "spotlight_eligible": false
@@ -54941,7 +54941,7 @@
       "church discipline",
       "call to repentance"
     ],
-    "image": "generic-woman.png",
+    "image": "generic-woman.jpg",
     "first_reference": "Revelation 2:20"
   },
   {
@@ -54962,7 +54962,7 @@
       "the abyss",
       "destruction"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "first_reference": "Revelation 9:11",
     "spotlight_eligible": false
   },
@@ -55060,7 +55060,7 @@
       "sacrificial service",
       "risking one's life for the gospel"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "epaphroditus.png",
     "first_reference": "Philippians 2:25-30"
   },
@@ -55078,7 +55078,7 @@
       "political survival through tribute",
       "cycle of violence"
     ],
-    "image": "generic-king.png",
+    "image": "generic-king.jpg",
     "timeline": {
       "precision": "era"
     },
@@ -55101,7 +55101,7 @@
       "being used for another's agenda",
       "complicity through obedience"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "salome-2.png",
     "timeline": {
       "precision": "era"
@@ -55125,7 +55125,7 @@
       "possible conversion",
       "co-laboring with Paul"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "sosthenes.png",
     "timeline": {
       "precision": "era"
@@ -55144,7 +55144,7 @@
       "supporting traveling ministers",
       "commended faithfulness"
     ],
-    "image": "generic-figure.png",
+    "image": "generic-figure.jpg",
     "image2": "gaius-3.png",
     "timeline": {
       "precision": "era"

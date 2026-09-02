@@ -30,10 +30,10 @@
   "adult_story": "After Othniel's death, Israel again did evil, and God strengthened Eglon, king of Moab, to oppress Israel for eighteen years (Judges 3:12-14). When Israel cried out, God raised up Ehud, a Benjamite notable for being left-handed. Ehud made himself a short, double-edged sword, strapped it to his right thigh where a guard's search would not expect it, and brought Eglon Israel's tribute payment (3:15-18). Sending his attendants away, Ehud told the king he had a secret message from God, and when Eglon rose from his seat, Ehud struck the message home with the blade, killing him, then locked the doors and escaped before the body was discovered (3:19-25). Scripture narrates the act without flinching from its violence -- this is a wartime assassination of an oppressor, told the way an ancient Israelite audience would have heard it, as God's justice breaking a tyrant's grip. Ehud then rallied Israelite fighters at the hill country of Ephraim, seized the fords of the Jordan, and cut off Moab's retreat, killing about ten thousand men and subduing Moab under Israel (3:26-30). The land had rest for eighty years, the longest period of peace recorded in Judges, tracing directly back to God raising up an unlikely deliverer whom no one would have expected to save the nation.",
   "image2": "ehud.png",
   "image": {
-    "file": "generic-warrior.png",
+    "file": "generic-warrior.jpg",
     "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet and carrying a sword and round shield.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for warriors -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "gera-2",

@@ -54,10 +54,10 @@
   "adult_story": "This Pharaoh took the throne after his predecessor's death (Exodus 2:23) and became the central figure God worked through to redeem Israel from slavery. When Moses and Aaron demanded, \"Let My people go,\" Pharaoh refused and increased Israel's labor instead (Exodus 5:1-9). Ten plagues followed -- blood, frogs, gnats, flies, livestock death, boils, hail, locusts, darkness, and finally the death of every Egyptian firstborn -- as Pharaoh repeatedly refused Moses' demand, sometimes offering partial concessions before reneging (chapters 7-10). Scripture says both that Pharaoh hardened his own heart and that the LORD hardened it (8:15; 9:12), a tension the text states without resolving. After the tenth plague killed his own son along with every firstborn in Egypt, a broken Pharaoh finally drove Israel out in the night (12:29-33). He then changed his mind, pursued Israel with chariots, and trapped them at the Red Sea -- only to watch the sea part for Israel and then collapse over his own army, destroying it completely (14:5-28). Later Scripture returns to this Pharaoh repeatedly as the paradigm case of God's power over the proudest earthly ruler: God raised him up \"to demonstrate My power in you, and that My name might be proclaimed throughout the whole earth\" (9:16, quoted in Romans 9:17), and Israel's exodus from under his hand became its defining story of redemption, recalled for generations (Deuteronomy 6:21-22; Psalm 136:15).",
   "image2": "pharaoh-4.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: king figure with crown and royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

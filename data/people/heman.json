@@ -23,10 +23,10 @@
   "family_friendly_summary": "Heman was known in Israel as a very wise man. The Bible tells us about him only briefly, comparing him to King Solomon: it says that Solomon's wisdom was even greater than the wisdom of Heman and a few other famous wise men of the time. That's a high compliment to Heman, since Solomon was famous for being one of the wisest people who ever lived. Some readers think Heman might be the same person credited with writing Psalm 88, though the Bible doesn't say for certain. Even in just one verse, Heman's name became a way of describing what real wisdom looked like.",
   "adult_story": "Heman appears in Scripture almost entirely by comparison. Listing Solomon's God-given wisdom, 1 Kings 4:29-31 says that Solomon \"was wiser than all men, than Ethan the Ezrahite, Heman, Calcol and Darda, the sons of Mahol\" -- naming Heman among a small group of sages evidently famous enough in Israel's collective memory that comparing Solomon favorably to them meant something to the original audience. 1 Chronicles 2:6 places Heman among the \"sons of Zerah\" of the tribe of Judah, alongside Ethan, Calcol, and Dara (spelling varies slightly between the two lists). Beyond this genealogical and comparative notice, nothing about Heman's own words, deeds, or circumstances is recorded. He is sometimes identified with \"Heman the Ezrahite,\" credited in the title of Psalm 88 -- one of the bleakest psalms in the Psalter, a lament that ends without resolution -- since \"Ezrahite\" traditionally denotes descent from Zerah, matching this Heman's lineage. But a Levitical musician also named Heman, David's chief singer, held a comparably prominent place in Israel's worship (1 Chronicles 6:33; 25:5), and some assign the psalm to him instead. Scripture itself never settles which Heman, if either, is the Ezrahite of Psalm 88's title; what remains certain is only that this Heman's name stood, in Solomon's era, as shorthand for wisdom worth being compared to.",
   "image": {
-    "file": "generic-figure.png",
+    "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "zerah-3",

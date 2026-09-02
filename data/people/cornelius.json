@@ -28,10 +28,10 @@
   "adult_story": "Cornelius was a Roman centurion stationed at Caesarea, \"a devout man and one who feared God with all his household, and gave many alms to the Jewish people and prayed to God continually\" (Acts 10:1-2). An angel appeared to him in a vision, telling him his prayers and alms had \"ascended as a memorial before God,\" and instructing him to send for Simon Peter, staying in Joppa (10:3-6). While Cornelius's messengers were en route, God prepared Peter with a separate vision of a sheet lowered from heaven containing all kinds of animals, with a voice commanding him to eat what Jewish law had always classified as unclean; Peter refused three times, until the voice told him, \"what God has cleansed, no longer consider unholy\" (10:9-16). Peter understood the vision's real meaning only once he arrived at Cornelius's house: \"God has shown me that I should not call any man unholy or unclean\" -- the vision was never really about food, but about people (10:28, 34-35). As Peter preached Christ to Cornelius's assembled household, \"the Holy Spirit fell upon all those who were listening to the message,\" astonishing the Jewish believers who had come with Peter, since Gentiles were now visibly receiving the same Spirit Jewish believers had received at Pentecost (10:44-46). Peter had them baptized, and the event became the decisive precedent cited later at the Jerusalem council for the full inclusion of Gentiles in the church without requiring circumcision (10:47-48; 15:7-9).",
   "image2": "cornelius.png",
   "image": {
-    "file": "generic-warrior.png",
+    "file": "generic-warrior.jpg",
     "prompt_used": "Generic role icon, not person-specific: figure wearing a helmet and carrying a sword and round shield.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for warriors -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

@@ -30,10 +30,10 @@
   "family_friendly_summary": "Malchi-shua was one of King Saul's sons and a brother of Jonathan, David's close friend. During a big battle against the Philistines on Mount Gilboa, the army of Israel was defeated. Malchi-shua was killed in that battle, along with his brothers Jonathan and Abinadab, and their father King Saul also died that same day. It was a sad and difficult day for Israel, marking the end of Saul's family ruling as king. Malchi-shua's story reminds us that the Bible is honest about hard and sorrowful events, not just victories, and that God's plan for Israel's true king would move forward through David instead.",
   "adult_story": "Malchi-shua was one of the sons of King Saul, listed among his children in 1 Samuel 14:49 alongside Jonathan, Ishvi, and his daughters Merab and Michal. Scripture gives no account of his life or character individually -- he appears by name only twice more, both times in the same terse, devastating sentence describing the battle of Mount Gilboa: \"the Philistines fought against Israel, and the men of Israel fled from before the Philistines and fell slain on Mount Gilboa. The Philistines overtook Saul and his sons, and the Philistines killed Jonathan, Abinadab, and Malchi-shua, the sons of Saul\" (1 Samuel 31:1-2; repeated in 1 Chronicles 10:1-2). Saul himself, badly wounded by archers and unwilling to be captured and mocked by the Philistines, fell on his own sword that same day (31:3-4). In a single battle, an entire generation of Saul's royal house was wiped out at once -- three sons dead alongside their father, the throne he had fought to hold and hoped to pass down effectively ended in one afternoon. Malchi-shua's only distinguishing feature in the text is the manner and company of his death: he died as a soldier and a prince, in the same battle, on the same mountain, as his father and brothers, in the catastrophic defeat that closed Saul's reign and opened the way, according to God's earlier word through Samuel, for David to become king over Israel.",
   "image": {
-    "file": "generic-warrior.png",
+    "file": "generic-warrior.jpg",
     "prompt_used": "Generic role icon, not person-specific: helmet, sword, and round shield.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for warriors -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for warriors -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "saul",

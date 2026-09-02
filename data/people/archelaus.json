@@ -28,10 +28,10 @@
   "family_friendly_summary": "After wicked King Herod died, his son Archelaus began ruling over Judea in his place. When Joseph heard this news, he was afraid to bring Mary and baby Jesus back to that region. So God warned Joseph in a dream, and Joseph took his family to live in Galilee instead, in a town called Nazareth. This small decision fulfilled what God's prophets had said long before -- that the Messiah would be called a Nazarene. Archelaus doesn't do anything else in the Bible story; he's mentioned just this one time. But his rule was part of how God guided Joseph's family safely home, step by step, to exactly the place God had planned for Jesus to grow up.",
   "adult_story": "Archelaus was the son of Herod the Great, named in his father's will to succeed him, though Rome only ever confirmed him as ethnarch of Judea, Samaria, and Idumea rather than granting the full title of king his father had held. Matthew's Gospel names him just once: after Joseph brought Mary and the child Jesus back from Egypt following Herod's death, \"he heard that Archelaus was reigning over Judea in place of his father Herod, he was afraid to go there; and being warned by God in a dream, he left for the regions of Galilee\" (Matthew 2:22). Joseph's fear was well founded -- ancient historians record that Archelaus began his rule with a massacre in the Jerusalem temple and governed so brutally that Rome deposed and exiled him within a decade, a reputation Matthew's original readers would likely have recognized. Guided again by a dream, Joseph settled instead in Nazareth of Galilee, a move Matthew notes fulfilled the prophetic expectation that the Messiah would be called a Nazarene (2:23). Archelaus takes no direct action toward Jesus in the text; his significance is entirely as the danger Joseph's family had to route around. His brief, ominous appearance marks one more way that from infancy, Jesus's path unfolded under the shadow of hostile political power -- and one more way God's providence steered the holy family safely through it.",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "herod",

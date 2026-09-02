@@ -34,10 +34,10 @@
   "adult_story": "Matthias is introduced only at the moment the apostles, gathered in Jerusalem after Jesus' ascension, decided a replacement was needed for Judas Iscariot, who had betrayed Jesus and afterward died (Acts 1:15-20). Peter set out the necessary qualification clearly: it had to be one of the men who had accompanied the apostles the entire time the Lord Jesus was among them, beginning from John's baptism until the day of His ascension, so that this man could become 'a witness with us of His resurrection' (1:21-22) -- meaning Matthias had been a follower of Jesus from the very start of His public ministry, even though the Gospels never mention him by name directly. Two candidates who met this qualification were put forward: Joseph called Barsabbas (also known as Justus) and Matthias (1:23). The gathered believers prayed, addressing God as one who 'knows the hearts of all men,' and asked Him to show which of the two He had chosen to take the apostolic ministry from which Judas had turned aside (1:24-25). They then cast lots, a traditional Israelite method of discerning God's choice, and the lot fell to Matthias, who 'was added to the eleven apostles' (1:26). Scripture records no further individual account of Matthias's subsequent ministry, but his selection completed the number of twelve apostles, restoring the symbolic completeness tied to the twelve tribes of Israel at the very outset of the church's public witness.",
   "image2": "matthias.png",
   "image": {
-    "file": "generic-figure.png",
+    "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,

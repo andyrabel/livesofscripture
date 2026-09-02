@@ -29,10 +29,10 @@
   "adult_story": "Herod Agrippa I, grandson of Herod the Great, is the persecuting king of Acts 12. Seeing that killing the apostle James, brother of John, pleased Jerusalem's Jewish leaders, he had James executed by the sword and then arrested Peter during the Feast of Unleavened Bread, intending a public trial after Passover (Acts 12:1-4). Peter was heavily guarded -- bound between two soldiers, chained, with sentries at the door -- yet the church prayed earnestly for him, and an angel of the Lord appeared in the cell, struck Peter awake, loosed his chains, and led him past the guards and through the city gate, which opened by itself (12:5-10). Herod, finding Peter gone, interrogated and executed the guards (12:18-19). Later, dressed in royal apparel and giving an address at Caesarea, Herod accepted the crowd's flattering shout that his voice was \"the voice of a god and not of a man\" without correcting them or giving glory to God; \"immediately an angel of the Lord struck him... and he was eaten by worms and died\" (12:20-23). Luke closes the episode with a stark contrast: \"the word of the Lord continued to grow and be multiplied\" (12:24) even as the persecuting king fell. Acts 23:35 later mentions Herod's palace at Caesarea, still standing, as the place Paul was kept under guard.",
   "image2": "herod-3.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

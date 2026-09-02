@@ -44,10 +44,10 @@
   "adult_story": "Jehoiachin, also called Jeconiah or Coniah, became king of Judah at eighteen when his father Jehoiakim died, but his reign lasted only three months and ten days (2 Kings 24:6-8; 2 Chronicles 36:9). Scripture judges him bluntly: \"he did evil in the sight of the LORD, according to all that his father had done\" (2 Kings 24:9). With Nebuchadnezzar's army besieging Jerusalem, Jehoiachin surrendered along with his mother, servants, officials, and officers (24:12). Nebuchadnezzar carried him off to Babylon, stripped the temple and palace treasuries, and deported ten thousand of Judah's leading citizens, craftsmen, and soldiers -- including Ezekiel -- leaving only the poorest people in the land (24:13-16). Jeremiah pronounced hard words over him: he would be recorded as childless in his generation, none of his offspring succeeding to David's throne (Jeremiah 22:24-30) -- fulfilled in that his line continued but never again reigned as king. Jehoiachin remained a prisoner in Babylon for thirty-seven years, until Evil-merodach, Nebuchadnezzar's successor, showed him unexpected favor: releasing him from prison, giving him new garments, a permanent place at the king's own table, and a regular allowance for the rest of his life (2 Kings 25:27-30). Matthew's genealogy still names him in the line leading to Christ (Matthew 1:11-12).",
   "image2": "jehoiachin.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed figure wearing a crown and holding a royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "jehoiakim",

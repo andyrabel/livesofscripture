@@ -36,10 +36,10 @@
   "adult_story": "Joseph was a Nazarene carpenter, legally descended from David (Matthew 1:16-20; Luke 3:23), betrothed to Mary. When he discovered she was pregnant before they had come together, he resolved to end the engagement quietly rather than expose her to public disgrace -- an honorable response given what he knew (Matthew 1:19). An angel then appeared to him in a dream, explaining the child was conceived by the Holy Spirit and instructing him to name the baby Jesus, \"for He will save His people from their sins\" (1:20-21). Joseph obeyed immediately, took Mary as his wife, and \"kept her a virgin until she gave birth\" (1:24-25). He traveled with her to Bethlehem for the census, where Jesus was born and laid in a manger, and Joseph was present when shepherds came to see the child (Luke 2:4-16). After the magi's visit, another dream warned him of Herod's murderous intent; Joseph fled with his family to Egypt by night, then later returned and settled in Nazareth once Herod was dead (Matthew 2:13-21). Scripture records no words spoken by Joseph -- only immediate, repeated obedience to divine instruction under real personal cost and danger. By the time of Jesus' public ministry Joseph is presumed dead, and neighbors still identified Jesus by his trade -- \"Is not this the carpenter's son?\" (John 6:42).",
   "image2": "joseph-6.png",
   "image": {
-    "file": "generic-figure.png",
+    "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "jacob",

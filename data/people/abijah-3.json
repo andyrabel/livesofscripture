@@ -47,10 +47,10 @@
     }
   ],
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: crown and royal staff on a plain robed silhouette figure.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "image2": "abijah-3.png",
   "genealogy": {

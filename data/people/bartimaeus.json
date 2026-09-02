@@ -27,10 +27,10 @@
   "adult_story": "Bartimaeus, whose name means \"son of Timaeus,\" was a blind beggar sitting by the roadside as Jesus left Jericho with a large crowd (Mark 10:46). Hearing that Jesus of Nazareth was passing, he began crying out, \"Jesus, Son of David, have mercy on me!\" -- a striking messianic title from a man who could not see, showing spiritual insight the sighted crowd lacked (10:47). Many in the crowd told him sharply to be quiet, but he only shouted louder, refusing to let the moment pass (10:48). Jesus stopped and called for him; Bartimaeus threw off his cloak -- likely his only real possession, spread out to collect coins -- and sprang up to come to Jesus (10:49-50). Jesus asked him directly, \"what do you want Me to do for you?\", the identical question He had just asked James and John when they requested positions of honor (10:36); Bartimaeus's request could not have been more different: \"Rabboni, I want to regain my sight!\" (10:51). Jesus healed him on the spot, telling him, \"go; your faith has made you well,\" and Bartimaeus, rather than simply returning to his old life, \"began following Him on the road\" toward Jerusalem and the cross (10:52). His story is a vivid picture of persistent, undeterred faith rewarded, and of true sight leading immediately to discipleship.",
   "image2": "bartimaeus.png",
   "image": {
-    "file": "generic-figure.png",
+    "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "timaeus",

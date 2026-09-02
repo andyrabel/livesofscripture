@@ -29,10 +29,10 @@
   "adult_story": "Herod the Great was ruling as king of Judea, under Rome's authority, when magi from the East arrived in Jerusalem asking, \"Where is He who has been born King of the Jews?\" (Matthew 2:1-2). Matthew records that Herod \"was troubled, and all Jerusalem with him\" (2:3) -- a paranoid ruler already infamous for executing rivals, including his own family, to protect his throne. He assembled the chief priests and scribes to learn the Messiah was prophesied to be born in Bethlehem, then secretly summoned the magi to learn the star's exact timing and sent them off under the pretense of wanting to worship the child, while actually intending to kill Him (2:4-8). Warned in a dream not to report back to Herod, the magi returned home another way; Joseph, likewise warned in a dream, fled with Mary and Jesus to Egypt (2:12-14). \"When Herod saw that he had been tricked... he sent and slew all the male children who were in Bethlehem and all its vicinity who were two years old and under\" (2:16) -- a massacre Matthew connects to Jeremiah's prophecy of Rachel weeping for her children (2:17-18). Herod died shortly afterward (2:19-20). Luke 1:5 places John the Baptist's birth announcement \"in the days of Herod, king of Judea,\" anchoring the Gospel's opening events within this same violent, fearful reign -- the earthly power structure into which the true King was born, and which moved immediately to try to destroy Him.",
   "image2": "herod.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: crown and royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

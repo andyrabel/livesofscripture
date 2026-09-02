@@ -28,10 +28,10 @@
   "adult_story": "Herod Agrippa II, a Jewish client-king under Rome with recognized expertise in Jewish customs and controversies, came with his sister Bernice to Caesarea to pay respects to the new governor Festus, who used the visit as an opportunity to have Paul present his case in front of someone who could actually help clarify the charges (Acts 25:13, 22-27). Given permission to speak for himself, Paul addressed Agrippa directly and personally, recounting his zealous life as a Pharisee, his former persecution of Christians, and his dramatic encounter with the risen Jesus on the road to Damascus that turned him from persecutor to preacher (26:1-18). Paul argued his message was nothing beyond what \"the Prophets and Moses said was going to take place\" -- that the Messiah would suffer and rise, and proclaim light to Jews and Gentiles alike (26:22-23). When Festus interrupted, calling Paul mad, Paul appealed directly to Agrippa's own knowledge, confident \"none of these things escape his notice,\" and then asked him pointedly, \"King Agrippa, do you believe the Prophets? I know that you believe\" (26:24-27). Agrippa's famous reply -- \"in a short time you will persuade me to become a Christian\" -- captures a moment of genuine, if incomplete, movement toward faith, close enough to feel the pull of Paul's testimony without crossing into commitment (26:28). Afterward, Agrippa told Festus privately that Paul had done nothing deserving death or imprisonment and \"could have been set free if he had not appealed to Caesar\" (26:31-32).",
   "image2": "agrippa.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

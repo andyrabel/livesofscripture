@@ -34,10 +34,10 @@
   ],
   "image2": "martha.png",
   "image": {
-    "file": "generic-woman.png",
+    "file": "generic-woman.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for women -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

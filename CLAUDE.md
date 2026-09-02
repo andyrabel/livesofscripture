@@ -475,32 +475,43 @@ for the current roster of person-specific icons.)
 full-tier ("major") person — anyone with enough narrative to get a story,
 not just a name in a list, including figures like Mephibosheth, Onesimus, or
 Goliath — must have an icon. Hand-authoring a unique symbolic prop per
-person doesn't scale, so seven shared generic icons exist in the same
-hand-drawn line-art style (`images/portraits/generic-king.svg/png`,
-`generic-queen.svg/png`, `generic-prophet.svg/png`, `generic-priest.svg/png`,
-`generic-warrior.svg/png`, `generic-figure.svg/png`, `generic-woman.svg/png`)
-and are reused across many people rather than duplicated per person:
-- **King** — crown + royal staff.
-- **Queen** — veil + royal circlet + royal staff (added 2026-08-01, for
-  female monarchs, e.g. Jezebel, Athaliah, Queen of Sheba).
-- **Prophet** — both arms raised, mouth open (crying out a message).
-- **Priest** — turban + the breastplate of judgment (12 stones, Exodus 28).
-- **Warrior** — helmet, sword, and round shield.
-- **Figure** — the plain base figure with no prop, for full-tier *male*
+person doesn't scale, so seven shared generic icons exist and are reused
+across many people rather than duplicated per person:
+- **King** — a robed, crowned man with a sceptre.
+- **Queen** — a veiled, crowned woman (for female monarchs, e.g. Jezebel,
+  Athaliah, Queen of Sheba).
+- **Prophet** — a robed figure with a hand raised in proclamation.
+- **Priest** — a robed figure in priestly vestments.
+- **Warrior** — an armed figure with helmet, sword, and shield.
+- **Figure** — a plain robed figure with no prop, for full-tier *male*
   people who don't fit any of the roles above (e.g. Mephibosheth, Onesimus).
-- **Woman** — the same plain pose as Figure but wearing a veil (added
-  2026-08-01), for full-tier *female* people who aren't a monarch and don't
-  have a unique icon (e.g. Rachel, Hannah, Priscilla). The veil mirrors the
-  convention already used on hand-drawn female icons like Sarah and Ruth,
-  rather than inventing a new visual language.
+- **Woman** — a plain veiled woman, for full-tier *female* people who
+  aren't a monarch and don't have a unique icon (e.g. Rachel, Hannah,
+  Priscilla).
+
+**Art style (updated 2026-09-01):** the generic icons were originally
+hand-drawn outline/line-art SVGs. They were replaced 2026-09-01 with
+AI-generated stained-glass-style illustrations matching the per-person
+`images/portraits2-web/` portraits, each with a role label ("BIBLICAL
+KING") and the standard `"AI-generated image — no copyright claimed"`
+provenance line burned in. Layout on disk:
+- `images/portraits/generic-<role>.jpg` — the served file (512px, ~95KB),
+  what every `image.file` / index `image` value points at. Resolved
+  straight from `images/portraits/` by `resolve_portrait_file()` (no
+  `portraits2-web` entry, since these are shared, not per-person).
+- `images/portraits2/generic-<role>.png` — the 1024px lossless source,
+  kept for regeneration. `_build/gen_generics.py` resizes it to the served
+  JPEG (gitignored/on-disk like the other `_build` helpers, safe to re-run).
+- `images/portraits/generic-<role>.svg` — the retired original line art,
+  left on disk for history; nothing references it.
 
 Rule going forward: **keep a person's existing unique hand-drawn icon if one
 already exists** (check `images/portraits/[person_id].svg`); only assign a
 generic role icon to full-tier people who don't have one. Pick Figure vs.
 Woman (and King vs. Queen for monarchs) by the person's `gender` field. Set
-`image.file` to the shared filename (e.g. `"generic-priest.png"`), and
-`image.caption` to `"Generic line-art icon for {role}s — symbolic, no claim
-of likeness"`. The lightweight index (`data/people.json`) also carries a
+`image.file` to the shared filename (e.g. `"generic-priest.jpg"`), and
+`image.caption` to `"Generic stained-glass icon for {role}s — symbolic, no
+claim of likeness"`. The lightweight index (`data/people.json`) also carries a
 flat `image` filename string per full-tier entry (not the full nested
 object) so client-side code (`js/app.js`'s `portraitImg()`) can render an
 avatar without fetching the per-person JSON file — keep that field in sync

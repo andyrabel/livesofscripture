@@ -27,10 +27,10 @@
   "family_friendly_summary": "Long before, when Joshua and Israel destroyed the city of Jericho, Joshua warned that anyone who tried to rebuild it would lose their firstborn and youngest sons. Hundreds of years later, during the wicked reign of King Ahab, a man named Hiel decided to rebuild Jericho anyway. Sadly, exactly what Joshua had warned came true: Hiel's firstborn son Abiram died when the foundation was laid, and his youngest son died when the gates went up. Abiram's death is a solemn reminder that God's words, even ones spoken generations earlier, always come true.",
   "adult_story": "Abiram was the firstborn son of Hiel of Bethel. During the reign of King Ahab, one of Israel's most idolatrous kings, Hiel undertook to rebuild the city of Jericho, which had lain under a curse since Joshua destroyed it centuries before: \"Cursed before the LORD is the man who rises up and builds this city Jericho; with the loss of his firstborn he will lay its foundation, and with the loss of his youngest son he will set up its gates\" (Joshua 6:26). Scripture records the outcome in a single spare verse: \"In his days Hiel the Bethelite built Jericho; he laid its foundations with the loss of Abiram his firstborn, and set up its gates with the loss of his youngest son Segub, according to the word of the LORD, which He spoke by Joshua the son of Nun\" (1 Kings 16:34). Nothing else is told of Abiram -- no words, no independent deeds -- only that his death, and his younger brother Segub's, marked the beginning and completion of his father's construction project. The brief notice is placed deliberately at the start of Ahab's introduction in 1 Kings, underscoring how thoroughly Israel's leadership under Ahab had abandoned reverence for the LORD's word, to the point of absorbing a family tragedy as the cost of an ambitious building project.",
   "image": {
-    "file": "generic-figure.png",
+    "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for figures -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": "hiel",

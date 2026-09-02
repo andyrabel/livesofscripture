@@ -29,10 +29,10 @@
   "adult_story": "Caesar Augustus (born Octavian), grand-nephew and adopted heir of Julius Caesar, became Rome's first emperor and ruled the empire during the years of Jesus's birth. Luke names him directly at the start of the nativity account: \"Now it came about in those days that a decree went out from Caesar Augustus, that a census be taken of all the inhabited earth\" (Luke 2:1). This decree required people to register in their ancestral hometowns, which is why Joseph, \"of the house and family of David,\" traveled from Nazareth in Galilee to Bethlehem in Judea, taking Mary, who was engaged to him and expecting a child (2:3-5). Augustus never appears again in Scripture and never learns what his administrative order accomplished, but Luke frames the most powerful man in the ancient world as an unwitting instrument of God's larger plan: it was in Bethlehem, the city of David, that Mary gave birth to Jesus, fulfilling the prophet Micah's centuries-old word that Israel's ruler would come from that small town (Micah 5:2; Luke 2:6-7). The emperor who counted the world for taxes could not see that his own decree was delivering the King who would truly rule it.",
   "image2": "caesar-augustus.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: crowned figure holding a royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

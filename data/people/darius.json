@@ -39,10 +39,10 @@
   "adult_story": "Scripture names more than one Persian-period ruler called Darius, and this entry focuses on the one most vividly narrated: \"Darius the Mede,\" who received the kingdom of Babylon at about sixty-two years old after Belshazzar's fall (Daniel 5:30-31). Darius planned to set Daniel over his whole kingdom because of his extraordinary spirit, provoking jealousy among his other officials (Daniel 6:1-4). Unable to find any fault in Daniel's conduct, they trapped Darius into signing an irrevocable law forbidding prayer to anyone but the king for thirty days, specifically to catch Daniel, who continued praying to the LORD three times a day as always (6:5-10). When Daniel was reported, Darius was \"deeply distressed\" and worked until sundown trying to save him, but the Medo-Persian law could not be revoked, so Daniel was thrown into the lions' den (6:14-17). Darius spent a sleepless night fasting and hurried to the den at dawn, calling out anxiously -- and found Daniel unharmed, because \"my God sent His angel and shut the lions' mouths\" (6:18-22). Darius had Daniel's accusers thrown to the lions instead and issued a decree that all his subjects should fear the God of Daniel (6:23-27). A ruler named Darius appears again in Ezra and Haggai, authorizing the rebuilt Jerusalem temple's completion decades later -- likely a different king by the same name (see interpretive note).",
   "image2": "darius.png",
   "image": {
-    "file": "generic-king.png",
+    "file": "generic-king.jpg",
     "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for kings -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
   },
   "genealogy": {
     "father": null,

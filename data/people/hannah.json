@@ -41,10 +41,10 @@
   "adult_story": "Hannah, one of Elkanah's two wives, was loved by her husband but remained barren while his other wife Peninnah bore children and provoked her bitterly over it, especially during their family's yearly worship trips to Shiloh (1 Samuel 1:2-7). In deep anguish, Hannah went to the tabernacle and prayed silently but so fervently, moving her lips without sound, that Eli the priest assumed she was drunk and rebuked her (1:9-14). Hannah's answer was direct: she was 'a woman oppressed in spirit,' pouring out her grief and provocation before the LORD, not drunk (1:15-16). She vowed that if God gave her a son, she would dedicate him to the LORD for all his life as a Nazirite (1:11). Eli, once he understood, blessed her, and Hannah left 'no longer sad' even before any answer had come -- her peace resting in having prayed, not yet in a resolved outcome (1:17-18). God did open her womb, and she bore Samuel, whose name reflects that she had 'asked him of the LORD' (1:20). True to her vow, once Samuel was weaned, Hannah brought him to Eli to remain at Shiloh permanently, visiting him only once a year with a small robe she made him (1:24-28; 2:19). Her prayer of praise in chapter 2 -- celebrating God who humbles the proud, lifts the needy, and exalts the horn of His anointed -- became the clear model centuries later for Mary's Magnificat (Luke 1:46-55). God then gave Hannah three more sons and two daughters (2:21).",
   "image2": "hannah.png",
   "image": {
-    "file": "generic-woman.png",
+    "file": "generic-woman.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure wearing a veil, with no additional prop.",
     "prompt_image_source": null,
-    "caption": "Generic line-art icon for women -- symbolic, no claim of likeness"
+    "caption": "Generic stained-glass icon for women -- symbolic, no claim of likeness"
   },
   "review": {
     "human_reviewed": false,
