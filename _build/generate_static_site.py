@@ -1319,7 +1319,8 @@ def build_places_list_page(places_index):
   identified with a location on today's map. By default this list shows the {len(full)} places
   with a narrative of their own; tick the box below to also fold in the {len(stub)} name-only
   places (mentioned in Scripture but with no story here, kept for the connections graph).
-  Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>.</p>
+  Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>,
+  or plot places on a map in the <a href="map.html">map explorer</a>.</p>
 
   <div class="controls">
     <label class="controls__checkbox">
@@ -1342,7 +1343,286 @@ def build_places_list_page(places_index):
 """
 
 
-def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None):
+_MAPS = None
+_GEO_BY_ID = None
+
+
+def maps_data():
+    global _MAPS
+    if _MAPS is None:
+        _MAPS = json.loads((ROOT / "data" / "maps.json").read_text())["extents"]
+    return _MAPS
+
+
+def _lookup_geo(index_entry):
+    """Index entries carry only flat lat/lng; read kind/confidence from the
+    per-place file (cached)."""
+    global _GEO_BY_ID
+    if _GEO_BY_ID is None:
+        _GEO_BY_ID = {}
+        for f in sorted((ROOT / "data" / "places").glob("*.json")):
+            d = json.loads(f.read_text())
+            if d.get("geo"):
+                _GEO_BY_ID[d["place_id"]] = d["geo"]
+    return _GEO_BY_ID.get(index_entry["place_id"])
+
+
+def _haversine_km(lat1, lng1, lat2, lng2):
+    r = 6371.0
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp = math.radians(lat2 - lat1)
+    dl = math.radians(lng2 - lng1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def _extent_contains(ext, lat, lng, margin=0.02):
+    mlon = (ext["lon_max"] - ext["lon_min"]) * margin
+    mlat = (ext["lat_max"] - ext["lat_min"]) * margin
+    return (ext["lon_min"] - mlon <= lng <= ext["lon_max"] + mlon
+            and ext["lat_min"] - mlat <= lat <= ext["lat_max"] + mlat)
+
+
+def _proj(ext, lat, lng):
+    return ((lng - ext["lon_min"]) * ext["lon_scale"],
+            (ext["lat_max"] - lat) * ext["lat_scale"])
+
+
+def _mk_class(geo):
+    conf = geo.get("confidence", 0)
+    if geo.get("kind") == "representative" and conf == 0:
+        return "mk-approx"
+    if conf >= 500:
+        return "mk-secure"
+    if conf > 0:
+        return "mk-disputed"
+    return "mk-approx"
+
+
+def base_map_svg(ext_name, extra_attrs=""):
+    """Marker-free base map for one extent, inline SVG using --map-* tokens
+    (no embedded <style>). For the map explorer's no-JS fallback."""
+    ext = maps_data()[ext_name]
+    w, h = ext["width"], ext["height"]
+    lakes = "".join(f'<path class="map-lake" d="{d}"/>' for d in ext["lakes"])
+    rivers = "".join(f'<path class="map-river" d="{d}"/>' for d in ext["rivers"])
+    return (f'<svg viewBox="0 0 {w:.0f} {h:.0f}" preserveAspectRatio="xMidYMid meet" '
+            f'role="img" aria-label="Base map: {esc(ext["title"])}"{extra_attrs}>'
+            f'<rect class="map-water-rect" x="0" y="0" width="{w:.0f}" height="{h:.0f}"/>'
+            f'<path class="map-land" d="{ext["land"]}"/>{lakes}{rivers}</svg>')
+
+
+def place_mini_map_html(place, placed_places, base, n_neighbors=6):
+    """A small locator map: the place itself plus its nearest placed
+    neighbours, on our own Natural Earth base map cropped to fit them."""
+    geo = place.get("geo")
+    if not geo or geo.get("lat") is None:
+        return ""
+    slat, slng = geo["lat"], geo["lng"]
+
+    others = []
+    for e in placed_places:
+        if e["place_id"] == place["place_id"]:
+            continue
+        d = _haversine_km(slat, slng, e["lat"], e["lng"])
+        others.append((d, e["place_id"], e))
+    others.sort(key=lambda t: (t[0], t[1]))
+    # Prefer settlements as neighbours; allow at most two nearby regions so a
+    # place ringed by overlapping region anchors (Jerusalem) still shows towns.
+    pts, regs = [], []
+    for _d, _pid, e in others:
+        (regs if (_lookup_geo(e) or {}).get("kind") == "representative" else pts).append(e)
+    neighbours = sorted(
+        pts[:n_neighbors] + regs[:2],
+        key=lambda e: _haversine_km(slat, slng, e["lat"], e["lng"]),
+    )[:n_neighbors]
+
+    exts = maps_data()
+    pts_ll = [(slat, slng)] + [(e["lat"], e["lng"]) for e in neighbours]
+    if all(_extent_contains(exts["holy-land"], la, lo) for la, lo in pts_ll):
+        ext_name = "holy-land"
+    elif (_extent_contains(exts["holy-land"], slat, slng)
+          and sum(_extent_contains(exts["holy-land"], la, lo) for la, lo in pts_ll) >= 3):
+        ext_name = "holy-land"
+        neighbours = [e for e in neighbours
+                      if _extent_contains(exts["holy-land"], e["lat"], e["lng"])]
+        pts_ll = [(slat, slng)] + [(e["lat"], e["lng"]) for e in neighbours]
+    else:
+        ext_name = "biblical-world"
+    ext = exts[ext_name]
+
+    xs, ys = zip(*[_proj(ext, la, lo) for la, lo in pts_ll])
+    pad_x = max((max(xs) - min(xs)) * 0.28, 60)
+    pad_y = max((max(ys) - min(ys)) * 0.28, 60)
+    vx = max(0, min(xs) - pad_x)
+    vy = max(0, min(ys) - pad_y)
+    vw = min(ext["width"], max(xs) + pad_x) - vx
+    vh = min(ext["height"], max(ys) + pad_y) - vy
+    if vw / vh > 2.2:
+        grow = (vw / 2.2 - vh) / 2
+        vy = max(0, vy - grow)
+        vh = min(ext["height"] - vy, vh + 2 * grow)
+    elif vh / vw > 1.6:
+        grow = (vh / 1.6 - vw) / 2
+        vx = max(0, vx - grow)
+        vw = min(ext["width"] - vx, vw + 2 * grow)
+
+    scale = max(vw / 760, 1)
+    lakes = "".join(f'<path class="map-lake" d="{d}"/>' for d in ext["lakes"])
+    rivers = "".join(f'<path class="map-river" d="{d}"/>' for d in ext["rivers"])
+
+    def marker(e, subject=False):
+        la, lo = (slat, slng) if subject else (e["lat"], e["lng"])
+        x, y = _proj(ext, la, lo)
+        pgeo = place["geo"] if subject else (_lookup_geo(e) or {})
+        region = pgeo.get("kind") == "representative"
+        cls = "map-mk" + (" mk-subject" if subject else "") + (" mk-region" if region else "")
+        conf_cls = "" if subject else _mk_class(pgeo)
+        r = round((5.2 if subject else 3.4) * scale * (0.85 if region and not subject else 1), 1)
+        fs = round(13 * scale, 1)
+        name = place["name"] if subject else e["name"]
+        anchor_end = x > vx + vw * 0.62
+        tx = -(r + 3) if anchor_end else (r + 3)
+        ta = ' text-anchor="end"' if anchor_end else ""
+        return (f'<g class="{cls}" transform="translate({x:.1f},{y:.1f})">'
+                f'<circle r="{r}" class="{conf_cls}"/>'
+                f'<text x="{tx}" y="{fs * 0.34:.1f}" style="font-size:{fs}px"{ta}>{esc(name)}</text></g>')
+
+    markers = "".join(marker(e) for e in neighbours) + marker(place, subject=True)
+    explorer_ids = ",".join([place["place_id"]] + [e["place_id"] for e in neighbours])
+    explorer_href = f'{base}map.html?ext={ext_name}&amp;places={explorer_ids}'
+
+    return f"""<figure class="placemap">
+    <svg viewBox="{vx:.1f} {vy:.1f} {vw:.1f} {vh:.1f}" role="img" aria-label="Locator map for {esc(place['name'])}">
+      <rect class="map-water-rect" x="{vx:.1f}" y="{vy:.1f}" width="{vw:.1f}" height="{vh:.1f}"/>
+      <path class="map-land" d="{ext['land']}"/>
+      {lakes}
+      {rivers}
+      {markers}
+    </svg>
+    <figcaption><span>Base map &copy; Natural Earth (public domain); locations from <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0)</span> <a href="{explorer_href}">Open in the map explorer &#8594;</a></figcaption>
+  </figure>"""
+
+
+def build_map_explorer_page(places_index):
+    base = ""
+    canonical = f"{SITE_URL}/map.html"
+    title = "Map explorer — Lives of Scripture"
+    description = ("Plot biblical places on our own maps. Start from a preset group — the Exodus "
+                  "route, Paul's journeys, the seven churches of Revelation — then add or remove "
+                  "towns and share the result.")
+    groups = json.loads((ROOT / "data" / "map-groups.json").read_text())["groups"]
+    breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Map explorer", None)])
+    group_links = "\n      ".join(
+        f'<li><a href="{base}map.html?group={esc(g["id"])}">{esc(g["name"])}</a> — {esc(g["blurb"])}</li>'
+        for g in groups
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
+</head>
+<body>
+{header_html(base, "places.html")}
+
+<main>
+  <p><a href="places.html" class="back-link">&#8592; Back to all places</a></p>
+  <h2>Map explorer</h2>
+  <p class="page-intro">Our own maps, drawn from public-domain Natural Earth geometry, with places
+  plotted from <a href="https://www.openbible.info/geo/">OpenBible.info</a> coordinates. Pick a base
+  style and extent, load a preset group, then add or remove places and copy a link to what you built.</p>
+
+  <div class="mapx-layout" id="map-explorer" data-mapstyle="parchment">
+    <aside class="mapx-rail">
+      <div>
+        <h3>Extent</h3>
+        <div class="mapx-seg" id="mapx-extent">
+          <button type="button" data-v="holy-land" aria-pressed="true">Holy Land</button>
+          <button type="button" data-v="biblical-world">Biblical World</button>
+        </div>
+      </div>
+      <div>
+        <h3>Base style</h3>
+        <div class="mapx-seg" id="mapx-style">
+          <button type="button" data-v="parchment" aria-pressed="true">Parchment</button>
+          <button type="button" data-v="plain">Plain</button>
+        </div>
+      </div>
+      <div>
+        <h3>Preset group</h3>
+        <div class="mapx-groups" id="mapx-groups"></div>
+      </div>
+      <details class="mapx-picker" id="mapx-picker">
+        <summary>Add or remove places</summary>
+        <div class="mapx-list" id="mapx-list"></div>
+      </details>
+      <div>
+        <h3>Share this map</h3>
+        <div class="mapx-share">
+          <input type="text" id="mapx-url" readonly aria-label="Shareable link to this map">
+          <button type="button" id="mapx-copy">Copy</button>
+        </div>
+      </div>
+      <label class="mapx-labels"><input type="checkbox" id="mapx-all-labels"> Show every label</label>
+    </aside>
+
+    <div class="mapx-stage">
+      <div class="mapx-bar">
+        <strong id="mapx-title">All places</strong>
+        <span class="mapx-count" id="mapx-count"></span>
+        <span class="mapx-zoom"><button type="button" id="mapx-zoom-out" aria-label="Zoom out">&minus;</button><button type="button" id="mapx-zoom-in" aria-label="Zoom in">+</button></span>
+      </div>
+      <div class="mapx-viewport" id="mapx-viewport">
+        {base_map_svg("holy-land", ' id="mapx-fallback"')}
+      </div>
+    </div>
+  </div>
+
+  <noscript>
+    <p>The interactive map needs JavaScript. Preset groups you can still browse:</p>
+    <ul>
+      {group_links}
+    </ul>
+  </noscript>
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>renderMapExplorer();initNavToggle();</script>
+</body>
+</html>
+"""
+
+
+def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, placed_places=None):
     base = "../"
     place_id = place["place_id"]
     canonical = f"{SITE_URL}/places/{place_id}.html"
@@ -1391,6 +1671,8 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None):
         )
 
     ident_html = place_identification_html(place)
+
+    mini_map_html = place_mini_map_html(place, placed_places or [], base)
 
     people_html = place_related_people_html(place, gender_by_id, base)
 
@@ -1456,6 +1738,8 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None):
   </div>
 
   {ident_html}
+
+  {mini_map_html}
 
   <section>
     {story_html}
@@ -3975,6 +4259,7 @@ def build_sitemap(index, churches, places_index):
         (f"{SITE_URL}/connections.html", "monthly", "0.6"),
         (f"{SITE_URL}/churches.html", "monthly", "0.6"),
         (f"{SITE_URL}/places.html", "monthly", "0.6"),
+        (f"{SITE_URL}/map.html", "monthly", "0.6"),
         (f"{SITE_URL}/place-connections.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/kings-and-prophets.html", "monthly", "0.6"),
@@ -4124,15 +4409,17 @@ def main():
 
     places_dir = ROOT / "places"
     places_dir.mkdir(exist_ok=True)
+    placed_places = [e for e in places_index if e.get("lat") is not None]
     for place_entry in places_index:
         place_path = ROOT / "data" / "places" / f'{place_entry["place_id"]}.json'
         if not place_path.exists():
             print(f"warning: no data/places/{place_entry['place_id']}.json, skipping")
             continue
         place = json.loads(place_path.read_text())
-        page = build_place_detail_page(place, gender_by_id, places_by_name, link_ctx)
+        page = build_place_detail_page(place, gender_by_id, places_by_name, link_ctx, placed_places)
         (places_dir / f'{place["place_id"]}.html').write_text(page)
     (ROOT / "places.html").write_text(build_places_list_page(places_index))
+    (ROOT / "map.html").write_text(build_map_explorer_page(places_index))
 
     charts_dir = ROOT / "charts"
     charts_dir.mkdir(exist_ok=True)

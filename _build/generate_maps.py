@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the site's own base maps as SVG from Natural Earth vector data.
+"""Render the site's own base maps from Natural Earth vector data.
 
 Why: a Scripture site should not pull modern slippy-map tiles (modern labels,
 roads, borders, an external dependency, attribution overhead). Instead we
@@ -11,21 +11,22 @@ interactive map explorer page.
 Output:
   images/maps/<extent>-<style>.svg   -- one label-free base map per
       (extent, style) pair. Self-contained: an embedded <style> gives it
-      sensible light/dark colors when used via <img>, and CSS custom
-      properties let an inlining page override them.
-  data/maps.json                     -- the projection parameters for each
-      extent, so client code (and generate_static_site.py) can convert a
-      lon/lat to the same SVG x/y the base layer was drawn with:
+      sensible light/dark colors when used via <img>.
+  data/maps.json                     -- per-extent projection parameters
+      PLUS pre-projected SVG path data for land/lakes/rivers, so both
+      generate_static_site.py (stdlib only -- no shapely there) and the
+      map explorer client can draw the base map. To place a lon/lat:
           x = (lon - lon_min) * lon_scale
-          y = (lat_max - lat) * lat_scale
+          y = (lat_max - lat) * lat_scale   (SVG units, north up)
+      Style colors live in css/style.css (--map-*), never in this file.
 
 Source data (gitignored, fetch with --refresh):
-  _build/maps-source/ne_10m_land.geojson
+  _build/maps-source/ne_10m_land.geojson  ne_50m_land.geojson
   _build/maps-source/ne_10m_lakes.geojson
   _build/maps-source/ne_10m_rivers_lake_centerlines.geojson
 
-Deterministic: geometry is rounded and emitted in file order, so a clean
-checkout regenerates byte-for-byte. Safe to re-run.
+Not run by CI -- its output is committed and trusted. Deterministic; safe to
+re-run. Re-run generate_static_site.py afterwards.
 """
 import json
 import math
@@ -43,7 +44,8 @@ MAPS_JSON = ROOT / "data" / "maps.json"
 
 NE_BASE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/"
 LAYERS = {
-    "land": "ne_10m_land.geojson",
+    "land10": "ne_10m_land.geojson",
+    "land50": "ne_50m_land.geojson",
     "lakes": "ne_10m_lakes.geojson",
     "rivers": "ne_10m_rivers_lake_centerlines.geojson",
 }
@@ -55,41 +57,44 @@ EXTENTS = {
     "holy-land": dict(
         title="The Holy Land",
         lon=(33.8, 36.7), lat=(29.4, 33.9), width=760,
+        land="land10", simplify=0.0,
     ),
     "biblical-world": dict(
         title="The Biblical World",
-        lon=(24.0, 50.0), lat=(26.0, 42.5), width=1200,
+        # Wide enough to hold Rome and Malta in the west and Ur/Susa in the
+        # east -- the full reach of the New Testament journeys and the exile.
+        lon=(11.0, 50.0), lat=(24.0, 43.5), width=1400,
+        # 50m coastline, lightly simplified: a continental view doesn't need
+        # 10m detail, and the path ships inline in every wide-extent mini-map.
+        land="land50", simplify=0.02,
     ),
 }
 
-# Per-style fill/stroke. Kept in sync with the embedded <style> block; the
-# SVG uses CSS custom properties so an inlining page can re-theme it.
+# Per-style fill/stroke for the standalone .svg files (the inlined maps use
+# css/style.css --map-* tokens instead). `dark` mirrors the site's dark theme.
 STYLES = {
-    # Tuned to the site's parchment palette (css/style.css --color-bg etc.).
     "parchment": dict(
         water="#e4ddca", land="#faf6ef", lake="#dcd4bd", river="#c3b48c",
-        land_stroke="#e3d9c6", coast="#c9b58c",
+        coast="#c9b58c",
         dark=dict(water="#1c1a16", land="#2b2620", lake="#232c30", river="#5b6f78",
-                  land_stroke="#3a342b", coast="#4a4238"),
+                  coast="#4a4238"),
     ),
-    # A cooler, more conventional atlas look.
     "plain": dict(
         water="#d7e5ec", land="#f3efe6", lake="#cadfe9", river="#9fc0d2",
-        land_stroke="#ddd2bd", coast="#c2b08a",
+        coast="#c2b08a",
         dark=dict(water="#141b20", land="#262b2e", lake="#1e2a30", river="#4f6b78",
-                  land_stroke="#343a3d", coast="#454b4e"),
+                  coast="#454b4e"),
     ),
 }
 
-RIVER_MIN_SCALERANK = {"holy-land": 12, "biblical-world": 7}
+RIVER_MIN_SCALERANK = {"holy-land": 12, "biblical-world": 4}
 
 
 def refresh():
     SRC.mkdir(exist_ok=True)
-    for name, fn in LAYERS.items():
-        url = NE_BASE + fn
+    for fn in LAYERS.values():
         print(f"downloading {fn} ...")
-        urllib.request.urlretrieve(url, SRC / fn)
+        urllib.request.urlretrieve(NE_BASE + fn, SRC / fn)
 
 
 def load(fn):
@@ -99,46 +104,39 @@ def load(fn):
 def projector(ext):
     lon0, lon1 = ext["lon"]
     lat0, lat1 = ext["lat"]
-    mid = math.radians((lat0 + lat1) / 2)
-    k = math.cos(mid)
+    k = math.cos(math.radians((lat0 + lat1) / 2))
     w = ext["width"]
     lon_scale = w / ((lon1 - lon0) * k)
-    lat_scale = lon_scale  # equal-scale: 1 degree lat == 1 degree lon * k already folded in
-    h = (lat1 - lat0) * lat_scale
+    h = (lat1 - lat0) * lon_scale
     lon_px = lambda lon: (lon - lon0) * k * lon_scale
-    lat_px = lambda lat: (lat1 - lat) * lat_scale
-    return lon_px, lat_px, w, h, lon_scale * k, lat_scale
+    lat_px = lambda lat: (lat1 - lat) * lon_scale
+    return lon_px, lat_px, w, h, lon_scale * k, lon_scale
 
 
 def ring_to_path(coords, lon_px, lat_px):
-    pts = []
-    for lon, lat in coords:
-        pts.append(f"{lon_px(lon):.1f},{lat_px(lat):.1f}")
+    pts = [f"{lon_px(lon):.1f},{lat_px(lat):.1f}" for lon, lat in coords]
     return "M" + "L".join(pts) + "Z"
 
 
 def geom_to_paths(geom, lon_px, lat_px):
-    """Polygon/MultiPolygon -> list of subpath strings (outer + holes)."""
     gj = mapping(geom)
-    polys = []
     if gj["type"] == "Polygon":
         polys = [gj["coordinates"]]
     elif gj["type"] == "MultiPolygon":
         polys = gj["coordinates"]
-    out = []
-    for poly in polys:
-        for ring in poly:
-            out.append(ring_to_path(ring, lon_px, lat_px))
-    return out
+    else:
+        return []
+    return [ring_to_path(ring, lon_px, lat_px) for poly in polys for ring in poly]
 
 
 def line_to_path(geom, lon_px, lat_px):
     gj = mapping(geom)
-    lines = []
     if gj["type"] == "LineString":
         lines = [gj["coordinates"]]
     elif gj["type"] == "MultiLineString":
         lines = gj["coordinates"]
+    else:
+        return []
     out = []
     for ln in lines:
         pts = [f"{lon_px(lon):.1f},{lat_px(lat):.1f}" for lon, lat in ln]
@@ -148,41 +146,38 @@ def line_to_path(geom, lon_px, lat_px):
 
 
 STYLE_BLOCK = """
-    :root {{
-      --map-water: {water}; --map-land: {land}; --map-lake: {lake};
-      --map-river: {river}; --map-land-stroke: {land_stroke}; --map-coast: {coast};
-    }}
-    @media (prefers-color-scheme: dark) {{
-      :root:not([data-theme="light"]) {{
-        --map-water: {d_water}; --map-land: {d_land}; --map-lake: {d_lake};
-        --map-river: {d_river}; --map-land-stroke: {d_land_stroke}; --map-coast: {d_coast};
-      }}
-    }}
-    :root[data-theme="dark"] {{
-      --map-water: {d_water}; --map-land: {d_land}; --map-lake: {d_lake};
-      --map-river: {d_river}; --map-land-stroke: {d_land_stroke}; --map-coast: {d_coast};
-    }}
-    .map-water {{ fill: var(--map-water); }}
-    .map-land  {{ fill: var(--map-land); stroke: var(--map-coast); stroke-width: 1; stroke-linejoin: round; }}
-    .map-lake  {{ fill: var(--map-lake); stroke: var(--map-coast); stroke-width: .6; }}
-    .map-river {{ fill: none; stroke: var(--map-river); stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }}
+    :root {{ --w:{water}; --l:{land}; --k:{lake}; --r:{river}; --c:{coast}; }}
+    @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{
+      --w:{d_water}; --l:{d_land}; --k:{d_lake}; --r:{d_river}; --c:{d_coast}; }} }}
+    :root[data-theme="dark"] {{ --w:{d_water}; --l:{d_land}; --k:{d_lake}; --r:{d_river}; --c:{d_coast}; }}
+    .w {{ fill: var(--w); }}
+    .l {{ fill: var(--l); stroke: var(--c); stroke-width: 1; stroke-linejoin: round; }}
+    .k {{ fill: var(--k); stroke: var(--c); stroke-width: .6; }}
+    .r {{ fill: none; stroke: var(--r); stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }}
 """.strip("\n")
 
 
-def build(ext_name, style_name, layers):
+def compute_paths(ext_name, layers):
+    """Project + clip the three layers for one extent. Style-independent."""
     ext = EXTENTS[ext_name]
-    style = STYLES[style_name]
     lon_px, lat_px, w, h, lon_scale, lat_scale = projector(ext)
     clip = box(ext["lon"][0], ext["lat"][0], ext["lon"][1], ext["lat"][1])
+    simp = ext.get("simplify") or 0.0
 
-    land = unary_union([shape(f["geometry"]) for f in layers["land"]["features"]])
+    land = unary_union([shape(f["geometry"]) for f in layers[ext["land"]]["features"]])
     land = land.intersection(clip)
+    if simp:
+        land = land.simplify(simp)
 
     lake_geoms = []
     for f in layers["lakes"]["features"]:
         g = shape(f["geometry"])
         if g.intersects(clip):
-            lake_geoms.append(g.intersection(clip))
+            g = g.intersection(clip)
+            if simp:
+                g = g.simplify(simp)
+            if not g.is_empty:
+                lake_geoms.append(g)
 
     rmin = RIVER_MIN_SCALERANK[ext_name]
     river_geoms = []
@@ -191,32 +186,42 @@ def build(ext_name, style_name, layers):
             continue
         g = shape(f["geometry"])
         if g.intersects(clip):
-            river_geoms.append(g.intersection(clip))
+            g = g.intersection(clip)
+            if simp:
+                g = g.simplify(simp)
+            if not g.is_empty:
+                river_geoms.append(g)
 
-    land_paths = geom_to_paths(land, lon_px, lat_px)
-    lake_paths = [p for g in lake_geoms for p in geom_to_paths(g, lon_px, lat_px)]
-    river_paths = [p for g in river_geoms for p in line_to_path(g, lon_px, lat_px)]
+    return {
+        "title": ext["title"],
+        "lon_min": ext["lon"][0], "lon_max": ext["lon"][1],
+        "lat_min": ext["lat"][0], "lat_max": ext["lat"][1],
+        "width": round(w, 2), "height": round(h, 2),
+        "lon_scale": round(lon_scale, 6), "lat_scale": round(lat_scale, 6),
+        "styles": sorted(STYLES),
+        "land": "".join(geom_to_paths(land, lon_px, lat_px)),
+        "lakes": [p for g in lake_geoms for p in geom_to_paths(g, lon_px, lat_px)],
+        "rivers": [p for g in river_geoms for p in line_to_path(g, lon_px, lat_px)],
+    }
 
-    svg = []
-    svg.append(
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w:.0f} {h:.0f}" '
-        f'width="{w:.0f}" height="{h:.0f}" role="img" '
-        f'aria-label="Base map: {ext["title"]}">'
-    )
+
+def write_svg(ext_name, style_name, paths):
+    style = STYLES[style_name]
+    w, h = paths["width"], paths["height"]
     fmt = {k: v for k, v in style.items() if k != "dark"}
     fmt.update({f"d_{k}": v for k, v in style["dark"].items()})
-    svg.append(f"<style>{STYLE_BLOCK.format(**fmt)}</style>")
-    svg.append(f'<rect class="map-water" x="0" y="0" width="{w:.0f}" height="{h:.0f}"/>')
-    svg.append(f'<path class="map-land" d="{"".join(land_paths)}"/>')
-    for p in lake_paths:
-        svg.append(f'<path class="map-lake" d="{p}"/>')
-    for p in river_paths:
-        svg.append(f'<path class="map-river" d="{p}"/>')
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w:.0f} {h:.0f}" '
+        f'width="{w:.0f}" height="{h:.0f}" role="img" aria-label="Base map: {paths["title"]}">',
+        f"<style>{STYLE_BLOCK.format(**fmt)}</style>",
+        f'<rect class="w" x="0" y="0" width="{w:.0f}" height="{h:.0f}"/>',
+        f'<path class="l" d="{paths["land"]}"/>',
+    ]
+    svg += [f'<path class="k" d="{p}"/>' for p in paths["lakes"]]
+    svg += [f'<path class="r" d="{p}"/>' for p in paths["rivers"]]
     svg.append("</svg>")
-
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / f"{ext_name}-{style_name}.svg").write_text("\n".join(svg) + "\n")
-    return w, h, lon_scale, lat_scale
 
 
 def main():
@@ -228,29 +233,22 @@ def main():
 
     layers = {k: load(fn) for k, fn in LAYERS.items()}
 
-    maps_meta = {}
-    for ext_name, ext in EXTENTS.items():
+    extents = {}
+    for ext_name in EXTENTS:
+        paths = compute_paths(ext_name, layers)
         for style_name in STYLES:
-            w, h, lon_scale, lat_scale = build(ext_name, style_name, layers)
-        maps_meta[ext_name] = {
-            "title": ext["title"],
-            "lon_min": ext["lon"][0],
-            "lon_max": ext["lon"][1],
-            "lat_min": ext["lat"][0],
-            "lat_max": ext["lat"][1],
-            "width": round(w, 2),
-            "height": round(h, 2),
-            "lon_scale": round(lon_scale, 6),
-            "lat_scale": round(lat_scale, 6),
-            "styles": sorted(STYLES),
-        }
-        print(f"{ext_name}: {w:.0f}x{h:.0f}  styles={sorted(STYLES)}")
+            write_svg(ext_name, style_name, paths)
+        extents[ext_name] = paths
+        print(f"{ext_name}: {paths['width']:.0f}x{paths['height']:.0f}  "
+              f"land {len(paths['land'])}b, {len(paths['lakes'])} lakes, "
+              f"{len(paths['rivers'])} rivers")
 
     MAPS_JSON.write_text(json.dumps(
-        {"_note": "Base-map projection parameters. x=(lon-lon_min)*lon_scale, "
-                  "y=(lat_max-lat)*lat_scale. Generated by _build/generate_maps.py "
-                  "from Natural Earth (public domain).",
-         "extents": maps_meta},
+        {"_note": "Base-map geometry + projection. x=(lon-lon_min)*lon_scale, "
+                  "y=(lat_max-lat)*lat_scale (SVG units, north up). land/lakes/rivers "
+                  "are pre-projected SVG path data. Generated by _build/generate_maps.py "
+                  "from Natural Earth (public domain); style colors are css/style.css --map-*.",
+         "extents": extents},
         indent=2) + "\n")
 
 

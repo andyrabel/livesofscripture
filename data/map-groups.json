@@ -1,0 +1,68 @@
+{
+  "_note": "Hand-curated preset selections for the map explorer (map.html). Each group is a name, a one-line blurb, a suggested base-map extent, and an ordered list of place_id values that must exist in data/places-index.json with coordinates. Not generated — edit by hand; verify every id against the index before adding.",
+  "groups": [
+    {
+      "id": "jesus-galilee",
+      "name": "Jesus in Galilee",
+      "blurb": "The towns around the Sea of Galilee where most of Jesus' ministry took place.",
+      "extent": "holy-land",
+      "places": ["nazareth", "cana", "capernaum", "bethsaida", "magdala", "mount-tabor", "galilee", "bethany", "jerusalem"]
+    },
+    {
+      "id": "davids-rise",
+      "name": "David's rise",
+      "blurb": "From the fields of Bethlehem to the throne in Jerusalem.",
+      "extent": "holy-land",
+      "places": ["bethlehem", "valley-of-elah", "gath", "adullam", "ziklag", "hebron", "mahanaim", "gibeah", "jerusalem"]
+    },
+    {
+      "id": "canaan-conquest",
+      "name": "The conquest of Canaan",
+      "blurb": "Cities named in Joshua's campaigns west of the Jordan.",
+      "extent": "holy-land",
+      "places": ["gilgal", "jericho", "ai", "gibeon", "makkedah", "lachish", "hazor", "shechem", "shiloh"]
+    },
+    {
+      "id": "divided-kingdom-capitals",
+      "name": "Capitals of the divided kingdom",
+      "blurb": "Where the kings of Israel and Judah ruled after the split.",
+      "extent": "holy-land",
+      "places": ["jerusalem", "shechem", "tirzah", "samaria", "jezreel", "bethel", "dan"]
+    },
+    {
+      "id": "seven-churches",
+      "name": "Seven churches of Revelation",
+      "blurb": "The churches addressed in Revelation 2-3, in order.",
+      "extent": "biblical-world",
+      "places": ["ephesus", "smyrna", "pergamum", "thyatira", "sardis", "philadelphia", "laodicea"]
+    },
+    {
+      "id": "exodus-route",
+      "name": "The Exodus route",
+      "blurb": "From Egypt through the wilderness to the plains of Moab.",
+      "extent": "biblical-world",
+      "places": ["egypt", "rephidim", "mount-sinai", "wilderness-of-paran", "kadesh-barnea", "ezion-geber", "mount-hor", "plains-of-moab", "shittim"]
+    },
+    {
+      "id": "patriarchs",
+      "name": "Journeys of the patriarchs",
+      "blurb": "Abraham, Isaac, and Jacob between Mesopotamia, Canaan, and Egypt.",
+      "extent": "biblical-world",
+      "places": ["ur-of-the-chaldeans", "haran", "paddan-aram", "shechem", "bethel", "mamre", "hebron", "cave-of-machpelah", "beersheba", "egypt"]
+    },
+    {
+      "id": "exile-empires",
+      "name": "Empires of the exile",
+      "blurb": "The powers that carried Israel and Judah into captivity.",
+      "extent": "biblical-world",
+      "places": ["assyria", "nineveh", "haran", "babylon", "ur-of-the-chaldeans", "riblah", "susa", "persia"]
+    },
+    {
+      "id": "pauls-world",
+      "name": "Paul's world",
+      "blurb": "Cities of Paul's missionary journeys and letters.",
+      "extent": "biblical-world",
+      "places": ["tarsus", "antioch", "cyprus", "paphos", "lystra", "troas", "philippi", "thessalonica", "athens", "corinth", "miletus", "ephesus", "malta", "rome"]
+    }
+  ]
+}

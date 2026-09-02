@@ -3549,3 +3549,245 @@ async function renderTimelinePage() {
 
   render();
 }
+
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+// ============================================================
+// Map explorer (map.html) — our own base maps + place markers,
+// preset groups from data/map-groups.json, shareable via ?places=.
+// Base geometry + projection params come from data/maps.json
+// (built by _build/generate_maps.py). See CLAUDE.md "Places / Map".
+// ============================================================
+async function renderMapExplorer() {
+  const root = document.getElementById("map-explorer");
+  if (!root) return;
+
+  const [maps, placesIndex, groupsDoc] = await Promise.all([
+    fetch(dataPath("maps.json")).then((r) => r.json()),
+    loadPlacesIndex(),
+    fetch(dataPath("map-groups.json")).then((r) => r.json()),
+  ]);
+  const GROUPS = groupsDoc.groups || [];
+  const placed = placesIndex.filter((p) => typeof p.lat === "number");
+  const byId = new Map(placed.map((p) => [p.place_id, p]));
+
+  const geoById = new Map();
+  await Promise.all(
+    placed.map((p) =>
+      loadPlace(p.place_id).then((d) => {
+        if (d && d.geo) geoById.set(p.place_id, d.geo);
+      }),
+    ),
+  );
+
+  const params = new URLSearchParams(location.search);
+  const state = {
+    extent: maps.extents[params.get("ext")] ? params.get("ext") : "holy-land",
+    style: params.get("style") === "plain" ? "plain" : "parchment",
+    ids: new Set(),
+    groupId: null,
+    allLabels: false,
+    zoom: 1,
+    sel: null,
+  };
+
+  const els = {
+    viewport: document.getElementById("mapx-viewport"),
+    title: document.getElementById("mapx-title"),
+    count: document.getElementById("mapx-count"),
+    groups: document.getElementById("mapx-groups"),
+    list: document.getElementById("mapx-list"),
+    url: document.getElementById("mapx-url"),
+  };
+
+  function markerClass(id) {
+    const g = geoById.get(id) || {};
+    const conf = g.confidence || 0;
+    if (g.kind === "representative" && conf === 0) return "mk-approx";
+    if (conf >= 500) return "mk-secure";
+    if (conf > 0) return "mk-disputed";
+    return "mk-approx";
+  }
+  function isRegion(id) {
+    return (geoById.get(id) || {}).kind === "representative";
+  }
+  function project(ext, lat, lng) {
+    return [
+      (lng - ext.lon_min) * ext.lon_scale,
+      (ext.lat_max - lat) * ext.lat_scale,
+    ];
+  }
+
+  function applyGroup(id) {
+    const g = GROUPS.find((x) => x.id === id);
+    if (!g) return;
+    state.groupId = id;
+    state.ids = new Set(g.places.filter((pid) => byId.has(pid)));
+    if (maps.extents[g.extent]) state.extent = g.extent;
+    state.sel = null;
+  }
+
+  const pParam = (params.get("places") || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter((s) => byId.has(s));
+  if (pParam.length) {
+    pParam.forEach((id) => state.ids.add(id));
+  } else if (params.get("group")) {
+    applyGroup(params.get("group"));
+  }
+
+  function syncUrl() {
+    const q = new URLSearchParams();
+    q.set("ext", state.extent);
+    if (state.style !== "parchment") q.set("style", state.style);
+    if (state.ids.size) q.set("places", [...state.ids].join(","));
+    if (els.url) els.url.value = `${location.origin}${location.pathname}?${q.toString()}`;
+    history.replaceState(null, "", `?${q.toString()}`);
+  }
+
+  function render() {
+    root.setAttribute("data-mapstyle", state.style);
+    const ext = maps.extents[state.extent];
+    const W = ext.width;
+    const H = ext.height;
+    const lakes = ext.lakes.map((d) => `<path class="map-lake" d="${d}"/>`).join("");
+    const rivers = ext.rivers.map((d) => `<path class="map-river" d="${d}"/>`).join("");
+
+    const ordered = placed.slice().sort((a, b) => {
+      return (isRegion(a.place_id) ? 0 : 1) - (isRegion(b.place_id) ? 0 : 1);
+    });
+
+    let markers = "";
+    for (const p of ordered) {
+      const [x, y] = project(ext, p.lat, p.lng);
+      if (x < -60 || x > W + 60 || y < -60 || y > H + 60) continue;
+      const on = state.ids.has(p.place_id);
+      const region = isRegion(p.place_id);
+      const showLabel = state.allLabels || on || state.sel === p.place_id;
+      const cls =
+        "map-mk" +
+        (region ? " mk-region" : "") +
+        (on ? " is-on" : " is-dim") +
+        (state.sel === p.place_id ? " is-sel" : "");
+      const r = region ? 3 : on ? 5 : 3.4;
+      const dotCls = region && !on ? "mk-region-dot" : markerClass(p.place_id);
+      const anchorEnd = x > W * 0.72;
+      const tx = anchorEnd ? -(r + 4) : r + 4;
+      const ta = anchorEnd ? ' text-anchor="end"' : "";
+      const label = `<text x="${tx}" y="4" class="${showLabel ? "" : "mk-hover-only"}"${ta}>${escapeHtml(p.name)}</text>`;
+      markers +=
+        `<g class="${cls}" data-id="${p.place_id}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})">` +
+        `<circle r="${r}" class="${dotCls}"/>${label}</g>`;
+    }
+
+    els.viewport.innerHTML =
+      `<svg viewBox="0 0 ${W} ${H}" width="${(W * state.zoom).toFixed(0)}" height="${(H * state.zoom).toFixed(0)}" ` +
+      `role="img" aria-label="Map: ${escapeHtml(ext.title)}">` +
+      `<rect class="map-water-rect" x="0" y="0" width="${W}" height="${H}"/>` +
+      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${markers}</svg>`;
+
+    els.viewport.querySelectorAll(".map-mk").forEach((g) => {
+      g.addEventListener("click", () => {
+        const id = g.getAttribute("data-id");
+        if (state.ids.has(id)) state.ids.delete(id);
+        else state.ids.add(id);
+        state.groupId = null;
+        state.sel = id;
+        refresh();
+      });
+      g.addEventListener("mouseenter", () => g.parentNode.appendChild(g));
+    });
+
+    const grp = GROUPS.find((x) => x.id === state.groupId);
+    els.title.textContent = grp ? grp.name : state.ids.size ? "Custom selection" : "All places";
+    els.count.textContent = `${state.ids.size} place${state.ids.size === 1 ? "" : "s"} selected`;
+
+    els.groups.querySelectorAll("button").forEach((b) =>
+      b.setAttribute("aria-pressed", b.dataset.id === state.groupId),
+    );
+    els.list.querySelectorAll("input").forEach((cb) => {
+      cb.checked = state.ids.has(cb.value);
+    });
+    document.querySelectorAll("#mapx-extent button").forEach((b) =>
+      b.setAttribute("aria-pressed", b.dataset.v === state.extent),
+    );
+    document.querySelectorAll("#mapx-style button").forEach((b) =>
+      b.setAttribute("aria-pressed", b.dataset.v === state.style),
+    );
+  }
+
+  function refresh() {
+    render();
+    syncUrl();
+  }
+
+  els.groups.innerHTML = GROUPS.map(
+    (g) =>
+      `<button type="button" data-id="${g.id}"><span>${escapeHtml(g.name)}</span><small>${escapeHtml(g.blurb)}</small></button>`,
+  ).join("");
+  els.groups.querySelectorAll("button").forEach((b) => {
+    b.addEventListener("click", () => {
+      applyGroup(b.dataset.id);
+      refresh();
+    });
+  });
+
+  els.list.innerHTML = placed
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map(
+      (p) =>
+        `<label><input type="checkbox" value="${p.place_id}"> ${escapeHtml(p.name)}</label>`,
+    )
+    .join("");
+  els.list.addEventListener("change", (e) => {
+    const cb = e.target.closest("input");
+    if (!cb) return;
+    if (cb.checked) state.ids.add(cb.value);
+    else state.ids.delete(cb.value);
+    state.groupId = null;
+    refresh();
+  });
+
+  document.getElementById("mapx-extent").addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    state.extent = b.dataset.v;
+    refresh();
+  });
+  document.getElementById("mapx-style").addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    state.style = b.dataset.v;
+    refresh();
+  });
+  document.getElementById("mapx-all-labels").addEventListener("change", (e) => {
+    state.allLabels = e.target.checked;
+    render();
+  });
+  document.getElementById("mapx-zoom-in").addEventListener("click", () => {
+    state.zoom = Math.min(4, state.zoom * 1.3);
+    render();
+  });
+  document.getElementById("mapx-zoom-out").addEventListener("click", () => {
+    state.zoom = Math.max(0.6, state.zoom / 1.3);
+    render();
+  });
+  const copyBtn = document.getElementById("mapx-copy");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
+      els.url.select();
+      navigator.clipboard?.writeText(els.url.value).then(() => {
+        copyBtn.textContent = "Copied";
+        setTimeout(() => (copyBtn.textContent = "Copy"), 1500);
+      });
+    });
+  }
+
+  refresh();
+}
