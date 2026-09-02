@@ -1484,8 +1484,9 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
         anchor_end = x > vx + vw * 0.62
         tx = -(r + 3) if anchor_end else (r + 3)
         ta = ' text-anchor="end"' if anchor_end else ""
+        circle_cls = f' class="{conf_cls}"' if conf_cls else ""
         return (f'<g class="{cls}" transform="translate({x:.1f},{y:.1f})">'
-                f'<circle r="{r}" class="{conf_cls}"/>'
+                f'<circle r="{r}"{circle_cls}/>'
                 f'<text x="{tx}" y="{fs * 0.34:.1f}" style="font-size:{fs}px"{ta}>{esc(name)}</text></g>')
 
     region_overlay = ""
