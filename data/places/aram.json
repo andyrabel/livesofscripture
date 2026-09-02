@@ -81,5 +81,12 @@
       ]
     }
   ],
-  "description": "The Aramean kingdom centered on Damascus, a recurring military rival of Israel and Judah throughout the monarchy period. David subdued Aramean forces allied against him (2 Samuel 8:5-6; 10), and later kings like Ben-hadad and Hazael repeatedly warred with Israel \u2014 Naaman, an Aramean army commander healed of leprosy through Elisha, being a notable exception to the hostility (2 Kings 5)."
+  "description": "The Aramean kingdom centered on Damascus, a recurring military rival of Israel and Judah throughout the monarchy period. David subdued Aramean forces allied against him (2 Samuel 8:5-6; 10), and later kings like Ben-hadad and Hazael repeatedly warred with Israel \u2014 Naaman, an Aramean army commander healed of leprosy through Elisha, being a notable exception to the hostility (2 Kings 5).",
+  "geo": {
+    "lat": 33.51111,
+    "lng": 36.30639,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Aram"
+  }
 }

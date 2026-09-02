@@ -236,5 +236,12 @@
     }
   ],
   "description": "Founded, Genesis says, by Nimrod (Genesis 10:10), Babylon is also the setting of the tower of Babel, where God confused humanity's language (Genesis 11:1-9) \u2014 the city's first appearance already marking it as a symbol of human pride set against God. Centuries later it became the capital of the empire that destroyed Jerusalem and its temple in 586 BC and deported Judah's population there (2 Kings 25). Daniel and his three friends served in Nebuchadnezzar's court during that exile, and the book of Daniel records God's repeated humbling of Babylon's rulers (Daniel 1-5). Cyrus of Persia conquered Babylon in 539 BC and let the exiles return. Revelation later uses \"Babylon\" as a symbolic name for a final, doomed world power opposed to God (Revelation 17-18) \u2014 a use of the name, not a claim about the literal city's end-times future.",
-  "family_friendly_summary": "Babylon was a great and powerful city, and later the capital of a mighty empire. Long before that, it's also where people built a huge tower to make a name for themselves, so God gave them different languages so they couldn't understand each other anymore. Later, the Babylonian army conquered Jerusalem, and God's people had to live in Babylon for many years. Daniel and his friends stayed faithful to God even while living there."
+  "family_friendly_summary": "Babylon was a great and powerful city, and later the capital of a mighty empire. Long before that, it's also where people built a huge tower to make a name for themselves, so God gave them different languages so they couldn't understand each other anymore. Later, the Babylonian army conquered Jerusalem, and God's people had to live in Babylon for many years. Daniel and his friends stayed faithful to God even while living there.",
+  "geo": {
+    "lat": 32.54333,
+    "lng": 44.42222,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Babylon 1"
+  }
 }

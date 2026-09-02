@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "One of two mountains flanking Shechem from which Israel was to pronounce blessings (Gerizim) and curses (Ebal) upon entering Canaan (Deuteronomy 27:11-13); Jotham later shouted his fable warning against Abimelech's kingship from its slope (Judges 9:7)."
+  "description": "One of two mountains flanking Shechem from which Israel was to pronounce blessings (Gerizim) and curses (Ebal) upon entering Canaan (Deuteronomy 27:11-13); Jotham later shouted his fable warning against Abimelech's kingship from its slope (Judges 9:7).",
+  "geo": {
+    "lat": 32.19944,
+    "lng": 35.27278,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount Gerizim"
+  }
 }

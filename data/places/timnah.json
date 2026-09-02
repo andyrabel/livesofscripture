@@ -49,5 +49,12 @@
       ]
     }
   ],
-  "description": "A town where Judah went for sheep-shearing and was met, and deceived, by his widowed daughter-in-law Tamar disguised as a prostitute (Genesis 38:12-19). Generations later it was home to the Philistine woman Samson wanted to marry, setting off his riddle contest and conflict with the Philistines (Judges 14)."
+  "description": "A town where Judah went for sheep-shearing and was met, and deceived, by his widowed daughter-in-law Tamar disguised as a prostitute (Genesis 38:12-19). Generations later it was home to the Philistine woman Samson wanted to marry, setting off his riddle contest and conflict with the Philistines (Judges 14).",
+  "geo": {
+    "lat": 31.78483,
+    "lng": 34.9103,
+    "confidence": 836,
+    "kind": "point",
+    "openbible": "Timnah 1"
+  }
 }

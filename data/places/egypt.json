@@ -293,5 +293,12 @@
     }
   ],
   "description": "The great river-valley civilization to Canaan's southwest, Egypt appears across the whole span of Scripture: Abraham took refuge there in a famine (Genesis 12:10), Joseph rose from slave to vizier there and later settled his family in Goshen (Genesis 37-50), and their descendants were later enslaved there for centuries until the exodus under Moses (Exodus 1-14) \u2014 the founding redemption narrative the rest of the Old Testament keeps returning to. Solomon married a pharaoh's daughter; later kings sought (and were warned against) Egyptian military alliances; and in the New Testament, Joseph and Mary fled there with the infant Jesus to escape Herod, so that Matthew could say \"Out of Egypt I called My Son\" (Matthew 2:13-15, quoting Hosea 11:1).",
-  "family_friendly_summary": "Egypt was a powerful country south of Israel, next to the Nile River. Joseph was sold as a slave there but later became a great leader, second only to Pharaoh. Later, Joseph's family grew into a huge nation of slaves in Egypt, until God sent Moses to lead them out in the exodus. Much later, baby Jesus and His parents hid safely in Egypt for a while too."
+  "family_friendly_summary": "Egypt was a powerful country south of Israel, next to the Nile River. Joseph was sold as a slave there but later became a great leader, second only to Pharaoh. Later, Joseph's family grew into a huge nation of slaves in Egypt, until God sent Moses to lead them out in the exodus. Much later, baby Jesus and His parents hid safely in Egypt for a while too.",
+  "geo": {
+    "lat": 30.12944,
+    "lng": 31.3075,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Egypt"
+  }
 }

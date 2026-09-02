@@ -29,5 +29,24 @@
       ]
     }
   ],
-  "description": "Where Achan, who had taken devoted plunder from Jericho against God's command, was executed along with his family and possessions after his sin was exposed (Joshua 7:24-26)."
+  "description": "Where Achan, who had taken devoted plunder from Jericho against God's command, was executed along with his family and possessions after his sin was exposed (Joshua 7:24-26).",
+  "geo": {
+    "lat": 31.71667,
+    "lng": 35.38333,
+    "confidence": 604,
+    "kind": "representative",
+    "openbible": "Valley of Achor",
+    "candidates": [
+      [
+        35.38333,
+        31.71667,
+        604
+      ],
+      [
+        35.4143,
+        31.8443,
+        36
+      ]
+    ]
+  }
 }

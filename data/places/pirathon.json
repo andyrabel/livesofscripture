@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown, in Ephraim's hill country, of Abdon, a minor judge who had forty sons and thirty grandsons who rode on donkeys (Judges 12:13-15)."
+  "description": "The hometown, in Ephraim's hill country, of Abdon, a minor judge who had forty sons and thirty grandsons who rode on donkeys (Judges 12:13-15).",
+  "geo": {
+    "lat": 32.19056,
+    "lng": 35.16583,
+    "confidence": 726,
+    "kind": "point",
+    "openbible": "Pirathon",
+    "candidates": [
+      [
+        35.16583,
+        32.19056,
+        726
+      ],
+      [
+        35.31048,
+        31.8348,
+        48
+      ]
+    ]
+  }
 }

@@ -50,5 +50,12 @@
       ]
     }
   ],
-  "description": "A prominent, isolated hill in the Jezreel Valley where Deborah directed Barak to gather Israel's forces before their victory over Sisera's chariot army (Judges 4:6, 12-16)."
+  "description": "A prominent, isolated hill in the Jezreel Valley where Deborah directed Barak to gather Israel's forces before their victory over Sisera's chariot army (Judges 4:6, 12-16).",
+  "geo": {
+    "lat": 32.68625,
+    "lng": 35.39292,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount Tabor"
+  }
 }

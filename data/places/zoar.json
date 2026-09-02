@@ -50,5 +50,39 @@
       ]
     }
   ],
-  "description": "The small town Lot fled to for refuge when Sodom and Gomorrah were destroyed, spared at his request because of its smallness (Genesis 19:20-23) \u2014 before Lot left it too, fearful, for a cave in the nearby hills."
+  "description": "The small town Lot fled to for refuge when Sodom and Gomorrah were destroyed, spared at his request because of its smallness (Genesis 19:20-23) \u2014 before Lot left it too, fearful, for a cave in the nearby hills.",
+  "geo": {
+    "lat": 31.0369,
+    "lng": 35.48766,
+    "confidence": 347,
+    "kind": "point",
+    "openbible": "Zoar",
+    "candidates": [
+      [
+        35.48766,
+        31.0369,
+        347
+      ],
+      [
+        35.44922,
+        31.20849,
+        217
+      ],
+      [
+        35.59528,
+        31.795,
+        46
+      ],
+      [
+        35.47216,
+        31.02297,
+        45
+      ],
+      [
+        35.57333,
+        31.46583,
+        39
+      ]
+    ]
+  }
 }

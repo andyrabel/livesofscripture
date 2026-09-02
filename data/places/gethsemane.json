@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The garden where Jesus prayed in anguish the night before His crucifixion, was betrayed by Judas with a kiss, and where Peter cut off the ear of the high priest's servant Malchus before Jesus healed it (Matthew 26:36-56; John 18:1-11)."
+  "description": "The garden where Jesus prayed in anguish the night before His crucifixion, was betrayed by Judas with a kiss, and where Peter cut off the ear of the high priest's servant Malchus before Jesus healed it (Matthew 26:36-56; John 18:1-11).",
+  "geo": {
+    "lat": 31.77942,
+    "lng": 35.23942,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Gethsemane"
+  }
 }

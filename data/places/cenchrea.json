@@ -25,5 +25,12 @@
       "gender": "female"
     }
   ],
-  "description": "Corinth's eastern port, home of Phoebe, a deacon of its church whom Paul commended to the Romans and who likely carried his letter to them (Romans 16:1-2)."
+  "description": "Corinth's eastern port, home of Phoebe, a deacon of its church whom Paul commended to the Romans and who likely carried his letter to them (Romans 16:1-2).",
+  "geo": {
+    "lat": 37.88434,
+    "lng": 22.99682,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Cenchreae"
+  }
 }

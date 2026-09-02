@@ -25,5 +25,39 @@
       "gender": "male"
     }
   ],
-  "description": "The homeland of Eliphaz \"the Temanite,\" the first and most prominent of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 4:1-5:27)."
+  "description": "The homeland of Eliphaz \"the Temanite,\" the first and most prominent of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 4:1-5:27).",
+  "geo": {
+    "lat": 30.74584,
+    "lng": 35.60392,
+    "confidence": 231,
+    "kind": "representative",
+    "openbible": "Teman",
+    "candidates": [
+      [
+        35.60392,
+        30.74584,
+        231
+      ],
+      [
+        35.48485,
+        30.33099,
+        223
+      ],
+      [
+        35.60392,
+        30.74584,
+        21
+      ],
+      [
+        35.60392,
+        30.74584,
+        20
+      ],
+      [
+        35.56083,
+        30.53139,
+        15
+      ]
+    ]
+  }
 }

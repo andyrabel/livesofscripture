@@ -25,5 +25,39 @@
       "gender": "male"
     }
   ],
-  "description": "The kingdom of Arioch, one of four kings who joined Chedorlaomer's coalition against Sodom and Gomorrah (Genesis 14:1-9)."
+  "description": "The kingdom of Arioch, one of four kings who joined Chedorlaomer's coalition against Sodom and Gomorrah (Genesis 14:1-9).",
+  "geo": {
+    "lat": 35.45667,
+    "lng": 43.2625,
+    "confidence": 215,
+    "kind": "point",
+    "openbible": "Ellasar",
+    "candidates": [
+      [
+        43.2625,
+        35.45667,
+        215
+      ],
+      [
+        34.83917,
+        38.67056,
+        82
+      ],
+      [
+        38.0865,
+        36.7014,
+        55
+      ],
+      [
+        35.26139,
+        39.60611,
+        45
+      ],
+      [
+        41.41306,
+        37.71472,
+        41
+      ]
+    ]
+  }
 }

@@ -60,5 +60,34 @@
       ]
     }
   ],
-  "description": "A town near which five Amorite kings, defeated in Joshua's southern campaign, hid in a cave and were captured, executed, and buried by Joshua (Joshua 10:16-28)."
+  "description": "A town near which five Amorite kings, defeated in Joshua's southern campaign, hid in a cave and were captured, executed, and buried by Joshua (Joshua 10:16-28).",
+  "geo": {
+    "lat": 31.53472,
+    "lng": 34.96656,
+    "confidence": 440,
+    "kind": "point",
+    "openbible": "Makkedah",
+    "candidates": [
+      [
+        34.96656,
+        31.53472,
+        440
+      ],
+      [
+        34.9706,
+        31.5377,
+        86
+      ],
+      [
+        34.9098,
+        31.4558,
+        23
+      ],
+      [
+        34.91661,
+        31.63336,
+        16
+      ]
+    ]
+  }
 }

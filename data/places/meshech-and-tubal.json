@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "Nations named among Japheth's descendants (Genesis 10:2), later listed as part of Gog's coalition in Ezekiel's prophecy against Magog (Ezekiel 38:2-3; 39:1)."
+  "description": "Nations named among Japheth's descendants (Genesis 10:2), later listed as part of Gog's coalition in Ezekiel's prophecy against Magog (Ezekiel 38:2-3; 39:1).",
+  "geo": {
+    "lat": 39.655,
+    "lng": 31.99417,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Meshech"
+  }
 }

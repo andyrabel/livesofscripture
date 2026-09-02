@@ -38,5 +38,12 @@
       ]
     }
   ],
-  "description": "Lydia, the dealer in purple cloth converted at Philippi, was originally from Thyatira (Acts 16:14); the city's own church is later addressed in Revelation and rebuked for tolerating a false prophetess (Revelation 2:18-29)."
+  "description": "Lydia, the dealer in purple cloth converted at Philippi, was originally from Thyatira (Acts 16:14); the city's own church is later addressed in Revelation and rebuked for tolerating a false prophetess (Revelation 2:18-29).",
+  "geo": {
+    "lat": 38.92021,
+    "lng": 27.83655,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Thyatira"
+  }
 }

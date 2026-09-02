@@ -50,5 +50,12 @@
       ]
     }
   ],
-  "description": "A city in Asia Minor where Paul healed a man lame from birth, prompting the crowd to try to worship him and Barnabas as gods before the same crowd, incited by opponents, stoned Paul and left him for dead (Acts 14:8-20). Timothy, whose grandmother Lois and mother Eunice had genuine faith, was from Lystra (2 Timothy 1:5)."
+  "description": "A city in Asia Minor where Paul healed a man lame from birth, prompting the crowd to try to worship him and Barnabas as gods before the same crowd, incited by opponents, stoned Paul and left him for dead (Acts 14:8-20). Timothy, whose grandmother Lois and mother Eunice had genuine faith, was from Lystra (2 Timothy 1:5).",
+  "geo": {
+    "lat": 37.6017,
+    "lng": 32.3384,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Lystra"
+  }
 }

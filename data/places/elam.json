@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A kingdom east of Babylon whose king Chedorlaomer led the coalition that raided Sodom and Gomorrah and carried off Lot, prompting Abraham's rescue (Genesis 14:1-16)."
+  "description": "A kingdom east of Babylon whose king Chedorlaomer led the coalition that raided Sodom and Gomorrah and carried off Lot, prompting Abraham's rescue (Genesis 14:1-16).",
+  "geo": {
+    "lat": 32.18922,
+    "lng": 48.25778,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Elam"
+  }
 }

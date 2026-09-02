@@ -106,5 +106,12 @@
       ]
     }
   ],
-  "description": "Israel's final wilderness encampment, on the plains east of the Jordan opposite Jericho, where Balaam was hired to curse Israel and failed (Numbers 22-24), where Israelite men were drawn into idolatry and immorality with Moabite women at Baal-peor (Numbers 25), and where Moses delivered the sermons recorded in Deuteronomy before climbing Mount Nebo to view the promised land and die there (Deuteronomy 34:1-8)."
+  "description": "Israel's final wilderness encampment, on the plains east of the Jordan opposite Jericho, where Balaam was hired to curse Israel and failed (Numbers 22-24), where Israelite men were drawn into idolatry and immorality with Moabite women at Baal-peor (Numbers 25), and where Moses delivered the sermons recorded in Deuteronomy before climbing Mount Nebo to view the promised land and die there (Deuteronomy 34:1-8).",
+  "geo": {
+    "lat": 31.84018,
+    "lng": 35.67368,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Moab 2"
+  }
 }

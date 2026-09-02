@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A major Egyptian city and center of learning, the hometown of Apollos, an eloquent believer skilled in the Scriptures who was further instructed by Priscilla and Aquila before his effective ministry (Acts 18:24-28)."
+  "description": "A major Egyptian city and center of learning, the hometown of Apollos, an eloquent believer skilled in the Scriptures who was further instructed by Priscilla and Aquila before his effective ministry (Acts 18:24-28).",
+  "geo": {
+    "lat": 31.1825,
+    "lng": 29.8965,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Alexandria"
+  }
 }

@@ -51,5 +51,24 @@
       ]
     }
   ],
-  "description": "The place where Jacob wrestled all night with a divine visitor, was given the name Israel, and named the site \"the face of God\" (Genesis 32:24-30). Gideon later destroyed its tower after its men refused to help his pursuit of the Midianite kings (Judges 8:8-9, 17)."
+  "description": "The place where Jacob wrestled all night with a divine visitor, was given the name Israel, and named the site \"the face of God\" (Genesis 32:24-30). Gideon later destroyed its tower after its men refused to help his pursuit of the Midianite kings (Judges 8:8-9, 17).",
+  "geo": {
+    "lat": 32.18702,
+    "lng": 35.69211,
+    "confidence": 694,
+    "kind": "point",
+    "openbible": "Penuel",
+    "candidates": [
+      [
+        35.69211,
+        32.18702,
+        694
+      ],
+      [
+        35.68667,
+        32.18575,
+        61
+      ]
+    ]
+  }
 }

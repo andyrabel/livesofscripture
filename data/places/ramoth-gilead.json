@@ -30,5 +30,24 @@
       "gender": "male"
     }
   ],
-  "description": "A frontier city east of the Jordan where King Ahab was fatally wounded fighting Aram despite disguising himself (1 Kings 22:29-38), and where Jehu was later anointed king in a plot to end Ahab's dynasty (2 Kings 9:1-13)."
+  "description": "A frontier city east of the Jordan where King Ahab was fatally wounded fighting Aram despite disguising himself (1 Kings 22:29-38), and where Jehu was later anointed king in a plot to end Ahab's dynasty (2 Kings 9:1-13).",
+  "geo": {
+    "lat": 32.49985,
+    "lng": 36.01499,
+    "confidence": 808,
+    "kind": "point",
+    "openbible": "Ramoth-gilead",
+    "candidates": [
+      [
+        36.01499,
+        32.49985,
+        808
+      ],
+      [
+        36.00694,
+        32.55917,
+        13
+      ]
+    ]
+  }
 }

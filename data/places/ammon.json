@@ -73,5 +73,12 @@
       ]
     }
   ],
-  "description": "A nation east of the Jordan descended from Lot's younger son Ben-ammi (Genesis 19:36-38), frequently hostile to Israel. Jephthah defeated Ammonite forces oppressing Israel (Judges 10-11), and Ammon's king Hanun's humiliation of David's envoys sparked a war (2 Samuel 10). Ammonite officials like Tobiah later opposed Nehemiah's rebuilding of Jerusalem's walls (Nehemiah 2:19; 4:3)."
+  "description": "A nation east of the Jordan descended from Lot's younger son Ben-ammi (Genesis 19:36-38), frequently hostile to Israel. Jephthah defeated Ammonite forces oppressing Israel (Judges 10-11), and Ammon's king Hanun's humiliation of David's envoys sparked a war (2 Samuel 10). Ammonite officials like Tobiah later opposed Nehemiah's rebuilding of Jerusalem's walls (Nehemiah 2:19; 4:3).",
+  "geo": {
+    "lat": 31.9547,
+    "lng": 35.9343,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Ammon"
+  }
 }

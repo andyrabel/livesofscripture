@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown of the prophet Micah, near Gath in Judah's lowlands (Micah 1:1, 14)."
+  "description": "The hometown of the prophet Micah, near Gath in Judah's lowlands (Micah 1:1, 14).",
+  "geo": {
+    "lat": 31.63336,
+    "lng": 34.91661,
+    "confidence": 467,
+    "kind": "point",
+    "openbible": "Moresheth-gath",
+    "candidates": [
+      [
+        34.91661,
+        31.63336,
+        467
+      ],
+      [
+        34.8303,
+        31.6292,
+        43
+      ],
+      [
+        34.92806,
+        31.49181,
+        20
+      ],
+      [
+        34.89824,
+        31.59296,
+        12
+      ]
+    ]
+  }
 }

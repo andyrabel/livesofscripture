@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A town near the wilderness where Jesus withdrew with His disciples after raising Lazarus, once the religious leaders began plotting to kill Him (John 11:53-54)."
+  "description": "A town near the wilderness where Jesus withdrew with His disciples after raising Lazarus, once the religious leaders began plotting to kill Him (John 11:53-54).",
+  "geo": {
+    "lat": 32.38111,
+    "lng": 35.76472,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Ephraim 3"
+  }
 }

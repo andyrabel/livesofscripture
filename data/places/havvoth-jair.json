@@ -31,5 +31,12 @@
       "gender": "male"
     }
   ],
-  "description": "A group of villages in Gilead named for Jair, a descendant of Manasseh who captured them (Numbers 32:41; Deuteronomy 3:14)."
+  "description": "A group of villages in Gilead named for Jair, a descendant of Manasseh who captured them (Numbers 32:41; Deuteronomy 3:14).",
+  "geo": {
+    "lat": 32.5876,
+    "lng": 35.7256,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Havvoth-jair"
+  }
 }

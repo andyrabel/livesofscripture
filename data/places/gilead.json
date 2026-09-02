@@ -99,5 +99,12 @@
       ]
     }
   ],
-  "description": "A hilly, forested region east of the Jordan settled by the tribes of Gad, Reuben, and half of Manasseh, whose territory it shared \u2014 which is why Scripture attaches individuals to Gilead without always specifying a single tribe. Jephthah led Gilead's fighting men against Ammon (Judges 10-12), and Elijah was \"of the settlers of Gilead\" (1 Kings 17:1). It was known for its balm, a valuable healing resin (Genesis 37:25; Jeremiah 8:22)."
+  "description": "A hilly, forested region east of the Jordan settled by the tribes of Gad, Reuben, and half of Manasseh, whose territory it shared \u2014 which is why Scripture attaches individuals to Gilead without always specifying a single tribe. Jephthah led Gilead's fighting men against Ammon (Judges 10-12), and Elijah was \"of the settlers of Gilead\" (1 Kings 17:1). It was known for its balm, a valuable healing resin (Genesis 37:25; Jeremiah 8:22).",
+  "geo": {
+    "lat": 32.18702,
+    "lng": 35.69211,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Gilead 1"
+  }
 }

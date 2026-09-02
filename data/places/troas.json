@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A port city where Paul received his vision of a Macedonian man calling him to Europe (Acts 16:8-10), and where, on a later visit, young Eutychus fell asleep during Paul's long sermon, fell from a third-story window, and was raised back to life (Acts 20:6-12)."
+  "description": "A port city where Paul received his vision of a Macedonian man calling him to Europe (Acts 16:8-10), and where, on a later visit, young Eutychus fell asleep during Paul's long sermon, fell from a third-story window, and was raised back to life (Acts 20:6-12).",
+  "geo": {
+    "lat": 39.75194,
+    "lng": 26.15861,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Troas"
+  }
 }

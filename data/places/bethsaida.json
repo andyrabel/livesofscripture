@@ -30,5 +30,29 @@
       "gender": "male"
     }
   ],
-  "description": "A fishing town on the Sea of Galilee, home of Philip and Andrew (John 1:44), that Jesus rebuked for failing to repent despite witnessing His miracles (Matthew 11:21)."
+  "description": "A fishing town on the Sea of Galilee, home of Philip and Andrew (John 1:44), that Jesus rebuked for failing to repent despite witnessing His miracles (Matthew 11:21).",
+  "geo": {
+    "lat": 32.91038,
+    "lng": 35.63096,
+    "confidence": 740,
+    "kind": "point",
+    "openbible": "Bethsaida 2",
+    "candidates": [
+      [
+        35.63096,
+        32.91038,
+        740
+      ],
+      [
+        35.63096,
+        32.91038,
+        135
+      ],
+      [
+        35.63077,
+        32.88422,
+        39
+      ]
+    ]
+  }
 }

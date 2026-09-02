@@ -30,5 +30,29 @@
       "gender": "male"
     }
   ],
-  "description": "A priestly town in Benjamin, the hometown of the prophet Jeremiah (Jeremiah 1:1), who later bought a field there from his cousin Hanamel as a prophetic sign of restoration even amid Jerusalem's fall (Jeremiah 32:6-15)."
+  "description": "A priestly town in Benjamin, the hometown of the prophet Jeremiah (Jeremiah 1:1), who later bought a field there from his cousin Hanamel as a prophetic sign of restoration even amid Jerusalem's fall (Jeremiah 32:6-15).",
+  "geo": {
+    "lat": 31.80752,
+    "lng": 35.25758,
+    "confidence": 420,
+    "kind": "point",
+    "openbible": "Anathoth",
+    "candidates": [
+      [
+        35.25758,
+        31.80752,
+        420
+      ],
+      [
+        35.26187,
+        31.81319,
+        216
+      ],
+      [
+        35.2756,
+        31.81092,
+        105
+      ]
+    ]
+  }
 }

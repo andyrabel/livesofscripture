@@ -1222,5 +1222,12 @@
     }
   ],
   "description": "Called Salem in Abraham's day and Jebus while still held by the Jebusites, Jerusalem became Israel's capital only when David captured its fortress and made it his own city (2 Samuel 5:6-9). Solomon built the temple there, giving the city a religious as well as political centrality it never lost (1 Kings 6; 8). It was the site of a divided kingdom's southern capital, of Isaiah's, Jeremiah's, and Ezekiel's ministries, and of its own destruction by Babylon in 586 BC \u2014 then of a rebuilt temple under Ezra and Nehemiah after the exile. In the Gospels it is where Jesus was presented as an infant, taught in the temple courts, was crucified outside its walls, and rose again; in Acts it is where the church was born at Pentecost. No other place in Scripture carries this much continuous narrative weight across both Testaments.",
-  "family_friendly_summary": "Jerusalem is the most important city in the whole Bible. King David made it his capital, and his son Solomon built God's temple there. Many kings, prophets, and important Bible events happened in Jerusalem \u2014 and it's the city where Jesus was put on the cross and where He rose from the dead. Jerusalem is still an important city today."
+  "family_friendly_summary": "Jerusalem is the most important city in the whole Bible. King David made it his capital, and his son Solomon built God's temple there. Many kings, prophets, and important Bible events happened in Jerusalem \u2014 and it's the city where Jesus was put on the cross and where He rose from the dead. Jerusalem is still an important city today.",
+  "geo": {
+    "lat": 31.77667,
+    "lng": 35.23417,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Jerusalem"
+  }
 }

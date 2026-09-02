@@ -31,5 +31,12 @@
       "gender": "male"
     }
   ],
-  "description": "The plain where humanity built the tower of Babel before God confused their language and scattered them (Genesis 11:1-9), and, later, where the invading king Amraphel of Shinar came from in Abraham's day (Genesis 14:1)."
+  "description": "The plain where humanity built the tower of Babel before God confused their language and scattered them (Genesis 11:1-9), and, later, where the invading king Amraphel of Shinar came from in Abraham's day (Genesis 14:1).",
+  "geo": {
+    "lat": 32.54333,
+    "lng": 44.42222,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Shinar"
+  }
 }

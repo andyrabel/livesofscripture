@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "Paul's hometown in the Roman province of Cilicia, a city he proudly noted was \"no insignificant city\" (Acts 21:39), and where Barnabas went to find him and bring him to Antioch (Acts 11:25-26)."
+  "description": "Paul's hometown in the Roman province of Cilicia, a city he proudly noted was \"no insignificant city\" (Acts 21:39), and where Barnabas went to find him and bring him to Antioch (Acts 11:25-26).",
+  "geo": {
+    "lat": 36.91303,
+    "lng": 34.89206,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Tarsus"
+  }
 }

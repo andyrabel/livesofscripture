@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "A major Macedonian city where Paul preached for three sabbaths before jealous opponents formed a mob and dragged his host Jason before the city officials, forcing Paul to leave by night (Acts 17:1-10); Paul later wrote two letters to the church there."
+  "description": "A major Macedonian city where Paul preached for three sabbaths before jealous opponents formed a mob and dragged his host Jason before the city officials, forcing Paul to leave by night (Acts 17:1-10); Paul later wrote two letters to the church there.",
+  "geo": {
+    "lat": 40.63777,
+    "lng": 22.94577,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Thessalonica"
+  }
 }

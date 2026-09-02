@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A town near which Judah's Canaanite friend Hirah lived (Genesis 38:1, 12); a famous cave near there later became David's hideout, where his family and 400 men in distress gathered to him (1 Samuel 22:1-2)."
+  "description": "A town near which Judah's Canaanite friend Hirah lived (Genesis 38:1, 12); a famous cave near there later became David's hideout, where his family and 400 men in distress gathered to him (1 Samuel 22:1-2).",
+  "geo": {
+    "lat": 31.65167,
+    "lng": 35.00167,
+    "confidence": 737,
+    "kind": "point",
+    "openbible": "Adullam"
+  }
 }

@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "A town in Bashan captured and renamed by Nobah, a Manassite leader, after himself (Numbers 32:42)."
+  "description": "A town in Bashan captured and renamed by Nobah, a Manassite leader, after himself (Numbers 32:42).",
+  "geo": {
+    "lat": 32.75616,
+    "lng": 36.61899,
+    "confidence": 798,
+    "kind": "point",
+    "openbible": "Kenath",
+    "candidates": [
+      [
+        36.61899,
+        32.75616,
+        798
+      ],
+      [
+        36.34861,
+        32.68611,
+        37
+      ]
+    ]
+  }
 }

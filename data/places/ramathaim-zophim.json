@@ -52,5 +52,29 @@
       ]
     }
   ],
-  "description": "The home of Elkanah and his wives Hannah and Peninnah in the hill country of Ephraim, where Hannah's prayers for a child were answered with the birth of Samuel, whom she later brought to Shiloh to serve the Lord as she had vowed (1 Samuel 1:1-2:11)."
+  "description": "The home of Elkanah and his wives Hannah and Peninnah in the hill country of Ephraim, where Hannah's prayers for a child were answered with the birth of Samuel, whom she later brought to Shiloh to serve the Lord as she had vowed (1 Samuel 1:1-2:11).",
+  "geo": {
+    "lat": 31.85434,
+    "lng": 35.23161,
+    "confidence": 766,
+    "kind": "point",
+    "openbible": "Ramathaim-zophim",
+    "candidates": [
+      [
+        35.23161,
+        31.85434,
+        766
+      ],
+      [
+        35.01944,
+        32.02806,
+        112
+      ],
+      [
+        35.01944,
+        32.02806,
+        3
+      ]
+    ]
+  }
 }

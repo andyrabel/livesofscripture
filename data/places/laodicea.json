@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "A wealthy city in the Lycus Valley near Colossae, home to Nympha's house church (Colossians 4:15-16), later addressed in Revelation and rebuked for being lukewarm \u2014 \"neither cold nor hot\" (Revelation 3:14-22)."
+  "description": "A wealthy city in the Lycus Valley near Colossae, home to Nympha's house church (Colossians 4:15-16), later addressed in Revelation and rebuked for being lukewarm \u2014 \"neither cold nor hot\" (Revelation 3:14-22).",
+  "geo": {
+    "lat": 37.83583,
+    "lng": 29.1075,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Laodicea"
+  }
 }

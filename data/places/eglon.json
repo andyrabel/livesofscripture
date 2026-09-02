@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "One of five Amorite cities whose king joined an alliance against Gibeon and was defeated by Joshua in the battle where the sun stood still (Joshua 10:1-27)."
+  "description": "One of five Amorite cities whose king joined an alliance against Gibeon and was defeated by Joshua in the battle where the sun stood still (Joshua 10:1-27).",
+  "geo": {
+    "lat": 31.49181,
+    "lng": 34.92806,
+    "confidence": 574,
+    "kind": "point",
+    "openbible": "Eglon",
+    "candidates": [
+      [
+        34.92806,
+        31.49181,
+        574
+      ],
+      [
+        34.7302,
+        31.5477,
+        24
+      ],
+      [
+        34.9098,
+        31.4558,
+        8
+      ],
+      [
+        34.7583,
+        31.50259,
+        6
+      ]
+    ]
+  }
 }

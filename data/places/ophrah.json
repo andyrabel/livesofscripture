@@ -51,5 +51,12 @@
       ]
     }
   ],
-  "description": "Gideon's hometown, where the angel of the Lord commissioned him and where he tore down his father's altar to Baal (Judges 6:11-32). Gideon later made an idolatrous ephod there that became a snare to Israel (Judges 8:27), and it was there that Abimelech murdered nearly all of his seventy half-brothers (Judges 9:5)."
+  "description": "Gideon's hometown, where the angel of the Lord commissioned him and where he tore down his father's altar to Baal (Judges 6:11-32). Gideon later made an idolatrous ephod there that became a snare to Israel (Judges 8:27), and it was there that Abimelech murdered nearly all of his seventy half-brothers (Judges 9:5).",
+  "geo": {
+    "lat": 31.95444,
+    "lng": 35.30028,
+    "confidence": 786,
+    "kind": "point",
+    "openbible": "Ophrah 1"
+  }
 }

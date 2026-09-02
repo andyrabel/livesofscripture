@@ -25,5 +25,12 @@
       "gender": "female"
     }
   ],
-  "description": "A kingdom south of Egypt; its queen, known by the royal title Candace, sent a court official who was reading Isaiah and was baptized by Philip on the road to Gaza (Acts 8:26-39)."
+  "description": "A kingdom south of Egypt; its queen, known by the royal title Candace, sent a court official who was reading Isaiah and was baptized by Philip on the road to Gaza (Acts 8:26-39).",
+  "geo": {
+    "lat": 16.93514,
+    "lng": 33.75075,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Cush 1"
+  }
 }

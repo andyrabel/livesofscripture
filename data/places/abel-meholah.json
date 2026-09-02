@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "A town toward which the routed Midianites fled from Gideon (Judges 7:22); it was also Elisha's hometown, where Elijah found him plowing and called him as his successor (1 Kings 19:16)."
+  "description": "A town toward which the routed Midianites fled from Gideon (Judges 7:22); it was also Elisha's hometown, where Elijah found him plowing and called him as his successor (1 Kings 19:16).",
+  "geo": {
+    "lat": 32.3743,
+    "lng": 35.56089,
+    "confidence": 656,
+    "kind": "point",
+    "openbible": "Abel-meholah",
+    "candidates": [
+      [
+        35.56089,
+        32.3743,
+        656
+      ],
+      [
+        35.50465,
+        32.32656,
+        28
+      ]
+    ]
+  }
 }

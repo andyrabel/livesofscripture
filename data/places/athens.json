@@ -38,5 +38,12 @@
       ]
     }
   ],
-  "description": "The center of Greek philosophy and culture, where Paul reasoned in the synagogue and marketplace and addressed the Areopagus council on \"the unknown god,\" with Dionysius and Damaris among those who believed (Acts 17:16-34)."
+  "description": "The center of Greek philosophy and culture, where Paul reasoned in the synagogue and marketplace and addressed the Areopagus council on \"the unknown god,\" with Dionysius and Damaris among those who believed (Acts 17:16-34).",
+  "geo": {
+    "lat": 37.97185,
+    "lng": 23.72674,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Athens"
+  }
 }

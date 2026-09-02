@@ -61,5 +61,12 @@
       ]
     }
   ],
-  "description": "The forested highland territory allotted to Ephraim, a base of operations for several judges: Ehud rallied Israel's army from there after killing Eglon (Judges 3:26-27), and Deborah held court under a palm tree in the same hill country (Judges 4:4-5)."
+  "description": "The forested highland territory allotted to Ephraim, a base of operations for several judges: Ehud rallied Israel's army from there after killing Eglon (Judges 3:26-27), and Deborah held court under a palm tree in the same hill country (Judges 4:4-5).",
+  "geo": {
+    "lat": 31.92278,
+    "lng": 35.24139,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Mount Ephraim"
+  }
 }

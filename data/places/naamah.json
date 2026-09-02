@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "The homeland implied by Zophar \"the Naamathite,\" one of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 11:1-20)."
+  "description": "The homeland implied by Zophar \"the Naamathite,\" one of Job's three friends who came to comfort \u2014 and then argue with \u2014 him (Job 2:11; 11:1-20).",
+  "geo": {
+    "lat": 31.56528,
+    "lng": 34.84917,
+    "confidence": 528,
+    "kind": "representative",
+    "openbible": "Naamah 1",
+    "candidates": [
+      [
+        34.84917,
+        31.56528,
+        528
+      ],
+      [
+        34.94633,
+        31.57934,
+        36
+      ],
+      [
+        34.87325,
+        31.87217,
+        17
+      ]
+    ]
+  }
 }

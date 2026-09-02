@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "Home of Delilah, the woman Samson loved who was bribed by Philistine rulers to discover and betray the secret of his strength (Judges 16:4-20)."
+  "description": "Home of Delilah, the woman Samson loved who was bribed by Philistine rulers to discover and betray the secret of his strength (Judges 16:4-20).",
+  "geo": {
+    "lat": 31.75583,
+    "lng": 35.05,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Valley of Sorek"
+  }
 }

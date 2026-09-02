@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A fortified town of Judah where the prophet Eliezer confronted King Jehoshaphat over an ill-advised alliance (2 Chronicles 20:37); also the site of King Asa's earlier victory over a massive Cushite army (2 Chronicles 14:9-10)."
+  "description": "A fortified town of Judah where the prophet Eliezer confronted King Jehoshaphat over an ill-advised alliance (2 Chronicles 20:37); also the site of King Asa's earlier victory over a massive Cushite army (2 Chronicles 14:9-10).",
+  "geo": {
+    "lat": 31.59296,
+    "lng": 34.89824,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mareshah"
+  }
 }

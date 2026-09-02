@@ -73,5 +73,12 @@
       ]
     }
   ],
-  "description": "The nation descended from Esau (also called Edom), settled in the mountainous region of Seir south of the Dead Sea. Edom refused Israel passage during the wilderness years (Numbers 20:14-21) and remained a persistent, often bitter rival through the monarchy \u2014 rebelling against Judah's control under Jehoram (2 Kings 8:20-22) and later gloating over Jerusalem's fall, which the book of Obadiah condemns at length."
+  "description": "The nation descended from Esau (also called Edom), settled in the mountainous region of Seir south of the Dead Sea. Edom refused Israel passage during the wilderness years (Numbers 20:14-21) and remained a persistent, often bitter rival through the monarchy \u2014 rebelling against Judah's control under Jehoram (2 Kings 8:20-22) and later gloating over Jerusalem's fall, which the book of Obadiah condemns at length.",
+  "geo": {
+    "lat": 30.74584,
+    "lng": 35.60392,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Edom"
+  }
 }

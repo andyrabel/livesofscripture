@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The desert region south and east of Canaan; Nehemiah's opponent Geshem the Arab came from this broader region and opposed the rebuilding of Jerusalem's walls (Nehemiah 2:19; 6:1-2)."
+  "description": "The desert region south and east of Canaan; Nehemiah's opponent Geshem the Arab came from this broader region and opposed the rebuilding of Jerusalem's walls (Nehemiah 2:19; 6:1-2).",
+  "geo": {
+    "lat": 23.0,
+    "lng": 46.0,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Arabia 1"
+  }
 }

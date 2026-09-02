@@ -29,5 +29,29 @@
       ]
     }
   ],
-  "description": "The site of a local Baal shrine where Israelite men were drawn into idolatry and sexual immorality with Moabite women, a plague-provoking sin that Phinehas's decisive action helped end (Numbers 25)."
+  "description": "The site of a local Baal shrine where Israelite men were drawn into idolatry and sexual immorality with Moabite women, a plague-provoking sin that Phinehas's decisive action helped end (Numbers 25).",
+  "geo": {
+    "lat": 31.77702,
+    "lng": 35.7385,
+    "confidence": 537,
+    "kind": "representative",
+    "openbible": "Baal-peor",
+    "candidates": [
+      [
+        35.7385,
+        31.77702,
+        537
+      ],
+      [
+        35.7385,
+        31.77702,
+        398
+      ],
+      [
+        35.72238,
+        31.79846,
+        46
+      ]
+    ]
+  }
 }

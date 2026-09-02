@@ -38,5 +38,12 @@
       ]
     }
   ],
-  "description": "A strategic fortress city controlling the Jezreel Valley where King Josiah was fatally wounded confronting Pharaoh Neco's army (2 Kings 23:29-30), and the source of the name \"Armageddon\" (Har Megiddo) in Revelation 16:16."
+  "description": "A strategic fortress city controlling the Jezreel Valley where King Josiah was fatally wounded confronting Pharaoh Neco's army (2 Kings 23:29-30), and the source of the name \"Armageddon\" (Har Megiddo) in Revelation 16:16.",
+  "geo": {
+    "lat": 32.58528,
+    "lng": 35.18444,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Megiddo"
+  }
 }

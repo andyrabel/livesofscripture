@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "A nation named among Japheth's descendants (Genesis 10:2), later the homeland of Gog in Ezekiel's prophecy of a great end-time invasion of Israel (Ezekiel 38-39)."
+  "description": "A nation named among Japheth's descendants (Genesis 10:2), later the homeland of Gog in Ezekiel's prophecy of a great end-time invasion of Israel (Ezekiel 38-39).",
+  "geo": {
+    "lat": 38.48833,
+    "lng": 28.04028,
+    "confidence": 387,
+    "kind": "representative",
+    "openbible": "Magog",
+    "candidates": [
+      [
+        28.04028,
+        38.48833,
+        387
+      ],
+      [
+        34.12056,
+        44.94278,
+        197
+      ],
+      [
+        44.42222,
+        32.54333,
+        24
+      ]
+    ]
+  }
 }

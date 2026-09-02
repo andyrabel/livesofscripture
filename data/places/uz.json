@@ -67,5 +67,39 @@
       ]
     }
   ],
-  "description": "The homeland of Job, described as \"the greatest of all the men of the east\" before his sudden loss of family, wealth, and health became the subject of the book that bears his name (Job 1:1-3). Its location is not certain, though Lamentations 4:21 associates the name loosely with Edom."
+  "description": "The homeland of Job, described as \"the greatest of all the men of the east\" before his sudden loss of family, wealth, and health became the subject of the book that bears his name (Job 1:1-3). Its location is not certain, though Lamentations 4:21 associates the name loosely with Edom.",
+  "geo": {
+    "lat": 30.74584,
+    "lng": 35.60392,
+    "confidence": 384,
+    "kind": "representative",
+    "openbible": "Uz",
+    "candidates": [
+      [
+        35.60392,
+        30.74584,
+        384
+      ],
+      [
+        37.75,
+        31.0,
+        262
+      ],
+      [
+        36.36812,
+        32.73009,
+        205
+      ],
+      [
+        34.84083,
+        31.24472,
+        54
+      ],
+      [
+        36.035,
+        32.83583,
+        49
+      ]
+    ]
+  }
 }

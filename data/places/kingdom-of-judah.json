@@ -279,5 +279,12 @@
     }
   ],
   "description": "The southern of the two kingdoms Israel split into after Solomon's death, made up of the tribes of Judah and Benjamin and ruled continuously by David's descendants from Jerusalem (1 Kings 12; 2 Chronicles 11:1). Judah outlasted the northern kingdom by over a century, surviving Assyria's 722 BC conquest of Israel but eventually falling to Babylon, whose armies destroyed Jerusalem and its temple in 586 BC and deported much of the population (2 Kings 25). Most of the writing prophets \u2014 Isaiah, Jeremiah, Micah, Zephaniah, Habakkuk \u2014 ministered to Judah's kings and people in this period, warning of coming judgment and, beyond it, of restoration. The kingdom's name outlived its independence, giving later Scripture the term \"Jew.\"",
-  "family_friendly_summary": "After wise King Solomon died, God's people split into two kingdoms. Judah was the kingdom in the south, ruled by kings from David's own family, with Jerusalem as its capital. Some of Judah's kings loved God and some did not. Many prophets, like Isaiah and Jeremiah, warned Judah's kings to turn back to God. Eventually, Judah was conquered by Babylon."
+  "family_friendly_summary": "After wise King Solomon died, God's people split into two kingdoms. Judah was the kingdom in the south, ruled by kings from David's own family, with Jerusalem as its capital. Some of Judah's kings loved God and some did not. Many prophets, like Isaiah and Jeremiah, warned Judah's kings to turn back to God. Eventually, Judah was conquered by Babylon.",
+  "geo": {
+    "lat": 31.77667,
+    "lng": 35.23417,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Judea 1"
+  }
 }

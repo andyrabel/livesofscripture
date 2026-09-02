@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The northern Greek region Paul was called to in a vision (\"come over and help us\"), beginning his ministry in Europe (Acts 16:9-10); Erastus is named among those Paul sent ahead there (Acts 19:22)."
+  "description": "The northern Greek region Paul was called to in a vision (\"come over and help us\"), beginning his ministry in Europe (Acts 16:9-10); Erastus is named among those Paul sent ahead there (Acts 19:22).",
+  "geo": {
+    "lat": 41.6,
+    "lng": 22.54,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Macedonia"
+  }
 }

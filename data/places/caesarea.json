@@ -154,5 +154,12 @@
     }
   ],
   "description": "A Roman port city built by Herod the Great and named for Caesar Augustus, Caesarea served as the Roman governor's residence and administrative capital of Judea. Philip the evangelist settled there (Acts 8:40; 21:8), and it was in Caesarea that Cornelius, a Roman centurion, received a vision leading to Peter's visit and the first recorded Gentile conversion apart from circumcision (Acts 10). Paul was later held under guard in Caesarea for two years, tried before governors Felix and Festus and King Agrippa, and it was from there that he appealed to Caesar and sailed for Rome (Acts 23-26).",
-  "family_friendly_summary": "Caesarea was a busy port city built by Herod the Great, where the Roman governor lived. It's where a Roman soldier named Cornelius became one of the first non-Jewish believers, after Peter visited him. Later, Paul was kept as a prisoner in Caesarea for two years and had to defend himself in front of several important rulers there."
+  "family_friendly_summary": "Caesarea was a busy port city built by Herod the Great, where the Roman governor lived. It's where a Roman soldier named Cornelius became one of the first non-Jewish believers, after Peter visited him. Later, Paul was kept as a prisoner in Caesarea for two years and had to defend himself in front of several important rulers there.",
+  "geo": {
+    "lat": 32.5,
+    "lng": 34.89167,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Caesarea"
+  }
 }

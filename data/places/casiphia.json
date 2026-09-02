@@ -30,5 +30,24 @@
       "gender": "male"
     }
   ],
-  "description": "A settlement in Babylonia where Ezra sent for Levites to accompany the returning exiles to Jerusalem, since none had yet joined his group (Ezra 8:15-20)."
+  "description": "A settlement in Babylonia where Ezra sent for Levites to accompany the returning exiles to Jerusalem, since none had yet joined his group (Ezra 8:15-20).",
+  "geo": {
+    "lat": 32.54333,
+    "lng": 44.42222,
+    "confidence": 784,
+    "kind": "representative",
+    "openbible": "Casiphia",
+    "candidates": [
+      [
+        44.42222,
+        32.54333,
+        784
+      ],
+      [
+        44.58083,
+        33.09361,
+        13
+      ]
+    ]
+  }
 }

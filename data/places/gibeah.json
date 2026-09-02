@@ -81,5 +81,29 @@
       ]
     }
   ],
-  "description": "A Benjaminite town whose men's horrific crime against a Levite's concubine triggered a civil war that nearly wiped out the tribe of Benjamin (Judges 19-20). It later became the hometown and capital of Israel's first king, Saul, whose family \u2014 including Jonathan and Michal \u2014 is repeatedly identified with the place (1 Samuel 10:26; 11:4)."
+  "description": "A Benjaminite town whose men's horrific crime against a Levite's concubine triggered a civil war that nearly wiped out the tribe of Benjamin (Judges 19-20). It later became the hometown and capital of Israel's first king, Saul, whose family \u2014 including Jonathan and Michal \u2014 is repeatedly identified with the place (1 Samuel 10:26; 11:4).",
+  "geo": {
+    "lat": 31.82311,
+    "lng": 35.23072,
+    "confidence": 669,
+    "kind": "point",
+    "openbible": "Gibeah 1",
+    "candidates": [
+      [
+        35.23072,
+        31.82311,
+        669
+      ],
+      [
+        35.26111,
+        31.8575,
+        94
+      ],
+      [
+        35.26111,
+        31.8575,
+        27
+      ]
+    ]
+  }
 }

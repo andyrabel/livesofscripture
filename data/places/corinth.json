@@ -144,5 +144,12 @@
     }
   ],
   "description": "A major, wealthy Roman commercial city on the isthmus connecting mainland Greece to the Peloponnese, known for its sea trade and, notoriously, its immorality. Paul arrived there on his second missionary journey, met Aquila and Priscilla, and spent eighteen months establishing a church, appearing before the proconsul Gallio when opponents brought charges against him (Acts 18:1-18). The church he planted proved troubled \u2014 factions, lawsuits between believers, and tolerated sexual immorality among them \u2014 prompting his two New Testament letters to Corinth, which address these problems along with foundational teaching on love, spiritual gifts, and the resurrection (1 Corinthians; 2 Corinthians).",
-  "family_friendly_summary": "Corinth was a busy trading city in Greece where Paul lived and worked for about a year and a half, teaching people about Jesus and starting a church. The Christians there sometimes struggled to get along or live the way Jesus wanted, so Paul wrote them two long letters to help guide and encourage them."
+  "family_friendly_summary": "Corinth was a busy trading city in Greece where Paul lived and worked for about a year and a half, teaching people about Jesus and starting a church. The Christians there sometimes struggled to get along or live the way Jesus wanted, so Paul wrote them two long letters to help guide and encourage them.",
+  "geo": {
+    "lat": 37.90579,
+    "lng": 22.87874,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Corinth"
+  }
 }

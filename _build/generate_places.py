@@ -24,6 +24,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from places_data import PLACES_MAJOR, PLACES_MID, PLACES_MINOR  # noqa: E402
 from place_people_roles import ROLES  # noqa: E402
 
+# lon/lat + OpenBible confidence per place, produced by
+# _build/backfill_place_coords.py. Absent entries just render without a map.
+_coords_path = Path(__file__).resolve().parent / "place_coords.json"
+PLACE_COORDS = json.loads(_coords_path.read_text())["coords"] if _coords_path.exists() else {}
+
 ERA_ORDER = ["Primeval History", "Patriarchal", "Exodus/Wilderness", "Judges",
              "United Monarchy", "Divided Monarchy", "Exile",
              "Post-Exile/Intertestamental", "Gospels", "Apostolic"]
@@ -287,6 +292,10 @@ def main():
         else:
             entry["description"] = c.get("desc", "")
 
+        geo = PLACE_COORDS.get(slug)
+        if geo:
+            entry["geo"] = geo
+
         places.append(entry)
         disamb_groups[name_grouping_key(c["name"])].append(slug)
 
@@ -337,7 +346,7 @@ def main():
     # --- write lightweight index ---
     index_entries = []
     for e in places:
-        index_entries.append({
+        ie = {
             "place_id": e["place_id"],
             "name": e["name"],
             "alt_names": e["alt_names"],
@@ -347,7 +356,11 @@ def main():
             "eras": e["eras"],
             "n_people": e["n_people"],
             "disambiguation": e.get("disambiguation", ""),
-        })
+        }
+        if e.get("geo"):
+            ie["lat"] = e["geo"]["lat"]
+            ie["lng"] = e["geo"]["lng"]
+        index_entries.append(ie)
     index_entries.sort(key=lambda e: e["name"])
     (ROOT / "data" / "places-index.json").write_text(json.dumps(index_entries, indent=2) + "\n")
 

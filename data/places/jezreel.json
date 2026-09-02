@@ -78,5 +78,12 @@
       ]
     }
   ],
-  "description": "A town in the fertile valley of the same name, site of Ahab and Jezebel's royal residence and of Naboth's vineyard, which Jezebel seized after arranging Naboth's murder \u2014 provoking Elijah's denunciation of the royal house (1 Kings 21). Jezebel later met her violent, prophesied death there when Jehu came to seize the throne (2 Kings 9:30-37)."
+  "description": "A town in the fertile valley of the same name, site of Ahab and Jezebel's royal residence and of Naboth's vineyard, which Jezebel seized after arranging Naboth's murder \u2014 provoking Elijah's denunciation of the royal house (1 Kings 21). Jezebel later met her violent, prophesied death there when Jehu came to seize the throne (2 Kings 9:30-37).",
+  "geo": {
+    "lat": 32.55785,
+    "lng": 35.32795,
+    "confidence": 806,
+    "kind": "point",
+    "openbible": "Jezreel 2"
+  }
 }

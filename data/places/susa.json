@@ -159,5 +159,12 @@
     }
   ],
   "description": "Winter capital of the Persian Empire, Susa is where nearly the entire book of Esther takes place: King Ahasuerus's court, Esther's rise to queen, Haman's plot against the Jews, and Mordecai's and Esther's eventual reversal of it (Esther 1-9). Nehemiah was serving as the king's cupbearer in Susa's citadel when he heard news of Jerusalem's broken walls, prompting his request to return and rebuild them (Nehemiah 1:1; 2:1-8). Daniel also received one of his visions while in Susa, though the text does not say he was living there permanently at the time (Daniel 8:2).",
-  "family_friendly_summary": "Susa was the winter capital city of the powerful Persian Empire. It's where the whole story of Esther takes place \u2014 Esther became queen there, and later bravely saved her people from a wicked plot. Nehemiah was also serving as the king's helper in Susa when he heard sad news about Jerusalem, which led him to ask permission to go rebuild its walls."
+  "family_friendly_summary": "Susa was the winter capital city of the powerful Persian Empire. It's where the whole story of Esther takes place \u2014 Esther became queen there, and later bravely saved her people from a wicked plot. Nehemiah was also serving as the king's helper in Susa when he heard sad news about Jerusalem, which led him to ask permission to go rebuild its walls.",
+  "geo": {
+    "lat": 32.18922,
+    "lng": 48.25778,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Susa"
+  }
 }

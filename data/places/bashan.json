@@ -31,5 +31,12 @@
       "gender": "male"
     }
   ],
-  "description": "A fertile region east of the Jordan ruled by Og, a king of the remnant of the Rephaim giants, whom Israel defeated on the way to Canaan (Numbers 21:33-35; Deuteronomy 3:1-11)."
+  "description": "A fertile region east of the Jordan ruled by Og, a king of the remnant of the Rephaim giants, whom Israel defeated on the way to Canaan (Numbers 21:33-35; Deuteronomy 3:1-11).",
+  "geo": {
+    "lat": 32.78111,
+    "lng": 35.93472,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Bashan"
+  }
 }

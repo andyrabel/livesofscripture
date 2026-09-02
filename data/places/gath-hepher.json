@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown of the prophet Jonah, in Zebulun's territory (2 Kings 14:25)."
+  "description": "The hometown of the prophet Jonah, in Zebulun's territory (2 Kings 14:25).",
+  "geo": {
+    "lat": 32.73806,
+    "lng": 35.31972,
+    "confidence": 789,
+    "kind": "point",
+    "openbible": "Gath-hepher",
+    "candidates": [
+      [
+        35.31972,
+        32.73806,
+        789
+      ],
+      [
+        35.32444,
+        32.73833,
+        8
+      ]
+    ]
+  }
 }

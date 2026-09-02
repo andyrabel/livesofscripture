@@ -30,5 +30,12 @@
       "gender": "male"
     }
   ],
-  "description": "The highland region where Zechariah and Elizabeth lived and where Mary visited her relative Elizabeth while both were pregnant, prompting Elizabeth's Spirit-filled greeting (Luke 1:39-45)."
+  "description": "The highland region where Zechariah and Elizabeth lived and where Mary visited her relative Elizabeth while both were pregnant, prompting Elizabeth's Spirit-filled greeting (Luke 1:39-45).",
+  "geo": {
+    "lat": 31.77667,
+    "lng": 35.23417,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Judea 1"
+  }
 }

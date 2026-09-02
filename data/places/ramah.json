@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "A town near which Samuel made his home for part of his judging circuit (1 Samuel 7:17), fortified by King Baasha of Israel against Judah before Asa had it dismantled (1 Kings 15:17-22)."
+  "description": "A town near which Samuel made his home for part of his judging circuit (1 Samuel 7:17), fortified by King Baasha of Israel against Judah before Asa had it dismantled (1 Kings 15:17-22).",
+  "geo": {
+    "lat": 31.85434,
+    "lng": 35.23161,
+    "confidence": 1113,
+    "kind": "point",
+    "openbible": "Ramah 7",
+    "candidates": [
+      [
+        35.23161,
+        31.85434,
+        1113
+      ],
+      [
+        35.23056,
+        33.25528,
+        53
+      ],
+      [
+        35.23161,
+        31.85434,
+        15
+      ]
+    ]
+  }
 }

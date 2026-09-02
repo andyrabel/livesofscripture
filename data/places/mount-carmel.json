@@ -29,5 +29,12 @@
       ]
     }
   ],
-  "description": "The mountain where Elijah confronted 450 prophets of Baal in a public contest to prove who the true God was, calling down fire from heaven when Baal's prophets' pleas went unanswered (1 Kings 18:16-40)."
+  "description": "The mountain where Elijah confronted 450 prophets of Baal in a public contest to prove who the true God was, calling down fire from heaven when Baal's prophets' pleas went unanswered (1 Kings 18:16-40).",
+  "geo": {
+    "lat": 32.6725,
+    "lng": 35.02333,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount Carmel"
+  }
 }

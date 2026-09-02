@@ -25,5 +25,34 @@
       "gender": "male"
     }
   ],
-  "description": "One of the cities of the plain, allied with Sodom under its king Shemeber, destroyed alongside it (Genesis 14:2; Deuteronomy 29:23)."
+  "description": "One of the cities of the plain, allied with Sodom under its king Shemeber, destroyed alongside it (Genesis 14:2; Deuteronomy 29:23).",
+  "geo": {
+    "lat": 31.20849,
+    "lng": 35.44922,
+    "confidence": 530,
+    "kind": "representative",
+    "openbible": "Zeboiim",
+    "candidates": [
+      [
+        35.44922,
+        31.20849,
+        530
+      ],
+      [
+        35.45884,
+        30.93961,
+        66
+      ],
+      [
+        35.59528,
+        31.795,
+        29
+      ],
+      [
+        35.63849,
+        31.90458,
+        18
+      ]
+    ]
+  }
 }

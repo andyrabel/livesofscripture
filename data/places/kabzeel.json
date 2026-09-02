@@ -25,5 +25,24 @@
       "gender": "male"
     }
   ],
-  "description": "The hometown of Benaiah, one of David's mighty men known for striking down two of Moab's best men and killing a lion in a pit on a snowy day (2 Samuel 23:20-21)."
+  "description": "The hometown of Benaiah, one of David's mighty men known for striking down two of Moab's best men and killing a lion in a pit on a snowy day (2 Samuel 23:20-21).",
+  "geo": {
+    "lat": 31.28619,
+    "lng": 34.93235,
+    "confidence": 162,
+    "kind": "point",
+    "openbible": "Kabzeel",
+    "candidates": [
+      [
+        34.93235,
+        31.28619,
+        162
+      ],
+      [
+        34.9867,
+        31.2328,
+        149
+      ]
+    ]
+  }
 }

@@ -25,5 +25,39 @@
       "gender": "male"
     }
   ],
-  "description": "Where a northern Canaanite coalition led by Jabin of Hazor, including king Jobab of Madon, gathered against Israel and was decisively defeated by Joshua (Joshua 11:1-9)."
+  "description": "Where a northern Canaanite coalition led by Jabin of Hazor, including king Jobab of Madon, gathered against Israel and was decisively defeated by Joshua (Joshua 11:1-9).",
+  "geo": {
+    "lat": 32.97889,
+    "lng": 35.43778,
+    "confidence": 77,
+    "kind": "point",
+    "openbible": "Waters of Merom",
+    "candidates": [
+      [
+        35.43778,
+        32.97889,
+        77
+      ],
+      [
+        35.46056,
+        33.09972,
+        69
+      ],
+      [
+        35.43187,
+        33.11698,
+        51
+      ],
+      [
+        35.51667,
+        32.82972,
+        42
+      ],
+      [
+        35.53204,
+        32.85362,
+        41
+      ]
+    ]
+  }
 }

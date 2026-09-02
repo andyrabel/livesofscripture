@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "An ancient Phoenician port city; Jezebel, Ahab's notorious queen, was the daughter of Sidon's king Ethbaal, bringing Baal worship with her into Israel (1 Kings 16:31)."
+  "description": "An ancient Phoenician port city; Jezebel, Ahab's notorious queen, was the daughter of Sidon's king Ethbaal, bringing Baal worship with her into Israel (1 Kings 16:31).",
+  "geo": {
+    "lat": 33.56099,
+    "lng": 35.37194,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Sidon"
+  }
 }

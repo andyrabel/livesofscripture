@@ -91,5 +91,12 @@
       ]
     }
   ],
-  "description": "A wilderness region where Ishmael settled and where his mother Hagar found him a wife (Genesis 21:21), and later a stage of Israel's wilderness journey between Sinai and Kadesh. It was from Paran that Moses sent out the twelve spies to scout Canaan, ten of whom returned with a discouraging report that provoked God's judgment of forty years' wandering (Numbers 13)."
+  "description": "A wilderness region where Ishmael settled and where his mother Hagar found him a wife (Genesis 21:21), and later a stage of Israel's wilderness journey between Sinai and Kadesh. It was from Paran that Moses sent out the twelve spies to scout Canaan, ten of whom returned with a discouraging report that provoked God's judgment of forty years' wandering (Numbers 13).",
+  "geo": {
+    "lat": 30.30322,
+    "lng": 34.77667,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Paran"
+  }
 }

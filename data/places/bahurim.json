@@ -49,5 +49,24 @@
       ]
     }
   ],
-  "description": "A Benjaminite town where Shimei cursed and threw stones at David as he fled Absalom's rebellion (2 Samuel 16:5-13), and where a woman hid David's spies Ahimaaz and Jonathan in a well to save them from Absalom's search party (2 Samuel 17:18-20)."
+  "description": "A Benjaminite town where Shimei cursed and threw stones at David as he fled Absalom's rebellion (2 Samuel 16:5-13), and where a woman hid David's spies Ahimaaz and Jonathan in a well to save them from Absalom's search party (2 Samuel 17:18-20).",
+  "geo": {
+    "lat": 31.7912,
+    "lng": 35.25694,
+    "confidence": 475,
+    "kind": "point",
+    "openbible": "Bahurim",
+    "candidates": [
+      [
+        35.25694,
+        31.7912,
+        475
+      ],
+      [
+        35.2645,
+        31.79154,
+        132
+      ]
+    ]
+  }
 }

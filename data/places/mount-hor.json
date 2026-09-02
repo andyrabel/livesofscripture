@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29)."
+  "description": "The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29).",
+  "geo": {
+    "lat": 30.83206,
+    "lng": 35.05687,
+    "confidence": 336,
+    "kind": "point",
+    "openbible": "Mount Hor 1",
+    "candidates": [
+      [
+        35.05687,
+        30.83206,
+        336
+      ],
+      [
+        34.52912,
+        30.76517,
+        114
+      ],
+      [
+        34.43891,
+        30.74704,
+        15
+      ]
+    ]
+  }
 }

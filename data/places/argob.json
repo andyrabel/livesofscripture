@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A district of Bashan with sixty fortified cities that Israel captured under Moses, later included in the territory allotted to Jair of Manasseh (Deuteronomy 3:4-14)."
+  "description": "A district of Bashan with sixty fortified cities that Israel captured under Moses, later included in the territory allotted to Jair of Manasseh (Deuteronomy 3:4-14).",
+  "geo": {
+    "lat": 32.9695,
+    "lng": 36.45538,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Argob"
+  }
 }

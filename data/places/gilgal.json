@@ -70,5 +70,34 @@
       ]
     }
   ],
-  "description": "Israel's first camp in Canaan after crossing the Jordan, where the twelve memorial stones were set up and the nation was circumcised and kept its first Passover in the land (Joshua 4:19-5:12). Saul was confirmed as king there (1 Samuel 11:14-15), and it was at Gilgal that Samuel confronted Saul for disobeying God's instructions regarding Amalek and announced that his kingdom would be torn from him (1 Samuel 15:10-33)."
+  "description": "Israel's first camp in Canaan after crossing the Jordan, where the twelve memorial stones were set up and the nation was circumcised and kept its first Passover in the land (Joshua 4:19-5:12). Saul was confirmed as king there (1 Samuel 11:14-15), and it was at Gilgal that Samuel confronted Saul for disobeying God's instructions regarding Amalek and announced that his kingdom would be torn from him (1 Samuel 15:10-33).",
+  "geo": {
+    "lat": 31.88188,
+    "lng": 35.45997,
+    "confidence": 556,
+    "kind": "point",
+    "openbible": "Gilgal 1",
+    "candidates": [
+      [
+        35.45997,
+        31.88188,
+        556
+      ],
+      [
+        35.51549,
+        32.15993,
+        20
+      ],
+      [
+        35.3707,
+        32.24925,
+        14
+      ],
+      [
+        35.45883,
+        31.87394,
+        14
+      ]
+    ]
+  }
 }

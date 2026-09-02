@@ -30,5 +30,29 @@
       ]
     }
   ],
-  "description": "A village to which two disciples, including Cleopas, were walking on the day of the resurrection when the risen Jesus joined them unrecognized, opening the Scriptures until He was revealed in the breaking of bread (Luke 24:13-35)."
+  "description": "A village to which two disciples, including Cleopas, were walking on the day of the resurrection when the risen Jesus joined them unrecognized, opening the Scriptures until He was revealed in the breaking of bread (Luke 24:13-35).",
+  "geo": {
+    "lat": 31.79289,
+    "lng": 35.16419,
+    "confidence": 338,
+    "kind": "point",
+    "openbible": "Emmaus",
+    "candidates": [
+      [
+        35.16419,
+        31.79289,
+        338
+      ],
+      [
+        34.98946,
+        31.8393,
+        240
+      ],
+      [
+        35.13685,
+        31.83993,
+        60
+      ]
+    ]
+  }
 }

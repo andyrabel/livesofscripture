@@ -25,5 +25,29 @@
       "gender": "male"
     }
   ],
-  "description": "A port on the Red Sea's Gulf of Aqaba where Solomon built a fleet of trading ships (1 Kings 9:26); a similar fleet, built later by Jehoshaphat with Ahaziah of Israel, was wrecked there (1 Kings 22:48)."
+  "description": "A port on the Red Sea's Gulf of Aqaba where Solomon built a fleet of trading ships (1 Kings 9:26); a similar fleet, built later by Jehoshaphat with Ahaziah of Israel, was wrecked there (1 Kings 22:48).",
+  "geo": {
+    "lat": 29.46284,
+    "lng": 34.86005,
+    "confidence": 360,
+    "kind": "representative",
+    "openbible": "Ezion-geber",
+    "candidates": [
+      [
+        34.86005,
+        29.46284,
+        360
+      ],
+      [
+        34.98026,
+        29.54718,
+        239
+      ],
+      [
+        35.0,
+        29.53068,
+        27
+      ]
+    ]
+  }
 }

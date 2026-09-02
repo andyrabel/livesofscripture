@@ -60,5 +60,12 @@
       ]
     }
   ],
-  "description": "Capital of Ammon, besieged by Joab's army in the campaign during which David arranged Uriah's death while Uriah's own unit fought at its walls (2 Samuel 11:1, 14-17). Joab later called David to finish the siege personally, and David took the city and its crown (2 Samuel 12:26-31)."
+  "description": "Capital of Ammon, besieged by Joab's army in the campaign during which David arranged Uriah's death while Uriah's own unit fought at its walls (2 Samuel 11:1, 14-17). Joab later called David to finish the siege personally, and David took the city and its crown (2 Samuel 12:26-31).",
+  "geo": {
+    "lat": 31.9547,
+    "lng": 35.9343,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Rabbah 1"
+  }
 }

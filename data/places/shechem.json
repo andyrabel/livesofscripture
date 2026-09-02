@@ -129,5 +129,12 @@
     }
   ],
   "description": "A city in the hill country of Ephraim where Abraham first camped and built an altar upon entering Canaan (Genesis 12:6-7), and where Jacob later bought land, pitched his tent, and saw his daughter Dinah violated by the city's prince \u2014 provoking Simeon and Levi's brutal revenge (Genesis 33:18-19; 34). Joshua gathered Israel at Shechem near the end of his life to renew the covenant (Joshua 24), and it was there that Abimelech, Gideon's son, murdered his brothers and briefly seized power before the city's own people turned on him (Judges 9). Rehoboam went to Shechem to be crowned king, only for the northern tribes to reject him there and split the kingdom under Jeroboam instead (1 Kings 12:1-19).",
-  "family_friendly_summary": "Shechem was a city where Abraham built one of his first altars after arriving in Canaan. Jacob later camped there too. Many years after that, Joshua gathered all of Israel at Shechem to renew their promise to follow God. It's also the city where the kingdom of Israel split in two, after the northern tribes refused to accept Solomon's son as their king."
+  "family_friendly_summary": "Shechem was a city where Abraham built one of his first altars after arriving in Canaan. Jacob later camped there too. Many years after that, Joshua gathered all of Israel at Shechem to renew their promise to follow God. It's also the city where the kingdom of Israel split in two, after the northern tribes refused to accept Solomon's son as their king.",
+  "geo": {
+    "lat": 32.21361,
+    "lng": 35.28194,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Shechem"
+  }
 }

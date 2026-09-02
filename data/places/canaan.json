@@ -259,5 +259,12 @@
     }
   ],
   "description": "The land between the Mediterranean and the Jordan promised to Abraham's descendants (Genesis 12:5-7; 15:18-21), named for Noah's grandson whose descendants settled it (Genesis 9:18; 10:15-19). Abraham, Isaac, and Jacob lived there as resident foreigners without owning it outright, apart from the burial cave at Machpelah. After the exodus, Joshua led Israel's conquest and settlement of Canaan, dividing it among the twelve tribes (Joshua 1-12; 13-21) \u2014 a land whose Canaanite population's idolatry and practices Israel was repeatedly warned not to adopt. \"Canaan\" as a name for the land largely gives way to \"Israel\" once the tribes are settled, though it remains the standard term for the pre-conquest and patriarchal-era territory throughout Genesis.",
-  "family_friendly_summary": "Canaan was the land God promised to give to Abraham and his family, long before they lived there. Abraham, Isaac, and Jacob traveled through Canaan but didn't fully own it yet. Many years later, after the exodus from Egypt, Joshua led the people of Israel into Canaan and they finally settled there, dividing the land among the twelve tribes."
+  "family_friendly_summary": "Canaan was the land God promised to give to Abraham and his family, long before they lived there. Abraham, Isaac, and Jacob traveled through Canaan but didn't fully own it yet. Many years later, after the exodus from Egypt, Joshua led the people of Israel into Canaan and they finally settled there, dividing the land among the twelve tribes.",
+  "geo": {
+    "lat": 32.76667,
+    "lng": 35.33333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Canaan"
+  }
 }

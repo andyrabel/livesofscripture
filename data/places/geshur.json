@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "A small Aramean kingdom northeast of Israel where David's son Absalom, whose mother Maacah was a Geshurite princess, fled for three years after murdering his half-brother Amnon (2 Samuel 13:37-38)."
+  "description": "A small Aramean kingdom northeast of Israel where David's son Absalom, whose mother Maacah was a Geshurite princess, fled for three years after murdering his half-brother Amnon (2 Samuel 13:37-38).",
+  "geo": {
+    "lat": 32.76667,
+    "lng": 35.7,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Geshur"
+  }
 }

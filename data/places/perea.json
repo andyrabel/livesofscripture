@@ -25,5 +25,12 @@
       "gender": "male"
     }
   ],
-  "description": "The region east of the Jordan Jesus traveled through on His final journey toward Jerusalem (Matthew 19:1; Mark 10:1)."
+  "description": "The region east of the Jordan Jesus traveled through on His final journey toward Jerusalem (Matthew 19:1; Mark 10:1).",
+  "geo": {
+    "lat": 31.95,
+    "lng": 35.7,
+    "confidence": 0,
+    "kind": "representative",
+    "note": "Approximate: the region east of the Jordan opposite Judea and Samaria."
+  }
 }

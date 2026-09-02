@@ -170,5 +170,12 @@
     }
   ],
   "description": "A major port city in the Roman province of Asia, home to the temple of Artemis, one of the ancient world's Seven Wonders. Paul first visited briefly (Acts 18:19-21) then returned and spent about three years establishing a church there, teaching daily in the hall of Tyrannus (Acts 19:8-10) \u2014 long enough that a riot broke out among silversmiths whose idol-making trade his preaching threatened (Acts 19:23-41). He later wrote Ephesians, likely a circular letter to churches in the region, and gave Timothy responsibility for the Ephesian church (1 Timothy 1:3). It is also the first of the seven churches addressed in Revelation, commended for perseverance but warned for having \"left your first love\" (Revelation 2:1-7).",
-  "family_friendly_summary": "Ephesus was a big city with a huge temple to a false goddess called Artemis. Paul spent about three years there teaching people about Jesus, and so many people believed that it hurt the business of men who made idols \u2014 they even started a riot! Paul later wrote a letter to the Christians in Ephesus, and it's also one of the seven churches Jesus speaks to in Revelation."
+  "family_friendly_summary": "Ephesus was a big city with a huge temple to a false goddess called Artemis. Paul spent about three years there teaching people about Jesus, and so many people believed that it hurt the business of men who made idols \u2014 they even started a riot! Paul later wrote a letter to the Christians in Ephesus, and it's also one of the seven churches Jesus speaks to in Revelation.",
+  "geo": {
+    "lat": 37.93912,
+    "lng": 27.3407,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Ephesus"
+  }
 }
