@@ -294,7 +294,9 @@ def main():
 
         geo = PLACE_COORDS.get(slug)
         if geo:
-            entry["geo"] = geo
+            # `geojson` is a build-time pointer for generate_maps.py only —
+            # keep it out of the shipped per-place file.
+            entry["geo"] = {k: v for k, v in geo.items() if k != "geojson"}
 
         places.append(entry)
         disamb_groups[name_grouping_key(c["name"])].append(slug)

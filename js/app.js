@@ -3658,6 +3658,15 @@ async function renderMapExplorer() {
     const lakes = ext.lakes.map((d) => `<path class="map-lake" d="${d}"/>`).join("");
     const rivers = ext.rivers.map((d) => `<path class="map-river" d="${d}"/>`).join("");
 
+    const regionGeom = ext.regions || {};
+    let regionOverlays = "";
+    for (const id of state.ids) {
+      const rg = regionGeom[id];
+      if (rg) {
+        regionOverlays += `<path class="${rg.t === "poly" ? "map-region-fill" : "map-region-line"}" d="${rg.d}"/>`;
+      }
+    }
+
     const ordered = placed.slice().sort((a, b) => {
       return (isRegion(a.place_id) ? 0 : 1) - (isRegion(b.place_id) ? 0 : 1);
     });
@@ -3689,7 +3698,7 @@ async function renderMapExplorer() {
       `<svg viewBox="0 0 ${W} ${H}" width="${(W * state.zoom).toFixed(0)}" height="${(H * state.zoom).toFixed(0)}" ` +
       `role="img" aria-label="Map: ${escapeHtml(ext.title)}">` +
       `<rect class="map-water-rect" x="0" y="0" width="${W}" height="${H}"/>` +
-      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${markers}</svg>`;
+      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${regionOverlays}${markers}</svg>`;
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
       g.addEventListener("click", () => {

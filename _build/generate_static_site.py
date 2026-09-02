@@ -1488,6 +1488,12 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
                 f'<circle r="{r}" class="{conf_cls}"/>'
                 f'<text x="{tx}" y="{fs * 0.34:.1f}" style="font-size:{fs}px"{ta}>{esc(name)}</text></g>')
 
+    region_overlay = ""
+    reg = ext.get("regions", {}).get(place["place_id"])
+    if reg:
+        cls = "map-region-fill" if reg["t"] == "poly" else "map-region-line"
+        region_overlay = f'<path class="{cls}" d="{reg["d"]}"/>'
+
     markers = "".join(marker(e) for e in neighbours) + marker(place, subject=True)
     explorer_ids = ",".join([place["place_id"]] + [e["place_id"] for e in neighbours])
     explorer_href = f'{base}map.html?ext={ext_name}&amp;places={explorer_ids}'
@@ -1498,6 +1504,7 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
       <path class="map-land" d="{ext['land']}"/>
       {lakes}
       {rivers}
+      {region_overlay}
       {markers}
     </svg>
     <figcaption><span>Base map &copy; Natural Earth (public domain); locations from <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0)</span> <a href="{explorer_href}">Open in the map explorer &#8594;</a></figcaption>

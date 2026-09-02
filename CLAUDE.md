@@ -959,6 +959,58 @@ whenever this list is extended.
 
 ## Places / Map (Archaeological and Traditional Sites)
 
+**Custom maps built 2026-09-02 (branch `custom-maps`; supersedes the parked
+`places-map` branch, which is to be deleted).** The site draws its own
+label-free base maps rather than embedding slippy-map tiles (which would
+bring modern labels/borders and an external dependency onto a Scripture
+site). Pieces:
+
+- **Coordinates** — `_build/backfill_place_coords.py` → `_build/place_coords.json`
+  (force-committed like `link_overrides.json`): a lon/lat + an OpenBible.info
+  identification confidence (`0`–`1000`; `0` = a hand-placed approximate
+  anchor for a region OpenBible has no entry for) + alternate candidate
+  points for disputed sites + (for regions) a `geojson` filename, for ~220
+  of the 223 curated places. Matched by name against OpenBible's
+  `ancient.jsonl` (fetch with `import_openbible_places.py --refresh`), with a
+  hand `OVERRIDES`/`MANUAL` block for the misses. `generate_places.py` reads
+  it and writes a `geo` block onto each `data/places/<id>.json` (minus the
+  build-only `geojson` key) plus flat `lat`/`lng` onto the index. Re-run
+  order: `backfill_place_coords.py` → `generate_places.py` →
+  `generate_static_site.py`.
+- **Base maps** — `_build/generate_maps.py` (needs `shapely`; **not run by
+  CI** — its output is committed and trusted) reads Natural Earth GeoJSON +
+  OpenBible region geometry from `_build/maps-source/` (gitignored;
+  `--refresh` fetches Natural Earth and, via `refresh_regions()`, every
+  region file named in `place_coords.json`). Writes `data/maps.json` —
+  per-extent projection params + pre-projected SVG path data for
+  land/lakes/rivers and a `regions` map (`{place_id: {t: poly|line, d}}`,
+  simplified hard — context outlines, not precise borders) — plus standalone
+  `images/maps/<extent>-<style>.svg`. Two extents (`holy-land` 10m coastline;
+  `biblical-world` 50m simplified, wide enough for Rome→Susa) × two styles
+  (`parchment` matches the site, `plain` a cooler atlas look). Marker/base
+  colors are `--map-*` tokens in `css/style.css` (light + both dark blocks),
+  never baked into the geometry. Projection:
+  `x=(lon-lon_min)*lon_scale`, `y=(lat_max-lat)*lat_scale`.
+- **Per-place locator map** — `place_mini_map_html()` in
+  `generate_static_site.py` bakes a static SVG into every place page: the
+  place plus its ~6 nearest placed neighbours (settlements preferred, ≤2
+  regions), on the smallest fitting extent cropped to a local viewBox, with
+  the region's dashed outline when the subject is a region. Stdlib-only (no
+  shapely in the static generator — CLAUDE.md rule); uses the committed
+  `data/maps.json` geometry.
+- **Map explorer** (`map.html`, in the sitemap, **not** in the top nav yet —
+  linked from `places.html`) — `build_map_explorer_page()` +
+  `renderMapExplorer()` in `js/app.js`. Pick extent/style, load a preset
+  group from `data/map-groups.json` (hand-curated `{id,name,blurb,extent,
+  places[]}`; verify every `place_id` against the index before adding), then
+  click places on the map or in the list to add/remove, and copy a
+  `?ext=&style=&places=` link that reopens the selection. `?group=<id>` also
+  accepted (used by the mini-map "open in explorer" links and the
+  `<noscript>` fallback). Selected regions draw their dashed outline.
+- Still to do: a topographic/relief base style (needs a raster hillshade
+  crop, pre-baked in `generate_maps.py` — PIL is available there); decide
+  whether `map.html` earns a top-nav slot.
+
 Lives of Faith has two related concepts: a `memorials` array per person
 (gravestones, statues — confirmed physical locations) and a separate
 `places.json` (museums/archives not tied to one person), both rendered on
@@ -1066,7 +1118,9 @@ Consequences for the file layout above:
 - Whenever `data/people.json`, `data/people/*.json`, or `data/connections.json`
   changes, re-run `python3 _build/generate_static_site.py` before committing
   and include all resulting `people/`, `sitemap.xml`, and `people.html` changes
-  in the same commit. CI rejects drift from the source JSON.
+  in the same commit. CI rejects drift from the source JSON. The same applies
+  to `data/places/*.json`, `data/maps.json`, and `data/map-groups.json` →
+  `places/`, `places.html`, `map.html` (CI's drift check covers these too).
 
 **SEO/AI-crawlability additions (2026-08-16):**
 - **`llms.txt`** at the site root — a plain-Markdown summary + key-page index

@@ -3376,3 +3376,20 @@ header.site-header nav a.nav-cta:hover {
   --map-river: #9fc0d2;
   --map-coast: #c2b08a;
 }
+
+.map-region-fill {
+  fill: var(--map-mk-subject);
+  fill-opacity: 0.09;
+  stroke: var(--map-mk-subject);
+  stroke-opacity: 0.55;
+  stroke-width: 1.2;
+  stroke-dasharray: 5 3;
+  stroke-linejoin: round;
+}
+.map-region-line {
+  fill: none;
+  stroke: var(--map-mk-subject);
+  stroke-opacity: 0.6;
+  stroke-width: 1.6;
+  stroke-dasharray: 5 3;
+}

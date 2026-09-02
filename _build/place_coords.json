@@ -84,14 +84,16 @@
       "lng": 34.42222,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Amalek"
+      "openbible": "Amalek",
+      "geojson": "ab95484.geojson"
     },
     "ammon": {
       "lat": 31.9547,
       "lng": 35.9343,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Ammon"
+      "openbible": "Ammon",
+      "geojson": "a6046fa.geojson"
     },
     "anathoth": {
       "lat": 31.80752,
@@ -136,35 +138,40 @@
       "lng": 46.0,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Arabia 1"
+      "openbible": "Arabia 1",
+      "geojson": "a59f6f5.geojson"
     },
     "aram": {
       "lat": 33.51111,
       "lng": 36.30639,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Aram"
+      "openbible": "Aram",
+      "geojson": "a3e66cd.geojson"
     },
     "aram-naharaim": {
       "lat": 36.86444,
       "lng": 39.03278,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Aram-naharaim"
+      "openbible": "Aram-naharaim",
+      "geojson": "a3c7b44.geojson"
     },
     "ararat": {
       "lat": 39.70276,
       "lng": 44.30038,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Ararat"
+      "openbible": "Ararat",
+      "geojson": "ab89be9.geojson"
     },
     "argob": {
       "lat": 32.9695,
       "lng": 36.45538,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Argob"
+      "openbible": "Argob",
+      "geojson": "a42a5b2.geojson"
     },
     "arimathea": {
       "lat": 32.02806,
@@ -212,21 +219,24 @@
       "lng": 28.3,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Asia"
+      "openbible": "Asia",
+      "geojson": "a197f19.geojson"
     },
     "asia-roman-province": {
       "lat": 38.4,
       "lng": 28.3,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Asia"
+      "openbible": "Asia",
+      "geojson": "a197f19.geojson"
     },
     "assyria": {
       "lat": 36.3594,
       "lng": 43.1528,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Assyria"
+      "openbible": "Assyria",
+      "geojson": "a3d1321.geojson"
     },
     "athens": {
       "lat": 37.97185,
@@ -241,6 +251,7 @@
       "confidence": 537,
       "kind": "representative",
       "openbible": "Baal-peor",
+      "geojson": "a3d6e81.geojson",
       "candidates": [
         [
           35.7385,
@@ -290,7 +301,8 @@
       "lng": 35.93472,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Bashan"
+      "openbible": "Bashan",
+      "geojson": "aa7a40a.geojson"
     },
     "beersheba": {
       "lat": 31.24472,
@@ -405,6 +417,7 @@
       "confidence": 363,
       "kind": "representative",
       "openbible": "Buz",
+      "geojson": "a087a14.geojson",
       "candidates": [
         [
           38.98797,
@@ -454,7 +467,8 @@
       "lng": 35.33333,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Canaan"
+      "openbible": "Canaan",
+      "geojson": "a581f0c.geojson"
     },
     "capernaum": {
       "lat": 32.88111,
@@ -476,6 +490,7 @@
       "confidence": 784,
       "kind": "representative",
       "openbible": "Casiphia",
+      "geojson": "addb84c.geojson",
       "candidates": [
         [
           44.42222,
@@ -508,7 +523,8 @@
       "lng": 45.23083,
       "confidence": 696,
       "kind": "representative",
-      "openbible": "Chebar"
+      "openbible": "Chebar",
+      "geojson": "a3d2f0a.geojson"
     },
     "colossae": {
       "lat": 37.78664,
@@ -529,21 +545,24 @@
       "lng": 24.89333,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Crete"
+      "openbible": "Crete",
+      "geojson": "a26aa94.geojson"
     },
     "cush": {
       "lat": 16.93514,
       "lng": 33.75075,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Cush 1"
+      "openbible": "Cush 1",
+      "geojson": "ac5a1ec.geojson"
     },
     "cyprus": {
       "lat": 35.0,
       "lng": 33.0,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Cyprus"
+      "openbible": "Cyprus",
+      "geojson": "a2e7601.geojson"
     },
     "cyrene": {
       "lat": 32.82095,
@@ -590,7 +609,8 @@
       "lng": 35.60392,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Edom"
+      "openbible": "Edom",
+      "geojson": "a2735ff.geojson"
     },
     "eglon": {
       "lat": 31.49181,
@@ -626,14 +646,16 @@
       "lng": 31.3075,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Egypt"
+      "openbible": "Egypt",
+      "geojson": "af301ca.geojson"
     },
     "elam": {
       "lat": 32.18922,
       "lng": 48.25778,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Elam"
+      "openbible": "Elam",
+      "geojson": "a7e3a59.geojson"
     },
     "elkosh": {
       "lat": 33.12139,
@@ -734,7 +756,8 @@
       "lng": 35.76472,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Ephraim 3"
+      "openbible": "Ephraim 3",
+      "geojson": "aa24ad4.geojson"
     },
     "ephraim-forest": {
       "lat": 32.2,
@@ -749,6 +772,7 @@
       "confidence": 360,
       "kind": "representative",
       "openbible": "Ezion-geber",
+      "geojson": "a8e53d5.geojson",
       "candidates": [
         [
           34.86005,
@@ -772,7 +796,8 @@
       "lng": 35.527,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Galilee 1"
+      "openbible": "Galilee 1",
+      "geojson": "a9cf1e8.geojson"
     },
     "gallim": {
       "lat": 31.81544,
@@ -813,7 +838,8 @@
       "lng": 38.0865,
       "confidence": 944,
       "kind": "representative",
-      "openbible": "Eden 2"
+      "openbible": "Eden 2",
+      "geojson": "a7409b9.geojson"
     },
     "gath": {
       "lat": 31.69972,
@@ -899,7 +925,8 @@
       "lng": 35.7,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Geshur"
+      "openbible": "Geshur",
+      "geojson": "af6c325.geojson"
     },
     "gethsemane": {
       "lat": 31.77942,
@@ -975,7 +1002,8 @@
       "lng": 35.69211,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Gilead 1"
+      "openbible": "Gilead 1",
+      "geojson": "ae73b90.geojson"
     },
     "gilgal": {
       "lat": 31.88188,
@@ -1012,6 +1040,7 @@
       "confidence": 427,
       "kind": "representative",
       "openbible": "Giloh",
+      "geojson": "a6df20a.geojson",
       "candidates": [
         [
           35.01485,
@@ -1060,6 +1089,7 @@
       "confidence": 364,
       "kind": "representative",
       "openbible": "Gomorrah",
+      "geojson": "aa572e2.geojson",
       "candidates": [
         [
           35.44922,
@@ -1093,7 +1123,8 @@
       "lng": 23.72674,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Greece"
+      "openbible": "Greece",
+      "geojson": "a4492a0.geojson"
     },
     "hamath": {
       "lat": 35.1365,
@@ -1155,7 +1186,8 @@
       "lng": 35.7256,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Havvoth-jair"
+      "openbible": "Havvoth-jair",
+      "geojson": "a26c8f2.geojson"
     },
     "hazor": {
       "lat": 33.01833,
@@ -1224,14 +1256,16 @@
       "lng": 35.24139,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Mount Ephraim"
+      "openbible": "Mount Ephraim",
+      "geojson": "ac0d1a5.geojson"
     },
     "hill-country-of-judea": {
       "lat": 31.77667,
       "lng": 35.23417,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Judea 1"
+      "openbible": "Judea 1",
+      "geojson": "a149f13.geojson"
     },
     "jabesh-gilead": {
       "lat": 32.40237,
@@ -1324,7 +1358,8 @@
       "lng": 35.24194,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Valley of Jezreel"
+      "openbible": "Valley of Jezreel",
+      "geojson": "aa516c2.geojson"
     },
     "joppa": {
       "lat": 32.05448,
@@ -1338,14 +1373,16 @@
       "lng": 35.55833,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Jordan"
+      "openbible": "Jordan",
+      "geojson": "ae686c9.geojson"
     },
     "judea": {
       "lat": 31.77667,
       "lng": 35.23417,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Judea 1"
+      "openbible": "Judea 1",
+      "geojson": "a149f13.geojson"
     },
     "kabzeel": {
       "lat": 31.28619,
@@ -1462,7 +1499,8 @@
       "lng": 35.23417,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Judea 1"
+      "openbible": "Judea 1",
+      "geojson": "a149f13.geojson"
     },
     "kir-hareseth": {
       "lat": 31.18056,
@@ -1484,6 +1522,7 @@
       "confidence": 854,
       "kind": "representative",
       "openbible": "Kishon",
+      "geojson": "a5a6458.geojson",
       "candidates": [
         [
           35.03333,
@@ -1554,7 +1593,8 @@
       "lng": 22.54,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Macedonia"
+      "openbible": "Macedonia",
+      "geojson": "a69e1b8.geojson"
     },
     "madon": {
       "lat": 33.07678,
@@ -1598,6 +1638,7 @@
       "confidence": 387,
       "kind": "representative",
       "openbible": "Magog",
+      "geojson": "ae3d487.geojson",
       "candidates": [
         [
           28.04028,
@@ -1674,7 +1715,8 @@
       "lng": 14.41173,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Malta"
+      "openbible": "Malta",
+      "geojson": "a57835d.geojson"
     },
     "mamre": {
       "lat": 31.55654,
@@ -1719,7 +1761,8 @@
       "lng": 34.17035,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Great Sea"
+      "openbible": "Great Sea",
+      "geojson": "aa805fb.geojson"
     },
     "megiddo": {
       "lat": 32.58528,
@@ -1733,14 +1776,16 @@
       "lng": 31.99417,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Meshech"
+      "openbible": "Meshech",
+      "geojson": "a5f9092.geojson"
     },
     "mesopotamia": {
       "lat": 36.86444,
       "lng": 39.03278,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Mesopotamia"
+      "openbible": "Mesopotamia",
+      "geojson": "a43f60f.geojson"
     },
     "michmash": {
       "lat": 31.87282,
@@ -1766,7 +1811,8 @@
       "lng": 35.0122,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Midian"
+      "openbible": "Midian",
+      "geojson": "acc6d8e.geojson"
     },
     "miletus": {
       "lat": 37.53111,
@@ -1799,7 +1845,8 @@
       "lng": 35.70139,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Moab 1"
+      "openbible": "Moab 1",
+      "geojson": "aa0b1d6.geojson"
     },
     "moresheth": {
       "lat": 31.63336,
@@ -1922,6 +1969,7 @@
       "confidence": 569,
       "kind": "representative",
       "openbible": "Mount Zemaraim",
+      "geojson": "a5a92d1.geojson",
       "candidates": [
         [
           35.2117,
@@ -1941,6 +1989,7 @@
       "confidence": 528,
       "kind": "representative",
       "openbible": "Naamah 1",
+      "geojson": "ae7bd8b.geojson",
       "candidates": [
         [
           34.84917,
@@ -1971,7 +2020,8 @@
       "lng": 34.84083,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Negeb"
+      "openbible": "Negeb",
+      "geojson": "a1cb244.geojson"
     },
     "nineveh": {
       "lat": 36.3594,
@@ -2027,6 +2077,7 @@
       "confidence": 572,
       "kind": "representative",
       "openbible": "Paddan-aram",
+      "geojson": "a8ec7ba.geojson",
       "candidates": [
         [
           39.03278,
@@ -2081,7 +2132,8 @@
       "lng": 26.54167,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Patmos"
+      "openbible": "Patmos",
+      "geojson": "a8f60f3.geojson"
     },
     "penuel": {
       "lat": 32.18702,
@@ -2121,7 +2173,8 @@
       "lng": 48.51625,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Persia"
+      "openbible": "Persia",
+      "geojson": "ab9696f.geojson"
     },
     "pethor": {
       "lat": 36.7014,
@@ -2149,14 +2202,16 @@
       "lng": 34.54583,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Philistia"
+      "openbible": "Philistia",
+      "geojson": "ac71e65.geojson"
     },
     "philistine-territory": {
       "lat": 31.66389,
       "lng": 34.54583,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Philistia"
+      "openbible": "Philistia",
+      "geojson": "ac71e65.geojson"
     },
     "pirathon": {
       "lat": 32.19056,
@@ -2182,14 +2237,16 @@
       "lng": 35.67368,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Moab 2"
+      "openbible": "Moab 2",
+      "geojson": "aca767b.geojson"
     },
     "pontus": {
       "lat": 40.68,
       "lng": 37.83,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Pontus"
+      "openbible": "Pontus",
+      "geojson": "a83a43e.geojson"
     },
     "rabbah": {
       "lat": 31.9547,
@@ -2278,6 +2335,7 @@
       "confidence": 379,
       "kind": "representative",
       "openbible": "Rephidim",
+      "geojson": "a05ebb7.geojson",
       "candidates": [
         [
           33.88028,
@@ -2373,6 +2431,7 @@
       "confidence": 775,
       "kind": "representative",
       "openbible": "Mount Seir 1",
+      "geojson": "ae981db.geojson",
       "candidates": [
         [
           35.3166,
@@ -2425,7 +2484,8 @@
       "lng": 44.20639,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Sheba 1"
+      "openbible": "Sheba 1",
+      "geojson": "a81ab85.geojson"
     },
     "shechem": {
       "lat": 32.21361,
@@ -2446,7 +2506,8 @@
       "lng": 44.42222,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Shinar"
+      "openbible": "Shinar",
+      "geojson": "af725b1.geojson"
     },
     "shittim": {
       "lat": 31.84018,
@@ -2486,7 +2547,8 @@
       "lng": 33.97333,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Wilderness of Sinai"
+      "openbible": "Wilderness of Sinai",
+      "geojson": "ae50cf1.geojson"
     },
     "smyrna": {
       "lat": 38.41889,
@@ -2501,6 +2563,7 @@
       "confidence": 386,
       "kind": "representative",
       "openbible": "Sodom",
+      "geojson": "a0aa664.geojson",
       "candidates": [
         [
           35.44922,
@@ -2570,6 +2633,7 @@
       "confidence": 231,
       "kind": "representative",
       "openbible": "Teman",
+      "geojson": "a831506.geojson",
       "candidates": [
         [
           35.60392,
@@ -2650,7 +2714,8 @@
       "lng": 35.55833,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Jordan"
+      "openbible": "Jordan",
+      "geojson": "ae686c9.geojson"
     },
     "troas": {
       "lat": 39.75194,
@@ -2679,6 +2744,7 @@
       "confidence": 384,
       "kind": "representative",
       "openbible": "Uz",
+      "geojson": "a324c4d.geojson",
       "candidates": [
         [
           35.60392,
@@ -2713,6 +2779,7 @@
       "confidence": 604,
       "kind": "representative",
       "openbible": "Valley of Achor",
+      "geojson": "a31492f.geojson",
       "candidates": [
         [
           35.38333,
@@ -2731,21 +2798,24 @@
       "lng": 34.99802,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Valley of Elah"
+      "openbible": "Valley of Elah",
+      "geojson": "ab183f8.geojson"
     },
     "valley-of-siddim": {
       "lat": 31.20849,
       "lng": 35.44922,
       "confidence": 647,
       "kind": "representative",
-      "openbible": "Valley of Siddim"
+      "openbible": "Valley of Siddim",
+      "geojson": "a4a5cce.geojson"
     },
     "valley-of-sorek": {
       "lat": 31.75583,
       "lng": 35.05,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Valley of Sorek"
+      "openbible": "Valley of Sorek",
+      "geojson": "a339971.geojson"
     },
     "waters-of-merom": {
       "lat": 32.97889,
@@ -2793,7 +2863,8 @@
       "lng": 34.77667,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Paran"
+      "openbible": "Paran",
+      "geojson": "aa6b19b.geojson"
     },
     "wilderness-of-shur": {
       "lat": 30.49333,
@@ -2801,6 +2872,7 @@
       "confidence": 554,
       "kind": "representative",
       "openbible": "Shur",
+      "geojson": "acdbce0.geojson",
       "candidates": [
         [
           32.95667,
@@ -2854,6 +2926,7 @@
       "confidence": 530,
       "kind": "representative",
       "openbible": "Zeboiim",
+      "geojson": "abfbfb9.geojson",
       "candidates": [
         [
           35.44922,
@@ -2950,7 +3023,8 @@
       "lng": 36.15083,
       "confidence": 1000,
       "kind": "representative",
-      "openbible": "Zobah"
+      "openbible": "Zobah",
+      "geojson": "a4aa78a.geojson"
     },
     "zorah": {
       "lat": 31.77399,

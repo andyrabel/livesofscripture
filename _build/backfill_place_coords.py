@@ -168,6 +168,11 @@ def main():
             "kind": kind,
             "openbible": rec["friendly_id"],
         }
+        # For regions/nations, record the OpenBible geometry file so
+        # generate_maps.py can draw an outline (fetched into
+        # _build/maps-source/regions/). Rivers are LineStrings there.
+        if kind == "representative" and rec.get("geojson_file"):
+            entry["geojson"] = rec["geojson_file"]
         cand = all_candidates(rec)
         if len(cand) > 1:
             entry["candidates"] = cand

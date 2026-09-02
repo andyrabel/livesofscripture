@@ -39,8 +39,18 @@ from shapely.ops import unary_union
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(__file__).resolve().parent / "maps-source"
+REGION_SRC = SRC / "regions"
 OUT_DIR = ROOT / "images" / "maps"
 MAPS_JSON = ROOT / "data" / "maps.json"
+PLACE_COORDS = Path(__file__).resolve().parent / "place_coords.json"
+
+# Region/nation outlines: fetched from OpenBible.info's geometry/ files
+# (CC BY 4.0) named by each region place's `geojson` in place_coords.json.
+# Simplified per extent -- these are context outlines, not precise borders
+# (many biblical region boundaries are themselves disputed). The Holy Land
+# view is small, so it needs a finer tolerance than the continental one.
+REGION_SIMPLIFY = {"holy-land": 0.012, "biblical-world": 0.05}
+REGION_GEOJSON_BASE = "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/main/geometry/"
 
 NE_BASE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/"
 LAYERS = {
@@ -95,6 +105,26 @@ def refresh():
     for fn in LAYERS.values():
         print(f"downloading {fn} ...")
         urllib.request.urlretrieve(NE_BASE + fn, SRC / fn)
+    refresh_regions()
+
+
+def refresh_regions():
+    """Fetch each region place's OpenBible geometry file named in
+    place_coords.json (skips ones already on disk)."""
+    if not PLACE_COORDS.exists():
+        print("no place_coords.json; skipping region geometry")
+        return
+    REGION_SRC.mkdir(parents=True, exist_ok=True)
+    coords = json.loads(PLACE_COORDS.read_text())["coords"]
+    files = {v["geojson"] for v in coords.values() if v.get("geojson")}
+    for fn in sorted(files):
+        dst = REGION_SRC / fn
+        if dst.exists() and dst.stat().st_size:
+            continue
+        try:
+            urllib.request.urlretrieve(REGION_GEOJSON_BASE + fn, dst)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  region {fn}: {exc}")
 
 
 def load(fn):
@@ -202,7 +232,53 @@ def compute_paths(ext_name, layers):
         "land": "".join(geom_to_paths(land, lon_px, lat_px)),
         "lakes": [p for g in lake_geoms for p in geom_to_paths(g, lon_px, lat_px)],
         "rivers": [p for g in river_geoms for p in line_to_path(g, lon_px, lat_px)],
+        "regions": region_paths(ext_name, clip, lon_px, lat_px),
     }
+
+
+def _feature_geom(gj):
+    """The polygon/line geometry from a region file (a Feature or a
+    FeatureCollection that also carries a Point we ignore)."""
+    feats = gj["features"] if gj.get("type") == "FeatureCollection" else [gj]
+    for f in feats:
+        g = f.get("geometry", f)
+        if g and g.get("type") in ("Polygon", "MultiPolygon", "LineString", "MultiLineString"):
+            return shape(g)
+    return None
+
+
+def region_paths(ext_name, clip, lon_px, lat_px):
+    if not PLACE_COORDS.exists():
+        return {}
+    tol = REGION_SIMPLIFY[ext_name]
+    coords = json.loads(PLACE_COORDS.read_text())["coords"]
+    out = {}
+    for slug, v in sorted(coords.items()):
+        fn = v.get("geojson")
+        if not fn:
+            continue
+        src = REGION_SRC / fn
+        if not src.exists():
+            continue
+        geom = _feature_geom(json.loads(src.read_text()))
+        if geom is None:
+            continue
+        if geom.geom_type.endswith("Polygon") and not geom.is_valid:
+            geom = geom.buffer(0)
+        if geom.is_empty or not geom.intersects(clip):
+            continue
+        geom = geom.intersection(clip).simplify(tol)
+        if geom.is_empty:
+            continue
+        if geom.geom_type in ("Polygon", "MultiPolygon"):
+            d = "".join(geom_to_paths(geom, lon_px, lat_px))
+            kind = "poly"
+        else:
+            d = "".join(line_to_path(geom, lon_px, lat_px))
+            kind = "line"
+        if d:
+            out[slug] = {"t": kind, "d": d}
+    return out
 
 
 def write_svg(ext_name, style_name, paths):

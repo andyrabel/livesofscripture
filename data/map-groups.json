@@ -30,6 +30,13 @@
       "places": ["jerusalem", "shechem", "tirzah", "samaria", "jezreel", "bethel", "dan"]
     },
     {
+      "id": "nations-around-israel",
+      "name": "Nations around Israel",
+      "blurb": "The neighbouring peoples Israel dealt with, at war and at peace.",
+      "extent": "biblical-world",
+      "places": ["egypt", "philistia", "edom", "moab", "ammon", "aram", "bashan", "midian", "assyria"]
+    },
+    {
       "id": "seven-churches",
       "name": "Seven churches of Revelation",
       "blurb": "The churches addressed in Revelation 2-3, in order.",
