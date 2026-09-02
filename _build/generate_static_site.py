@@ -1420,50 +1420,76 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
         return ""
     slat, slng = geo["lat"], geo["lng"]
 
-    others = []
+    exts = maps_data()
+    hl = exts["holy-land"]
+    subj_in_hl = _extent_contains(hl, slat, slng)
+
+    cand = []
     for e in placed_places:
         if e["place_id"] == place["place_id"]:
             continue
         d = _haversine_km(slat, slng, e["lat"], e["lng"])
-        others.append((d, e["place_id"], e))
-    others.sort(key=lambda t: (t[0], t[1]))
-    # Prefer settlements as neighbours; allow at most two nearby regions so a
-    # place ringed by overlapping region anchors (Jerusalem) still shows towns.
-    pts, regs = [], []
-    for _d, _pid, e in others:
-        (regs if (_lookup_geo(e) or {}).get("kind") == "representative" else pts).append(e)
-    neighbours = sorted(
-        pts[:n_neighbors] + regs[:2],
-        key=lambda e: _haversine_km(slat, slng, e["lat"], e["lng"]),
-    )[:n_neighbors]
+        cand.append((d, e["place_id"], e))
+    cand.sort(key=lambda t: (t[0], t[1]))
 
-    exts = maps_data()
-    pts_ll = [(slat, slng)] + [(e["lat"], e["lng"]) for e in neighbours]
-    if all(_extent_contains(exts["holy-land"], la, lo) for la, lo in pts_ll):
-        ext_name = "holy-land"
-    elif (_extent_contains(exts["holy-land"], slat, slng)
-          and sum(_extent_contains(exts["holy-land"], la, lo) for la, lo in pts_ll) >= 3):
-        ext_name = "holy-land"
-        neighbours = [e for e in neighbours
-                      if _extent_contains(exts["holy-land"], e["lat"], e["lng"])]
-        pts_ll = [(slat, slng)] + [(e["lat"], e["lng"]) for e in neighbours]
-    else:
-        ext_name = "biblical-world"
+    ext_name = "holy-land" if subj_in_hl else "biblical-world"
     ext = exts[ext_name]
+    if ext_name == "holy-land":
+        cand = [c for c in cand if _extent_contains(hl, c[2]["lat"], c[2]["lng"])]
+
+    # Pick neighbours nearest-first, but skip any that would land on top of a
+    # marker already chosen (screen-space) so labels don't collide. Settlements
+    # preferred; at most two regions.
+    sx, sy = _proj(ext, slat, slng)
+    kept_xy = [(sx, sy)]
+    neighbours, n_regs = [], 0
+    min_gap = (ext["width"] / 760) * (26 if ext_name == "holy-land" else 34)
+    for _d, _pid, e in cand:
+        if len(neighbours) >= n_neighbors:
+            break
+        is_reg = (_lookup_geo(e) or {}).get("kind") == "representative"
+        if is_reg and n_regs >= 2:
+            continue
+        ex, ey = _proj(ext, e["lat"], e["lng"])
+        if any((ex - kx) ** 2 + (ey - ky) ** 2 < min_gap ** 2 for kx, ky in kept_xy):
+            continue
+        neighbours.append(e)
+        kept_xy.append((ex, ey))
+        n_regs += is_reg
+
+    pts_ll = [(slat, slng)] + [(e["lat"], e["lng"]) for e in neighbours]
+    if ext_name == "holy-land":
+        # Always frame enough of the country to orient by: include the Sea of
+        # Galilee and the Dead Sea, the two landmarks most people read a map
+        # of Israel by.
+        pts_ll += [(32.82, 35.59), (31.50, 35.47)]
 
     xs, ys = zip(*[_proj(ext, la, lo) for la, lo in pts_ll])
-    pad_x = max((max(xs) - min(xs)) * 0.28, 60)
-    pad_y = max((max(ys) - min(ys)) * 0.28, 60)
+    pad_x = max((max(xs) - min(xs)) * 0.22, 48)
+    pad_y = max((max(ys) - min(ys)) * 0.22, 48)
     vx = max(0, min(xs) - pad_x)
     vy = max(0, min(ys) - pad_y)
     vw = min(ext["width"], max(xs) + pad_x) - vx
     vh = min(ext["height"], max(ys) + pad_y) - vy
+
+    # Don't zoom in past a legible minimum.
+    min_w = ext["width"] * (0.5 if ext_name == "holy-land" else 0.28)
+    min_h = ext["height"] * (0.4 if ext_name == "holy-land" else 0.28)
+    if vw < min_w:
+        cx = vx + vw / 2
+        vx = max(0, min(cx - min_w / 2, ext["width"] - min_w))
+        vw = min_w
+    if vh < min_h:
+        cy = vy + vh / 2
+        vy = max(0, min(cy - min_h / 2, ext["height"] - min_h))
+        vh = min_h
+
     if vw / vh > 2.2:
         grow = (vw / 2.2 - vh) / 2
         vy = max(0, vy - grow)
         vh = min(ext["height"] - vy, vh + 2 * grow)
-    elif vh / vw > 1.6:
-        grow = (vh / 1.6 - vw) / 2
+    elif vh / vw > 1.5:
+        grow = (vh / 1.5 - vw) / 2
         vx = max(0, vx - grow)
         vw = min(ext["width"] - vx, vw + 2 * grow)
 

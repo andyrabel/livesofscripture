@@ -3655,6 +3655,9 @@ async function renderMapExplorer() {
     const ext = maps.extents[state.extent];
     const W = ext.width;
     const H = ext.height;
+    // Zoom scales the geometry only; markers and labels are drawn at a
+    // constant screen size (positioned in the zoomed coordinate space).
+    const Z = state.zoom;
     const lakes = ext.lakes.map((d) => `<path class="map-lake" d="${d}"/>`).join("");
     const rivers = ext.rivers.map((d) => `<path class="map-river" d="${d}"/>`).join("");
 
@@ -3666,6 +3669,9 @@ async function renderMapExplorer() {
         regionOverlays += `<path class="${rg.t === "poly" ? "map-region-fill" : "map-region-line"}" d="${rg.d}"/>`;
       }
     }
+    const geomLayer =
+      `<g transform="scale(${Z})">` +
+      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${regionOverlays}</g>`;
 
     const ordered = placed.slice().sort((a, b) => {
       return (isRegion(a.place_id) ? 0 : 1) - (isRegion(b.place_id) ? 0 : 1);
@@ -3673,8 +3679,10 @@ async function renderMapExplorer() {
 
     let markers = "";
     for (const p of ordered) {
-      const [x, y] = project(ext, p.lat, p.lng);
-      if (x < -60 || x > W + 60 || y < -60 || y > H + 60) continue;
+      const [px, py] = project(ext, p.lat, p.lng);
+      if (px < -60 || px > W + 60 || py < -60 || py > H + 60) continue;
+      const x = px * Z;
+      const y = py * Z;
       const on = state.ids.has(p.place_id);
       const region = isRegion(p.place_id);
       const showLabel = state.allLabels || on || state.sel === p.place_id;
@@ -3685,20 +3693,21 @@ async function renderMapExplorer() {
         (state.sel === p.place_id ? " is-sel" : "");
       const r = region ? 3 : on ? 5 : 3.4;
       const dotCls = region && !on ? "mk-region-dot" : markerClass(p.place_id);
-      const anchorEnd = x > W * 0.72;
+      const anchorEnd = px > W * 0.72;
       const tx = anchorEnd ? -(r + 4) : r + 4;
       const ta = anchorEnd ? ' text-anchor="end"' : "";
-      const label = `<text x="${tx}" y="4" class="${showLabel ? "" : "mk-hover-only"}"${ta}>${escapeHtml(p.name)}</text>`;
+      const label = `<text x="${tx}" y="4" font-size="12" class="${showLabel ? "" : "mk-hover-only"}"${ta}>${escapeHtml(p.name)}</text>`;
       markers +=
         `<g class="${cls}" data-id="${p.place_id}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})">` +
         `<circle r="${r}" class="${dotCls}"/>${label}</g>`;
     }
 
     els.viewport.innerHTML =
-      `<svg viewBox="0 0 ${W} ${H}" width="${(W * state.zoom).toFixed(0)}" height="${(H * state.zoom).toFixed(0)}" ` +
+      `<svg viewBox="0 0 ${(W * Z).toFixed(0)} ${(H * Z).toFixed(0)}" ` +
+      `width="${(W * Z).toFixed(0)}" height="${(H * Z).toFixed(0)}" ` +
       `role="img" aria-label="Map: ${escapeHtml(ext.title)}">` +
-      `<rect class="map-water-rect" x="0" y="0" width="${W}" height="${H}"/>` +
-      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${regionOverlays}${markers}</svg>`;
+      `<rect class="map-water-rect" x="0" y="0" width="${(W * Z).toFixed(0)}" height="${(H * Z).toFixed(0)}"/>` +
+      `${geomLayer}${markers}</svg>`;
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
       g.addEventListener("click", () => {
