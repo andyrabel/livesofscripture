@@ -47,12 +47,6 @@
     "Eve’s story teaches us about creation; may we look to Jesus, whose grace and truth never fail.",
     "Through Eve’s experience of the Fall, God teaches us to trust His wisdom and follow Jesus faithfully."
   ],
-  "image": {
-    "file": "eve.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a veiled robed silhouette figure, no attempted facial likeness, with a serpent coiling up toward her hand.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
-  },
   "image2": "eve.png",
   "review": {
     "human_reviewed": false,

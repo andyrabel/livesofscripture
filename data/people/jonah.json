@@ -58,12 +58,6 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "image": {
-    "file": "jonah.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, standing beside the great fish that swallowed him.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "jonah.png",
   "gender": "male",
   "name_meaning": {

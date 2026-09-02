@@ -50,12 +50,6 @@
       "reference": "Acts 2:29-31"
     }
   ],
-  "image": {
-    "file": "david.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, wearing a simple crown and holding a shepherd's sling — the boy who became king.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "david.png",
   "genealogy": {
     "father": "jesse",

@@ -49,12 +49,6 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "image": {
-    "file": "goliath.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a broad-shouldered robed silhouette figure, no attempted facial likeness, with an oversized crested helmet and a spear towering above him.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
-  },
   "image2": "goliath.png",
   "gender": "male",
   "name_meaning": {

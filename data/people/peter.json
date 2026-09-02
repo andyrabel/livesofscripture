@@ -52,12 +52,6 @@
       "reference": "Matthew 10:2-4"
     }
   ],
-  "image": {
-    "file": "peter.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a large key — evoking Matthew 16:19.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "peter.png",
   "genealogy": {
     "father": "john-3",

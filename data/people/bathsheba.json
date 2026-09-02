@@ -42,12 +42,6 @@
       "reference": "Matthew 1:6"
     }
   ],
-  "image": {
-    "file": "bathsheba.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed, veiled silhouette figure wearing a simple circlet as queen mother, no attempted facial likeness, bowing — evoking 1 Kings 1:16, 31.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "bathsheba.png",
   "genealogy": {
     "father": "eliam",

@@ -65,12 +65,6 @@
     "reviewed_by": "",
     "reviewed_date": ""
   },
-  "image": {
-    "file": "daniel-2.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, with both arms raised and mouth open crying out a message, and a lion resting calmly beside him.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "daniel-2.png",
   "gender": "male",
   "name_meaning": {

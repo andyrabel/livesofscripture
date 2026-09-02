@@ -50,12 +50,6 @@
       "reference": "Hebrews 11:17-19"
     }
   ],
-  "image": {
-    "file": "isaac.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, carrying a bundle of wood on one shoulder — evoking Genesis 22:6.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "isaac.png",
   "genealogy": {
     "father": "abraham",

@@ -53,12 +53,6 @@
       "reference": "Luke 3:36"
     }
   ],
-  "image": {
-    "file": "noah.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, holding a small ark with a rainbow arcing overhead.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
-  },
   "image2": "noah.png",
   "genealogy": {
     "father": "lamech-2",

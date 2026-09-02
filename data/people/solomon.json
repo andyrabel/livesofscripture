@@ -48,12 +48,6 @@
       "reference": "Matthew 12:42"
     }
   ],
-  "image": {
-    "file": "solomon.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, wearing an ornate crown and holding a small temple structure — evoking 1 Kings 6-8, the building of the Jerusalem temple.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait — no claim of historical likeness"
-  },
   "image2": "solomon.png",
   "genealogy": {
     "father": "david",

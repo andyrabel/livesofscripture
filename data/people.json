@@ -12,7 +12,6 @@
       "idolatry",
       "atonement"
     ],
-    "image": "aaron.png",
     "image2": "aaron.png",
     "timeline": {
       "precision": "era",
@@ -50,7 +49,6 @@
       "promise",
       "sonship"
     ],
-    "image": "abraham.png",
     "image2": "abraham.png",
     "timeline": {
       "precision": "era",
@@ -113,7 +111,6 @@
       "advocacy",
       "restoration"
     ],
-    "image": "bathsheba.png",
     "image2": "bathsheba.png",
     "timeline": {
       "precision": "era"
@@ -146,7 +143,6 @@
       "generosity",
       "inclusion of outsiders"
     ],
-    "image": "boaz.png",
     "image2": "boaz.png",
     "timeline": {
       "precision": "era"
@@ -177,7 +173,6 @@
       "covenant",
       "messianic line"
     ],
-    "image": "david.png",
     "image2": "david.png",
     "timeline": {
       "precision": "date",
@@ -296,7 +291,6 @@
       "providence",
       "outsider"
     ],
-    "image": "hagar.png",
     "image2": "hagar.png",
     "timeline": {
       "precision": "era"
@@ -325,7 +319,6 @@
       "blessing",
       "covenant continuity"
     ],
-    "image": "isaac.png",
     "image2": "isaac.png",
     "timeline": {
       "precision": "era",
@@ -354,7 +347,6 @@
       "providence",
       "outsider blessing"
     ],
-    "image": "ishmael.png",
     "image2": "ishmael.png",
     "timeline": {
       "precision": "era",
@@ -395,7 +387,6 @@
       "God's choice",
       "messianic lineage"
     ],
-    "image": "jesse.png",
     "image2": "jesse.png",
     "timeline": {
       "precision": "era"
@@ -428,7 +419,6 @@
       "motherhood",
       "providence"
     ],
-    "image": "jochebed.png",
     "image2": "jochebed.png",
     "timeline": {
       "precision": "era"
@@ -459,7 +449,6 @@
       "courage",
       "selflessness"
     ],
-    "image": "jonathan.png",
     "image2": "jonathan.png",
     "timeline": {
       "precision": "era"
@@ -517,7 +506,6 @@
       "mediation",
       "leadership"
     ],
-    "image": "moses.png",
     "image2": "moses.png",
     "timeline": {
       "precision": "era",
@@ -552,7 +540,6 @@
       "providence",
       "loyalty (hesed)"
     ],
-    "image": "naomi.png",
     "image2": "naomi.png",
     "timeline": {
       "precision": "era"
@@ -616,7 +603,6 @@
       "Gentile mission",
       "apostolic suffering"
     ],
-    "image": "paul.png",
     "image2": "paul.png",
     "timeline": {
       "precision": "date",
@@ -644,7 +630,6 @@
       "failure and restoration",
       "apostolic leadership"
     ],
-    "image": "peter.png",
     "image2": "peter.png",
     "timeline": {
       "precision": "date",
@@ -671,7 +656,6 @@
       "inclusion of outsiders",
       "providence"
     ],
-    "image": "ruth.png",
     "image2": "ruth.png",
     "timeline": {
       "precision": "era"
@@ -701,7 +685,6 @@
       "prophetic authority",
       "transition to kingship"
     ],
-    "image": "samuel.png",
     "image2": "samuel.png",
     "timeline": {
       "precision": "era"
@@ -734,7 +717,6 @@
       "barrenness",
       "laughter"
     ],
-    "image": "sarah.png",
     "image2": "sarah.png",
     "timeline": {
       "precision": "era",
@@ -767,7 +749,6 @@
       "idolatry",
       "temple"
     ],
-    "image": "solomon.png",
     "image2": "solomon.png",
     "timeline": {
       "precision": "era"
@@ -815,7 +796,6 @@
       "circumcision",
       "providence"
     ],
-    "image": "zipporah.png",
     "image2": "zipporah.png",
     "timeline": {
       "precision": "era"
@@ -861,7 +841,6 @@
       "federal headship",
       "image of God"
     ],
-    "image": "adam.png",
     "image2": "adam.png",
     "first_reference": "Genesis 2:20"
   },
@@ -892,7 +871,6 @@
       "temptation and deception",
       "motherhood"
     ],
-    "image": "eve.png",
     "image2": "eve.png",
     "first_reference": "Genesis 3:20"
   },
@@ -1341,7 +1319,6 @@
       "covenant",
       "new beginning"
     ],
-    "image": "noah.png",
     "image2": "noah.png",
     "first_reference": "Genesis 5:29-32"
   },
@@ -4769,7 +4746,6 @@
       "family reconciliation",
       "famine relief"
     ],
-    "image": "joseph.png",
     "image2": "joseph.png",
     "first_reference": "Genesis 30:24-25"
   },
@@ -11815,7 +11791,6 @@
       "compromised judge",
       "God's use of flawed people"
     ],
-    "image": "samson.png",
     "image2": "samson.png",
     "first_reference": "Judges 13:24",
     "tribe": "Dan"
@@ -12943,7 +12918,6 @@
       "God's power over human strength",
       "faith over fear"
     ],
-    "image": "goliath.png",
     "image2": "goliath.png",
     "timeline": {
       "precision": "era",
@@ -18841,7 +18815,6 @@
       "God's compassion",
       "reluctant prophet"
     ],
-    "image": "jonah.png",
     "image2": "jonah.png",
     "timeline": {
       "precision": "era",
@@ -49067,7 +49040,6 @@
       "prophecy",
       "God's protection"
     ],
-    "image": "daniel-2.png",
     "image2": "daniel-2.png",
     "timeline": {
       "precision": "era",
@@ -50244,7 +50216,6 @@
       "confronting sin in high places",
       "martyrdom"
     ],
-    "image": "john.png",
     "image2": "john.png",
     "first_reference": "Matthew 3:1-14",
     "tribe": "Levi"

@@ -1,7 +1,9 @@
 {
   "person_id": "john",
   "name": "John",
-  "alt_names": ["John the Baptist"],
+  "alt_names": [
+    "John the Baptist"
+  ],
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",
@@ -58,12 +60,6 @@
   "source_summary": "Miraculously born to the elderly Zacharias and Elizabeth and set apart from birth to prepare the way for the Messiah, John the Baptist preached repentance in the Judean wilderness, baptized Jesus, and was later beheaded by Herod Antipas for publicly condemning the king's unlawful marriage.",
   "family_friendly_summary": "John was born to Zacharias and Elizabeth after an angel promised them a son in their old age, and John's job in life was to get people ready for Jesus. He grew up in the wilderness and preached that people should turn away from sin, and he baptized people in the Jordan River as a sign of starting fresh with God. Many people wondered if John himself was the promised Messiah, but John made clear he wasn't -- he said someone far greater was coming, someone he wasn't even worthy to serve. When Jesus came to be baptized, John recognized Him and called Him \"the Lamb of God.\" Later, John bravely told King Herod that his marriage was wrong, and this cost John his life -- but he never stopped speaking the truth.",
   "adult_story": "John's birth was announced by an angel to his father Zacharias, a priest struck mute for doubting that his elderly wife Elizabeth would bear a son set apart to \"go as a forerunner before Him in the spirit and power of Elijah\" (Luke 1:13-17). John appeared years later in the Judean wilderness, dressed in camel's hair, preaching repentance and baptizing crowds in the Jordan, fulfilling Isaiah's \"voice crying in the wilderness\" (Matthew 3:1-4; Isaiah 40:3). He confronted religious leaders as a \"brood of vipers\" trusting false security in their ancestry (Matthew 3:7-10), and when Jesus came to be baptized, John objected -- \"I have need to be baptized by You\" -- before consenting, and saw the Spirit descend on Jesus like a dove (3:13-17). John pointed his followers to Jesus, calling Him \"the Lamb of God who takes away the sin of the world\" and insisting \"He must increase, but I must decrease\" (John 1:29; 3:30). He publicly denounced Herod Antipas for unlawfully marrying his brother's wife Herodias, and Herod imprisoned him for it (Matthew 14:3-4). Even from prison, doubt crept in -- John sent disciples to ask Jesus, \"Are You the Expected One?\" and received a reply pointing to His works as proof (Matthew 11:2-6). At a feast, Herodias's daughter's dance so pleased Herod that he rashly promised her anything; prompted by her mother, she asked for John's head, and Herod had him beheaded (Matthew 14:6-11). Jesus called him the greatest man born of women (Matthew 11:11).",
-  "image": {
-    "file": "john.png",
-    "prompt_used": "Hand-authored SVG line-art illustration (no AI image-generation tool was available): a robed silhouette figure, no attempted facial likeness, wearing a shaggy camel-hair garment with a leather belt, both arms raised and mouth open crying out a message.",
-    "prompt_image_source": null,
-    "caption": "Original line-art illustration, symbolic rather than a portrait -- no claim of historical likeness"
-  },
   "image2": "john.png",
   "genealogy": {
     "father": "zacharias",
