@@ -2130,6 +2130,13 @@
       "kind": "point",
       "openbible": "Pethor"
     },
+    "philadelphia": {
+      "lat": 38.35,
+      "lng": 28.51667,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Philadelphia"
+    },
     "philippi": {
       "lat": 41.01207,
       "lng": 24.28458,
@@ -2353,6 +2360,13 @@
       "kind": "point",
       "openbible": "Samaria 1"
     },
+    "sardis": {
+      "lat": 38.48833,
+      "lng": 28.04028,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Sardis"
+    },
     "seir": {
       "lat": 30.1843,
       "lng": 35.3166,
@@ -2473,6 +2487,13 @@
       "confidence": 1000,
       "kind": "representative",
       "openbible": "Wilderness of Sinai"
+    },
+    "smyrna": {
+      "lat": 38.41889,
+      "lng": 27.13778,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Smyrna"
     },
     "sodom": {
       "lat": 31.20849,

@@ -229,7 +229,7 @@ def main():
         "gaza", "thebez", "valley-of-sorek", "wilderness-of-judea", "mount-carmel",
         "mount-gerizim", "kir-hareseth", "jabesh-gilead", "hazor", "magdala",
         "laodicea", "pergamum", "thyatira", "athens", "malta", "megiddo", "crete",
-        "dan",
+        "dan", "smyrna", "sardis", "philadelphia",
     }
 
     places = []

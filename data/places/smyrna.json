@@ -1,0 +1,28 @@
+{
+  "place_id": "smyrna",
+  "name": "Smyrna",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [],
+  "first_reference": "Revelation 1:11",
+  "references": [
+    "Revelation 1:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "Izmir, Turkey",
+  "n_people": 0,
+  "related_people": [],
+  "description": "A port city on the Aegean coast of Asia Minor, one of the seven churches addressed in Revelation. The letter to Smyrna contains no rebuke: the church there is poor in circumstances but rich in faith, warned of coming persecution and imprisonment and urged to be faithful to death for the crown of life (Revelation 2:8-11).",
+  "geo": {
+    "lat": 38.41889,
+    "lng": 27.13778,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Smyrna"
+  }
+}

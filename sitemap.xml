@@ -6487,6 +6487,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/philadelphia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/philippi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6537,6 +6542,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/sardis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/shechem.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6553,6 +6563,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/sinai.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/smyrna.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2537,6 +2537,19 @@
     "lng": 38.0865
   },
   {
+    "place_id": "philadelphia",
+    "name": "Philadelphia",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.35,
+    "lng": 28.51667
+  },
+  {
     "place_id": "philippi",
     "name": "Philippi",
     "alt_names": [],
@@ -2818,6 +2831,19 @@
     "lng": 35.195
   },
   {
+    "place_id": "sardis",
+    "name": "Sardis",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.48833,
+    "lng": 28.04028
+  },
+  {
     "place_id": "seir",
     "name": "Seir",
     "alt_names": [],
@@ -2988,6 +3014,19 @@
     "disambiguation": "",
     "lat": 28.53972,
     "lng": 33.97333
+  },
+  {
+    "place_id": "smyrna",
+    "name": "Smyrna",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.41889,
+    "lng": 27.13778
   },
   {
     "place_id": "sodom",

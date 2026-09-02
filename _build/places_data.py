@@ -1485,6 +1485,18 @@ PLACES_MINOR = {
         desc="The region east of the Jordan Jesus traveled through on His final journey toward Jerusalem (Matthew 19:1; Mark 10:1)."),
     "pergamum": dict(name="Pergamum", type="city", region="asia-minor-greece", first_reference="Revelation 1:11",
         desc="A city addressed in Revelation as the location of \"Satan's throne,\" where a believer named Antipas was martyred; the church there is commended for faithfulness but rebuked for tolerating false teaching (Revelation 2:12-17)."),
+    # The three churches of Revelation 2-3 with no other named person in the
+    # dataset -- added 2026-09-02 so all seven appear on the maps. The other
+    # four (Ephesus, Smyrna [now here], Pergamum, Thyatira, Sardis [here],
+    # Philadelphia [here], Laodicea) already existed.
+    "smyrna": dict(name="Smyrna", type="city", region="asia-minor-greece", first_reference="Revelation 1:11",
+        modern="Izmir, Turkey",
+        desc="A port city on the Aegean coast of Asia Minor, one of the seven churches addressed in Revelation. The letter to Smyrna contains no rebuke: the church there is poor in circumstances but rich in faith, warned of coming persecution and imprisonment and urged to be faithful to death for the crown of life (Revelation 2:8-11)."),
+    "sardis": dict(name="Sardis", type="city", region="asia-minor-greece", first_reference="Revelation 1:11",
+        desc="The former capital of ancient Lydia, one of the seven churches addressed in Revelation. The church at Sardis is told it has \"a name that it is alive, but it is dead,\" called to wake up and strengthen what remains, with a few there who have \"not soiled their garments\" (Revelation 3:1-6)."),
+    "philadelphia": dict(name="Philadelphia", type="city", region="asia-minor-greece", first_reference="Revelation 1:11",
+        modern="Alaşehir, Turkey",
+        desc="A city in Asia Minor, one of the seven churches addressed in Revelation. Like Smyrna, Philadelphia receives no rebuke: though it has \"little power,\" it has kept Christ's word and not denied His name, and is promised an open door no one can shut (Revelation 3:7-13)."),
     "pethor": dict(name="Pethor", type="town", region="mesopotamia", first_reference="Numbers 22:5",
         desc="The Mesopotamian hometown of Balaam, the seer Balak of Moab hired to curse Israel — a curse God repeatedly turned into blessing instead (Numbers 22-24)."),
     "pirathon": dict(name="Pirathon", type="town", region="canaan-israel", first_reference="Judges 12:15",

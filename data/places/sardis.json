@@ -1,0 +1,28 @@
+{
+  "place_id": "sardis",
+  "name": "Sardis",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [],
+  "first_reference": "Revelation 1:11",
+  "references": [
+    "Revelation 1:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "The former capital of ancient Lydia, one of the seven churches addressed in Revelation. The church at Sardis is told it has \"a name that it is alive, but it is dead,\" called to wake up and strengthen what remains, with a few there who have \"not soiled their garments\" (Revelation 3:1-6).",
+  "geo": {
+    "lat": 38.48833,
+    "lng": 28.04028,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Sardis"
+  }
+}
