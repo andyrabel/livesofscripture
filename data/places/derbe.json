@@ -1,0 +1,43 @@
+{
+  "place_id": "derbe",
+  "name": "Derbe",
+  "alt_names": [],
+  "tier": "full",
+  "type": "city",
+  "region": "asia-minor-greece",
+  "eras": [],
+  "first_reference": "Acts 14:6",
+  "references": [
+    "Acts 14:6",
+    "Acts 14:20-21",
+    "Acts 16:1",
+    "Acts 20:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": "near Karaman, Turkey",
+  "n_people": 0,
+  "related_people": [],
+  "description": "The easternmost city Paul and Barnabas reached on the first missionary journey, where they preached the gospel and made many disciples after fleeing the plot at Iconium (Acts 14:6, 20-21). From Derbe they turned back to revisit and strengthen the churches they had planted rather than press on overland toward Tarsus. Paul passed through again on the second journey (Acts 16:1), and Gaius of Derbe was later among the companions who traveled with him (Acts 20:4).",
+  "geo": {
+    "lat": 37.34857,
+    "lng": 33.36145,
+    "confidence": 860,
+    "kind": "point",
+    "openbible": "Derbe",
+    "candidates": [
+      [
+        33.36145,
+        37.34857,
+        860
+      ],
+      [
+        33.3948,
+        37.3188,
+        49
+      ]
+    ]
+  }
+}

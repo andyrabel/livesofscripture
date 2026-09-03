@@ -546,9 +546,8 @@ PLACES_MID = {
         name="Antioch", alt=["Antioch of Syria"], type="city", region="asia-minor-greece",
         first_reference="Acts 11:19", id_status="secure", modern="Antakya, Turkey",
         id_note=(
-            "Distinct from Antioch of Pisidia, a separate inland city in Asia Minor where Paul and Barnabas "
-            "preached on their first missionary journey (Acts 13:14-52) — no person in this dataset is tied "
-            "specifically to that Antioch rather than this one."
+            "Distinct from Antioch of Pisidia, the separate inland city in Asia Minor where Paul and Barnabas "
+            "preached on the first missionary journey (Acts 13:14-52), which has its own entry."
         ),
         references=["Acts 11:19-26", "Acts 13:1-3", "Galatians 2:11-14"],
         desc=(
@@ -558,6 +557,63 @@ PLACES_MID = {
             "that the Holy Spirit set apart Barnabas and Saul for the first missionary journey (Acts 13:1-3) "
             "— making the city the base of operations for the gospel's spread into the Gentile world. Peter's "
             "hypocrisy over eating with Gentiles was also confronted by Paul there (Galatians 2:11-14)."
+        ),
+    ),
+    "antioch-of-pisidia": dict(
+        name="Antioch of Pisidia", alt=["Pisidian Antioch"], type="city", region="asia-minor-greece",
+        first_reference="Acts 13:14", id_status="secure", modern="near Yalvaç, Turkey",
+        id_note=(
+            "An inland city near the region of Pisidia in Asia Minor, distinct from Antioch of Syria, the "
+            "church that first sent Paul and Barnabas out (Acts 13:1-3)."
+        ),
+        references=["Acts 13:14-52", "Acts 14:21-23", "2 Timothy 3:11"],
+        desc=(
+            "The first inland city Paul and Barnabas reached on the first missionary journey, after Perga. In "
+            "its synagogue Paul preached the longest of his sermons recorded in Acts, tracing Israel's history "
+            "to Christ's death and resurrection and offering forgiveness of sins through Him (Acts 13:16-41). "
+            "Almost the whole city gathered the next Sabbath to hear the word, but jealous opposition drove the "
+            "missionaries out, and there Paul and Barnabas declared they were turning to the Gentiles and shook "
+            "the dust from their feet (Acts 13:44-51). They came back through the city on the return leg to "
+            "strengthen the disciples and appoint elders (Acts 14:21-23), and Paul later recalls the "
+            "persecutions he endured there (2 Timothy 3:11)."
+        ),
+    ),
+    "iconium": dict(
+        name="Iconium", alt=[], type="city", region="asia-minor-greece",
+        first_reference="Acts 13:51", id_status="secure", modern="Konya, Turkey",
+        references=["Acts 14:1-6", "Acts 14:19", "2 Timothy 3:11"],
+        desc=(
+            "A city of Asia Minor east of Antioch of Pisidia where Paul and Barnabas preached in the synagogue "
+            "so effectively that a great number of Jews and Greeks believed. They stayed a long time, speaking "
+            "boldly while the Lord confirmed the message with signs and wonders, until the city split over them "
+            "and a plot formed to stone them, and they fled to Lystra and Derbe (Acts 14:1-6). Opponents from "
+            "Iconium followed Paul to Lystra and helped incite the crowd that stoned him there (Acts 14:19). "
+            "Paul returned through Iconium to strengthen the disciples (Acts 14:21-22), and names it among the "
+            "places he was persecuted (2 Timothy 3:11)."
+        ),
+    ),
+    "derbe": dict(
+        name="Derbe", alt=[], type="city", region="asia-minor-greece",
+        first_reference="Acts 14:6", id_status="secure", modern="near Karaman, Turkey",
+        references=["Acts 14:20-21", "Acts 16:1", "Acts 20:4"],
+        desc=(
+            "The easternmost city Paul and Barnabas reached on the first missionary journey, where they "
+            "preached the gospel and made many disciples after fleeing the plot at Iconium (Acts 14:6, 20-21). "
+            "From Derbe they turned back to revisit and strengthen the churches they had planted rather than "
+            "press on overland toward Tarsus. Paul passed through again on the second journey (Acts 16:1), and "
+            "Gaius of Derbe was later among the companions who traveled with him (Acts 20:4)."
+        ),
+    ),
+    "perga": dict(
+        name="Perga", alt=[], type="city", region="asia-minor-greece",
+        first_reference="Acts 13:13", id_status="secure", modern="near Antalya, Turkey",
+        references=["Acts 13:13-14", "Acts 14:25"],
+        desc=(
+            "A city in Pamphylia on the southern coast of Asia Minor, the first mainland stop after Cyprus on "
+            "the first missionary journey. It was at Perga that John Mark left Paul and Barnabas to return to "
+            "Jerusalem, a departure that later caused a sharp disagreement between the two missionaries (Acts "
+            "13:13; 15:37-39). On the way back they preached the word in Perga before going down to the port of "
+            "Attalia and sailing for Antioch (Acts 14:25)."
         ),
     ),
     "gibeon": dict(

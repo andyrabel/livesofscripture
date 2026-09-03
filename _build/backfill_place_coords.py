@@ -42,6 +42,7 @@ from places_data import PLACES_MAJOR, PLACES_MID, PLACES_MINOR  # noqa: E402
 # would get wrong. "" means "deliberately no coordinate" (unlocatable).
 OVERRIDES = {
     "asia-minor": "Asia",
+    "antioch-of-pisidia": "Antioch 2",       # OpenBible splits Syrian (1) / Pisidian (2)
     "kingdom-of-israel": "Samaria",          # the northern kingdom, capital region
     "kingdom-of-judah": "Judea 1",           # the southern kingdom's territory
     "region-of-the-gerasenes": "Gerasa",

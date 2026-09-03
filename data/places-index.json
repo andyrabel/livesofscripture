@@ -156,6 +156,21 @@
     "lng": 36.17174
   },
   {
+    "place_id": "antioch-of-pisidia",
+    "name": "Antioch of Pisidia",
+    "alt_names": [
+      "Pisidian Antioch"
+    ],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 38.30611,
+    "lng": 31.18917
+  },
+  {
     "place_id": "aphek",
     "name": "Aphek",
     "alt_names": [],
@@ -825,6 +840,19 @@
     "lng": 35.01485
   },
   {
+    "place_id": "derbe",
+    "name": "Derbe",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 37.34857,
+    "lng": 33.36145
+  },
+  {
     "place_id": "edom",
     "name": "Edom",
     "alt_names": [
@@ -1467,6 +1495,19 @@
     "disambiguation": "",
     "lat": 31.77667,
     "lng": 35.23417
+  },
+  {
+    "place_id": "iconium",
+    "name": "Iconium",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 37.8722,
+    "lng": 32.49233
   },
   {
     "place_id": "jabesh-gilead",
@@ -2490,6 +2531,19 @@
     "disambiguation": "",
     "lat": 31.95,
     "lng": 35.7
+  },
+  {
+    "place_id": "perga",
+    "name": "Perga",
+    "alt_names": [],
+    "tier": "full",
+    "type": "city",
+    "region": "asia-minor-greece",
+    "eras": [],
+    "n_people": 0,
+    "disambiguation": "",
+    "lat": 36.96035,
+    "lng": 30.85369
   },
   {
     "place_id": "pergamum",

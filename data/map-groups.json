@@ -69,7 +69,7 @@
       "name": "Paul's world",
       "blurb": "Cities of Paul's missionary journeys and letters.",
       "extent": "biblical-world",
-      "places": ["tarsus", "antioch", "cyprus", "paphos", "lystra", "troas", "philippi", "thessalonica", "athens", "corinth", "miletus", "ephesus", "malta", "rome"]
+      "places": ["tarsus", "antioch", "cyprus", "paphos", "perga", "antioch-of-pisidia", "iconium", "lystra", "derbe", "troas", "philippi", "thessalonica", "athens", "corinth", "miletus", "ephesus", "malta", "rome"]
     }
   ]
 }

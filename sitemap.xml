@@ -6062,6 +6062,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/antioch-of-pisidia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/aram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6187,6 +6192,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/derbe.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/edom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6283,6 +6293,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/hill-country-of-ephraim.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/iconium.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -6478,6 +6493,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/penuel.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/perga.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

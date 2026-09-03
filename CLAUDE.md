@@ -969,8 +969,8 @@ site). Pieces:
   (force-committed like `link_overrides.json`): a lon/lat + an OpenBible.info
   identification confidence (`0`–`1000`; `0` = a hand-placed approximate
   anchor for a region OpenBible has no entry for) + alternate candidate
-  points for disputed sites + (for regions) a `geojson` filename, for ~220
-  of the 223 curated places. Matched by name against OpenBible's
+  points for disputed sites + (for regions) a `geojson` filename, for ~224
+  of the 227 curated places. Matched by name against OpenBible's
   `ancient.jsonl` (fetch with `import_openbible_places.py --refresh`), with a
   hand `OVERRIDES`/`MANUAL` block for the misses. `generate_places.py` reads
   it and writes a `geo` block onto each `data/places/<id>.json` (minus the

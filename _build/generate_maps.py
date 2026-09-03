@@ -226,7 +226,15 @@ STYLE_BLOCK = """
     .l {{ fill: var(--l); stroke: var(--c); stroke-width: 1; stroke-linejoin: round; }}
     .k {{ fill: var(--k); stroke: var(--c); stroke-width: .6; }}
     .r {{ fill: none; stroke: var(--r); stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }}
+    .cap {{ fill: #9a8f7a; opacity: .9; font: 13px system-ui, -apple-system, sans-serif;
+            paint-order: stroke; stroke: var(--w); stroke-width: 3px; }}
 """.strip("\n")
+
+# Burned into every standalone map so a copied/printed map carries its own
+# provenance and licensing (the site claims no copyright on the rendering).
+MAP_CAPTION = ("LivesOfScripture.org — no copyright claimed on this map. "
+               "Base geometry: Natural Earth (public domain). "
+               "Place data: OpenBible.info (CC BY 4.0).")
 
 
 def compute_paths(ext_name, layers):
@@ -407,6 +415,7 @@ def write_svg(ext_name, style_name, paths):
         )
     svg += [f'<path class="k" d="{p}"/>' for p in paths["lakes"]]
     svg += [f'<path class="r" d="{p}"/>' for p in paths["rivers"]]
+    svg.append(f'<text class="cap" x="10" y="{h - 12:.0f}">{MAP_CAPTION}</text>')
     svg.append("</svg>")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / f"{ext_name}-{style_name}.svg").write_text("\n".join(svg) + "\n")

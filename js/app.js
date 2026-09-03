@@ -3604,6 +3604,99 @@ async function renderMapExplorer() {
     url: document.getElementById("mapx-url"),
   };
 
+  // --- Inspect card: name / references / identification confidence, shown
+  // while hovering (or keyboard-focusing) a place marker.
+  const stage = els.viewport.parentNode;
+  const inspectCard = document.createElement("div");
+  inspectCard.className = "mapx-inspect";
+  inspectCard.hidden = true;
+  stage.appendChild(inspectCard);
+
+  function hideInspect() {
+    inspectCard.hidden = true;
+  }
+  function confDescriptor(id) {
+    const g = geoById.get(id) || {};
+    const conf = g.confidence || 0;
+    if (g.kind === "representative" && conf === 0)
+      return ["Approximate regional anchor", "mk-approx"];
+    if (conf === 0) return ["Approximate — location uncertain", "mk-approx"];
+    if (conf >= 500) return [`Well identified · confidence ${conf}/1000`, "mk-secure"];
+    return [`Disputed identification · confidence ${conf}/1000`, "mk-disputed"];
+  }
+  function showInspect(id, clientX, clientY) {
+    if (els.viewport.classList.contains("is-panning")) return;
+    const p = byId.get(id);
+    if (!p) return;
+    const [ctext, ccls] = confDescriptor(id);
+    const refs = (p.references || []).join(", ");
+    inspectCard.innerHTML =
+      `<strong>${escapeHtml(p.name)}</strong>` +
+      `<span class="mapx-inspect-row">${refs ? escapeHtml(refs) : "Named in Scripture"}</span>` +
+      `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>`;
+    inspectCard.hidden = false;
+    const r = stage.getBoundingClientRect();
+    const iw = inspectCard.offsetWidth;
+    const ih = inspectCard.offsetHeight;
+    let x = clientX - r.left + 14;
+    let y = clientY - r.top + 14;
+    if (x + iw > r.width) x = clientX - r.left - iw - 14;
+    if (y + ih > r.height) y = r.height - ih - 6;
+    inspectCard.style.left = `${Math.max(4, x)}px`;
+    inspectCard.style.top = `${Math.max(4, y)}px`;
+  }
+
+  // --- Drag-to-pan: dragging the map body scrolls the viewport. A small
+  // movement threshold keeps single-click marker toggling intact.
+  (function initPan() {
+    const vp = els.viewport;
+    let active = false;
+    let moved = false;
+    let sx = 0;
+    let sy = 0;
+    let sl = 0;
+    let st = 0;
+    vp.addEventListener("pointerdown", (e) => {
+      if (e.button !== 0) return;
+      // Touch devices already drag-scroll the overflow container natively.
+      if (e.pointerType && e.pointerType !== "mouse") return;
+      active = true;
+      moved = false;
+      sx = e.clientX;
+      sy = e.clientY;
+      sl = vp.scrollLeft;
+      st = vp.scrollTop;
+    });
+    vp.addEventListener("pointermove", (e) => {
+      if (!active) return;
+      const dx = e.clientX - sx;
+      const dy = e.clientY - sy;
+      if (!moved && Math.hypot(dx, dy) < 4) return;
+      moved = true;
+      vp.classList.add("is-panning");
+      hideInspect();
+      if (vp.setPointerCapture) {
+        try {
+          vp.setPointerCapture(e.pointerId);
+        } catch (_) {}
+      }
+      vp.scrollLeft = sl - dx;
+      vp.scrollTop = st - dy;
+    });
+    function end() {
+      if (moved) {
+        vp._suppressClick = true;
+        setTimeout(() => {
+          vp._suppressClick = false;
+        }, 0);
+      }
+      active = false;
+      vp.classList.remove("is-panning");
+    }
+    vp.addEventListener("pointerup", end);
+    vp.addEventListener("pointercancel", end);
+  })();
+
   function markerClass(id) {
     const g = geoById.get(id) || {};
     const conf = g.confidence || 0;
@@ -3707,7 +3800,8 @@ async function renderMapExplorer() {
       const ta = anchorEnd ? ' text-anchor="end"' : "";
       const label = `<text x="${tx}" y="4" font-size="12" class="${showLabel ? "" : "mk-hover-only"}"${ta}>${escapeHtml(p.name)}</text>`;
       markers +=
-        `<g class="${cls}" data-id="${p.place_id}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})">` +
+        `<g class="${cls}" data-id="${p.place_id}" tabindex="0" role="button" ` +
+        `aria-label="${escapeHtml(p.name)}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})">` +
         `<circle r="${r}" class="${dotCls}"/>${label}</g>`;
     }
 
@@ -3719,15 +3813,42 @@ async function renderMapExplorer() {
       `${geomLayer}${markers}</svg>`;
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
+      const id = g.getAttribute("data-id");
       g.addEventListener("click", () => {
-        const id = g.getAttribute("data-id");
+        if (els.viewport._suppressClick) return;
         if (state.ids.has(id)) state.ids.delete(id);
         else state.ids.add(id);
         state.groupId = null;
         state.sel = id;
         refresh();
       });
-      g.addEventListener("mouseenter", () => g.parentNode.appendChild(g));
+      g.addEventListener("mouseenter", (e) => {
+        g.parentNode.appendChild(g);
+        showInspect(id, e.clientX, e.clientY);
+      });
+      g.addEventListener("mousemove", (e) => {
+        if (!inspectCard.hidden) showInspect(id, e.clientX, e.clientY);
+      });
+      g.addEventListener("mouseleave", hideInspect);
+      g.addEventListener("focus", () => {
+        const b = g.getBoundingClientRect();
+        showInspect(id, b.left + b.width / 2, b.top + b.height / 2);
+      });
+      g.addEventListener("blur", hideInspect);
+      g.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          g.dispatchEvent(new Event("click"));
+        }
+      });
+    });
+
+    requestAnimationFrame(() => {
+      const vp = els.viewport;
+      vp.classList.toggle(
+        "is-pannable",
+        vp.scrollWidth > vp.clientWidth + 1 || vp.scrollHeight > vp.clientHeight + 1,
+      );
     });
 
     const grp = GROUPS.find((x) => x.id === state.groupId);

@@ -3288,6 +3288,18 @@ header.site-header nav a.nav-cta:hover {
 .map-river { fill: none; stroke: var(--map-river); stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }
 .map-water-rect { fill: var(--map-water); }
 
+/* Provenance / no-copyright line burned into locator + standalone maps. */
+.map-caption {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  fill: var(--color-text-muted);
+  opacity: 0.8;
+  paint-order: stroke;
+  stroke: var(--map-water);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
 .map-mk circle { stroke: var(--map-land); stroke-width: 1.5; }
 .map-mk .mk-secure   { fill: var(--map-mk-secure); }
 .map-mk .mk-disputed { fill: var(--map-mk-disputed); }
@@ -3328,9 +3340,33 @@ header.site-header nav a.nav-cta:hover {
 .mapx-groups button small { display: block; color: var(--color-text-muted); font-size: 0.75rem; margin-top: 1px; }
 .mapx-stage { border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: var(--map-water); position: relative; }
 .mapx-viewport { overflow: auto; max-height: 78vh; }
+.mapx-viewport.is-pannable { cursor: grab; }
+.mapx-viewport.is-panning,
+.mapx-viewport.is-panning .map-mk { cursor: grabbing; }
 .mapx-viewport svg { display: block; }
 .mapx-viewport .map-mk.is-dim { opacity: 0.5; }
 .mapx-viewport .map-mk.is-dim:hover { opacity: 1; }
+
+/* Hover / focus inspect card for a place marker. */
+.mapx-inspect {
+  position: absolute;
+  z-index: 6;
+  max-width: 240px;
+  padding: 0.5rem 0.65rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  pointer-events: none;
+}
+.mapx-inspect strong { display: block; font-size: 0.85rem; margin-bottom: 0.1rem; }
+.mapx-inspect .mapx-inspect-row { color: var(--color-text-muted); }
+.mapx-inspect .mapx-inspect-conf { display: block; font-weight: 600; margin-top: 0.15rem; }
+.mapx-inspect .mk-secure { color: var(--map-mk-secure); }
+.mapx-inspect .mk-disputed { color: var(--map-mk-disputed); }
+.mapx-inspect .mk-approx { color: var(--map-mk-approx); }
 .mapx-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.5rem 0.75rem; background: var(--color-surface); border-bottom: 1px solid var(--color-border); font-size: 0.85rem; }
 .mapx-bar .mapx-count { color: var(--color-text-muted); font-variant-numeric: tabular-nums; margin-left: auto; margin-right: 0.5rem; }
 .mapx-zoom button { width: 28px; height: 28px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); border-radius: 6px; cursor: pointer; }
@@ -3343,6 +3379,12 @@ header.site-header nav a.nav-cta:hover {
 .mapx-share input { flex: 1; font: inherit; font-size: 0.8rem; padding: 0.35rem 0.5rem; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-bg); color: var(--color-text); }
 .mapx-share button { border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); border-radius: 6px; padding: 0 0.6rem; font: inherit; font-size: 0.8rem; cursor: pointer; }
 .mapx-labels { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.mapx-caption { margin: 0; padding: 0.4rem 0.75rem; font-size: 0.7rem; line-height: 1.35; color: var(--color-text-muted); background: var(--color-surface); border-top: 1px solid var(--color-border); }
+.mapx-caption a { color: inherit; }
+@media print {
+  .mapx-viewport { overflow: visible; max-height: none; }
+  .mapx-rail, .mapx-bar { display: none; }
+}
 
 /* Map explorer "Plain" base style — overrides --map-* on the explorer only.
    (Per-place mini-maps always use the default parchment tokens.) */

@@ -126,6 +126,13 @@
       "kind": "point",
       "openbible": "Antioch 1"
     },
+    "antioch-of-pisidia": {
+      "lat": 38.30611,
+      "lng": 31.18917,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Antioch 2"
+    },
     "aphek": {
       "lat": 32.105,
       "lng": 34.93042,
@@ -601,6 +608,25 @@
           35.03264,
           31.47857,
           15
+        ]
+      ]
+    },
+    "derbe": {
+      "lat": 37.34857,
+      "lng": 33.36145,
+      "confidence": 860,
+      "kind": "point",
+      "openbible": "Derbe",
+      "candidates": [
+        [
+          33.36145,
+          37.34857,
+          860
+        ],
+        [
+          33.3948,
+          37.3188,
+          49
         ]
       ]
     },
@@ -1266,6 +1292,13 @@
       "kind": "representative",
       "openbible": "Judea 1",
       "geojson": "a149f13.geojson"
+    },
+    "iconium": {
+      "lat": 37.8722,
+      "lng": 32.49233,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Iconium"
     },
     "jabesh-gilead": {
       "lat": 32.40237,
@@ -2160,6 +2193,13 @@
       "confidence": 0,
       "kind": "representative",
       "note": "Approximate: the region east of the Jordan opposite Judea and Samaria."
+    },
+    "perga": {
+      "lat": 36.96035,
+      "lng": 30.85369,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Perga"
     },
     "pergamum": {
       "lat": 39.13216,

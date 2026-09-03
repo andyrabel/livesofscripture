@@ -1525,6 +1525,17 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
     explorer_ids = ",".join([place["place_id"]] + [e["place_id"] for e in neighbours])
     explorer_href = f'{base}map.html?ext={ext_name}&amp;places={explorer_ids}'
 
+    # Burned into the SVG itself so a copied or printed locator map still
+    # carries its provenance and the site's no-copyright statement.
+    cap_fs = round(11 * scale, 1)
+    cap_x = vx + 6 * scale
+    cap_y = vy + vh - 6 * scale
+    caption_text = (
+        f'<text class="map-caption" x="{cap_x:.1f}" y="{cap_y:.1f}" '
+        f'style="font-size:{cap_fs}px;stroke-width:{3 * scale:.1f}px">'
+        f'LivesOfScripture.org &#183; no copyright claimed on this map</text>'
+    )
+
     return f"""<figure class="placemap">
     <svg viewBox="{vx:.1f} {vy:.1f} {vw:.1f} {vh:.1f}" role="img" aria-label="Locator map for {esc(place['name'])}">
       <rect class="map-water-rect" x="{vx:.1f}" y="{vy:.1f}" width="{vw:.1f}" height="{vh:.1f}"/>
@@ -1533,8 +1544,9 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
       {rivers}
       {region_overlay}
       {markers}
+      {caption_text}
     </svg>
-    <figcaption><span>Base map &copy; Natural Earth (public domain); locations from <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0)</span> <a href="{explorer_href}">Open in the map explorer &#8594;</a></figcaption>
+    <figcaption><span>This map is not copyrighted &mdash; free to reuse. Base geometry &copy; Natural Earth (public domain); locations from <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0)</span> <a href="{explorer_href}">Open in the map explorer &#8594;</a></figcaption>
   </figure>"""
 
 
@@ -1637,6 +1649,9 @@ def build_map_explorer_page(places_index):
       <div class="mapx-viewport" id="mapx-viewport">
         {base_map_svg("holy-land", ' id="mapx-fallback"')}
       </div>
+      <p class="mapx-caption">This map is free to reuse &mdash; no copyright is claimed on it.
+      Base geometry from <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain);
+      place identifications from <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0).</p>
     </div>
   </div>
 
