@@ -3839,6 +3839,7 @@ async function renderMapExplorer() {
   } else if (params.get("group")) {
     applyGroup(params.get("group"));
   }
+  const initialFit = pParam.length > 0 || !!params.get("group");
 
   function syncUrl() {
     const q = new URLSearchParams();
@@ -3989,8 +3990,65 @@ async function renderMapExplorer() {
     );
   }
 
-  function refresh() {
+  // Bounding box (in unzoomed projected coords) for a selected place — the
+  // region's simplified outline where we have one, otherwise its point.
+  function bboxForId(ext, id) {
+    const rg = (ext.regions || {})[id];
+    if (rg && rg.d) {
+      const nums = rg.d.match(/-?\d+(?:\.\d+)?/g);
+      if (nums && nums.length >= 4) {
+        let mnx = Infinity, mny = Infinity, mxx = -Infinity, mxy = -Infinity;
+        for (let i = 0; i + 1 < nums.length; i += 2) {
+          const x = +nums[i], y = +nums[i + 1];
+          if (x < mnx) mnx = x;
+          if (x > mxx) mxx = x;
+          if (y < mny) mny = y;
+          if (y > mxy) mxy = y;
+        }
+        return [mnx, mny, mxx, mxy];
+      }
+    }
+    const p = byId.get(id);
+    if (p) {
+      const [x, y] = project(ext, p.lat, p.lng);
+      return [x, y, x, y];
+    }
+    return null;
+  }
+
+  // Zoom + scroll the viewport so every selected place sits comfortably in
+  // frame. Called when a preset group is applied (or when the page opens on a
+  // shared selection).
+  function fitSelection() {
+    const vp = els.viewport;
+    const ext = maps.extents[state.extent];
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const id of state.ids) {
+      const b = bboxForId(ext, id);
+      if (!b) continue;
+      if (b[0] < minX) minX = b[0];
+      if (b[1] < minY) minY = b[1];
+      if (b[2] > maxX) maxX = b[2];
+      if (b[3] > maxY) maxY = b[3];
+    }
+    if (!isFinite(minX)) return;
+    const padX = Math.max(36, (maxX - minX) * 0.15);
+    const padY = Math.max(36, (maxY - minY) * 0.15);
+    minX -= padX; maxX += padX; minY -= padY; maxY += padY;
+    const bw = Math.max(1, maxX - minX);
+    const bh = Math.max(1, maxY - minY);
+    const vpW = vp.clientWidth || 640;
+    const vpH = vp.clientHeight || 480;
+    state.zoom = Math.max(0.6, Math.min(4, Math.min(vpW / bw, vpH / bh)));
     render();
+    const z = state.zoom;
+    vp.scrollLeft = ((minX + maxX) / 2) * z - vpW / 2;
+    vp.scrollTop = ((minY + maxY) / 2) * z - vpH / 2;
+  }
+
+  function refresh(fit) {
+    render();
+    if (fit) fitSelection();
     syncUrl();
   }
 
@@ -4000,8 +4058,11 @@ async function renderMapExplorer() {
   ).join("");
   els.groups.querySelectorAll("button").forEach((b) => {
     b.addEventListener("click", () => {
+      // Switching presets replaces the whole view — drop any inspect card
+      // left pinned or hovering over a marker from the previous selection.
+      hideInspect();
       applyGroup(b.dataset.id);
-      refresh();
+      refresh(true);
     });
   });
 
@@ -4059,16 +4120,188 @@ async function renderMapExplorer() {
   }
   document.getElementById("mapx-zoom-in").addEventListener("click", () => zoomAround(1.3));
   document.getElementById("mapx-zoom-out").addEventListener("click", () => zoomAround(1 / 1.3));
-  const copyBtn = document.getElementById("mapx-copy");
-  if (copyBtn) {
-    copyBtn.addEventListener("click", () => {
-      els.url.select();
-      navigator.clipboard?.writeText(els.url.value).then(() => {
-        copyBtn.textContent = "Copied";
-        setTimeout(() => (copyBtn.textContent = "Copy"), 1500);
+
+  // ---- Map image tools: print / copy-image / copy-link ---------------------
+  // All three act on the map "as framed" — the area currently visible in the
+  // viewport, at the current zoom, extent, style and selection.
+  function flashBtn(btn, ok) {
+    if (!btn) return;
+    btn.classList.toggle("is-flash", ok !== false);
+    btn.title = ok === false ? "Couldn't do that — try again" : "Done";
+    setTimeout(() => {
+      btn.classList.remove("is-flash");
+      btn.title = btn.getAttribute("aria-label");
+    }, 1400);
+  }
+
+  let reliefCache = null;
+  async function reliefDataUrl(ext) {
+    if (!ext.relief) return null;
+    if (reliefCache && reliefCache.key === ext.relief) return reliefCache.url;
+    try {
+      const blob = await fetch(`images/maps/${ext.relief}`).then((r) => r.blob());
+      const url = await new Promise((res, rej) => {
+        const fr = new FileReader();
+        fr.onload = () => res(fr.result);
+        fr.onerror = rej;
+        fr.readAsDataURL(blob);
       });
+      reliefCache = { key: ext.relief, url };
+      return url;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  // Serialise the framed area of the live SVG into a standalone, self-contained
+  // SVG string (inlined --map-* tokens, inlined relief raster, no external CSS).
+  async function framedSvg() {
+    const vp = els.viewport;
+    const live = vp.querySelector("svg");
+    if (!live) return null;
+    const vb = live.viewBox.baseVal;
+    const x = Math.max(0, Math.min(vp.scrollLeft, vb.width));
+    const y = Math.max(0, Math.min(vp.scrollTop, vb.height));
+    const w = Math.max(1, Math.min(vp.clientWidth, vb.width - x));
+    const h = Math.max(1, Math.min(vp.clientHeight, vb.height - y));
+
+    const clone = live.cloneNode(true);
+    clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+    clone.setAttribute("viewBox", `${x} ${y} ${w} ${h}`);
+    clone.setAttribute("width", w);
+    clone.setAttribute("height", h);
+    // Labels that only appear on hover aren't part of the framed picture.
+    clone.querySelectorAll("text.mk-hover-only").forEach((t) => t.remove());
+
+    const ext = maps.extents[state.extent];
+    const relief = clone.querySelector("image.map-relief");
+    if (relief) {
+      const durl = state.style === "topo" ? await reliefDataUrl(ext) : null;
+      if (durl) relief.setAttribute("href", durl);
+      else relief.remove();
+    }
+
+    const cs = getComputedStyle(root);
+    const tokens = [
+      "--map-water", "--map-land", "--map-lake", "--map-river", "--map-coast",
+      "--map-mk-secure", "--map-mk-disputed", "--map-mk-approx", "--map-mk-subject",
+      "--color-text", "--color-text-muted", "--color-accent-strong",
+    ]
+      .map((n) => `${n}:${cs.getPropertyValue(n).trim()};`)
+      .join("");
+    const sans = cs.getPropertyValue("--font-sans").trim() || "sans-serif";
+    const serif = cs.getPropertyValue("--font-serif").trim() || "serif";
+    const style = document.createElementNS("http://www.w3.org/2000/svg", "style");
+    style.textContent =
+      `svg{${tokens}}` +
+      `.map-water-rect{fill:var(--map-water)}` +
+      `.map-land{fill:var(--map-land);stroke:var(--map-coast);stroke-width:1;stroke-linejoin:round}` +
+      `.map-lake{fill:var(--map-lake);stroke:var(--map-coast);stroke-width:.6}` +
+      `.map-river{fill:none;stroke:var(--map-river);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}` +
+      `.map-relief{mix-blend-mode:soft-light}` +
+      `.map-region-fill{fill:var(--map-mk-subject);fill-opacity:.09;stroke:var(--map-mk-subject);stroke-opacity:.55;stroke-width:1.2;stroke-dasharray:5 3;stroke-linejoin:round}` +
+      `.map-region-line{fill:none;stroke:var(--map-mk-subject);stroke-opacity:.6;stroke-width:1.6;stroke-dasharray:5 3}` +
+      `.map-mk circle{stroke:var(--map-land);stroke-width:1.5}` +
+      `.map-mk .mk-secure{fill:var(--map-mk-secure)}` +
+      `.map-mk .mk-disputed{fill:var(--map-mk-disputed)}` +
+      `.map-mk .mk-approx{fill:var(--map-mk-approx)}` +
+      `.map-mk .mk-region-dot{fill:var(--color-text-muted);opacity:.65}` +
+      `.map-mk.is-sel circle{stroke:var(--color-accent-strong);stroke-width:2.5}` +
+      `.map-mk.is-dim circle{opacity:.9}` +
+      `.map-mk.is-dim{opacity:.5}` +
+      `.map-mk text{font-family:${sans};fill:var(--color-text);paint-order:stroke;stroke:var(--map-land);stroke-width:3px;stroke-linejoin:round}` +
+      `.map-mk.mk-region text{font-family:${serif};font-style:italic;fill:var(--color-text-muted)}`;
+    clone.insertBefore(style, clone.firstChild);
+
+    return { svg: new XMLSerializer().serializeToString(clone), w, h };
+  }
+
+  async function framedPngBlob(scale) {
+    const out = await framedSvg();
+    if (!out) return null;
+    const src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(out.svg);
+    const img = new Image();
+    await new Promise((res, rej) => {
+      img.onload = res;
+      img.onerror = rej;
+      img.src = src;
+    });
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(out.w * scale);
+    canvas.height = Math.round(out.h * scale);
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    return new Promise((res) => canvas.toBlob(res, "image/png"));
+  }
+
+  const printBtn = document.getElementById("mapx-print");
+  const imgBtn = document.getElementById("mapx-img");
+  const shareBtn = document.getElementById("mapx-share");
+
+  if (shareBtn) {
+    shareBtn.addEventListener("click", () => {
+      const link = (els.url && els.url.value) || location.href;
+      const done = () => flashBtn(shareBtn, true);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(link).then(done, () => flashBtn(shareBtn, false));
+      } else {
+        flashBtn(shareBtn, false);
+      }
     });
   }
 
-  refresh();
+  if (imgBtn) {
+    imgBtn.addEventListener("click", async () => {
+      try {
+        if (window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) {
+          // Pass the blob as a promise so Safari keeps the user-gesture link.
+          await navigator.clipboard.write([
+            new ClipboardItem({ "image/png": framedPngBlob(2).then((b) => b || Promise.reject()) }),
+          ]);
+          flashBtn(imgBtn, true);
+          return;
+        }
+        const blob = await framedPngBlob(2);
+        if (!blob) throw new Error("no blob");
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "lives-of-scripture-map.png";
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+        flashBtn(imgBtn, true);
+      } catch (_) {
+        flashBtn(imgBtn, false);
+      }
+    });
+  }
+
+  if (printBtn) {
+    printBtn.addEventListener("click", async () => {
+      // Open the print window synchronously so pop-up blockers allow it.
+      const win = window.open("", "_blank");
+      try {
+        const blob = await framedPngBlob(2);
+        if (!blob || !win) throw new Error("no blob/window");
+        const url = URL.createObjectURL(blob);
+        win.document.write(
+          '<!doctype html><meta charset="utf-8"><title>Map — Lives of Scripture</title>' +
+            "<style>@page{margin:12mm}body{margin:0;font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}" +
+            "img{display:block;width:100%;height:auto}figcaption{color:#555;margin-top:8px}</style>" +
+            '<figure style="margin:0"><img src="' +
+            url +
+            '" onload="setTimeout(function(){window.focus();window.print();},80)">' +
+            "<figcaption>Map of the biblical world &mdash; LivesOfScripture.org. " +
+            "Free to reuse, no copyright claimed. Geometry: Natural Earth (public domain); " +
+            "place identifications: OpenBible.info (CC BY 4.0).</figcaption></figure>",
+        );
+        win.document.close();
+        flashBtn(printBtn, true);
+      } catch (_) {
+        if (win) win.close();
+        flashBtn(printBtn, false);
+      }
+    });
+  }
+
+  refresh(initialFit);
 }

@@ -1699,13 +1699,7 @@ def build_map_explorer_page(places_index):
         <summary>Add or remove places</summary>
         <div class="mapx-list" id="mapx-list"></div>
       </details>
-      <div>
-        <h3>Share this map</h3>
-        <div class="mapx-share">
-          <input type="text" id="mapx-url" readonly aria-label="Shareable link to this map">
-          <button type="button" id="mapx-copy">Copy</button>
-        </div>
-      </div>
+      <input type="hidden" id="mapx-url">
       <label class="mapx-labels"><input type="checkbox" id="mapx-all-labels"> Show every label</label>
     </aside>
 
@@ -1715,8 +1709,15 @@ def build_map_explorer_page(places_index):
         <span class="mapx-count" id="mapx-count"></span>
         <span class="mapx-zoom"><button type="button" id="mapx-zoom-out" aria-label="Zoom out">&minus;</button><button type="button" id="mapx-zoom-in" aria-label="Zoom in">+</button></span>
       </div>
-      <div class="mapx-viewport" id="mapx-viewport">
-        {base_map_svg("holy-land", ' id="mapx-fallback"')}
+      <div class="mapx-frame">
+        <div class="mapx-viewport" id="mapx-viewport">
+          {base_map_svg("holy-land", ' id="mapx-fallback"')}
+        </div>
+        <div class="mapx-tools" id="mapx-tools">
+          <button type="button" id="mapx-print" title="Print this map" aria-label="Print this map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6"/><path d="M6 18H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/><rect x="6" y="13" width="12" height="8" rx="1"/></svg></button>
+          <button type="button" id="mapx-img" title="Copy map image to clipboard" aria-label="Copy map image to clipboard"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></button>
+          <button type="button" id="mapx-share" title="Copy link to this map" aria-label="Copy link to this map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button>
+        </div>
       </div>
       <p class="mapx-caption">This map is free to reuse &mdash; no copyright is claimed on it.
       Base geometry from <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain);

@@ -3412,15 +3412,27 @@ header.site-header nav a.nav-cta:hover {
 .mapx-picker .mapx-list { max-height: 40vh; overflow: auto; border-top: 1px solid var(--color-border); }
 .mapx-picker label { display: flex; gap: 0.5rem; align-items: center; padding: 0.3rem 0.65rem; font-size: 0.85rem; cursor: pointer; }
 .mapx-picker label:hover { background: var(--map-lake); }
-.mapx-share { display: flex; gap: 0.4rem; }
-.mapx-share input { flex: 1; font: inherit; font-size: 0.8rem; padding: 0.35rem 0.5rem; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-bg); color: var(--color-text); }
-.mapx-share button { border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); border-radius: 6px; padding: 0 0.6rem; font: inherit; font-size: 0.8rem; cursor: pointer; }
 .mapx-labels { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+
+/* Print / copy-image / copy-link icon buttons, overlaid on the bottom-right
+   corner of the map itself. "Copy link" replaces the old rail share box. */
+.mapx-frame { position: relative; }
+.mapx-tools { position: absolute; right: 10px; bottom: 10px; display: flex; gap: 5px; z-index: 5; }
+.mapx-tools button {
+  width: 32px; height: 32px; padding: 0;
+  display: grid; place-items: center;
+  border: 1px solid var(--color-border); border-radius: 7px;
+  background: var(--color-surface); color: var(--color-text);
+  cursor: pointer; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+}
+.mapx-tools button:hover { background: var(--map-lake); }
+.mapx-tools button.is-flash { background: var(--map-mk-secure); border-color: var(--map-mk-secure); color: #fff; }
+.mapx-tools svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .mapx-caption { margin: 0; padding: 0.4rem 0.75rem; font-size: 0.7rem; line-height: 1.35; color: var(--color-text-muted); background: var(--color-surface); border-top: 1px solid var(--color-border); }
 .mapx-caption a { color: inherit; }
 @media print {
   .mapx-viewport { overflow: visible; max-height: none; }
-  .mapx-rail, .mapx-bar { display: none; }
+  .mapx-rail, .mapx-bar, .mapx-tools { display: none; }
 }
 
 /* Map explorer "Plain" base style — overrides --map-* on the explorer only.
