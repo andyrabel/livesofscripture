@@ -1316,8 +1316,8 @@ def build_places_list_page(places_index):
   <p class="page-intro">Every named place in Scripture with a documented connection to a person's
   story — cities, regions, mountains, wildernesses, and more. Click a place to see who Scripture
   ties to it, the reference where it's first named, and (where relevant) how confidently it can be
-  identified with a location on today's map. By default this list shows the {len(full)} places
-  with a narrative of their own; tick the box below to also fold in the {len(stub)} name-only
+  identified with a location on today's map. By default this list shows the places
+  with a narrative of their own; tick the box below to also fold in the name-only
   places (mentioned in Scripture but with no story here, kept for the connections graph).
   Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>,
   or plot places on our own free, copyright-free maps in the <a href="map.html">map explorer</a>.</p>

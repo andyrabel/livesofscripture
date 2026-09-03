@@ -3705,7 +3705,7 @@ async function renderMapExplorer() {
     inspectCard.innerHTML =
       `<button type="button" class="mapx-inspect-close" aria-label="Close">&times;</button>` +
       `<strong>${escapeHtml(p.name)}</strong>` +
-      `<span class="mapx-inspect-row">${firstRef ? "First reference — " + escapeHtml(firstRef) : "Named in Scripture"}</span>` +
+      `<span class="mapx-inspect-row">${firstRef ? "First named — " + escapeHtml(firstRef) : "Named in Scripture"}</span>` +
       `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>` +
       pageLink +
       addBtn;
