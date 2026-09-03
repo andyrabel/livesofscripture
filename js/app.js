@@ -3599,6 +3599,7 @@ async function renderMapExplorer() {
     ids: new Set(),
     groupId: null,
     allLabels: false,
+    journeys: false,
     zoom: 1,
     sel: null,
   };
@@ -3612,6 +3613,11 @@ async function renderMapExplorer() {
     url: document.getElementById("mapx-url"),
   };
 
+  // Colours for journey-route overlays (one per journey within a preset
+  // group). Chosen to read on parchment, plain and terrain bases in both
+  // themes; set as inline stroke/fill so the map-image export picks them up.
+  const JOURNEY_COLORS = ["#d2571e", "#2563eb", "#1a8f52", "#9333ea"];
+
   // --- Inspect card: name / references / identification confidence, shown
   // while hovering (or keyboard-focusing) a place marker.
   const stage = els.viewport.parentNode;
@@ -3619,6 +3625,13 @@ async function renderMapExplorer() {
   inspectCard.className = "mapx-inspect";
   inspectCard.hidden = true;
   stage.appendChild(inspectCard);
+
+  // Legend for the journey overlay, shown at the top-left of the map frame
+  // while "Show journey arrows" is on for a group that has routes.
+  const journeyLegend = document.createElement("div");
+  journeyLegend.className = "mapx-journey-legend";
+  journeyLegend.hidden = true;
+  stage.appendChild(journeyLegend);
   // When the card is "pinned" (opened by a click/tap rather than a passing
   // hover) it stays put until the reader dismisses it with the × button,
   // presses Escape, or opens another place's card.
@@ -3634,6 +3647,7 @@ async function renderMapExplorer() {
       if (state.ids.has(id)) state.ids.delete(id);
       else state.ids.add(id);
       state.groupId = null;
+      state.journeys = false;
       state.sel = id;
       const nowOn = state.ids.has(id);
       addBtn.textContent = nowOn ? "Remove from selection" : "Add to selection";
@@ -3679,6 +3693,11 @@ async function renderMapExplorer() {
     const [ctext, ccls] = confDescriptor(id);
     const firstRef = p.first_reference || (p.references || [])[0] || "";
     const onSel = state.ids.has(id);
+    // The pinned card gets interactive controls a passing hover doesn't:
+    // a link through to the place's own detail page, and an add/remove toggle.
+    const pageLink = inspectPinned
+      ? `<a class="mapx-inspect-link" href="places/${encodeURIComponent(id)}.html">View place page &rarr;</a>`
+      : "";
     const addBtn = inspectPinned
       ? `<button type="button" class="mapx-inspect-add" aria-pressed="${onSel}">` +
         `${onSel ? "Remove from selection" : "Add to selection"}</button>`
@@ -3688,6 +3707,7 @@ async function renderMapExplorer() {
       `<strong>${escapeHtml(p.name)}</strong>` +
       `<span class="mapx-inspect-row">${firstRef ? "First reference — " + escapeHtml(firstRef) : "Named in Scripture"}</span>` +
       `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>` +
+      pageLink +
       addBtn;
     inspectCard.hidden = false;
     const r = stage.getBoundingClientRect();
@@ -3827,6 +3847,9 @@ async function renderMapExplorer() {
     state.groupId = id;
     state.ids = new Set(g.places.filter((pid) => byId.has(pid)));
     if (maps.extents[g.extent]) state.extent = g.extent;
+    // Groups that carry route data show their journey arrows straight away
+    // (the reader can switch them off); groups without routes clear the flag.
+    state.journeys = Array.isArray(g.journeys) && g.journeys.length > 0;
     state.sel = null;
   }
 
@@ -3882,6 +3905,47 @@ async function renderMapExplorer() {
       `<g transform="scale(${Z})">` +
       `<path class="map-land" d="${ext.land}"/>${relief}${lakes}${rivers}${regionOverlays}</g>`;
 
+    // Journey overlay: dashed, arrow-headed routes for the active preset
+    // group. Drawn in the zoomed coordinate space (like the markers), above
+    // the base geometry but beneath the markers, and non-interactive.
+    const grpNow = GROUPS.find((x) => x.id === state.groupId);
+    const journeys =
+      state.journeys && grpNow && Array.isArray(grpNow.journeys) ? grpNow.journeys : [];
+    let journeyLayer = "";
+    if (journeys.length) {
+      const defs = [];
+      const paths = [];
+      journeys.forEach((jr, i) => {
+        const color = JOURNEY_COLORS[i % JOURNEY_COLORS.length];
+        const pts = (jr.waypoints || [])
+          .map((wid) => byId.get(wid))
+          .filter(Boolean)
+          .map((wp) => {
+            const [wx, wy] = project(ext, wp.lat, wp.lng);
+            return [wx * Z, wy * Z];
+          });
+        if (pts.length < 2) return;
+        defs.push(
+          `<marker id="mapx-jarrow-${i}" viewBox="0 0 10 10" refX="8" refY="5" ` +
+          `markerWidth="5" markerHeight="5" orient="auto-start-reverse">` +
+          `<path d="M0 0L10 5L0 10z" fill="${color}"/></marker>`,
+        );
+        const d = pts
+          .map((pt, k) => (k ? "L" : "M") + pt[0].toFixed(1) + " " + pt[1].toFixed(1))
+          .join(" ");
+        paths.push(
+          `<path d="${d}" fill="none" stroke="${color}" stroke-width="2" ` +
+          `stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" ` +
+          `marker-mid="url(#mapx-jarrow-${i})" marker-end="url(#mapx-jarrow-${i})"/>`,
+        );
+      });
+      if (paths.length) {
+        journeyLayer =
+          `<defs>${defs.join("")}</defs>` +
+          `<g class="mapx-journey-layer">${paths.join("")}</g>`;
+      }
+    }
+
     const ordered = placed.slice().sort((a, b) => {
       return (isRegion(a.place_id) ? 0 : 1) - (isRegion(b.place_id) ? 0 : 1);
     });
@@ -3917,7 +3981,7 @@ async function renderMapExplorer() {
       `width="${(W * Z).toFixed(0)}" height="${(H * Z).toFixed(0)}" ` +
       `role="img" aria-label="Map: ${escapeHtml(ext.title)}">` +
       `<rect class="map-water-rect" x="0" y="0" width="${(W * Z).toFixed(0)}" height="${(H * Z).toFixed(0)}"/>` +
-      `${geomLayer}${markers}</svg>`;
+      `${geomLayer}${journeyLayer}${markers}</svg>`;
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
       const id = g.getAttribute("data-id");
@@ -3988,6 +4052,25 @@ async function renderMapExplorer() {
     document.querySelectorAll("#mapx-style button").forEach((b) =>
       b.setAttribute("aria-pressed", b.dataset.v === state.style),
     );
+
+    // Journey toggle: only offered for a group that actually has routes.
+    const groupHasJourneys = !!(grp && Array.isArray(grp.journeys) && grp.journeys.length);
+    const jToggle = document.getElementById("mapx-journeys-toggle");
+    const jCheck = document.getElementById("mapx-journeys");
+    if (jToggle) jToggle.hidden = !groupHasJourneys;
+    if (jCheck) jCheck.checked = state.journeys && groupHasJourneys;
+    if (groupHasJourneys && state.journeys) {
+      journeyLegend.innerHTML = grp.journeys
+        .map(
+          (jr, i) =>
+            `<span class="mapx-journey-key"><i style="background:${JOURNEY_COLORS[i % JOURNEY_COLORS.length]}"></i>` +
+            `${escapeHtml(jr.label || "Journey " + (i + 1))}</span>`,
+        )
+        .join("");
+      journeyLegend.hidden = false;
+    } else {
+      journeyLegend.hidden = true;
+    }
   }
 
   // Bounding box (in unzoomed projected coords) for a selected place — the
@@ -4080,6 +4163,7 @@ async function renderMapExplorer() {
     if (cb.checked) state.ids.add(cb.value);
     else state.ids.delete(cb.value);
     state.groupId = null;
+    state.journeys = false;
     refresh();
   });
 
@@ -4099,6 +4183,13 @@ async function renderMapExplorer() {
     state.allLabels = e.target.checked;
     render();
   });
+  const journeysCheckbox = document.getElementById("mapx-journeys");
+  if (journeysCheckbox) {
+    journeysCheckbox.addEventListener("change", (e) => {
+      state.journeys = e.target.checked;
+      render();
+    });
+  }
   // Re-zoom the map while keeping one client-space point fixed on screen.
   // `anchor` defaults to the centre of the viewport, so the +/- buttons keep
   // the currently-centred area centred instead of drifting toward the origin.

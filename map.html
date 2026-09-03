@@ -82,8 +82,10 @@
   Earth geometry, with no modern country labels or borders, and places plotted from
   <a href="https://www.openbible.info/geo/">OpenBible.info</a> coordinates. Every map here is
   <strong>free to reuse with no copyright claimed and no attribution required</strong>. Pick a base
-  style and extent, load a preset group, then click any place for its details and use
-  <em>Add to selection</em> to build your own map and copy a link to it.</p>
+  style and extent, load a preset group, then click any place to see its details and
+  open its page, or use <em>Add to selection</em> to build your own map and copy a link
+  to it. Preset groups that follow a route &mdash; Abraham's journey to Canaan, the
+  Exodus, Paul's missionary journeys &mdash; can show arrow overlays of the journey.</p>
 
   <div class="mapx-layout" id="map-explorer" data-mapstyle="topo">
     <aside class="mapx-rail">
@@ -111,6 +113,7 @@
       </details>
       <input type="hidden" id="mapx-url">
       <label class="mapx-labels"><input type="checkbox" id="mapx-all-labels"> Show every label</label>
+      <label class="mapx-labels" id="mapx-journeys-toggle" hidden><input type="checkbox" id="mapx-journeys"> Show journey arrows</label>
     </aside>
 
     <div class="mapx-stage">

@@ -1006,15 +1006,31 @@ site). Pieces:
   `build_map_explorer_page()` (passes `active="map.html"`) +
   `renderMapExplorer()` in `js/app.js`. Pick extent/style, load a preset
   group from `data/map-groups.json` (hand-curated `{id,name,blurb,extent,
-  places[]}`; verify every `place_id` against the index before adding), then
+  places[]}` plus an optional `journeys[]` — see below); verify every
+  `place_id` against the index before adding), then
   click places on the map or in the list to add/remove, and copy a
   `?ext=&style=&places=` link that reopens the selection. `?group=<id>` also
   accepted (used by the mini-map "open in explorer" links and the
   `<noscript>` fallback). Selected regions draw their dashed outline.
   Clicking/tapping a marker opens a pinned inspect card (name, "First
-  reference — <ref>" from the per-place JSON, identification confidence)
-  with an × / Esc to close; hover still shows a transient preview.
+  reference — <ref>" from the per-place JSON, identification confidence, a
+  **"View place page →" link to `places/<id>.html`**, and the add/remove
+  toggle) with an × / Esc to close; hover still shows a transient preview.
   Two-finger pinch zooms the viewport (mirrors the +/- buttons).
+- **Journey overlays (added 2026-09-03).** A group in `data/map-groups.json`
+  may carry `journeys: [{label, waypoints:[place_id,...]}, ...]` — dashed,
+  arrow-headed route lines drawn in the map explorer (colours from
+  `JOURNEY_COLORS` in `renderMapExplorer()`, up to 4, inline stroke so the
+  map-image export keeps them). A "Show journey arrows" checkbox appears in
+  the rail only for a group that has routes, and is **on by default** when
+  such a group is loaded (`applyGroup` sets `state.journeys`); editing the
+  selection away from the preset clears it. A small top-left legend names
+  each route. Currently populated for `patriarchs` (Abraham, Jacob),
+  `exodus-route`, `canaan-conquest`, `davids-rise`, `pauls-world` (the four
+  journeys) and `seven-churches`. Keep `waypoints` to what the narrative
+  plainly states and inside that group's own `places` list; groups that
+  aren't a route (nations-around-israel, divided-kingdom-capitals, etc.)
+  have no `journeys` key.
 - **Base styles: Parchment, Plain, and Terrain** (added 2026-09-02).
   "Terrain" (`data-mapstyle="topo"`, button labelled "Terrain") composites a
   real shaded-relief raster over a warm topographic palette. Pipeline:

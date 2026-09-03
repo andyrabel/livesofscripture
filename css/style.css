@@ -3347,21 +3347,41 @@ header.site-header nav a.nav-cta:hover {
 .mapx-viewport .map-mk.is-dim { opacity: 0.5; }
 .mapx-viewport .map-mk.is-dim:hover { opacity: 1; }
 
-/* Hover / focus inspect card for a place marker. */
+/* Inspect card for a place marker. Two visually distinct modes:
+   - transient: a light, slightly translucent preview that follows the
+     pointer while hovering / keyboard-focusing a marker;
+   - pinned (.is-pinned): a solid "sticky note" opened by a click/tap, with
+     an accent spine, deeper shadow, and interactive controls. */
 .mapx-inspect {
   position: absolute;
   z-index: 6;
   max-width: 240px;
-  padding: 0.5rem 0.65rem;
+  padding: 0.4rem 0.55rem;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.14);
   font-size: 0.78rem;
   line-height: 1.4;
   pointer-events: none;
+  opacity: 0.96;
 }
-.mapx-inspect.is-pinned { pointer-events: auto; padding-right: 1.6rem; }
+.mapx-inspect:not(.is-pinned) strong { font-weight: 600; }
+.mapx-inspect.is-pinned {
+  pointer-events: auto;
+  padding: 0.55rem 1.7rem 0.6rem 0.7rem;
+  border-color: var(--color-border);
+  border-left: 4px solid var(--color-accent-strong);
+  border-radius: 3px 6px 6px 3px;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.32);
+  opacity: 1;
+}
+.mapx-inspect.is-pinned strong {
+  color: var(--color-accent-strong);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.32rem;
+  border-bottom: 1px solid var(--color-border);
+}
 .mapx-inspect-close {
   position: absolute;
   top: 1px;
@@ -3386,6 +3406,15 @@ header.site-header nav a.nav-cta:hover {
 .mapx-inspect .mk-secure { color: var(--map-mk-secure); }
 .mapx-inspect .mk-disputed { color: var(--map-mk-disputed); }
 .mapx-inspect .mk-approx { color: var(--map-mk-approx); }
+.mapx-inspect-link {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent-strong);
+  text-decoration: none;
+}
+.mapx-inspect-link:hover { text-decoration: underline; }
 .mapx-inspect-add {
   display: block;
   margin-top: 0.4rem;
@@ -3404,6 +3433,30 @@ header.site-header nav a.nav-cta:hover {
   border-color: var(--map-mk-secure);
   color: #fff;
 }
+/* Journey-route overlay + its legend (map explorer preset groups). */
+.mapx-journey-layer { pointer-events: none; }
+.mapx-journey-layer path[stroke] { opacity: 0.9; }
+.mapx-journey-legend {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.4rem 0.55rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 7px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+.mapx-journey-legend[hidden] { display: none; }
+.mapx-journey-key { display: flex; align-items: center; gap: 0.4rem; color: var(--color-text); }
+.mapx-journey-key i { flex: none; width: 18px; height: 3px; border-radius: 2px; }
+
 .mapx-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.5rem 0.75rem; background: var(--color-surface); border-bottom: 1px solid var(--color-border); font-size: 0.85rem; }
 .mapx-bar .mapx-count { color: var(--color-text-muted); font-variant-numeric: tabular-nums; margin-left: auto; margin-right: 0.5rem; }
 .mapx-zoom button { width: 28px; height: 28px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); border-radius: 6px; cursor: pointer; }
@@ -3413,6 +3466,7 @@ header.site-header nav a.nav-cta:hover {
 .mapx-picker label { display: flex; gap: 0.5rem; align-items: center; padding: 0.3rem 0.65rem; font-size: 0.85rem; cursor: pointer; }
 .mapx-picker label:hover { background: var(--map-lake); }
 .mapx-labels { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.mapx-labels[hidden] { display: none; }
 
 /* Print / copy-image / copy-link icon buttons, overlaid on the bottom-right
    corner of the map itself. "Copy link" replaces the old rail share box. */
