@@ -33,7 +33,7 @@ NAV_PAGES = [
     ("index.html", "Home"),
     ("people.html", "People"),
     ("timeline.html", "Timeline"),
-    ("connections.html", "Connections"),
+    ("map.html", "Maps"),
     ("churches.html", "Churches"),
     ("places.html", "Places"),
     ("charts.html", "Charts"),
@@ -1320,7 +1320,7 @@ def build_places_list_page(places_index):
   with a narrative of their own; tick the box below to also fold in the {len(stub)} name-only
   places (mentioned in Scripture but with no story here, kept for the connections graph).
   Prefer a visual web? Explore the <a href="place-connections.html">place connections graph</a>,
-  or plot places on a map in the <a href="map.html">map explorer</a>.</p>
+  or plot places on our own free, copyright-free maps in the <a href="map.html">map explorer</a>.</p>
 
   <div class="controls">
     <label class="controls__checkbox">
@@ -1554,9 +1554,11 @@ def build_map_explorer_page(places_index):
     base = ""
     canonical = f"{SITE_URL}/map.html"
     title = "Map explorer — Lives of Scripture"
-    description = ("Plot biblical places on our own maps. Start from a preset group — the Exodus "
-                  "route, Paul's journeys, the seven churches of Revelation — then add or remove "
-                  "towns and share the result.")
+    description = ("Free, copyright-free maps of the biblical world you can customize and reuse. "
+                  "Drawn from public-domain geometry with no modern country labels or borders — "
+                  "plot places, load a preset like the Exodus route, Paul's journeys, or the seven "
+                  "churches of Revelation, then add or remove towns, and share or reuse the result "
+                  "with no attribution required.")
     groups = json.loads((ROOT / "data" / "map-groups.json").read_text())["groups"]
     breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Map explorer", None)])
     group_links = "\n      ".join(
@@ -1596,13 +1598,15 @@ def build_map_explorer_page(places_index):
 </script>
 </head>
 <body>
-{header_html(base, "places.html")}
+{header_html(base, "map.html")}
 
 <main>
   <p><a href="places.html" class="back-link">&#8592; Back to all places</a></p>
   <h2>Map explorer</h2>
-  <p class="page-intro">Our own maps, drawn from public-domain Natural Earth geometry, with places
-  plotted from <a href="https://www.openbible.info/geo/">OpenBible.info</a> coordinates. Pick a base
+  <p class="page-intro">Our own maps of the biblical world &mdash; drawn from public-domain Natural
+  Earth geometry, with no modern country labels or borders, and places plotted from
+  <a href="https://www.openbible.info/geo/">OpenBible.info</a> coordinates. Every map here is
+  <strong>free to reuse with no copyright claimed and no attribution required</strong>. Pick a base
   style and extent, load a preset group, then add or remove places and copy a link to what you built.</p>
 
   <div class="mapx-layout" id="map-explorer" data-mapstyle="parchment">

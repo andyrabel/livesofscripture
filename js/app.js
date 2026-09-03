@@ -3580,6 +3580,7 @@ async function renderMapExplorer() {
     placed.map((p) =>
       loadPlace(p.place_id).then((d) => {
         if (d && d.geo) geoById.set(p.place_id, d.geo);
+        if (d && d.first_reference) p.first_reference = d.first_reference;
       }),
     ),
   );
@@ -3611,9 +3612,21 @@ async function renderMapExplorer() {
   inspectCard.className = "mapx-inspect";
   inspectCard.hidden = true;
   stage.appendChild(inspectCard);
+  // When the card is "pinned" (opened by a click/tap rather than a passing
+  // hover) it stays put until the reader dismisses it with the × button,
+  // presses Escape, or opens another place's card.
+  let inspectPinned = false;
+  inspectCard.addEventListener("click", (e) => {
+    if (e.target.closest(".mapx-inspect-close")) hideInspect();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && inspectPinned) hideInspect();
+  });
 
   function hideInspect() {
     inspectCard.hidden = true;
+    inspectPinned = false;
+    inspectCard.classList.remove("is-pinned");
   }
   function confDescriptor(id) {
     const g = geoById.get(id) || {};
@@ -3624,15 +3637,18 @@ async function renderMapExplorer() {
     if (conf >= 500) return [`Well identified · confidence ${conf}/1000`, "mk-secure"];
     return [`Disputed identification · confidence ${conf}/1000`, "mk-disputed"];
   }
-  function showInspect(id, clientX, clientY) {
+  function showInspect(id, clientX, clientY, pin) {
     if (els.viewport.classList.contains("is-panning")) return;
     const p = byId.get(id);
     if (!p) return;
+    inspectPinned = !!pin;
+    inspectCard.classList.toggle("is-pinned", inspectPinned);
     const [ctext, ccls] = confDescriptor(id);
-    const refs = (p.references || []).join(", ");
+    const firstRef = p.first_reference || (p.references || [])[0] || "";
     inspectCard.innerHTML =
+      `<button type="button" class="mapx-inspect-close" aria-label="Close">&times;</button>` +
       `<strong>${escapeHtml(p.name)}</strong>` +
-      `<span class="mapx-inspect-row">${refs ? escapeHtml(refs) : "Named in Scripture"}</span>` +
+      `<span class="mapx-inspect-row">${firstRef ? "First reference — " + escapeHtml(firstRef) : "Named in Scripture"}</span>` +
       `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>`;
     inspectCard.hidden = false;
     const r = stage.getBoundingClientRect();
@@ -3695,6 +3711,41 @@ async function renderMapExplorer() {
     }
     vp.addEventListener("pointerup", end);
     vp.addEventListener("pointercancel", end);
+  })();
+
+  // Pinch-to-zoom on touch devices (mirrors the +/- buttons; re-render is
+  // throttled to one frame). One-finger drag still pans natively.
+  (function initPinchZoom() {
+    const vp = els.viewport;
+    let startDist = null;
+    let startZoom = 1;
+    let raf = 0;
+    vp.addEventListener(
+      "touchstart",
+      (e) => {
+        if (e.touches.length === 2) {
+          startDist = touchDistance(e.touches);
+          startZoom = state.zoom;
+          hideInspect();
+        }
+      },
+      { passive: true },
+    );
+    vp.addEventListener(
+      "touchmove",
+      (e) => {
+        if (e.touches.length !== 2 || !startDist) return;
+        e.preventDefault();
+        state.zoom = Math.max(0.6, Math.min(4, startZoom * (touchDistance(e.touches) / startDist)));
+        if (!raf) raf = requestAnimationFrame(() => { raf = 0; render(); });
+      },
+      { passive: false },
+    );
+    function endPinch() {
+      startDist = null;
+    }
+    vp.addEventListener("touchend", endPinch);
+    vp.addEventListener("touchcancel", endPinch);
   })();
 
   function markerClass(id) {
@@ -3814,27 +3865,33 @@ async function renderMapExplorer() {
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
       const id = g.getAttribute("data-id");
-      g.addEventListener("click", () => {
+      g.addEventListener("click", (e) => {
         if (els.viewport._suppressClick) return;
         if (state.ids.has(id)) state.ids.delete(id);
         else state.ids.add(id);
         state.groupId = null;
         state.sel = id;
         refresh();
+        showInspect(id, e.clientX, e.clientY, true);
       });
       g.addEventListener("mouseenter", (e) => {
         g.parentNode.appendChild(g);
-        showInspect(id, e.clientX, e.clientY);
+        if (!inspectPinned) showInspect(id, e.clientX, e.clientY);
       });
       g.addEventListener("mousemove", (e) => {
-        if (!inspectCard.hidden) showInspect(id, e.clientX, e.clientY);
+        if (!inspectCard.hidden && !inspectPinned) showInspect(id, e.clientX, e.clientY);
       });
-      g.addEventListener("mouseleave", hideInspect);
+      g.addEventListener("mouseleave", () => {
+        if (!inspectPinned) hideInspect();
+      });
       g.addEventListener("focus", () => {
+        if (inspectPinned) return;
         const b = g.getBoundingClientRect();
         showInspect(id, b.left + b.width / 2, b.top + b.height / 2);
       });
-      g.addEventListener("blur", hideInspect);
+      g.addEventListener("blur", () => {
+        if (!inspectPinned) hideInspect();
+      });
       g.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();

@@ -998,8 +998,12 @@ site). Pieces:
   the region's dashed outline when the subject is a region. Stdlib-only (no
   shapely in the static generator — CLAUDE.md rule); uses the committed
   `data/maps.json` geometry.
-- **Map explorer** (`map.html`, in the sitemap, **not** in the top nav yet —
-  linked from `places.html`) — `build_map_explorer_page()` +
+- **Map explorer** (`map.html`, in the sitemap and in the top nav as
+  **"Maps"** since 2026-09-02 — it took the nav slot vacated when
+  "Connections" was dropped from the main nav; `connections.html` still
+  exists and is still linked from the home-page explore grid and
+  `place-connections.html`, just not from the nav) —
+  `build_map_explorer_page()` (passes `active="map.html"`) +
   `renderMapExplorer()` in `js/app.js`. Pick extent/style, load a preset
   group from `data/map-groups.json` (hand-curated `{id,name,blurb,extent,
   places[]}`; verify every `place_id` against the index before adding), then
@@ -1007,6 +1011,10 @@ site). Pieces:
   `?ext=&style=&places=` link that reopens the selection. `?group=<id>` also
   accepted (used by the mini-map "open in explorer" links and the
   `<noscript>` fallback). Selected regions draw their dashed outline.
+  Clicking/tapping a marker opens a pinned inspect card (name, "First
+  reference — <ref>" from the per-place JSON, identification confidence)
+  with an × / Esc to close; hover still shows a transient preview.
+  Two-finger pinch zooms the viewport (mirrors the +/- buttons).
 - **Base styles: Parchment, Plain, and Terrain** (added 2026-09-02).
   "Terrain" (`data-mapstyle="topo"`, button labelled "Terrain") composites a
   real shaded-relief raster over a warm topographic palette. Pipeline:
@@ -1027,7 +1035,25 @@ site). Pieces:
   parchment/plain). Holy-land relief is soft (Natural Earth's grey
   hillshade is only ~60 px/°) — acceptable as context, not precision, same
   as the region outlines.
-- Still to do: decide whether `map.html` earns a top-nav slot.
+- **SEO / AI positioning (2026-09-02):** the maps are deliberately framed as
+  *free, copyright-free, customizable maps of the biblical world* — that
+  phrasing is a distinct search/AI-discovery angle, not just internal
+  description. Reflected in: `map.html`'s `<title>`-adjacent meta description
+  + OG/Twitter description and its `page-intro` copy (in
+  `build_map_explorer_page()`); the `places.html` intro's link to the
+  explorer; a **Map explorer** entry and a Natural Earth / OpenBible.info
+  line in the Sourcing section of `llms.txt`; and a maps bullet in
+  `about.html`'s Sources list. Keep this wording ("no copyright claimed, no
+  attribution required", "no modern country labels or borders", "public-domain
+  Natural Earth geometry") consistent if the copy is revised — it is the
+  point of difference from every tile-based Bible map.
+- Still to do:
+  - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
+    maps (and the relief JPEGs) as an explicit **download** on `map.html` —
+    "download a blank Bible map" is the strongest form of the copyright-free
+    angle and those files are already built and committed, just unlinked.
+  - OpenBible region geometry is coarse (context outlines only); a true
+    relief/hillshade from a DEM would sharpen the holy-land view if wanted.
 
 Lives of Faith has two related concepts: a `memorials` array per person
 (gravestones, statues — confirmed physical locations) and a separate
