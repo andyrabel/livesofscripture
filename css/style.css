@@ -3467,6 +3467,12 @@ header.site-header nav a.nav-cta:hover {
 .mapx-picker label:hover { background: var(--map-lake); }
 .mapx-labels { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
 .mapx-labels[hidden] { display: none; }
+.mapx-journeys { margin-top: 0.6rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.mapx-journeys[hidden] { display: none; }
+.mapx-journeys h3 { margin: 0 0 0.15rem; }
+.mapx-journey-opt { display: grid; grid-template-columns: auto 18px 1fr; align-items: center; gap: 0.15rem 0.45rem; font-size: 0.82rem; line-height: 1.3; cursor: pointer; }
+.mapx-journey-opt i { grid-column: 2; width: 18px; height: 3px; border-radius: 2px; }
+.mapx-journey-opt input { grid-column: 1; }
 
 /* Print / copy-image / copy-link icon buttons, overlaid on the bottom-right
    corner of the map itself. "Copy link" replaces the old rail share box. */

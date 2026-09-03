@@ -3599,7 +3599,9 @@ async function renderMapExplorer() {
     ids: new Set(),
     groupId: null,
     allLabels: false,
-    journeys: false,
+    // Which journey-route overlays are switched on, by their index within the
+    // active preset group's `journeys` array. Empty when no group / no routes.
+    journeys: new Set(),
     zoom: 1,
     sel: null,
   };
@@ -3647,7 +3649,7 @@ async function renderMapExplorer() {
       if (state.ids.has(id)) state.ids.delete(id);
       else state.ids.add(id);
       state.groupId = null;
-      state.journeys = false;
+      state.journeys.clear();
       state.sel = id;
       const nowOn = state.ids.has(id);
       addBtn.textContent = nowOn ? "Remove from selection" : "Add to selection";
@@ -3847,9 +3849,11 @@ async function renderMapExplorer() {
     state.groupId = id;
     state.ids = new Set(g.places.filter((pid) => byId.has(pid)));
     if (maps.extents[g.extent]) state.extent = g.extent;
-    // Groups that carry route data show their journey arrows straight away
-    // (the reader can switch them off); groups without routes clear the flag.
-    state.journeys = Array.isArray(g.journeys) && g.journeys.length > 0;
+    // Groups that carry route data show every journey arrow straight away
+    // (the reader can switch each off); groups without routes clear the set.
+    state.journeys = new Set(
+      Array.isArray(g.journeys) ? g.journeys.map((_, i) => i) : [],
+    );
     state.sel = null;
   }
 
@@ -3909,13 +3913,14 @@ async function renderMapExplorer() {
     // group. Drawn in the zoomed coordinate space (like the markers), above
     // the base geometry but beneath the markers, and non-interactive.
     const grpNow = GROUPS.find((x) => x.id === state.groupId);
-    const journeys =
-      state.journeys && grpNow && Array.isArray(grpNow.journeys) ? grpNow.journeys : [];
+    const grpJourneys =
+      grpNow && Array.isArray(grpNow.journeys) ? grpNow.journeys : [];
     let journeyLayer = "";
-    if (journeys.length) {
+    if (grpJourneys.length && state.journeys.size) {
       const defs = [];
       const paths = [];
-      journeys.forEach((jr, i) => {
+      grpJourneys.forEach((jr, i) => {
+        if (!state.journeys.has(i)) return;
         const color = JOURNEY_COLORS[i % JOURNEY_COLORS.length];
         const pts = (jr.waypoints || [])
           .map((wid) => byId.get(wid))
@@ -4053,16 +4058,42 @@ async function renderMapExplorer() {
       b.setAttribute("aria-pressed", b.dataset.v === state.style),
     );
 
-    // Journey toggle: only offered for a group that actually has routes.
+    // Journey toggles: one checkbox per route, only offered for a group that
+    // actually has routes.
     const groupHasJourneys = !!(grp && Array.isArray(grp.journeys) && grp.journeys.length);
     const jToggle = document.getElementById("mapx-journeys-toggle");
-    const jCheck = document.getElementById("mapx-journeys");
-    if (jToggle) jToggle.hidden = !groupHasJourneys;
-    if (jCheck) jCheck.checked = state.journeys && groupHasJourneys;
-    if (groupHasJourneys && state.journeys) {
-      journeyLegend.innerHTML = grp.journeys
+    if (jToggle) {
+      jToggle.hidden = !groupHasJourneys;
+      // Rebuild the checkbox list only when the group changes; otherwise just
+      // keep the checked states in sync so toggling one doesn't drop focus.
+      const jKey = groupHasJourneys ? state.groupId : "";
+      if (jToggle.dataset.for !== jKey) {
+        jToggle.dataset.for = jKey;
+        jToggle.innerHTML = groupHasJourneys
+          ? `<h3>Journey arrows</h3>` +
+            grp.journeys
+              .map(
+                (jr, i) =>
+                  `<label class="mapx-journey-opt"><input type="checkbox" data-j="${i}">` +
+                  `<i style="background:${JOURNEY_COLORS[i % JOURNEY_COLORS.length]}"></i>` +
+                  `${escapeHtml(jr.label || "Journey " + (i + 1))}</label>`,
+              )
+              .join("")
+          : "";
+      }
+      jToggle.querySelectorAll("input[data-j]").forEach((cb) => {
+        cb.checked = state.journeys.has(Number(cb.dataset.j));
+      });
+    }
+    const activeJourneys = groupHasJourneys
+      ? grp.journeys
+          .map((jr, i) => ({ jr, i }))
+          .filter((o) => state.journeys.has(o.i))
+      : [];
+    if (activeJourneys.length) {
+      journeyLegend.innerHTML = activeJourneys
         .map(
-          (jr, i) =>
+          ({ jr, i }) =>
             `<span class="mapx-journey-key"><i style="background:${JOURNEY_COLORS[i % JOURNEY_COLORS.length]}"></i>` +
             `${escapeHtml(jr.label || "Journey " + (i + 1))}</span>`,
         )
@@ -4163,7 +4194,7 @@ async function renderMapExplorer() {
     if (cb.checked) state.ids.add(cb.value);
     else state.ids.delete(cb.value);
     state.groupId = null;
-    state.journeys = false;
+    state.journeys.clear();
     refresh();
   });
 
@@ -4183,10 +4214,14 @@ async function renderMapExplorer() {
     state.allLabels = e.target.checked;
     render();
   });
-  const journeysCheckbox = document.getElementById("mapx-journeys");
-  if (journeysCheckbox) {
-    journeysCheckbox.addEventListener("change", (e) => {
-      state.journeys = e.target.checked;
+  const journeysToggle = document.getElementById("mapx-journeys-toggle");
+  if (journeysToggle) {
+    journeysToggle.addEventListener("change", (e) => {
+      const cb = e.target.closest("input[data-j]");
+      if (!cb) return;
+      const idx = Number(cb.dataset.j);
+      if (cb.checked) state.journeys.add(idx);
+      else state.journeys.delete(idx);
       render();
     });
   }

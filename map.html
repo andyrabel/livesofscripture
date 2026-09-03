@@ -85,7 +85,8 @@
   style and extent, load a preset group, then click any place to see its details and
   open its page, or use <em>Add to selection</em> to build your own map and copy a link
   to it. Preset groups that follow a route &mdash; Abraham's journey to Canaan, the
-  Exodus, Paul's missionary journeys &mdash; can show arrow overlays of the journey.</p>
+  Exodus, Paul's missionary journeys &mdash; can overlay each route as arrows, switched
+  on and off one at a time.</p>
 
   <div class="mapx-layout" id="map-explorer" data-mapstyle="topo">
     <aside class="mapx-rail">
@@ -106,6 +107,7 @@
       <div>
         <h3>Preset group</h3>
         <div class="mapx-groups" id="mapx-groups"></div>
+        <div class="mapx-journeys" id="mapx-journeys-toggle" hidden></div>
       </div>
       <details class="mapx-picker" id="mapx-picker">
         <summary>Add or remove places</summary>
@@ -113,7 +115,6 @@
       </details>
       <input type="hidden" id="mapx-url">
       <label class="mapx-labels"><input type="checkbox" id="mapx-all-labels"> Show every label</label>
-      <label class="mapx-labels" id="mapx-journeys-toggle" hidden><input type="checkbox" id="mapx-journeys"> Show journey arrows</label>
     </aside>
 
     <div class="mapx-stage">
