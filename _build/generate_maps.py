@@ -12,6 +12,11 @@ Output:
   images/maps/<extent>-<style>.svg   -- one label-free base map per
       (extent, style) pair. Self-contained: an embedded <style> gives it
       sensible light/dark colors when used via <img>.
+  images/maps/relief-<extent>.jpg    -- a shaded-relief raster cropped to
+      each extent, normalised so flat ground sits at mid-grey (128) and
+      water is flattened to 128, so it composites over any themed land
+      colour with `mix-blend-mode: soft-light`. Backs the map explorer's
+      "Topographic" base style.
   data/maps.json                     -- per-extent projection parameters
       PLUS pre-projected SVG path data for land/lakes/rivers, so both
       generate_static_site.py (stdlib only -- no shapely there) and the
@@ -24,6 +29,10 @@ Source data (gitignored, fetch with --refresh):
   _build/maps-source/ne_10m_land.geojson  ne_50m_land.geojson
   _build/maps-source/ne_10m_lakes.geojson
   _build/maps-source/ne_10m_rivers_lake_centerlines.geojson
+  _build/maps-source/SR_HR.tif  -- Natural Earth "Shaded Relief, high res"
+      (public domain), 21600x10800 equirectangular grey hillshade. Only
+      needed to rebuild the relief rasters; the vector maps build without
+      it. Fetched + unzipped by --refresh.
 
 Not run by CI -- its output is committed and trusted. Deterministic; safe to
 re-run. Re-run generate_static_site.py afterwards.
@@ -32,6 +41,7 @@ import json
 import math
 import sys
 import urllib.request
+import zipfile
 from pathlib import Path
 
 from shapely.geometry import box, shape, mapping
@@ -59,6 +69,13 @@ LAYERS = {
     "lakes": "ne_10m_lakes.geojson",
     "rivers": "ne_10m_rivers_lake_centerlines.geojson",
 }
+
+# Natural Earth "Shaded Relief, high resolution" -- a public-domain grey
+# hillshade, equirectangular (EPSG:4326), 21600x10800. Our own projection is
+# equirectangular too (constant cos(lat0) x-scale), so a relief crop only
+# needs a lon/lat box crop + a non-uniform resize to the extent's SVG box.
+RELIEF_ZIP = "https://naturalearth.s3.amazonaws.com/10m_raster/SR_HR.zip"
+RELIEF_TIF = SRC / "SR_HR.tif"
 
 # Fixed map extents. lon/lat are decimal degrees (WGS84). `width` is the SVG
 # viewBox width in user units; height is derived from the aspect ratio after
@@ -95,6 +112,16 @@ STYLES = {
         dark=dict(water="#141b20", land="#262b2e", lake="#1e2a30", river="#4f6b78",
                   coast="#454b4e"),
     ),
+    # "Topographic": a warm land/teal water palette that a grey shaded-relief
+    # raster (images/maps/relief-<extent>.jpg) is composited over with
+    # mix-blend-mode: soft-light. Colours mirror css/style.css
+    # #map-explorer[data-mapstyle="topo"].
+    "topo": dict(
+        water="#bcd4d8", land="#ece1c8", lake="#b9d2d6", river="#8fb3bd",
+        coast="#b09a72", relief=True,
+        dark=dict(water="#10171a", land="#2f2b22", lake="#17242a", river="#4f6b78",
+                  coast="#4a4436"),
+    ),
 }
 
 RIVER_MIN_SCALERANK = {"holy-land": 12, "biblical-world": 4}
@@ -105,7 +132,22 @@ def refresh():
     for fn in LAYERS.values():
         print(f"downloading {fn} ...")
         urllib.request.urlretrieve(NE_BASE + fn, SRC / fn)
+    refresh_relief()
     refresh_regions()
+
+
+def refresh_relief():
+    """Fetch + unzip the Natural Earth shaded-relief raster (skips if present)."""
+    if RELIEF_TIF.exists() and RELIEF_TIF.stat().st_size:
+        return
+    zpath = SRC / "SR_HR.zip"
+    print("downloading SR_HR.zip (~44 MB) ...")
+    urllib.request.urlretrieve(RELIEF_ZIP, zpath)
+    with zipfile.ZipFile(zpath) as z:
+        for member in z.namelist():
+            if member.endswith(".tif"):
+                z.extract(member, SRC)
+    zpath.unlink()
 
 
 def refresh_regions():
@@ -222,7 +264,7 @@ def compute_paths(ext_name, layers):
             if not g.is_empty:
                 river_geoms.append(g)
 
-    return {
+    out = {
         "title": ext["title"],
         "lon_min": ext["lon"][0], "lon_max": ext["lon"][1],
         "lat_min": ext["lat"][0], "lat_max": ext["lat"][1],
@@ -234,6 +276,70 @@ def compute_paths(ext_name, layers):
         "rivers": [p for g in river_geoms for p in line_to_path(g, lon_px, lat_px)],
         "regions": region_paths(ext_name, clip, lon_px, lat_px),
     }
+    rel = bake_relief(ext_name, ext, land, w, h)
+    if rel:
+        out["relief"] = rel
+    return out
+
+
+def _land_mask(land, ext, tw, th):
+    """Boolean (th, tw) array, True over land. Sampled with shapely at each
+    pixel centre -- our projection is equirectangular (linear in lon and lat),
+    so pixel (col,row) maps back to lon/lat by a plain linear interpolation.
+    (PIL polygon fill can't be trusted on coastlines this convoluted.)"""
+    import numpy as np
+    import shapely
+
+    lon0, lon1 = ext["lon"]
+    lat0, lat1 = ext["lat"]
+    xs = lon0 + (np.arange(tw) + 0.5) / tw * (lon1 - lon0)
+    ys = lat1 - (np.arange(th) + 0.5) / th * (lat1 - lat0)
+    gx, gy = np.meshgrid(xs, ys)
+    shapely.prepare(land)
+    return shapely.contains_xy(land, gx, gy)
+
+
+def bake_relief(ext_name, ext, land, w, h):
+    """Crop the Natural Earth hillshade to this extent, normalise it so flat
+    ground and water sit at mid-grey (128), and write a small JPEG. Composited
+    on the client over the themed land colour with mix-blend-mode: soft-light,
+    so one neutral raster works in light and dark. Returns the output filename,
+    or None when the source raster isn't present."""
+    if not RELIEF_TIF.exists():
+        print(f"  {ext_name}: no SR_HR.tif, skipping relief (run with --refresh)")
+        return None
+    import numpy as np
+    from PIL import Image
+
+    Image.MAX_IMAGE_PIXELS = None
+    src = Image.open(RELIEF_TIF)
+    sw, sh = src.size
+    ppd_x, ppd_y = sw / 360.0, sh / 180.0
+    lon0, lon1 = ext["lon"]
+    lat0, lat1 = ext["lat"]
+    crop_box = (
+        int(round((lon0 + 180) * ppd_x)), int(round((90 - lat1) * ppd_y)),
+        int(round((lon1 + 180) * ppd_x)), int(round((90 - lat0) * ppd_y)),
+    )
+    # Target size: the SVG user-unit box, capped. The resize is deliberately
+    # non-uniform -- it applies the same cos(lat) longitude squeeze the vector
+    # projection does.
+    tw = min(int(round(w)), 1400)
+    th = int(round(tw * h / w))
+    crop = src.crop(crop_box).convert("L").resize((tw, th), Image.LANCZOS)
+
+    a = np.asarray(crop).astype(np.float32)
+    med = float(np.median(a))
+    a = 128.0 + (a - med) * 1.4          # recentre flat ground on mid-grey
+    a[~_land_mask(land, ext, tw, th)] = 128.0  # flatten water to a soft-light no-op
+    a = np.clip(a, 0, 255).astype(np.uint8)
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    fn = f"relief-{ext_name}.jpg"
+    Image.fromarray(a, "L").save(OUT_DIR / fn, quality=82, optimize=True)
+    print(f"  {ext_name}: relief {tw}x{th} -> {fn} "
+          f"({(OUT_DIR / fn).stat().st_size // 1024} KB)")
+    return fn
 
 
 def _feature_geom(gj):
@@ -284,7 +390,7 @@ def region_paths(ext_name, clip, lon_px, lat_px):
 def write_svg(ext_name, style_name, paths):
     style = STYLES[style_name]
     w, h = paths["width"], paths["height"]
-    fmt = {k: v for k, v in style.items() if k != "dark"}
+    fmt = {k: v for k, v in style.items() if k not in ("dark", "relief")}
     fmt.update({f"d_{k}": v for k, v in style["dark"].items()})
     svg = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w:.0f} {h:.0f}" '
@@ -293,6 +399,12 @@ def write_svg(ext_name, style_name, paths):
         f'<rect class="w" x="0" y="0" width="{w:.0f}" height="{h:.0f}"/>',
         f'<path class="l" d="{paths["land"]}"/>',
     ]
+    if style.get("relief") and paths.get("relief"):
+        svg.append(
+            f'<image href="{paths["relief"]}" x="0" y="0" width="{w:.0f}" '
+            f'height="{h:.0f}" preserveAspectRatio="none" '
+            f'style="mix-blend-mode:soft-light"/>'
+        )
     svg += [f'<path class="k" d="{p}"/>' for p in paths["lakes"]]
     svg += [f'<path class="r" d="{p}"/>' for p in paths["rivers"]]
     svg.append("</svg>")
@@ -322,7 +434,11 @@ def main():
     MAPS_JSON.write_text(json.dumps(
         {"_note": "Base-map geometry + projection. x=(lon-lon_min)*lon_scale, "
                   "y=(lat_max-lat)*lat_scale (SVG units, north up). land/lakes/rivers "
-                  "are pre-projected SVG path data. Generated by _build/generate_maps.py "
+                  "are pre-projected SVG path data; `relief` (when present) is a "
+                  "shaded-relief JPEG (filename relative to images/maps/) for the map "
+                  "explorer's Topographic style, drawn at 0,0 width x height and "
+                  "composited with mix-blend-mode:soft-light. "
+                  "Generated by _build/generate_maps.py "
                   "from Natural Earth (public domain); style colors are css/style.css --map-*.",
          "extents": extents},
         indent=2) + "\n")

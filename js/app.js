@@ -3587,7 +3587,7 @@ async function renderMapExplorer() {
   const params = new URLSearchParams(location.search);
   const state = {
     extent: maps.extents[params.get("ext")] ? params.get("ext") : "holy-land",
-    style: params.get("style") === "plain" ? "plain" : "parchment",
+    style: ["plain", "topo"].includes(params.get("style")) ? params.get("style") : "parchment",
     ids: new Set(),
     groupId: null,
     allLabels: false,
@@ -3660,6 +3660,15 @@ async function renderMapExplorer() {
     const Z = state.zoom;
     const lakes = ext.lakes.map((d) => `<path class="map-lake" d="${d}"/>`).join("");
     const rivers = ext.rivers.map((d) => `<path class="map-river" d="${d}"/>`).join("");
+    // "Topographic" style: a shaded-relief raster over the themed land. It's
+    // pre-flattened to mid-grey off the land, so soft-light only bites on real
+    // terrain — no land clip needed. Drawn in the scaled space, so it zooms
+    // with the geometry.
+    const relief =
+      state.style === "topo" && ext.relief
+        ? `<image class="map-relief" href="images/maps/${ext.relief}" x="0" y="0" ` +
+          `width="${W}" height="${H}" preserveAspectRatio="none"/>`
+        : "";
 
     const regionGeom = ext.regions || {};
     let regionOverlays = "";
@@ -3671,7 +3680,7 @@ async function renderMapExplorer() {
     }
     const geomLayer =
       `<g transform="scale(${Z})">` +
-      `<path class="map-land" d="${ext.land}"/>${lakes}${rivers}${regionOverlays}</g>`;
+      `<path class="map-land" d="${ext.land}"/>${relief}${lakes}${rivers}${regionOverlays}</g>`;
 
     const ordered = placed.slice().sort((a, b) => {
       return (isRegion(a.place_id) ? 0 : 1) - (isRegion(b.place_id) ? 0 : 1);

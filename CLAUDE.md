@@ -1007,9 +1007,27 @@ site). Pieces:
   `?ext=&style=&places=` link that reopens the selection. `?group=<id>` also
   accepted (used by the mini-map "open in explorer" links and the
   `<noscript>` fallback). Selected regions draw their dashed outline.
-- Still to do: a topographic/relief base style (needs a raster hillshade
-  crop, pre-baked in `generate_maps.py` — PIL is available there); decide
-  whether `map.html` earns a top-nav slot.
+- **Base styles: Parchment, Plain, and Terrain** (added 2026-09-02).
+  "Terrain" (`data-mapstyle="topo"`, button labelled "Terrain") composites a
+  real shaded-relief raster over a warm topographic palette. Pipeline:
+  `generate_maps.py` fetches Natural Earth's public-domain "Shaded Relief,
+  high res" grey hillshade (`SR_HR.tif`, `--refresh`, ~44 MB, gitignored
+  under `_build/maps-source/`), crops it per extent (equirectangular →
+  equirectangular, so a lon/lat box crop + non-uniform resize is exact),
+  normalises it so flat ground sits at mid-grey and flattens water to
+  mid-grey via a `shapely.contains_xy` land mask (PIL polygon fill is NOT
+  reliable on coastlines this convoluted — it silently inverts), and writes
+  `images/maps/relief-<extent>.jpg` (committed; ~70–210 KB) plus a `relief`
+  filename key per extent in `data/maps.json`. The client draws it as an
+  `<image class="map-relief">` inside the zoom `<g>`, above the land path;
+  `.map-relief { mix-blend-mode: soft-light }` in `css/style.css` means the
+  one neutral raster works in light and dark (flat/water areas are a
+  soft-light no-op, so only real terrain modulates the themed
+  `--map-land`). Mini-maps and the no-JS fallback are unaffected (still
+  parchment/plain). Holy-land relief is soft (Natural Earth's grey
+  hillshade is only ~60 px/°) — acceptable as context, not precision, same
+  as the region outlines.
+- Still to do: decide whether `map.html` earns a top-nav slot.
 
 Lives of Faith has two related concepts: a `memorials` array per person
 (gravestones, statues — confirmed physical locations) and a separate

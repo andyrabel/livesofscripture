@@ -1607,6 +1607,7 @@ def build_map_explorer_page(places_index):
         <div class="mapx-seg" id="mapx-style">
           <button type="button" data-v="parchment" aria-pressed="true">Parchment</button>
           <button type="button" data-v="plain">Plain</button>
+          <button type="button" data-v="topo">Terrain</button>
         </div>
       </div>
       <div>

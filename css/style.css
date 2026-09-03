@@ -3377,6 +3377,47 @@ header.site-header nav a.nav-cta:hover {
   --map-coast: #c2b08a;
 }
 
+/* Map explorer "Topographic" base style — a warm land / teal water palette
+   that the shaded-relief raster (images/maps/relief-<extent>.jpg) composites
+   over via .map-relief below. The raster is normalised so flat ground and
+   water sit at mid-grey, so soft-light leaves those areas at the token
+   colour and only real terrain modulates it — one raster, both themes. */
+#map-explorer[data-mapstyle="topo"] {
+  --map-water: #bcd4d8;
+  --map-land: #ece1c8;
+  --map-lake: #b9d2d6;
+  --map-river: #8fb3bd;
+  --map-coast: #b09a72;
+}
+@media (prefers-color-scheme: dark) {
+  #map-explorer[data-mapstyle="topo"] {
+    --map-water: #10171a;
+    --map-land: #2f2b22;
+    --map-lake: #17242a;
+    --map-river: #4f6b78;
+    --map-coast: #4a4436;
+  }
+}
+:root[data-theme="dark"] #map-explorer[data-mapstyle="topo"] {
+  --map-water: #10171a;
+  --map-land: #2f2b22;
+  --map-lake: #17242a;
+  --map-river: #4f6b78;
+  --map-coast: #4a4436;
+}
+:root[data-theme="light"] #map-explorer[data-mapstyle="topo"] {
+  --map-water: #bcd4d8;
+  --map-land: #ece1c8;
+  --map-lake: #b9d2d6;
+  --map-river: #8fb3bd;
+  --map-coast: #b09a72;
+}
+.map-relief { mix-blend-mode: soft-light; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .map-relief { opacity: 0.85; }
+}
+:root[data-theme="dark"] .map-relief { opacity: 0.85; }
+
 .map-region-fill {
   fill: var(--map-mk-subject);
   fill-opacity: 0.09;
