@@ -2327,6 +2327,13 @@ function touchDistance(touches) {
   return Math.sqrt(dx * dx + dy * dy);
 }
 
+function touchMidpoint(touches) {
+  return {
+    x: (touches[0].clientX + touches[1].clientX) / 2,
+    y: (touches[0].clientY + touches[1].clientY) / 2,
+  };
+}
+
 function initConnectionsZoom(state) {
   document
     .getElementById("conn-zoom-out")
@@ -3588,7 +3595,7 @@ async function renderMapExplorer() {
   const params = new URLSearchParams(location.search);
   const state = {
     extent: maps.extents[params.get("ext")] ? params.get("ext") : "holy-land",
-    style: ["plain", "topo"].includes(params.get("style")) ? params.get("style") : "parchment",
+    style: ["plain", "parchment"].includes(params.get("style")) ? params.get("style") : "topo",
     ids: new Set(),
     groupId: null,
     allLabels: false,
@@ -3751,13 +3758,19 @@ async function renderMapExplorer() {
     const vp = els.viewport;
     let startDist = null;
     let startZoom = 1;
+    let anchor = null; // content point under the pinch midpoint, in start-zoom px
+    let mid = null; // latest pinch midpoint, in viewport-local px
     let raf = 0;
     vp.addEventListener(
       "touchstart",
       (e) => {
         if (e.touches.length === 2) {
+          const rect = vp.getBoundingClientRect();
+          const m = touchMidpoint(e.touches);
           startDist = touchDistance(e.touches);
           startZoom = state.zoom;
+          mid = { x: m.x - rect.left, y: m.y - rect.top };
+          anchor = { x: vp.scrollLeft + mid.x, y: vp.scrollTop + mid.y };
           hideInspect();
         }
       },
@@ -3768,8 +3781,18 @@ async function renderMapExplorer() {
       (e) => {
         if (e.touches.length !== 2 || !startDist) return;
         e.preventDefault();
+        const rect = vp.getBoundingClientRect();
+        const m = touchMidpoint(e.touches);
+        mid = { x: m.x - rect.left, y: m.y - rect.top };
         state.zoom = Math.max(0.6, Math.min(4, startZoom * (touchDistance(e.touches) / startDist)));
-        if (!raf) raf = requestAnimationFrame(() => { raf = 0; render(); });
+        if (!raf)
+          raf = requestAnimationFrame(() => {
+            raf = 0;
+            render();
+            const ratio = state.zoom / startZoom;
+            vp.scrollLeft = anchor.x * ratio - mid.x;
+            vp.scrollTop = anchor.y * ratio - mid.y;
+          });
       },
       { passive: false },
     );
@@ -3820,7 +3843,7 @@ async function renderMapExplorer() {
   function syncUrl() {
     const q = new URLSearchParams();
     q.set("ext", state.extent);
-    if (state.style !== "parchment") q.set("style", state.style);
+    if (state.style !== "topo") q.set("style", state.style);
     if (state.ids.size) q.set("places", [...state.ids].join(","));
     if (els.url) els.url.value = `${location.origin}${location.pathname}?${q.toString()}`;
     history.replaceState(null, "", `?${q.toString()}`);
@@ -4015,14 +4038,27 @@ async function renderMapExplorer() {
     state.allLabels = e.target.checked;
     render();
   });
-  document.getElementById("mapx-zoom-in").addEventListener("click", () => {
-    state.zoom = Math.min(4, state.zoom * 1.3);
+  // Re-zoom the map while keeping one client-space point fixed on screen.
+  // `anchor` defaults to the centre of the viewport, so the +/- buttons keep
+  // the currently-centred area centred instead of drifting toward the origin.
+  function zoomAround(factor, anchor) {
+    const vp = els.viewport;
+    const prev = state.zoom;
+    const next = Math.max(0.6, Math.min(4, prev * factor));
+    if (next === prev) return;
+    const rect = vp.getBoundingClientRect();
+    const ax = anchor ? anchor.x - rect.left : vp.clientWidth / 2;
+    const ay = anchor ? anchor.y - rect.top : vp.clientHeight / 2;
+    const contentX = vp.scrollLeft + ax;
+    const contentY = vp.scrollTop + ay;
+    state.zoom = next;
     render();
-  });
-  document.getElementById("mapx-zoom-out").addEventListener("click", () => {
-    state.zoom = Math.max(0.6, state.zoom / 1.3);
-    render();
-  });
+    const ratio = next / prev;
+    vp.scrollLeft = contentX * ratio - ax;
+    vp.scrollTop = contentY * ratio - ay;
+  }
+  document.getElementById("mapx-zoom-in").addEventListener("click", () => zoomAround(1.3));
+  document.getElementById("mapx-zoom-out").addEventListener("click", () => zoomAround(1 / 1.3));
   const copyBtn = document.getElementById("mapx-copy");
   if (copyBtn) {
     copyBtn.addEventListener("click", () => {

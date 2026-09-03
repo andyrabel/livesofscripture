@@ -32,10 +32,10 @@ DEFAULT_OG_IMAGE = f"{SITE_URL}/images/social/og-image.png"
 NAV_PAGES = [
     ("index.html", "Home"),
     ("people.html", "People"),
-    ("timeline.html", "Timeline"),
-    ("map.html", "Maps"),
     ("churches.html", "Churches"),
     ("places.html", "Places"),
+    ("map.html", "Maps"),
+    ("timeline.html", "Timeline"),
     ("charts.html", "Charts"),
     ("quiz.html", "Quiz"),
     ("about.html", "About"),
@@ -1675,7 +1675,7 @@ def build_map_explorer_page(places_index):
   style and extent, load a preset group, then click any place for its details and use
   <em>Add to selection</em> to build your own map and copy a link to it.</p>
 
-  <div class="mapx-layout" id="map-explorer" data-mapstyle="parchment">
+  <div class="mapx-layout" id="map-explorer" data-mapstyle="topo">
     <aside class="mapx-rail">
       <div>
         <h3>Extent</h3>
@@ -1687,9 +1687,8 @@ def build_map_explorer_page(places_index):
       <div>
         <h3>Base style</h3>
         <div class="mapx-seg" id="mapx-style">
-          <button type="button" data-v="parchment" aria-pressed="true">Parchment</button>
+          <button type="button" data-v="topo" aria-pressed="true">Terrain</button>
           <button type="button" data-v="plain">Plain</button>
-          <button type="button" data-v="topo">Terrain</button>
         </div>
       </div>
       <div>
