@@ -1550,15 +1550,80 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
   </figure>"""
 
 
+def _filesize_label(path):
+    """Deterministic human-readable size for a committed asset."""
+    n = path.stat().st_size
+    if n < 1024:
+        return f"{n} B"
+    if n < 1024 * 1024:
+        return f"{n / 1024:.0f} KB"
+    return f"{n / (1024 * 1024):.1f} MB"
+
+
+def map_downloads_html(base):
+    """A "download a blank Bible map" section for map.html.
+
+    Links the standalone base maps and shaded-relief rasters that
+    generate_maps.py already builds and commits under images/maps/.
+    """
+    extents = [
+        ("holy-land", "The Holy Land", "760 &times; 1385", "Dan to Beersheba, coast to the Jordan"),
+        ("biblical-world", "The Biblical World", "1400 &times; 842", "Rome and Egypt across to Susa"),
+    ]
+    styles = [
+        ("parchment", "Parchment"),
+        ("plain", "Plain"),
+        ("topo", "Terrain"),
+    ]
+    cards = []
+    for ext_id, ext_name, dims, blurb in extents:
+        rows = []
+        for style_id, style_name in styles:
+            fname = f"{ext_id}-{style_id}.svg"
+            fpath = ROOT / "images" / "maps" / fname
+            if not fpath.exists():
+                continue
+            rows.append(
+                f'<li><a href="{base}images/maps/{fname}" download>{style_name} &mdash; SVG</a> '
+                f'<span class="map-dl-dim">{_filesize_label(fpath)}</span></li>'
+            )
+        relief = ROOT / "images" / "maps" / f"relief-{ext_id}.jpg"
+        if relief.exists():
+            rows.append(
+                f'<li><a href="{base}images/maps/relief-{ext_id}.jpg" download>Shaded relief &mdash; JPEG</a> '
+                f'<span class="map-dl-dim">{_filesize_label(relief)}</span></li>'
+            )
+        cards.append(f"""    <div class="map-dl-card">
+      <h4>{ext_name} <span class="map-dl-dim">({dims}px)</span></h4>
+      <p class="map-dl-dim">{blurb}</p>
+      <ul>
+        {"".join(rows)}
+      </ul>
+    </div>""")
+
+    return f"""  <section class="map-downloads">
+    <h3>Download a blank Bible map</h3>
+    <p class="page-intro">Every base map on this page is also a standalone file you can download and
+    use anywhere &mdash; a lesson handout, a slide, a printed study guide. They carry
+    <strong>no modern country labels or borders</strong>, and <strong>no copyright is claimed</strong>
+    on them: reuse, edit, and redistribute freely, no attribution required. Geometry is public-domain
+    <a href="https://www.naturalearthdata.com/">Natural Earth</a> data; the SVGs are theme-aware and
+    scale to any size. The Terrain SVG expects its matching <code>relief-*.jpg</code> alongside it.</p>
+    <div class="map-dl-grid">
+{"".join(cards)}
+    </div>
+  </section>"""
+
+
 def build_map_explorer_page(places_index):
     base = ""
     canonical = f"{SITE_URL}/map.html"
     title = "Map explorer — Lives of Scripture"
-    description = ("Free, copyright-free maps of the biblical world you can customize and reuse. "
+    description = ("Free, copyright-free maps of the biblical world you can customize, download, and reuse. "
                   "Drawn from public-domain geometry with no modern country labels or borders — "
                   "plot places, load a preset like the Exodus route, Paul's journeys, or the seven "
                   "churches of Revelation, then add or remove towns, and share or reuse the result "
-                  "with no attribution required.")
+                  "with no attribution required. Blank base maps available as SVG and JPEG downloads.")
     groups = json.loads((ROOT / "data" / "map-groups.json").read_text())["groups"]
     breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Map explorer", None)])
     group_links = "\n      ".join(
@@ -1607,7 +1672,8 @@ def build_map_explorer_page(places_index):
   Earth geometry, with no modern country labels or borders, and places plotted from
   <a href="https://www.openbible.info/geo/">OpenBible.info</a> coordinates. Every map here is
   <strong>free to reuse with no copyright claimed and no attribution required</strong>. Pick a base
-  style and extent, load a preset group, then add or remove places and copy a link to what you built.</p>
+  style and extent, load a preset group, then click any place for its details and use
+  <em>Add to selection</em> to build your own map and copy a link to it.</p>
 
   <div class="mapx-layout" id="map-explorer" data-mapstyle="parchment">
     <aside class="mapx-rail">
@@ -1665,6 +1731,8 @@ def build_map_explorer_page(places_index):
       {group_links}
     </ul>
   </noscript>
+
+{map_downloads_html(base)}
 </main>
 
 {footer_html(base)}

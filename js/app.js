@@ -3617,16 +3617,41 @@ async function renderMapExplorer() {
   // presses Escape, or opens another place's card.
   let inspectPinned = false;
   inspectCard.addEventListener("click", (e) => {
-    if (e.target.closest(".mapx-inspect-close")) hideInspect();
+    if (e.target.closest(".mapx-inspect-close")) {
+      hideInspect();
+      return;
+    }
+    const addBtn = e.target.closest(".mapx-inspect-add");
+    if (addBtn) {
+      const id = inspectCard.dataset.id;
+      if (state.ids.has(id)) state.ids.delete(id);
+      else state.ids.add(id);
+      state.groupId = null;
+      state.sel = id;
+      const nowOn = state.ids.has(id);
+      addBtn.textContent = nowOn ? "Remove from selection" : "Add to selection";
+      addBtn.setAttribute("aria-pressed", String(nowOn));
+      refresh();
+    }
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && inspectPinned) hideInspect();
   });
+  // Clicking the map away from any marker dismisses a pinned card.
+  els.viewport.addEventListener("click", (e) => {
+    if (els.viewport._suppressClick) return;
+    if (inspectPinned && !e.target.closest(".map-mk")) hideInspect();
+  });
 
   function hideInspect() {
+    const wasPinned = inspectPinned;
     inspectCard.hidden = true;
     inspectPinned = false;
     inspectCard.classList.remove("is-pinned");
+    if (wasPinned && state.sel !== null) {
+      state.sel = null;
+      render();
+    }
   }
   function confDescriptor(id) {
     const g = geoById.get(id) || {};
@@ -3643,13 +3668,20 @@ async function renderMapExplorer() {
     if (!p) return;
     inspectPinned = !!pin;
     inspectCard.classList.toggle("is-pinned", inspectPinned);
+    inspectCard.dataset.id = id;
     const [ctext, ccls] = confDescriptor(id);
     const firstRef = p.first_reference || (p.references || [])[0] || "";
+    const onSel = state.ids.has(id);
+    const addBtn = inspectPinned
+      ? `<button type="button" class="mapx-inspect-add" aria-pressed="${onSel}">` +
+        `${onSel ? "Remove from selection" : "Add to selection"}</button>`
+      : "";
     inspectCard.innerHTML =
       `<button type="button" class="mapx-inspect-close" aria-label="Close">&times;</button>` +
       `<strong>${escapeHtml(p.name)}</strong>` +
       `<span class="mapx-inspect-row">${firstRef ? "First reference — " + escapeHtml(firstRef) : "Named in Scripture"}</span>` +
-      `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>`;
+      `<span class="mapx-inspect-conf ${ccls}">${escapeHtml(ctext)}</span>` +
+      addBtn;
     inspectCard.hidden = false;
     const r = stage.getBoundingClientRect();
     const iw = inspectCard.offsetWidth;
@@ -3865,14 +3897,22 @@ async function renderMapExplorer() {
 
     els.viewport.querySelectorAll(".map-mk").forEach((g) => {
       const id = g.getAttribute("data-id");
+      // A click/tap inspects the place (name + reference + confidence); adding
+      // it to the selection is a separate button inside the pinned card, so
+      // browsing dots no longer churns the selection or the share link.
+      function inspectFromMarker(cx, cy) {
+        if (cx == null || Number.isNaN(cx)) {
+          const b = g.getBoundingClientRect();
+          cx = b.left + b.width / 2;
+          cy = b.top + b.height / 2;
+        }
+        state.sel = id;
+        render();
+        showInspect(id, cx, cy, true);
+      }
       g.addEventListener("click", (e) => {
         if (els.viewport._suppressClick) return;
-        if (state.ids.has(id)) state.ids.delete(id);
-        else state.ids.add(id);
-        state.groupId = null;
-        state.sel = id;
-        refresh();
-        showInspect(id, e.clientX, e.clientY, true);
+        inspectFromMarker(e.clientX, e.clientY);
       });
       g.addEventListener("mouseenter", (e) => {
         g.parentNode.appendChild(g);
@@ -3895,7 +3935,7 @@ async function renderMapExplorer() {
       g.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          g.dispatchEvent(new Event("click"));
+          inspectFromMarker();
         }
       });
     });
