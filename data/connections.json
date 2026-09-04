@@ -12626,5 +12626,359 @@
     "label": "begot",
     "type": "parent-child",
     "mutual": false
+  },
+  {
+    "from": "samuel",
+    "to": "saul",
+    "label": "anointed",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Samuel anointed Saul as Israel's first king at God's direction, then later announced that God had rejected him as king for his disobedience.",
+    "references": [
+      "1 Samuel 10:1",
+      "1 Samuel 15:10-29"
+    ]
+  },
+  {
+    "from": "nathan-2",
+    "to": "david",
+    "label": "confronted",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Nathan delivered God's covenant promise that David's throne would be established forever, then later confronted him with a parable exposing his adultery with Bathsheba and murder of Uriah.",
+    "references": [
+      "2 Samuel 7:1-16",
+      "2 Samuel 12:1-14"
+    ]
+  },
+  {
+    "from": "nathan-2",
+    "to": "solomon",
+    "label": "anointed",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Nathan helped secure Solomon's succession over Adonijah's attempted coup, then anointed him king at Gihon.",
+    "references": [
+      "1 Kings 1:11-39"
+    ]
+  },
+  {
+    "from": "gad-2",
+    "to": "david",
+    "label": "advised",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Gad directed David during his fugitive years, then later delivered God's three-fold offer of judgment after David's sinful census.",
+    "references": [
+      "1 Samuel 22:5",
+      "2 Samuel 24:11-19"
+    ]
+  },
+  {
+    "from": "ahijah",
+    "to": "jeroboam",
+    "label": "prophesied to",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Ahijah tore his cloak into twelve pieces to announce that Jeroboam would rule ten tribes, then later pronounced judgment on his house for its idolatry.",
+    "references": [
+      "1 Kings 11:29-39",
+      "1 Kings 14:1-18"
+    ]
+  },
+  {
+    "from": "shemaiah",
+    "to": "rehoboam",
+    "label": "restrained",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Shemaiah stopped Rehoboam from marching to war against the ten northern tribes, then later rebuked Judah's leaders during Shishak's invasion.",
+    "references": [
+      "1 Kings 12:21-24",
+      "2 Chronicles 12:5-8"
+    ]
+  },
+  {
+    "from": "jehu",
+    "to": "baasha",
+    "label": "prophesied against",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "The word of the LORD came to Jehu against Baasha, pronouncing that his entire house would be swept away for walking in Jeroboam's sins.",
+    "references": [
+      "1 Kings 16:1-4",
+      "1 Kings 16:7"
+    ]
+  },
+  {
+    "from": "jehu",
+    "to": "jehoshaphat-3",
+    "label": "rebuked",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Jehu confronted Jehoshaphat for allying himself with wicked King Ahab of Israel, while acknowledging the good in Jehoshaphat's own reign.",
+    "references": [
+      "2 Chronicles 19:1-3"
+    ]
+  },
+  {
+    "from": "hanani",
+    "to": "asa",
+    "label": "rebuked",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Hanani rebuked Asa for paying Aram to attack Israel instead of trusting God, and was imprisoned for it.",
+    "references": [
+      "2 Chronicles 16:7-10"
+    ]
+  },
+  {
+    "from": "azariah-7",
+    "to": "asa",
+    "label": "encouraged",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Moved by the Spirit, Azariah met Asa after his victory over the Cushites and urged him to seek the LORD, sparking a national reform.",
+    "references": [
+      "2 Chronicles 15:1-8"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "ahab",
+    "label": "confronted",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Elijah announced a drought as judgment on Ahab's Baal worship, defeated Baal's prophets at Mount Carmel, and pronounced judgment on Ahab's house after he seized Naboth's vineyard.",
+    "references": [
+      "1 Kings 17:1",
+      "1 Kings 18:17-40",
+      "1 Kings 21:17-24"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "ahaziah",
+    "label": "prophesied against",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Elijah announced that Ahaziah would die of his injuries because he had sent to inquire of Baal-zebub instead of the LORD.",
+    "references": [
+      "2 Kings 1:2-17"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "jehoram",
+    "label": "warned",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "A letter came to Jehoram of Judah from Elijah, warning of a plague on his people and family and a painful disease for walking in the ways of the kings of Israel.",
+    "references": [
+      "2 Chronicles 21:12-15"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "joram-2",
+    "label": "consulted",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Elisha guided Joram of Israel's campaign against Moab out of respect for Jehoshaphat, and later provided water, victory, and famine relief during his reign.",
+    "references": [
+      "2 Kings 3:11-19",
+      "2 Kings 6:24-7:20"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "jehu-2",
+    "label": "directed the anointing of",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Elisha sent a young prophet to anoint Jehu king over Israel and commission him to strike down the house of Ahab.",
+    "references": [
+      "2 Kings 9:1-10"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "joash-4",
+    "label": "gave a final prophecy to",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Joash wept over the dying Elisha, who had him shoot and strike arrows symbolizing victory over Aram, rebuking him for his half-hearted response.",
+    "references": [
+      "2 Kings 13:14-19"
+    ]
+  },
+  {
+    "from": "micaiah",
+    "to": "ahab",
+    "label": "prophesied against",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Alone among Ahab's four hundred court prophets, Micaiah predicted Ahab's death at Ramoth-gilead, and was struck and imprisoned for it.",
+    "references": [
+      "1 Kings 22:13-28"
+    ]
+  },
+  {
+    "from": "jahaziel-3",
+    "to": "jehoshaphat-3",
+    "label": "encouraged",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "The Spirit of the LORD came on Jahaziel in the temple assembly, announcing that God himself would fight the Moabite-Ammonite coalition for Judah.",
+    "references": [
+      "2 Chronicles 20:14-17"
+    ]
+  },
+  {
+    "from": "eliezer-6",
+    "to": "jehoshaphat-3",
+    "label": "rebuked",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Eliezer pronounced judgment on Jehoshaphat for allying with wicked King Ahaziah of Israel to build trading ships; the ships were wrecked.",
+    "references": [
+      "2 Chronicles 20:35-37"
+    ]
+  },
+  {
+    "from": "isaiah",
+    "to": "ahaz",
+    "label": "counseled",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Isaiah urged Ahaz to trust God rather than Assyria and offered the Immanuel sign, but Ahaz refused to ask for a sign and appealed to Assyria anyway.",
+    "references": [
+      "Isaiah 7:1-17"
+    ]
+  },
+  {
+    "from": "isaiah",
+    "to": "hezekiah",
+    "label": "advised",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Isaiah promised deliverance from Sennacherib's siege, announced Hezekiah's healing and fifteen added years, then later warned of a future Babylonian exile after Hezekiah showed off his treasury.",
+    "references": [
+      "2 Kings 19:1-7",
+      "2 Kings 20:1-19"
+    ]
+  },
+  {
+    "from": "micah-5",
+    "to": "hezekiah",
+    "label": "prophesied to",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Jeremiah 26:18-19 explicitly recalls that Micah's warning of Jerusalem's destruction led Hezekiah to seek the LORD's favor rather than have Micah put to death.",
+    "references": [
+      "Micah 3:12",
+      "Jeremiah 26:18-19"
+    ]
+  },
+  {
+    "from": "huldah",
+    "to": "josiah",
+    "label": "confirmed God's word to",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Huldah confirmed the authenticity of the newly discovered Book of the Law and Judah's coming judgment, but promised Josiah he would die in peace before it fell.",
+    "references": [
+      "2 Kings 22:14-20"
+    ]
+  },
+  {
+    "from": "zechariah-12",
+    "to": "joash-3",
+    "label": "rebuked",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "The Spirit of God came on Zechariah to rebuke Judah's idolatry; Joash had him stoned to death in the temple courtyard for it.",
+    "references": [
+      "2 Chronicles 24:20-22"
+    ]
+  },
+  {
+    "from": "jeremiah-6",
+    "to": "jehoahaz-2",
+    "label": "prophesied against",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Jeremiah told the people not to weep for the dead Josiah but for his son Shallum (Jehoahaz), who would die in exile in Egypt and never return.",
+    "references": [
+      "Jeremiah 22:10-12"
+    ]
+  },
+  {
+    "from": "jeremiah-6",
+    "to": "jehoiakim",
+    "label": "confronted",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Jehoiakim cut apart and burned in a fire pot the scroll of warnings Jeremiah had dictated; Jeremiah dictated it again with more added.",
+    "references": [
+      "Jeremiah 36:1-32"
+    ]
+  },
+  {
+    "from": "jeremiah-6",
+    "to": "jehoiachin",
+    "label": "prophesied against",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Jeremiah pronounced that none of Jehoiachin's (Coniah's) offspring would prosper sitting on David's throne.",
+    "references": [
+      "Jeremiah 22:24-30"
+    ]
+  },
+  {
+    "from": "jeremiah-6",
+    "to": "zedekiah-2",
+    "label": "counseled",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Zedekiah repeatedly summoned Jeremiah for private counsel during Babylon's siege of Jerusalem; Jeremiah urged surrender and was imprisoned for it.",
+    "references": [
+      "Jeremiah 37:1-21",
+      "Jeremiah 38:1-28"
+    ]
+  },
+  {
+    "from": "daniel-2",
+    "to": "nebuchadnezzar",
+    "label": "interpreted dreams for",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Daniel interpreted Nebuchadnezzar's dream of a great statue representing successive kingdoms, then later his dream of a great tree foretelling the king's coming madness.",
+    "references": [
+      "Daniel 2",
+      "Daniel 4"
+    ]
+  },
+  {
+    "from": "daniel-2",
+    "to": "belshazzar",
+    "label": "interpreted the judgment for",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Daniel alone could read and interpret the mysterious handwriting on the palace wall announcing that Belshazzar's kingdom would fall that very night.",
+    "references": [
+      "Daniel 5:13-31"
+    ]
+  },
+  {
+    "from": "daniel-2",
+    "to": "darius",
+    "label": "was delivered before",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Darius reluctantly had Daniel thrown into a den of lions for praying to God rather than to him, then rejoiced to find Daniel unharmed and decreed that all should fear Daniel's God.",
+    "references": [
+      "Daniel 6:1-27"
+    ]
   }
 ]
