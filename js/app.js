@@ -3634,6 +3634,27 @@ async function renderMapExplorer() {
   journeyLegend.className = "mapx-journey-legend";
   journeyLegend.hidden = true;
   stage.appendChild(journeyLegend);
+
+  // Transient confirmation popup for the map tools (copy image / copy link).
+  const toast = document.createElement("div");
+  toast.className = "mapx-toast";
+  toast.setAttribute("role", "status");
+  toast.hidden = true;
+  stage.appendChild(toast);
+  let toastTimer = null;
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.hidden = false;
+    // Restart the CSS entrance animation on repeat clicks.
+    toast.classList.remove("is-in");
+    void toast.offsetWidth;
+    toast.classList.add("is-in");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      toast.classList.remove("is-in");
+      toastTimer = setTimeout(() => { toast.hidden = true; }, 200);
+    }, 1900);
+  }
   // When the card is "pinned" (opened by a click/tap rather than a passing
   // hover) it stays put until the reader dismisses it with the × button,
   // presses Escape, or opens another place's card.
@@ -4367,7 +4388,10 @@ async function renderMapExplorer() {
   if (shareBtn) {
     shareBtn.addEventListener("click", () => {
       const link = (els.url && els.url.value) || location.href;
-      const done = () => flashBtn(shareBtn, true);
+      const done = () => {
+        flashBtn(shareBtn, true);
+        showToast("Link copied to clipboard");
+      };
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(link).then(done, () => flashBtn(shareBtn, false));
       } else {
@@ -4385,6 +4409,7 @@ async function renderMapExplorer() {
             new ClipboardItem({ "image/png": framedPngBlob(2).then((b) => b || Promise.reject()) }),
           ]);
           flashBtn(imgBtn, true);
+          showToast("Image copied to clipboard");
           return;
         }
         const blob = await framedPngBlob(2);
@@ -4395,6 +4420,7 @@ async function renderMapExplorer() {
         a.click();
         setTimeout(() => URL.revokeObjectURL(a.href), 1000);
         flashBtn(imgBtn, true);
+        showToast("Image downloaded");
       } catch (_) {
         flashBtn(imgBtn, false);
       }
