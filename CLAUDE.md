@@ -211,10 +211,9 @@ the remaining ~433 devotionals-carrying people, the same
 template/banned-phrase/worked-example approach is reusable — but nothing
 currently known needs it; this pass only targeted the specific template
 described above. (In passing, batch work surfaced that `jehoiada` and
-`jehoiada-2` look like duplicate person_ids for the same episode — the
-Joash rescue/coronation — same category of bug as the Name Disambiguation
-section's `sheba`/`mordecai`/etc. entries; not investigated or fixed as
-part of this pass, flagged here for a future cleanup pass.)
+`jehoiada-2` were conflated the same way as the Name Disambiguation
+section's `sheba`/`mordecai`/etc. entries — see that section for the fix,
+made 2026-09-04.)
 
 **`christ_connections` retired 2026-08-09.** An earlier field with the same
 Christ-pointing purpose but a different voice (first-person direct prayer,
@@ -826,6 +825,32 @@ from `bichri` to `raamah`, and `sheba-4` kept the 2 Samuel 20 rebel's
 story. Each fix also repointed any `quiz.json` question or
 `connections.json` edge that had been mistagged to the wrong half of its
 pair.
+
+**Another instance found and fixed 2026-09-04:** `jehoiada`'s own
+`references`/`first_reference` (2 Samuel 8:18, 20:23, 23:20-22; 1 Kings
+1:8-44, 2:25-46, 4:4; 1 Chronicles 11:22-24, 12:27, 18:17, 27:6-34) are
+for the Jehoiada who joined David's forces at Hebron with 3,700 men (1
+Chronicles 12:27) and fathered Benaiah, David's mighty man — a different,
+earlier person from `jehoiada-2` (2 Kings 11; 2 Chronicles 22-24), the
+high priest generations later who hid the infant Joash from Athaliah and
+married Jehosheba. Despite that, `jehoiada`'s `adult_story`,
+`family_friendly_summary`, `devotionals`, `tribe.reference`, and `era`
+had all been filled in with `jehoiada-2`'s Joash-rescue content instead
+(including `era: "Divided Monarchy"`, which is also simply wrong for a
+contemporary of David — that reign predates the kingdom split), plus a
+`genealogy.spouses` edge to `jehosheba` that `jehosheba`'s own file
+didn't reciprocate (confirming it was spurious rather than a second
+marriage). `connections.json` had the correct edges throughout
+(`jehoiada`→`benaiah`, `jehoiada-2`→`zechariah-12`/`jehosheba`) and
+needed no change — only the two person files, `jehoiada`'s
+`data/people.json` index entry, and one `quiz.json` question (Jehoiada's
+death at 130, buried among the kings, 2 Chronicles 24:15-16 — retagged
+from `jehoiada` to `jehoiada-2`, since that fact is `jehoiada-2`'s) were
+wrong. `jehoiada`'s per-person portrait images
+(`images/portraits2/jehoiada.png`, `images/portraits2-web/jehoiada.jpg`)
+were generated from the old, wrong content and likely still visually
+depict the Joash story rather than this person's actual identity — not
+regenerated as part of this fix, left as a flagged follow-up.
 
 ---
 
