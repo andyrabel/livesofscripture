@@ -14311,15 +14311,15 @@
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "United Monarchy",
     "timeline": {
       "precision": "era"
     },
     "region": "canaan-israel",
     "topics": [
-      "courage",
-      "covenant restoration",
-      "faithful mentorship"
+      "loyalty",
+      "legacy",
+      "supporting God's chosen king"
     ],
     "image": "generic-priest.jpg",
     "image2": "jehoiada.png",
@@ -14327,9 +14327,7 @@
     "disambiguation": "(2 Sam 8:18)",
     "first_reference": "2 Samuel 8:18",
     "genealogy": {
-      "spouses": [
-        "jehosheba"
-      ],
+      "spouses": [],
       "children": [
         "benaiah"
       ]

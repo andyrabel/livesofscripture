@@ -4,12 +4,13 @@
   "alt_names": [],
   "tier": "full",
   "testament": "OT",
-  "era": "Divided Monarchy",
+  "era": "United Monarchy",
   "region": "canaan-israel",
   "timeline": {
     "precision": "era"
   },
   "geographic_setting": [
+    "Hebron",
     "Jerusalem"
   ],
   "references": [
@@ -26,18 +27,18 @@
   ],
   "first_reference": "2 Samuel 8:18",
   "topics": [
-    "courage",
-    "covenant restoration",
-    "faithful mentorship"
+    "loyalty",
+    "legacy",
+    "supporting God's chosen king"
   ],
   "interpretive_dispute": false,
   "interpretive_note": "",
-  "source_summary": "The high priest who hid the infant Joash from Athaliah's massacre for six years, organized the coup that restored him to Judah's throne, and guided the young king's early righteous reign and temple restoration.",
-  "family_friendly_summary": "Jehoiada was a faithful high priest in Judah during a very dangerous time, when the wicked queen Athaliah had seized the throne and tried to wipe out the entire royal family. Jehoiada's wife secretly rescued the infant prince Joash and hid him in the temple, and Jehoiada protected and raised him there in secret for six years. When Joash turned seven, Jehoiada carefully organized guards and leaders to reveal Joash publicly and crown him as Judah's rightful king, ending Athaliah's reign. Jehoiada then guided young King Joash for many years afterward, leading the people to renew their covenant with God and repair the temple. Jehoiada lived to a very old age and was honored greatly at his death for all the good he had done for Judah.",
-  "adult_story": "Jehoiada, high priest during the reign of the usurping queen Athaliah, was married to Jehosheba, who secretly rescued the infant Joash from Athaliah's massacre of the royal family and hid him in the temple (2 Kings 11:2-3). Jehoiada sheltered and raised the boy there for six years, and in the seventh year executed a carefully planned coup: he secured the loyalty of the temple guards and Levites, armed them with weapons from David's own armory, and presented the seven-year-old Joash publicly, anointing him king while Athaliah was seized and executed outside the temple (11:4-16). Jehoiada immediately led the people, the king, and himself in a covenant renewal to be \"the LORD's people,\" then oversaw the demolition of Baal's temple in Jerusalem (11:17-18). Throughout Joash's youth, Jehoiada served as his guide and effectively as regent, and under his direction Joash ordered the temple, worn down and plundered during Athaliah's reign, to be repaired using funds collected from the people (2 Chronicles 24:4-14). Jehoiada lived to the remarkable age of 130 and was buried among the kings of Judah in the City of David, a rare honor for a priest, \"because he had done good in Israel, both toward God and His house\" (24:15-16). Tragically, Judah's faithfulness under Joash did not survive Jehoiada's death for long, as the king later turned to idolatry once his mentor was gone (24:17-18).",
+  "source_summary": "A leader of the house of Aaron who joined David's forces at Hebron with 3,700 men, and father of Benaiah, one of David's most celebrated mighty men and later commander of Solomon's army.",
+  "family_friendly_summary": "Jehoiada was a leader of the priestly family of Aaron who brought thousands of men to support David when God was making him king. The Bible doesn't tell us much more about Jehoiada himself, but it tells us a lot about his son, Benaiah, who became one of David's bravest soldiers. Benaiah once killed a lion in a snowy pit and defeated a huge Egyptian warrior armed only with a stick! David trusted Benaiah so much that he put him in charge of his royal bodyguard, and later King Solomon made him commander of the whole army.",
+  "adult_story": "Jehoiada was a leader of the house of Aaron -- a senior figure among the priestly clan of Levi -- who joined David's growing forces at Hebron with 3,700 men when Saul's kingdom was passing to David, part of a much larger gathering of tribal leaders who came \"to turn the kingdom of Saul to him, according to the word of the LORD\" (1 Chronicles 12:23-27). Scripture says little else about Jehoiada directly; nearly everything else recorded under his name concerns his son, Benaiah, one of David's most celebrated warriors. Benaiah struck down two of Moab's finest fighters, killed a lion in a pit on a day of heavy snow, and killed a spear-wielding Egyptian giant armed with only a staff, feats that placed him among David's inner circle of mighty men (2 Samuel 23:20-22; 1 Chronicles 11:22-24). David made Benaiah commander of his personal bodyguard, the Cherethites and Pelethites (2 Samuel 8:18; 20:23; 1 Chronicles 18:17), and at the end of David's reign, Benaiah backed Solomon over the coup attempted by Adonijah, then personally executed Adonijah, Joab, and Shimei on Solomon's orders (1 Kings 1:8-44; 2:25-46). Solomon rewarded that loyalty by making Benaiah commander of the entire army (1 Kings 4:4; 1 Chronicles 27:5-6) -- a rise Jehoiada, whoever he was personally, never lived to see, but that his own early, decisive loyalty to David's cause helped make possible.",
   "devotionals": [
-    "For six years Jehoiada hid the infant king Joash inside the temple, then staged a coup that overthrew Athaliah's usurped throne and restored God's chosen line to it. Jesus is the true King whose reign no violent usurper can ultimately erase, no matter how long His people wait to see it fully established.",
-    "Jehoiada led Judah to repair the temple that had fallen into ruin under Athaliah's neglect, and was honored at death with burial among the kings, 'because he had done good in Israel.' Jesus is still restoring what sin lets fall into ruin in us, calling us to that same quiet work of repair."
+    "Jehoiada is barely mentioned himself, remembered mostly for showing up early with 3,700 men to support David's kingship at Hebron. Jesus doesn't need us to be famous to use our loyalty; a decision made in the background can still shape everything that follows, the way Jehoiada's did for his son Benaiah.",
+    "Benaiah, Jehoiada's son, killed a lion in a snow-filled pit and a spear-armed giant with nothing but a staff, then rose to command David's own bodyguard and later Solomon's whole army. Jesus can take a family's quiet faithfulness in one generation and multiply it into something much bigger in the next."
   ],
   "image": {
     "file": "generic-priest.jpg",
@@ -49,9 +50,7 @@
   "genealogy": {
     "father": null,
     "mother": null,
-    "spouses": [
-      "jehosheba"
-    ],
+    "spouses": [],
     "children": [
       "benaiah"
     ]
@@ -68,6 +67,6 @@
   },
   "tribe": {
     "name": "Levi",
-    "reference": "2 Kings 11:4"
+    "reference": "1 Chronicles 12:27"
   }
 }
