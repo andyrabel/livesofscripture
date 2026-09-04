@@ -180,26 +180,41 @@ client-side code may rotate entries for visitors. Example (Noah):
 - "God judged the world but saved Noah's family through the ark. Jesus is our ark, the one safe place from judgment."
 - "Even Noah, saved from the flood, still stumbled into sin afterward. We don't need to be saved again — we simply need God's grace again, every day."
 
-**Quality pass, pilot batch (2026-09-04):** Andrew flagged that many
+**Quality pass, completed (2026-09-04).** Andrew flagged that many
 `devotionals` entries, while technically following the voice/length rules
 above, read as formulaic — generated from a two-sentence template
 ("{Name}'s story teaches us about {topic}; may we look to Jesus, whose
 grace and truth never fail." / "Through {Name}'s experience of {topic},
 God teaches us to trust His wisdom and follow Jesus faithfully.") filled
-in with a topic word rather than a genuine connection to the story. This
-template covers roughly 190-220 of the ~654 devotionals-carrying people
-(`grep -l "story teaches us about" data/people/*.json`), including major
+in with a topic word rather than a genuine connection to the story. The
+template covered 221 of the ~654 devotionals-carrying people (found via
+`grep -l "story teaches us about" data/people/*.json`), including major
 figures like David and Stephen, not just minor ones. Andrew authorized
 **doubling the length cap to ~56 words/phrase** (from the ~28 above) to
 allow room for a real connection, and asked for less formulaic phrasing
-generally. First pass rewrote 12 people as a pilot, pending his review
-before doing the rest: `baasha`, `david`, `stephen`, `isaac`, `caleb`,
-`jonah`, `miriam`, `josiah`, `nicodemus`, `phinehas`, `enoch`, `sarah`.
-Each phrase still traces to a specific `adult_story` beat (e.g. David's
-phrase names Nathan's confrontation and Psalm 51, not just "repentance")
-rather than restating a topic label. If Andrew approves, extend the same
-treatment to the rest of the templated set — re-grep for the template
-strings above, since the fixed 12 will no longer match.
+generally. Done in two passes: a 12-person pilot (`baasha`, `david`,
+`stephen`, `isaac`, `caleb`, `jonah`, `miriam`, `josiah`, `nicodemus`,
+`phinehas`, `enoch`, `sarah`) written by hand, then — after Andrew
+approved the pilot — the remaining 209 people rewritten via 7 parallel
+subagents (~30 people each), each given the same rules, banned-phrase
+list, and worked examples as the pilot. Every phrase across all 221
+people traces to a specific `adult_story` beat (e.g. David's phrase names
+Nathan's confrontation and Psalm 51, not just "repentance") rather than
+restating a topic label; morally negative/tragic figures generally use a
+warning-or-contrast framing rather than a forced positive typology.
+Verified programmatically afterward: all 221 files valid JSON, no
+leftover template strings, every phrase names "Jesus" or "God" within
+itself, all ≤56 words (8 that initially ran over were trimmed by hand).
+Re-ran `_build/generate_static_site.py` after, so `people/*.html` reflects
+all 221 changes. If a similar formulaic pattern is ever found again in
+the remaining ~433 devotionals-carrying people, the same
+template/banned-phrase/worked-example approach is reusable — but nothing
+currently known needs it; this pass only targeted the specific template
+described above. (In passing, batch work surfaced that `jehoiada` and
+`jehoiada-2` look like duplicate person_ids for the same episode — the
+Joash rescue/coronation — same category of bug as the Name Disambiguation
+section's `sheba`/`mordecai`/etc. entries; not investigated or fixed as
+part of this pass, flagged here for a future cleanup pass.)
 
 **`christ_connections` retired 2026-08-09.** An earlier field with the same
 Christ-pointing purpose but a different voice (first-person direct prayer,
