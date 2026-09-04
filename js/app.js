@@ -3599,6 +3599,10 @@ async function renderMapExplorer() {
     ids: new Set(),
     groupId: null,
     allLabels: false,
+    // When off, only markers for the current selection (and the hovered/pinned
+    // one) are drawn. Loading a preset group turns this off so the map shows
+    // just that group's places; on by default otherwise.
+    allLocations: true,
     // Which journey-route overlays are switched on, by their index within the
     // active preset group's `journeys` array. Empty when no group / no routes.
     journeys: new Set(),
@@ -3875,6 +3879,8 @@ async function renderMapExplorer() {
     state.journeys = new Set(
       Array.isArray(g.journeys) ? g.journeys.map((_, i) => i) : [],
     );
+    // Narrow the map to just this group's places until the reader re-enables it.
+    state.allLocations = false;
     state.sel = null;
   }
 
@@ -3983,6 +3989,7 @@ async function renderMapExplorer() {
       const x = px * Z;
       const y = py * Z;
       const on = state.ids.has(p.place_id);
+      if (!state.allLocations && !on && state.sel !== p.place_id) continue;
       const region = isRegion(p.place_id);
       const showLabel = state.allLabels || on || state.sel === p.place_id;
       const cls =
@@ -4078,6 +4085,8 @@ async function renderMapExplorer() {
     document.querySelectorAll("#mapx-style button").forEach((b) =>
       b.setAttribute("aria-pressed", b.dataset.v === state.style),
     );
+    const allLocCb = document.getElementById("mapx-all-locations");
+    if (allLocCb) allLocCb.checked = state.allLocations;
 
     // Journey toggles: one checkbox per route, only offered for a group that
     // actually has routes.
@@ -4233,6 +4242,10 @@ async function renderMapExplorer() {
   });
   document.getElementById("mapx-all-labels").addEventListener("change", (e) => {
     state.allLabels = e.target.checked;
+    render();
+  });
+  document.getElementById("mapx-all-locations").addEventListener("change", (e) => {
+    state.allLocations = e.target.checked;
     render();
   });
   const journeysToggle = document.getElementById("mapx-journeys-toggle");

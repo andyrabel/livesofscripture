@@ -1704,6 +1704,7 @@ def build_map_explorer_page(places_index):
         <div class="mapx-list" id="mapx-list"></div>
       </details>
       <input type="hidden" id="mapx-url">
+      <label class="mapx-labels"><input type="checkbox" id="mapx-all-locations" checked> Show every location</label>
       <label class="mapx-labels"><input type="checkbox" id="mapx-all-labels"> Show every label</label>
     </aside>
 
