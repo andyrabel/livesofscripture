@@ -1511,9 +1511,15 @@ def place_mini_map_html(place, placed_places, base, n_neighbors=6):
         tx = -(r + 3) if anchor_end else (r + 3)
         ta = ' text-anchor="end"' if anchor_end else ""
         circle_cls = f' class="{conf_cls}"' if conf_cls else ""
-        return (f'<g class="{cls}" transform="translate({x:.1f},{y:.1f})">'
-                f'<circle r="{r}"{circle_cls}/>'
-                f'<text x="{tx}" y="{fs * 0.34:.1f}" style="font-size:{fs}px"{ta}>{esc(name)}</text></g>')
+        g = (f'<g class="{cls}" transform="translate({x:.1f},{y:.1f})">'
+             f'<circle r="{r}"{circle_cls}/>'
+             f'<text x="{tx}" y="{fs * 0.34:.1f}" style="font-size:{fs}px"{ta}>{esc(name)}</text></g>')
+        if subject:
+            return g
+        # Each neighbour marker links to that place's own locator map page.
+        href = f'{base}places/{esc(e["place_id"])}.html'
+        return (f'<a class="placemap-mk-link" href="{href}" '
+                f'aria-label="Go to {esc(name)}">{g}</a>')
 
     region_overlay = ""
     reg = ext.get("regions", {}).get(place["place_id"])

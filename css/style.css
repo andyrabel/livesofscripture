@@ -3325,6 +3325,14 @@ header.site-header nav a.nav-cta:hover {
 .map-mk.is-sel circle { stroke: var(--color-accent-strong); stroke-width: 2.5; }
 .map-mk.is-dim circle { opacity: 0.9; }
 
+/* Neighbour markers on a per-place locator map link to that place's page. */
+.placemap-mk-link { cursor: pointer; }
+.placemap-mk-link:hover .map-mk circle,
+.placemap-mk-link:focus-visible .map-mk circle { stroke: var(--color-accent-strong); stroke-width: 2.5; }
+.placemap-mk-link:hover .map-mk text,
+.placemap-mk-link:focus-visible .map-mk text { text-decoration: underline; }
+.placemap-mk-link:focus { outline: none; }
+
 /* --- map explorer page (map.html) --- */
 .mapx-layout { display: grid; grid-template-columns: 280px 1fr; gap: 1.25rem; align-items: start; }
 @media (max-width: 820px) { .mapx-layout { grid-template-columns: 1fr; } }
