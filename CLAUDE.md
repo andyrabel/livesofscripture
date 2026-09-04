@@ -1348,6 +1348,42 @@ for a name shared by several places uses `data/place-connections.json`
 person-page story panels; re-run `generate_static_site.py` after any
 change to either linker or to story text.
 
+### Progressive Web App (PWA) support (added 2026-09-04)
+
+The site is installable to a phone's home screen as a standalone app.
+Pieces:
+- **`manifest.json`** at the site root — name/short_name/description,
+  `display: "standalone"`, `background_color`/`theme_color` matching the
+  site's `--color-bg`/`--color-accent` CSS tokens, and an `icons` array
+  (192/512px, both `"any"` and `"maskable"` purposes).
+- **Icons** — `images/icon-192.png` / `images/icon-512.png` (the latter
+  already existed on disk, unused, since the original 2026-07-30 branding
+  batch; the 192px version and both maskable variants were generated from
+  it, cropped to content and padded to keep the artwork inside the
+  maskable safe zone). Regenerate by cropping `images/icon-512.png` to its
+  content bounding box and re-centering at ~55% scale on an opaque white
+  canvas if the source icon is ever redrawn.
+- **`sw.js`** (root) — a deliberately minimal service worker: network-first
+  for page navigations (so visitors always get current content when
+  online — this site's data changes far too often for a cache-first
+  navigation strategy), cache-first with background refresh for a small
+  static shell (CSS/JS/manifest/icons), so installability criteria are met
+  and there's a basic offline fallback. Registered from `js/app.js` (top of
+  file, guarded by `"serviceWorker" in navigator`).
+- **Every page `<head>`** carries `<link rel="manifest">` plus a
+  `theme-color` meta and the `mobile-web-app-capable`/
+  `apple-mobile-web-app-*` meta tags (Android and iOS use different meta
+  tag prefixes for the same "installed app" behaviors, so both are
+  present). Baked into all 13 head-template blocks in
+  `_build/generate_static_site.py` and into the hand-authored top-level
+  pages (`index.html`, `about.html`, `connections.html`, `people.html`,
+  `place-connections.html`, `quiz.html`, `timeline.html`, `person.html`) —
+  add the same block to any new hand-authored page's `<head>`, and to any
+  new generator head-template if one is ever split out from the existing
+  13.
+- `apple-touch-icon.png` (180px) already existed and needed no change —
+  iOS reads it independently of the manifest.
+
 ### Markdown document convention
 
 Every Markdown file must start with a top-level title followed immediately by

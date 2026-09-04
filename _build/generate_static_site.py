@@ -773,6 +773,13 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -883,6 +890,13 @@ def build_churches_list_page(churches):
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -1011,6 +1025,13 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -1291,6 +1312,13 @@ def build_places_list_page(places_index):
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -1654,6 +1682,13 @@ def build_map_explorer_page(places_index):
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -1838,6 +1873,13 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -2557,6 +2599,13 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -3035,6 +3084,13 @@ def build_tribe_sunburst_chart_page(layout):
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -3350,6 +3406,13 @@ def build_job_chapters_chart_page(chapters):
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -3772,6 +3835,13 @@ def build_genesis_chapters_chart_page(chapters):
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -4122,6 +4192,13 @@ def build_acts_chapters_chart_page(chapters):
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
 
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
 <meta property="og:title" content="{esc(title)}">
@@ -4209,6 +4286,13 @@ def build_charts_list_page():
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">
@@ -4321,6 +4405,13 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 <link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lives of Scripture">

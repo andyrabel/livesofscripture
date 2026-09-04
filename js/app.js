@@ -6,6 +6,16 @@ const DATA = {
 };
 
 // ---------------------------------------------------------------------
+// PWA install support
+// ---------------------------------------------------------------------
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch(() => {});
+  });
+}
+
+// ---------------------------------------------------------------------
 // Cookie consent (Google Analytics)
 //
 // UK/EU/EEA visitors (detected via the browser's own timezone, never sent
