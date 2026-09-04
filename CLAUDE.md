@@ -1261,6 +1261,32 @@ Current pass: ~2,900 links across 658 full-tier pages. Re-run
 `generate_static_site.py` after any change to the linker, the overrides,
 or the story text of a full-tier person.
 
+**In-prose place cross-links (added 2026-09-04).** Same mechanism,
+sibling module `_build/link_place_mentions.py`, linking to
+`places/<id>.html` instead. Threaded into
+`link_person_mentions.link_paragraph` as a fallback tried only when a
+capitalised word does *not* resolve to a person mention (person mentions
+still take priority over place mentions on the same word) — so a word is
+tried as a place only after person-linking has already declined it.
+Same conservative rules as the person linker (unique-or-graph-neighbour,
+full-tier place targets only, first mention per panel, citations masked
+out first), plus one place-specific guard: **a word that matches any
+person's name or alt-name (any tier) is never linked as a place**,
+reusing the person linker's own `name_index` as a collision list. This is
+what keeps a tribal/national eponym that doubles as a patriarch's own
+name — "Judah" (Kingdom of Judah vs. the patriarch), "Dan", "Edom"
+(Esau's alt-name), "Moab"/"Ammon" (Lot's sons), "Canaan" (Ham's son) —
+unlinked here rather than guessed, extending the same policy that put
+those words in `link_person_mentions.STOPWORDS` for person-linking in the
+first place. Only single-token place names/alt-names are indexed
+(multi-word names like "Mount Sinai" or "Kingdom of Israel" are left
+unmatched, same limitation as multi-word person names). Disambiguation
+for a name shared by several places uses `data/place-connections.json`
+(the person&harr;place graph) the same way the person linker uses
+`data/connections.json`. First pass added ~1,300 place links across the
+person-page story panels; re-run `generate_static_site.py` after any
+change to either linker or to story text.
+
 ### Markdown document convention
 
 Every Markdown file must start with a top-level title followed immediately by

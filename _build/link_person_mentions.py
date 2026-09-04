@@ -34,6 +34,8 @@ import json
 import re
 from pathlib import Path
 
+import link_place_mentions
+
 ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES_PATH = ROOT / "_build" / "link_overrides.json"
 
@@ -179,13 +181,17 @@ def _resolve(key, subject_id, ctx):
     return classify(key, subject_id, ctx)[0]
 
 
-def link_paragraph(text, subject_id, ctx, base, linked_pids):
-    """Escape `text` and wrap the safe person-name mentions in it as links.
+def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, linked_place_ids=None):
+    """Escape `text` and wrap the safe person/place-name mentions in it as links.
 
-    `linked_pids` is a mutable set shared across the paragraphs of one story
-    panel so only the first mention of each person is linked.
+    `linked_pids` (people) and `linked_place_ids` (places) are mutable sets
+    shared across the paragraphs of one story panel so only the first
+    mention of each person/place is linked. A word is tried as a person
+    mention first; only if that fails is it tried as a place mention (see
+    link_place_mentions.classify for why that order matters -- a word that
+    is also a person's name is never linked as a place).
     """
-    if not ctx:
+    if not ctx and not place_ctx:
         return html.escape(text, quote=True)
 
     protected = [(m.start(), m.end()) for m in _CITATION_RE.finditer(text)]
@@ -199,13 +205,23 @@ def link_paragraph(text, subject_id, ctx, base, linked_pids):
         if is_protected(m.start()):
             continue
         word = m.group(0)
-        tgt = _resolve(word.lower(), subject_id, ctx)
-        if not tgt or tgt in linked_pids:
+        key = word.lower()
+
+        tgt = _resolve(key, subject_id, ctx) if ctx else None
+        href_prefix = "people/"
+        seen = linked_pids
+
+        if not tgt and place_ctx is not None:
+            place_tgt, _ = link_place_mentions.classify(key, subject_id, place_ctx)
+            if place_tgt:
+                tgt, href_prefix, seen = place_tgt, "places/", linked_place_ids
+
+        if not tgt or tgt in seen:
             continue
-        linked_pids.add(tgt)
+        seen.add(tgt)
         out.append(html.escape(text[last:m.start()], quote=True))
         out.append(
-            f'<a class="story-link" href="{base}people/{tgt}.html">'
+            f'<a class="story-link" href="{base}{href_prefix}{tgt}.html">'
             f'{html.escape(word, quote=True)}</a>'
         )
         last = m.end()
