@@ -3619,6 +3619,13 @@
     "mutual": true
   },
   {
+    "from": "jehoiada",
+    "to": "place:hebron",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "mamre",
     "to": "place:hebron",
     "label": "associated with",

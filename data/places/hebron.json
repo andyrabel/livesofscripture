@@ -27,7 +27,7 @@
     "note": ""
   },
   "modern_name": "Hebron, West Bank",
-  "n_people": 15,
+  "n_people": 16,
   "related_people": [
     {
       "person_id": "abigail",
@@ -128,6 +128,11 @@
         "Joshua 10:3",
         "Joshua 10:23-26"
       ]
+    },
+    {
+      "person_id": "jehoiada",
+      "name": "Jehoiada",
+      "gender": "male"
     },
     {
       "person_id": "mamre",
