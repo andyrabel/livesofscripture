@@ -3898,12 +3898,20 @@ async function renderMapExplorer() {
     .split(",")
     .map((s) => s.trim())
     .filter((s) => byId.has(s));
+  // A bare visit (no ext/style/group/places at all) defaults to the "Jesus
+  // in Galilee" preset rather than an unlabeled dump of every placed marker
+  // on the map — any explicit query param means the visitor is already
+  // customizing, so it's left alone.
+  const hasAnyParams = [...params.keys()].length > 0;
   if (pParam.length) {
     pParam.forEach((id) => state.ids.add(id));
   } else if (params.get("group")) {
     applyGroup(params.get("group"));
+  } else if (!hasAnyParams) {
+    applyGroup("jesus-galilee");
   }
-  const initialFit = pParam.length > 0 || !!params.get("group");
+  const initialFit =
+    pParam.length > 0 || !!params.get("group") || state.groupId === "jesus-galilee";
 
   function syncUrl() {
     const q = new URLSearchParams();
