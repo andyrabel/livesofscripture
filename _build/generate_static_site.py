@@ -456,10 +456,27 @@ def place_story_tabs_section(place, link_ctx=None, base=""):
     """Same tabbed adult/family control as story_tabs_section, adapted for a
     place's `description`/`family_friendly_summary` pair -- shares the
     STORY_PREF_KEY localStorage preference and .story-tabs-* CSS/JS with
-    the person-page version, so a visitor's choice carries across both."""
+    the person-page version, so a visitor's choice carries across both.
+
+    Full-tier places without a `family_friendly_summary` fall back to a
+    plain, always-visible description instead of the tabbed control -- a
+    "Family Version" tab with nothing behind it would just switch to an
+    empty panel (and a visitor whose stored preference is "family" would
+    see no text at all)."""
     place_id = place["place_id"]
+    family = (place.get("family_friendly_summary") or "").strip()
+    if not family:
+        paras = [p for p in (place.get("description") or "").split("\n\n") if p.strip()]
+        linked_pids = set()
+        paragraphs_html = "\n      ".join(
+            f"<p>{link_person_mentions.link_paragraph(p, place_id, link_ctx, base, linked_pids)}</p>"
+            for p in paras
+        )
+        return f"""<div class="story-text place-description">
+      {paragraphs_html}
+      </div>"""
     desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base)
-    family_panel = story_panel_html("family", place.get("family_friendly_summary"), link_ctx, place_id, base)
+    family_panel = story_panel_html("family", family, link_ctx, place_id, base)
     return f"""<div class="story-tabs-wrapper" data-person-name="{esc(place['name'])}">
     <div class="story-tabs-nav" role="tablist" aria-label="Description version">
       <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
