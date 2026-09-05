@@ -128,9 +128,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Nob">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>A priestly town where the fugitive <a class="story-link" href="../people/david.html">David</a> received bread and <a class="story-link" href="../people/goliath.html">Goliath</a>&#x27;s sword from the priest Ahimelech (1 Samuel 21:1-9), an act of unwitting help that led Saul, informed by <a class="story-link" href="../people/doeg.html">Doeg</a> the Edomite, to order the massacre of Nob&#x27;s priests and townspeople (1 Samuel 22:9-19).</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Nob was a town of priests where <a class="story-link" href="../people/david.html">David</a>, running from Saul, was given bread and <a class="story-link" href="../people/goliath.html">Goliath</a>&#x27;s sword by the priest Ahimelech. When Saul found out, he was so angry that he had the priests of Nob killed for helping David. Only one priest, <a class="story-link" href="../people/abiathar.html">Abiathar</a>, escaped and fled to David.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: 1 Samuel 21:1; 1 Samuel 21:1-9; 1 Samuel 22:9-19</p>

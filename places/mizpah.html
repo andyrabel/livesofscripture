@@ -131,9 +131,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Mizpah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>A town in Benjamin&#x27;s territory where <a class="story-link" href="../people/samuel.html">Samuel</a> gathered Israel to renew their commitment to God and won a decisive victory over the Philistines (1 Samuel 7:5-13), and where Saul was later chosen and presented to the nation as its first king by lot (1 Samuel 10:17-24). After Jerusalem&#x27;s fall to Babylon, Mizpah became the seat of Gedaliah, the governor Babylon appointed over the remaining Judeans — an arrangement that collapsed when Ishmael assassinated Gedaliah there, prompting the frightened remnant to flee to Egypt against <a class="story-link" href="../people/jeremiah-6.html">Jeremiah</a>&#x27;s warning (2 Kings 25:22-25; Jeremiah 40-41).</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Mizpah was a town in Benjamin where the prophet <a class="story-link" href="../people/samuel.html">Samuel</a> gathered Israel to pray, and God gave them a great victory over the Philistines. Saul was later chosen as king there in front of all the people. After Jerusalem fell to Babylon, Mizpah briefly became the center of what was left of Judah.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: Joshua 18:26; 1 Samuel 7:5-13; 1 Samuel 10:17-24; 2 Kings 25:22-25; Jeremiah 40-41</p>

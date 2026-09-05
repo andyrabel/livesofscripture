@@ -131,9 +131,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Edom">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>The nation descended from <a class="story-link" href="../people/esau.html">Esau</a> (also called Edom), settled in the mountainous region of Seir south of the Dead Sea. Edom refused Israel passage during the wilderness years (Numbers 20:14-21) and remained a persistent, often bitter rival through the monarchy — rebelling against Judah&#x27;s control under Jehoram (2 Kings 8:20-22) and later gloating over Jerusalem&#x27;s fall, which the book of Obadiah condemns at length.</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Edom was the nation that came from <a class="story-link" href="../people/esau.html">Esau</a>, <a class="story-link" href="../people/israel.html">Jacob</a>&#x27;s brother, living in the rocky hills south of the Dead Sea. The Edomites would not let Israel pass through their land during the wilderness years, and they remained rivals of Israel for a very long time.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: Genesis 36:1; Numbers 20:14-21; 2 Kings 8:20-22; Obadiah</p>

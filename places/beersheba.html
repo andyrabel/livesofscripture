@@ -131,9 +131,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Beersheba">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>A well and settlement in Canaan&#x27;s southern edge where <a class="story-link" href="../people/abraham.html">Abraham</a> made a covenant with Abimelech and named the site for their oath (Genesis 21:22-34), and where <a class="story-link" href="../people/isaac.html">Isaac</a> later dug his own well and renewed the same covenant (Genesis 26:23-33). &quot;From Dan to Beersheba&quot; became a standard phrase for the whole extent of Israel&#x27;s territory (Judges 20:1). <a class="story-link" href="../people/elijah.html">Elijah</a> fled there, exhausted, after fleeing Jezebel&#x27;s threat (1 Kings 19:3).</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Beersheba was a town at the southern edge of Israel, built around an important well. <a class="story-link" href="../people/abraham.html">Abraham</a>, and later his son <a class="story-link" href="../people/isaac.html">Isaac</a>, each made a peace agreement there. People said &quot;from Dan to Beersheba&quot; to mean the whole land of Israel, from top to bottom. <a class="story-link" href="../people/elijah.html">Elijah</a> once stopped in Beersheba when he was worn out and afraid.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: Genesis 21:14; Genesis 21:22-34; Genesis 26:23-33; 1 Kings 19:3</p>

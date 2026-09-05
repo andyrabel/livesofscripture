@@ -128,9 +128,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Persia">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>The empire that conquered Babylon and, under <a class="story-link" href="../people/cyrus.html">Cyrus</a>, issued the decree allowing exiled Jews to return and rebuild Jerusalem&#x27;s temple (Ezra 1:1-4; 2 Chronicles 36:20-23). <a class="story-link" href="../people/esther.html">Esther</a> became queen of Persia under <a class="story-link" href="../people/ahasuerus.html">Ahasuerus</a>, and <a class="story-link" href="../people/daniel-2.html">Daniel</a> served in its administration under Darius, surviving the lions&#x27; den (Daniel 6).</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Persia was the empire that conquered Babylon. Its king <a class="story-link" href="../people/cyrus.html">Cyrus</a> let the Jewish exiles go home to rebuild God&#x27;s temple in Jerusalem. <a class="story-link" href="../people/esther.html">Esther</a> became the queen of Persia and bravely saved her people, and <a class="story-link" href="../people/daniel-2.html">Daniel</a> served in the Persian government — even surviving a night in a den of lions.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: 2 Chronicles 36:20; Ezra 1:1-4; Esther 1:1; Daniel 6</p>

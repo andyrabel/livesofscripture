@@ -128,9 +128,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Plains of Moab">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>Israel&#x27;s final wilderness encampment, on the plains east of the Jordan opposite Jericho, where <a class="story-link" href="../people/balaam.html">Balaam</a> was hired to curse Israel and failed (Numbers 22-24), where Israelite men were drawn into idolatry and immorality with Moabite women at Baal-peor (Numbers 25), and where <a class="story-link" href="../people/moses.html">Moses</a> delivered the sermons recorded in Deuteronomy before climbing Mount Nebo to view the promised land and die there (Deuteronomy 34:1-8).</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>The Plains of Moab were Israel&#x27;s last camp before entering the promised land, just east of the Jordan River across from Jericho. There a man named <a class="story-link" href="../people/balaam.html">Balaam</a> was hired to curse Israel but could only bless them. It was also where <a class="story-link" href="../people/moses.html">Moses</a> gave his final speeches, written down in Deuteronomy, before climbing Mount Nebo to see the land and die.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: Numbers 22:1; Numbers 25; Numbers 33:48-50; Deuteronomy 34:1-8</p>

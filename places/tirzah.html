@@ -128,9 +128,30 @@
   </figure>
 
   <section>
-    <div class="story-text place-description">
+    <div class="story-tabs-wrapper" data-person-name="Tirzah">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    <div class="story-panel" data-version="adult" role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+      <div class="story-text">
       <p>An early capital of the northern kingdom of Israel before Omri built Samaria, serving as the royal seat under kings including <a class="story-link" href="../people/baasha.html">Baasha</a>, Elah, and Zimri. Zimri&#x27;s seven-day reign ended when he burned the palace down over himself there rather than face Omri&#x27;s siege (1 Kings 16:8-18), after which Omri eventually relocated the capital to Samaria.</p>
       </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="adult">Copy</button>
+        <button class="btn-story" data-read-version="adult" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+    <div class="story-panel hidden" data-version="family" role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+      <div class="story-text">
+      <p>Tirzah was an early capital city of the northern kingdom of Israel, before King Omri built Samaria. Several kings ruled from there. One of them, Zimri, reigned only seven days before his rule ended in the burning palace, and Omri soon moved the capital to Samaria.</p>
+      </div>
+      <div class="story-panel-footer">
+        <button class="btn-story" data-copy-version="family">Copy</button>
+        <button class="btn-story" data-read-version="family" disabled>&#128266; Read Aloud</button>
+      </div>
+    </div>
+  </div>
   </section>
 
   <p class="references-list">References: Joshua 12:24; 1 Kings 15:33; 1 Kings 16:8-24</p>

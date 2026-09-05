@@ -1137,15 +1137,17 @@ site). Pieces:
   Description" / "Family Version" rather than person pages' "For Worship &
   Teaching" wording, since a place has no worship/teaching framing. The old
   `details.family-friendly` CSS rule was removed as dead code.
-  **Fallback added 2026-09-05:** only 21 of the 127 full-tier places
-  actually have a `family_friendly_summary` yet; `place_story_tabs_section()`
-  now renders a plain always-visible `<div class="story-text
-  place-description">` (person-linked, no tabs, no Copy/Read-Aloud footer)
-  for a full-tier place without one, instead of a tab pair whose "Family
+  **Fallback added 2026-09-05:** `place_story_tabs_section()` renders a
+  plain always-visible `<div class="story-text place-description">`
+  (person-linked, no tabs, no Copy/Read-Aloud footer) for a full-tier place
+  with no `family_friendly_summary`, instead of a tab pair whose "Family
   Version" panel would be empty (and blank entirely for a visitor whose
-  stored `preferred-story-version` is "family"). Writing the remaining ~106
-  family versions is still open content work; a place gets the real tabbed
-  control automatically once its `family_friendly_summary` is filled in.
+  stored `preferred-story-version` is "family"). All 127 full-tier places
+  now carry a `family_friendly_summary` (the last 106 were written
+  2026-09-05, ~40-90 words each, same 8-and-up retelling rules as a
+  person's — honest in general terms, no adult content), so every full-tier
+  place currently gets the real tabbed control; the fallback stays in place
+  for any future full-tier place added without one.
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —
