@@ -2,6 +2,18 @@
   "_note": "Short, factual feed of site features (not routine content additions). Most recent 4 shown on the home page. ISO dates, short title, target page, one-sentence lowercase description.",
   "entries": [
     {
+      "date": "2026-09-04",
+      "title": "Map explorer",
+      "page": "map.html",
+      "description": "build and share a custom, copyright-free map of the biblical world with preset groups and journey routes."
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Places",
+      "page": "places.html",
+      "description": "browse cities, regions, and sites named in Scripture, each with its own page and locator map."
+    },
+    {
       "date": "2026-08-10",
       "title": "Stained-glass portraits",
       "page": "people.html",
