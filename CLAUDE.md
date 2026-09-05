@@ -1124,6 +1124,19 @@ site). Pieces:
   attribution required", "no modern country labels or borders", "public-domain
   Natural Earth geometry") consistent if the copy is revised — it is the
   point of difference from every tile-based Bible map.
+- **Full/family description toggle on place pages (2026-09-04).** A
+  full-tier place's `description` and `family_friendly_summary` now render
+  in the same tabbed control as a person page's `adult_story`/
+  `family_friendly_summary` toggle (`place_story_tabs_section()` in
+  `_build/generate_static_site.py`, reusing `story_panel_html()` and the
+  `.story-tabs-*`/`.story-panel` CSS/JS as-is) — replacing the old
+  always-visible description plus a collapsed `<details class="family-
+  friendly">` disclosure. Shares the person-page version's `initPersonStory()`
+  JS and its `preferred-story-version` localStorage key, so a visitor's
+  choice carries across both person and place pages. Labelled "Full
+  Description" / "Family Version" rather than person pages' "For Worship &
+  Teaching" wording, since a place has no worship/teaching framing. The old
+  `details.family-friendly` CSS rule was removed as dead code.
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

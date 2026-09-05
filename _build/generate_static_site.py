@@ -452,6 +452,24 @@ def story_tabs_section(person, link_ctx=None, base="", place_link_ctx=None):
   </div>"""
 
 
+def place_story_tabs_section(place, link_ctx=None, base=""):
+    """Same tabbed adult/family control as story_tabs_section, adapted for a
+    place's `description`/`family_friendly_summary` pair -- shares the
+    STORY_PREF_KEY localStorage preference and .story-tabs-* CSS/JS with
+    the person-page version, so a visitor's choice carries across both."""
+    place_id = place["place_id"]
+    desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base)
+    family_panel = story_panel_html("family", place.get("family_friendly_summary"), link_ctx, place_id, base)
+    return f"""<div class="story-tabs-wrapper" data-person-name="{esc(place['name'])}">
+    <div class="story-tabs-nav" role="tablist" aria-label="Description version">
+      <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
+      <button class="story-tab" role="tab" aria-selected="false" aria-controls="panel-family" id="tab-family" data-version="family">Family Version</button>
+    </div>
+    {desc_panel}
+    {family_panel}
+  </div>"""
+
+
 _NAME_QUALIFIER_RE = re.compile(r"^(.*?)\s+of\s+.+$", re.IGNORECASE)
 
 
@@ -1820,20 +1838,7 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
       </div>"""
 
     if place["tier"] == "full":
-        desc_text = place.get("description", "")
-        if link_ctx is not None and desc_text:
-            linked_pids = set()
-            desc_html = f'<p>{link_person_mentions.link_paragraph(desc_text, place_id, link_ctx, base, linked_pids)}</p>'
-        else:
-            desc_html = f"<p>{esc(desc_text)}</p>"
-        ff = place.get("family_friendly_summary")
-        ff_html = ""
-        if ff:
-            ff_html = f"""<details class="family-friendly">
-    <summary>Family-friendly summary</summary>
-    <p>{esc(ff)}</p>
-  </details>"""
-        story_html = desc_html + ("\n  " + ff_html if ff_html else "")
+        story_html = place_story_tabs_section(place, link_ctx, base)
     else:
         story_html = (
             '<div class="stub-notice">Named in Scripture, but with no story of its own here — '
@@ -1937,7 +1942,7 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();</script>
+<script>initNavToggle();initPersonStory();</script>
 </body>
 </html>
 """
