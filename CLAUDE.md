@@ -1175,6 +1175,22 @@ site). Pieces:
   person's — honest in general terms, no adult content), so every full-tier
   place currently gets the real tabbed control; the fallback stays in place
   for any future full-tier place added without one.
+  **CI-drift bug found and fixed 2026-09-06:** those 106 summaries were
+  written straight into `data/places/*.json` (and the rendered
+  `places/*.html`) but never added to `_build/places_data.py`, whose
+  per-entry `ff=` key is what `generate_places.py` emits as
+  `family_friendly_summary` (only the original 21 major places carry `ff=`
+  there). So every CI run — which regenerates from `places_data.py` — was
+  stripping the 106 back out and failing the `git diff --exit-code` drift
+  check (red since the 2026-09-05 commit). Fixed by making
+  `generate_places.py` read the existing `data/places/<id>.json` on disk
+  before overwriting and preserve any `family_friendly_summary` already
+  there (`c.get("ff") or existing_ff.get(slug)`), the same
+  "generator preserves a committed curated value on regen" pattern
+  `infer_stub_eras.py` uses for `lifespan_years`. `data/places/` is
+  committed, so a clean checkout still has the summaries for the generator
+  to pick up. Proper long-term fix (not done): migrate the 106 texts into
+  `places_data.py` as real `ff=` entries.
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

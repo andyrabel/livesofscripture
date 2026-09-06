@@ -191,6 +191,22 @@ def main():
     for d in (PLACES_MAJOR, PLACES_MID, PLACES_MINOR):
         curated.update(d)
 
+    # Preserve any hand-written family_friendly_summary already committed to
+    # data/places/<id>.json. The original 21 major places carry `ff=` in
+    # places_data.py; the remaining ~106 full-tier summaries (written
+    # 2026-09-05, see CLAUDE.md's Places section) live only in the committed
+    # per-place JSON, so read them back here rather than dropping them on
+    # regen -- same "generator preserves an existing curated value" pattern
+    # as infer_stub_eras.py / lifespan_years.
+    existing_ff = {}
+    for p in (ROOT / "data" / "places").glob("*.json"):
+        try:
+            prev = json.loads(p.read_text())
+        except (OSError, ValueError):
+            continue
+        if prev.get("family_friendly_summary"):
+            existing_ff[prev.get("place_id", p.stem)] = prev["family_friendly_summary"]
+
     index = json.loads((ROOT / "data" / "people.json").read_text())
     tier_by_id = {e["person_id"]: e["tier"] for e in index}
     name_by_id = {e["person_id"]: e["name"] for e in index}
@@ -287,8 +303,9 @@ def main():
         }
         if tier == "full":
             entry["description"] = c.get("desc", "")
-            if c.get("major"):
-                entry["family_friendly_summary"] = c.get("ff", "")
+            ff = c.get("ff") or existing_ff.get(slug, "")
+            if ff:
+                entry["family_friendly_summary"] = ff
         else:
             entry["description"] = c.get("desc", "")
 
