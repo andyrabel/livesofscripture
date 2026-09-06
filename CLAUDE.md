@@ -180,6 +180,33 @@ client-side code may rotate entries for visitors. Example (Noah):
 - "God judged the world but saved Noah's family through the ark. Jesus is our ark, the one safe place from judgment."
 - "Even Noah, saved from the flood, still stumbled into sin afterward. We don't need to be saved again — we simply need God's grace again, every day."
 
+**Reading-level calibration (added 2026-09-06).** A first simplification
+pass on a sample of entries overshot — the phrases were simpler but read
+as patronizing. Aim for a capable 10-year-old, not the youngest possible
+reader. Concretely:
+- **Keep the precise word when it is the right word** and the sentence
+  carries enough context for it. "Skeptical," "mercy," "prophet,"
+  "governor," "sacrifice," "talisman," "promise" are all fine when the
+  sentence explains itself. Do not trade an exact word for a vague
+  caricature — "clever people who loved to argue" for philosophers or
+  skeptics, "a mean man" for an opponent — that loses accuracy and is
+  itself what sounds condescending.
+- **No narrator feeling-labels.** Don't tell the reader how to react to
+  the facts — cut "It is a sad story," "It was a frightening day," "This
+  is hard to read." State what happened plainly; the reflection belongs
+  in the "we/us" turn, not an aside about the mood.
+- **One clarifying touch is enough.** A single plain-language gloss for a
+  hard idea helps; stacking two or three ("came home with prisoners,
+  ready to make them slaves, which was cruel and wrong") talks down.
+  Trust the reader to feel the weight.
+- **Read-aloud test:** the phrase must not sound condescending read to an
+  adult. If a clause exists only to spell out what an adult would find
+  obvious, cut it.
+- Age simplification only shortens sentences and removes genuinely
+  unfamiliar vocabulary. It never softens, blurs, or adds editorial
+  commentary to what the text actually says — the same principle already
+  governing the quiz Easy-difficulty rules.
+
 **Quality pass, completed (2026-09-04).** Andrew flagged that many
 `devotionals` entries, while technically following the voice/length rules
 above, read as formulaic — generated from a two-sentence template
