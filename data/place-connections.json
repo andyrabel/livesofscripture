@@ -4410,6 +4410,13 @@
     "mutual": true
   },
   {
+    "from": "deborah-2",
+    "to": "place:bethel",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "hiel",
     "to": "place:bethel",
     "label": "associated with",

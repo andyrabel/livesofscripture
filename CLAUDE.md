@@ -1437,10 +1437,32 @@ Rules:
   `link_person_mentions` context dict (for `refs_by_id` / `geo_by_id`),
   not just its `name_index`.
 
-This pass added ~2,900 place links across the person-page story panels
-(up from ~1,300). `data/places/ramah.json` gained a `references` list (via
-`places_data.py`) so the Baasha/Asa fortification of Ramah, and Deborah's
-Ramah, resolve by chapter overlap. Re-run `generate_places.py` then
+**Place *detail* pages now link too (2026-09-07).** A place's
+`description` / `family_friendly_summary` were previously run through the
+person linker only, with no place context and no subject signals.
+`place_story_tabs_section` / `story_panel_html` now pass `place_link_ctx`
+and `subject_kind="place"`; `link_paragraph` then builds a `subject_sig`
+from the place's own `related_people` (as `kin` + graph `adj`) and its
+`references`, so the `kin` / `connection` / `reference` rules resolve
+people *and* other places on a place page (Jerusalem, Galilee, Babylon,
+Assyria, Saul, Joshua, the Bethany sisters, Paul's-journey cities…).
+`link_place_mentions.classify(..., subject_is_place=True)` skips the
+person-only `geographic_setting` / graph lookups and resolves
+place&harr;place links by unique name or shared chapter only.
+
+This pass: ~2,900 place links on person pages (up from ~1,300), plus
+~200 links now on place-detail pages. Data touched so a handful of
+sentences resolve correctly: `data/places/ramah.json` and
+`data/places/bethel.json` gained `references` (via `places_data.py`);
+`terah` / `keturah` added to `link_overrides.json` (unique-holder
+stubs); `deborah-2` (the judge) gained `"Bethel"` in
+`geographic_setting` so "Deborah judged Israel near there" on the Bethel
+page no longer resolves to Deborah the nurse. **Known pre-existing data
+bug surfaced, not fixed:** `naaman` and `naaman-2` are both full-tier
+with the 2 Kings 5 Syrian-commander story, and `naaman`'s `references`
+are actually the Benjaminite Naaman's (Genesis 46:21) — a conflation of
+the kind in the Name Disambiguation section; links land on a page with
+the right story regardless. Re-run `generate_places.py` then
 `generate_static_site.py` after any change to either linker or to story
 text.
 

@@ -473,7 +473,7 @@ PLACES_MAJOR = {
         name="Bethel", alt=["Luz"], type="town", region="canaan-israel",
         first_reference="Genesis 12:8", id_status="secure", modern="Beitin, West Bank",
         major=True,
-        references=["Genesis 28:10-22", "Genesis 35:1-15", "1 Kings 12:26-33", "Amos 7:10-13"],
+        references=["Genesis 28:10-22", "Genesis 35:1-15", "Judges 4:5", "1 Samuel 7:16", "1 Kings 12:26-33", "Amos 7:10-13"],
         desc=(
             "Originally called Luz, Bethel (\"house of God\") is where Jacob, fleeing Esau, dreamed of a "
             "stairway to heaven, renamed the site, and vowed to serve God there (Genesis 28:10-22) — a vow "

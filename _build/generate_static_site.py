@@ -415,7 +415,7 @@ def devotional_section(person):
   </section>"""
 
 
-def story_panel_html(version, story, link_ctx=None, subject_id=None, base="", place_link_ctx=None):
+def story_panel_html(version, story, link_ctx=None, subject_id=None, base="", place_link_ctx=None, subject_kind="person"):
     paras = [p for p in (story or "").split("\n\n") if p.strip()]
     if not paras:
         paras = [story or ""]
@@ -423,7 +423,7 @@ def story_panel_html(version, story, link_ctx=None, subject_id=None, base="", pl
     linked_pids = set()
     linked_place_ids = set()
     paragraphs_html = "\n      ".join(
-        f"<p>{link_person_mentions.link_paragraph(p, subject_id, link_ctx, base, linked_pids, place_link_ctx, linked_place_ids)}</p>"
+        f"<p>{link_person_mentions.link_paragraph(p, subject_id, link_ctx, base, linked_pids, place_link_ctx, linked_place_ids, subject_kind)}</p>"
         for p in paras
     )
     hidden = "" if version == "adult" else " hidden"
@@ -452,7 +452,7 @@ def story_tabs_section(person, link_ctx=None, base="", place_link_ctx=None):
   </div>"""
 
 
-def place_story_tabs_section(place, link_ctx=None, base=""):
+def place_story_tabs_section(place, link_ctx=None, base="", place_link_ctx=None):
     """Same tabbed adult/family control as story_tabs_section, adapted for a
     place's `description`/`family_friendly_summary` pair -- shares the
     STORY_PREF_KEY localStorage preference and .story-tabs-* CSS/JS with
@@ -468,15 +468,16 @@ def place_story_tabs_section(place, link_ctx=None, base=""):
     if not family:
         paras = [p for p in (place.get("description") or "").split("\n\n") if p.strip()]
         linked_pids = set()
+        linked_place_ids = set()
         paragraphs_html = "\n      ".join(
-            f"<p>{link_person_mentions.link_paragraph(p, place_id, link_ctx, base, linked_pids)}</p>"
+            f"<p>{link_person_mentions.link_paragraph(p, place_id, link_ctx, base, linked_pids, place_link_ctx, linked_place_ids, 'place')}</p>"
             for p in paras
         )
         return f"""<div class="story-text place-description">
       {paragraphs_html}
       </div>"""
-    desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base)
-    family_panel = story_panel_html("family", family, link_ctx, place_id, base)
+    desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base, place_link_ctx, "place")
+    family_panel = story_panel_html("family", family, link_ctx, place_id, base, place_link_ctx, "place")
     return f"""<div class="story-tabs-wrapper" data-person-name="{esc(place['name'])}">
     <div class="story-tabs-nav" role="tablist" aria-label="Description version">
       <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>
@@ -1827,7 +1828,7 @@ def build_map_explorer_page(places_index):
 """
 
 
-def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, placed_places=None):
+def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, placed_places=None, place_link_ctx=None):
     base = "../"
     place_id = place["place_id"]
     canonical = f"{SITE_URL}/places/{place_id}.html"
@@ -1855,7 +1856,7 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
       </div>"""
 
     if place["tier"] == "full":
-        story_html = place_story_tabs_section(place, link_ctx, base)
+        story_html = place_story_tabs_section(place, link_ctx, base, place_link_ctx)
     else:
         story_html = (
             '<div class="stub-notice">Named in Scripture, but with no story of its own here — '
@@ -4666,7 +4667,7 @@ def main():
             print(f"warning: no data/places/{place_entry['place_id']}.json, skipping")
             continue
         place = json.loads(place_path.read_text())
-        page = build_place_detail_page(place, gender_by_id, places_by_name, link_ctx, placed_places)
+        page = build_place_detail_page(place, gender_by_id, places_by_name, link_ctx, placed_places, place_link_ctx)
         (places_dir / f'{place["place_id"]}.html').write_text(page)
     (ROOT / "places.html").write_text(build_places_list_page(places_index))
     (ROOT / "map.html").write_text(build_map_explorer_page(places_index))

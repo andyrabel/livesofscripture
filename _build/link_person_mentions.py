@@ -195,11 +195,17 @@ def build_context(index, connections):
     }
 
 
-def classify(key, subject_id, ctx):
+def classify(key, subject_id, ctx, subject_sig=None):
     """Lowercased word -> (target person_id or None, reason string).
 
     Reasons: "stopword", "override", "override-suppressed", "override-bad",
     "no-match", "unique", "connection", "kin", "reference", "ambiguous".
+
+    `subject_sig`, when given, is `{"kin": set(person_id), "adj":
+    set(person_id), "refs": set("Book|chapter")}` describing the subject
+    when it is *not* a person -- a place detail page passes its
+    `related_people` as `kin`/`adj` and the place's own `references` as
+    `refs`, so the kin / connection / reference rules work there too.
     """
     if key in STOPWORDS:
         return None, "stopword"
@@ -230,22 +236,28 @@ def classify(key, subject_id, ctx):
     # override already claims for someone else -- e.g. "Nathan" the
     # prophet in David's story, not David's infant son Nathan -- is
     # unaffected).
-    kin = ctx["kin_by_id"].get(subject_id, ())
+    kin = subject_sig["kin"] if subject_sig else ctx["kin_by_id"].get(subject_id, ())
     same_name = ctx["name_index"].get(key, set())
-    adj = ctx["adjacency"].get(subject_id, set())
-    for rel in kin:
-        if rel == subject_id or key not in ctx["names_by_id"].get(rel, ()):
-            continue
+    adj = subject_sig["adj"] if subject_sig else ctx["adjacency"].get(subject_id, set())
+    kin_matches = sorted(
+        (rel for rel in kin
+         if rel != subject_id and key in ctx["names_by_id"].get(rel, ())),
+        # deterministic, and a full-tier relative beats a stub duplicate of
+        # the same person (some genealogy lists carry both, e.g. Simon of
+        # Cyrene's son Alexander as `alexander` and `alexander-3`).
+        key=lambda r: (tier_by_id.get(r) != "full", r),
+    )
+    if kin_matches:
+        rel = kin_matches[0]
         # Defer to the graph if another full-tier person of the same name
         # is also connected to this subject -- e.g. "Joseph" in Mary's
         # story is her husband (a graph neighbour), not her son Joses,
         # even though Joses is kin and also went by Joseph.
-        if any(
+        if not any(
             j != rel and j in adj and tier_by_id.get(j) == "full"
             for j in same_name
         ):
-            break
-        return rel, "kin"
+            return rel, "kin"
 
     ids = ctx["name_index"].get(key, set()) - {subject_id}
     if not ids:
@@ -261,7 +273,7 @@ def classify(key, subject_id, ctx):
         if tier_by_id.get(only) != "full":
             return None, "stub-target"
         return only, "unique"
-    neighbours = ids & ctx["adjacency"].get(subject_id, set())
+    neighbours = ids & adj
     full_neighbours = {i for i in neighbours if tier_by_id.get(i) == "full"}
     # Link only when exactly one namesake is both a full-tier entry and
     # directly connected to this person in the graph. A stub namesake that
@@ -278,7 +290,7 @@ def classify(key, subject_id, ctx):
     # sample -- it correctly resolves e.g. David's "Saul", Paul's
     # "Gamaliel", Rachel's "Herod" in the Matthew 2 lament). Only fires
     # when exactly one full-tier namesake overlaps.
-    subj_ch = ctx["refs_by_id"].get(subject_id) or set()
+    subj_ch = subject_sig["refs"] if subject_sig else (ctx["refs_by_id"].get(subject_id) or set())
     if subj_ch:
         overlap = {
             i for i in ids
@@ -294,7 +306,8 @@ def _resolve(key, subject_id, ctx):
     return classify(key, subject_id, ctx)[0]
 
 
-def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, linked_place_ids=None):
+def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None,
+                   linked_place_ids=None, subject_kind="person"):
     """Escape `text` and wrap the safe person/place-name mentions in it as links.
 
     `linked_pids` (people) and `linked_place_ids` (places) are mutable sets
@@ -303,9 +316,24 @@ def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, lin
     mention first; only if that fails is it tried as a place mention (see
     link_place_mentions.classify for why that order matters -- a word that
     is also a person's name is never linked as a place).
+
+    `subject_kind="place"` is set when rendering a place detail page: the
+    subject is then a place, so the person/place classifiers are fed the
+    place's `related_people` and own `references` instead of a person's
+    genealogy/graph/references.
     """
     if not ctx and not place_ctx:
         return html.escape(text, quote=True)
+
+    subject_is_place = subject_kind == "place"
+    subject_sig = None
+    if subject_is_place and place_ctx is not None:
+        subject_sig = {
+            "kin": place_ctx["related_by_id"].get(subject_id, set())
+            | place_ctx["place_people"].get(subject_id, set()),
+            "adj": place_ctx["place_people"].get(subject_id, set()),
+            "refs": place_ctx["refs_by_id"].get(subject_id, set()),
+        }
 
     protected = [(m.start(), m.end()) for m in _CITATION_RE.finditer(text)]
 
@@ -320,7 +348,7 @@ def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, lin
         word = m.group(0)
         key = word.lower()
 
-        tgt, reason = classify(key, subject_id, ctx) if ctx else (None, "")
+        tgt, reason = classify(key, subject_id, ctx, subject_sig) if ctx else (None, "")
         href_prefix = "people/"
         seen = linked_pids
 
@@ -329,8 +357,9 @@ def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, lin
         # a place is tied to this subject by geography / the place graph /
         # a shared chapter -- e.g. "Tirzah" in a king's story is the city,
         # not Zelophehad's daughter of the same name.
-        if place_ctx is not None and (not tgt or reason == "unique"):
-            place_tgt, place_reason = link_place_mentions.classify(key, subject_id, place_ctx)
+        if place_ctx is not None and linked_place_ids is not None and (not tgt or reason == "unique"):
+            place_tgt, place_reason = link_place_mentions.classify(
+                key, subject_id, place_ctx, subject_is_place=subject_is_place)
             if place_tgt and (not tgt or place_reason == "reference"):
                 tgt, href_prefix, seen = place_tgt, "places/", linked_place_ids
 

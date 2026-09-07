@@ -58,6 +58,7 @@ def build_context(places_index, person_ctx, place_connections):
     name_index = {}   # lowercased single-token name -> set(place_id)
     names_by_id = {}  # place_id -> set(lowercased single-token own names)
     refs_by_id = {}   # place_id -> set("Book|chapter")
+    related_by_id = {}  # place_id -> set(person_id) from its related_people
     for entry in places_index:
         pid = entry["place_id"]
         valid_pids.add(pid)
@@ -73,7 +74,12 @@ def build_context(places_index, person_ctx, place_connections):
         fp = PLACES_DIR / f"{pid}.json"
         if fp.exists():
             try:
-                refs = json.loads(fp.read_text()).get("references")
+                data = json.loads(fp.read_text())
+                refs = data.get("references")
+                related_by_id[pid] = {
+                    rp["person_id"] for rp in (data.get("related_people") or [])
+                    if rp.get("person_id")
+                }
             except (OSError, ValueError):
                 pass
         if not refs and entry.get("first_reference"):
@@ -81,9 +87,12 @@ def build_context(places_index, person_ctx, place_connections):
         refs_by_id[pid] = link_person_mentions._ref_chapters(refs)
 
     # data/place-connections.json edges are {"from": <person_id>, "to":
-    # "place:<place_id>", ...} (or the reverse) -- collapse to
-    # person_id -> set(place_id) for the disambiguation-by-neighbour rule.
+    # "place:<place_id>", ...} (or the reverse) -- collapse to both
+    # person_id -> set(place_id) (disambiguation-by-neighbour on person
+    # pages) and place_id -> set(person_id) (the reverse, for person
+    # mentions on a *place* page).
     adjacency = {}
+    place_people = {}
     for edge in place_connections:
         frm, to = edge.get("from"), edge.get("to")
         if isinstance(to, str) and to.startswith("place:"):
@@ -93,8 +102,11 @@ def build_context(places_index, person_ctx, place_connections):
         else:
             continue
         adjacency.setdefault(person_id, set()).add(place_id)
+        place_people.setdefault(place_id, set()).add(person_id)
 
     return {
+        "related_by_id": related_by_id,
+        "place_people": place_people,
         "valid_pids": valid_pids,
         "tier_by_id": tier_by_id,
         "name_index": name_index,
@@ -107,11 +119,16 @@ def build_context(places_index, person_ctx, place_connections):
     }
 
 
-def classify(key, subject_id, ctx):
+def classify(key, subject_id, ctx, subject_is_place=False):
     """Lowercased word -> (target place_id or None, reason string).
 
     Reasons: "person-name-collision", "self", "no-match", "stub-target",
     "unique", "connection", "reference", "ambiguous".
+
+    `subject_is_place=True` when this runs for a *place* detail page --
+    there is no `geographic_setting` or person<->place edge to lean on, so
+    only a shared Bible chapter (from the subject place's own
+    `references`) or a globally unique name resolves a place<->place link.
     """
     if key in ctx["names_by_id"].get(subject_id, ()):
         return None, "self"
@@ -121,9 +138,14 @@ def classify(key, subject_id, ctx):
     if not ids:
         return None, "no-match"
 
-    geo = ctx["person_geo_by_id"].get(subject_id) or set()
-    neighbours = ctx["adjacency"].get(subject_id, set())
-    subj_ch = ctx["person_refs_by_id"].get(subject_id) or set()
+    if subject_is_place:
+        subj_ch = ctx["refs_by_id"].get(subject_id) or set()
+        geo = set()
+        neighbours = set()
+    else:
+        geo = ctx["person_geo_by_id"].get(subject_id) or set()
+        neighbours = ctx["adjacency"].get(subject_id, set())
+        subj_ch = ctx["person_refs_by_id"].get(subject_id) or set()
 
     # Named in this person's own curated `geographic_setting`: a tightly
     # curated per-person signal, strong enough to link even a stub and

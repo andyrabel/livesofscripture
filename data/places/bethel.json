@@ -18,6 +18,8 @@
     "Genesis 12:8",
     "Genesis 28:10-22",
     "Genesis 35:1-15",
+    "Judges 4:5",
+    "1 Samuel 7:16",
     "1 Kings 12:26-33",
     "Amos 7:10-13"
   ],
@@ -26,7 +28,7 @@
     "note": ""
   },
   "modern_name": "Beitin, West Bank",
-  "n_people": 10,
+  "n_people": 11,
   "related_people": [
     {
       "person_id": "abiram-2",
@@ -63,6 +65,11 @@
       "references": [
         "Genesis 35:8"
       ]
+    },
+    {
+      "person_id": "deborah-2",
+      "name": "Deborah",
+      "gender": "female"
     },
     {
       "person_id": "hiel",
