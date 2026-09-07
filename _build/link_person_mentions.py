@@ -38,6 +38,37 @@ import link_place_mentions
 
 ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES_PATH = ROOT / "_build" / "link_overrides.json"
+PEOPLE_DIR = ROOT / "data" / "people"
+
+# "1 Kings 15:16-33", "Ruth 1-4", "1 Kings 17-19", "Malachi 4:5-6",
+# "Song of Solomon 1:1" -> the set of "Book|chapter" tokens it covers.
+# Used as a disambiguation signal: two people who share a name and are
+# both named in the same Bible chapter are almost always the two actors
+# of that passage.
+_REF_RE = re.compile(
+    r"\s*((?:[1-3]\s)?[A-Z][A-Za-z]+(?:\s(?:of\s)?[A-Z][a-z]+)*?)\s+"
+    r"(\d+)(?::\d+[\dab,\s-]*)?(?:\s*-\s*(\d+)(?::\d+)?)?\s*$"
+)
+
+
+def _ref_chapters(refs):
+    out = set()
+    for entry in refs or []:
+        for piece in re.split(r"\s*;\s*", str(entry)):
+            m = _REF_RE.match(piece)
+            if not m:
+                m2 = re.match(r"\s*((?:[1-3]\s)?[A-Za-z][A-Za-z. ]*?)\s+(\d+)", piece)
+                if m2:
+                    out.add(f"{m2.group(1).strip()}|{int(m2.group(2))}")
+                continue
+            book = m.group(1).strip()
+            c1 = int(m.group(2))
+            c2 = int(m.group(3)) if m.group(3) else c1
+            if not c1 <= c2 <= c1 + 50:
+                c2 = c1
+            for c in range(c1, c2 + 1):
+                out.add(f"{book}|{c}")
+    return out
 
 # A capitalised word (optionally hyphen-compounded, e.g. "Ben-hadad",
 # "Abed-nego"), 3+ letters in the first part so 2-letter place words like
@@ -114,12 +145,52 @@ def build_context(index, connections):
         adjacency.setdefault(edge["from"], set()).add(edge["to"])
         adjacency.setdefault(edge["to"], set()).add(edge["from"])
 
+    # Per-person Bible chapters (from the full `references` array where the
+    # per-person file exists, else the index `first_reference`) and the set
+    # of person_ids that are the subject's own curated genealogical kin --
+    # both used by `classify` to resolve name collisions that the graph
+    # alone leaves ambiguous.
+    refs_by_id = {}
+    kin_by_id = {}
+    geo_by_id = {}
+    first_ref_by_id = {e["person_id"]: e.get("first_reference") for e in index}
+    for entry in index:
+        pid = entry["person_id"]
+        g = entry.get("genealogy") or {}
+        kin = set()
+        for k in ("father", "mother"):
+            if g.get(k):
+                kin.add(g[k])
+        for k in ("spouses", "children"):
+            kin.update(x for x in (g.get(k) or []) if x)
+        kin_by_id[pid] = kin
+
+        refs = None
+        fp = PEOPLE_DIR / f"{pid}.json"
+        if fp.exists():
+            try:
+                data = json.loads(fp.read_text())
+                refs = data.get("references")
+                geo_by_id[pid] = {
+                    s.strip().lower()
+                    for s in (data.get("geographic_setting") or [])
+                    if s and s.strip()
+                }
+            except (OSError, ValueError):
+                pass
+        if not refs and first_ref_by_id.get(pid):
+            refs = [first_ref_by_id[pid]]
+        refs_by_id[pid] = _ref_chapters(refs)
+
     return {
         "valid_pids": valid_pids,
         "tier_by_id": tier_by_id,
         "name_index": name_index,
         "names_by_id": names_by_id,
         "adjacency": adjacency,
+        "refs_by_id": refs_by_id,
+        "kin_by_id": kin_by_id,
+        "geo_by_id": geo_by_id,
         "overrides": _load_overrides(),
     }
 
@@ -128,7 +199,7 @@ def classify(key, subject_id, ctx):
     """Lowercased word -> (target person_id or None, reason string).
 
     Reasons: "stopword", "override", "override-suppressed", "override-bad",
-    "no-match", "unique", "connection", "ambiguous".
+    "no-match", "unique", "connection", "kin", "reference", "ambiguous".
     """
     if key in STOPWORDS:
         return None, "stopword"
@@ -149,6 +220,32 @@ def classify(key, subject_id, ctx):
         return None, "override-bad"
 
     tier_by_id = ctx["tier_by_id"]
+
+    # The subject's own curated genealogical kin (father/mother/spouse/
+    # child). When a name in the story matches one of them, it is that
+    # relative -- Scripture routinely introduces a person as "X son of Y"
+    # and Y is then only a name. Safe even for a stub target because the
+    # match is anchored to the subject's own genealogy, not a bare name
+    # collision (this is checked after `overrides`, so a name a curated
+    # override already claims for someone else -- e.g. "Nathan" the
+    # prophet in David's story, not David's infant son Nathan -- is
+    # unaffected).
+    kin = ctx["kin_by_id"].get(subject_id, ())
+    same_name = ctx["name_index"].get(key, set())
+    adj = ctx["adjacency"].get(subject_id, set())
+    for rel in kin:
+        if rel == subject_id or key not in ctx["names_by_id"].get(rel, ()):
+            continue
+        # Defer to the graph if another full-tier person of the same name
+        # is also connected to this subject -- e.g. "Joseph" in Mary's
+        # story is her husband (a graph neighbour), not her son Joses,
+        # even though Joses is kin and also went by Joseph.
+        if any(
+            j != rel and j in adj and tier_by_id.get(j) == "full"
+            for j in same_name
+        ):
+            break
+        return rel, "kin"
 
     ids = ctx["name_index"].get(key, set()) - {subject_id}
     if not ids:
@@ -173,6 +270,22 @@ def classify(key, subject_id, ctx):
     # are both neighbours the mention stays plain text.
     if len(full_neighbours) == 1:
         return next(iter(full_neighbours)), "connection"
+
+    # Reference-overlap fallback: among the full-tier namesakes, the one
+    # named in a Bible chapter this subject's own `references` also cover.
+    # Two same-named people appearing in the same chapter are almost
+    # always the two actors of that passage (verified on a full corpus
+    # sample -- it correctly resolves e.g. David's "Saul", Paul's
+    # "Gamaliel", Rachel's "Herod" in the Matthew 2 lament). Only fires
+    # when exactly one full-tier namesake overlaps.
+    subj_ch = ctx["refs_by_id"].get(subject_id) or set()
+    if subj_ch:
+        overlap = {
+            i for i in ids
+            if tier_by_id.get(i) == "full" and (ctx["refs_by_id"].get(i) or set()) & subj_ch
+        }
+        if len(overlap) == 1:
+            return next(iter(overlap)), "reference"
     return None, "ambiguous"
 
 
@@ -207,13 +320,18 @@ def link_paragraph(text, subject_id, ctx, base, linked_pids, place_ctx=None, lin
         word = m.group(0)
         key = word.lower()
 
-        tgt = _resolve(key, subject_id, ctx) if ctx else None
+        tgt, reason = classify(key, subject_id, ctx) if ctx else (None, "")
         href_prefix = "people/"
         seen = linked_pids
 
-        if not tgt and place_ctx is not None:
-            place_tgt, _ = link_place_mentions.classify(key, subject_id, place_ctx)
-            if place_tgt:
+        # Try the word as a place when it did not resolve to a person, or
+        # when it resolved only to a bare same-name person ("unique") while
+        # a place is tied to this subject by geography / the place graph /
+        # a shared chapter -- e.g. "Tirzah" in a king's story is the city,
+        # not Zelophehad's daughter of the same name.
+        if place_ctx is not None and (not tgt or reason == "unique"):
+            place_tgt, place_reason = link_place_mentions.classify(key, subject_id, place_ctx)
+            if place_tgt and (not tgt or place_reason == "reference"):
                 tgt, href_prefix, seen = place_tgt, "places/", linked_place_ids
 
         if not tgt or tgt in seen:

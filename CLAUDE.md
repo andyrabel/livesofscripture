@@ -1356,15 +1356,29 @@ linked only when it is unambiguous:
   1:32-33)`) are masked out first, so a book name that is also a person
   name (Luke, Samuel, John) is never linked from inside a citation.
 - A name belonging to exactly one **full-tier** person links to them.
-- A name shared by several people links only when exactly one namesake is
+- A name that matches the subject's own curated `genealogy` kin
+  (father / mother / spouse / child) links to that relative — even a stub
+  ("Baasha, son of **Ahijah**") — since Scripture routinely introduces a
+  person as "X son of Y" and Y is then only a name. Skipped when another
+  full-tier same-name person is *also* a graph neighbour of the subject,
+  so "Joseph" in Mary's story stays her husband, not her son Joses
+  (reason `kin`, added 2026-09-07).
+- A name shared by several people links when exactly one namesake is
   **both** a `connections.json` graph neighbour of the subject **and**
   full-tier (this keeps "Nathan" in David's story off David's infant son
-  Nathan, a stub).
+  Nathan, a stub); failing that, when exactly one **full-tier** namesake
+  is named in a Bible chapter the subject's own `references` also cover
+  (reason `reference`, added 2026-09-07 — two same-named people in the
+  same chapter are almost always that passage's two actors; correctly
+  splits e.g. Joshua son of Nun from Joshua the high priest, Herod the
+  Great from Herod Agrippa).
 - A word that is one of the subject's own `name`/`alt_names` is left plain
   (e.g. "Saul" in Paul's story, "Abram" in Abraham's).
-- **Stub pages are never auto-linked** — many stubs carry a place/nation
-  name (Gibeon, Sidon, Put, "Ark") that collides with ordinary prose. A
-  genuinely wanted stub link goes in the overrides file by name.
+- **Stub pages are not auto-linked from a bare name match** — many stubs
+  carry a place/nation name (Gibeon, Sidon, Put, "Ark") that collides with
+  ordinary prose. The `kin` rule above is the one exception (it is
+  anchored to the subject's own genealogy, not a bare collision); any
+  other genuinely wanted stub link goes in the overrides file by name.
 - Only the first mention of each person per story panel is linked.
 - A stopword list drops the divine names, common theological nouns,
   nations/peoples, and titular names used generically (`pharaoh`,
@@ -1375,9 +1389,12 @@ linked only when it is unambiguous:
 famous holder overwhelmingly dominates running prose and whose
 alternatives are minor/stub (currently: jeremiah, jacob, daniel, samuel,
 joab, absalom, elijah, ezra, nehemiah, nathan, uriah, miriam). Genuinely
-contested names (John, Mary, Joseph, Joshua, Herod, Zechariah) are left
-unlinked rather than guessed. Only add a mapping when one holder is
-clearly dominant — verify each against the actual entries first.
+contested names (John, Mary, Joseph, Joshua, Herod, Zechariah) have no
+`link_overrides.json` entry, but the `kin` and `reference` rules above
+still resolve them per-page where the subject's own genealogy or
+references make the referent unambiguous. Only add an override mapping
+when one holder is clearly dominant in *all* running prose — verify each
+against the actual entries first.
 
 `_build/audit_person_links.py` (gitignored-dir but force-committed, like
 `generate_disambiguation.py`) dumps every link decision plus the
@@ -1385,35 +1402,47 @@ still-ambiguous mentions to TSV in `_build/` for review — re-run it after
 editing the overrides. Rendered as `<a class="story-link">` (dotted
 underline; `js/app.js`'s Copy / Read-Aloud handlers use `.innerText` so
 they still yield clean prose). Deterministic, so CI stays reproducible.
-Current pass: ~2,900 links across 658 full-tier pages. Re-run
+Current pass (2026-09-07): ~4,400 links across 658 full-tier pages
+(up from ~2,900 when the `kin` / `reference` rules were added). Re-run
 `generate_static_site.py` after any change to the linker, the overrides,
 or the story text of a full-tier person.
 
-**In-prose place cross-links (added 2026-09-04).** Same mechanism,
-sibling module `_build/link_place_mentions.py`, linking to
+**In-prose place cross-links (added 2026-09-04, extended 2026-09-07).**
+Same mechanism, sibling module `_build/link_place_mentions.py`, linking to
 `places/<id>.html` instead. Threaded into
-`link_person_mentions.link_paragraph` as a fallback tried only when a
-capitalised word does *not* resolve to a person mention (person mentions
-still take priority over place mentions on the same word) — so a word is
-tried as a place only after person-linking has already declined it.
-Same conservative rules as the person linker (unique-or-graph-neighbour,
-full-tier place targets only, first mention per panel, citations masked
-out first), plus one place-specific guard: **a word that matches any
-person's name or alt-name (any tier) is never linked as a place**,
-reusing the person linker's own `name_index` as a collision list. This is
-what keeps a tribal/national eponym that doubles as a patriarch's own
-name — "Judah" (Kingdom of Judah vs. the patriarch), "Dan", "Edom"
-(Esau's alt-name), "Moab"/"Ammon" (Lot's sons), "Canaan" (Ham's son) —
-unlinked here rather than guessed, extending the same policy that put
-those words in `link_person_mentions.STOPWORDS` for person-linking in the
-first place. Only single-token place names/alt-names are indexed
-(multi-word names like "Mount Sinai" or "Kingdom of Israel" are left
-unmatched, same limitation as multi-word person names). Disambiguation
-for a name shared by several places uses `data/place-connections.json`
-(the person&harr;place graph) the same way the person linker uses
-`data/connections.json`. First pass added ~1,300 place links across the
-person-page story panels; re-run `generate_static_site.py` after any
-change to either linker or to story text.
+`link_person_mentions.link_paragraph` — a capitalised word is tried as a
+place when it did *not* resolve to a person mention, **or** when it
+resolved only to a bare same-name person ("unique") while a place is
+tied to the subject by a curated signal (so "Tirzah" in a king's story
+is the capital city, not Zelophehad's daughter of the same name).
+Rules:
+- **Stub place targets are allowed** (unlike the person linker) — stub
+  place pages are thin but real, and "link every location" is what the
+  site wants here; the person-name collision guard below is what keeps
+  the dangerous cases out.
+- A word named in the subject's own curated `geographic_setting` links to
+  that place even when the word also matches a person's name — the
+  strongest, most tightly-curated signal (so "Canaan" in Abraham's story,
+  "Moab" in Ruth's, "Judah" in a Judean king's link to the place).
+- Otherwise **a word that matches any person's name or alt-name (any
+  tier) is not linked as a place** — this keeps a tribal/national eponym
+  ("Dan", "Edom", bare "Judah" on a page whose `geographic_setting` does
+  not name it) unlinked rather than guessed.
+- A name shared by several places is disambiguated by
+  `data/place-connections.json` graph-neighbour first, then by a Bible
+  chapter shared with the subject's own `references`.
+- Only single-token place names/alt-names are indexed; first mention per
+  panel; citations masked out first.
+- `_build/link_place_mentions.build_context` now takes the whole
+  `link_person_mentions` context dict (for `refs_by_id` / `geo_by_id`),
+  not just its `name_index`.
+
+This pass added ~2,900 place links across the person-page story panels
+(up from ~1,300). `data/places/ramah.json` gained a `references` list (via
+`places_data.py`) so the Baasha/Asa fortification of Ramah, and Deborah's
+Ramah, resolve by chapter overlap. Re-run `generate_places.py` then
+`generate_static_site.py` after any change to either linker or to story
+text.
 
 ### Progressive Web App (PWA) support (added 2026-09-04)
 

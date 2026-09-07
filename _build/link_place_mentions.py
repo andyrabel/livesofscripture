@@ -27,22 +27,37 @@ then tried against the place index. Rules:
     `data/place-connections.json`.
   * Only the first mention of a given place per story panel is linked
     (tracked by the caller, mirroring person-link dedup).
+
+A stub place target is allowed (unlike the person linker, which never
+auto-links a stub) when the place is unambiguous: stub place pages are
+thin but real, and "link every place name" is what the site wants for
+locations. The person-name collision guard above is what keeps the
+dangerous cases (tribal/national eponyms) out.
 """
+import json
+import re
 from pathlib import Path
 
+import link_person_mentions
+
 ROOT = Path(__file__).resolve().parent.parent
+PLACES_DIR = ROOT / "data" / "places"
 
 
-def build_context(places_index, person_name_index, place_connections):
+def build_context(places_index, person_ctx, place_connections):
     """Return an opaque dict threaded into link_person_mentions.link_paragraph.
 
-    `person_name_index` is `link_person_mentions.build_context(...)["name_index"]`
-    -- reused as the person/place collision guard described above.
+    `person_ctx` is the full `link_person_mentions.build_context(...)` dict
+    -- its `name_index` is reused as the person/place collision guard, and
+    its `refs_by_id` / `geo_by_id` supply the subject-person signals used
+    to disambiguate (and to license a stub target).
     """
+    person_name_index = person_ctx["name_index"]
     valid_pids = set()
     tier_by_id = {}
     name_index = {}   # lowercased single-token name -> set(place_id)
     names_by_id = {}  # place_id -> set(lowercased single-token own names)
+    refs_by_id = {}   # place_id -> set("Book|chapter")
     for entry in places_index:
         pid = entry["place_id"]
         valid_pids.add(pid)
@@ -54,6 +69,16 @@ def build_context(places_index, person_name_index, place_connections):
                 continue
             name_index.setdefault(nm.lower(), set()).add(pid)
             names_by_id.setdefault(pid, set()).add(nm.lower())
+        refs = None
+        fp = PLACES_DIR / f"{pid}.json"
+        if fp.exists():
+            try:
+                refs = json.loads(fp.read_text()).get("references")
+            except (OSError, ValueError):
+                pass
+        if not refs and entry.get("first_reference"):
+            refs = [entry["first_reference"]]
+        refs_by_id[pid] = link_person_mentions._ref_chapters(refs)
 
     # data/place-connections.json edges are {"from": <person_id>, "to":
     # "place:<place_id>", ...} (or the reverse) -- collapse to
@@ -74,8 +99,11 @@ def build_context(places_index, person_name_index, place_connections):
         "tier_by_id": tier_by_id,
         "name_index": name_index,
         "names_by_id": names_by_id,
+        "refs_by_id": refs_by_id,
         "adjacency": adjacency,
         "person_name_index": person_name_index,
+        "person_refs_by_id": person_ctx.get("refs_by_id", {}),
+        "person_geo_by_id": person_ctx.get("geo_by_id", {}),
     }
 
 
@@ -83,11 +111,8 @@ def classify(key, subject_id, ctx):
     """Lowercased word -> (target place_id or None, reason string).
 
     Reasons: "person-name-collision", "self", "no-match", "stub-target",
-    "unique", "connection", "ambiguous".
+    "unique", "connection", "reference", "ambiguous".
     """
-    if key in ctx["person_name_index"]:
-        return None, "person-name-collision"
-
     if key in ctx["names_by_id"].get(subject_id, ()):
         return None, "self"
 
@@ -95,14 +120,50 @@ def classify(key, subject_id, ctx):
     ids = ctx["name_index"].get(key, set()) - {subject_id}
     if not ids:
         return None, "no-match"
+
+    geo = ctx["person_geo_by_id"].get(subject_id) or set()
+    neighbours = ctx["adjacency"].get(subject_id, set())
+    subj_ch = ctx["person_refs_by_id"].get(subject_id) or set()
+
+    # Named in this person's own curated `geographic_setting`: a tightly
+    # curated per-person signal, strong enough to link even a stub and
+    # even when the word doubles as a person's name -- "Tirzah" in a
+    # king's story is the capital city, not Zelophehad's daughter.
+    geo_strong = {i for i in ids if geo and ctx["names_by_id"].get(i, set()) & geo}
+    if len(geo_strong) == 1:
+        return next(iter(geo_strong)), "reference"
+    if len(geo_strong) > 1:
+        return None, "ambiguous"
+
+    # Weaker signals stop here if the word doubles as a person's name
+    # (tribal / national eponyms -- Judah, Dan, Edom, Moab).
+    if key in ctx["person_name_index"]:
+        return None, "person-name-collision"
+
+    # Neighbour in the person<->place graph -- the strongest curated
+    # disambiguator, checked before the weaker reference-overlap signal.
+    graph_hits = {i for i in ids if i in neighbours}
+    if len(graph_hits) == 1:
+        return next(iter(graph_hits)), "connection"
+
+    # A place named in a Bible chapter this person's story cites. Only
+    # when exactly one candidate overlaps; licenses a stub target.
+    if subj_ch:
+        overlap = {i for i in ids if (ctx["refs_by_id"].get(i) or set()) & subj_ch}
+        if len(overlap) == 1:
+            return next(iter(overlap)), "reference"
+        if len(overlap) > 1:
+            return None, "ambiguous"
+
+    if len(graph_hits) > 1:
+        return None, "ambiguous"
+
     if len(ids) == 1:
         only = next(iter(ids))
         if tier_by_id.get(only) != "full":
+            # Unique name, but only a thin stub page and nothing ties it to
+            # this subject -- leave it plain rather than guess.
             return None, "stub-target"
         return only, "unique"
 
-    neighbours = ids & ctx["adjacency"].get(subject_id, set())
-    full_neighbours = {i for i in neighbours if tier_by_id.get(i) == "full"}
-    if len(full_neighbours) == 1:
-        return next(iter(full_neighbours)), "connection"
     return None, "ambiguous"

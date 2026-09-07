@@ -1560,6 +1560,7 @@ PLACES_MINOR = {
     "pontus": dict(name="Pontus", type="region", region="asia-minor-greece", first_reference="Acts 2:9",
         desc="A region on the Black Sea's southern coast; Aquila, later Paul's coworker and host, was a native of Pontus (Acts 18:2), and believers there are among those addressed in 1 Peter 1:1."),
     "ramah": dict(name="Ramah", type="town", region="canaan-israel", first_reference="Joshua 18:25",
+        references=["Judges 4:5", "1 Kings 15:17-22", "2 Chronicles 16:1-6", "Jeremiah 31:15", "Jeremiah 40:1"],
         id_status="secure", id_note="A Benjaminite town, distinct from Ramathaim-zophim (Samuel's hometown, also sometimes called Ramah) and from Ramah of Naphtali (Joshua 19:36).",
         desc="A town near which Samuel made his home for part of his judging circuit (1 Samuel 7:17), fortified by King Baasha of Israel against Judah before Asa had it dismantled (1 Kings 15:17-22)."),
     "region-of-the-gerasenes": dict(name="Region of the Gerasenes", type="region", region="canaan-israel", first_reference="Mark 5:1",

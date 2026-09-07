@@ -4631,7 +4631,7 @@ def main():
     places_by_name = build_places_by_name(places_index)
     place_membership_by_person = build_place_membership_index(places_index)
     place_connections = json.loads((ROOT / "data" / "place-connections.json").read_text())
-    place_link_ctx = link_place_mentions.build_context(places_index, link_ctx["name_index"], place_connections)
+    place_link_ctx = link_place_mentions.build_context(places_index, link_ctx, place_connections)
 
     people_dir = ROOT / "people"
     people_dir.mkdir(exist_ok=True)
