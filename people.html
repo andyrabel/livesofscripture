@@ -81,25 +81,26 @@
 
   <div class="controls">
     <input type="search" id="search-input" placeholder="Search by name…">
-    <select id="filter-testament">
+    <!-- Filter drop-downs hidden 2026-09-07 (took up too much space); logic in js/app.js left intact -->
+    <select id="filter-testament" hidden>
       <option value="">All testaments</option>
       <option value="OT">Old Testament</option>
       <option value="NT">New Testament</option>
     </select>
-    <select id="filter-era">
+    <select id="filter-era" hidden>
       <option value="">All eras</option>
     </select>
-    <select id="filter-gender">
+    <select id="filter-gender" hidden>
       <option value="">All genders</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
     </select>
-    <select id="filter-kingdom">
+    <select id="filter-kingdom" hidden>
       <option value="">All kingdoms</option>
       <option value="israel">Northern Kingdom (Israel)</option>
       <option value="judah">Southern Kingdom (Judah)</option>
     </select>
-    <select id="filter-region">
+    <select id="filter-region" hidden>
       <option value="">All regions</option>
     </select>
     <select id="sort-order">
