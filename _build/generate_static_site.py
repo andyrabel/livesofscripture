@@ -2412,8 +2412,7 @@ HERODS_ENTRIES = [
 
 HERODS_GROUP_HEADINGS = [
     ("herod", "The Herod dynasty"),
-    (("john", "jesus"), "The forerunner and the Messiah"),
-    ("paul", "The apostle Paul"),
+    (("john", "jesus", "paul"), "The forerunner, the Messiah, and the apostle"),
 ]
 
 # person_ids that appear on the chart -- used to add a "see on this chart"
@@ -2491,9 +2490,9 @@ def render_herods_svg(entries):
     group_heading_h = 24
     group_gap = 12
     axis_h = 26
-    label_band_h = 66     # angled short event labels sit here (two staggered tiers), above the markers
-    events_h = 22         # numbered-marker strip under the labels
-    marker_r = 8.5
+    label_band_h = 44     # short horizontal event captions sit here (three staggered tiers), above the markers
+    events_h = 20         # numbered-marker strip under the labels
+    marker_r = 8
 
     row_span = bar_h + row_gap
     total_w = margin_left + plot_width + margin_right
@@ -2550,9 +2549,9 @@ def render_herods_svg(entries):
     # a connector from each marker down to the bar of the Herod it involves.
     marker_cy = axis_h + label_band_h + events_h / 2
     markers_bottom = axis_h + label_band_h + events_h
-    # Labels stagger across two tiers, so markers only need modest spacing;
-    # this keeps the strip roughly in step with the timeline (the BC/AD gap
-    # stays visible) instead of squashing every marker to an even pitch.
+    # Captions stagger across three tiers, so markers only need modest
+    # spacing; this keeps the strip roughly in step with the timeline (the
+    # BC/AD gap stays visible) instead of squashing every marker to an even pitch.
     min_gap = max(2 * marker_r + 3, 30)
     placed = []
     cursor = float("-inf")
@@ -2596,12 +2595,16 @@ def render_herods_svg(entries):
             f'<text x="{cx:.1f}" y="{marker_cy + 3.2:.1f}" class="herods-event-num" text-anchor="middle">{num}</text>'
         )
         if label:
-            # Two tiers (odd numbers ride higher) so neighbouring captions
-            # never collide even where markers sit close together.
-            ly = marker_cy - marker_r - 6 - (30 if num % 2 else 0)
+            # Three tiers so neighbouring captions never collide even where
+            # markers sit close together; a faint stem ties each back to its marker.
+            ly = marker_cy - marker_r - 7 - ((num - 1) % 3) * 11
+            if (num - 1) % 3:
+                parts.append(
+                    f'<line x1="{cx:.1f}" y1="{ly + 2:.1f}" x2="{cx:.1f}" y2="{marker_cy - marker_r:.1f}" '
+                    f'class="herods-event-stem" />'
+                )
             parts.append(
-                f'<text x="{cx:.1f}" y="{ly:.1f}" class="herods-event-label" text-anchor="end" '
-                f'transform="rotate(-28 {cx:.1f} {ly:.1f})">{esc(label)}</text>'
+                f'<text x="{cx:.1f}" y="{ly:.1f}" class="herods-event-label" text-anchor="middle">{esc(label)}</text>'
             )
         parts.append("</a>")
 

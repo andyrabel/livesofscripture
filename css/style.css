@@ -2765,9 +2765,14 @@ header.site-header nav a.nav-cta:hover {
 
 .herods-event-label {
   fill: var(--color-text-muted);
-  font-size: 7px;
-  letter-spacing: 0.1px;
+  font-size: 6px;
   pointer-events: none;
+}
+
+.herods-event-stem {
+  stroke: var(--color-text-muted);
+  stroke-width: 0.75;
+  opacity: 0.45;
 }
 
 .herods-event-connector {
