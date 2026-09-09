@@ -2714,12 +2714,102 @@ header.site-header nav a.nav-cta:hover {
   pointer-events: none;
 }
 
-/* Left-gutter person names on the Herods / John the Baptist / Jesus
-   time chart (charts/herods-and-jesus.html). */
+/* The Herods / John the Baptist / Jesus time chart
+   (charts/herods-and-jesus.html). */
+.herods-bg {
+  fill: var(--color-surface);
+}
+
 .herods-name {
   fill: var(--color-text);
   font-size: 11px;
+  font-weight: 600;
+  paint-order: stroke;
+  stroke: var(--color-surface);
+  stroke-width: 3px;
+  stroke-linejoin: round;
   pointer-events: none;
+}
+
+.herods-ref {
+  fill: var(--color-text-muted);
+  font-size: 8.5px;
+  pointer-events: none;
+}
+
+.herods-span {
+  fill: var(--color-text-muted);
+  font-size: 9.5px;
+  pointer-events: none;
+}
+
+.herods-event-marker {
+  fill: var(--color-accent);
+  stroke: var(--color-surface);
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+
+.herods-event-marker:hover,
+.herods-event-marker:focus {
+  fill: var(--color-accent-strong);
+  outline: none;
+}
+
+.herods-event-num {
+  fill: var(--color-cta-text);
+  font-size: 9px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.herods-event-connector {
+  fill: none;
+  stroke: var(--color-text-muted);
+  stroke-width: 1;
+  stroke-dasharray: 2 2;
+  opacity: 0.6;
+}
+
+.herods-event-dot {
+  fill: var(--color-accent);
+}
+
+.kp-legend-swatch--event {
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.herods-events-section {
+  margin-bottom: 1.5rem;
+}
+
+.herods-events {
+  margin: 0.5rem 0 0;
+  padding-left: 1.4rem;
+}
+
+.herods-events li {
+  margin-bottom: 0.6rem;
+  line-height: 1.45;
+}
+
+.herods-events li:target {
+  background: var(--color-surface);
+  outline: 2px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 0.3rem 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.hev-date {
+  font-weight: 600;
+}
+
+.hev-meta {
+  display: block;
+  font-size: 0.85em;
+  color: var(--color-text-muted);
 }
 
 .kp-leader-line {

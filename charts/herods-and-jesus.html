@@ -92,14 +92,17 @@
   <p><a href="../charts.html">&larr; Charts</a></p>
   <h2>The Herods, John the Baptist &amp; Jesus</h2>
   <p class="page-intro">Six rulers of the Herod family appear in the New Testament, spanning nearly
-  a century and a half. This chart lays their reigns against the lifetimes of John the Baptist and
-  Jesus, so it is easy to see which Herod stood where in the Gospel and Acts narratives. Bars are
-  clickable and link to that person's page; hover or focus a bar for exact dates.</p>
+  a century and a half — and it is easy to lose track of which one is which. This chart lays their
+  reigns against the lifetimes of John the Baptist and Jesus, with each Herod's Scripture references
+  shown beside the name. Numbered markers place eleven Gospel and Acts events on the timeline; a
+  faint line drops from each one to the Herod it involved, and the same numbers are listed in full
+  below the chart. Bars and markers are clickable; hover or focus a bar for exact dates.</p>
 
   <div class="kp-legend-row">
     <div class="kp-legend"><span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--kp-united)"></span>Herod ruler (reign)</span>
     <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--era-judges)"></span>John the Baptist (life)</span>
-    <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--era-gospels)"></span>Jesus (life)</span></div>
+    <span class="kp-legend-item"><span class="kp-legend-swatch" style="background:var(--era-gospels)"></span>Jesus (life)</span>
+    <span class="kp-legend-item"><span class="kp-legend-swatch kp-legend-swatch--event"></span>Numbered Gospel &amp; Acts event (drops to the Herod involved)</span></div>
     <div class="kp-chart-toolbar">
     <button type="button" class="kp-chart-copy" id="herods-chart-copy">&#128203; Copy image</button>
     <button type="button" class="kp-chart-expand" id="herods-chart-expand">&#128269; View larger</button>
@@ -107,63 +110,138 @@
   </div>
 
   <div class="kp-chart-scroll">
-  <svg id="herods-chart-svg" viewBox="0 0 1074 392" width="1074" height="392" role="img" aria-label="Timeline of the ruling Herods of the New Testament alongside the lifetimes of John the Baptist and Jesus" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">
-<line x1="176.0" y1="28" x2="176.0" y2="388" class="kp-gridline" />
-<text x="176.0" y="16" class="kp-axis-label" text-anchor="middle">40 BC</text>
-<line x1="301.7" y1="28" x2="301.7" y2="388" class="kp-gridline" />
-<text x="301.7" y="16" class="kp-axis-label" text-anchor="middle">20 BC</text>
-<line x1="427.4" y1="28" x2="427.4" y2="388" class="kp-gridline" />
-<text x="427.4" y="16" class="kp-axis-label" text-anchor="middle">AD 1</text>
-<line x1="553.1" y1="28" x2="553.1" y2="388" class="kp-gridline" />
-<text x="553.1" y="16" class="kp-axis-label" text-anchor="middle">AD 20</text>
-<line x1="678.9" y1="28" x2="678.9" y2="388" class="kp-gridline" />
-<text x="678.9" y="16" class="kp-axis-label" text-anchor="middle">AD 40</text>
-<line x1="804.6" y1="28" x2="804.6" y2="388" class="kp-gridline" />
-<text x="804.6" y="16" class="kp-axis-label" text-anchor="middle">AD 60</text>
-<line x1="930.3" y1="28" x2="930.3" y2="388" class="kp-gridline" />
-<text x="930.3" y="16" class="kp-axis-label" text-anchor="middle">AD 80</text>
-<line x1="1056.0" y1="28" x2="1056.0" y2="388" class="kp-gridline" />
-<text x="1056.0" y="16" class="kp-axis-label" text-anchor="middle">AD 100</text>
-<text x="10" y="53" class="kp-row-label">The Herod dynasty</text>
-<text x="12" y="77.0" class="herods-name">Herod the Great</text>
+  <svg id="herods-chart-svg" viewBox="0 0 1084 436" width="1084" height="436" role="img" aria-label="Timeline of the ruling Herods of the New Testament alongside the lifetimes of John the Baptist and Jesus, with numbered Gospel and Acts events" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">
+<rect x="0" y="0" width="1084" height="436" class="herods-bg" />
+<line x1="208.0" y1="26" x2="208.0" y2="432" class="kp-gridline" />
+<text x="208.0" y="15" class="kp-axis-label" text-anchor="middle">40 BC</text>
+<line x1="330.3" y1="26" x2="330.3" y2="432" class="kp-gridline" />
+<text x="330.3" y="15" class="kp-axis-label" text-anchor="middle">20 BC</text>
+<line x1="452.6" y1="26" x2="452.6" y2="432" class="kp-gridline" />
+<text x="452.6" y="15" class="kp-axis-label" text-anchor="middle">AD 1</text>
+<line x1="574.9" y1="26" x2="574.9" y2="432" class="kp-gridline" />
+<text x="574.9" y="15" class="kp-axis-label" text-anchor="middle">AD 20</text>
+<line x1="697.1" y1="26" x2="697.1" y2="432" class="kp-gridline" />
+<text x="697.1" y="15" class="kp-axis-label" text-anchor="middle">AD 40</text>
+<line x1="819.4" y1="26" x2="819.4" y2="432" class="kp-gridline" />
+<text x="819.4" y="15" class="kp-axis-label" text-anchor="middle">AD 60</text>
+<line x1="941.7" y1="26" x2="941.7" y2="432" class="kp-gridline" />
+<text x="941.7" y="15" class="kp-axis-label" text-anchor="middle">AD 80</text>
+<line x1="1064.0" y1="26" x2="1064.0" y2="432" class="kp-gridline" />
+<text x="1064.0" y="15" class="kp-axis-label" text-anchor="middle">AD 100</text>
+<line x1="415.9" y1="52.5" x2="415.9" y2="107.0" class="herods-event-connector" />
+<circle cx="415.9" cy="107.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-1">
+<circle cx="415.9" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>1. c. 6 BC — An angel tells Zacharias that his son John will be born — dated “in the days of Herod, king of Judea.” (Herod the Great; Luke 1:5-13)</title></circle>
+<text x="415.9" y="47.2" class="herods-event-num" text-anchor="middle">1</text>
+</a>
+<path d="M435.9 52.5 L422.0 60.0 L422.0 107.0" class="herods-event-connector" />
+<circle cx="422.0" cy="107.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-2">
+<circle cx="435.9" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>2. c. 5 BC — Jesus is born in Bethlehem “in the days of Herod the king.” (Herod the Great; Matthew 2:1)</title></circle>
+<text x="435.9" y="47.2" class="herods-event-num" text-anchor="middle">2</text>
+</a>
+<path d="M455.9 52.5 L422.0 60.0 L422.0 107.0" class="herods-event-connector" />
+<circle cx="422.0" cy="107.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-3">
+<circle cx="455.9" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>3. c. 5 BC — Wise men from the east ask Herod where the newborn king of the Jews is, then find and worship the child. (Herod the Great; Matthew 2:1-12)</title></circle>
+<text x="455.9" y="47.2" class="herods-event-num" text-anchor="middle">3</text>
+</a>
+<path d="M475.9 52.5 L428.1 60.0 L428.1 107.0" class="herods-event-connector" />
+<circle cx="428.1" cy="107.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-4">
+<circle cx="475.9" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>4. c. 4 BC — Herod orders every boy in Bethlehem under two years old killed; an angel warns Joseph, who takes the family to Egypt. (Herod the Great; Matthew 2:13-18)</title></circle>
+<text x="475.9" y="47.2" class="herods-event-num" text-anchor="middle">4</text>
+</a>
+<path d="M495.9 52.5 L434.2 60.0 L434.2 143.0" class="herods-event-connector" />
+<circle cx="434.2" cy="143.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-5">
+<circle cx="495.9" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>5. c. 3 BC — After Herod&#x27;s death Joseph brings the family back, but settles in Nazareth on hearing Archelaus now rules Judea. (Herod Archelaus; Matthew 2:19-23)</title></circle>
+<text x="495.9" y="47.2" class="herods-event-num" text-anchor="middle">5</text>
+</a>
+<line x1="623.8" y1="52.5" x2="623.8" y2="179.0" class="herods-event-connector" />
+<circle cx="623.8" cy="179.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-6">
+<circle cx="623.8" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>6. c. AD 28 — John the Baptist begins preaching in the wilderness, dated by the rule of Antipas in Galilee and Philip in Iturea. (Herod Antipas; Luke 3:1-3)</title></circle>
+<text x="623.8" y="47.2" class="herods-event-num" text-anchor="middle">6</text>
+</a>
+<path d="M643.8 52.5 L629.9 60.0 L629.9 179.0" class="herods-event-connector" />
+<circle cx="629.9" cy="179.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-7">
+<circle cx="643.8" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>7. c. AD 29 — Antipas arrests John for condemning his marriage to Herodias, his brother&#x27;s wife. (Herod Antipas; Luke 3:19-20)</title></circle>
+<text x="643.8" y="47.2" class="herods-event-num" text-anchor="middle">7</text>
+</a>
+<path d="M663.8 52.5 L636.0 60.0 L636.0 179.0" class="herods-event-connector" />
+<circle cx="636.0" cy="179.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-8">
+<circle cx="663.8" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>8. c. AD 30 — At Herodias&#x27;s prompting, Antipas has John beheaded after her daughter dances at his birthday feast. (Herod Antipas; Mark 6:21-29)</title></circle>
+<text x="663.8" y="47.2" class="herods-event-num" text-anchor="middle">8</text>
+</a>
+<path d="M683.8 52.5 L636.0 60.0 L636.0 179.0" class="herods-event-connector" />
+<circle cx="636.0" cy="179.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-9">
+<circle cx="683.8" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>9. c. AD 30 — Pilate sends Jesus to Antipas, who questions him, gets no answer, treats him with contempt, and sends him back. (Herod Antipas; Luke 23:6-12)</title></circle>
+<text x="683.8" y="47.2" class="herods-event-num" text-anchor="middle">9</text>
+</a>
+<line x1="721.6" y1="52.5" x2="721.6" y2="251.0" class="herods-event-connector" />
+<circle cx="721.6" cy="251.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-10">
+<circle cx="721.6" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>10. c. AD 44 — Agrippa I kills the apostle James, imprisons Peter, and is struck down at Caesarea after accepting the crowd&#x27;s worship. (Herod Agrippa I; Acts 12:1-23)</title></circle>
+<text x="721.6" y="47.2" class="herods-event-num" text-anchor="middle">10</text>
+</a>
+<line x1="813.3" y1="52.5" x2="813.3" y2="287.0" class="herods-event-connector" />
+<circle cx="813.3" cy="287.0" r="3" class="herods-event-dot" />
+<a href="#herods-event-11">
+<circle cx="813.3" cy="44.0" r="8.5" class="herods-event-marker" tabindex="0"><title>11. c. AD 59 — Paul makes his defense before Agrippa II and Bernice at Caesarea; the king says Paul could have been set free. (Herod Agrippa II; Acts 25:23-26:32)</title></circle>
+<text x="813.3" y="47.2" class="herods-event-num" text-anchor="middle">11</text>
+</a>
+<text x="10" y="87" class="kp-row-label">The Herod dynasty</text>
+<text x="12" y="105.0" class="herods-name">Herod the Great</text>
+<text x="12" y="116.0" class="herods-ref">Matthew 2; Luke 1:5</text>
 <a href="../people/herod.html">
-<rect x="194.9" y="62.0" width="207.4" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod the Great" data-nation="King of Judea" data-span="c. 37–4 BC" data-reference="Matthew 2:1-19"><title>Herod the Great — King of Judea, c. 37–4 BC (Matthew 2:1-19)</title></rect>
+<rect x="226.3" y="96.0" width="201.8" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod the Great" data-nation="King of Judea" data-span="c. 37–4 BC" data-reference="Matthew 2:1-19; Luke 1:5"><title>Herod the Great — King of Judea, c. 37–4 BC (Matthew 2:1-19; Luke 1:5)</title></rect>
 </a>
-<text x="408.3" y="76.5" class="kp-callout-label">37–4 BC</text>
-<text x="12" y="112.0" class="herods-name">Herod Archelaus</text>
+<text x="434.1" y="110.5" class="herods-span">37–4 BC</text>
+<text x="12" y="141.0" class="herods-name">Herod Archelaus</text>
+<text x="12" y="152.0" class="herods-ref">Matthew 2:22</text>
 <a href="../people/archelaus.html">
-<rect x="402.3" y="97.0" width="62.9" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Archelaus" data-nation="Ethnarch of Judea" data-span="c. 4 BC–AD 6" data-reference="Matthew 2:22"><title>Herod Archelaus — Ethnarch of Judea, c. 4 BC–AD 6 (Matthew 2:22)</title></rect>
+<rect x="428.1" y="132.0" width="61.1" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Archelaus" data-nation="Ethnarch of Judea" data-span="c. 4 BC–AD 6" data-reference="Matthew 2:22"><title>Herod Archelaus — Ethnarch of Judea, c. 4 BC–AD 6 (Matthew 2:22)</title></rect>
 </a>
-<text x="471.1" y="111.5" class="kp-callout-label">4 BC–AD 6</text>
-<text x="12" y="147.0" class="herods-name">Herod Antipas</text>
+<text x="495.3" y="146.5" class="herods-span">4 BC–AD 6</text>
+<text x="12" y="177.0" class="herods-name">Herod Antipas</text>
+<text x="12" y="188.0" class="herods-ref">Matthew 14; Mark 6; Luke 23</text>
 <a href="../people/herod-2.html">
-<rect x="402.3" y="132.0" width="270.3" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Antipas" data-nation="Tetrarch of Galilee and Perea" data-span="c. 4 BC–AD 39" data-reference="Luke 3:1"><title>Herod Antipas — Tetrarch of Galilee and Perea, c. 4 BC–AD 39 (Luke 3:1)</title></rect>
+<rect x="428.1" y="168.0" width="262.9" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Antipas" data-nation="Tetrarch of Galilee and Perea" data-span="c. 4 BC–AD 39" data-reference="Matthew 14:1-11; Mark 6:14-29; Luke 3:1, 13:31-32, 23:7-12"><title>Herod Antipas — Tetrarch of Galilee and Perea, c. 4 BC–AD 39 (Matthew 14:1-11; Mark 6:14-29; Luke 3:1, 13:31-32, 23:7-12)</title></rect>
 </a>
-<text x="678.6" y="146.5" class="kp-callout-label">4 BC–AD 39</text>
-<text x="12" y="182.0" class="herods-name">Philip the Tetrarch</text>
+<text x="697.0" y="182.5" class="herods-span">4 BC–AD 39</text>
+<text x="12" y="213.0" class="herods-name">Philip the Tetrarch</text>
+<text x="12" y="224.0" class="herods-ref">Luke 3:1</text>
 <a href="../people/philip-2.html">
-<rect x="402.3" y="167.0" width="238.9" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Philip the Tetrarch" data-nation="Tetrarch of Iturea and Trachonitis" data-span="c. 4 BC–AD 34" data-reference="Luke 3:1"><title>Philip the Tetrarch — Tetrarch of Iturea and Trachonitis, c. 4 BC–AD 34 (Luke 3:1)</title></rect>
+<rect x="428.1" y="204.0" width="232.3" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Philip the Tetrarch" data-nation="Tetrarch of Iturea and Trachonitis" data-span="c. 4 BC–AD 34" data-reference="Luke 3:1"><title>Philip the Tetrarch — Tetrarch of Iturea and Trachonitis, c. 4 BC–AD 34 (Luke 3:1)</title></rect>
 </a>
-<text x="647.1" y="181.5" class="kp-callout-label">4 BC–AD 34</text>
-<text x="12" y="217.0" class="herods-name">Herod Agrippa I</text>
+<text x="666.5" y="218.5" class="herods-span">4 BC–AD 34</text>
+<text x="12" y="249.0" class="herods-name">Herod Agrippa I</text>
+<text x="12" y="260.0" class="herods-ref">Acts 12</text>
 <a href="../people/herod-3.html">
-<rect x="660.0" y="202.0" width="44.0" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Agrippa I" data-nation="King of Judea" data-span="c. AD 37–44" data-reference="Acts 12:1-23"><title>Herod Agrippa I — King of Judea, c. AD 37–44 (Acts 12:1-23)</title></rect>
+<rect x="678.8" y="240.0" width="42.8" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Agrippa I" data-nation="King of Judea" data-span="c. AD 37–44" data-reference="Acts 12:1-23"><title>Herod Agrippa I — King of Judea, c. AD 37–44 (Acts 12:1-23)</title></rect>
 </a>
-<text x="710.0" y="216.5" class="kp-callout-label">AD 37–44</text>
-<text x="12" y="252.0" class="herods-name">Herod Agrippa II</text>
+<text x="727.6" y="254.5" class="herods-span">AD 37–44</text>
+<text x="12" y="285.0" class="herods-name">Herod Agrippa II</text>
+<text x="12" y="296.0" class="herods-ref">Acts 25-26</text>
 <a href="../people/agrippa.html">
-<rect x="741.7" y="237.0" width="270.3" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Agrippa II" data-nation="King; last of the Herods" data-span="c. AD 50–93" data-reference="Acts 25:13-26:32"><title>Herod Agrippa II — King; last of the Herods, c. AD 50–93 (Acts 25:13-26:32)</title></rect>
+<rect x="758.3" y="276.0" width="262.9" height="22" rx="4" fill="var(--kp-united)" class="kp-bar" tabindex="0" data-name="Herod Agrippa II" data-nation="King; last of the Herods" data-span="c. AD 50–93" data-reference="Acts 25:13-26:32"><title>Herod Agrippa II — King; last of the Herods, c. AD 50–93 (Acts 25:13-26:32)</title></rect>
 </a>
-<text x="735.7" y="251.5" class="kp-callout-label" text-anchor="end">AD 50–93</text>
-<text x="10" y="297" class="kp-row-label">The forerunner and the Messiah</text>
-<text x="12" y="321.0" class="herods-name">John the Baptist</text>
+<text x="752.3" y="290.5" class="herods-span" text-anchor="end">AD 50–93</text>
+<text x="10" y="339" class="kp-row-label">The forerunner and the Messiah</text>
+<text x="12" y="357.0" class="herods-name">John the Baptist</text>
+<text x="12" y="368.0" class="herods-ref">Luke 1; 3; Matthew 3</text>
 <a href="../people/john.html">
-<rect x="396.0" y="306.0" width="220.0" height="22" rx="4" fill="var(--era-judges)" class="kp-bar" tabindex="0" data-name="John the Baptist" data-nation="Forerunner of the Messiah" data-span="c. 5 BC–AD 30" data-reference="Luke 1:5-80"><title>John the Baptist — Forerunner of the Messiah, c. 5 BC–AD 30 (Luke 1:5-80)</title></rect>
+<rect x="422.0" y="348.0" width="214.0" height="22" rx="4" fill="var(--era-judges)" class="kp-bar" tabindex="0" data-name="John the Baptist" data-nation="Forerunner of the Messiah" data-span="c. 5 BC–AD 30" data-reference="Luke 1:5-80; 3:1-20; Matthew 3:1-17; 14:1-12"><title>John the Baptist — Forerunner of the Messiah, c. 5 BC–AD 30 (Luke 1:5-80; 3:1-20; Matthew 3:1-17; 14:1-12)</title></rect>
 </a>
-<text x="622.0" y="320.5" class="kp-callout-label">5 BC–AD 30</text>
-<text x="12" y="356.0" class="herods-name">Jesus</text>
-<rect x="396.0" y="341.0" width="220.0" height="22" rx="4" fill="var(--era-gospels)" class="kp-bar" tabindex="0" data-name="Jesus" data-nation="The Messiah" data-span="c. 5 BC–AD 30" data-reference="Luke 2:1-7"><title>Jesus — The Messiah, c. 5 BC–AD 30 (Luke 2:1-7)</title></rect>
-<text x="622.0" y="355.5" class="kp-callout-label">5 BC–AD 30</text>
+<text x="642.0" y="362.5" class="herods-span">5 BC–AD 30</text>
+<text x="12" y="393.0" class="herods-name">Jesus</text>
+<text x="12" y="404.0" class="herods-ref">Matthew 1-2; Luke 2-3</text>
+<rect x="422.0" y="384.0" width="214.0" height="22" rx="4" fill="var(--era-gospels)" class="kp-bar" tabindex="0" data-name="Jesus" data-nation="The Messiah" data-span="c. 5 BC–AD 30" data-reference="Matthew 1:18-2:23; Luke 2:1-52; 3:21-23"><title>Jesus — The Messiah, c. 5 BC–AD 30 (Matthew 1:18-2:23; Luke 2:1-52; 3:21-23)</title></rect>
+<text x="642.0" y="398.5" class="herods-span">5 BC–AD 30</text>
 </svg>
   </div>
 
@@ -175,20 +253,37 @@
   alternative moves John's and Jesus's bars a few years later but changes none of the relationships
   the chart shows.</p>
 
+  <section class="herods-events-section">
+    <h3>Gospel &amp; Acts events involving a Herod</h3>
+    <ol class="herods-events">
+    <li id="herods-event-1"><span class="hev-date">c. 6 BC</span> An angel tells Zacharias that his son John will be born — dated “in the days of Herod, king of Judea.”<span class="hev-meta"><a href="../people/herod.html">Herod the Great</a> &middot; Luke 1:5-13</span></li>
+    <li id="herods-event-2"><span class="hev-date">c. 5 BC</span> Jesus is born in Bethlehem “in the days of Herod the king.”<span class="hev-meta"><a href="../people/herod.html">Herod the Great</a> &middot; Matthew 2:1</span></li>
+    <li id="herods-event-3"><span class="hev-date">c. 5 BC</span> Wise men from the east ask Herod where the newborn king of the Jews is, then find and worship the child.<span class="hev-meta"><a href="../people/herod.html">Herod the Great</a> &middot; Matthew 2:1-12</span></li>
+    <li id="herods-event-4"><span class="hev-date">c. 4 BC</span> Herod orders every boy in Bethlehem under two years old killed; an angel warns Joseph, who takes the family to Egypt.<span class="hev-meta"><a href="../people/herod.html">Herod the Great</a> &middot; Matthew 2:13-18</span></li>
+    <li id="herods-event-5"><span class="hev-date">c. 3 BC</span> After Herod&#x27;s death Joseph brings the family back, but settles in Nazareth on hearing Archelaus now rules Judea.<span class="hev-meta"><a href="../people/archelaus.html">Herod Archelaus</a> &middot; Matthew 2:19-23</span></li>
+    <li id="herods-event-6"><span class="hev-date">c. AD 28</span> John the Baptist begins preaching in the wilderness, dated by the rule of Antipas in Galilee and Philip in Iturea.<span class="hev-meta"><a href="../people/herod-2.html">Herod Antipas</a> &middot; Luke 3:1-3</span></li>
+    <li id="herods-event-7"><span class="hev-date">c. AD 29</span> Antipas arrests John for condemning his marriage to Herodias, his brother&#x27;s wife.<span class="hev-meta"><a href="../people/herod-2.html">Herod Antipas</a> &middot; Luke 3:19-20</span></li>
+    <li id="herods-event-8"><span class="hev-date">c. AD 30</span> At Herodias&#x27;s prompting, Antipas has John beheaded after her daughter dances at his birthday feast.<span class="hev-meta"><a href="../people/herod-2.html">Herod Antipas</a> &middot; Mark 6:21-29</span></li>
+    <li id="herods-event-9"><span class="hev-date">c. AD 30</span> Pilate sends Jesus to Antipas, who questions him, gets no answer, treats him with contempt, and sends him back.<span class="hev-meta"><a href="../people/herod-2.html">Herod Antipas</a> &middot; Luke 23:6-12</span></li>
+    <li id="herods-event-10"><span class="hev-date">AD 44</span> Agrippa I kills the apostle James, imprisons Peter, and is struck down at Caesarea after accepting the crowd&#x27;s worship.<span class="hev-meta"><a href="../people/herod-3.html">Herod Agrippa I</a> &middot; Acts 12:1-23</span></li>
+    <li id="herods-event-11"><span class="hev-date">c. AD 59</span> Paul makes his defense before Agrippa II and Bernice at Caesarea; the king says Paul could have been set free.<span class="hev-meta"><a href="../people/agrippa.html">Herod Agrippa II</a> &middot; Acts 25:23-26:32</span></li>
+    </ol>
+  </section>
+
   <details class="kp-table-details">
-    <summary>View as a table</summary>
+    <summary>View the reigns as a table</summary>
     <div class="table-scroll">
     <table class="kp-table">
       <thead><tr><th>Name</th><th>Role</th><th>Dates</th><th>Reference</th><th>Note</th></tr></thead>
       <tbody>
-    <tr><td><a href="../people/herod.html">Herod the Great</a></td><td>King of Judea</td><td>c. 37–4 BC</td><td>Matthew 2:1-19</td><td>Ruled at Jesus&#x27;s birth; ordered the killing of the boys of Bethlehem.</td></tr>
+    <tr><td><a href="../people/herod.html">Herod the Great</a></td><td>King of Judea</td><td>c. 37–4 BC</td><td>Matthew 2:1-19; Luke 1:5</td><td>Ruled at Jesus&#x27;s birth; ordered the killing of the boys of Bethlehem.</td></tr>
     <tr><td><a href="../people/archelaus.html">Herod Archelaus</a></td><td>Ethnarch of Judea</td><td>c. 4 BC–AD 6</td><td>Matthew 2:22</td><td>His harsh rule kept Joseph from returning to Judea; deposed and exiled by Rome.</td></tr>
-    <tr><td><a href="../people/herod-2.html">Herod Antipas</a></td><td>Tetrarch of Galilee and Perea</td><td>c. 4 BC–AD 39</td><td>Luke 3:1</td><td>Imprisoned and beheaded John the Baptist (Mark 6:14-29); questioned Jesus at his trial (Luke 23:7-12).</td></tr>
+    <tr><td><a href="../people/herod-2.html">Herod Antipas</a></td><td>Tetrarch of Galilee and Perea</td><td>c. 4 BC–AD 39</td><td>Matthew 14:1-11; Mark 6:14-29; Luke 3:1, 13:31-32, 23:7-12</td><td>Imprisoned and beheaded John the Baptist (Mark 6:14-29); questioned Jesus at his trial (Luke 23:7-12).</td></tr>
     <tr><td><a href="../people/philip-2.html">Philip the Tetrarch</a></td><td>Tetrarch of Iturea and Trachonitis</td><td>c. 4 BC–AD 34</td><td>Luke 3:1</td><td>Son of Herod the Great; his tetrarchy is one of the regions named in Luke&#x27;s dating of John&#x27;s ministry.</td></tr>
     <tr><td><a href="../people/herod-3.html">Herod Agrippa I</a></td><td>King of Judea</td><td>c. AD 37–44</td><td>Acts 12:1-23</td><td>Executed the apostle James and imprisoned Peter; struck down and died after accepting the crowd&#x27;s worship.</td></tr>
     <tr><td><a href="../people/agrippa.html">Herod Agrippa II</a></td><td>King; last of the Herods</td><td>c. AD 50–93</td><td>Acts 25:13-26:32</td><td>Heard Paul&#x27;s defense at Caesarea (c. AD 59) and judged he could have been freed had he not appealed to Caesar.</td></tr>
-    <tr><td><a href="../people/john.html">John the Baptist</a></td><td>Forerunner of the Messiah</td><td>c. 5 BC–AD 30</td><td>Luke 1:5-80</td><td>Born in the reign of Herod the Great; began preaching c. AD 28-29 (Luke 3:1-3); beheaded by Antipas c. AD 30.</td></tr>
-    <tr><td>Jesus</td><td>The Messiah</td><td>c. 5 BC–AD 30</td><td>Luke 2:1-7</td><td>Born before Herod the Great&#x27;s death (Matthew 2:1); public ministry c. AD 27-30; crucified and risen c. AD 30 under Pontius Pilate.</td></tr>
+    <tr><td><a href="../people/john.html">John the Baptist</a></td><td>Forerunner of the Messiah</td><td>c. 5 BC–AD 30</td><td>Luke 1:5-80; 3:1-20; Matthew 3:1-17; 14:1-12</td><td>Born in the reign of Herod the Great; began preaching c. AD 28-29 (Luke 3:1-3); beheaded by Antipas c. AD 30.</td></tr>
+    <tr><td>Jesus</td><td>The Messiah</td><td>c. 5 BC–AD 30</td><td>Matthew 1:18-2:23; Luke 2:1-52; 3:21-23</td><td>Born before Herod the Great&#x27;s death (Matthew 2:1); public ministry c. AD 27-30; crucified and risen c. AD 30 under Pontius Pilate.</td></tr>
       </tbody>
     </table>
     </div>

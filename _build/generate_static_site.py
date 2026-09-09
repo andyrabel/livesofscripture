@@ -2338,53 +2338,65 @@ HERODS_LEGEND = [
 
 # Ordered top-to-bottom. group -> which colour/legend key; groups are
 # rendered under a heading in this order: "herod", then "john"/"jesus".
+# `chart_ref` is the short reference shown under the name in the chart's
+# left gutter; `reference` is the fuller citation used in the tooltip and
+# the table. Every Herod here is named in Scripture -- the gutter
+# reference makes that visible at a glance (Andrew, 2026-09-09).
 HERODS_ENTRIES = [
     {
         "person_id": "herod", "name": "Herod the Great", "group": "herod",
         "start": -37, "end": -4, "role": "King of Judea",
-        "reference": "Matthew 2:1-19",
+        "chart_ref": "Matthew 2; Luke 1:5",
+        "reference": "Matthew 2:1-19; Luke 1:5",
         "note": "Ruled at Jesus's birth; ordered the killing of the boys of Bethlehem.",
     },
     {
         "person_id": "archelaus", "name": "Herod Archelaus", "group": "herod",
         "start": -4, "end": 6, "role": "Ethnarch of Judea",
+        "chart_ref": "Matthew 2:22",
         "reference": "Matthew 2:22",
         "note": "His harsh rule kept Joseph from returning to Judea; deposed and exiled by Rome.",
     },
     {
         "person_id": "herod-2", "name": "Herod Antipas", "group": "herod",
         "start": -4, "end": 39, "role": "Tetrarch of Galilee and Perea",
-        "reference": "Luke 3:1",
+        "chart_ref": "Matthew 14; Mark 6; Luke 23",
+        "reference": "Matthew 14:1-11; Mark 6:14-29; Luke 3:1, 13:31-32, 23:7-12",
         "note": "Imprisoned and beheaded John the Baptist (Mark 6:14-29); questioned Jesus at his trial (Luke 23:7-12).",
     },
     {
         "person_id": "philip-2", "name": "Philip the Tetrarch", "group": "herod",
         "start": -4, "end": 34, "role": "Tetrarch of Iturea and Trachonitis",
+        "chart_ref": "Luke 3:1",
         "reference": "Luke 3:1",
         "note": "Son of Herod the Great; his tetrarchy is one of the regions named in Luke's dating of John's ministry.",
     },
     {
         "person_id": "herod-3", "name": "Herod Agrippa I", "group": "herod",
         "start": 37, "end": 44, "role": "King of Judea",
+        "chart_ref": "Acts 12",
         "reference": "Acts 12:1-23",
         "note": "Executed the apostle James and imprisoned Peter; struck down and died after accepting the crowd's worship.",
     },
     {
         "person_id": "agrippa", "name": "Herod Agrippa II", "group": "herod",
         "start": 50, "end": 93, "role": "King; last of the Herods",
+        "chart_ref": "Acts 25-26",
         "reference": "Acts 25:13-26:32",
         "note": "Heard Paul's defense at Caesarea (c. AD 59) and judged he could have been freed had he not appealed to Caesar.",
     },
     {
         "person_id": "john", "name": "John the Baptist", "group": "john",
         "start": -5, "end": 30, "role": "Forerunner of the Messiah",
-        "reference": "Luke 1:5-80",
+        "chart_ref": "Luke 1; 3; Matthew 3",
+        "reference": "Luke 1:5-80; 3:1-20; Matthew 3:1-17; 14:1-12",
         "note": "Born in the reign of Herod the Great; began preaching c. AD 28-29 (Luke 3:1-3); beheaded by Antipas c. AD 30.",
     },
     {
         "person_id": None, "name": "Jesus", "group": "jesus",
         "start": -5, "end": 30, "role": "The Messiah",
-        "reference": "Luke 2:1-7",
+        "chart_ref": "Matthew 1-2; Luke 2-3",
+        "reference": "Matthew 1:18-2:23; Luke 2:1-52; 3:21-23",
         "note": "Born before Herod the Great's death (Matthew 2:1); public ministry c. AD 27-30; crucified and risen c. AD 30 under Pontius Pilate.",
     },
 ]
@@ -2397,6 +2409,48 @@ HERODS_GROUP_HEADINGS = [
 # person_ids that appear on the chart -- used to add a "see on this chart"
 # link to each of those people's detail pages. Jesus has no person_id.
 HERODS_CHART_PERSON_IDS = {e["person_id"] for e in HERODS_ENTRIES if e["person_id"]}
+
+# Gospel & Acts events that involve a Herod, in chronological order. Each is
+# tied to the Herod ruling at the time (`herod` = that person's person_id,
+# matched against HERODS_ENTRIES). Rendered as numbered markers on the chart
+# (a faint connector drops from each marker to that Herod's bar) and as a
+# numbered list below it. `approx` False only where the date is firmly fixed
+# by Roman records (Agrippa I's death, AD 44).
+HERODS_EVENTS = [
+    {"year": -6, "herod": "herod",
+     "text": "An angel tells Zacharias that his son John will be born — dated “in the days of Herod, king of Judea.”",
+     "reference": "Luke 1:5-13"},
+    {"year": -5, "herod": "herod",
+     "text": "Jesus is born in Bethlehem “in the days of Herod the king.”",
+     "reference": "Matthew 2:1"},
+    {"year": -5, "herod": "herod",
+     "text": "Wise men from the east ask Herod where the newborn king of the Jews is, then find and worship the child.",
+     "reference": "Matthew 2:1-12"},
+    {"year": -4, "herod": "herod",
+     "text": "Herod orders every boy in Bethlehem under two years old killed; an angel warns Joseph, who takes the family to Egypt.",
+     "reference": "Matthew 2:13-18"},
+    {"year": -3, "herod": "archelaus",
+     "text": "After Herod's death Joseph brings the family back, but settles in Nazareth on hearing Archelaus now rules Judea.",
+     "reference": "Matthew 2:19-23"},
+    {"year": 28, "herod": "herod-2",
+     "text": "John the Baptist begins preaching in the wilderness, dated by the rule of Antipas in Galilee and Philip in Iturea.",
+     "reference": "Luke 3:1-3"},
+    {"year": 29, "herod": "herod-2",
+     "text": "Antipas arrests John for condemning his marriage to Herodias, his brother's wife.",
+     "reference": "Luke 3:19-20"},
+    {"year": 30, "herod": "herod-2",
+     "text": "At Herodias's prompting, Antipas has John beheaded after her daughter dances at his birthday feast.",
+     "reference": "Mark 6:21-29"},
+    {"year": 30, "herod": "herod-2",
+     "text": "Pilate sends Jesus to Antipas, who questions him, gets no answer, treats him with contempt, and sends him back.",
+     "reference": "Luke 23:6-12"},
+    {"year": 44, "herod": "herod-3", "approx": False,
+     "text": "Agrippa I kills the apostle James, imprisons Peter, and is struck down at Caesarea after accepting the crowd's worship.",
+     "reference": "Acts 12:1-23"},
+    {"year": 59, "herod": "agrippa",
+     "text": "Paul makes his defense before Agrippa II and Bernice at Caesarea; the king says Paul could have been set free.",
+     "reference": "Acts 25:23-26:32"},
+]
 
 
 def herods_format_year(year):
@@ -2413,36 +2467,61 @@ def herods_span_label(start, end):
     return f"AD {start}–{end}"
 
 
+def herods_event_date(ev):
+    prefix = "" if ev.get("approx") is False else "c. "
+    return prefix + herods_format_year(ev["year"])
+
+
 def render_herods_svg(entries):
-    margin_left = 176
-    margin_right = 18
-    plot_width = 880
+    margin_left = 208
+    margin_right = 20
+    plot_width = 856
     bar_h = 22
-    row_gap = 13
+    row_gap = 14
     group_heading_h = 24
-    group_gap = 10
-    axis_h = 28
+    group_gap = 12
+    axis_h = 26
+    events_h = 34          # numbered-marker strip under the axis
+    marker_r = 8.5
 
     row_span = bar_h + row_gap
     total_w = margin_left + plot_width + margin_right
+    plot_right = margin_left + plot_width
 
     def x_of(year):
         year = max(HERODS_MIN_YEAR, min(HERODS_MAX_YEAR, year))
         return margin_left + (year - HERODS_MIN_YEAR) / (HERODS_MAX_YEAR - HERODS_MIN_YEAR) * plot_width
 
-    # Vertical extent: axis + each heading + its rows, with a gap between groups.
-    total_h = axis_h + group_gap
-    for group_keys, _ in HERODS_GROUP_HEADINGS:
+    # Assign every bar its vertical position first, so the event connectors
+    # (drawn next) know where each Herod's bar sits.
+    bars_top = axis_h + events_h + group_gap
+    bar_top_by_pid = {}
+    bar_span_by_pid = {}
+    y = bars_top
+    row_layout = []       # (entry, bar_top)
+    for group_keys, heading in HERODS_GROUP_HEADINGS:
         keys = (group_keys,) if isinstance(group_keys, str) else group_keys
-        count = sum(1 for e in entries if e["group"] in keys)
-        total_h += group_heading_h + count * row_span + group_gap
-    total_h += 6
+        row_layout.append(("heading", heading, y))
+        y += group_heading_h
+        for entry in [e for e in entries if e["group"] in keys]:
+            row_layout.append(("row", entry, y))
+            if entry["person_id"]:
+                bar_top_by_pid[entry["person_id"]] = y
+                bar_span_by_pid[entry["person_id"]] = (x_of(entry["start"]), x_of(entry["end"]))
+            y += row_span
+        y += group_gap
+    total_h = y + 4
 
     parts = [
         f'<svg id="herods-chart-svg" viewBox="0 0 {total_w} {total_h:.0f}" width="{total_w}" height="{total_h:.0f}" '
         f'role="img" aria-label="Timeline of the ruling Herods of the New Testament alongside the lifetimes of '
-        f'John the Baptist and Jesus" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">'
+        f'John the Baptist and Jesus, with numbered Gospel and Acts events" '
+        f'xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">'
     ]
+
+    # Opaque background so the chart is legible on any page/theme surface
+    # (the gutter names sit on this, not on a bar).
+    parts.append(f'<rect x="0" y="0" width="{total_w}" height="{total_h:.0f}" class="herods-bg" />')
 
     # Year gridlines + axis labels.
     y_top = axis_h
@@ -2452,51 +2531,93 @@ def render_herods_svg(entries):
         tx = x_of(tick)
         parts.append(f'<line x1="{tx:.1f}" y1="{y_top}" x2="{tx:.1f}" y2="{y_bottom}" class="kp-gridline" />')
         parts.append(
-            f'<text x="{tx:.1f}" y="16" class="kp-axis-label" text-anchor="middle">{esc(herods_format_year(tick))}</text>'
+            f'<text x="{tx:.1f}" y="15" class="kp-axis-label" text-anchor="middle">{esc(herods_format_year(tick))}</text>'
         )
         tick += 20
 
-    y = axis_h + group_gap
-    for group_keys, heading in HERODS_GROUP_HEADINGS:
-        keys = (group_keys,) if isinstance(group_keys, str) else group_keys
-        parts.append(f'<text x="10" y="{y + 15:.0f}" class="kp-row-label">{esc(heading)}</text>')
-        y += group_heading_h
-        for entry in [e for e in entries if e["group"] in keys]:
-            bx = x_of(entry["start"])
-            bw = max(3.0, x_of(entry["end"]) - bx)
-            color = HERODS_GROUP_COLOR[entry["group"]]
-            span = herods_span_label(entry["start"], entry["end"])
-            title = f'{entry["name"]} — {entry["role"]}, c. {span} ({entry["reference"]})'
+    # Event markers: greedy left-to-right de-collision along one strip, then
+    # a connector from each marker down to the bar of the Herod it involves.
+    marker_cy = axis_h + events_h / 2 + 1
+    min_gap = 2 * marker_r + 3
+    placed = []
+    cursor = float("-inf")
+    for i, ev in enumerate(HERODS_EVENTS, start=1):
+        tx = x_of(ev["year"])
+        cx = max(tx, cursor + min_gap)
+        cursor = cx
+        placed.append([i, ev, tx, cx])
+    overflow = (placed[-1][3] + marker_r) - (plot_right - 2) if placed else 0
+    if overflow > 0:
+        for p in placed:
+            p[3] = max(margin_left + marker_r, p[3] - overflow)
 
-            parts.append(
-                f'<text x="12" y="{y + bar_h / 2 + 4:.1f}" class="herods-name">{esc(entry["name"])}</text>'
-            )
-            if entry["person_id"]:
-                parts.append(f'<a href="../people/{entry["person_id"]}.html">')
-            parts.append(
-                f'<rect x="{bx:.1f}" y="{y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" fill="{color}" '
-                f'class="kp-bar" tabindex="0" data-name="{esc(entry["name"])}" data-nation="{esc(entry["role"])}" '
-                f'data-span="c. {esc(span)}" data-reference="{esc(entry["reference"])}">'
-                f'<title>{esc(title)}</title></rect>'
-            )
-            if entry["person_id"]:
-                parts.append("</a>")
-
-            # Span label just past the bar's end, or before its start if that
-            # would run off the right edge.
-            label_w = kp_text_width(span, 9.5)
-            if bx + bw + 6 + label_w <= margin_left + plot_width:
+    for num, ev, tx, cx in placed:
+        span = bar_span_by_pid.get(ev["herod"])
+        land_x = tx
+        if span:
+            land_x = min(max(tx, span[0]), span[1])
+            bar_cy = bar_top_by_pid[ev["herod"]] + bar_h / 2
+            if abs(cx - land_x) > 0.5:
                 parts.append(
-                    f'<text x="{bx + bw + 6:.1f}" y="{y + bar_h / 2 + 3.5:.1f}" '
-                    f'class="kp-callout-label">{esc(span)}</text>'
+                    f'<path d="M{cx:.1f} {marker_cy + marker_r:.1f} L{land_x:.1f} {axis_h + events_h:.1f} '
+                    f'L{land_x:.1f} {bar_cy:.1f}" class="herods-event-connector" />'
                 )
             else:
                 parts.append(
-                    f'<text x="{bx - 6:.1f}" y="{y + bar_h / 2 + 3.5:.1f}" '
-                    f'class="kp-callout-label" text-anchor="end">{esc(span)}</text>'
+                    f'<line x1="{land_x:.1f}" y1="{marker_cy + marker_r:.1f}" x2="{land_x:.1f}" y2="{bar_cy:.1f}" '
+                    f'class="herods-event-connector" />'
                 )
-            y += row_span
-        y += group_gap
+            parts.append(f'<circle cx="{land_x:.1f}" cy="{bar_cy:.1f}" r="3" class="herods-event-dot" />')
+
+        herod_name = next((e["name"] for e in entries if e["person_id"] == ev["herod"]), ev["herod"])
+        title = f'{num}. c. {herods_format_year(ev["year"])} — {ev["text"]} ({herod_name}; {ev["reference"]})'
+        parts.append(f'<a href="#herods-event-{num}">')
+        parts.append(
+            f'<circle cx="{cx:.1f}" cy="{marker_cy:.1f}" r="{marker_r}" class="herods-event-marker" tabindex="0">'
+            f'<title>{esc(title)}</title></circle>'
+        )
+        parts.append(
+            f'<text x="{cx:.1f}" y="{marker_cy + 3.2:.1f}" class="herods-event-num" text-anchor="middle">{num}</text>'
+        )
+        parts.append("</a>")
+
+    # Rows: gutter name + reference, then the bar and its year-span label.
+    for kind, payload, row_y in row_layout:
+        if kind == "heading":
+            parts.append(f'<text x="10" y="{row_y + 15:.0f}" class="kp-row-label">{esc(payload)}</text>')
+            continue
+        entry = payload
+        bx = x_of(entry["start"])
+        bw = max(3.0, x_of(entry["end"]) - bx)
+        color = HERODS_GROUP_COLOR[entry["group"]]
+        span = herods_span_label(entry["start"], entry["end"])
+        title = f'{entry["name"]} — {entry["role"]}, c. {span} ({entry["reference"]})'
+
+        parts.append(f'<text x="12" y="{row_y + 9:.1f}" class="herods-name">{esc(entry["name"])}</text>')
+        parts.append(
+            f'<text x="12" y="{row_y + 20:.1f}" class="herods-ref">{esc(entry["chart_ref"])}</text>'
+        )
+        if entry["person_id"]:
+            parts.append(f'<a href="../people/{entry["person_id"]}.html">')
+        parts.append(
+            f'<rect x="{bx:.1f}" y="{row_y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" fill="{color}" '
+            f'class="kp-bar" tabindex="0" data-name="{esc(entry["name"])}" data-nation="{esc(entry["role"])}" '
+            f'data-span="c. {esc(span)}" data-reference="{esc(entry["reference"])}">'
+            f'<title>{esc(title)}</title></rect>'
+        )
+        if entry["person_id"]:
+            parts.append("</a>")
+
+        label_w = kp_text_width(span, 9.5)
+        if bx + bw + 6 + label_w <= plot_right:
+            parts.append(
+                f'<text x="{bx + bw + 6:.1f}" y="{row_y + bar_h / 2 + 3.5:.1f}" class="herods-span">{esc(span)}</text>'
+            )
+        else:
+            parts.append(
+                f'<text x="{bx - 6:.1f}" y="{row_y + bar_h / 2 + 3.5:.1f}" class="herods-span" '
+                f'text-anchor="end">{esc(span)}</text>'
+            )
 
     parts.append("</svg>")
     return "\n".join(parts)
@@ -2507,7 +2628,29 @@ def render_herods_legend():
         f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{HERODS_GROUP_COLOR[key]}"></span>{esc(label)}</span>'
         for key, label in HERODS_LEGEND
     )
+    items += (
+        '\n    <span class="kp-legend-item"><span class="kp-legend-swatch kp-legend-swatch--event"></span>'
+        'Numbered Gospel &amp; Acts event (drops to the Herod involved)</span>'
+    )
     return f'<div class="kp-legend">{items}</div>'
+
+
+def render_herods_events_list(entries):
+    def herod_link(pid):
+        name = next((e["name"] for e in entries if e["person_id"] == pid), pid)
+        return f'<a href="../people/{pid}.html">{esc(name)}</a>'
+
+    items = "\n    ".join(
+        f'<li id="herods-event-{i}"><span class="hev-date">{esc(herods_event_date(ev))}</span> {esc(ev["text"])}'
+        f'<span class="hev-meta">{herod_link(ev["herod"])} &middot; {esc(ev["reference"])}</span></li>'
+        for i, ev in enumerate(HERODS_EVENTS, start=1)
+    )
+    return f"""<section class="herods-events-section">
+    <h3>Gospel &amp; Acts events involving a Herod</h3>
+    <ol class="herods-events">
+    {items}
+    </ol>
+  </section>"""
 
 
 def render_herods_table(entries):
@@ -2524,7 +2667,7 @@ def render_herods_table(entries):
 
     body_rows = "\n    ".join(row_html(e) for e in entries)
     return f"""<details class="kp-table-details">
-    <summary>View as a table</summary>
+    <summary>View the reigns as a table</summary>
     <div class="table-scroll">
     <table class="kp-table">
       <thead><tr><th>Name</th><th>Role</th><th>Dates</th><th>Reference</th><th>Note</th></tr></thead>
@@ -2550,6 +2693,7 @@ def build_herods_and_jesus_chart_page(entries):
 
     svg = render_herods_svg(entries)
     legend = render_herods_legend()
+    events_list = render_herods_events_list(entries)
     table = render_herods_table(entries)
 
     return f"""<!DOCTYPE html>
@@ -2597,9 +2741,11 @@ def build_herods_and_jesus_chart_page(entries):
   <p><a href="{base}charts.html">&larr; Charts</a></p>
   <h2>The Herods, John the Baptist &amp; Jesus</h2>
   <p class="page-intro">Six rulers of the Herod family appear in the New Testament, spanning nearly
-  a century and a half. This chart lays their reigns against the lifetimes of John the Baptist and
-  Jesus, so it is easy to see which Herod stood where in the Gospel and Acts narratives. Bars are
-  clickable and link to that person's page; hover or focus a bar for exact dates.</p>
+  a century and a half — and it is easy to lose track of which one is which. This chart lays their
+  reigns against the lifetimes of John the Baptist and Jesus, with each Herod's Scripture references
+  shown beside the name. Numbered markers place eleven Gospel and Acts events on the timeline; a
+  faint line drops from each one to the Herod it involved, and the same numbers are listed in full
+  below the chart. Bars and markers are clickable; hover or focus a bar for exact dates.</p>
 
   <div class="kp-legend-row">
     {legend}
@@ -2620,6 +2766,8 @@ def build_herods_and_jesus_chart_page(entries):
   AD&nbsp;33). The chart follows the more common 4&nbsp;BC / AD&nbsp;30 framework; shifting to the
   alternative moves John's and Jesus's bars a few years later but changes none of the relationships
   the chart shows.</p>
+
+  {events_list}
 
   {table}
 </main>
@@ -4721,7 +4869,8 @@ def build_charts_list_page():
     <a class="person-card" href="{base}charts/herods-and-jesus.html">
       <div class="name"><strong>The Herods, John the Baptist &amp; Jesus</strong></div>
       <p class="chart-card-desc">The six ruling Herods of the New Testament — Herod the Great through
-      Agrippa II — on one timeline with the lifetimes of John the Baptist and Jesus.</p>
+      Agrippa II — on one timeline with John the Baptist, Jesus, and the Gospel and Acts events each
+      Herod was part of.</p>
     </a>
   </div>
 
