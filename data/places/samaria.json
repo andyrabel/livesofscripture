@@ -180,9 +180,13 @@
       "gender": "male"
     },
     {
-      "person_id": "naaman",
+      "person_id": "naaman-2",
       "name": "Naaman",
-      "gender": "male"
+      "gender": "male",
+      "role": "the Aramean commander sent to the prophet in this city to be healed of leprosy",
+      "references": [
+        "2 Kings 5:3-9"
+      ]
     },
     {
       "person_id": "obadiah",

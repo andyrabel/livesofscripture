@@ -889,15 +889,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://livesofscripture.org/people/naaman.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://livesofscripture.org/images/portraits2-web/naaman-full.jpg</image:loc>
-      <image:caption>Naaman — stained-glass style portrait</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://livesofscripture.org/people/machir.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

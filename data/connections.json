@@ -11676,6 +11676,20 @@
     "mutual": false
   },
   {
+    "from": "herod",
+    "to": "philip-2",
+    "label": "begot",
+    "type": "parent-child",
+    "mutual": false
+  },
+  {
+    "from": "herod",
+    "to": "philip-4",
+    "label": "begot",
+    "type": "parent-child",
+    "mutual": false
+  },
+  {
     "from": "jairus",
     "to": "talitha",
     "label": "begot",
@@ -12467,7 +12481,7 @@
     "mutual": true
   },
   {
-    "from": "philip-2",
+    "from": "philip-4",
     "to": "herodias",
     "label": "married",
     "type": "married",

@@ -81,9 +81,13 @@
       ]
     },
     {
-      "person_id": "naaman",
+      "person_id": "naaman-2",
       "name": "Naaman",
-      "gender": "male"
+      "gender": "male",
+      "role": "commander of the army of Aram, whose capital this was, healed of leprosy in Israel",
+      "references": [
+        "2 Kings 5:1"
+      ]
     },
     {
       "person_id": "paul",

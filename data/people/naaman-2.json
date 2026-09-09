@@ -10,7 +10,9 @@
   },
   "geographic_setting": [
     "Aram (Syria)",
-    "Israel"
+    "Damascus",
+    "Samaria",
+    "Jordan River"
   ],
   "references": [
     "2 Kings 5:1-27",
@@ -33,7 +35,7 @@
     "prompt_image_source": null,
     "caption": "Generic stained-glass icon for warriors -- symbolic, no claim of likeness"
   },
-  "image2": "images/portraits2/naaman-2.png",
+  "image2": "naaman-2.png",
   "genealogy": {
     "father": null,
     "mother": null,
@@ -47,8 +49,8 @@
   },
   "gender": "male",
   "devotionals": [
-    "Naaman had to humble himself and simply wash in the Jordan, not perform an impressive ritual. Salvation still comes through simple trust in Jesus, not our own effort.",
-    "Jesus pointed to Naaman, a Gentile outsider healed by God's grace, to show that grace was never meant to stay inside Israel alone."
+    "Naaman nearly stormed off in fury when Elisha told this powerful general to do something as ordinary as wash seven times in the Jordan, expecting a dramatic display instead. Jesus often meets our pride the same simple way, asking humble obedience rather than a performance worthy of our status.",
+    "Naaman returned from the river declaring there was no God in all the earth but Israel's, though he had come only for his skin, not the change of heart he found. Jesus later pointed to Naaman Himself as proof that God's grace was always reaching beyond Israel to outsiders like us."
   ],
   "name_meaning": {
     "meaning": "Pleasantness",

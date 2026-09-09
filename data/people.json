@@ -7166,9 +7166,9 @@
     "person_id": "naaman",
     "name": "Naaman",
     "alt_names": [],
-    "tier": "full",
+    "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "Patriarchal",
     "region": "canaan-israel",
     "genealogy": {
       "father": "bela-2"
@@ -7176,13 +7176,6 @@
     "timeline": {
       "precision": "era"
     },
-    "topics": [
-      "healing",
-      "humility",
-      "grace for outsiders"
-    ],
-    "image": "generic-warrior.jpg",
-    "image2": "naaman.png",
     "gender": "male",
     "disambiguation": "son of Bela (Gen 46:21)",
     "first_reference": "Genesis 46:21",
@@ -14324,10 +14317,9 @@
     "image": "generic-priest.jpg",
     "image2": "jehoiada.png",
     "gender": "male",
-    "disambiguation": "(2 Sam 8:18)",
+    "disambiguation": "father of Benaiah (2 Sam 8:18)",
     "first_reference": "2 Samuel 8:18",
     "genealogy": {
-      "spouses": [],
       "children": [
         "benaiah"
       ]
@@ -18223,7 +18215,7 @@
     ],
     "image": "generic-warrior.jpg",
     "first_reference": "2 Kings 5:1-27",
-    "image2": "images/portraits2/naaman-2.png"
+    "image2": "naaman-2.png"
   },
   {
     "person_id": "ahaziah-2",
@@ -18491,7 +18483,7 @@
       "note": "2 Chronicles 24:15 states Jehoiada died at 130, an unusually long life, but without a fixed calendar anchor for his birth or death, so no specific date is plotted; his ministry falls under Athaliah's usurpation and Joash's early reign, roughly the mid-800s BC."
     },
     "gender": "male",
-    "disambiguation": "(2 Kings 11:4-17)",
+    "disambiguation": "husband of Jehosheba (2 Kings 11:4-17)",
     "first_reference": "2 Kings 11:4-17",
     "genealogy": {
       "spouses": [
@@ -50163,7 +50155,9 @@
     "genealogy": {
       "children": [
         "archelaus",
-        "herod-2"
+        "herod-2",
+        "philip-2",
+        "philip-4"
       ]
     },
     "first_reference": "Matthew 2:1-22"
@@ -50651,7 +50645,7 @@
     "genealogy": {
       "spouses": [
         "herod-2",
-        "philip-2"
+        "philip-4"
       ]
     }
   },
@@ -50663,6 +50657,24 @@
     "testament": "NT",
     "era": "Gospels",
     "genealogy": {
+      "father": "herod"
+    },
+    "timeline": {
+      "precision": "era"
+    },
+    "gender": "male",
+    "disambiguation": "(Luke 3:1)",
+    "first_reference": "Luke 3:1"
+  },
+  {
+    "person_id": "philip-4",
+    "name": "Philip",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "NT",
+    "era": "Gospels",
+    "genealogy": {
+      "father": "herod",
       "spouses": [
         "herodias"
       ]
@@ -50671,7 +50683,7 @@
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "husband of Herodias (Matt 14:3)",
+    "disambiguation": "(Matt 14:3)",
     "first_reference": "Matthew 14:3"
   },
   {

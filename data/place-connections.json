@@ -1680,7 +1680,7 @@
     "mutual": true
   },
   {
-    "from": "naaman",
+    "from": "naaman-2",
     "to": "place:samaria",
     "label": "associated with",
     "type": "person-place",
@@ -2773,13 +2773,6 @@
   },
   {
     "from": "merab",
-    "to": "place:kingdom-of-israel",
-    "label": "associated with",
-    "type": "person-place",
-    "mutual": true
-  },
-  {
-    "from": "naaman-2",
     "to": "place:kingdom-of-israel",
     "label": "associated with",
     "type": "person-place",
@@ -4193,7 +4186,7 @@
     "mutual": true
   },
   {
-    "from": "naaman",
+    "from": "naaman-2",
     "to": "place:damascus",
     "label": "associated with",
     "type": "person-place",
@@ -5873,7 +5866,7 @@
     "mutual": true
   },
   {
-    "from": "naaman",
+    "from": "naaman-2",
     "to": "place:jordan-river",
     "label": "associated with",
     "type": "person-place",

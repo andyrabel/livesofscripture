@@ -297,7 +297,7 @@ ROLES = {
         "chimham": ("Barzillai's son, whom David took across this river with him", ["2 Samuel 19:37-40"]),
         "elisha": ("took up Elijah's fallen mantle and parted this river to cross back", ["2 Kings 2:13-14"]),
         "john": ("baptized in this river, including the baptism of Jesus", ["Matthew 3:6", "Matthew 3:13"]),
-        "naaman": ("washed seven times in this river at Elisha's word and was healed", ["2 Kings 5:14"]),
+        "naaman-2": ("washed seven times in this river at Elisha's word and was healed of leprosy", ["2 Kings 5:14"]),
     },
     "makkedah": {
         "adoni-zedek": ("king of Jerusalem, caught in a cave here and executed by Joshua", ["Joshua 10:16-26"]),
@@ -594,6 +594,7 @@ ROLES = {
         "rezin": ("its king, killed when Assyria captured the city", ["2 Kings 16:9"]),
         "rezon": ("seized this city and reigned there as an adversary to Solomon", ["1 Kings 11:23-25"]),
         "tiglath-pileser": ("captured this city and deported its people for King Ahaz", ["2 Kings 16:9"]),
+        "naaman-2": ("commander of the army of Aram, whose capital this was, healed of leprosy in Israel", ["2 Kings 5:1"]),
     },
     "moab": {
         "balak": ("its king, who hired Balaam to curse Israel", ["Numbers 22:2-6"]),
@@ -892,6 +893,7 @@ ROLES = {
         "shemer": ("the man from whom Omri bought the hill and after whom he named this city", ["1 Kings 16:24"]),
         "philip-3": ("the evangelist who preached Christ in this city with great effect", ["Acts 8:5-8"]),
         "oded": ("the prophet here who turned back Israel's army with its Judean captives", ["2 Chronicles 28:9-11"]),
+        "naaman-2": ("the Aramean commander sent to the prophet in this city to be healed of leprosy", ["2 Kings 5:3-9"]),
     },
     "jerusalem": {
         "david": ("captured this city from the Jebusites and made it his capital", ["2 Samuel 5:6-9"]),

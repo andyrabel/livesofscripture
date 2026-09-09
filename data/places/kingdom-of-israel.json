@@ -22,7 +22,7 @@
     "note": ""
   },
   "modern_name": null,
-  "n_people": 35,
+  "n_people": 34,
   "related_people": [
     {
       "person_id": "abishai",
@@ -212,11 +212,6 @@
       "person_id": "merab",
       "name": "Merab",
       "gender": "female"
-    },
-    {
-      "person_id": "naaman-2",
-      "name": "Naaman",
-      "gender": "male"
     },
     {
       "person_id": "nadab-2",
