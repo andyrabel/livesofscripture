@@ -242,16 +242,62 @@ function initNavToggle() {
 }
 
 // Places list page (places.html): the grid is server-rendered with every
-// place in it, but the name-only (stub) cards are hidden by CSS until the
-// visitor ticks "Include name-only places", which toggles .show-stub-places
-// on the grid. Purely presentational -- no data fetch, works with JS off
-// (the box just does nothing and the default full-place list stays shown).
-function initPlacesToggle() {
-  const checkbox = document.getElementById("places-include-stubs");
+// place card already in it (sorted A-Z), and this adds client-side search,
+// a sort-by drop-down, and the name-only (stub) toggle on top of it -- all
+// working directly on the existing DOM cards, no data fetch. Each card
+// carries data-search (name + alt-names, lowercased), data-name, and
+// data-people from place_card_html() in the generator. With JS off the
+// grid still shows the full-place list, and the CSS rule
+// .person-grid:not(.show-stub-places) .place-card--stub keeps stubs hidden.
+function initPlacesList() {
   const grid = document.getElementById("place-grid");
-  if (!checkbox || !grid) return;
-  const apply = () => grid.classList.toggle("show-stub-places", checkbox.checked);
-  checkbox.addEventListener("change", apply);
+  if (!grid) return;
+  const checkbox = document.getElementById("places-include-stubs");
+  const search = document.getElementById("place-search");
+  const sort = document.getElementById("place-sort");
+  const countEl = document.getElementById("result-count");
+  const cards = Array.from(grid.querySelectorAll(".person-card"));
+  const total = cards.length;
+
+  function apply() {
+    const includeStubs = checkbox ? checkbox.checked : false;
+    grid.classList.toggle("show-stub-places", includeStubs);
+    const query = (search ? search.value : "").trim().toLowerCase();
+
+    let visible = 0;
+    for (const card of cards) {
+      const isStub = card.classList.contains("place-card--stub");
+      let show = true;
+      if (isStub && !includeStubs) show = false;
+      if (show && query && !(card.dataset.search || "").includes(query)) show = false;
+      card.style.display = show ? "" : "none";
+      if (show) visible++;
+    }
+
+    if (sort) {
+      const mode = sort.value;
+      const ordered = cards.slice().sort((a, b) => {
+        const an = a.dataset.name || "";
+        const bn = b.dataset.name || "";
+        const ap = Number(a.dataset.people) || 0;
+        const bp = Number(b.dataset.people) || 0;
+        switch (mode) {
+          case "name-desc": return bn.localeCompare(an);
+          case "people-desc": return bp - ap || an.localeCompare(bn);
+          case "people-asc": return ap - bp || an.localeCompare(bn);
+          case "name-asc":
+          default: return an.localeCompare(bn);
+        }
+      });
+      for (const card of ordered) grid.appendChild(card);
+    }
+
+    if (countEl) countEl.textContent = `${visible} of ${total} places`;
+  }
+
+  if (checkbox) checkbox.addEventListener("change", apply);
+  if (search) search.addEventListener("input", apply);
+  if (sort) sort.addEventListener("change", apply);
   apply();
 }
 
@@ -809,6 +855,14 @@ function personCard(entry) {
     disamb.className = "disambiguation";
     disamb.textContent = entry.disambiguation;
     a.appendChild(disamb);
+  } else {
+    const ref = entry.first_reference || (entry.references || [])[0];
+    if (ref) {
+      const refLine = document.createElement("div");
+      refLine.className = "first-reference";
+      refLine.textContent = `First named in ${ref}`;
+      a.appendChild(refLine);
+    }
   }
 
   const meta = document.createElement("div");

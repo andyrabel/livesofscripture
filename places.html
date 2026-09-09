@@ -88,918 +88,927 @@
   <h2>Places</h2>
 
   <div class="controls">
+    <input type="search" id="place-search" placeholder="Search by name…">
+    <select id="place-sort">
+      <option value="name-asc">Name (A–Z)</option>
+      <option value="name-desc">Name (Z–A)</option>
+      <option value="people-desc">Most named people</option>
+      <option value="people-asc">Fewest named people</option>
+    </select>
     <label class="controls__checkbox">
       <input type="checkbox" id="places-include-stubs">
       Include name-only places (100)
     </label>
   </div>
 
+  <div id="result-count"></div>
+
   <div id="place-grid" class="person-grid">
-    <a class="person-card place-card--stub" href="places/abel-beth-maacah.html">
+    <a class="person-card place-card--stub" href="places/abel-beth-maacah.html" data-name="abel beth-maacah" data-search="abel beth-maacah" data-people="1">
       <div class="name"><span class="name-text">Abel Beth-maacah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/abel-meholah.html">
+    <a class="person-card place-card--stub" href="places/abel-meholah.html" data-name="abel-meholah" data-search="abel-meholah" data-people="1">
       <div class="name"><span class="name-text">Abel-meholah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/adullam.html">
+    <a class="person-card place-card--stub" href="places/adullam.html" data-name="adullam" data-search="adullam" data-people="1">
       <div class="name"><span class="name-text">Adullam</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ai.html">
+    <a class="person-card" href="places/ai.html" data-name="ai" data-search="ai" data-people="1">
       <div class="name"><strong class="name-text">Ai</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/aijalon-of-zebulun.html">
+    <a class="person-card place-card--stub" href="places/aijalon-of-zebulun.html" data-name="aijalon (of zebulun)" data-search="aijalon (of zebulun)" data-people="1">
       <div class="name"><span class="name-text">Aijalon (of Zebulun)</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/alexandria.html">
+    <a class="person-card place-card--stub" href="places/alexandria.html" data-name="alexandria" data-search="alexandria" data-people="1">
       <div class="name"><span class="name-text">Alexandria</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/amalek.html">
+    <a class="person-card place-card--stub" href="places/amalek.html" data-name="amalek" data-search="amalek" data-people="1">
       <div class="name"><span class="name-text">Amalek</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ammon.html">
+    <a class="person-card" href="places/ammon.html" data-name="ammon" data-search="ammon" data-people="5">
       <div class="name"><strong class="name-text">Ammon</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/anathoth.html">
+    <a class="person-card place-card--stub" href="places/anathoth.html" data-name="anathoth" data-search="anathoth" data-people="2">
       <div class="name"><span class="name-text">Anathoth</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/antioch.html">
+    <a class="person-card" href="places/antioch.html" data-name="antioch" data-search="antioch antioch of syria" data-people="7">
       <div class="name"><strong class="name-text">Antioch</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">7 named people</span></div>
     </a>
-    <a class="person-card" href="places/antioch-of-pisidia.html">
+    <a class="person-card" href="places/antioch-of-pisidia.html" data-name="antioch of pisidia" data-search="antioch of pisidia pisidian antioch" data-people="0">
       <div class="name"><strong class="name-text">Antioch of Pisidia</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/aphek.html">
+    <a class="person-card place-card--stub" href="places/aphek.html" data-name="aphek" data-search="aphek" data-people="1">
       <div class="name"><span class="name-text">Aphek</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/arabia.html">
+    <a class="person-card place-card--stub" href="places/arabia.html" data-name="arabia" data-search="arabia" data-people="1">
       <div class="name"><span class="name-text">Arabia</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/aram.html">
+    <a class="person-card" href="places/aram.html" data-name="aram" data-search="aram syria" data-people="6">
       <div class="name"><strong class="name-text">Aram</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/aram-naharaim.html">
+    <a class="person-card place-card--stub" href="places/aram-naharaim.html" data-name="aram-naharaim" data-search="aram-naharaim" data-people="1">
       <div class="name"><span class="name-text">Aram-naharaim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ararat.html">
+    <a class="person-card" href="places/ararat.html" data-name="ararat" data-search="ararat mountains of ararat" data-people="3">
       <div class="name"><strong class="name-text">Ararat</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/argob.html">
+    <a class="person-card place-card--stub" href="places/argob.html" data-name="argob" data-search="argob" data-people="1">
       <div class="name"><span class="name-text">Argob</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/arimathea.html">
+    <a class="person-card" href="places/arimathea.html" data-name="arimathea" data-search="arimathea" data-people="1">
       <div class="name"><strong class="name-text">Arimathea</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ashdod.html">
+    <a class="person-card" href="places/ashdod.html" data-name="ashdod" data-search="ashdod" data-people="1">
       <div class="name"><strong class="name-text">Ashdod</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/asia-roman-province.html">
+    <a class="person-card place-card--stub" href="places/asia-roman-province.html" data-name="asia (roman province)" data-search="asia (roman province)" data-people="2">
       <div class="name"><span class="name-text">Asia (Roman Province)</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/asia-minor.html">
+    <a class="person-card" href="places/asia-minor.html" data-name="asia minor" data-search="asia minor anatolia" data-people="6">
       <div class="name"><strong class="name-text">Asia Minor</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/assyria.html">
+    <a class="person-card" href="places/assyria.html" data-name="assyria" data-search="assyria" data-people="6">
       <div class="name"><strong class="name-text">Assyria</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/athens.html">
+    <a class="person-card" href="places/athens.html" data-name="athens" data-search="athens" data-people="2">
       <div class="name"><strong class="name-text">Athens</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/baal-peor.html">
+    <a class="person-card" href="places/baal-peor.html" data-name="baal-peor" data-search="baal-peor" data-people="1">
       <div class="name"><strong class="name-text">Baal-peor</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/babylon.html">
+    <a class="person-card" href="places/babylon.html" data-name="babylon" data-search="babylon shinar chaldea" data-people="29">
       <div class="name"><strong class="name-text">Babylon</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">29 named people</span></div>
     </a>
-    <a class="person-card" href="places/bahurim.html">
+    <a class="person-card" href="places/bahurim.html" data-name="bahurim" data-search="bahurim" data-people="3">
       <div class="name"><strong class="name-text">Bahurim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/bashan.html">
+    <a class="person-card place-card--stub" href="places/bashan.html" data-name="bashan" data-search="bashan" data-people="2">
       <div class="name"><span class="name-text">Bashan</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/beersheba.html">
+    <a class="person-card" href="places/beersheba.html" data-name="beersheba" data-search="beersheba well of the oath" data-people="6">
       <div class="name"><strong class="name-text">Beersheba</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/benjamin.html">
+    <a class="person-card place-card--stub" href="places/benjamin.html" data-name="benjamin" data-search="benjamin" data-people="1">
       <div class="name"><span class="name-text">Benjamin</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/bethany.html">
+    <a class="person-card" href="places/bethany.html" data-name="bethany" data-search="bethany" data-people="3">
       <div class="name"><strong class="name-text">Bethany</strong></div>
       <div class="meta"><span class="badge">Village</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/bethel.html">
+    <a class="person-card" href="places/bethel.html" data-name="bethel" data-search="bethel luz" data-people="11">
       <div class="name"><strong class="name-text">Bethel</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">11 named people</span></div>
     </a>
-    <a class="person-card" href="places/bethlehem.html">
+    <a class="person-card" href="places/bethlehem.html" data-name="bethlehem" data-search="bethlehem ephrath bethlehem-judah city of david" data-people="20">
       <div class="name"><strong class="name-text">Bethlehem</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">20 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/bethsaida.html">
+    <a class="person-card place-card--stub" href="places/bethsaida.html" data-name="bethsaida" data-search="bethsaida" data-people="2">
       <div class="name"><span class="name-text">Bethsaida</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/bezek.html">
+    <a class="person-card place-card--stub" href="places/bezek.html" data-name="bezek" data-search="bezek" data-people="1">
       <div class="name"><span class="name-text">Bezek</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/buz.html">
+    <a class="person-card place-card--stub" href="places/buz.html" data-name="buz" data-search="buz" data-people="1">
       <div class="name"><span class="name-text">Buz</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/caesarea.html">
+    <a class="person-card" href="places/caesarea.html" data-name="caesarea" data-search="caesarea caesarea maritima" data-people="14">
       <div class="name"><strong class="name-text">Caesarea</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">14 named people</span></div>
     </a>
-    <a class="person-card" href="places/cana.html">
+    <a class="person-card" href="places/cana.html" data-name="cana" data-search="cana" data-people="1">
       <div class="name"><strong class="name-text">Cana</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/canaan.html">
+    <a class="person-card" href="places/canaan.html" data-name="canaan" data-search="canaan the promised land" data-people="37">
       <div class="name"><strong class="name-text">Canaan</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">37 named people</span></div>
     </a>
-    <a class="person-card" href="places/capernaum.html">
+    <a class="person-card" href="places/capernaum.html" data-name="capernaum" data-search="capernaum" data-people="4">
       <div class="name"><strong class="name-text">Capernaum</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/carmel-of-judah.html">
+    <a class="person-card place-card--stub" href="places/carmel-of-judah.html" data-name="carmel (of judah)" data-search="carmel (of judah)" data-people="2">
       <div class="name"><span class="name-text">Carmel (of Judah)</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/casiphia.html">
+    <a class="person-card place-card--stub" href="places/casiphia.html" data-name="casiphia" data-search="casiphia" data-people="2">
       <div class="name"><span class="name-text">Casiphia</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/cave-of-machpelah.html">
+    <a class="person-card" href="places/cave-of-machpelah.html" data-name="cave of machpelah" data-search="cave of machpelah" data-people="1">
       <div class="name"><strong class="name-text">Cave of Machpelah</strong></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/cenchrea.html">
+    <a class="person-card place-card--stub" href="places/cenchrea.html" data-name="cenchrea" data-search="cenchrea" data-people="1">
       <div class="name"><span class="name-text">Cenchrea</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/chebar-river.html">
+    <a class="person-card place-card--stub" href="places/chebar-river.html" data-name="chebar river" data-search="chebar river" data-people="1">
       <div class="name"><span class="name-text">Chebar River</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/colossae.html">
+    <a class="person-card" href="places/colossae.html" data-name="colossae" data-search="colossae" data-people="4">
       <div class="name"><strong class="name-text">Colossae</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card" href="places/corinth.html">
+    <a class="person-card" href="places/corinth.html" data-name="corinth" data-search="corinth" data-people="13">
       <div class="name"><strong class="name-text">Corinth</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">13 named people</span></div>
     </a>
-    <a class="person-card" href="places/crete.html">
+    <a class="person-card" href="places/crete.html" data-name="crete" data-search="crete" data-people="2">
       <div class="name"><strong class="name-text">Crete</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/cush.html">
+    <a class="person-card place-card--stub" href="places/cush.html" data-name="cush" data-search="cush" data-people="1">
       <div class="name"><span class="name-text">Cush</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/cyprus.html">
+    <a class="person-card" href="places/cyprus.html" data-name="cyprus" data-search="cyprus" data-people="5">
       <div class="name"><strong class="name-text">Cyprus</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/cyrene.html">
+    <a class="person-card place-card--stub" href="places/cyrene.html" data-name="cyrene" data-search="cyrene" data-people="1">
       <div class="name"><span class="name-text">Cyrene</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/damascus.html">
+    <a class="person-card" href="places/damascus.html" data-name="damascus" data-search="damascus" data-people="11">
       <div class="name"><strong class="name-text">Damascus</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">11 named people</span></div>
     </a>
-    <a class="person-card" href="places/dan.html">
+    <a class="person-card" href="places/dan.html" data-name="dan" data-search="dan" data-people="2">
       <div class="name"><strong class="name-text">Dan</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/debir.html">
+    <a class="person-card place-card--stub" href="places/debir.html" data-name="debir" data-search="debir" data-people="2">
       <div class="name"><span class="name-text">Debir</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/derbe.html">
+    <a class="person-card" href="places/derbe.html" data-name="derbe" data-search="derbe" data-people="0">
       <div class="name"><strong class="name-text">Derbe</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card" href="places/edom.html">
+    <a class="person-card" href="places/edom.html" data-name="edom" data-search="edom seir" data-people="5">
       <div class="name"><strong class="name-text">Edom</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/eglon.html">
+    <a class="person-card place-card--stub" href="places/eglon.html" data-name="eglon" data-search="eglon" data-people="1">
       <div class="name"><span class="name-text">Eglon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/egypt.html">
+    <a class="person-card" href="places/egypt.html" data-name="egypt" data-search="egypt" data-people="38">
       <div class="name"><strong class="name-text">Egypt</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">38 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/elam.html">
+    <a class="person-card place-card--stub" href="places/elam.html" data-name="elam" data-search="elam" data-people="1">
       <div class="name"><span class="name-text">Elam</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/elkosh.html">
+    <a class="person-card place-card--stub" href="places/elkosh.html" data-name="elkosh" data-search="elkosh" data-people="1">
       <div class="name"><span class="name-text">Elkosh</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ellasar.html">
+    <a class="person-card place-card--stub" href="places/ellasar.html" data-name="ellasar" data-search="ellasar" data-people="1">
       <div class="name"><span class="name-text">Ellasar</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/emmaus.html">
+    <a class="person-card" href="places/emmaus.html" data-name="emmaus" data-search="emmaus" data-people="1">
       <div class="name"><strong class="name-text">Emmaus</strong></div>
       <div class="meta"><span class="badge">Village</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ephesus.html">
+    <a class="person-card" href="places/ephesus.html" data-name="ephesus" data-search="ephesus" data-people="16">
       <div class="name"><strong class="name-text">Ephesus</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">16 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ephraim.html">
+    <a class="person-card place-card--stub" href="places/ephraim.html" data-name="ephraim" data-search="ephraim" data-people="1">
       <div class="name"><span class="name-text">Ephraim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ephraim-forest.html">
+    <a class="person-card place-card--stub" href="places/ephraim-forest.html" data-name="ephraim forest" data-search="ephraim forest" data-people="1">
       <div class="name"><span class="name-text">Ephraim Forest</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ezion-geber.html">
+    <a class="person-card place-card--stub" href="places/ezion-geber.html" data-name="ezion-geber" data-search="ezion-geber" data-people="1">
       <div class="name"><span class="name-text">Ezion-geber</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/galilee.html">
+    <a class="person-card" href="places/galilee.html" data-name="galilee" data-search="galilee" data-people="15">
       <div class="name"><strong class="name-text">Galilee</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">15 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/gallim.html">
+    <a class="person-card place-card--stub" href="places/gallim.html" data-name="gallim" data-search="gallim" data-people="2">
       <div class="name"><span class="name-text">Gallim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/garden-of-eden.html">
+    <a class="person-card" href="places/garden-of-eden.html" data-name="garden of eden" data-search="garden of eden eden" data-people="4">
       <div class="name"><strong class="name-text">Garden of Eden</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card" href="places/gath.html">
+    <a class="person-card" href="places/gath.html" data-name="gath" data-search="gath" data-people="3">
       <div class="name"><strong class="name-text">Gath</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/gath-hepher.html">
+    <a class="person-card place-card--stub" href="places/gath-hepher.html" data-name="gath-hepher" data-search="gath-hepher" data-people="1">
       <div class="name"><span class="name-text">Gath-hepher</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/gaza.html">
+    <a class="person-card" href="places/gaza.html" data-name="gaza" data-search="gaza" data-people="1">
       <div class="name"><strong class="name-text">Gaza</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/gaza-road.html">
+    <a class="person-card place-card--stub" href="places/gaza-road.html" data-name="gaza road" data-search="gaza road" data-people="1">
       <div class="name"><span class="name-text">Gaza Road</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/gerar.html">
+    <a class="person-card" href="places/gerar.html" data-name="gerar" data-search="gerar" data-people="5">
       <div class="name"><strong class="name-text">Gerar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/geshur.html">
+    <a class="person-card place-card--stub" href="places/geshur.html" data-name="geshur" data-search="geshur" data-people="1">
       <div class="name"><span class="name-text">Geshur</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/gethsemane.html">
+    <a class="person-card" href="places/gethsemane.html" data-name="gethsemane" data-search="gethsemane" data-people="1">
       <div class="name"><strong class="name-text">Gethsemane</strong></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/gezer.html">
+    <a class="person-card place-card--stub" href="places/gezer.html" data-name="gezer" data-search="gezer" data-people="1">
       <div class="name"><span class="name-text">Gezer</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/gibbethon.html">
+    <a class="person-card place-card--stub" href="places/gibbethon.html" data-name="gibbethon" data-search="gibbethon" data-people="1">
       <div class="name"><span class="name-text">Gibbethon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/gibeah.html">
+    <a class="person-card" href="places/gibeah.html" data-name="gibeah" data-search="gibeah gibeah of saul" data-people="6">
       <div class="name"><strong class="name-text">Gibeah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/gibeon.html">
+    <a class="person-card" href="places/gibeon.html" data-name="gibeon" data-search="gibeon" data-people="7">
       <div class="name"><strong class="name-text">Gibeon</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">7 named people</span></div>
     </a>
-    <a class="person-card" href="places/gilead.html">
+    <a class="person-card" href="places/gilead.html" data-name="gilead" data-search="gilead" data-people="8">
       <div class="name"><strong class="name-text">Gilead</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">8 named people</span></div>
     </a>
-    <a class="person-card" href="places/gilgal.html">
+    <a class="person-card" href="places/gilgal.html" data-name="gilgal" data-search="gilgal" data-people="5">
       <div class="name"><strong class="name-text">Gilgal</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/giloh.html">
+    <a class="person-card place-card--stub" href="places/giloh.html" data-name="giloh" data-search="giloh" data-people="1">
       <div class="name"><span class="name-text">Giloh</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/gob.html">
+    <a class="person-card" href="places/gob.html" data-name="gob" data-search="gob" data-people="4">
       <div class="name"><strong class="name-text">Gob</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card" href="places/gomorrah.html">
+    <a class="person-card" href="places/gomorrah.html" data-name="gomorrah" data-search="gomorrah" data-people="1">
       <div class="name"><strong class="name-text">Gomorrah</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/greece.html">
+    <a class="person-card place-card--stub" href="places/greece.html" data-name="greece" data-search="greece" data-people="1">
       <div class="name"><span class="name-text">Greece</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/hamath.html">
+    <a class="person-card place-card--stub" href="places/hamath.html" data-name="hamath" data-search="hamath" data-people="1">
       <div class="name"><span class="name-text">Hamath</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/haran.html">
+    <a class="person-card" href="places/haran.html" data-name="haran" data-search="haran" data-people="3">
       <div class="name"><strong class="name-text">Haran</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/harosheth-hagoyim.html">
+    <a class="person-card place-card--stub" href="places/harosheth-hagoyim.html" data-name="harosheth-hagoyim" data-search="harosheth-hagoyim" data-people="1">
       <div class="name"><span class="name-text">Harosheth-hagoyim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/havvoth-jair.html">
+    <a class="person-card place-card--stub" href="places/havvoth-jair.html" data-name="havvoth-jair" data-search="havvoth-jair" data-people="2">
       <div class="name"><span class="name-text">Havvoth-jair</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/hazor.html">
+    <a class="person-card" href="places/hazor.html" data-name="hazor" data-search="hazor" data-people="1">
       <div class="name"><strong class="name-text">Hazor</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/hebron.html">
+    <a class="person-card" href="places/hebron.html" data-name="hebron" data-search="hebron kiriath-arba mamre" data-people="16">
       <div class="name"><strong class="name-text">Hebron</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">16 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/helam.html">
+    <a class="person-card place-card--stub" href="places/helam.html" data-name="helam" data-search="helam" data-people="1">
       <div class="name"><span class="name-text">Helam</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/heshbon.html">
+    <a class="person-card place-card--stub" href="places/heshbon.html" data-name="heshbon" data-search="heshbon" data-people="1">
       <div class="name"><span class="name-text">Heshbon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/hill-country-of-ephraim.html">
+    <a class="person-card" href="places/hill-country-of-ephraim.html" data-name="hill country of ephraim" data-search="hill country of ephraim mount ephraim" data-people="4">
       <div class="name"><strong class="name-text">Hill Country of Ephraim</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/hill-country-of-judea.html">
+    <a class="person-card place-card--stub" href="places/hill-country-of-judea.html" data-name="hill country of judea" data-search="hill country of judea" data-people="2">
       <div class="name"><span class="name-text">Hill Country of Judea</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/iconium.html">
+    <a class="person-card" href="places/iconium.html" data-name="iconium" data-search="iconium" data-people="0">
       <div class="name"><strong class="name-text">Iconium</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card" href="places/jabesh-gilead.html">
+    <a class="person-card" href="places/jabesh-gilead.html" data-name="jabesh-gilead" data-search="jabesh-gilead" data-people="1">
       <div class="name"><strong class="name-text">Jabesh-gilead</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/jarmuth.html">
+    <a class="person-card place-card--stub" href="places/jarmuth.html" data-name="jarmuth" data-search="jarmuth" data-people="1">
       <div class="name"><span class="name-text">Jarmuth</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/jazer.html">
+    <a class="person-card place-card--stub" href="places/jazer.html" data-name="jazer" data-search="jazer" data-people="1">
       <div class="name"><span class="name-text">Jazer</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/jericho.html">
+    <a class="person-card" href="places/jericho.html" data-name="jericho" data-search="jericho city of palms" data-people="9">
       <div class="name"><strong class="name-text">Jericho</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">9 named people</span></div>
     </a>
-    <a class="person-card" href="places/jerusalem.html">
+    <a class="person-card" href="places/jerusalem.html" data-name="jerusalem" data-search="jerusalem zion salem city of david jebus" data-people="221">
       <div class="name"><strong class="name-text">Jerusalem</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">221 named people</span></div>
     </a>
-    <a class="person-card" href="places/jezreel.html">
+    <a class="person-card" href="places/jezreel.html" data-name="jezreel" data-search="jezreel" data-people="6">
       <div class="name"><strong class="name-text">Jezreel</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/jezreel-valley.html">
+    <a class="person-card place-card--stub" href="places/jezreel-valley.html" data-name="jezreel valley" data-search="jezreel valley" data-people="2">
       <div class="name"><span class="name-text">Jezreel Valley</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/joppa.html">
+    <a class="person-card" href="places/joppa.html" data-name="joppa" data-search="joppa" data-people="2">
       <div class="name"><strong class="name-text">Joppa</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/jordan-river.html">
+    <a class="person-card" href="places/jordan-river.html" data-name="jordan river" data-search="jordan river" data-people="4">
       <div class="name"><strong class="name-text">Jordan River</strong></div>
       <div class="meta"><span class="badge">Body of Water</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card" href="places/judea.html">
+    <a class="person-card" href="places/judea.html" data-name="judea" data-search="judea" data-people="5">
       <div class="name"><strong class="name-text">Judea</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/kabzeel.html">
+    <a class="person-card place-card--stub" href="places/kabzeel.html" data-name="kabzeel" data-search="kabzeel" data-people="1">
       <div class="name"><span class="name-text">Kabzeel</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/kadesh-barnea.html">
+    <a class="person-card" href="places/kadesh-barnea.html" data-name="kadesh-barnea" data-search="kadesh-barnea kadesh" data-people="3">
       <div class="name"><strong class="name-text">Kadesh-barnea</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/karkor.html">
+    <a class="person-card" href="places/karkor.html" data-name="karkor" data-search="karkor" data-people="3">
       <div class="name"><strong class="name-text">Karkor</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/kedesh.html">
+    <a class="person-card place-card--stub" href="places/kedesh.html" data-name="kedesh" data-search="kedesh" data-people="2">
       <div class="name"><span class="name-text">Kedesh</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/kenath.html">
+    <a class="person-card place-card--stub" href="places/kenath.html" data-name="kenath" data-search="kenath" data-people="1">
       <div class="name"><span class="name-text">Kenath</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/kingdom-of-israel.html">
+    <a class="person-card" href="places/kingdom-of-israel.html" data-name="kingdom of israel" data-search="kingdom of israel northern kingdom" data-people="35">
       <div class="name"><strong class="name-text">Kingdom of Israel</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">35 named people</span></div>
     </a>
-    <a class="person-card" href="places/kingdom-of-judah.html">
+    <a class="person-card" href="places/kingdom-of-judah.html" data-name="kingdom of judah" data-search="kingdom of judah judah" data-people="39">
       <div class="name"><strong class="name-text">Kingdom of Judah</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">39 named people</span></div>
     </a>
-    <a class="person-card" href="places/kir-hareseth.html">
+    <a class="person-card" href="places/kir-hareseth.html" data-name="kir-hareseth" data-search="kir-hareseth" data-people="1">
       <div class="name"><strong class="name-text">Kir-hareseth</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/kiriath-jearim.html">
+    <a class="person-card" href="places/kiriath-jearim.html" data-name="kiriath-jearim" data-search="kiriath-jearim baale-judah" data-people="3">
       <div class="name"><strong class="name-text">Kiriath-jearim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/kishon-river.html">
+    <a class="person-card place-card--stub" href="places/kishon-river.html" data-name="kishon river" data-search="kishon river" data-people="1">
       <div class="name"><span class="name-text">Kishon River</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/lachish.html">
+    <a class="person-card" href="places/lachish.html" data-name="lachish" data-search="lachish" data-people="5">
       <div class="name"><strong class="name-text">Lachish</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card" href="places/land-of-nod.html">
+    <a class="person-card" href="places/land-of-nod.html" data-name="land of nod" data-search="land of nod" data-people="1">
       <div class="name"><strong class="name-text">Land of Nod</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/laodicea.html">
+    <a class="person-card" href="places/laodicea.html" data-name="laodicea" data-search="laodicea" data-people="1">
       <div class="name"><strong class="name-text">Laodicea</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/lo-debar.html">
+    <a class="person-card" href="places/lo-debar.html" data-name="lo-debar" data-search="lo-debar" data-people="3">
       <div class="name"><strong class="name-text">Lo-debar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/lydda.html">
+    <a class="person-card place-card--stub" href="places/lydda.html" data-name="lydda" data-search="lydda" data-people="1">
       <div class="name"><span class="name-text">Lydda</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/lystra.html">
+    <a class="person-card" href="places/lystra.html" data-name="lystra" data-search="lystra" data-people="3">
       <div class="name"><strong class="name-text">Lystra</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/macedonia.html">
+    <a class="person-card place-card--stub" href="places/macedonia.html" data-name="macedonia" data-search="macedonia" data-people="1">
       <div class="name"><span class="name-text">Macedonia</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/madon.html">
+    <a class="person-card place-card--stub" href="places/madon.html" data-name="madon" data-search="madon" data-people="1">
       <div class="name"><span class="name-text">Madon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/magdala.html">
+    <a class="person-card" href="places/magdala.html" data-name="magdala" data-search="magdala" data-people="1">
       <div class="name"><strong class="name-text">Magdala</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/magog.html">
+    <a class="person-card place-card--stub" href="places/magog.html" data-name="magog" data-search="magog" data-people="1">
       <div class="name"><span class="name-text">Magog</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mahanaim.html">
+    <a class="person-card" href="places/mahanaim.html" data-name="mahanaim" data-search="mahanaim" data-people="6">
       <div class="name"><strong class="name-text">Mahanaim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/makkedah.html">
+    <a class="person-card" href="places/makkedah.html" data-name="makkedah" data-search="makkedah" data-people="4">
       <div class="name"><strong class="name-text">Makkedah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card" href="places/malta.html">
+    <a class="person-card" href="places/malta.html" data-name="malta" data-search="malta" data-people="2">
       <div class="name"><strong class="name-text">Malta</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/mamre.html">
+    <a class="person-card place-card--stub" href="places/mamre.html" data-name="mamre" data-search="mamre" data-people="2">
       <div class="name"><span class="name-text">Mamre</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/maon.html">
+    <a class="person-card place-card--stub" href="places/maon.html" data-name="maon" data-search="maon" data-people="2">
       <div class="name"><span class="name-text">Maon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/mareshah.html">
+    <a class="person-card place-card--stub" href="places/mareshah.html" data-name="mareshah" data-search="mareshah" data-people="1">
       <div class="name"><span class="name-text">Mareshah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/mediterranean-sea.html">
+    <a class="person-card place-card--stub" href="places/mediterranean-sea.html" data-name="mediterranean sea" data-search="mediterranean sea" data-people="2">
       <div class="name"><span class="name-text">Mediterranean Sea</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Body of Water</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/megiddo.html">
+    <a class="person-card" href="places/megiddo.html" data-name="megiddo" data-search="megiddo" data-people="2">
       <div class="name"><strong class="name-text">Megiddo</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/meshech-and-tubal.html">
+    <a class="person-card place-card--stub" href="places/meshech-and-tubal.html" data-name="meshech and tubal" data-search="meshech and tubal" data-people="1">
       <div class="name"><span class="name-text">Meshech and Tubal</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mesopotamia.html">
+    <a class="person-card" href="places/mesopotamia.html" data-name="mesopotamia" data-search="mesopotamia" data-people="4">
       <div class="name"><strong class="name-text">Mesopotamia</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/michmash.html">
+    <a class="person-card place-card--stub" href="places/michmash.html" data-name="michmash" data-search="michmash" data-people="1">
       <div class="name"><span class="name-text">Michmash</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/midian.html">
+    <a class="person-card" href="places/midian.html" data-name="midian" data-search="midian" data-people="7">
       <div class="name"><strong class="name-text">Midian</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">7 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/miletus.html">
+    <a class="person-card place-card--stub" href="places/miletus.html" data-name="miletus" data-search="miletus" data-people="1">
       <div class="name"><span class="name-text">Miletus</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mizpah.html">
+    <a class="person-card" href="places/mizpah.html" data-name="mizpah" data-search="mizpah mizpeh" data-people="7">
       <div class="name"><strong class="name-text">Mizpah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">7 named people</span></div>
     </a>
-    <a class="person-card" href="places/moab.html">
+    <a class="person-card" href="places/moab.html" data-name="moab" data-search="moab" data-people="11">
       <div class="name"><strong class="name-text">Moab</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">11 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/moresheth.html">
+    <a class="person-card place-card--stub" href="places/moresheth.html" data-name="moresheth" data-search="moresheth" data-people="1">
       <div class="name"><span class="name-text">Moresheth</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mount-carmel.html">
+    <a class="person-card" href="places/mount-carmel.html" data-name="mount carmel" data-search="mount carmel" data-people="1">
       <div class="name"><strong class="name-text">Mount Carmel</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mount-gerizim.html">
+    <a class="person-card" href="places/mount-gerizim.html" data-name="mount gerizim" data-search="mount gerizim" data-people="1">
       <div class="name"><strong class="name-text">Mount Gerizim</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mount-gilboa.html">
+    <a class="person-card" href="places/mount-gilboa.html" data-name="mount gilboa" data-search="mount gilboa" data-people="3">
       <div class="name"><strong class="name-text">Mount Gilboa</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/mount-hor.html">
+    <a class="person-card place-card--stub" href="places/mount-hor.html" data-name="mount hor" data-search="mount hor" data-people="1">
       <div class="name"><span class="name-text">Mount Hor</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/mount-sinai.html">
+    <a class="person-card" href="places/mount-sinai.html" data-name="mount sinai" data-search="mount sinai horeb" data-people="6">
       <div class="name"><strong class="name-text">Mount Sinai</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/mount-tabor.html">
+    <a class="person-card" href="places/mount-tabor.html" data-name="mount tabor" data-search="mount tabor" data-people="3">
       <div class="name"><strong class="name-text">Mount Tabor</strong></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/mount-zemaraim.html">
+    <a class="person-card place-card--stub" href="places/mount-zemaraim.html" data-name="mount zemaraim" data-search="mount zemaraim" data-people="1">
       <div class="name"><span class="name-text">Mount Zemaraim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Mountain</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/naamah.html">
+    <a class="person-card place-card--stub" href="places/naamah.html" data-name="naamah" data-search="naamah" data-people="1">
       <div class="name"><span class="name-text">Naamah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/nazareth.html">
+    <a class="person-card" href="places/nazareth.html" data-name="nazareth" data-search="nazareth" data-people="5">
       <div class="name"><strong class="name-text">Nazareth</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/negev.html">
+    <a class="person-card place-card--stub" href="places/negev.html" data-name="negev" data-search="negev" data-people="1">
       <div class="name"><span class="name-text">Negev</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/nineveh.html">
+    <a class="person-card" href="places/nineveh.html" data-name="nineveh" data-search="nineveh" data-people="5">
       <div class="name"><strong class="name-text">Nineveh</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card" href="places/nob.html">
+    <a class="person-card" href="places/nob.html" data-name="nob" data-search="nob" data-people="3">
       <div class="name"><strong class="name-text">Nob</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/ophrah.html">
+    <a class="person-card" href="places/ophrah.html" data-name="ophrah" data-search="ophrah" data-people="3">
       <div class="name"><strong class="name-text">Ophrah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/paddan-aram.html">
+    <a class="person-card" href="places/paddan-aram.html" data-name="paddan-aram" data-search="paddan-aram aram-naharaim (in some contexts)" data-people="15">
       <div class="name"><strong class="name-text">Paddan-aram</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">15 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/paphos.html">
+    <a class="person-card place-card--stub" href="places/paphos.html" data-name="paphos" data-search="paphos" data-people="1">
       <div class="name"><span class="name-text">Paphos</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/pas-dammim.html">
+    <a class="person-card place-card--stub" href="places/pas-dammim.html" data-name="pas-dammim" data-search="pas-dammim" data-people="1">
       <div class="name"><span class="name-text">Pas-dammim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/patmos.html">
+    <a class="person-card" href="places/patmos.html" data-name="patmos" data-search="patmos" data-people="1">
       <div class="name"><strong class="name-text">Patmos</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/penuel.html">
+    <a class="person-card" href="places/penuel.html" data-name="penuel" data-search="penuel peniel" data-people="3">
       <div class="name"><strong class="name-text">Penuel</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/perea.html">
+    <a class="person-card place-card--stub" href="places/perea.html" data-name="perea" data-search="perea" data-people="1">
       <div class="name"><span class="name-text">Perea</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/perga.html">
+    <a class="person-card" href="places/perga.html" data-name="perga" data-search="perga" data-people="0">
       <div class="name"><strong class="name-text">Perga</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card" href="places/pergamum.html">
+    <a class="person-card" href="places/pergamum.html" data-name="pergamum" data-search="pergamum" data-people="1">
       <div class="name"><strong class="name-text">Pergamum</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/persia.html">
+    <a class="person-card" href="places/persia.html" data-name="persia" data-search="persia" data-people="4">
       <div class="name"><strong class="name-text">Persia</strong></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/pethor.html">
+    <a class="person-card place-card--stub" href="places/pethor.html" data-name="pethor" data-search="pethor" data-people="1">
       <div class="name"><span class="name-text">Pethor</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/philadelphia.html">
+    <a class="person-card" href="places/philadelphia.html" data-name="philadelphia" data-search="philadelphia" data-people="0">
       <div class="name"><strong class="name-text">Philadelphia</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card" href="places/philippi.html">
+    <a class="person-card" href="places/philippi.html" data-name="philippi" data-search="philippi" data-people="4">
       <div class="name"><strong class="name-text">Philippi</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/philistia.html">
+    <a class="person-card place-card--stub" href="places/philistia.html" data-name="philistia" data-search="philistia" data-people="2">
       <div class="name"><span class="name-text">Philistia</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/philistine-territory.html">
+    <a class="person-card" href="places/philistine-territory.html" data-name="philistine territory" data-search="philistine territory philistia" data-people="3">
       <div class="name"><strong class="name-text">Philistine Territory</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/pirathon.html">
+    <a class="person-card place-card--stub" href="places/pirathon.html" data-name="pirathon" data-search="pirathon" data-people="1">
       <div class="name"><span class="name-text">Pirathon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/plains-of-moab.html">
+    <a class="person-card" href="places/plains-of-moab.html" data-name="plains of moab" data-search="plains of moab" data-people="9">
       <div class="name"><strong class="name-text">Plains of Moab</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">9 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/pontus.html">
+    <a class="person-card place-card--stub" href="places/pontus.html" data-name="pontus" data-search="pontus" data-people="1">
       <div class="name"><span class="name-text">Pontus</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/rabbah.html">
+    <a class="person-card" href="places/rabbah.html" data-name="rabbah" data-search="rabbah rabbah of the ammonites" data-people="4">
       <div class="name"><strong class="name-text">Rabbah</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">4 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ramah.html">
+    <a class="person-card place-card--stub" href="places/ramah.html" data-name="ramah" data-search="ramah" data-people="1">
       <div class="name"><span class="name-text">Ramah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/ramathaim-zophim.html">
+    <a class="person-card" href="places/ramathaim-zophim.html" data-name="ramathaim-zophim" data-search="ramathaim-zophim ramah" data-people="3">
       <div class="name"><strong class="name-text">Ramathaim-zophim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ramoth-gilead.html">
+    <a class="person-card place-card--stub" href="places/ramoth-gilead.html" data-name="ramoth-gilead" data-search="ramoth-gilead" data-people="2">
       <div class="name"><span class="name-text">Ramoth-gilead</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/region-of-the-gerasenes.html">
+    <a class="person-card" href="places/region-of-the-gerasenes.html" data-name="region of the gerasenes" data-search="region of the gerasenes" data-people="1">
       <div class="name"><strong class="name-text">Region of the Gerasenes</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/rephidim.html">
+    <a class="person-card place-card--stub" href="places/rephidim.html" data-name="rephidim" data-search="rephidim" data-people="1">
       <div class="name"><span class="name-text">Rephidim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/riblah.html">
+    <a class="person-card" href="places/riblah.html" data-name="riblah" data-search="riblah" data-people="3">
       <div class="name"><strong class="name-text">Riblah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/rock-of-oreb.html">
+    <a class="person-card place-card--stub" href="places/rock-of-oreb.html" data-name="rock of oreb" data-search="rock of oreb" data-people="1">
       <div class="name"><span class="name-text">Rock of Oreb</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/rogelim.html">
+    <a class="person-card place-card--stub" href="places/rogelim.html" data-name="rogelim" data-search="rogelim" data-people="1">
       <div class="name"><span class="name-text">Rogelim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/rome.html">
+    <a class="person-card" href="places/rome.html" data-name="rome" data-search="rome" data-people="22">
       <div class="name"><strong class="name-text">Rome</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">22 named people</span></div>
     </a>
-    <a class="person-card" href="places/salem.html">
+    <a class="person-card" href="places/salem.html" data-name="salem" data-search="salem" data-people="1">
       <div class="name"><strong class="name-text">Salem</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/samaria.html">
+    <a class="person-card" href="places/samaria.html" data-name="samaria" data-search="samaria" data-people="40">
       <div class="name"><strong class="name-text">Samaria</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">40 named people</span></div>
     </a>
-    <a class="person-card" href="places/sardis.html">
+    <a class="person-card" href="places/sardis.html" data-name="sardis" data-search="sardis" data-people="0">
       <div class="name"><strong class="name-text">Sardis</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/seir.html">
+    <a class="person-card place-card--stub" href="places/seir.html" data-name="seir" data-search="seir" data-people="1">
       <div class="name"><span class="name-text">Seir</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/shamir.html">
+    <a class="person-card place-card--stub" href="places/shamir.html" data-name="shamir" data-search="shamir" data-people="1">
       <div class="name"><span class="name-text">Shamir</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/sheba.html">
+    <a class="person-card place-card--stub" href="places/sheba.html" data-name="sheba" data-search="sheba" data-people="1">
       <div class="name"><span class="name-text">Sheba</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/shechem.html">
+    <a class="person-card" href="places/shechem.html" data-name="shechem" data-search="shechem sychar" data-people="11">
       <div class="name"><strong class="name-text">Shechem</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">11 named people</span></div>
     </a>
-    <a class="person-card" href="places/shiloh.html">
+    <a class="person-card" href="places/shiloh.html" data-name="shiloh" data-search="shiloh" data-people="9">
       <div class="name"><strong class="name-text">Shiloh</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">9 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/shinar.html">
+    <a class="person-card place-card--stub" href="places/shinar.html" data-name="shinar" data-search="shinar" data-people="2">
       <div class="name"><span class="name-text">Shinar</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/shittim.html">
+    <a class="person-card" href="places/shittim.html" data-name="shittim" data-search="shittim" data-people="1">
       <div class="name"><strong class="name-text">Shittim</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/shuah.html">
+    <a class="person-card place-card--stub" href="places/shuah.html" data-name="shuah" data-search="shuah" data-people="1">
       <div class="name"><span class="name-text">Shuah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/shunem.html">
+    <a class="person-card place-card--stub" href="places/shunem.html" data-name="shunem" data-search="shunem" data-people="1">
       <div class="name"><span class="name-text">Shunem</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/sidon.html">
+    <a class="person-card place-card--stub" href="places/sidon.html" data-name="sidon" data-search="sidon" data-people="1">
       <div class="name"><span class="name-text">Sidon</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/sinai.html">
+    <a class="person-card" href="places/sinai.html" data-name="sinai" data-search="sinai wilderness of sinai sinai peninsula" data-people="15">
       <div class="name"><strong class="name-text">Sinai</strong></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">15 named people</span></div>
     </a>
-    <a class="person-card" href="places/smyrna.html">
+    <a class="person-card" href="places/smyrna.html" data-name="smyrna" data-search="smyrna" data-people="0">
       <div class="name"><strong class="name-text">Smyrna</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">no named people</span></div>
     </a>
-    <a class="person-card" href="places/sodom.html">
+    <a class="person-card" href="places/sodom.html" data-name="sodom" data-search="sodom" data-people="2">
       <div class="name"><strong class="name-text">Sodom</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/succoth.html">
+    <a class="person-card place-card--stub" href="places/succoth.html" data-name="succoth" data-search="succoth" data-people="2">
       <div class="name"><span class="name-text">Succoth</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/susa.html">
+    <a class="person-card" href="places/susa.html" data-name="susa" data-search="susa shushan" data-people="14">
       <div class="name"><strong class="name-text">Susa</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">14 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/tarsus.html">
+    <a class="person-card place-card--stub" href="places/tarsus.html" data-name="tarsus" data-search="tarsus" data-people="1">
       <div class="name"><span class="name-text">Tarsus</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/tekoa.html">
+    <a class="person-card place-card--stub" href="places/tekoa.html" data-name="tekoa" data-search="tekoa" data-people="2">
       <div class="name"><span class="name-text">Tekoa</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/teman.html">
+    <a class="person-card place-card--stub" href="places/teman.html" data-name="teman" data-search="teman" data-people="1">
       <div class="name"><span class="name-text">Teman</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/thebez.html">
+    <a class="person-card" href="places/thebez.html" data-name="thebez" data-search="thebez" data-people="1">
       <div class="name"><strong class="name-text">Thebez</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/thessalonica.html">
+    <a class="person-card place-card--stub" href="places/thessalonica.html" data-name="thessalonica" data-search="thessalonica" data-people="2">
       <div class="name"><span class="name-text">Thessalonica</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/thyatira.html">
+    <a class="person-card" href="places/thyatira.html" data-name="thyatira" data-search="thyatira" data-people="2">
       <div class="name"><strong class="name-text">Thyatira</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/timnah.html">
+    <a class="person-card" href="places/timnah.html" data-name="timnah" data-search="timnah" data-people="3">
       <div class="name"><strong class="name-text">Timnah</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/tirzah.html">
+    <a class="person-card" href="places/tirzah.html" data-name="tirzah" data-search="tirzah" data-people="6">
       <div class="name"><strong class="name-text">Tirzah</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">6 named people</span></div>
     </a>
-    <a class="person-card" href="places/transjordan.html">
+    <a class="person-card" href="places/transjordan.html" data-name="transjordan" data-search="transjordan east of the jordan" data-people="3">
       <div class="name"><strong class="name-text">Transjordan</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/troas.html">
+    <a class="person-card place-card--stub" href="places/troas.html" data-name="troas" data-search="troas" data-people="1">
       <div class="name"><span class="name-text">Troas</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/tyre.html">
+    <a class="person-card" href="places/tyre.html" data-name="tyre" data-search="tyre" data-people="3">
       <div class="name"><strong class="name-text">Tyre</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/ur-of-the-chaldeans.html">
+    <a class="person-card" href="places/ur-of-the-chaldeans.html" data-name="ur of the chaldeans" data-search="ur of the chaldeans ur" data-people="3">
       <div class="name"><strong class="name-text">Ur of the Chaldeans</strong></div>
       <div class="meta"><span class="badge">City</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/uz.html">
+    <a class="person-card" href="places/uz.html" data-name="uz" data-search="uz" data-people="5">
       <div class="name"><strong class="name-text">Uz</strong></div>
       <div class="meta"><span class="badge">Region</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card" href="places/valley-of-achor.html">
+    <a class="person-card" href="places/valley-of-achor.html" data-name="valley of achor" data-search="valley of achor" data-people="1">
       <div class="name"><strong class="name-text">Valley of Achor</strong></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/valley-of-elah.html">
+    <a class="person-card" href="places/valley-of-elah.html" data-name="valley of elah" data-search="valley of elah" data-people="3">
       <div class="name"><strong class="name-text">Valley of Elah</strong></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card" href="places/valley-of-siddim.html">
+    <a class="person-card" href="places/valley-of-siddim.html" data-name="valley of siddim" data-search="valley of siddim vale of siddim" data-people="5">
       <div class="name"><strong class="name-text">Valley of Siddim</strong></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">5 named people</span></div>
     </a>
-    <a class="person-card" href="places/valley-of-sorek.html">
+    <a class="person-card" href="places/valley-of-sorek.html" data-name="valley of sorek" data-search="valley of sorek" data-people="1">
       <div class="name"><strong class="name-text">Valley of Sorek</strong></div>
       <div class="meta"><span class="badge">Valley</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/waters-of-merom.html">
+    <a class="person-card place-card--stub" href="places/waters-of-merom.html" data-name="waters of merom" data-search="waters of merom" data-people="1">
       <div class="name"><span class="name-text">Waters of Merom</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Body of Water</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/wilderness-of-judea.html">
+    <a class="person-card" href="places/wilderness-of-judea.html" data-name="wilderness of judea" data-search="wilderness of judea" data-people="1">
       <div class="name"><strong class="name-text">Wilderness of Judea</strong></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card" href="places/wilderness-of-paran.html">
+    <a class="person-card" href="places/wilderness-of-paran.html" data-name="wilderness of paran" data-search="wilderness of paran" data-people="7">
       <div class="name"><strong class="name-text">Wilderness of Paran</strong></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">7 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/wilderness-of-shur.html">
+    <a class="person-card place-card--stub" href="places/wilderness-of-shur.html" data-name="wilderness of shur" data-search="wilderness of shur" data-people="1">
       <div class="name"><span class="name-text">Wilderness of Shur</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Wilderness</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/zaanannim.html">
+    <a class="person-card place-card--stub" href="places/zaanannim.html" data-name="zaanannim" data-search="zaanannim" data-people="1">
       <div class="name"><span class="name-text">Zaanannim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Site</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/zeboiim.html">
+    <a class="person-card place-card--stub" href="places/zeboiim.html" data-name="zeboiim" data-search="zeboiim" data-people="1">
       <div class="name"><span class="name-text">Zeboiim</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">City</span><span class="badge">1 named person</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/ziklag.html">
+    <a class="person-card place-card--stub" href="places/ziklag.html" data-name="ziklag" data-search="ziklag" data-people="2">
       <div class="name"><span class="name-text">Ziklag</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card" href="places/zoar.html">
+    <a class="person-card" href="places/zoar.html" data-name="zoar" data-search="zoar bela" data-people="3">
       <div class="name"><strong class="name-text">Zoar</strong></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">3 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/zobah.html">
+    <a class="person-card place-card--stub" href="places/zobah.html" data-name="zobah" data-search="zobah" data-people="2">
       <div class="name"><span class="name-text">Zobah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Nation</span><span class="badge">2 named people</span></div>
     </a>
-    <a class="person-card place-card--stub" href="places/zorah.html">
+    <a class="person-card place-card--stub" href="places/zorah.html" data-name="zorah" data-search="zorah" data-people="2">
       <div class="name"><span class="name-text">Zorah</span> <span class="badge stub">name only</span></div>
       <div class="meta"><span class="badge">Town</span><span class="badge">2 named people</span></div>
     </a>
@@ -1028,6 +1037,6 @@
 </footer>
 
 <script src="js/app.js"></script>
-<script>initNavToggle();initPlacesToggle();</script>
+<script>initNavToggle();initPlacesList();</script>
 </body>
 </html>

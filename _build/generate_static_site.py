@@ -870,6 +870,8 @@ def person_card_html(entry):
     disamb_html = ""
     if entry.get("disambiguation"):
         disamb_html = f'\n      <div class="disambiguation">{esc(entry["disambiguation"])}</div>'
+    elif entry.get("first_reference"):
+        disamb_html = f'\n      <div class="first-reference">First named in {esc(entry["first_reference"])}</div>'
     return f"""<a class="person-card" href="people/{entry['person_id']}.html">
       <div class="name">{name_gender}</div>{disamb_html}
       <div class="meta"><span class="badge {testament_class}">{esc(entry.get("testament", ""))}</span>{meta_badge}</div>
@@ -1313,7 +1315,8 @@ def place_card_html(entry):
     disamb_html = f'\n      <div class="disambiguation">{esc(entry["disambiguation"])}</div>' if entry.get("disambiguation") else ""
     stub_badge = ' <span class="badge stub">name only</span>' if entry["tier"] == "stub" else ""
     stub_cls = " place-card--stub" if entry["tier"] == "stub" else ""
-    return f"""<a class="person-card{stub_cls}" href="places/{esc(entry['place_id'])}.html">
+    search_terms = " ".join([entry["name"], *entry.get("alt_names", [])]).lower()
+    return f"""<a class="person-card{stub_cls}" href="places/{esc(entry['place_id'])}.html" data-name="{esc(entry['name'].lower())}" data-search="{esc(search_terms)}" data-people="{entry['n_people']}">
       <div class="name">{name_html}{stub_badge}</div>{disamb_html}
       <div class="meta"><span class="badge">{esc(place_type_label(entry["type"]))}</span><span class="badge">{esc(count_label)}</span></div>
     </a>"""
@@ -1381,11 +1384,20 @@ def build_places_list_page(places_index):
   <h2>Places</h2>
 
   <div class="controls">
+    <input type="search" id="place-search" placeholder="Search by name…">
+    <select id="place-sort">
+      <option value="name-asc">Name (A–Z)</option>
+      <option value="name-desc">Name (Z–A)</option>
+      <option value="people-desc">Most named people</option>
+      <option value="people-asc">Fewest named people</option>
+    </select>
     <label class="controls__checkbox">
       <input type="checkbox" id="places-include-stubs">
       Include name-only places ({len(stub)})
     </label>
   </div>
+
+  <div id="result-count"></div>
 
   <div id="place-grid" class="person-grid">
     {cards}
@@ -1398,7 +1410,7 @@ def build_places_list_page(places_index):
 {footer_html(base)}
 
 <script src="{base}js/app.js"></script>
-<script>initNavToggle();initPlacesToggle();</script>
+<script>initNavToggle();initPlacesList();</script>
 </body>
 </html>
 """
