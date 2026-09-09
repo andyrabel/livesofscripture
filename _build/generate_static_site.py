@@ -286,6 +286,13 @@ def timeline_link(person_id, base):
     return f'<p><a href="{base}timeline.html?highlight={person_id}">See on the full timeline →</a></p>'
 
 
+def herods_chart_link(base):
+    return (
+        f'<p><a href="{base}charts/herods-and-jesus.html">'
+        f'See on the Herods, John the Baptist &amp; Jesus timeline &rarr;</a></p>'
+    )
+
+
 def gender_tag(gender):
     if gender == "male":
         return ' <span class="gender-tag gender-tag--male">(M)</span>'
@@ -608,6 +615,9 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     if person.get("timeline"):
         parts.append(timeline_link(person["person_id"], base))
 
+    if person["person_id"] in HERODS_CHART_PERSON_IDS:
+        parts.append(herods_chart_link(base))
+
     if people_by_name:
         group_key = name_grouping_key(person["name"])
         same_name = [
@@ -662,6 +672,9 @@ def render_stub_person_body(person, index_by_id, gender_by_id, connections, base
         parts.append(church_section)
 
     parts.append(connections_graph_link(person["person_id"], base))
+
+    if person["person_id"] in HERODS_CHART_PERSON_IDS:
+        parts.append(herods_chart_link(base))
 
     if people_by_name:
         group_key = name_grouping_key(person["name"])
@@ -2291,6 +2304,333 @@ def render_kings_and_prophets_legend():
         for key, label in KP_NATION_LABELS.items()
     )
     return f'<div class="kp-legend">{items}</div>'
+
+
+# ---------------------------------------------------------------------
+# "The Herods, John the Baptist & Jesus" timeline chart
+# (charts.html hub + charts/herods-and-jesus.html)
+# ---------------------------------------------------------------------
+#
+# A small hand-curated time chart. Every ruling Herod named in the New
+# Testament, laid out against the lifetimes of John the Baptist and Jesus.
+# Reign spans follow the standard evangelical NT chronology (Roman-era
+# cross-references make these far firmer than OT dates -- see the Timeline
+# section of CLAUDE.md), all marked "c.". Herod the Great's death (4 BC)
+# and the date of the crucifixion (c. AD 30, some argue AD 33) are the two
+# genuinely disputed points -- noted in the page disclaimer rather than
+# presented as settled. `person_id` is None for Jesus (the site has no
+# person page for him) and for Philip the Tetrarch's reference row is a
+# stub; bars still link where a full page exists.
+
+HERODS_MIN_YEAR = -40
+HERODS_MAX_YEAR = 100
+
+HERODS_GROUP_COLOR = {
+    "herod": "var(--kp-united)",
+    "john": "var(--era-judges)",
+    "jesus": "var(--era-gospels)",
+}
+HERODS_LEGEND = [
+    ("herod", "Herod ruler (reign)"),
+    ("john", "John the Baptist (life)"),
+    ("jesus", "Jesus (life)"),
+]
+
+# Ordered top-to-bottom. group -> which colour/legend key; groups are
+# rendered under a heading in this order: "herod", then "john"/"jesus".
+HERODS_ENTRIES = [
+    {
+        "person_id": "herod", "name": "Herod the Great", "group": "herod",
+        "start": -37, "end": -4, "role": "King of Judea",
+        "reference": "Matthew 2:1-19",
+        "note": "Ruled at Jesus's birth; ordered the killing of the boys of Bethlehem.",
+    },
+    {
+        "person_id": "archelaus", "name": "Herod Archelaus", "group": "herod",
+        "start": -4, "end": 6, "role": "Ethnarch of Judea",
+        "reference": "Matthew 2:22",
+        "note": "His harsh rule kept Joseph from returning to Judea; deposed and exiled by Rome.",
+    },
+    {
+        "person_id": "herod-2", "name": "Herod Antipas", "group": "herod",
+        "start": -4, "end": 39, "role": "Tetrarch of Galilee and Perea",
+        "reference": "Luke 3:1",
+        "note": "Imprisoned and beheaded John the Baptist (Mark 6:14-29); questioned Jesus at his trial (Luke 23:7-12).",
+    },
+    {
+        "person_id": "philip-2", "name": "Philip the Tetrarch", "group": "herod",
+        "start": -4, "end": 34, "role": "Tetrarch of Iturea and Trachonitis",
+        "reference": "Luke 3:1",
+        "note": "Son of Herod the Great; his tetrarchy is one of the regions named in Luke's dating of John's ministry.",
+    },
+    {
+        "person_id": "herod-3", "name": "Herod Agrippa I", "group": "herod",
+        "start": 37, "end": 44, "role": "King of Judea",
+        "reference": "Acts 12:1-23",
+        "note": "Executed the apostle James and imprisoned Peter; struck down and died after accepting the crowd's worship.",
+    },
+    {
+        "person_id": "agrippa", "name": "Herod Agrippa II", "group": "herod",
+        "start": 50, "end": 93, "role": "King; last of the Herods",
+        "reference": "Acts 25:13-26:32",
+        "note": "Heard Paul's defense at Caesarea (c. AD 59) and judged he could have been freed had he not appealed to Caesar.",
+    },
+    {
+        "person_id": "john", "name": "John the Baptist", "group": "john",
+        "start": -5, "end": 30, "role": "Forerunner of the Messiah",
+        "reference": "Luke 1:5-80",
+        "note": "Born in the reign of Herod the Great; began preaching c. AD 28-29 (Luke 3:1-3); beheaded by Antipas c. AD 30.",
+    },
+    {
+        "person_id": None, "name": "Jesus", "group": "jesus",
+        "start": -5, "end": 30, "role": "The Messiah",
+        "reference": "Luke 2:1-7",
+        "note": "Born before Herod the Great's death (Matthew 2:1); public ministry c. AD 27-30; crucified and risen c. AD 30 under Pontius Pilate.",
+    },
+]
+
+HERODS_GROUP_HEADINGS = [
+    ("herod", "The Herod dynasty"),
+    (("john", "jesus"), "The forerunner and the Messiah"),
+]
+
+# person_ids that appear on the chart -- used to add a "see on this chart"
+# link to each of those people's detail pages. Jesus has no person_id.
+HERODS_CHART_PERSON_IDS = {e["person_id"] for e in HERODS_ENTRIES if e["person_id"]}
+
+
+def herods_format_year(year):
+    if year == 0:
+        return "AD 1"
+    return f"{-year} BC" if year < 0 else f"AD {year}"
+
+
+def herods_span_label(start, end):
+    if start < 0 and end < 0:
+        return f"{-start}–{-end} BC"
+    if start < 0 <= end:
+        return f"{-start} BC–AD {end}"
+    return f"AD {start}–{end}"
+
+
+def render_herods_svg(entries):
+    margin_left = 176
+    margin_right = 18
+    plot_width = 880
+    bar_h = 22
+    row_gap = 13
+    group_heading_h = 24
+    group_gap = 10
+    axis_h = 28
+
+    row_span = bar_h + row_gap
+    total_w = margin_left + plot_width + margin_right
+
+    def x_of(year):
+        year = max(HERODS_MIN_YEAR, min(HERODS_MAX_YEAR, year))
+        return margin_left + (year - HERODS_MIN_YEAR) / (HERODS_MAX_YEAR - HERODS_MIN_YEAR) * plot_width
+
+    # Vertical extent: axis + each heading + its rows, with a gap between groups.
+    total_h = axis_h + group_gap
+    for group_keys, _ in HERODS_GROUP_HEADINGS:
+        keys = (group_keys,) if isinstance(group_keys, str) else group_keys
+        count = sum(1 for e in entries if e["group"] in keys)
+        total_h += group_heading_h + count * row_span + group_gap
+    total_h += 6
+
+    parts = [
+        f'<svg id="herods-chart-svg" viewBox="0 0 {total_w} {total_h:.0f}" width="{total_w}" height="{total_h:.0f}" '
+        f'role="img" aria-label="Timeline of the ruling Herods of the New Testament alongside the lifetimes of '
+        f'John the Baptist and Jesus" xmlns="http://www.w3.org/2000/svg" class="kp-chart-svg">'
+    ]
+
+    # Year gridlines + axis labels.
+    y_top = axis_h
+    y_bottom = total_h - 4
+    tick = HERODS_MIN_YEAR
+    while tick <= HERODS_MAX_YEAR:
+        tx = x_of(tick)
+        parts.append(f'<line x1="{tx:.1f}" y1="{y_top}" x2="{tx:.1f}" y2="{y_bottom}" class="kp-gridline" />')
+        parts.append(
+            f'<text x="{tx:.1f}" y="16" class="kp-axis-label" text-anchor="middle">{esc(herods_format_year(tick))}</text>'
+        )
+        tick += 20
+
+    y = axis_h + group_gap
+    for group_keys, heading in HERODS_GROUP_HEADINGS:
+        keys = (group_keys,) if isinstance(group_keys, str) else group_keys
+        parts.append(f'<text x="10" y="{y + 15:.0f}" class="kp-row-label">{esc(heading)}</text>')
+        y += group_heading_h
+        for entry in [e for e in entries if e["group"] in keys]:
+            bx = x_of(entry["start"])
+            bw = max(3.0, x_of(entry["end"]) - bx)
+            color = HERODS_GROUP_COLOR[entry["group"]]
+            span = herods_span_label(entry["start"], entry["end"])
+            title = f'{entry["name"]} — {entry["role"]}, c. {span} ({entry["reference"]})'
+
+            parts.append(
+                f'<text x="12" y="{y + bar_h / 2 + 4:.1f}" class="herods-name">{esc(entry["name"])}</text>'
+            )
+            if entry["person_id"]:
+                parts.append(f'<a href="../people/{entry["person_id"]}.html">')
+            parts.append(
+                f'<rect x="{bx:.1f}" y="{y:.1f}" width="{bw:.1f}" height="{bar_h}" rx="4" fill="{color}" '
+                f'class="kp-bar" tabindex="0" data-name="{esc(entry["name"])}" data-nation="{esc(entry["role"])}" '
+                f'data-span="c. {esc(span)}" data-reference="{esc(entry["reference"])}">'
+                f'<title>{esc(title)}</title></rect>'
+            )
+            if entry["person_id"]:
+                parts.append("</a>")
+
+            # Span label just past the bar's end, or before its start if that
+            # would run off the right edge.
+            label_w = kp_text_width(span, 9.5)
+            if bx + bw + 6 + label_w <= margin_left + plot_width:
+                parts.append(
+                    f'<text x="{bx + bw + 6:.1f}" y="{y + bar_h / 2 + 3.5:.1f}" '
+                    f'class="kp-callout-label">{esc(span)}</text>'
+                )
+            else:
+                parts.append(
+                    f'<text x="{bx - 6:.1f}" y="{y + bar_h / 2 + 3.5:.1f}" '
+                    f'class="kp-callout-label" text-anchor="end">{esc(span)}</text>'
+                )
+            y += row_span
+        y += group_gap
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def render_herods_legend():
+    items = "\n    ".join(
+        f'<span class="kp-legend-item"><span class="kp-legend-swatch" style="background:{HERODS_GROUP_COLOR[key]}"></span>{esc(label)}</span>'
+        for key, label in HERODS_LEGEND
+    )
+    return f'<div class="kp-legend">{items}</div>'
+
+
+def render_herods_table(entries):
+    def row_html(e):
+        name_cell = (
+            f'<a href="../people/{e["person_id"]}.html">{esc(e["name"])}</a>'
+            if e["person_id"] else esc(e["name"])
+        )
+        return (
+            f'<tr><td>{name_cell}</td><td>{esc(e["role"])}</td>'
+            f'<td>c. {esc(herods_span_label(e["start"], e["end"]))}</td>'
+            f'<td>{esc(e["reference"])}</td><td>{esc(e["note"])}</td></tr>'
+        )
+
+    body_rows = "\n    ".join(row_html(e) for e in entries)
+    return f"""<details class="kp-table-details">
+    <summary>View as a table</summary>
+    <div class="table-scroll">
+    <table class="kp-table">
+      <thead><tr><th>Name</th><th>Role</th><th>Dates</th><th>Reference</th><th>Note</th></tr></thead>
+      <tbody>
+    {body_rows}
+      </tbody>
+    </table>
+    </div>
+  </details>"""
+
+
+def build_herods_and_jesus_chart_page(entries):
+    base = "../"
+    canonical = f"{SITE_URL}/charts/herods-and-jesus.html"
+    title = "The Herods, John the Baptist & Jesus — Lives of Scripture"
+    description = ("A timeline of the ruling Herods of the New Testament — Herod the Great, "
+                   "Archelaus, Antipas, Philip, Agrippa I and II — set against the lifetimes of "
+                   "John the Baptist and Jesus.")
+    breadcrumb_ld = breadcrumb_json_ld([
+        ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
+        (title.replace(" — Lives of Scripture", ""), None),
+    ])
+
+    svg = render_herods_svg(entries)
+    legend = render_herods_legend()
+    table = render_herods_table(entries)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{canonical}">
+
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="{base}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">
+
+<link rel="manifest" href="{base}manifest.json">
+<meta name="theme-color" content="#7a5c2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lives of Scripture">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lives of Scripture">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+
+<link rel="stylesheet" href="{base}css/style.css">
+<script type="application/ld+json">
+{breadcrumb_ld}
+</script>
+</head>
+<body>
+{header_html(base, "charts.html")}
+
+<main>
+  <p><a href="{base}charts.html">&larr; Charts</a></p>
+  <h2>The Herods, John the Baptist &amp; Jesus</h2>
+  <p class="page-intro">Six rulers of the Herod family appear in the New Testament, spanning nearly
+  a century and a half. This chart lays their reigns against the lifetimes of John the Baptist and
+  Jesus, so it is easy to see which Herod stood where in the Gospel and Acts narratives. Bars are
+  clickable and link to that person's page; hover or focus a bar for exact dates.</p>
+
+  <div class="kp-legend-row">
+    {legend}
+    <div class="kp-chart-toolbar">
+    <button type="button" class="kp-chart-copy" id="herods-chart-copy">&#128203; Copy image</button>
+    <button type="button" class="kp-chart-expand" id="herods-chart-expand">&#128269; View larger</button>
+    </div>
+  </div>
+
+  <div class="kp-chart-scroll">
+  {svg}
+  </div>
+
+  <p class="kp-disclaimer">New Testament dates rest on Roman-era cross-references and are far firmer
+  than Old Testament chronology, but two points are genuinely disputed and marked &ldquo;c.&rdquo;
+  throughout: the death of Herod the Great (most place it in 4&nbsp;BC; some argue 1&nbsp;BC) and the
+  date of the crucifixion (c. AD&nbsp;30, though a significant number of evangelical scholars hold
+  AD&nbsp;33). The chart follows the more common 4&nbsp;BC / AD&nbsp;30 framework; shifting to the
+  alternative moves John's and Jesus's bars a few years later but changes none of the relationships
+  the chart shows.</p>
+
+  {table}
+</main>
+
+{footer_html(base)}
+
+<script src="{base}js/app.js"></script>
+<script>initNavToggle(); initKpChartTooltips(); initChartLightbox("herods-chart-expand", "herods-chart-svg", "The Herods, John the Baptist and Jesus, enlarged"); initChartCopyButton("herods-chart-copy", "herods-chart-svg");</script>
+</body>
+</html>
+"""
 
 
 # ---------------------------------------------------------------------
@@ -4299,7 +4639,7 @@ def build_charts_list_page():
     base = ""
     canonical = f"{SITE_URL}/charts.html"
     title = "Charts — Lives of Scripture"
-    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, who's speaking in each chapter of Job, and whose story each chapter of Genesis and Acts tells."
+    description = "Visual charts across the whole dataset, including the kings of Israel and Judah, the two genealogies of Jesus, the twelve tribes, the Herods alongside John the Baptist and Jesus, who's speaking in each chapter of Job, and whose story each chapter of Genesis and Acts tells."
     breadcrumb_ld = breadcrumb_json_ld([("Home", f"{SITE_URL}/"), ("Charts", None)])
 
     return f"""<!DOCTYPE html>
@@ -4377,6 +4717,11 @@ def build_charts_list_page():
       <div class="name"><strong>Acts &mdash; Main Characters by Chapter</strong></div>
       <p class="chart-card-desc">All 28 chapters of Acts, colored by whose story it tells — the book's
       pivot from Peter's ministry to Paul's, with Stephen and Philip between.</p>
+    </a>
+    <a class="person-card" href="{base}charts/herods-and-jesus.html">
+      <div class="name"><strong>The Herods, John the Baptist &amp; Jesus</strong></div>
+      <p class="chart-card-desc">The six ruling Herods of the New Testament — Herod the Great through
+      Agrippa II — on one timeline with the lifetimes of John the Baptist and Jesus.</p>
     </a>
   </div>
 
@@ -4524,6 +4869,7 @@ def build_sitemap(index, churches, places_index):
         (f"{SITE_URL}/charts/job-chapters.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/genesis-chapters.html", "monthly", "0.6"),
         (f"{SITE_URL}/charts/acts-chapters.html", "monthly", "0.6"),
+        (f"{SITE_URL}/charts/herods-and-jesus.html", "monthly", "0.6"),
         (f"{SITE_URL}/quiz.html", "monthly", "0.5"),
         (f"{SITE_URL}/about.html", "monthly", "0.4"),
     ]
@@ -4688,6 +5034,7 @@ def main():
     (charts_dir / "job-chapters.html").write_text(build_job_chapters_chart_page(JC_CHAPTERS))
     (charts_dir / "genesis-chapters.html").write_text(build_genesis_chapters_chart_page(GC_CHAPTERS))
     (charts_dir / "acts-chapters.html").write_text(build_acts_chapters_chart_page(ACC_CHAPTERS))
+    (charts_dir / "herods-and-jesus.html").write_text(build_herods_and_jesus_chart_page(HERODS_ENTRIES))
     (ROOT / "charts.html").write_text(build_charts_list_page())
 
     build_sitemap(index, churches, places_index)

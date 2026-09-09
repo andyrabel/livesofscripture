@@ -2714,6 +2714,14 @@ header.site-header nav a.nav-cta:hover {
   pointer-events: none;
 }
 
+/* Left-gutter person names on the Herods / John the Baptist / Jesus
+   time chart (charts/herods-and-jesus.html). */
+.herods-name {
+  fill: var(--color-text);
+  font-size: 11px;
+  pointer-events: none;
+}
+
 .kp-leader-line {
   stroke: var(--color-text-muted);
   stroke-width: 1;
