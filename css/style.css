@@ -2763,6 +2763,13 @@ header.site-header nav a.nav-cta:hover {
   pointer-events: none;
 }
 
+.herods-event-label {
+  fill: var(--color-text-muted);
+  font-size: 7px;
+  letter-spacing: 0.1px;
+  pointer-events: none;
+}
+
 .herods-event-connector {
   fill: none;
   stroke: var(--color-text-muted);

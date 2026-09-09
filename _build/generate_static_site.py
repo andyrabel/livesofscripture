@@ -2329,11 +2329,13 @@ HERODS_GROUP_COLOR = {
     "herod": "var(--kp-united)",
     "john": "var(--era-judges)",
     "jesus": "var(--era-gospels)",
+    "paul": "var(--era-apostolic)",
 }
 HERODS_LEGEND = [
     ("herod", "Herod ruler (reign)"),
     ("john", "John the Baptist (life)"),
     ("jesus", "Jesus (life)"),
+    ("paul", "Paul the apostle (life)"),
 ]
 
 # Ordered top-to-bottom. group -> which colour/legend key; groups are
@@ -2387,10 +2389,10 @@ HERODS_ENTRIES = [
     },
     {
         "person_id": "john", "name": "John the Baptist", "group": "john",
-        "start": -5, "end": 30, "role": "Forerunner of the Messiah",
+        "start": -5, "end": 29, "role": "Forerunner of the Messiah",
         "chart_ref": "Luke 1; 3; Matthew 3",
         "reference": "Luke 1:5-80; 3:1-20; Matthew 3:1-17; 14:1-12",
-        "note": "Born in the reign of Herod the Great; began preaching c. AD 28-29 (Luke 3:1-3); beheaded by Antipas c. AD 30.",
+        "note": "Born in the reign of Herod the Great; began preaching c. AD 28 (Luke 3:1-3); beheaded by Antipas c. AD 29, about a year before the crucifixion.",
     },
     {
         "person_id": None, "name": "Jesus", "group": "jesus",
@@ -2399,11 +2401,19 @@ HERODS_ENTRIES = [
         "reference": "Matthew 1:18-2:23; Luke 2:1-52; 3:21-23",
         "note": "Born before Herod the Great's death (Matthew 2:1); public ministry c. AD 27-30; crucified and risen c. AD 30 under Pontius Pilate.",
     },
+    {
+        "person_id": "paul", "name": "Paul", "group": "paul",
+        "start": 5, "end": 67, "role": "Apostle to the Gentiles",
+        "chart_ref": "Acts 9; 21-28",
+        "reference": "Acts 9:1-30; 21:27-26:32; 28:16-31; Galatians 1:15-2:1",
+        "note": "Born at Tarsus c. AD 5; met the risen Christ near Damascus c. AD 34; held two years at Caesarea and examined by Agrippa II c. AD 59 (Acts 25-26); taken to Rome, where church tradition places his death under Nero c. AD 64-67.",
+    },
 ]
 
 HERODS_GROUP_HEADINGS = [
     ("herod", "The Herod dynasty"),
     (("john", "jesus"), "The forerunner and the Messiah"),
+    ("paul", "The apostle Paul"),
 ]
 
 # person_ids that appear on the chart -- used to add a "see on this chart"
@@ -2417,37 +2427,37 @@ HERODS_CHART_PERSON_IDS = {e["person_id"] for e in HERODS_ENTRIES if e["person_i
 # numbered list below it. `approx` False only where the date is firmly fixed
 # by Roman records (Agrippa I's death, AD 44).
 HERODS_EVENTS = [
-    {"year": -6, "herod": "herod",
+    {"year": -6, "herod": "herod", "label": "Days of Herod",
      "text": "An angel tells Zacharias that his son John will be born — dated “in the days of Herod, king of Judea.”",
      "reference": "Luke 1:5-13"},
-    {"year": -5, "herod": "herod",
+    {"year": -5, "herod": "herod", "label": "Jesus born",
      "text": "Jesus is born in Bethlehem “in the days of Herod the king.”",
      "reference": "Matthew 2:1"},
-    {"year": -5, "herod": "herod",
+    {"year": -5, "herod": "herod", "label": "Wise men",
      "text": "Wise men from the east ask Herod where the newborn king of the Jews is, then find and worship the child.",
      "reference": "Matthew 2:1-12"},
-    {"year": -4, "herod": "herod",
+    {"year": -4, "herod": "herod", "label": "Flight to Egypt",
      "text": "Herod orders every boy in Bethlehem under two years old killed; an angel warns Joseph, who takes the family to Egypt.",
      "reference": "Matthew 2:13-18"},
-    {"year": -3, "herod": "archelaus",
+    {"year": -3, "herod": "archelaus", "label": "Home to Nazareth",
      "text": "After Herod's death Joseph brings the family back, but settles in Nazareth on hearing Archelaus now rules Judea.",
      "reference": "Matthew 2:19-23"},
-    {"year": 28, "herod": "herod-2",
+    {"year": 28, "herod": "herod-2", "label": "John's ministry",
      "text": "John the Baptist begins preaching in the wilderness, dated by the rule of Antipas in Galilee and Philip in Iturea.",
      "reference": "Luke 3:1-3"},
-    {"year": 29, "herod": "herod-2",
+    {"year": 29, "herod": "herod-2", "label": "John arrested",
      "text": "Antipas arrests John for condemning his marriage to Herodias, his brother's wife.",
      "reference": "Luke 3:19-20"},
-    {"year": 30, "herod": "herod-2",
+    {"year": 29, "herod": "herod-2", "label": "John beheaded",
      "text": "At Herodias's prompting, Antipas has John beheaded after her daughter dances at his birthday feast.",
      "reference": "Mark 6:21-29"},
-    {"year": 30, "herod": "herod-2",
+    {"year": 30, "herod": "herod-2", "label": "At Jesus' trial",
      "text": "Pilate sends Jesus to Antipas, who questions him, gets no answer, treats him with contempt, and sends him back.",
      "reference": "Luke 23:6-12"},
-    {"year": 44, "herod": "herod-3", "approx": False,
+    {"year": 44, "herod": "herod-3", "approx": False, "label": "James killed",
      "text": "Agrippa I kills the apostle James, imprisons Peter, and is struck down at Caesarea after accepting the crowd's worship.",
      "reference": "Acts 12:1-23"},
-    {"year": 59, "herod": "agrippa",
+    {"year": 59, "herod": "agrippa", "label": "Paul's defense",
      "text": "Paul makes his defense before Agrippa II and Bernice at Caesarea; the king says Paul could have been set free.",
      "reference": "Acts 25:23-26:32"},
 ]
@@ -2481,7 +2491,8 @@ def render_herods_svg(entries):
     group_heading_h = 24
     group_gap = 12
     axis_h = 26
-    events_h = 34          # numbered-marker strip under the axis
+    label_band_h = 66     # angled short event labels sit here (two staggered tiers), above the markers
+    events_h = 22         # numbered-marker strip under the labels
     marker_r = 8.5
 
     row_span = bar_h + row_gap
@@ -2494,7 +2505,7 @@ def render_herods_svg(entries):
 
     # Assign every bar its vertical position first, so the event connectors
     # (drawn next) know where each Herod's bar sits.
-    bars_top = axis_h + events_h + group_gap
+    bars_top = axis_h + label_band_h + events_h + group_gap
     bar_top_by_pid = {}
     bar_span_by_pid = {}
     y = bars_top
@@ -2537,8 +2548,12 @@ def render_herods_svg(entries):
 
     # Event markers: greedy left-to-right de-collision along one strip, then
     # a connector from each marker down to the bar of the Herod it involves.
-    marker_cy = axis_h + events_h / 2 + 1
-    min_gap = 2 * marker_r + 3
+    marker_cy = axis_h + label_band_h + events_h / 2
+    markers_bottom = axis_h + label_band_h + events_h
+    # Labels stagger across two tiers, so markers only need modest spacing;
+    # this keeps the strip roughly in step with the timeline (the BC/AD gap
+    # stays visible) instead of squashing every marker to an even pitch.
+    min_gap = max(2 * marker_r + 3, 30)
     placed = []
     cursor = float("-inf")
     for i, ev in enumerate(HERODS_EVENTS, start=1):
@@ -2559,7 +2574,7 @@ def render_herods_svg(entries):
             bar_cy = bar_top_by_pid[ev["herod"]] + bar_h / 2
             if abs(cx - land_x) > 0.5:
                 parts.append(
-                    f'<path d="M{cx:.1f} {marker_cy + marker_r:.1f} L{land_x:.1f} {axis_h + events_h:.1f} '
+                    f'<path d="M{cx:.1f} {marker_cy + marker_r:.1f} L{land_x:.1f} {markers_bottom:.1f} '
                     f'L{land_x:.1f} {bar_cy:.1f}" class="herods-event-connector" />'
                 )
             else:
@@ -2570,7 +2585,8 @@ def render_herods_svg(entries):
             parts.append(f'<circle cx="{land_x:.1f}" cy="{bar_cy:.1f}" r="3" class="herods-event-dot" />')
 
         herod_name = next((e["name"] for e in entries if e["person_id"] == ev["herod"]), ev["herod"])
-        title = f'{num}. c. {herods_format_year(ev["year"])} — {ev["text"]} ({herod_name}; {ev["reference"]})'
+        label = ev.get("label", "")
+        title = f'{num}. {label + " — " if label else ""}c. {herods_format_year(ev["year"])} — {ev["text"]} ({herod_name}; {ev["reference"]})'
         parts.append(f'<a href="#herods-event-{num}">')
         parts.append(
             f'<circle cx="{cx:.1f}" cy="{marker_cy:.1f}" r="{marker_r}" class="herods-event-marker" tabindex="0">'
@@ -2579,6 +2595,14 @@ def render_herods_svg(entries):
         parts.append(
             f'<text x="{cx:.1f}" y="{marker_cy + 3.2:.1f}" class="herods-event-num" text-anchor="middle">{num}</text>'
         )
+        if label:
+            # Two tiers (odd numbers ride higher) so neighbouring captions
+            # never collide even where markers sit close together.
+            ly = marker_cy - marker_r - 6 - (30 if num % 2 else 0)
+            parts.append(
+                f'<text x="{cx:.1f}" y="{ly:.1f}" class="herods-event-label" text-anchor="end" '
+                f'transform="rotate(-28 {cx:.1f} {ly:.1f})">{esc(label)}</text>'
+            )
         parts.append("</a>")
 
     # Rows: gutter name + reference, then the bar and its year-span label.
@@ -2685,7 +2709,7 @@ def build_herods_and_jesus_chart_page(entries):
     title = "The Herods, John the Baptist & Jesus — Lives of Scripture"
     description = ("A timeline of the ruling Herods of the New Testament — Herod the Great, "
                    "Archelaus, Antipas, Philip, Agrippa I and II — set against the lifetimes of "
-                   "John the Baptist and Jesus.")
+                   "John the Baptist, Jesus, and the apostle Paul.")
     breadcrumb_ld = breadcrumb_json_ld([
         ("Home", f"{SITE_URL}/"), ("Charts", f"{SITE_URL}/charts.html"),
         (title.replace(" — Lives of Scripture", ""), None),
@@ -2742,10 +2766,12 @@ def build_herods_and_jesus_chart_page(entries):
   <h2>The Herods, John the Baptist &amp; Jesus</h2>
   <p class="page-intro">Six rulers of the Herod family appear in the New Testament, spanning nearly
   a century and a half — and it is easy to lose track of which one is which. This chart lays their
-  reigns against the lifetimes of John the Baptist and Jesus, with each Herod's Scripture references
-  shown beside the name. Numbered markers place eleven Gospel and Acts events on the timeline; a
-  faint line drops from each one to the Herod it involved, and the same numbers are listed in full
-  below the chart. Bars and markers are clickable; hover or focus a bar for exact dates.</p>
+  reigns against the lifetimes of John the Baptist, Jesus, and the apostle Paul — whose years in
+  custody and defense before Agrippa II place him among the last of the Herods — with each Herod's
+  Scripture references shown beside the name. Numbered markers place eleven Gospel and Acts events on
+  the timeline, each with a short caption; a faint line drops from each one to the Herod it involved,
+  and the same numbers are listed in full below the chart. Bars and markers are clickable; hover or
+  focus a bar for exact dates.</p>
 
   <div class="kp-legend-row">
     {legend}
@@ -2765,7 +2791,8 @@ def build_herods_and_jesus_chart_page(entries):
   date of the crucifixion (c. AD&nbsp;30, though a significant number of evangelical scholars hold
   AD&nbsp;33). The chart follows the more common 4&nbsp;BC / AD&nbsp;30 framework; shifting to the
   alternative moves John's and Jesus's bars a few years later but changes none of the relationships
-  the chart shows.</p>
+  the chart shows. Paul's bar runs from an inferred birth around AD&nbsp;5 to a death the New
+  Testament never records &mdash; church tradition places it under Nero, c. AD&nbsp;64&ndash;67.</p>
 
   {events_list}
 
