@@ -1,4 +1,10 @@
 :root {
+  /* Declare support for both schemes so mobile browsers (Chrome/Samsung
+     "Auto Dark Theme") do NOT force their own darkening on top of the
+     palette below -- that mangled inline-SVG charts into dark-on-dark.
+     The site's own dark palette (prefers-color-scheme / [data-theme]) does
+     the work; the toggle states pin the choice. */
+  color-scheme: light dark;
   --color-bg: #faf6ef;
   --color-surface: #ffffff;
   --color-border: #e3d9c6;
@@ -234,6 +240,7 @@
 }
 
 :root[data-theme="dark"] {
+  color-scheme: dark;
   --color-bg: #1b1712;
   --color-surface: #24201a;
   --color-border: #3a3327;
@@ -315,6 +322,7 @@
 }
 
 :root[data-theme="light"] {
+  color-scheme: light;
   --map-water: #e4ddca;
   --map-land: #faf6ef;
   --map-lake: #dcd4bd;

@@ -824,6 +824,7 @@ def build_person_page(person, index_by_id, gender_by_id, connections, people_by_
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -944,6 +945,7 @@ def build_churches_list_page(churches):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1079,6 +1081,7 @@ def build_church_detail_page(church, index_by_id, gender_by_id):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1367,6 +1370,7 @@ def build_places_list_page(places_index):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1740,6 +1744,7 @@ def build_map_explorer_page(places_index):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1919,6 +1924,7 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -2740,6 +2746,7 @@ def build_herods_and_jesus_chart_page(entries):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -3149,6 +3156,7 @@ def build_genealogies_chart_page(index_by_id, ref_by_id):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -3634,6 +3642,7 @@ def build_tribe_sunburst_chart_page(layout):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -3957,6 +3966,7 @@ def build_job_chapters_chart_page(chapters):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -4385,6 +4395,7 @@ def build_genesis_chapters_chart_page(chapters):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -4742,6 +4753,7 @@ def build_acts_chapters_chart_page(chapters):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -4837,6 +4849,7 @@ def build_charts_list_page():
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -4962,6 +4975,7 @@ def build_kings_and_prophets_chart_page(rows, unplotted):
 
 <link rel="manifest" href="{base}manifest.json">
 <meta name="theme-color" content="#7a5c2e">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
