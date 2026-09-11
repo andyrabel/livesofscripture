@@ -1,0 +1,23 @@
+{
+  "place_id": "zererah",
+  "name": "Zererah",
+  "alt_names": [
+    "Zererath"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 7:22",
+  "references": [
+    "Judges 7:22"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

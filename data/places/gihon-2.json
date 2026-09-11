@@ -1,0 +1,27 @@
+{
+  "place_id": "gihon-2",
+  "name": "Gihon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 1:33",
+  "references": [
+    "1 Kings 1:33",
+    "1 Kings 1:38",
+    "1 Kings 1:44",
+    "1 Kings 1:45",
+    "2 Chronicles 32:30",
+    "2 Chronicles 33:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(1 Kgs 1:33)"
+}

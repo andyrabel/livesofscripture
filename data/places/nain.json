@@ -1,0 +1,21 @@
+{
+  "place_id": "nain",
+  "name": "Nain",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Luke 7:11",
+  "references": [
+    "Luke 7:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

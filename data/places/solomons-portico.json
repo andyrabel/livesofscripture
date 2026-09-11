@@ -1,0 +1,30 @@
+{
+  "place_id": "solomons-portico",
+  "name": "Solomon\u2019s Portico",
+  "alt_names": [
+    "Solomon\u2019s Porch",
+    "Portico of Solomon",
+    "Solomon\u2019s Colonnade",
+    "colonnade of Solomon",
+    "portico named Solomon",
+    "portico called Solomon"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "John 10:23",
+  "references": [
+    "John 10:23",
+    "Acts 3:11",
+    "Acts 5:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

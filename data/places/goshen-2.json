@@ -1,0 +1,23 @@
+{
+  "place_id": "goshen-2",
+  "name": "Goshen",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 10:41",
+  "references": [
+    "Joshua 10:41",
+    "Joshua 11:16"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 10:41)"
+}

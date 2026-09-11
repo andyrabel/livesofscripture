@@ -1,0 +1,23 @@
+{
+  "place_id": "tel-abib",
+  "name": "Tel-abib",
+  "alt_names": [
+    "Tel Aviv"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 3:15",
+  "references": [
+    "Ezekiel 3:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

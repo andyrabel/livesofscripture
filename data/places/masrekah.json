@@ -1,0 +1,22 @@
+{
+  "place_id": "masrekah",
+  "name": "Masrekah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 36:36",
+  "references": [
+    "Genesis 36:36",
+    "1 Chronicles 1:47"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

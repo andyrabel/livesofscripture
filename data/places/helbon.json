@@ -1,0 +1,21 @@
+{
+  "place_id": "helbon",
+  "name": "Helbon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 27:18",
+  "references": [
+    "Ezekiel 27:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

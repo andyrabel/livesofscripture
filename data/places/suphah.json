@@ -1,0 +1,23 @@
+{
+  "place_id": "suphah",
+  "name": "Suphah",
+  "alt_names": [
+    "Red sea"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:14",
+  "references": [
+    "Numbers 21:14"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

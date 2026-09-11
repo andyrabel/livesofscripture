@@ -1,0 +1,25 @@
+{
+  "place_id": "forum-of-appius",
+  "name": "Forum of Appius",
+  "alt_names": [
+    "Appii Forum",
+    "Market of Appius",
+    "Forum on the Appian Way"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 28:15",
+  "references": [
+    "Acts 28:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

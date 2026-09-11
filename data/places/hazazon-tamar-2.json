@@ -1,0 +1,24 @@
+{
+  "place_id": "hazazon-tamar-2",
+  "name": "Hazazon-tamar",
+  "alt_names": [
+    "Hazezon Tamar"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Chronicles 20:2",
+  "references": [
+    "2 Chronicles 20:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(2 Chr 20:2)"
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "pau",
+  "name": "Pau",
+  "alt_names": [
+    "Pai"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 36:39",
+  "references": [
+    "Genesis 36:39",
+    "1 Chronicles 1:50"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

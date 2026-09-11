@@ -1,0 +1,37 @@
+{
+  "place_id": "ashkelon",
+  "name": "Ashkelon",
+  "alt_names": [
+    "Askelon",
+    "Ashkelonite",
+    "Ashkelonites",
+    "Eshkalonites"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 13:3",
+  "references": [
+    "Joshua 13:3",
+    "Judges 1:18",
+    "Judges 14:19",
+    "1 Samuel 6:17",
+    "2 Samuel 1:20",
+    "Jeremiah 25:20",
+    "Jeremiah 47:5",
+    "Jeremiah 47:7",
+    "Amos 1:8",
+    "Zephaniah 2:4",
+    "Zephaniah 2:7",
+    "Zechariah 9:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

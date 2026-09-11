@@ -1,0 +1,26 @@
+{
+  "place_id": "baal-meon",
+  "name": "Baal-meon",
+  "alt_names": [
+    "Beth Baal Meon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 32:38",
+  "references": [
+    "Numbers 32:38",
+    "Joshua 13:17",
+    "1 Chronicles 5:8",
+    "Ezekiel 25:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

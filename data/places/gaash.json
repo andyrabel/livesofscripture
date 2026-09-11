@@ -1,0 +1,26 @@
+{
+  "place_id": "gaash",
+  "name": "Gaash",
+  "alt_names": [
+    "Nahale-gaash"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 24:30",
+  "references": [
+    "Joshua 24:30",
+    "Judges 2:9",
+    "2 Samuel 23:30",
+    "1 Chronicles 11:32"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

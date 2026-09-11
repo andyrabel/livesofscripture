@@ -1,0 +1,24 @@
+{
+  "place_id": "hammath-2",
+  "name": "Hammath",
+  "alt_names": [
+    "Hemath"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 2:55",
+  "references": [
+    "1 Chronicles 2:55"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(1 Chr 2:55)"
+}

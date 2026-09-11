@@ -1,0 +1,29 @@
+{
+  "place_id": "hormah",
+  "name": "Hormah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 14:45",
+  "references": [
+    "Numbers 14:45",
+    "Numbers 21:3",
+    "Deuteronomy 1:44",
+    "Joshua 12:14",
+    "Joshua 15:30",
+    "Joshua 19:4",
+    "Judges 1:17",
+    "1 Samuel 30:30",
+    "1 Chronicles 4:30"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

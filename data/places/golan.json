@@ -1,0 +1,24 @@
+{
+  "place_id": "golan",
+  "name": "Golan",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 4:43",
+  "references": [
+    "Deuteronomy 4:43",
+    "Joshua 20:8",
+    "Joshua 21:27",
+    "1 Chronicles 6:71"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

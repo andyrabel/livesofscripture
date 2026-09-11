@@ -1,0 +1,23 @@
+{
+  "place_id": "bethphage",
+  "name": "Bethphage",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Matthew 21:1",
+  "references": [
+    "Matthew 21:1",
+    "Mark 11:1",
+    "Luke 19:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

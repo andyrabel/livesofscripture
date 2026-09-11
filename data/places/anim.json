@@ -1,0 +1,21 @@
+{
+  "place_id": "anim",
+  "name": "Anim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:50",
+  "references": [
+    "Joshua 15:50"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

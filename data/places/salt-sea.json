@@ -1,0 +1,44 @@
+{
+  "place_id": "salt-sea",
+  "name": "Salt Sea",
+  "alt_names": [
+    "Dead Sea",
+    "Sea of Arabah"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 14:3",
+  "references": [
+    "Genesis 14:3",
+    "Numbers 34:3",
+    "Numbers 34:12",
+    "Deuteronomy 3:17",
+    "Deuteronomy 4:49",
+    "Joshua 3:16",
+    "Joshua 12:3",
+    "Joshua 15:2",
+    "Joshua 15:5",
+    "Joshua 18:19",
+    "2 Kings 14:25",
+    "2 Chronicles 20:2",
+    "Isaiah 16:8",
+    "Jeremiah 48:32",
+    "Ezekiel 39:11",
+    "Ezekiel 47:8",
+    "Ezekiel 47:9",
+    "Ezekiel 47:10",
+    "Ezekiel 47:18",
+    "Joel 2:20",
+    "Zechariah 14:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

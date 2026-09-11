@@ -1,0 +1,27 @@
+{
+  "place_id": "ham-2",
+  "name": "Ham",
+  "alt_names": [
+    "Egyptian"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 78:51",
+  "references": [
+    "Psalm 78:51",
+    "Psalm 105:23",
+    "Psalm 105:27",
+    "Psalm 106:22"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Ps 78:51)"
+}

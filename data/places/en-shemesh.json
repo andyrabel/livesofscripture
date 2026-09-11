@@ -1,0 +1,24 @@
+{
+  "place_id": "en-shemesh",
+  "name": "En-shemesh",
+  "alt_names": [
+    "Waters of En-shemesh"
+  ],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:7",
+  "references": [
+    "Joshua 15:7",
+    "Joshua 18:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

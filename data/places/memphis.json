@@ -1,0 +1,30 @@
+{
+  "place_id": "memphis",
+  "name": "Memphis",
+  "alt_names": [
+    "Noph"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 19:13",
+  "references": [
+    "Isaiah 19:13",
+    "Jeremiah 2:16",
+    "Jeremiah 44:1",
+    "Jeremiah 46:14",
+    "Jeremiah 46:19",
+    "Ezekiel 30:13",
+    "Ezekiel 30:16",
+    "Hosea 9:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

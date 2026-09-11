@@ -1,0 +1,31 @@
+{
+  "place_id": "zin-1",
+  "name": "Zin",
+  "alt_names": [
+    "Desert of Kadesh"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 13:21",
+  "references": [
+    "Numbers 13:21",
+    "Numbers 20:1",
+    "Numbers 27:14",
+    "Numbers 33:36",
+    "Numbers 34:3",
+    "Deuteronomy 32:51",
+    "Joshua 15:1",
+    "Psalm 29:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 13:21)"
+}

@@ -1841,6 +1841,7 @@ const PLACE_TYPE_LABELS = {
   nation: "Nation", region: "Region", city: "City", town: "Town",
   village: "Village", mountain: "Mountain", wilderness: "Wilderness",
   valley: "Valley", "body-of-water": "Body of Water", site: "Site",
+  river: "River", spring: "Spring", island: "Island",
 };
 
 function eraBucketKey(entry) {
@@ -2722,18 +2723,21 @@ async function renderConnectionsPage(mode = "people") {
       loadPlacesIndex(),
       loadPlaceConnections(),
     ]);
-    // Only the people Scripture actually ties to a place appear here, plus
-    // every place. Place nodes reuse the same person_id-keyed index/edge
-    // machinery via placeToGraphEntry, so every traversal/render function
-    // works unchanged. loadIndex()'s cached DATA.index is never mutated.
+    // Only the people and places Scripture actually ties together appear
+    // here -- the gazetteer adds ~1,000 name-only places with no person
+    // edge, which would otherwise flood the picker with disconnected nodes.
+    // Place nodes reuse the same person_id-keyed index/edge machinery via
+    // placeToGraphEntry, so every traversal/render function works unchanged.
+    // loadIndex()'s cached DATA.index is never mutated.
     const linkedPeople = new Set();
+    const linkedPlaces = new Set();
     for (const e of placeEdges) {
-      if (!isPlaceNodeId(e.from)) linkedPeople.add(e.from);
-      if (!isPlaceNodeId(e.to)) linkedPeople.add(e.to);
+      (isPlaceNodeId(e.from) ? linkedPlaces : linkedPeople).add(e.from);
+      (isPlaceNodeId(e.to) ? linkedPlaces : linkedPeople).add(e.to);
     }
     index = [
       ...peopleIndex.filter((e) => linkedPeople.has(e.person_id)),
-      ...placesIndex.map(placeToGraphEntry),
+      ...placesIndex.map(placeToGraphEntry).filter((e) => linkedPlaces.has(e.person_id)),
     ];
     edges = placeEdges;
   } else {

@@ -1,0 +1,30 @@
+{
+  "place_id": "ophir",
+  "name": "Ophir",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 9:28",
+  "references": [
+    "1 Kings 9:28",
+    "1 Kings 10:11",
+    "1 Kings 22:48",
+    "1 Chronicles 29:4",
+    "2 Chronicles 8:18",
+    "2 Chronicles 9:10",
+    "Job 22:24",
+    "Job 28:16",
+    "Psalm 45:9",
+    "Isaiah 13:12"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

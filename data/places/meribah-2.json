@@ -1,0 +1,26 @@
+{
+  "place_id": "meribah-2",
+  "name": "Meribah",
+  "alt_names": [
+    "Waters of Meribah"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 17:7",
+  "references": [
+    "Exodus 17:7",
+    "Deuteronomy 33:8",
+    "Psalm 95:8"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Exod 17:7)"
+}

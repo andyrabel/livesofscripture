@@ -1,0 +1,24 @@
+{
+  "place_id": "bozkath",
+  "name": "Bozkath",
+  "alt_names": [
+    "Boscath"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:39",
+  "references": [
+    "Joshua 15:39",
+    "2 Kings 22:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

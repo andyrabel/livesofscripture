@@ -1,0 +1,30 @@
+{
+  "place_id": "ashtaroth",
+  "name": "Ashtaroth",
+  "alt_names": [
+    "Astaroth",
+    "Ashterathite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 1:4",
+  "references": [
+    "Deuteronomy 1:4",
+    "Joshua 9:10",
+    "Joshua 12:4",
+    "Joshua 13:12",
+    "Joshua 13:31",
+    "1 Chronicles 6:71",
+    "1 Chronicles 11:44"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

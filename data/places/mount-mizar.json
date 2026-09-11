@@ -1,0 +1,23 @@
+{
+  "place_id": "mount-mizar",
+  "name": "Mount Mizar",
+  "alt_names": [
+    "Hill Mizar"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 42:6",
+  "references": [
+    "Psalm 42:6"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

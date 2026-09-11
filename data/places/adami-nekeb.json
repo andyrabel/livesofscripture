@@ -1,0 +1,24 @@
+{
+  "place_id": "adami-nekeb",
+  "name": "Adami-nekeb",
+  "alt_names": [
+    "Adami",
+    "Nekeb"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:33",
+  "references": [
+    "Joshua 19:33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

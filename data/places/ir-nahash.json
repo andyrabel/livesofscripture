@@ -1,0 +1,23 @@
+{
+  "place_id": "ir-nahash",
+  "name": "Ir-nahash",
+  "alt_names": [
+    "Nahash"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 4:12",
+  "references": [
+    "1 Chronicles 4:12"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

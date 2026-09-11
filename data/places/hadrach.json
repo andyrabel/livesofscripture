@@ -1,0 +1,23 @@
+{
+  "place_id": "hadrach",
+  "name": "Hadrach",
+  "alt_names": [
+    "Hadrak"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Zechariah 9:1",
+  "references": [
+    "Zechariah 9:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

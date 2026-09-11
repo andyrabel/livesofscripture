@@ -1,0 +1,35 @@
+{
+  "place_id": "maacah",
+  "name": "Maacah",
+  "alt_names": [
+    "Maakah",
+    "Maacath",
+    "Maachah",
+    "Maacathite",
+    "Maakathite",
+    "Aram Maacah"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 12:5",
+  "references": [
+    "Joshua 12:5",
+    "Joshua 13:11",
+    "Joshua 13:13",
+    "2 Samuel 10:6",
+    "2 Samuel 10:8",
+    "2 Samuel 23:34",
+    "1 Chronicles 19:6",
+    "1 Chronicles 19:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "tamar-2",
+  "name": "Tamar",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 47:18",
+  "references": [
+    "Ezekiel 47:18",
+    "Ezekiel 47:19",
+    "Ezekiel 48:28"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Ezek 47:18)"
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "tel-harsha",
+  "name": "Tel-harsha",
+  "alt_names": [
+    "Tel-harsa",
+    "Tel-haresha"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 2:59",
+  "references": [
+    "Ezra 2:59",
+    "Nehemiah 7:61"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

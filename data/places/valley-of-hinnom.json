@@ -1,0 +1,37 @@
+{
+  "place_id": "valley-of-hinnom",
+  "name": "Valley of Hinnom",
+  "alt_names": [
+    "Slaughter Valley",
+    "Ben Hinnom Valley",
+    "Valley of the Son of Hinnom",
+    "valley of the children of Hinnom"
+  ],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:8",
+  "references": [
+    "Joshua 15:8",
+    "Joshua 18:16",
+    "2 Kings 23:10",
+    "2 Chronicles 28:3",
+    "2 Chronicles 33:6",
+    "Nehemiah 11:30",
+    "Jeremiah 2:23",
+    "Jeremiah 7:31",
+    "Jeremiah 7:32",
+    "Jeremiah 19:2",
+    "Jeremiah 19:6",
+    "Jeremiah 32:35"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

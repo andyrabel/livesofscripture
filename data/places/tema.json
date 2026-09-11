@@ -1,0 +1,23 @@
+{
+  "place_id": "tema",
+  "name": "Tema",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Job 6:19",
+  "references": [
+    "Job 6:19",
+    "Isaiah 21:14",
+    "Jeremiah 25:23"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

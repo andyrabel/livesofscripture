@@ -1,0 +1,21 @@
+{
+  "place_id": "sepharad",
+  "name": "Sepharad",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Obadiah 1:20",
+  "references": [
+    "Obadiah 1:20"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

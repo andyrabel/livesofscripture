@@ -1,0 +1,24 @@
+{
+  "place_id": "ephron-2",
+  "name": "Ephron",
+  "alt_names": [
+    "Ephrain"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Chronicles 13:19",
+  "references": [
+    "2 Chronicles 13:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(2 Chr 13:19)"
+}

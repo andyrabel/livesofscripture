@@ -1,0 +1,23 @@
+{
+  "place_id": "sela-1",
+  "name": "Sela",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 1:36",
+  "references": [
+    "Judges 1:36",
+    "2 Chronicles 25:12"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Judg 1:36)"
+}

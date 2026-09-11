@@ -1,0 +1,23 @@
+{
+  "place_id": "en-gannim-2",
+  "name": "En-gannim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:21",
+  "references": [
+    "Joshua 19:21",
+    "Joshua 21:29"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 19:21)"
+}

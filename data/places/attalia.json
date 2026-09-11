@@ -1,0 +1,22 @@
+{
+  "place_id": "attalia",
+  "name": "Attalia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 14:25",
+  "references": [
+    "Acts 14:25",
+    "Acts 14:26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "shepham",
+  "name": "Shepham",
+  "alt_names": [
+    "Shiphmite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 34:10",
+  "references": [
+    "Numbers 34:10",
+    "Numbers 34:11",
+    "1 Chronicles 27:27"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

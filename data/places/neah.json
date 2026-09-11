@@ -1,0 +1,22 @@
+{
+  "place_id": "neah",
+  "name": "Neah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:13",
+  "references": [
+    "Joshua 19:13",
+    "Joshua 19:14"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

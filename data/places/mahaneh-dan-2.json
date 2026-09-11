@@ -1,0 +1,24 @@
+{
+  "place_id": "mahaneh-dan-2",
+  "name": "Mahaneh-dan",
+  "alt_names": [
+    "Camp of Dan"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 18:12",
+  "references": [
+    "Judges 18:12"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Judg 18:12)"
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "hall-of-judgment",
+  "name": "Hall of Judgment",
+  "alt_names": [
+    "Hall of Justice"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 7:7",
+  "references": [
+    "1 Kings 7:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

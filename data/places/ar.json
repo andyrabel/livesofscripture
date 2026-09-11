@@ -1,0 +1,27 @@
+{
+  "place_id": "ar",
+  "name": "Ar",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:15",
+  "references": [
+    "Numbers 21:15",
+    "Numbers 21:28",
+    "Deuteronomy 2:9",
+    "Deuteronomy 2:10",
+    "Deuteronomy 2:18",
+    "Deuteronomy 2:29",
+    "Isaiah 15:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

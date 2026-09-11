@@ -1,0 +1,23 @@
+{
+  "place_id": "idumea",
+  "name": "Idumea",
+  "alt_names": [
+    "Idumaea"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Mark 3:8",
+  "references": [
+    "Mark 3:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

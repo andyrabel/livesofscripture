@@ -1,0 +1,22 @@
+{
+  "place_id": "gihon-1",
+  "name": "Gihon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 2:13",
+  "references": [
+    "Genesis 2:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Gen 2:13)"
+}

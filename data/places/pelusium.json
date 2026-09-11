@@ -1,0 +1,25 @@
+{
+  "place_id": "pelusium",
+  "name": "Pelusium",
+  "alt_names": [
+    "Sin",
+    "Syene"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 30:15",
+  "references": [
+    "Ezekiel 30:15",
+    "Ezekiel 30:16"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "migdol-1",
+  "name": "Migdol",
+  "alt_names": [
+    "Migdal"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 14:2",
+  "references": [
+    "Exodus 14:2",
+    "Numbers 33:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Exod 14:2)"
+}

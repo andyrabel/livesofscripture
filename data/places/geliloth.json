@@ -1,0 +1,23 @@
+{
+  "place_id": "geliloth",
+  "name": "Geliloth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 18:17",
+  "references": [
+    "Joshua 18:17",
+    "Joshua 22:10",
+    "Joshua 22:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

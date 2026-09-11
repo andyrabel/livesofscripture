@@ -1,0 +1,21 @@
+{
+  "place_id": "salamis",
+  "name": "Salamis",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 13:5",
+  "references": [
+    "Acts 13:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

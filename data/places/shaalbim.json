@@ -1,0 +1,25 @@
+{
+  "place_id": "shaalbim",
+  "name": "Shaalbim",
+  "alt_names": [
+    "Shaalabbin"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:42",
+  "references": [
+    "Joshua 19:42",
+    "Judges 1:35",
+    "1 Kings 4:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "serpents-stone",
+  "name": "Serpent\u2019s Stone",
+  "alt_names": [
+    "Zoheleth",
+    "Stone of Zoheleth"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 1:9",
+  "references": [
+    "1 Kings 1:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

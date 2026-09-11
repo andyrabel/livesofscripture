@@ -1,0 +1,34 @@
+{
+  "place_id": "aroer-1",
+  "name": "Aroer",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 32:34",
+  "references": [
+    "Numbers 32:34",
+    "Deuteronomy 2:36",
+    "Deuteronomy 3:12",
+    "Deuteronomy 4:48",
+    "Joshua 12:2",
+    "Joshua 13:9",
+    "Joshua 13:16",
+    "Judges 11:26",
+    "2 Samuel 24:5",
+    "2 Kings 10:33",
+    "1 Chronicles 5:8",
+    "Isaiah 17:2",
+    "Jeremiah 48:19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 32:34)"
+}

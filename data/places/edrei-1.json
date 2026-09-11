@@ -1,0 +1,28 @@
+{
+  "place_id": "edrei-1",
+  "name": "Edrei",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:33",
+  "references": [
+    "Numbers 21:33",
+    "Deuteronomy 1:4",
+    "Deuteronomy 3:1",
+    "Deuteronomy 3:10",
+    "Joshua 12:4",
+    "Joshua 13:12",
+    "Joshua 13:31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 21:33)"
+}

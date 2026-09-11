@@ -1,0 +1,23 @@
+{
+  "place_id": "beth-ezel",
+  "name": "Beth-ezel",
+  "alt_names": [
+    "Beth-ha-Ezel"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Micah 1:11",
+  "references": [
+    "Micah 1:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

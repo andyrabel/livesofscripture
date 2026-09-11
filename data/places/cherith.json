@@ -1,0 +1,25 @@
+{
+  "place_id": "cherith",
+  "name": "Cherith",
+  "alt_names": [
+    "Wadi Kerith",
+    "Kerith Ravine"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 17:3",
+  "references": [
+    "1 Kings 17:3",
+    "1 Kings 17:5"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

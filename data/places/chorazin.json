@@ -1,0 +1,24 @@
+{
+  "place_id": "chorazin",
+  "name": "Chorazin",
+  "alt_names": [
+    "Korazin"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Matthew 11:21",
+  "references": [
+    "Matthew 11:21",
+    "Luke 10:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "place_id": "apollonia",
+  "name": "Apollonia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 17:1",
+  "references": [
+    "Acts 17:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

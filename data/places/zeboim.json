@@ -1,0 +1,23 @@
+{
+  "place_id": "zeboim",
+  "name": "Zeboim",
+  "alt_names": [
+    "Zeboyim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 11:34",
+  "references": [
+    "Nehemiah 11:34"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

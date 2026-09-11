@@ -1,0 +1,24 @@
+{
+  "place_id": "gath-rimmon-1",
+  "name": "Gath-rimmon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:45",
+  "references": [
+    "Joshua 19:45",
+    "Joshua 21:24",
+    "1 Chronicles 6:69"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 19:45)"
+}

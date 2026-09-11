@@ -1,0 +1,23 @@
+{
+  "place_id": "kerioth",
+  "name": "Kerioth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 48:24",
+  "references": [
+    "Jeremiah 48:24",
+    "Jeremiah 48:41",
+    "Amos 2:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,26 @@
+{
+  "place_id": "hazeroth",
+  "name": "Hazeroth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 11:35",
+  "references": [
+    "Numbers 11:35",
+    "Numbers 12:1",
+    "Numbers 12:16",
+    "Numbers 33:17",
+    "Numbers 33:18",
+    "Deuteronomy 1:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,22 @@
+{
+  "place_id": "bamoth",
+  "name": "Bamoth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:19",
+  "references": [
+    "Numbers 21:19",
+    "Numbers 21:20"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "place_id": "mount-ephron",
+  "name": "Mount Ephron",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:9",
+  "references": [
+    "Joshua 15:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

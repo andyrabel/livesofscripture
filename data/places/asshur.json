@@ -1,0 +1,27 @@
+{
+  "place_id": "asshur",
+  "name": "Asshur",
+  "alt_names": [
+    "Ashur",
+    "Assur"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 24:22",
+  "references": [
+    "Numbers 24:22",
+    "Numbers 24:24",
+    "Psalm 83:8",
+    "Ezekiel 27:23"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

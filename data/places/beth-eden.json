@@ -1,0 +1,21 @@
+{
+  "place_id": "beth-eden",
+  "name": "Beth-eden",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Amos 1:5",
+  "references": [
+    "Amos 1:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

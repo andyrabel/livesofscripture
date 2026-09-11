@@ -1,0 +1,26 @@
+{
+  "place_id": "hazar-enan",
+  "name": "Hazar-enan",
+  "alt_names": [
+    "Hazar-enon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 34:9",
+  "references": [
+    "Numbers 34:9",
+    "Numbers 34:10",
+    "Ezekiel 47:17",
+    "Ezekiel 48:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,37 @@
+{
+  "place_id": "meribah-1",
+  "name": "Meribah",
+  "alt_names": [
+    "Meribah Kadesh",
+    "Meribot Kadesh",
+    "Meribath Kadesh",
+    "Meribah at Kadesh",
+    "Meribah by Kadesh",
+    "Waters of Meribah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 20:13",
+  "references": [
+    "Numbers 20:13",
+    "Numbers 20:24",
+    "Numbers 27:14",
+    "Deuteronomy 32:51",
+    "Deuteronomy 33:2",
+    "Psalm 81:7",
+    "Psalm 106:32",
+    "Ezekiel 47:19",
+    "Ezekiel 48:28"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 20:13)"
+}

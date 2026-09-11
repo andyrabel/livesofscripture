@@ -1,0 +1,22 @@
+{
+  "place_id": "sarid",
+  "name": "Sarid",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:10",
+  "references": [
+    "Joshua 19:10",
+    "Joshua 19:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,28 @@
+{
+  "place_id": "kiriathaim-1",
+  "name": "Kiriathaim",
+  "alt_names": [
+    "Kirjathaim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 32:37",
+  "references": [
+    "Numbers 32:37",
+    "Joshua 13:19",
+    "Jeremiah 48:1",
+    "Jeremiah 48:23",
+    "Ezekiel 25:9"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 32:37)"
+}

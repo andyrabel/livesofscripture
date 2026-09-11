@@ -1,0 +1,25 @@
+{
+  "place_id": "medeba",
+  "name": "Medeba",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:30",
+  "references": [
+    "Numbers 21:30",
+    "Joshua 13:9",
+    "Joshua 13:16",
+    "1 Chronicles 19:7",
+    "Isaiah 15:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

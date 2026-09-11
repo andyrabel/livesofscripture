@@ -1,0 +1,27 @@
+{
+  "place_id": "calneh-2",
+  "name": "Calneh",
+  "alt_names": [
+    "Calno",
+    "Kalno",
+    "Kalneh"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 10:9",
+  "references": [
+    "Isaiah 10:9",
+    "Amos 6:2"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Isa 10:9)"
+}

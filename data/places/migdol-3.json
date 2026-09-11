@@ -1,0 +1,23 @@
+{
+  "place_id": "migdol-3",
+  "name": "Migdol",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 29:10",
+  "references": [
+    "Ezekiel 29:10",
+    "Ezekiel 30:6"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Ezek 29:10)"
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "beautiful-gate",
+  "name": "Beautiful Gate",
+  "alt_names": [
+    "gate called Beautiful"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 3:2",
+  "references": [
+    "Acts 3:2",
+    "Acts 3:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

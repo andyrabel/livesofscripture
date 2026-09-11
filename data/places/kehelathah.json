@@ -1,0 +1,22 @@
+{
+  "place_id": "kehelathah",
+  "name": "Kehelathah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:22",
+  "references": [
+    "Numbers 33:22",
+    "Numbers 33:23"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

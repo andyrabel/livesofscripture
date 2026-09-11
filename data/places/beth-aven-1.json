@@ -1,0 +1,25 @@
+{
+  "place_id": "beth-aven-1",
+  "name": "Beth-aven",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 7:2",
+  "references": [
+    "Joshua 7:2",
+    "Joshua 18:12",
+    "1 Samuel 13:5",
+    "1 Samuel 14:23"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 7:2)"
+}

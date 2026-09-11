@@ -1,0 +1,27 @@
+{
+  "place_id": "admah",
+  "name": "Admah",
+  "alt_names": [
+    "Adman"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 10:19",
+  "references": [
+    "Genesis 10:19",
+    "Genesis 14:2",
+    "Genesis 14:8",
+    "Deuteronomy 29:23",
+    "Hosea 11:8"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

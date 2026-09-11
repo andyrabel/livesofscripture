@@ -1,0 +1,25 @@
+{
+  "place_id": "jotbathah",
+  "name": "Jotbathah",
+  "alt_names": [
+    "Jotbath"
+  ],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:33",
+  "references": [
+    "Numbers 33:33",
+    "Numbers 33:34",
+    "Deuteronomy 10:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

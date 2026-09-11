@@ -1,0 +1,24 @@
+{
+  "place_id": "lehi",
+  "name": "Lehi",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 15:9",
+  "references": [
+    "Judges 15:9",
+    "Judges 15:14",
+    "Judges 15:19",
+    "2 Samuel 23:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

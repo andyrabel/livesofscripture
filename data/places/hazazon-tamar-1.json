@@ -1,0 +1,24 @@
+{
+  "place_id": "hazazon-tamar-1",
+  "name": "Hazazon-tamar",
+  "alt_names": [
+    "Hazezon Tamar"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 14:7",
+  "references": [
+    "Genesis 14:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Gen 14:7)"
+}

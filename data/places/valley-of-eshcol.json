@@ -1,0 +1,27 @@
+{
+  "place_id": "valley-of-eshcol",
+  "name": "Valley of Eshcol",
+  "alt_names": [
+    "wadi of Eschol",
+    "Valley of Eshkol"
+  ],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 13:23",
+  "references": [
+    "Numbers 13:23",
+    "Numbers 13:24",
+    "Numbers 32:9",
+    "Deuteronomy 1:24"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

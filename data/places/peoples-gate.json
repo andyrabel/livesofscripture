@@ -1,0 +1,23 @@
+{
+  "place_id": "peoples-gate",
+  "name": "People\u2019s Gate",
+  "alt_names": [
+    "Gate of the People"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 17:19",
+  "references": [
+    "Jeremiah 17:19"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

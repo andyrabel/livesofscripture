@@ -1,0 +1,26 @@
+{
+  "place_id": "tower-of-hananel",
+  "name": "Tower of Hananel",
+  "alt_names": [
+    "tower of Hananeel"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:1",
+  "references": [
+    "Nehemiah 3:1",
+    "Nehemiah 12:39",
+    "Jeremiah 31:38",
+    "Zechariah 14:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

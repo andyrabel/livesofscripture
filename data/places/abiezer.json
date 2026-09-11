@@ -1,0 +1,21 @@
+{
+  "place_id": "abiezer",
+  "name": "Abiezer",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 8:2",
+  "references": [
+    "Judges 8:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,26 @@
+{
+  "place_id": "sepharvaim",
+  "name": "Sepharvaim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 17:24",
+  "references": [
+    "2 Kings 17:24",
+    "2 Kings 17:31",
+    "2 Kings 18:34",
+    "2 Kings 19:13",
+    "Isaiah 36:19",
+    "Isaiah 37:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

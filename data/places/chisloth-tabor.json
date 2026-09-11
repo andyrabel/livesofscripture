@@ -1,0 +1,24 @@
+{
+  "place_id": "chisloth-tabor",
+  "name": "Chisloth-tabor",
+  "alt_names": [
+    "Kislot-Tabor",
+    "Kisloth Tabor"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:12",
+  "references": [
+    "Joshua 19:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

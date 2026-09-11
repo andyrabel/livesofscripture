@@ -1,0 +1,22 @@
+{
+  "place_id": "rhodes-1",
+  "name": "Rhodes",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "island",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 21:1",
+  "references": [
+    "Acts 21:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Acts 21:1)"
+}

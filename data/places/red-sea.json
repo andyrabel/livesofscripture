@@ -1,0 +1,51 @@
+{
+  "place_id": "red-sea",
+  "name": "Red Sea",
+  "alt_names": [
+    "Gulf of Aqaba"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 10:19",
+  "references": [
+    "Exodus 10:19",
+    "Exodus 13:18",
+    "Exodus 15:4",
+    "Exodus 15:22",
+    "Exodus 23:31",
+    "Numbers 33:8",
+    "Numbers 33:10",
+    "Numbers 33:11",
+    "Deuteronomy 11:4",
+    "Joshua 2:10",
+    "Joshua 4:23",
+    "Joshua 24:6",
+    "Judges 11:16",
+    "1 Kings 9:26",
+    "2 Chronicles 8:17",
+    "Nehemiah 9:9",
+    "Psalm 66:6",
+    "Psalm 77:16",
+    "Psalm 106:7",
+    "Psalm 106:9",
+    "Psalm 106:22",
+    "Psalm 114:3",
+    "Psalm 114:5",
+    "Psalm 136:13",
+    "Psalm 136:15",
+    "Isaiah 63:11",
+    "Jeremiah 49:21",
+    "Acts 7:36",
+    "Hebrews 11:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

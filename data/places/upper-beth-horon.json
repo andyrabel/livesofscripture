@@ -1,0 +1,25 @@
+{
+  "place_id": "upper-beth-horon",
+  "name": "Upper Beth-horon",
+  "alt_names": [
+    "Beth-horon the upper"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 16:5",
+  "references": [
+    "Joshua 16:5",
+    "1 Chronicles 7:24",
+    "2 Chronicles 8:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "en-hakkore",
+  "name": "En-hakkore",
+  "alt_names": [
+    "Hakkore Spring",
+    "The Spring of Ha-Qore",
+    "The Spring of the One Who Cried Out"
+  ],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 15:19",
+  "references": [
+    "Judges 15:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

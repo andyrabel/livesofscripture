@@ -1,0 +1,22 @@
+{
+  "place_id": "ataroth-3",
+  "name": "Ataroth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 16:7",
+  "references": [
+    "Joshua 16:7"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 16:7)"
+}

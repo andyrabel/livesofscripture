@@ -1,0 +1,25 @@
+{
+  "place_id": "allammelech",
+  "name": "Allammelech",
+  "alt_names": [
+    "Alammelech",
+    "Allamelech",
+    "Allammelek"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:26",
+  "references": [
+    "Joshua 19:26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

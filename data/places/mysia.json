@@ -1,0 +1,22 @@
+{
+  "place_id": "mysia",
+  "name": "Mysia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 16:7",
+  "references": [
+    "Acts 16:7",
+    "Acts 16:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

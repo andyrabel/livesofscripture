@@ -1,0 +1,25 @@
+{
+  "place_id": "gebal-2",
+  "name": "Gebal",
+  "alt_names": [
+    "Byblos",
+    "Gebalites"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 83:7",
+  "references": [
+    "Psalm 83:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Ps 83:7)"
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "azazel",
+  "name": "Azazel",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Leviticus 16:8",
+  "references": [
+    "Leviticus 16:8",
+    "Leviticus 16:10",
+    "Leviticus 16:26"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "secacah",
+  "name": "Secacah",
+  "alt_names": [
+    "Sekakah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:61",
+  "references": [
+    "Joshua 15:61"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

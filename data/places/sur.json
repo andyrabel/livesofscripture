@@ -1,0 +1,23 @@
+{
+  "place_id": "sur",
+  "name": "Sur",
+  "alt_names": [
+    "Foundation Gate"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 11:6",
+  "references": [
+    "2 Kings 11:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

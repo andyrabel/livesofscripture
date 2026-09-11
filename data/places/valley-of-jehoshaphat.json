@@ -1,0 +1,22 @@
+{
+  "place_id": "valley-of-jehoshaphat",
+  "name": "Valley of Jehoshaphat",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joel 3:2",
+  "references": [
+    "Joel 3:2",
+    "Joel 3:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

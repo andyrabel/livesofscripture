@@ -1,0 +1,31 @@
+{
+  "place_id": "topheth",
+  "name": "Topheth",
+  "alt_names": [
+    "Tophet"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 23:10",
+  "references": [
+    "2 Kings 23:10",
+    "Isaiah 30:33",
+    "Jeremiah 7:31",
+    "Jeremiah 7:32",
+    "Jeremiah 19:6",
+    "Jeremiah 19:11",
+    "Jeremiah 19:12",
+    "Jeremiah 19:13",
+    "Jeremiah 19:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

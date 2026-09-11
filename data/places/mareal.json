@@ -1,0 +1,23 @@
+{
+  "place_id": "mareal",
+  "name": "Mareal",
+  "alt_names": [
+    "Maralah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:11",
+  "references": [
+    "Joshua 19:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

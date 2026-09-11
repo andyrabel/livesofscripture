@@ -1,0 +1,26 @@
+{
+  "place_id": "lud-1",
+  "name": "Lud",
+  "alt_names": [
+    "Lydia",
+    "Lydians"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 66:19",
+  "references": [
+    "Isaiah 66:19",
+    "Ezekiel 27:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Isa 66:19)"
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "jorkeam",
+  "name": "Jorkeam",
+  "alt_names": [
+    "Jorkoam"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 2:44",
+  "references": [
+    "1 Chronicles 2:44"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

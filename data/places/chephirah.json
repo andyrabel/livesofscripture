@@ -1,0 +1,26 @@
+{
+  "place_id": "chephirah",
+  "name": "Chephirah",
+  "alt_names": [
+    "Kephirah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 9:17",
+  "references": [
+    "Joshua 9:17",
+    "Joshua 18:26",
+    "Ezra 2:25",
+    "Nehemiah 7:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

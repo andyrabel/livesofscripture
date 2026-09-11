@@ -1,0 +1,23 @@
+{
+  "place_id": "kedesh-naphtali",
+  "name": "Kedesh-naphtali",
+  "alt_names": [
+    "Kedesh in Naphtali"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 4:6",
+  "references": [
+    "Judges 4:6"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

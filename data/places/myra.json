@@ -1,0 +1,21 @@
+{
+  "place_id": "myra",
+  "name": "Myra",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 27:5",
+  "references": [
+    "Acts 27:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

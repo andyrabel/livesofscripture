@@ -1,0 +1,23 @@
+{
+  "place_id": "armageddon",
+  "name": "Armageddon",
+  "alt_names": [
+    "Harmagedon"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Revelation 16:16",
+  "references": [
+    "Revelation 16:16"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "zalmon",
+  "name": "Zalmon",
+  "alt_names": [
+    "Salmon"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 68:14",
+  "references": [
+    "Psalm 68:14"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

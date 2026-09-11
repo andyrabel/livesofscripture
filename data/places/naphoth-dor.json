@@ -1,0 +1,31 @@
+{
+  "place_id": "naphoth-dor",
+  "name": "Naphoth-dor",
+  "alt_names": [
+    "Naphath",
+    "Napheth",
+    "Naphoth",
+    "Naphath Dor",
+    "coast of Dor",
+    "hills of Dor"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 11:2",
+  "references": [
+    "Joshua 11:2",
+    "Joshua 12:23",
+    "Joshua 17:11",
+    "1 Kings 4:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "ivvah",
+  "name": "Ivvah",
+  "alt_names": [
+    "Ivah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 18:34",
+  "references": [
+    "2 Kings 18:34",
+    "2 Kings 19:13",
+    "Isaiah 37:13"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

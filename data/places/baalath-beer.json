@@ -1,0 +1,26 @@
+{
+  "place_id": "baalath-beer",
+  "name": "Baalath-beer",
+  "alt_names": [
+    "Baal",
+    "Baalath",
+    "Baalat-Beor"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:8",
+  "references": [
+    "Joshua 19:8",
+    "1 Chronicles 4:33"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

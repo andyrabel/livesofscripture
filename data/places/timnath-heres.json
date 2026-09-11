@@ -1,0 +1,26 @@
+{
+  "place_id": "timnath-heres",
+  "name": "Timnath-heres",
+  "alt_names": [
+    "Timnah-heres",
+    "Timnath Serah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:50",
+  "references": [
+    "Joshua 19:50",
+    "Joshua 24:30",
+    "Judges 2:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

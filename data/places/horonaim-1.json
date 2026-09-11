@@ -1,0 +1,25 @@
+{
+  "place_id": "horonaim-1",
+  "name": "Horonaim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 15:5",
+  "references": [
+    "Isaiah 15:5",
+    "Jeremiah 48:3",
+    "Jeremiah 48:5",
+    "Jeremiah 48:34"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Isa 15:5)"
+}

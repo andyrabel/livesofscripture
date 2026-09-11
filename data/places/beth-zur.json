@@ -1,0 +1,24 @@
+{
+  "place_id": "beth-zur",
+  "name": "Beth-zur",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:58",
+  "references": [
+    "Joshua 15:58",
+    "1 Chronicles 2:45",
+    "2 Chronicles 11:7",
+    "Nehemiah 3:16"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

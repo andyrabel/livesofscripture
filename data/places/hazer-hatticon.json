@@ -1,0 +1,24 @@
+{
+  "place_id": "hazer-hatticon",
+  "name": "Hazer-hatticon",
+  "alt_names": [
+    "Hazar Hatticon",
+    "Hazer Hattikon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 47:16",
+  "references": [
+    "Ezekiel 47:16"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,26 @@
+{
+  "place_id": "fish-gate",
+  "name": "Fish Gate",
+  "alt_names": [
+    "Gate of the Fishes"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Chronicles 33:14",
+  "references": [
+    "2 Chronicles 33:14",
+    "Nehemiah 3:3",
+    "Nehemiah 12:39",
+    "Zephaniah 1:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

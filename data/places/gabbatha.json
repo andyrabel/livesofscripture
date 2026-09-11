@@ -1,0 +1,24 @@
+{
+  "place_id": "gabbatha",
+  "name": "Gabbatha",
+  "alt_names": [
+    "Pavement",
+    "The Stone Pavement"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "John 19:13",
+  "references": [
+    "John 19:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

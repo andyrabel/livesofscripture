@@ -1,0 +1,24 @@
+{
+  "place_id": "mortar",
+  "name": "Mortar",
+  "alt_names": [
+    "Hollow",
+    "Maktesh"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Zephaniah 1:11",
+  "references": [
+    "Zephaniah 1:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

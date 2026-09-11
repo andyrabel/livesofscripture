@@ -1,0 +1,24 @@
+{
+  "place_id": "uphaz",
+  "name": "Uphaz",
+  "alt_names": [
+    "Ufaz"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 10:9",
+  "references": [
+    "Jeremiah 10:9",
+    "Daniel 10:5"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "aroer-2",
+  "name": "Aroer",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 13:25",
+  "references": [
+    "Joshua 13:25",
+    "Judges 11:33"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 13:25)"
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "beeshterah",
+  "name": "Beeshterah",
+  "alt_names": [
+    "Eshtarah",
+    "Beeshtarah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 21:27",
+  "references": [
+    "Joshua 21:27"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "way-of-the-red-sea",
+  "name": "Way of the Red Sea",
+  "alt_names": [
+    "Red Sea",
+    "way to the Red Sea",
+    "road to the Red Sea",
+    "route to the Red Sea"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 14:25",
+  "references": [
+    "Numbers 14:25",
+    "Numbers 21:4",
+    "Deuteronomy 1:40",
+    "Deuteronomy 2:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

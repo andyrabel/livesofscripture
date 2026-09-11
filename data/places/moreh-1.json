@@ -1,0 +1,25 @@
+{
+  "place_id": "moreh-1",
+  "name": "Moreh",
+  "alt_names": [
+    "Oak of Moreh"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 12:6",
+  "references": [
+    "Genesis 12:6",
+    "Deuteronomy 11:30"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Gen 12:6)"
+}

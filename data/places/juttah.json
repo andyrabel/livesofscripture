@@ -1,0 +1,23 @@
+{
+  "place_id": "juttah",
+  "name": "Juttah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:55",
+  "references": [
+    "Joshua 15:55",
+    "Joshua 21:16",
+    "1 Chronicles 6:59"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

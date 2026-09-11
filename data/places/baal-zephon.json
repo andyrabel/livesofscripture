@@ -1,0 +1,23 @@
+{
+  "place_id": "baal-zephon",
+  "name": "Baal-zephon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 14:2",
+  "references": [
+    "Exodus 14:2",
+    "Exodus 14:9",
+    "Numbers 33:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

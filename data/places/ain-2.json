@@ -1,0 +1,24 @@
+{
+  "place_id": "ain-2",
+  "name": "Ain",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:32",
+  "references": [
+    "Joshua 15:32",
+    "Joshua 19:7",
+    "1 Chronicles 4:32"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 15:32)"
+}

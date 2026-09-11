@@ -1,0 +1,27 @@
+{
+  "place_id": "washers-field",
+  "name": "Washer\u2019s Field",
+  "alt_names": [
+    "Fuller\u2019s Field",
+    "Launderer\u2019s Field",
+    "Washerman\u2019s Field"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 18:17",
+  "references": [
+    "2 Kings 18:17",
+    "Isaiah 7:3",
+    "Isaiah 36:2"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

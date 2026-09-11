@@ -1,0 +1,24 @@
+{
+  "place_id": "bochim",
+  "name": "Bochim",
+  "alt_names": [
+    "Bokim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 2:1",
+  "references": [
+    "Judges 2:1",
+    "Judges 2:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

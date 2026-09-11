@@ -1,0 +1,24 @@
+{
+  "place_id": "tamar-1",
+  "name": "Tamar",
+  "alt_names": [
+    "Tadmor"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 9:18",
+  "references": [
+    "1 Kings 9:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(1 Kgs 9:18)"
+}

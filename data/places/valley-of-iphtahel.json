@@ -1,0 +1,25 @@
+{
+  "place_id": "valley-of-iphtahel",
+  "name": "Valley of Iphtahel",
+  "alt_names": [
+    "Jiphthah-el",
+    "valley of Yiptah-El"
+  ],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:14",
+  "references": [
+    "Joshua 19:14",
+    "Joshua 19:27"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

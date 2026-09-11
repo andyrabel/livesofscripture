@@ -1,0 +1,25 @@
+{
+  "place_id": "jabneel-1",
+  "name": "Jabneel",
+  "alt_names": [
+    "Jabneh"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:11",
+  "references": [
+    "Joshua 15:11",
+    "2 Chronicles 26:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 15:11)"
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "sin",
+  "name": "Sin",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 16:1",
+  "references": [
+    "Exodus 16:1",
+    "Exodus 17:1",
+    "Numbers 33:11",
+    "Numbers 33:12"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

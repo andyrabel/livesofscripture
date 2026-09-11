@@ -1,0 +1,25 @@
+{
+  "place_id": "heres",
+  "name": "Heres",
+  "alt_names": [
+    "Heres Pass",
+    "Pass of Heres",
+    "Ascent of Heres"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 8:13",
+  "references": [
+    "Judges 8:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

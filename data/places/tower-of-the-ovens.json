@@ -1,0 +1,24 @@
+{
+  "place_id": "tower-of-the-ovens",
+  "name": "Tower of the Ovens",
+  "alt_names": [
+    "Tower of Furnaces"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:11",
+  "references": [
+    "Nehemiah 3:11",
+    "Nehemiah 12:38"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

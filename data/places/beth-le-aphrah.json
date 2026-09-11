@@ -1,0 +1,25 @@
+{
+  "place_id": "beth-le-aphrah",
+  "name": "Beth-le-aphrah",
+  "alt_names": [
+    "Aphrah",
+    "Beth Aphrah",
+    "Beth Ophrah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Micah 1:10",
+  "references": [
+    "Micah 1:10"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

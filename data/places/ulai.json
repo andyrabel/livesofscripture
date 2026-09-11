@@ -1,0 +1,24 @@
+{
+  "place_id": "ulai",
+  "name": "Ulai",
+  "alt_names": [
+    "Ulai Canal"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Daniel 8:2",
+  "references": [
+    "Daniel 8:2",
+    "Daniel 8:16"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

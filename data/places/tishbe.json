@@ -1,0 +1,26 @@
+{
+  "place_id": "tishbe",
+  "name": "Tishbe",
+  "alt_names": [
+    "Tishbite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 17:1",
+  "references": [
+    "1 Kings 17:1",
+    "2 Kings 1:3",
+    "2 Kings 1:8",
+    "2 Kings 9:36"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

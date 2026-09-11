@@ -1,0 +1,30 @@
+{
+  "place_id": "valley-of-rephaim",
+  "name": "Valley of Rephaim",
+  "alt_names": [
+    "Valley of the Rephaites"
+  ],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:8",
+  "references": [
+    "Joshua 15:8",
+    "Joshua 18:16",
+    "2 Samuel 5:18",
+    "2 Samuel 5:22",
+    "2 Samuel 23:13",
+    "1 Chronicles 11:15",
+    "1 Chronicles 14:9",
+    "Isaiah 17:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

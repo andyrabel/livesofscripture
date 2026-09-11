@@ -1,0 +1,22 @@
+{
+  "place_id": "mount-nebo",
+  "name": "Mount Nebo",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 32:49",
+  "references": [
+    "Deuteronomy 32:49",
+    "Deuteronomy 34:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

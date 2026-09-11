@@ -1,0 +1,23 @@
+{
+  "place_id": "shikkeron",
+  "name": "Shikkeron",
+  "alt_names": [
+    "Shicron"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:11",
+  "references": [
+    "Joshua 15:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

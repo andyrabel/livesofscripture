@@ -1,0 +1,25 @@
+{
+  "place_id": "corner-gate",
+  "name": "Corner Gate",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 14:13",
+  "references": [
+    "2 Kings 14:13",
+    "2 Chronicles 25:23",
+    "2 Chronicles 26:9",
+    "Jeremiah 31:38",
+    "Zechariah 14:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

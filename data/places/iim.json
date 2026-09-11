@@ -1,0 +1,24 @@
+{
+  "place_id": "iim",
+  "name": "Iim",
+  "alt_names": [
+    "Ijim",
+    "Iyim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:29",
+  "references": [
+    "Joshua 15:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

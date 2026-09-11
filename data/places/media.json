@@ -1,0 +1,34 @@
+{
+  "place_id": "media",
+  "name": "Media",
+  "alt_names": [
+    "Medes",
+    "Median"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 6:2",
+  "references": [
+    "Ezra 6:2",
+    "Esther 1:3",
+    "Esther 1:14",
+    "Esther 1:18",
+    "Esther 1:19",
+    "Esther 10:2",
+    "Isaiah 21:2",
+    "Jeremiah 25:25",
+    "Jeremiah 51:11",
+    "Jeremiah 51:28",
+    "Daniel 8:20"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

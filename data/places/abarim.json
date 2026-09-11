@@ -1,0 +1,28 @@
+{
+  "place_id": "abarim",
+  "name": "Abarim",
+  "alt_names": [
+    "Abarim Range",
+    "mountains of Moab"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 27:12",
+  "references": [
+    "Numbers 27:12",
+    "Numbers 33:47",
+    "Numbers 33:48",
+    "Deuteronomy 32:49",
+    "Jeremiah 22:20"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

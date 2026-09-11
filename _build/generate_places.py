@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Builds the Places feature's data layer from data/people/*.json's curated
-`geographic_setting` field plus the hand-curated content in places_data.py.
+`geographic_setting` field, the hand-curated content in places_data.py, and
+(lowest priority) the OpenBible.info gazetteer in data/places_gazetteer.json
+(built by _build/import_openbible_places.py) so every named place in the
+Protestant canon has at least a name-only stub entry.
 
 Emits:
   data/places/<place_id>.json   -- one file per place (mirrors data/people/)
@@ -191,6 +194,18 @@ def main():
     for d in (PLACES_MAJOR, PLACES_MID, PLACES_MINOR):
         curated.update(d)
 
+    # Lowest-priority seed: the OpenBible.info gazetteer of every named place
+    # in the Protestant canon (data/places_gazetteer.json, built by
+    # _build/import_openbible_places.py). Hand curation above always wins;
+    # each gazetteer entry that survives lands as a name-only stub (0 people
+    # -> tier "stub" below). This is what lets the site claim to list *every*
+    # place in Scripture, not just those tied to a person's story.
+    gaz_path = ROOT / "data" / "places_gazetteer.json"
+    if gaz_path.exists():
+        gaz = json.loads(gaz_path.read_text())
+        for slug in sorted(gaz["places"]):
+            curated.setdefault(slug, gaz["places"][slug])
+
     # Preserve any hand-written family_friendly_summary already committed to
     # data/places/<id>.json. The original 21 major places carry `ff=` in
     # places_data.py; the remaining ~106 full-tier summaries (written
@@ -341,7 +356,7 @@ def main():
         phrases = {}
         for slug in slugs:
             e = by_id[slug]
-            region_label = e["region"].replace("-", " ")
+            region_label = "" if e["region"] in ("", "undetermined") else e["region"].replace("-", " ")
             era_label = e["eras"][0] if e["eras"] else None
             parts = [p for p in [region_label, era_label] if p]
             phrase = ", ".join(parts)

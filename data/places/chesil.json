@@ -1,0 +1,23 @@
+{
+  "place_id": "chesil",
+  "name": "Chesil",
+  "alt_names": [
+    "Kesil"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:30",
+  "references": [
+    "Joshua 15:30"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

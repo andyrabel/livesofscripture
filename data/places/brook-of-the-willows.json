@@ -1,0 +1,26 @@
+{
+  "place_id": "brook-of-the-willows",
+  "name": "Brook of the Willows",
+  "alt_names": [
+    "brook of Arabim",
+    "Ravine of Willows",
+    "Ravine of the Poplars",
+    "Stream of the Poplars"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 15:7",
+  "references": [
+    "Isaiah 15:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

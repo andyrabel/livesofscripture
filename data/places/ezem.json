@@ -1,0 +1,25 @@
+{
+  "place_id": "ezem",
+  "name": "Ezem",
+  "alt_names": [
+    "Azem"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:29",
+  "references": [
+    "Joshua 15:29",
+    "Joshua 19:3",
+    "1 Chronicles 4:29"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

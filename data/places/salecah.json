@@ -1,0 +1,28 @@
+{
+  "place_id": "salecah",
+  "name": "Salecah",
+  "alt_names": [
+    "Salcah",
+    "Salchah",
+    "Salekah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 3:10",
+  "references": [
+    "Deuteronomy 3:10",
+    "Joshua 12:5",
+    "Joshua 13:11",
+    "1 Chronicles 5:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

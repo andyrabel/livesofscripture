@@ -1,0 +1,51 @@
+{
+  "place_id": "arabah",
+  "name": "Arabah",
+  "alt_names": [
+    "Arbathite",
+    "Jordan plain",
+    "eastern Jordan plain",
+    "valley of the Dead Sea"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 1:1",
+  "references": [
+    "Deuteronomy 1:1",
+    "Deuteronomy 1:7",
+    "Deuteronomy 2:8",
+    "Deuteronomy 3:17",
+    "Deuteronomy 4:49",
+    "Deuteronomy 11:30",
+    "Joshua 8:14",
+    "Joshua 11:2",
+    "Joshua 11:16",
+    "Joshua 12:1",
+    "Joshua 12:3",
+    "Joshua 12:8",
+    "Joshua 18:18",
+    "1 Samuel 23:24",
+    "2 Samuel 2:29",
+    "2 Samuel 4:7",
+    "2 Samuel 23:31",
+    "2 Kings 25:4",
+    "2 Kings 25:5",
+    "1 Chronicles 11:32",
+    "Isaiah 33:9",
+    "Jeremiah 17:6",
+    "Jeremiah 39:4",
+    "Jeremiah 52:7",
+    "Ezekiel 47:8",
+    "Zechariah 14:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

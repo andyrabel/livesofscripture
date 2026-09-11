@@ -1,0 +1,26 @@
+{
+  "place_id": "beth-arabah",
+  "name": "Beth-arabah",
+  "alt_names": [
+    "Arabah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:6",
+  "references": [
+    "Joshua 15:6",
+    "Joshua 15:61",
+    "Joshua 18:18",
+    "Joshua 18:22"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,22 @@
+{
+  "place_id": "taberah",
+  "name": "Taberah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 11:3",
+  "references": [
+    "Numbers 11:3",
+    "Deuteronomy 9:22"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

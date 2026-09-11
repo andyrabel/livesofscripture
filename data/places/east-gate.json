@@ -1,0 +1,24 @@
+{
+  "place_id": "east-gate",
+  "name": "East Gate",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 26:14",
+  "references": [
+    "1 Chronicles 26:14",
+    "2 Chronicles 31:14",
+    "Nehemiah 3:29",
+    "Ezekiel 11:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

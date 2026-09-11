@@ -1,0 +1,24 @@
+{
+  "place_id": "tigris",
+  "name": "Tigris",
+  "alt_names": [
+    "Hiddekel"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 2:14",
+  "references": [
+    "Genesis 2:14",
+    "Daniel 10:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

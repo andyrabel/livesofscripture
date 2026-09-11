@@ -1,0 +1,23 @@
+{
+  "place_id": "gareb",
+  "name": "Gareb",
+  "alt_names": [
+    "Hill of Gareb"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 31:39",
+  "references": [
+    "Jeremiah 31:39"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

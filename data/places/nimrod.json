@@ -1,0 +1,21 @@
+{
+  "place_id": "nimrod",
+  "name": "Nimrod",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Micah 5:6",
+  "references": [
+    "Micah 5:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

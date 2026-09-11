@@ -1,0 +1,26 @@
+{
+  "place_id": "tob",
+  "name": "Tob",
+  "alt_names": [
+    "Ish-Tob"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 11:3",
+  "references": [
+    "Judges 11:3",
+    "Judges 11:5",
+    "2 Samuel 10:6",
+    "2 Samuel 10:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "beeroth",
+  "name": "Beeroth",
+  "alt_names": [
+    "Berothite",
+    "Beerothite",
+    "Beerothites"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 9:17",
+  "references": [
+    "Joshua 9:17",
+    "Joshua 18:25",
+    "2 Samuel 4:2",
+    "2 Samuel 4:3",
+    "2 Samuel 4:5",
+    "2 Samuel 23:37",
+    "1 Chronicles 11:39",
+    "Ezra 2:25",
+    "Nehemiah 7:29"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

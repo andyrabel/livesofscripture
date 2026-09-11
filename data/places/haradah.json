@@ -1,0 +1,22 @@
+{
+  "place_id": "haradah",
+  "name": "Haradah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:24",
+  "references": [
+    "Numbers 33:24",
+    "Numbers 33:25"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "tower-of-the-hundred",
+  "name": "Tower of the Hundred",
+  "alt_names": [
+    "tower of Meah"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:1",
+  "references": [
+    "Nehemiah 3:1",
+    "Nehemiah 12:39"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

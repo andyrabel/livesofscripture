@@ -1,0 +1,24 @@
+{
+  "place_id": "kittim",
+  "name": "Kittim",
+  "alt_names": [
+    "Chittim"
+  ],
+  "tier": "stub",
+  "type": "island",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 24:24",
+  "references": [
+    "Numbers 24:24",
+    "Daniel 11:30"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

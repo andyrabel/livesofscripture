@@ -1,0 +1,27 @@
+{
+  "place_id": "rimmon-2",
+  "name": "Rimmon",
+  "alt_names": [
+    "Remmon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:32",
+  "references": [
+    "Joshua 15:32",
+    "Joshua 19:7",
+    "1 Chronicles 4:32",
+    "Zechariah 14:10"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 15:32)"
+}

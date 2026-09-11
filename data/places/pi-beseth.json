@@ -1,0 +1,23 @@
+{
+  "place_id": "pi-beseth",
+  "name": "Pi-beseth",
+  "alt_names": [
+    "Bubastis"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 30:17",
+  "references": [
+    "Ezekiel 30:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

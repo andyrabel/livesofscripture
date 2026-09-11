@@ -1,0 +1,24 @@
+{
+  "place_id": "italy",
+  "name": "Italy",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 18:2",
+  "references": [
+    "Acts 18:2",
+    "Acts 27:1",
+    "Acts 27:6",
+    "Hebrews 13:24"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

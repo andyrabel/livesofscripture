@@ -1,0 +1,22 @@
+{
+  "place_id": "dibon-2",
+  "name": "Dibon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 11:25",
+  "references": [
+    "Nehemiah 11:25"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Neh 11:25)"
+}

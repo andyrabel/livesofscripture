@@ -1,0 +1,23 @@
+{
+  "place_id": "meconah",
+  "name": "Meconah",
+  "alt_names": [
+    "Mekonah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 11:28",
+  "references": [
+    "Nehemiah 11:28"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

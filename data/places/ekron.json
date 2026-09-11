@@ -1,0 +1,40 @@
+{
+  "place_id": "ekron",
+  "name": "Ekron",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 13:3",
+  "references": [
+    "Joshua 13:3",
+    "Joshua 15:11",
+    "Joshua 15:45",
+    "Joshua 15:46",
+    "Joshua 19:43",
+    "Judges 1:18",
+    "1 Samuel 5:10",
+    "1 Samuel 6:16",
+    "1 Samuel 6:17",
+    "1 Samuel 7:14",
+    "1 Samuel 17:52",
+    "2 Kings 1:2",
+    "2 Kings 1:3",
+    "2 Kings 1:6",
+    "2 Kings 1:16",
+    "Jeremiah 25:20",
+    "Amos 1:8",
+    "Zephaniah 2:4",
+    "Zechariah 9:5",
+    "Zechariah 9:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

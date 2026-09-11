@@ -1,0 +1,23 @@
+{
+  "place_id": "kiriath-huzoth",
+  "name": "Kiriath-huzoth",
+  "alt_names": [
+    "Kirjath Huzoth"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 22:39",
+  "references": [
+    "Numbers 22:39"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

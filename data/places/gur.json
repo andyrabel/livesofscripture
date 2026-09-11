@@ -1,0 +1,24 @@
+{
+  "place_id": "gur",
+  "name": "Gur",
+  "alt_names": [
+    "Gur Pass",
+    "Ascent of Gur"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 9:27",
+  "references": [
+    "2 Kings 9:27"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

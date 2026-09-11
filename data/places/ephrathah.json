@@ -1,0 +1,24 @@
+{
+  "place_id": "ephrathah",
+  "name": "Ephrathah",
+  "alt_names": [
+    "Ephratah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ruth 4:11",
+  "references": [
+    "Ruth 4:11",
+    "Psalm 132:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

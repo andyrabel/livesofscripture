@@ -1,0 +1,23 @@
+{
+  "place_id": "zereth-shahar",
+  "name": "Zereth-shahar",
+  "alt_names": [
+    "Zareth-shahar"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 13:19",
+  "references": [
+    "Joshua 13:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "valley-gate",
+  "name": "Valley Gate",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Chronicles 26:9",
+  "references": [
+    "2 Chronicles 26:9",
+    "Nehemiah 2:13",
+    "Nehemiah 2:15",
+    "Nehemiah 3:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

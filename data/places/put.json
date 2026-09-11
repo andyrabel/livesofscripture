@@ -1,0 +1,31 @@
+{
+  "place_id": "put",
+  "name": "Put",
+  "alt_names": [
+    "Pul",
+    "Phut",
+    "Libya",
+    "Libyans"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 66:19",
+  "references": [
+    "Isaiah 66:19",
+    "Jeremiah 46:9",
+    "Ezekiel 27:10",
+    "Ezekiel 30:5",
+    "Ezekiel 38:5",
+    "Nahum 3:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

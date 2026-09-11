@@ -1,0 +1,26 @@
+{
+  "place_id": "achshaph",
+  "name": "Achshaph",
+  "alt_names": [
+    "Acshaph",
+    "Akshaph"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 11:1",
+  "references": [
+    "Joshua 11:1",
+    "Joshua 12:20",
+    "Joshua 19:25"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

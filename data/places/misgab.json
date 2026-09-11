@@ -1,0 +1,21 @@
+{
+  "place_id": "misgab",
+  "name": "Misgab",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 48:1",
+  "references": [
+    "Jeremiah 48:1"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

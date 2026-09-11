@@ -1,0 +1,24 @@
+{
+  "place_id": "telem",
+  "name": "Telem",
+  "alt_names": [
+    "Telaim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:24",
+  "references": [
+    "Joshua 15:24",
+    "1 Samuel 15:4"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

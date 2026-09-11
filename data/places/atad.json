@@ -1,0 +1,22 @@
+{
+  "place_id": "atad",
+  "name": "Atad",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 50:10",
+  "references": [
+    "Genesis 50:10",
+    "Genesis 50:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,27 @@
+{
+  "place_id": "lod",
+  "name": "Lod",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 8:12",
+  "references": [
+    "1 Chronicles 8:12",
+    "Ezra 2:33",
+    "Nehemiah 7:37",
+    "Nehemiah 11:35",
+    "Acts 9:32",
+    "Acts 9:35",
+    "Acts 9:38"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

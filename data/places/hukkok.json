@@ -1,0 +1,23 @@
+{
+  "place_id": "hukkok",
+  "name": "Hukkok",
+  "alt_names": [
+    "Hukok"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:34",
+  "references": [
+    "Joshua 19:34"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "valley-of-the-arnon",
+  "name": "Valley of the Arnon",
+  "alt_names": [
+    "Arnon Gorge"
+  ],
+  "tier": "stub",
+  "type": "valley",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 2:24",
+  "references": [
+    "Deuteronomy 2:24",
+    "Deuteronomy 2:36",
+    "Deuteronomy 3:8",
+    "Deuteronomy 3:12",
+    "Deuteronomy 3:16",
+    "Deuteronomy 4:48",
+    "Joshua 12:1",
+    "Joshua 12:2",
+    "Joshua 13:9",
+    "Joshua 13:16",
+    "2 Kings 10:33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

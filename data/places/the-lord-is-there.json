@@ -1,0 +1,23 @@
+{
+  "place_id": "the-lord-is-there",
+  "name": "The Lord Is There",
+  "alt_names": [
+    "Yahweh Is There"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 48:35",
+  "references": [
+    "Ezekiel 48:35"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

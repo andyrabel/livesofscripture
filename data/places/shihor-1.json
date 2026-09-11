@@ -1,0 +1,26 @@
+{
+  "place_id": "shihor-1",
+  "name": "Shihor",
+  "alt_names": [
+    "Nile",
+    "Sihor"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 13:3",
+  "references": [
+    "Joshua 13:3",
+    "1 Chronicles 13:5"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 13:3)"
+}

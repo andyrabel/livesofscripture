@@ -1,0 +1,23 @@
+{
+  "place_id": "ashkenaz",
+  "name": "Ashkenaz",
+  "alt_names": [
+    "Ashchenaz"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 51:27",
+  "references": [
+    "Jeremiah 51:27"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

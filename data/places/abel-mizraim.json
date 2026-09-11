@@ -1,0 +1,21 @@
+{
+  "place_id": "abel-mizraim",
+  "name": "Abel-mizraim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 50:11",
+  "references": [
+    "Genesis 50:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

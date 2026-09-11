@@ -1,0 +1,23 @@
+{
+  "place_id": "phoenix",
+  "name": "Phoenix",
+  "alt_names": [
+    "Phenice"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 27:12",
+  "references": [
+    "Acts 27:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

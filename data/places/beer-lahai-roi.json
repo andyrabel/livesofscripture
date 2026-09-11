@@ -1,0 +1,25 @@
+{
+  "place_id": "beer-lahai-roi",
+  "name": "Beer-lahai-roi",
+  "alt_names": [
+    "Lahai-roi"
+  ],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 16:14",
+  "references": [
+    "Genesis 16:14",
+    "Genesis 24:62",
+    "Genesis 25:11"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

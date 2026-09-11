@@ -1,0 +1,22 @@
+{
+  "place_id": "pekod",
+  "name": "Pekod",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 50:21",
+  "references": [
+    "Jeremiah 50:21",
+    "Ezekiel 23:23"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "hamath-zobah",
+  "name": "Hamath-zobah",
+  "alt_names": [
+    "Zobah-Hamath"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 18:3",
+  "references": [
+    "1 Chronicles 18:3",
+    "2 Chronicles 8:3"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

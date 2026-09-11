@@ -1,0 +1,26 @@
+{
+  "place_id": "akeldama",
+  "name": "Akeldama",
+  "alt_names": [
+    "Aceldama",
+    "Hakeldama",
+    "Field of Blood"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Matthew 27:8",
+  "references": [
+    "Matthew 27:8",
+    "Acts 1:19"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

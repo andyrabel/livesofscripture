@@ -1,0 +1,24 @@
+{
+  "place_id": "abronah",
+  "name": "Abronah",
+  "alt_names": [
+    "Ebronah"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:34",
+  "references": [
+    "Numbers 33:34",
+    "Numbers 33:35"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,30 @@
+{
+  "place_id": "tahpanhes",
+  "name": "Tahpanhes",
+  "alt_names": [
+    "Tahapanes",
+    "Tehaphnehes"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 2:16",
+  "references": [
+    "Jeremiah 2:16",
+    "Jeremiah 43:7",
+    "Jeremiah 43:8",
+    "Jeremiah 43:9",
+    "Jeremiah 44:1",
+    "Jeremiah 46:14",
+    "Ezekiel 30:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

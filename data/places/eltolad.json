@@ -1,0 +1,25 @@
+{
+  "place_id": "eltolad",
+  "name": "Eltolad",
+  "alt_names": [
+    "Tolad"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:30",
+  "references": [
+    "Joshua 15:30",
+    "Joshua 19:4",
+    "1 Chronicles 4:29"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

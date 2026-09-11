@@ -1,0 +1,24 @@
+{
+  "place_id": "jokneam",
+  "name": "Jokneam",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 12:22",
+  "references": [
+    "Joshua 12:22",
+    "Joshua 19:11",
+    "Joshua 21:34",
+    "1 Chronicles 6:77"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

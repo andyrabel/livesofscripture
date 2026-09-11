@@ -1,0 +1,21 @@
+{
+  "place_id": "netaim",
+  "name": "Netaim",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 4:23",
+  "references": [
+    "1 Chronicles 4:23"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

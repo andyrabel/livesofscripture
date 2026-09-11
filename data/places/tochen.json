@@ -1,0 +1,23 @@
+{
+  "place_id": "tochen",
+  "name": "Tochen",
+  "alt_names": [
+    "Token"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 4:32",
+  "references": [
+    "1 Chronicles 4:32"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

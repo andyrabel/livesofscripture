@@ -1,0 +1,22 @@
+{
+  "place_id": "hepher",
+  "name": "Hepher",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 12:17",
+  "references": [
+    "Joshua 12:17",
+    "1 Kings 4:10"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,31 @@
+{
+  "place_id": "pisgah",
+  "name": "Pisgah",
+  "alt_names": [
+    "Pisgah Peak",
+    "Ashdoth-pisgah"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:20",
+  "references": [
+    "Numbers 21:20",
+    "Numbers 23:14",
+    "Deuteronomy 3:17",
+    "Deuteronomy 3:27",
+    "Deuteronomy 4:49",
+    "Deuteronomy 34:1",
+    "Joshua 12:3",
+    "Joshua 13:20"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

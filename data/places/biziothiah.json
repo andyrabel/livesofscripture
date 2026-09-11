@@ -1,0 +1,23 @@
+{
+  "place_id": "biziothiah",
+  "name": "Biziothiah",
+  "alt_names": [
+    "Bizjothjah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:28",
+  "references": [
+    "Joshua 15:28"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

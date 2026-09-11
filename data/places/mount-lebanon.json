@@ -1,0 +1,25 @@
+{
+  "place_id": "mount-lebanon",
+  "name": "Mount Lebanon",
+  "alt_names": [
+    "Lebanon mountains",
+    "Lebanese mountains",
+    "mountains of Lebanon"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 3:3",
+  "references": [
+    "Judges 3:3"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

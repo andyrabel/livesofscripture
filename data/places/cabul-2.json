@@ -1,0 +1,24 @@
+{
+  "place_id": "cabul-2",
+  "name": "Cabul",
+  "alt_names": [
+    "Land of Kabul"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 9:13",
+  "references": [
+    "1 Kings 9:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(1 Kgs 9:13)"
+}

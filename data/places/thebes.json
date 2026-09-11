@@ -1,0 +1,29 @@
+{
+  "place_id": "thebes",
+  "name": "Thebes",
+  "alt_names": [
+    "No",
+    "No Amon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 46:25",
+  "references": [
+    "Jeremiah 46:25",
+    "Ezekiel 30:14",
+    "Ezekiel 30:15",
+    "Ezekiel 30:16",
+    "Nahum 3:8",
+    "Nahum 3:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

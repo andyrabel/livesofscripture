@@ -1,0 +1,32 @@
+{
+  "place_id": "goshen-1",
+  "name": "Goshen",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 45:10",
+  "references": [
+    "Genesis 45:10",
+    "Genesis 46:28",
+    "Genesis 46:29",
+    "Genesis 46:34",
+    "Genesis 47:1",
+    "Genesis 47:4",
+    "Genesis 47:6",
+    "Genesis 47:27",
+    "Genesis 50:8",
+    "Exodus 8:22",
+    "Exodus 9:26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Gen 45:10)"
+}

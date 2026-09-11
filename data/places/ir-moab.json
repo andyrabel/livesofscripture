@@ -1,0 +1,25 @@
+{
+  "place_id": "ir-moab",
+  "name": "Ir-moab",
+  "alt_names": [
+    "Moabite city",
+    "Moabite town",
+    "city of Moab"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 22:36",
+  "references": [
+    "Numbers 22:36"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

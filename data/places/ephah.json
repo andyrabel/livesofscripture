@@ -1,0 +1,21 @@
+{
+  "place_id": "ephah",
+  "name": "Ephah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 60:6",
+  "references": [
+    "Isaiah 60:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

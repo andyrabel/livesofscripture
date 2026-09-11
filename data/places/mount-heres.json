@@ -1,0 +1,23 @@
+{
+  "place_id": "mount-heres",
+  "name": "Mount Heres",
+  "alt_names": [
+    "Har Heres"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 1:35",
+  "references": [
+    "Judges 1:35"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

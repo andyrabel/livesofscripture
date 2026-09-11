@@ -1,0 +1,22 @@
+{
+  "place_id": "kartah",
+  "name": "Kartah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 21:34",
+  "references": [
+    "Joshua 21:34",
+    "1 Chronicles 6:77"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

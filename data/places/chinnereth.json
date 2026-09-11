@@ -1,0 +1,28 @@
+{
+  "place_id": "chinnereth",
+  "name": "Chinnereth",
+  "alt_names": [
+    "Cinneroth",
+    "Kinnereth",
+    "Chinneroth"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 3:17",
+  "references": [
+    "Deuteronomy 3:17",
+    "Joshua 11:2",
+    "Joshua 19:35",
+    "1 Kings 15:20"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

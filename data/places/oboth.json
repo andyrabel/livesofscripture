@@ -1,0 +1,24 @@
+{
+  "place_id": "oboth",
+  "name": "Oboth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:10",
+  "references": [
+    "Numbers 21:10",
+    "Numbers 21:11",
+    "Numbers 33:43",
+    "Numbers 33:44"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

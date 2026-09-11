@@ -1,0 +1,27 @@
+{
+  "place_id": "moresheth-gath",
+  "name": "Moresheth-gath",
+  "alt_names": [
+    "Moreshite",
+    "Morashtite",
+    "Morasthite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 26:18",
+  "references": [
+    "Jeremiah 26:18",
+    "Micah 1:1",
+    "Micah 1:14"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

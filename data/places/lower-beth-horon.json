@@ -1,0 +1,29 @@
+{
+  "place_id": "lower-beth-horon",
+  "name": "Lower Beth-horon",
+  "alt_names": [
+    "Lower",
+    "nether Beth-horon",
+    "Beth-horon the nether"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 16:3",
+  "references": [
+    "Joshua 16:3",
+    "Joshua 18:13",
+    "1 Kings 9:17",
+    "1 Chronicles 7:24",
+    "2 Chronicles 8:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

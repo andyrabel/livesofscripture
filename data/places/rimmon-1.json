@@ -1,0 +1,25 @@
+{
+  "place_id": "rimmon-1",
+  "name": "Rimmon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 20:45",
+  "references": [
+    "Judges 20:45",
+    "Judges 20:47",
+    "Judges 21:13",
+    "Isaiah 10:27"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Judg 20:45)"
+}

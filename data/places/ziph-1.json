@@ -1,0 +1,28 @@
+{
+  "place_id": "ziph-1",
+  "name": "Ziph",
+  "alt_names": [
+    "Ziphites"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:55",
+  "references": [
+    "Joshua 15:55",
+    "1 Samuel 23:19",
+    "1 Samuel 23:24",
+    "1 Samuel 26:1",
+    "2 Chronicles 11:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 15:55)"
+}

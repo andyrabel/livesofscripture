@@ -1,0 +1,22 @@
+{
+  "place_id": "hashmonah",
+  "name": "Hashmonah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:29",
+  "references": [
+    "Numbers 33:29",
+    "Numbers 33:30"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

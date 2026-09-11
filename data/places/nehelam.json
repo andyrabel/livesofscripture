@@ -1,0 +1,25 @@
+{
+  "place_id": "nehelam",
+  "name": "Nehelam",
+  "alt_names": [
+    "Nehelamite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 29:24",
+  "references": [
+    "Jeremiah 29:24",
+    "Jeremiah 29:31",
+    "Jeremiah 29:32"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "goiim-2",
+  "name": "Goiim",
+  "alt_names": [
+    "Goyim"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 12:23",
+  "references": [
+    "Joshua 12:23"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 12:23)"
+}

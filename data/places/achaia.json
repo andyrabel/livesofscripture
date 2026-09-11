@@ -1,0 +1,30 @@
+{
+  "place_id": "achaia",
+  "name": "Achaia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 18:12",
+  "references": [
+    "Acts 18:12",
+    "Acts 18:27",
+    "Acts 19:21",
+    "Romans 15:26",
+    "1 Corinthians 16:15",
+    "2 Corinthians 1:1",
+    "2 Corinthians 9:2",
+    "2 Corinthians 11:10",
+    "1 Thessalonians 1:7",
+    "1 Thessalonians 1:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

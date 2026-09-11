@@ -1,0 +1,33 @@
+{
+  "place_id": "meshech",
+  "name": "Meshech",
+  "alt_names": [
+    "Tubal",
+    "Mesech",
+    "Meshek",
+    "Meshach",
+    "Meshech Tubal"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 120:5",
+  "references": [
+    "Psalm 120:5",
+    "Isaiah 66:19",
+    "Ezekiel 27:13",
+    "Ezekiel 32:26",
+    "Ezekiel 38:2",
+    "Ezekiel 38:3",
+    "Ezekiel 39:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

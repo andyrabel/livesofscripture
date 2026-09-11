@@ -1,0 +1,22 @@
+{
+  "place_id": "holon-2",
+  "name": "Holon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Jeremiah 48:21",
+  "references": [
+    "Jeremiah 48:21"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Jer 48:21)"
+}

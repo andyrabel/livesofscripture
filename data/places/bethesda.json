@@ -1,0 +1,23 @@
+{
+  "place_id": "bethesda",
+  "name": "Bethesda",
+  "alt_names": [
+    "Bethzatha"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "John 5:2",
+  "references": [
+    "John 5:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

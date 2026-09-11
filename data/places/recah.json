@@ -1,0 +1,24 @@
+{
+  "place_id": "recah",
+  "name": "Recah",
+  "alt_names": [
+    "Rekah",
+    "Rechah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 4:12",
+  "references": [
+    "1 Chronicles 4:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

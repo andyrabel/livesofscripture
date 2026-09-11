@@ -1,0 +1,28 @@
+{
+  "place_id": "second-quarter",
+  "name": "Second Quarter",
+  "alt_names": [
+    "New Quarter",
+    "Second District",
+    "Mishneh district"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 22:14",
+  "references": [
+    "2 Kings 22:14",
+    "2 Chronicles 34:22",
+    "Nehemiah 11:9",
+    "Zephaniah 1:10"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

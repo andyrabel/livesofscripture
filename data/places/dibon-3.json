@@ -1,0 +1,25 @@
+{
+  "place_id": "dibon-3",
+  "name": "Dibon",
+  "alt_names": [
+    "Dimon",
+    "Waters of Dibon"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 15:9",
+  "references": [
+    "Isaiah 15:9"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Isa 15:9)"
+}

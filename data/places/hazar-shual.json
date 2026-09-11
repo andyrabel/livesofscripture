@@ -1,0 +1,24 @@
+{
+  "place_id": "hazar-shual",
+  "name": "Hazar-shual",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:28",
+  "references": [
+    "Joshua 15:28",
+    "Joshua 19:3",
+    "1 Chronicles 4:28",
+    "Nehemiah 11:27"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "place_id": "naaran",
+  "name": "Naaran",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 7:28",
+  "references": [
+    "1 Chronicles 7:28"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

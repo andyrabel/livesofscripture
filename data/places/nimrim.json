@@ -1,0 +1,24 @@
+{
+  "place_id": "nimrim",
+  "name": "Nimrim",
+  "alt_names": [
+    "Waters of Nimrim"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 15:6",
+  "references": [
+    "Isaiah 15:6",
+    "Jeremiah 48:34"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

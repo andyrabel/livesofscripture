@@ -1,0 +1,21 @@
+{
+  "place_id": "shoa",
+  "name": "Shoa",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "nation",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 23:23",
+  "references": [
+    "Ezekiel 23:23"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

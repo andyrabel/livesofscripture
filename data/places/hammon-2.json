@@ -1,0 +1,22 @@
+{
+  "place_id": "hammon-2",
+  "name": "Hammon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 6:76",
+  "references": [
+    "1 Chronicles 6:76"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(1 Chr 6:76)"
+}

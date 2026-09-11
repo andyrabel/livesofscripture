@@ -1,0 +1,23 @@
+{
+  "place_id": "alemeth",
+  "name": "Alemeth",
+  "alt_names": [
+    "Allemeth"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 6:60",
+  "references": [
+    "1 Chronicles 6:60"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,27 @@
+{
+  "place_id": "zoan",
+  "name": "Zoan",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 13:22",
+  "references": [
+    "Numbers 13:22",
+    "Psalm 78:12",
+    "Psalm 78:43",
+    "Isaiah 19:11",
+    "Isaiah 19:13",
+    "Isaiah 30:4",
+    "Ezekiel 30:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

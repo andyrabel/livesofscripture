@@ -1,0 +1,24 @@
+{
+  "place_id": "ataroth-addar",
+  "name": "Ataroth-addar",
+  "alt_names": [
+    "Ataroth-adar"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 16:5",
+  "references": [
+    "Joshua 16:5",
+    "Joshua 18:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "chesulloth",
+  "name": "Chesulloth",
+  "alt_names": [
+    "Kesulloth"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 19:18",
+  "references": [
+    "Joshua 19:18"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

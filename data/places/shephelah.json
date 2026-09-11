@@ -1,0 +1,43 @@
+{
+  "place_id": "shephelah",
+  "name": "Shephelah",
+  "alt_names": [
+    "Lowland",
+    "Judean foothills",
+    "foothills of Judah"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 1:7",
+  "references": [
+    "Deuteronomy 1:7",
+    "Joshua 9:1",
+    "Joshua 10:40",
+    "Joshua 11:2",
+    "Joshua 11:16",
+    "Joshua 12:8",
+    "Joshua 15:33",
+    "Judges 1:9",
+    "1 Kings 10:27",
+    "1 Chronicles 27:28",
+    "2 Chronicles 1:15",
+    "2 Chronicles 9:27",
+    "2 Chronicles 26:10",
+    "2 Chronicles 28:18",
+    "Jeremiah 17:26",
+    "Jeremiah 32:44",
+    "Jeremiah 33:13",
+    "Obadiah 1:19",
+    "Zechariah 7:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

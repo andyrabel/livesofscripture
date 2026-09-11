@@ -1,0 +1,26 @@
+{
+  "place_id": "syene",
+  "name": "Syene",
+  "alt_names": [
+    "Aswan",
+    "Sinim"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 49:12",
+  "references": [
+    "Isaiah 49:12",
+    "Ezekiel 29:10",
+    "Ezekiel 30:6"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

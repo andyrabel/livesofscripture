@@ -1,0 +1,26 @@
+{
+  "place_id": "dung-gate",
+  "name": "Dung Gate",
+  "alt_names": [
+    "Refuse Gate"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 2:13",
+  "references": [
+    "Nehemiah 2:13",
+    "Nehemiah 3:13",
+    "Nehemiah 3:14",
+    "Nehemiah 12:31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

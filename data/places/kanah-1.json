@@ -1,0 +1,25 @@
+{
+  "place_id": "kanah-1",
+  "name": "Kanah",
+  "alt_names": [
+    "Kanah Ravine"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 16:8",
+  "references": [
+    "Joshua 16:8",
+    "Joshua 17:9"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 16:8)"
+}

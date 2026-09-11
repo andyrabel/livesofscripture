@@ -1,0 +1,23 @@
+{
+  "place_id": "azmon",
+  "name": "Azmon",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 34:4",
+  "references": [
+    "Numbers 34:4",
+    "Numbers 34:5",
+    "Joshua 15:4"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

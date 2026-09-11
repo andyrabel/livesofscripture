@@ -1,0 +1,42 @@
+{
+  "place_id": "mount-hermon",
+  "name": "Mount Hermon",
+  "alt_names": [
+    "Sion",
+    "Sirion",
+    "Lebanon",
+    "Hermonites",
+    "Mount Siyon"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 3:8",
+  "references": [
+    "Deuteronomy 3:8",
+    "Deuteronomy 3:9",
+    "Deuteronomy 4:48",
+    "Joshua 11:3",
+    "Joshua 11:17",
+    "Joshua 12:1",
+    "Joshua 12:5",
+    "Joshua 13:5",
+    "Joshua 13:11",
+    "1 Chronicles 5:23",
+    "Psalm 29:6",
+    "Psalm 42:6",
+    "Psalm 89:12",
+    "Psalm 133:3",
+    "Song of Solomon 4:8",
+    "Jeremiah 18:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

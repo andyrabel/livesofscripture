@@ -1,0 +1,22 @@
+{
+  "place_id": "cappadocia",
+  "name": "Cappadocia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 2:9",
+  "references": [
+    "Acts 2:9",
+    "1 Peter 1:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

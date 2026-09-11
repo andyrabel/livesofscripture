@@ -1,0 +1,30 @@
+{
+  "place_id": "sibmah",
+  "name": "Sibmah",
+  "alt_names": [
+    "Sebam",
+    "Shebam",
+    "Shibmah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 32:3",
+  "references": [
+    "Numbers 32:3",
+    "Numbers 32:38",
+    "Joshua 13:19",
+    "Isaiah 16:8",
+    "Isaiah 16:9",
+    "Jeremiah 48:32"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "bath-rabbim",
+  "name": "Bath-rabbim",
+  "alt_names": [
+    "Beth Rabbim"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Song of Solomon 7:4",
+  "references": [
+    "Song of Solomon 7:4"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

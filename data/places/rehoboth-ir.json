@@ -1,0 +1,23 @@
+{
+  "place_id": "rehoboth-ir",
+  "name": "Rehoboth-Ir",
+  "alt_names": [
+    "Rehoboth"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 10:11",
+  "references": [
+    "Genesis 10:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

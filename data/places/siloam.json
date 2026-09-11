@@ -1,0 +1,29 @@
+{
+  "place_id": "siloam",
+  "name": "Siloam",
+  "alt_names": [
+    "Siloah",
+    "King\u2019s Pool",
+    "Pool of Shelah"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 2:14",
+  "references": [
+    "Nehemiah 2:14",
+    "Nehemiah 3:15",
+    "Luke 13:4",
+    "John 9:7",
+    "John 9:11"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

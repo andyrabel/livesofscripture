@@ -1,0 +1,30 @@
+{
+  "place_id": "phoenicia",
+  "name": "Phoenicia",
+  "alt_names": [
+    "Phenice",
+    "Phenicia",
+    "Syrophenician",
+    "Syrophoenician",
+    "Syrian Phoenicia"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Mark 7:26",
+  "references": [
+    "Mark 7:26",
+    "Acts 11:19",
+    "Acts 15:3",
+    "Acts 21:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

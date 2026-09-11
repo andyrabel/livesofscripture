@@ -1,0 +1,23 @@
+{
+  "place_id": "janim",
+  "name": "Janim",
+  "alt_names": [
+    "Janum"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:53",
+  "references": [
+    "Joshua 15:53"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

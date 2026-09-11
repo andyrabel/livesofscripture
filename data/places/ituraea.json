@@ -1,0 +1,23 @@
+{
+  "place_id": "ituraea",
+  "name": "Ituraea",
+  "alt_names": [
+    "Iturea"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Luke 3:1",
+  "references": [
+    "Luke 3:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

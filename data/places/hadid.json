@@ -1,0 +1,23 @@
+{
+  "place_id": "hadid",
+  "name": "Hadid",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 2:33",
+  "references": [
+    "Ezra 2:33",
+    "Nehemiah 7:37",
+    "Nehemiah 11:34"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

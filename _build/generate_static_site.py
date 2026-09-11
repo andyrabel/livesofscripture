@@ -1167,6 +1167,7 @@ PLACE_TYPE_LABELS = {
     "nation": "Nation", "region": "Region", "city": "City", "town": "Town",
     "village": "Village", "mountain": "Mountain", "wilderness": "Wilderness",
     "valley": "Valley", "body-of-water": "Body of Water", "site": "Site",
+    "river": "River", "spring": "Spring", "island": "Island",
 }
 
 

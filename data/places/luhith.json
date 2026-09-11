@@ -1,0 +1,24 @@
+{
+  "place_id": "luhith",
+  "name": "Luhith",
+  "alt_names": [
+    "Ascent of Luhith"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 15:5",
+  "references": [
+    "Isaiah 15:5",
+    "Jeremiah 48:5"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

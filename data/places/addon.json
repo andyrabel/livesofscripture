@@ -1,0 +1,24 @@
+{
+  "place_id": "addon",
+  "name": "Addon",
+  "alt_names": [
+    "Addan"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 2:59",
+  "references": [
+    "Ezra 2:59",
+    "Nehemiah 7:61"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "place_id": "hierapolis",
+  "name": "Hierapolis",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Colossians 4:13",
+  "references": [
+    "Colossians 4:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

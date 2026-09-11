@@ -1,0 +1,29 @@
+{
+  "place_id": "bozrah-1",
+  "name": "Bozrah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 36:33",
+  "references": [
+    "Genesis 36:33",
+    "1 Chronicles 1:44",
+    "Isaiah 34:6",
+    "Isaiah 63:1",
+    "Jeremiah 49:13",
+    "Jeremiah 49:22",
+    "Amos 1:12",
+    "Micah 2:12"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Gen 36:33)"
+}

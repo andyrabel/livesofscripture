@@ -1,0 +1,24 @@
+{
+  "place_id": "mount-shepher",
+  "name": "Mount Shepher",
+  "alt_names": [
+    "Shapher"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 33:23",
+  "references": [
+    "Numbers 33:23",
+    "Numbers 33:24"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

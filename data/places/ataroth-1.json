@@ -1,0 +1,23 @@
+{
+  "place_id": "ataroth-1",
+  "name": "Ataroth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 32:3",
+  "references": [
+    "Numbers 32:3",
+    "Numbers 32:34"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Num 32:3)"
+}

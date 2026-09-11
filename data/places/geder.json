@@ -1,0 +1,24 @@
+{
+  "place_id": "geder",
+  "name": "Geder",
+  "alt_names": [
+    "Gederite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 12:13",
+  "references": [
+    "Joshua 12:13",
+    "1 Chronicles 27:28"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

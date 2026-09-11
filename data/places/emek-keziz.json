@@ -1,0 +1,23 @@
+{
+  "place_id": "emek-keziz",
+  "name": "Emek-keziz",
+  "alt_names": [
+    "Keziz"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 18:21",
+  "references": [
+    "Joshua 18:21"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

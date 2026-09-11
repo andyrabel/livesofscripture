@@ -1,0 +1,24 @@
+{
+  "place_id": "meronoth",
+  "name": "Meronoth",
+  "alt_names": [
+    "Meronothite"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Chronicles 27:30",
+  "references": [
+    "1 Chronicles 27:30",
+    "Nehemiah 3:7"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,33 @@
+{
+  "place_id": "house-of-the-forest-of-lebanon",
+  "name": "House of the Forest of Lebanon",
+  "alt_names": [
+    "House of the Forest",
+    "Palace of the Forest",
+    "Palace of the Lebanon Forest",
+    "house of the timber of Lebanon",
+    "Palace of the Forest of Lebanon",
+    "house of the timber from Lebanon"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Kings 7:2",
+  "references": [
+    "1 Kings 7:2",
+    "1 Kings 10:17",
+    "1 Kings 10:21",
+    "2 Chronicles 9:16",
+    "2 Chronicles 9:20",
+    "Isaiah 22:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

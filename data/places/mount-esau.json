@@ -1,0 +1,30 @@
+{
+  "place_id": "mount-esau",
+  "name": "Mount Esau",
+  "alt_names": [
+    "Esau\u2019s mountain",
+    "Esau\u2019s mountains",
+    "mountains of Edom",
+    "mountains of Esau",
+    "hill country of Esau"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Obadiah 1:8",
+  "references": [
+    "Obadiah 1:8",
+    "Obadiah 1:9",
+    "Obadiah 1:19",
+    "Obadiah 1:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

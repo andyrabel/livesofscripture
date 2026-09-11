@@ -1,0 +1,32 @@
+{
+  "place_id": "kedar",
+  "name": "Kedar",
+  "alt_names": [
+    "Qedar",
+    "Kedarite"
+  ],
+  "tier": "stub",
+  "type": "nation",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Psalm 120:5",
+  "references": [
+    "Psalm 120:5",
+    "Song of Solomon 1:5",
+    "Isaiah 21:16",
+    "Isaiah 21:17",
+    "Isaiah 42:11",
+    "Isaiah 60:7",
+    "Jeremiah 2:10",
+    "Jeremiah 49:28",
+    "Ezekiel 27:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,22 @@
+{
+  "place_id": "lower-gulloth",
+  "name": "Lower Gulloth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:19",
+  "references": [
+    "Joshua 15:19",
+    "Judges 1:15"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

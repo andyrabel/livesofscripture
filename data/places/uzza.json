@@ -1,0 +1,25 @@
+{
+  "place_id": "uzza",
+  "name": "Uzza",
+  "alt_names": [
+    "garden of Uzza",
+    "garden of Uzzah"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 21:18",
+  "references": [
+    "2 Kings 21:18",
+    "2 Kings 21:26"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

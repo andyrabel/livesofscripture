@@ -1,0 +1,25 @@
+{
+  "place_id": "adummim",
+  "name": "Adummim",
+  "alt_names": [
+    "Pass of Adummim",
+    "Ascent of Adummim"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:7",
+  "references": [
+    "Joshua 15:7",
+    "Joshua 18:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "water-gate",
+  "name": "Water Gate",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:26",
+  "references": [
+    "Nehemiah 3:26",
+    "Nehemiah 8:1",
+    "Nehemiah 8:3",
+    "Nehemiah 8:16",
+    "Nehemiah 12:37"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

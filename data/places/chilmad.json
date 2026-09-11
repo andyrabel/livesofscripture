@@ -1,0 +1,23 @@
+{
+  "place_id": "chilmad",
+  "name": "Chilmad",
+  "alt_names": [
+    "Kilmad"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezekiel 27:23",
+  "references": [
+    "Ezekiel 27:23"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

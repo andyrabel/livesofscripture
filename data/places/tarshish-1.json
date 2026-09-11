@@ -1,0 +1,37 @@
+{
+  "place_id": "tarshish-1",
+  "name": "Tarshish",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Chronicles 9:21",
+  "references": [
+    "2 Chronicles 9:21",
+    "2 Chronicles 20:36",
+    "2 Chronicles 20:37",
+    "Psalm 72:10",
+    "Isaiah 23:1",
+    "Isaiah 23:6",
+    "Isaiah 23:10",
+    "Isaiah 23:14",
+    "Isaiah 66:19",
+    "Jeremiah 10:9",
+    "Ezekiel 10:9",
+    "Ezekiel 27:12",
+    "Ezekiel 27:25",
+    "Ezekiel 38:13",
+    "Jonah 1:3",
+    "Jonah 4:2"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(2 Chr 9:21)"
+}

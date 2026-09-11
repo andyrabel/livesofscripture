@@ -1,0 +1,28 @@
+{
+  "place_id": "cilicia",
+  "name": "Cilicia",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Acts 6:9",
+  "references": [
+    "Acts 6:9",
+    "Acts 15:23",
+    "Acts 15:41",
+    "Acts 21:39",
+    "Acts 22:3",
+    "Acts 23:34",
+    "Acts 27:5",
+    "Galatians 1:21"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "place_id": "muster-gate",
+  "name": "Muster Gate",
+  "alt_names": [
+    "Miphkad",
+    "Enrollment Gate",
+    "Inspection Gate"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:31",
+  "references": [
+    "Nehemiah 3:31"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

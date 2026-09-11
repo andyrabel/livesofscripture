@@ -1,0 +1,28 @@
+{
+  "place_id": "pathros",
+  "name": "Pathros",
+  "alt_names": [
+    "Upper Egypt",
+    "southern Egypt"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 11:11",
+  "references": [
+    "Isaiah 11:11",
+    "Jeremiah 44:1",
+    "Jeremiah 44:15",
+    "Ezekiel 29:14",
+    "Ezekiel 30:14"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

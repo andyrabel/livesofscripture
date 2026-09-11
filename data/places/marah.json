@@ -1,0 +1,25 @@
+{
+  "place_id": "marah",
+  "name": "Marah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 15:23",
+  "references": [
+    "Exodus 15:23",
+    "Exodus 15:25",
+    "Exodus 15:27",
+    "Numbers 33:8",
+    "Numbers 33:9"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,23 @@
+{
+  "place_id": "pishon",
+  "name": "Pishon",
+  "alt_names": [
+    "Pison"
+  ],
+  "tier": "stub",
+  "type": "river",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 2:11",
+  "references": [
+    "Genesis 2:11"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

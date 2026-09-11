@@ -1,0 +1,22 @@
+{
+  "place_id": "ezel",
+  "name": "Ezel",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Samuel 20:19",
+  "references": [
+    "1 Samuel 20:19",
+    "1 Samuel 20:41"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

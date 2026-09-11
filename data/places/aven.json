@@ -1,0 +1,21 @@
+{
+  "place_id": "aven",
+  "name": "Aven",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Hosea 10:8",
+  "references": [
+    "Hosea 10:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

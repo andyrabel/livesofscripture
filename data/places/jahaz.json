@@ -1,0 +1,33 @@
+{
+  "place_id": "jahaz",
+  "name": "Jahaz",
+  "alt_names": [
+    "Jahaza",
+    "Jahzah",
+    "Jahazah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Numbers 21:23",
+  "references": [
+    "Numbers 21:23",
+    "Deuteronomy 2:32",
+    "Joshua 13:18",
+    "Joshua 21:36",
+    "Judges 11:20",
+    "1 Chronicles 6:78",
+    "Isaiah 15:4",
+    "Jeremiah 48:21",
+    "Jeremiah 48:34"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

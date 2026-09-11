@@ -1,0 +1,23 @@
+{
+  "place_id": "ariel",
+  "name": "Ariel",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 29:1",
+  "references": [
+    "Isaiah 29:1",
+    "Isaiah 29:2",
+    "Isaiah 29:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

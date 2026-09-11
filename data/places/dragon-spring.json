@@ -1,0 +1,27 @@
+{
+  "place_id": "dragon-spring",
+  "name": "Dragon Spring",
+  "alt_names": [
+    "Jackal Well",
+    "Serpent Well",
+    "Jackal\u2019s Well",
+    "Serpent\u2019s Well",
+    "Dragon\u2019s Spring"
+  ],
+  "tier": "stub",
+  "type": "spring",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 2:13",
+  "references": [
+    "Nehemiah 2:13"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,22 @@
+{
+  "place_id": "javan",
+  "name": "Javan",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 66:19",
+  "references": [
+    "Isaiah 66:19",
+    "Ezekiel 27:13"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

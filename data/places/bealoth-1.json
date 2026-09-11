@@ -1,0 +1,22 @@
+{
+  "place_id": "bealoth-1",
+  "name": "Bealoth",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Joshua 15:24",
+  "references": [
+    "Joshua 15:24"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": "",
+  "disambiguation": "(Josh 15:24)"
+}

@@ -1,0 +1,29 @@
+{
+  "place_id": "heliopolis",
+  "name": "Heliopolis",
+  "alt_names": [
+    "On",
+    "Aven",
+    "Beth Shemesh"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 41:45",
+  "references": [
+    "Genesis 41:45",
+    "Genesis 41:50",
+    "Genesis 46:20",
+    "Jeremiah 43:13",
+    "Ezekiel 30:17"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

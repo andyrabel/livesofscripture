@@ -1,0 +1,24 @@
+{
+  "place_id": "broad-wall",
+  "name": "Broad Wall",
+  "alt_names": [
+    "Wide Wall"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Nehemiah 3:8",
+  "references": [
+    "Nehemiah 3:8",
+    "Nehemiah 12:38"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

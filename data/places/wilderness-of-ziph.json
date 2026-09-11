@@ -1,0 +1,25 @@
+{
+  "place_id": "wilderness-of-ziph",
+  "name": "Wilderness of Ziph",
+  "alt_names": [
+    "hill country of Ziph"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "1 Samuel 23:14",
+  "references": [
+    "1 Samuel 23:14",
+    "1 Samuel 23:15",
+    "1 Samuel 26:2"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

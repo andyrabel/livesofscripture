@@ -1,0 +1,40 @@
+{
+  "place_id": "beyond-the-river",
+  "name": "Beyond the River",
+  "alt_names": [
+    "Trans-Euphrates",
+    "west of the Euphrates",
+    "beyond the Euphrates River"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 4:10",
+  "references": [
+    "Ezra 4:10",
+    "Ezra 4:11",
+    "Ezra 4:16",
+    "Ezra 4:17",
+    "Ezra 4:20",
+    "Ezra 5:3",
+    "Ezra 5:6",
+    "Ezra 6:6",
+    "Ezra 6:8",
+    "Ezra 6:13",
+    "Ezra 7:21",
+    "Ezra 7:25",
+    "Ezra 8:36",
+    "Nehemiah 2:7",
+    "Nehemiah 2:9",
+    "Nehemiah 3:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

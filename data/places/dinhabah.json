@@ -1,0 +1,22 @@
+{
+  "place_id": "dinhabah",
+  "name": "Dinhabah",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 36:32",
+  "references": [
+    "Genesis 36:32",
+    "1 Chronicles 1:43"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

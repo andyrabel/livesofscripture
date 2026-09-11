@@ -1,0 +1,25 @@
+{
+  "place_id": "mount-ebal",
+  "name": "Mount Ebal",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 11:29",
+  "references": [
+    "Deuteronomy 11:29",
+    "Deuteronomy 27:4",
+    "Deuteronomy 27:13",
+    "Joshua 8:30",
+    "Joshua 8:33"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

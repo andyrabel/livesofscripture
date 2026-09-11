@@ -1,0 +1,23 @@
+{
+  "place_id": "suph",
+  "name": "Suph",
+  "alt_names": [
+    "Red sea"
+  ],
+  "tier": "stub",
+  "type": "body-of-water",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Deuteronomy 1:1",
+  "references": [
+    "Deuteronomy 1:1"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

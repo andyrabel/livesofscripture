@@ -1,0 +1,24 @@
+{
+  "place_id": "arumah",
+  "name": "Arumah",
+  "alt_names": [
+    "Tormah"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 9:31",
+  "references": [
+    "Judges 9:31",
+    "Judges 9:41"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

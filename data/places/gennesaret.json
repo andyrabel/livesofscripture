@@ -1,0 +1,25 @@
+{
+  "place_id": "gennesaret",
+  "name": "Gennesaret",
+  "alt_names": [
+    "Sea of Galilee"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Matthew 14:34",
+  "references": [
+    "Matthew 14:34",
+    "Mark 6:53",
+    "Luke 5:1"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

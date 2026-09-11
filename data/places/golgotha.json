@@ -1,0 +1,29 @@
+{
+  "place_id": "golgotha",
+  "name": "Golgotha",
+  "alt_names": [
+    "Skull",
+    "Calvary",
+    "Place of a Skull",
+    "Place of the Skull"
+  ],
+  "tier": "stub",
+  "type": "mountain",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Matthew 27:33",
+  "references": [
+    "Matthew 27:33",
+    "Mark 15:22",
+    "Luke 23:33",
+    "John 19:17"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "avva",
+  "name": "Avva",
+  "alt_names": [
+    "Ava",
+    "Arva"
+  ],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "2 Kings 17:24",
+  "references": [
+    "2 Kings 17:24"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

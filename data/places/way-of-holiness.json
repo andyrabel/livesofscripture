@@ -1,0 +1,24 @@
+{
+  "place_id": "way-of-holiness",
+  "name": "Way of Holiness",
+  "alt_names": [
+    "Holy Way",
+    "Highway of Holiness"
+  ],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Isaiah 35:8",
+  "references": [
+    "Isaiah 35:8"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

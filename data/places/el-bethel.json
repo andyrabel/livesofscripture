@@ -1,0 +1,21 @@
+{
+  "place_id": "el-bethel",
+  "name": "El-bethel",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "site",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Genesis 35:7",
+  "references": [
+    "Genesis 35:7"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

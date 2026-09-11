@@ -1,0 +1,37 @@
+{
+  "place_id": "babylonia",
+  "name": "Babylonia",
+  "alt_names": [
+    "Babylonian"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Ezra 1:11",
+  "references": [
+    "Ezra 1:11",
+    "Ezra 2:1",
+    "Ezra 5:12",
+    "Ezra 6:1",
+    "Ezra 7:6",
+    "Ezra 7:9",
+    "Ezra 7:16",
+    "Ezra 8:1",
+    "Jeremiah 50:11",
+    "Jeremiah 50:12",
+    "Jeremiah 50:22",
+    "Jeremiah 50:26",
+    "Jeremiah 50:40",
+    "Jeremiah 51:27",
+    "Jeremiah 51:43"
+  ],
+  "identification": {
+    "status": "secure",
+    "note": ""
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "seirah",
+  "name": "Seirah",
+  "alt_names": [
+    "Seirath"
+  ],
+  "tier": "stub",
+  "type": "region",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Judges 3:26",
+  "references": [
+    "Judges 3:26",
+    "Judges 3:27"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}

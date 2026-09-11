@@ -1,0 +1,24 @@
+{
+  "place_id": "etham",
+  "name": "Etham",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "town",
+  "region": "undetermined",
+  "eras": [],
+  "first_reference": "Exodus 13:20",
+  "references": [
+    "Exodus 13:20",
+    "Numbers 33:6",
+    "Numbers 33:7",
+    "Numbers 33:8"
+  ],
+  "identification": {
+    "status": "unknown",
+    "note": "No location has been identified with confidence."
+  },
+  "modern_name": null,
+  "n_people": 0,
+  "related_people": [],
+  "description": ""
+}
