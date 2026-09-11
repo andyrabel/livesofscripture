@@ -1191,6 +1191,50 @@ site). Pieces:
   committed, so a clean checkout still has the summaries for the generator
   to pick up. Proper long-term fix (not done): migrate the 106 texts into
   `places_data.py` as real `ff=` entries.
+
+**Full OpenBible.info gazetteer merge, wired into main 2026-09-11.** This
+step (importing every named place in the Protestant canon, not just those
+tied to a person's story or hand-curated in `places_data.py`) was built on
+an earlier, abandoned `places-map` branch but never actually made it into
+main's Places feature — a gap discovered when Cherith and Zarephath turned
+out to be missing despite Elijah being a full-tier person, since his
+`geographic_setting` never names either place. `_build/import_openbible_places.py`
+(force-committed, along with its vendored trimmed source
+`_build/openbible-source/ancient.slim.jsonl`, same "committed input, CI does
+not regenerate it" pattern as `place_coords.json`; re-run with `--refresh`
+to refetch from upstream) reads OpenBible.info's Bible-Geocoding-Data
+(CC BY 4.0) and writes `data/places_gazetteer.json`; `generate_places.py`
+merges it in at lowest priority (`curated.setdefault` — hand curation in
+`places_data.py` always wins). Places went from 227 (127 full / 100 stub)
+to 1,182 (127 full / 1,055 stub) — every new entry a name-only stub, same
+`noindex,follow` + out-of-sitemap treatment as a stub person page. New
+`type` values `river`/`spring`/`island` added to both `PLACE_TYPE_LABELS`
+maps (`generate_static_site.py`, `js/app.js`); `place-connections.html`'s
+graph now filters place nodes to those with a person edge, so the ~955
+disconnected gazetteer stubs don't flood the picker.
+
+**Data bug found and fixed during the merge:** OpenBible's cross-translation
+alt-name collapse (`collapse_alt_names()`) had listed one curated place's
+own name as an "alt spelling" of a different, separate gazetteer place in
+36 cases — e.g. "Babylon" (the city, already curated) as an alt name of the
+new gazetteer stub "Babylonia" (the region). Left as-is, this would have
+made the in-prose place linker (`link_place_mentions.py`'s `name_index`,
+keyed by lowercased name *and* alt_names) treat every existing unambiguous
+mention of "Babylon" as ambiguous between two different places, silently
+dropping links that worked before the merge (caught via a diff on
+Abednego's page). Fixed in `import_openbible_places.py`: a gazetteer
+entry's collapsed alt names now drop anything that collides (case-
+insensitive) with an already-curated place's own name or alt_names, before
+being written to `places_gazetteer.json`.
+
+As a side effect, ~88 existing person pages gained new, legitimate in-prose
+place links (e.g. Abraham → Haran/Moriah, Belshazzar → Babylon/Jerusalem/
+Medes) simply because more of the places they already mention by name now
+exist as linkable entries. **Not done as part of this pass:** Elijah's own
+`adult_story` doesn't name Cherith or Zarephath, so his page still doesn't
+link to either — adding them to the prose (or his `geographic_setting`) is
+a content-writing task, not a data-pipeline one.
+
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —
