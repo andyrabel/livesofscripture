@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.43188,
+    "lng": 35.02957,
+    "confidence": 536,
+    "kind": "point",
+    "openbible": "Arab"
+  }
 }

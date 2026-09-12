@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.79052,
+    "lng": 35.32262,
+    "confidence": 352,
+    "kind": "point",
+    "openbible": "Geliloth"
+  }
 }

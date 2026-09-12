@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.13993,
+    "lng": 35.48497,
+    "confidence": 368,
+    "kind": "point",
+    "openbible": "Jokmeam 1"
+  },
   "disambiguation": "(1 Kgs 4:12)"
 }

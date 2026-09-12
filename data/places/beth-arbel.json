@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.55866,
+    "lng": 35.84759,
+    "confidence": 597,
+    "kind": "point",
+    "openbible": "Beth-arbel"
+  }
 }

@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.36861,
+    "lng": 41.98194,
+    "confidence": 318,
+    "kind": "point",
+    "openbible": "Hena"
+  }
 }

@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.52198,
+    "lng": 35.55057,
+    "confidence": 544,
+    "kind": "representative",
+    "openbible": "Gebal 2"
+  },
   "disambiguation": "(Ps 83:7)"
 }

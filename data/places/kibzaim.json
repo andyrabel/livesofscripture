@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.13993,
+    "lng": 35.48497,
+    "confidence": 409,
+    "kind": "point",
+    "openbible": "Kibzaim"
+  }
 }

@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.97016,
+    "lng": 35.87132,
+    "confidence": 219,
+    "kind": "point",
+    "openbible": "Aroer 2"
+  },
   "disambiguation": "(Josh 13:25)"
 }

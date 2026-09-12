@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.9547,
+    "lng": 35.9343,
+    "confidence": 466,
+    "kind": "representative",
+    "openbible": "Sharon 2"
+  },
   "disambiguation": "(1 Chr 5:16)"
 }

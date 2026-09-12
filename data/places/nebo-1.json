@@ -24,5 +24,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.74913,
+    "lng": 35.74386,
+    "confidence": 566,
+    "kind": "point",
+    "openbible": "Nebo 1"
+  },
   "disambiguation": "(Num 32:3)"
 }

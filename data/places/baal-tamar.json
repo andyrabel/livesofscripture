@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.8315,
+    "lng": 35.24128,
+    "confidence": 215,
+    "kind": "point",
+    "openbible": "Baal-tamar"
+  }
 }

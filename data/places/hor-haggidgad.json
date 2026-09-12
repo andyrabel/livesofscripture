@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.11424,
+    "lng": 34.71154,
+    "confidence": 317,
+    "kind": "representative",
+    "openbible": "Hor-haggidgad"
+  }
 }

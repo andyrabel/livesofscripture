@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.7355,
+    "lng": 35.02757,
+    "confidence": 407,
+    "kind": "point",
+    "openbible": "Shaaraim 1"
+  },
   "disambiguation": "(Josh 15:36)"
 }

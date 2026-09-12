@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.60306,
+    "lng": 36.13361,
+    "confidence": 465,
+    "kind": "point",
+    "openbible": "Hethlon"
+  }
 }

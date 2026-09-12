@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.75885,
+    "lng": 35.09027,
+    "confidence": 533,
+    "kind": "point",
+    "openbible": "Hukok"
+  }
 }

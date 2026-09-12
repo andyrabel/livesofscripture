@@ -31,5 +31,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.6137,
+    "lng": 35.0036,
+    "confidence": 815,
+    "kind": "point",
+    "openbible": "Keilah"
+  }
 }

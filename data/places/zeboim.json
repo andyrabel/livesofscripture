@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.00295,
+    "lng": 34.8955,
+    "confidence": 522,
+    "kind": "point",
+    "openbible": "Zeboim"
+  }
 }

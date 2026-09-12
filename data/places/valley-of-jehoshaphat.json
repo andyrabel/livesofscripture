@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.78028,
+    "lng": 35.24,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Valley of Jehoshaphat"
+  }
 }

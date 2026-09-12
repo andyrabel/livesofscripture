@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.84762,
+    "lng": 35.30514,
+    "confidence": 290,
+    "kind": "point",
+    "openbible": "Rimmon 1"
+  },
   "disambiguation": "(Judg 20:45)"
 }

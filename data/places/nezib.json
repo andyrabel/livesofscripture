@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.58586,
+    "lng": 35.00979,
+    "confidence": 788,
+    "kind": "point",
+    "openbible": "Nezib"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.6237,
+    "lng": 23.46968,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Apollonia"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.96194,
+    "lng": 35.21556,
+    "confidence": 562,
+    "kind": "point",
+    "openbible": "Ophni"
+  }
 }

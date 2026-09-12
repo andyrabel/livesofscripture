@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.8348,
+    "lng": 35.31048,
+    "confidence": 449,
+    "kind": "point",
+    "openbible": "Parah"
+  }
 }

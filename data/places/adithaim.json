@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.96332,
+    "lng": 34.95176,
+    "confidence": 346,
+    "kind": "point",
+    "openbible": "Adithaim"
+  }
 }

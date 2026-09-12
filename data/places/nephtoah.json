@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.79439,
+    "lng": 35.19661,
+    "confidence": 747,
+    "kind": "point",
+    "openbible": "Nephtoah"
+  }
 }

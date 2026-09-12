@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.61593,
+    "lng": 34.8783,
+    "confidence": 426,
+    "kind": "point",
+    "openbible": "Ether 2"
+  },
   "disambiguation": "(Josh 19:7)"
 }

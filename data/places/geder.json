@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.63263,
+    "lng": 35.09215,
+    "confidence": 422,
+    "kind": "point",
+    "openbible": "Geder"
+  }
 }

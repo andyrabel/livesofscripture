@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.87896,
+    "lng": 34.77982,
+    "confidence": 391,
+    "kind": "representative",
+    "openbible": "Atharim"
+  }
 }

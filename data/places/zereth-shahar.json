@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.597,
+    "lng": 35.55931,
+    "confidence": 404,
+    "kind": "point",
+    "openbible": "Zereth-shahar"
+  }
 }

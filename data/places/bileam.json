@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.4462,
+    "lng": 35.292,
+    "confidence": 730,
+    "kind": "point",
+    "openbible": "Bileam"
+  }
 }

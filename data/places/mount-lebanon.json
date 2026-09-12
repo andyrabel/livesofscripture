@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.29972,
+    "lng": 36.11639,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Mount Lebanon"
+  }
 }

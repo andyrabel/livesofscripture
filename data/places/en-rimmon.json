@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.38333,
+    "lng": 34.86564,
+    "confidence": 496,
+    "kind": "point",
+    "openbible": "En-rimmon"
+  }
 }

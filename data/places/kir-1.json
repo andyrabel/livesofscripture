@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.12361,
+    "lng": 45.93139,
+    "confidence": 465,
+    "kind": "point",
+    "openbible": "Kir 1"
+  },
   "disambiguation": "(2 Kgs 16:9)"
 }

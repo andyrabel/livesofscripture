@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.55861,
+    "lng": 34.97611,
+    "confidence": 587,
+    "kind": "point",
+    "openbible": "Ashnah 2"
+  },
   "disambiguation": "(Josh 15:43)"
 }

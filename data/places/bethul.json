@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.32731,
+    "lng": 34.87847,
+    "confidence": 837,
+    "kind": "point",
+    "openbible": "Bethul"
+  }
 }

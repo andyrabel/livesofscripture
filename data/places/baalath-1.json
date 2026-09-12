@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.83851,
+    "lng": 34.78225,
+    "confidence": 749,
+    "kind": "point",
+    "openbible": "Baalath 1"
+  },
   "disambiguation": "(Josh 19:44)"
 }

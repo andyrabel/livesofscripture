@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.61094,
+    "lng": 41.55205,
+    "confidence": 246,
+    "kind": "representative",
+    "openbible": "Mesha"
+  }
 }

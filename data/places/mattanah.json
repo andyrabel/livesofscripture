@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.58835,
+    "lng": 35.90793,
+    "confidence": 548,
+    "kind": "point",
+    "openbible": "Mattanah"
+  }
 }

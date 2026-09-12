@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.65943,
+    "lng": 27.00328,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Trogyllium"
+  }
 }

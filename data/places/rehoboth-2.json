@@ -22,5 +22,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.93318,
+    "lng": 35.61089,
+    "confidence": 421,
+    "kind": "point",
+    "openbible": "Rehoboth 2"
+  },
   "disambiguation": "(Gen 36:37)"
 }

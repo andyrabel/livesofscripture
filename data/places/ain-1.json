@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.71865,
+    "lng": 35.66791,
+    "confidence": 342,
+    "kind": "point",
+    "openbible": "Ain 1"
+  },
   "disambiguation": "(Num 34:11)"
 }

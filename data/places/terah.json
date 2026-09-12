@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.64056,
+    "lng": 34.41111,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Terah"
+  }
 }

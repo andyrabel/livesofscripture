@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.12811,
+    "lng": 35.15202,
+    "confidence": 752,
+    "kind": "point",
+    "openbible": "Hammon 1"
+  },
   "disambiguation": "(Josh 19:28)"
 }

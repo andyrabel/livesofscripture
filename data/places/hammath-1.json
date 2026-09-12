@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.76637,
+    "lng": 35.55055,
+    "confidence": 603,
+    "kind": "point",
+    "openbible": "Hammath 1"
+  },
   "disambiguation": "(Josh 19:35)"
 }

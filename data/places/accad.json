@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.02556,
+    "lng": 44.39194,
+    "confidence": 241,
+    "kind": "point",
+    "openbible": "Accad"
+  }
 }

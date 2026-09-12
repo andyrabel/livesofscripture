@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.9695,
+    "lng": 36.45538,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Trachonitis"
+  }
 }

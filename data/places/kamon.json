@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.5876,
+    "lng": 35.7256,
+    "confidence": 167,
+    "kind": "point",
+    "openbible": "Kamon"
+  }
 }

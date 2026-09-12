@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.01057,
+    "lng": 35.71074,
+    "confidence": 645,
+    "kind": "point",
+    "openbible": "Betonim"
+  }
 }

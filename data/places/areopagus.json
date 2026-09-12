@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.97222,
+    "lng": 23.72361,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Areopagus"
+  }
 }

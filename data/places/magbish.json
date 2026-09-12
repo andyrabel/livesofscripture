@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.63816,
+    "lng": 34.95317,
+    "confidence": 249,
+    "kind": "point",
+    "openbible": "Magbish"
+  }
 }

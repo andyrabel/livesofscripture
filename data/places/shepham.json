@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.39674,
+    "lng": 36.38715,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Shepham"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.70389,
+    "lng": 35.21333,
+    "confidence": 641,
+    "kind": "point",
+    "openbible": "Shimron-meron"
+  }
 }

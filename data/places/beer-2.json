@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.60823,
+    "lng": 35.50415,
+    "confidence": 387,
+    "kind": "point",
+    "openbible": "Beer 2"
+  },
   "disambiguation": "(Judg 9:21)"
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.92278,
+    "lng": 35.24139,
+    "confidence": 819,
+    "kind": "point",
+    "openbible": "Aven"
+  }
 }

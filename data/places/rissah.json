@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.026,
+    "lng": 35.248,
+    "confidence": 469,
+    "kind": "point",
+    "openbible": "Rissah"
+  }
 }

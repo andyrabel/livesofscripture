@@ -33,5 +33,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 37.27194,
+    "lng": -6.94417,
+    "confidence": 418,
+    "kind": "point",
+    "openbible": "Tarshish 1"
+  },
   "disambiguation": "(2 Chr 9:21)"
 }

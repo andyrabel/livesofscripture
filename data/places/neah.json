@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.8042,
+    "lng": 35.42346,
+    "confidence": 241,
+    "kind": "point",
+    "openbible": "Neah"
+  }
 }

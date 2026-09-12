@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.26769,
+    "lng": 35.57724,
+    "confidence": 349,
+    "kind": "point",
+    "openbible": "Zarethan"
+  }
 }

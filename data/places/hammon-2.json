@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.76637,
+    "lng": 35.55055,
+    "confidence": 755,
+    "kind": "point",
+    "openbible": "Hammon 2"
+  },
   "disambiguation": "(1 Chr 6:76)"
 }

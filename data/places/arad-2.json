@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.28083,
+    "lng": 35.125,
+    "confidence": 431,
+    "kind": "point",
+    "openbible": "Arad 2"
+  },
   "disambiguation": "(Judg 1:16)"
 }

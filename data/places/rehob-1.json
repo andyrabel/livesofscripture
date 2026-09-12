@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 34.00889,
+    "lng": 36.14528,
+    "confidence": 799,
+    "kind": "representative",
+    "openbible": "Rehob 1"
+  },
   "disambiguation": "(Num 13:21)"
 }

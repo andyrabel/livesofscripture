@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.85716,
+    "lng": 35.28715,
+    "confidence": 1011,
+    "kind": "point",
+    "openbible": "Bozez"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 16.87194,
+    "lng": 43.71139,
+    "confidence": 329,
+    "kind": "point",
+    "openbible": "Parvaim"
+  }
 }

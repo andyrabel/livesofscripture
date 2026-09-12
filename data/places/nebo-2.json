@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.60721,
+    "lng": 35.03673,
+    "confidence": 329,
+    "kind": "point",
+    "openbible": "Nebo 2"
+  },
   "disambiguation": "(Ezra 2:29)"
 }

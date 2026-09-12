@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.28137,
+    "lng": 34.7974,
+    "confidence": 938,
+    "kind": "point",
+    "openbible": "Bor-ashan"
+  }
 }

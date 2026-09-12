@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.89694,
+    "lng": 34.42167,
+    "confidence": 481,
+    "kind": "point",
+    "openbible": "Hazeroth"
+  }
 }

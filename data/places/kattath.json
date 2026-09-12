@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.62558,
+    "lng": 35.03215,
+    "confidence": 602,
+    "kind": "point",
+    "openbible": "Kattath"
+  }
 }

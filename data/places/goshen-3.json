@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.40762,
+    "lng": 34.9723,
+    "confidence": 342,
+    "kind": "point",
+    "openbible": "Goshen 3"
+  },
   "disambiguation": "(Josh 15:51)"
 }

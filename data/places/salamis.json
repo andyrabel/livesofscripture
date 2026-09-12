@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.18494,
+    "lng": 33.90194,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Salamis"
+  }
 }

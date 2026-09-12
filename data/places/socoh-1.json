@@ -28,5 +28,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.6822,
+    "lng": 34.9749,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Socoh 1"
+  },
   "disambiguation": "(Josh 15:35)"
 }

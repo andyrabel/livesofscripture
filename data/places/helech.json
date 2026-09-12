@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.91303,
+    "lng": 34.89206,
+    "confidence": 460,
+    "kind": "representative",
+    "openbible": "Helech"
+  }
 }

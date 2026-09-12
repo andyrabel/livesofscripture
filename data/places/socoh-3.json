@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.3421,
+    "lng": 35.03202,
+    "confidence": 788,
+    "kind": "point",
+    "openbible": "Socoh 3"
+  },
   "disambiguation": "(1 Kgs 4:10)"
 }

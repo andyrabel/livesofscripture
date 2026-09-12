@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.78236,
+    "lng": 35.76131,
+    "confidence": 479,
+    "kind": "point",
+    "openbible": "Sibmah"
+  }
 }

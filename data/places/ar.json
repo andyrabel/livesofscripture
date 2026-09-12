@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.35991,
+    "lng": 35.78276,
+    "confidence": 359,
+    "kind": "point",
+    "openbible": "Ar"
+  }
 }

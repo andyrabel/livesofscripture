@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.45151,
+    "lng": 35.23289,
+    "confidence": 573,
+    "kind": "representative",
+    "openbible": "Rock of Escape"
+  }
 }

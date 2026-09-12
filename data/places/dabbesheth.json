@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.67028,
+    "lng": 35.155,
+    "confidence": 558,
+    "kind": "point",
+    "openbible": "Dabbesheth"
+  }
 }

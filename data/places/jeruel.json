@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.57972,
+    "lng": 35.30917,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Jeruel"
+  }
 }

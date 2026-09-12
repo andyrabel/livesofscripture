@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.00889,
+    "lng": 36.14528,
+    "confidence": 228,
+    "kind": "representative",
+    "openbible": "Beth-rehob"
+  }
 }

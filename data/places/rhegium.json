@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.1088,
+    "lng": 15.64412,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Rhegium"
+  }
 }

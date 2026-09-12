@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.66215,
+    "lng": 35.0305,
+    "confidence": 153,
+    "kind": "point",
+    "openbible": "Holon 1"
+  },
   "disambiguation": "(Josh 15:51)"
 }

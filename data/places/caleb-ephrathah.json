@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.70431,
+    "lng": 35.20764,
+    "confidence": 68,
+    "kind": "point",
+    "openbible": "Caleb Ephrathah"
+  }
 }

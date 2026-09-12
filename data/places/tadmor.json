@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.547,
+    "lng": 38.274,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Tadmor"
+  }
 }

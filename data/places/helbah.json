@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.3178,
+    "lng": 35.24337,
+    "confidence": 413,
+    "kind": "point",
+    "openbible": "Helbah"
+  }
 }

@@ -25,5 +25,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.4,
+    "lng": 34.883,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Sharon 1"
+  },
   "disambiguation": "(1 Chr 27:29)"
 }

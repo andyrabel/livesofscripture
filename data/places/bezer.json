@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.78603,
+    "lng": 35.90168,
+    "confidence": 442,
+    "kind": "point",
+    "openbible": "Bezer"
+  }
 }

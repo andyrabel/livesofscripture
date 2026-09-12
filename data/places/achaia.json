@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.72,
+    "lng": 22.54,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Achaia"
+  }
 }

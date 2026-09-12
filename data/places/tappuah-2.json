@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.69553,
+    "lng": 34.996,
+    "confidence": 138,
+    "kind": "point",
+    "openbible": "Tappuah 2"
+  },
   "disambiguation": "(Josh 15:34)"
 }

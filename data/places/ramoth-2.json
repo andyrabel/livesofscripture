@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.20919,
+    "lng": 35.16567,
+    "confidence": 973,
+    "kind": "point",
+    "openbible": "Ramoth 2"
+  },
   "disambiguation": "(1 Sam 30:27)"
 }

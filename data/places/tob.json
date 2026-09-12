@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.56333,
+    "lng": 36.24389,
+    "confidence": 651,
+    "kind": "point",
+    "openbible": "Tob"
+  }
 }

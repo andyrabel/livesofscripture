@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.58938,
+    "lng": 35.09416,
+    "confidence": 842,
+    "kind": "point",
+    "openbible": "Beth-zur"
+  }
 }

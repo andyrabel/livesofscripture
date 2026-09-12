@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.29606,
+    "lng": 35.1562,
+    "confidence": 277,
+    "kind": "point",
+    "openbible": "Dibon 2"
+  },
   "disambiguation": "(Neh 11:25)"
 }

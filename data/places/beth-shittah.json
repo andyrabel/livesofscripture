@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.53918,
+    "lng": 35.4072,
+    "confidence": 194,
+    "kind": "point",
+    "openbible": "Beth-shittah"
+  }
 }

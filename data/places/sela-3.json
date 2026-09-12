@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.78087,
+    "lng": 35.57446,
+    "confidence": 126,
+    "kind": "point",
+    "openbible": "Sela 3"
+  },
   "disambiguation": "(Isa 16:1)"
 }

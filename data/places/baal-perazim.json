@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.74185,
+    "lng": 35.18332,
+    "confidence": 240,
+    "kind": "point",
+    "openbible": "Baal-perazim"
+  }
 }

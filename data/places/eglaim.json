@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.18085,
+    "lng": 35.71263,
+    "confidence": 325,
+    "kind": "point",
+    "openbible": "Eglaim"
+  }
 }

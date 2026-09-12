@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.83206,
+    "lng": 35.05687,
+    "confidence": 572,
+    "kind": "representative",
+    "openbible": "Moseroth"
+  }
 }

@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.74584,
+    "lng": 35.60392,
+    "confidence": 615,
+    "kind": "representative",
+    "openbible": "Gurbaal"
+  }
 }

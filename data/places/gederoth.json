@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.6889,
+    "lng": 34.99612,
+    "confidence": 178,
+    "kind": "point",
+    "openbible": "Gederoth"
+  }
 }

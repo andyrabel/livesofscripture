@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.87276,
+    "lng": 35.15133,
+    "confidence": 466,
+    "kind": "point",
+    "openbible": "Mishal"
+  }
 }

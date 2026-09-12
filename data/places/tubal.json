@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.29556,
+    "lng": 36.25361,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Tubal"
+  }
 }

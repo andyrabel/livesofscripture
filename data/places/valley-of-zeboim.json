@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.83498,
+    "lng": 35.37942,
+    "confidence": 295,
+    "kind": "representative",
+    "openbible": "Valley of Zeboim"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.4555,
+    "lng": 34.9975,
+    "confidence": 498,
+    "kind": "point",
+    "openbible": "Aphekah"
+  }
 }

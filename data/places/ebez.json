@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.65806,
+    "lng": 35.50583,
+    "confidence": 142,
+    "kind": "point",
+    "openbible": "Ebez"
+  }
 }

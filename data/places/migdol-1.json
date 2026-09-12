@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.96478,
+    "lng": 32.49286,
+    "confidence": 236,
+    "kind": "point",
+    "openbible": "Migdol 1"
+  },
   "disambiguation": "(Exod 14:2)"
 }

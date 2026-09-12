@@ -25,5 +25,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 34.11917,
+    "lng": 35.64583,
+    "confidence": 939,
+    "kind": "point",
+    "openbible": "Gebal 1"
+  },
   "disambiguation": "(Josh 13:5)"
 }

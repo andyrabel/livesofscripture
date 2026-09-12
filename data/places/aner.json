@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.52153,
+    "lng": 35.21912,
+    "confidence": 662,
+    "kind": "point",
+    "openbible": "Aner"
+  }
 }

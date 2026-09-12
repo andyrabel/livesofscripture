@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 39.26667,
+    "lng": 32.98333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Galatia"
+  }
 }

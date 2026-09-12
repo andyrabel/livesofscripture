@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.61568,
+    "lng": 34.92172,
+    "confidence": 292,
+    "kind": "point",
+    "openbible": "Ir-nahash"
+  }
 }

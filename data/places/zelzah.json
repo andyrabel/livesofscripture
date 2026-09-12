@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.80253,
+    "lng": 35.20964,
+    "confidence": 103,
+    "kind": "point",
+    "openbible": "Zelzah"
+  }
 }

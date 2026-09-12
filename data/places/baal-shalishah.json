@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.11031,
+    "lng": 35.01182,
+    "confidence": 349,
+    "kind": "point",
+    "openbible": "Baal-shalishah"
+  }
 }

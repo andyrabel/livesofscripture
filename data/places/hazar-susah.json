@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.3445,
+    "lng": 34.9014,
+    "confidence": 609,
+    "kind": "point",
+    "openbible": "Hazar-susah"
+  }
 }

@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.68776,
+    "lng": 35.52524,
+    "confidence": 422,
+    "kind": "point",
+    "openbible": "Beth-shemesh 2"
+  },
   "disambiguation": "(Josh 19:22)"
 }

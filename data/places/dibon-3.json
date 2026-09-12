@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.50224,
+    "lng": 35.77657,
+    "confidence": 405,
+    "kind": "point",
+    "openbible": "Dibon 3"
+  },
   "disambiguation": "(Isa 15:9)"
 }

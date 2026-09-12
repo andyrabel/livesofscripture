@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.70023,
+    "lng": 34.9357,
+    "confidence": 772,
+    "kind": "point",
+    "openbible": "Azekah"
+  }
 }

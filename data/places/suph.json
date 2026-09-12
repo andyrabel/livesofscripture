@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.75,
+    "lng": 34.75,
+    "confidence": 353,
+    "kind": "representative",
+    "openbible": "Suph"
+  }
 }

@@ -36,5 +36,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.75062,
+    "lng": 34.97474,
+    "confidence": 864,
+    "kind": "point",
+    "openbible": "Beth-shemesh 1"
+  },
   "disambiguation": "(Josh 15:10)"
 }

@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.05051,
+    "lng": 35.40627,
+    "confidence": 451,
+    "kind": "representative",
+    "openbible": "Valley of Salt"
+  }
 }

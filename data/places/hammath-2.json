@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.76637,
+    "lng": 35.55055,
+    "confidence": 161,
+    "kind": "point",
+    "openbible": "Hammath 2"
+  },
   "disambiguation": "(1 Chr 2:55)"
 }

@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.96478,
+    "lng": 32.49286,
+    "confidence": 731,
+    "kind": "point",
+    "openbible": "Migdol 3"
+  },
   "disambiguation": "(Ezek 29:10)"
 }

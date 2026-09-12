@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.52509,
+    "lng": 35.10222,
+    "confidence": 590,
+    "kind": "representative",
+    "openbible": "Valley of Eshcol"
+  }
 }

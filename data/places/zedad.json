@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.31346,
+    "lng": 36.92419,
+    "confidence": 689,
+    "kind": "point",
+    "openbible": "Zedad"
+  }
 }

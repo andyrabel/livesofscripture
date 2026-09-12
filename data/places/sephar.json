@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 14.2139,
+    "lng": 44.40287,
+    "confidence": 335,
+    "kind": "point",
+    "openbible": "Sephar"
+  }
 }

@@ -24,5 +24,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.62528,
+    "lng": 36.10611,
+    "confidence": 821,
+    "kind": "point",
+    "openbible": "Edrei 1"
+  },
   "disambiguation": "(Num 21:33)"
 }

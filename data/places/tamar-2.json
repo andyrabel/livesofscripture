@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.8087,
+    "lng": 35.2459,
+    "confidence": 757,
+    "kind": "point",
+    "openbible": "Tamar 2"
+  },
   "disambiguation": "(Ezek 47:18)"
 }

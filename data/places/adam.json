@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.10393,
+    "lng": 35.54679,
+    "confidence": 823,
+    "kind": "point",
+    "openbible": "Adam"
+  }
 }

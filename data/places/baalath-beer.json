@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.99104,
+    "lng": 34.91132,
+    "confidence": 170,
+    "kind": "point",
+    "openbible": "Baalath-beer"
+  }
 }

@@ -1235,6 +1235,47 @@ exist as linkable entries. **Not done as part of this pass:** Elijah's own
 link to either — adding them to the prose (or his `geographic_setting`) is
 a content-writing task, not a data-pipeline one.
 
+**Gazetteer stubs get a per-page locator map, but stay off the main map
+explorer (2026-09-11).** The full OpenBible.info source file
+(`_build/openbible-source/ancient.jsonl`, ~11 MB, gitignored, fetched via
+`import_openbible_places.py --refresh`) carries a `lonlat` for most records
+even though the trimmed `ancient.slim.jsonl` used for the gazetteer import
+above drops it. `_build/backfill_gazetteer_place_coords.py` (new, force-
+committed like `place_coords.json`) joins the ~955 gazetteer slugs back
+against the full file by friendly_id (falling back to scanning numbered
+variants "Name 1".."Name 8" for two cases: a single surviving verse-bearing
+instance that happens to carry a number, e.g. Bether/Joktheel; and
+`import_openbible_places.py`'s `COLLAPSE_INSTANCES` merge, e.g. Red Sea/
+Holy Place/Most Holy Place, which loses the specific friendly_id needed for
+a direct lookup) and writes `_build/gazetteer_place_coords.json` — 951 of
+955 placed; the 4 misses (Azazel, Bamah, Biziothiah, Nohah) have no
+resolvable point in OpenBible at all and are left with no `geo`, same as
+any other place lacking coordinates.
+
+Andrew asked specifically for this to give each name-only place's *own*
+page a locator map without suddenly covering `map.html`'s default view in
+~950 new dots. So `generate_places.py` reads the new file at lowest
+priority (`PLACE_COORDS.get(slug) or GAZETTEER_COORDS.get(slug)`) and
+writes the resulting `geo` block onto the gazetteer stub's
+`data/places/<id>.json` — which is enough for `place_mini_map_html` to
+render that place's own locator map — but the index-writing step only
+copies a flat `lat`/`lng` onto `data/places-index.json` when the slug has a
+*curated* coordinate (`e["place_id"] in PLACE_COORDS`), not a gazetteer-only
+one. Since the map explorer's "placed" list and its default all-locations
+view are both built from that index (`js/app.js`'s `renderMapExplorer`),
+this keeps the main map exactly as it was (still 224 curated placed
+entries) while every gazetteer stub with a resolved point (951 of 955) now
+gets its own mini-map — including Cherith and Zarephath, the Elijah-related
+gap noted in the gazetteer-merge entry above. A gazetteer place could still
+be added to the main map deliberately later (e.g. named in a
+`map-groups.json` preset) — that would need promoting its coordinate into
+`place_coords.json` (or the index logic revisited), not just existing as a
+`GAZETTEER_COORDS` entry.
+
+Re-run order when `data/places_gazetteer.json` changes:
+`backfill_gazetteer_place_coords.py` → `generate_places.py` →
+`generate_static_site.py`.
+
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

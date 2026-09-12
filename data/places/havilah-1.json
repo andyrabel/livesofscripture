@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.54333,
+    "lng": 44.42222,
+    "confidence": 328,
+    "kind": "representative",
+    "openbible": "Havilah 1"
+  },
   "disambiguation": "(Gen 2:11)"
 }

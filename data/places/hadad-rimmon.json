@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.52439,
+    "lng": 35.20408,
+    "confidence": 242,
+    "kind": "point",
+    "openbible": "Hadad-rimmon"
+  }
 }

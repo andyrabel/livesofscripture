@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.234,
+    "lng": 35.2733,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount Ebal"
+  }
 }

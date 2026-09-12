@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.87056,
+    "lng": 35.19222,
+    "confidence": 215,
+    "kind": "representative",
+    "openbible": "Rekem"
+  }
 }

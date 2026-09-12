@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.1843,
+    "lng": 35.3166,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Mount Esau"
+  }
 }

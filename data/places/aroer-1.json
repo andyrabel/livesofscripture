@@ -30,5 +30,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.4708,
+    "lng": 35.81939,
+    "confidence": 872,
+    "kind": "point",
+    "openbible": "Aroer 1"
+  },
   "disambiguation": "(Num 32:34)"
 }

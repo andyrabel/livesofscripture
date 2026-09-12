@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.04638,
+    "lng": 35.09719,
+    "confidence": 441,
+    "kind": "point",
+    "openbible": "Zeredah 1"
+  },
   "disambiguation": "(1 Kgs 11:26)"
 }

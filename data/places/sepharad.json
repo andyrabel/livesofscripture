@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.48833,
+    "lng": 28.04028,
+    "confidence": 506,
+    "kind": "point",
+    "openbible": "Sepharad"
+  }
 }

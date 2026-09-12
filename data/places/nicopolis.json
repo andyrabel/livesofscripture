@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 39.02349,
+    "lng": 20.73736,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Nicopolis"
+  }
 }

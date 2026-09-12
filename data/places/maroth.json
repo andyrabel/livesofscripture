@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.62071,
+    "lng": 35.11352,
+    "confidence": 45,
+    "kind": "point",
+    "openbible": "Maroth"
+  }
 }

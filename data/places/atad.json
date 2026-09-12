@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.91489,
+    "lng": 35.53045,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Atad"
+  }
 }

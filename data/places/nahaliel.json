@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.61806,
+    "lng": 35.56722,
+    "confidence": 339,
+    "kind": "representative",
+    "openbible": "Nahaliel"
+  }
 }

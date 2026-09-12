@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.21361,
+    "lng": 35.28194,
+    "confidence": 690,
+    "kind": "representative",
+    "openbible": "Beth-millo"
+  }
 }

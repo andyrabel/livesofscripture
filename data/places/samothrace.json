@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.45,
+    "lng": 25.58333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Samothrace"
+  }
 }

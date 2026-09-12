@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.3384,
+    "lng": 35.245,
+    "confidence": 260,
+    "kind": "representative",
+    "openbible": "Misrephoth-maim"
+  }
 }

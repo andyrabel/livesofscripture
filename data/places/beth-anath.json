@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.20028,
+    "lng": 35.43306,
+    "confidence": 372,
+    "kind": "point",
+    "openbible": "Beth-anath"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.45,
+    "lng": 35.38333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Hazazon-tamar 2"
+  },
   "disambiguation": "(2 Chr 20:2)"
 }

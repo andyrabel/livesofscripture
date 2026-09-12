@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.51591,
+    "lng": 35.16416,
+    "confidence": 488,
+    "kind": "point",
+    "openbible": "Janim"
+  }
 }

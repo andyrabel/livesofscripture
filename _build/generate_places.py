@@ -32,6 +32,15 @@ from place_people_roles import ROLES  # noqa: E402
 _coords_path = Path(__file__).resolve().parent / "place_coords.json"
 PLACE_COORDS = json.loads(_coords_path.read_text())["coords"] if _coords_path.exists() else {}
 
+# Same shape, but for the ~950 OpenBible.info gazetteer stubs (produced by
+# _build/backfill_gazetteer_place_coords.py). Used only to give a gazetteer
+# stub's own page a locator map (place_mini_map_html) -- deliberately kept
+# out of the lightweight index below (see the index-building loop) so these
+# name-only places don't flood the main map explorer's default view. See
+# CLAUDE.md's Places / Map section.
+_gaz_coords_path = Path(__file__).resolve().parent / "gazetteer_place_coords.json"
+GAZETTEER_COORDS = json.loads(_gaz_coords_path.read_text())["coords"] if _gaz_coords_path.exists() else {}
+
 ERA_ORDER = ["Primeval History", "Patriarchal", "Exodus/Wilderness", "Judges",
              "United Monarchy", "Divided Monarchy", "Exile",
              "Post-Exile/Intertestamental", "Gospels", "Apostolic"]
@@ -324,7 +333,7 @@ def main():
         else:
             entry["description"] = c.get("desc", "")
 
-        geo = PLACE_COORDS.get(slug)
+        geo = PLACE_COORDS.get(slug) or GAZETTEER_COORDS.get(slug)
         if geo:
             # `geojson` is a build-time pointer for generate_maps.py only —
             # keep it out of the shipped per-place file.
@@ -391,7 +400,14 @@ def main():
             "n_people": e["n_people"],
             "disambiguation": e.get("disambiguation", ""),
         }
-        if e.get("geo"):
+        # Only a curated coordinate (place_coords.json) earns a flat lat/lng
+        # on the shipped index -- that's what the map explorer's "placed"
+        # list and its default all-locations view read from. A gazetteer-
+        # only coordinate still lands in the per-place file's `geo` block
+        # above (for that place's own locator map) but is deliberately left
+        # off the index so the ~950 name-only places don't appear as dots on
+        # the main map. See CLAUDE.md's Places / Map section.
+        if e["place_id"] in PLACE_COORDS:
             ie["lat"] = e["geo"]["lat"]
             ie["lng"] = e["geo"]["lng"]
         index_entries.append(ie)

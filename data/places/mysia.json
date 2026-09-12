@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.0,
+    "lng": 28.5,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Mysia"
+  }
 }

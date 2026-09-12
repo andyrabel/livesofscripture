@@ -31,5 +31,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.8575,
+    "lng": 35.26111,
+    "confidence": 740,
+    "kind": "point",
+    "openbible": "Geba 1"
+  },
   "disambiguation": "(Josh 21:17)"
 }

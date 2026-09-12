@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.99104,
+    "lng": 34.91132,
+    "confidence": 337,
+    "kind": "point",
+    "openbible": "Bealoth 1"
+  },
   "disambiguation": "(Josh 15:24)"
 }

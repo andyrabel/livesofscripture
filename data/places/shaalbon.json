@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.86981,
+    "lng": 34.98714,
+    "confidence": 814,
+    "kind": "point",
+    "openbible": "Shaalbon"
+  }
 }

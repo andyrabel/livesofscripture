@@ -24,5 +24,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.74913,
+    "lng": 35.74386,
+    "confidence": 306,
+    "kind": "point",
+    "openbible": "Kiriathaim 1"
+  },
   "disambiguation": "(Num 32:37)"
 }

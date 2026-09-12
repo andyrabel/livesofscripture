@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.22167,
+    "lng": 35.46444,
+    "confidence": 210,
+    "kind": "representative",
+    "openbible": "Horem"
+  }
 }

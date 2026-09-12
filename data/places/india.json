@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 23.9944,
+    "lng": 67.4308,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "India"
+  }
 }

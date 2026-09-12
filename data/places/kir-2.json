@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.18056,
+    "lng": 35.70139,
+    "confidence": 753,
+    "kind": "point",
+    "openbible": "Kir 2"
+  },
   "disambiguation": "(Isa 15:1)"
 }

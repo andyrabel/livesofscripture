@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.53687,
+    "lng": 34.91318,
+    "confidence": 479,
+    "kind": "point",
+    "openbible": "Bozkath"
+  }
 }

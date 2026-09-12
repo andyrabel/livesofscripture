@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.2573,
+    "lng": 34.92141,
+    "confidence": 416,
+    "kind": "point",
+    "openbible": "Moladah"
+  }
 }

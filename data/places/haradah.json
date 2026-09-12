@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.50662,
+    "lng": 34.30356,
+    "confidence": 176,
+    "kind": "representative",
+    "openbible": "Haradah"
+  }
 }

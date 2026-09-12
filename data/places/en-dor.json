@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.64361,
+    "lng": 35.39022,
+    "confidence": 757,
+    "kind": "point",
+    "openbible": "En-dor"
+  }
 }

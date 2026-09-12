@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 27.6297,
+    "lng": 38.55163,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Tema"
+  }
 }

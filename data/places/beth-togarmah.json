@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.7225,
+    "lng": 37.2775,
+    "confidence": 422,
+    "kind": "point",
+    "openbible": "Beth-togarmah"
+  }
 }

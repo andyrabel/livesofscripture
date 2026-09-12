@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.85434,
+    "lng": 35.23161,
+    "confidence": 683,
+    "kind": "representative",
+    "openbible": "Naioth"
+  }
 }

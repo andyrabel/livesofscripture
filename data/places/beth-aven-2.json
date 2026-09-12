@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.92278,
+    "lng": 35.24139,
+    "confidence": 913,
+    "kind": "point",
+    "openbible": "Beth-aven 2"
+  },
   "disambiguation": "(Hos 4:15)"
 }

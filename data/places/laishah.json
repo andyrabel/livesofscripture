@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.79861,
+    "lng": 35.24833,
+    "confidence": 239,
+    "kind": "point",
+    "openbible": "Laishah"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.76637,
+    "lng": 35.55055,
+    "confidence": 801,
+    "kind": "point",
+    "openbible": "Hammoth-dor"
+  }
 }

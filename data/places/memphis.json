@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.8488,
+    "lng": 31.253,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Memphis"
+  }
 }

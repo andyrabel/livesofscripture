@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.34528,
+    "lng": 35.59,
+    "confidence": 661,
+    "kind": "point",
+    "openbible": "Ijon"
+  }
 }

@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.91139,
+    "lng": 35.56389,
+    "confidence": 786,
+    "kind": "point",
+    "openbible": "Chorazin"
+  }
 }

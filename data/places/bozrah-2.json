@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.78603,
+    "lng": 35.90168,
+    "confidence": 449,
+    "kind": "point",
+    "openbible": "Bozrah 2"
+  },
   "disambiguation": "(Jer 48:24)"
 }

@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.36389,
+    "lng": 36.41556,
+    "confidence": 454,
+    "kind": "representative",
+    "openbible": "Tibhath"
+  }
 }

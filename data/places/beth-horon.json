@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.895,
+    "lng": 35.08361,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Beth-horon"
+  }
 }

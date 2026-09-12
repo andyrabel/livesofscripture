@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.66036,
+    "lng": 35.2342,
+    "confidence": 760,
+    "kind": "point",
+    "openbible": "Sarid"
+  }
 }

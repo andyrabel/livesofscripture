@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.9878,
+    "lng": 35.3332,
+    "confidence": 465,
+    "kind": "representative",
+    "openbible": "Seirah"
+  }
 }

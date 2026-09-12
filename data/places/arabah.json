@@ -47,5 +47,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.41694,
+    "lng": 35.15139,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Arabah"
+  }
 }

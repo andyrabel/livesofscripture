@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.95444,
+    "lng": 35.30028,
+    "confidence": 539,
+    "kind": "point",
+    "openbible": "Ephron 2"
+  },
   "disambiguation": "(2 Chr 13:19)"
 }

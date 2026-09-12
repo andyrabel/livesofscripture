@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.82972,
+    "lng": 38.015,
+    "confidence": 880,
+    "kind": "point",
+    "openbible": "Carchemish"
+  }
 }

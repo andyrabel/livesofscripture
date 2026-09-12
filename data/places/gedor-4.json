@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.63263,
+    "lng": 35.09215,
+    "confidence": 547,
+    "kind": "point",
+    "openbible": "Gedor 4"
+  },
   "disambiguation": "(1 Chr 12:7)"
 }

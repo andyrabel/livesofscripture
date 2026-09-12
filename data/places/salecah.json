@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.4939,
+    "lng": 36.7105,
+    "confidence": 716,
+    "kind": "point",
+    "openbible": "Salecah"
+  }
 }

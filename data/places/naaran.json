@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.89347,
+    "lng": 35.42475,
+    "confidence": 686,
+    "kind": "point",
+    "openbible": "Naaran"
+  }
 }

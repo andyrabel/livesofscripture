@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.38333,
+    "lng": 34.86564,
+    "confidence": 404,
+    "kind": "point",
+    "openbible": "Rimmon 2"
+  },
   "disambiguation": "(Josh 15:32)"
 }

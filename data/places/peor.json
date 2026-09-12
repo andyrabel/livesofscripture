@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.77702,
+    "lng": 35.7385,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Peor"
+  }
 }

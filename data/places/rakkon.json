@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.13083,
+    "lng": 34.78726,
+    "confidence": 352,
+    "kind": "point",
+    "openbible": "Rakkon"
+  }
 }

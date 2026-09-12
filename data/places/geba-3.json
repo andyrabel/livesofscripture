@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.8575,
+    "lng": 35.26111,
+    "confidence": 591,
+    "kind": "point",
+    "openbible": "Geba 3"
+  },
   "disambiguation": "(2 Kgs 23:8)"
 }

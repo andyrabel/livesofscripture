@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.59556,
+    "lng": 35.52139,
+    "confidence": 352,
+    "kind": "point",
+    "openbible": "Ramoth 1"
+  },
   "disambiguation": "(1 Chr 6:73)"
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.03369,
+    "lng": 34.1255,
+    "confidence": 235,
+    "kind": "representative",
+    "openbible": "Rithmah"
+  }
 }

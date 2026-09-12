@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.2,
+    "lng": 24.07222,
+    "confidence": 521,
+    "kind": "point",
+    "openbible": "Phoenix"
+  }
 }

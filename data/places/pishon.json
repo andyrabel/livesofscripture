@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 17.11972,
+    "lng": 42.41639,
+    "confidence": 145,
+    "kind": "representative",
+    "openbible": "Pishon"
+  }
 }

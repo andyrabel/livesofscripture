@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.54861,
+    "lng": 35.35583,
+    "confidence": 722,
+    "kind": "point",
+    "openbible": "Harod 1"
+  },
   "disambiguation": "(Judg 7:1)"
 }

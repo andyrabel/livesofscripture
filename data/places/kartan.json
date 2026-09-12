@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.11194,
+    "lng": 35.4625,
+    "confidence": 397,
+    "kind": "point",
+    "openbible": "Kartan"
+  }
 }

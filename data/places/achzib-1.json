@@ -22,5 +22,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.64207,
+    "lng": 34.95302,
+    "confidence": 536,
+    "kind": "point",
+    "openbible": "Achzib 1"
+  },
   "disambiguation": "(Josh 15:44)"
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.19306,
+    "lng": 34.42111,
+    "confidence": 482,
+    "kind": "point",
+    "openbible": "Kehelathah"
+  }
 }

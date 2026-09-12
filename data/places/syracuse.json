@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.06389,
+    "lng": 15.29306,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Syracuse"
+  }
 }

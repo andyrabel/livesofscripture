@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.44285,
+    "lng": 35.21767,
+    "confidence": 455,
+    "kind": "point",
+    "openbible": "Hepher"
+  }
 }

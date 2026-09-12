@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.44778,
+    "lng": 35.09,
+    "confidence": 771,
+    "kind": "point",
+    "openbible": "Juttah"
+  }
 }

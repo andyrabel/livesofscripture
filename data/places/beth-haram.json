@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.81926,
+    "lng": 35.67188,
+    "confidence": 589,
+    "kind": "point",
+    "openbible": "Beth-haram"
+  }
 }

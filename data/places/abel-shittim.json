@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.84018,
+    "lng": 35.67368,
+    "confidence": 761,
+    "kind": "point",
+    "openbible": "Abel-shittim"
+  }
 }

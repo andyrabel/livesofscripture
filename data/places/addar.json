@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.58338,
+    "lng": 34.48408,
+    "confidence": 414,
+    "kind": "point",
+    "openbible": "Addar"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.58338,
+    "lng": 34.48408,
+    "confidence": 453,
+    "kind": "point",
+    "openbible": "Hazar-addar"
+  }
 }

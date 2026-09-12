@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.6889,
+    "lng": 34.99612,
+    "confidence": 551,
+    "kind": "point",
+    "openbible": "Gederah 1"
+  },
   "disambiguation": "(Josh 15:36)"
 }

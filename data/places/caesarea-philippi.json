@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.24611,
+    "lng": 35.69333,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Caesarea Philippi"
+  }
 }

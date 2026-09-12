@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.12611,
+    "lng": 45.23083,
+    "confidence": 381,
+    "kind": "representative",
+    "openbible": "Tel-melah"
+  }
 }

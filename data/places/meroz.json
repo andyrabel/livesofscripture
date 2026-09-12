@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.0322,
+    "lng": 35.52987,
+    "confidence": 14,
+    "kind": "point",
+    "openbible": "Meroz"
+  }
 }

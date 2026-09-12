@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.57028,
+    "lng": 46.27528,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Minni"
+  }
 }

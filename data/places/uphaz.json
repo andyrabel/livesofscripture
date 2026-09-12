@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 18.21667,
+    "lng": 42.5,
+    "confidence": 316,
+    "kind": "representative",
+    "openbible": "Uphaz"
+  }
 }

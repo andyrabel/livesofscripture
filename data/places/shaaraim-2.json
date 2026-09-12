@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.467,
+    "lng": 34.4041,
+    "confidence": 607,
+    "kind": "point",
+    "openbible": "Shaaraim 2"
+  },
   "disambiguation": "(1 Chr 4:31)"
 }

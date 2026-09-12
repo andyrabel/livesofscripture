@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.76083,
+    "lng": 35.23167,
+    "confidence": 220,
+    "kind": "representative",
+    "openbible": "Azal"
+  }
 }

@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.71355,
+    "lng": 35.49544,
+    "confidence": 167,
+    "kind": "point",
+    "openbible": "En-gannim 2"
+  },
   "disambiguation": "(Josh 19:21)"
 }

@@ -22,5 +22,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 35.9525,
+    "lng": 35.96931,
+    "confidence": 1041,
+    "kind": "point",
+    "openbible": "Zaphon 2"
+  },
   "disambiguation": "(Job 26:7)"
 }

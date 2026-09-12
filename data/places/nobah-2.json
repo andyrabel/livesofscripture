@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.75616,
+    "lng": 36.61899,
+    "confidence": 468,
+    "kind": "point",
+    "openbible": "Nobah 2"
+  },
   "disambiguation": "(Judg 8:11)"
 }

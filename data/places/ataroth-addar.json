@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.87993,
+    "lng": 35.21752,
+    "confidence": 190,
+    "kind": "point",
+    "openbible": "Ataroth-addar"
+  }
 }

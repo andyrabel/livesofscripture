@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.905,
+    "lng": 36.79861,
+    "confidence": 789,
+    "kind": "point",
+    "openbible": "Hadrach"
+  }
 }

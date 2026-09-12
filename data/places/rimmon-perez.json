@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.54022,
+    "lng": 34.65429,
+    "confidence": 144,
+    "kind": "representative",
+    "openbible": "Rimmon-perez"
+  }
 }

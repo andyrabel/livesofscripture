@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.87049,
+    "lng": 35.44476,
+    "confidence": 736,
+    "kind": "point",
+    "openbible": "Waters of Jericho"
+  }
 }

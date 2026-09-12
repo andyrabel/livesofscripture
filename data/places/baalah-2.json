@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.80896,
+    "lng": 35.10378,
+    "confidence": 970,
+    "kind": "point",
+    "openbible": "Baalah 2"
+  },
   "disambiguation": "(Josh 15:9)"
 }

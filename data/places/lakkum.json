@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.69827,
+    "lng": 35.55186,
+    "confidence": 449,
+    "kind": "point",
+    "openbible": "Lakkum"
+  }
 }

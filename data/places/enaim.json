@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.68768,
+    "lng": 35.01237,
+    "confidence": 505,
+    "kind": "point",
+    "openbible": "Enaim"
+  }
 }

@@ -27,5 +27,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.971,
+    "lng": 35.325,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Zin 1"
+  },
   "disambiguation": "(Num 13:21)"
 }

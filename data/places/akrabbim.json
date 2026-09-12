@@ -25,5 +25,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.9066,
+    "lng": 35.13126,
+    "confidence": 727,
+    "kind": "representative",
+    "openbible": "Akrabbim"
+  }
 }

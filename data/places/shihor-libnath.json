@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.81667,
+    "lng": 35.03333,
+    "confidence": 237,
+    "kind": "point",
+    "openbible": "Shihor-libnath"
+  }
 }

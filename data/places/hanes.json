@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.08556,
+    "lng": 30.93444,
+    "confidence": 483,
+    "kind": "point",
+    "openbible": "Hanes"
+  }
 }

@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.42288,
+    "lng": 35.13295,
+    "confidence": 612,
+    "kind": "point",
+    "openbible": "Racal"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.4245,
+    "lng": 34.6062,
+    "confidence": 476,
+    "kind": "representative",
+    "openbible": "Esek"
+  }
 }

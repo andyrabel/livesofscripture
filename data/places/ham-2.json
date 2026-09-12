@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.12944,
+    "lng": 31.3075,
+    "confidence": 1169,
+    "kind": "representative",
+    "openbible": "Ham 2"
+  },
   "disambiguation": "(Ps 78:51)"
 }

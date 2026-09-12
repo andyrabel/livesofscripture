@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.56528,
+    "lng": 34.84917,
+    "confidence": 571,
+    "kind": "representative",
+    "openbible": "Joktheel 1"
+  }
 }

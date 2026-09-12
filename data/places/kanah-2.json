@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.20917,
+    "lng": 35.29917,
+    "confidence": 842,
+    "kind": "point",
+    "openbible": "Kanah 2"
+  },
   "disambiguation": "(Josh 19:28)"
 }

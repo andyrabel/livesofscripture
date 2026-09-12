@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.15798,
+    "lng": 35.36133,
+    "confidence": 645,
+    "kind": "point",
+    "openbible": "Janoah 1"
+  },
   "disambiguation": "(Josh 16:6)"
 }

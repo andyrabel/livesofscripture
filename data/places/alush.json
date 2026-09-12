@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.77031,
+    "lng": 33.76749,
+    "confidence": 302,
+    "kind": "representative",
+    "openbible": "Alush"
+  }
 }

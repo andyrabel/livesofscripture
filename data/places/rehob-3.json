@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.90139,
+    "lng": 35.16944,
+    "confidence": 428,
+    "kind": "point",
+    "openbible": "Rehob 3"
+  },
   "disambiguation": "(Josh 19:30)"
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.75,
+    "lng": 26.8333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Samos"
+  }
 }

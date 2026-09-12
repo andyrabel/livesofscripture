@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.30992,
+    "lng": 34.9078,
+    "confidence": 307,
+    "kind": "representative",
+    "openbible": "Hashmonah"
+  }
 }

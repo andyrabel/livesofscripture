@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.78892,
+    "lng": 35.29321,
+    "confidence": 598,
+    "kind": "point",
+    "openbible": "Rumah"
+  }
 }

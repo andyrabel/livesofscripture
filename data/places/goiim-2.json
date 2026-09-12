@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.76,
+    "lng": 35.527,
+    "confidence": 267,
+    "kind": "representative",
+    "openbible": "Goiim 2"
+  },
   "disambiguation": "(Josh 12:23)"
 }

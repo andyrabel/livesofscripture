@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.72258,
+    "lng": 35.09063,
+    "confidence": 422,
+    "kind": "point",
+    "openbible": "Beth-dagon 2"
+  },
   "disambiguation": "(Josh 19:27)"
 }

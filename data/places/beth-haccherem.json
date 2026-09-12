@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.7399,
+    "lng": 35.2169,
+    "confidence": 747,
+    "kind": "point",
+    "openbible": "Beth-haccherem"
+  }
 }

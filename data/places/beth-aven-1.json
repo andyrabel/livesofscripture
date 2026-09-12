@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.86921,
+    "lng": 35.26807,
+    "confidence": 222,
+    "kind": "point",
+    "openbible": "Beth-aven 1"
+  },
   "disambiguation": "(Josh 7:2)"
 }

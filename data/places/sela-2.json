@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.78087,
+    "lng": 35.57446,
+    "confidence": 437,
+    "kind": "point",
+    "openbible": "Sela 2"
+  },
   "disambiguation": "(2 Kgs 14:7)"
 }

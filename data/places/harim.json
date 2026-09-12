@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.18817,
+    "lng": 34.8067,
+    "confidence": 66,
+    "kind": "point",
+    "openbible": "Harim"
+  }
 }

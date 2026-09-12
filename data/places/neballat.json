@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.98644,
+    "lng": 34.9589,
+    "confidence": 824,
+    "kind": "point",
+    "openbible": "Neballat"
+  }
 }

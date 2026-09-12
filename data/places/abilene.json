@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.62667,
+    "lng": 36.10583,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Abilene"
+  }
 }

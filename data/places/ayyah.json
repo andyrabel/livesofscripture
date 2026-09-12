@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.91694,
+    "lng": 35.26111,
+    "confidence": 342,
+    "kind": "point",
+    "openbible": "Ayyah"
+  }
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.88434,
+    "lng": 22.99682,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Cenchreae"
+  }
 }

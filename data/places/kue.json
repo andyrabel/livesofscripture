@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 37.0,
+    "lng": 35.325,
+    "confidence": 865,
+    "kind": "representative",
+    "openbible": "Kue"
+  }
 }

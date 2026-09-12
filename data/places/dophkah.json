@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.03673,
+    "lng": 33.45941,
+    "confidence": 441,
+    "kind": "point",
+    "openbible": "Dophkah"
+  }
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.9547,
+    "lng": 35.9343,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "King\u2019s Highway"
+  }
 }

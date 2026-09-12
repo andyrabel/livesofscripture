@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.715,
+    "lng": 34.96917,
+    "confidence": 377,
+    "kind": "representative",
+    "openbible": "Enam"
+  }
 }

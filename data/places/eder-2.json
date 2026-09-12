@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.28083,
+    "lng": 35.125,
+    "confidence": 266,
+    "kind": "point",
+    "openbible": "Eder 2"
+  },
   "disambiguation": "(Josh 15:21)"
 }

@@ -22,5 +22,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.73333,
+    "lng": 35.2721,
+    "confidence": 460,
+    "kind": "point",
+    "openbible": "Harod 2"
+  },
   "disambiguation": "(2 Sam 23:25)"
 }

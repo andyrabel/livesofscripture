@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.08333,
+    "lng": 35.41667,
+    "confidence": 790,
+    "kind": "point",
+    "openbible": "Yiron"
+  }
 }

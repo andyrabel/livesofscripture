@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.71944,
+    "lng": 35.00129,
+    "confidence": 730,
+    "kind": "point",
+    "openbible": "Zanoah 1"
+  },
   "disambiguation": "(Josh 15:34)"
 }

@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.25972,
+    "lng": 36.42361,
+    "confidence": 254,
+    "kind": "point",
+    "openbible": "Cun"
+  }
 }

@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.98358,
+    "lng": 34.80862,
+    "confidence": 261,
+    "kind": "point",
+    "openbible": "Beth-dagon 1"
+  },
   "disambiguation": "(Josh 15:41)"
 }

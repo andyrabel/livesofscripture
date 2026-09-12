@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 24.08892,
+    "lng": 32.89973,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Syene"
+  }
 }

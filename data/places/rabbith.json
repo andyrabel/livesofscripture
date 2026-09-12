@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.69728,
+    "lng": 35.37753,
+    "confidence": 476,
+    "kind": "point",
+    "openbible": "Rabbith"
+  }
 }

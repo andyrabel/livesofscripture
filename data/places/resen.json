@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.1437,
+    "lng": 43.31452,
+    "confidence": 176,
+    "kind": "point",
+    "openbible": "Resen"
+  }
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.72474,
+    "lng": 35.41385,
+    "confidence": 577,
+    "kind": "point",
+    "openbible": "Heleph"
+  }
 }

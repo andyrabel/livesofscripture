@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.07583,
+    "lng": 35.52833,
+    "confidence": 224,
+    "kind": "point",
+    "openbible": "Edrei 2"
+  },
   "disambiguation": "(Josh 19:37)"
 }

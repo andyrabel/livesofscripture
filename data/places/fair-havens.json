@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.92969,
+    "lng": 24.80031,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Fair Havens"
+  }
 }

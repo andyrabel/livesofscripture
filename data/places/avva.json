@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.68472,
+    "lng": 36.69056,
+    "confidence": 564,
+    "kind": "point",
+    "openbible": "Avva"
+  }
 }

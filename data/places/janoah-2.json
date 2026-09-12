@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.26025,
+    "lng": 35.30259,
+    "confidence": 321,
+    "kind": "point",
+    "openbible": "Janoah 2"
+  },
   "disambiguation": "(2 Kgs 15:29)"
 }

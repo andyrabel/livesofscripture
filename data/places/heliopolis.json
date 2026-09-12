@@ -25,5 +25,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.12944,
+    "lng": 31.3075,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Heliopolis"
+  }
 }

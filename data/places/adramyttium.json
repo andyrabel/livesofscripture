@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 39.50067,
+    "lng": 26.93272,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Adramyttium"
+  }
 }

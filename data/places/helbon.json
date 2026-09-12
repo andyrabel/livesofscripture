@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.6667,
+    "lng": 36.25,
+    "confidence": 750,
+    "kind": "point",
+    "openbible": "Helbon"
+  }
 }

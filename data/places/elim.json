@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.25472,
+    "lng": 32.91583,
+    "confidence": 533,
+    "kind": "representative",
+    "openbible": "Elim"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.78806,
+    "lng": 35.31056,
+    "confidence": 647,
+    "kind": "point",
+    "openbible": "Rimmon 3"
+  },
   "disambiguation": "(Josh 19:13)"
 }

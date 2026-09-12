@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.30611,
+    "lng": 31.18917,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Pisidia"
+  }
 }

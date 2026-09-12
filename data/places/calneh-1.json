@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.12611,
+    "lng": 45.23083,
+    "confidence": 168,
+    "kind": "point",
+    "openbible": "Calneh 1"
+  },
   "disambiguation": "(Gen 10:10)"
 }

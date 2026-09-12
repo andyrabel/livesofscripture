@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.8087,
+    "lng": 35.2459,
+    "confidence": 696,
+    "kind": "point",
+    "openbible": "Tamar 1"
+  },
   "disambiguation": "(1 Kgs 9:18)"
 }

@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.57459,
+    "lng": 35.01244,
+    "confidence": 185,
+    "kind": "point",
+    "openbible": "Iphtah"
+  }
 }

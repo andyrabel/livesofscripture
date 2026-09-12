@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.50224,
+    "lng": 35.77657,
+    "confidence": 215,
+    "kind": "representative",
+    "openbible": "Kiriath-huzoth"
+  }
 }

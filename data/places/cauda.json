@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.83333,
+    "lng": 24.08333,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Cauda"
+  }
 }

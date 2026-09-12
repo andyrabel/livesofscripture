@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.124,
+    "lng": 35.922,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Seleucia"
+  }
 }

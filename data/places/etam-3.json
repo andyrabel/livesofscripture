@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.68478,
+    "lng": 35.17884,
+    "confidence": 747,
+    "kind": "point",
+    "openbible": "Etam 3"
+  },
   "disambiguation": "(2 Chr 11:6)"
 }

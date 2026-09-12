@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 15.3551,
+    "lng": 44.2145,
+    "confidence": 352,
+    "kind": "point",
+    "openbible": "Uzal"
+  }
 }

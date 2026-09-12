@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.8926,
+    "lng": 35.2219,
+    "confidence": 701,
+    "kind": "point",
+    "openbible": "Neiel"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.87561,
+    "lng": 36.00486,
+    "confidence": 236,
+    "kind": "point",
+    "openbible": "Abel-keramim"
+  }
 }

@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.1046,
+    "lng": 34.9645,
+    "confidence": 589,
+    "kind": "point",
+    "openbible": "Ebenezer 1"
+  },
   "disambiguation": "(1 Sam 4:1)"
 }

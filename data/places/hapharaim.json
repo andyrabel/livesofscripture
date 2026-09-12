@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.60385,
+    "lng": 35.44661,
+    "confidence": 423,
+    "kind": "point",
+    "openbible": "Hapharaim"
+  }
 }

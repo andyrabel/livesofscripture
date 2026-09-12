@@ -25,5 +25,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.51833,
+    "lng": 22.2,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Berea"
+  }
 }

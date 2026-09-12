@@ -25,5 +25,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 25.72056,
+    "lng": 32.61028,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Thebes"
+  }
 }

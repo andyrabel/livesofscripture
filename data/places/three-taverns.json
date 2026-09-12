@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 41.56194,
+    "lng": 12.87389,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Three Taverns"
+  }
 }

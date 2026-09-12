@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.10415,
+    "lng": 35.23007,
+    "confidence": 690,
+    "kind": "point",
+    "openbible": "Tappuah 1"
+  },
   "disambiguation": "(Josh 12:17)"
 }

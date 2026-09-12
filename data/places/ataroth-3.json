@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.8805,
+    "lng": 35.2285,
+    "confidence": 426,
+    "kind": "point",
+    "openbible": "Ataroth 3"
+  },
   "disambiguation": "(Josh 16:7)"
 }

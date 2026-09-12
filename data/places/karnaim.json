@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.83583,
+    "lng": 36.035,
+    "confidence": 760,
+    "kind": "point",
+    "openbible": "Karnaim"
+  }
 }

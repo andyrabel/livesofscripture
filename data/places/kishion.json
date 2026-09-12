@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.66139,
+    "lng": 35.39306,
+    "confidence": 447,
+    "kind": "point",
+    "openbible": "Kishion"
+  }
 }

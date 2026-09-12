@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.03668,
+    "lng": 34.82767,
+    "confidence": 818,
+    "kind": "point",
+    "openbible": "Bene-berak"
+  }
 }

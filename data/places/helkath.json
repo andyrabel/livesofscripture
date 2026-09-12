@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.68528,
+    "lng": 35.10972,
+    "confidence": 377,
+    "kind": "point",
+    "openbible": "Helkath"
+  }
 }

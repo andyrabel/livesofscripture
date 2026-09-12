@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.82703,
+    "lng": 34.93221,
+    "confidence": 162,
+    "kind": "point",
+    "openbible": "Makaz"
+  }
 }

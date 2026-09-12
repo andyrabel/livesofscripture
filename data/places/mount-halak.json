@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.9144,
+    "lng": 34.8287,
+    "confidence": 587,
+    "kind": "point",
+    "openbible": "Mount Halak"
+  }
 }

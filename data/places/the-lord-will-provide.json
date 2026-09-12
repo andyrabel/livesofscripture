@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.77778,
+    "lng": 35.23556,
+    "confidence": 444,
+    "kind": "point",
+    "openbible": "The Lord Will Provide"
+  }
 }

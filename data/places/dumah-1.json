@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.4306,
+    "lng": 34.9861,
+    "confidence": 662,
+    "kind": "point",
+    "openbible": "Dumah 1"
+  },
   "disambiguation": "(Josh 15:52)"
 }

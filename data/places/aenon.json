@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.38152,
+    "lng": 35.52821,
+    "confidence": 276,
+    "kind": "point",
+    "openbible": "Aenon"
+  }
 }

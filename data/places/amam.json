@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.2185,
+    "lng": 34.90684,
+    "confidence": 377,
+    "kind": "point",
+    "openbible": "Amam"
+  }
 }

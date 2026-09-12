@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.6804,
+    "lng": 35.4863,
+    "confidence": 698,
+    "kind": "point",
+    "openbible": "En-haddah"
+  }
 }

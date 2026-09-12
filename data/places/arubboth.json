@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.40731,
+    "lng": 35.13355,
+    "confidence": 445,
+    "kind": "point",
+    "openbible": "Arubboth"
+  }
 }

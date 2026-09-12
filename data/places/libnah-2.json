@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 29.99321,
+    "lng": 34.704,
+    "confidence": 129,
+    "kind": "representative",
+    "openbible": "Libnah 2"
+  },
   "disambiguation": "(Num 33:20)"
 }

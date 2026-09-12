@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.86444,
+    "lng": 39.03278,
+    "confidence": 508,
+    "kind": "representative",
+    "openbible": "Nahor"
+  }
 }

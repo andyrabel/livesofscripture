@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.86944,
+    "lng": 35.53833,
+    "confidence": 756,
+    "kind": "point",
+    "openbible": "Chinnereth"
+  }
 }

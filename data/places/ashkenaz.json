@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 44.94278,
+    "lng": 34.12056,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Ashkenaz"
+  }
 }

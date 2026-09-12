@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 38.3725,
+    "lng": 26.1375,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Chios"
+  }
 }

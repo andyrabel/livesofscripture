@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.79694,
+    "lng": 35.14417,
+    "confidence": 648,
+    "kind": "point",
+    "openbible": "Ephron 1"
+  },
   "disambiguation": "(Josh 18:15)"
 }

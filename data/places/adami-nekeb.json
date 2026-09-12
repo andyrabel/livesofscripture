@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.74917,
+    "lng": 35.45917,
+    "confidence": 722,
+    "kind": "point",
+    "openbible": "Adami-nekeb"
+  }
 }

@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.735,
+    "lng": 35.55555,
+    "confidence": 365,
+    "kind": "point",
+    "openbible": "Kedesh-naphtali"
+  }
 }

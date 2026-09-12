@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.46079,
+    "lng": 35.29875,
+    "confidence": 782,
+    "kind": "point",
+    "openbible": "Beth-haggan"
+  }
 }

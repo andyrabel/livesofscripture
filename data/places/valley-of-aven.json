@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.00761,
+    "lng": 36.2044,
+    "confidence": 637,
+    "kind": "representative",
+    "openbible": "Valley of Aven"
+  }
 }

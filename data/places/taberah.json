@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.78867,
+    "lng": 34.27544,
+    "confidence": 257,
+    "kind": "representative",
+    "openbible": "Taberah"
+  }
 }

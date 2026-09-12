@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.5,
+    "lng": 31.0,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Bithynia"
+  }
 }

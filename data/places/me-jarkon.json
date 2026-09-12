@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.10389,
+    "lng": 34.77583,
+    "confidence": 723,
+    "kind": "representative",
+    "openbible": "Me-jarkon"
+  }
 }

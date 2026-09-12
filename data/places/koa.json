@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.38753,
+    "lng": 47.1321,
+    "confidence": 501,
+    "kind": "representative",
+    "openbible": "Koa"
+  }
 }

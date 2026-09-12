@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.54192,
+    "lng": 35.09882,
+    "confidence": 502,
+    "kind": "point",
+    "openbible": "Sirah"
+  }
 }

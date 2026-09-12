@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.40762,
+    "lng": 34.9723,
+    "confidence": 447,
+    "kind": "representative",
+    "openbible": "Goshen 2"
+  },
   "disambiguation": "(Josh 10:41)"
 }

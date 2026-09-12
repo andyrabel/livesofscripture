@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.84139,
+    "lng": 34.78583,
+    "confidence": 660,
+    "kind": "point",
+    "openbible": "Mount Baalah"
+  }
 }

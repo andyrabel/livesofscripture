@@ -27,5 +27,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.82095,
+    "lng": 21.85123,
+    "confidence": 632,
+    "kind": "representative",
+    "openbible": "Put"
+  }
 }

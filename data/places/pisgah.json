@@ -27,5 +27,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.76778,
+    "lng": 35.72556,
+    "confidence": 453,
+    "kind": "point",
+    "openbible": "Pisgah"
+  }
 }

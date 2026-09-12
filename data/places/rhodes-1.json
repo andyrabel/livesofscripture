@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 36.4402,
+    "lng": 28.2109,
+    "confidence": 471,
+    "kind": "representative",
+    "openbible": "Rhodes 1"
+  },
   "disambiguation": "(Acts 21:1)"
 }

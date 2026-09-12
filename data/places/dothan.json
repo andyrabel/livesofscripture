@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.41353,
+    "lng": 35.23986,
+    "confidence": 877,
+    "kind": "point",
+    "openbible": "Dothan"
+  }
 }

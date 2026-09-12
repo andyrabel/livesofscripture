@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.64833,
+    "lng": 34.42222,
+    "confidence": 605,
+    "kind": "representative",
+    "openbible": "Hezron"
+  }
 }

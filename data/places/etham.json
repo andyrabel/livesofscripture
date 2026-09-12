@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.5475,
+    "lng": 31.96361,
+    "confidence": 173,
+    "kind": "point",
+    "openbible": "Etham"
+  }
 }

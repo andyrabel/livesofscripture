@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.55659,
+    "lng": 35.03355,
+    "confidence": 215,
+    "kind": "point",
+    "openbible": "Eshan"
+  }
 }

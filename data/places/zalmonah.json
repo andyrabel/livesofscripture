@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.81217,
+    "lng": 35.37339,
+    "confidence": 329,
+    "kind": "representative",
+    "openbible": "Zalmonah"
+  }
 }

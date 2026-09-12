@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.46854,
+    "lng": 34.93806,
+    "confidence": 379,
+    "kind": "point",
+    "openbible": "Beth-ezel"
+  }
 }

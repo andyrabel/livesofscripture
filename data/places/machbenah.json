@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.55415,
+    "lng": 34.8968,
+    "confidence": 201,
+    "kind": "point",
+    "openbible": "Machbenah"
+  }
 }

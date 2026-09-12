@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.86056,
+    "lng": 32.17139,
+    "confidence": 220,
+    "kind": "representative",
+    "openbible": "Pi-hahiroth"
+  }
 }

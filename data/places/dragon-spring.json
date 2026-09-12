@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.7672,
+    "lng": 35.23598,
+    "confidence": 439,
+    "kind": "point",
+    "openbible": "Dragon Spring"
+  }
 }

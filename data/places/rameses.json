@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.79937,
+    "lng": 31.83422,
+    "confidence": 509,
+    "kind": "point",
+    "openbible": "Rameses"
+  }
 }

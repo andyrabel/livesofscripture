@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.0,
+    "lng": 33.0,
+    "confidence": 377,
+    "kind": "representative",
+    "openbible": "Elishah"
+  }
 }

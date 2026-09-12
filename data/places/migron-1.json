@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.86921,
+    "lng": 35.26807,
+    "confidence": 206,
+    "kind": "point",
+    "openbible": "Migron 1"
+  },
   "disambiguation": "(1 Sam 14:2)"
 }

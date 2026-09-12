@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 41.8922,
+    "lng": 12.4852,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Italy"
+  }
 }

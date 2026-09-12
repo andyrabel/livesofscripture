@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.4653,
+    "lng": 30.3667,
+    "confidence": 193,
+    "kind": "representative",
+    "openbible": "Gihon 1"
+  },
   "disambiguation": "(Gen 2:13)"
 }

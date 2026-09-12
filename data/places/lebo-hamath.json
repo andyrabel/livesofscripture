@@ -32,5 +32,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.19491,
+    "lng": 36.34956,
+    "confidence": 738,
+    "kind": "point",
+    "openbible": "Lebo-hamath"
+  }
 }

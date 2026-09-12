@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.77177,
+    "lng": 35.15567,
+    "confidence": 644,
+    "kind": "point",
+    "openbible": "Hali"
+  }
 }

@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.80417,
+    "lng": 36.01583,
+    "confidence": 797,
+    "kind": "point",
+    "openbible": "Ashtaroth"
+  }
 }

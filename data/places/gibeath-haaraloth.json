@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.88188,
+    "lng": 35.45997,
+    "confidence": 749,
+    "kind": "representative",
+    "openbible": "Gibeath-haaraloth"
+  }
 }

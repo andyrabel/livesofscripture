@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.28684,
+    "lng": 35.61893,
+    "confidence": 298,
+    "kind": "point",
+    "openbible": "Tabbath"
+  }
 }

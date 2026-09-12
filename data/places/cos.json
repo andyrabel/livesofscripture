@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.81528,
+    "lng": 27.11028,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Cos"
+  }
 }

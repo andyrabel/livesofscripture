@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.52994,
+    "lng": 34.78959,
+    "confidence": 347,
+    "kind": "point",
+    "openbible": "Chitlish"
+  }
 }

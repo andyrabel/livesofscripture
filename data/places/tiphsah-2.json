@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.10415,
+    "lng": 35.23007,
+    "confidence": 584,
+    "kind": "point",
+    "openbible": "Tiphsah 2"
+  },
   "disambiguation": "(2 Kgs 15:16)"
 }

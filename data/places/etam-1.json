@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.76372,
+    "lng": 35.02579,
+    "confidence": 816,
+    "kind": "point",
+    "openbible": "Etam 1"
+  },
   "disambiguation": "(Judg 15:8)"
 }

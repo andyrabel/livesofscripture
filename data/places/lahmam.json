@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.57183,
+    "lng": 34.896,
+    "confidence": 387,
+    "kind": "point",
+    "openbible": "Lahmam"
+  }
 }

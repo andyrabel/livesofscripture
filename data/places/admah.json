@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.20849,
+    "lng": 35.44922,
+    "confidence": 491,
+    "kind": "representative",
+    "openbible": "Admah"
+  }
 }

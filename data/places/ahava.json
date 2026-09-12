@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.54333,
+    "lng": 44.42222,
+    "confidence": 708,
+    "kind": "representative",
+    "openbible": "Ahava"
+  }
 }

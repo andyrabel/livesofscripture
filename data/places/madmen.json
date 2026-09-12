@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.29182,
+    "lng": 35.70481,
+    "confidence": 341,
+    "kind": "point",
+    "openbible": "Madmen"
+  }
 }

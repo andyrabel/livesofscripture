@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.03111,
+    "lng": 34.56583,
+    "confidence": 305,
+    "kind": "representative",
+    "openbible": "Sitnah"
+  }
 }

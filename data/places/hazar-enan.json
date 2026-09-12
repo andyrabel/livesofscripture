@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.22944,
+    "lng": 37.24056,
+    "confidence": 576,
+    "kind": "point",
+    "openbible": "Hazar-enan"
+  }
 }

@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.40998,
+    "lng": 48.14783,
+    "confidence": 743,
+    "kind": "representative",
+    "openbible": "Ulai"
+  }
 }

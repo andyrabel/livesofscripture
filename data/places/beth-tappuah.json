@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.53856,
+    "lng": 35.04622,
+    "confidence": 800,
+    "kind": "point",
+    "openbible": "Beth-tappuah"
+  }
 }

@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.5753,
+    "lng": 35.66594,
+    "confidence": 778,
+    "kind": "point",
+    "openbible": "Ataroth 1"
+  },
   "disambiguation": "(Num 32:3)"
 }

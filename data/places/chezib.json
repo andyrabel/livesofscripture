@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.64207,
+    "lng": 34.95302,
+    "confidence": 816,
+    "kind": "point",
+    "openbible": "Chezib"
+  }
 }

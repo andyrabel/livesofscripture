@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.50506,
+    "lng": 35.0275,
+    "confidence": 815,
+    "kind": "point",
+    "openbible": "Adoraim"
+  }
 }

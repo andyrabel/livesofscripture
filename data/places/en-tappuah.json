@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.10415,
+    "lng": 35.23007,
+    "confidence": 518,
+    "kind": "representative",
+    "openbible": "En-tappuah"
+  }
 }

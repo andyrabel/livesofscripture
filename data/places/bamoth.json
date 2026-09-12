@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.73179,
+    "lng": 35.74089,
+    "confidence": 430,
+    "kind": "point",
+    "openbible": "Bamoth"
+  }
 }

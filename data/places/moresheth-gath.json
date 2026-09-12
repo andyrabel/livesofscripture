@@ -23,5 +23,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.63336,
+    "lng": 34.91661,
+    "confidence": 467,
+    "kind": "point",
+    "openbible": "Moresheth-gath"
+  }
 }

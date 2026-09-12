@@ -30,5 +30,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.8065,
+    "lng": 48.51625,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Media"
+  }
 }

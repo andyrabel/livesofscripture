@@ -33,5 +33,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.64833,
+    "lng": 34.42222,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Meribah 1"
+  },
   "disambiguation": "(Num 20:13)"
 }

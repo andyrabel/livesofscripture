@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.72722,
+    "lng": 35.38444,
+    "confidence": 399,
+    "kind": "point",
+    "openbible": "Aznoth-tabor"
+  }
 }

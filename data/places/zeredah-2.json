@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.26769,
+    "lng": 35.57724,
+    "confidence": 743,
+    "kind": "point",
+    "openbible": "Zeredah 2"
+  },
   "disambiguation": "(2 Chr 4:17)"
 }

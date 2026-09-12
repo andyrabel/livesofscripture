@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.84745,
+    "lng": 35.18335,
+    "confidence": 767,
+    "kind": "point",
+    "openbible": "Geba 2"
+  },
   "disambiguation": "(2 Sam 5:25)"
 }

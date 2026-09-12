@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 36.2475,
+    "lng": 36.37639,
+    "confidence": 428,
+    "kind": "point",
+    "openbible": "Calneh 2"
+  },
   "disambiguation": "(Isa 10:9)"
 }

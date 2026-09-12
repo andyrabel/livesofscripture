@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.40087,
+    "lng": 35.00614,
+    "confidence": 819,
+    "kind": "point",
+    "openbible": "Socoh 2"
+  },
   "disambiguation": "(Josh 15:48)"
 }

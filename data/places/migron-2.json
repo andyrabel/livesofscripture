@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.86921,
+    "lng": 35.26807,
+    "confidence": 407,
+    "kind": "point",
+    "openbible": "Migron 2"
+  },
   "disambiguation": "(Isa 10:28)"
 }

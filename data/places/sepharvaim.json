@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.40107,
+    "lng": 36.63636,
+    "confidence": 388,
+    "kind": "representative",
+    "openbible": "Sepharvaim"
+  }
 }

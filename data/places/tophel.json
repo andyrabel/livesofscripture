@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.8375,
+    "lng": 35.60417,
+    "confidence": 189,
+    "kind": "point",
+    "openbible": "Tophel"
+  }
 }

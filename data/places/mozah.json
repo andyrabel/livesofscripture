@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.79289,
+    "lng": 35.16419,
+    "confidence": 417,
+    "kind": "point",
+    "openbible": "Mozah"
+  }
 }

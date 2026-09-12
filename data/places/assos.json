@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 39.49056,
+    "lng": 26.33667,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Assos"
+  }
 }

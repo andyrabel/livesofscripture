@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.8249,
+    "lng": 35.2735,
+    "confidence": 810,
+    "kind": "point",
+    "openbible": "Alemeth"
+  }
 }

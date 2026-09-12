@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.65417,
+    "lng": 35.50694,
+    "confidence": 278,
+    "kind": "point",
+    "openbible": "Shion"
+  }
 }

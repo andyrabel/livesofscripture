@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.34495,
+    "lng": 35.12438,
+    "confidence": 316,
+    "kind": "point",
+    "openbible": "Kerioth-hezron"
+  }
 }

@@ -27,5 +27,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.76917,
+    "lng": 35.22806,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Topheth"
+  }
 }

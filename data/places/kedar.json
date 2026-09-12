@@ -28,5 +28,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.81142,
+    "lng": 39.86831,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Kedar"
+  }
 }

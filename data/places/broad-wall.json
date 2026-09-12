@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.77608,
+    "lng": 35.23189,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Broad Wall"
+  }
 }

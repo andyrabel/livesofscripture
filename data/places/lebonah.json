@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.05906,
+    "lng": 35.24979,
+    "confidence": 497,
+    "kind": "point",
+    "openbible": "Lebonah"
+  }
 }

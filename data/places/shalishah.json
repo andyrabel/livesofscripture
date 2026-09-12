@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.1525,
+    "lng": 35.04417,
+    "confidence": 597,
+    "kind": "representative",
+    "openbible": "Shalishah"
+  }
 }

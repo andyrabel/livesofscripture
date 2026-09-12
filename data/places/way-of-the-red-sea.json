@@ -25,5 +25,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.72722,
+    "lng": 34.99833,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Way of the Red Sea"
+  }
 }

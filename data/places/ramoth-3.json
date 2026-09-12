@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.49985,
+    "lng": 36.01499,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Ramoth 3"
+  },
   "disambiguation": "(Deut 4:43)"
 }

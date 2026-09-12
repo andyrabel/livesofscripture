@@ -29,5 +29,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 39.655,
+    "lng": 31.99417,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Meshech"
+  }
 }

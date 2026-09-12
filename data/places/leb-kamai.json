@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.96222,
+    "lng": 46.10444,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Leb-kamai"
+  }
 }

@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.1303,
+    "lng": 40.42728,
+    "confidence": 879,
+    "kind": "representative",
+    "openbible": "Habor"
+  }
 }

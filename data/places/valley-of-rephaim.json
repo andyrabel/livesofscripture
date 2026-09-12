@@ -26,5 +26,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.7632,
+    "lng": 35.21912,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Valley of Rephaim"
+  }
 }

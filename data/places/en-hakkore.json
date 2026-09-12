@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.7488,
+    "lng": 35.00101,
+    "confidence": 694,
+    "kind": "representative",
+    "openbible": "En-hakkore"
+  }
 }

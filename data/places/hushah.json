@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.71181,
+    "lng": 35.13242,
+    "confidence": 409,
+    "kind": "point",
+    "openbible": "Hushah"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.28083,
+    "lng": 35.125,
+    "confidence": 370,
+    "kind": "point",
+    "openbible": "Arad 1"
+  },
   "disambiguation": "(Num 21:1)"
 }

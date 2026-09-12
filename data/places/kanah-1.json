@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.127,
+    "lng": 34.8954,
+    "confidence": 661,
+    "kind": "representative",
+    "openbible": "Kanah 1"
+  },
   "disambiguation": "(Josh 16:8)"
 }

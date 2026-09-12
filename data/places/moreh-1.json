@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.21361,
+    "lng": 35.28194,
+    "confidence": 953,
+    "kind": "representative",
+    "openbible": "Moreh 1"
+  },
   "disambiguation": "(Gen 12:6)"
 }

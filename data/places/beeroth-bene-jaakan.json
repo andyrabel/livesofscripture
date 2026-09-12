@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.79176,
+    "lng": 34.47252,
+    "confidence": 962,
+    "kind": "point",
+    "openbible": "Beeroth Bene-jaakan"
+  }
 }

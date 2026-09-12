@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.63873,
+    "lng": 35.82658,
+    "confidence": 601,
+    "kind": "point",
+    "openbible": "Almon-diblathaim"
+  }
 }

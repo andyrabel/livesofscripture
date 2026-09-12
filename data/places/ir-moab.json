@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.28086,
+    "lng": 35.75953,
+    "confidence": 690,
+    "kind": "point",
+    "openbible": "Ir-moab"
+  }
 }

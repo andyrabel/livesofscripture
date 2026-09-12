@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.99104,
+    "lng": 34.91132,
+    "confidence": 82,
+    "kind": "point",
+    "openbible": "Bealoth 2"
+  },
   "disambiguation": "(1 Kgs 4:16)"
 }

@@ -41,5 +41,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.77795,
+    "lng": 35.24569,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Mount of Olives"
+  }
 }

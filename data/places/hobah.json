@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.25,
+    "lng": 37.06667,
+    "confidence": 158,
+    "kind": "point",
+    "openbible": "Hobah"
+  }
 }

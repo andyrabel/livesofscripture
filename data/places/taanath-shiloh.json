@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.17635,
+    "lng": 35.37093,
+    "confidence": 626,
+    "kind": "point",
+    "openbible": "Taanath-shiloh"
+  }
 }

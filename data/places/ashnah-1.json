@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.78471,
+    "lng": 35.0063,
+    "confidence": 346,
+    "kind": "point",
+    "openbible": "Ashnah 1"
+  },
   "disambiguation": "(Josh 15:33)"
 }

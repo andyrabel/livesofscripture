@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.70731,
+    "lng": 35.23011,
+    "confidence": 632,
+    "kind": "point",
+    "openbible": "Eder 1"
+  },
   "disambiguation": "(Gen 35:21)"
 }

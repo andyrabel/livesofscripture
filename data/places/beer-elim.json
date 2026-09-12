@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.57194,
+    "lng": 35.89333,
+    "confidence": 289,
+    "kind": "representative",
+    "openbible": "Beer-elim"
+  }
 }

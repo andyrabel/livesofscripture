@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.50917,
+    "lng": 36.31139,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Straight Street"
+  }
 }

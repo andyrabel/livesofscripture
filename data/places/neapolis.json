@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 40.935,
+    "lng": 24.415,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Neapolis"
+  }
 }

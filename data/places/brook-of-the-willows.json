@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.02701,
+    "lng": 35.48533,
+    "confidence": 648,
+    "kind": "representative",
+    "openbible": "Brook of the Willows"
+  }
 }

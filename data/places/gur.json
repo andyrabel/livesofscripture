@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.44411,
+    "lng": 35.2966,
+    "confidence": 566,
+    "kind": "point",
+    "openbible": "Gur"
+  }
 }

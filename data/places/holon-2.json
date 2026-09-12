@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.18056,
+    "lng": 35.70139,
+    "confidence": 608,
+    "kind": "representative",
+    "openbible": "Holon 2"
+  },
   "disambiguation": "(Jer 48:21)"
 }

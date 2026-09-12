@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.84105,
+    "lng": 35.27954,
+    "confidence": 678,
+    "kind": "representative",
+    "openbible": "Ammah"
+  }
 }

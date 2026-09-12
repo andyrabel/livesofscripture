@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 23.0,
+    "lng": 46.0,
+    "confidence": 519,
+    "kind": "representative",
+    "openbible": "Havilah 2"
+  },
   "disambiguation": "(Gen 25:18)"
 }

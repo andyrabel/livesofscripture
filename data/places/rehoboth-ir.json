@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.3594,
+    "lng": 43.1528,
+    "confidence": 519,
+    "kind": "representative",
+    "openbible": "Rehoboth-Ir"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.77802,
+    "lng": 34.99892,
+    "confidence": 789,
+    "kind": "representative",
+    "openbible": "Mahaneh-dan 1"
+  },
   "disambiguation": "(Judg 13:25)"
 }

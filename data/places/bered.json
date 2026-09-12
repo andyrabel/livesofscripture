@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.097,
+    "lng": 34.652,
+    "confidence": 459,
+    "kind": "point",
+    "openbible": "Bered"
+  }
 }

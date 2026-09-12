@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.15214,
+    "lng": 34.97907,
+    "confidence": 649,
+    "kind": "point",
+    "openbible": "Aroer 3"
+  },
   "disambiguation": "(1 Sam 30:28)"
 }

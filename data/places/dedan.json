@@ -29,5 +29,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 26.65,
+    "lng": 37.91667,
+    "confidence": 845,
+    "kind": "point",
+    "openbible": "Dedan"
+  }
 }

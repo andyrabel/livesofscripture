@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 38.48833,
+    "lng": 28.04028,
+    "confidence": 401,
+    "kind": "representative",
+    "openbible": "Lud 2"
+  },
   "disambiguation": "(Jer 46:9)"
 }

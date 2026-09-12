@@ -22,5 +22,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.04828,
+    "lng": 35.10265,
+    "confidence": 794,
+    "kind": "point",
+    "openbible": "Achzib 2"
+  },
   "disambiguation": "(Josh 19:29)"
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.7014,
+    "lng": 38.0865,
+    "confidence": 593,
+    "kind": "representative",
+    "openbible": "Amaw"
+  }
 }

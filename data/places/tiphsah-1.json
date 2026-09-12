@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 35.95,
+    "lng": 38.16667,
+    "confidence": 754,
+    "kind": "point",
+    "openbible": "Tiphsah 1"
+  },
   "disambiguation": "(1 Kgs 4:24)"
 }

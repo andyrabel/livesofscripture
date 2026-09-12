@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.1,
+    "lng": 35.52,
+    "confidence": 164,
+    "kind": "representative",
+    "openbible": "Beth-barah"
+  }
 }

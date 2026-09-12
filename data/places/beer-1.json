@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.57194,
+    "lng": 35.89333,
+    "confidence": 427,
+    "kind": "representative",
+    "openbible": "Beer 1"
+  },
   "disambiguation": "(Num 21:16)"
 }

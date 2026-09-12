@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.51111,
+    "lng": 36.30639,
+    "confidence": 269,
+    "kind": "representative",
+    "openbible": "Goiim 1"
+  },
   "disambiguation": "(Gen 14:1)"
 }

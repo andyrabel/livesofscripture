@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.46197,
+    "lng": 35.11849,
+    "confidence": 419,
+    "kind": "point",
+    "openbible": "Jokdeam"
+  }
 }

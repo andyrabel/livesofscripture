@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.7539,
+    "lng": 35.7152,
+    "confidence": 229,
+    "kind": "representative",
+    "openbible": "Valley of Hamon-gog"
+  }
 }

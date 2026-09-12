@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.04769,
+    "lng": 35.16192,
+    "confidence": 826,
+    "kind": "point",
+    "openbible": "Abdon"
+  }
 }

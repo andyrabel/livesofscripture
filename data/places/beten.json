@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.76408,
+    "lng": 35.10658,
+    "confidence": 226,
+    "kind": "point",
+    "openbible": "Beten"
+  }
 }

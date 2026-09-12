@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.26769,
+    "lng": 35.57724,
+    "confidence": 523,
+    "kind": "point",
+    "openbible": "Zaphon 1"
+  },
   "disambiguation": "(Josh 13:27)"
 }

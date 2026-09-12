@@ -24,5 +24,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.956,
+    "lng": 35.77948,
+    "confidence": 403,
+    "kind": "point",
+    "openbible": "Iye-abarim"
+  }
 }

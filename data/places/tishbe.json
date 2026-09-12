@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.02861,
+    "lng": 35.53972,
+    "confidence": 16,
+    "kind": "representative",
+    "openbible": "Tishbe"
+  }
 }

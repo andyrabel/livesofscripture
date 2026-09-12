@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 43.53944,
+    "lng": 16.48306,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Illyricum"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.86833,
+    "lng": 35.21139,
+    "confidence": 470,
+    "kind": "point",
+    "openbible": "Cabul 1"
+  },
   "disambiguation": "(Josh 19:27)"
 }

@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.74761,
+    "lng": 34.96378,
+    "confidence": 288,
+    "kind": "point",
+    "openbible": "En-gannim 1"
+  },
   "disambiguation": "(Josh 15:34)"
 }

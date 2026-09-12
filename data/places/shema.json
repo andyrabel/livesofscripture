@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.24472,
+    "lng": 34.84083,
+    "confidence": 400,
+    "kind": "point",
+    "openbible": "Shema"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.8575,
+    "lng": 35.26111,
+    "confidence": 731,
+    "kind": "point",
+    "openbible": "Geba 4"
+  },
   "disambiguation": "(Josh 18:24)"
 }

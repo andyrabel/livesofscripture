@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.4,
+    "lng": 35.85,
+    "confidence": 259,
+    "kind": "point",
+    "openbible": "Harmon"
+  }
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.11194,
+    "lng": 35.4625,
+    "confidence": 676,
+    "kind": "point",
+    "openbible": "Kiriathaim 2"
+  },
   "disambiguation": "(1 Chr 6:76)"
 }

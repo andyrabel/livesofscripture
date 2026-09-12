@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.54056,
+    "lng": 35.68611,
+    "confidence": 557,
+    "kind": "point",
+    "openbible": "Kerioth"
+  }
 }

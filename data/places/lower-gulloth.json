@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.43209,
+    "lng": 35.01485,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Lower Gulloth"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.79972,
+    "lng": 35.45972,
+    "confidence": 377,
+    "kind": "point",
+    "openbible": "Adamah"
+  }
 }

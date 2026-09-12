@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.4462,
+    "lng": 35.292,
+    "confidence": 582,
+    "kind": "point",
+    "openbible": "Gath-rimmon 2"
+  },
   "disambiguation": "(Josh 21:25)"
 }

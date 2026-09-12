@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.34604,
+    "lng": 32.94284,
+    "confidence": 384,
+    "kind": "point",
+    "openbible": "Marah"
+  }
 }

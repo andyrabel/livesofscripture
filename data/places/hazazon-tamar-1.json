@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.8087,
+    "lng": 35.2459,
+    "confidence": 429,
+    "kind": "point",
+    "openbible": "Hazazon-tamar 1"
+  },
   "disambiguation": "(Gen 14:7)"
 }

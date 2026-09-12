@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.04251,
+    "lng": 32.54614,
+    "confidence": 694,
+    "kind": "representative",
+    "openbible": "Shihor 2"
+  },
   "disambiguation": "(Isa 23:3)"
 }

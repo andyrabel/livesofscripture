@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.94094,
+    "lng": 35.23695,
+    "confidence": 217,
+    "kind": "representative",
+    "openbible": "Ebenezer 2"
+  },
   "disambiguation": "(1 Sam 7:12)"
 }

@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.77802,
+    "lng": 34.99892,
+    "confidence": 441,
+    "kind": "representative",
+    "openbible": "Mahaneh-dan 2"
+  },
   "disambiguation": "(Judg 18:12)"
 }

@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.99677,
+    "lng": 34.98188,
+    "confidence": 467,
+    "kind": "point",
+    "openbible": "Ziph 2"
+  },
   "disambiguation": "(Josh 15:24)"
 }

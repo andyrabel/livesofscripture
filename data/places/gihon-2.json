@@ -23,5 +23,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.77292,
+    "lng": 35.23638,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Gihon 2"
+  },
   "disambiguation": "(1 Kgs 1:33)"
 }

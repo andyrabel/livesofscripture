@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.86833,
+    "lng": 35.21139,
+    "confidence": 1044,
+    "kind": "representative",
+    "openbible": "Cabul 2"
+  },
   "disambiguation": "(1 Kgs 9:13)"
 }

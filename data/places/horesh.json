@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.45026,
+    "lng": 35.12738,
+    "confidence": 327,
+    "kind": "point",
+    "openbible": "Horesh"
+  }
 }

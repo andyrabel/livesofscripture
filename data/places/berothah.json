@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.93528,
+    "lng": 36.15083,
+    "confidence": 336,
+    "kind": "point",
+    "openbible": "Berothah"
+  }
 }

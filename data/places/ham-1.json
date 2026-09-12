@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.51421,
+    "lng": 35.81238,
+    "confidence": 599,
+    "kind": "point",
+    "openbible": "Ham 1"
+  },
   "disambiguation": "(Gen 14:5)"
 }

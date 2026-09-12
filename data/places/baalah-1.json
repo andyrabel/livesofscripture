@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.14205,
+    "lng": 34.91217,
+    "confidence": 222,
+    "kind": "point",
+    "openbible": "Baalah 1"
+  },
   "disambiguation": "(Josh 15:29)"
 }

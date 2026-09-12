@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.62775,
+    "lng": 35.49365,
+    "confidence": 755,
+    "kind": "point",
+    "openbible": "Punon"
+  }
 }

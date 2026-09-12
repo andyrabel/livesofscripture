@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.61743,
+    "lng": 34.91636,
+    "confidence": 864,
+    "kind": "point",
+    "openbible": "Dor"
+  }
 }

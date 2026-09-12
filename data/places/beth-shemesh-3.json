@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.04128,
+    "lng": 35.33275,
+    "confidence": 528,
+    "kind": "point",
+    "openbible": "Beth-shemesh 3"
+  },
   "disambiguation": "(Josh 19:38)"
 }

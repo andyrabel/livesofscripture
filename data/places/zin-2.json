@@ -19,5 +19,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.971,
+    "lng": 35.325,
+    "confidence": 880,
+    "kind": "representative",
+    "openbible": "Zin 2"
+  },
   "disambiguation": "(Num 34:4)"
 }

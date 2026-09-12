@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 28.4947,
+    "lng": 35.0122,
+    "confidence": 515,
+    "kind": "representative",
+    "openbible": "Cushan"
+  }
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.68583,
+    "lng": 27.375,
+    "confidence": 1000,
+    "kind": "point",
+    "openbible": "Cnidus"
+  }
 }

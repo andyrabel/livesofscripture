@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.0043,
+    "lng": 47.4421,
+    "confidence": 1000,
+    "kind": "representative",
+    "openbible": "Tigris"
+  }
 }

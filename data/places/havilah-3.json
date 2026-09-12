@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 23.0,
+    "lng": 46.0,
+    "confidence": 903,
+    "kind": "representative",
+    "openbible": "Havilah 3"
+  },
   "disambiguation": "(1 Sam 15:7)"
 }

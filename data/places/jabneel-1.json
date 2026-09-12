@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.866,
+    "lng": 34.7463,
+    "confidence": 775,
+    "kind": "point",
+    "openbible": "Jabneel 1"
+  },
   "disambiguation": "(Josh 15:11)"
 }

@@ -18,5 +18,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.01353,
+    "lng": 35.85575,
+    "confidence": 656,
+    "kind": "point",
+    "openbible": "Jogbehah"
+  }
 }

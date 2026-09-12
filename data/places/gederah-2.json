@@ -20,5 +20,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.85794,
+    "lng": 35.19727,
+    "confidence": 283,
+    "kind": "point",
+    "openbible": "Gederah 2"
+  },
   "disambiguation": "(1 Chr 12:4)"
 }

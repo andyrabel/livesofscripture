@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 32.61764,
+    "lng": 35.34873,
+    "confidence": 770,
+    "kind": "point",
+    "openbible": "Moreh 2"
+  },
   "disambiguation": "(Judg 7:1)"
 }

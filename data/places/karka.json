@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.66667,
+    "lng": 34.36667,
+    "confidence": 542,
+    "kind": "point",
+    "openbible": "Karka"
+  }
 }

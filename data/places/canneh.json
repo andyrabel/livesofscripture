@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 36.29257,
+    "lng": 37.20553,
+    "confidence": 588,
+    "kind": "point",
+    "openbible": "Canneh"
+  }
 }

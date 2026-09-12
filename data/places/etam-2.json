@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.68478,
+    "lng": 35.17884,
+    "confidence": 332,
+    "kind": "point",
+    "openbible": "Etam 2"
+  },
   "disambiguation": "(1 Chr 4:32)"
 }

@@ -19,5 +19,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.37333,
+    "lng": 35.23361,
+    "confidence": 381,
+    "kind": "point",
+    "openbible": "Hazor-hadattah"
+  }
 }

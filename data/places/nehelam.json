@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.75,
+    "lng": 36.24083,
+    "confidence": 20,
+    "kind": "point",
+    "openbible": "Nehelam"
+  }
 }

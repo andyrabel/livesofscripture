@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.467,
+    "lng": 34.4041,
+    "confidence": 521,
+    "kind": "point",
+    "openbible": "Shilhim"
+  }
 }

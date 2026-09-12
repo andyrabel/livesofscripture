@@ -21,5 +21,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.09001,
+    "lng": 35.64193,
+    "confidence": 273,
+    "kind": "point",
+    "openbible": "Horonaim 1"
+  },
   "disambiguation": "(Isa 15:5)"
 }

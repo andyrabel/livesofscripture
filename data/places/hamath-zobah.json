@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 35.1365,
+    "lng": 36.75,
+    "confidence": 490,
+    "kind": "point",
+    "openbible": "Hamath-zobah"
+  }
 }

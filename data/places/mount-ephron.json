@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.79694,
+    "lng": 35.14417,
+    "confidence": 658,
+    "kind": "point",
+    "openbible": "Mount Ephron"
+  }
 }

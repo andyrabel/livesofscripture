@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.78255,
+    "lng": 35.62125,
+    "confidence": 799,
+    "kind": "point",
+    "openbible": "Beth-jeshimoth"
+  }
 }

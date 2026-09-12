@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 33.11444,
+    "lng": 35.29083,
+    "confidence": 240,
+    "kind": "point",
+    "openbible": "Rehob 2"
+  },
   "disambiguation": "(Josh 19:28)"
 }

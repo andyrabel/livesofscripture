@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.74629,
+    "lng": 34.99711,
+    "confidence": 491,
+    "kind": "point",
+    "openbible": "Elonbeth-hanan"
+  }
 }

@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.00806,
+    "lng": 35.10729,
+    "confidence": 829,
+    "kind": "representative",
+    "openbible": "Gaash"
+  }
 }

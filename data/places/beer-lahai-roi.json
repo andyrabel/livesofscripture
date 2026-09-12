@@ -21,5 +21,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 30.6875,
+    "lng": 34.33333,
+    "confidence": 258,
+    "kind": "point",
+    "openbible": "Beer-lahai-roi"
+  }
 }

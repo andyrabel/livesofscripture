@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.88188,
+    "lng": 35.45997,
+    "confidence": 478,
+    "kind": "point",
+    "openbible": "Beth-gilgal"
+  }
 }

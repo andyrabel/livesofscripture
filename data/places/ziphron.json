@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 34.26667,
+    "lng": 37.06667,
+    "confidence": 378,
+    "kind": "point",
+    "openbible": "Ziphron"
+  }
 }

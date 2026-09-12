@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 31.14205,
+    "lng": 34.91217,
+    "confidence": 123,
+    "kind": "point",
+    "openbible": "Telem"
+  }
 }

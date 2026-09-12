@@ -18,5 +18,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 31.45015,
+    "lng": 35.05353,
+    "confidence": 301,
+    "kind": "point",
+    "openbible": "Zanoah 2"
+  },
   "disambiguation": "(Josh 15:56)"
 }

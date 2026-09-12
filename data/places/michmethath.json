@@ -22,5 +22,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 32.17719,
+    "lng": 35.2672,
+    "confidence": 299,
+    "kind": "point",
+    "openbible": "Michmethath"
+  }
 }

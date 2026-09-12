@@ -20,5 +20,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 29.53068,
+    "lng": 35.0,
+    "confidence": 268,
+    "kind": "point",
+    "openbible": "Abronah"
+  }
 }

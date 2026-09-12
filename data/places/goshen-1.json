@@ -28,5 +28,12 @@
   "n_people": 0,
   "related_people": [],
   "description": "",
+  "geo": {
+    "lat": 30.79937,
+    "lng": 31.83422,
+    "confidence": 1020,
+    "kind": "representative",
+    "openbible": "Goshen 1"
+  },
   "disambiguation": "(Gen 45:10)"
 }

@@ -17,5 +17,12 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
-  "description": ""
+  "description": "",
+  "geo": {
+    "lat": 33.31362,
+    "lng": 36.05553,
+    "confidence": 600,
+    "kind": "representative",
+    "openbible": "Pharpar"
+  }
 }
