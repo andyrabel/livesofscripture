@@ -12994,5 +12994,27 @@
     "references": [
       "Daniel 6:1-27"
     ]
+  },
+  {
+    "from": "obadiah",
+    "to": "ahab",
+    "label": "served as steward for",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Obadiah managed Ahab's household and was sent by him to search the land for water and grass during the drought, even while secretly hiding a hundred of the LORD's prophets from Jezebel.",
+    "references": [
+      "1 Kings 18:3-6"
+    ]
+  },
+  {
+    "from": "obadiah",
+    "to": "elijah",
+    "label": "arranged meeting with",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Obadiah unexpectedly met Elijah while searching for water and, despite fearing Ahab's wrath, delivered his message to the king, setting up the Mount Carmel confrontation.",
+    "references": [
+      "1 Kings 18:7-16"
+    ]
   }
 ]
