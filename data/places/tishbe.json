@@ -7,7 +7,9 @@
   "tier": "stub",
   "type": "town",
   "region": "undetermined",
-  "eras": [],
+  "eras": [
+    "Divided Monarchy"
+  ],
   "first_reference": "1 Kings 17:1",
   "references": [
     "1 Kings 17:1",
@@ -20,8 +22,18 @@
     "note": "No location has been identified with confidence."
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "elijah",
+      "name": "Elijah",
+      "gender": "male",
+      "role": "the prophet's home region, from which he emerged to confront Ahab over Baal worship",
+      "references": [
+        "1 Kings 17:1"
+      ]
+    }
+  ],
   "unnamed_people": [],
   "description": "",
   "geo": {

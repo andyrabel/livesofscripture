@@ -24,8 +24,17 @@
     "note": ""
   },
   "modern_name": null,
-  "n_people": 8,
+  "n_people": 9,
   "related_people": [
+    {
+      "person_id": "barzillai",
+      "name": "Barzillai",
+      "gender": "male",
+      "role": "the wealthy man of this region who supplied David's exhausted men during Absalom's revolt",
+      "references": [
+        "2 Samuel 17:27-29"
+      ]
+    },
     {
       "person_id": "chimham",
       "name": "Chimham",

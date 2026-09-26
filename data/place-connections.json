@@ -4641,6 +4641,13 @@
     "mutual": true
   },
   {
+    "from": "barzillai",
+    "to": "place:gilead",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "chimham",
     "to": "place:gilead",
     "label": "associated with",
@@ -6531,6 +6538,13 @@
     "mutual": true
   },
   {
+    "from": "hushai",
+    "to": "place:archi",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "epanetus",
     "to": "place:asia-roman-province",
     "label": "associated with",
@@ -6568,6 +6582,13 @@
   {
     "from": "og",
     "to": "place:bashan",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "sanballat",
+    "to": "place:beth-horon",
     "label": "associated with",
     "type": "person-place",
     "mutual": true
@@ -7681,6 +7702,27 @@
   {
     "from": "jobab-3",
     "to": "place:waters-of-merom",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "sibbecai",
+    "to": "place:hushah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "shemaiah-21",
+    "to": "place:nehelam",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "elijah",
+    "to": "place:tishbe",
     "label": "associated with",
     "type": "person-place",
     "mutual": true

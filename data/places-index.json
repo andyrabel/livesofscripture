@@ -1037,6 +1037,19 @@
     "lng": 44.30038
   },
   {
+    "place_id": "archi",
+    "name": "Archi",
+    "alt_names": [],
+    "tier": "stub",
+    "type": "region",
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
+    "disambiguation": ""
+  },
+  {
     "place_id": "areopagus",
     "name": "Areopagus",
     "alt_names": [
@@ -2530,9 +2543,11 @@
     "alt_names": [],
     "tier": "stub",
     "type": "town",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "region": "canaan-israel",
+    "eras": [
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 1,
     "disambiguation": ""
   },
   {
@@ -5897,7 +5912,7 @@
       "United Monarchy",
       "Divided Monarchy"
     ],
-    "n_people": 8,
+    "n_people": 9,
     "disambiguation": "",
     "lat": 32.18702,
     "lng": 35.69211
@@ -7269,8 +7284,10 @@
     "tier": "stub",
     "type": "town",
     "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 1,
     "disambiguation": ""
   },
   {
@@ -10658,8 +10675,10 @@
     "tier": "stub",
     "type": "town",
     "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "eras": [
+      "Exile"
+    ],
+    "n_people": 1,
     "disambiguation": ""
   },
   {
@@ -13906,8 +13925,10 @@
     "tier": "stub",
     "type": "town",
     "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "eras": [
+      "Divided Monarchy"
+    ],
+    "n_people": 1,
     "disambiguation": ""
   },
   {

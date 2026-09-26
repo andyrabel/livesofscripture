@@ -30,6 +30,9 @@ ROLES = {
     "ai": {
         "achan": ("kept plunder devoted to destruction from Jericho, bringing Israel's rout here", ["Joshua 7:1-5"]),
     },
+    "archi": {
+        "hushai": ("David's friend from this district, sent back to defeat Ahithophel's counsel in Absalom's court", ["2 Samuel 15:32-34"]),
+    },
     "arimathea": {
         "joseph-7": ("the council member of this town who gave Jesus his own new tomb", ["Matthew 27:57-60"]),
     },
@@ -42,6 +45,9 @@ ROLES = {
     },
     "baal-peor": {
         "phinehas": ("struck down Zimri and Cozbi at the height of Israel's idolatry here, stopping the plague", ["Numbers 25:7-8"]),
+    },
+    "beth-horon": {
+        "sanballat": ("an official of Samaria from this town, who mocked and conspired against Nehemiah's rebuilding of Jerusalem's walls", ["Nehemiah 2:10", "Nehemiah 4:1-3"]),
     },
     "cana": {
         "nathanael": ("a Galilean of this town, won over when Jesus showed supernatural knowledge of him", ["John 21:2", "John 1:47-49"]),
@@ -71,6 +77,9 @@ ROLES = {
     },
     "hazor": {
         "jabin": ("a king of this city, defeated by Joshua and, later, under Deborah and Barak", ["Joshua 11:1", "Judges 4:2"]),
+    },
+    "hushah": {
+        "sibbecai": ("of this town, one of David's mighty men who killed the giant Saph at Gob", ["2 Samuel 21:18"]),
     },
     "jabesh-gilead": {
         "nahash": ("the Ammonite king whose siege of this town roused Saul to his first victory", ["1 Samuel 11:1-11"]),
@@ -105,6 +114,9 @@ ROLES = {
     "mount-gerizim": {
         "jotham": ("shouted his parable of the trees from this mountain over Shechem", ["Judges 9:7"]),
     },
+    "nehelam": {
+        "shemaiah-21": ("of this town, an exile in Babylon who wrote demanding Jeremiah be silenced and put in stocks", ["Jeremiah 29:24-28"]),
+    },
     "patmos": {
         "john-2": ("exiled to this island, where he received the visions of Revelation", ["Revelation 1:9"]),
     },
@@ -130,6 +142,9 @@ ROLES = {
     "thyatira": {
         "jezebel-2": ("Christ's name for the false prophetess tolerated in the church here", ["Revelation 2:20"]),
         "lydia": ("a dealer in this city's purple cloth, converted under Paul's preaching at Philippi", ["Acts 16:14"]),
+    },
+    "tishbe": {
+        "elijah": ("the prophet's home region, from which he emerged to confront Ahab over Baal worship", ["1 Kings 17:1"]),
     },
     "valley-of-achor": {
         "achan": ("stoned in this valley for taking devoted plunder from Jericho", ["Joshua 7:24-26"]),
@@ -527,6 +542,7 @@ ROLES = {
 
     # ---- eight- and nine-person places ----
     "gilead": {
+        "barzillai": ("the wealthy man of this region who supplied David's exhausted men during Absalom's revolt", ["2 Samuel 17:27-29"]),
         "chimham": ("Barzillai's son from this region, taken into David's care", ["2 Samuel 19:37-40"]),
         "elijah": ("a Tishbite of this region, who announced the drought to Ahab", ["1 Kings 17:1"]),
         "gilead-2": ("father of the judge Jephthah, of this region", ["Judges 11:1"]),

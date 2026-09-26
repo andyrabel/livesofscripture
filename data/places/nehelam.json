@@ -7,7 +7,9 @@
   "tier": "stub",
   "type": "town",
   "region": "undetermined",
-  "eras": [],
+  "eras": [
+    "Exile"
+  ],
   "first_reference": "Jeremiah 29:24",
   "references": [
     "Jeremiah 29:24",
@@ -19,8 +21,18 @@
     "note": "No location has been identified with confidence."
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "shemaiah-21",
+      "name": "Shemaiah",
+      "gender": "male",
+      "role": "of this town, an exile in Babylon who wrote demanding Jeremiah be silenced and put in stocks",
+      "references": [
+        "Jeremiah 29:24-28"
+      ]
+    }
+  ],
   "unnamed_people": [],
   "description": "",
   "geo": {

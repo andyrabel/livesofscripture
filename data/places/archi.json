@@ -1,0 +1,34 @@
+{
+  "place_id": "archi",
+  "name": "Archi",
+  "alt_names": [],
+  "tier": "stub",
+  "type": "region",
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
+  "first_reference": "Joshua 16:2",
+  "references": [
+    "Joshua 16:2"
+  ],
+  "identification": {
+    "status": "disputed",
+    "note": "No exact site is known; Scripture places it as a border district between Bethel and Ataroth, on the Ephraim-Benjamin boundary."
+  },
+  "modern_name": null,
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "hushai",
+      "name": "Hushai",
+      "gender": "male",
+      "role": "David's friend from this district, sent back to defeat Ahithophel's counsel in Absalom's court",
+      "references": [
+        "2 Samuel 15:32-34"
+      ]
+    }
+  ],
+  "unnamed_people": [],
+  "description": "A district on Ephraim's southern border, between Bethel and Ataroth (Joshua 16:2), giving David's loyal friend and counselor Hushai his epithet \"the Archite\" (2 Samuel 15:32)."
+}
