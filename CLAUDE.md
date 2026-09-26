@@ -1276,6 +1276,37 @@ Re-run order when `data/places_gazetteer.json` changes:
 `backfill_gazetteer_place_coords.py` → `generate_places.py` →
 `generate_static_site.py`.
 
+**Unnamed individuals connected to a place (added 2026-09-25).** Some
+figures Scripture narrates in real detail are never given a name, but are
+distinctly identified with one place — the widow of Nain, the Philippian
+jailer. These now render in the "People connected to `<Place>`" section
+alongside named people, but with no link (there is no person page to link
+to). Data lives in `_build/place_unnamed_people.py`'s `UNNAMED_PEOPLE`
+dict (`{place_id: [{"title", "role", "references"}, ...]}` — sibling to
+`place_people_roles.py`'s `ROLES`, force-committed the same way),
+consumed by `generate_places.py` into each place's `unnamed_people` array,
+and rendered by `place_related_people_html()` in
+`generate_static_site.py` (`_unnamed_person_li()`, appended after any
+named/curated-role entries, before the trailing "Also named in Scripture
+at..." sentence). `title` is Scripture's own descriptive designation
+(e.g. "the widow of Nain"), never an invented proper name — same rule as
+every other field under Factual Accuracy. `role`/`references` follow the
+same no-verse-quotation rule as `ROLES` (paraphrase only, per Bible
+Version Handling — no verse text, in any translation, anywhere on the
+site). First pass covers 20 people across 16 places (Nain, Philippi,
+Region of the Gerasenes, Shechem/Sychar, Golgotha, Siloam, En-dor,
+Gethsemane, Bethel, Emmaus, Capernaum, Tyre, Cana, Lystra, Bethesda,
+Jerusalem) — all already existed in the dataset (the 2026-09-11 full
+gazetteer merge already covers essentially every named place in the
+Protestant canon), so no new places needed to be added; deliberately not
+exhaustive, following the same bar as the two examples above (a fixed,
+textually explicit location) — skipped are figures with no fixed named
+location (the rich young ruler, the Ethiopian eunuch met "on the road"),
+groups rather than individuals (the magi, the ten lepers), and parable
+characters never claimed as historical (the good Samaritan). Extending
+this list further is a reasonable follow-up; re-run `generate_places.py`
+then `generate_static_site.py` after any change.
+
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

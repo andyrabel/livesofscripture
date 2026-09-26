@@ -19,6 +19,15 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
+  "unnamed_people": [
+    {
+      "title": "the medium of Endor",
+      "role": "was consulted by a disguised Saul the night before his death, and brought up Samuel to pronounce his doom",
+      "references": [
+        "1 Samuel 28:7-19"
+      ]
+    }
+  ],
   "description": "",
   "geo": {
     "lat": 32.64361,

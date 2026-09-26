@@ -25,6 +25,15 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
+  "unnamed_people": [
+    {
+      "title": "the repentant criminal",
+      "role": "was crucified beside Jesus, rebuked the other criminal for mocking Him, and was promised Paradise that same day",
+      "references": [
+        "Luke 23:39-43"
+      ]
+    }
+  ],
   "description": "",
   "geo": {
     "lat": 31.77844,

@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from places_data import PLACES_MAJOR, PLACES_MID, PLACES_MINOR  # noqa: E402
 from place_people_roles import ROLES  # noqa: E402
+from place_unnamed_people import UNNAMED_PEOPLE  # noqa: E402
 
 # lon/lat + OpenBible confidence per place, produced by
 # _build/backfill_place_coords.py. Absent entries just render without a map.
@@ -307,6 +308,11 @@ def main():
                 rp["references"] = list(refs)
             related_people.append(rp)
 
+        unnamed_people = [
+            {"title": u["title"], "role": u.get("role", ""), "references": list(u.get("references", []))}
+            for u in UNNAMED_PEOPLE.get(slug, [])
+        ]
+
         entry = {
             "place_id": slug,
             "name": c["name"],
@@ -324,6 +330,7 @@ def main():
             "modern_name": c.get("modern"),
             "n_people": n_people,
             "related_people": related_people,
+            "unnamed_people": unnamed_people,
         }
         if tier == "full":
             entry["description"] = c.get("desc", "")
@@ -431,11 +438,15 @@ def main():
     for slug in ROLES:
         if slug not in all_slugs:
             print(f"warning: place_people_roles.py has an entry for unknown place {slug!r}")
+    for slug in UNNAMED_PEOPLE:
+        if slug not in all_slugs:
+            print(f"warning: place_unnamed_people.py has an entry for unknown place {slug!r}")
 
     full_count = sum(1 for e in places if e["tier"] == "full")
     n_roles = sum(1 for e in places for rp in e["related_people"] if rp.get("role"))
+    n_unnamed = sum(len(e["unnamed_people"]) for e in places)
     print(f"Generated {len(places)} places ({full_count} full, {len(places) - full_count} stub), "
-          f"{len(edges)} person-place edges, {n_roles} person blurbs.")
+          f"{len(edges)} person-place edges, {n_roles} person blurbs, {n_unnamed} unnamed people.")
 
 
 if __name__ == "__main__":

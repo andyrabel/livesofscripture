@@ -30,6 +30,15 @@
       ]
     }
   ],
+  "unnamed_people": [
+    {
+      "title": "the unnamed companion of Cleopas",
+      "role": "walked with Cleopas to this village and recognized the risen Jesus in the breaking of bread",
+      "references": [
+        "Luke 24:13-31"
+      ]
+    }
+  ],
   "description": "A village to which two disciples, including Cleopas, were walking on the day of the resurrection when the risen Jesus joined them unrecognized, opening the Scriptures until He was revealed in the breaking of bread (Luke 24:13-35).",
   "family_friendly_summary": "Emmaus was a village that two of Jesus's followers were walking to on the first Easter Sunday. The risen Jesus came alongside them, but they didn't recognize Him at first. He explained the Scriptures to them as they walked, and their eyes were opened when He broke bread with them at supper.",
   "geo": {

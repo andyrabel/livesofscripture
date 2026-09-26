@@ -17,6 +17,15 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
+  "unnamed_people": [
+    {
+      "title": "the widow of Nain",
+      "role": "had lost her only son, whom Jesus raised to life as the funeral procession left the town gate",
+      "references": [
+        "Luke 7:11-15"
+      ]
+    }
+  ],
   "description": "",
   "geo": {
     "lat": 32.63069,

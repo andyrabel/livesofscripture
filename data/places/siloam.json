@@ -25,6 +25,15 @@
   "modern_name": null,
   "n_people": 0,
   "related_people": [],
+  "unnamed_people": [
+    {
+      "title": "the man born blind",
+      "role": "was sent by Jesus to wash the mud from his eyes in this pool, and came back seeing",
+      "references": [
+        "John 9:1-11"
+      ]
+    }
+  ],
   "description": "",
   "geo": {
     "lat": 31.77056,

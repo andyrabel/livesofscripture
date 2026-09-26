@@ -1266,9 +1266,20 @@ def _place_person_link(p, base):
             f'{gender_tag(p.get("gender"))}')
 
 
+def _unnamed_person_li(u):
+    li = [f'<li>{esc(u["title"])}']
+    if u.get("role"):
+        li[0] += f' — {esc(u["role"])}'
+    if u.get("references"):
+        li.append(f'<p class="connections-list__refs">{esc("; ".join(u["references"]))}</p>')
+    li.append("</li>")
+    return "\n".join(li)
+
+
 def place_related_people_html(place, gender_by_id, base):
     people = place.get("related_people", [])
-    if not people:
+    unnamed = place.get("unnamed_people", [])
+    if not people and not unnamed:
         return '<p class="stub-notice">No person with a full profile is named in Scripture at this place — kept here for the connections graph.</p>'
 
     # People with a curated place-specific blurb (see _build/place_people_roles.py)
@@ -1278,20 +1289,25 @@ def place_related_people_html(place, gender_by_id, base):
     with_role = [p for p in people if p.get("role")]
     without_role = [p for p in people if not p.get("role")]
 
-    if not with_role:
-        items = "\n    ".join(f'<li>{_place_person_link(p, base)}</li>' for p in people)
-        return f'<ul class="connections-list">\n    {items}\n    </ul>'
+    # Unnamed individuals Scripture ties to this place (e.g. "the widow of
+    # Nain") render the same way as a named person with a curated role, but
+    # with no person page to link to -- see _build/place_unnamed_people.py.
+    if with_role:
+        lis = []
+        for p in with_role:
+            li = [f'<li>{_place_person_link(p, base)} — {esc(p["role"])}']
+            if p.get("references"):
+                li.append(f'<p class="connections-list__refs">{esc("; ".join(p["references"]))}</p>')
+            li.append("</li>")
+            lis.append("\n".join(li))
+    else:
+        lis = [f'<li>{_place_person_link(p, base)}</li>' for p in without_role]
 
-    lis = []
-    for p in with_role:
-        li = [f'<li>{_place_person_link(p, base)} — {esc(p["role"])}']
-        if p.get("references"):
-            li.append(f'<p class="connections-list__refs">{esc("; ".join(p["references"]))}</p>')
-        li.append("</li>")
-        lis.append("\n".join(li))
+    lis.extend(_unnamed_person_li(u) for u in unnamed)
+
     html_out = '<ul class="connections-list">\n    ' + "\n    ".join(lis) + "\n    </ul>"
 
-    if without_role:
+    if with_role and without_role:
         links = ", ".join(_place_person_link(p, base) for p in without_role)
         html_out += (f'\n  <p class="place-people-more">Also named in Scripture at '
                      f'{esc(place["name"])}: {links}.</p>')
