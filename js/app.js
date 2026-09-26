@@ -3520,7 +3520,7 @@ async function renderTimelinePage() {
   if (!people.length) {
     countEl.textContent = "Showing 0 people";
     legendEl.innerHTML = "";
-    setState("No full-tier entries have timeline data yet.");
+    setState("No people with timeline data yet.");
     return;
   }
 

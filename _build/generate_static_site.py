@@ -1269,7 +1269,7 @@ def _place_person_link(p, base):
 def place_related_people_html(place, gender_by_id, base):
     people = place.get("related_people", [])
     if not people:
-        return '<p class="stub-notice">No full-tier person is named in Scripture at this place — kept here for the connections graph.</p>'
+        return '<p class="stub-notice">No person with a full profile is named in Scripture at this place — kept here for the connections graph.</p>'
 
     # People with a curated place-specific blurb (see _build/place_people_roles.py)
     # render like church members — name, a short note on what Scripture ties them
@@ -3673,7 +3673,7 @@ def build_tribe_sunburst_chart_page(layout):
   <h2>The Twelve Tribes, By Mother</h2>
   <p class="page-intro">{layout["total_people"]} people whose tribal descent Scripture states or the genealogy
   record traces, grouped first by which of Jacob's four wives they descend from, then by tribe. This is
-  deliberately a minority of the site's full-tier people — see the disclaimer below.</p>
+  deliberately a minority of the site's people with a full profile — see the disclaimer below.</p>
 
   {legend}
 
@@ -3691,7 +3691,7 @@ def build_tribe_sunburst_chart_page(layout):
   </div>
 
   <p class="kp-disclaimer">Only people whose tribe Scripture states explicitly, or whose genealogy chain
-  traces back to one of the twelve tribal heads, carry this field — most full-tier people (pre-Jacob
+  traces back to one of the twelve tribal heads, carry this field — most people with a full profile (pre-Jacob
   patriarchs, Gentiles, foreign officials, and virtually every New Testament figure) simply have no tribe
   the text ever states. {esc(mega_names)} are shown as solid bands rather than individual spokes — too many
   people to label radially at a readable size — see the full list in the table below the chart. A tribe is
