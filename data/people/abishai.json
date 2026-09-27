@@ -67,7 +67,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The present of my father",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Abishai/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -64,6 +64,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The gift of God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nathanael/"
+      }
+    ]
   }
 }

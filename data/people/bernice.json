@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "One that brings victory",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Bernice/"
+      }
+    ]
   }
 }

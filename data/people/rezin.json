@@ -55,6 +55,12 @@
   ],
   "name_meaning": {
     "meaning": "Good-will; messenger",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/R/Rezin/"
+      }
+    ]
   }
 }

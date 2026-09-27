@@ -48,6 +48,12 @@
   "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
   "name_meaning": {
     "meaning": "Long; great; tall",
-    "language": "Hurrian"
+    "language": "Hurrian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Arioch/"
+      }
+    ]
   }
 }

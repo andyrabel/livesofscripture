@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "My God is God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eliel%2C%20God%2C%20my%20God"
+      }
+    ]
   }
 }

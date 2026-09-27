@@ -53,6 +53,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Who becomes bitter; provoking",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Martha/"
+      }
+    ]
   }
 }

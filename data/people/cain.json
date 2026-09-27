@@ -55,6 +55,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Possession",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 4:1"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cain%2C%20possession%2C%20or%20possessed"
+      }
+    ]
   }
 }

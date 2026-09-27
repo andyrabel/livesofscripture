@@ -84,7 +84,17 @@
   ],
   "name_meaning": {
     "meaning": "That hears or obeys; that is heard",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 29:33"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Simeon/"
+      }
+    ]
   },
   "tribe": {
     "name": "Simeon",

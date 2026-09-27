@@ -80,8 +80,14 @@
     }
   ],
   "name_meaning": {
-    "meaning": "Preparation",
-    "language": "Hebrew"
+    "meaning": "Preparation, or strength, of the Lord",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehoiachin%2C%20preparation%2C%20or%20strength%2C%20of%20the%20Lord"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

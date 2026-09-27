@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "The poor of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Delaiah/"
+      }
+    ]
   }
 }

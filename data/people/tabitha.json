@@ -53,6 +53,16 @@
   ],
   "name_meaning": {
     "meaning": "Clear-sighted; a roe-deer",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Acts 9:36"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Tabitha/"
+      }
+    ]
   }
 }

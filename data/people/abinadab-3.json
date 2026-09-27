@@ -52,7 +52,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Father of a vow",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abinadab%2C%20father%20of%20a%20vow%2C%20or%20of%20willingness"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

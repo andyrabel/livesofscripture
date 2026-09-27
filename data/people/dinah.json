@@ -53,6 +53,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Judgment; who judges",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Dinah/"
+      }
+    ]
   }
 }

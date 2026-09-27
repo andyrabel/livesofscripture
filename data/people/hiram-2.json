@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Exaltation of life; a destroyer",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hiram/"
+      }
+    ]
   },
   "tribe": {
     "name": "Naphtali",

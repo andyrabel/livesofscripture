@@ -87,7 +87,17 @@
   ],
   "name_meaning": {
     "meaning": "Who sees the son; the vision of the son",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 29:32"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/R/Reuben/"
+      }
+    ]
   },
   "tribe": {
     "name": "Reuben",

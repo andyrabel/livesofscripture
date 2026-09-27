@@ -71,7 +71,17 @@
   ],
   "name_meaning": {
     "meaning": "Dwelling; habitation",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:20"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zebulun%2C%20Zebulon%2C%20dwelling%3B%20habitation"
+      }
+    ]
   },
   "tribe": {
     "name": "Zebulun",

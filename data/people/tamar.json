@@ -69,6 +69,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Palm; palm-tree",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Tamar/"
+      }
+    ]
   }
 }

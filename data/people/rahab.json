@@ -65,6 +65,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Proud; quarrelsome (applied to Egypt)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/R/Rahab/"
+      }
+    ]
   }
 }

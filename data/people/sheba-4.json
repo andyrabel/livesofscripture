@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Captivity; old man; repose; oath",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sheba/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

@@ -78,6 +78,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He that weeps or cries",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Job/"
+      }
+    ]
   }
 }

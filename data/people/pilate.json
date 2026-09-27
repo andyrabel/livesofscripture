@@ -63,6 +63,12 @@
   ],
   "name_meaning": {
     "meaning": "Armed with a dart",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Pilate/"
+      }
+    ]
   }
 }

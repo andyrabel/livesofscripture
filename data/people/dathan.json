@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "Laws or rites",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Dathan/"
+      }
+    ]
   },
   "tribe": {
     "name": "Reuben",

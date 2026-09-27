@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Lord of righteousness",
-    "language": "Canaanite"
+    "language": "Canaanite",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Adoni-zedek/"
+      }
+    ]
   }
 }

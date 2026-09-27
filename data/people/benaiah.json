@@ -61,6 +61,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Son of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Benaiah/"
+      }
+    ]
   }
 }

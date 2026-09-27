@@ -68,6 +68,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Laughter",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 21:6"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Isaac/"
+      }
+    ]
   }
 }

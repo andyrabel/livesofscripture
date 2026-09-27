@@ -53,7 +53,13 @@
   },
   "gender": "male",
   "name_meaning": {
-    "meaning": "Grace",
-    "language": "Hebrew"
+    "meaning": "Grace, or gift, or mercy of God",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elhanan%2C%20grace%2C%20or%20gift%2C%20or%20mercy%20of%20God"
+      }
+    ]
   }
 }

@@ -74,7 +74,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Forgetfulness; he that is forgotten",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Manasseh/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -88,7 +88,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Strength of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hezekiah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

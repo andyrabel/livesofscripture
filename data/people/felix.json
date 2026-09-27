@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Happy",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Felix%2C%20happy%2C%20prosperous"
+      }
+    ]
   }
 }

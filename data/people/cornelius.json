@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Of a horn",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/C/Cornelius/"
+      }
+    ]
   }
 }

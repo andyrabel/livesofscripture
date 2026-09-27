@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "A conqueror; victorious",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nicanor/"
+      }
+    ]
   }
 }

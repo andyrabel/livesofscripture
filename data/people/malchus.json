@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "My king",
-    "language": "Hebrew/Aramaic"
+    "language": "Hebrew/Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Malchus%2C%20my%20king%2C%20kingdom%2C%20or%20counselor"
+      }
+    ]
   }
 }

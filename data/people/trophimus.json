@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Well educated; well brought up",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Trophimus/"
+      }
+    ]
   }
 }

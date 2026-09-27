@@ -51,6 +51,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "For all",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Antipas%2C%20for%20all%2C%20or%20against%20all"
+      }
+    ]
   }
 }

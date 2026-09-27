@@ -53,7 +53,13 @@
   ],
   "name_meaning": {
     "meaning": "The strength of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Amaziah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

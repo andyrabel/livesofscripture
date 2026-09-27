@@ -67,7 +67,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The LORD has remembered",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/Z/Zachariah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

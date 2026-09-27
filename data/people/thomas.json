@@ -67,6 +67,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A twin",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "John 11:16"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Thomas/"
+      }
+    ]
   }
 }

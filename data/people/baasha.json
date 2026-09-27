@@ -60,7 +60,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He that seeks",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baasha%2C%20he%20that%20seeks%2C%20or%20lays%20waste"
+      }
+    ]
   },
   "tribe": {
     "name": "Issachar",

@@ -54,6 +54,12 @@
   ],
   "name_meaning": {
     "meaning": "Beauty of assistance",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hadadezer/"
+      }
+    ]
   }
 }

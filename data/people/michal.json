@@ -62,7 +62,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Who is perfect?",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Michal/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

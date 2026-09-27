@@ -67,7 +67,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Father of peace",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Absalom/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

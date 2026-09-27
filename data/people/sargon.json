@@ -50,6 +50,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "Who takes away protection",
-    "language": "Assyrian (Akkadian)"
+    "language": "Assyrian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sargon/"
+      }
+    ]
   }
 }

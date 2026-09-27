@@ -49,6 +49,12 @@
   "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
   "name_meaning": {
     "meaning": "That buds or brings forth",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Blastus/"
+      }
+    ]
   }
 }

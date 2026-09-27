@@ -78,6 +78,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Father of a great multitude",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 17:5"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Abraham/"
+      }
+    ]
   }
 }

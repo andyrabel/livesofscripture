@@ -57,6 +57,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The silence of light; fervent to spoil",
-    "language": "Persian"
+    "language": "Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Artaxerxes/"
+      }
+    ]
   }
 }

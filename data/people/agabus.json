@@ -54,6 +54,12 @@
   ],
   "name_meaning": {
     "meaning": "Locust (traditional; from Hebrew chagab)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Agabus%2C%20a%20locust%3B%20the%20father%27s%20joy%20or%20feast"
+      }
+    ]
   }
 }

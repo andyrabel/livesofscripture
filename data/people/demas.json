@@ -52,6 +52,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Popular",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Demas/"
+      }
+    ]
   }
 }

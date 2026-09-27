@@ -96,7 +96,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Well-beloved",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=David%2C%20well%2Dbeloved%2C%20dear"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

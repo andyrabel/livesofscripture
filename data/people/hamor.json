@@ -52,6 +52,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "An ass; clay; dirt",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hamor/"
+      }
+    ]
   }
 }

@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Servant of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/Obadiah/"
+      }
+    ]
   }
 }

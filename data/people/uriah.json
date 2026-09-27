@@ -59,6 +59,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The LORD is my light",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Uriah%2C%20or%20Urijah%2C%20the%20Lord%20is%20my%20light%20or%20fire"
+      }
+    ]
   }
 }

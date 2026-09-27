@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Strong; the gift of the island",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Ethan/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

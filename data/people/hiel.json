@@ -53,6 +53,12 @@
   ],
   "name_meaning": {
     "meaning": "God lives; the life of God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hiel/"
+      }
+    ]
   }
 }

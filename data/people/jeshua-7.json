@@ -53,7 +53,13 @@
   ],
   "name_meaning": {
     "meaning": "The LORD saves; a deliverer (a form of Joshua)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joshua/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

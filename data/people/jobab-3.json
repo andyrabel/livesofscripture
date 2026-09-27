@@ -49,6 +49,12 @@
   "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
   "name_meaning": {
     "meaning": "Sorrowful",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jobab%2C%20sorrowful%2C%20hated"
+      }
+    ]
   }
 }

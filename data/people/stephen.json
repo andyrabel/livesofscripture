@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Crown",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Stephanas/"
+      }
+    ]
   }
 }

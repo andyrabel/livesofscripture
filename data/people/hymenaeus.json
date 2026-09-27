@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Of Hymen (the Greek god of marriage)",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hymeneus/"
+      }
+    ]
   }
 }

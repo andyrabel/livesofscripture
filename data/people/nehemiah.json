@@ -56,6 +56,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Consolation; repentance of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nehemiah/"
+      }
+    ]
   }
 }

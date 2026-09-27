@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "My troop; a kid",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gaddi/"
+      }
+    ]
   },
   "tribe": {
     "name": "Manasseh",

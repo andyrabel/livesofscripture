@@ -561,9 +561,22 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
     if name_meaning and name_meaning.get("meaning"):
         language = name_meaning.get("language")
         language_suffix = f" &mdash; {esc(language)}" if language else ""
+        source_bits = []
+        for src in name_meaning.get("sources", []):
+            if src.get("type") == "scripture":
+                source_bits.append(f"Explained in {esc(src['reference'])}")
+            elif src.get("type") == "hitchcock":
+                source_bits.append(
+                    f'Source: <a href="{esc(src["url"])}" rel="noopener" target="_blank">'
+                    f"Hitchcock&rsquo;s Bible Names Dictionary</a>"
+                )
+        sources_html = (
+            f'<span class="name-meaning__sources">{" &middot; ".join(source_bits)}</span>'
+            if source_bits else ""
+        )
         name_meaning_html = (
             f'<div class="name-meaning">Name means &ldquo;{esc(name_meaning["meaning"])}&rdquo;'
-            f"{language_suffix}</div>"
+            f"{language_suffix}{sources_html}</div>"
         )
 
     testament_class = "ot" if person.get("testament") == "OT" else "nt"

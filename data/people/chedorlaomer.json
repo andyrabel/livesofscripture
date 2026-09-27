@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Roundness of a sheaf",
-    "language": "Elamite"
+    "language": "Elamite",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/C/Chedorlaomer/"
+      }
+    ]
   }
 }

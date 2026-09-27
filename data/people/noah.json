@@ -72,6 +72,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Repose; consolation",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 5:29"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Noah/"
+      }
+    ]
   }
 }

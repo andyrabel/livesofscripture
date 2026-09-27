@@ -54,6 +54,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Festive",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Festus%2C%20festive%2C%20joyful"
+      }
+    ]
   }
 }

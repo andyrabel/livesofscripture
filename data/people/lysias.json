@@ -53,6 +53,12 @@
   ],
   "name_meaning": {
     "meaning": "Dissolving",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Lysias/"
+      }
+    ]
   }
 }

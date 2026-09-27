@@ -55,7 +55,13 @@
   ],
   "name_meaning": {
     "meaning": "Prince of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Seraiah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

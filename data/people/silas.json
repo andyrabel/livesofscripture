@@ -63,6 +63,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Three",
-    "language": "Aramaic (possibly a shortened form of the Latin Silvanus)"
+    "language": "Aramaic (possibly a shortened form of the Latin Silvanus)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Silas%2C%20three%2C%20or%20the%20third"
+      }
+    ]
   }
 }

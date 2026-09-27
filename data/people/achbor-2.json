@@ -56,6 +56,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A rat; bruising",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Achbor/"
+      }
+    ]
   }
 }

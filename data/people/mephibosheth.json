@@ -63,7 +63,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Out of my mouth proceeds reproach",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Mephibosheth/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

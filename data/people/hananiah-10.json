@@ -53,7 +53,13 @@
   ],
   "name_meaning": {
     "meaning": "Grace; mercy; gift of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hananiah/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "judah",

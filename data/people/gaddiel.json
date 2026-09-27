@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Goat of God; the Lord my happiness",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gaddiel/"
+      }
+    ]
   },
   "tribe": {
     "name": "Zebulun",

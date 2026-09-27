@@ -49,8 +49,14 @@
   "spotlight_eligible": false,
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
-    "meaning": "Help",
-    "language": "Hebrew"
+    "meaning": "Help, or court, of my God",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eliezer%2C%20help%2C%20or%20court%2C%20of%20my%20God"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "judah",

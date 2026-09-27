@@ -71,7 +71,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Just; justified",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sadoc%2C%20or%20Zadok%2C%20just%3B%20righteous"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

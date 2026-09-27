@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "God that hears",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Ishmael/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -65,6 +65,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Lady; princess; princess of the multitude",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sarah/"
+      }
+    ]
   }
 }

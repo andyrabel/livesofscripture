@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Free and voluntary gift; prince",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nadab/"
+      }
+    ]
   },
   "tribe": {
     "name": "Ephraim",

@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "One who assists men",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Alexander/"
+      }
+    ]
   }
 }

@@ -53,6 +53,12 @@
   ],
   "name_meaning": {
     "meaning": "That relates or tells",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sapphira/"
+      }
+    ]
   }
 }

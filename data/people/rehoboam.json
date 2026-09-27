@@ -84,7 +84,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Who sets the people at liberty",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/R/Rehoboam/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

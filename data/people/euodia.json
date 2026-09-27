@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "Fragrant; prosperous journey",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Euodias/"
+      }
+    ]
   }
 }

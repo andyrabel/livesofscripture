@@ -73,7 +73,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "That struggles or fights",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:8"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Naphtali/"
+      }
+    ]
   },
   "tribe": {
     "name": "Naphtali",

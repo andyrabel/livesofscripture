@@ -60,6 +60,12 @@
   ],
   "name_meaning": {
     "meaning": "Son of Hadad (the Aramean storm-god)",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Benhadad%2C%20son%20of%20Hadad%2C%20or%20noise"
+      }
+    ]
   }
 }

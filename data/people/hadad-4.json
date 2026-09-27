@@ -52,6 +52,12 @@
   ],
   "name_meaning": {
     "meaning": "Joy; noise; clamor",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hadad/"
+      }
+    ]
   }
 }

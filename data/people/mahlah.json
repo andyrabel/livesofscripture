@@ -55,7 +55,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Sickness; weakness",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Mahali/"
+      }
+    ]
   },
   "tribe": {
     "name": "Manasseh",

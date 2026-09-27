@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "Begotten of Mercury",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hermogenes/"
+      }
+    ]
   }
 }

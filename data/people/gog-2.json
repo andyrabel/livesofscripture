@@ -49,6 +49,12 @@
   "spotlight_note": "symbolic/apocalyptic figure or dynastic title, not a narrated individual",
   "name_meaning": {
     "meaning": "Roof; covering",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gog/"
+      }
+    ]
   }
 }

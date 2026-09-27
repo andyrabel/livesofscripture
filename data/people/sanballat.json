@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Bramble-bush; enemy in secret",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sanballat/"
+      }
+    ]
   }
 }

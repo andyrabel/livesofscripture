@@ -54,7 +54,13 @@
   ],
   "name_meaning": {
     "meaning": "Father's tent; tent of the father",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Aholiab/"
+      }
+    ]
   },
   "tribe": {
     "name": "Dan",

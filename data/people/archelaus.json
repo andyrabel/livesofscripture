@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "The prince of the people",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Archelaus/"
+      }
+    ]
   }
 }

@@ -68,7 +68,13 @@
   ],
   "name_meaning": {
     "meaning": "The perfection of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jotham/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

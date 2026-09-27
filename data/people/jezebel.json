@@ -60,7 +60,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Chaste",
-    "language": "Hebrew (Phoenician)"
+    "language": "Hebrew (Phoenician)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jezebel/"
+      }
+    ]
   },
   "kingdom": "israel"
 }

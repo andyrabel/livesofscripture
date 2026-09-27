@@ -80,7 +80,17 @@
   },
   "gender": "male",
   "name_meaning": {
-    "meaning": "He that acts or finishes",
-    "language": "Hebrew"
+    "meaning": "Hairy; he that acts or finishes",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 25:25"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Esau/"
+      }
+    ]
   }
 }

@@ -53,6 +53,12 @@
   ],
   "name_meaning": {
     "meaning": "He that ascends; a kid",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jael/"
+      }
+    ]
   }
 }

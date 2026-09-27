@@ -60,6 +60,12 @@
   ],
   "name_meaning": {
     "meaning": "May he enlarge; enlargement",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Japhet/"
+      }
+    ]
   }
 }

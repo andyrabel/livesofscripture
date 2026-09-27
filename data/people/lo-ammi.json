@@ -50,6 +50,16 @@
   ],
   "name_meaning": {
     "meaning": "Not my people",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Hosea 1:9"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Lo-ammi/"
+      }
+    ]
   }
 }

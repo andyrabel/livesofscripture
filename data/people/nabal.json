@@ -58,6 +58,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Fool; senseless",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "1 Samuel 25:25"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nabal/"
+      }
+    ]
   }
 }

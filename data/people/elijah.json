@@ -88,7 +88,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "God the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elijah%2C%20God%20the%20Lord%2C%20the%20strong%20Lord"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "israel",

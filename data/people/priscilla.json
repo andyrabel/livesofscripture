@@ -60,6 +60,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Ancient; venerable (a diminutive of Prisca)",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Prisca/"
+      }
+    ]
   }
 }

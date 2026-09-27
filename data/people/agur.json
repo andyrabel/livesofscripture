@@ -47,6 +47,12 @@
   ],
   "name_meaning": {
     "meaning": "Stranger; gathered together",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Agur/"
+      }
+    ]
   }
 }

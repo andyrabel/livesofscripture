@@ -56,7 +56,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "God is my father; God is the father",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Eliab/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

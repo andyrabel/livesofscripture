@@ -62,6 +62,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Prince; head; chief",
-    "language": "Persian"
+    "language": "Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Ahasuerus/"
+      }
+    ]
   }
 }

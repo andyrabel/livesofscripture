@@ -49,8 +49,18 @@
     "Ichabod's dying mother named him 'no glory,' grieving that God's presence had left Israel's failed priests. Jesus is 'God with us,' glory that never departs from us."
   ],
   "name_meaning": {
-    "meaning": "Where is the glory? or",
-    "language": "Hebrew"
+    "meaning": "Where is the glory? or, no glory",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "1 Samuel 4:21"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ichabod%2C%20where%20is%20the%20glory%3F%20or%2C%20no%20glory"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

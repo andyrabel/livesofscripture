@@ -47,7 +47,13 @@
   ],
   "name_meaning": {
     "meaning": "Loss; desolation; astonishment",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shammah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

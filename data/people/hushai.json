@@ -54,6 +54,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Their haste; their sensuality; their silence",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hushai/"
+      }
+    ]
   }
 }

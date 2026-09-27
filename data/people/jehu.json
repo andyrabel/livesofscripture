@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "Himself who exists",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jehu/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "israel",

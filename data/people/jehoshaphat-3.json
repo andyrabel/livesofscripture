@@ -84,7 +84,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The Lord is judge",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jehoshaphat/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

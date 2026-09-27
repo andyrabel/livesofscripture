@@ -79,7 +79,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Uncle",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ahab%2C%20uncle%2C%20or%20father%27s%20brother"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

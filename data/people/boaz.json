@@ -57,7 +57,13 @@
   ],
   "name_meaning": {
     "meaning": "In him is strength; fleetness",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Boaz%2C%20or%20Booz%2C%20in%20strength"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

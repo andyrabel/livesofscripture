@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "God hearing",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Elishama/"
+      }
+    ]
   }
 }

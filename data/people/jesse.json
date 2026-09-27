@@ -62,7 +62,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Gift; oblation; one who is",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jesse/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

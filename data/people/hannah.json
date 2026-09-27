@@ -58,6 +58,12 @@
   ],
   "name_meaning": {
     "meaning": "Gracious; merciful; he that gives",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hannah/"
+      }
+    ]
   }
 }

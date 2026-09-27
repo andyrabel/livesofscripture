@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "God is my greatness",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gedaliah/"
+      }
+    ]
   }
 }

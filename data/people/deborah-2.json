@@ -56,6 +56,12 @@
   ],
   "name_meaning": {
     "meaning": "Word; thing; a bee",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Deborah/"
+      }
+    ]
   }
 }

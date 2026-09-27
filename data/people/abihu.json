@@ -56,7 +56,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He is my father",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Abihu/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

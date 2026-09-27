@@ -68,7 +68,13 @@
   ],
   "name_meaning": {
     "meaning": "Selling; knowing",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Machir/"
+      }
+    ]
   },
   "tribe": {
     "name": "Manasseh",

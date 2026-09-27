@@ -106,6 +106,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Who prevails with God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 32:28"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Israel/"
+      }
+    ]
   }
 }

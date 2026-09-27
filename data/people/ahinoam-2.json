@@ -62,6 +62,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Beauty of the brother; brother of motion",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Ahinoam/"
+      }
+    ]
   }
 }

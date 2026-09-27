@@ -48,7 +48,17 @@
   "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
   "name_meaning": {
     "meaning": "A stranger here",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Exodus 2:22"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gershom/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

@@ -51,6 +51,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "In compunction",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bidkar%2C%20in%20compunction%2C%20or%20sharp%20pain"
+      }
+    ]
   }
 }

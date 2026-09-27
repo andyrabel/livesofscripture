@@ -101,6 +101,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Increase; addition",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:23-24"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joseph/"
+      }
+    ]
   }
 }

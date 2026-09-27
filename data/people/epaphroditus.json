@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Agreeable; handsome",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Epaphroditus/"
+      }
+    ]
   }
 }

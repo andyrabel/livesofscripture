@@ -55,7 +55,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He that opens; that is at liberty",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Pekah/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

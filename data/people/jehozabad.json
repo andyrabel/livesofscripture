@@ -46,6 +46,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The LORD has bestowed; the LORD has given",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehozabad%2C%20the%20Lord%27s%20dowry%3B%20having%20a%20dowry"
+      }
+    ]
   }
 }

@@ -1,7 +1,9 @@
 {
   "person_id": "john-2",
   "name": "John",
-  "alt_names": ["John Boanerges"],
+  "alt_names": [
+    "John Boanerges"
+  ],
   "tier": "full",
   "testament": "NT",
   "era": "Gospels",
@@ -85,6 +87,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The grace or mercy of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/John/"
+      }
+    ]
   }
 }

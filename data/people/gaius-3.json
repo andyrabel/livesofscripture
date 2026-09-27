@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "Lord; an earthly man",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gaius/"
+      }
+    ]
   }
 }

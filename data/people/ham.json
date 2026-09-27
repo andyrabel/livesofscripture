@@ -61,6 +61,12 @@
   ],
   "name_meaning": {
     "meaning": "Hot; heat; brown",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Ham/"
+      }
+    ]
   }
 }

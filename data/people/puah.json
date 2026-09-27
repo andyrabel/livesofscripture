@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Mouth; corner; bush of hair",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Puah/"
+      }
+    ]
   }
 }

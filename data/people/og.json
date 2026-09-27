@@ -65,6 +65,12 @@
   ],
   "name_meaning": {
     "meaning": "A cake; bread baked in ashes",
-    "language": "Hebrew (Amorite origin)"
+    "language": "Hebrew (Amorite origin)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/Og/"
+      }
+    ]
   }
 }

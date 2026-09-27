@@ -63,7 +63,13 @@
   ],
   "name_meaning": {
     "meaning": "Who despairs or burns",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joash/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

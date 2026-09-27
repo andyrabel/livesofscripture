@@ -56,6 +56,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The best prince",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Aristarchus/"
+      }
+    ]
   }
 }

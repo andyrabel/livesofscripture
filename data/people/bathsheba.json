@@ -65,6 +65,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "The seventh daughter; the daughter of satiety",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Bathsheba/"
+      }
+    ]
   }
 }

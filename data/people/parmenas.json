@@ -51,6 +51,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "That abides",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Parmenas%2C%20that%20abides%2C%20or%20is%20permanent"
+      }
+    ]
   }
 }

@@ -51,6 +51,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "Better",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Lois/"
+      }
+    ]
   }
 }

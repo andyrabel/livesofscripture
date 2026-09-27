@@ -62,7 +62,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Dove",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jonah%2C%20or%20Jonas%2C%20a%20dove%3B%20he%20that%20oppresses%3B%20destroyer"
+      }
+    ]
   },
   "tribe": {
     "name": "Zebulun",

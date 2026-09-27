@@ -58,7 +58,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Worm; grub; scarlet",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Tola/"
+      }
+    ]
   },
   "tribe": {
     "name": "Issachar",

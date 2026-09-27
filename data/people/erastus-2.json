@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Lovely",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Erastus%2C%20lovely%2C%20amiable"
+      }
+    ]
   }
 }

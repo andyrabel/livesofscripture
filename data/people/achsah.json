@@ -55,7 +55,13 @@
   ],
   "name_meaning": {
     "meaning": "Adorned; bursting the veil",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Achsah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

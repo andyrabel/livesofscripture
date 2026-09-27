@@ -52,6 +52,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Rebellion (but probably an unknown Assyrian word)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nimrod/"
+      }
+    ]
   }
 }

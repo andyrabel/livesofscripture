@@ -67,6 +67,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A rock or stone",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "John 1:42"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Peter/"
+      }
+    ]
   }
 }

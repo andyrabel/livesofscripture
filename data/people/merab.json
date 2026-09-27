@@ -55,7 +55,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "He that fights or disputes",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Merab/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

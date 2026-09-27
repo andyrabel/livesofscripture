@@ -54,7 +54,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Glorious; honorable",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jochebed/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

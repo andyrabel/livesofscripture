@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "Impoverished; to prepare; certain; true",
-    "language": "Persian"
+    "language": "Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Memucan/"
+      }
+    ]
   }
 }

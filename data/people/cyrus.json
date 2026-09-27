@@ -62,6 +62,12 @@
   ],
   "name_meaning": {
     "meaning": "As miserable; as heir",
-    "language": "Old Persian"
+    "language": "Old Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/C/Cyrus/"
+      }
+    ]
   }
 }

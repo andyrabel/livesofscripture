@@ -69,8 +69,18 @@
   },
   "gender": "male",
   "name_meaning": {
-    "meaning": "Son of the prophet",
-    "language": "Aramaic"
+    "meaning": "Son of encouragement; son of the prophet, or of consolation",
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Acts 4:36"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Barnabas%2C%20son%20of%20the%20prophet%2C%20or%20of%20consolation"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

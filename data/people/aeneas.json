@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Praised; praiseworthy",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Aeneas/"
+      }
+    ]
   }
 }

@@ -51,7 +51,13 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "The LORD has judged (variant of Shephatiah)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shephatiah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

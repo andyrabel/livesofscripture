@@ -60,7 +60,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "In the shadow (protection) of God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Bezaleel/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

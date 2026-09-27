@@ -64,7 +64,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Salvation",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hosea%2C%20Hoshea%2C%20savior%3B%20safety"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "israel",

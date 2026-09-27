@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "Belonging to corn",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Demetrius%2C%20belonging%20to%20corn%2C%20or%20to%20Ceres"
+      }
+    ]
   }
 }

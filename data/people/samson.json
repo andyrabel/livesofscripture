@@ -54,7 +54,13 @@
   ],
   "name_meaning": {
     "meaning": "His sun; his service; there the second time",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Samson/"
+      }
+    ]
   },
   "tribe": {
     "name": "Dan",

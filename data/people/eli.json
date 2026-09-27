@@ -62,7 +62,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The offering or lifting up",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Eli/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

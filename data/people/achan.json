@@ -57,7 +57,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Trouble; troubler (also called Achar, 1 Chronicles 2:7)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Achan%2C%20or%20Achar%2C%20he%20that%20troubleth"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

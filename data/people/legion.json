@@ -49,6 +49,12 @@
   "spotlight_note": "symbolic/apocalyptic figure or dynastic title, not a narrated individual",
   "name_meaning": {
     "meaning": "A great multitude (from the Roman military unit of several thousand soldiers)",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Mark 5:9"
+      }
+    ]
   }
 }

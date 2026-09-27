@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Pain; force; iniquity",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/On/"
+      }
+    ]
   },
   "tribe": {
     "name": "Reuben",

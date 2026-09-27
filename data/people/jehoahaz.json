@@ -57,7 +57,13 @@
   ],
   "name_meaning": {
     "meaning": "Possession of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jehoahaz/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

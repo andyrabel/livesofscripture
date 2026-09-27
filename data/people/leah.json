@@ -67,6 +67,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Weary; tired",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Leah/"
+      }
+    ]
   }
 }

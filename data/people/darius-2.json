@@ -56,6 +56,12 @@
   ],
   "name_meaning": {
     "meaning": "He that informs himself",
-    "language": "Old Persian"
+    "language": "Old Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Darius/"
+      }
+    ]
   }
 }

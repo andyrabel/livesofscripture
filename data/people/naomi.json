@@ -56,7 +56,17 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Beautiful; agreeable",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Ruth 1:20"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Naomi/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

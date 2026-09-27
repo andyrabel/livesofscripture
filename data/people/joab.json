@@ -77,7 +77,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Paternity; voluntary",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joab/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

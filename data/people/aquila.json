@@ -59,6 +59,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "An eagle",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Aquila/"
+      }
+    ]
   }
 }

@@ -46,6 +46,12 @@
   ],
   "name_meaning": {
     "meaning": "God with them",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lemuel%2C%20God%20with%20them%2C%20or%20him"
+      }
+    ]
   }
 }

@@ -67,6 +67,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A strong man",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Andrew/"
+      }
+    ]
   }
 }

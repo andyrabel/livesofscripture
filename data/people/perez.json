@@ -69,7 +69,17 @@
   ],
   "name_meaning": {
     "meaning": "Divided",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 38:29"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Perez/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

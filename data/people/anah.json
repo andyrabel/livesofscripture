@@ -56,6 +56,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "One who answers; afflicted",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Anah/"
+      }
+    ]
   }
 }

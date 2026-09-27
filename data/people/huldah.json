@@ -54,7 +54,13 @@
   ],
   "name_meaning": {
     "meaning": "The world",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Huldah/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "judah",

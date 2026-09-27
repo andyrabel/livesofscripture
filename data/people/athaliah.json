@@ -60,7 +60,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "The time of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Athaliah/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "judah",

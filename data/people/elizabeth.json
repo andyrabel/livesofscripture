@@ -64,7 +64,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "God is my oath",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elisabeth%2C%20Elizabeth%2C%20the%20oath%2C%20or%20fullness%2C%20of%20God"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

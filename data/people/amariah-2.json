@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "The Lord says; the integrity of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Amariah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

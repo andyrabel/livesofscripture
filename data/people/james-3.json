@@ -68,7 +68,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He grasps the heel; supplanter (the English form of Jacob)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jacob%2C%20that%20supplants%2C%20undermines%3B%20the%20heel"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -56,7 +56,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Man of shame — a later, deliberately unflattering alteration of his earlier name Esh-baal, \"man of Baal\"",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Ishbosheth/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

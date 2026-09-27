@@ -79,7 +79,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A band; a troop",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:11"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gad/"
+      }
+    ]
   },
   "tribe": {
     "name": "Gad",

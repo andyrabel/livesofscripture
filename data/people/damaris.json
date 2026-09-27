@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "A little woman",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Damaris/"
+      }
+    ]
   }
 }

@@ -52,6 +52,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Father of the king",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Abimelech/"
+      }
+    ]
   }
 }

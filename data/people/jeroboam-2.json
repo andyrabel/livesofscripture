@@ -57,7 +57,13 @@
   ],
   "name_meaning": {
     "meaning": "He that opposes the people",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jeroboam/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

@@ -49,6 +49,12 @@
   ],
   "name_meaning": {
     "meaning": "Who sucks",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gallio%2C%20who%20sucks%2C%20or%20lives%20on%20milk"
+      }
+    ]
   }
 }

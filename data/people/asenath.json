@@ -57,6 +57,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Peril; misfortune",
-    "language": "Egyptian"
+    "language": "Egyptian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Asenath/"
+      }
+    ]
   }
 }

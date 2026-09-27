@@ -47,6 +47,12 @@
   "spotlight_note": "named only in a genealogy/list/casualty-roll, with no independent word or action of their own",
   "name_meaning": {
     "meaning": "One that speaks of secrets",
-    "language": "Babylonian (Akkadian, disputed)"
+    "language": "Babylonian (Akkadian, disputed)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Amraphel/"
+      }
+    ]
   }
 }

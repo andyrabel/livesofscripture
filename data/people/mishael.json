@@ -50,7 +50,13 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "Who is asked for or lent",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Mishael/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

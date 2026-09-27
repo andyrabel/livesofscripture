@@ -53,6 +53,12 @@
   ],
   "name_meaning": {
     "meaning": "Peace",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Salmon/"
+      }
+    ]
   }
 }

@@ -59,6 +59,12 @@
   ],
   "name_meaning": {
     "meaning": "That sees God",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Hazael/"
+      }
+    ]
   }
 }

@@ -60,6 +60,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Bramble of destruction",
-    "language": "Assyrian (Akkadian)"
+    "language": "Assyrian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sennacherib/"
+      }
+    ]
   }
 }

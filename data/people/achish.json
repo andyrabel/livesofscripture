@@ -57,6 +57,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Thus it is; how is this",
-    "language": "Philistine"
+    "language": "Philistine",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Achish/"
+      }
+    ]
   }
 }

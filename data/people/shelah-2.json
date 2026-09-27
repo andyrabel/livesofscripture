@@ -60,7 +60,13 @@
   ],
   "name_meaning": {
     "meaning": "That breaks; that unties; that undresses",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shelah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

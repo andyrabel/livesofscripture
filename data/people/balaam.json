@@ -59,6 +59,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The ancient of the people; the destruction of the people",
-    "language": "Hebrew (Aramean origin)"
+    "language": "Hebrew (Aramean origin)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Balaam/"
+      }
+    ]
   }
 }

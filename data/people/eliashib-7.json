@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "The God of conversion",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Eliashib/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

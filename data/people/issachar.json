@@ -74,7 +74,17 @@
   ],
   "name_meaning": {
     "meaning": "Reward; recompense",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:18"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Issachar/"
+      }
+    ]
   },
   "tribe": {
     "name": "Issachar",

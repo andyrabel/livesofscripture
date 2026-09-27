@@ -56,6 +56,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Warlike; a lover of horses",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Philip/"
+      }
+    ]
   }
 }

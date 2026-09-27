@@ -67,7 +67,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The LORD is my strength",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Uzziah%2C%20Uzziel%2C%20the%20strength%2C%20or%20kid%2C%20of%20the%20Lord"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -58,6 +58,12 @@
   ],
   "name_meaning": {
     "meaning": "That hears or obeys; that is heard",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Simeon/"
+      }
+    ]
   }
 }

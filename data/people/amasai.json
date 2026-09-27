@@ -54,7 +54,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Strong",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Amasai/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

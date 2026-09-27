@@ -52,6 +52,12 @@
   ],
   "name_meaning": {
     "meaning": "God is my help",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eliezer%2C%20help%2C%20or%20court%2C%20of%20my%20God"
+      }
+    ]
   }
 }

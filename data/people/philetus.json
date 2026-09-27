@@ -48,6 +48,12 @@
   ],
   "name_meaning": {
     "meaning": "Amiable; beloved",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Philetus/"
+      }
+    ]
   }
 }

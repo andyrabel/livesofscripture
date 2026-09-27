@@ -60,6 +60,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "King of justice",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Hebrews 7:2"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Melchizedek/"
+      }
+    ]
   }
 }

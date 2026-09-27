@@ -50,6 +50,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "Fugitive (traditional, from Greek pheugo, \"to flee\")",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Phygellus/"
+      }
+    ]
   }
 }

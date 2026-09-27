@@ -72,7 +72,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Taken out; drawn forth",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Exodus 2:10"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Moses/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

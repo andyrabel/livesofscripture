@@ -67,7 +67,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Peaceable; perfect; one who recompenses",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "1 Chronicles 22:9"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Solomon/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

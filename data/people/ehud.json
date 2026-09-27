@@ -52,7 +52,13 @@
   ],
   "name_meaning": {
     "meaning": "He that praises",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Ehud/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

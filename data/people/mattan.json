@@ -50,6 +50,12 @@
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
     "meaning": "Gift",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mattan%2C%20Mattana%2C%20Mattenai%2C%20gifts%3B%20rains"
+      }
+    ]
   }
 }

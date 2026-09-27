@@ -57,7 +57,13 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Rebellion",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Miriam/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

@@ -50,7 +50,13 @@
   ],
   "name_meaning": {
     "meaning": "Accomplishment or perfection of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gemariah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

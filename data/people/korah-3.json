@@ -59,7 +59,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Baldness; ice; frost",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/K/Korah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

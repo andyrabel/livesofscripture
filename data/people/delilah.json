@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Poor; small; head of hair",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Delilah/"
+      }
+    ]
   }
 }

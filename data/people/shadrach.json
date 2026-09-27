@@ -54,7 +54,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Tender",
-    "language": "Babylonian (Akkadian)"
+    "language": "Babylonian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shadrach%2C%20tender%2C%20nipple"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

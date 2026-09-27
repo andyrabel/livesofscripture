@@ -136,7 +136,17 @@
   ],
   "name_meaning": {
     "meaning": "The praise of the Lord; confession",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 29:35"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Judah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

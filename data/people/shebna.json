@@ -58,6 +58,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Who rests himself; who is now captive",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shebna/"
+      }
+    ]
   }
 }

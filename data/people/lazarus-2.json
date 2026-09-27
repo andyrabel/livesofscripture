@@ -52,6 +52,12 @@
   ],
   "name_meaning": {
     "meaning": "Assistance of God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Lazarus/"
+      }
+    ]
   }
 }

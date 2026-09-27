@@ -62,6 +62,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Dedicated; disciplined",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Enoch/"
+      }
+    ]
   }
 }

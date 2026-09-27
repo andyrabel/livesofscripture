@@ -51,7 +51,13 @@
   ],
   "name_meaning": {
     "meaning": "It is the Lord that opens",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Pekahiah/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

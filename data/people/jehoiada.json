@@ -63,7 +63,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Knowledge of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jehoiada/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

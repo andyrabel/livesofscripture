@@ -73,7 +73,17 @@
   ],
   "name_meaning": {
     "meaning": "Judgment; he that judges",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:6"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Dan/"
+      }
+    ]
   },
   "tribe": {
     "name": "Dan",

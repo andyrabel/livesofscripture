@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Overseer of the treasury",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sharezer%2C%20overseer%20of%20the%20treasury%2C%20or%20of%20the%20storehouse"
+      }
+    ]
   }
 }

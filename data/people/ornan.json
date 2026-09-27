@@ -55,6 +55,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Ark; song; joyful cry",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Araunah/"
+      }
+    ]
   }
 }

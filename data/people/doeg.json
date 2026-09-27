@@ -54,6 +54,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Careful",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Doeg%2C%20careful%2C%20who%20acts%20with%20uneasiness"
+      }
+    ]
   }
 }

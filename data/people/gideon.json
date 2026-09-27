@@ -63,7 +63,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "He that bruises or breaks; a destroyer",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gideon/"
+      }
+    ]
   },
   "tribe": {
     "name": "Manasseh",

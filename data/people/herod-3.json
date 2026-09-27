@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Son of a hero",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Herod/"
+      }
+    ]
   }
 }

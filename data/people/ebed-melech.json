@@ -52,6 +52,12 @@
   ],
   "name_meaning": {
     "meaning": "Servant of the king",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ebed%2Dmelech%2C%20the%20king%27s%20servant"
+      }
+    ]
   }
 }

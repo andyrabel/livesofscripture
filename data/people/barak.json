@@ -56,7 +56,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Thunder",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Barak%2C%20thunder%2C%20or%20in%20vain"
+      }
+    ]
   },
   "tribe": {
     "name": "Naphtali",

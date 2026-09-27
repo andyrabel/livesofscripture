@@ -63,6 +63,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "My father's joy",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abigail%2C%20the%20father%27s%20joy"
+      }
+    ]
   }
 }

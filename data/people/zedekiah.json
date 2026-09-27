@@ -53,7 +53,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The Lord is my justice; the justice of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/Z/Zedekiah/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "israel",

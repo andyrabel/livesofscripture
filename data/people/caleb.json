@@ -69,7 +69,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A dog; a crow; a basket",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/C/Caleb/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -51,7 +51,13 @@
   ],
   "name_meaning": {
     "meaning": "Joy in tribulation; joy of the vintage",
-    "language": "Babylonian (Akkadian)"
+    "language": "Babylonian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Sheshbazzar/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

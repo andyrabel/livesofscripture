@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Victory of the people",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Nicodemus/"
+      }
+    ]
   }
 }

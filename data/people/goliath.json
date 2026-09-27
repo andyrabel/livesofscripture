@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Passage; revolution; heap",
-    "language": "Philistine"
+    "language": "Philistine",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Goliath/"
+      }
+    ]
   }
 }

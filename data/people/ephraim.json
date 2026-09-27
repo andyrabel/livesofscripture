@@ -90,7 +90,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Fruitful; increasing",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 41:52"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Ephraim/"
+      }
+    ]
   },
   "tribe": {
     "name": "Ephraim",

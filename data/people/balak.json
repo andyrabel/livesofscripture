@@ -54,6 +54,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Who lays waste or destroys",
-    "language": "Hebrew (Moabite origin)"
+    "language": "Hebrew (Moabite origin)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/B/Balak/"
+      }
+    ]
   }
 }

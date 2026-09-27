@@ -50,6 +50,16 @@
   ],
   "name_meaning": {
     "meaning": "Not having obtained mercy; not pitied",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Hosea 1:6"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Lo-ruhamah/"
+      }
+    ]
   }
 }

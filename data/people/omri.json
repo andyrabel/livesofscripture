@@ -57,7 +57,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Sheaf of corn",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/Omri/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

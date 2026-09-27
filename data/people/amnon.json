@@ -52,7 +52,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Faithful and true; tutor",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Amnon/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

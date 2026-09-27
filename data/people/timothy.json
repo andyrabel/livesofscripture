@@ -72,6 +72,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "One who honors God",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Timotheus/"
+      }
+    ]
   }
 }

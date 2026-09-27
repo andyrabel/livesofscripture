@@ -69,7 +69,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Judgment of God; God my judge",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/D/Daniel/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

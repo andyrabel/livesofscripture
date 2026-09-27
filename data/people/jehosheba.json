@@ -54,8 +54,14 @@
   "spotlight_eligible": false,
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
-    "meaning": "Fullness",
-    "language": "Hebrew"
+    "meaning": "Fullness, or oath, of the Lord",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehosheba%2C%20fullness%2C%20or%20oath%2C%20of%20the%20Lord"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

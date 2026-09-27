@@ -67,6 +67,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Meaning disputed — possibly \"bitter\" or \"beloved\" (from Miriam); Magdalene, \"of Magdala,\" her hometown on the Sea of Galilee",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Miriam/"
+      }
+    ]
   }
 }

@@ -108,7 +108,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A savior; a deliverer",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joshua/"
+      }
+    ]
   },
   "tribe": {
     "name": "Ephraim",

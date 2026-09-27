@@ -51,6 +51,12 @@
   ],
   "name_meaning": {
     "meaning": "Named a stranger; he is here a stranger",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shamgar/"
+      }
+    ]
   }
 }

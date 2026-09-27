@@ -101,7 +101,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Exaltation of the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jeremiah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

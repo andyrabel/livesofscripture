@@ -64,8 +64,14 @@
   },
   "gender": "male",
   "name_meaning": {
-    "meaning": "Avenging",
-    "language": "Hebrew"
+    "meaning": "Avenging, or establishing, or resurrection, of the Lord",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehoiakim%2C%20avenging%2C%20or%20establishing%2C%20or%20resurrection%2C%20of%20the%20Lord"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

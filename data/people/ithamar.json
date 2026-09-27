@@ -58,7 +58,13 @@
   ],
   "name_meaning": {
     "meaning": "Island of the palm-tree",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Ithamar/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

@@ -50,6 +50,16 @@
   ],
   "name_meaning": {
     "meaning": "A remnant shall return",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Isaiah 7:3; 10:21"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shear-jashub/"
+      }
+    ]
   }
 }

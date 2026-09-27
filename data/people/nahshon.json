@@ -65,7 +65,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "That foretells; that conjectures",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/N/Naashon/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

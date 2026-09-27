@@ -54,7 +54,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "That draws with force",
-    "language": "Babylonian (Akkadian)"
+    "language": "Babylonian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Meshach/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

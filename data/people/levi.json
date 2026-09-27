@@ -98,7 +98,17 @@
   ],
   "name_meaning": {
     "meaning": "Associated with him",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 29:34"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/L/Levi/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

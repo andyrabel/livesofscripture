@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Covered with foam",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Epaphras/"
+      }
+    ]
   }
 }

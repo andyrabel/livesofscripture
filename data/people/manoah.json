@@ -54,7 +54,13 @@
   ],
   "name_meaning": {
     "meaning": "Rest; a present",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Manoah/"
+      }
+    ]
   },
   "tribe": {
     "name": "Dan",

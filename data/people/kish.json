@@ -61,7 +61,13 @@
   ],
   "name_meaning": {
     "meaning": "Hard; difficult; straw; for age",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/K/Kish/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

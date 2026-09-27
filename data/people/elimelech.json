@@ -55,7 +55,13 @@
   ],
   "name_meaning": {
     "meaning": "My God is king",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Elimelech/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

@@ -65,6 +65,16 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "God that hears",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 16:11"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/I/Ishmael/"
+      }
+    ]
   }
 }

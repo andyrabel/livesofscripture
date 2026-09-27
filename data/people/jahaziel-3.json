@@ -51,7 +51,13 @@
   ],
   "name_meaning": {
     "meaning": "Seeing God",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Jahaziel/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

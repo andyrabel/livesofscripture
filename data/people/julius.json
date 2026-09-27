@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Downy; soft-bearded",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Julia/"
+      }
+    ]
   }
 }

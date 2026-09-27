@@ -465,6 +465,37 @@ full-tier people are promoted later, add their name to that script's dict
 the same way (Hitchcock's first, hand-research for gaps/compounds) before
 re-running it.
 
+**Per-definition sources (added 2026-09-27).** `name_meaning` may carry a
+`sources` array, rendered under the meaning on the person page as
+"Explained in {reference} · Source: Hitchcock's Bible Names Dictionary"
+(link):
+- `{"type": "scripture", "reference": "Genesis 17:5"}` — only where the
+  text itself explains the name (a "because…" naming clause, "which
+  translated means…", Ruth 1:20). Keyed by **person_id**, not name, in the
+  script's `SCRIPTURE_EXPLAINED` dict, since Genesis 30:24 explains the
+  patriarch Joseph's name, not every Joseph's. Implicit puns (Onesimus in
+  Philemon 11, Jezreel in Hosea 2:22) are deliberately excluded. 39 people.
+- `{"type": "hitchcock", "url": ...}` — only where Hitchcock's entry
+  actually supports our meaning text (verified against the complete CCEL
+  text, not just the existence of an entry). The URL is bible-history.com's
+  per-name page when its copy is complete. Otherwise it is CCEL's full-text page
+  (`ccel.org/ccel/hitchcock/bible_names/bible_names.html`) with a
+  `#:~:text=` fragment on the entry's line, because bible-history.com's copy
+  truncates entries at the first comma and reduces "X, or Y, gloss"
+  entries to bare "or Y". The mapping lives in
+  `_build/name_meaning_hitchcock_urls.json` (514 names, covering 614 people).
+- No `sources` → Hitchcock has no entry, or our meaning deliberately departs
+  from his (modern etymology, e.g. Michael, Esther, the Akkadian royal
+  names). 81 people.
+
+The same audit found that the original scrape had inherited
+bible-history.com's comma truncation. Twelve meanings had lost their
+"of the Lord/of God" clause, so Jehoiakim read "Avenging" instead of
+"Avenging, or establishing, or resurrection, of the Lord". Those twelve were
+restored to Hitchcock's full text. Barnabas (Acts 4:36, "son of
+encouragement") and Esau (Genesis 25:25, "hairy") were changed to lead with
+the meaning Scripture itself gives.
+
 **`disambiguation`** (added 2026-08-03, index-only): a derived string field
 on `data/people.json` entries for anyone who shares their `name` with
 another person — see the "Name Disambiguation" section below for the rules

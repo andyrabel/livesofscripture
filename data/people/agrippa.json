@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "One who causes great pain at his birth",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Agrippa/"
+      }
+    ]
   }
 }

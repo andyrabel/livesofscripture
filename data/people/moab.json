@@ -52,6 +52,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Of his father",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Moab/"
+      }
+    ]
   }
 }

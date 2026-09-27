@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Happy; fortunate",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Eutychus/"
+      }
+    ]
   }
 }

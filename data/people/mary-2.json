@@ -53,6 +53,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Meaning disputed — possibly \"bitter\" or \"beloved\" (from Miriam); Hitchcock's Bible Names Dictionary glosses it \"rebellion\"",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Miriam/"
+      }
+    ]
   }
 }

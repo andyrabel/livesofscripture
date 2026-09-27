@@ -54,7 +54,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "The Lord is my secret",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/Z/Zephaniah/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "judah",

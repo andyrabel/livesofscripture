@@ -60,6 +60,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Distillation from the mouth",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/Z/Zilpah/"
+      }
+    ]
   }
 }

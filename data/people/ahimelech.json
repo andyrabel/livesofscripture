@@ -57,7 +57,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Brother of the king; my brother is king",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ahimelech%2C%20my%20brother%20is%20a%20king%3B%20my%20king%27s%20brother"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

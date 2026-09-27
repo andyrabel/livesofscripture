@@ -52,6 +52,12 @@
   ],
   "name_meaning": {
     "meaning": "Youth",
-    "language": "Latin"
+    "language": "Latin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Junia/"
+      }
+    ]
   }
 }

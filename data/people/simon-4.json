@@ -47,6 +47,12 @@
   ],
   "name_meaning": {
     "meaning": "That hears; that obeys",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Simon/"
+      }
+    ]
   }
 }

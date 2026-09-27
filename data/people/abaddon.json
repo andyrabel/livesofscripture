@@ -46,6 +46,16 @@
   "spotlight_note": "symbolic/apocalyptic figure or dynastic title, not a narrated individual",
   "name_meaning": {
     "meaning": "The destroyer",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Revelation 9:11"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Abaddon/"
+      }
+    ]
   }
 }

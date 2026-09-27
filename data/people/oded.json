@@ -53,7 +53,13 @@
   ],
   "name_meaning": {
     "meaning": "To sustain",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Oded%2C%20to%20sustain%2C%20hold%20or%20lift%20up"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "israel",

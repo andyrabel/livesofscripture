@@ -113,7 +113,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Demanded; lent; ditch; death",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Saul/"
+      }
+    ]
   },
   "tribe": {
     "name": "Benjamin",

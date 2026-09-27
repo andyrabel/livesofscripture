@@ -75,7 +75,17 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Happiness",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 30:13"
+      },
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Asher/"
+      }
+    ]
   },
   "tribe": {
     "name": "Asher",

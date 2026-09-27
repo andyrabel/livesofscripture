@@ -62,7 +62,13 @@
   ],
   "name_meaning": {
     "meaning": "To cast; elevated",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/J/Joram/"
+      }
+    ]
   },
   "reign": {
     "kingdom": "israel",

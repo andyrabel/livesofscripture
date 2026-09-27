@@ -54,6 +54,12 @@
   ],
   "name_meaning": {
     "meaning": "Profitable; useful",
-    "language": "Greek"
+    "language": "Greek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/Onesimus/"
+      }
+    ]
   }
 }

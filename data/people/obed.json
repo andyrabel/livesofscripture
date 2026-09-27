@@ -60,7 +60,13 @@
   ],
   "name_meaning": {
     "meaning": "A servant; workman",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/O/Obed/"
+      }
+    ]
   },
   "tribe": {
     "name": "Judah",

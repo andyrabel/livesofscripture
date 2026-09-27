@@ -63,6 +63,12 @@
   "gender": "female",
   "name_meaning": {
     "meaning": "Sheep",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/R/Rachel/"
+      }
+    ]
   }
 }

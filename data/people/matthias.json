@@ -56,6 +56,12 @@
   ],
   "name_meaning": {
     "meaning": "Gift of the LORD (the same name as Matthew)",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/M/Mattathias/"
+      }
+    ]
   }
 }

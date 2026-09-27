@@ -56,7 +56,13 @@
   ],
   "name_meaning": {
     "meaning": "Bold aspect; face of trust or protection",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Phinehas/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

@@ -54,7 +54,13 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "God of the northeast wind",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/E/Elzaphan/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",

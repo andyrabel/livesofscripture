@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Son of shame",
-    "language": "Aramaic"
+    "language": "Aramaic",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Barabbas%2C%20son%20of%20shame%2C%20confusion"
+      }
+    ]
   }
 }

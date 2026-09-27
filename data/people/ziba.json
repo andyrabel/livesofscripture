@@ -53,6 +53,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Army; fight; strength",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/Z/Ziba/"
+      }
+    ]
   }
 }

@@ -68,6 +68,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Noise; tumult",
-    "language": "Persian"
+    "language": "Persian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Haman/"
+      }
+    ]
   }
 }

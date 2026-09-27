@@ -48,6 +48,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "Part; portion; back early in the morning",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shechem/"
+      }
+    ]
   }
 }

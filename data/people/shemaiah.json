@@ -54,7 +54,13 @@
   ],
   "name_meaning": {
     "meaning": "That hears or obeys the Lord",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/S/Shemaiah/"
+      }
+    ]
   },
   "prophesied_to": {
     "nation": "judah",

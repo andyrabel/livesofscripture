@@ -52,7 +52,13 @@
   "spotlight_eligible": false,
   "spotlight_note": "a single brief episode with minimal narrative weight",
   "name_meaning": {
-    "meaning": "The cloak",
-    "language": "Assyrian (Akkadian)"
+    "meaning": "The cloak, glory, grandeur or power of the king",
+    "language": "Assyrian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adrammelech%2C%20the%20cloak%2C%20glory%2C%20grandeur%20or%20power%20of%20the%20king"
+      }
+    ]
   }
 }

@@ -50,6 +50,12 @@
   ],
   "name_meaning": {
     "meaning": "Bull of Africa; a fat bull",
-    "language": "Egyptian"
+    "language": "Egyptian",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/P/Potiphar/"
+      }
+    ]
   }
 }

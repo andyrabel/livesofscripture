@@ -61,6 +61,12 @@
   "gender": "male",
   "name_meaning": {
     "meaning": "A brother who raises up or avenges",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/A/Ahikam/"
+      }
+    ]
   }
 }

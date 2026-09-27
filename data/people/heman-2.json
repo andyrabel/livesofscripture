@@ -71,7 +71,13 @@
   ],
   "name_meaning": {
     "meaning": "Their trouble; tumult; much; in great number",
-    "language": "Hebrew"
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/H/Heman/"
+      }
+    ]
   },
   "tribe": {
     "name": "Levi",
