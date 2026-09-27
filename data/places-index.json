@@ -2548,7 +2548,9 @@
       "Post-Exile/Intertestamental"
     ],
     "n_people": 1,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.895,
+    "lng": 35.08361
   },
   {
     "place_id": "beth-jeshimoth",
@@ -10036,7 +10038,9 @@
       "Patriarchal"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77778,
+    "lng": 35.23556
   },
   {
     "place_id": "mortar",
@@ -10296,7 +10300,9 @@
       "United Monarchy"
     ],
     "n_people": 2,
-    "disambiguation": ""
+    "disambiguation": "",
+    "lat": 31.77778,
+    "lng": 35.23556
   },
   {
     "place_id": "mount-nebo",

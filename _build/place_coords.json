@@ -337,6 +337,13 @@
       "kind": "representative",
       "note": "Approximate: the tribal territory north of Jerusalem."
     },
+    "beth-horon": {
+      "lat": 31.895,
+      "lng": 35.08361,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Beth-horon"
+    },
     "bethany": {
       "lat": 31.77166,
       "lng": 35.2559,
@@ -1910,6 +1917,36 @@
         ]
       ]
     },
+    "moriah": {
+      "lat": 31.77778,
+      "lng": 35.23556,
+      "confidence": 325,
+      "kind": "representative",
+      "openbible": "Moriah",
+      "geojson": "adaf385.geojson",
+      "candidates": [
+        [
+          35.23556,
+          31.77778,
+          325
+        ],
+        [
+          35.2559,
+          31.77166,
+          48
+        ],
+        [
+          35.27278,
+          32.19944,
+          29
+        ],
+        [
+          35.28194,
+          32.21361,
+          6
+        ]
+      ]
+    },
     "mount-carmel": {
       "lat": 32.6725,
       "lng": 35.02333,
@@ -1954,6 +1991,13 @@
           15
         ]
       ]
+    },
+    "mount-moriah": {
+      "lat": 31.77778,
+      "lng": 35.23556,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Mount Moriah"
     },
     "mount-sinai": {
       "lat": 28.53972,
