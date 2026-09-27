@@ -2,9 +2,35 @@
   "person_id": "gemariah-2",
   "name": "Gemariah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
-  "references": [],
+  "era": "Divided Monarchy",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Jerusalem"
+  ],
+  "references": [
+    "Jeremiah 36:10-25"
+  ],
+  "first_reference": "Jeremiah 36:10-25",
+  "topics": [
+    "royal officials",
+    "attempted intercession for God's word"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "A son of Shaphan the scribe and an official in King Jehoiakim's court, whose chamber in the temple's upper court was where Baruch first read Jeremiah's scroll aloud, and who was one of three officials who urged the king not to burn it (Jeremiah 36).",
+  "family_friendly_summary": "Gemariah was an official in Jerusalem, the son of Shaphan the scribe. His own room in the temple courts was where Jeremiah's helper Baruch read aloud a scroll of all the messages God had given Jeremiah. When King Jehoiakim later cut that scroll apart and burned it in his fire, Gemariah was one of three officials who begged the king not to destroy it. The king would not listen, but God had Jeremiah write the whole scroll again. Gemariah was willing to speak up for God's word, while the king and his servants heard it without fear.",
+  "adult_story": "Gemariah son of Shaphan the scribe held a chamber in the upper court of the temple during the reign of King Jehoiakim. In Jehoiakim's fifth year, Baruch read Jeremiah's scroll of prophecies aloud to the people from Gemariah's chamber, at the entrance of the New Gate (Jeremiah 36:9-10). Gemariah's son Micaiah heard it and went down to the king's palace to report the words to the officials meeting there, his father among them (36:11-13). The officials had Baruch read the scroll to them as well, were alarmed, and resolved to tell the king -- but first advised Baruch and Jeremiah to go into hiding (36:14-19). When the scroll was read before Jehoiakim as he sat beside a fire in his winter house, the king cut it apart column by column and threw it into the flames. Gemariah, with Elnathan and Delaiah, pleaded with the king not to burn it, but he would not listen, and neither the king nor his servants were afraid at what they heard (36:20-25). The king ordered Jeremiah and Baruch arrested, but the LORD hid them (36:26), and Jeremiah dictated the scroll again with many words added (36:32). Gemariah could not stop the king, but he pleaded for God's word before a king who despised it.",
+  "image": {
+    "file": "generic-figure.jpg",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
+  },
+  "image2": "gemariah-2.png",
   "genealogy": {
     "father": "shaphan",
     "mother": null,
@@ -13,5 +39,23 @@
       "micaiah-6"
     ]
   },
-  "gender": "male"
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "gender": "male",
+  "devotionals": [
+    "Gemariah was one of three officials who bravely urged the king not to burn Jeremiah's scroll of God's words. Jesus is the living Word no fire can destroy."
+  ],
+  "name_meaning": {
+    "meaning": "Accomplishment or perfection of the Lord",
+    "language": "Hebrew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/G/Gemariah/"
+      }
+    ]
+  }
 }

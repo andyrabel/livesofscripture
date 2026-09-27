@@ -14210,7 +14210,8 @@
     "genealogy": {
       "father": "ahitub-2",
       "children": [
-        "ahimaaz-2"
+        "ahimaaz-2",
+        "azariah-18"
       ]
     },
     "tribe": "Levi"
@@ -16039,17 +16040,11 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "region": "canaan-israel",
-    "genealogy": {
-      "father": "johanan-3",
-      "children": [
-        "amariah-2"
-      ]
-    },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "(1 Kings 4:2)",
+    "disambiguation": "(2 Chr 26:17-20)",
     "topics": [
       "priestly courage",
       "confronting a king",
@@ -16057,7 +16052,7 @@
     ],
     "image": "generic-priest.jpg",
     "image2": "azariah.png",
-    "first_reference": "1 Kings 4:2",
+    "first_reference": "2 Chronicles 26:17-20",
     "tribe": "Levi"
   },
   {
@@ -26180,7 +26175,7 @@
     "alt_names": [],
     "tier": "stub",
     "testament": "OT",
-    "era": "Divided Monarchy",
+    "era": "United Monarchy",
     "region": "canaan-israel",
     "genealogy": {
       "father": "azariah-5"
@@ -26202,7 +26197,7 @@
     "era": "Divided Monarchy",
     "region": "canaan-israel",
     "genealogy": {
-      "father": "azariah",
+      "father": "azariah-17",
       "children": [
         "ahitub-3"
       ]
@@ -31668,27 +31663,22 @@
   {
     "person_id": "obadiah-5",
     "name": "Obadiah",
-    "alt_names": [
-      "Abda"
-    ],
+    "alt_names": [],
     "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
-    "genealogy": {
-      "father": "shemaiah-6"
-    },
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "son of Shemaiah (1 Chr 9:16)",
+    "disambiguation": "(2 Chr 17:7)",
     "topics": [
       "teaching the Law",
       "Jehoshaphat's reforms"
     ],
     "image": "generic-figure.jpg",
-    "first_reference": "1 Chronicles 9:16",
-    "image2": "images/portraits2/obadiah-5.png"
+    "first_reference": "2 Chronicles 17:7",
+    "image2": "obadiah-5.png"
   },
   {
     "person_id": "shemaiah-6",
@@ -36227,7 +36217,7 @@
     "testament": "OT",
     "era": "Divided Monarchy",
     "genealogy": {
-      "father": "oded"
+      "father": "oded-2"
     },
     "timeline": {
       "precision": "era"
@@ -36260,12 +36250,8 @@
     ],
     "image": "generic-prophet.jpg",
     "image2": "oded.png",
-    "genealogy": {
-      "children": [
-        "azariah-7"
-      ]
-    },
-    "first_reference": "2 Chronicles 15:1-8"
+    "first_reference": "2 Chronicles 28:9-15",
+    "disambiguation": "(2 Chr 28:9-15)"
   },
   {
     "person_id": "ben-hail",
@@ -47558,8 +47544,10 @@
   },
   {
     "person_id": "pharaoh-7",
-    "name": "Pharaoh",
-    "alt_names": [],
+    "name": "Pharaoh Hophra",
+    "alt_names": [
+      "Hophra"
+    ],
     "tier": "full",
     "testament": "OT",
     "era": "Exile",
@@ -47567,7 +47555,6 @@
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "(Jer 25:19)",
     "topics": [
       "prophetic judgment",
       "Egypt's downfall",
@@ -47575,7 +47562,7 @@
     ],
     "image": "generic-king.jpg",
     "image2": "pharaoh-7.png",
-    "first_reference": "Jeremiah 25:19"
+    "first_reference": "Jeremiah 37:5-11"
   },
   {
     "person_id": "micah-5",
@@ -47743,13 +47730,13 @@
     "gender": "male",
     "disambiguation": "son of Hilkiah (Jer 29:3)",
     "topics": [
-      "royal officials",
-      "attempted intercession for God's word"
+      "royal envoys",
+      "Jeremiah's letter to the exiles"
     ],
     "image": "generic-figure.jpg",
-    "image2": "gemariah.png",
     "first_reference": "Jeremiah 29:3",
-    "tribe": "Levi"
+    "tribe": "Levi",
+    "spotlight_eligible": false
   },
   {
     "person_id": "ahab-2",
@@ -48054,7 +48041,7 @@
     "person_id": "gemariah-2",
     "name": "Gemariah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
     "era": "Divided Monarchy",
     "timeline": {
@@ -48062,11 +48049,21 @@
     },
     "region": "canaan-israel",
     "genealogy": {
-      "father": "shaphan"
+      "father": "shaphan",
+      "children": [
+        "micaiah-6"
+      ]
     },
     "kingdom": "judah",
     "gender": "male",
-    "disambiguation": "son of Shaphan"
+    "disambiguation": "son of Shaphan (Jer 36:10-25)",
+    "image": "generic-figure.jpg",
+    "image2": "gemariah-2.png",
+    "topics": [
+      "royal officials",
+      "attempted intercession for God's word"
+    ],
+    "first_reference": "Jeremiah 36:10-25"
   },
   {
     "person_id": "micaiah-6",
@@ -50243,7 +50240,9 @@
   {
     "person_id": "james",
     "name": "James",
-    "alt_names": [],
+    "alt_names": [
+      "James Boanerges"
+    ],
     "tier": "full",
     "testament": "NT",
     "era": "Gospels",
@@ -50530,6 +50529,7 @@
     "disambiguation": "son of Mary (Matt 13:55)",
     "topics": [
       "from skeptic to leader",
+      "the Jerusalem council",
       "epistle author",
       "family of Jesus"
     ],
@@ -55175,5 +55175,81 @@
     "timeline": {
       "precision": "era"
     }
+  },
+  {
+    "person_id": "obadiah-13",
+    "name": "Obadiah",
+    "alt_names": [
+      "Abda"
+    ],
+    "tier": "stub",
+    "testament": "OT",
+    "gender": "male",
+    "first_reference": "1 Chronicles 9:16",
+    "genealogy": {
+      "father": "shemaiah-6"
+    },
+    "era": "Post-Exile/Intertestamental",
+    "timeline": {
+      "precision": "era"
+    },
+    "disambiguation": "son of Shemaiah (1 Chr 9:16)"
+  },
+  {
+    "person_id": "oded-2",
+    "name": "Oded",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT",
+    "gender": "male",
+    "first_reference": "2 Chronicles 15:1",
+    "genealogy": {
+      "children": [
+        "azariah-7"
+      ]
+    },
+    "era": "Divided Monarchy",
+    "timeline": {
+      "precision": "era"
+    },
+    "region": "canaan-israel",
+    "disambiguation": "father of Azariah (2 Chr 15:1)"
+  },
+  {
+    "person_id": "azariah-17",
+    "name": "Azariah",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT",
+    "gender": "male",
+    "first_reference": "1 Chronicles 6:10-11",
+    "genealogy": {
+      "father": "johanan-3"
+    },
+    "era": "Divided Monarchy",
+    "timeline": {
+      "precision": "era"
+    },
+    "tribe": "Levi",
+    "disambiguation": "(1 Chr 6:10-11)"
+  },
+  {
+    "person_id": "azariah-18",
+    "name": "Azariah",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT",
+    "gender": "male",
+    "first_reference": "1 Kings 4:2",
+    "genealogy": {
+      "father": "zadok"
+    },
+    "era": "United Monarchy",
+    "timeline": {
+      "precision": "era"
+    },
+    "region": "canaan-israel",
+    "tribe": "Levi",
+    "disambiguation": "son of Zadok (1 Kings 4:2)"
   }
 ]

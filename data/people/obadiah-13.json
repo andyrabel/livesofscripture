@@ -1,8 +1,8 @@
 {
-  "person_id": "shemaiah-6",
-  "name": "Shemaiah",
+  "person_id": "obadiah-13",
+  "name": "Obadiah",
   "alt_names": [
-    "Shammua"
+    "Abda"
   ],
   "tier": "stub",
   "testament": "OT",
@@ -12,12 +12,10 @@
   ],
   "first_reference": "1 Chronicles 9:16",
   "genealogy": {
-    "father": "galal",
+    "father": "shemaiah-6",
     "mother": null,
     "spouses": [],
-    "children": [
-      "obadiah-13"
-    ]
+    "children": []
   },
   "gender": "male"
 }

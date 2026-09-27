@@ -13,26 +13,24 @@
     "Babylon"
   ],
   "references": [
-    "Jeremiah 29:3",
-    "Jeremiah 36:10-25"
+    "Jeremiah 29:3"
   ],
   "first_reference": "Jeremiah 29:3",
   "topics": [
-    "royal officials",
-    "attempted intercession for God's word"
+    "royal envoys",
+    "Jeremiah's letter to the exiles"
   ],
   "interpretive_dispute": true,
-  "interpretive_note": "This dataset's genealogy identifies Gemariah as son of Hilkiah, matching Jeremiah 29:3, where a Gemariah son of Hilkiah is sent by King Zedekiah to Babylon. Jeremiah 36:10-25, however, describes a Gemariah son of Shaphan, whose chamber was used for the reading of Jeremiah's scroll and who later urged King Jehoiakim not to burn it. Some interpreters treat these as two distinct officials of the same common name serving different kings (Zedekiah and Jehoiakim respectively) rather than one man; Scripture does not explicitly identify them as the same or different individuals.",
-  "source_summary": "A Judean scribe/official whose chamber in the temple was used for the public reading of Jeremiah's scroll of warnings, and who was one of three officials who unsuccessfully urged King Jehoiakim not to burn it; a Gemariah son of Hilkiah is also named as one of King Zedekiah's envoys sent to Babylon.",
-  "family_friendly_summary": "Gemariah was a Judean official connected with the prophet Jeremiah's ministry. His own room in the temple courts was used as the place where Jeremiah's assistant Baruch read aloud a scroll containing all of Jeremiah's warnings to the people. Later, when King Jehoiakim decided to burn that very scroll piece by piece, Gemariah was one of a small group of officials who bravely urged the king not to destroy it. Sadly, the king refused to listen. Gemariah's willingness to speak up for God's word, even without success, sets him apart from officials who wanted Jeremiah silenced completely.",
-  "adult_story": "Gemariah, identified in this entry as the son of Hilkiah, appears in two settings connected to Jeremiah's ministry during Judah's final decades. In Jeremiah 29:3, a Gemariah son of Hilkiah is one of the envoys King Zedekiah sends to Babylon, carrying Jeremiah's letter to the exiles there urging them to settle down, build houses, and seek the welfare of the city where they had been carried captive (29:1-7) -- a delivery role that placed him as a trusted courier of one of Jeremiah's most significant prophetic messages. Jeremiah 36 describes a Gemariah connected to the temple during an earlier reign, under King Jehoiakim: it was in \"the chamber of Gemariah the son of Shaphan the scribe\" that Baruch first read Jeremiah's scroll of prophecies aloud to the people (36:10). When officials heard of it and had the scroll read again in their presence, they were alarmed enough to report it to the king (36:11-19). As Jehoiakim proceeded to cut the scroll apart and burn it column by column, Gemariah was one of three officials, with Elnathan and Delaiah, who urged him not to burn it -- to no effect (36:25). Whether one Gemariah or two men of the same name are in view across these passages is genuinely uncertain, since the two contexts name different fathers (Hilkiah and Shaphan) and serve different kings. In either case, at least one Gemariah is remembered for a specific, courageous attempt to protect God's spoken word from destruction.",
+  "interpretive_note": "Jeremiah 29:3 names his father only as Hilkiah. This site's genealogy follows its source data in linking him to the high priest Hilkiah of Josiah's reign; others have suggested Jeremiah's own father, Hilkiah of the priests at Anathoth (Jeremiah 1:1). Scripture does not say which Hilkiah is meant. He is a different man from Gemariah son of Shaphan, whose chamber is named in Jeremiah 36.",
+  "source_summary": "One of two envoys King Zedekiah sent to Nebuchadnezzar in Babylon, who carried Jeremiah's letter to the exiles telling them to settle there and seek the city's welfare (Jeremiah 29:3).",
+  "family_friendly_summary": "Gemariah was one of two messengers King Zedekiah sent from Jerusalem to the king of Babylon. On the same trip he carried a letter from the prophet Jeremiah to the people of Judah who had already been taken away as captives to Babylon. The letter told them to build houses, plant gardens, and pray for the city where they now lived, because God would bring them home after seventy years.",
+  "adult_story": "Gemariah son of Hilkiah appears once in Scripture, as one of two envoys King Zedekiah of Judah sent to Nebuchadnezzar in Babylon (Jeremiah 29:3). Jeremiah used the journey to send a letter, carried by Gemariah and his companion Elasah son of Shaphan, to the elders, priests, prophets, and people who had already been taken into exile (29:1-3). The letter told the exiles to build houses, plant gardens, marry, and seek the welfare of the city where they had been carried, praying to the LORD on its behalf (29:4-7). It warned them not to listen to prophets promising a quick return (29:8-9), because the LORD would bring them home only after seventy years were completed for Babylon (29:10). Scripture records nothing else about Gemariah; his one recorded task was carrying God's word to His people far from home.",
   "image": {
     "file": "generic-figure.jpg",
     "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
     "prompt_image_source": null,
     "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
   },
-  "image2": "images/portraits2/gemariah.png",
   "genealogy": {
     "father": "hilkiah-3",
     "mother": null,
@@ -45,9 +43,6 @@
     "reviewed_date": ""
   },
   "gender": "male",
-  "devotionals": [
-    "Gemariah was one of three officials who bravely urged the king not to burn Jeremiah's scroll of God's words. Jesus is the living Word no fire can destroy."
-  ],
   "name_meaning": {
     "meaning": "Accomplishment or perfection of the Lord",
     "language": "Hebrew",
@@ -61,5 +56,6 @@
   "tribe": {
     "name": "Levi",
     "reference": "Jeremiah 29:3"
-  }
+  },
+  "spotlight_eligible": false
 }

@@ -910,6 +910,38 @@ were generated from the old, wrong content and likely still visually
 depict the Joash story rather than this person's actual identity — not
 regenerated as part of this fix, left as a flagged follow-up.
 
+**Six self-documented bundles split 2026-09-27.** Found by scanning
+full-tier `interpretive_note` text for admissions like "bundles two men" /
+"mixes two distinct". Each entry's story stayed on its existing person_id;
+the other man's references and genealogy moved to a new or existing stub:
+- `james` (son of Zebedee) had the Lord's brother's references (Acts
+  12:17, 15:13-21, 21:18; 1 Corinthians 15:7; Galatians 1:19, 2:9-12). These
+  moved to `james-3`, whose story now tells the Jerusalem-church part from
+  them. Added a `james`↔`john-2` collaboration edge, because the
+  in-prose linker could no longer choose between the two Jameses by shared
+  chapter.
+- `gemariah` is now only the son of Hilkiah (Jeremiah 29:3, envoy
+  carrying Jeremiah's letter; no devotionals, `spotlight_eligible: false`).
+  `gemariah-2` (son of Shaphan) was promoted to full with the Jeremiah 36
+  scroll story, its portrait (renamed from `gemariah.*`), and the
+  `elnathan`/`delaiah-5` edges.
+- `obadiah-5` is now only Jehoshaphat's teaching official (2 Chronicles
+  17:7; devotionals dropped because one reference is below the eligibility
+  bar). The gatekeeper "Abda" (1 Chronicles 9:16; Nehemiah 11:17) is the new
+  stub `obadiah-13`.
+- `oded` is now only the Ahaz-era prophet (2 Chronicles 28:9-15). Azariah's
+  father (2 Chronicles 15:1, 8) is the new stub `oded-2`.
+- `azariah` is now only Uzziah's chief priest (2 Chronicles 26:17-20;
+  explicit Levi tribe via `backfill_tribe.py`'s `EXPLICIT`). New stubs:
+  `azariah-17` for Azariah son of Johanan (1 Chronicles 6:10-11; Ezra 7:3;
+  father of `amariah-2`) and `azariah-18` for Azariah son of Zadok (1
+  Kings 4:2). The possible identification of Uzziah's priest with
+  `azariah-17` is covered in the interpretive note, not resolved.
+- `pharaoh-7` was renamed "Pharaoh Hophra" (Jeremiah 44:30 names him; the
+  other oracles are identified with him by date, as the note says).
+  Jeremiah 25:19 and 47:1 moved to `pharaoh-neco`, which gained an
+  `interpretive_note` explaining why they are assigned to Neco.
+
 ---
 
 ## Timeline

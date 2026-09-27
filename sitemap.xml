@@ -4134,7 +4134,7 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://livesofscripture.org/images/portraits2-web/pharaoh-7-full.jpg</image:loc>
-      <image:caption>Pharaoh — stained-glass style portrait</image:caption>
+      <image:caption>Pharaoh Hophra — stained-glass style portrait</image:caption>
     </image:image>
   </url>
   <url>
@@ -4168,10 +4168,6 @@
     <loc>https://livesofscripture.org/people/gemariah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://livesofscripture.org/images/portraits2-web/gemariah-full.jpg</image:loc>
-      <image:caption>Gemariah — stained-glass style portrait</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://livesofscripture.org/people/ahab-2.html</loc>
@@ -4208,6 +4204,15 @@
     <image:image>
       <image:loc>https://livesofscripture.org/images/portraits2-web/jaazaniah-full.jpg</image:loc>
       <image:caption>Jaazaniah — stained-glass style portrait</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/people/gemariah-2.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/gemariah-2-full.jpg</image:loc>
+      <image:caption>Gemariah — stained-glass style portrait</image:caption>
     </image:image>
   </url>
   <url>

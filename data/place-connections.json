@@ -441,6 +441,13 @@
     "mutual": true
   },
   {
+    "from": "gemariah-2",
+    "to": "place:jerusalem",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "haggai",
     "to": "place:jerusalem",
     "label": "associated with",

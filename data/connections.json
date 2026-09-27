@@ -6882,13 +6882,13 @@
   },
   {
     "from": "johanan-3",
-    "to": "azariah",
+    "to": "azariah-17",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
   },
   {
-    "from": "azariah",
+    "from": "azariah-17",
     "to": "amariah-2",
     "label": "begot",
     "type": "parent-child",
@@ -8933,7 +8933,7 @@
   },
   {
     "from": "shemaiah-6",
-    "to": "obadiah-5",
+    "to": "obadiah-13",
     "label": "begot",
     "type": "parent-child",
     "mutual": false
@@ -9828,7 +9828,7 @@
     "mutual": false
   },
   {
-    "from": "oded",
+    "from": "oded-2",
     "to": "azariah-7",
     "label": "begot",
     "type": "parent-child",
@@ -13343,7 +13343,7 @@
   },
   {
     "from": "elnathan",
-    "to": "gemariah",
+    "to": "gemariah-2",
     "label": "urged the king to spare the scroll",
     "type": "collaboration",
     "mutual": true,
@@ -14104,7 +14104,7 @@
   },
   {
     "from": "delaiah-5",
-    "to": "gemariah",
+    "to": "gemariah-2",
     "label": "urged the king to spare the scroll",
     "type": "collaboration",
     "mutual": true,
@@ -15716,6 +15716,26 @@
     "references": [
       "2 Samuel 21:18",
       "1 Chronicles 20:4"
+    ]
+  },
+  {
+    "from": "zadok",
+    "to": "azariah-18",
+    "label": "begot",
+    "type": "parent-child",
+    "mutual": false
+  },
+  {
+    "from": "james",
+    "to": "john-2",
+    "label": "brothers called together as apostles",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "James and John, sons of Zebedee, left their nets together when Jesus called them; Jesus named the two brothers Boanerges, and together they asked Him for the seats at His right and left in glory.",
+    "references": [
+      "Matthew 4:21-22",
+      "Mark 3:17",
+      "Mark 10:35-41"
     ]
   }
 ]
