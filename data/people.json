@@ -39487,20 +39487,19 @@
     "alt_names": [],
     "tier": "full",
     "testament": "OT",
-    "era": "Post-Exile/Intertestamental",
+    "era": "Exile",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "(Ezra 4:5-24)",
+    "disambiguation": "(Dan 5:31)",
     "topics": [
       "the lions' den",
-      "integrity under pressure",
-      "authorizing the temple's completion"
+      "integrity under pressure"
     ],
     "image": "generic-king.jpg",
     "image2": "darius.png",
-    "first_reference": "Ezra 4:5-24"
+    "first_reference": "Daniel 5:31"
   },
   {
     "person_id": "ahasuerus",
@@ -49218,15 +49217,20 @@
     "person_id": "darius-2",
     "name": "Darius",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "testament": "OT",
-    "era": "Exile",
+    "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "disambiguation": "(Dan 9:1)",
-    "first_reference": "Daniel 9:1"
+    "disambiguation": "(Ezra 4:5-24)",
+    "first_reference": "Ezra 4:5-24",
+    "topics": [
+      "authorizing the temple's completion",
+      "God's providence through foreign rulers"
+    ],
+    "image": "generic-king.jpg"
   },
   {
     "person_id": "michael-9",

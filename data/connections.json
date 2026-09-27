@@ -13016,5 +13016,2706 @@
     "references": [
       "1 Kings 18:7-16"
     ]
+  },
+  {
+    "from": "phinehas-2",
+    "to": "hophni",
+    "label": "served as priest alongside",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Phinehas and his brother Hophni served together as priests at Shiloh, together abused their office by taking sacrificial meat by force, and were both killed in battle on the same day, exactly as a man of God had warned Eli.",
+    "references": [
+      "1 Samuel 2:12-17",
+      "1 Samuel 4:10-11"
+    ]
+  },
+  {
+    "from": "david",
+    "to": "goliath",
+    "label": "defeated in single combat",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "David, a shepherd boy, accepted the Philistine champion Goliath's forty-day challenge to single combat and killed him with a sling and stone, then cut off his head with the giant's own sword.",
+    "references": [
+      "1 Samuel 17:4-51"
+    ]
+  },
+  {
+    "from": "saul",
+    "to": "david",
+    "label": "hunted out of jealousy",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Saul grew jealous of David's popularity after his victory over Goliath, tried to kill him with a spear, and pursued him as a fugitive for years, even though David repeatedly spared Saul's life when he had the chance to kill him.",
+    "references": [
+      "1 Samuel 18:8-11",
+      "1 Samuel 19:1",
+      "1 Samuel 24:1-22",
+      "1 Samuel 26:1-25"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "elisha",
+    "label": "mentored",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Elijah called Elisha to follow him by throwing his mantle over him while Elisha was plowing, and Elisha served as his attendant until Elijah was taken up in a whirlwind, leaving Elisha his mantle and a double portion of his spirit.",
+    "references": [
+      "1 Kings 19:19-21",
+      "2 Kings 2:1-15"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "jezebel",
+    "label": "opposed",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Elijah confronted the prophets of Baal that Jezebel supported and had them killed after the contest on Mount Carmel, and pronounced judgment on her for having Naboth killed to seize his vineyard; Jezebel in turn vowed to kill Elijah, and was later thrown from a window and eaten by dogs exactly as he had prophesied.",
+    "references": [
+      "1 Kings 18:4-40",
+      "1 Kings 19:1-2",
+      "1 Kings 21:17-24",
+      "2 Kings 9:30-37"
+    ]
+  },
+  {
+    "from": "haman",
+    "to": "mordecai-2",
+    "label": "plotted to destroy",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Enraged that Mordecai would not bow to him, Haman planned to have all the Jews destroyed and built gallows specifically to hang Mordecai, but was himself hanged on those same gallows once his plot was exposed.",
+    "references": [
+      "Esther 3:1-6",
+      "Esther 5:9-14",
+      "Esther 7:9-10"
+    ]
+  },
+  {
+    "from": "barak",
+    "to": "deborah-2",
+    "label": "went to battle at the summons of",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Deborah summoned Barak and relayed God's command to gather troops against Sisera's army, but Barak insisted she come with him; she agreed, though she told him the honor of the victory would go to a woman instead.",
+    "references": [
+      "Judges 4:6-10",
+      "Judges 4:14"
+    ]
+  },
+  {
+    "from": "deborah-2",
+    "to": "sisera",
+    "label": "prophesied the defeat of",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Deborah told Barak that the LORD would sell Sisera into the hand of a woman, a prophecy fulfilled when Jael killed him in her tent.",
+    "references": [
+      "Judges 4:9",
+      "Judges 4:17-21"
+    ]
+  },
+  {
+    "from": "jael",
+    "to": "sisera",
+    "label": "killed",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Jael invited the fleeing Sisera into her tent, gave him milk and covered him, then drove a tent peg through his temple while he slept, fulfilling Deborah's prophecy that he would fall by a woman's hand.",
+    "references": [
+      "Judges 4:17-21",
+      "Judges 5:24-27"
+    ]
+  },
+  {
+    "from": "korah-3",
+    "to": "aaron",
+    "label": "rebelled against his priesthood",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Korah led a rebellion of 250 leaders against Aaron's priesthood, accusing Moses and Aaron of exalting themselves; God vindicated Aaron when his staff alone sprouted and bore almonds, then the earth swallowed Korah and his household.",
+    "references": [
+      "Numbers 16:1-11",
+      "Numbers 16:31-35",
+      "Numbers 17:1-10"
+    ]
+  },
+  {
+    "from": "dathan",
+    "to": "abiram",
+    "label": "allied in rebellion against Moses",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Dathan and his brother Abiram joined Korah's rebellion against Moses and Aaron, together refused Moses' summons to account for their accusations, and were swallowed alive by the earth along with their households as judgment.",
+    "references": [
+      "Numbers 16:1-3",
+      "Numbers 16:12-14",
+      "Numbers 16:25-33"
+    ]
+  },
+  {
+    "from": "ish-bosheth",
+    "to": "abner",
+    "label": "confronted over a concubine, prompting his defection",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Abner had installed Ish-bosheth as king over Israel after Saul's death, but when Ish-bosheth confronted him over a relationship with one of Saul's concubines, Abner turned angrily on him and defected to David, stripping Ish-bosheth of his only real support.",
+    "references": [
+      "2 Samuel 2:8-10",
+      "2 Samuel 3:6-11"
+    ]
+  },
+  {
+    "from": "bathsheba",
+    "to": "adonijah",
+    "label": "blocked his bid for the throne",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Adonijah declared himself king, Bathsheba reminded David of his promise that Solomon would reign, securing Solomon's coronation before Adonijah's could take hold; later she carried Adonijah's request for Abishag to Solomon, who read it as a renewed claim to the throne and had him executed.",
+    "references": [
+      "1 Kings 1:11-31",
+      "1 Kings 2:13-25"
+    ]
+  },
+  {
+    "from": "saul",
+    "to": "agag-2",
+    "label": "spared him in disobedience to God",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Saul was commanded to destroy Amalek completely but defeated Agag and spared him alive along with the best of the plunder, a partial obedience that cost Saul the kingdom and led to Samuel personally killing Agag afterward.",
+    "references": [
+      "1 Samuel 15:8-9",
+      "1 Samuel 15:20",
+      "1 Samuel 15:32-33"
+    ]
+  },
+  {
+    "from": "pekah",
+    "to": "ahaz",
+    "label": "besieged Jerusalem with an ally",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Pekah of Israel allied with Rezin of Aram against Ahaz of Judah, killing many of Judah's soldiers and besieging Jerusalem, a crisis that drove Ahaz to appeal to Assyria rather than trust the LORD's promise of deliverance through Isaiah.",
+    "references": [
+      "2 Kings 16:5",
+      "2 Chronicles 28:5-8",
+      "Isaiah 7:1-9"
+    ]
+  },
+  {
+    "from": "amasa-2",
+    "to": "berechiah-4",
+    "label": "rescued Judah's captives together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Amasa and Berechiah, two of four named Ephraimite chiefs, together confronted Israel's returning army over Oded's warning, then personally clothed, fed, and escorted 200,000 captured women and children from Judah safely home to Jericho.",
+    "references": [
+      "2 Chronicles 28:12-15"
+    ]
+  },
+  {
+    "from": "amraphel",
+    "to": "arioch",
+    "label": "allied against Sodom",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Amraphel of Shinar and Arioch of Ellasar campaigned together as two of four allied eastern kings who defeated a coalition of five kings in the Valley of Siddim, taking Lot captive along with the plunder of Sodom before Abram pursued and recovered them.",
+    "references": [
+      "Genesis 14:1-2",
+      "Genesis 14:5-11"
+    ]
+  },
+  {
+    "from": "annas",
+    "to": "caiaphas",
+    "label": "sent Jesus to him for trial",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Annas, his father-in-law and the powerful former high priest, questioned Jesus first on the night of His arrest, then sent Him still bound to Caiaphas, where the council pursued the charges that led to His condemnation.",
+    "references": [
+      "John 18:13-24"
+    ]
+  },
+  {
+    "from": "jehosheba",
+    "to": "athaliah",
+    "label": "rescued Joash from her purge",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Athaliah seized the throne and destroyed all of Judah's royal offspring to eliminate rivals, Jehosheba secretly rescued the infant Joash and hid him in the temple for six years, foiling Athaliah's plan and preserving the Davidic line.",
+    "references": [
+      "2 Kings 11:1-3"
+    ]
+  },
+  {
+    "from": "baanah",
+    "to": "rechab",
+    "label": "conspired to murder Ish-bosheth",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Baanah and his brother Rechab, both army captains under Ish-bosheth, entered his house together, killed him as he rested, and carried his head to David expecting a reward, only to be executed themselves for the murder.",
+    "references": [
+      "2 Samuel 4:2-9"
+    ]
+  },
+  {
+    "from": "barzillai",
+    "to": "chimham",
+    "label": "secured David's favor for his son",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "When David invited the elderly Barzillai to live with him in Jerusalem after Absalom's rebellion, Barzillai declined because of his age and asked instead that his son Chimham receive the king's favor, which David granted, bringing Chimham across the Jordan with him.",
+    "references": [
+      "2 Samuel 19:37-40"
+    ]
+  },
+  {
+    "from": "rachel",
+    "to": "bilhah",
+    "label": "gave her to Jacob as a surrogate",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Unable to bear children herself, Rachel gave her servant Bilhah to Jacob as a wife so that Bilhah's sons, Dan and Naphtali, would legally count as Rachel's own.",
+    "references": [
+      "Genesis 30:1-8"
+    ]
+  },
+  {
+    "from": "othniel",
+    "to": "cushan-rishathaim",
+    "label": "defeated in battle to deliver Israel",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Cushan-rishathaim oppressed Israel for eight years as judgment for idolatry, the Spirit of the LORD came upon Othniel, who went to war and defeated him, bringing forty years of rest to the land.",
+    "references": [
+      "Judges 3:8-11"
+    ]
+  },
+  {
+    "from": "deborah-2",
+    "to": "jael",
+    "label": "foretold Sisera's death at her hand",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Deborah told Barak that the LORD would sell Sisera into the hand of a woman rather than give Barak the honor himself; the prophecy was fulfilled when Jael drove a tent peg through the sleeping Sisera's temple, and Deborah's victory song afterward praised Jael by name.",
+    "references": [
+      "Judges 4:9",
+      "Judges 5:24-27"
+    ]
+  },
+  {
+    "from": "hamor",
+    "to": "dinah",
+    "label": "sought her marriage to his son",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After his son Shechem violated Dinah, Hamor came to Jacob proposing a full marriage alliance for her, but the negotiation ended in violence when Dinah's brothers Simeon and Levi killed Hamor, Shechem, and every man of their city to reclaim her.",
+    "references": [
+      "Genesis 34:1-12",
+      "Genesis 34:25-29"
+    ]
+  },
+  {
+    "from": "eli",
+    "to": "hannah",
+    "label": "blessed her prayer for a son",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Eli first mistook Hannah's silent, anguished prayer for drunkenness, then blessed her request for a son once she explained herself; years later Hannah brought the weaned Samuel to Eli, who raised him at the tabernacle at Shiloh.",
+    "references": [
+      "1 Samuel 1:12-18",
+      "1 Samuel 1:24-28"
+    ]
+  },
+  {
+    "from": "elijah",
+    "to": "naboth",
+    "label": "pronounced judgment on Ahab for his murder",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "After Jezebel had Naboth falsely accused and stoned to death so Ahab could seize his vineyard, God sent Elijah to confront Ahab at that very vineyard, pronouncing that dogs would lick Ahab's blood where they had licked Naboth's, avenging his innocent death.",
+    "references": [
+      "1 Kings 21:17-24"
+    ]
+  },
+  {
+    "from": "elnathan",
+    "to": "gemariah",
+    "label": "urged the king to spare the scroll",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Baruch's reading of Jeremiah's scroll alarmed Jerusalem's officials, Elnathan and Gemariah were among those who urged King Jehoiakim not to burn it, though the king cut it apart and burned it anyway.",
+    "references": [
+      "Jeremiah 36:12",
+      "Jeremiah 36:25"
+    ]
+  },
+  {
+    "from": "gabriel",
+    "to": "mary",
+    "label": "announced she would bear Jesus",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "The angel Gabriel was sent to Nazareth to tell the young, unmarried Mary that she would conceive by the Holy Spirit and bear the Son of God, whose kingdom would have no end.",
+    "references": [
+      "Luke 1:26-38"
+    ]
+  },
+  {
+    "from": "gehazi",
+    "to": "naaman-2",
+    "label": "swindled him, then inherited his leprosy",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Elisha refused any reward for healing Naaman's leprosy, his servant Gehazi secretly pursued Naaman with a fabricated story to extract silver and clothing, and Elisha pronounced that Naaman's leprosy would cling to Gehazi and his descendants as judgment for the deceit.",
+    "references": [
+      "2 Kings 5:20-27"
+    ]
+  },
+  {
+    "from": "haggai",
+    "to": "zerubbabel",
+    "label": "prophesied he would be God's signet ring",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Haggai's preaching moved governor Zerubbabel to resume the temple's construction after years of delay, and Haggai's final oracle was addressed directly to Zerubbabel, promising God would make him like a signet ring as a sign that His covenant purposes for David's line remained intact.",
+    "references": [
+      "Haggai 1:12-15",
+      "Haggai 2:20-23"
+    ]
+  },
+  {
+    "from": "heldai-2",
+    "to": "jedaiah-6",
+    "label": "brought silver and gold for the crown",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Heldai and Jedaiah were two of three returned exiles whose silver and gold Zechariah was instructed to collect and fashion into a crown, which was placed on the high priest Joshua as a prophetic sign of the coming Messiah's united priestly and royal offices.",
+    "references": [
+      "Zechariah 6:10-14"
+    ]
+  },
+  {
+    "from": "herod-3",
+    "to": "james",
+    "label": "had him executed by the sword",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Herod Agrippa I, seeing that it pleased Jerusalem's Jewish leaders, had the apostle James put to death with a sword, becoming the first apostle to be martyred.",
+    "references": [
+      "Acts 12:1-2"
+    ]
+  },
+  {
+    "from": "hoglah",
+    "to": "milcah-2",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hoglah and Milcah, two of Zelophehad's five daughters, came together before Moses and the leaders of Israel to request a hereditary possession since their father had died without sons, and God ruled in their favor, establishing a permanent statute of inheritance law.",
+    "references": [
+      "Numbers 27:1-7"
+    ]
+  },
+  {
+    "from": "shalmaneser",
+    "to": "hoshea",
+    "label": "imprisoned him for conspiracy",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Hoshea stopped paying tribute and secretly sought an alliance with Egypt, Shalmaneser discovered the conspiracy, seized and imprisoned him, then besieged Samaria for three years until the northern kingdom fell.",
+    "references": [
+      "2 Kings 17:3-6"
+    ]
+  },
+  {
+    "from": "sarah",
+    "to": "ishmael",
+    "label": "demanded he be cast out",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Isaac's birth, Sarah saw Ishmael in some way threatening or mocking her son and demanded Abraham send Ishmael and Hagar away, distressing Abraham until God confirmed the covenant would run through Isaac alone.",
+    "references": [
+      "Genesis 21:8-14"
+    ]
+  },
+  {
+    "from": "jehoiada-2",
+    "to": "joash-3",
+    "label": "hid, crowned, and mentored him as king",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Jehoiada's wife Jehosheba hid the infant Joash in the temple from Athaliah's massacre, and Jehoiada later staged the coup that crowned Joash king at seven years old; Joash did what was right in the LORD's eyes for as long as Jehoiada guided him.",
+    "references": [
+      "2 Kings 11:1-16",
+      "2 Kings 12:2"
+    ]
+  },
+  {
+    "from": "jerahmeel-3",
+    "to": "seraiah-9",
+    "label": "was sent to arrest Jeremiah together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Jerahmeel and Seraiah were two of three officials King Jehoiakim commanded to seize Jeremiah and his scribe Baruch after burning Jeremiah's scroll, but the LORD hid the two men and the arrest failed.",
+    "references": [
+      "Jeremiah 36:26"
+    ]
+  },
+  {
+    "from": "jezebel",
+    "to": "naboth",
+    "label": "orchestrated his execution to seize his vineyard",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Naboth refused to sell his ancestral vineyard to Ahab, Jezebel arranged false witnesses to accuse him of cursing God and the king, had him stoned to death, and handed the vineyard to Ahab.",
+    "references": [
+      "1 Kings 21:4-16"
+    ]
+  },
+  {
+    "from": "potiphar",
+    "to": "joseph",
+    "label": "imprisoned him on a false charge",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Potiphar placed Joseph over his entire household after seeing the LORD's blessing on everything he did, but when Potiphar's wife falsely accused Joseph of assault after he refused her advances, Potiphar had him imprisoned without investigation.",
+    "references": [
+      "Genesis 39:1-20"
+    ]
+  },
+  {
+    "from": "mark",
+    "to": "paul",
+    "label": "served with, then was later restored by",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Mark accompanied Paul on his first missionary journey but deserted partway through, causing Paul to refuse to bring him on the second journey and splitting Paul from Barnabas over it; years later Paul named Mark among his valued fellow workers and asked for him by name from prison.",
+    "references": [
+      "Acts 13:5-13",
+      "Acts 15:37-39",
+      "2 Timothy 4:11"
+    ]
+  },
+  {
+    "from": "meshach",
+    "to": "shadrach",
+    "label": "defied the golden image together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Meshach and Shadrach, together with Abednego, refused to bow to Nebuchadnezzar's golden image, were bound and thrown into a furnace heated seven times hotter as punishment, and walked out unharmed together.",
+    "references": [
+      "Daniel 3:12-30"
+    ]
+  },
+  {
+    "from": "nebuchadnezzar",
+    "to": "shadrach",
+    "label": "threw him into the fiery furnace",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Nebuchadnezzar had Shadrach and his companions bound and thrown into a furnace heated seven times hotter for refusing to worship his golden image, then publicly praised their God and promoted them when he saw them walk out unharmed.",
+    "references": [
+      "Daniel 3:13-30"
+    ]
+  },
+  {
+    "from": "onesimus",
+    "to": "philemon",
+    "label": "fled, then was sent back as a brother",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Onesimus fled from his master Philemon, apparently after wronging him, and later came to faith through Paul in Rome; Paul sent him back with a letter urging Philemon to receive him no longer as a slave but as a beloved brother.",
+    "references": [
+      "Philemon 1:10-18"
+    ]
+  },
+  {
+    "from": "sennacherib",
+    "to": "rabshakeh",
+    "label": "sent him to demand Jerusalem's surrender",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Sennacherib sent his field commander, the Rabshakeh, with a large force to Jerusalem's walls to demand the city's surrender, where he delivered a speech in Hebrew mocking Judah's trust in the LORD.",
+    "references": [
+      "2 Kings 18:17-35"
+    ]
+  },
+  {
+    "from": "seraiah-9",
+    "to": "shelemiah-6",
+    "label": "was sent to arrest Jeremiah together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Seraiah and Shelemiah were two of three officials King Jehoiakim commanded to seize Jeremiah and his scribe Baruch after burning Jeremiah's scroll, but the LORD hid the two men and the arrest failed.",
+    "references": [
+      "Jeremiah 36:26"
+    ]
+  },
+  {
+    "from": "aaron",
+    "to": "miriam",
+    "label": "jointly challenged Moses' authority",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Aaron and Miriam together challenged Moses' unique authority over Israel, questioning why the LORD spoke only through him; when Miriam alone was struck with leprosy for it, Aaron pleaded with Moses to heal her.",
+    "references": [
+      "Numbers 12:1-15"
+    ]
+  },
+  {
+    "from": "abihu",
+    "to": "nadab",
+    "label": "offered unauthorized fire together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Aaron's sons Nadab and Abihu each took a censer and offered fire before the LORD that He had not commanded, and fire from His presence consumed them both together at the tabernacle's dedication.",
+    "references": [
+      "Leviticus 10:1-3"
+    ]
+  },
+  {
+    "from": "korah-3",
+    "to": "abiram",
+    "label": "led the rebellion against Moses",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Korah, a Levite, joined with the Reubenite Abiram and his brother Dathan, along with 250 leaders, in open rebellion against Moses and Aaron's authority; when they refused Moses' summons to account for it, the ground opened and swallowed Korah, Abiram, Dathan, and their households alive.",
+    "references": [
+      "Numbers 16:1-33"
+    ]
+  },
+  {
+    "from": "joab",
+    "to": "abner",
+    "label": "murdered him in revenge",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Joab, still bearing a blood-grudge over Abner's earlier killing of his brother Asahel in battle, lured Abner aside under a pretense of peace and murdered him just as Abner was working to unite Israel behind David.",
+    "references": [
+      "2 Samuel 2:18-23",
+      "2 Samuel 3:22-30"
+    ]
+  },
+  {
+    "from": "rezin",
+    "to": "ahaz",
+    "label": "besieged Jerusalem with an ally",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Rezin of Aram allied with Pekah of Israel and marched against Jerusalem intending to depose Ahaz and install a puppet king, besieging the city though unable to take it.",
+    "references": [
+      "2 Kings 16:5",
+      "Isaiah 7:1-6"
+    ]
+  },
+  {
+    "from": "doeg",
+    "to": "ahimelech",
+    "label": "slaughtered him and Nob's priests",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After witnessing Ahimelech give David bread and Goliath's sword and reporting it to Saul, Doeg alone was willing to carry out Saul's order to kill the priests, personally putting Ahimelech and eighty-four other priests of Nob to the sword.",
+    "references": [
+      "1 Samuel 21:1-9",
+      "1 Samuel 22:9-19"
+    ]
+  },
+  {
+    "from": "amaziah-3",
+    "to": "amos",
+    "label": "tried to silence his prophesying",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Amaziah, priest of Bethel's royal shrine, reported Amos to the king as a conspirator and told him directly to flee back to Judah and never prophesy at Bethel again; Amos refused and pronounced a specific judgment on Amaziah's own household in response.",
+    "references": [
+      "Amos 7:10-17"
+    ]
+  },
+  {
+    "from": "ananias-3",
+    "to": "felix",
+    "label": "brought charges against Paul before him",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "High priest Ananias traveled to Caesarea with elders and the attorney Tertullus to formally accuse Paul before governor Felix, charging him with sedition and temple desecration.",
+    "references": [
+      "Acts 24:1-9"
+    ]
+  },
+  {
+    "from": "aquila",
+    "to": "apollos",
+    "label": "explained the way of God more accurately",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Hearing Apollos preach boldly but with only John's baptism as his understanding of the gospel, Aquila and his wife Priscilla took him aside privately and explained the way of God to him more accurately.",
+    "references": [
+      "Acts 18:24-26"
+    ]
+  },
+  {
+    "from": "artaxerxes",
+    "to": "ezra",
+    "label": "commissioned his return to Jerusalem",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "King Artaxerxes granted Ezra silver, gold, temple vessels, and royal authority to lead a return of exiles to Jerusalem, teach the Law of Moses, and appoint judges.",
+    "references": [
+      "Ezra 7:1-26"
+    ]
+  },
+  {
+    "from": "athaliah",
+    "to": "joash-3",
+    "label": "tried to destroy him as an infant",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Athaliah slaughtered the rest of the royal family, including her own grandchildren, to seize the throne, but the infant Joash was secretly hidden from her for six years; when he was revealed and crowned at seven, Athaliah was captured and executed.",
+    "references": [
+      "2 Kings 11:1-16"
+    ]
+  },
+  {
+    "from": "ben-hadad",
+    "to": "baasha",
+    "label": "attacked, forcing him to abandon his fort",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "King Asa of Judah bribed Ben-hadad of Aram to break his alliance with Baasha and attack Israel's northern territory instead, forcing Baasha to abandon his fortification of Ramah on Judah's border.",
+    "references": [
+      "1 Kings 15:16-22"
+    ]
+  },
+  {
+    "from": "barak",
+    "to": "sisera",
+    "label": "routed his army at the Kishon River",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Barak led Israel's forces against Sisera's nine hundred iron chariots at Mount Tabor; the LORD threw Sisera's army into a panic, and Barak's forces routed and destroyed it completely, though Sisera himself escaped on foot before Barak could capture him.",
+    "references": [
+      "Judges 4:14-16"
+    ]
+  },
+  {
+    "from": "bathsheba",
+    "to": "nathan-2",
+    "label": "secured Solomon's throne together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "As David lay old and Adonijah moved to seize the throne, Nathan instructed Bathsheba to remind David of his oath that Solomon would reign, and the two worked together to secure David's public confirmation of Solomon before he died.",
+    "references": [
+      "1 Kings 1:11-31"
+    ]
+  },
+  {
+    "from": "caleb",
+    "to": "joshua",
+    "label": "urged Israel to take the land",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Caleb and Joshua were the only two of the twelve spies who urged Israel to trust God and take Canaan; decades later Caleb, at eighty-five, came to Joshua and asked for the hill country of Hebron as his inheritance, which Joshua granted.",
+    "references": [
+      "Numbers 13:30",
+      "Numbers 14:6-9",
+      "Joshua 14:6-14"
+    ]
+  },
+  {
+    "from": "cyrus",
+    "to": "sheshbazzar",
+    "label": "appointed him to lead the return",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Cyrus appointed Sheshbazzar governor to lead the first return of exiles to Jerusalem and personally counted out to him the 5,400 gold and silver temple vessels Nebuchadnezzar had plundered from Solomon's temple.",
+    "references": [
+      "Ezra 1:8-11"
+    ]
+  },
+  {
+    "from": "korah-3",
+    "to": "dathan",
+    "label": "allied in rebellion against Moses",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Dathan, with his brother Abiram, joined Korah the Levite in leading 250 prominent Israelites in open rebellion against Moses and Aaron; when they refused Moses' summons, the ground opened and swallowed them all alive.",
+    "references": [
+      "Numbers 16:1-33"
+    ]
+  },
+  {
+    "from": "delaiah-5",
+    "to": "elnathan",
+    "label": "urged the king to spare the scroll",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When King Jehoiakim began cutting apart and burning the scroll of Jeremiah's prophecies, Delaiah joined Elnathan and Gemariah in specifically urging him to stop, though the king would not listen to them.",
+    "references": [
+      "Jeremiah 36:24-25"
+    ]
+  },
+  {
+    "from": "shechem",
+    "to": "dinah",
+    "label": "seized and violated her",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Shechem, son of the ruler of the city bearing his family's name, seized Dinah and violated her, then afterward wanted to marry her; her brothers Simeon and Levi later killed him and every man of his city in revenge.",
+    "references": [
+      "Genesis 34:1-2",
+      "Genesis 34:25-26"
+    ]
+  },
+  {
+    "from": "eli",
+    "to": "samuel",
+    "label": "raised him to serve at the tabernacle",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Eli raised the boy Samuel after Hannah brought him to serve at Shiloh's tabernacle, and it was in Eli's own house that Samuel first heard the LORD's voice at night, receiving God's judgment against Eli's own household as his first message.",
+    "references": [
+      "1 Samuel 1:24-28",
+      "1 Samuel 3:1-18"
+    ]
+  },
+  {
+    "from": "eliphaz-2",
+    "to": "job",
+    "label": "accused him of hidden sin",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Eliphaz, the first of Job's three friends to speak, argued that Job's suffering must be punishment for hidden sin, eventually accusing him outright of oppressing widows and orphans; God later rebuked Eliphaz for not speaking rightly about Him and required Job to pray for him.",
+    "references": [
+      "Job 4:7-8",
+      "Job 22:5-9",
+      "Job 42:7-9"
+    ]
+  },
+  {
+    "from": "gabriel",
+    "to": "zacharias",
+    "label": "announced John's birth to him",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "The angel Gabriel appeared to Zacharias in the temple to announce that his barren, aging wife Elizabeth would bear a son, John; when Zacharias asked for proof, Gabriel struck him mute until the promise was fulfilled.",
+    "references": [
+      "Luke 1:11-20"
+    ]
+  },
+  {
+    "from": "geshem",
+    "to": "nehemiah",
+    "label": "threatened him with a false accusation",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Geshem joined Sanballat and Tobiah in mocking and conspiring against Nehemiah's wall-building project, and later joined an attempt to lure Nehemiah away under false pretenses while circulating a letter falsely accusing him of plotting rebellion against Persia.",
+    "references": [
+      "Nehemiah 2:19",
+      "Nehemiah 6:1-7"
+    ]
+  },
+  {
+    "from": "heman-2",
+    "to": "jeduthun",
+    "label": "served together as David's chief musicians",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "David appointed Heman and Jeduthun, together with Asaph, as the three chief musicians over Israel's sanctuary singing, serving jointly at the ark's arrival in Jerusalem and at later temple dedications under Hezekiah and Josiah.",
+    "references": [
+      "1 Chronicles 16:41-42",
+      "1 Chronicles 25:1-6"
+    ]
+  },
+  {
+    "from": "herodias",
+    "to": "john",
+    "label": "orchestrated his execution",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Herodias resented John for publicly denouncing her marriage to Herod Antipas as unlawful, and when her daughter's dance earned her any request she wanted from Herod, Herodias told her to ask for John's head, which Herod then had done.",
+    "references": [
+      "Mark 6:17-28"
+    ]
+  },
+  {
+    "from": "hoglah",
+    "to": "noah-2",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hoglah and her sisters, including Noah, came together before Moses and the leaders of Israel to claim their father Zelophehad's inheritance since he had died with no sons, and God ruled in their favor, establishing a new inheritance law.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "hymenaeus",
+    "to": "philetus",
+    "label": "spread a false teaching about the resurrection",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Paul names Hymenaeus and Philetus together as men who had gone astray from the truth, teaching that the resurrection had already taken place, an error that upset the faith of some believers who heard it.",
+    "references": [
+      "2 Timothy 2:16-18"
+    ]
+  },
+  {
+    "from": "johanan",
+    "to": "ishmael-2",
+    "label": "pursued him after he assassinated Gedaliah",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Ishmael assassinated governor Gedaliah and took captives from Mizpah, Johanan and other commanders pursued him, rescued the captives, and forced Ishmael to flee with only eight men to Ammon.",
+    "references": [
+      "Jeremiah 41:11-15"
+    ]
+  },
+  {
+    "from": "nebuchadnezzar",
+    "to": "jehoiakim",
+    "label": "made him a vassal, then crushed his revolt",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Nebuchadnezzar made Jehoiakim his vassal for three years; when Jehoiakim rebelled, Babylonian-led raiders harassed Judah, and Jehoiakim died as Nebuchadnezzar's forces advanced on Jerusalem.",
+    "references": [
+      "2 Kings 24:1-6"
+    ]
+  },
+  {
+    "from": "jerahmeel-3",
+    "to": "shelemiah-6",
+    "label": "was sent to arrest Jeremiah together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After King Jehoiakim burned Jeremiah's scroll, he sent Jerahmeel, Shelemiah, and Seraiah together to arrest Jeremiah and his scribe Baruch, but the LORD hid them and the arrest failed.",
+    "references": [
+      "Jeremiah 36:26"
+    ]
+  },
+  {
+    "from": "jezebel",
+    "to": "obadiah",
+    "label": "forced him into secret resistance",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Jezebel's campaign to kill the LORD's prophets forced Obadiah, steward of her own husband Ahab's household, to secretly hide a hundred prophets in caves and supply them with food and water at great personal risk.",
+    "references": [
+      "1 Kings 18:3-4"
+    ]
+  },
+  {
+    "from": "zedekiah",
+    "to": "micaiah",
+    "label": "struck him for prophesying Ahab's defeat",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "When Micaiah alone predicted Israel's defeat and Ahab's death against the false optimism of four hundred court prophets, Zedekiah struck him on the cheek and demanded to know how the Spirit had left him to speak instead through Micaiah.",
+    "references": [
+      "1 Kings 22:11-28"
+    ]
+  },
+  {
+    "from": "nebuchadnezzar",
+    "to": "zedekiah-2",
+    "label": "installed, then blinded him for rebelling",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Nebuchadnezzar installed Zedekiah as a vassal king over Judah under a sworn oath of loyalty; when Zedekiah broke the oath and rebelled, Nebuchadnezzar captured him, executed his sons in front of him, then blinded him and carried him to Babylon in chains.",
+    "references": [
+      "2 Kings 24:17-18",
+      "2 Kings 25:6-7"
+    ]
+  },
+  {
+    "from": "regemmelech",
+    "to": "sharezer-2",
+    "label": "asked the priests about the fasts together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Regem-melech and Sharezer were sent together, on behalf of Bethel, to ask the priests and prophets in Jerusalem whether the mourning fasts kept since the temple's destruction should continue now that the exile was ending.",
+    "references": [
+      "Zechariah 7:2-3"
+    ]
+  },
+  {
+    "from": "joel",
+    "to": "abijah",
+    "label": "jointly served as corrupt judges over Israel",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Joel and Abijah, Samuel's two sons, were appointed together as judges over Israel at Beersheba when their father grew old, but both turned aside after dishonest gain, took bribes, and perverted justice -- corruption the elders of Israel cited as their reason for demanding a king.",
+    "references": [
+      "1 Samuel 8:1-5"
+    ]
+  },
+  {
+    "from": "absalom",
+    "to": "amnon",
+    "label": "avenged Tamar by killing him at a feast",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Amnon raped their sister Tamar and David failed to punish him, Absalom waited two years in silence before arranging Amnon's murder at a sheep-shearing feast.",
+    "references": [
+      "2 Samuel 13:1-29"
+    ]
+  },
+  {
+    "from": "adonijah",
+    "to": "solomon",
+    "label": "tried to seize the throne, then was executed",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Adonijah declared himself king while David was still alive, but Nathan and Bathsheba moved quickly to have Solomon anointed instead, undercutting his claim; Solomon spared him once, but had him executed after he later asked for David's attendant Abishag as a wife, a request read as a renewed claim to the throne.",
+    "references": [
+      "1 Kings 1:5-53",
+      "1 Kings 2:13-25"
+    ]
+  },
+  {
+    "from": "festus",
+    "to": "agrippa",
+    "label": "presented Paul's case for his opinion",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Festus used Agrippa's visit to Caesarea to have Paul present his case again, hoping the Jewish king's expertise could help him frame the charges for Rome; afterward Agrippa told Festus privately that Paul had done nothing deserving death and could have been freed had he not appealed to Caesar.",
+    "references": [
+      "Acts 25:13-27",
+      "Acts 26:30-32"
+    ]
+  },
+  {
+    "from": "ahaz",
+    "to": "tiglath-pileser",
+    "label": "paid for help and became his vassal",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Ahaz stripped silver and gold from the temple and palace to send to Tiglath-pileser as tribute, calling himself Assyria's servant and son and begging rescue from Israel and Aram; Tiglath-pileser captured Damascus as requested, but Chronicles notes the alliance afflicted Judah rather than strengthening it.",
+    "references": [
+      "2 Kings 16:7-18",
+      "2 Chronicles 28:20-21"
+    ]
+  },
+  {
+    "from": "hushai",
+    "to": "ahithophel",
+    "label": "was sent to defeat his counsel",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "David sent Hushai to infiltrate Absalom's court specifically to counter Ahithophel's counsel; when Absalom chose Hushai's delaying strategy over Ahithophel's sound advice to attack David immediately, Ahithophel, seeing his counsel rejected, went home and hanged himself.",
+    "references": [
+      "2 Samuel 15:32-34",
+      "2 Samuel 17:1-23"
+    ]
+  },
+  {
+    "from": "amminadab-2",
+    "to": "eliel-7",
+    "label": "was summoned with him to carry the ark",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After Uzzah's death exposed Israel's first attempt to move the ark as unlawful, David called Amminadab and Eliel by name among the Levitical family heads and commanded them to consecrate themselves and carry the ark on their shoulders as the Law required; they obeyed, and the ark entered Jerusalem safely.",
+    "references": [
+      "1 Chronicles 15:9-15"
+    ]
+  },
+  {
+    "from": "andrew",
+    "to": "peter",
+    "label": "brought his brother to Jesus",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "After following Jesus himself at John the Baptist's identification of Him as the Lamb of God, Andrew immediately found his brother Simon and told him, 'We have found the Messiah,' bringing him to Jesus.",
+    "references": [
+      "John 1:35-42"
+    ]
+  },
+  {
+    "from": "priscilla",
+    "to": "apollos",
+    "label": "explained the way of God more accurately",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Priscilla and her husband Aquila heard Apollos preaching boldly in the Ephesus synagogue with only John's baptism, an incomplete understanding of the gospel, and privately explained the way of God more accurately to him; he received the correction without recorded resistance.",
+    "references": [
+      "Acts 18:24-26"
+    ]
+  },
+  {
+    "from": "artaxerxes",
+    "to": "nehemiah",
+    "label": "granted his request to rebuild Jerusalem's walls",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "When Artaxerxes noticed Nehemiah's grief over Jerusalem's broken walls, he asked what Nehemiah wanted and granted his request for leave, safe passage, and timber, later allowing him to serve as governor of Judah for twelve years.",
+    "references": [
+      "Nehemiah 2:1-8",
+      "Nehemiah 5:14"
+    ]
+  },
+  {
+    "from": "azariah-10",
+    "to": "elishaphat",
+    "label": "joined the covenant to overthrow Athaliah",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Azariah son of Obed and Elishaphat son of Zichri were among five commanders of hundreds whom Jehoiada the priest brought into a covenant to end Athaliah's usurped reign; together they gathered Levites and family heads from across Judah to Jerusalem for the coup that crowned the boy-king Joash.",
+    "references": [
+      "2 Chronicles 23:1-11"
+    ]
+  },
+  {
+    "from": "barnabas",
+    "to": "mark",
+    "label": "gave him a second chance after Paul's refusal",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "When Paul refused to bring John Mark on a second missionary journey because he had deserted them partway through the first, Barnabas insisted, and the disagreement split the two men, with Barnabas taking his cousin Mark to Cyprus instead; Paul later called Mark useful to him for service, suggesting Barnabas's confidence in him was vindicated.",
+    "references": [
+      "Acts 15:36-41",
+      "2 Timothy 4:11"
+    ]
+  },
+  {
+    "from": "caleb",
+    "to": "othniel",
+    "label": "offered Achsah in marriage to Kiriath-sepher's captor",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Caleb promised his daughter Achsah to whoever would capture Kiriath-sepher; Othniel, son of Caleb's younger brother Kenaz, took the city and won her hand, and Caleb later granted Achsah's request for springs of water to go with her land.",
+    "references": [
+      "Joshua 15:16-19",
+      "Judges 1:12-13"
+    ]
+  },
+  {
+    "from": "david",
+    "to": "uriah",
+    "label": "arranged his death to hide his adultery",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After committing adultery with Uriah's wife Bathsheba, David brought Uriah home hoping he would sleep with her to disguise the child's parentage; when Uriah's loyalty to his fellow soldiers foiled the plan, David sent him back to the front carrying his own death sentence, and Joab had him killed at the fiercest point of battle.",
+    "references": [
+      "2 Samuel 11:6-17"
+    ]
+  },
+  {
+    "from": "delaiah-5",
+    "to": "gemariah",
+    "label": "urged the king to spare the scroll",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Jehoiakim began cutting apart and burning the scroll of Jeremiah's prophecies as it was read to him, Delaiah joined Gemariah and Elnathan in specifically urging the king not to burn it, though he would not listen to them.",
+    "references": [
+      "Jeremiah 36:21-25"
+    ]
+  },
+  {
+    "from": "ebed-melech",
+    "to": "jeremiah-6",
+    "label": "rescued him from the cistern",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Ebed-Melech pleaded with King Zedekiah on Jeremiah's behalf and then personally organized thirty men to draw the prophet out of the muddy cistern where he had been left to die, cushioning the ropes with old rags so they would not cut him; God later sent Jeremiah to promise Ebed-Melech his life would be spared when Jerusalem fell, because he had trusted in the LORD.",
+    "references": [
+      "Jeremiah 38:7-13",
+      "Jeremiah 39:15-18"
+    ]
+  },
+  {
+    "from": "eliakim",
+    "to": "joah",
+    "label": "received Sennacherib's ultimatum together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Eliakim the palace administrator and Joah the recorder, together with Shebna, were sent out to meet the Assyrian field commander Rabshakeh at the wall during Sennacherib's siege; both tore their clothes in distress and reported his threats faithfully back to Hezekiah.",
+    "references": [
+      "2 Kings 18:18-37"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "gehazi",
+    "label": "cursed him with Naaman's leprosy for deceit",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Gehazi served as Elisha's attendant throughout his ministry, but after Elisha refused any payment for healing Naaman of leprosy, Gehazi secretly pursued Naaman with a fabricated story to extract silver and clothing for himself; when Gehazi lied about it, Elisha revealed he had seen it all and pronounced that Naaman's leprosy would cling to Gehazi and his descendants forever.",
+    "references": [
+      "2 Kings 5:20-27"
+    ]
+  },
+  {
+    "from": "elzaphan",
+    "to": "mishael",
+    "label": "carried Nadab and Abihu's bodies out together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After Aaron's sons Nadab and Abihu were struck dead for offering unauthorized fire before the LORD, Moses called Elzaphan and his brother Mishael by name and ordered them to carry the bodies outside the camp, since Aaron and his remaining sons were forbidden from the normal rites of mourning; the two obeyed immediately.",
+    "references": [
+      "Leviticus 10:1-5"
+    ]
+  },
+  {
+    "from": "sanballat",
+    "to": "geshem",
+    "label": "conspired to intimidate Nehemiah together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Geshem the Arab and Sanballat the Horonite jointly mocked and opposed Nehemiah's wall-building from its outset, and near the wall's completion tried together to lure Nehemiah away for a staged meeting while circulating a letter falsely accusing him of plotting rebellion against Persia.",
+    "references": [
+      "Nehemiah 6:1-7"
+    ]
+  },
+  {
+    "from": "sennacherib",
+    "to": "hezekiah",
+    "label": "besieged Jerusalem and demanded his surrender",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Sennacherib invaded Judah and sent his field commander Rabshakeh to threaten Jerusalem, equating the LORD with the defeated gods of nations Assyria had already conquered; Hezekiah spread the threatening letter before the LORD in prayer, and that night the angel of the LORD struck down 185,000 in the Assyrian camp, forcing Sennacherib to withdraw in disgrace.",
+    "references": [
+      "2 Kings 18:13-19:37"
+    ]
+  },
+  {
+    "from": "hoglah",
+    "to": "tirzah",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hoglah and Tirzah, with their sisters Mahlah, Noah, and Milcah, came before Moses and the leaders of Israel to argue it was unjust for their father Zelophehad's name to be lost from his clan simply because he had no son; the LORD ruled in their favor and established a permanent inheritance statute because of their appeal.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "isaac",
+    "to": "rebekah",
+    "label": "married her, then was deceived into blessing Jacob",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Rebekah was identified as Isaac's wife through his father's servant's prayer at a well, and Isaac loved her; years later, when Isaac intended to bless his firstborn Esau, Rebekah orchestrated a deception -- dressing Jacob in Esau's clothing so that Isaac, now blind, would bless Jacob instead.",
+    "references": [
+      "Genesis 24:15-67",
+      "Genesis 27:5-29"
+    ]
+  },
+  {
+    "from": "laban",
+    "to": "israel",
+    "label": "traded deceptions with Jacob for twenty years",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Laban tricked Jacob into marrying Leah before Rachel and changed his wages ten times over twenty years of service; when Jacob finally fled without warning, Laban pursued him and confronted him over his stolen household idols before the two settled their tension with a covenant and a pillar of stones at Mizpah.",
+    "references": [
+      "Genesis 29:15-30",
+      "Genesis 31:1-55"
+    ]
+  },
+  {
+    "from": "japheth",
+    "to": "shem",
+    "label": "covered Noah's nakedness together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After Ham saw their father Noah lying naked and drunk and told his brothers instead of covering him, Shem and Japheth took a garment, walked in backward, and covered Noah without looking, an act of honor Noah later blessed in both of them.",
+    "references": [
+      "Genesis 9:20-27"
+    ]
+  },
+  {
+    "from": "jehosheba",
+    "to": "joash-3",
+    "label": "rescued him from Athaliah's massacre",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "When Athaliah seized the throne and slaughtered the rest of the royal family, Jehosheba stole the infant Joash away and hid him with his nurse in the temple for six years until her husband Jehoiada orchestrated his public coronation as king.",
+    "references": [
+      "2 Kings 11:1-16"
+    ]
+  },
+  {
+    "from": "rehoboam",
+    "to": "jeroboam",
+    "label": "split the kingdom with his harsh answer",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "When Rehoboam rejected his elders' counsel and threatened to rule even more harshly than Solomon, the ten northern tribes rebelled and crowned Jeroboam king over Israel, leaving Rehoboam only Judah and Benjamin -- an event Scripture calls a turn of events from the LORD fulfilling judgment on Solomon's idolatry.",
+    "references": [
+      "1 Kings 12:1-24"
+    ]
+  },
+  {
+    "from": "joah",
+    "to": "shebna",
+    "label": "received Sennacherib's ultimatum together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Joah the recorder and Shebna, by then reduced from steward to secretary, were sent out together with Eliakim to meet the Assyrian field commander Rabshakeh during Sennacherib's siege, and together tore their clothes and reported his threats back to Hezekiah.",
+    "references": [
+      "2 Kings 18:18-37"
+    ]
+  },
+  {
+    "from": "joseph-7",
+    "to": "nicodemus",
+    "label": "buried Jesus's body together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After Joseph of Arimathea gathered courage to ask Pilate for Jesus's body, Nicodemus joined him, bringing about seventy-five pounds of myrrh and aloes, and together they wrapped the body in linen with spices and laid it in Joseph's new, unused tomb.",
+    "references": [
+      "John 19:38-42"
+    ]
+  },
+  {
+    "from": "leah",
+    "to": "rachel",
+    "label": "competed as co-wives for Jacob's love",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Leah was substituted for Rachel on Jacob's wedding night through their father's deception, and though Jacob loved Rachel more, God gave Leah four sons in succession while Rachel remained barren; the sisters later bargained over their servant's mandrakes in an ongoing contest for children by their shared husband.",
+    "references": [
+      "Genesis 29:16-35",
+      "Genesis 30:1-21"
+    ]
+  },
+  {
+    "from": "martha",
+    "to": "mary-2",
+    "label": "hosted Jesus and mourned Lazarus together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Martha complained to Jesus that her sister Mary had left her to do all the hosting work alone, and Jesus commended Mary's choice instead; when Lazarus died, Martha went out first to meet Jesus, then went back and told Mary privately that the Teacher was asking for her, and Mary went to Him with the same words of grief Martha had used.",
+    "references": [
+      "Luke 10:38-42",
+      "John 11:20-32"
+    ]
+  },
+  {
+    "from": "milcah-2",
+    "to": "noah-2",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Milcah and Noah, with their sisters Mahlah, Hoglah, and Tirzah, came before Moses and the leaders of Israel to argue it was unjust for their father Zelophehad's name to be lost from his clan simply because he had no son; the LORD ruled in their favor and established a permanent inheritance statute because of their appeal.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "nebushazban",
+    "to": "nergal-sar-ezer-2",
+    "label": "freed Jeremiah and sent him to Gedaliah",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After Jerusalem fell, Nebuchadnezzar ordered that Jeremiah, imprisoned by Judah's own officials for urging surrender, be sought out and cared for rather than deported; Nebushazban and Nergal-sar-ezer were named among the officials, alongside Nebuzaradan, who carried out that order and entrusted Jeremiah to the newly appointed governor Gedaliah.",
+    "references": [
+      "Jeremiah 39:11-14"
+    ]
+  },
+  {
+    "from": "nicolas",
+    "to": "parmenas",
+    "label": "were chosen together as two of the seven",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Greek-speaking widows were being overlooked in the daily distribution, the Jerusalem church selected Nicolas and Parmenas along with Stephen, Philip, Prochorus, Nicanor, and Timon as the seven men entrusted with the task, and the apostles prayed and laid hands on all of them together.",
+    "references": [
+      "Acts 6:1-6"
+    ]
+  },
+  {
+    "from": "paul",
+    "to": "stephen",
+    "label": "approved of and watched his stoning",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Saul (later Paul) was present at Stephen's execution, approving of his death and watching the coats of those who stoned him -- an act he later described with shame as part of his violent persecution of the church before his conversion.",
+    "references": [
+      "Acts 7:58",
+      "Acts 8:1"
+    ]
+  },
+  {
+    "from": "shishak",
+    "to": "rehoboam",
+    "label": "invaded Judah and plundered the temple",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "In Rehoboam's fifth year, Pharaoh Shishak invaded Judah with a massive force because the kingdom had been unfaithful to the LORD, and though Rehoboam's humbling spared Jerusalem from destruction, Shishak still plundered the temple and palace treasures, including the gold shields Solomon had made.",
+    "references": [
+      "1 Kings 14:25-28",
+      "2 Chronicles 12:1-12"
+    ]
+  },
+  {
+    "from": "shemaiah",
+    "to": "shishak",
+    "label": "prophesied his invasion as judgment",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "When Rehoboam's kingdom abandoned the law of the LORD, the prophet Shemaiah delivered God's word that Pharaoh Shishak would invade because of Judah's unfaithfulness; after Rehoboam and Judah's leaders humbled themselves, Shemaiah brought a second word that God would spare them from full destruction, though Shishak would still be allowed to plunder some of Jerusalem's wealth.",
+    "references": [
+      "2 Chronicles 12:1-8"
+    ]
+  },
+  {
+    "from": "abimelech",
+    "to": "isaac",
+    "label": "made a peace covenant after his deception",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "King Abimelech of Gerar discovered that Isaac had deceived him by calling Rebekah his sister when he saw Isaac caressing her, but rather than harm them he issued royal protection over the couple. After later friction between their herdsmen over wells, Abimelech came to Isaac at Beersheba and the two swore a mutual oath of peace, sealed with a shared feast.",
+    "references": [
+      "Genesis 26:1-11",
+      "Genesis 26:26-33"
+    ]
+  },
+  {
+    "from": "joab",
+    "to": "absalom",
+    "label": "killed him against David's direct order",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Joab had earlier arranged Absalom's return from exile through an elaborate ruse, but when Absalom's revolt against David failed and he hung suspended by his hair in an oak tree, Joab disregarded David's express command to deal gently with him and thrust three spears through his heart.",
+    "references": [
+      "2 Samuel 14:1-33",
+      "2 Samuel 18:9-15"
+    ]
+  },
+  {
+    "from": "ahab",
+    "to": "naboth",
+    "label": "seized his vineyard after his false execution",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Naboth refused to sell or trade his ancestral vineyard, Ahab sulked until Jezebel arranged for false witnesses to accuse Naboth of cursing God and the king, resulting in his execution by stoning; Ahab then went and took possession of the vineyard himself.",
+    "references": [
+      "1 Kings 21:1-16"
+    ]
+  },
+  {
+    "from": "jonadab",
+    "to": "amnon",
+    "label": "devised the scheme to trap Tamar",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Jonadab, described as very shrewd, noticed Amnon's lovesick frustration over Tamar and advised him to feign illness so David would send her to his room alone to prepare food, a plan Amnon carried out exactly, using the access it created to rape her.",
+    "references": [
+      "2 Samuel 13:3-14"
+    ]
+  },
+  {
+    "from": "andrew",
+    "to": "philip",
+    "label": "relayed the Greeks' request to see Jesus",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Greeks at the Passover feast asked to see Jesus, they came to Philip first; Philip told Andrew, and the two brought the request to Jesus together.",
+    "references": [
+      "John 12:20-22"
+    ]
+  },
+  {
+    "from": "baasha",
+    "to": "asa",
+    "label": "fortified Ramah to blockade Judah",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Baasha warred continually with Asa and began fortifying Ramah to cut off Judah's border; Asa responded by emptying the temple treasury to bribe Ben-hadad of Aram into breaking his treaty with Israel and attacking Baasha's territory instead, forcing him to abandon the project.",
+    "references": [
+      "1 Kings 15:16-22",
+      "2 Chronicles 16:1-6"
+    ]
+  },
+  {
+    "from": "azariah-11",
+    "to": "berechiah-4",
+    "label": "rescued Judah's captives together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Azariah and Berechiah, two of four Ephraimite chiefs, together confronted Israel's returning army after its victory over Judah, insisting the captured women and children not be enslaved; the two then personally helped clothe, feed, and escort the freed captives back home to Jericho.",
+    "references": [
+      "2 Chronicles 28:12-15"
+    ]
+  },
+  {
+    "from": "barnabas",
+    "to": "paul",
+    "label": "partnered in missions, then split over Mark",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Barnabas vouched for the newly converted Saul before the fearful Jerusalem church, then brought him to Antioch to teach for a year and became his partner on the first missionary journey; the partnership later fractured sharply when Paul refused to bring John Mark on a second journey and the two separated, Barnabas taking Mark to Cyprus while Paul chose Silas.",
+    "references": [
+      "Acts 9:26-28",
+      "Acts 11:25-26",
+      "Acts 13:1-3",
+      "Acts 15:36-39"
+    ]
+  },
+  {
+    "from": "festus",
+    "to": "bernice",
+    "label": "heard Paul's case and agreed he was innocent",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Bernice accompanied her brother Agrippa to greet the newly arrived governor Festus with great pomp, then sat with him through Paul's extended testimony; afterward the two conferred privately with Festus and agreed together that Paul had done nothing deserving death or imprisonment.",
+    "references": [
+      "Acts 25:13-23",
+      "Acts 26:30-32"
+    ]
+  },
+  {
+    "from": "boaz",
+    "to": "naomi",
+    "label": "redeemed her family's land through Ruth",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "At the city gate, Boaz publicly identified the land as belonging to Naomi and her late husband Elimelech, secured the right to redeem it, and married Ruth to preserve Elimelech's name and inheritance; the women of Bethlehem later told Naomi that a son (Obed) had been born to her through this act.",
+    "references": [
+      "Ruth 4:1-17"
+    ]
+  },
+  {
+    "from": "daniel-2",
+    "to": "meshach",
+    "label": "requested his promotion in Babylon",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "After Daniel interpreted Nebuchadnezzar's dream, he specifically asked the king to appoint his three companions, including Meshach, over the administration of the province of Babylon, and the king granted the request.",
+    "references": [
+      "Daniel 1:6-7",
+      "Daniel 2:49"
+    ]
+  },
+  {
+    "from": "delilah",
+    "to": "samson",
+    "label": "wore him down, then betrayed him",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Bribed by the Philistine lords, Delilah repeatedly pressed Samson to reveal the source of his strength; after three false answers, his persistent annoyance led him to tell her the truth about his uncut Nazirite hair, and she had it shaved off while he slept, handing him over to the Philistines who blinded and imprisoned him.",
+    "references": [
+      "Judges 16:4-21"
+    ]
+  },
+  {
+    "from": "ehud",
+    "to": "eglon",
+    "label": "assassinated him with a hidden sword",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Ehud gained a private audience with Eglon under the pretense of delivering a secret message from God, then drove a concealed double-edged sword into the king's belly, killing him and escaping before the body was discovered, which broke Moab's eighteen-year oppression of Israel.",
+    "references": [
+      "Judges 3:15-26"
+    ]
+  },
+  {
+    "from": "eliakim",
+    "to": "shebna",
+    "label": "received Sennacherib's ultimatum together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Isaiah had prophesied that God would remove Shebna from his office as palace steward and replace him with Eliakim; by the time of Sennacherib's siege, the two served together with Joah as Hezekiah's delegation to the Assyrian field commander Rabshakeh at Jerusalem's wall, then jointly reported the threat to the king.",
+    "references": [
+      "Isaiah 22:15-23",
+      "2 Kings 18:18-37"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "hazael",
+    "label": "wept while foretelling his future atrocities",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "When Ben-hadad sent Hazael to ask Elisha whether he would recover from illness, Elisha stared at him until he was ashamed, then wept, foreseeing the violence Hazael would inflict on Israel as king; Hazael returned and smothered Ben-hadad to take the throne himself.",
+    "references": [
+      "2 Kings 8:7-15"
+    ]
+  },
+  {
+    "from": "evil-merodach",
+    "to": "jehoiachin",
+    "label": "released him and honored him at his table",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "In the first year of his reign, Evil-merodach freed Jehoiachin, the exiled king of Judah, after thirty-seven years of imprisonment, spoke kindly to him, gave him new garments and a seat above other captive kings, and provided him a permanent place at the royal table with a regular allowance for the rest of his life.",
+    "references": [
+      "2 Kings 25:27-30"
+    ]
+  },
+  {
+    "from": "gamaliel-2",
+    "to": "paul",
+    "label": "trained young Saul in the law",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Paul later described himself as having been educated under Gamaliel, a respected Pharisee and teacher of the law, strictly according to the law of the fathers, before his conversion and subsequent ministry.",
+    "references": [
+      "Acts 22:3"
+    ]
+  },
+  {
+    "from": "huldah",
+    "to": "hilkiah-2",
+    "label": "delivered God's word to his delegation",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "After Hilkiah discovered the Book of the Law during temple repairs, Josiah sent him and other officials to inquire of the LORD through the prophetess Huldah, who confirmed the coming judgment on Jerusalem for its idolatry but promised Josiah personally would be spared from seeing it because of his humble response.",
+    "references": [
+      "2 Kings 22:14-20"
+    ]
+  },
+  {
+    "from": "zophar",
+    "to": "job",
+    "label": "accused him of hidden sin",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Zophar bluntly told the suffering Job that God was punishing him less than his sin deserved and later described in vivid detail the destruction awaiting the wicked, wrongly assuming Job's suffering proved his guilt; God later rebuked Zophar along with Job's other two friends for not speaking rightly of Him, requiring a sacrifice and Job's intercession before restoring them.",
+    "references": [
+      "Job 11:1-20",
+      "Job 20:1-29",
+      "Job 42:7-9"
+    ]
+  },
+  {
+    "from": "lois",
+    "to": "timothy",
+    "label": "passed on the faith that shaped him",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Paul told Timothy that the sincere faith within him had first dwelt in his grandmother Lois before being passed down through his mother Eunice, crediting Lois as the source of the family's faith that shaped Timothy's own familiarity with Scripture from childhood.",
+    "references": [
+      "2 Timothy 1:5",
+      "2 Timothy 3:15"
+    ]
+  },
+  {
+    "from": "milcah-2",
+    "to": "tirzah",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Milcah and Tirzah, together with their three sisters, brought a joint legal claim before Moses, Eleazar, and Israel's leaders that their father Zelophehad's inheritance should not be lost simply because he had no sons; God ruled in their favor and established a permanent inheritance statute because of their case.",
+    "references": [
+      "Numbers 27:1-11",
+      "Numbers 36:1-12"
+    ]
+  },
+  {
+    "from": "sanballat",
+    "to": "nehemiah",
+    "label": "mocked and plotted against his wall-building",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Sanballat mocked Nehemiah's rebuilding effort from the start, escalated to ridiculing the workmanship, conspired to attack Jerusalem by surprise, tried four times to lure Nehemiah into a trap at Ono, and finally sent a letter falsely accusing him of plotting rebellion - every scheme was refused or overcome, and the wall was finished in fifty-two days.",
+    "references": [
+      "Nehemiah 2:10-19",
+      "Nehemiah 4:1-18",
+      "Nehemiah 6:1-14"
+    ]
+  },
+  {
+    "from": "pekah",
+    "to": "pekahiah",
+    "label": "assassinated him and seized his throne",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Pekah, one of Pekahiah's own military officers, conspired with fifty men of Gilead and struck Pekahiah down inside the citadel of the royal palace in Samaria along with two other officials, then took the throne of Israel for himself.",
+    "references": [
+      "2 Kings 15:25"
+    ]
+  },
+  {
+    "from": "rehum-2",
+    "to": "shimshai",
+    "label": "co-authored a letter halting Jerusalem's rebuilding",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Rehum the commander and Shimshai the scribe jointly wrote to King Artaxerxes warning that rebuilding Jerusalem's walls would lead to rebellion; once the king ordered the work stopped, the two of them went to Jerusalem together and compelled the workers to halt by force.",
+    "references": [
+      "Ezra 4:8-23"
+    ]
+  },
+  {
+    "from": "zalmunna",
+    "to": "zebah",
+    "label": "were captured together and executed by Gideon",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Zalmunna and Zebah led Midian's remaining forces in flight together after Gideon's rout, were captured together at Karkor, and when questioned together admitted to killing Gideon's brothers at Tabor; both then asked Gideon to execute them himself rather than die at his frightened son's hand, and he did.",
+    "references": [
+      "Judges 8:10-21"
+    ]
+  },
+  {
+    "from": "adonijah",
+    "to": "abiathar",
+    "label": "recruited him for his bid for the throne",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Adonijah gathered the support of Joab and the priest Abiathar for his attempt to make himself king while David lay dying, holding a public coronation feast with their backing; when Solomon was anointed instead, Abiathar's involvement cost him his priesthood once Solomon secured the throne.",
+    "references": [
+      "1 Kings 1:5-10",
+      "1 Kings 1:19",
+      "1 Kings 2:26-27"
+    ]
+  },
+  {
+    "from": "abimelech",
+    "to": "rebekah",
+    "label": "protected her and Isaac after their deception",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "After Abimelech saw Isaac caressing Rebekah and realized Isaac had lied that she was only his sister, he did not harm either of them but issued a decree that anyone who touched Isaac or his wife would be put to death, later making peace with Isaac over a dispute about wells.",
+    "references": [
+      "Genesis 26:1-11",
+      "Genesis 26:26-33"
+    ]
+  },
+  {
+    "from": "adrammelech",
+    "to": "sharezer",
+    "label": "joined in assassinating their father",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Adrammelech and Sharezer, sons of Sennacherib, together struck down their father with the sword while he worshiped his god Nisroch in Nineveh, then fled to Ararat -- an act Scripture frames as the exact fulfillment of Isaiah's earlier prophecy that Sennacherib would fall by the sword in his own land.",
+    "references": [
+      "2 Kings 19:36-37",
+      "Isaiah 37:37-38"
+    ]
+  },
+  {
+    "from": "ahasuerus",
+    "to": "esther",
+    "label": "married her, then spared her people",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Ahasuerus chose Esther as queen after an empire-wide search, and when she risked her life by approaching him uninvited to expose Haman's plot to destroy the Jews, he had Haman executed and allowed the Jews to defend themselves against the standing decree.",
+    "references": [
+      "Esther 2:1-17",
+      "Esther 5:1-8",
+      "Esther 7:1-10",
+      "Esther 8:1-17"
+    ]
+  },
+  {
+    "from": "jehu-2",
+    "to": "ahaziah-2",
+    "label": "mortally wounded him during his purge",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Jehu struck down King Joram of Israel at Jezreel as part of his God-commissioned purge of Ahab's dynasty, Ahaziah of Judah, who had been visiting Joram, fled but was pursued by Jehu's men and mortally wounded near Ibleam, dying soon after at Megiddo.",
+    "references": [
+      "2 Kings 9:16-28",
+      "2 Chronicles 22:7-9"
+    ]
+  },
+  {
+    "from": "joab",
+    "to": "amasa",
+    "label": "murdered him with a feigned greeting kiss",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When David gave Amasa command of the army in Joab's place, Joab met Amasa at Gibeon, took hold of his beard as if to kiss him, and stabbed him fatally with a concealed sword, an act of premeditated murder David later charged Solomon to hold Joab accountable for.",
+    "references": [
+      "2 Samuel 20:8-13",
+      "1 Kings 2:5",
+      "1 Kings 2:32"
+    ]
+  },
+  {
+    "from": "amnon",
+    "to": "tamar-2",
+    "label": "raped his half-sister after feigning illness",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Amnon feigned sickness on his cousin Jonadab's advice to get Tamar alone under the pretext of wanting her to prepare food for him, then raped her despite her explicit pleas, and immediately afterward threw her out of his house in hatred greater than his earlier obsession.",
+    "references": [
+      "2 Samuel 13:1-17"
+    ]
+  },
+  {
+    "from": "asa",
+    "to": "ben-hadad",
+    "label": "bribed him to break his treaty with Israel",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When King Baasha of Israel fortified Ramah to blockade Judah, Asa emptied the temple and palace treasuries to send Ben-hadad of Aram a bribe, persuading him to break his existing treaty with Baasha and attack Israel's northern territory instead, which forced Baasha to abandon the project.",
+    "references": [
+      "1 Kings 15:18-22",
+      "2 Chronicles 16:1-6"
+    ]
+  },
+  {
+    "from": "baasha",
+    "to": "nadab-2",
+    "label": "assassinated him and seized his throne",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "While Nadab and Israel's army were besieging the Philistine city of Gibbethon, Baasha conspired against him, struck him down, and then wiped out the rest of Jeroboam's household, fulfilling the prophet Ahijah's earlier judgment against that dynasty.",
+    "references": [
+      "1 Kings 15:27-29"
+    ]
+  },
+  {
+    "from": "bezalel",
+    "to": "oholiab",
+    "label": "built the tabernacle together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "God specifically appointed Bezalel of Judah and Oholiab of Dan together to design and construct the tabernacle and its furnishings, giving both the skill and the ability to teach other craftsmen, and Bezalel directed the combined effort until the work was finished exactly as the LORD had shown Moses.",
+    "references": [
+      "Exodus 31:1-6",
+      "Exodus 35:30-35",
+      "Exodus 36:1-2"
+    ]
+  },
+  {
+    "from": "daniel-2",
+    "to": "shadrach",
+    "label": "resolved together not to defile themselves",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Daniel and Shadrach (Hananiah), taken to Babylon together as young Judean nobles, jointly resolved not to defile themselves with the king's food and were given surpassing wisdom as a result; Daniel later requested that Shadrach and his two companions be appointed to administer the province of Babylon.",
+    "references": [
+      "Daniel 1:6-20",
+      "Daniel 2:49"
+    ]
+  },
+  {
+    "from": "debir",
+    "to": "japhia",
+    "label": "allied against Gibeon, executed with him",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Debir of Eglon and Japhia of Lachish joined Adoni-zedek's coalition of five Amorite kings against Gibeon, fled together when the LORD routed their armies before Joshua, hid together in the same cave at Makkedah, and were brought out and put to death together.",
+    "references": [
+      "Joshua 10:1-27"
+    ]
+  },
+  {
+    "from": "zimri-2",
+    "to": "elah-2",
+    "label": "assassinated him while drunk and seized his throne",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "While Elah was drinking himself drunk at the house of his palace steward Arza, Zimri, commander of half his chariots, struck him down and killed him, then seized the throne and exterminated the rest of Baasha's household.",
+    "references": [
+      "1 Kings 16:8-10"
+    ]
+  },
+  {
+    "from": "eliashib-7",
+    "to": "tobiah",
+    "label": "gave him a room in the temple",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Eliashib the high priest, related to Tobiah the Ammonite by marriage, gave him a large room inside the temple courts that had been used to store the Levites' tithes and offerings, a compromise Nehemiah discovered on his return and reversed by throwing out Tobiah's belongings and having the room purified.",
+    "references": [
+      "Nehemiah 13:4-9"
+    ]
+  },
+  {
+    "from": "elisha",
+    "to": "naaman-2",
+    "label": "healed his leprosy through the Jordan",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "Elisha refused to even meet Naaman in person, sending a messenger with simple instructions to wash seven times in the Jordan; after Naaman's initial fury gave way to humility, he was healed, declared there was no God in all the earth but in Israel, and asked to take Israelite soil home to worship the LORD.",
+    "references": [
+      "2 Kings 5:1-19"
+    ]
+  },
+  {
+    "from": "israel",
+    "to": "esau",
+    "label": "deceived him out of his birthright",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Jacob first bought Esau's birthright for a bowl of stew, then, disguised at his mother Rebekah's urging, deceived their blind father into giving him Esau's intended blessing, provoking Esau to vow to kill him once Isaac died; two decades later the brothers reunited peacefully, Esau running to embrace and weep over Jacob instead of taking revenge.",
+    "references": [
+      "Genesis 25:29-34",
+      "Genesis 27:1-41",
+      "Genesis 33:1-4"
+    ]
+  },
+  {
+    "from": "ishmael-2",
+    "to": "gedaliah",
+    "label": "assassinated him at a meal in Mizpah",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Ishmael, a man of royal Davidic blood acting for the king of Ammon, was received as a guest at a meal by Gedaliah, the governor Babylon had appointed over Judah's remnant, and then rose up and murdered him along with the soldiers stationed with him, even though Gedaliah had been warned of the plot beforehand and refused to act on it.",
+    "references": [
+      "Jeremiah 40:13-16",
+      "Jeremiah 41:1-3"
+    ]
+  },
+  {
+    "from": "hadadezer",
+    "to": "shobach",
+    "label": "commissioned him to lead his coalition",
+    "type": "mentorship",
+    "mutual": false,
+    "note": "When Ammon's hired Aramean mercenaries were routed by Joab, Hadadezer of Zobah summoned additional troops from beyond the Euphrates and put his commander Shobach in charge of a second attempt against Israel, but David personally led Israel's army to victory at Helam, where Shobach was struck down and killed.",
+    "references": [
+      "2 Samuel 10:15-18",
+      "1 Chronicles 19:16-18"
+    ]
+  },
+  {
+    "from": "hanani-4",
+    "to": "nehemiah",
+    "label": "brought the report that launched his mission",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hanani, Nehemiah's brother, reported to him in Susa that Jerusalem's wall was broken down and its gates burned, news that drove Nehemiah to days of weeping, fasting, and prayer before he sought the king's permission to rebuild the city; once the wall was finished, Nehemiah placed Hanani in charge of Jerusalem specifically because he was faithful and feared God.",
+    "references": [
+      "Nehemiah 1:2-3",
+      "Nehemiah 7:2"
+    ]
+  },
+  {
+    "from": "herod",
+    "to": "joseph-6",
+    "label": "sought to kill the infant Jesus",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After learning from the magi that a king had been born in Bethlehem, Herod secretly planned to have the child killed under the pretense of wanting to worship Him; warned in a dream, Joseph fled with Mary and Jesus to Egypt by night, and Herod, finding he had been outwitted, ordered the massacre of Bethlehem's young boys instead.",
+    "references": [
+      "Matthew 2:1-16"
+    ]
+  },
+  {
+    "from": "hilkiah-2",
+    "to": "josiah",
+    "label": "brought him the newly found Book of the Law",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "While overseeing Josiah's temple repairs, Hilkiah found the Book of the Law and had it read to the king, whose grief over Judah's neglect of it led him to send Hilkiah to consult the prophetess Huldah; Hilkiah then stood alongside Josiah through the public covenant renewal and the destruction of idols throughout Judah.",
+    "references": [
+      "2 Kings 22:3-20",
+      "2 Kings 23:1-4"
+    ]
+  },
+  {
+    "from": "hoham",
+    "to": "piram",
+    "label": "allied against Gibeon, executed with him",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hoham of Hebron and Piram of Jarmuth joined Adoni-zedek's coalition of five Amorite kings against Gibeon, fled together when the LORD routed their armies before Joshua, hid together in the same cave at Makkedah, and were brought out and put to death together.",
+    "references": [
+      "Joshua 10:1-27"
+    ]
+  },
+  {
+    "from": "isaiah",
+    "to": "sennacherib",
+    "label": "prophesied his defeat and death",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "When Sennacherib's field commander mocked the LORD and demanded Jerusalem's surrender, Isaiah sent word to Hezekiah that Sennacherib would not take the city and would return home to fall by the sword; both came to pass, first when the angel of the LORD struck down his army, and then when his own sons assassinated him in Nineveh.",
+    "references": [
+      "2 Kings 19:5-7",
+      "2 Kings 19:32-37"
+    ]
+  },
+  {
+    "from": "jezreel-2",
+    "to": "jehu-2",
+    "label": "his name prophesied judgment on Jehu's line",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "God commanded Hosea to name his newborn son Jezreel specifically because He would soon punish the house of Jehu for the bloodshed at Jezreel and bring an end to the kingdom of Israel, making the boy's very name a standing prophetic sentence against Jehu's line.",
+    "references": [
+      "Hosea 1:3-4"
+    ]
+  },
+  {
+    "from": "samuel",
+    "to": "jesse",
+    "label": "came to anoint one of his sons",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Samuel arrived in Bethlehem under God's direction to anoint Israel's next king, Jesse paraded seven of his sons before him, none of whom God chose, and only when Samuel asked if there were more did Jesse send for his youngest son David, tending sheep, who was anointed on the spot.",
+    "references": [
+      "1 Samuel 16:1-13"
+    ]
+  },
+  {
+    "from": "jucal",
+    "to": "shephatiah-8",
+    "label": "demanded Jeremiah's death together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Jucal son of Shelemiah and Shephatiah son of Mattan, together with two other royal officials, told King Zedekiah that Jeremiah's prophecies of Jerusalem's fall were demoralizing the city's defenders and should be punished by death, and the king let them lower Jeremiah into a cistern to die, until Ebed-melech intervened to save him.",
+    "references": [
+      "Jeremiah 38:1-13"
+    ]
+  },
+  {
+    "from": "mahlah",
+    "to": "milcah-2",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Mahlah and Milcah, two of Zelophehad's five daughters, came together with their sisters before Moses, Eleazar, and the whole congregation to ask for a possession among their father's brothers since he had died with no sons, and the LORD ruled in their favor, establishing a permanent inheritance statute for Israel.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "menahem",
+    "to": "shallum",
+    "label": "killed him after his one-month reign",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Only a month after Shallum had assassinated Zechariah and taken Israel's throne, Menahem marched from Tirzah to Samaria, attacked and killed him, and reigned in his place for ten years.",
+    "references": [
+      "2 Kings 15:13-14"
+    ]
+  },
+  {
+    "from": "naomi",
+    "to": "orpah",
+    "label": "urged her to return to Moab",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After the deaths of her husband and both sons, Naomi released her daughters-in-law Orpah and Ruth from any further obligation and urged them to return to their own mothers' homes and find new husbands; Orpah wept, kissed Naomi goodbye, and went back to Moab and her own gods, while Ruth alone stayed.",
+    "references": [
+      "Ruth 1:6-14"
+    ]
+  },
+  {
+    "from": "tobiah",
+    "to": "nehemiah",
+    "label": "mocked and plotted against his wall-building",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Tobiah the Ammonite official joined Sanballat in mocking, threatening, and plotting against Nehemiah's rebuilding of Jerusalem's wall from its earliest stages; years later, discovering that the high priest Eliashib had given Tobiah a room inside the temple courts, Nehemiah personally threw out his belongings and had the room purified.",
+    "references": [
+      "Nehemiah 2:10-19",
+      "Nehemiah 4:1-9",
+      "Nehemiah 6:1-14",
+      "Nehemiah 13:4-9"
+    ]
+  },
+  {
+    "from": "noah-2",
+    "to": "tirzah",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Noah and Tirzah, two of Zelophehad's five daughters, came together with their sisters before Moses, Eleazar, and the whole congregation to ask for a possession among their father's brothers since he had died with no sons, and the LORD ruled in their favor, establishing a permanent inheritance statute for Israel.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "pekah",
+    "to": "rezin",
+    "label": "allied with him to besiege Jerusalem",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Pekah of Israel and Rezin of Aram allied together against Judah, marching on Jerusalem intending to depose Ahaz and install a puppet king who would join their coalition against Assyria, a siege Isaiah told Ahaz not to fear even though it could not be stopped by Judah's own strength.",
+    "references": [
+      "2 Kings 16:5",
+      "Isaiah 7:1-9"
+    ]
+  },
+  {
+    "from": "tiglath-pileser",
+    "to": "rezin",
+    "label": "captured Damascus and killed him",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Ahaz stripped the temple treasury to buy Assyrian help against the combined threat of Rezin and Pekah, Tiglath-pileser III marched against Damascus, captured the city, deported its people, and killed Rezin, ending Aram's power in the region.",
+    "references": [
+      "2 Kings 16:7-9"
+    ]
+  },
+  {
+    "from": "abiathar",
+    "to": "zadok",
+    "label": "broke with him over Adonijah's failed bid",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Abiathar and Zadok served together as David's chief priests, staying loyal during Absalom's rebellion and relaying intelligence back to David. When David was old, they split over the succession: Abiathar backed Adonijah's unauthorized bid for the throne while Zadok anointed Solomon at Gihon, and once Solomon secured the kingdom he permanently stripped Abiathar of the priesthood and made Zadok sole high priest.",
+    "references": [
+      "2 Samuel 15:24-29",
+      "1 Kings 1:7-27",
+      "1 Kings 2:26-27,35"
+    ]
+  },
+  {
+    "from": "abimelech-2",
+    "to": "gaal",
+    "label": "crushed his revolt against his rule",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Gaal moved into Shechem and rallied the city's disillusioned leaders against Abimelech, publicly mocking his right to rule. When Abimelech's ally Zebul warned him, Abimelech attacked; Gaal's forces were routed in the field and Zebul drove him and his relatives out of the city.",
+    "references": [
+      "Judges 9:26-41"
+    ]
+  },
+  {
+    "from": "abishai",
+    "to": "ishbi-benob",
+    "label": "struck down the giant threatening David's life",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "As the Philistine giant Ishbi-benob, armed with a massive new spear, moved to kill an exhausted King David in battle, Abishai came to David's defense and killed him, after which David's men made him swear never to risk the king's life in battle again.",
+    "references": [
+      "2 Samuel 21:15-17"
+    ]
+  },
+  {
+    "from": "achbor-2",
+    "to": "ahikam",
+    "label": "joined the delegation sent to Huldah",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When the Book of the Law was discovered during Josiah's temple repairs, Achbor and Ahikam were part of the five-man delegation the king sent to inquire of the LORD about it, and together they went to the prophetess Huldah in Jerusalem, who confirmed both coming judgment on Judah and mercy for Josiah personally.",
+    "references": [
+      "2 Kings 22:12-14",
+      "2 Chronicles 34:20"
+    ]
+  },
+  {
+    "from": "ahikam",
+    "to": "asaiah",
+    "label": "joined the delegation sent to Huldah",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Ahikam and Asaiah were both part of the five officials King Josiah sent to inquire of the LORD after the Book of the Law was rediscovered in the temple; together the delegation consulted the prophetess Huldah, whose reply confirmed coming judgment on Judah but mercy for Josiah himself.",
+    "references": [
+      "2 Kings 22:12-14",
+      "2 Chronicles 34:20"
+    ]
+  },
+  {
+    "from": "ahasuerus",
+    "to": "haman",
+    "label": "had him executed on his own gallows",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Ahasuerus had elevated Haman above all his other officials and unknowingly approved his decree to destroy the Jewish people. When Esther exposed Haman as the plot's architect at her second banquet, the king's fury turned on him and he had Haman hanged on the very gallows Haman had built for Mordecai.",
+    "references": [
+      "Esther 3:1-11",
+      "Esther 7:1-10"
+    ]
+  },
+  {
+    "from": "amon",
+    "to": "joash-2",
+    "label": "held Micaiah captive at Ahab's command",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Ahab was enraged by Micaiah's true prophecy of his defeat and death, he ordered the prophet handed over to Amon the city governor and Joash the king's son together, to be imprisoned on meager rations until the king returned safely from battle -- which he never did.",
+    "references": [
+      "1 Kings 22:26-28",
+      "2 Chronicles 18:25-26"
+    ]
+  },
+  {
+    "from": "aner",
+    "to": "eshcol",
+    "label": "joined Abram's rescue campaign",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Aner and Eshcol, along with their brother Mamre, were named allies of Abram who joined him and his 318 trained men in pursuing the eastern kings who had carried off Lot and the plunder of Sodom; after the victory, Abram made sure Aner and Eshcol received their rightful share of the recovered goods.",
+    "references": [
+      "Genesis 14:13-16",
+      "Genesis 14:24"
+    ]
+  },
+  {
+    "from": "asahel",
+    "to": "joab",
+    "label": "fought alongside him at Gibeon",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Asahel, Joab, and their brother Abishai -- the three sons of Zeruiah -- fought together against Abner's forces at Gibeon; Asahel pursued Abner directly and was killed by him, a death Joab avenged two years later by murdering Abner himself.",
+    "references": [
+      "2 Samuel 2:18-23",
+      "2 Samuel 3:27-30"
+    ]
+  },
+  {
+    "from": "balaam",
+    "to": "balak",
+    "label": "was hired to curse Israel but blessed them",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Balak, king of Moab, hired Balaam to curse the encroaching Israelites, but each time God put a blessing in Balaam's mouth instead. After the third failed attempt, Balak's anger broke into the open and he dismissed Balaam without payment, though Balaam's final oracle to him still contained a long-range prophecy of a coming ruler from Jacob who would crush Moab.",
+    "references": [
+      "Numbers 22:1-41",
+      "Numbers 24:10-19"
+    ]
+  },
+  {
+    "from": "bildad",
+    "to": "job",
+    "label": "argued Job's suffering was deserved punishment",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "Bildad, one of Job's three friends, insisted across several speeches that God never perverts justice and that Job's children's deaths and his own suffering must reflect hidden sin, a charge Job rejected as he protested his innocence; God later rebuked Bildad for misrepresenting Him and required a sacrifice, which Job himself offered on his behalf.",
+    "references": [
+      "Job 8:1-22",
+      "Job 18:1-21",
+      "Job 42:7-9"
+    ]
+  },
+  {
+    "from": "cornelius",
+    "to": "peter",
+    "label": "sent for him and received the gospel",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Directed by an angel, Cornelius sent for Peter, who arrived after his own vision convinced him not to treat Gentiles as unclean; as Peter preached Christ to Cornelius's household, the Holy Spirit fell on them visibly, and Peter had them baptized -- an event later cited as the decisive precedent for including Gentiles in the church.",
+    "references": [
+      "Acts 10:1-48"
+    ]
+  },
+  {
+    "from": "debir",
+    "to": "piram",
+    "label": "allied against Gibeon, executed with him",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Debir and Piram were two of five Amorite kings who allied to attack Gibeon after it made peace with Israel; when Joshua's forces routed the coalition, both kings fled and hid together in a cave at Makkedah, where Joshua later had them brought out and put to death alongside their fellow kings.",
+    "references": [
+      "Joshua 10:1-27"
+    ]
+  },
+  {
+    "from": "eldad",
+    "to": "medad",
+    "label": "prophesied together when the Spirit rested on them",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Eldad and Medad, two of the seventy elders chosen to help Moses lead Israel, had stayed behind in the camp rather than going out to the tent of meeting with the others, yet the Spirit rested on them there too and they prophesied together, prompting Joshua to urge Moses to stop them and Moses to wish instead that all the LORD's people were prophets.",
+    "references": [
+      "Numbers 11:26-29"
+    ]
+  },
+  {
+    "from": "elihu-5",
+    "to": "job",
+    "label": "confronted his self-justification at length",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Job's three friends ran out of answers, the younger Elihu spoke at length across four chapters, angry that Job had justified himself rather than God and that the friends had condemned Job without answering him; he argued that God is greater than any human accuser and uses suffering to instruct rather than merely punish.",
+    "references": [
+      "Job 32:1",
+      "Job 37:24"
+    ]
+  },
+  {
+    "from": "eshcol",
+    "to": "mamre",
+    "label": "joined Abram's rescue campaign",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Eshcol and Mamre, together with their brother Aner, were named allies of Abram who joined him in pursuing the eastern kings who had carried off Lot; after Abram's victory, he insisted that Eshcol and Mamre receive their rightful share of the recovered plunder even though he took nothing for himself.",
+    "references": [
+      "Genesis 14:13-16",
+      "Genesis 14:24"
+    ]
+  },
+  {
+    "from": "ezra",
+    "to": "nehemiah",
+    "label": "read the Law together at the Water Gate",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Years after Ezra's own reforms, he and Nehemiah led the returned exiles together in a public reading of the Law at Jerusalem's Water Gate, with Ezra reading from a wooden platform from morning until midday while Levites moved through the crowd explaining it -- an event that moved the people to both weeping and celebration.",
+    "references": [
+      "Nehemiah 8:1-12"
+    ]
+  },
+  {
+    "from": "gedaliah-4",
+    "to": "jucal",
+    "label": "demanded Jeremiah's death together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Gedaliah and Jucal were two of four royal officials who, convinced Jeremiah's prophecies of Babylonian victory were undermining Jerusalem's defense, together petitioned King Zedekiah to have him put to death; when the king handed Jeremiah over, they lowered him by ropes into a muddy cistern, where he would have died had Ebed-melech not intervened.",
+    "references": [
+      "Jeremiah 38:1-13"
+    ]
+  },
+  {
+    "from": "haggai",
+    "to": "joshua-4",
+    "label": "called him to resume rebuilding the temple",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "When the rebuilding of the temple had stalled for years, Haggai delivered God's word directly to the high priest Joshua and governor Zerubbabel, calling them to be strong and resume the work with the promise that the LORD was with them -- preaching that moved Joshua to lead the people back to construction within weeks.",
+    "references": [
+      "Haggai 1:1-15",
+      "Haggai 2:1-4"
+    ]
+  },
+  {
+    "from": "peninnah",
+    "to": "hannah",
+    "label": "provoked her bitterly over her barrenness",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Peninnah, Elkanah's other wife, had children while Hannah had none, and used the difference cruelly, provoking Hannah bitterly every year during the family's worship trips to Shiloh until Hannah wept and could not eat.",
+    "references": [
+      "1 Samuel 1:2-7"
+    ]
+  },
+  {
+    "from": "hilkiah-2",
+    "to": "shaphan",
+    "label": "brought him the newly found Book of the Law",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When Hilkiah the high priest discovered the long-lost Book of the Law during temple repairs, he gave it to Shaphan the royal secretary, who read it himself before bringing it to King Josiah and reading it aloud to him -- a discovery that launched one of Judah's most sweeping religious reforms, which Hilkiah and Shaphan both helped carry out.",
+    "references": [
+      "2 Kings 22:3-14"
+    ]
+  },
+  {
+    "from": "sisera",
+    "to": "jabin",
+    "label": "commanded Jabin's army against Israel",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Sisera served as army commander for Jabin, king of Canaan, leading his nine hundred iron chariots in oppressing Israel for twenty years until Deborah and Barak's forces broke Sisera's army at the Kishon River and Jabin himself was subdued.",
+    "references": [
+      "Judges 4:2-3",
+      "Judges 4:23-24"
+    ]
+  },
+  {
+    "from": "jether",
+    "to": "zalmunna",
+    "label": "froze when ordered to execute him",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "After Gideon captured the Midianite kings Zebah and Zalmunna, he ordered his own son Jether to kill them, but Jether, still young, was too afraid to draw his sword; Zalmunna and Zebah responded that only a grown man's hand was fit for the task, so Gideon killed them himself.",
+    "references": [
+      "Judges 8:20-21"
+    ]
+  },
+  {
+    "from": "jonathan-9",
+    "to": "shabbethai",
+    "label": "stood together in the intermarriage crisis",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Jonathan and Shabbethai are named together on the same side of a four-man group during Ezra's reform of intermarriage among the returned exiles; the Hebrew text is genuinely unclear whether the group jointly opposed the process or was instead appointed to help administer it.",
+    "references": [
+      "Ezra 10:15"
+    ]
+  },
+  {
+    "from": "judas-5",
+    "to": "silas",
+    "label": "delivered the council's letter to Antioch together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After the Jerusalem council settled the dispute over Gentile circumcision, Judas Barsabbas and Silas, both recognized as prophets, were chosen together to carry the council's letter to the church at Antioch and personally encourage and strengthen the believers there.",
+    "references": [
+      "Acts 15:22-33"
+    ]
+  },
+  {
+    "from": "mahlah",
+    "to": "noah-2",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Mahlah and Noah, two of Zelophehad's five daughters, came before Moses, Eleazar, and the leaders of Israel together to argue that their father's inheritance should not be lost simply because he had no sons; God ruled in their favor and used the case to establish a permanent inheritance law for Israel.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "ziba",
+    "to": "mephibosheth",
+    "label": "accused him of disloyalty during Absalom's revolt",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "David had placed Ziba in charge of farming the land David restored to Mephibosheth. During Absalom's revolt, Ziba told David that Mephibosheth had stayed behind hoping to reclaim Saul's throne, and David gave him all of Mephibosheth's property; when David returned, Mephibosheth insisted Ziba had lied and left him behind, and Scripture never settles which man told the truth.",
+    "references": [
+      "2 Samuel 9:9-11",
+      "2 Samuel 16:1-4",
+      "2 Samuel 19:24-30"
+    ]
+  },
+  {
+    "from": "nethanel-6",
+    "to": "obadiah-5",
+    "label": "joined Jehoshaphat's teaching mission",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Nethanel and Obadiah were two of five officials King Jehoshaphat sent throughout Judah, paired with Levites and priests, to teach the Book of the Law in every city -- a circuit-style instruction campaign Chronicles connects to the kingdom's resulting stability and blessing.",
+    "references": [
+      "2 Chronicles 17:7-9"
+    ]
+  },
+  {
+    "from": "omri",
+    "to": "tibni",
+    "label": "defeated his rival claim in a civil war",
+    "type": "rivalry",
+    "mutual": true,
+    "note": "After Zimri's death, Israel split into two factions: half followed Tibni son of Ginath, and half followed Omri, the army commander the troops had proclaimed king. Omri's followers prevailed, Tibni died, and Omri became king over all Israel without further contest.",
+    "references": [
+      "1 Kings 16:21-22"
+    ]
+  },
+  {
+    "from": "tiglath-pileser",
+    "to": "pekah",
+    "label": "invaded Israel and deported its people",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Tiglath-pileser III of Assyria invaded northern Israel during Pekah's reign, capturing Gilead, Galilee, and Naphtali and deporting their populations to Assyria -- the beginning of the deportations that would end in the northern kingdom's fall within a generation.",
+    "references": [
+      "2 Kings 15:29"
+    ]
+  },
+  {
+    "from": "tobiah",
+    "to": "sanballat",
+    "label": "conspired to intimidate Nehemiah together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Tobiah the Ammonite official allied closely with Sanballat in opposing Nehemiah's wall-building project from its earliest stages -- mocking the work, plotting a surprise attack, and trying to lure Nehemiah into a trap -- though the wall was completed in fifty-two days despite them.",
+    "references": [
+      "Nehemiah 2:10-19",
+      "Nehemiah 4:1-8",
+      "Nehemiah 6:1-14"
+    ]
+  },
+  {
+    "from": "jotham",
+    "to": "abimelech-2",
+    "label": "cursed him after he murdered his brothers",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "After Abimelech massacred sixty-nine of Gideon's sons to seize Shechem's throne, the escaped Jotham stood on Mount Gerizim and told a parable of trees choosing a worthless bramble as king, warning that fire would consume both Abimelech and Shechem if their alliance was not made in good faith. His warning came true to the letter three years later when God turned Abimelech and Shechem against each other in mutual destruction.",
+    "references": [
+      "Judges 9:7-21",
+      "Judges 9:56-57"
+    ]
+  },
+  {
+    "from": "abner",
+    "to": "asahel",
+    "label": "killed in self-defense during a pursuit",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Asahel, David's swift-footed nephew, pursued Abner relentlessly during the battle at Gibeon despite Abner's repeated warnings to turn aside; when Asahel refused to stop, Abner struck him dead with the butt of his spear. The killing set off a blood feud, since Joab later murdered Abner in revenge for his brother's death.",
+    "references": [
+      "2 Samuel 2:18-23",
+      "2 Samuel 3:27-30"
+    ]
+  },
+  {
+    "from": "achbor-2",
+    "to": "asaiah",
+    "label": "joined the delegation sent to Huldah",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When the Book of the Law was discovered during Josiah's temple repairs, Achbor and Asaiah were two of the five officials the king personally sent to seek the LORD's guidance, going together to the prophetess Huldah and hearing her sobering answer confirming coming judgment on Judah.",
+    "references": [
+      "2 Kings 22:12-14",
+      "2 Chronicles 34:20"
+    ]
+  },
+  {
+    "from": "samuel",
+    "to": "agag-2",
+    "label": "executed him after Saul spared his life",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Saul disobeyed God's command to destroy Amalek and spared King Agag alive, Samuel confronted Saul with the rebuke that obedience is better than sacrifice, then summoned Agag himself and killed him before the LORD at Gilgal.",
+    "references": [
+      "1 Samuel 15:8-9",
+      "1 Samuel 15:32-33"
+    ]
+  },
+  {
+    "from": "ahasuerus",
+    "to": "mordecai-2",
+    "label": "elevated him to Haman's former position",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "When King Ahasuerus discovered that Mordecai's earlier exposure of an assassination plot had gone unrewarded, he had Haman himself parade Mordecai through the city in royal honor, and after Haman's fall the king gave Mordecai his signet ring and elevated him to the empire's highest office.",
+    "references": [
+      "Esther 6:1-11",
+      "Esther 8:1-2"
+    ]
+  },
+  {
+    "from": "ahimaaz-2",
+    "to": "jonathan-3",
+    "label": "served as David's couriers together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Ahimaaz and Jonathan, sons of the priests Zadok and Abiathar, waited together outside Jerusalem to relay intelligence to the fleeing David, and when they were spotted the two hid together in a well at Bahurim, covered with grain by a quick-thinking woman, before safely delivering the word that let David escape.",
+    "references": [
+      "2 Samuel 15:27-36",
+      "2 Samuel 17:17-20"
+    ]
+  },
+  {
+    "from": "amasa-2",
+    "to": "azariah-11",
+    "label": "rescued Judah's captives together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "After the prophet Oded rebuked Israel's army for planning to enslave 200,000 Judean captives, Amasa and Azariah were two of the four named Ephraimite chiefs who confronted the returning soldiers, then personally clothed, fed, and escorted the freed captives all the way home to Jericho.",
+    "references": [
+      "2 Chronicles 28:9-15"
+    ]
+  },
+  {
+    "from": "amos",
+    "to": "jeroboam-2",
+    "label": "prophesied his death and Israel's exile",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "During Jeroboam II's long, prosperous reign, Amos prophesied that Jeroboam would die by the sword and that Israel would go into exile, a message so unwelcome that the priest Amaziah tried to have Amos expelled from Bethel.",
+    "references": [
+      "Amos 7:9-11"
+    ]
+  },
+  {
+    "from": "aner",
+    "to": "mamre",
+    "label": "joined Abram's rescue campaign",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Aner and Mamre, allied Amorite brothers living near Hebron, joined Abram's pursuit of the eastern kings who had carried off Lot, helping rout the raiders near Dan, and Abram afterward specifically named both men's right to a share of the recovered spoils.",
+    "references": [
+      "Genesis 14:13-16",
+      "Genesis 14:24"
+    ]
+  },
+  {
+    "from": "jehoiada-2",
+    "to": "athaliah",
+    "label": "orchestrated the coup that overthrew her",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Athaliah seized Judah's throne by murdering her own grandchildren, the priest Jehoiada secretly protected the infant heir Joash for six years, then organized a coordinated coronation and ordered Athaliah removed from the temple and executed when she arrived crying treason.",
+    "references": [
+      "2 Kings 11:4-16"
+    ]
+  },
+  {
+    "from": "baanah",
+    "to": "ish-bosheth",
+    "label": "murdered him in his own bed",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Baanah and his brother Rechab, army captains under Ish-bosheth, entered his house at midday while he napped and killed him, beheading him and carrying his head to David expecting a reward -- which David answered instead with their own execution.",
+    "references": [
+      "2 Samuel 4:5-12"
+    ]
+  },
+  {
+    "from": "baruch-4",
+    "to": "jeremiah-6",
+    "label": "served as his scribe and companion",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Baruch wrote down Jeremiah's prophecies at his dictation, read the scroll publicly when Jeremiah himself was barred from the temple, and rewrote the entire message after King Jehoiakim burned it -- a partnership God addressed personally, promising to spare Baruch's life even amid Judah's final destruction.",
+    "references": [
+      "Jeremiah 36:4-32",
+      "Jeremiah 45:1-5"
+    ]
+  },
+  {
+    "from": "malachi",
+    "to": "elijah",
+    "label": "prophesied his return before the day of the LORD",
+    "type": "prophecy",
+    "mutual": false,
+    "note": "Malachi closed his book, and the entire Old Testament, with the promise that God would send 'Elijah' before the great and awesome day of the LORD -- words the Gospels later apply to John the Baptist coming in Elijah's spirit and power.",
+    "references": [
+      "Malachi 4:5-6"
+    ]
+  },
+  {
+    "from": "esther",
+    "to": "haman",
+    "label": "exposed his plot at her banquet",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "At her second banquet, Esther revealed to King Ahasuerus that Haman was the one plotting to destroy her own people, and the king's fury turned on Haman, who was hanged on the very gallows he had built for Mordecai.",
+    "references": [
+      "Esther 7:1-10"
+    ]
+  },
+  {
+    "from": "gedaliah-4",
+    "to": "shephatiah-8",
+    "label": "demanded Jeremiah's death together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Gedaliah and Shephatiah were two of four officials who, convinced Jeremiah's warnings that Jerusalem would fall were undermining the city's defense, together demanded King Zedekiah put Jeremiah to death, then had him lowered by ropes into a muddy cistern to die.",
+    "references": [
+      "Jeremiah 38:1-6"
+    ]
+  },
+  {
+    "from": "haggai",
+    "to": "zechariah-13",
+    "label": "prophesied together to spur the temple's rebuilding",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Haggai and Zechariah began prophesying within two months of each other, both urging the discouraged returned exiles to resume construction of the temple, and their combined preaching succeeded in moving governor Zerubbabel and high priest Joshua to restart the work within weeks.",
+    "references": [
+      "Ezra 5:1-2",
+      "Ezra 6:14-15"
+    ]
+  },
+  {
+    "from": "hoglah",
+    "to": "mahlah",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Hoglah and Mahlah, with their three sisters, came before Moses and Eleazar together to argue that their father Zelophehad's name and inheritance should not be lost simply because he had no sons; God agreed and used their case to establish a permanent inheritance law for Israel.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "hoshea",
+    "to": "pekah",
+    "label": "assassinated him and seized his throne",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Hoshea conspired against King Pekah, struck him down, and became king in his place -- one more entry in the northern kingdom's accelerating pattern of violent successions in its final decades before Assyria's conquest.",
+    "references": [
+      "2 Kings 15:30"
+    ]
+  },
+  {
+    "from": "rechab",
+    "to": "ish-bosheth",
+    "label": "murdered him in his own bed",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Rechab and his brother Baanah, army captains under Ish-bosheth, entered his house at midday while he slept and killed him, beheading him and carrying his head to David expecting a reward -- which David answered instead with their own execution.",
+    "references": [
+      "2 Samuel 4:5-12"
+    ]
+  },
+  {
+    "from": "nebuchadnezzar",
+    "to": "jehoiachin",
+    "label": "besieged Jerusalem and took him captive",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Nebuchadnezzar's army besieged Jerusalem until Jehoiachin surrendered along with his mother and officials; Nebuchadnezzar deported him to Babylon, where he remained a prisoner for thirty-seven years until a later king finally showed him favor.",
+    "references": [
+      "2 Kings 24:10-16"
+    ]
+  },
+  {
+    "from": "jether",
+    "to": "zebah",
+    "label": "froze when ordered to execute him",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After Gideon captured the Midianite kings Zebah and Zalmunna, he commanded his young son Jether to kill them, but Jether, still a boy, was too afraid to draw his sword; Zebah and Zalmunna themselves then told Gideon to kill them personally, judging that only a grown man's hand was fit for the task.",
+    "references": [
+      "Judges 8:18-21"
+    ]
+  },
+  {
+    "from": "mahlah",
+    "to": "tirzah",
+    "label": "petitioned Moses for their inheritance",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Mahlah and Tirzah, with their three sisters, came before Moses and Eleazar together to argue that their father Zelophehad's name and inheritance should not be lost simply because he had no sons; God agreed and used their case to establish a permanent inheritance law for Israel.",
+    "references": [
+      "Numbers 27:1-11"
+    ]
+  },
+  {
+    "from": "nebuchadnezzar",
+    "to": "meshach",
+    "label": "cast him into the fiery furnace",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "When Meshach, Shadrach, and Abednego refused to bow to Nebuchadnezzar's golden image, the enraged king had the furnace heated seven times hotter and had them thrown in bound; seeing them walk unharmed inside it, Nebuchadnezzar praised their God and promoted all three further.",
+    "references": [
+      "Daniel 3:12-30"
+    ]
+  },
+  {
+    "from": "philip",
+    "to": "nathanael",
+    "label": "brought him to Jesus despite his skepticism",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Philip found his friend Nathanael and announced he had found the Messiah, Jesus of Nazareth; when Nathanael responded skeptically, 'Can any good thing come out of Nazareth?', Philip simply urged him to come and see, leading to Nathanael's own confession of Jesus as the Son of God.",
+    "references": [
+      "John 1:45-49"
+    ]
+  },
+  {
+    "from": "nicanor",
+    "to": "nicolas",
+    "label": "were chosen together as two of the seven",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "When the Jerusalem church needed men to administer its daily food distribution fairly, Nicanor and Nicolas were two of the seven selected together, presented to the apostles, and commissioned by prayer and the laying on of hands.",
+    "references": [
+      "Acts 6:3-6"
+    ]
+  },
+  {
+    "from": "onan",
+    "to": "tamar",
+    "label": "married her but withheld offspring from her",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "After his brother Er died, Onan was required by custom to marry Er's widow Tamar and raise up an heir for him, but he deliberately prevented her from conceiving each time -- a calculated wrong the LORD judged by taking his life as well, leaving Tamar childless and wronged.",
+    "references": [
+      "Genesis 38:6-10"
+    ]
+  },
+  {
+    "from": "puah",
+    "to": "shiphrah",
+    "label": "defied Pharaoh's order to kill baby boys",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "Puah and Shiphrah, the two Hebrew midwives Pharaoh ordered to kill every newborn boy, feared God instead and let the boys live, then together gave Pharaoh an explanation for the survivals when he confronted them -- an act of courage God rewarded by establishing households for them.",
+    "references": [
+      "Exodus 1:15-21"
+    ]
+  },
+  {
+    "from": "sibbecai",
+    "to": "saph",
+    "label": "killed him in battle at Gob",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "During renewed fighting between Israel and the Philistines at Gob, Sibbecai the Hushathite, one of David's mighty men, killed Saph, a Philistine warrior descended from the giant.",
+    "references": [
+      "2 Samuel 21:18",
+      "1 Chronicles 20:4"
+    ]
   }
 ]

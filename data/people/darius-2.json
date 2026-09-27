@@ -2,17 +2,60 @@
   "person_id": "darius-2",
   "name": "Darius",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "testament": "OT",
-  "references": [
-    "Daniel 9:1"
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Persia",
+    "Jerusalem"
   ],
-  "first_reference": "Daniel 9:1",
+  "references": [
+    "Ezra 4:5-24",
+    "Ezra 5:5-7",
+    "Ezra 6:1-22",
+    "Nehemiah 12:22",
+    "Haggai 1:1-15",
+    "Haggai 2:10",
+    "Zechariah 1:1-7",
+    "Zechariah 7:1"
+  ],
+  "first_reference": "Ezra 4:5-24",
+  "topics": [
+    "authorizing the temple's completion",
+    "God's providence through foreign rulers"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "Persian king (Darius I Hystaspes, reigned 522-486 BC) who, after his officials questioned the Jews' authority to rebuild, confirmed Cyrus's original decree and formally funded the completion of the Jerusalem temple; distinct from the earlier \"Darius the Mede\" of Daniel 6 (see that king's own entry, person_id darius).",
+  "family_friendly_summary": "A long time after King Cyrus first said the Jewish people could rebuild God's temple in Jerusalem, the work had stopped because some neighbors complained and made it hard to continue. A new king named Darius was asked whether the Jewish people really had permission to build. Instead of stopping them, Darius had his officials search the old royal records, found Cyrus's original letter, and saw that it was true. Darius then commanded that the work continue, and he even paid for it out of his own royal treasury. During this same time, two prophets named Haggai and Zechariah kept encouraging the people to keep building. The temple was finally finished, and everyone celebrated with great joy.",
+  "adult_story": "Decades after Cyrus first authorized the Jews to rebuild the Jerusalem temple, opposition from surrounding peoples had brought the work to a halt. When the governor Tattenai wrote to Darius questioning by what authority the Jews were building, Darius ordered Persia's archives searched, and Cyrus's original decree was found in the fortress at Ecbatana (Ezra 5:3-6:2). Rather than side with the objectors, Darius confirmed Cyrus's decree in full, ordered the work to proceed without interference, directed that the royal treasury cover the temple's expenses and provide for its daily sacrifices, and decreed serious punishment for anyone who defied the order (Ezra 6:3-12). During these same years, the prophets Haggai and Zechariah dated their calls to finish the temple to the second year of Darius's reign, urging the returned exiles to stop prioritizing their own houses over God's (Haggai 1:1-15; Zechariah 1:1, 7:1). The temple was finished in the sixth year of Darius's reign and dedicated with great joy, followed by a Passover celebration (Ezra 6:14-22). Scripture presents a foreign king's official decree as the very means by which God's promise to restore His people's worship was carried out.",
+  "image": {
+    "file": "generic-king.jpg",
+    "prompt_used": "Generic role icon, not person-specific: robed figure wearing a crown and holding a royal staff.",
+    "prompt_image_source": null,
+    "caption": "Generic stained-glass icon for kings -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
   },
-  "gender": "male"
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "gender": "male",
+  "devotionals": [
+    "Darius could have sided with the temple's opponents, but instead he searched the records, confirmed Cyrus's decree, and paid for God's house out of his own treasury. God can work even through a foreign king's decree to accomplish His purposes; may we trust Him to work through unlikely places too.",
+    "Haggai and Zechariah kept pointing the people back to finishing God's house, and it was a pagan king's decree that funded it. Jesus is the true temple, God's dwelling with us, that no obstacle or delay could ultimately keep from being built."
+  ],
+  "name_meaning": {
+    "meaning": "He that informs himself",
+    "language": "Old Persian"
+  }
 }
