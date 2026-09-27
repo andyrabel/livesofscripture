@@ -6,6 +6,7 @@
   "type": "nation",
   "region": "mesopotamia",
   "eras": [
+    "Exile",
     "Post-Exile/Intertestamental"
   ],
   "first_reference": "2 Chronicles 36:20",
@@ -20,7 +21,7 @@
     "note": ""
   },
   "modern_name": "Iran",
-  "n_people": 4,
+  "n_people": 5,
   "related_people": [
     {
       "person_id": "artaxerxes",
@@ -43,6 +44,15 @@
     },
     {
       "person_id": "darius",
+      "name": "Darius",
+      "gender": "male",
+      "role": "ruler of the conquered Babylonian realm under the Medes and Persians, who set Daniel over his officials and was tricked into sending him to the lions' den",
+      "references": [
+        "Daniel 6:1-28"
+      ]
+    },
+    {
+      "person_id": "darius-2",
       "name": "Darius",
       "gender": "male",
       "role": "its king, who confirmed Cyrus's decree and funded the temple's completion",

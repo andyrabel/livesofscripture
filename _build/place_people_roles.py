@@ -329,7 +329,8 @@ ROLES = {
     "persia": {
         "artaxerxes": ("its king, who sent Ezra and later Nehemiah to Jerusalem", ["Ezra 7:11-13", "Nehemiah 2:1-8"]),
         "cyrus": ("its king, who decreed the exiles' return to rebuild the temple", ["Ezra 1:1-4"]),
-        "darius": ("its king, who confirmed Cyrus's decree and funded the temple's completion", ["Ezra 6:1-12"]),
+        "darius": ("ruler of the conquered Babylonian realm under the Medes and Persians, who set Daniel over his officials and was tricked into sending him to the lions' den", ["Daniel 6:1-28"]),
+        "darius-2": ("its king, who confirmed Cyrus's decree and funded the temple's completion", ["Ezra 6:1-12"]),
         "mithredath": ("Cyrus's treasurer, who counted out the temple vessels for the return", ["Ezra 1:8"]),
     },
     "philippi": {

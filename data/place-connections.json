@@ -308,7 +308,7 @@
     "mutual": true
   },
   {
-    "from": "darius",
+    "from": "darius-2",
     "to": "place:jerusalem",
     "label": "associated with",
     "type": "person-place",
@@ -5951,6 +5951,13 @@
   },
   {
     "from": "darius",
+    "to": "place:persia",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "darius-2",
     "to": "place:persia",
     "label": "associated with",
     "type": "person-place",

@@ -11265,9 +11265,10 @@
     "type": "nation",
     "region": "mesopotamia",
     "eras": [
+      "Exile",
       "Post-Exile/Intertestamental"
     ],
-    "n_people": 4,
+    "n_people": 5,
     "disambiguation": "",
     "lat": 34.8065,
     "lng": 48.51625
