@@ -1274,6 +1274,33 @@ def place_disambiguation_section(place_name, same_name, base):
   </section>"""
 
 
+def place_see_also_section(place, places_by_id, base):
+    """Curated "listed separately" notes for places whose names look alike
+    but are kept as separate entries because Scripture does not identify
+    them (e.g. Moriah vs. Mount Moriah). Complements the exact-name
+    place_disambiguation_section grid."""
+    sections = []
+    for sa in place.get("see_also") or []:
+        other = places_by_id.get(sa["place_id"])
+        if not other:
+            continue
+        blurb = f"{place_type_label(other['type'])} — {place_region_label(other['region'])}"
+        sections.append(f"""<section class="disambiguation">
+    <h3>Why {esc(place['name'])} and {esc(other['name'])} are listed separately</h3>
+    <p>{esc(sa['note'])}</p>
+    <div class="disambiguation-grid">
+    <a class="disambiguation-card" href="{base}places/{esc(other['place_id'])}.html">
+      <div class="image-placeholder image-placeholder--thumb">{esc(place_type_label(other["type"])[:1])}</div>
+      <div class="disambiguation-card__text">
+        <div class="disambiguation-card__name">{esc(other['name'])}</div>
+        <div class="disambiguation-card__blurb">{esc(blurb)}</div>
+      </div>
+    </a>
+    </div>
+  </section>""")
+    return "\n\n  ".join(sections)
+
+
 def _place_person_link(p, base):
     return (f'<a href="{base}people/{esc(p["person_id"])}.html">{esc(p["name"])}</a>'
             f'{gender_tag(p.get("gender"))}')
@@ -1927,6 +1954,10 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
     group_key = place["name"].strip().lower()
     same_name = [e for e in places_by_name.get(group_key, []) if e["place_id"] != place_id]
     disamb = place_disambiguation_section(place["name"], same_name, base)
+    places_by_id = {e["place_id"]: e for grp in places_by_name.values() for e in grp}
+    see_also_html = place_see_also_section(place, places_by_id, base)
+    if see_also_html:
+        disamb = f"{see_also_html}\n\n  {disamb}" if disamb else see_also_html
 
     breadcrumb_ld = breadcrumb_json_ld([
         ("Home", f"{SITE_URL}/"),

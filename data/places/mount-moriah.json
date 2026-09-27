@@ -17,7 +17,7 @@
     "note": ""
   },
   "modern_name": "Temple Mount, Jerusalem",
-  "n_people": 2,
+  "n_people": 3,
   "related_people": [
     {
       "person_id": "ornan",
@@ -26,6 +26,17 @@
       "role": "owned the threshing floor here that David bought for an altar, the future temple site",
       "references": [
         "1 Chronicles 21:18-25",
+        "2 Chronicles 3:1"
+      ]
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "bought Ornan's threshing floor here and built an altar, and the plague was stopped; the LORD had appeared to him at this place",
+      "references": [
+        "2 Samuel 24:18-25",
+        "1 Chronicles 21:18-22:1",
         "2 Chronicles 3:1"
       ]
     },
@@ -40,6 +51,12 @@
     }
   ],
   "unnamed_people": [],
+  "see_also": [
+    {
+      "place_id": "moriah",
+      "note": "Scripture uses the name Moriah twice: for the land where God sent Abraham to offer Isaac (Genesis 22:2), and for the mountain in Jerusalem where Solomon built the temple (2 Chronicles 3:1). Jewish and Christian tradition identify the two, but neither passage mentions the other, so this site lists them as separate places. David, Ornan, and Solomon are connected here; Abraham and Isaac are connected to Moriah."
+    }
+  ],
   "description": "The mountain in Jerusalem where Solomon began building the house of the LORD, at the place where the LORD had appeared to his father David: the threshing floor of Ornan (Araunah) the Jebusite (2 Chronicles 3:1). David had bought that threshing floor when the angel of the LORD, sent in judgment after David's census, stopped beside it. Ornan offered to give it to the king for free, but David insisted on paying full price, refusing to offer God something that cost him nothing; he built an altar and sacrificed there, and the plague was stopped (2 Samuel 24:18-25; 1 Chronicles 21:18-22:1). The name recalls the land of Moriah where Abraham offered Isaac (Genesis 22:2); tradition identifies the two, though the text does not say so directly.",
   "family_friendly_summary": "Mount Moriah is the hill in Jerusalem where King Solomon built God's temple. Before that, it was a threshing floor, a flat place where a man named Ornan separated grain from straw. King David bought it to build an altar and worship God there. Ornan offered to give it to him for free, but David paid full price, because he did not want to give God something that cost him nothing.",
   "geo": {

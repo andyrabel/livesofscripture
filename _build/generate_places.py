@@ -334,6 +334,14 @@ def main():
             "related_people": related_people,
             "unnamed_people": unnamed_people,
         }
+        # Curated pointer to a similarly named but separately listed place
+        # (e.g. Moriah vs. Mount Moriah), with a note explaining why.
+        see_also = [{"place_id": pid, "note": note} for pid, note in c.get("see_also", [])]
+        for sa in see_also:
+            if sa["place_id"] not in curated:
+                print(f"warning: {slug} see_also names unknown place {sa['place_id']!r}")
+        if see_also:
+            entry["see_also"] = see_also
         if tier == "full":
             entry["description"] = c.get("desc", "")
             ff = c.get("ff") or existing_ff.get(slug, "")

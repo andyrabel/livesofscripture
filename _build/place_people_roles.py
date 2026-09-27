@@ -119,6 +119,7 @@ ROLES = {
         "jotham": ("shouted his parable of the trees from this mountain over Shechem", ["Judges 9:7"]),
     },
     "mount-moriah": {
+        "david": ("bought Ornan's threshing floor here and built an altar, and the plague was stopped; the LORD had appeared to him at this place", ["2 Samuel 24:18-25", "1 Chronicles 21:18-22:1", "2 Chronicles 3:1"]),
         "ornan": ("owned the threshing floor here that David bought for an altar, the future temple site", ["1 Chronicles 21:18-25", "2 Chronicles 3:1"]),
         "solomon": ("built the LORD's temple on this mountain, at Ornan's threshing floor", ["2 Chronicles 3:1"]),
     },
