@@ -2,10 +2,12 @@
   "place_id": "mount-moriah",
   "name": "Mount Moriah",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy"
+  ],
   "first_reference": "2 Chronicles 3:1",
   "references": [
     "2 Chronicles 3:1"
@@ -14,11 +16,32 @@
     "status": "secure",
     "note": ""
   },
-  "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "modern_name": "Temple Mount, Jerusalem",
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "ornan",
+      "name": "Araunah",
+      "gender": "male",
+      "role": "owned the threshing floor here that David bought for an altar, the future temple site",
+      "references": [
+        "1 Chronicles 21:18-25",
+        "2 Chronicles 3:1"
+      ]
+    },
+    {
+      "person_id": "solomon",
+      "name": "Solomon",
+      "gender": "male",
+      "role": "built the LORD's temple on this mountain, at Ornan's threshing floor",
+      "references": [
+        "2 Chronicles 3:1"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "The mountain in Jerusalem where Solomon began building the house of the LORD, at the place where the LORD had appeared to his father David: the threshing floor of Ornan (Araunah) the Jebusite (2 Chronicles 3:1). David had bought that threshing floor when the angel of the LORD, sent in judgment after David's census, stopped beside it. Ornan offered to give it to the king for free, but David insisted on paying full price, refusing to offer God something that cost him nothing; he built an altar and sacrificed there, and the plague was stopped (2 Samuel 24:18-25; 1 Chronicles 21:18-22:1). The name recalls the land of Moriah where Abraham offered Isaac (Genesis 22:2); tradition identifies the two, though the text does not say so directly.",
+  "family_friendly_summary": "Mount Moriah is the hill in Jerusalem where King Solomon built God's temple. Before that, it was a threshing floor, a flat place where a man named Ornan separated grain from straw. King David bought it to build an altar and worship God there. Ornan offered to give it to him for free, but David paid full price, because he did not want to give God something that cost him nothing.",
   "geo": {
     "lat": 31.77778,
     "lng": 35.23556,

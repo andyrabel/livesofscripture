@@ -6438,6 +6438,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/moriah.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/mount-carmel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6449,6 +6454,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/mount-gilboa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/mount-moriah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

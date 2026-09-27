@@ -7448,6 +7448,20 @@
     "mutual": true
   },
   {
+    "from": "abraham",
+    "to": "place:moriah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "isaac",
+    "to": "place:moriah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "elijah",
     "to": "place:mount-carmel",
     "label": "associated with",
@@ -7464,6 +7478,20 @@
   {
     "from": "eleazar",
     "to": "place:mount-hor",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "ornan",
+    "to": "place:mount-moriah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "solomon",
+    "to": "place:mount-moriah",
     "label": "associated with",
     "type": "person-place",
     "mutual": true

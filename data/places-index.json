@@ -10029,11 +10029,13 @@
     "place_id": "moriah",
     "name": "Moriah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "region",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "region": "canaan-israel",
+    "eras": [
+      "Patriarchal"
+    ],
+    "n_people": 2,
     "disambiguation": ""
   },
   {
@@ -10287,11 +10289,13 @@
     "place_id": "mount-moriah",
     "name": "Mount Moriah",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy"
+    ],
+    "n_people": 2,
     "disambiguation": ""
   },
   {

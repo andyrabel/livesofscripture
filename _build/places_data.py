@@ -1519,6 +1519,16 @@ PLACES_MINOR = {
         desc="A port city where Paul, sailing past Ephesus to save time, called for that church's elders to meet him and gave them his farewell address, warning of coming false teachers (Acts 20:15-38); Trophimus was later left there sick (2 Timothy 4:20)."),
     "moresheth": dict(name="Moresheth", type="town", region="canaan-israel", first_reference="Micah 1:1",
         id_status="unknown", desc="The hometown of the prophet Micah, near Gath in Judah's lowlands (Micah 1:1, 14)."),
+    "moriah": dict(name="Moriah", type="region", region="canaan-israel", first_reference="Genesis 22:2",
+        id_status="disputed", id_note="Genesis does not locate the land of Moriah precisely. Jewish and Christian tradition identify its mountain with Mount Moriah in Jerusalem, the temple site of 2 Chronicles 3:1, but Genesis itself does not make that link; Samaritan tradition places it at Mount Gerizim instead.",
+        desc="The land to which God sent Abraham to offer his son Isaac as a burnt offering on a mountain God would show him. After a three-day journey from Beersheba, Isaac carried the wood and asked his father where the lamb was; Abraham answered that God would provide it. At the last moment the angel of the LORD stopped Abraham's hand, and a ram caught in a thicket was offered in Isaac's place. Abraham named the place \"The LORD Will Provide\" (Genesis 22:1-19). Hebrews commends Abraham's faith here, saying he reasoned that God was able to raise Isaac even from the dead (Hebrews 11:17-19). The only other \"Moriah\" in Scripture is the mountain in Jerusalem where Solomon built the temple (2 Chronicles 3:1); whether the two are the same place is traditionally assumed but not stated in the text.",
+        ff=(
+            "Moriah is the land where God tested Abraham's faith. God told Abraham to take his son Isaac up a "
+            "mountain there and offer him as a sacrifice. Abraham obeyed, trusting God. On the way up, Isaac "
+            "carried the wood and asked where the lamb was, and Abraham said God would provide one. At the last "
+            "moment God stopped Abraham and gave him a ram to offer instead. Abraham named the place "
+            "\"The LORD Will Provide.\""
+        )),
     "mount-carmel": dict(name="Mount Carmel", type="mountain", region="canaan-israel", first_reference="1 Kings 18:19",
         id_status="secure", id_note="Distinct from the town of Carmel in Judah's hill country, associated instead with Nabal and Abigail.",
         desc="The mountain where Elijah confronted 450 prophets of Baal in a public contest to prove who the true God was, calling down fire from heaven when Baal's prophets' pleas went unanswered (1 Kings 18:16-40)."),
@@ -1527,6 +1537,15 @@ PLACES_MINOR = {
     "mount-hor": dict(name="Mount Hor", type="mountain", region="sinai-wilderness", first_reference="Numbers 20:22",
         id_status="unknown", id_note="Exact peak not confidently identified.",
         desc="The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29)."),
+    "mount-moriah": dict(name="Mount Moriah", type="mountain", region="canaan-israel", first_reference="2 Chronicles 3:1",
+        modern="Temple Mount, Jerusalem",
+        desc="The mountain in Jerusalem where Solomon began building the house of the LORD, at the place where the LORD had appeared to his father David: the threshing floor of Ornan (Araunah) the Jebusite (2 Chronicles 3:1). David had bought that threshing floor when the angel of the LORD, sent in judgment after David's census, stopped beside it. Ornan offered to give it to the king for free, but David insisted on paying full price, refusing to offer God something that cost him nothing; he built an altar and sacrificed there, and the plague was stopped (2 Samuel 24:18-25; 1 Chronicles 21:18-22:1). The name recalls the land of Moriah where Abraham offered Isaac (Genesis 22:2); tradition identifies the two, though the text does not say so directly.",
+        ff=(
+            "Mount Moriah is the hill in Jerusalem where King Solomon built God's temple. Before that, it was a "
+            "threshing floor, a flat place where a man named Ornan separated grain from straw. King David bought "
+            "it to build an altar and worship God there. Ornan offered to give it to him for free, but David paid "
+            "full price, because he did not want to give God something that cost him nothing."
+        )),
     "mount-zemaraim": dict(name="Mount Zemaraim", type="mountain", region="canaan-israel", first_reference="2 Chronicles 13:4",
         id_status="unknown", desc="A hill in Ephraim's territory from which King Abijah of Judah addressed Jeroboam's army before a decisive battle (2 Chronicles 13:4-20)."),
     "naamah": dict(name="Naamah", type="region", region="canaan-israel", first_reference="Joshua 15:41",

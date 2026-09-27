@@ -108,11 +108,19 @@ ROLES = {
         "josiah": ("Judah's reforming king, mortally wounded in battle against Pharaoh Neco here", ["2 Kings 23:29-30"]),
         "pharaoh-neco": ("Egypt's king, who killed King Josiah in battle here", ["2 Chronicles 35:20-24"]),
     },
+    "moriah": {
+        "abraham": ("went to this land at God's command to offer his son Isaac, where God provided a ram in his place", ["Genesis 22:1-14"]),
+        "isaac": ("carried the wood up a mountain in this land and was bound on the altar before God provided a substitute ram", ["Genesis 22:6-13"]),
+    },
     "mount-carmel": {
         "elijah": ("called down fire from heaven and defeated the 450 prophets of Baal on this mountain", ["1 Kings 18:19-40"]),
     },
     "mount-gerizim": {
         "jotham": ("shouted his parable of the trees from this mountain over Shechem", ["Judges 9:7"]),
+    },
+    "mount-moriah": {
+        "ornan": ("owned the threshing floor here that David bought for an altar, the future temple site", ["1 Chronicles 21:18-25", "2 Chronicles 3:1"]),
+        "solomon": ("built the LORD's temple on this mountain, at Ornan's threshing floor", ["2 Chronicles 3:1"]),
     },
     "nehelam": {
         "shemaiah-21": ("of this town, an exile in Babylon who wrote demanding Jeremiah be silenced and put in stocks", ["Jeremiah 29:24-28"]),

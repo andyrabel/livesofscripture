@@ -24,7 +24,8 @@
     "precision": "era"
   },
   "geographic_setting": [
-    "Jerusalem (Mount Moriah)"
+    "Jerusalem",
+    "Mount Moriah"
   ],
   "topics": [
     "generosity",
