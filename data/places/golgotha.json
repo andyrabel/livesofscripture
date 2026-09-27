@@ -7,10 +7,12 @@
     "Place of a Skull",
     "Place of the Skull"
   ],
-  "tier": "stub",
-  "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "tier": "full",
+  "type": "site",
+  "region": "canaan-israel",
+  "eras": [
+    "Gospels"
+  ],
   "first_reference": "Matthew 27:33",
   "references": [
     "Matthew 27:33",
@@ -20,11 +22,66 @@
   ],
   "identification": {
     "status": "disputed",
-    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+    "note": "Scripture places it outside the city gate but near the city (John 19:20; Hebrews 13:12). Two sites are traditionally proposed: the Church of the Holy Sepulchre, the older tradition, and Gordon's Calvary beside the Garden Tomb, proposed in the 19th century. Neither is confirmed. Scripture never calls it a hill."
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 6,
+  "related_people": [
+    {
+      "person_id": "joseph-7",
+      "name": "Joseph",
+      "gender": "male",
+      "role": "laid Jesus' body in a new tomb in the garden at the place of crucifixion",
+      "references": [
+        "John 19:38-42"
+      ]
+    },
+    {
+      "person_id": "mary",
+      "name": "Mary",
+      "gender": "female",
+      "role": "stood near the cross here, where Jesus entrusted her to the disciple He loved",
+      "references": [
+        "John 19:25-27"
+      ]
+    },
+    {
+      "person_id": "mary-magdalene",
+      "name": "Mary Magdalene",
+      "gender": "female",
+      "role": "watched the crucifixion here with other women who had followed Jesus from Galilee",
+      "references": [
+        "Mark 15:40-41"
+      ]
+    },
+    {
+      "person_id": "nicodemus",
+      "name": "Nicodemus",
+      "gender": "male",
+      "role": "brought spices and helped bury Jesus in the garden tomb here",
+      "references": [
+        "John 19:39-42"
+      ]
+    },
+    {
+      "person_id": "salome",
+      "name": "Salome",
+      "gender": "female",
+      "role": "watched the crucifixion here with Mary Magdalene",
+      "references": [
+        "Mark 15:40"
+      ]
+    },
+    {
+      "person_id": "simon-3",
+      "name": "Simon",
+      "gender": "male",
+      "role": "was forced to carry Jesus' cross to this place",
+      "references": [
+        "Mark 15:21-22"
+      ]
+    }
+  ],
   "unnamed_people": [
     {
       "title": "the repentant criminal",
@@ -34,12 +91,25 @@
       ]
     }
   ],
-  "description": "",
+  "description": "The place just outside Jerusalem where Jesus was crucified. Golgotha is an Aramaic name meaning \"place of a skull\"; \"Calvary\" comes from the Latin word for skull (Matthew 27:33; Luke 23:33). Simon of Cyrene was forced to carry Jesus' cross there, and Jesus was crucified between two criminals, one of whom He promised would be with Him in Paradise that same day (Mark 15:21-27; Luke 23:39-43). His mother Mary stood near the cross with other women, and Jesus entrusted her to the disciple He loved; Mary Magdalene and Salome watched from a distance (John 19:25-27; Mark 15:40-41). In the place where He was crucified there was a garden with a new tomb, where Joseph of Arimathea and Nicodemus laid His body (John 19:38-42). Hebrews sees meaning in the location itself: Jesus suffered outside the gate to make His people holy through His own blood (Hebrews 13:12).",
+  "family_friendly_summary": "Golgotha, also called Calvary, is the place just outside Jerusalem where Jesus died on the cross. Its name means \"place of a skull.\" A man named Simon carried Jesus' cross there. Jesus' mother Mary and other women who loved Him stayed near. One of the criminals beside Jesus trusted Him, and Jesus promised he would be with Him in Paradise that day. Nearby was a garden with a new tomb, where Jesus was buried. Jesus died there to take the punishment for our sins.",
   "geo": {
     "lat": 31.77844,
     "lng": 35.22975,
     "confidence": 426,
     "kind": "point",
-    "openbible": "Golgotha"
+    "openbible": "Golgotha",
+    "candidates": [
+      [
+        35.22975,
+        31.77844,
+        426
+      ],
+      [
+        35.23069,
+        31.77663,
+        31
+      ]
+    ]
   }
 }

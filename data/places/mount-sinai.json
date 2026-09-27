@@ -23,8 +23,18 @@
     "note": "Traditionally identified with Jebel Musa in the southern Sinai Peninsula, though the exact peak is disputed and not stated by the text."
   },
   "modern_name": null,
-  "n_people": 6,
+  "n_people": 9,
   "related_people": [
+    {
+      "person_id": "aaron",
+      "name": "Aaron",
+      "gender": "male",
+      "role": "went up with Israel's elders and saw the God of Israel, then made the golden calf at the mountain's foot",
+      "references": [
+        "Exodus 24:9-11",
+        "Exodus 32:1-6"
+      ]
+    },
     {
       "person_id": "bezalel",
       "name": "Bezalel",
@@ -69,6 +79,26 @@
       "references": [
         "Exodus 17:12",
         "Exodus 24:14"
+      ]
+    },
+    {
+      "person_id": "joshua",
+      "name": "Joshua",
+      "gender": "male",
+      "role": "went up the mountain with Moses and came down with him to the golden calf",
+      "references": [
+        "Exodus 24:13",
+        "Exodus 32:17"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "met God at the burning bush here, then received the Law and mediated the covenant on this mountain",
+      "references": [
+        "Exodus 3:1-6",
+        "Exodus 19:20"
       ]
     },
     {

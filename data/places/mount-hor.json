@@ -2,7 +2,7 @@
   "place_id": "mount-hor",
   "name": "Mount Hor",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
   "region": "sinai-wilderness",
   "eras": [
@@ -10,23 +10,41 @@
   ],
   "first_reference": "Numbers 20:22",
   "references": [
-    "Numbers 20:22"
+    "Numbers 20:22",
+    "Numbers 20:22-29",
+    "Numbers 21:4",
+    "Numbers 33:37-41",
+    "Deuteronomy 32:50"
   ],
   "identification": {
     "status": "unknown",
-    "note": "Exact peak not confidently identified."
+    "note": "A mountain on the border of Edom whose exact peak has not been confidently identified. A tradition places it at Jebel Harun near Petra, but that site lies inside Edom rather than on its border. A different, northern Mount Hor marks Israel's northern boundary (Numbers 34:7-8)."
   },
   "modern_name": null,
-  "n_people": 1,
+  "n_people": 2,
   "related_people": [
+    {
+      "person_id": "aaron",
+      "name": "Aaron",
+      "gender": "male",
+      "role": "died on the summit after his priestly garments were put on his son Eleazar",
+      "references": [
+        "Numbers 20:25-28"
+      ]
+    },
     {
       "person_id": "eleazar",
       "name": "Eleazar",
-      "gender": "male"
+      "gender": "male",
+      "role": "was clothed in his father Aaron's priestly garments here and became high priest",
+      "references": [
+        "Numbers 20:25-28"
+      ]
     }
   ],
   "unnamed_people": [],
-  "description": "The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29).",
+  "description": "The mountain on the border of Edom where Aaron died. After Edom refused Israel passage, the people traveled from Kadesh to Mount Hor, and the LORD told Moses that Aaron would not enter the promised land, because he and Moses had rebelled against God's command at the waters of Meribah (Numbers 20:14-24). Moses, Aaron, and Aaron's son Eleazar climbed the mountain in the sight of the whole congregation; Moses took off Aaron's priestly garments and put them on Eleazar, and Aaron died there on the summit, in the fortieth year after the exodus, at the age of 123. Israel mourned him for thirty days (Numbers 20:25-29; 33:38-39). Deuteronomy 10:6 records Aaron's death at Moserah, a place name from the same stage of the journey. God later pointed back to Aaron's death on Mount Hor when telling Moses he would die on Mount Nebo (Deuteronomy 32:50).",
+  "family_friendly_summary": "Mount Hor is the mountain where Aaron, Moses' brother and Israel's first high priest, died. God told Moses to take Aaron and Aaron's son Eleazar up the mountain while all the people watched. There Moses took off Aaron's special priest's clothes and put them on Eleazar, who became the new high priest. Aaron died on the mountaintop, and all Israel mourned for him for thirty days.",
   "geo": {
     "lat": 30.83206,
     "lng": 35.05687,

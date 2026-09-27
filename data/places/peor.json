@@ -2,10 +2,12 @@
   "place_id": "peor",
   "name": "Peor",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
   "first_reference": "Numbers 23:28",
   "references": [
     "Numbers 23:28",
@@ -19,13 +21,34 @@
   ],
   "identification": {
     "status": "disputed",
-    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+    "note": "A peak in Moab overlooking the wasteland (Numbers 23:28), not securely located. The name is shared with Baal of Peor, the local god, and with the sin committed there, which have their own page (Baal-peor)."
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 2,
+  "related_people": [
+    {
+      "person_id": "balaam",
+      "name": "Balaam",
+      "gender": "male",
+      "role": "blessed Israel a third time from the top of Peor, but later advised the plan that led Israel into sin there",
+      "references": [
+        "Numbers 24:1-9",
+        "Numbers 31:16"
+      ]
+    },
+    {
+      "person_id": "balak",
+      "name": "Balak",
+      "gender": "male",
+      "role": "took Balaam to the top of Peor for a third attempt to curse Israel",
+      "references": [
+        "Numbers 23:27-30"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "A mountain peak in Moab looking out over the wasteland and Israel's camp below. It was the third place King Balak of Moab took the prophet Balaam, after Bamoth-baal and the top of Pisgah, still hoping he would curse Israel; Balak built seven altars there as before (Numbers 23:27-30). This time Balaam did not look for omens, and God's Spirit came on him as he saw Israel camped tribe by tribe, and he blessed them a third time, to Balak's fury (Numbers 24:1-11). The name Peor soon became attached to Israel's shame: the Israelites joined in worshiping Baal of Peor with the women of Moab, and Moses later revealed that the plan had come from Balaam's counsel (Numbers 25:1-3; 31:16; see Baal-peor).",
+  "family_friendly_summary": "Peor is a mountain in the land of Moab. The king of Moab, Balak, took a prophet named Balaam up this mountain so he could look down on Israel's camp and curse them. But God's Spirit came on Balaam, and he blessed Israel instead, for the third time. King Balak was very angry. God would not let anyone curse the people He had chosen.",
   "geo": {
     "lat": 31.77702,
     "lng": 35.7385,

@@ -5,10 +5,12 @@
     "Pisgah Peak",
     "Ashdoth-pisgah"
   ],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
   "first_reference": "Numbers 21:20",
   "references": [
     "Numbers 21:20",
@@ -22,18 +24,70 @@
   ],
   "identification": {
     "status": "disputed",
-    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+    "note": "A summit or ridge of the Abarim range in Moab, overlooking the Jordan Valley and the Dead Sea; often associated with Mount Nebo (Deuteronomy 34:1), but its exact peak is not securely identified."
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "balaam",
+      "name": "Balaam",
+      "gender": "male",
+      "role": "blessed Israel a second time from the top of Pisgah",
+      "references": [
+        "Numbers 23:14-24"
+      ]
+    },
+    {
+      "person_id": "balak",
+      "name": "Balak",
+      "gender": "male",
+      "role": "built seven altars on the top of Pisgah, hoping Balaam would curse Israel from there",
+      "references": [
+        "Numbers 23:13-14"
+      ]
+    },
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "was shown the whole promised land from the top of Pisgah before he died",
+      "references": [
+        "Deuteronomy 3:27",
+        "Deuteronomy 34:1-4"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "A high summit in Moab overlooking the wasteland, the Jordan Valley, and the Dead Sea, on Israel's route toward Canaan (Numbers 21:20; Deuteronomy 3:17). King Balak of Moab brought the prophet Balaam to the field of Zophim on the top of Pisgah and built seven altars there, hoping Balaam would curse Israel from a new vantage point; instead God put a message in Balaam's mouth, and he blessed Israel a second time, declaring that God does not lie or go back on His word (Numbers 23:13-24). When Moses pleaded to cross the Jordan, God told him to go up to the top of Pisgah and look at the land with his own eyes, because he would not cross over (Deuteronomy 3:23-27). At the end of his life Moses climbed Mount Nebo to the top of Pisgah, and there the LORD showed him the whole promised land before he died (Deuteronomy 34:1-5).",
+  "family_friendly_summary": "Pisgah is a high mountaintop across the Jordan River from the promised land. A king named Balak took the prophet Balaam there to curse Israel, but God made Balaam bless them instead. Years later, Moses climbed to the top of Pisgah at the end of his life. From there God showed him the whole beautiful land He had promised to give His people.",
   "geo": {
     "lat": 31.76778,
     "lng": 35.72556,
     "confidence": 453,
     "kind": "point",
-    "openbible": "Pisgah"
+    "openbible": "Pisgah",
+    "candidates": [
+      [
+        35.72556,
+        31.76778,
+        453
+      ],
+      [
+        35.75,
+        31.76667,
+        176
+      ],
+      [
+        35.7152,
+        31.7539,
+        47
+      ],
+      [
+        35.75,
+        31.76667,
+        18
+      ]
+    ]
   }
 }

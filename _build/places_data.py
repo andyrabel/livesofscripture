@@ -1294,6 +1294,19 @@ PLACES_MINOR = {
     "archi": dict(name="Archi", type="region", region="canaan-israel", first_reference="Joshua 16:2",
         id_status="disputed", id_note="No exact site is known; Scripture places it as a border district between Bethel and Ataroth, on the Ephraim-Benjamin boundary.",
         desc="A district on Ephraim's southern border, between Bethel and Ataroth (Joshua 16:2), giving David's loyal friend and counselor Hushai his epithet \"the Archite\" (2 Samuel 15:32)."),
+    "areopagus": dict(name="Areopagus", alt=["Mars’ hill"], type="mountain", region="asia-minor-greece", first_reference="Acts 17:19",
+        references=["Acts 17:19", "Acts 17:22", "Acts 17:33"],
+        modern="Areopagus hill, Athens, Greece",
+        id_status="secure",
+        id_note="The rocky hill northwest of the Athenian Acropolis. The name also belonged to the city council that once met there; whether Paul spoke on the hill itself or before the council meeting elsewhere is debated.",
+        desc="A rocky hill in Athens, the \"hill of Ares\" (Mars' Hill in the KJV), which also gave its name to the city's ancient council. After Paul reasoned daily in the synagogue and marketplace, some Epicurean and Stoic philosophers brought him to the Areopagus to explain his teaching about Jesus and the resurrection (Acts 17:16-21). Paul began from an altar he had seen inscribed to an unknown god and proclaimed the Creator of the world, who needs no man-made shrine, who made all the nations from a single ancestor, and who now calls everyone to repent, because He has fixed a day to judge the world by the Man He raised from the dead (Acts 17:22-31). Some mocked at the mention of resurrection and others wanted to hear more, but a few believed, among them Dionysius, a member of the council, and a woman named Damaris (Acts 17:32-34).",
+        ff=(
+            "The Areopagus is a rocky hill in the city of Athens, in Greece, where important city leaders met. "
+            "Paul was brought there to explain what he was teaching. He told the people of Athens about the one "
+            "true God who made the whole world and everyone in it. He said that God had raised Jesus from the "
+            "dead. Some people laughed at him, but a few believed, including a council member named Dionysius and "
+            "a woman named Damaris."
+        )),
     "asia-roman-province": dict(name="Asia (Roman Province)", type="region", region="asia-minor-greece", first_reference="Romans 16:5",
         desc="The Roman province covering western Asia Minor; Paul's letter to the Romans greets Epaenetus as its first convert there (Romans 16:5)."),
     "athens": dict(name="Athens", type="city", region="asia-minor-greece", first_reference="Acts 17:15", modern="Athens, Greece",
@@ -1320,6 +1333,18 @@ PLACES_MINOR = {
         desc="A town Caleb offered his daughter Achsah in marriage to whoever captured it; his nephew Othniel took it and won her hand (Joshua 15:15-17; Judges 1:11-13)."),
     "gallim": dict(name="Gallim", type="town", region="canaan-israel", first_reference="1 Samuel 25:44",
         desc="The town Saul gave his daughter Michal to in marriage to Palti after taking her from David (1 Samuel 25:44)."),
+    "golgotha": dict(name="Golgotha", alt=["Skull", "Calvary", "Place of a Skull", "Place of the Skull"], type="site", region="canaan-israel", first_reference="Matthew 27:33",
+        references=["Matthew 27:33", "Mark 15:22", "Luke 23:33", "John 19:17"],
+        id_status="disputed",
+        id_note="Scripture places it outside the city gate but near the city (John 19:20; Hebrews 13:12). Two sites are traditionally proposed: the Church of the Holy Sepulchre, the older tradition, and Gordon's Calvary beside the Garden Tomb, proposed in the 19th century. Neither is confirmed. Scripture never calls it a hill.",
+        desc="The place just outside Jerusalem where Jesus was crucified. Golgotha is an Aramaic name meaning \"place of a skull\"; \"Calvary\" comes from the Latin word for skull (Matthew 27:33; Luke 23:33). Simon of Cyrene was forced to carry Jesus' cross there, and Jesus was crucified between two criminals, one of whom He promised would be with Him in Paradise that same day (Mark 15:21-27; Luke 23:39-43). His mother Mary stood near the cross with other women, and Jesus entrusted her to the disciple He loved; Mary Magdalene and Salome watched from a distance (John 19:25-27; Mark 15:40-41). In the place where He was crucified there was a garden with a new tomb, where Joseph of Arimathea and Nicodemus laid His body (John 19:38-42). Hebrews sees meaning in the location itself: Jesus suffered outside the gate to make His people holy through His own blood (Hebrews 13:12).",
+        ff=(
+            "Golgotha, also called Calvary, is the place just outside Jerusalem where Jesus died on the cross. "
+            "Its name means \"place of a skull.\" A man named Simon carried Jesus' cross there. Jesus' mother Mary "
+            "and other women who loved Him stayed near. One of the criminals beside Jesus trusted Him, and Jesus "
+            "promised he would be with Him in Paradise that day. Nearby was a garden with a new tomb, where Jesus "
+            "was buried. Jesus died there to take the punishment for our sins."
+        )),
     "havvoth-jair": dict(name="Havvoth-jair", type="region", region="moab-transjordan", first_reference="Numbers 32:41",
         desc="A group of villages in Gilead named for Jair, a descendant of Manasseh who captured them (Numbers 32:41; Deuteronomy 3:14)."),
     "hill-country-of-judea": dict(name="Hill Country of Judea", type="region", region="canaan-israel", first_reference="Luke 1:39",
@@ -1343,9 +1368,75 @@ PLACES_MINOR = {
         desc="The sea from which Jonah fled by ship before being cast overboard and swallowed by a great fish (Jonah 1:3-17), and across which Paul's final voyage to Rome as a prisoner passed (Acts 27)."),
     "megiddo": dict(name="Megiddo", type="city", region="canaan-israel", first_reference="Joshua 12:21", modern="Tel Megiddo, Israel",
         desc="A strategic fortress city controlling the Jezreel Valley where King Josiah was fatally wounded confronting Pharaoh Neco's army (2 Kings 23:29-30), and the source of the name \"Armageddon\" (Har Megiddo) in Revelation 16:16."),
+    "mount-ebal": dict(name="Mount Ebal", type="mountain", region="canaan-israel", first_reference="Deuteronomy 11:29",
+        references=["Deuteronomy 11:29", "Deuteronomy 27:4", "Deuteronomy 27:13", "Joshua 8:30", "Joshua 8:33"],
+        modern="Mount Ebal, near Nablus",
+        desc="The mountain facing Mount Gerizim across the valley at Shechem. Before Israel entered Canaan, Moses commanded that once they crossed the Jordan, the blessings of the covenant were to be announced from Gerizim and the curses from Ebal, and that an altar of uncut stones be built on Ebal, with the words of the Law written plainly on large plastered stones (Deuteronomy 11:29; 27:1-13). Joshua carried this out after the victory at Ai: he built the altar, offered burnt offerings and peace offerings, wrote a copy of the Law on the stones, and read every word of it aloud to the whole assembly of Israel, including the women, the children, and the foreigners living among them, with half the people standing in front of each mountain (Joshua 8:30-35).",
+        ff=(
+            "Mount Ebal is a mountain in the middle of the land of Israel, across a valley from another mountain "
+            "called Gerizim. Moses told the people that when they reached the promised land, they should build an "
+            "altar on Mount Ebal and write God's law on big stones. Joshua did just that. He built the altar, and "
+            "then he read all of God's law out loud to everyone, from the oldest to the youngest."
+        )),
+    "mount-hor": dict(name="Mount Hor", type="mountain", region="sinai-wilderness", first_reference="Numbers 20:22",
+        references=["Numbers 20:22-29", "Numbers 21:4", "Numbers 33:37-41", "Deuteronomy 32:50"],
+        id_status="unknown",
+        id_note="A mountain on the border of Edom whose exact peak has not been confidently identified. A tradition places it at Jebel Harun near Petra, but that site lies inside Edom rather than on its border. A different, northern Mount Hor marks Israel's northern boundary (Numbers 34:7-8).",
+        desc="The mountain on the border of Edom where Aaron died. After Edom refused Israel passage, the people traveled from Kadesh to Mount Hor, and the LORD told Moses that Aaron would not enter the promised land, because he and Moses had rebelled against God's command at the waters of Meribah (Numbers 20:14-24). Moses, Aaron, and Aaron's son Eleazar climbed the mountain in the sight of the whole congregation; Moses took off Aaron's priestly garments and put them on Eleazar, and Aaron died there on the summit, in the fortieth year after the exodus, at the age of 123. Israel mourned him for thirty days (Numbers 20:25-29; 33:38-39). Deuteronomy 10:6 records Aaron's death at Moserah, a place name from the same stage of the journey. God later pointed back to Aaron's death on Mount Hor when telling Moses he would die on Mount Nebo (Deuteronomy 32:50).",
+        ff=(
+            "Mount Hor is the mountain where Aaron, Moses' brother and Israel's first high priest, died. God told "
+            "Moses to take Aaron and Aaron's son Eleazar up the mountain while all the people watched. There "
+            "Moses took off Aaron's special priest's clothes and put them on Eleazar, who became the new high "
+            "priest. Aaron died on the mountaintop, and all Israel mourned for him for thirty days."
+        )),
+    "mount-nebo": dict(name="Mount Nebo", type="mountain", region="moab-transjordan", first_reference="Deuteronomy 32:49",
+        references=["Deuteronomy 32:49", "Deuteronomy 34:1"],
+        modern="Mount Nebo (Jebel Neba), Jordan",
+        id_status="traditional",
+        id_note="Part of the Abarim range in Moab, opposite Jericho (Deuteronomy 32:49). Traditionally identified with Jebel Neba in modern Jordan; Scripture describes Moses going up Mount Nebo to the top of Pisgah (Deuteronomy 34:1), and how the two names relate is not certain.",
+        desc="The mountain in the land of Moab, across the Jordan from Jericho, where Moses died. Because Moses had not honored God as holy at the waters of Meribah, God told him he would see the promised land but not enter it, and commanded him to climb Mount Nebo in the Abarim range and die there, as Aaron had died on Mount Hor (Deuteronomy 32:48-52). After blessing the tribes, Moses went up Mount Nebo to the top of Pisgah, and the LORD showed him the whole land, from Gilead to Dan and on to the western sea, the land He had promised to Abraham, Isaac, and Jacob. Moses died there at 120 years old, his eyesight still clear, and the LORD buried him in a valley in Moab; no one knows the place of his grave (Deuteronomy 34:1-7). Centuries later Moses appeared again, talking with Jesus on the mountain of the transfiguration (Matthew 17:1-3).",
+        ff=(
+            "Mount Nebo is a mountain across the Jordan River from the promised land. Because Moses had disobeyed "
+            "God at the waters of Meribah, he was not allowed to go into the land. But God took Moses up Mount "
+            "Nebo and showed him the whole land from the top. Moses died there, and God Himself buried him. Many "
+            "years later, Moses appeared again, talking with Jesus on a different mountain."
+        )),
+    "mount-of-olives": dict(name="Mount of Olives", alt=["Olivet", "Olive Grove", "Hill of Corruption", "Mount of Corruption", "Ascent of the Olives", "Mount of Destruction"], type="mountain", region="canaan-israel", first_reference="2 Samuel 15:30",
+        references=["2 Samuel 15:30", "2 Samuel 15:32", "2 Samuel 16:1", "1 Kings 11:7", "2 Kings 23:13", "Zechariah 14:4", "Matthew 21:1", "Matthew 24:3", "Matthew 26:30", "Mark 11:1", "Mark 13:3", "Mark 14:26", "Luke 19:29", "Luke 19:37", "Luke 21:37", "Luke 22:39", "John 8:1", "Acts 1:12"],
+        modern="Mount of Olives, Jerusalem",
+        desc="The ridge just east of Jerusalem, across the Kidron Valley, about a Sabbath day's walk from the city (Acts 1:12). David climbed it weeping and barefoot as he fled Absalom's revolt, and at its summit met Hushai and then Ziba (2 Samuel 15:30-16:4). Solomon built high places for foreign gods on the mountain east of Jerusalem, which Josiah later defiled (1 Kings 11:7; 2 Kings 23:13). Zechariah prophesied a day when the LORD's feet will stand on this mountain and it will split in two (Zechariah 14:4). In the Gospels, Jesus began His entry into Jerusalem from here, wept over the city as He came down, spent His nights on the mount during His last week, taught His disciples here about the temple's destruction and His return, and went here to pray after the Last Supper, in the garden of Gethsemane (Luke 19:29-44; 21:37; Mark 13:3; Matthew 26:30-36). After His ascension, angels told the apostles that Jesus would come back in the same way they had seen Him go, and they returned to Jerusalem from Olivet (Acts 1:9-12); many readers connect this with Zechariah's prophecy.",
+        ff=(
+            "The Mount of Olives is a hill just east of Jerusalem, covered long ago with olive trees. King David "
+            "climbed it crying when his son Absalom turned against him. Much later, Jesus often went there with "
+            "His disciples. He rode into Jerusalem from there, taught His friends there about the future, and "
+            "prayed in a garden on it the night before He died. After He rose from the dead, Jesus went back up "
+            "to heaven, and angels promised that He will come back again."
+        )),
+    "peor": dict(name="Peor", type="mountain", region="moab-transjordan", first_reference="Numbers 23:28",
+        references=["Numbers 23:28", "Numbers 25:3", "Numbers 25:5", "Numbers 25:18", "Numbers 31:16", "Deuteronomy 4:3", "Joshua 22:17", "Psalm 106:28"],
+        id_status="disputed",
+        id_note="A peak in Moab overlooking the wasteland (Numbers 23:28), not securely located. The name is shared with Baal of Peor, the local god, and with the sin committed there, which have their own page (Baal-peor).",
+        desc="A mountain peak in Moab looking out over the wasteland and Israel's camp below. It was the third place King Balak of Moab took the prophet Balaam, after Bamoth-baal and the top of Pisgah, still hoping he would curse Israel; Balak built seven altars there as before (Numbers 23:27-30). This time Balaam did not look for omens, and God's Spirit came on him as he saw Israel camped tribe by tribe, and he blessed them a third time, to Balak's fury (Numbers 24:1-11). The name Peor soon became attached to Israel's shame: the Israelites joined in worshiping Baal of Peor with the women of Moab, and Moses later revealed that the plan had come from Balaam's counsel (Numbers 25:1-3; 31:16; see Baal-peor).",
+        ff=(
+            "Peor is a mountain in the land of Moab. The king of Moab, Balak, took a prophet named Balaam up this "
+            "mountain so he could look down on Israel's camp and curse them. But God's Spirit came on Balaam, and "
+            "he blessed Israel instead, for the third time. King Balak was very angry. God would not let anyone "
+            "curse the people He had chosen."
+        )),
     "philistia": dict(name="Philistia", type="nation", region="canaan-israel", first_reference="Exodus 15:14",
         id_status="secure", id_note="See also Philistine Territory, the broader coastal region of the same people.",
         desc="The coastal homeland of the Philistines; a descendant of their giants, Ishbi-benob, nearly killed David in battle before Abishai intervened (2 Samuel 21:15-17)."),
+    "pisgah": dict(name="Pisgah", alt=["Pisgah Peak", "Ashdoth-pisgah"], type="mountain", region="moab-transjordan", first_reference="Numbers 21:20",
+        references=["Numbers 21:20", "Numbers 23:14", "Deuteronomy 3:17", "Deuteronomy 3:27", "Deuteronomy 4:49", "Deuteronomy 34:1", "Joshua 12:3", "Joshua 13:20"],
+        id_status="disputed",
+        id_note="A summit or ridge of the Abarim range in Moab, overlooking the Jordan Valley and the Dead Sea; often associated with Mount Nebo (Deuteronomy 34:1), but its exact peak is not securely identified.",
+        desc="A high summit in Moab overlooking the wasteland, the Jordan Valley, and the Dead Sea, on Israel's route toward Canaan (Numbers 21:20; Deuteronomy 3:17). King Balak of Moab brought the prophet Balaam to the field of Zophim on the top of Pisgah and built seven altars there, hoping Balaam would curse Israel from a new vantage point; instead God put a message in Balaam's mouth, and he blessed Israel a second time, declaring that God does not lie or go back on His word (Numbers 23:13-24). When Moses pleaded to cross the Jordan, God told him to go up to the top of Pisgah and look at the land with his own eyes, because he would not cross over (Deuteronomy 3:23-27). At the end of his life Moses climbed Mount Nebo to the top of Pisgah, and there the LORD showed him the whole promised land before he died (Deuteronomy 34:1-5).",
+        ff=(
+            "Pisgah is a high mountaintop across the Jordan River from the promised land. A king named Balak took "
+            "the prophet Balaam there to curse Israel, but God made Balaam bless them instead. Years later, Moses "
+            "climbed to the top of Pisgah at the end of his life. From there God showed him the whole beautiful "
+            "land He had promised to give His people."
+        )),
     "ramoth-gilead": dict(name="Ramoth-gilead", type="town", region="moab-transjordan", first_reference="Deuteronomy 4:43",
         desc="A frontier city east of the Jordan where King Ahab was fatally wounded fighting Aram despite disguising himself (1 Kings 22:29-38), and where Jehu was later anointed king in a plot to end Ahab's dynasty (2 Kings 9:1-13)."),
     "shinar": dict(name="Shinar", type="region", region="mesopotamia", first_reference="Genesis 10:10",
@@ -1534,9 +1625,6 @@ PLACES_MINOR = {
         desc="The mountain where Elijah confronted 450 prophets of Baal in a public contest to prove who the true God was, calling down fire from heaven when Baal's prophets' pleas went unanswered (1 Kings 18:16-40)."),
     "mount-gerizim": dict(name="Mount Gerizim", type="mountain", region="canaan-israel", first_reference="Deuteronomy 11:29",
         desc="One of two mountains flanking Shechem from which Israel was to pronounce blessings (Gerizim) and curses (Ebal) upon entering Canaan (Deuteronomy 27:11-13); Jotham later shouted his fable warning against Abimelech's kingship from its slope (Judges 9:7)."),
-    "mount-hor": dict(name="Mount Hor", type="mountain", region="sinai-wilderness", first_reference="Numbers 20:22",
-        id_status="unknown", id_note="Exact peak not confidently identified.",
-        desc="The mountain where Aaron died and was buried after his priestly garments were transferred to his son Eleazar (Numbers 20:22-29)."),
     "mount-moriah": dict(name="Mount Moriah", type="mountain", region="canaan-israel", first_reference="2 Chronicles 3:1",
         modern="Temple Mount, Jerusalem",
         desc="The mountain in Jerusalem where Solomon began building the house of the LORD, at the place where the LORD had appeared to his father David: the threshing floor of Ornan (Araunah) the Jebusite (2 Chronicles 3:1). David had bought that threshing floor when the angel of the LORD, sent in judgment after David's census, stopped beside it. Ornan offered to give it to the king for free, but David insisted on paying full price, refusing to offer God something that cost him nothing; he built an altar and sacrificed there, and the plague was stopped (2 Samuel 24:18-25; 1 Chronicles 21:18-22:1). The name recalls the land of Moriah where Abraham offered Isaac (Genesis 22:2); tradition identifies the two, though the text does not say so directly.",

@@ -164,6 +164,50 @@ ROLES = {
         "john": ("preached repentance and baptized here, preparing the way for Jesus", ["Matthew 3:1-6"]),
     },
 
+    "areopagus": {
+        "paul": ("preached here to Athens' council about the unknown god, the Creator, and the resurrection of Jesus", ["Acts 17:22-31"]),
+        "dionysius": ("a member of this council who believed after Paul's speech here", ["Acts 17:34"]),
+        "damaris": ("believed along with Dionysius after Paul's speech here", ["Acts 17:34"]),
+    },
+    "golgotha": {
+        "simon-3": ("was forced to carry Jesus' cross to this place", ["Mark 15:21-22"]),
+        "mary": ("stood near the cross here, where Jesus entrusted her to the disciple He loved", ["John 19:25-27"]),
+        "mary-magdalene": ("watched the crucifixion here with other women who had followed Jesus from Galilee", ["Mark 15:40-41"]),
+        "salome": ("watched the crucifixion here with Mary Magdalene", ["Mark 15:40"]),
+        "joseph-7": ("laid Jesus' body in a new tomb in the garden at the place of crucifixion", ["John 19:38-42"]),
+        "nicodemus": ("brought spices and helped bury Jesus in the garden tomb here", ["John 19:39-42"]),
+    },
+    "mount-ebal": {
+        "joshua": ("built an altar here and read the whole Law aloud to all Israel, as Moses had commanded", ["Joshua 8:30-35"]),
+    },
+    "mount-hor": {
+        "aaron": ("died on the summit after his priestly garments were put on his son Eleazar", ["Numbers 20:25-28"]),
+        "eleazar": ("was clothed in his father Aaron's priestly garments here and became high priest", ["Numbers 20:25-28"]),
+    },
+    "mount-nebo": {
+        "moses": ("climbed this mountain to see the promised land he could not enter, and died there", ["Deuteronomy 32:48-52", "Deuteronomy 34:1-5"]),
+    },
+    "mount-of-olives": {
+        "david": ("climbed it weeping and barefoot as he fled Jerusalem during Absalom's revolt", ["2 Samuel 15:30"]),
+        "hushai": ("met David at the summit and was sent back to defeat Ahithophel's counsel", ["2 Samuel 15:32-34"]),
+        "ziba": ("met David just past the summit with donkeys and supplies, claiming Mephibosheth hoped to take the throne", ["2 Samuel 16:1-4"]),
+        "solomon": ("built high places for foreign gods on the mountain east of Jerusalem", ["1 Kings 11:7"]),
+        "josiah": ("defiled the high places Solomon had built on the Mount of Corruption", ["2 Kings 23:13"]),
+        "zechariah-13": ("prophesied that the LORD's feet will stand on this mountain and split it in two", ["Zechariah 14:4"]),
+        "peter": ("asked Jesus privately here, with James, John, and Andrew, when the temple would be destroyed", ["Mark 13:3-4"]),
+        "james": ("asked Jesus privately here, with Peter, John, and Andrew, when the temple would be destroyed", ["Mark 13:3-4"]),
+        "john-2": ("asked Jesus privately here, with Peter, James, and Andrew, when the temple would be destroyed", ["Mark 13:3-4"]),
+        "andrew": ("asked Jesus privately here, with Peter, James, and John, when the temple would be destroyed", ["Mark 13:3-4"]),
+    },
+    "peor": {
+        "balak": ("took Balaam to the top of Peor for a third attempt to curse Israel", ["Numbers 23:27-30"]),
+        "balaam": ("blessed Israel a third time from the top of Peor, but later advised the plan that led Israel into sin there", ["Numbers 24:1-9", "Numbers 31:16"]),
+    },
+    "pisgah": {
+        "balak": ("built seven altars on the top of Pisgah, hoping Balaam would curse Israel from there", ["Numbers 23:13-14"]),
+        "balaam": ("blessed Israel a second time from the top of Pisgah", ["Numbers 23:14-24"]),
+        "moses": ("was shown the whole promised land from the top of Pisgah before he died", ["Deuteronomy 3:27", "Deuteronomy 34:1-4"]),
+    },
     # ---- three-person places ----
     "ararat": {
         "noah": ("the ark came to rest on these mountains as the flood receded", ["Genesis 8:4"]),
@@ -494,6 +538,9 @@ ROLES = {
         "hobab": ("asked by Moses to guide Israel onward from this mountain", ["Numbers 10:29-31"]),
         "hur": ("held up Moses's hands, and was left in charge while Moses climbed the mountain", ["Exodus 17:12", "Exodus 24:14"]),
         "oholiab": ("appointed with Bezalel to build the tabernacle here", ["Exodus 31:6"]),
+        "aaron": ("went up with Israel's elders and saw the God of Israel, then made the golden calf at the mountain's foot", ["Exodus 24:9-11", "Exodus 32:1-6"]),
+        "joshua": ("went up the mountain with Moses and came down with him to the golden calf", ["Exodus 24:13", "Exodus 32:17"]),
+        "moses": ("met God at the burning bush here, then received the Law and mediated the covenant on this mountain", ["Exodus 3:1-6", "Exodus 19:20"]),
     },
     "tirzah": {
         "abijah-2": ("Jeroboam's son, whose death at this capital the prophet Ahijah foretold", ["1 Kings 14:12", "1 Kings 14:17"]),

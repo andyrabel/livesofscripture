@@ -2,10 +2,12 @@
   "place_id": "mount-ebal",
   "name": "Mount Ebal",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "canaan-israel",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
   "first_reference": "Deuteronomy 11:29",
   "references": [
     "Deuteronomy 11:29",
@@ -18,11 +20,22 @@
     "status": "secure",
     "note": ""
   },
-  "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "modern_name": "Mount Ebal, near Nablus",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "joshua",
+      "name": "Joshua",
+      "gender": "male",
+      "role": "built an altar here and read the whole Law aloud to all Israel, as Moses had commanded",
+      "references": [
+        "Joshua 8:30-35"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "The mountain facing Mount Gerizim across the valley at Shechem. Before Israel entered Canaan, Moses commanded that once they crossed the Jordan, the blessings of the covenant were to be announced from Gerizim and the curses from Ebal, and that an altar of uncut stones be built on Ebal, with the words of the Law written plainly on large plastered stones (Deuteronomy 11:29; 27:1-13). Joshua carried this out after the victory at Ai: he built the altar, offered burnt offerings and peace offerings, wrote a copy of the Law on the stones, and read every word of it aloud to the whole assembly of Israel, including the women, the children, and the foreigners living among them, with half the people standing in front of each mountain (Joshua 8:30-35).",
+  "family_friendly_summary": "Mount Ebal is a mountain in the middle of the land of Israel, across a valley from another mountain called Gerizim. Moses told the people that when they reached the promised land, they should build an altar on Mount Ebal and write God's law on big stones. Joshua did just that. He built the altar, and then he read all of God's law out loud to everyone, from the oldest to the youngest.",
   "geo": {
     "lat": 32.234,
     "lng": 35.2733,

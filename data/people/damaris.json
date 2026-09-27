@@ -9,7 +9,8 @@
     "precision": "era"
   },
   "geographic_setting": [
-    "Athens"
+    "Athens",
+    "Areopagus"
   ],
   "references": [
     "Acts 17:34"

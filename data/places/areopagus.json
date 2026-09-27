@@ -4,10 +4,12 @@
   "alt_names": [
     "Mars\u2019 hill"
   ],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "asia-minor-greece",
+  "eras": [
+    "Apostolic"
+  ],
   "first_reference": "Acts 17:19",
   "references": [
     "Acts 17:19",
@@ -16,13 +18,42 @@
   ],
   "identification": {
     "status": "secure",
-    "note": ""
+    "note": "The rocky hill northwest of the Athenian Acropolis. The name also belonged to the city council that once met there; whether Paul spoke on the hill itself or before the council meeting elsewhere is debated."
   },
-  "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "modern_name": "Areopagus hill, Athens, Greece",
+  "n_people": 3,
+  "related_people": [
+    {
+      "person_id": "damaris",
+      "name": "Damaris",
+      "gender": "female",
+      "role": "believed along with Dionysius after Paul's speech here",
+      "references": [
+        "Acts 17:34"
+      ]
+    },
+    {
+      "person_id": "dionysius",
+      "name": "Dionysius",
+      "gender": "male",
+      "role": "a member of this council who believed after Paul's speech here",
+      "references": [
+        "Acts 17:34"
+      ]
+    },
+    {
+      "person_id": "paul",
+      "name": "Paul",
+      "gender": "male",
+      "role": "preached here to Athens' council about the unknown god, the Creator, and the resurrection of Jesus",
+      "references": [
+        "Acts 17:22-31"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "A rocky hill in Athens, the \"hill of Ares\" (Mars' Hill in the KJV), which also gave its name to the city's ancient council. After Paul reasoned daily in the synagogue and marketplace, some Epicurean and Stoic philosophers brought him to the Areopagus to explain his teaching about Jesus and the resurrection (Acts 17:16-21). Paul began from an altar he had seen inscribed to an unknown god and proclaimed the Creator of the world, who needs no man-made shrine, who made all the nations from a single ancestor, and who now calls everyone to repent, because He has fixed a day to judge the world by the Man He raised from the dead (Acts 17:22-31). Some mocked at the mention of resurrection and others wanted to hear more, but a few believed, among them Dionysius, a member of the council, and a woman named Damaris (Acts 17:32-34).",
+  "family_friendly_summary": "The Areopagus is a rocky hill in the city of Athens, in Greece, where important city leaders met. Paul was brought there to explain what he was teaching. He told the people of Athens about the one true God who made the whole world and everyone in it. He said that God had raised Jesus from the dead. Some people laughed at him, but a few believed, including a council member named Dionysius and a woman named Damaris.",
   "geo": {
     "lat": 37.97222,
     "lng": 23.72361,

@@ -172,6 +172,13 @@
       "openbible": "Ararat",
       "geojson": "ab89be9.geojson"
     },
+    "areopagus": {
+      "lat": 37.97222,
+      "lng": 23.72361,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Areopagus"
+    },
     "argob": {
       "lat": 32.9695,
       "lng": 36.45538,
@@ -1116,6 +1123,25 @@
         ]
       ]
     },
+    "golgotha": {
+      "lat": 31.77844,
+      "lng": 35.22975,
+      "confidence": 426,
+      "kind": "point",
+      "openbible": "Golgotha",
+      "candidates": [
+        [
+          35.22975,
+          31.77844,
+          426
+        ],
+        [
+          35.23069,
+          31.77663,
+          31
+        ]
+      ]
+    },
     "gomorrah": {
       "lat": 31.20849,
       "lng": 35.44922,
@@ -1954,6 +1980,13 @@
       "kind": "point",
       "openbible": "Mount Carmel"
     },
+    "mount-ebal": {
+      "lat": 32.234,
+      "lng": 35.2733,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Mount Ebal"
+    },
     "mount-gerizim": {
       "lat": 32.19944,
       "lng": 35.27278,
@@ -1998,6 +2031,37 @@
       "confidence": 1000,
       "kind": "point",
       "openbible": "Mount Moriah"
+    },
+    "mount-nebo": {
+      "lat": 31.76667,
+      "lng": 35.75,
+      "confidence": 413,
+      "kind": "point",
+      "openbible": "Mount Nebo",
+      "candidates": [
+        [
+          35.75,
+          31.76667,
+          413
+        ],
+        [
+          35.72556,
+          31.76778,
+          365
+        ],
+        [
+          35.70855,
+          32.07154,
+          39
+        ]
+      ]
+    },
+    "mount-of-olives": {
+      "lat": 31.77795,
+      "lng": 35.24569,
+      "confidence": 1000,
+      "kind": "point",
+      "openbible": "Mount of Olives"
     },
     "mount-sinai": {
       "lat": 28.53972,
@@ -2231,6 +2295,14 @@
         ]
       ]
     },
+    "peor": {
+      "lat": 31.77702,
+      "lng": 35.7385,
+      "confidence": 1000,
+      "kind": "representative",
+      "openbible": "Peor",
+      "geojson": "a9ef72b.geojson"
+    },
     "perea": {
       "lat": 31.95,
       "lng": 35.7,
@@ -2313,6 +2385,35 @@
           35.31048,
           31.8348,
           48
+        ]
+      ]
+    },
+    "pisgah": {
+      "lat": 31.76778,
+      "lng": 35.72556,
+      "confidence": 453,
+      "kind": "point",
+      "openbible": "Pisgah",
+      "candidates": [
+        [
+          35.72556,
+          31.76778,
+          453
+        ],
+        [
+          35.75,
+          31.76667,
+          176
+        ],
+        [
+          35.7152,
+          31.7539,
+          47
+        ],
+        [
+          35.75,
+          31.76667,
+          18
         ]
       ]
     },

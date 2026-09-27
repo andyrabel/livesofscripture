@@ -9,10 +9,15 @@
     "Ascent of the Olives",
     "Mount of Destruction"
   ],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "canaan-israel",
+  "eras": [
+    "United Monarchy",
+    "Divided Monarchy",
+    "Post-Exile/Intertestamental",
+    "Gospels"
+  ],
   "first_reference": "2 Samuel 15:30",
   "references": [
     "2 Samuel 15:30",
@@ -38,11 +43,103 @@
     "status": "secure",
     "note": ""
   },
-  "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "modern_name": "Mount of Olives, Jerusalem",
+  "n_people": 10,
+  "related_people": [
+    {
+      "person_id": "andrew",
+      "name": "Andrew",
+      "gender": "male",
+      "role": "asked Jesus privately here, with Peter, James, and John, when the temple would be destroyed",
+      "references": [
+        "Mark 13:3-4"
+      ]
+    },
+    {
+      "person_id": "david",
+      "name": "David",
+      "gender": "male",
+      "role": "climbed it weeping and barefoot as he fled Jerusalem during Absalom's revolt",
+      "references": [
+        "2 Samuel 15:30"
+      ]
+    },
+    {
+      "person_id": "hushai",
+      "name": "Hushai",
+      "gender": "male",
+      "role": "met David at the summit and was sent back to defeat Ahithophel's counsel",
+      "references": [
+        "2 Samuel 15:32-34"
+      ]
+    },
+    {
+      "person_id": "james",
+      "name": "James",
+      "gender": "male",
+      "role": "asked Jesus privately here, with Peter, John, and Andrew, when the temple would be destroyed",
+      "references": [
+        "Mark 13:3-4"
+      ]
+    },
+    {
+      "person_id": "john-2",
+      "name": "John",
+      "gender": "male",
+      "role": "asked Jesus privately here, with Peter, James, and Andrew, when the temple would be destroyed",
+      "references": [
+        "Mark 13:3-4"
+      ]
+    },
+    {
+      "person_id": "josiah",
+      "name": "Josiah",
+      "gender": "male",
+      "role": "defiled the high places Solomon had built on the Mount of Corruption",
+      "references": [
+        "2 Kings 23:13"
+      ]
+    },
+    {
+      "person_id": "peter",
+      "name": "Peter",
+      "gender": "male",
+      "role": "asked Jesus privately here, with James, John, and Andrew, when the temple would be destroyed",
+      "references": [
+        "Mark 13:3-4"
+      ]
+    },
+    {
+      "person_id": "solomon",
+      "name": "Solomon",
+      "gender": "male",
+      "role": "built high places for foreign gods on the mountain east of Jerusalem",
+      "references": [
+        "1 Kings 11:7"
+      ]
+    },
+    {
+      "person_id": "zechariah-13",
+      "name": "Zechariah",
+      "gender": "male",
+      "role": "prophesied that the LORD's feet will stand on this mountain and split it in two",
+      "references": [
+        "Zechariah 14:4"
+      ]
+    },
+    {
+      "person_id": "ziba",
+      "name": "Ziba",
+      "gender": "male",
+      "role": "met David just past the summit with donkeys and supplies, claiming Mephibosheth hoped to take the throne",
+      "references": [
+        "2 Samuel 16:1-4"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "The ridge just east of Jerusalem, across the Kidron Valley, about a Sabbath day's walk from the city (Acts 1:12). David climbed it weeping and barefoot as he fled Absalom's revolt, and at its summit met Hushai and then Ziba (2 Samuel 15:30-16:4). Solomon built high places for foreign gods on the mountain east of Jerusalem, which Josiah later defiled (1 Kings 11:7; 2 Kings 23:13). Zechariah prophesied a day when the LORD's feet will stand on this mountain and it will split in two (Zechariah 14:4). In the Gospels, Jesus began His entry into Jerusalem from here, wept over the city as He came down, spent His nights on the mount during His last week, taught His disciples here about the temple's destruction and His return, and went here to pray after the Last Supper, in the garden of Gethsemane (Luke 19:29-44; 21:37; Mark 13:3; Matthew 26:30-36). After His ascension, angels told the apostles that Jesus would come back in the same way they had seen Him go, and they returned to Jerusalem from Olivet (Acts 1:9-12); many readers connect this with Zechariah's prophecy.",
+  "family_friendly_summary": "The Mount of Olives is a hill just east of Jerusalem, covered long ago with olive trees. King David climbed it crying when his son Absalom turned against him. Much later, Jesus often went there with His disciples. He rode into Jerusalem from there, taught His friends there about the future, and prayed in a garden on it the night before He died. After He rose from the dead, Jesus went back up to heaven, and angels promised that He will come back again.",
   "geo": {
     "lat": 31.77795,
     "lng": 35.24569,

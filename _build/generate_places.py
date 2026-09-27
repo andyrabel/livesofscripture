@@ -271,6 +271,8 @@ def main():
         "mount-gerizim", "kir-hareseth", "jabesh-gilead", "hazor", "magdala",
         "laodicea", "pergamum", "thyatira", "athens", "malta", "megiddo", "crete",
         "dan", "smyrna", "sardis", "philadelphia", "moriah", "mount-moriah",
+        "mount-of-olives", "golgotha", "mount-nebo", "pisgah", "mount-hor", "mount-ebal",
+        "areopagus", "peor",
     }
 
     places = []

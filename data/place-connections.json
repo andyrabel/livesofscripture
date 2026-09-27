@@ -5243,6 +5243,13 @@
     "mutual": true
   },
   {
+    "from": "aaron",
+    "to": "place:mount-sinai",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "bezalel",
     "to": "place:mount-sinai",
     "label": "associated with",
@@ -5272,6 +5279,20 @@
   },
   {
     "from": "hur",
+    "to": "place:mount-sinai",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "joshua",
+    "to": "place:mount-sinai",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "moses",
     "to": "place:mount-sinai",
     "label": "associated with",
     "type": "person-place",
@@ -6552,6 +6573,27 @@
     "mutual": true
   },
   {
+    "from": "damaris",
+    "to": "place:areopagus",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "dionysius",
+    "to": "place:areopagus",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "paul",
+    "to": "place:areopagus",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "epanetus",
     "to": "place:asia-roman-province",
     "label": "associated with",
@@ -6699,6 +6741,48 @@
     "mutual": true
   },
   {
+    "from": "joseph-7",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "mary",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "mary-magdalene",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "nicodemus",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "salome",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "simon-3",
+    "to": "place:golgotha",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "ira",
     "to": "place:havvoth-jair",
     "label": "associated with",
@@ -6839,6 +6923,118 @@
     "mutual": true
   },
   {
+    "from": "joshua",
+    "to": "place:mount-ebal",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "aaron",
+    "to": "place:mount-hor",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "eleazar",
+    "to": "place:mount-hor",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "moses",
+    "to": "place:mount-nebo",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "andrew",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "david",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "hushai",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "james",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "john-2",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "josiah",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "peter",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "solomon",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "zechariah-13",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "ziba",
+    "to": "place:mount-of-olives",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "balaam",
+    "to": "place:peor",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "balak",
+    "to": "place:peor",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "goliath",
     "to": "place:philistia",
     "label": "associated with",
@@ -6848,6 +7044,27 @@
   {
     "from": "ishbi-benob",
     "to": "place:philistia",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "balaam",
+    "to": "place:pisgah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "balak",
+    "to": "place:pisgah",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "moses",
+    "to": "place:pisgah",
     "label": "associated with",
     "type": "person-place",
     "mutual": true
@@ -7471,13 +7688,6 @@
   {
     "from": "jotham",
     "to": "place:mount-gerizim",
-    "label": "associated with",
-    "type": "person-place",
-    "mutual": true
-  },
-  {
-    "from": "eleazar",
-    "to": "place:mount-hor",
     "label": "associated with",
     "type": "person-place",
     "mutual": true

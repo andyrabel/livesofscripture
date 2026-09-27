@@ -2,29 +2,60 @@
   "place_id": "mount-nebo",
   "name": "Mount Nebo",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "mountain",
-  "region": "undetermined",
-  "eras": [],
+  "region": "moab-transjordan",
+  "eras": [
+    "Exodus/Wilderness"
+  ],
   "first_reference": "Deuteronomy 32:49",
   "references": [
     "Deuteronomy 32:49",
     "Deuteronomy 34:1"
   ],
   "identification": {
-    "status": "disputed",
-    "note": "Its location is disputed; scholars have proposed several different modern sites for it."
+    "status": "traditional",
+    "note": "Part of the Abarim range in Moab, opposite Jericho (Deuteronomy 32:49). Traditionally identified with Jebel Neba in modern Jordan; Scripture describes Moses going up Mount Nebo to the top of Pisgah (Deuteronomy 34:1), and how the two names relate is not certain."
   },
-  "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "modern_name": "Mount Nebo (Jebel Neba), Jordan",
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "moses",
+      "name": "Moses",
+      "gender": "male",
+      "role": "climbed this mountain to see the promised land he could not enter, and died there",
+      "references": [
+        "Deuteronomy 32:48-52",
+        "Deuteronomy 34:1-5"
+      ]
+    }
+  ],
   "unnamed_people": [],
-  "description": "",
+  "description": "The mountain in the land of Moab, across the Jordan from Jericho, where Moses died. Because Moses had not honored God as holy at the waters of Meribah, God told him he would see the promised land but not enter it, and commanded him to climb Mount Nebo in the Abarim range and die there, as Aaron had died on Mount Hor (Deuteronomy 32:48-52). After blessing the tribes, Moses went up Mount Nebo to the top of Pisgah, and the LORD showed him the whole land, from Gilead to Dan and on to the western sea, the land He had promised to Abraham, Isaac, and Jacob. Moses died there at 120 years old, his eyesight still clear, and the LORD buried him in a valley in Moab; no one knows the place of his grave (Deuteronomy 34:1-7). Centuries later Moses appeared again, talking with Jesus on the mountain of the transfiguration (Matthew 17:1-3).",
+  "family_friendly_summary": "Mount Nebo is a mountain across the Jordan River from the promised land. Because Moses had disobeyed God at the waters of Meribah, he was not allowed to go into the land. But God took Moses up Mount Nebo and showed him the whole land from the top. Moses died there, and God Himself buried him. Many years later, Moses appeared again, talking with Jesus on a different mountain.",
   "geo": {
     "lat": 31.76667,
     "lng": 35.75,
     "confidence": 413,
     "kind": "point",
-    "openbible": "Mount Nebo"
+    "openbible": "Mount Nebo",
+    "candidates": [
+      [
+        35.75,
+        31.76667,
+        413
+      ],
+      [
+        35.72556,
+        31.76778,
+        365
+      ],
+      [
+        35.70855,
+        32.07154,
+        39
+      ]
+    ]
   }
 }

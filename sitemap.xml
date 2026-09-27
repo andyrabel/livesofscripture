@@ -6078,6 +6078,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/areopagus.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/arimathea.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6273,6 +6278,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/golgotha.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/gomorrah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6448,6 +6458,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/mount-ebal.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/mount-gerizim.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6458,7 +6473,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/mount-hor.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/mount-moriah.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/mount-nebo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -6469,6 +6494,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/mount-tabor.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/mount-of-olives.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -6508,6 +6538,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/peor.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/perga.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6534,6 +6569,11 @@
   </url>
   <url>
     <loc>https://livesofscripture.org/places/philistine-territory.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://livesofscripture.org/places/pisgah.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

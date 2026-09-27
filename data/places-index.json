@@ -1055,12 +1055,16 @@
     "alt_names": [
       "Mars\u2019 hill"
     ],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "asia-minor-greece",
+    "eras": [
+      "Apostolic"
+    ],
+    "n_people": 3,
+    "disambiguation": "",
+    "lat": 37.97222,
+    "lng": 23.72361
   },
   {
     "place_id": "argob",
@@ -6058,12 +6062,16 @@
       "Place of a Skull",
       "Place of the Skull"
     ],
-    "tier": "stub",
-    "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "tier": "full",
+    "type": "site",
+    "region": "canaan-israel",
+    "eras": [
+      "Gospels"
+    ],
+    "n_people": 6,
+    "disambiguation": "",
+    "lat": 31.77844,
+    "lng": 35.22975
   },
   {
     "place_id": "gomer",
@@ -10129,12 +10137,16 @@
     "place_id": "mount-ebal",
     "name": "Mount Ebal",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "canaan-israel",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": "",
+    "lat": 32.234,
+    "lng": 35.2733
   },
   {
     "place_id": "mount-ephron",
@@ -10239,13 +10251,13 @@
     "place_id": "mount-hor",
     "name": "Mount Hor",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
     "region": "sinai-wilderness",
     "eras": [
       "Exodus/Wilderness"
     ],
-    "n_people": 1,
+    "n_people": 2,
     "disambiguation": "",
     "lat": 30.83206,
     "lng": 35.05687
@@ -10308,12 +10320,16 @@
     "place_id": "mount-nebo",
     "name": "Mount Nebo",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 1,
+    "disambiguation": "",
+    "lat": 31.76667,
+    "lng": 35.75
   },
   {
     "place_id": "mount-perazim",
@@ -10352,7 +10368,7 @@
       "Exodus/Wilderness",
       "Divided Monarchy"
     ],
-    "n_people": 6,
+    "n_people": 9,
     "disambiguation": "",
     "lat": 28.53972,
     "lng": 33.97333
@@ -10409,12 +10425,19 @@
       "Ascent of the Olives",
       "Mount of Destruction"
     ],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "canaan-israel",
+    "eras": [
+      "United Monarchy",
+      "Divided Monarchy",
+      "Post-Exile/Intertestamental",
+      "Gospels"
+    ],
+    "n_people": 10,
+    "disambiguation": "",
+    "lat": 31.77795,
+    "lng": 35.24569
   },
   {
     "place_id": "mozah",
@@ -11203,12 +11226,16 @@
     "place_id": "peor",
     "name": "Peor",
     "alt_names": [],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 2,
+    "disambiguation": "",
+    "lat": 31.77702,
+    "lng": 35.7385
   },
   {
     "place_id": "perea",
@@ -11461,12 +11488,16 @@
       "Pisgah Peak",
       "Ashdoth-pisgah"
     ],
-    "tier": "stub",
+    "tier": "full",
     "type": "mountain",
-    "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
-    "disambiguation": ""
+    "region": "moab-transjordan",
+    "eras": [
+      "Exodus/Wilderness"
+    ],
+    "n_people": 3,
+    "disambiguation": "",
+    "lat": 31.76778,
+    "lng": 35.72556
   },
   {
     "place_id": "pishon",
