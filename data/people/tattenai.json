@@ -1,19 +1,66 @@
 {
   "person_id": "tattenai",
+  "image2": "tattenai.png",
   "name": "Tattenai",
-  "alt_names": [],
-  "tier": "stub",
+  "alt_names": [
+    "Tatnai"
+  ],
+  "tier": "full",
   "testament": "OT",
+  "era": "Post-Exile/Intertestamental",
+  "timeline": {
+    "precision": "era"
+  },
+  "geographic_setting": [
+    "Beyond the River",
+    "Jerusalem"
+  ],
   "references": [
     "Ezra 5:3-6",
     "Ezra 6:6-13"
   ],
   "first_reference": "Ezra 5:3-6",
+  "topics": [
+    "opposition to rebuilding",
+    "Persian administration",
+    "God's providence"
+  ],
+  "interpretive_dispute": false,
+  "interpretive_note": "",
+  "source_summary": "The Persian governor of the province Beyond the River who questioned the Jews' authority to rebuild the Jerusalem temple, reported the matter fairly to King Darius, and then carried out Darius's decree to fund the work.",
+  "family_friendly_summary": "Tattenai was a governor for the king of Persia, in charge of a large region that included the land of Judah. When the Jewish people who had come home from Babylon started rebuilding God's temple in Jerusalem, Tattenai came to ask who had given them permission. He did not stop the work. Instead he wrote an honest letter to King Darius and asked him to check the old royal records. The records showed that King Cyrus had allowed the building. Darius told Tattenai to let the work go on and to pay for it with the king's money. Tattenai obeyed, and the temple was finished.",
+  "adult_story": "Tattenai was the Persian governor of the province Beyond the River, the vast territory west of the Euphrates that included Judah, during the reign of Darius I (Ezra 5:3). After years of delay, the returned exiles had resumed rebuilding the temple in Jerusalem under Zerubbabel and Jeshua son of Jozadak, stirred up by the prophets Haggai and Zechariah (Ezra 5:1-2). Tattenai, with Shethar-bozenai and their colleagues, came to Jerusalem, demanded to know who had authorized the building, and asked for the names of the men in charge (Ezra 5:3-4). Scripture notes that God was watching over the elders of the Jews, so the officials did not halt the work while the matter went to the king (Ezra 5:5). Tattenai's letter to Darius was a fair report: it described the work, set out the Jews' own account that Cyrus had decreed the rebuilding, and asked the king to search the royal archives (Ezra 5:6-17). The decree was found at Ecbatana, and Darius ordered Tattenai to keep away from the work, pay its full cost from the province's royal taxes, and supply what the priests needed for the daily sacrifices (Ezra 6:1-12). Tattenai and his colleagues carried out the order diligently, and the temple was finished (Ezra 6:13-15). Outside Scripture, a Babylonian tablet from Darius's reign names a Tattannu as governor of Across-the-River, commonly identified with him.",
+  "image": {
+    "file": "generic-figure.jpg",
+    "prompt_used": "Generic role icon, not person-specific: plain robed silhouette figure with no additional prop.",
+    "prompt_image_source": null,
+    "caption": "Generic stained-glass icon for figures -- symbolic, no claim of likeness"
+  },
   "genealogy": {
     "father": null,
     "mother": null,
     "spouses": [],
     "children": []
   },
-  "gender": "male"
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "gender": "male",
+  "devotionals": [
+    "Tattenai came to question the temple builders, but God was watching over them, so the work went on while the king decided. In the end the governor paid the costs from the king's taxes. When people question what God has given us to do, we can keep at it and trust Him with the outcome."
+  ],
+  "spotlight_eligible": false,
+  "spotlight_note": "a single brief episode with minimal narrative weight",
+  "name_meaning": {
+    "meaning": "That gives; the overseer of the gifts and tributes",
+    "language": "Babylonian (Akkadian)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "url": "https://bible-history.com/hitchcock/T/Tatnai/"
+      }
+    ]
+  }
 }

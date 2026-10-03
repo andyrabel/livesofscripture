@@ -15737,5 +15737,63 @@
       "Mark 3:17",
       "Mark 10:35-41"
     ]
+  },
+  {
+    "from": "tattenai",
+    "to": "shethar-bozenai",
+    "label": "questioned the temple rebuilding together",
+    "type": "collaboration",
+    "mutual": true,
+    "note": "As governor of Beyond the River, Tattenai went to Jerusalem with Shethar-bozenai to ask who had authorized the temple rebuilding; the two sent a joint report to King Darius and later carried out his decree together.",
+    "references": [
+      "Ezra 5:3-6",
+      "Ezra 6:6-13"
+    ]
+  },
+  {
+    "from": "tattenai",
+    "to": "zerubbabel",
+    "label": "challenged his authority to rebuild the temple",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Tattenai demanded to know who had authorized the temple work Zerubbabel was leading, but did not stop it while the question went to Darius; once the king confirmed Cyrus's decree, Tattenai funded the work instead.",
+    "references": [
+      "Ezra 5:2-5",
+      "Ezra 6:7-13"
+    ]
+  },
+  {
+    "from": "tattenai",
+    "to": "jeshua-3",
+    "label": "challenged his authority to rebuild the temple",
+    "type": "rivalry",
+    "mutual": false,
+    "note": "Jeshua son of Jozadak was leading the temple rebuilding alongside Zerubbabel when Tattenai came to Jerusalem to question who had authorized it.",
+    "references": [
+      "Ezra 5:2-5"
+    ]
+  },
+  {
+    "from": "darius-2",
+    "to": "tattenai",
+    "label": "ordered him to fund the temple rebuilding",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Tattenai reported the temple rebuilding to Darius and asked for a search of the royal archives; when Cyrus's decree was found, Darius ordered Tattenai to keep away from the work and pay its costs from the province's royal taxes, and Tattenai obeyed.",
+    "references": [
+      "Ezra 5:6-17",
+      "Ezra 6:6-13"
+    ]
+  },
+  {
+    "from": "darius-2",
+    "to": "shethar-bozenai",
+    "label": "ordered him to fund the temple rebuilding",
+    "type": "collaboration",
+    "mutual": false,
+    "note": "Darius's decree confirming Cyrus's permission was addressed to Shethar-bozenai along with Tattenai, ordering them to keep away from the temple work and pay its costs, which they did.",
+    "references": [
+      "Ezra 6:6-13"
+    ]
   }
 ]

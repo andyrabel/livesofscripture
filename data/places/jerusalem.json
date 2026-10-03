@@ -35,7 +35,7 @@
     "note": ""
   },
   "modern_name": "Jerusalem, Israel",
-  "n_people": 222,
+  "n_people": 223,
   "related_people": [
     {
       "person_id": "abiathar",
@@ -1161,6 +1161,11 @@
       "person_id": "tamar-2",
       "name": "Tamar",
       "gender": "female"
+    },
+    {
+      "person_id": "tattenai",
+      "name": "Tattenai",
+      "gender": "male"
     },
     {
       "person_id": "thomas",

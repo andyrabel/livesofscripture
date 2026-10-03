@@ -9,7 +9,9 @@
   "tier": "stub",
   "type": "region",
   "region": "undetermined",
-  "eras": [],
+  "eras": [
+    "Post-Exile/Intertestamental"
+  ],
   "first_reference": "Ezra 4:10",
   "references": [
     "Ezra 4:10",
@@ -34,8 +36,14 @@
     "note": ""
   },
   "modern_name": null,
-  "n_people": 0,
-  "related_people": [],
+  "n_people": 1,
+  "related_people": [
+    {
+      "person_id": "tattenai",
+      "name": "Tattenai",
+      "gender": "male"
+    }
+  ],
   "unnamed_people": [],
   "description": "",
   "geo": {

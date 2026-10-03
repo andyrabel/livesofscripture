@@ -1442,6 +1442,13 @@
     "mutual": true
   },
   {
+    "from": "tattenai",
+    "to": "place:jerusalem",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
     "from": "thomas",
     "to": "place:jerusalem",
     "label": "associated with",
@@ -7961,6 +7968,13 @@
   {
     "from": "jobab-3",
     "to": "place:waters-of-merom",
+    "label": "associated with",
+    "type": "person-place",
+    "mutual": true
+  },
+  {
+    "from": "tattenai",
+    "to": "place:beyond-the-river",
     "label": "associated with",
     "type": "person-place",
     "mutual": true

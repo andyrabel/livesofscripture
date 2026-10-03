@@ -39676,16 +39676,26 @@
   },
   {
     "person_id": "tattenai",
+    "image2": "tattenai.png",
     "name": "Tattenai",
-    "alt_names": [],
-    "tier": "stub",
+    "alt_names": [
+      "Tatnai"
+    ],
+    "tier": "full",
     "testament": "OT",
     "era": "Post-Exile/Intertestamental",
     "timeline": {
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "Ezra 5:3-6"
+    "first_reference": "Ezra 5:3-6",
+    "topics": [
+      "opposition to rebuilding",
+      "Persian administration",
+      "God's providence"
+    ],
+    "image": "generic-figure.jpg",
+    "spotlight_eligible": false
   },
   {
     "person_id": "shethar-bozenai",

@@ -2942,8 +2942,10 @@
     "tier": "stub",
     "type": "region",
     "region": "undetermined",
-    "eras": [],
-    "n_people": 0,
+    "eras": [
+      "Post-Exile/Intertestamental"
+    ],
+    "n_people": 1,
     "disambiguation": ""
   },
   {
@@ -7811,7 +7813,7 @@
       "Gospels",
       "Apostolic"
     ],
-    "n_people": 222,
+    "n_people": 223,
     "disambiguation": "",
     "lat": 31.77667,
     "lng": 35.23417

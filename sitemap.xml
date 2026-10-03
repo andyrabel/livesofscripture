@@ -3787,6 +3787,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://livesofscripture.org/people/tattenai.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesofscripture.org/images/portraits2-web/tattenai-full.jpg</image:loc>
+      <image:caption>Tattenai — stained-glass style portrait</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/people/shethar-bozenai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

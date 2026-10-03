@@ -73,7 +73,7 @@ THIN_EPISODE = {
     "drusilla", "medad", "michael-7", "bigthan", "jehiel-3", "antipas",
     "geshem", "hanamel", "jair-2", "jannes", "mamre", "shethar-bozenai",
     "baanah", "jehosheba", "nobah", "rehum-2", "shemeber", "chenaniah",
-    "joah-2", "bidkar",
+    "joah-2", "bidkar", "tattenai",
 }
 
 REASON = {
