@@ -422,17 +422,25 @@ def devotional_section(person):
   </section>"""
 
 
-def story_panel_html(version, story, link_ctx=None, subject_id=None, base="", place_link_ctx=None, subject_kind="person"):
+def story_panel_html(version, story, link_ctx=None, subject_id=None, base="", place_link_ctx=None, subject_kind="person", sections=()):
+    """`sections` is an optional sequence of (heading, text) pairs rendered
+    after the main story inside the same panel (used for a place's
+    people_group), sharing the panel's once-per-panel link sets."""
     paras = [p for p in (story or "").split("\n\n") if p.strip()]
     if not paras:
         paras = [story or ""]
     # First mention of a given person/place is linked once per panel.
     linked_pids = set()
     linked_place_ids = set()
-    paragraphs_html = "\n      ".join(
-        f"<p>{link_person_mentions.link_paragraph(p, subject_id, link_ctx, base, linked_pids, place_link_ctx, linked_place_ids, subject_kind)}</p>"
-        for p in paras
-    )
+
+    def link(p):
+        return link_person_mentions.link_paragraph(p, subject_id, link_ctx, base, linked_pids, place_link_ctx, linked_place_ids, subject_kind)
+
+    parts = [f"<p>{link(p)}</p>" for p in paras]
+    for heading, text in sections:
+        parts.append(f'<h3 class="story-subheading">{esc(heading)}</h3>')
+        parts.extend(f"<p>{link(p)}</p>" for p in (text or "").split("\n\n") if p.strip())
+    paragraphs_html = "\n      ".join(parts)
     hidden = "" if version == "adult" else " hidden"
     return f"""<div class="story-panel{hidden}" data-version="{version}" role="tabpanel" aria-labelledby="tab-{version}" id="panel-{version}">
       <div class="story-text">
@@ -483,8 +491,11 @@ def place_story_tabs_section(place, link_ctx=None, base="", place_link_ctx=None)
         return f"""<div class="story-text place-description">
       {paragraphs_html}
       </div>"""
-    desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base, place_link_ctx, "place")
-    family_panel = story_panel_html("family", family, link_ctx, place_id, base, place_link_ctx, "place")
+    group = place.get("people_group")
+    adult_sections = [(group["name"], group["description"])] if group else ()
+    family_sections = [(group["name"], group["family_friendly_summary"])] if group else ()
+    desc_panel = story_panel_html("adult", place.get("description"), link_ctx, place_id, base, place_link_ctx, "place", adult_sections)
+    family_panel = story_panel_html("family", family, link_ctx, place_id, base, place_link_ctx, "place", family_sections)
     return f"""<div class="story-tabs-wrapper" data-person-name="{esc(place['name'])}">
     <div class="story-tabs-nav" role="tablist" aria-label="Description version">
       <button class="story-tab active" role="tab" aria-selected="true" aria-controls="panel-adult" id="tab-adult" data-version="adult">Full Description</button>

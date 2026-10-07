@@ -1370,6 +1370,27 @@ characters never claimed as historical (the good Samaritan). Extending
 this list further is a reasonable follow-up; re-run `generate_places.py`
 then `generate_static_site.py` after any change.
 
+**People groups on their home place page (added 2026-10-07).** Rather
+than a separate section of the site, a people group Scripture ties to a
+land or city (the Samaritans → Samaria; planned next: Moabites, Edomites,
+Ammonites, Midianites, Canaanites, Arameans, Gibeonites, Galileans) gets
+a short write-up on that place's page. Data lives in
+`_build/place_people_groups.py`'s `PEOPLE_GROUPS` dict
+(`{place_id: {"name", "desc", "ff"}}`, force-committed like
+`place_unnamed_people.py`). `generate_places.py` emits it as a
+`people_group` object on `data/places/<id>.json`, and
+`place_story_tabs_section()` renders it as an `<h3 class="story-subheading">`
+section inside *both* the Full Description and Family Version panels, so
+the one toggle (and Copy / Read Aloud) covers it. Same rules as the place's
+own `desc`/`ff`: ≤250 / ≤150 words, references only, no verse text. A
+disputed origin is stated as disputed in the prose itself, and
+extra-biblical background is labeled. Full-tier places with a
+`family_friendly_summary` only (`generate_places.py` warns otherwise), so
+groups whose home page is still a stub (Philistines → Philistia,
+Amalekites → Amalek) need that place promoted first. Groups with no home
+place (Pharisees, Sadducees, Levites, Rechabites…) are out of scope for
+this mechanism.
+
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

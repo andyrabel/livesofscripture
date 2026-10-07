@@ -808,6 +808,11 @@ a.badge-link:focus-visible {
   line-height: 1.75;
 }
 
+.story-text .story-subheading {
+  margin: 1.5rem 0 0.6rem;
+  font-size: 1.1rem;
+}
+
 .story-text p:last-child {
   margin-bottom: 0;
 }

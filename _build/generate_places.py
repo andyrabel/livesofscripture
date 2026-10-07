@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from places_data import PLACES_MAJOR, PLACES_MID, PLACES_MINOR  # noqa: E402
 from place_people_roles import ROLES  # noqa: E402
 from place_unnamed_people import UNNAMED_PEOPLE  # noqa: E402
+from place_people_groups import PEOPLE_GROUPS  # noqa: E402
 
 # lon/lat + OpenBible confidence per place, produced by
 # _build/backfill_place_coords.py. Absent entries just render without a map.
@@ -347,6 +348,13 @@ def main():
             ff = c.get("ff") or existing_ff.get(slug, "")
             if ff:
                 entry["family_friendly_summary"] = ff
+            group = PEOPLE_GROUPS.get(slug)
+            if group:
+                entry["people_group"] = {
+                    "name": group["name"],
+                    "description": group["desc"],
+                    "family_friendly_summary": group["ff"],
+                }
         else:
             entry["description"] = c.get("desc", "")
 
@@ -451,6 +459,11 @@ def main():
     for slug in UNNAMED_PEOPLE:
         if slug not in all_slugs:
             print(f"warning: place_unnamed_people.py has an entry for unknown place {slug!r}")
+    full_slugs = {e["place_id"] for e in places if e["tier"] == "full"}
+    for slug in PEOPLE_GROUPS:
+        if slug not in full_slugs:
+            print(f"warning: place_people_groups.py has an entry for {slug!r}, "
+                  f"which is not a full-tier place (it would not render)")
 
     full_count = sum(1 for e in places if e["tier"] == "full")
     n_roles = sum(1 for e in places for rp in e["related_people"] if rp.get("role"))
