@@ -2,7 +2,7 @@
   "place_id": "amalek",
   "name": "Amalek",
   "alt_names": [],
-  "tier": "stub",
+  "tier": "full",
   "type": "nation",
   "region": "sinai-wilderness",
   "eras": [
@@ -10,7 +10,11 @@
   ],
   "first_reference": "Genesis 36:12",
   "references": [
-    "Genesis 36:12"
+    "Genesis 36:12",
+    "Exodus 17:8-16",
+    "Numbers 13:29",
+    "1 Samuel 15",
+    "1 Samuel 30"
   ],
   "identification": {
     "status": "secure",
@@ -26,7 +30,13 @@
     }
   ],
   "unnamed_people": [],
-  "description": "A nomadic nation descended from Esau's grandson that attacked Israel in the wilderness (Exodus 17:8-16); Saul was later commanded to destroy Amalek entirely but spared king Agag and the best plunder, disobedience that cost him his kingdom (1 Samuel 15).",
+  "description": "Amalek names both a people and the desert country they roamed: the Negev south of Canaan and the wilderness stretching toward Egypt. The twelve spies reported Amalekites living in the Negev (Numbers 13:29), and Saul struck them from Havilah as far as Shur, on the way to Egypt (1 Samuel 15:7). They were nomads with no fixed capital. 1 Samuel 15:5 mentions a city of Amalek, but its location is unknown.",
+  "family_friendly_summary": "Amalek was the name of a wandering people and of the dry desert land where they lived, south of Canaan on the way to Egypt. Instead of staying in one city, the Amalekites moved from place to place with their animals.",
+  "people_group": {
+    "name": "The Amalekites",
+    "description": "The Amalekites descended from Amalek, a grandson of Esau by the concubine Timna (Genesis 36:12). They were the first nation to attack Israel after the exodus. At Rephidim, Israel prevailed while Aaron and Hur held up Moses' hands, and God declared that He would be at war with Amalek from generation to generation (Exodus 17:8-16). Moses later reminded Israel that Amalek had struck down the weary stragglers at the rear of the march (Deuteronomy 25:17-19), and Balaam foresaw their ruin (Numbers 24:20).\n\nIn the judges period they joined Eglon of Moab, and later the Midianites, in raiding Israel (Judges 3:13; 6:3). God commanded Saul to destroy the Amalekites completely, but Saul spared King Agag and the best of the livestock. Samuel told him that the LORD wants obedience more than sacrifice and had rejected him as king, then put Agag to death himself (1 Samuel 15). Amalekite raiders later burned Ziklag and carried off David's family, and David pursued them and recovered everything (1 Samuel 30). An Amalekite claimed to have killed the dying Saul and brought David his crown, and David had him put to death (2 Samuel 1:1-16). In Hezekiah's day men of Simeon wiped out the last surviving Amalekites (1 Chronicles 4:42-43).\n\nHaman, the enemy of the Jews in the book of Esther, is called an Agagite (Esther 3:1). Many interpreters connect him with Agag king of Amalek, though the text does not state the link directly.",
+    "family_friendly_summary": "The Amalekites came from Esau's family. They were the first nation to attack Israel after God led His people out of Egypt. While Joshua led the fight, Moses held up his hands on a hill, and Aaron and Hur helped hold them up until Israel won. Long afterward, God told King Saul to destroy the Amalekites, but Saul spared their king and kept the best animals. Because Saul disobeyed, God rejected him as king. Later, Amalekite raiders carried off David's family, and David chased them and rescued everyone."
+  },
   "geo": {
     "lat": 30.64833,
     "lng": 34.42222,

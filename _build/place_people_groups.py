@@ -283,4 +283,65 @@ PEOPLE_GROUPS = {
             "followed Him all the way to the cross and were the first to find His tomb empty."
         ),
     },
+    "philistine-territory": {
+        "name": "The Philistines",
+        "desc": (
+            "Scripture traces the Philistines to Caphtor (Deuteronomy 2:23; Jeremiah 47:4; Amos 9:7), a place "
+            "commonly identified with Crete. Abraham and Isaac both made treaties with Abimelech of Gerar, whom Genesis calls king of "
+            "the Philistines (Genesis 21:32-34; 26:1-31). When Israel left Egypt, God led them away from the "
+            "coastal road through Philistine land in case war made them turn back (Exodus "
+            "13:17).\n\n"
+            "The Philistines worshiped Dagon. They celebrated Samson's capture in his temple, and when they "
+            "set the captured ark beside his image, Dagon fell on his face before it (Judges 16:23-30; "
+            "1 Samuel 5:1-5). In Saul's day they kept Israel from having its own blacksmiths, so that only "
+            "Saul and Jonathan had sword or spear (1 Samuel 13:19-22). Their champion Goliath of Gath fell to "
+            "David (1 Samuel 17), but David later fled to Achish king of Gath, first pretending to be insane and "
+            "later serving him from Ziklag (1 Samuel 21:10-15; 27). Saul and three of his sons died fighting "
+            "the Philistines on Mount Gilboa (1 Samuel 31). As king, David defeated them (2 Samuel 5:17-25; "
+            "8:1), and Ittai of Gath and his men stayed loyal to David when Absalom rebelled (2 Samuel "
+            "15:18-22).\n\n"
+            "Later prophets announced judgment on the Philistines (Amos 1:6-8; Jeremiah 47; Zephaniah 2:4-7), "
+            "yet Zechariah foresaw a remnant of them belonging to God like a clan in Judah (Zechariah 9:6-7). "
+            "In Acts, Philip met the Ethiopian on the road down to Gaza and then preached in Azotus, "
+            "the Philistine city of Ashdod (Acts 8:26-40)."
+        ),
+        "ff": (
+            "The Philistines lived along the seacoast west of Israel. They worshiped a false god named Dagon, "
+            "and they were among Israel's strongest enemies. Their giant Goliath challenged Israel's army "
+            "until young David defeated him with a sling and a stone. Once the Philistines captured the ark "
+            "of the covenant and put it in Dagon's temple, but the next morning their idol had fallen on its "
+            "face before the ark. King Saul died fighting the Philistines, and King David later defeated them. "
+            "Some Philistines, like Ittai from Gath, became David's loyal friends."
+        ),
+    },
+    "amalek": {
+        "name": "The Amalekites",
+        "desc": (
+            "The Amalekites descended from Amalek, a grandson of Esau by the concubine Timna (Genesis 36:12). "
+            "They were the first nation to attack Israel after the exodus. At Rephidim, Israel prevailed while "
+            "Aaron and Hur held up Moses' hands, and God declared that He would be at war with Amalek from "
+            "generation to generation (Exodus 17:8-16). Moses later reminded Israel that Amalek had struck "
+            "down the weary stragglers at the rear of the march (Deuteronomy 25:17-19), and Balaam foresaw "
+            "their ruin (Numbers 24:20).\n\n"
+            "In the judges period they joined Eglon of Moab, and later the Midianites, in raiding Israel "
+            "(Judges 3:13; 6:3). God commanded Saul to destroy the Amalekites completely, but Saul spared King "
+            "Agag and the best of the livestock. Samuel told him that the LORD wants obedience more than "
+            "sacrifice and had rejected him as king, then put Agag to death himself (1 Samuel 15). Amalekite "
+            "raiders later burned Ziklag and carried off David's family, and David pursued them and recovered "
+            "everything (1 Samuel 30). An Amalekite claimed to have killed the dying Saul and brought David his "
+            "crown, and David had him put to death (2 Samuel 1:1-16). In Hezekiah's day men of Simeon wiped out "
+            "the last surviving Amalekites (1 Chronicles 4:42-43).\n\n"
+            "Haman, the enemy of the Jews in the book of Esther, is called an Agagite (Esther 3:1). Many "
+            "interpreters connect him with Agag king of Amalek, though the text does not state the link "
+            "directly."
+        ),
+        "ff": (
+            "The Amalekites came from Esau's family. They were the first nation to attack Israel after God led "
+            "His people out of Egypt. While Joshua led the fight, Moses held up his hands on a hill, and Aaron "
+            "and Hur helped hold them up until Israel won. Long afterward, God told King Saul to destroy the "
+            "Amalekites, but Saul spared their king and kept the best animals. Because Saul disobeyed, God "
+            "rejected him as king. Later, Amalekite raiders carried off David's family, and David chased them "
+            "and rescued everyone."
+        ),
+    },
 }

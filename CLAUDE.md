@@ -910,6 +910,26 @@ were generated from the old, wrong content and likely still visually
 depict the Joash story rather than this person's actual identity — not
 regenerated as part of this fix, left as a flagged follow-up.
 
+**`abishai`/Ishmaiah split 2026-10-07.** The BradyStephenson source
+files 1 Chronicles 12:4's "Ishmaiah the Gibeonite" under `Abishai_1`.
+That can't be right: 12:2-4 lists Saul's Benjaminite kinsmen, and Abishai
+was Zeruiah's son, of Judah. `abishai` lost the "Ishmaiah" alt name and
+that reference. The Gibeonite is now the stub `ishmaiah-2`, separate from
+`ishmaiah` (1 Chronicles 27:19, son of Obadiah). Re-importing from the
+source would bring the conflation back.
+
+**Known era bug, not fixed (found 2026-10-07):** `infer_stub_eras.py`'s
+`book_default_era` treats every chapter of 1 Chronicles from 9 on as
+high-confidence Post-Exile. Only chapter 9 is post-exile; chapters 10-29
+are Saul and David. That puts 243 stubs (David's mighty men, his Levites
+and officials, `ishmaiah-2`) in the wrong era band. A one-line change to
+United Monarchy was tried and reverted. The genealogy BFS then dragged
+Nehemiah 12:35's returnees (whose chain runs back to Asaph) and others
+centuries earlier, and treating Ezra/Nehemiah as high-confidence
+post-exile anchors pulled Asaph's David-era sons forward instead. A fix
+needs to stop BFS from crossing long genealogy chains, not just change
+the book default.
+
 **Six self-documented bundles split 2026-09-27.** Found by scanning
 full-tier `interpretive_note` text for admissions like "bundles two men" /
 "mixes two distinct". Each entry's story stayed on its existing person_id;
@@ -1372,9 +1392,16 @@ then `generate_static_site.py` after any change.
 
 **People groups on their home place page (added 2026-10-07).** Rather
 than a separate section of the site, a people group Scripture ties to a
-land or city (the Samaritans → Samaria; planned next: Moabites, Edomites,
-Ammonites, Midianites, Canaanites, Arameans, Gibeonites, Galileans) gets
-a short write-up on that place's page. Data lives in
+land or city gets a short write-up on that place's page. Eleven so far:
+Samaritans (Samaria), Moabites, Edomites, Ammonites, Midianites,
+Canaanites, Arameans, Gibeonites, Galileans, Philistines, and Amalekites.
+The Philistines are on `philistine-territory`, not the `philistia` stub.
+Both are the same land (`philistine-territory` carries "Philistia" as an
+alt name), and promoting the stub would have made a second full page.
+Merging the two is a possible follow-up; `goliath` and `ishbi-benob` are
+attached to the stub. `amalek` was promoted to full (`FORCE_FULL_MINOR`)
+for its section. Its own description covers the land, and the section
+covers the people. Data lives in
 `_build/place_people_groups.py`'s `PEOPLE_GROUPS` dict
 (`{place_id: {"name", "desc", "ff"}}`, force-committed like
 `place_unnamed_people.py`). `generate_places.py` emits it as a
@@ -1386,8 +1413,7 @@ own `desc`/`ff`: ≤250 / ≤150 words, references only, no verse text. A
 disputed origin is stated as disputed in the prose itself, and
 extra-biblical background is labeled. Full-tier places with a
 `family_friendly_summary` only (`generate_places.py` warns otherwise), so
-groups whose home page is still a stub (Philistines → Philistia,
-Amalekites → Amalek) need that place promoted first. Groups with no home
+a group whose home page is still a stub needs that place promoted first. Groups with no home
 place (Pharisees, Sadducees, Levites, Rechabites…) are out of scope for
 this mechanism.
 

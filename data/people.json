@@ -13220,8 +13220,7 @@
     "person_id": "abishai",
     "name": "Abishai",
     "alt_names": [
-      "Abshai",
-      "Ishmaiah"
+      "Abshai"
     ],
     "tier": "full",
     "testament": "OT",
@@ -35524,7 +35523,23 @@
       "precision": "era"
     },
     "gender": "male",
-    "first_reference": "1 Chronicles 27:19"
+    "first_reference": "1 Chronicles 27:19",
+    "disambiguation": "son of Obadiah (1 Chr 27:19)"
+  },
+  {
+    "person_id": "ishmaiah-2",
+    "name": "Ishmaiah",
+    "alt_names": [],
+    "tier": "stub",
+    "testament": "OT",
+    "genealogy": {},
+    "timeline": {
+      "precision": "era"
+    },
+    "gender": "male",
+    "first_reference": "1 Chronicles 12:4",
+    "disambiguation": "(1 Chr 12:4)",
+    "era": "Post-Exile/Intertestamental"
   },
   {
     "person_id": "obadiah-7",

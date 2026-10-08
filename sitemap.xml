@@ -6067,6 +6067,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://livesofscripture.org/places/amalek.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://livesofscripture.org/places/ammon.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

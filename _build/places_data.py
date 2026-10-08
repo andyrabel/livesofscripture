@@ -1475,7 +1475,19 @@ PLACES_MINOR = {
     "alexandria": dict(name="Alexandria", type="city", region="egypt", first_reference="Acts 18:24", modern="Alexandria, Egypt",
         desc="A major Egyptian city and center of learning, the hometown of Apollos, an eloquent believer skilled in the Scriptures who was further instructed by Priscilla and Aquila before his effective ministry (Acts 18:24-28)."),
     "amalek": dict(name="Amalek", type="nation", region="sinai-wilderness", first_reference="Genesis 36:12",
-        desc="A nomadic nation descended from Esau's grandson that attacked Israel in the wilderness (Exodus 17:8-16); Saul was later commanded to destroy Amalek entirely but spared king Agag and the best plunder, disobedience that cost him his kingdom (1 Samuel 15)."),
+        references=["Genesis 36:12", "Exodus 17:8-16", "Numbers 13:29", "1 Samuel 15", "1 Samuel 30"],
+        desc=(
+            "Amalek names both a people and the desert country they roamed: the Negev south of Canaan and the "
+            "wilderness stretching toward Egypt. The twelve spies reported Amalekites living in the Negev "
+            "(Numbers 13:29), and Saul struck them from Havilah as far as Shur, on the way to Egypt "
+            "(1 Samuel 15:7). They were nomads with no fixed capital. 1 Samuel 15:5 mentions a city of Amalek, "
+            "but its location is unknown."
+        ),
+        ff=(
+            "Amalek was the name of a wandering people and of the dry desert land where they lived, south of "
+            "Canaan on the way to Egypt. Instead of staying in one city, the Amalekites moved from place to "
+            "place with their animals."
+        )),
     "aphek": dict(name="Aphek", type="town", region="canaan-israel", first_reference="Joshua 12:18",
         id_status="unknown", id_note="Several towns named Aphek appear in Scripture; the exact one in view here, where the ark was captured, is generally placed near Philistine territory.",
         desc="The site of a battle where the Philistines defeated Israel and captured the ark of the covenant, in which Eli's sons Hophni and Phinehas were killed (1 Samuel 4:1-11)."),
