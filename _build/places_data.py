@@ -1194,7 +1194,7 @@ PLACES_MID = {
     "philistine-territory": dict(
         name="Philistine Territory", alt=["Philistia"], type="region", region="canaan-israel",
         first_reference="Genesis 21:32", id_status="secure",
-        references=["Judges 13-16", "1 Samuel 4-6"],
+        references=["Exodus 15:14", "Judges 13-16", "1 Samuel 4-6", "2 Samuel 21:15-22"],
         desc=(
             "The coastal region of five allied Philistine cities (Gaza, Ashkelon, Ashdod, Gath, and Ekron) "
             "that repeatedly warred with Israel, especially during the judges period through Samson's "
@@ -1423,9 +1423,6 @@ PLACES_MINOR = {
             "he blessed Israel instead, for the third time. King Balak was very angry. God would not let anyone "
             "curse the people He had chosen."
         )),
-    "philistia": dict(name="Philistia", type="nation", region="canaan-israel", first_reference="Exodus 15:14",
-        id_status="secure", id_note="See also Philistine Territory, the broader coastal region of the same people.",
-        desc="The coastal homeland of the Philistines; a descendant of their giants, Ishbi-benob, nearly killed David in battle before Abishai intervened (2 Samuel 21:15-17)."),
     "pisgah": dict(name="Pisgah", alt=["Pisgah Peak", "Ashdoth-pisgah"], type="mountain", region="moab-transjordan", first_reference="Numbers 21:20",
         references=["Numbers 21:20", "Numbers 23:14", "Deuteronomy 3:17", "Deuteronomy 3:27", "Deuteronomy 4:49", "Deuteronomy 34:1", "Joshua 12:3", "Joshua 13:20"],
         id_status="disputed",

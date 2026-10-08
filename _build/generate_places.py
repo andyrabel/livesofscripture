@@ -135,7 +135,7 @@ NORM = {
     "Riblah": "Riblah", "Timnah": "Timnah", "Tyre": "Tyre", "Valley of Elah": "Valley of Elah",
     "Zoar": "Zoar", "Nineveh": "Nineveh", "Anathoth": "Anathoth", "Athens": "Athens",
     "Casiphia": "Casiphia", "Crete": "Crete", "Gallim": "Gallim", "Joppa": "Joppa",
-    "Malta": "Malta", "Maon": "Maon", "Megiddo": "Megiddo", "Philistia": "Philistia",
+    "Malta": "Malta", "Maon": "Maon", "Megiddo": "Megiddo", "Philistia": "Philistine Territory",
     "Ramoth-gilead": "Ramoth-gilead", "Sodom": "Sodom", "Succoth": "Succoth", "Tekoa": "Tekoa",
     "Thessalonica": "Thessalonica", "Thyatira": "Thyatira", "Ziklag": "Ziklag", "Zorah": "Zorah",
     "Abel Beth-maacah": "Abel Beth-maacah", "Abel-meholah": "Abel-meholah", "Adullam": "Adullam",

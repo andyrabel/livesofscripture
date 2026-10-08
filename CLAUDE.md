@@ -1395,11 +1395,14 @@ than a separate section of the site, a people group Scripture ties to a
 land or city gets a short write-up on that place's page. Eleven so far:
 Samaritans (Samaria), Moabites, Edomites, Ammonites, Midianites,
 Canaanites, Arameans, Gibeonites, Galileans, Philistines, and Amalekites.
-The Philistines are on `philistine-territory`, not the `philistia` stub.
-Both are the same land (`philistine-territory` carries "Philistia" as an
-alt name), and promoting the stub would have made a second full page.
-Merging the two is a possible follow-up; `goliath` and `ishbi-benob` are
-attached to the stub. `amalek` was promoted to full (`FORCE_FULL_MINOR`)
+The Philistines are on `philistine-territory`. A separate `philistia`
+stub for the same land was merged into it on 2026-10-07 and deleted:
+`generate_places.py`'s `NORM` now maps a "Philistia" `geographic_setting`
+to Philistine Territory (so `goliath` and `ishbi-benob` attach there),
+its Exodus 15:14 reference moved over, and its `place_coords.json`,
+`maps.json` region and `map-groups.json` entries went with it. The
+generator doesn't prune stale output, so `data/places/philistia.json`
+and `places/philistia.html` were removed by hand. `amalek` was promoted to full (`FORCE_FULL_MINOR`)
 for its section. Its own description covers the land, and the section
 covers the people. Data lives in
 `_build/place_people_groups.py`'s `PEOPLE_GROUPS` dict

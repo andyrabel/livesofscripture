@@ -14,16 +14,28 @@
   "first_reference": "Genesis 21:32",
   "references": [
     "Genesis 21:32",
+    "Exodus 15:14",
     "Judges 13-16",
-    "1 Samuel 4-6"
+    "1 Samuel 4-6",
+    "2 Samuel 21:15-22"
   ],
   "identification": {
     "status": "secure",
     "note": ""
   },
   "modern_name": null,
-  "n_people": 3,
+  "n_people": 5,
   "related_people": [
+    {
+      "person_id": "goliath",
+      "name": "Goliath",
+      "gender": "male"
+    },
+    {
+      "person_id": "ishbi-benob",
+      "name": "Ishbi-benob",
+      "gender": "male"
+    },
     {
       "person_id": "samson",
       "name": "Samson",

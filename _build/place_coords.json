@@ -2353,14 +2353,6 @@
       "kind": "point",
       "openbible": "Philippi"
     },
-    "philistia": {
-      "lat": 31.66389,
-      "lng": 34.54583,
-      "confidence": 1000,
-      "kind": "representative",
-      "openbible": "Philistia",
-      "geojson": "ac71e65.geojson"
-    },
     "philistine-territory": {
       "lat": 31.66389,
       "lng": 34.54583,

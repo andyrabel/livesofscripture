@@ -69,7 +69,7 @@
       "name": "Nations around Israel",
       "blurb": "The neighbouring peoples Israel dealt with, at war and at peace.",
       "extent": "biblical-world",
-      "places": ["egypt", "philistia", "edom", "moab", "ammon", "aram", "bashan", "midian", "assyria"]
+      "places": ["egypt", "philistine-territory", "edom", "moab", "ammon", "aram", "bashan", "midian", "assyria"]
     },
     {
       "id": "exile-empires",
