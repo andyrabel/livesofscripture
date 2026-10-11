@@ -264,6 +264,18 @@ def reign_line(person):
     return f'<div class="reign-line">Reigned over {esc(kingdom_label)}, c. {span}</div>'
 
 
+def tribe_line(person, base):
+    """Curated `tribe` field (CLAUDE.md's Tribal Affiliation section): the
+    tribe name, linked to the twelve-tribes chart, plus the reference that
+    states or establishes it."""
+    tribe = person.get("tribe")
+    if not tribe or not tribe.get("name"):
+        return ""
+    ref = f' ({esc(tribe["reference"])})' if tribe.get("reference") else ""
+    return (f'<div class="tribe-line">Tribe of '
+            f'<a href="{base}charts/twelve-tribes.html">{esc(tribe["name"])}</a>{ref}</div>')
+
+
 def prophesied_to_line(person):
     prophesied = person.get("prophesied_to")
     if not prophesied:
@@ -601,6 +613,7 @@ def render_full_person_body(person, index_by_id, gender_by_id, connections, base
       <h2>{esc(person["name"])}{gender_tag(person.get("gender"))}</h2>
       {alt_html}
       {name_meaning_html}
+      {tribe_line(person, base)}
       {reign_line(person)}
       {prophesied_to_line(person)}
       {first_ref}
