@@ -630,11 +630,11 @@ as a flat `tribe` name string on the `data/people.json` index entry (same
 Computed by `_build/backfill_tribe.py` (gitignored like the site's other
 one-time backfill scripts — see `name_meaning`'s note above — safe to
 re-run; add new person_ids to its `EXPLICIT`/`CHAIN_REFERENCE` dicts and
-re-run rather than hand-editing the JSON output). **Data-collection only:
-not yet surfaced in the UI**, the same holding pattern `christ_connections`
-spent its whole life in before being rendered — revisit whether/how to
-render this once there's a concrete use (e.g. a tribe filter, or grouping
-on the connections graph).
+re-run rather than hand-editing the JSON output). **Rendered** on the
+timeline's tribe filter, the `charts/twelve-tribes.html` chart, and
+(since 2026-10-10) the person-page header as "Tribe of {name}
+({reference})", with the name linked to the twelve-tribes chart
+(`tribe_line()` in `_build/generate_static_site.py`).
 
 **Deliberately incomplete — 204 of 699 full-tier people (mostly OT).**
 Tribal membership only applies to physical descendants of Jacob/Israel;
