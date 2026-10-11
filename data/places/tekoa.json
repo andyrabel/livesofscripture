@@ -2,6 +2,18 @@
   "place_id": "tekoa",
   "name": "Tekoa",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "trumpet; that is confirmed",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tekoa, trumpet; that is confirmed"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tekoa%2C%20trumpet%3B%20that%20is%20confirmed"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

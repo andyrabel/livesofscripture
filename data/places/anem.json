@@ -2,6 +2,18 @@
   "place_id": "anem",
   "name": "Anem",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an answer; their affliction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Anem, or Anen, an answer; their affliction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Anem%2C%20or%20Anen%2C%20an%20answer%3B%20their%20affliction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

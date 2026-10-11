@@ -2,6 +2,18 @@
   "place_id": "azekah",
   "name": "Azekah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strength of walls",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Azekah, strength of walls"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Azekah%2C%20strength%20of%20walls"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

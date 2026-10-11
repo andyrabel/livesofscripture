@@ -43,6 +43,12 @@ PLACE_COORDS = json.loads(_coords_path.read_text())["coords"] if _coords_path.ex
 _gaz_coords_path = Path(__file__).resolve().parent / "gazetteer_place_coords.json"
 GAZETTEER_COORDS = json.loads(_gaz_coords_path.read_text())["coords"] if _gaz_coords_path.exists() else {}
 
+# Meaning of each place's name, quoted from Hitchcock's Bible Names
+# Dictionary (plus a Scripture reference where the text explains the name),
+# produced by _build/backfill_place_name_meaning.py.
+_meanings_path = Path(__file__).resolve().parent / "place_name_meanings.json"
+PLACE_NAME_MEANINGS = json.loads(_meanings_path.read_text())["meanings"] if _meanings_path.exists() else {}
+
 ERA_ORDER = ["Primeval History", "Patriarchal", "Exodus/Wilderness", "Judges",
              "United Monarchy", "Divided Monarchy", "Exile",
              "Post-Exile/Intertestamental", "Gospels", "Apostolic"]
@@ -320,6 +326,7 @@ def main():
             "place_id": slug,
             "name": c["name"],
             "alt_names": c.get("alt", []),
+            **({"name_meaning": PLACE_NAME_MEANINGS[slug]} if slug in PLACE_NAME_MEANINGS else {}),
             "tier": tier,
             "type": c["type"],
             "region": c["region"],

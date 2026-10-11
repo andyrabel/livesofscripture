@@ -2,6 +2,18 @@
   "place_id": "dibon-2",
   "name": "Dibon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "abundance of knowledge",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dibon, abundance of knowledge"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dibon%2C%20abundance%20of%20knowledge"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "beth-pazzez",
   "name": "Beth-pazzez",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of dividing asunder",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-pazzez, house of dividing asunder"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-pazzez%2C%20house%20of%20dividing%20asunder"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

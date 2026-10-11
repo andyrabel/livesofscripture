@@ -2,6 +2,18 @@
   "place_id": "rhegium",
   "name": "Rhegium",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rupture; fracture",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rhegium, rupture; fracture"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rhegium%2C%20rupture%3B%20fracture"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

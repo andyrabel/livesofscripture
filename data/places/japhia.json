@@ -2,6 +2,18 @@
   "place_id": "japhia",
   "name": "Japhia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "enlightening; appearing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Japhia, enlightening; appearing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Japhia%2C%20enlightening%3B%20appearing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

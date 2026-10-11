@@ -2,6 +2,18 @@
   "place_id": "aenon",
   "name": "Aenon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a cloud; fountain; his eye",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aenon, a cloud; fountain; his eye"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aenon%2C%20a%20cloud%3B%20fountain%3B%20his%20eye"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

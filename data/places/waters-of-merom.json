@@ -2,6 +2,19 @@
   "place_id": "waters-of-merom",
   "name": "Waters of Merom",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "eminences; elevations",
+    "term": "Merom",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Merom, eminences; elevations"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Merom%2C%20eminences%3B%20elevations"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "body-of-water",
   "region": "canaan-israel",

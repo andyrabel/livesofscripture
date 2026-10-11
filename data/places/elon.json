@@ -2,6 +2,18 @@
   "place_id": "elon",
   "name": "Elon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "oak; grove; strong",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Elon, oak; grove; strong"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elon%2C%20oak%3B%20grove%3B%20strong"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

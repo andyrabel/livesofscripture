@@ -2,6 +2,18 @@
   "place_id": "migron-2",
   "name": "Migron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fear; farm; throat",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Migron, fear; farm; throat"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Migron%2C%20fear%3B%20farm%3B%20throat"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

@@ -2,6 +2,22 @@
   "place_id": "salem",
   "name": "Salem",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "complete or perfect peace",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Hebrews 7:2"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Salem, complete or perfect peace"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Salem%2C%20complete%20or%20perfect%20peace"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

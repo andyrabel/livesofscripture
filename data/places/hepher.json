@@ -2,6 +2,18 @@
   "place_id": "hepher",
   "name": "Hepher",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a digger",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hepher, a digger"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hepher%2C%20a%20digger"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

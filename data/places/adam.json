@@ -2,6 +2,18 @@
   "place_id": "adam",
   "name": "Adam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "earthy; red",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Adam, earthy; red"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adam%2C%20earthy%3B%20red"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

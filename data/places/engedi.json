@@ -2,6 +2,18 @@
   "place_id": "engedi",
   "name": "Engedi",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "eye, or fountain, of the goat, or of happiness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-gedi, eye, or fountain, of the goat, or of happiness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-gedi%2C%20eye%2C%20or%20fountain%2C%20of%20the%20goat%2C%20or%20of%20happiness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

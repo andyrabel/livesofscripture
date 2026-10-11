@@ -2,6 +2,18 @@
   "place_id": "neballat",
   "name": "Neballat",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "prophecy; budding",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Neballat, prophecy; budding"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Neballat%2C%20prophecy%3B%20budding"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

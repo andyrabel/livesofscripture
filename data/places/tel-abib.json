@@ -4,6 +4,18 @@
   "alt_names": [
     "Tel Aviv"
   ],
+  "name_meaning": {
+    "meaning": "a heap of new grain",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Telabib, a heap of new grain"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Telabib%2C%20a%20heap%20of%20new%20grain"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,23 @@
   "place_id": "valley-of-achor",
   "name": "Valley of Achor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "trouble",
+    "term": "Achor",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Joshua 7:26"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Achor, trouble"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Achor%2C%20trouble"
+      }
+    ]
+  },
   "tier": "full",
   "type": "valley",
   "region": "canaan-israel",

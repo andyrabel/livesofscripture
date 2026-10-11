@@ -2,6 +2,18 @@
   "place_id": "rogelim",
   "name": "Rogelim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a foot or footman",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rogelim, a foot or footman"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rogelim%2C%20a%20foot%20or%20footman"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "moab-transjordan",

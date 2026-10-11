@@ -2,6 +2,22 @@
   "place_id": "massah",
   "name": "Massah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "temptation",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Exodus 17:7"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Massah, temptation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Massah%2C%20temptation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "meroz",
   "name": "Meroz",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "secret, leanness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Meroz, secret, leanness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Meroz%2C%20secret%2C%20leanness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

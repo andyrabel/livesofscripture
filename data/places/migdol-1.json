@@ -4,6 +4,18 @@
   "alt_names": [
     "Migdal"
   ],
+  "name_meaning": {
+    "meaning": "a tower",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Migdol, a tower"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Migdol%2C%20a%20tower"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

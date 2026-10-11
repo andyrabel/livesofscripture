@@ -2,6 +2,18 @@
   "place_id": "capernaum",
   "name": "Capernaum",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the field of repentance; city of comfort",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Capernaum, the field of repentance; city of comfort"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Capernaum%2C%20the%20field%20of%20repentance%3B%20city%20of%20comfort"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

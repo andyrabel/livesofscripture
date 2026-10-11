@@ -2,6 +2,18 @@
   "place_id": "taralah",
   "name": "Taralah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "searching out slander, or strength",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Taralah, searching out slander, or strength"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Taralah%2C%20searching%20out%20slander%2C%20or%20strength"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "gallim",
   "name": "Gallim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "who heap up; who cover",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gallim, who heap up; who cover"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gallim%2C%20who%20heap%20up%3B%20who%20cover"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

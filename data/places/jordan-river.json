@@ -2,6 +2,19 @@
   "place_id": "jordan-river",
   "name": "Jordan River",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the river of judgment",
+    "term": "Jordan",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jordan, the river of judgment"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jordan%2C%20the%20river%20of%20judgment"
+      }
+    ]
+  },
   "tier": "full",
   "type": "body-of-water",
   "region": "canaan-israel",

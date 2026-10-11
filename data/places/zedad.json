@@ -2,6 +2,18 @@
   "place_id": "zedad",
   "name": "Zedad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "his side; his hunting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zedad, his side; his hunting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zedad%2C%20his%20side%3B%20his%20hunting"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

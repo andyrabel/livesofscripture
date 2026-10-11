@@ -2,6 +2,18 @@
   "place_id": "sansannah",
   "name": "Sansannah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bough or bramble of the enemy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sansannah, bough or bramble of the enemy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sansannah%2C%20bough%20or%20bramble%20of%20the%20enemy"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Sarepta"
   ],
+  "name_meaning": {
+    "meaning": "ambush of the mouth",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zarephath, ambush of the mouth"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zarephath%2C%20ambush%20of%20the%20mouth"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

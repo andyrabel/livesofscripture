@@ -2,6 +2,18 @@
   "place_id": "aphik",
   "name": "Aphik",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strength; a rapid torrent",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aphek, Aphekah, Aphik, strength; a rapid torrent"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aphek%2C%20Aphekah%2C%20Aphik%2C%20strength%3B%20a%20rapid%20torrent"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

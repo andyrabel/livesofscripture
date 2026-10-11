@@ -4,6 +4,18 @@
   "alt_names": [
     "Ten Towns"
   ],
+  "name_meaning": {
+    "meaning": "containing ten cities",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Decapolis, containing ten cities"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Decapolis%2C%20containing%20ten%20cities"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

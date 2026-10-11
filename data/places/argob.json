@@ -2,6 +2,18 @@
   "place_id": "argob",
   "name": "Argob",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a turf, or fat land",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Argob, a turf, or fat land"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Argob%2C%20a%20turf%2C%20or%20fat%20land"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "moab-transjordan",

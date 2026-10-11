@@ -4,6 +4,18 @@
   "alt_names": [
     "Traconitis"
   ],
+  "name_meaning": {
+    "meaning": "stony",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Trachonitis, stony"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Trachonitis%2C%20stony"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

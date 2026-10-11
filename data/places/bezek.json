@@ -2,6 +2,18 @@
   "place_id": "bezek",
   "name": "Bezek",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "lightning; in the chains",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bezek, lightning; in the chains"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bezek%2C%20lightning%3B%20in%20the%20chains"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

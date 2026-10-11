@@ -2,6 +2,18 @@
   "place_id": "shebarim",
   "name": "Shebarim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "breakings; hopes",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shebarim, breakings; hopes"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shebarim%2C%20breakings%3B%20hopes"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

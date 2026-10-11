@@ -4,6 +4,18 @@
   "alt_names": [
     "Ascent of Luhith"
   ],
+  "name_meaning": {
+    "meaning": "made of boards",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Luhith, made of boards"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Luhith%2C%20made%20of%20boards"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,15 @@
   "place_id": "baal-perazim",
   "name": "Baal-perazim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "Master of breaking through",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "2 Samuel 5:20"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

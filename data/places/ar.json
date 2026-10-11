@@ -2,6 +2,18 @@
   "place_id": "ar",
   "name": "Ar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "awakening; uncovering",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ar, awakening; uncovering"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ar%2C%20awakening%3B%20uncovering"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

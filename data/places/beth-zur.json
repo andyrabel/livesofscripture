@@ -2,6 +2,18 @@
   "place_id": "beth-zur",
   "name": "Beth-zur",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of a rock",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-zur, house of a rock"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-zur%2C%20house%20of%20a%20rock"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

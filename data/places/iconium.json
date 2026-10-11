@@ -2,6 +2,18 @@
   "place_id": "iconium",
   "name": "Iconium",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "coming",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Iconium, coming"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Iconium%2C%20coming"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

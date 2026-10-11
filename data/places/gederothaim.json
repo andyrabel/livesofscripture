@@ -2,6 +2,18 @@
   "place_id": "gederothaim",
   "name": "Gederothaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hedges",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gederothaim, hedges"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gederothaim%2C%20hedges"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

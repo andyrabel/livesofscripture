@@ -2,6 +2,18 @@
   "place_id": "beer-elim",
   "name": "Beer-elim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the well of Elim, or of rains",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beerelim, the well of Elim, or of rains"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beerelim%2C%20the%20well%20of%20Elim%2C%20or%20of%20rains"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "corinth",
   "name": "Corinth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "which is satisfied; ornament; beauty",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Corinth, which is satisfied; ornament; beauty"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Corinth%2C%20which%20is%20satisfied%3B%20ornament%3B%20beauty"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

@@ -2,6 +2,18 @@
   "place_id": "helbon",
   "name": "Helbon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "milk, fatness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Helbah, Helbon, milk, fatness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Helbah%2C%20Helbon%2C%20milk%2C%20fatness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

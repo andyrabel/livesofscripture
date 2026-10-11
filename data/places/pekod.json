@@ -2,6 +2,18 @@
   "place_id": "pekod",
   "name": "Pekod",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "noble; rulers",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pekod, noble; rulers"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pekod%2C%20noble%3B%20rulers"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

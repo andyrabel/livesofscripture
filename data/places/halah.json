@@ -2,6 +2,18 @@
   "place_id": "halah",
   "name": "Halah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a moist table",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Halah, a moist table"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Halah%2C%20a%20moist%20table"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

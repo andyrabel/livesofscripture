@@ -2,6 +2,18 @@
   "place_id": "apollonia",
   "name": "Apollonia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "perdition, destruction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Apollonia, perdition, destruction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Apollonia%2C%20perdition%2C%20destruction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

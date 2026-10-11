@@ -2,6 +2,18 @@
   "place_id": "rithmah",
   "name": "Rithmah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "juniper; noise",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rithmah, juniper; noise"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rithmah%2C%20juniper%3B%20noise"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

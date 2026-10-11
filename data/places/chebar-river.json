@@ -2,6 +2,19 @@
   "place_id": "chebar-river",
   "name": "Chebar River",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "force or strength",
+    "term": "Chebar",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Chebar, force or strength"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Chebar%2C%20force%20or%20strength"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "body-of-water",
   "region": "mesopotamia",

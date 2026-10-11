@@ -2,6 +2,18 @@
   "place_id": "beth-dagon-2",
   "name": "Beth-dagon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the house of corn, or of fish",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-dagon, the house of corn, or of fish"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-dagon%2C%20the%20house%20of%20corn%2C%20or%20of%20fish"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

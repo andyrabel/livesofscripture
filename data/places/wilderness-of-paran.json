@@ -2,6 +2,19 @@
   "place_id": "wilderness-of-paran",
   "name": "Wilderness of Paran",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "beauty; glory; ornament",
+    "term": "Paran",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Paran, beauty; glory; ornament"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Paran%2C%20beauty%3B%20glory%3B%20ornament"
+      }
+    ]
+  },
   "tier": "full",
   "type": "wilderness",
   "region": "sinai-wilderness",

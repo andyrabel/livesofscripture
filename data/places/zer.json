@@ -2,6 +2,18 @@
   "place_id": "zer",
   "name": "Zer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "perplexity",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zer, perplexity"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zer%2C%20perplexity"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

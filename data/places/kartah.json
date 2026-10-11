@@ -2,6 +2,18 @@
   "place_id": "kartah",
   "name": "Kartah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "calling; meeting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kartah, calling; meeting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kartah%2C%20calling%3B%20meeting"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

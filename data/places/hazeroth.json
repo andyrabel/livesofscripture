@@ -2,6 +2,18 @@
   "place_id": "hazeroth",
   "name": "Hazeroth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "villages; palaces",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazeroth, villages; palaces"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazeroth%2C%20villages%3B%20palaces"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

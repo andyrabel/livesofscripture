@@ -2,6 +2,18 @@
   "place_id": "bozez",
   "name": "Bozez",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mud; bog",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bozez, mud; bog"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bozez%2C%20mud%3B%20bog"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

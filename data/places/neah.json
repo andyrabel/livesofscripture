@@ -2,6 +2,18 @@
   "place_id": "neah",
   "name": "Neah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "moved; moving",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Neah, moved; moving"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Neah%2C%20moved%3B%20moving"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

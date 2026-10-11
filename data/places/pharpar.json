@@ -2,6 +2,18 @@
   "place_id": "pharpar",
   "name": "Pharpar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that produces fruit",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pharpar, that produces fruit"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pharpar%2C%20that%20produces%20fruit"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

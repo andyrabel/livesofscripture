@@ -2,6 +2,18 @@
   "place_id": "zelzah",
   "name": "Zelzah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "noontide",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zelzah, noontide"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zelzah%2C%20noontide"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "hazar-gaddah",
   "name": "Hazar-gaddah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "imprisoned band",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazargaddah, imprisoned band"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazargaddah%2C%20imprisoned%20band"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

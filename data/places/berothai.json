@@ -2,6 +2,18 @@
   "place_id": "berothai",
   "name": "Berothai",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wells; a cypress",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Berothai, wells; a cypress"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Berothai%2C%20wells%3B%20a%20cypress"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

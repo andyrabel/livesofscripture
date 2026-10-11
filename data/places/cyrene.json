@@ -2,6 +2,18 @@
   "place_id": "cyrene",
   "name": "Cyrene",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a wall; coldness; the floor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cyrene, a wall; coldness; the floor"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cyrene%2C%20a%20wall%3B%20coldness%3B%20the%20floor"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "egypt",

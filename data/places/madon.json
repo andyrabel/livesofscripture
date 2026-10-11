@@ -2,6 +2,18 @@
   "place_id": "madon",
   "name": "Madon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a chiding; a garment; his measure",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Madon, a chiding; a garment; his measure"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Madon%2C%20a%20chiding%3B%20a%20garment%3B%20his%20measure"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

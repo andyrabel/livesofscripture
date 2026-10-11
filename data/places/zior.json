@@ -2,6 +2,18 @@
   "place_id": "zior",
   "name": "Zior",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "ship of him that watches",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zior, ship of him that watches"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zior%2C%20ship%20of%20him%20that%20watches"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

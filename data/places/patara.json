@@ -2,6 +2,18 @@
   "place_id": "patara",
   "name": "Patara",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "trodden under foot",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Patara, trodden under foot"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Patara%2C%20trodden%20under%20foot"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

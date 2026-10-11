@@ -2,6 +2,18 @@
   "place_id": "kerioth",
   "name": "Kerioth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the cities; the callings",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kerioth, the cities; the callings"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kerioth%2C%20the%20cities%3B%20the%20callings"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "moladah",
   "name": "Moladah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "birth; generation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Moladah, birth; generation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Moladah%2C%20birth%3B%20generation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Lookout Field"
   ],
+  "name_meaning": {
+    "meaning": "place for a watchman",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zophim, place for a watchman"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zophim%2C%20place%20for%20a%20watchman"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "zuph",
   "name": "Zuph",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that beholds, observes, watches; roof; covering",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zuph, that beholds, observes, watches; roof; covering"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zuph%2C%20that%20beholds%2C%20observes%2C%20watches%3B%20roof%3B%20covering"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

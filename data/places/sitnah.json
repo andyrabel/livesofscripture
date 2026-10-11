@@ -2,6 +2,22 @@
   "place_id": "sitnah",
   "name": "Sitnah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hatred",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 26:21"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sitnah, hatred"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sitnah%2C%20hatred"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

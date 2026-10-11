@@ -2,6 +2,18 @@
   "place_id": "megiddo",
   "name": "Megiddo",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "his precious fruit; declaring a message",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Megiddo, his precious fruit; declaring a message"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Megiddo%2C%20his%20precious%20fruit%3B%20declaring%20a%20message"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

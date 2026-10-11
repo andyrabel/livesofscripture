@@ -2,6 +2,19 @@
   "place_id": "ain-1",
   "name": "Ain",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an hour; eye; fountain",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ain, same as Aiath",
+          "Aiath, same as Ai; an hour; eye; fountain"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aiath%2C%20same%20as%20Ai%3B%20an%20hour%3B%20eye%3B%20fountain"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

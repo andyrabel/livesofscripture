@@ -2,6 +2,18 @@
   "place_id": "nicopolis",
   "name": "Nicopolis",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the city of victory",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nicopolis, the city of victory"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nicopolis%2C%20the%20city%20of%20victory"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

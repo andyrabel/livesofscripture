@@ -2,6 +2,18 @@
   "place_id": "alush",
   "name": "Alush",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mingling together",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Alush, mingling together"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Alush%2C%20mingling%20together"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

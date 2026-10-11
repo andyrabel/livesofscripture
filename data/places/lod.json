@@ -2,6 +2,18 @@
   "place_id": "lod",
   "name": "Lod",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "nativity; generation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lod, nativity; generation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lod%2C%20nativity%3B%20generation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

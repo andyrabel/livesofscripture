@@ -2,6 +2,19 @@
   "place_id": "land-of-nod",
   "name": "Land of Nod",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "vagabond; fugitive",
+    "term": "Nod",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nod, vagabond; fugitive"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nod%2C%20vagabond%3B%20fugitive"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "mesopotamia",

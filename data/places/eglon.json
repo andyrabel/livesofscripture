@@ -2,6 +2,19 @@
   "place_id": "eglon",
   "name": "Eglon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "heifer; chariot; round",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eglon, same as Eglah",
+          "Eglah, heifer; chariot; round"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eglah%2C%20heifer%3B%20chariot%3B%20round"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

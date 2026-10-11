@@ -2,6 +2,18 @@
   "place_id": "amana",
   "name": "Amana",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "integrity; truth; a nurse",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Amana, integrity; truth; a nurse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Amana%2C%20integrity%3B%20truth%3B%20a%20nurse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

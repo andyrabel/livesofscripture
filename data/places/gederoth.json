@@ -2,6 +2,18 @@
   "place_id": "gederoth",
   "name": "Gederoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a wall",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Geder, Gederah, Gederoth, a wall"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Geder%2C%20Gederah%2C%20Gederoth%2C%20a%20wall"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

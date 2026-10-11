@@ -4,6 +4,22 @@
   "alt_names": [
     "Waters of Meribah"
   ],
+  "name_meaning": {
+    "meaning": "dispute; quarrel",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Exodus 17:7"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Meribah, dispute; quarrel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Meribah%2C%20dispute%3B%20quarrel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

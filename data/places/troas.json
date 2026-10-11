@@ -2,6 +2,18 @@
   "place_id": "troas",
   "name": "Troas",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "penetrated",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Troas, penetrated"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Troas%2C%20penetrated"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "asia-minor-greece",

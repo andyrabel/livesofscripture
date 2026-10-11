@@ -4,6 +4,18 @@
   "alt_names": [
     "Phrygian"
   ],
+  "name_meaning": {
+    "meaning": "dry; barren",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Phrygia, dry; barren"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Phrygia%2C%20dry%3B%20barren"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

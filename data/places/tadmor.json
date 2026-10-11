@@ -2,6 +2,18 @@
   "place_id": "tadmor",
   "name": "Tadmor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the palm-tree; bitterness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tadmor, the palm-tree; bitterness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tadmor%2C%20the%20palm-tree%3B%20bitterness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

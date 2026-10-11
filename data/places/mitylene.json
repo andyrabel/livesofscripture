@@ -2,6 +2,18 @@
   "place_id": "mitylene",
   "name": "Mitylene",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "purity; cleansing; press",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mitylene, purity; cleansing; press"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mitylene%2C%20purity%3B%20cleansing%3B%20press"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

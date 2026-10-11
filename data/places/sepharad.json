@@ -2,6 +2,18 @@
   "place_id": "sepharad",
   "name": "Sepharad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a book descending",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sepharad, a book descending"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sepharad%2C%20a%20book%20descending"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

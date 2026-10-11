@@ -2,6 +2,18 @@
   "place_id": "bealoth-1",
   "name": "Bealoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "cast under",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bealoth, cast under"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bealoth%2C%20cast%20under"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

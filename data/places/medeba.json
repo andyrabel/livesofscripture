@@ -2,6 +2,18 @@
   "place_id": "medeba",
   "name": "Medeba",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "waters of grief; waters springing up",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Medeba, waters of grief; waters springing up"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Medeba%2C%20waters%20of%20grief%3B%20waters%20springing%20up"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

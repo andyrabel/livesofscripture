@@ -2,6 +2,18 @@
   "place_id": "hanes",
   "name": "Hanes",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "banishment of grace",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hanes, banishment of grace"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hanes%2C%20banishment%20of%20grace"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

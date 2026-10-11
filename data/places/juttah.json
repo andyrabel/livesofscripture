@@ -2,6 +2,18 @@
   "place_id": "juttah",
   "name": "Juttah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "turning away",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Juttah, turning away"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Juttah%2C%20turning%20away"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

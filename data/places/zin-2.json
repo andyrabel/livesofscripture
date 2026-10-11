@@ -2,6 +2,18 @@
   "place_id": "zin-2",
   "name": "Zin",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "buckler; coldness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zin, buckler; coldness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zin%2C%20buckler%3B%20coldness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "dizahab",
   "name": "Dizahab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "where much gold is",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dibzahab, Dizahab, where much gold is"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dibzahab%2C%20Dizahab%2C%20where%20much%20gold%20is"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

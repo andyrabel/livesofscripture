@@ -2,6 +2,18 @@
   "place_id": "besor",
   "name": "Besor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "glad news; incarnation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Besor, glad news; incarnation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Besor%2C%20glad%20news%3B%20incarnation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

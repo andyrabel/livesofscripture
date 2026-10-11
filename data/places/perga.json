@@ -2,6 +2,18 @@
   "place_id": "perga",
   "name": "Perga",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "very earthy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Perga, very earthy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Perga%2C%20very%20earthy"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

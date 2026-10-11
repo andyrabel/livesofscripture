@@ -2,6 +2,18 @@
   "place_id": "nebo-2",
   "name": "Nebo",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that speaks or prophesies",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nebo, that speaks or prophesies"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nebo%2C%20that%20speaks%20or%20prophesies"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

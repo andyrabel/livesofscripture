@@ -2,6 +2,18 @@
   "place_id": "en-haddah",
   "name": "En-haddah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "quick sight; well of gladness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-haddah, quick sight; well of gladness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-haddah%2C%20quick%20sight%3B%20well%20of%20gladness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

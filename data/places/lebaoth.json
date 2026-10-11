@@ -2,6 +2,18 @@
   "place_id": "lebaoth",
   "name": "Lebaoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "lividness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lebaoth, lividness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lebaoth%2C%20lividness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

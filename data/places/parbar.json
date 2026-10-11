@@ -2,6 +2,18 @@
   "place_id": "parbar",
   "name": "Parbar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a suburb",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Parbar, a suburb"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Parbar%2C%20a%20suburb"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

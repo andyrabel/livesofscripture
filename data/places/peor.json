@@ -2,6 +2,18 @@
   "place_id": "peor",
   "name": "Peor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hole; opening",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Peor, hole; opening"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Peor%2C%20hole%3B%20opening"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "moab-transjordan",

@@ -2,6 +2,18 @@
   "place_id": "kir-2",
   "name": "Kir",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a city; wall; meeting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kir, a city; wall; meeting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kir%2C%20a%20city%3B%20wall%3B%20meeting"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

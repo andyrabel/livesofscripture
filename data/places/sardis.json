@@ -2,6 +2,18 @@
   "place_id": "sardis",
   "name": "Sardis",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "prince of joy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sardis, prince of joy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sardis%2C%20prince%20of%20joy"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

@@ -2,6 +2,18 @@
   "place_id": "gath-rimmon-1",
   "name": "Gath-rimmon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the high wine-press",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gath-rimmon, the high wine-press"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gath-rimmon%2C%20the%20high%20wine-press"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

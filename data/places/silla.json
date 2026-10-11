@@ -2,6 +2,18 @@
   "place_id": "silla",
   "name": "Silla",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "exalting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Silla, exalting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Silla%2C%20exalting"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,19 @@
   "place_id": "mount-tabor",
   "name": "Mount Tabor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "choice; purity; bruising",
+    "term": "Tabor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tabor, choice; purity; bruising"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tabor%2C%20choice%3B%20purity%3B%20bruising"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "canaan-israel",

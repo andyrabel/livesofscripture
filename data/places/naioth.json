@@ -2,6 +2,18 @@
   "place_id": "naioth",
   "name": "Naioth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "beauties; habitations",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Naioth, beauties; habitations"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Naioth%2C%20beauties%3B%20habitations"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

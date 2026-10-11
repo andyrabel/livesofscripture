@@ -2,6 +2,18 @@
   "place_id": "dinhabah",
   "name": "Dinhabah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "he gives judgment",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dinhabah, he gives judgment"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dinhabah%2C%20he%20gives%20judgment"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

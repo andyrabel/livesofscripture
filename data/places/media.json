@@ -5,6 +5,18 @@
     "Medes",
     "Median"
   ],
+  "name_meaning": {
+    "meaning": "measure; habit; covering",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Media, measure; habit; covering"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Media%2C%20measure%3B%20habit%3B%20covering"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

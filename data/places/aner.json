@@ -2,6 +2,18 @@
   "place_id": "aner",
   "name": "Aner",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "answer; song; affliction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aner, answer; song; affliction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aner%2C%20answer%3B%20song%3B%20affliction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "gozan",
   "name": "Gozan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fleece; pasture; who nourisheth the body",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gozan, fleece; pasture; who nourisheth the body"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gozan%2C%20fleece%3B%20pasture%3B%20who%20nourisheth%20the%20body"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

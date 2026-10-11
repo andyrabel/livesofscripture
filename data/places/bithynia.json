@@ -2,6 +2,18 @@
   "place_id": "bithynia",
   "name": "Bithynia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "violent precipitation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bithynia, violent precipitation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bithynia%2C%20violent%20precipitation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

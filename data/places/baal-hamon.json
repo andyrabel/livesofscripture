@@ -2,6 +2,18 @@
   "place_id": "baal-hamon",
   "name": "Baal-hamon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "who rules a crowd",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-hamon, who rules a crowd"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-hamon%2C%20who%20rules%20a%20crowd"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

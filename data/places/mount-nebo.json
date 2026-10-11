@@ -2,6 +2,19 @@
   "place_id": "mount-nebo",
   "name": "Mount Nebo",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that speaks or prophesies",
+    "term": "Nebo",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nebo, that speaks or prophesies"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nebo%2C%20that%20speaks%20or%20prophesies"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "moab-transjordan",

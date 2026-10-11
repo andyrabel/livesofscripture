@@ -2,6 +2,18 @@
   "place_id": "shual",
   "name": "Shual",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fox; path; first",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shual, fox; path; first"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shual%2C%20fox%3B%20path%3B%20first"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

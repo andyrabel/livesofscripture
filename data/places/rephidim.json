@@ -2,6 +2,18 @@
   "place_id": "rephidim",
   "name": "Rephidim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "beds; places of rest",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rephidim, beds; places of rest"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rephidim%2C%20beds%3B%20places%20of%20rest"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "sinai-wilderness",

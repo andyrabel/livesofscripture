@@ -2,6 +2,18 @@
   "place_id": "benjamin",
   "name": "Benjamin",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "son of the right hand",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Benjamin, son of the right hand"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Benjamin%2C%20son%20of%20the%20right%20hand"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "canaan-israel",

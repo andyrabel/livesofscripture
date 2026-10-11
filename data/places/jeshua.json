@@ -2,6 +2,19 @@
   "place_id": "jeshua",
   "name": "Jeshua",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a savior; a deliverer",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jeshua, same as Joshua",
+          "Joshua, a savior; a deliverer"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Joshua%2C%20a%20savior%3B%20a%20deliverer"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

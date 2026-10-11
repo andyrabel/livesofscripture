@@ -5,6 +5,19 @@
     "Lydia",
     "Lydians"
   ],
+  "name_meaning": {
+    "meaning": "nativity; generation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lud, Ludim, same as Lod",
+          "Lod, nativity; generation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lod%2C%20nativity%3B%20generation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

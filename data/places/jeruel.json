@@ -2,6 +2,18 @@
   "place_id": "jeruel",
   "name": "Jeruel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fear, or vision of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jeruel, fear, or vision of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jeruel%2C%20fear%2C%20or%20vision%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

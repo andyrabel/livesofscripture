@@ -2,6 +2,18 @@
   "place_id": "jogbehah",
   "name": "Jogbehah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an exalting; high",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jogbehah, an exalting; high"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jogbehah%2C%20an%20exalting%3B%20high"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

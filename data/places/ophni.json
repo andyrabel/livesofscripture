@@ -2,6 +2,18 @@
   "place_id": "ophni",
   "name": "Ophni",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wearisomeness; folding together",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ophni, wearisomeness; folding together"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ophni%2C%20wearisomeness%3B%20folding%20together"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

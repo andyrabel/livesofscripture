@@ -2,6 +2,22 @@
   "place_id": "abel-mizraim",
   "name": "Abel-mizraim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the mourning of Egyptians",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 50:11"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Abel-mizraim, the mourning of Egyptians"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abel-mizraim%2C%20the%20mourning%20of%20Egyptians"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

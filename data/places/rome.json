@@ -2,6 +2,18 @@
   "place_id": "rome",
   "name": "Rome",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strength; power",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rome, strength; power"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rome%2C%20strength%3B%20power"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "italy",

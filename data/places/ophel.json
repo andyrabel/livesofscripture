@@ -2,6 +2,18 @@
   "place_id": "ophel",
   "name": "Ophel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a tower; darkness; small white cloud",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ophel, a tower; darkness; small white cloud"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ophel%2C%20a%20tower%3B%20darkness%3B%20small%20white%20cloud"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

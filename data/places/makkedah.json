@@ -2,6 +2,18 @@
   "place_id": "makkedah",
   "name": "Makkedah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "worshiping; burning; raised; crookedness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Makkedah, worshiping; burning; raised; crookedness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Makkedah%2C%20worshiping%3B%20burning%3B%20raised%3B%20crookedness"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

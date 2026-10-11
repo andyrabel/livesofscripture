@@ -2,6 +2,18 @@
   "place_id": "geliloth",
   "name": "Geliloth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rolling, wheel, heap",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Geliloth, rolling, wheel, heap"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Geliloth%2C%20rolling%2C%20wheel%2C%20heap"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

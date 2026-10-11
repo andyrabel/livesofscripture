@@ -2,6 +2,19 @@
   "place_id": "mount-gilboa",
   "name": "Mount Gilboa",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "revolution of inquiry",
+    "term": "Gilboa",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gilboa, revolution of inquiry"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gilboa%2C%20revolution%20of%20inquiry"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "canaan-israel",

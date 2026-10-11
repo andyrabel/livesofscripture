@@ -2,6 +2,18 @@
   "place_id": "ashnah-1",
   "name": "Ashnah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "change",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ashnah, change"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ashnah%2C%20change"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

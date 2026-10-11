@@ -2,6 +2,18 @@
   "place_id": "sin",
   "name": "Sin",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bush",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sin, bush"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sin%2C%20bush"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

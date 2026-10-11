@@ -2,6 +2,18 @@
   "place_id": "eglaim",
   "name": "Eglaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "drops of the sea",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eglaim, drops of the sea"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eglaim%2C%20drops%20of%20the%20sea"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

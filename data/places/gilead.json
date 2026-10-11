@@ -2,6 +2,18 @@
   "place_id": "gilead",
   "name": "Gilead",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the heap or mass of testimony",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gilead, the heap or mass of testimony"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gilead%2C%20the%20heap%20or%20mass%20of%20testimony"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "moab-transjordan",

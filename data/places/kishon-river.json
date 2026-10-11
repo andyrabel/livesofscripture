@@ -2,6 +2,19 @@
   "place_id": "kishon-river",
   "name": "Kishon River",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hard; sore",
+    "term": "Kishon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kishon, hard; sore"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kishon%2C%20hard%3B%20sore"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "body-of-water",
   "region": "canaan-israel",

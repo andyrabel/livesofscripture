@@ -2,6 +2,18 @@
   "place_id": "illyricum",
   "name": "Illyricum",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "joy; rejoicing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Illyricum, joy; rejoicing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Illyricum%2C%20joy%3B%20rejoicing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

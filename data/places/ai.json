@@ -2,6 +2,18 @@
   "place_id": "ai",
   "name": "Ai",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mass; heap",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ai, or Hai, mass; heap"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ai%2C%20or%20Hai%2C%20mass%3B%20heap"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

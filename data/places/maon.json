@@ -2,6 +2,18 @@
   "place_id": "maon",
   "name": "Maon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house; place of sin",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Maon, house; place of sin"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Maon%2C%20house%3B%20place%20of%20sin"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "edrei-1",
   "name": "Edrei",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a very great mass, or cloud",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Edrei, a very great mass, or cloud"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Edrei%2C%20a%20very%20great%20mass%2C%20or%20cloud"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "gaza",
   "name": "Gaza",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strong; a goat",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gaza, strong; a goat"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gaza%2C%20strong%3B%20a%20goat"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

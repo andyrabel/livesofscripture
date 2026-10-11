@@ -2,6 +2,18 @@
   "place_id": "en-dor",
   "name": "En-dor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fountain, eye of generation, or of habitation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-dor, fountain, eye of generation, or of habitation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-dor%2C%20fountain%2C%20eye%20of%20generation%2C%20or%20of%20habitation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

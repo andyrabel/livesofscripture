@@ -2,6 +2,18 @@
   "place_id": "rumah",
   "name": "Rumah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "exalted; sublime; rejected",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rumah, exalted; sublime; rejected"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rumah%2C%20exalted%3B%20sublime%3B%20rejected"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

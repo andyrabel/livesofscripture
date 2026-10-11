@@ -4,6 +4,19 @@
   "alt_names": [
     "Vale of Siddim"
   ],
+  "name_meaning": {
+    "meaning": "the tilled field",
+    "term": "Siddim",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Siddim, the tilled field"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Siddim%2C%20the%20tilled%20field"
+      }
+    ]
+  },
   "tier": "full",
   "type": "valley",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "abel-meholah",
   "name": "Abel-meholah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mourning of sickness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Abel-meholah, mourning of sickness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abel-meholah%2C%20mourning%20of%20sickness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

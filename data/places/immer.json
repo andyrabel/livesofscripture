@@ -2,6 +2,18 @@
   "place_id": "immer",
   "name": "Immer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "saying; speaking; a lamb",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Immer, saying; speaking; a lamb"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Immer%2C%20saying%3B%20speaking%3B%20a%20lamb"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

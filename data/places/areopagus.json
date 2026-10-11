@@ -4,6 +4,18 @@
   "alt_names": [
     "Mars\u2019 hill"
   ],
+  "name_meaning": {
+    "meaning": "the hill of Mars",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Areopagus, the hill of Mars"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Areopagus%2C%20the%20hill%20of%20Mars"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "asia-minor-greece",

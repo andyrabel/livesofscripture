@@ -2,6 +2,18 @@
   "place_id": "masrekah",
   "name": "Masrekah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "whistling; hissing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Masrekah, whistling; hissing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Masrekah%2C%20whistling%3B%20hissing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

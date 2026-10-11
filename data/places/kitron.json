@@ -2,6 +2,18 @@
   "place_id": "kitron",
   "name": "Kitron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "making sweet; binding together",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kitron, making sweet; binding together"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kitron%2C%20making%20sweet%3B%20binding%20together"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

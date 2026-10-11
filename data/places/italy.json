@@ -2,6 +2,18 @@
   "place_id": "italy",
   "name": "Italy",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "abounding with calves or heifers",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Italy, abounding with calves or heifers"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Italy%2C%20abounding%20with%20calves%20or%20heifers"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

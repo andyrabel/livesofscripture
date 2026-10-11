@@ -2,6 +2,18 @@
   "place_id": "ananiah",
   "name": "Ananiah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the cloud of the Lord",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ananias, or Ananiah, the cloud of the Lord"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ananias%2C%20or%20Ananiah%2C%20the%20cloud%20of%20the%20Lord"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

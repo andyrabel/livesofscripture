@@ -2,6 +2,18 @@
   "place_id": "zenan",
   "name": "Zenan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "coldness; target; weapon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zenan, coldness; target; weapon"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zenan%2C%20coldness%3B%20target%3B%20weapon"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

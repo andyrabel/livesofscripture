@@ -4,6 +4,18 @@
   "alt_names": [
     "Beth-shemite"
   ],
+  "name_meaning": {
+    "meaning": "house of the sun",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-shemesh, house of the sun"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-shemesh%2C%20house%20of%20the%20sun"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

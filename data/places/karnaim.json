@@ -2,6 +2,18 @@
   "place_id": "karnaim",
   "name": "Karnaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "horns",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Karnaim, horns"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Karnaim%2C%20horns"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

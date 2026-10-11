@@ -2,6 +2,18 @@
   "place_id": "hazar-addar",
   "name": "Hazar-addar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an imprisoned generation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazar-addar, an imprisoned generation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazar-addar%2C%20an%20imprisoned%20generation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

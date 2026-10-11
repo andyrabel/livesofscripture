@@ -2,6 +2,18 @@
   "place_id": "tema",
   "name": "Tema",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "admiration; perfection; consummation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tema, admiration; perfection; consummation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tema%2C%20admiration%3B%20perfection%3B%20consummation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

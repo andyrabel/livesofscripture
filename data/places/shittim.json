@@ -2,6 +2,18 @@
   "place_id": "shittim",
   "name": "Shittim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "thorns",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shittim, thorns"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shittim%2C%20thorns"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "moab-transjordan",

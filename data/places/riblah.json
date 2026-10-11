@@ -2,6 +2,18 @@
   "place_id": "riblah",
   "name": "Riblah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "quarrel; greatness to him",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Riblah, quarrel; greatness to him"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Riblah%2C%20quarrel%3B%20greatness%20to%20him"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

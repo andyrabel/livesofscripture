@@ -2,6 +2,19 @@
   "place_id": "cave-of-machpelah",
   "name": "Cave of Machpelah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "double",
+    "term": "Machpelah",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Machpelah, double"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Machpelah%2C%20double"
+      }
+    ]
+  },
   "tier": "full",
   "type": "site",
   "region": "canaan-israel",

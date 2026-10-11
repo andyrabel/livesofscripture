@@ -2,6 +2,18 @@
   "place_id": "midian",
   "name": "Midian",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "judgment; covering; habit",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Midian, judgment; covering; habit"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Midian%2C%20judgment%3B%20covering%3B%20habit"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "midian",

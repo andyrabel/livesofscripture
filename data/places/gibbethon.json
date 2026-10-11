@@ -2,6 +2,18 @@
   "place_id": "gibbethon",
   "name": "Gibbethon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a back; a high house",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gibbethon, a back; a high house"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gibbethon%2C%20a%20back%3B%20a%20high%20house"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

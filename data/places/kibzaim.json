@@ -2,6 +2,18 @@
   "place_id": "kibzaim",
   "name": "Kibzaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "congregation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kibzaim, congregation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kibzaim%2C%20congregation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,19 @@
   "place_id": "mount-gerizim",
   "name": "Mount Gerizim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "cutters, hatchets",
+    "term": "Gerizim",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gerizim, cutters, hatchets"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gerizim%2C%20cutters%2C%20hatchets"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "canaan-israel",

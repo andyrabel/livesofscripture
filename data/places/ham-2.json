@@ -4,6 +4,18 @@
   "alt_names": [
     "Egyptian"
   ],
+  "name_meaning": {
+    "meaning": "hot; heat; brown",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ham, hot; heat; brown"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ham%2C%20hot%3B%20heat%3B%20brown"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

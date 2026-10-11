@@ -2,6 +2,18 @@
   "place_id": "dimonah",
   "name": "Dimonah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dunghill",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dimonah, dunghill"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dimonah%2C%20dunghill"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

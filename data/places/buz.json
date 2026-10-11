@@ -2,6 +2,18 @@
   "place_id": "buz",
   "name": "Buz",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "despised; plundered",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Buz, despised; plundered"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Buz%2C%20despised%3B%20plundered"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "canaan-israel",

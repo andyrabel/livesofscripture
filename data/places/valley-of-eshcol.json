@@ -5,6 +5,23 @@
     "wadi of Eschol",
     "Valley of Eshkol"
   ],
+  "name_meaning": {
+    "meaning": "bunch of grapes",
+    "term": "Eshcol",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Numbers 13:24"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eshcol, bunch of grapes"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eshcol%2C%20bunch%20of%20grapes"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

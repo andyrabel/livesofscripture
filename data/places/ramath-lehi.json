@@ -4,6 +4,22 @@
   "alt_names": [
     "Jawbone Hill"
   ],
+  "name_meaning": {
+    "meaning": "elevation of the jaw-bone",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Judges 15:17"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ramath-lehi, elevation of the jaw-bone"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ramath-lehi%2C%20elevation%20of%20the%20jaw-bone"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

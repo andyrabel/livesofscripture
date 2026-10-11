@@ -2,6 +2,18 @@
   "place_id": "beer-2",
   "name": "Beer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a well",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beer, a well"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beer%2C%20a%20well"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "gath",
   "name": "Gath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a wine-press",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gath, a wine-press"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gath%2C%20a%20wine-press"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

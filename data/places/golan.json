@@ -2,6 +2,18 @@
   "place_id": "golan",
   "name": "Golan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "passage; revolution",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Golan, passage; revolution"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Golan%2C%20passage%3B%20revolution"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

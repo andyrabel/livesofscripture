@@ -2,6 +2,22 @@
   "place_id": "mahanaim",
   "name": "Mahanaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "tents; two fields; two armies",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 32:2"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mahanaim, tents; two fields; two armies"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mahanaim%2C%20tents%3B%20two%20fields%3B%20two%20armies"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "moab-transjordan",

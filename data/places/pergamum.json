@@ -2,6 +2,18 @@
   "place_id": "pergamum",
   "name": "Pergamum",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "height; elevation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pergamos, height; elevation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pergamos%2C%20height%3B%20elevation"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

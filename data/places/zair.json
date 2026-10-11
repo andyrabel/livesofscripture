@@ -2,6 +2,18 @@
   "place_id": "zair",
   "name": "Zair",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "little; afflicted; in tribulation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zair, little; afflicted; in tribulation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zair%2C%20little%3B%20afflicted%3B%20in%20tribulation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "ariel",
   "name": "Ariel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "altar; light or lion of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ariel, altar; light or lion of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ariel%2C%20altar%3B%20light%20or%20lion%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

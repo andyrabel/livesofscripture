@@ -2,6 +2,18 @@
   "place_id": "shema",
   "name": "Shema",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hearing; obeying",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shema, hearing; obeying"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shema%2C%20hearing%3B%20obeying"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

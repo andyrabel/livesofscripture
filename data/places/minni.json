@@ -2,6 +2,18 @@
   "place_id": "minni",
   "name": "Minni",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "reckoned; prepared",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Minni, reckoned; prepared"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Minni%2C%20reckoned%3B%20prepared"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

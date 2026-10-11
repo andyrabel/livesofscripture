@@ -2,6 +2,18 @@
   "place_id": "rezeph",
   "name": "Rezeph",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "pavement; burning coal",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rezeph, pavement; burning coal"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rezeph%2C%20pavement%3B%20burning%20coal"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

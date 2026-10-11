@@ -2,6 +2,18 @@
   "place_id": "bene-jaakan",
   "name": "Bene-jaakan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sons of sorrow",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bene-jaakan, sons of sorrow"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bene-jaakan%2C%20sons%20of%20sorrow"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

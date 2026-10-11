@@ -2,6 +2,18 @@
   "place_id": "heleph",
   "name": "Heleph",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "changing; passing over",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Heleph, changing; passing over"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Heleph%2C%20changing%3B%20passing%20over"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

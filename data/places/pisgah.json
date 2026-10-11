@@ -5,6 +5,18 @@
     "Pisgah Peak",
     "Ashdoth-pisgah"
   ],
+  "name_meaning": {
+    "meaning": "hill; eminence; fortress",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pisgah, hill; eminence; fortress"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pisgah%2C%20hill%3B%20eminence%3B%20fortress"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "moab-transjordan",

@@ -4,6 +4,18 @@
   "alt_names": [
     "City of Palms"
   ],
+  "name_meaning": {
+    "meaning": "his moon; his month; his sweet smell",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jericho, his moon; his month; his sweet smell"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jericho%2C%20his%20moon%3B%20his%20month%3B%20his%20sweet%20smell"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

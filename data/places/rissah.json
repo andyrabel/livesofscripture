@@ -2,6 +2,18 @@
   "place_id": "rissah",
   "name": "Rissah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "watering; distillation; dew",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rissah, watering; distillation; dew"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rissah%2C%20watering%3B%20distillation%3B%20dew"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

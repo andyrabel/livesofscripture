@@ -2,6 +2,18 @@
   "place_id": "paphos",
   "name": "Paphos",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "which boils, or is very hot",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Paphos, which boils, or is very hot"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Paphos%2C%20which%20boils%2C%20or%20is%20very%20hot"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "asia-minor-greece",

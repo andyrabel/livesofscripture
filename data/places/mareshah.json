@@ -2,6 +2,18 @@
   "place_id": "mareshah",
   "name": "Mareshah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "from the beginning; an inheritance",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mareshah, from the beginning; an inheritance"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mareshah%2C%20from%20the%20beginning%3B%20an%20inheritance"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

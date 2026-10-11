@@ -2,6 +2,18 @@
   "place_id": "ammah",
   "name": "Ammah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "my, or his, people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ammah, my, or his, people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ammah%2C%20my%2C%20or%20his%2C%20people"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

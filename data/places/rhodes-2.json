@@ -6,6 +6,19 @@
     "Rhodians",
     "Dedanites"
   ],
+  "name_meaning": {
+    "meaning": "a rose",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rhodes, same as Rhoda",
+          "Rhoda, a rose"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rhoda%2C%20a%20rose"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "island",
   "region": "undetermined",

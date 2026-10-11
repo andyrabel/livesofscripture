@@ -2,6 +2,18 @@
   "place_id": "philadelphia",
   "name": "Philadelphia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "love of a brother",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Philadelphia, love of a brother"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Philadelphia%2C%20love%20of%20a%20brother"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

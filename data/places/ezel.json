@@ -2,6 +2,18 @@
   "place_id": "ezel",
   "name": "Ezel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "going abroad; walk",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ezel, going abroad; walk"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ezel%2C%20going%20abroad%3B%20walk"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

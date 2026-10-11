@@ -2,6 +2,18 @@
   "place_id": "atad",
   "name": "Atad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a thorn",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Atad, a thorn"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Atad%2C%20a%20thorn"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

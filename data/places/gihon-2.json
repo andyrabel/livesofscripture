@@ -2,6 +2,18 @@
   "place_id": "gihon-2",
   "name": "Gihon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "valley of grace",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gihon, valley of grace"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gihon%2C%20valley%20of%20grace"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

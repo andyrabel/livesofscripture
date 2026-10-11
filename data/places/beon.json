@@ -2,6 +2,18 @@
   "place_id": "beon",
   "name": "Beon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "in affliction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beon, in affliction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beon%2C%20in%20affliction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

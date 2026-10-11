@@ -2,6 +2,19 @@
   "place_id": "lebonah",
   "name": "Lebonah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the moon; whiteness; frankincense",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lebonah, same as Labana",
+          "Labana, the moon; whiteness; frankincense"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Labana%2C%20the%20moon%3B%20whiteness%3B%20frankincense"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

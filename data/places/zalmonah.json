@@ -2,6 +2,18 @@
   "place_id": "zalmonah",
   "name": "Zalmonah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the shade; the sound of the number; his image",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zalmonah, the shade; the sound of the number; his image"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zalmonah%2C%20the%20shade%3B%20the%20sound%20of%20the%20number%3B%20his%20image"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "hena",
   "name": "Hena",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "troubling",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hena, troubling"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hena%2C%20troubling"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

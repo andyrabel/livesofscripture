@@ -2,6 +2,18 @@
   "place_id": "beth-gader",
   "name": "Beth-gader",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a house for a mouse",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-gader, a house for a mouse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-gader%2C%20a%20house%20for%20a%20mouse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -6,6 +6,15 @@
     "King\u2019s Pool",
     "Pool of Shelah"
   ],
+  "name_meaning": {
+    "meaning": "Sent",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "John 9:7"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "body-of-water",
   "region": "undetermined",

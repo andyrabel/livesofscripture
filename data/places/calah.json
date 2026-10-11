@@ -2,6 +2,18 @@
   "place_id": "calah",
   "name": "Calah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "favorable; opportunity",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Calah, favorable; opportunity"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Calah%2C%20favorable%3B%20opportunity"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

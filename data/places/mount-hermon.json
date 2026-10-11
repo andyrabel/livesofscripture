@@ -8,6 +8,19 @@
     "Hermonites",
     "Mount Siyon"
   ],
+  "name_meaning": {
+    "meaning": "anathema; devoted to destruction",
+    "term": "Hermon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hermon, anathema; devoted to destruction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hermon%2C%20anathema%3B%20devoted%20to%20destruction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

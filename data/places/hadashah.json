@@ -2,6 +2,18 @@
   "place_id": "hadashah",
   "name": "Hadashah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "news; a month",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hadashah, news; a month"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hadashah%2C%20news%3B%20a%20month"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

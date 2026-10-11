@@ -2,6 +2,18 @@
   "place_id": "janoah-2",
   "name": "Janoah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "resting; tarrying; deriving",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Janoah, Janohah, resting; tarrying; deriving"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Janoah%2C%20Janohah%2C%20resting%3B%20tarrying%3B%20deriving"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

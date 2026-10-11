@@ -2,6 +2,18 @@
   "place_id": "makheloth",
   "name": "Makheloth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "assemblies; congregations",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Makheloth, assemblies; congregations"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Makheloth%2C%20assemblies%3B%20congregations"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

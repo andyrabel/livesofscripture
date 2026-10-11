@@ -2,6 +2,18 @@
   "place_id": "bashan",
   "name": "Bashan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "in the tooth, in ivory",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bashan, in the tooth, in ivory"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bashan%2C%20in%20the%20tooth%2C%20in%20ivory"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "moab-transjordan",

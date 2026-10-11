@@ -2,6 +2,18 @@
   "place_id": "egypt",
   "name": "Egypt",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that troubles or oppresses; anguish",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Egypt, that troubles or oppresses; anguish"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Egypt%2C%20that%20troubles%20or%20oppresses%3B%20anguish"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "egypt",

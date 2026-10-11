@@ -4,6 +4,18 @@
   "alt_names": [
     "Waters of En-shemesh"
   ],
+  "name_meaning": {
+    "meaning": "fountain, or eye, of the sun",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-shemesh, fountain, or eye, of the sun"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-shemesh%2C%20fountain%2C%20or%20eye%2C%20of%20the%20sun"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

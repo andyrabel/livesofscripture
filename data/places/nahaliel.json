@@ -2,6 +2,18 @@
   "place_id": "nahaliel",
   "name": "Nahaliel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "inheritance; valley of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nahaliel, inheritance; valley of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nahaliel%2C%20inheritance%3B%20valley%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

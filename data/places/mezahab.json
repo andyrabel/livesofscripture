@@ -2,6 +2,18 @@
   "place_id": "mezahab",
   "name": "Mezahab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "gilded",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mezahab, gilded"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mezahab%2C%20gilded"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

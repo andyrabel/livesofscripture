@@ -2,6 +2,18 @@
   "place_id": "anab",
   "name": "Anab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a grape; a knot",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Anab, a grape; a knot"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Anab%2C%20a%20grape%3B%20a%20knot"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

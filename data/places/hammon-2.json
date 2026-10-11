@@ -2,6 +2,18 @@
   "place_id": "hammon-2",
   "name": "Hammon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "heat; the sun",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hammon, heat; the sun"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hammon%2C%20heat%3B%20the%20sun"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Bubastis"
   ],
+  "name_meaning": {
+    "meaning": "abode of the goddess Bahest or Bast",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pi-beseth, abode of the goddess Bahest or Bast"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pi-beseth%2C%20abode%20of%20the%20goddess%20Bahest%20or%20Bast"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

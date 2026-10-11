@@ -2,6 +2,18 @@
   "place_id": "seir",
   "name": "Seir",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hairy; goat; demon; tempest",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Seir, Seirath, hairy; goat; demon; tempest"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Seir%2C%20Seirath%2C%20hairy%3B%20goat%3B%20demon%3B%20tempest"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "canaan-israel",

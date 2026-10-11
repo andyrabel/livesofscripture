@@ -2,6 +2,18 @@
   "place_id": "hobah",
   "name": "Hobah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "love; friendship; secrecy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hobah, love; friendship; secrecy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hobah%2C%20love%3B%20friendship%3B%20secrecy"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

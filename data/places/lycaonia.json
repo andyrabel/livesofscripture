@@ -4,6 +4,18 @@
   "alt_names": [
     "Lycaonian"
   ],
+  "name_meaning": {
+    "meaning": "she-wolf",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lycaonia, she-wolf"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lycaonia%2C%20she-wolf"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

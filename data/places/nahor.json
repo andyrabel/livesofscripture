@@ -2,6 +2,18 @@
   "place_id": "nahor",
   "name": "Nahor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hoarse; dry; hot",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nahor, hoarse; dry; hot"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nahor%2C%20hoarse%3B%20dry%3B%20hot"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

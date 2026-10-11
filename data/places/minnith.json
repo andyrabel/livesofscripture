@@ -2,6 +2,19 @@
   "place_id": "minnith",
   "name": "Minnith",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "reckoned; prepared",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Minnith, same as Minni",
+          "Minni, reckoned; prepared"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Minni%2C%20reckoned%3B%20prepared"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

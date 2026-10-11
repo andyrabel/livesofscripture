@@ -2,6 +2,18 @@
   "place_id": "ramoth-3",
   "name": "Ramoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "eminences; high places",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ramoth, eminences; high places"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ramoth%2C%20eminences%3B%20high%20places"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

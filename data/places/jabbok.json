@@ -2,6 +2,18 @@
   "place_id": "jabbok",
   "name": "Jabbok",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "evacuation; dissipation; wrestling",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jabbok, evacuation; dissipation; wrestling"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jabbok%2C%20evacuation%3B%20dissipation%3B%20wrestling"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

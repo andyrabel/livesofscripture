@@ -2,6 +2,18 @@
   "place_id": "gezer",
   "name": "Gezer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dividing, sentence",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gezer, dividing, sentence"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gezer%2C%20dividing%2C%20sentence"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

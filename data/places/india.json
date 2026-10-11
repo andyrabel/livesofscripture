@@ -2,6 +2,18 @@
   "place_id": "india",
   "name": "India",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "praise; law",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "India, praise; law"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=India%2C%20praise%3B%20law"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

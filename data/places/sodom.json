@@ -2,6 +2,18 @@
   "place_id": "sodom",
   "name": "Sodom",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "their secret; their cement",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sodom, their secret; their cement"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sodom%2C%20their%20secret%3B%20their%20cement"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

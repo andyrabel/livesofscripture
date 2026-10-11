@@ -2,6 +2,18 @@
   "place_id": "mesha",
   "name": "Mesha",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "burden; salvation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mesha, burden; salvation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mesha%2C%20burden%3B%20salvation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

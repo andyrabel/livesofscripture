@@ -2,6 +2,18 @@
   "place_id": "thyatira",
   "name": "Thyatira",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a perfume; sacrifice of labor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Thyatira, a perfume; sacrifice of labor"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Thyatira%2C%20a%20perfume%3B%20sacrifice%20of%20labor"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

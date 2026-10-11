@@ -2,6 +2,18 @@
   "place_id": "tarsus",
   "name": "Tarsus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "winged; feathered",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tarsus, winged; feathered"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tarsus%2C%20winged%3B%20feathered"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "asia-minor-greece",

@@ -2,6 +2,19 @@
   "place_id": "kinah",
   "name": "Kinah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "buying; possession",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kinah, same as Kenah",
+          "Kenah, buying; possession"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kenah%2C%20buying%3B%20possession"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

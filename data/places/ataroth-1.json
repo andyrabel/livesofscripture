@@ -2,6 +2,18 @@
   "place_id": "ataroth-1",
   "name": "Ataroth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "crowns",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ataroth, crowns"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ataroth%2C%20crowns"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

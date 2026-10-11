@@ -6,6 +6,22 @@
     "The Spring of Ha-Qore",
     "The Spring of the One Who Cried Out"
   ],
+  "name_meaning": {
+    "meaning": "fountain of him that called or prayed",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Judges 15:19"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-hakkore, fountain of him that called or prayed"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-hakkore%2C%20fountain%20of%20him%20that%20called%20or%20prayed"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

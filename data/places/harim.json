@@ -2,6 +2,18 @@
   "place_id": "harim",
   "name": "Harim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "destroyed; dedicated to God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Harim, destroyed; dedicated to God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Harim%2C%20destroyed%3B%20dedicated%20to%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

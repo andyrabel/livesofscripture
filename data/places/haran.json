@@ -2,6 +2,18 @@
   "place_id": "haran",
   "name": "Haran",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mountainous country",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Haran, mountainous country"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Haran%2C%20mountainous%20country"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "mesopotamia",

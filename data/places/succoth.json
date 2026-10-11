@@ -2,6 +2,22 @@
   "place_id": "succoth",
   "name": "Succoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "tents; tabernacles",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 33:17"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Succoth, tents; tabernacles"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Succoth%2C%20tents%3B%20tabernacles"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "moab-transjordan",

@@ -2,6 +2,18 @@
   "place_id": "en-rimmon",
   "name": "En-rimmon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "well of weight",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-rimmon, well of weight"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-rimmon%2C%20well%20of%20weight"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

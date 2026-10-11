@@ -2,6 +2,18 @@
   "place_id": "jehud",
   "name": "Jehud",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "praising; conferring",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jehud, Jehudi, praising; conferring"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehud%2C%20Jehudi%2C%20praising%3B%20conferring"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

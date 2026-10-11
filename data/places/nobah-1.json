@@ -2,6 +2,18 @@
   "place_id": "nobah-1",
   "name": "Nobah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that barks or yelps",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nobah, that barks or yelps"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nobah%2C%20that%20barks%20or%20yelps"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

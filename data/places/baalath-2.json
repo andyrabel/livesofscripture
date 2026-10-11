@@ -2,6 +2,18 @@
   "place_id": "baalath-2",
   "name": "Baalath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a rejoicing; our proud lord",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baalath, a rejoicing; our proud lord"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baalath%2C%20a%20rejoicing%3B%20our%20proud%20lord"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

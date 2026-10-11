@@ -4,6 +4,19 @@
   "alt_names": [
     "Pisidian Antioch"
   ],
+  "name_meaning": {
+    "meaning": "speedy as a chariot",
+    "term": "Antioch",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Antioch, speedy as a chariot"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Antioch%2C%20speedy%20as%20a%20chariot"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

@@ -2,6 +2,18 @@
   "place_id": "attalia",
   "name": "Attalia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that increases or sends",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Attalia, that increases or sends"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Attalia%2C%20that%20increases%20or%20sends"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

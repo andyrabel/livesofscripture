@@ -2,6 +2,18 @@
   "place_id": "en-hazor",
   "name": "En-hazor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the grass of the well",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-hazor, the grass of the well"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-hazor%2C%20the%20grass%20of%20the%20well"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

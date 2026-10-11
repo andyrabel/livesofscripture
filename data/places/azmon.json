@@ -2,6 +2,18 @@
   "place_id": "azmon",
   "name": "Azmon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bone of a bone; our strength",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Azmon, bone of a bone; our strength"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Azmon%2C%20bone%20of%20a%20bone%3B%20our%20strength"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

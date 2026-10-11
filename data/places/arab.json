@@ -2,6 +2,18 @@
   "place_id": "arab",
   "name": "Arab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "multiplying; sowing sedition; a window; a locust",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Arab, multiplying; sowing sedition; a window; a locust"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Arab%2C%20multiplying%3B%20sowing%20sedition%3B%20a%20window%3B%20a%20locust"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

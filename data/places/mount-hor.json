@@ -2,6 +2,19 @@
   "place_id": "mount-hor",
   "name": "Mount Hor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "who conceives, or shows; a hill",
+    "term": "Hor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hor, who conceives, or shows; a hill"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hor%2C%20who%20conceives%2C%20or%20shows%3B%20a%20hill"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "sinai-wilderness",

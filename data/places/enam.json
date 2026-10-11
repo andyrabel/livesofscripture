@@ -2,6 +2,18 @@
   "place_id": "enam",
   "name": "Enam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fountain, open place",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Enam, fountain, open place"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Enam%2C%20fountain%2C%20open%20place"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

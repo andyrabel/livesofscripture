@@ -2,6 +2,18 @@
   "place_id": "crete",
   "name": "Crete",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "carnal; fleshly",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Crete, carnal; fleshly"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Crete%2C%20carnal%3B%20fleshly"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "asia-minor-greece",

@@ -4,6 +4,19 @@
   "alt_names": [
     "Northern Kingdom"
   ],
+  "name_meaning": {
+    "meaning": "who prevails with God",
+    "term": "Israel",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Israel, who prevails with God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Israel%2C%20who%20prevails%20with%20God"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "canaan-israel",

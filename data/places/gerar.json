@@ -2,6 +2,19 @@
   "place_id": "gerar",
   "name": "Gerar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "pilgrimage, combat; dispute",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gerar, same as Gera",
+          "Gera, pilgrimage, combat; dispute"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gera%2C%20pilgrimage%2C%20combat%3B%20dispute"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "aroer-3",
   "name": "Aroer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "heath; tamarisk",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aroer, heath; tamarisk"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aroer%2C%20heath%3B%20tamarisk"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

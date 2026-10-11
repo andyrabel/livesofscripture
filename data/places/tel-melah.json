@@ -2,6 +2,18 @@
   "place_id": "tel-melah",
   "name": "Tel-melah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "heap of salt",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tel-melah, heap of salt"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tel-melah%2C%20heap%20of%20salt"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

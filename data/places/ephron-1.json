@@ -2,6 +2,18 @@
   "place_id": "ephron-1",
   "name": "Ephron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dust",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephron, dust"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephron%2C%20dust"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

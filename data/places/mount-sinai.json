@@ -4,6 +4,19 @@
   "alt_names": [
     "Horeb"
   ],
+  "name_meaning": {
+    "meaning": "a bush; enmity",
+    "term": "Sinai",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sinai, a bush; enmity"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sinai%2C%20a%20bush%3B%20enmity"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "sinai-wilderness",

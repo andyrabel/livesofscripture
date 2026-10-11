@@ -2,6 +2,18 @@
   "place_id": "horem",
   "name": "Horem",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an offering dedicated to God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Horem, an offering dedicated to God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Horem%2C%20an%20offering%20dedicated%20to%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

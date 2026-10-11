@@ -2,6 +2,18 @@
   "place_id": "thessalonica",
   "name": "Thessalonica",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "victory against the Thessalians",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Thessalonica, victory against the Thessalians"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Thessalonica%2C%20victory%20against%20the%20Thessalians"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "asia-minor-greece",

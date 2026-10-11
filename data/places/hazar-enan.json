@@ -4,6 +4,18 @@
   "alt_names": [
     "Hazar-enon"
   ],
+  "name_meaning": {
+    "meaning": "imprisoned cloud",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazarenan, imprisoned cloud"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazarenan%2C%20imprisoned%20cloud"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

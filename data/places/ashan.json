@@ -4,6 +4,18 @@
   "alt_names": [
     "Ain"
   ],
+  "name_meaning": {
+    "meaning": "smoke",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ashan, smoke"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ashan%2C%20smoke"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

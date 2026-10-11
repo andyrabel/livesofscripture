@@ -2,6 +2,18 @@
   "place_id": "jarmuth",
   "name": "Jarmuth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fearing, or seeing, or throwing down, death",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jarmuth, fearing, or seeing, or throwing down, death"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jarmuth%2C%20fearing%2C%20or%20seeing%2C%20or%20throwing%20down%2C%20death"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "derbe",
   "name": "Derbe",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a sting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Derbe, a sting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Derbe%2C%20a%20sting"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

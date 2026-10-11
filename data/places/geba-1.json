@@ -2,6 +2,18 @@
   "place_id": "geba-1",
   "name": "Geba",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a hill; cup",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Geba, a hill; cup"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Geba%2C%20a%20hill%3B%20cup"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

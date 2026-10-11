@@ -2,6 +2,18 @@
   "place_id": "en-rogel",
   "name": "En-rogel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the fuller's fountain; the well of searching",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-rogel, the fuller's fountain; the well of searching"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-rogel%2C%20the%20fuller%27s%20fountain%3B%20the%20well%20of%20searching"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

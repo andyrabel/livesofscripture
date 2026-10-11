@@ -2,6 +2,22 @@
   "place_id": "esek",
   "name": "Esek",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "contention",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 26:20"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Esek, contention"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Esek%2C%20contention"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "nineveh",
   "name": "Nineveh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "handsome; agreeable",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nineveh, handsome; agreeable"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nineveh%2C%20handsome%3B%20agreeable"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "mesopotamia",

@@ -2,6 +2,18 @@
   "place_id": "neapolis",
   "name": "Neapolis",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the new city",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Neapolis, the new city"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Neapolis%2C%20the%20new%20city"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

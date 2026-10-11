@@ -9,6 +9,22 @@
     "Meribah by Kadesh",
     "Waters of Meribah"
   ],
+  "name_meaning": {
+    "meaning": "dispute; quarrel",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Numbers 20:13"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Meribah, dispute; quarrel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Meribah%2C%20dispute%3B%20quarrel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

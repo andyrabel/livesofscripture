@@ -2,6 +2,18 @@
   "place_id": "hamonah",
   "name": "Hamonah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "his multitude; his uproar",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hamonah, his multitude; his uproar"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hamonah%2C%20his%20multitude%3B%20his%20uproar"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "assyria",
   "name": "Assyria",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "country of Assur or Ashur",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Assyria, country of Assur or Ashur"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Assyria%2C%20country%20of%20Assur%20or%20Ashur"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "mesopotamia",

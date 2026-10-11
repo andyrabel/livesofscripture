@@ -2,6 +2,18 @@
   "place_id": "shilhim",
   "name": "Shilhim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bough; weapon; armor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shilhi, Shilhim, bough; weapon; armor"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shilhi%2C%20Shilhim%2C%20bough%3B%20weapon%3B%20armor"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

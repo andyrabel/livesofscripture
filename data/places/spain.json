@@ -2,6 +2,18 @@
   "place_id": "spain",
   "name": "Spain",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rare; precious",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Spain, rare; precious"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Spain%2C%20rare%3B%20precious"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

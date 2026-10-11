@@ -2,6 +2,18 @@
   "place_id": "gomer",
   "name": "Gomer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "to finish; complete",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gomer, to finish; complete"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gomer%2C%20to%20finish%3B%20complete"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

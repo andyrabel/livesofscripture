@@ -2,6 +2,18 @@
   "place_id": "bahurim",
   "name": "Bahurim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "choice; warlike; valiant",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bahurim, choice; warlike; valiant"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bahurim%2C%20choice%3B%20warlike%3B%20valiant"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

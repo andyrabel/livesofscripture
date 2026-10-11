@@ -2,6 +2,19 @@
   "place_id": "mount-jearim",
   "name": "Mount Jearim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a leap; woods",
+    "term": "Jearim",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jearim, a leap; woods"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jearim%2C%20a%20leap%3B%20woods"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

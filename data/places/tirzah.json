@@ -2,6 +2,18 @@
   "place_id": "tirzah",
   "name": "Tirzah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "benevolent; complaisant; pleasing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tirzah, benevolent; complaisant; pleasing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tirzah%2C%20benevolent%3B%20complaisant%3B%20pleasing"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

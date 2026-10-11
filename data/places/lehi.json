@@ -2,6 +2,18 @@
   "place_id": "lehi",
   "name": "Lehi",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "jawbone",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lehi, jawbone"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lehi%2C%20jawbone"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

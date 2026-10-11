@@ -2,6 +2,18 @@
   "place_id": "bethany",
   "name": "Bethany",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the house of song; the house of affliction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bethany, the house of song; the house of affliction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bethany%2C%20the%20house%20of%20song%3B%20the%20house%20of%20affliction"
+      }
+    ]
+  },
   "tier": "full",
   "type": "village",
   "region": "canaan-israel",

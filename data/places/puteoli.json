@@ -2,6 +2,18 @@
   "place_id": "puteoli",
   "name": "Puteoli",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sulphureous wells",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Puteoli, sulphureous wells"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Puteoli%2C%20sulphureous%20wells"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

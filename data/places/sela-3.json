@@ -2,6 +2,18 @@
   "place_id": "sela-3",
   "name": "Sela",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a rock",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sela, a rock"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sela%2C%20a%20rock"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

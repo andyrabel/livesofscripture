@@ -4,6 +4,19 @@
   "alt_names": [
     "Eden"
   ],
+  "name_meaning": {
+    "meaning": "pleasure; delight",
+    "term": "Eden",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eden, pleasure; delight"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eden%2C%20pleasure%3B%20delight"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "mesopotamia",

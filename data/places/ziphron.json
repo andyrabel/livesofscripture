@@ -2,6 +2,18 @@
   "place_id": "ziphron",
   "name": "Ziphron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "falsehood of a song; rejoicing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ziphron, falsehood of a song; rejoicing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ziphron%2C%20falsehood%20of%20a%20song%3B%20rejoicing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

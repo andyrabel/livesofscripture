@@ -5,6 +5,18 @@
     "Wadi Kerith",
     "Kerith Ravine"
   ],
+  "name_meaning": {
+    "meaning": "cutting; piercing; slaying",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cherith, cutting; piercing; slaying"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cherith%2C%20cutting%3B%20piercing%3B%20slaying"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

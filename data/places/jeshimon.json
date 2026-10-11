@@ -2,6 +2,18 @@
   "place_id": "jeshimon",
   "name": "Jeshimon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "solitude; desolation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jeshimon, solitude; desolation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jeshimon%2C%20solitude%3B%20desolation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

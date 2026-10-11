@@ -2,6 +2,18 @@
   "place_id": "samaria",
   "name": "Samaria",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "watch-mountain",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Samaria, watch-mountain"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Samaria%2C%20watch-mountain"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

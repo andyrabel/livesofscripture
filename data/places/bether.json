@@ -2,6 +2,18 @@
   "place_id": "bether",
   "name": "Bether",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "division, or in the trial",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bether, division, or in the trial"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bether%2C%20division%2C%20or%20in%20the%20trial"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

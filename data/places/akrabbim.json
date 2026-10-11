@@ -8,6 +8,18 @@
     "Scorpions\u2019 Ascent",
     "Ascent of Akrabbim"
   ],
+  "name_meaning": {
+    "meaning": "scorpions",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Akrabbim, scorpions"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Akrabbim%2C%20scorpions"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

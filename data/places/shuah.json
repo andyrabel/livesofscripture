@@ -2,6 +2,18 @@
   "place_id": "shuah",
   "name": "Shuah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "ditch; swimming; humiliation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shuah, ditch; swimming; humiliation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shuah%2C%20ditch%3B%20swimming%3B%20humiliation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "canaan-israel",

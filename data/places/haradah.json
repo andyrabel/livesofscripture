@@ -2,6 +2,18 @@
   "place_id": "haradah",
   "name": "Haradah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "well of great fear",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Haradah, well of great fear"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Haradah%2C%20well%20of%20great%20fear"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

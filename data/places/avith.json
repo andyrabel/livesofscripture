@@ -2,6 +2,18 @@
   "place_id": "avith",
   "name": "Avith",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wicked, perverse",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Avith, wicked, perverse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Avith%2C%20wicked%2C%20perverse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

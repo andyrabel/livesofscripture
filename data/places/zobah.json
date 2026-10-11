@@ -2,6 +2,18 @@
   "place_id": "zobah",
   "name": "Zobah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an army; warring",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zobah, Zobebah, an army; warring"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zobah%2C%20Zobebah%2C%20an%20army%3B%20warring"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "canaan-israel",

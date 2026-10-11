@@ -2,6 +2,18 @@
   "place_id": "geshur",
   "name": "Geshur",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sight of the valley; a walled valley",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Geshur, Geshuri, sight of the valley; a walled valley"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Geshur%2C%20Geshuri%2C%20sight%20of%20the%20valley%3B%20a%20walled%20valley"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "moab-transjordan",

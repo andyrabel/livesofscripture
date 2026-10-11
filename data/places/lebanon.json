@@ -2,6 +2,18 @@
   "place_id": "lebanon",
   "name": "Lebanon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "white, incense",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lebanon, white, incense"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lebanon%2C%20white%2C%20incense"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

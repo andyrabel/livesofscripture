@@ -2,6 +2,18 @@
   "place_id": "madmannah",
   "name": "Madmannah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "measure of a gift; preparation of a garment",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Madmannah, measure of a gift; preparation of a garment"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Madmannah%2C%20measure%20of%20a%20gift%3B%20preparation%20of%20a%20garment"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "bilhah",
   "name": "Bilhah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "who is old or confused",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bilhah, Bilhan, who is old or confused"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bilhah%2C%20Bilhan%2C%20who%20is%20old%20or%20confused"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

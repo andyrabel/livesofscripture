@@ -4,6 +4,22 @@
   "alt_names": [
     "Lahai-roi"
   ],
+  "name_meaning": {
+    "meaning": "the well of him that liveth and seeth me",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 16:13-14"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beer-lahai-roi, the well of him that liveth and seeth me"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beer-lahai-roi%2C%20the%20well%20of%20him%20that%20liveth%20and%20seeth%20me"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

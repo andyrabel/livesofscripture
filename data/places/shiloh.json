@@ -2,6 +2,18 @@
   "place_id": "shiloh",
   "name": "Shiloh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sent",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shiloh, sent"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shiloh%2C%20sent"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

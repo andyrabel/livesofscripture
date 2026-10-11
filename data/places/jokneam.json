@@ -2,6 +2,18 @@
   "place_id": "jokneam",
   "name": "Jokneam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "possessing, or building up, of the people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jokneam, possessing, or building up, of the people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jokneam%2C%20possessing%2C%20or%20building%20up%2C%20of%20the%20people"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

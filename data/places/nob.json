@@ -2,6 +2,18 @@
   "place_id": "nob",
   "name": "Nob",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "discourse; prophecy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nob, discourse; prophecy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nob%2C%20discourse%3B%20prophecy"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

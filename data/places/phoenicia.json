@@ -8,6 +8,18 @@
     "Syrophoenician",
     "Syrian Phoenicia"
   ],
+  "name_meaning": {
+    "meaning": "red; purple",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Phenice, Phoenicia, red; purple"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Phenice%2C%20Phoenicia%2C%20red%3B%20purple"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

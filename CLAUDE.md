@@ -1420,6 +1420,30 @@ a group whose home page is still a stub needs that place promoted first. Groups 
 place (Pharisees, Sadducees, Levites, Rechabites…) are out of scope for
 this mechanism.
 
+**Place name meanings (added 2026-10-10).** A place's `name_meaning`
+(`{"meaning", "term"?, "sources": [...]}`) renders under its alt names on
+the place page: "Name means “house of bread”", then the source. Unlike a
+person's, the meaning is **quoted verbatim** from Hitchcock's Bible Names
+Dictionary, never paraphrased. Each `hitchcock` source keeps the exact
+entry line(s) (`"Beth-lehem, house of bread"`, or both lines of a
+cross-reference such as `"Babylon, same as Babel"` → `"Babel, confusion;
+mixture"`), which the page prints in quotation marks with a CCEL
+`#:~:text=` link. It covers **stub places too**, because a quotation from a
+public-domain reference work isn't generated content. `term` is set when
+only the core of the name matched ("Mount Carmel" → “Carmel” means…). A
+`scripture` source cites a verse where the text itself explains the name
+(Genesis 11:9 Babel, Joshua 5:9 Gilgal; same explicit-only bar as people's
+`SCRIPTURE_EXPLAINED`). Where the verse's own meaning differs from
+Hitchcock's (Siloam, which he sends to "Shilhi, bough"; Baal-perazim) or he
+has no entry (Akeldama, Perez-uzzah), `SCRIPTURE_MEANINGS` supplies the
+meaning and Hitchcock is left out. Coverage: 801 of 1,182 places (126 of
+138 full). Built by `_build/backfill_place_name_meaning.py` (caches CCEL's
+text in gitignored `_build/hitchcock-source/`, `--refresh` refetches) →
+`_build/place_name_meanings.json` (force-committed, read by
+`generate_places.py`, so CI regeneration keeps it). Re-run order:
+`backfill_place_name_meaning.py` → `generate_places.py` →
+`generate_static_site.py`.
+
 - Still to do:
   - Consider offering the standalone `images/maps/<extent>-<style>.svg` base
     maps (and the relief JPEGs) as an explicit **download** on `map.html` —

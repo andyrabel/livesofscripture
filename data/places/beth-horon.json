@@ -2,6 +2,18 @@
   "place_id": "beth-horon",
   "name": "Beth-horon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of wrath",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-horon, house of wrath"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-horon%2C%20house%20of%20wrath"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

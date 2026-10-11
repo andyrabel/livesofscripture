@@ -2,6 +2,18 @@
   "place_id": "eneglaim",
   "name": "Eneglaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "eye, or fountain, of calves",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-eglaim, eye, or fountain, of calves"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-eglaim%2C%20eye%2C%20or%20fountain%2C%20of%20calves"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

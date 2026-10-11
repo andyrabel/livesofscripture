@@ -2,6 +2,18 @@
   "place_id": "nimrod",
   "name": "Nimrod",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rebellion (but probably an unknown Assyrian word)",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nimrod, rebellion (but probably an unknown Assyrian word)"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nimrod%2C%20rebellion%20%28but%20probably%20an%20unknown%20Assyrian%20word%29"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

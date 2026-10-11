@@ -2,6 +2,18 @@
   "place_id": "sharon-2",
   "name": "Sharon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "his plain; his song",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sharon, his plain; his song"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sharon%2C%20his%20plain%3B%20his%20song"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

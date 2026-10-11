@@ -2,6 +2,22 @@
   "place_id": "gilgal",
   "name": "Gilgal",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wheel; rolling; heap",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Joshua 5:9"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gilgal, wheel; rolling; heap"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gilgal%2C%20wheel%3B%20rolling%3B%20heap"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

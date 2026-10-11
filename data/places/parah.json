@@ -2,6 +2,18 @@
   "place_id": "parah",
   "name": "Parah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a cow; increasing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Parah, a cow; increasing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Parah%2C%20a%20cow%3B%20increasing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

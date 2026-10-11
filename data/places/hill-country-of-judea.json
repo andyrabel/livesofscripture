@@ -2,6 +2,20 @@
   "place_id": "hill-country-of-judea",
   "name": "Hill Country of Judea",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the praise of the Lord; confession",
+    "term": "Judea",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Judaea, Judea, same as Judah",
+          "Judah, the praise of the Lord; confession"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Judah%2C%20the%20praise%20of%20the%20Lord%3B%20confession"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "canaan-israel",

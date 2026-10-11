@@ -4,6 +4,18 @@
   "alt_names": [
     "Hill of Gareb"
   ],
+  "name_meaning": {
+    "meaning": "a scab",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gareb, a scab"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gareb%2C%20a%20scab"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

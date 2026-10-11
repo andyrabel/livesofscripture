@@ -2,6 +2,18 @@
   "place_id": "zephath",
   "name": "Zephath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "which beholds; that attends or that covers",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zephath, which beholds; that attends or that covers"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zephath%2C%20which%20beholds%3B%20that%20attends%20or%20that%20covers"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

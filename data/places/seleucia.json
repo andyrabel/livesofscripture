@@ -2,6 +2,18 @@
   "place_id": "seleucia",
   "name": "Seleucia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "shaken or beaten by the waves",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Seleucia, shaken or beaten by the waves"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Seleucia%2C%20shaken%20or%20beaten%20by%20the%20waves"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

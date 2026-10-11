@@ -2,6 +2,18 @@
   "place_id": "lachish",
   "name": "Lachish",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "who walks, or exists, of himself",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lachish, who walks, or exists, of himself"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lachish%2C%20who%20walks%2C%20or%20exists%2C%20of%20himself"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

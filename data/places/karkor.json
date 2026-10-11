@@ -2,6 +2,18 @@
   "place_id": "karkor",
   "name": "Karkor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "they rested",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Karkor, they rested"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Karkor%2C%20they%20rested"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "moab-transjordan",

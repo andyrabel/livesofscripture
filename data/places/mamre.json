@@ -2,6 +2,18 @@
   "place_id": "mamre",
   "name": "Mamre",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rebellious; bitter; set with trees",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mamre, rebellious; bitter; set with trees"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mamre%2C%20rebellious%3B%20bitter%3B%20set%20with%20trees"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

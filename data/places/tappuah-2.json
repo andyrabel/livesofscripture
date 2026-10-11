@@ -2,6 +2,18 @@
   "place_id": "tappuah-2",
   "name": "Tappuah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "apple; swelling",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tappuah, apple; swelling"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tappuah%2C%20apple%3B%20swelling"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

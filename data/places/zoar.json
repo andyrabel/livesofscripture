@@ -4,6 +4,22 @@
   "alt_names": [
     "Bela"
   ],
+  "name_meaning": {
+    "meaning": "little; small",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 19:20-22"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zoar, little; small"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zoar%2C%20little%3B%20small"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

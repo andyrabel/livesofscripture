@@ -4,6 +4,18 @@
   "alt_names": [
     "Ashchenaz"
   ],
+  "name_meaning": {
+    "meaning": "a fire that spreads",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ashkenaz, a fire that spreads"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ashkenaz%2C%20a%20fire%20that%20spreads"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

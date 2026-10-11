@@ -2,6 +2,18 @@
   "place_id": "timnah",
   "name": "Timnah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "forbidding",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Timnah, forbidding"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Timnah%2C%20forbidding"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

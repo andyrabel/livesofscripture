@@ -2,6 +2,18 @@
   "place_id": "hierapolis",
   "name": "Hierapolis",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "holy city",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hierapolis, holy city"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hierapolis%2C%20holy%20city"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

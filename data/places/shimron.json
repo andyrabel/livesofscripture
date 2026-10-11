@@ -2,6 +2,19 @@
   "place_id": "shimron",
   "name": "Shimron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "thorn; dregs",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shimrith, Shimron, same as Shimri",
+          "Shimri, thorn; dregs"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shimri%2C%20thorn%3B%20dregs"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

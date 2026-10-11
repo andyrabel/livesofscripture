@@ -2,6 +2,18 @@
   "place_id": "ir-shemesh",
   "name": "Ir-shemesh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a city of bondage",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Irshemesh, a city of bondage"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Irshemesh%2C%20a%20city%20of%20bondage"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

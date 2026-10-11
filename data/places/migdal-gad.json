@@ -2,6 +2,18 @@
   "place_id": "migdal-gad",
   "name": "Migdal-gad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "tower compassed about",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Migdalgad, tower compassed about"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Migdalgad%2C%20tower%20compassed%20about"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "gethsemane",
   "name": "Gethsemane",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a very fat or plentiful vale",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gethsemane, a very fat or plentiful vale"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gethsemane%2C%20a%20very%20fat%20or%20plentiful%20vale"
+      }
+    ]
+  },
   "tier": "full",
   "type": "site",
   "region": "canaan-israel",

@@ -5,6 +5,18 @@
     "Edar",
     "Migdal Eder"
   ],
+  "name_meaning": {
+    "meaning": "a flock",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eder, a flock"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eder%2C%20a%20flock"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

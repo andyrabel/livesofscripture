@@ -2,6 +2,18 @@
   "place_id": "moreh-2",
   "name": "Moreh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "stretching",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Moreh, stretching"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Moreh%2C%20stretching"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

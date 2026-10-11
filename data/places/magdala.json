@@ -2,6 +2,18 @@
   "place_id": "magdala",
   "name": "Magdala",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "tower; greatness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Magdala, tower; greatness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Magdala%2C%20tower%3B%20greatness"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

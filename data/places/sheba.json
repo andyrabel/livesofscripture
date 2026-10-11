@@ -2,6 +2,18 @@
   "place_id": "sheba",
   "name": "Sheba",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "captivity; old man; repose; oath",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sheba, captivity; old man; repose; oath"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sheba%2C%20captivity%3B%20old%20man%3B%20repose%3B%20oath"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "egypt",

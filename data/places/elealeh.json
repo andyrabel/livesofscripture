@@ -2,6 +2,18 @@
   "place_id": "elealeh",
   "name": "Elealeh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "burnt-offering of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Elealeh, burnt-offering of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elealeh%2C%20burnt-offering%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

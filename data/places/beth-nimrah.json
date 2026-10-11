@@ -2,6 +2,18 @@
   "place_id": "beth-nimrah",
   "name": "Beth-nimrah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of rebellion",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-nimrah, house of rebellion"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-nimrah%2C%20house%20of%20rebellion"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Gibeah of Saul"
   ],
+  "name_meaning": {
+    "meaning": "a hill",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gibeah, a hill"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gibeah%2C%20a%20hill"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "cnidus",
   "name": "Cnidus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "age",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cnidus, age"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cnidus%2C%20age"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

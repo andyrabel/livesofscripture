@@ -4,6 +4,18 @@
   "alt_names": [
     "Ephrain"
   ],
+  "name_meaning": {
+    "meaning": "dust",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephron, dust"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephron%2C%20dust"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "mysia",
   "name": "Mysia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "criminal; abominable",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mysia, criminal; abominable"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mysia%2C%20criminal%3B%20abominable"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

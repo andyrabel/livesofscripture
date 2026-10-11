@@ -2,6 +2,18 @@
   "place_id": "adamah",
   "name": "Adamah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "red earth; of blood",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Adamah, red earth; of blood"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adamah%2C%20red%20earth%3B%20of%20blood"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

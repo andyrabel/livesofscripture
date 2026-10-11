@@ -2,6 +2,18 @@
   "place_id": "baal-zephon",
   "name": "Baal-zephon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the idol or possession of the north; hidden; secret",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-zephon, the idol or possession of the north; hidden; secret"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-zephon%2C%20the%20idol%20or%20possession%20of%20the%20north%3B%20hidden%3B%20secret"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

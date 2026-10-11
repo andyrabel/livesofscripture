@@ -2,6 +2,18 @@
   "place_id": "hara",
   "name": "Hara",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a hill; showing forth",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hara, a hill; showing forth"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hara%2C%20a%20hill%3B%20showing%20forth"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

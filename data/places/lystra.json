@@ -2,6 +2,18 @@
   "place_id": "lystra",
   "name": "Lystra",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that dissolves or disperses",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lystra, that dissolves or disperses"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lystra%2C%20that%20dissolves%20or%20disperses"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

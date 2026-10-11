@@ -4,6 +4,19 @@
   "alt_names": [
     "Wicked Valley"
   ],
+  "name_meaning": {
+    "meaning": "iniquity; force; riches; sorrow",
+    "term": "Aven",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aven, iniquity; force; riches; sorrow"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aven%2C%20iniquity%3B%20force%3B%20riches%3B%20sorrow"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

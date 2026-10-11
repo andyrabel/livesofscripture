@@ -2,6 +2,19 @@
   "place_id": "dura",
   "name": "Dura",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "generation, habitation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dura, same as Dor",
+          "Dor, generation, habitation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dor%2C%20generation%2C%20habitation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,19 @@
   "place_id": "mount-halak",
   "name": "Mount Halak",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "part",
+    "term": "Halak",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Halak, part"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Halak%2C%20part"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "ijon",
   "name": "Ijon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "look; eye; fountain",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ijon, look; eye; fountain"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ijon%2C%20look%3B%20eye%3B%20fountain"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

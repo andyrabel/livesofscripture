@@ -6,6 +6,18 @@
     "Bethlehem-judah",
     "City of David"
   ],
+  "name_meaning": {
+    "meaning": "house of bread",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-lehem, house of bread"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-lehem%2C%20house%20of%20bread"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

@@ -5,6 +5,18 @@
     "Kiriath-arba",
     "Mamre"
   ],
+  "name_meaning": {
+    "meaning": "society; friendship",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hebron, society; friendship"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hebron%2C%20society%3B%20friendship"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

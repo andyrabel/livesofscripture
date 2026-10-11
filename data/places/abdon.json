@@ -2,6 +2,18 @@
   "place_id": "abdon",
   "name": "Abdon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "servant; cloud of judgment",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Abdon, servant; cloud of judgment"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abdon%2C%20servant%3B%20cloud%20of%20judgment"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

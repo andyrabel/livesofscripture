@@ -2,6 +2,18 @@
   "place_id": "abiezer",
   "name": "Abiezer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "father of help",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Abiezer, father of help"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Abiezer%2C%20father%20of%20help"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "undetermined",

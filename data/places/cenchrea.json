@@ -2,6 +2,18 @@
   "place_id": "cenchrea",
   "name": "Cenchrea",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "millet; small pulse",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cenchrea, millet; small pulse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cenchrea%2C%20millet%3B%20small%20pulse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "asia-minor-greece",

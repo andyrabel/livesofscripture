@@ -2,6 +2,18 @@
   "place_id": "horonaim-1",
   "name": "Horonaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "angers; ragings",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Horonaim, angers; ragings"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Horonaim%2C%20angers%3B%20ragings"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,19 @@
   "place_id": "ramah",
   "name": "Ramah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "elevated; sublime",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ramah, same as Ram",
+          "Ram, elevated; sublime"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ram%2C%20elevated%3B%20sublime"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

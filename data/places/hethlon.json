@@ -2,6 +2,18 @@
   "place_id": "hethlon",
   "name": "Hethlon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a fearful dwelling",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hethlon, a fearful dwelling"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hethlon%2C%20a%20fearful%20dwelling"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

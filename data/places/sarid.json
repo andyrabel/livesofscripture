@@ -2,6 +2,18 @@
   "place_id": "sarid",
   "name": "Sarid",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "remaining; hand of a prince",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sarid, remaining; hand of a prince"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sarid%2C%20remaining%3B%20hand%20of%20a%20prince"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

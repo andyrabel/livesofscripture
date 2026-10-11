@@ -2,6 +2,18 @@
   "place_id": "irpeel",
   "name": "Irpeel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the health, medicine, or exulting of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Irpeel, the health, medicine, or exulting of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Irpeel%2C%20the%20health%2C%20medicine%2C%20or%20exulting%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

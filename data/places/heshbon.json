@@ -2,6 +2,18 @@
   "place_id": "heshbon",
   "name": "Heshbon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "invention; industry",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Heshbon, invention; industry"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Heshbon%2C%20invention%3B%20industry"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "moab-transjordan",

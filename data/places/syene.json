@@ -5,6 +5,18 @@
     "Aswan",
     "Sinim"
   ],
+  "name_meaning": {
+    "meaning": "a bush; enmity",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Syene, a bush; enmity"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Syene%2C%20a%20bush%3B%20enmity"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

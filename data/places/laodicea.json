@@ -2,6 +2,18 @@
   "place_id": "laodicea",
   "name": "Laodicea",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "just people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Laodicea, just people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Laodicea%2C%20just%20people"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Hukok"
   ],
+  "name_meaning": {
+    "meaning": "engraver; scribe; lawyer",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hukkok, engraver; scribe; lawyer"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hukkok%2C%20engraver%3B%20scribe%3B%20lawyer"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

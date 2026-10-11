@@ -4,6 +4,18 @@
   "alt_names": [
     "Aram-naharaim (in some contexts)"
   ],
+  "name_meaning": {
+    "meaning": "cultivated field or table-land",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Padan-aram, cultivated field or table-land"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Padan-aram%2C%20cultivated%20field%20or%20table-land"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "mesopotamia",

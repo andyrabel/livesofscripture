@@ -2,6 +2,18 @@
   "place_id": "mesopotamia",
   "name": "Mesopotamia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "between two rivers",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mesopotamia, between two rivers"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mesopotamia%2C%20between%20two%20rivers"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "mesopotamia",

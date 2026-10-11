@@ -2,6 +2,18 @@
   "place_id": "baal-tamar",
   "name": "Baal-tamar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "master of the palm-tree",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-tamar, master of the palm-tree"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-tamar%2C%20master%20of%20the%20palm-tree"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

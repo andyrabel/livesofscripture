@@ -2,6 +2,18 @@
   "place_id": "havilah-3",
   "name": "Havilah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that suffers pain; that brings forth",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Havilah, that suffers pain; that brings forth"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Havilah%2C%20that%20suffers%20pain%3B%20that%20brings%20forth"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

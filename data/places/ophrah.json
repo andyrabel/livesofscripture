@@ -2,6 +2,18 @@
   "place_id": "ophrah",
   "name": "Ophrah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dust; lead; a fawn",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ophrah, dust; lead; a fawn"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ophrah%2C%20dust%3B%20lead%3B%20a%20fawn"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

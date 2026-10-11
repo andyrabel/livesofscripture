@@ -2,6 +2,22 @@
   "place_id": "ebenezer-2",
   "name": "Ebenezer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the stone of help",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "1 Samuel 7:12"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eben-ezer, the stone of help"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eben-ezer%2C%20the%20stone%20of%20help"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "cyprus",
   "name": "Cyprus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fair; fairness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cyprus, fair; fairness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cyprus%2C%20fair%3B%20fairness"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "asia-minor-greece",

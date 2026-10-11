@@ -2,6 +2,18 @@
   "place_id": "debir",
   "name": "Debir",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an orator; a word",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Debir, an orator; a word"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Debir%2C%20an%20orator%3B%20a%20word"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "magbish",
   "name": "Magbish",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "excelling; height",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Magbish, excelling; height"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Magbish%2C%20excelling%3B%20height"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

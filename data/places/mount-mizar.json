@@ -4,6 +4,19 @@
   "alt_names": [
     "Hill Mizar"
   ],
+  "name_meaning": {
+    "meaning": "little",
+    "term": "Mizar",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mizar, little"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mizar%2C%20little"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

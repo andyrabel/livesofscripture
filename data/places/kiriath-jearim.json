@@ -4,6 +4,18 @@
   "alt_names": [
     "Baale-judah"
   ],
+  "name_meaning": {
+    "meaning": "city of woods",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kirjath-jearim, city of woods"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kirjath-jearim%2C%20city%20of%20woods"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

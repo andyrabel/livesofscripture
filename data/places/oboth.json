@@ -2,6 +2,18 @@
   "place_id": "oboth",
   "name": "Oboth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dragons; fathers; desires",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Oboth, dragons; fathers; desires"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Oboth%2C%20dragons%3B%20fathers%3B%20desires"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

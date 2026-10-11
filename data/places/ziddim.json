@@ -2,6 +2,18 @@
   "place_id": "ziddim",
   "name": "Ziddim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "huntings; treasons; destructions",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ziddim, huntings; treasons; destructions"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ziddim%2C%20huntings%3B%20treasons%3B%20destructions"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

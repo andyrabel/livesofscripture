@@ -2,6 +2,18 @@
   "place_id": "gog",
   "name": "Gog",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "roof; covering",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gog, roof; covering"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gog%2C%20roof%3B%20covering"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

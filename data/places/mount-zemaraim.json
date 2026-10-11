@@ -2,6 +2,19 @@
   "place_id": "mount-zemaraim",
   "name": "Mount Zemaraim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wool; pith",
+    "term": "Zemaraim",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zemaraim, wool; pith"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zemaraim%2C%20wool%3B%20pith"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "canaan-israel",

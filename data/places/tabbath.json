@@ -2,6 +2,18 @@
   "place_id": "tabbath",
   "name": "Tabbath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "good; goodness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tabbath, good; goodness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tabbath%2C%20good%3B%20goodness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

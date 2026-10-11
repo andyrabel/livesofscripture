@@ -2,6 +2,18 @@
   "place_id": "amad",
   "name": "Amad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "people of witness; a prey",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Amad, people of witness; a prey"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Amad%2C%20people%20of%20witness%3B%20a%20prey"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

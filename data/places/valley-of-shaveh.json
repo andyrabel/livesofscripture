@@ -2,6 +2,19 @@
   "place_id": "valley-of-shaveh",
   "name": "Valley of Shaveh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the plain; that makes equality",
+    "term": "Shaveh",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shaveh, the plain; that makes equality"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shaveh%2C%20the%20plain%3B%20that%20makes%20equality"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

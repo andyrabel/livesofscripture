@@ -5,6 +5,18 @@
     "Rehoboth-by-the-River",
     "Rehoboth-on-the-River"
   ],
+  "name_meaning": {
+    "meaning": "spaces; places",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rehoboth, spaces; places"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rehoboth%2C%20spaces%3B%20places"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

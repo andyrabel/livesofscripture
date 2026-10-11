@@ -2,6 +2,18 @@
   "place_id": "beth-aven-2",
   "name": "Beth-aven",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the house of vanity; of iniquity of trouble",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-aven, the house of vanity; of iniquity of trouble"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-aven%2C%20the%20house%20of%20vanity%3B%20of%20iniquity%20of%20trouble"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

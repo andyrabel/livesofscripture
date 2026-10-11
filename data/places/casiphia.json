@@ -2,6 +2,18 @@
   "place_id": "casiphia",
   "name": "Casiphia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "money; covetousness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Casiphia, money; covetousness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Casiphia%2C%20money%3B%20covetousness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "mesopotamia",

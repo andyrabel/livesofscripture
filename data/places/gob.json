@@ -2,6 +2,18 @@
   "place_id": "gob",
   "name": "Gob",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "cistern; grasshopper",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gob, cistern; grasshopper"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gob%2C%20cistern%3B%20grasshopper"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

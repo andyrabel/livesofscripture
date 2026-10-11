@@ -2,6 +2,18 @@
   "place_id": "neiel",
   "name": "Neiel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "commotion, or moving, of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Neiel, commotion, or moving, of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Neiel%2C%20commotion%2C%20or%20moving%2C%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

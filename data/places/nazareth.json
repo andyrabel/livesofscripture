@@ -2,6 +2,18 @@
   "place_id": "nazareth",
   "name": "Nazareth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "separated; crowned; sanctified",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nazareth, separated; crowned; sanctified"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nazareth%2C%20separated%3B%20crowned%3B%20sanctified"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

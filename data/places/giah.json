@@ -2,6 +2,18 @@
   "place_id": "giah",
   "name": "Giah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "to guide; draw out; produce; a groan or sigh",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Giah, to guide; draw out; produce; a groan or sigh"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Giah%2C%20to%20guide%3B%20draw%20out%3B%20produce%3B%20a%20groan%20or%20sigh"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

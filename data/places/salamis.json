@@ -2,6 +2,18 @@
   "place_id": "salamis",
   "name": "Salamis",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "shaken; test; beaten",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Salamis, shaken; test; beaten"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Salamis%2C%20shaken%3B%20test%3B%20beaten"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

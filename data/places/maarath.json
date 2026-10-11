@@ -2,6 +2,18 @@
   "place_id": "maarath",
   "name": "Maarath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "den; making empty; watching",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Maarath, den; making empty; watching"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Maarath%2C%20den%3B%20making%20empty%3B%20watching"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

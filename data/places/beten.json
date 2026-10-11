@@ -2,6 +2,18 @@
   "place_id": "beten",
   "name": "Beten",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "belly",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beten, belly"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beten%2C%20belly"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

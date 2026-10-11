@@ -2,6 +2,18 @@
   "place_id": "zeboiim",
   "name": "Zeboiim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "deer; goats",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zeboiim, deer; goats"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zeboiim%2C%20deer%3B%20goats"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

@@ -2,6 +2,22 @@
   "place_id": "babel",
   "name": "Babel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "confusion; mixture",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 11:9"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Babel, confusion; mixture"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Babel%2C%20confusion%3B%20mixture"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

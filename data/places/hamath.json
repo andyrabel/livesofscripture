@@ -2,6 +2,18 @@
   "place_id": "hamath",
   "name": "Hamath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "anger; heat; a wall",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hamath, anger; heat; a wall"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hamath%2C%20anger%3B%20heat%3B%20a%20wall"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "canaan-israel",

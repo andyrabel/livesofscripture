@@ -2,6 +2,18 @@
   "place_id": "beth-barah",
   "name": "Beth-barah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the chosen house",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-barah, the chosen house"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-barah%2C%20the%20chosen%20house"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

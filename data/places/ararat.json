@@ -4,6 +4,18 @@
   "alt_names": [
     "Mountains of Ararat"
   ],
+  "name_meaning": {
+    "meaning": "the curse of trembling",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ararat, the curse of trembling"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ararat%2C%20the%20curse%20of%20trembling"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "mesopotamia",

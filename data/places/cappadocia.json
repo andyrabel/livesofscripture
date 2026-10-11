@@ -2,6 +2,18 @@
   "place_id": "cappadocia",
   "name": "Cappadocia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the same as Caphtor",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cappadocia, the same as Caphtor"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cappadocia%2C%20the%20same%20as%20Caphtor"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

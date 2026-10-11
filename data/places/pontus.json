@@ -2,6 +2,18 @@
   "place_id": "pontus",
   "name": "Pontus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the sea",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pontus, the sea"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pontus%2C%20the%20sea"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "asia-minor-greece",

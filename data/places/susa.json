@@ -4,6 +4,18 @@
   "alt_names": [
     "Shushan"
   ],
+  "name_meaning": {
+    "meaning": "lily; rose; joy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shushan, lily; rose; joy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shushan%2C%20lily%3B%20rose%3B%20joy"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "mesopotamia",

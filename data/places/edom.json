@@ -4,6 +4,18 @@
   "alt_names": [
     "Seir"
   ],
+  "name_meaning": {
+    "meaning": "red, earthy; of blood",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Edom, red, earthy; of blood"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Edom%2C%20red%2C%20earthy%3B%20of%20blood"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "hosah",
   "name": "Hosah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "trusting",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hosah, trusting"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hosah%2C%20trusting"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

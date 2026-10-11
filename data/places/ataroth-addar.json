@@ -4,6 +4,18 @@
   "alt_names": [
     "Ataroth-adar"
   ],
+  "name_meaning": {
+    "meaning": "crowns of power",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ataroth-addar, crowns of power"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ataroth-addar%2C%20crowns%20of%20power"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

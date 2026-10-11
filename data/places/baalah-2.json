@@ -2,6 +2,18 @@
   "place_id": "baalah-2",
   "name": "Baalah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "her idol; she that is governed or subdued; a spouse",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baalah, her idol; she that is governed or subdued; a spouse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baalah%2C%20her%20idol%3B%20she%20that%20is%20governed%20or%20subdued%3B%20a%20spouse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

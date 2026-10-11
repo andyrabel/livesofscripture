@@ -2,6 +2,19 @@
   "place_id": "mount-moriah",
   "name": "Mount Moriah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bitterness of the Lord",
+    "term": "Moriah",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Moriah, bitterness of the Lord"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Moriah%2C%20bitterness%20of%20the%20Lord"
+      }
+    ]
+  },
   "tier": "full",
   "type": "mountain",
   "region": "canaan-israel",

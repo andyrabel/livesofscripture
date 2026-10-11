@@ -2,6 +2,18 @@
   "place_id": "pamphylia",
   "name": "Pamphylia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a nation made up of every tribe",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pamphylia, a nation made up of every tribe"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pamphylia%2C%20a%20nation%20made%20up%20of%20every%20tribe"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

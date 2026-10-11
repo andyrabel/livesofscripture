@@ -2,6 +2,18 @@
   "place_id": "almon",
   "name": "Almon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hidden",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Almon, hidden"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Almon%2C%20hidden"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Sea of Galilee"
   ],
+  "name_meaning": {
+    "meaning": "garden of the prince",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gennesaret, garden of the prince"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gennesaret%2C%20garden%20of%20the%20prince"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "jokmeam-2",
   "name": "Jokmeam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "confirmation, or revenge, of the people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jokmeam, confirmation, or revenge, of the people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jokmeam%2C%20confirmation%2C%20or%20revenge%2C%20of%20the%20people"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

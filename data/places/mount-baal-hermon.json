@@ -2,6 +2,19 @@
   "place_id": "mount-baal-hermon",
   "name": "Mount Baal-hermon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "possessor of destruction or of a thing cursed",
+    "term": "Baal-hermon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-hermon, possessor of destruction or of a thing cursed"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-hermon%2C%20possessor%20of%20destruction%20or%20of%20a%20thing%20cursed"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

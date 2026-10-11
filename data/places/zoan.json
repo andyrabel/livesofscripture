@@ -2,6 +2,18 @@
   "place_id": "zoan",
   "name": "Zoan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "motion",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Zoan, motion"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Zoan%2C%20motion"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

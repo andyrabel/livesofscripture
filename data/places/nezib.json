@@ -2,6 +2,18 @@
   "place_id": "nezib",
   "name": "Nezib",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "standing-place",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nezib, standing-place"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nezib%2C%20standing-place"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

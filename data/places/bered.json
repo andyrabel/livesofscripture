@@ -2,6 +2,18 @@
   "place_id": "bered",
   "name": "Bered",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hail",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bered, hail"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bered%2C%20hail"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

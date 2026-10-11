@@ -2,6 +2,18 @@
   "place_id": "allon",
   "name": "Allon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an oak; strong",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Allon, an oak; strong"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Allon%2C%20an%20oak%3B%20strong"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

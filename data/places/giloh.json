@@ -2,6 +2,18 @@
   "place_id": "giloh",
   "name": "Giloh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "he that rejoices; he that overturns",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Giloh, he that rejoices; he that overturns"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Giloh%2C%20he%20that%20rejoices%3B%20he%20that%20overturns"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

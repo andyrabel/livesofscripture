@@ -2,6 +2,18 @@
   "place_id": "sephar",
   "name": "Sephar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "book; scribe; number",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sephar, book; scribe; number"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sephar%2C%20book%3B%20scribe%3B%20number"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

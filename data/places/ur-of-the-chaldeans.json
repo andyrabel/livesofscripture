@@ -4,6 +4,19 @@
   "alt_names": [
     "Ur"
   ],
+  "name_meaning": {
+    "meaning": "fire, light, a valley",
+    "term": "Ur",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ur, fire, light, a valley"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ur%2C%20fire%2C%20light%2C%20a%20valley"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "mesopotamia",

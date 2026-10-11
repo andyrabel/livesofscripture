@@ -4,6 +4,18 @@
   "alt_names": [
     "Akkad"
   ],
+  "name_meaning": {
+    "meaning": "a vessel; pitcher; spark",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Accad, a vessel; pitcher; spark"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Accad%2C%20a%20vessel%3B%20pitcher%3B%20spark"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

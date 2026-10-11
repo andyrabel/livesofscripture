@@ -2,6 +2,18 @@
   "place_id": "colossae",
   "name": "Colossae",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "punishment; correction",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Colosse, punishment; correction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Colosse%2C%20punishment%3B%20correction"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

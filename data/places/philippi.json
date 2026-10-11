@@ -2,6 +2,18 @@
   "place_id": "philippi",
   "name": "Philippi",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "same as Philip, in the plural",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Philippi, same as Philip, in the plural"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Philippi%2C%20same%20as%20Philip%2C%20in%20the%20plural"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

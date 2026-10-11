@@ -2,6 +2,18 @@
   "place_id": "amalek",
   "name": "Amalek",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a people that licks up",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Amalek, a people that licks up"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Amalek%2C%20a%20people%20that%20licks%20up"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "sinai-wilderness",

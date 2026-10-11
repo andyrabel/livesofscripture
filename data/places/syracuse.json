@@ -2,6 +2,18 @@
   "place_id": "syracuse",
   "name": "Syracuse",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that draws violently",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Syracuse, that draws violently"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Syracuse%2C%20that%20draws%20violently"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

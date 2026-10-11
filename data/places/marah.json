@@ -2,6 +2,22 @@
   "place_id": "marah",
   "name": "Marah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bitter; bitterness",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Exodus 15:23"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mara, Marah, bitter; bitterness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mara%2C%20Marah%2C%20bitter%3B%20bitterness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "spring",
   "region": "undetermined",

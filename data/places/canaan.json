@@ -4,6 +4,18 @@
   "alt_names": [
     "The Promised Land"
   ],
+  "name_meaning": {
+    "meaning": "merchant; trader; or that humbles and subdues",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Canaan, merchant; trader; or that humbles and subdues"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Canaan%2C%20merchant%3B%20trader%3B%20or%20that%20humbles%20and%20subdues"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "canaan-israel",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Noph"
   ],
+  "name_meaning": {
+    "meaning": "abode of the good",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Memphis, abode of the good"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Memphis%2C%20abode%20of%20the%20good"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

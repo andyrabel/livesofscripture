@@ -2,6 +2,18 @@
   "place_id": "gimzo",
   "name": "Gimzo",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "that bulrush",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gimzo, that bulrush"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gimzo%2C%20that%20bulrush"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

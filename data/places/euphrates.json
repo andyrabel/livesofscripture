@@ -5,6 +5,18 @@
     "Perath",
     "Great River"
   ],
+  "name_meaning": {
+    "meaning": "that makes fruitful",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Euphrates, that makes fruitful"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Euphrates%2C%20that%20makes%20fruitful"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

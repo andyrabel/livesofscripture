@@ -2,6 +2,18 @@
   "place_id": "salim",
   "name": "Salim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "foxes; fists; path",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Salim, foxes; fists; path"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Salim%2C%20foxes%3B%20fists%3B%20path"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

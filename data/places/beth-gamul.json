@@ -2,6 +2,18 @@
   "place_id": "beth-gamul",
   "name": "Beth-gamul",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of recompense, or of the camel",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-gamul, house of recompense, or of the camel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-gamul%2C%20house%20of%20recompense%2C%20or%20of%20the%20camel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

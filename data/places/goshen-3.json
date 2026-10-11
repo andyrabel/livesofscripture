@@ -2,6 +2,18 @@
   "place_id": "goshen-3",
   "name": "Goshen",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "approaching; drawing near",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Goshen, approaching; drawing near"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Goshen%2C%20approaching%3B%20drawing%20near"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

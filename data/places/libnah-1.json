@@ -2,6 +2,18 @@
   "place_id": "libnah-1",
   "name": "Libnah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "white; whiteness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Libnah, white; whiteness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Libnah%2C%20white%3B%20whiteness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

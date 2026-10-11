@@ -2,6 +2,18 @@
   "place_id": "el-bethel",
   "name": "El-bethel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the God of Bethel",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "El-beth-el, the God of Bethel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=El-beth-el%2C%20the%20God%20of%20Bethel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

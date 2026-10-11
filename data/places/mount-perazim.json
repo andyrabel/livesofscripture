@@ -2,6 +2,19 @@
   "place_id": "mount-perazim",
   "name": "Mount Perazim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "divisions",
+    "term": "Perazim",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Perazim, divisions"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Perazim%2C%20divisions"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

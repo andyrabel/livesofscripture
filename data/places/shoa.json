@@ -2,6 +2,18 @@
   "place_id": "shoa",
   "name": "Shoa",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "kings; tyrants",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shoa, kings; tyrants"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shoa%2C%20kings%3B%20tyrants"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "undetermined",

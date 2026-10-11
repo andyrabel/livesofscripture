@@ -2,6 +2,18 @@
   "place_id": "baal-gad",
   "name": "Baal-gad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "idol of fortune or felicity",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-gad, idol of fortune or felicity"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-gad%2C%20idol%20of%20fortune%20or%20felicity"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

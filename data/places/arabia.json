@@ -2,6 +2,18 @@
   "place_id": "arabia",
   "name": "Arabia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "evening; desert; ravens",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Arabia, evening; desert; ravens"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Arabia%2C%20evening%3B%20desert%3B%20ravens"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "egypt",

@@ -2,6 +2,18 @@
   "place_id": "shamir",
   "name": "Shamir",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "prison; bush; lees; thorn",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shamir, Shamer, prison; bush; lees; thorn"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shamir%2C%20Shamer%2C%20prison%3B%20bush%3B%20lees%3B%20thorn"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "mephaath",
   "name": "Mephaath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "appearance, or force, of waters",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mephaath, appearance, or force, of waters"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mephaath%2C%20appearance%2C%20or%20force%2C%20of%20waters"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

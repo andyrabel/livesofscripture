@@ -2,6 +2,18 @@
   "place_id": "cilicia",
   "name": "Cilicia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "which rolls or overturns",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Cilicia, which rolls or overturns"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Cilicia%2C%20which%20rolls%20or%20overturns"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

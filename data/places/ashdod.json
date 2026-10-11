@@ -2,6 +2,18 @@
   "place_id": "ashdod",
   "name": "Ashdod",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "effusion; inclination; theft",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ashdod, effusion; inclination; theft"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ashdod%2C%20effusion%3B%20inclination%3B%20theft"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

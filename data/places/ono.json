@@ -2,6 +2,18 @@
   "place_id": "ono",
   "name": "Ono",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "grief or strength or iniquity of him",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ono, grief or strength or iniquity of him"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ono%2C%20grief%20or%20strength%20or%20iniquity%20of%20him"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

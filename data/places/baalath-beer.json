@@ -6,6 +6,18 @@
     "Baalath",
     "Baalat-Beor"
   ],
+  "name_meaning": {
+    "meaning": "subjected pit",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baalath-beer, subjected pit"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baalath-beer%2C%20subjected%20pit"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

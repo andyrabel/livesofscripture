@@ -2,6 +2,18 @@
   "place_id": "beth-lebaoth",
   "name": "Beth-lebaoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of lionesses",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-lebaoth, house of lionesses"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-lebaoth%2C%20house%20of%20lionesses"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

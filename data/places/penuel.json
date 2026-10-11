@@ -4,6 +4,23 @@
   "alt_names": [
     "Peniel"
   ],
+  "name_meaning": {
+    "meaning": "face or vision of God; that sees God",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 32:30"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Penuel, same as Peniel",
+          "Peniel, face or vision of God; that sees God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Peniel%2C%20face%20or%20vision%20of%20God%3B%20that%20sees%20God"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "moab-transjordan",

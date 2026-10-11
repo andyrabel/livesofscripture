@@ -6,6 +6,15 @@
     "Hakeldama",
     "Field of Blood"
   ],
+  "name_meaning": {
+    "meaning": "Field of Blood",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Acts 1:19"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

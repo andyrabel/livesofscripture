@@ -2,6 +2,18 @@
   "place_id": "anaharath",
   "name": "Anaharath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dryness, burning, wrath",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Anaharath, dryness, burning, wrath"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Anaharath%2C%20dryness%2C%20burning%2C%20wrath"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

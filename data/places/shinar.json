@@ -2,6 +2,18 @@
   "place_id": "shinar",
   "name": "Shinar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "watch of him that sleeps",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shinar, watch of him that sleeps"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shinar%2C%20watch%20of%20him%20that%20sleeps"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "mesopotamia",

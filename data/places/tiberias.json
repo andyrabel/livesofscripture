@@ -2,6 +2,18 @@
   "place_id": "tiberias",
   "name": "Tiberias",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "good vision; the navel",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tiberias, good vision; the navel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tiberias%2C%20good%20vision%3B%20the%20navel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

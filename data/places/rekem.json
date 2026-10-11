@@ -2,6 +2,18 @@
   "place_id": "rekem",
   "name": "Rekem",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "vain pictures; divers picture",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rekem, vain pictures; divers picture"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rekem%2C%20vain%20pictures%3B%20divers%20picture"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "assos",
   "name": "Assos",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "approaching; coming near",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Assos, approaching; coming near"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Assos%2C%20approaching%3B%20coming%20near"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

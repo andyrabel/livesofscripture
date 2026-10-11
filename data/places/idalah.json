@@ -2,6 +2,18 @@
   "place_id": "idalah",
   "name": "Idalah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the hand of slander, or of cursing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Idalah, the hand of slander, or of cursing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Idalah%2C%20the%20hand%20of%20slander%2C%20or%20of%20cursing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

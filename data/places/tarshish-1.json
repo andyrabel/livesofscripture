@@ -2,6 +2,18 @@
   "place_id": "tarshish-1",
   "name": "Tarshish",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "contemplation; examination",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tarshish, contemplation; examination"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tarshish%2C%20contemplation%3B%20examination"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

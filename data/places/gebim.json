@@ -2,6 +2,18 @@
   "place_id": "gebim",
   "name": "Gebim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "grasshoppers; height",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gebim, grasshoppers; height"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gebim%2C%20grasshoppers%3B%20height"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

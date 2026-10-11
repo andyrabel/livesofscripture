@@ -2,6 +2,18 @@
   "place_id": "bethuel",
   "name": "Bethuel",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "filiation of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bethuel, filiation of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bethuel%2C%20filiation%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

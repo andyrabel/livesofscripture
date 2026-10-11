@@ -2,6 +2,18 @@
   "place_id": "jabez",
   "name": "Jabez",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sorrow; trouble",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jabez, sorrow; trouble"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jabez%2C%20sorrow%3B%20trouble"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

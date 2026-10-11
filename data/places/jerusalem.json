@@ -7,6 +7,18 @@
     "City of David",
     "Jebus"
   ],
+  "name_meaning": {
+    "meaning": "vision of peace",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jerusalem, vision of peace"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jerusalem%2C%20vision%20of%20peace"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

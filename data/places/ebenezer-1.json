@@ -2,6 +2,18 @@
   "place_id": "ebenezer-1",
   "name": "Ebenezer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the stone of help",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Eben-ezer, the stone of help"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Eben-ezer%2C%20the%20stone%20of%20help"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

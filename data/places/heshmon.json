@@ -2,6 +2,18 @@
   "place_id": "heshmon",
   "name": "Heshmon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a hasty messenger",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Heshmon, a hasty messenger"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Heshmon%2C%20a%20hasty%20messenger"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

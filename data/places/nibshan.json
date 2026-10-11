@@ -2,6 +2,18 @@
   "place_id": "nibshan",
   "name": "Nibshan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "prophecy; growing of a tooth",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nibshan, prophecy; growing of a tooth"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nibshan%2C%20prophecy%3B%20growing%20of%20a%20tooth"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

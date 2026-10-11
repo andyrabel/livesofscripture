@@ -2,6 +2,18 @@
   "place_id": "ophir",
   "name": "Ophir",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fruitful region",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ophir, fruitful region"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ophir%2C%20fruitful%20region"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

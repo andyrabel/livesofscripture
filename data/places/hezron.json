@@ -2,6 +2,18 @@
   "place_id": "hezron",
   "name": "Hezron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the dart of joy; the division of the song",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hezron, the dart of joy; the division of the song"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hezron%2C%20the%20dart%20of%20joy%3B%20the%20division%20of%20the%20song"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

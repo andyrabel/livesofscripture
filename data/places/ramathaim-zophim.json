@@ -4,6 +4,18 @@
   "alt_names": [
     "Ramah"
   ],
+  "name_meaning": {
+    "meaning": "the two watch-towers",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ramathaim-zophim, the two watch-towers"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ramathaim-zophim%2C%20the%20two%20watch-towers"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

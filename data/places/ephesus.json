@@ -2,6 +2,18 @@
   "place_id": "ephesus",
   "name": "Ephesus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "desirable",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephesus, desirable"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephesus%2C%20desirable"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

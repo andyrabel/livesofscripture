@@ -2,6 +2,18 @@
   "place_id": "damascus",
   "name": "Damascus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a sack full of blood; the similitude of burning",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Damascus, a sack full of blood; the similitude of burning"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Damascus%2C%20a%20sack%20full%20of%20blood%3B%20the%20similitude%20of%20burning"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

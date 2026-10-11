@@ -2,6 +2,18 @@
   "place_id": "ibleam",
   "name": "Ibleam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "ancient people; people decreasing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ibleam, ancient people; people decreasing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ibleam%2C%20ancient%20people%3B%20people%20decreasing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "dor",
   "name": "Dor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "generation, habitation",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dor, generation, habitation"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dor%2C%20generation%2C%20habitation"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

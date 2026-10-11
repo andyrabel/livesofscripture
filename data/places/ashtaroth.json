@@ -5,6 +5,18 @@
     "Astaroth",
     "Ashterathite"
   ],
+  "name_meaning": {
+    "meaning": "flocks; sheep; riches",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ashtaroth, Ashtoreth, flocks; sheep; riches"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ashtaroth%2C%20Ashtoreth%2C%20flocks%3B%20sheep%3B%20riches"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

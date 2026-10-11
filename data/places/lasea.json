@@ -2,6 +2,18 @@
   "place_id": "lasea",
   "name": "Lasea",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "thick; wise",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lasea, thick; wise"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lasea%2C%20thick%3B%20wise"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

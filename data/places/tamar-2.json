@@ -2,6 +2,18 @@
   "place_id": "tamar-2",
   "name": "Tamar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "palm; palm-tree",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tamar, palm; palm-tree"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tamar%2C%20palm%3B%20palm-tree"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,19 @@
   "place_id": "wilderness-of-shur",
   "name": "Wilderness of Shur",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "wall; ox; that beholds",
+    "term": "Shur",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Shur, wall; ox; that beholds"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Shur%2C%20wall%3B%20ox%3B%20that%20beholds"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "wilderness",
   "region": "sinai-wilderness",

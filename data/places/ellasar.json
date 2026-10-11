@@ -2,6 +2,18 @@
   "place_id": "ellasar",
   "name": "Ellasar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "revolting from God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ellasar, revolting from God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ellasar%2C%20revolting%20from%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "city",
   "region": "mesopotamia",

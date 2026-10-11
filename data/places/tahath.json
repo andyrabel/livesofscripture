@@ -2,6 +2,18 @@
   "place_id": "tahath",
   "name": "Tahath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fear; going down",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tahath, fear; going down"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tahath%2C%20fear%3B%20going%20down"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

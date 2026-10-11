@@ -4,6 +4,22 @@
   "alt_names": [
     "Luz"
   ],
+  "name_meaning": {
+    "meaning": "the house of God",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Genesis 28:17-19"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-el, the house of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-el%2C%20the%20house%20of%20God"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

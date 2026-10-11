@@ -2,6 +2,18 @@
   "place_id": "baal-peor",
   "name": "Baal-peor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "master of the opening",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baal-peor, master of the opening"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baal-peor%2C%20master%20of%20the%20opening"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "moab-transjordan",

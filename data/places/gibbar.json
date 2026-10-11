@@ -2,6 +2,18 @@
   "place_id": "gibbar",
   "name": "Gibbar",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strong, manly",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gibbar, strong, manly"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gibbar%2C%20strong%2C%20manly"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

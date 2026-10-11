@@ -2,6 +2,18 @@
   "place_id": "migdal-el",
   "name": "Migdal-el",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "tower of God",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Migdalel, tower of God"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Migdalel%2C%20tower%20of%20God"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

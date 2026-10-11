@@ -2,6 +2,19 @@
   "place_id": "seneh",
   "name": "Seneh",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bramble; enemy",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Seneh, same as Senaah",
+          "Senaah, bramble; enemy"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Senaah%2C%20bramble%3B%20enemy"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

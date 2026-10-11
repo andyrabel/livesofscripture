@@ -4,6 +4,18 @@
   "alt_names": [
     "Gur"
   ],
+  "name_meaning": {
+    "meaning": "the governor's whelp",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gur-baal, the governor's whelp"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gur-baal%2C%20the%20governor%27s%20whelp"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "anim",
   "name": "Anim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "answerings; singings; afflicted",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Anim, answerings; singings; afflicted"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Anim%2C%20answerings%3B%20singings%3B%20afflicted"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

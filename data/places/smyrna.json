@@ -2,6 +2,18 @@
   "place_id": "smyrna",
   "name": "Smyrna",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "myrrh",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Smyrna, myrrh"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Smyrna%2C%20myrrh"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

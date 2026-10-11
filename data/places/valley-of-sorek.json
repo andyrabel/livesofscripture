@@ -2,6 +2,19 @@
   "place_id": "valley-of-sorek",
   "name": "Valley of Sorek",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "vine; hissing; a color inclining to yellow",
+    "term": "Sorek",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Sorek, vine; hissing; a color inclining to yellow"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Sorek%2C%20vine%3B%20hissing%3B%20a%20color%20inclining%20to%20yellow"
+      }
+    ]
+  },
   "tier": "full",
   "type": "valley",
   "region": "canaan-israel",

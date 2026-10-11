@@ -2,6 +2,18 @@
   "place_id": "ammon",
   "name": "Ammon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a people; the son of my people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ammon, a people; the son of my people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ammon%2C%20a%20people%3B%20the%20son%20of%20my%20people"
+      }
+    ]
+  },
   "tier": "full",
   "type": "nation",
   "region": "moab-transjordan",

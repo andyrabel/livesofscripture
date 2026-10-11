@@ -2,6 +2,19 @@
   "place_id": "mount-ephron",
   "name": "Mount Ephron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "dust",
+    "term": "Ephron",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephron, dust"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephron%2C%20dust"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

@@ -2,6 +2,22 @@
   "place_id": "hormah",
   "name": "Hormah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "devoted or consecrated to God; utter destruction",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Numbers 21:3"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hormah, devoted or consecrated to God; utter destruction"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hormah%2C%20devoted%20or%20consecrated%20to%20God%3B%20utter%20destruction"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

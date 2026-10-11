@@ -2,6 +2,18 @@
   "place_id": "hali",
   "name": "Hali",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sickness; a beginning; a precious stone",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hali, sickness; a beginning; a precious stone"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hali%2C%20sickness%3B%20a%20beginning%3B%20a%20precious%20stone"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

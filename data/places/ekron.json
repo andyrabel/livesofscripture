@@ -2,6 +2,18 @@
   "place_id": "ekron",
   "name": "Ekron",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "barrenness; torn away",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ekron, barrenness; torn away"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ekron%2C%20barrenness%3B%20torn%20away"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "hazar-shual",
   "name": "Hazar-shual",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a wolf's house",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazar-shual, a wolf's house"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazar-shual%2C%20a%20wolf%27s%20house"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

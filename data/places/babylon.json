@@ -5,6 +5,19 @@
     "Shinar",
     "Chaldea"
   ],
+  "name_meaning": {
+    "meaning": "confusion; mixture",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Babylon, same as Babel",
+          "Babel, confusion; mixture"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Babel%2C%20confusion%3B%20mixture"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "mesopotamia",

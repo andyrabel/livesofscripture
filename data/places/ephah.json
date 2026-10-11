@@ -2,6 +2,18 @@
   "place_id": "ephah",
   "name": "Ephah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "weary; tired",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephah, weary; tired"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephah%2C%20weary%3B%20tired"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "halhul",
   "name": "Halhul",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "grief; looking for grief",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Halhul, grief; looking for grief"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Halhul%2C%20grief%3B%20looking%20for%20grief"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

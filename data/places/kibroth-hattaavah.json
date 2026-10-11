@@ -2,6 +2,22 @@
   "place_id": "kibroth-hattaavah",
   "name": "Kibroth-hattaavah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the graves of lust",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Numbers 11:34"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kibroth-hattaavah, the graves of lust"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kibroth-hattaavah%2C%20the%20graves%20of%20lust"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "patmos",
   "name": "Patmos",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "mortal",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Patmos, mortal"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Patmos%2C%20mortal"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "asia-minor-greece",

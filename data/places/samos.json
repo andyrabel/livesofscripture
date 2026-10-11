@@ -2,6 +2,18 @@
   "place_id": "samos",
   "name": "Samos",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "full of gravel",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Samos, full of gravel"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Samos%2C%20full%20of%20gravel"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "island",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "joppa",
   "name": "Joppa",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "beauty; comeliness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Joppa, beauty; comeliness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Joppa%2C%20beauty%3B%20comeliness"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

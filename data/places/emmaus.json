@@ -2,6 +2,18 @@
   "place_id": "emmaus",
   "name": "Emmaus",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "people despised or obscure",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Emmaus, people despised or obscure"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Emmaus%2C%20people%20despised%20or%20obscure"
+      }
+    ]
+  },
   "tier": "full",
   "type": "village",
   "region": "canaan-israel",

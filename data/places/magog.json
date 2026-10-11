@@ -2,6 +2,18 @@
   "place_id": "magog",
   "name": "Magog",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "covering; roof; dissolving",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Magog, covering; roof; dissolving"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Magog%2C%20covering%3B%20roof%3B%20dissolving"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "nation",
   "region": "mesopotamia",

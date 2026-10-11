@@ -2,6 +2,18 @@
   "place_id": "elishah",
   "name": "Elishah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "it is God; the lamb of God: God that gives help",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Elishah, it is God; the lamb of God: God that gives help"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elishah%2C%20it%20is%20God%3B%20the%20lamb%20of%20God%3A%20God%20that%20gives%20help"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "dalmanutha",
   "name": "Dalmanutha",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a bucket; a branch",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dalmanutha, a bucket; a branch"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dalmanutha%2C%20a%20bucket%3B%20a%20branch"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

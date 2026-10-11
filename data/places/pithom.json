@@ -2,6 +2,18 @@
   "place_id": "pithom",
   "name": "Pithom",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "their mouthful; a dilatation of the mouth",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Pithom, their mouthful; a dilatation of the mouth"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Pithom%2C%20their%20mouthful%3B%20a%20dilatation%20of%20the%20mouth"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

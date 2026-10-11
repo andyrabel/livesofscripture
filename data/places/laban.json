@@ -2,6 +2,18 @@
   "place_id": "laban",
   "name": "Laban",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "white; shining; gentle; brittle",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Laban, white; shining; gentle; brittle"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Laban%2C%20white%3B%20shining%3B%20gentle%3B%20brittle"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

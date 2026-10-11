@@ -2,6 +2,18 @@
   "place_id": "adadah",
   "name": "Adadah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "testimony of the assembly",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Adadah, testimony of the assembly"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adadah%2C%20testimony%20of%20the%20assembly"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

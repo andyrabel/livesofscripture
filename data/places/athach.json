@@ -4,6 +4,18 @@
   "alt_names": [
     "Athak"
   ],
+  "name_meaning": {
+    "meaning": "thy time",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Athach, thy time"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Athach%2C%20thy%20time"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

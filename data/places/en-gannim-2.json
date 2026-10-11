@@ -2,6 +2,18 @@
   "place_id": "en-gannim-2",
   "name": "En-gannim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "eye, or fountain, of protection or of gardens",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "En-gannim, eye, or fountain, of protection or of gardens"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=En-gannim%2C%20eye%2C%20or%20fountain%2C%20of%20protection%20or%20of%20gardens"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

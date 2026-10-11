@@ -2,6 +2,18 @@
   "place_id": "bene-berak",
   "name": "Bene-berak",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "sons of lightning",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beneberak, sons of lightning"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beneberak%2C%20sons%20of%20lightning"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

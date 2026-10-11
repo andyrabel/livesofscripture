@@ -2,6 +2,18 @@
   "place_id": "resen",
   "name": "Resen",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a bridle or bit",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Resen, a bridle or bit"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Resen%2C%20a%20bridle%20or%20bit"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

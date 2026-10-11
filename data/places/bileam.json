@@ -2,6 +2,18 @@
   "place_id": "bileam",
   "name": "Bileam",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the ancient of the people; the devourer",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bileam, the ancient of the people; the devourer"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bileam%2C%20the%20ancient%20of%20the%20people%3B%20the%20devourer"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

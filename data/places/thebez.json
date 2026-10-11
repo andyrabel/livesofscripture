@@ -2,6 +2,18 @@
   "place_id": "thebez",
   "name": "Thebez",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "muddy; eggs; fine linen or silk",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Thebez, muddy; eggs; fine linen or silk"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Thebez%2C%20muddy%3B%20eggs%3B%20fine%20linen%20or%20silk"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

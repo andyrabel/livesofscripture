@@ -2,6 +2,18 @@
   "place_id": "koa",
   "name": "Koa",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "hope; a congregation; a line; a rule",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Koa, hope; a congregation; a line; a rule"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Koa%2C%20hope%3B%20a%20congregation%3B%20a%20line%3B%20a%20rule"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

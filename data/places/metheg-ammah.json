@@ -2,6 +2,18 @@
   "place_id": "metheg-ammah",
   "name": "Metheg-ammah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bridle of bondage",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Metheg-ammah, bridle of bondage"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Metheg-ammah%2C%20bridle%20of%20bondage"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

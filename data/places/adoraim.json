@@ -2,6 +2,18 @@
   "place_id": "adoraim",
   "name": "Adoraim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strength of the sea",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Adoraim, strength of the sea"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adoraim%2C%20strength%20of%20the%20sea"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "adithaim",
   "name": "Adithaim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "assemblies; testimonies",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Adithaim, assemblies; testimonies"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Adithaim%2C%20assemblies%3B%20testimonies"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

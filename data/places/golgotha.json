@@ -7,6 +7,22 @@
     "Place of a Skull",
     "Place of the Skull"
   ],
+  "name_meaning": {
+    "meaning": "a heap of skulls; something skull-shaped",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Matthew 27:33"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Golgotha, a heap of skulls; something skull-shaped"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Golgotha%2C%20a%20heap%20of%20skulls%3B%20something%20skull-shaped"
+      }
+    ]
+  },
   "tier": "full",
   "type": "site",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "beth-peor",
   "name": "Beth-peor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of gaping, or opening",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-peor, house of gaping, or opening"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-peor%2C%20house%20of%20gaping%2C%20or%20opening"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

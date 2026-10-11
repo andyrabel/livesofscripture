@@ -2,6 +2,18 @@
   "place_id": "ephraim",
   "name": "Ephraim",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fruitful; increasing",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ephraim, fruitful; increasing"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ephraim%2C%20fruitful%3B%20increasing"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

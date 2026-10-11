@@ -2,6 +2,18 @@
   "place_id": "rakkon",
   "name": "Rakkon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "vain; void; mountain of enjoyment",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rakkon, vain; void; mountain of enjoyment"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rakkon%2C%20vain%3B%20void%3B%20mountain%20of%20enjoyment"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "river",
   "region": "undetermined",

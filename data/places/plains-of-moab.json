@@ -2,6 +2,19 @@
   "place_id": "plains-of-moab",
   "name": "Plains of Moab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "of his father",
+    "term": "Moab",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Moab, of his father"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Moab%2C%20of%20his%20father"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "moab-transjordan",

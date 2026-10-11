@@ -2,6 +2,18 @@
   "place_id": "kedemoth",
   "name": "Kedemoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "antiquity; old age",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Kedemoth, antiquity; old age"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Kedemoth%2C%20antiquity%3B%20old%20age"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

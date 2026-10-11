@@ -2,6 +2,19 @@
   "place_id": "mount-baalah",
   "name": "Mount Baalah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "her idol; she that is governed or subdued; a spouse",
+    "term": "Baalah",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baalah, her idol; she that is governed or subdued; a spouse"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baalah%2C%20her%20idol%3B%20she%20that%20is%20governed%20or%20subdued%3B%20a%20spouse"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "mountain",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "rakkath",
   "name": "Rakkath",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "empty; temple of the head",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Rakkath, empty; temple of the head"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Rakkath%2C%20empty%3B%20temple%20of%20the%20head"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

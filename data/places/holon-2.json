@@ -2,6 +2,18 @@
   "place_id": "holon-2",
   "name": "Holon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a window; grief",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Holon, a window; grief"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Holon%2C%20a%20window%3B%20grief"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

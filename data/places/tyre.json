@@ -2,6 +2,18 @@
   "place_id": "tyre",
   "name": "Tyre",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "strength; rock; sharp",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Tyre, Tyrus, strength; rock; sharp"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Tyre%2C%20Tyrus%2C%20strength%3B%20rock%3B%20sharp"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "asia-minor-greece",

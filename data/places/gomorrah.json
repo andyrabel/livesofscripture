@@ -2,6 +2,18 @@
   "place_id": "gomorrah",
   "name": "Gomorrah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "rebellious people",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Gomorrah, rebellious people"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Gomorrah%2C%20rebellious%20people"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

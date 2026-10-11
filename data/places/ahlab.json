@@ -2,6 +2,18 @@
   "place_id": "ahlab",
   "name": "Ahlab",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "made of milk, or of fat; brother of the heart",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ahlab, made of milk, or of fat; brother of the heart"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ahlab%2C%20made%20of%20milk%2C%20or%20of%20fat%3B%20brother%20of%20the%20heart"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

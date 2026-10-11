@@ -2,6 +2,18 @@
   "place_id": "hannathon",
   "name": "Hannathon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the gift of grace",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hannathon, the gift of grace"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hannathon%2C%20the%20gift%20of%20grace"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

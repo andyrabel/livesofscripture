@@ -1921,6 +1921,32 @@ def build_map_explorer_page(places_index):
 """
 
 
+def place_name_meaning_html(place):
+    """'Name means "house of bread"', then the Hitchcock entry it is quoted
+    from (word for word, cross-reference lines included) and any verse
+    where Scripture explains the name. Data from generate_places.py, via
+    _build/backfill_place_name_meaning.py."""
+    nm = place.get("name_meaning")
+    if not nm or not nm.get("meaning"):
+        return ""
+    label = f"&ldquo;{esc(nm['term'])}&rdquo; means" if nm.get("term") else "Name means"
+    source_bits = []
+    for src in nm.get("sources", []):
+        if src.get("type") == "scripture":
+            source_bits.append(f"Explained in {esc(src['reference'])}")
+        elif src.get("type") == "hitchcock":
+            quoted = " &hellip; ".join(f"&ldquo;{esc(line)}&rdquo;" for line in src["entries"])
+            source_bits.append(
+                f'<a href="{esc(src["url"])}" rel="noopener" target="_blank">'
+                f"Hitchcock&rsquo;s Bible Names Dictionary</a>: {quoted}"
+            )
+    sources_html = (
+        f'<span class="name-meaning__sources">{" &middot; ".join(source_bits)}</span>'
+        if source_bits else ""
+    )
+    return f'<div class="name-meaning">{label} &ldquo;{esc(nm["meaning"])}&rdquo;{sources_html}</div>'
+
+
 def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, placed_places=None, place_link_ctx=None):
     base = "../"
     place_id = place["place_id"]
@@ -1931,6 +1957,8 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
     alt_html = ""
     if place.get("alt_names"):
         alt_html = f'<div class="alt-names">Also called: {esc(", ".join(place["alt_names"]))}</div>'
+
+    name_meaning_html = place_name_meaning_html(place)
 
     modern_html = ""
     if place.get("modern_name"):
@@ -2030,6 +2058,7 @@ def build_place_detail_page(place, gender_by_id, places_by_name, link_ctx=None, 
   <div class="person-title">
     <h2>{esc(place["name"])}</h2>
     {alt_html}
+    {name_meaning_html}
     {modern_html}
     {first_ref}
     {tags}

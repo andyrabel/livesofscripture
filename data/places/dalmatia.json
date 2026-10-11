@@ -2,6 +2,18 @@
   "place_id": "dalmatia",
   "name": "Dalmatia",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "deceitful lamps; vain brightness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dalmatia, deceitful lamps; vain brightness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dalmatia%2C%20deceitful%20lamps%3B%20vain%20brightness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

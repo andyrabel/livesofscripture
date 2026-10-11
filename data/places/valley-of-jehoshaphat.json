@@ -2,6 +2,19 @@
   "place_id": "valley-of-jehoshaphat",
   "name": "Valley of Jehoshaphat",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the Lord is judge",
+    "term": "Jehoshaphat",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jehoshaphat, the Lord is judge"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jehoshaphat%2C%20the%20Lord%20is%20judge"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

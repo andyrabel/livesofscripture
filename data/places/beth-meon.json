@@ -2,6 +2,18 @@
   "place_id": "beth-meon",
   "name": "Beth-meon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "house of the dwelling-place",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Beth-meon, house of the dwelling-place"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Beth-meon%2C%20house%20of%20the%20dwelling-place"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

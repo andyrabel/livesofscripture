@@ -5,6 +5,19 @@
     "Valley of Baka",
     "Valley of Weeping"
   ],
+  "name_meaning": {
+    "meaning": "a mulberry-tree",
+    "term": "Baca",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Baca, a mulberry-tree"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Baca%2C%20a%20mulberry-tree"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "valley",
   "region": "undetermined",

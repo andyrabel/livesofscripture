@@ -2,6 +2,18 @@
   "place_id": "jazer",
   "name": "Jazer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "assistance; helper",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jazer, assistance; helper"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jazer%2C%20assistance%3B%20helper"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "moab-transjordan",

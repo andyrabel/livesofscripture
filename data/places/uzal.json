@@ -4,6 +4,18 @@
   "alt_names": [
     "Izal"
   ],
+  "name_meaning": {
+    "meaning": "wandering",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Uzal, wandering"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Uzal%2C%20wandering"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

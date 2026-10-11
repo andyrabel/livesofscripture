@@ -2,6 +2,18 @@
   "place_id": "bozrah-2",
   "name": "Bozrah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "in tribulation or distress",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bozrah, in tribulation or distress"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bozrah%2C%20in%20tribulation%20or%20distress"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

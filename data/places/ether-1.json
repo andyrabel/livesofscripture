@@ -2,6 +2,18 @@
   "place_id": "ether-1",
   "name": "Ether",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "talk",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ether, talk"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ether%2C%20talk"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

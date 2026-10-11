@@ -2,6 +2,19 @@
   "place_id": "valley-of-elah",
   "name": "Valley of Elah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "an oak; a curse; perjury",
+    "term": "Elah",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Elah, an oak; a curse; perjury"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Elah%2C%20an%20oak%3B%20a%20curse%3B%20perjury"
+      }
+    ]
+  },
   "tier": "full",
   "type": "valley",
   "region": "canaan-israel",

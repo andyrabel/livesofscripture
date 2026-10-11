@@ -2,6 +2,18 @@
   "place_id": "jagur",
   "name": "Jagur",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "husbandman; stranger",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Jagur, husbandman; stranger"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Jagur%2C%20husbandman%3B%20stranger"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

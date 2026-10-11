@@ -2,6 +2,18 @@
   "place_id": "nophah",
   "name": "Nophah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fearful; binding",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Nophah, fearful; binding"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Nophah%2C%20fearful%3B%20binding"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

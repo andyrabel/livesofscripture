@@ -2,6 +2,18 @@
   "place_id": "mozah",
   "name": "Mozah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "unleavened",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Mozah, unleavened"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Mozah%2C%20unleavened"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

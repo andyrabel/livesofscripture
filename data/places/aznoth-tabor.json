@@ -2,6 +2,18 @@
   "place_id": "aznoth-tabor",
   "name": "Aznoth-tabor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "the ears of Tabor; the ears of purity or contrition",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Aznoth-tabor, the ears of Tabor; the ears of purity or contrition"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Aznoth-tabor%2C%20the%20ears%20of%20Tabor%3B%20the%20ears%20of%20purity%20or%20contrition"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

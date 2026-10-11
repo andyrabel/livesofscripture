@@ -2,6 +2,22 @@
   "place_id": "taberah",
   "name": "Taberah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "burning",
+    "sources": [
+      {
+        "type": "scripture",
+        "reference": "Numbers 11:3"
+      },
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Taberah, burning"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Taberah%2C%20burning"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "site",
   "region": "undetermined",

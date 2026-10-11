@@ -2,6 +2,18 @@
   "place_id": "malta",
   "name": "Malta",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "affording honey",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Melita, affording honey"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Melita%2C%20affording%20honey"
+      }
+    ]
+  },
   "tier": "full",
   "type": "region",
   "region": "italy",

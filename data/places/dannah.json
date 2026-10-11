@@ -2,6 +2,18 @@
   "place_id": "dannah",
   "name": "Dannah",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "judging",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dannah, judging"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dannah%2C%20judging"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "anathoth",
   "name": "Anathoth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "answer; song; poverty",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Anathoth, or Anath, answer; song; poverty"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Anathoth%2C%20or%20Anath%2C%20answer%3B%20song%3B%20poverty"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "hazor",
   "name": "Hazor",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "court; hay",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hazor, court; hay"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hazor%2C%20court%3B%20hay"
+      }
+    ]
+  },
   "tier": "full",
   "type": "city",
   "region": "canaan-israel",

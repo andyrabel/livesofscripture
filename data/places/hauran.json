@@ -2,6 +2,18 @@
   "place_id": "hauran",
   "name": "Hauran",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a hole; liberty; whiteness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hauran, a hole; liberty; whiteness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hauran%2C%20a%20hole%3B%20liberty%3B%20whiteness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "region",
   "region": "undetermined",

@@ -2,6 +2,18 @@
   "place_id": "hadad-rimmon",
   "name": "Hadad-rimmon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "invocation to the god Rimmon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Hadadrimmon, invocation to the god Rimmon"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Hadadrimmon%2C%20invocation%20to%20the%20god%20Rimmon"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

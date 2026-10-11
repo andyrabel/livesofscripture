@@ -2,6 +2,18 @@
   "place_id": "punon",
   "name": "Punon",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "precious stone; that beholds",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Punon, precious stone; that beholds"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Punon%2C%20precious%20stone%3B%20that%20beholds"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

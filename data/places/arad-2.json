@@ -2,6 +2,18 @@
   "place_id": "arad-2",
   "name": "Arad",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a wild ass; a dragon",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Arad, a wild ass; a dragon"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Arad%2C%20a%20wild%20ass%3B%20a%20dragon"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

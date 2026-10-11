@@ -2,6 +2,18 @@
   "place_id": "dan",
   "name": "Dan",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "judgment; he that judges",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Dan, judgment; he that judges"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Dan%2C%20judgment%3B%20he%20that%20judges"
+      }
+    ]
+  },
   "tier": "full",
   "type": "town",
   "region": "canaan-israel",

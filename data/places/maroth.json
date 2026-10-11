@@ -2,6 +2,18 @@
   "place_id": "maroth",
   "name": "Maroth",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "bitterness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Maroth, bitterness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Maroth%2C%20bitterness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

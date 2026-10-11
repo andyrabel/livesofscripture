@@ -2,6 +2,18 @@
   "place_id": "millo",
   "name": "Millo",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "fullness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Millo, fullness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Millo%2C%20fullness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

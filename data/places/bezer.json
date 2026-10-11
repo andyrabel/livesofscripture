@@ -2,6 +2,18 @@
   "place_id": "bezer",
   "name": "Bezer",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "vine branches",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Bezer, vine branches"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Bezer%2C%20vine%20branches"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",

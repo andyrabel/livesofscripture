@@ -2,6 +2,18 @@
   "place_id": "lydda",
   "name": "Lydda",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "a standing pool",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Lydda, Lydia, a standing pool"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Lydda%2C%20Lydia%2C%20a%20standing%20pool"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -2,6 +2,18 @@
   "place_id": "ziklag",
   "name": "Ziklag",
   "alt_names": [],
+  "name_meaning": {
+    "meaning": "measure pressed down",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Ziklag, measure pressed down"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Ziklag%2C%20measure%20pressed%20down"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "canaan-israel",

@@ -4,6 +4,18 @@
   "alt_names": [
     "Kesulloth"
   ],
+  "name_meaning": {
+    "meaning": "fearfulness",
+    "sources": [
+      {
+        "type": "hitchcock",
+        "entries": [
+          "Chesulloth, fearfulness"
+        ],
+        "url": "https://ccel.org/ccel/hitchcock/bible_names/bible_names.html#:~:text=Chesulloth%2C%20fearfulness"
+      }
+    ]
+  },
   "tier": "stub",
   "type": "town",
   "region": "undetermined",
